@@ -2647,6 +2647,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.2s ease-out;
 				transition: transform 0.2s ease-out;
 				width: 100%;
+			  padding: 1em 1em 0em 1em;
 			}
 
 			.mini-post .image:hover img {
