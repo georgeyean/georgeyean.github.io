@@ -82,14 +82,19 @@
 
 	// Intro.
 		var $intro = $('#intro');
+		var $blurb = $('.blurb')
 
 		// Move to main on <=large, back to sidebar on >large.
 			breakpoints.on('<=large', function() {
+			  $blurb.prependTo($main);
 				$intro.prependTo($main);
+
 			});
 
 			breakpoints.on('>large', function() {
+			  $blurb.prependTo($sidebar);
 				$intro.prependTo($sidebar);
+		
 			});
 
 })(jQuery);
