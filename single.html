@@ -25,19 +25,15 @@
     
         // Replace the content based on 'article' value
         if (articleId) {
-          $(".post").html("<iframe src='https://docs.google.com/document/d/e/"+articleId+"/pub?embedded=true'></iframe>");
+          $(".post").html("<iframe class='iframe' src='https://docs.google.com/document/d/e/"+articleId+"/pub?embedded=false'></iframe>");
           
            
            
-           $('iframe').on('load', function() {
-                
-                $(this).css({
-                   "width": "100% !important",
-                   "height": "100% !important"
-                });
+           $('.iframe').on('load', function() {
       
-               $(this).find(".c6").css({
-               "max-width": "100%"
+               $(this).find(".doc-content").css({
+                  "max-width": "100%",
+                  "padding": "1em"
                  });
     
             });
