@@ -2729,6 +2729,15 @@ input, select, textarea {
 				}
 
 		}
+		
+iframe{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.c6{
+  max-width: 100% !important;
+}
 
 /* Post */
 
