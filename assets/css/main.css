@@ -2747,7 +2747,6 @@ input, select, textarea {
 		border: solid 1px rgba(160, 160, 160, 0.3);
 		margin: 0 0 3em 0;
 		position: relative;
-		height:800px;
 	}
 
 		.post > header {
