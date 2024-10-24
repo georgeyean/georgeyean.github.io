@@ -3470,7 +3470,11 @@ input, select, textarea {
 			}
 
 			#intro header p {
-				font-size: 0.7em;
+				font-size: 0.8em;
+			}
+			
+			#intro .blurb p{
+			  font-size: 0.9em;
 			}
 
 	}
