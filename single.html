@@ -30,8 +30,11 @@
            
            
            $('iframe').on('load', function() {
-             
-                var iframe = $('iframe').eq(0);
+                
+                $(this).css({
+                   "width": "100% !important",
+                   "height": "100% !important"
+                });
       
                $(this).find(".c6").css({
                "max-width": "100%"
