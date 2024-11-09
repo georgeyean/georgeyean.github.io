@@ -15,6 +15,10 @@
        $(function(){
           $("#header").load("header.html?"); 
         });
+        
+        $(document).on("click", "#menu-toggle", function () {
+            $("#menu").toggleClass("open");  // Adjust the menu selector as needed
+        });
     </script>
 
 	</head>
