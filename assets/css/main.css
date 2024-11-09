@@ -3358,6 +3358,13 @@ input, select, textarea {
 			#wrapper {
 				display: block;
 			}
+			
+			#menu {
+          display: none; 
+      }
+      #menu.open {
+          display: block; 
+      }
 
 		}
 
