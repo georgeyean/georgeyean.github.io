@@ -6,27 +6,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<script type="text/javascript" id="MathJax-script" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-    </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-       $(function(){
-          $("#header").load("header.html?"); 
-        });
-        
-        $(document).on("click", ".main", function () {
-            $("#menu").toggleClass("open");  // Adjust the menu selector as needed
-        });
-    </script>
 
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-        <div id="header"></div>
+
 				<!-- Main -->
 					<div id="main">
             <h2>Research</h2>
@@ -555,10 +541,45 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 			
+			<script>
+         $(function(){
+            $.get("https://georgeyean.github.io/header.html?", function(data) {
+              $("#wrapper").prepend(data); 
+              
+              // $.getScript("https://georgeyean.github.io/assets/js/util.js");
+              // $.getScript("https://georgeyean.github.io/assets/js/main.js");
+
+              
+              // Option #1
+              //$('head').append('<script src="https://georgeyean.github.io/assets/js/util.js"><\/script>');
+              //$('head').append('<script src="https://georgeyean.github.io/assets/js/main.js"><\/script>');
+
+              // Option #2
+              var utilScript = document.createElement("script");
+              utilScript.type = "text/javascript";
+              utilScript.src = "https://georgeyean.github.io/assets/js/util.js";
+               $("body").append(utilScript);
+              
+              var mainScript = document.createElement("script");
+               mainScript.type = "text/javascript";
+              mainScript.src = "https://georgeyean.github.io/assets/js/main.js";
+              $("body").append(mainScript);         
+            });
+          });
+          
+         // $(document).on("click", ".main", function () {
+         //     $("body").toggleClass("is-menu-visible");  // Adjust the menu selector as needed
+         // });
+      </script> 
 			
+			<!--<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>-->
+			
+			<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
+      <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+			<!--<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script> -->
+      
 
 	</body>
 </html>
