@@ -221,7 +221,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
 	h4 {
@@ -2772,7 +2772,7 @@ input, select, textarea {
 
 				.post > header .title h2 {
 					font-weight: 900;
-					font-size: 1.5em;
+					font-size: 1.3em;
 				}
 				.post > header .title h1 {
 					font-weight: 900;
@@ -2982,7 +2982,7 @@ input, select, textarea {
 				}
 
 					.post > header .title h2 {
-						font-size: 1.5em;
+						font-size: 1.3em;
 					}
 
 		}
