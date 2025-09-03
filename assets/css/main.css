@@ -221,7 +221,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1.2em;
 	}
 
 	h4 {
@@ -2772,7 +2772,7 @@ input, select, textarea {
 
 				.post > header .title h2 {
 					font-weight: 900;
-					font-size: 1.2em;
+					font-size: 1.5em;
 				}
 				.post > header .title h1 {
 					font-weight: 900;
@@ -2781,6 +2781,7 @@ input, select, textarea {
 
 				.post > header .title > :last-child {
 					margin-bottom: 0;
+					margin-top: 0.5em;
 				}
 
 			.post > header .meta {
@@ -2981,7 +2982,7 @@ input, select, textarea {
 				}
 
 					.post > header .title h2 {
-						font-size: 1.1em;
+						font-size: 1.5em;
 					}
 
 		}
