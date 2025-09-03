@@ -208,7 +208,7 @@ input, select, textarea {
 		font-weight: 800;
 		letter-spacing: 0.01em;
 		line-height: 1.65;
-		margin: 0 0 1em 0;
+		margin: 0 0 .1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2772,7 +2772,11 @@ input, select, textarea {
 
 				.post > header .title h2 {
 					font-weight: 900;
-					font-size: 1.5em;
+					font-size: 1.2em;
+				}
+				.post > header .title h1 {
+					font-weight: 900;
+					font-size: 2em;
 				}
 
 				.post > header .title > :last-child {
