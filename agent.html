@@ -16,6 +16,52 @@
           $("#header").load("header.html?"); 
         });
     </script>
+    <style>
+    .subscribe-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    
+    .subscribe-row p {
+      margin: 0;
+      flex: 1;
+    }
+    
+    /* controls inline on desktop */
+    .subscribe-controls {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .subscribe-row input {
+        width: 200px;
+      }
+          
+    /* MOBILE MODE */
+    @media (max-width: 640px) {
+      .subscribe-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    
+      .subscribe-controls {
+        width: 100%;
+      }
+    
+      .subscribe-controls input,
+      .subscribe-controls button {
+        width: 100%;
+      }
+      
+      .subscribe-row input {
+        width: 100%;
+      }
+    }
+    </style>
+
+
 	</head>
 	<body class="single is-preload">
 
@@ -32,8 +78,25 @@
 										<h2>AI Agent</h2>
 									</div>
 								</header>
-								<p><b>China Daily Brief:</b> Daily news brief on China-related politial, economic and geopolitical news.</p>
-								<p><b>Academic Brief:</b> Latest brief on papers on top journals - APSR, AJPS, JOP, IO, IS</p>
+								<div class="subscribe-row">
+                  <p>
+                    <b>China Daily Brief:</b>
+                    Daily news brief on China-related political, economic and geopolitical news.
+                  </p>
+                  <input type="email" placeholder="Email" />
+                  <button onclick="subscribe(this, 'china-daily')">Subscribe</button>
+                  <span class="status"></span>
+                </div>
+                
+                <div class="subscribe-row">
+                  <p>
+                    <b>Academic Brief:</b>
+                    Latest brief on papers in top journals – APSR, AJPS, JOP, IO, IS
+                  </p>
+                  <input type="email" placeholder="Email" />
+                  <button onclick="subscribe(this, 'academic')">Subscribe</button>
+                  <span class="status"></span>
+                </div>
 								
 								
 							</article>
@@ -88,7 +151,62 @@
          //     $("body").toggleClass("is-menu-visible");  // Adjust the menu selector as needed
          // });
       </script> 
-			
+			<script>
+        async function subscribe(button, listType) {
+          const row = button.closest(".subscribe-row");
+          const input = row.querySelector("input");
+        
+          const email = input.value.trim();
+        
+          if (!email) {
+            showInputMessage(input, "Enter email address", "error");
+            return;
+          }
+
+          if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            showInputMessage(input, "Invalid email format", "error");
+            return;
+          }
+
+          showInputMessage(input, "Submitting...", "info");
+        
+          try {
+            const response = await fetch("https://agapionline.us/subscribe", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ email, list: listType })
+            });
+        
+            const result = await response.json();
+        
+            if (response.ok && result.success) {
+              showInputMessage(input, "✓ Subscribed", "success", true);
+              button.disabled = true;
+            } else {
+              showInputMessage(input, "Subscription failed", "error");
+            }
+          } catch {
+            showInputMessage(input, "Network err, try later", "error");
+          }
+        }
+        
+        function showInputMessage(input, message, type, lock = false) {
+          input.value = message;
+          input.readOnly = lock;
+        
+          input.classList.remove("success", "error", "info");
+          input.classList.add(type);
+        
+          if (!lock) {
+            setTimeout(() => {
+              input.value = "";
+              input.classList.remove(type);
+            }, 2500);
+          }
+        }
+        </script>
+
+
 
 	</body>
 </html>
