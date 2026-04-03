@@ -81,7 +81,7 @@
 								<div class="subscribe-row">
                   <p>
                     <b>China Daily Brief:</b>
-                    Daily news brief on China-related political, economic and geopolitical news.
+                    Daily news (7AM EST) brief on China-related political, economic and geopolitical news.
                   </p>
                   <input type="email" placeholder="Email" />
                   <button onclick="subscribe(this, 'china-daily')">Subscribe</button>
@@ -91,7 +91,7 @@
                 <div class="subscribe-row">
                   <p>
                     <b>Academic Brief:</b>
-                    Latest brief on papers in top journals – APSR, AJPS, JOP, IO, IS
+                    Latest (every Monday) brief on papers in top journals – APSR, AJPS, JOP, IO, IS
                   </p>
                   <input type="email" placeholder="Email" />
                   <button onclick="subscribe(this, 'academic')">Subscribe</button>
@@ -183,7 +183,7 @@
               showInputMessage(input, "✓ Subscribed", "success", true);
               button.disabled = true;
             } else {
-              showInputMessage(input, "Subscription failed", "error");
+              showInputMessage(input, result.error || "Subscription failed", "error");
             }
           } catch {
             showInputMessage(input, "Network err, try later", "error");
