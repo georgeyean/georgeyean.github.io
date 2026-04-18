@@ -57,23 +57,9 @@
     letter-spacing: 0.18em;
 }
 
-/* ── 4. Mobile: sidebar shows above main content ────────────── */
+/* ── 4. Mobile: profile image when centered ─────────────────── */
 
 @media screen and (max-width: 1280px) {
-    /* Stack sidebar above articles on tablets/phones */
-    body:not(.single) #wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #sidebar {
-        order: -1;
-        border-top: 0;
-        margin: 0 0 2.5em 0;
-        padding: 0;
-    }
-
-    /* Larger profile image when centered on mobile */
     #intro .logo {
         width: 7em;
         margin: 0 auto 1em auto;
