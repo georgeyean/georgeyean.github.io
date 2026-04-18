@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Teaching - George</title>
+		<title>Agent - George</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -75,7 +75,7 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2>AI Agent [continously evolving]</h2>
+										<h2>AI Agent [evolving...]</h2>
 									</div>
 								</header>
 								<div class="subscribe-row">
@@ -95,6 +95,16 @@
                   </p>
                   <input type="email" placeholder="Email" />
                   <button onclick="subscribe(this, 'academic')">Subscribe</button>
+                  <span class="status"></span>
+                </div>
+
+                <div class="subscribe-row">
+                  <p>
+                    <b>Market Brief:</b>
+                    Daily market key information collection and same-day + week-ahead prediction.
+                  </p>
+                  <input type="email" placeholder="Email" />
+                  <button onclick="subscribe(this, 'market-brief')">Subscribe</button>
                   <span class="status"></span>
                 </div>
 								
@@ -180,7 +190,9 @@
             const result = await response.json();
         
             if (response.ok && result.success) {
-              showInputMessage(input, "✓ Subscribed", "success", true);
+              input.value = "✓ Subscribed";
+              input.disabled = true;
+              input.classList.add("success");
               button.disabled = true;
             } else {
               showInputMessage(input, result.error || "Subscription failed", "error");
