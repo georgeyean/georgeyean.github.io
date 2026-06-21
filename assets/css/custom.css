@@ -20,14 +20,14 @@
 /* ── 2. Profile image — circular ────────────────────────────── */
 
 #intro .logo {
-    width: 5.5em;
+    width: 12.5em;
     border-radius: 50%;
     overflow: hidden;
 }
 
 #intro .logo img {
     border-radius: 50%;
-    width: 5.5em;
+    width: 12.5em;
     margin-left: 0;
     display: block;
 }
