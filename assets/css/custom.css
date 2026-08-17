@@ -43,6 +43,21 @@
 .post {
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
     border-radius: 2px;
+    padding: 2em 2em 0.75em 2em;
+    margin: 0 0 2em 0;
+}
+
+.post > header {
+    left: -2em;
+    margin: -2em 0 1.25em 0;
+    width: calc(100% + 4em);
+}
+
+.post > header .title {
+    padding: 0.75em 1.5em;
+    /* Theme centers this block under ~980px; keep it left-aligned so the
+       title, subtitle, teaser, and Paper/Abstract buttons all share one edge */
+    text-align: left;
 }
 
 /* Subtitle (h3) in article headers: lighter weight for hierarchy */
@@ -50,6 +65,15 @@
     font-weight: 400;
     color: #555;
     letter-spacing: 0.01em;
+    margin-top: 0.3em;
+}
+
+/* Teaser paragraph: restore the gap the theme only grants to :last-child,
+   since .paper-actions now takes that slot — kept tight so the buttons
+   sit close to the text above */
+.post > header .title p {
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
 }
 
 /* "Draft PDF" / "Working Paper" buttons: tighter spacing */
@@ -57,39 +81,111 @@
     letter-spacing: 0.18em;
 }
 
-/* Paper-link icon: sits beside the article title instead of a footer button */
-.post > header .title h2 {
+/* Paper / Abstract actions: left-aligned row below the article title,
+   kept close to the teaser paragraph above */
+.post > header .title .paper-actions {
     display: flex;
-    align-items: center;
-    gap: 0.85em;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0;
 }
 
-.post > header .title h2 .paper-link {
+.post > header .title .btn-paper,
+.post > header .title .abstract-toggle summary {
     display: inline-flex;
     align-items: center;
     gap: 0.4em;
-    padding: 0.45em 0.9em;
+    padding: 0.35em 0.75em;
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 3px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-    font-size: 0.42em;
+    font-size: 0.64em;
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #6b7b8c;
     background: rgba(0, 0, 0, 0.03);
     white-space: nowrap;
+    cursor: pointer;
     transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
 
-.post > header .title h2 .paper-link i {
-    font-size: 0.95em;
+.post > header .title .btn-paper i,
+.post > header .title .abstract-toggle summary i {
+    font-size: 0.9em;
 }
 
-.post > header .title h2 .paper-link:hover {
+.post > header .title .btn-paper:hover,
+.post > header .title .abstract-toggle summary:hover {
     color: #fff;
     background: #6b7b8c;
     border-color: #6b7b8c;
+}
+
+/* Abstract disclosure widget */
+.post > header .title .abstract-toggle {
+    display: inline-flex;
+    align-items: center;
+}
+
+.post > header .title .abstract-toggle summary {
+    list-style: none;
+}
+
+.post > header .title .abstract-toggle summary::-webkit-details-marker {
+    display: none;
+}
+
+.post > header .title .abstract-toggle summary::marker {
+    content: "";
+}
+
+.post > header .title .abstract-toggle summary .chevron {
+    font-size: 0.65em;
+    margin-left: 0.1em;
+    transition: transform 0.2s ease;
+}
+
+.post > header .title .abstract-toggle[open] summary {
+    color: #fff;
+    background: #6b7b8c;
+    border-color: #6b7b8c;
+}
+
+.post > header .title .abstract-toggle[open] summary .chevron {
+    transform: rotate(180deg);
+}
+
+.post > header .title .abstract-body {
+    margin-top: 0.6em;
+    padding: 0.85em 1.1em;
+    background: rgba(0, 0, 0, 0.025);
+    border-left: 3px solid #6b7b8c;
+    border-radius: 2px;
+    font-size: 0.9em;
+    line-height: 1.65;
+    color: #444;
+}
+
+.post > header .title .abstract-body p {
+    margin: 0;
+}
+
+@keyframes abstractReveal {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.post > header .title .abstract-toggle[open] .abstract-body {
+    animation: abstractReveal 0.18s ease;
 }
 
 /* ── 4. Mobile: profile image when centered ─────────────────── */
@@ -138,6 +234,27 @@
     .post > a.image.featured img {
         object-fit: cover;
         max-height: 220px;
+    }
+
+    /* Card padding scaled for narrow screens — the desktop values (2em card,
+       1.5em title) leave disproportionately large margins on a ~375px phone.
+       The theme also sets its own header { padding: 3em 1.5em 0.5em 1.5em }
+       at this breakpoint (reserved for a byline that isn't used here), which
+       stacked with the title's own padding for a huge top gap — override both. */
+    .post {
+        padding: 0.85em 0.85em 0.5em 0.85em;
+        margin: 0 0 1.25em 0;
+    }
+
+    .post > header {
+        left: -0.85em;
+        margin: -0.85em 0 0.85em 0;
+        width: calc(100% + 1.7em);
+        padding: 0.85em 0.85em 0.35em 0.85em;
+    }
+
+    .post > header .title {
+        padding: 0;
     }
 }
 
