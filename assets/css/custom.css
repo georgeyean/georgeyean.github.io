@@ -51,6 +51,7 @@
     left: -2em;
     margin: -2em 0 1.25em 0;
     width: calc(100% + 4em);
+    border-bottom: 0;
 }
 
 .post > header .title {
@@ -255,6 +256,16 @@
 
     .post > header .title {
         padding: 0;
+    }
+
+    /* The theme bleeds the featured image edge-to-edge below 480px using a
+       hardcoded -1.5em offset sized for its own 1.5em card padding. Since
+       .post padding is now 0.85em here, that stale offset overshot the
+       card border on every side — rescale it to match. */
+    .post > a.image.featured {
+        margin-left: -0.85em;
+        margin-top: calc(-0.85em - 1px);
+        width: calc(100% + 1.7em);
     }
 }
 
