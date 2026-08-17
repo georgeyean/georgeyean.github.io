@@ -125,10 +125,17 @@
     border-color: #6b7b8c;
 }
 
-/* Abstract disclosure widget */
+/* Abstract disclosure widget. The <details> here is only the trigger — it
+   has no visible content of its own. The actual abstract text lives in a
+   plain sibling <div class="abstract-body"> outside .paper-actions, shown
+   via :has() below. That keeps the Paper/Abstract button row's own layout
+   completely unaffected by opening it: no flex-sibling ballooning, no
+   <details>-content containing-block quirks, no wrapping, no movement —
+   the panel is just an ordinary block that appears/disappears in flow. */
 .post > header .title .abstract-toggle {
-    display: inline-flex;
-    align-items: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -1.3px;
 }
 
 .post > header .title .abstract-toggle summary {
@@ -160,6 +167,9 @@
 }
 
 .post > header .title .abstract-body {
+    /* Hidden by default; a normal block in flow (same width as the title/
+       teaser text above) once shown — see the :has() rule below. */
+    display: none;
     margin-top: 0.6em;
     padding: 0.85em 1.1em;
     background: rgba(0, 0, 0, 0.025);
@@ -168,6 +178,11 @@
     font-size: 0.9em;
     line-height: 1.65;
     color: #444;
+}
+
+.post > header .title:has(.abstract-toggle[open]) .abstract-body {
+    display: block;
+    animation: abstractReveal 0.18s ease;
 }
 
 .post > header .title .abstract-body p {
@@ -183,10 +198,6 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.post > header .title .abstract-toggle[open] .abstract-body {
-    animation: abstractReveal 0.18s ease;
 }
 
 /* ── 4. Mobile: profile image when centered ─────────────────── */
