@@ -1,0 +1,460 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>George Yean | Papers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+	<meta name="description" content="Swipe through George Yean's research papers." />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:700,800,900" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #8fa3b8;
+			--accent-strong: #6b7b8c;
+			--ink: #1c2126;
+		}
+
+		* { box-sizing: border-box; }
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background: #000;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			overscroll-behavior-y: none;
+		}
+
+		/* ── Feed: one full-screen snap section per paper ─────────────── */
+
+		#feed {
+			height: 100dvh;
+			overflow-y: scroll;
+			scroll-snap-type: y mandatory;
+			scroll-behavior: smooth;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.slide {
+			position: relative;
+			height: 100dvh;
+			scroll-snap-align: start;
+			scroll-snap-stop: always;
+			display: flex;
+			flex-direction: column;
+			overflow: hidden;
+			color: #fff;
+			padding: calc(3.75rem + env(safe-area-inset-top)) 1.5rem calc(1.75rem + env(safe-area-inset-bottom)) 1.5rem;
+		}
+
+		.content {
+			flex: 1 1 auto;
+			min-height: 0;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.slide::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: var(--bg, linear-gradient(160deg, #3d4a58, #1c2126));
+			z-index: 0;
+		}
+
+		.slide::after {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.05) 35%, rgba(0,0,0,0.65) 100%);
+			z-index: 1;
+		}
+
+		.slide > * {
+			position: relative;
+			z-index: 2;
+		}
+
+		/* ── Top bar (site identity + counter) ────────────────────────── */
+
+		.topbar {
+			position: absolute;
+			top: calc(1rem + env(safe-area-inset-top));
+			left: 1.5rem;
+			right: 1.5rem;
+			z-index: 2;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			font-family: "Raleway", Helvetica, sans-serif;
+		}
+
+		.topbar a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: 800;
+			font-size: 0.95rem;
+			letter-spacing: 0.02em;
+			opacity: 0.92;
+			display: flex;
+			align-items: center;
+			gap: 0.5em;
+		}
+
+		.topbar a svg { width: 1.1em; height: 1.1em; opacity: 0.85; }
+
+		.counter {
+			font-size: 0.78rem;
+			font-weight: 600;
+			letter-spacing: 0.04em;
+			color: rgba(255,255,255,0.75);
+			background: rgba(255,255,255,0.12);
+			padding: 0.3em 0.7em;
+			border-radius: 999px;
+			backdrop-filter: blur(6px);
+		}
+
+		/* ── Card content ──────────────────────────────────────────────── */
+
+		.kicker {
+			font-size: 0.72rem;
+			font-weight: 700;
+			letter-spacing: 0.14em;
+			text-transform: uppercase;
+			color: var(--accent);
+			margin: 0 0 0.6em 0;
+		}
+
+		h1.title {
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-weight: 900;
+			font-size: 1.55rem;
+			line-height: 1.28;
+			margin: 0 0 0.4em 0;
+			text-wrap: balance;
+		}
+
+		p.subtitle {
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-weight: 400;
+			font-size: 0.95rem;
+			line-height: 1.5;
+			color: rgba(255,255,255,0.82);
+			margin: 0 0 1em 0;
+		}
+
+		.abstract-wrap {
+			flex: 1 1 auto;
+			min-height: 0;
+			overflow: hidden;
+			margin-bottom: 0.9em;
+		}
+
+		.abstract {
+			height: 100%;
+			overflow-y: auto;
+			overscroll-behavior: contain;
+			padding-right: 0.4rem;
+			font-size: 0.92rem;
+			line-height: 1.62;
+			color: rgba(255,255,255,0.94);
+			-webkit-mask-image: linear-gradient(180deg, transparent 0, #000 28px);
+			mask-image: linear-gradient(180deg, transparent 0, #000 28px);
+		}
+
+		.abstract::-webkit-scrollbar { width: 3px; }
+		.abstract::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.35); border-radius: 3px; }
+
+		.actions {
+			display: flex;
+			align-items: center;
+			gap: 0.6em;
+			flex-wrap: wrap;
+		}
+
+		.btn {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5em;
+			padding: 0.65em 1.1em;
+			border-radius: 999px;
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-weight: 700;
+			font-size: 0.78rem;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+			text-decoration: none;
+			white-space: nowrap;
+		}
+
+		.btn-primary {
+			background: #fff;
+			color: var(--ink);
+		}
+
+		.btn-ghost {
+			background: rgba(255,255,255,0.14);
+			color: #fff;
+			border: 1px solid rgba(255,255,255,0.35);
+			backdrop-filter: blur(6px);
+		}
+
+		.btn svg { width: 1em; height: 1em; }
+
+		/* ── Right-edge progress dots ──────────────────────────────────── */
+
+		.dots {
+			position: fixed;
+			right: 0.6rem;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: 5;
+			display: flex;
+			flex-direction: column;
+			gap: 0.5rem;
+			pointer-events: none;
+		}
+
+		.dots span {
+			width: 5px;
+			height: 5px;
+			border-radius: 50%;
+			background: rgba(255,255,255,0.35);
+			transition: background 0.25s ease, height 0.25s ease;
+		}
+
+		.dots span.active {
+			background: #fff;
+			height: 16px;
+			border-radius: 3px;
+		}
+
+		/* ── First-run swipe hint ─────────────────────────────────────── */
+
+		.swipe-hint {
+			position: absolute;
+			left: 50%;
+			bottom: calc(1.1rem + env(safe-area-inset-bottom));
+			transform: translateX(-50%);
+			z-index: 3;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.15rem;
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-size: 0.68rem;
+			font-weight: 700;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+			color: rgba(255,255,255,0.85);
+			animation: hintBob 1.6s ease-in-out infinite;
+			transition: opacity 0.4s ease;
+			pointer-events: none;
+		}
+
+		.swipe-hint.hidden { opacity: 0; }
+
+		@keyframes hintBob {
+			0%, 100% { transform: translateX(-50%) translateY(0); }
+			50% { transform: translateX(-50%) translateY(-6px); }
+		}
+
+		@media (min-width: 720px) {
+			#feed { max-width: 480px; margin: 0 auto; box-shadow: 0 0 60px rgba(0,0,0,0.4); }
+			body { background: #0a0c0e; }
+		}
+
+		/* ── Loading state ─────────────────────────────────────────────── */
+
+		#loading {
+			position: fixed;
+			inset: 0;
+			z-index: 10;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 1rem;
+			background: #14171b;
+			color: rgba(255,255,255,0.75);
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-size: 0.85rem;
+			letter-spacing: 0.04em;
+		}
+
+		.spinner {
+			width: 28px;
+			height: 28px;
+			border-radius: 50%;
+			border: 2.5px solid rgba(255,255,255,0.2);
+			border-top-color: #fff;
+			animation: spin 0.8s linear infinite;
+		}
+
+		@keyframes spin {
+			to { transform: rotate(360deg); }
+		}
+	</style>
+</head>
+<body>
+
+	<div id="feed"></div>
+
+	<div class="dots" id="dots"></div>
+
+	<div id="loading">
+		<div class="spinner"></div>
+		<p>Loading your library…</p>
+	</div>
+
+	<script>
+		// ─────────────────────────────────────────────────────────────────
+		// Papers load from papers.json — a static export of georgeyean's
+		// public Zotero library (every top-level/"first level" collection,
+		// each collection's own top-level items only, filtered to items
+		// with an abstract). Generated by scripts/export_zotero.py; re-run
+		// that script whenever the Zotero library changes. Loading a local
+		// JSON file instead of hitting Zotero's API live means a visitor's
+		// page load costs one small same-origin request, not ~20 API calls.
+		// ─────────────────────────────────────────────────────────────────
+		const BG_PALETTE = [
+			"linear-gradient(160deg, #4a3f52, #1c1a22)",
+			"linear-gradient(160deg, #3d4a58, #1a2026)",
+			"linear-gradient(160deg, #3d5250, #1a2422)",
+			"linear-gradient(160deg, #52493d, #24201a)",
+			"linear-gradient(160deg, #3d4552, #1a1e26)",
+			"linear-gradient(160deg, #4f3d52, #221a24)"
+		];
+
+		async function loadPapers() {
+			const res = await fetch("papers.json");
+			if (!res.ok) throw new Error(`papers.json fetch failed: ${res.status}`);
+			const papers = await res.json();
+			return papers.map((paper, i) => ({ ...paper, bg: BG_PALETTE[i % BG_PALETTE.length] }));
+		}
+
+		// Static fallback, used only if papers.json fails to load (e.g. opening
+		// this file directly from disk without a server, or before the export
+		// script has been run for the first time).
+		const FALLBACK_PAPERS = [
+			{
+				title: "Globalization Origins of Autocratic Rise",
+				subtitle: "Engaged Reformers, Autocratic Advantages, and the Post-Cold War Reversal",
+				abstract: "Conventional wisdom holds that globalization promotes political liberalization and that inclusive institutions favor growth. Yet after 1990, many autocracies not only consolidated but also outperformed comparable democracies economically, especially in trade. This article argues that globalization shifted the payoff structure of development in a way that advantages a specific authoritarian regime—economically engaged and reformed autocracies—in external demand competition, despite their weak internal demand. Autocratic institutional features, conventionally viewed as liabilities in closed economies—centralized authority or weak accountability—can become advantages under engagement-and-reform configurations. Specifically, trade integration and domestic reform jointly supply credibility for global market participation; on that basis, autocratic features become less costly levers for amplifying export competitiveness. This demand-competing advantage substitutes for politically inclusive institutions. Empirically, I connect macro-level patterns to micro-level mechanisms, showing how autocratic engaged reformers—accounting for over 90 percent of autocracies’ output and extending beyond China and oil states—outperformed in exports among broader economic outcomes. The findings reveal how globalization, interacting with domestic institutions, alters the institutional logic of competitive advantage, while exposing the limits of authoritarianism alone.",
+				link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7273119",
+				bg: "linear-gradient(160deg, #4a3f52, #1c1a22)",
+				kicker: "Research paper"
+			},
+			{
+				title: "After Equilibrium",
+				subtitle: "Expectation Mismatch, Real Deindustrialization, and the Roots of Anti-globalization Politics",
+				abstract: "Why has free trade become harder to sustain in its maturity than in its rise? Prevailing accounts locate trade backlash primarily among liberalization’s losers. Yet backlash intensified long after those losses were absorbed, increasingly driven by policymakers across parties rather than by constituent pressure. I argue that the cause is top-down, and that support for openness rests on a promise that trade would reward one’s comparative strengths. Comparative advantage, however, is a claim about where liberalization settles, not whether that settlement endures. As globalization matures, foreign upgrading, technology diffusion, and state-backed distortions all erode incumbent advantage sectors, producing an expectation mismatch: trade no longer reads as a bargain that legitimated openness and adjustment costs, and elites begin to reinterpret it as unfair, producing real deindustrialization, and politically unsustainable. I test this theory in the context of U.S. trade politics through rich evidence from congressional speeches (1981-2024), the 2018 Section 301 action as the unprecedented trade policy reversal since WWII, and the U.S.-Japan and U.S.-China trade conflict cases. The findings show that protection concentrating in incumbent advantage sectors facing imminent competitive threat, broadening as the threat turns systemic. Contemporary anti-globalization is not the politics of displaced losers, but of threatened winners eroding the political sustainability of the openness bargain.",
+				link: "files/equi.pdf",
+				bg: "linear-gradient(160deg, #3d4a58, #1a2026)",
+				kicker: "Research paper"
+			},
+			{
+				title: "Globalization Backlash and Order Contestation",
+				subtitle: "An Issue-based Theory of Conditional Resilience",
+				abstract: "When do aggrieved states seek change within an international order, and when do they instead contest it deeply, such as by backing a challenger? I argue that the answer depends on the character of the issue in dispute and the credibility of the outside option. When disengagement from a densely institutionalized order is costly, it takes more than ordinary grievances; it requires a breakdown of leaders’ loyalty to the order. Discontent therefore tends to escalate only through what I term helpless issues: those that are severe, persistent, attributable to the order, and resistant to reform from within. However, support for a challenger is dampened when the challenger is itself implicated in the underlying issue. Employing a mixed-methods approach, I test the theory in the case of the Liberal International Order (LIO) and U.S.–China competition, focusing on an highly contested issue of global imbalances. I show that support for Chinese leadership remains flat until grievances cross a sharp threshold and concentrates among helpless issues. Moreover, persistent current-account imbalances increase support, while China’s implication, proxied by bilateral trade imbalances, dampens the effect. Cross-domain evidence, alongside leaders’ rhetoric and qualitative cases, provides consistent support. The findings suggest conditional resilience of an order and show how issues—the source of contestation—shape globalization backlash, order durability, and renewed great-power politics.",
+				link: "files/gi.pdf",
+				bg: "linear-gradient(160deg, #3d5250, #1a2422)",
+				kicker: "Research paper"
+			},
+			{
+				title: "Observational Equivalence of LLM and Human Annotation",
+				subtitle: "with Kentaro Nakamura and Jing Ling Tan",
+				abstract: "In this paper, we show that LLM and human coding are observationally equivalent in annotation quality: recent LLMs agree with expert coders at rates comparable to the agreement observed among experts themselves. We demonstrate this through replications of text-classification tasks from 14 peer-reviewed political science studies, in which ten LLMs, three human experts, and 165 crowd-sourced workers independently classify the same texts using identical codebooks. We find that this equivalence arises because of ambiguities in texts and coding rule. When LLMs disagree with experts, experts are also more likely to disagree with one another, and clarifying coding rules reduces disagreement among both experts and sufficiently capable LLMs. Thus, there is little empirical basis for preferring human coding on annotation quality alone, while LLMs offer substantial advantages in speed and cost. We therefore argue that the central challenge of text annotation is no longer choosing between human and machine coders, but developing coding rules that minimize ambiguity and accounting for the ambiguity that remains. To this end, we propose using disagreement across LLMs to identify difficult cases and refine codebooks, and develop ambiguity-aware bounds for downstream inference when a unique annotation cannot be defined for every text.",
+				link: "",
+				bg: "linear-gradient(160deg, #52493d, #24201a)",
+				kicker: "Research paper"
+			}
+		];
+
+		const linkIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07l-1.5 1.5"/><path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07l1.5-1.5"/></svg>';
+		const homeIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v10h14V10"/></svg>';
+		const chevronIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg>';
+
+		if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
+		const feed = document.getElementById('feed');
+		const dotsWrap = document.getElementById('dots');
+		const loading = document.getElementById('loading');
+
+		function renderFeed(papers) {
+			papers.forEach((paper, i) => {
+				const slide = document.createElement('section');
+				slide.className = 'slide';
+				slide.style.setProperty('--bg', paper.bg);
+
+				slide.innerHTML = `
+					<div class="topbar">
+						<a href="index.html">${homeIcon} George Yean</a>
+						<span class="counter">${i + 1} / ${papers.length}</span>
+					</div>
+					<div class="content">
+						<div class="kicker">${paper.kicker || "Research paper"}</div>
+						<h1 class="title">${paper.title}</h1>
+						${paper.subtitle ? `<p class="subtitle">${paper.subtitle}</p>` : ''}
+						<div class="abstract-wrap"><div class="abstract">${paper.abstract}</div></div>
+						<div class="actions">
+							${paper.link ? `<a class="btn btn-primary" href="${paper.link}" target="_blank" rel="noopener">${linkIcon} Read paper</a>` : `<span class="btn btn-ghost" style="opacity:0.6;">Draft — link coming soon</span>`}
+						</div>
+					</div>
+					${i === 0 ? `<div class="swipe-hint" id="swipeHint">${chevronIcon}<span>Swipe</span></div>` : ''}
+				`;
+				feed.appendChild(slide);
+
+				const dot = document.createElement('span');
+				if (i === 0) dot.classList.add('active');
+				dotsWrap.appendChild(dot);
+			});
+
+			feed.scrollTop = 0;
+
+			const dots = Array.from(dotsWrap.children);
+			const slides = Array.from(document.querySelectorAll('.slide'));
+			const swipeHint = document.getElementById('swipeHint');
+
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						const idx = slides.indexOf(entry.target);
+						dots.forEach((d, di) => d.classList.toggle('active', di === idx));
+					}
+				});
+			}, { root: feed, threshold: 0.6 });
+
+			slides.forEach(s => observer.observe(s));
+
+			feed.addEventListener('scroll', () => {
+				if (swipeHint) swipeHint.classList.add('hidden');
+			}, { once: true, passive: true });
+
+			// Keyboard support for desktop testing
+			window.addEventListener('keydown', (e) => {
+				if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+				const current = slides.findIndex(s => {
+					const r = s.getBoundingClientRect();
+					return r.top >= -1 && r.top < window.innerHeight / 2;
+				});
+				const next = e.key === 'ArrowDown' ? current + 1 : current - 1;
+				if (slides[next]) slides[next].scrollIntoView({ behavior: 'smooth' });
+			});
+		}
+
+		(async function bootstrap() {
+			let papers = null;
+			try {
+				const loaded = await loadPapers();
+				if (loaded.length) papers = loaded;
+			} catch (err) {
+				console.warn('papers.json fetch failed, using fallback papers:', err);
+			}
+			loading.remove();
+			renderFeed(papers || FALLBACK_PAPERS);
+		})();
+	</script>
+
+</body>
+</html>
