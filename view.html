@@ -44,7 +44,7 @@
 			flex-direction: column;
 			overflow: hidden;
 			color: #fff;
-			padding: calc(3.75rem + env(safe-area-inset-top)) 1.5rem calc(1.75rem + env(safe-area-inset-bottom)) 1.5rem;
+			padding: calc(6rem + env(safe-area-inset-top)) 1.5rem calc(1.75rem + env(safe-area-inset-bottom)) 1.5rem;
 		}
 
 		.content {
@@ -75,21 +75,34 @@
 			z-index: 2;
 		}
 
-		/* ── Top bar (site identity + counter) ────────────────────────── */
+		/* ── Top bar: fixed once over the whole feed (site identity, Group
+		   picker top-left, live counter top-right) — not re-rendered per
+		   slide, since that would mean 1000+ duplicate dropdowns ────────── */
 
 		.topbar {
-			position: absolute;
-			top: calc(1rem + env(safe-area-inset-top));
-			left: 1.5rem;
-			right: 1.5rem;
-			z-index: 2;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 20;
+			padding: calc(1rem + env(safe-area-inset-top)) 1.5rem 0.85rem 1.5rem;
+			background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.28) 65%, transparent 100%);
+			font-family: "Raleway", Helvetica, sans-serif;
+			pointer-events: none;
+		}
+
+		.topbar > * { pointer-events: auto; }
+
+		.topbar-row {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			font-family: "Raleway", Helvetica, sans-serif;
+			gap: 0.75em;
 		}
 
-		.topbar a {
+		.topbar-row + .topbar-row { margin-top: 0.6em; }
+
+		.home-link {
 			color: #fff;
 			text-decoration: none;
 			font-weight: 800;
@@ -99,9 +112,10 @@
 			display: flex;
 			align-items: center;
 			gap: 0.5em;
+			white-space: nowrap;
 		}
 
-		.topbar a svg { width: 1.1em; height: 1.1em; opacity: 0.85; }
+		.home-link svg { width: 1.1em; height: 1.1em; opacity: 0.85; }
 
 		.counter {
 			font-size: 0.78rem;
@@ -112,7 +126,30 @@
 			padding: 0.3em 0.7em;
 			border-radius: 999px;
 			backdrop-filter: blur(6px);
+			white-space: nowrap;
 		}
+
+		.group-select {
+			appearance: none;
+			-webkit-appearance: none;
+			max-width: 100%;
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-weight: 700;
+			font-size: 0.72rem;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: #fff;
+			background: rgba(255,255,255,0.14) url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m6%209%206%206%206-6%22%2F%3E%3C%2Fsvg%3E') no-repeat right 0.6em center;
+			background-size: 0.7em;
+			border: 1px solid rgba(255,255,255,0.35);
+			border-radius: 999px;
+			padding: 0.4em 1.9em 0.4em 0.9em;
+			backdrop-filter: blur(6px);
+		}
+
+		.group-select:focus { outline: 2px solid rgba(255,255,255,0.6); outline-offset: 1px; }
+
+		.group-select option { color: #111; background: #fff; }
 
 		/* ── Card content ──────────────────────────────────────────────── */
 
@@ -140,6 +177,16 @@
 			font-size: 0.95rem;
 			line-height: 1.5;
 			color: rgba(255,255,255,0.82);
+			margin: 0 0 0.15em 0;
+		}
+
+		p.journal {
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-weight: 400;
+			font-style: italic;
+			font-size: 0.82rem;
+			line-height: 1.4;
+			color: var(--accent);
 			margin: 0 0 1em 0;
 		}
 
@@ -160,6 +207,19 @@
 			color: rgba(255,255,255,0.94);
 			-webkit-mask-image: linear-gradient(180deg, transparent 0, #000 28px);
 			mask-image: linear-gradient(180deg, transparent 0, #000 28px);
+		}
+
+		.abstract-empty {
+			font-style: italic;
+			color: rgba(255,255,255,0.5);
+		}
+
+		.provenance {
+			display: block;
+			margin-top: 0.9em;
+			font-size: 0.78rem;
+			font-style: italic;
+			color: rgba(255,255,255,0.45);
 		}
 
 		.abstract::-webkit-scrollbar { width: 3px; }
@@ -269,7 +329,7 @@
 		#loading {
 			position: fixed;
 			inset: 0;
-			z-index: 10;
+			z-index: 30;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -297,6 +357,18 @@
 	</style>
 </head>
 <body>
+
+	<header class="topbar">
+		<div class="topbar-row">
+			<a href="index.html" class="home-link" id="homeLink">George Yean</a>
+			<span class="counter" id="counter">1 / 1</span>
+		</div>
+		<div class="topbar-row">
+			<select class="group-select" id="groupSelect" aria-label="Group">
+				<option value="">All groups</option>
+			</select>
+		</div>
+	</header>
 
 	<div id="feed"></div>
 
@@ -343,7 +415,7 @@
 				abstract: "Conventional wisdom holds that globalization promotes political liberalization and that inclusive institutions favor growth. Yet after 1990, many autocracies not only consolidated but also outperformed comparable democracies economically, especially in trade. This article argues that globalization shifted the payoff structure of development in a way that advantages a specific authoritarian regime—economically engaged and reformed autocracies—in external demand competition, despite their weak internal demand. Autocratic institutional features, conventionally viewed as liabilities in closed economies—centralized authority or weak accountability—can become advantages under engagement-and-reform configurations. Specifically, trade integration and domestic reform jointly supply credibility for global market participation; on that basis, autocratic features become less costly levers for amplifying export competitiveness. This demand-competing advantage substitutes for politically inclusive institutions. Empirically, I connect macro-level patterns to micro-level mechanisms, showing how autocratic engaged reformers—accounting for over 90 percent of autocracies’ output and extending beyond China and oil states—outperformed in exports among broader economic outcomes. The findings reveal how globalization, interacting with domestic institutions, alters the institutional logic of competitive advantage, while exposing the limits of authoritarianism alone.",
 				link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7273119",
 				bg: "linear-gradient(160deg, #4a3f52, #1c1a22)",
-				kicker: "Research paper"
+				group: "Research paper"
 			},
 			{
 				title: "After Equilibrium",
@@ -351,7 +423,7 @@
 				abstract: "Why has free trade become harder to sustain in its maturity than in its rise? Prevailing accounts locate trade backlash primarily among liberalization’s losers. Yet backlash intensified long after those losses were absorbed, increasingly driven by policymakers across parties rather than by constituent pressure. I argue that the cause is top-down, and that support for openness rests on a promise that trade would reward one’s comparative strengths. Comparative advantage, however, is a claim about where liberalization settles, not whether that settlement endures. As globalization matures, foreign upgrading, technology diffusion, and state-backed distortions all erode incumbent advantage sectors, producing an expectation mismatch: trade no longer reads as a bargain that legitimated openness and adjustment costs, and elites begin to reinterpret it as unfair, producing real deindustrialization, and politically unsustainable. I test this theory in the context of U.S. trade politics through rich evidence from congressional speeches (1981-2024), the 2018 Section 301 action as the unprecedented trade policy reversal since WWII, and the U.S.-Japan and U.S.-China trade conflict cases. The findings show that protection concentrating in incumbent advantage sectors facing imminent competitive threat, broadening as the threat turns systemic. Contemporary anti-globalization is not the politics of displaced losers, but of threatened winners eroding the political sustainability of the openness bargain.",
 				link: "files/equi.pdf",
 				bg: "linear-gradient(160deg, #3d4a58, #1a2026)",
-				kicker: "Research paper"
+				group: "Research paper"
 			},
 			{
 				title: "Globalization Backlash and Order Contestation",
@@ -359,7 +431,7 @@
 				abstract: "When do aggrieved states seek change within an international order, and when do they instead contest it deeply, such as by backing a challenger? I argue that the answer depends on the character of the issue in dispute and the credibility of the outside option. When disengagement from a densely institutionalized order is costly, it takes more than ordinary grievances; it requires a breakdown of leaders’ loyalty to the order. Discontent therefore tends to escalate only through what I term helpless issues: those that are severe, persistent, attributable to the order, and resistant to reform from within. However, support for a challenger is dampened when the challenger is itself implicated in the underlying issue. Employing a mixed-methods approach, I test the theory in the case of the Liberal International Order (LIO) and U.S.–China competition, focusing on an highly contested issue of global imbalances. I show that support for Chinese leadership remains flat until grievances cross a sharp threshold and concentrates among helpless issues. Moreover, persistent current-account imbalances increase support, while China’s implication, proxied by bilateral trade imbalances, dampens the effect. Cross-domain evidence, alongside leaders’ rhetoric and qualitative cases, provides consistent support. The findings suggest conditional resilience of an order and show how issues—the source of contestation—shape globalization backlash, order durability, and renewed great-power politics.",
 				link: "files/gi.pdf",
 				bg: "linear-gradient(160deg, #3d5250, #1a2422)",
-				kicker: "Research paper"
+				group: "Research paper"
 			},
 			{
 				title: "Observational Equivalence of LLM and Human Annotation",
@@ -367,7 +439,7 @@
 				abstract: "In this paper, we show that LLM and human coding are observationally equivalent in annotation quality: recent LLMs agree with expert coders at rates comparable to the agreement observed among experts themselves. We demonstrate this through replications of text-classification tasks from 14 peer-reviewed political science studies, in which ten LLMs, three human experts, and 165 crowd-sourced workers independently classify the same texts using identical codebooks. We find that this equivalence arises because of ambiguities in texts and coding rule. When LLMs disagree with experts, experts are also more likely to disagree with one another, and clarifying coding rules reduces disagreement among both experts and sufficiently capable LLMs. Thus, there is little empirical basis for preferring human coding on annotation quality alone, while LLMs offer substantial advantages in speed and cost. We therefore argue that the central challenge of text annotation is no longer choosing between human and machine coders, but developing coding rules that minimize ambiguity and accounting for the ambiguity that remains. To this end, we propose using disagreement across LLMs to identify difficult cases and refine codebooks, and develop ambiguity-aware bounds for downstream inference when a unique annotation cannot be defined for every text.",
 				link: "",
 				bg: "linear-gradient(160deg, #52493d, #24201a)",
-				kicker: "Research paper"
+				group: "Research paper"
 			}
 		];
 
@@ -380,23 +452,35 @@
 		const feed = document.getElementById('feed');
 		const dotsWrap = document.getElementById('dots');
 		const loading = document.getElementById('loading');
+		const counter = document.getElementById('counter');
+		const groupSelect = document.getElementById('groupSelect');
+		const homeLink = document.getElementById('homeLink');
+		homeLink.innerHTML = `${homeIcon} George Yean`;
+
+		let ALL_PAPERS = [];
+		let currentSlides = [];
+		let currentDots = [];
+		let observer = null;
 
 		function renderFeed(papers) {
+			if (observer) observer.disconnect();
+			feed.innerHTML = '';
+			dotsWrap.innerHTML = '';
+
 			papers.forEach((paper, i) => {
 				const slide = document.createElement('section');
 				slide.className = 'slide';
 				slide.style.setProperty('--bg', paper.bg);
 
 				slide.innerHTML = `
-					<div class="topbar">
-						<a href="index.html">${homeIcon} George Yean</a>
-						<span class="counter">${i + 1} / ${papers.length}</span>
-					</div>
 					<div class="content">
-						<div class="kicker">${paper.kicker || "Research paper"}</div>
+						<div class="kicker">${paper.group || "Research paper"}</div>
 						<h1 class="title">${paper.title}</h1>
 						${paper.subtitle ? `<p class="subtitle">${paper.subtitle}</p>` : ''}
-						<div class="abstract-wrap"><div class="abstract">${paper.abstract}</div></div>
+						${paper.journal ? `<p class="journal">${paper.journal}</p>` : ''}
+						<div class="abstract-wrap">
+						<div class="abstract${paper.abstract ? '' : ' abstract-empty'}">${paper.abstract || 'No abstract available for this item.'}${paper.source === 'pdf' ? `<span class="provenance">Extracted from the PDF's own text — not in Zotero's metadata.</span>` : ''}${paper.source === 'web' ? `<span class="provenance">Found via web search of the published paper — not in Zotero's metadata.</span>` : ''}</div>
+					</div>
 						<div class="actions">
 							${paper.link ? `<a class="btn btn-primary" href="${paper.link}" target="_blank" rel="noopener">${linkIcon} Read paper</a>` : `<span class="btn btn-ghost" style="opacity:0.6;">Draft — link coming soon</span>`}
 						</div>
@@ -411,37 +495,54 @@
 			});
 
 			feed.scrollTop = 0;
+			currentSlides = Array.from(feed.querySelectorAll('.slide'));
+			currentDots = Array.from(dotsWrap.children);
+			counter.textContent = `${papers.length ? 1 : 0} / ${papers.length}`;
 
-			const dots = Array.from(dotsWrap.children);
-			const slides = Array.from(document.querySelectorAll('.slide'));
-			const swipeHint = document.getElementById('swipeHint');
-
-			const observer = new IntersectionObserver((entries) => {
+			observer = new IntersectionObserver((entries) => {
 				entries.forEach(entry => {
 					if (entry.isIntersecting) {
-						const idx = slides.indexOf(entry.target);
-						dots.forEach((d, di) => d.classList.toggle('active', di === idx));
+						const idx = currentSlides.indexOf(entry.target);
+						currentDots.forEach((d, di) => d.classList.toggle('active', di === idx));
+						counter.textContent = `${idx + 1} / ${papers.length}`;
 					}
 				});
 			}, { root: feed, threshold: 0.6 });
 
-			slides.forEach(s => observer.observe(s));
+			currentSlides.forEach(s => observer.observe(s));
 
-			feed.addEventListener('scroll', () => {
-				if (swipeHint) swipeHint.classList.add('hidden');
-			}, { once: true, passive: true });
-
-			// Keyboard support for desktop testing
-			window.addEventListener('keydown', (e) => {
-				if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
-				const current = slides.findIndex(s => {
-					const r = s.getBoundingClientRect();
-					return r.top >= -1 && r.top < window.innerHeight / 2;
-				});
-				const next = e.key === 'ArrowDown' ? current + 1 : current - 1;
-				if (slides[next]) slides[next].scrollIntoView({ behavior: 'smooth' });
-			});
+			const swipeHint = document.getElementById('swipeHint');
+			if (swipeHint) {
+				feed.addEventListener('scroll', () => swipeHint.classList.add('hidden'), { once: true, passive: true });
+			}
 		}
+
+		function populateGroupOptions(papers) {
+			const counts = new Map();
+			papers.forEach(p => counts.set(p.group, (counts.get(p.group) || 0) + 1));
+			const groups = Array.from(counts.keys()).sort((a, b) => a.localeCompare(b));
+
+			groupSelect.innerHTML = `<option value="">All groups (${papers.length})</option>` +
+				groups.map(g => `<option value="${g}">${g} (${counts.get(g)})</option>`).join('');
+		}
+
+		groupSelect.addEventListener('change', () => {
+			const value = groupSelect.value;
+			const filtered = value ? ALL_PAPERS.filter(p => p.group === value) : ALL_PAPERS;
+			renderFeed(filtered);
+		});
+
+		// Keyboard support for desktop testing — reads currentSlides fresh each
+		// time, so it stays correct across group-filter re-renders.
+		window.addEventListener('keydown', (e) => {
+			if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+			const current = currentSlides.findIndex(s => {
+				const r = s.getBoundingClientRect();
+				return r.top >= -1 && r.top < window.innerHeight / 2;
+			});
+			const next = e.key === 'ArrowDown' ? current + 1 : current - 1;
+			if (currentSlides[next]) currentSlides[next].scrollIntoView({ behavior: 'smooth' });
+		});
 
 		(async function bootstrap() {
 			let papers = null;
@@ -451,8 +552,10 @@
 			} catch (err) {
 				console.warn('papers.json fetch failed, using fallback papers:', err);
 			}
+			ALL_PAPERS = papers || FALLBACK_PAPERS;
 			loading.remove();
-			renderFeed(papers || FALLBACK_PAPERS);
+			populateGroupOptions(ALL_PAPERS);
+			renderFeed(ALL_PAPERS);
 		})();
 	</script>
 
