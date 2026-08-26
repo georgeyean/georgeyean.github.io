@@ -479,7 +479,7 @@
 						${paper.subtitle ? `<p class="subtitle">${paper.subtitle}</p>` : ''}
 						${paper.journal ? `<p class="journal">${paper.journal}</p>` : ''}
 						<div class="abstract-wrap">
-						<div class="abstract${paper.abstract ? '' : ' abstract-empty'}">${paper.abstract || 'No abstract available for this item.'}${paper.source === 'pdf' ? `<span class="provenance">Extracted from the PDF's own text — not in Zotero's metadata.</span>` : ''}${paper.source === 'web' ? `<span class="provenance">Found via web search of the published paper — not in Zotero's metadata.</span>` : ''}</div>
+						<div class="abstract${paper.abstract ? '' : ' abstract-empty'}">${paper.abstract || 'No abstract available for this item.'}${paper.source === 'pdf' ? `<span class="provenance">Extracted from the PDF's own text — not in Zotero's metadata.</span>` : ''}${paper.source === 'web' ? `<span class="provenance">Summarized from web search results — not the paper's original abstract.</span>` : ''}</div>
 					</div>
 						<div class="actions">
 							${paper.link ? `<a class="btn btn-primary" href="${paper.link}" target="_blank" rel="noopener">${linkIcon} Read paper</a>` : `<span class="btn btn-ghost" style="opacity:0.6;">Draft — link coming soon</span>`}
