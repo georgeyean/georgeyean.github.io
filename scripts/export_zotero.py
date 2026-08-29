@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """
-Exports items from georgeyean's public Zotero library into papers.json for
+Exports items from georgeyean's Zotero library into papers.json for
 view.html to load statically (no live Zotero API calls per visitor). Re-run
 this whenever the Zotero library changes:
 
     python3 scripts/export_zotero.py
+
+The library is private, so this needs a Zotero API key (read access) to
+authenticate. Put it in a file named `.zotero_api_key` next to this repo's
+root (same directory as this script's parent) — that file is git-ignored
+and must never be committed, since it grants read access to the whole
+private library. Generate one at zotero.org -> Settings -> Security.
 
 Scope: every top-level item in the whole personal library (items/top —
 excludes child notes/attachments), including items without an abstract.
@@ -41,8 +47,24 @@ from urllib.error import HTTPError, URLError
 ZOTERO_USER_ID = "10447698"
 API = f"https://api.zotero.org/users/{ZOTERO_USER_ID}"
 OUT_PATH = Path(__file__).resolve().parent.parent / "papers.json"
+API_KEY_PATH = Path(__file__).resolve().parent.parent / ".zotero_api_key"
 PAGE_SIZE = 100
 FULLTEXT_DELAY_SECONDS = 0.4  # be polite; Zotero throttles hard on repeated 404s
+
+
+def load_api_key():
+    if not API_KEY_PATH.exists():
+        raise SystemExit(
+            f"Missing {API_KEY_PATH.name} — the library is private now, so this "
+            f"script needs a Zotero API key (read access) to authenticate. "
+            f"Generate one at zotero.org -> Settings -> Security, and save it "
+            f"(just the key, no quotes/newline needed) to {API_KEY_PATH}."
+        )
+    return API_KEY_PATH.read_text().strip()
+
+
+API_KEY = load_api_key()
+AUTH_HEADERS = {"Zotero-API-Key": API_KEY}
 ABSTRACT_STOP = re.compile(
     r"\n\s*\n|\bkeywords?\b\s*[:.]|\bjel\b\s*(classification|codes|no)?\s*[:.]?|"
     r"\b1\.?\s+introduction\b|\bI\.\s+introduction\b",
@@ -63,7 +85,8 @@ def fetch_fulltext_abstract(item_key):
     stop immediately instead of digging the hole deeper."""
     time.sleep(FULLTEXT_DELAY_SECONDS)
     try:
-        with urllib.request.urlopen(f"{API}/items/{item_key}/fulltext", timeout=8) as r:
+        req = urllib.request.Request(f"{API}/items/{item_key}/fulltext", headers=AUTH_HEADERS)
+        with urllib.request.urlopen(req, timeout=8) as r:
             content = json.load(r).get("content", "") or ""
     except HTTPError as e:
         if e.code == 429:
@@ -83,7 +106,8 @@ def fetch_fulltext_abstract(item_key):
 
 
 def fetch_json(url):
-    with urllib.request.urlopen(url) as r:
+    req = urllib.request.Request(url, headers=AUTH_HEADERS)
+    with urllib.request.urlopen(req) as r:
         return json.load(r)
 
 
@@ -106,11 +130,11 @@ def pretty_folder_name(name):
 
 
 def best_link(data, alt_href):
-    if data.get("url"):
-        return data["url"]
-    if data.get("DOI"):
-        return f"https://doi.org/{data['DOI']}"
-    return alt_href or ""
+    # Always point at the item's own Zotero page (zotero.org/georgeyean/items/...),
+    # not the public DOI/URL — the library is private, so this page (and the PDF
+    # attachment on it) only actually opens for someone logged in as the owner.
+    # Anyone else hits Zotero's own login wall, which is the whole point.
+    return alt_href or (f"https://doi.org/{data['DOI']}" if data.get("DOI") else data.get("url", ""))
 
 
 def build_group_map(collections):
