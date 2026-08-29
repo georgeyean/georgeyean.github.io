@@ -469,7 +469,7 @@
 		</div>
 	</header>
 
-	<div id="feed"></div>
+	<div id="feed" tabindex="-1" style="outline: none;"></div>
 
 	<div class="dots" id="dots"></div>
 
@@ -598,6 +598,9 @@
 			currentTheme = currentTheme === 'light' ? 'dark' : 'light';
 			applyTheme(currentTheme);
 			setStoredTheme(currentTheme);
+			// Give focus back to the feed so it (not this fixed, non-scrolling
+			// button) is what a hardware up/down button or arrow key acts on.
+			feed.focus({ preventScroll: true });
 		});
 
 		let ALL_PAPERS = [];
@@ -676,15 +679,23 @@
 			renderFeed(filtered);
 		});
 
-		// Keyboard support for desktop testing — reads currentSlides fresh each
-		// time, so it stays correct across group-filter re-renders.
+		// Keyboard support — for desktop testing, but also for e-reader/tablet
+		// hardware page-turn buttons, many of which are wired to send plain
+		// arrow-key events. Reads currentSlides fresh each time, so it stays
+		// correct across group-filter re-renders. Accepts both the modern key
+		// names and the legacy IE/old-WebView ones ("Up"/"Down"), since some
+		// older e-reader browser engines still report those.
+		const DOWN_KEYS = new Set(['ArrowDown', 'Down', 'PageDown']);
+		const UP_KEYS = new Set(['ArrowUp', 'Up', 'PageUp']);
 		window.addEventListener('keydown', (e) => {
-			if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+			const isDown = DOWN_KEYS.has(e.key);
+			const isUp = UP_KEYS.has(e.key);
+			if (!isDown && !isUp) return;
 			const current = currentSlides.findIndex(s => {
 				const r = s.getBoundingClientRect();
 				return r.top >= -1 && r.top < window.innerHeight / 2;
 			});
-			const next = e.key === 'ArrowDown' ? current + 1 : current - 1;
+			const next = isDown ? current + 1 : current - 1;
 			if (currentSlides[next]) currentSlides[next].scrollIntoView({ behavior: 'smooth' });
 		});
 
@@ -700,6 +711,11 @@
 			loading.remove();
 			populateGroupOptions(ALL_PAPERS);
 			renderFeed(ALL_PAPERS);
+			// Some embedded/e-reader browser engines don't deliver keydown
+			// events to the page at all until something on it has been
+			// explicitly focused — without this, a hardware up/down button
+			// silently does nothing until the reader taps the screen once.
+			feed.focus({ preventScroll: true });
 		})();
 	</script>
 
