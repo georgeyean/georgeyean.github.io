@@ -12,6 +12,65 @@
 			--accent: #8fa3b8;
 			--accent-strong: #6b7b8c;
 			--ink: #1c2126;
+
+			/* Theme tokens — dark is the default look, unchanged from before. */
+			--body-bg: #000;
+			--body-bg-wide: #0a0c0e;
+			--text-strong: #fff;
+			--text: rgba(255,255,255,0.94);
+			--text-muted: rgba(255,255,255,0.82);
+			--text-dim: rgba(255,255,255,0.75);
+			--text-faint: rgba(255,255,255,0.5);
+			--text-fainter: rgba(255,255,255,0.45);
+			--slide-overlay: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.05) 35%, rgba(0,0,0,0.65) 100%);
+			--topbar-bg: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.28) 65%, transparent 100%);
+			--chip-bg: rgba(255,255,255,0.12);
+			--chip-bg-strong: rgba(255,255,255,0.14);
+			--chip-border: rgba(255,255,255,0.35);
+			--scrollbar-thumb: rgba(255,255,255,0.35);
+			--btn-primary-bg: #fff;
+			--btn-primary-text: var(--ink);
+			--btn-ghost-bg: rgba(255,255,255,0.14);
+			--btn-ghost-border: rgba(255,255,255,0.35);
+			--dot-bg: rgba(255,255,255,0.35);
+			--dot-active: #fff;
+			--loading-bg: #14171b;
+			--loading-text: rgba(255,255,255,0.75);
+			--spinner-track: rgba(255,255,255,0.2);
+			--spinner-top: #fff;
+			--toggle-bg: rgba(255,255,255,0.14);
+			--toggle-border: rgba(255,255,255,0.35);
+			--select-chevron: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m6%209%206%206%206-6%22%2F%3E%3C%2Fsvg%3E');
+		}
+
+		:root[data-theme="light"] {
+			--body-bg: #ece7de;
+			--body-bg-wide: #e4ddd1;
+			--text-strong: #201d18;
+			--text: rgba(32,29,24,0.92);
+			--text-muted: rgba(32,29,24,0.78);
+			--text-dim: rgba(32,29,24,0.7);
+			--text-faint: rgba(32,29,24,0.5);
+			--text-fainter: rgba(32,29,24,0.45);
+			--slide-overlay: linear-gradient(180deg, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0.08) 35%, rgba(255,255,255,0.55) 100%);
+			--topbar-bg: linear-gradient(180deg, rgba(236,231,222,0.85) 0%, rgba(236,231,222,0.5) 65%, transparent 100%);
+			--chip-bg: rgba(32,29,24,0.08);
+			--chip-bg-strong: rgba(32,29,24,0.08);
+			--chip-border: rgba(32,29,24,0.25);
+			--scrollbar-thumb: rgba(32,29,24,0.3);
+			--btn-primary-bg: #201d18;
+			--btn-primary-text: #fff;
+			--btn-ghost-bg: rgba(32,29,24,0.07);
+			--btn-ghost-border: rgba(32,29,24,0.25);
+			--dot-bg: rgba(32,29,24,0.25);
+			--dot-active: #201d18;
+			--loading-bg: #ece7de;
+			--loading-text: rgba(32,29,24,0.75);
+			--spinner-track: rgba(32,29,24,0.18);
+			--spinner-top: #201d18;
+			--toggle-bg: rgba(32,29,24,0.08);
+			--toggle-border: rgba(32,29,24,0.25);
+			--select-chevron: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23201d18%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m6%209%206%206%206-6%22%2F%3E%3C%2Fsvg%3E');
 		}
 
 		* { box-sizing: border-box; }
@@ -20,9 +79,10 @@
 			margin: 0;
 			padding: 0;
 			height: 100%;
-			background: #000;
+			background: var(--body-bg);
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			overscroll-behavior-y: none;
+			transition: background 0.25s ease;
 		}
 
 		/* ── Feed: one full-screen snap section per paper ─────────────── */
@@ -43,7 +103,7 @@
 			display: flex;
 			flex-direction: column;
 			overflow: hidden;
-			color: #fff;
+			color: var(--text-strong);
 			padding: calc(6rem + env(safe-area-inset-top)) 1.5rem calc(1.75rem + env(safe-area-inset-bottom)) 1.5rem;
 		}
 
@@ -58,15 +118,19 @@
 			content: "";
 			position: absolute;
 			inset: 0;
-			background: var(--bg, linear-gradient(160deg, #3d4a58, #1c2126));
+			background: var(--bg-dark, linear-gradient(160deg, #3d4a58, #1c2126));
 			z-index: 0;
+		}
+
+		:root[data-theme="light"] .slide::before {
+			background: var(--bg-light, linear-gradient(160deg, #dfe6ec, #cdd8e0));
 		}
 
 		.slide::after {
 			content: "";
 			position: absolute;
 			inset: 0;
-			background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.05) 35%, rgba(0,0,0,0.65) 100%);
+			background: var(--slide-overlay);
 			z-index: 1;
 		}
 
@@ -86,7 +150,7 @@
 			right: 0;
 			z-index: 20;
 			padding: calc(1rem + env(safe-area-inset-top)) 1.5rem 0.85rem 1.5rem;
-			background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.28) 65%, transparent 100%);
+			background: var(--topbar-bg);
 			font-family: "Raleway", Helvetica, sans-serif;
 			pointer-events: none;
 		}
@@ -103,7 +167,7 @@
 		.topbar-row + .topbar-row { margin-top: 0.6em; }
 
 		.home-link {
-			color: #fff;
+			color: var(--text-strong);
 			text-decoration: none;
 			font-weight: 800;
 			font-size: 0.95rem;
@@ -121,12 +185,35 @@
 			font-size: 0.78rem;
 			font-weight: 600;
 			letter-spacing: 0.04em;
-			color: rgba(255,255,255,0.75);
-			background: rgba(255,255,255,0.12);
+			color: var(--text-dim);
+			background: var(--chip-bg);
 			padding: 0.3em 0.7em;
 			border-radius: 999px;
 			backdrop-filter: blur(6px);
 			white-space: nowrap;
+		}
+
+		.theme-toggle {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 2.1em;
+			height: 2.1em;
+			border-radius: 50%;
+			background: var(--toggle-bg);
+			border: 1px solid var(--toggle-border);
+			color: var(--text-strong);
+			backdrop-filter: blur(6px);
+			cursor: pointer;
+			flex: 0 0 auto;
+		}
+
+		.theme-toggle svg { width: 1.05em; height: 1.05em; }
+
+		.topbar-right {
+			display: flex;
+			align-items: center;
+			gap: 0.5em;
 		}
 
 		.group-select {
@@ -138,16 +225,19 @@
 			font-size: 0.72rem;
 			letter-spacing: 0.05em;
 			text-transform: uppercase;
-			color: #fff;
-			background: rgba(255,255,255,0.14) url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m6%209%206%206%206-6%22%2F%3E%3C%2Fsvg%3E') no-repeat right 0.6em center;
+			color: var(--text-strong);
+			background-color: var(--chip-bg-strong);
+			background-image: var(--select-chevron);
+			background-repeat: no-repeat;
+			background-position: right 0.6em center;
 			background-size: 0.7em;
-			border: 1px solid rgba(255,255,255,0.35);
+			border: 1px solid var(--chip-border);
 			border-radius: 999px;
 			padding: 0.4em 1.9em 0.4em 0.9em;
 			backdrop-filter: blur(6px);
 		}
 
-		.group-select:focus { outline: 2px solid rgba(255,255,255,0.6); outline-offset: 1px; }
+		.group-select:focus { outline: 2px solid var(--chip-border); outline-offset: 1px; }
 
 		.group-select option { color: #111; background: #fff; }
 
@@ -176,7 +266,7 @@
 			font-weight: 400;
 			font-size: 0.95rem;
 			line-height: 1.5;
-			color: rgba(255,255,255,0.82);
+			color: var(--text-muted);
 			margin: 0 0 0.15em 0;
 		}
 
@@ -204,12 +294,12 @@
 			padding-right: 0.4rem;
 			font-size: 1.02rem;
 			line-height: 1.62;
-			color: rgba(255,255,255,0.94);
+			color: var(--text);
 		}
 
 		.abstract-empty {
 			font-style: italic;
-			color: rgba(255,255,255,0.5);
+			color: var(--text-faint);
 		}
 
 		.provenance {
@@ -217,11 +307,11 @@
 			margin-top: 0.9em;
 			font-size: 0.78rem;
 			font-style: italic;
-			color: rgba(255,255,255,0.45);
+			color: var(--text-fainter);
 		}
 
 		.abstract::-webkit-scrollbar { width: 3px; }
-		.abstract::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.35); border-radius: 3px; }
+		.abstract::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
 
 		.actions {
 			display: flex;
@@ -246,14 +336,14 @@
 		}
 
 		.btn-primary {
-			background: #fff;
-			color: var(--ink);
+			background: var(--btn-primary-bg);
+			color: var(--btn-primary-text);
 		}
 
 		.btn-ghost {
-			background: rgba(255,255,255,0.14);
-			color: #fff;
-			border: 1px solid rgba(255,255,255,0.35);
+			background: var(--btn-ghost-bg);
+			color: var(--text-strong);
+			border: 1px solid var(--btn-ghost-border);
 			backdrop-filter: blur(6px);
 		}
 
@@ -277,12 +367,12 @@
 			width: 5px;
 			height: 5px;
 			border-radius: 50%;
-			background: rgba(255,255,255,0.35);
+			background: var(--dot-bg);
 			transition: background 0.25s ease, height 0.25s ease;
 		}
 
 		.dots span.active {
-			background: #fff;
+			background: var(--dot-active);
 			height: 16px;
 			border-radius: 3px;
 		}
@@ -304,7 +394,7 @@
 			font-weight: 700;
 			letter-spacing: 0.12em;
 			text-transform: uppercase;
-			color: rgba(255,255,255,0.85);
+			color: var(--text-dim);
 			animation: hintBob 1.6s ease-in-out infinite;
 			transition: opacity 0.4s ease;
 			pointer-events: none;
@@ -319,7 +409,7 @@
 
 		@media (min-width: 720px) {
 			#feed { max-width: 480px; margin: 0 auto; box-shadow: 0 0 60px rgba(0,0,0,0.4); }
-			body { background: #0a0c0e; }
+			body { background: var(--body-bg-wide); }
 			.abstract { font-size: 0.92rem; }
 		}
 
@@ -334,8 +424,8 @@
 			align-items: center;
 			justify-content: center;
 			gap: 1rem;
-			background: #14171b;
-			color: rgba(255,255,255,0.75);
+			background: var(--loading-bg);
+			color: var(--loading-text);
 			font-family: "Raleway", Helvetica, sans-serif;
 			font-size: 0.85rem;
 			letter-spacing: 0.04em;
@@ -345,8 +435,8 @@
 			width: 28px;
 			height: 28px;
 			border-radius: 50%;
-			border: 2.5px solid rgba(255,255,255,0.2);
-			border-top-color: #fff;
+			border: 2.5px solid var(--spinner-track);
+			border-top-color: var(--spinner-top);
 			animation: spin 0.8s linear infinite;
 		}
 
@@ -360,7 +450,10 @@
 	<header class="topbar">
 		<div class="topbar-row">
 			<a href="index.html" class="home-link" id="homeLink">George Yean</a>
-			<span class="counter" id="counter">1 / 1</span>
+			<div class="topbar-right">
+				<span class="counter" id="counter">1 / 1</span>
+				<button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode"></button>
+			</div>
 		</div>
 		<div class="topbar-row">
 			<select class="group-select" id="groupSelect" aria-label="Group">
@@ -388,7 +481,7 @@
 		// JSON file instead of hitting Zotero's API live means a visitor's
 		// page load costs one small same-origin request, not ~20 API calls.
 		// ─────────────────────────────────────────────────────────────────
-		const BG_PALETTE = [
+		const BG_PALETTE_DARK = [
 			"linear-gradient(160deg, #4a3f52, #1c1a22)",
 			"linear-gradient(160deg, #3d4a58, #1a2026)",
 			"linear-gradient(160deg, #3d5250, #1a2422)",
@@ -396,12 +489,27 @@
 			"linear-gradient(160deg, #3d4552, #1a1e26)",
 			"linear-gradient(160deg, #4f3d52, #221a24)"
 		];
+		// Same hue families as BG_PALETTE_DARK, lightened for day mode — kept
+		// in step (same index order) so toggling theme never reshuffles which
+		// card gets which hue.
+		const BG_PALETTE_LIGHT = [
+			"linear-gradient(160deg, #f2e8f5, #e6d9ea)",
+			"linear-gradient(160deg, #e6edf3, #d8e2ea)",
+			"linear-gradient(160deg, #e2eeec, #d3e3e0)",
+			"linear-gradient(160deg, #f3ede1, #e8dfcd)",
+			"linear-gradient(160deg, #e4e8f0, #d6dce8)",
+			"linear-gradient(160deg, #f0e6ee, #e5d7e3)"
+		];
 
 		async function loadPapers() {
 			const res = await fetch("papers.json");
 			if (!res.ok) throw new Error(`papers.json fetch failed: ${res.status}`);
 			const papers = await res.json();
-			return papers.map((paper, i) => ({ ...paper, bg: BG_PALETTE[i % BG_PALETTE.length] }));
+			return papers.map((paper, i) => ({
+				...paper,
+				bgDark: BG_PALETTE_DARK[i % BG_PALETTE_DARK.length],
+				bgLight: BG_PALETTE_LIGHT[i % BG_PALETTE_LIGHT.length]
+			}));
 		}
 
 		// Static fallback, used only if papers.json fails to load (e.g. opening
@@ -413,7 +521,8 @@
 				subtitle: "Engaged Reformers, Autocratic Advantages, and the Post-Cold War Reversal",
 				abstract: "Conventional wisdom holds that globalization promotes political liberalization and that inclusive institutions favor growth. Yet after 1990, many autocracies not only consolidated but also outperformed comparable democracies economically, especially in trade. This article argues that globalization shifted the payoff structure of development in a way that advantages a specific authoritarian regime—economically engaged and reformed autocracies—in external demand competition, despite their weak internal demand. Autocratic institutional features, conventionally viewed as liabilities in closed economies—centralized authority or weak accountability—can become advantages under engagement-and-reform configurations. Specifically, trade integration and domestic reform jointly supply credibility for global market participation; on that basis, autocratic features become less costly levers for amplifying export competitiveness. This demand-competing advantage substitutes for politically inclusive institutions. Empirically, I connect macro-level patterns to micro-level mechanisms, showing how autocratic engaged reformers—accounting for over 90 percent of autocracies’ output and extending beyond China and oil states—outperformed in exports among broader economic outcomes. The findings reveal how globalization, interacting with domestic institutions, alters the institutional logic of competitive advantage, while exposing the limits of authoritarianism alone.",
 				link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7273119",
-				bg: "linear-gradient(160deg, #4a3f52, #1c1a22)",
+				bgDark: "linear-gradient(160deg, #4a3f52, #1c1a22)",
+				bgLight: "linear-gradient(160deg, #f2e8f5, #e6d9ea)",
 				group: "Research paper"
 			},
 			{
@@ -421,7 +530,8 @@
 				subtitle: "Expectation Mismatch, Real Deindustrialization, and the Roots of Anti-globalization Politics",
 				abstract: "Why has free trade become harder to sustain in its maturity than in its rise? Prevailing accounts locate trade backlash primarily among liberalization’s losers. Yet backlash intensified long after those losses were absorbed, increasingly driven by policymakers across parties rather than by constituent pressure. I argue that the cause is top-down, and that support for openness rests on a promise that trade would reward one’s comparative strengths. Comparative advantage, however, is a claim about where liberalization settles, not whether that settlement endures. As globalization matures, foreign upgrading, technology diffusion, and state-backed distortions all erode incumbent advantage sectors, producing an expectation mismatch: trade no longer reads as a bargain that legitimated openness and adjustment costs, and elites begin to reinterpret it as unfair, producing real deindustrialization, and politically unsustainable. I test this theory in the context of U.S. trade politics through rich evidence from congressional speeches (1981-2024), the 2018 Section 301 action as the unprecedented trade policy reversal since WWII, and the U.S.-Japan and U.S.-China trade conflict cases. The findings show that protection concentrating in incumbent advantage sectors facing imminent competitive threat, broadening as the threat turns systemic. Contemporary anti-globalization is not the politics of displaced losers, but of threatened winners eroding the political sustainability of the openness bargain.",
 				link: "files/equi.pdf",
-				bg: "linear-gradient(160deg, #3d4a58, #1a2026)",
+				bgDark: "linear-gradient(160deg, #3d4a58, #1a2026)",
+				bgLight: "linear-gradient(160deg, #e6edf3, #d8e2ea)",
 				group: "Research paper"
 			},
 			{
@@ -429,7 +539,8 @@
 				subtitle: "An Issue-based Theory of Conditional Resilience",
 				abstract: "When do aggrieved states seek change within an international order, and when do they instead contest it deeply, such as by backing a challenger? I argue that the answer depends on the character of the issue in dispute and the credibility of the outside option. When disengagement from a densely institutionalized order is costly, it takes more than ordinary grievances; it requires a breakdown of leaders’ loyalty to the order. Discontent therefore tends to escalate only through what I term helpless issues: those that are severe, persistent, attributable to the order, and resistant to reform from within. However, support for a challenger is dampened when the challenger is itself implicated in the underlying issue. Employing a mixed-methods approach, I test the theory in the case of the Liberal International Order (LIO) and U.S.–China competition, focusing on an highly contested issue of global imbalances. I show that support for Chinese leadership remains flat until grievances cross a sharp threshold and concentrates among helpless issues. Moreover, persistent current-account imbalances increase support, while China’s implication, proxied by bilateral trade imbalances, dampens the effect. Cross-domain evidence, alongside leaders’ rhetoric and qualitative cases, provides consistent support. The findings suggest conditional resilience of an order and show how issues—the source of contestation—shape globalization backlash, order durability, and renewed great-power politics.",
 				link: "files/gi.pdf",
-				bg: "linear-gradient(160deg, #3d5250, #1a2422)",
+				bgDark: "linear-gradient(160deg, #3d5250, #1a2422)",
+				bgLight: "linear-gradient(160deg, #e2eeec, #d3e3e0)",
 				group: "Research paper"
 			},
 			{
@@ -437,7 +548,8 @@
 				subtitle: "with Kentaro Nakamura and Jing Ling Tan",
 				abstract: "In this paper, we show that LLM and human coding are observationally equivalent in annotation quality: recent LLMs agree with expert coders at rates comparable to the agreement observed among experts themselves. We demonstrate this through replications of text-classification tasks from 14 peer-reviewed political science studies, in which ten LLMs, three human experts, and 165 crowd-sourced workers independently classify the same texts using identical codebooks. We find that this equivalence arises because of ambiguities in texts and coding rule. When LLMs disagree with experts, experts are also more likely to disagree with one another, and clarifying coding rules reduces disagreement among both experts and sufficiently capable LLMs. Thus, there is little empirical basis for preferring human coding on annotation quality alone, while LLMs offer substantial advantages in speed and cost. We therefore argue that the central challenge of text annotation is no longer choosing between human and machine coders, but developing coding rules that minimize ambiguity and accounting for the ambiguity that remains. To this end, we propose using disagreement across LLMs to identify difficult cases and refine codebooks, and develop ambiguity-aware bounds for downstream inference when a unique annotation cannot be defined for every text.",
 				link: "",
-				bg: "linear-gradient(160deg, #52493d, #24201a)",
+				bgDark: "linear-gradient(160deg, #52493d, #24201a)",
+				bgLight: "linear-gradient(160deg, #f3ede1, #e8dfcd)",
 				group: "Research paper"
 			}
 		];
@@ -445,6 +557,8 @@
 		const linkIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07l-1.5 1.5"/><path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07l1.5-1.5"/></svg>';
 		const homeIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v10h14V10"/></svg>';
 		const chevronIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg>';
+		const sunIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>';
+		const moonIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.7A8.5 8.5 0 1 1 9.3 3.5a7 7 0 0 0 11.2 11.2Z"/></svg>';
 
 		if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 
@@ -454,7 +568,30 @@
 		const counter = document.getElementById('counter');
 		const groupSelect = document.getElementById('groupSelect');
 		const homeLink = document.getElementById('homeLink');
+		const themeToggle = document.getElementById('themeToggle');
 		homeLink.innerHTML = `${homeIcon} George Yean`;
+
+		// ── Theme toggle: dark by default, persisted per-browser in localStorage.
+		// localStorage can throw (private browsing, blocked site data) — never
+		// let a storage failure break rendering, just fall back to in-memory.
+		function getStoredTheme() {
+			try { return localStorage.getItem('theme'); } catch (err) { return null; }
+		}
+		function setStoredTheme(theme) {
+			try { localStorage.setItem('theme', theme); } catch (err) { /* ignore */ }
+		}
+		function applyTheme(theme) {
+			document.documentElement.setAttribute('data-theme', theme);
+			themeToggle.innerHTML = theme === 'light' ? moonIcon : sunIcon;
+			themeToggle.setAttribute('aria-label', theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode');
+		}
+		let currentTheme = getStoredTheme() === 'light' ? 'light' : 'dark';
+		applyTheme(currentTheme);
+		themeToggle.addEventListener('click', () => {
+			currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+			applyTheme(currentTheme);
+			setStoredTheme(currentTheme);
+		});
 
 		let ALL_PAPERS = [];
 		let currentSlides = [];
@@ -469,7 +606,8 @@
 			papers.forEach((paper, i) => {
 				const slide = document.createElement('section');
 				slide.className = 'slide';
-				slide.style.setProperty('--bg', paper.bg);
+				slide.style.setProperty('--bg-dark', paper.bgDark);
+				slide.style.setProperty('--bg-light', paper.bgLight);
 
 				slide.innerHTML = `
 					<div class="content">
