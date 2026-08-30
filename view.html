@@ -356,58 +356,47 @@
 
 		.btn svg { width: 1em; height: 1em; }
 
-		/* ── Right-edge progress dots ──────────────────────────────────── */
+		/* ── Right-edge progress track: a single proportional scrubber
+		   instead of one dot per paper — clicking/tapping anywhere along
+		   it jumps to that fraction of the current (possibly filtered)
+		   list, and the thumb's position always reflects current-paper /
+		   total, so it stays meaningful whether there are 4 papers or
+		   1,238. ─────────────────────────────────────────────────────── */
 
-		.dots {
+		.progress-track {
 			position: fixed;
-			right: 0.6rem;
-			top: 50%;
-			transform: translateY(-50%);
+			right: 0.5rem;
+			top: 12vh;
+			bottom: 12vh;
+			width: 28px;
 			z-index: 5;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			gap: 0.1rem;
-			/* With up to ~1,238 dots the full strip is far taller than the
-			   screen — cap it and let it scroll internally instead of
-			   spilling past the viewport. The active dot is kept centered
-			   in this scroll area by JS whenever it changes (swipe or
-			   click), so it always stays reachable. */
-			max-height: 70vh;
-			overflow-y: auto;
-			overflow-x: hidden;
-			scrollbar-width: none;
-			-ms-overflow-style: none;
-		}
-
-		.dots::-webkit-scrollbar { width: 0; height: 0; }
-
-		.dot-btn {
-			appearance: none;
-			-webkit-appearance: none;
-			background: none;
-			border: none;
-			margin: 0;
-			padding: 0.18rem 0.6rem;
-			display: flex;
-			align-items: center;
-			justify-content: center;
 			cursor: pointer;
 			-webkit-tap-highlight-color: transparent;
+			touch-action: none;
 		}
 
-		.dot-btn .dot {
-			width: 5px;
-			height: 5px;
-			border-radius: 50%;
+		.progress-track::before {
+			content: "";
+			position: absolute;
+			left: 50%;
+			top: 0;
+			bottom: 0;
+			width: 2px;
+			transform: translateX(-50%);
 			background: var(--dot-bg);
-			transition: background 0.25s ease, height 0.25s ease;
+			border-radius: 1px;
 		}
 
-		.dot-btn .dot.active {
-			background: var(--dot-active);
-			height: 16px;
+		.progress-thumb {
+			position: absolute;
+			left: 50%;
+			top: 0%;
+			width: 6px;
+			height: 22px;
 			border-radius: 3px;
+			background: var(--dot-active);
+			transform: translate(-50%, -50%);
+			pointer-events: none;
 		}
 
 		/* ── First-run swipe hint ─────────────────────────────────────── */
@@ -501,7 +490,9 @@
 
 	<div id="feed" tabindex="-1" style="outline: none;"></div>
 
-	<div class="dots" id="dots"></div>
+	<div class="progress-track" id="progressTrack" role="slider" aria-label="Jump to paper" aria-valuemin="1" tabindex="0">
+		<div class="progress-thumb" id="progressThumb"></div>
+	</div>
 
 	<div id="loading">
 		<div class="spinner"></div>
@@ -600,7 +591,8 @@
 		if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 
 		const feed = document.getElementById('feed');
-		const dotsWrap = document.getElementById('dots');
+		const progressTrack = document.getElementById('progressTrack');
+		const progressThumb = document.getElementById('progressThumb');
 		const loading = document.getElementById('loading');
 		const counter = document.getElementById('counter');
 		const groupSelect = document.getElementById('groupSelect');
@@ -635,13 +627,61 @@
 
 		let ALL_PAPERS = [];
 		let currentSlides = [];
-		let currentDots = [];
 		let observer = null;
+
+		// Positions the single progress-track thumb proportionally: idx/total
+		// down the line, so it stays meaningful whether the current
+		// (possibly group-filtered) list has 4 papers or 1,238.
+		function updateThumb(idx, total) {
+			if (!total) return;
+			const proportion = total > 1 ? idx / (total - 1) : 0;
+			progressThumb.style.top = `${proportion * 100}%`;
+			progressTrack.setAttribute('aria-valuenow', String(idx + 1));
+			progressTrack.setAttribute('aria-valuemax', String(total));
+		}
+
+		// Click or drag anywhere on the track jumps straight to that
+		// fraction of the current list — e.g. clicking 30% down jumps to
+		// roughly the 30th percentile paper, not just the nearest dot.
+		function jumpToTrackProportion(clientY) {
+			if (!currentSlides.length) return;
+			const rect = progressTrack.getBoundingClientRect();
+			const proportion = Math.min(1, Math.max(0, (clientY - rect.top) / rect.height));
+			const idx = Math.round(proportion * (currentSlides.length - 1));
+			// #feed has `scroll-behavior: smooth` in CSS for arrow-key/dot
+			// navigation, but that also smooth-animates scrollIntoView calls
+			// regardless of the behavior option passed here — across
+			// hundreds of slides that reads as a slow crawl, not a jump.
+			// Force instant scrolling just for this interaction.
+			feed.style.scrollBehavior = 'auto';
+			currentSlides[idx].scrollIntoView({ block: 'start' });
+		}
+
+		let trackDragging = false;
+		progressTrack.addEventListener('pointerdown', (e) => {
+			trackDragging = true;
+			// Pointer capture keeps drag-scrubbing working even if the
+			// pointer moves off the (narrow) track; failing to set it just
+			// means drag won't track outside the track, not a broken jump.
+			try { progressTrack.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+			jumpToTrackProportion(e.clientY);
+		});
+		progressTrack.addEventListener('pointermove', (e) => {
+			if (trackDragging) jumpToTrackProportion(e.clientY);
+		});
+		const stopTrackDrag = (e) => {
+			trackDragging = false;
+			feed.style.scrollBehavior = ''; // restore CSS smooth scrolling for arrow keys etc.
+			try {
+				if (progressTrack.hasPointerCapture(e.pointerId)) progressTrack.releasePointerCapture(e.pointerId);
+			} catch (err) { /* ignore */ }
+		};
+		progressTrack.addEventListener('pointerup', stopTrackDrag);
+		progressTrack.addEventListener('pointercancel', stopTrackDrag);
 
 		function renderFeed(papers) {
 			if (observer) observer.disconnect();
 			feed.innerHTML = '';
-			dotsWrap.innerHTML = '';
 
 			papers.forEach((paper, i) => {
 				const slide = document.createElement('section');
@@ -665,31 +705,20 @@
 					${i === 0 ? `<div class="swipe-hint" id="swipeHint">${chevronIcon}<span>Swipe</span></div>` : ''}
 				`;
 				feed.appendChild(slide);
-
-				const dotBtn = document.createElement('button');
-				dotBtn.type = 'button';
-				dotBtn.className = 'dot-btn';
-				dotBtn.setAttribute('aria-label', `Jump to paper ${i + 1} of ${papers.length}: ${paper.title}`);
-				dotBtn.innerHTML = `<span class="dot${i === 0 ? ' active' : ''}"></span>`;
-				dotBtn.addEventListener('click', () => slide.scrollIntoView({ behavior: 'smooth' }));
-				dotsWrap.appendChild(dotBtn);
 			});
 
 			feed.scrollTop = 0;
 			currentSlides = Array.from(feed.querySelectorAll('.slide'));
-			currentDots = Array.from(dotsWrap.querySelectorAll('.dot'));
 			counter.textContent = `${papers.length ? 1 : 0} / ${papers.length}`;
+			progressTrack.setAttribute('aria-valuemax', String(papers.length));
+			updateThumb(0, papers.length);
 
 			observer = new IntersectionObserver((entries) => {
 				entries.forEach(entry => {
 					if (entry.isIntersecting) {
 						const idx = currentSlides.indexOf(entry.target);
-						currentDots.forEach((d, di) => d.classList.toggle('active', di === idx));
 						counter.textContent = `${idx + 1} / ${papers.length}`;
-						// Keep the active dot centered in the (internally scrolling)
-						// dots strip — covers both swiping and jumping via a click,
-						// since both end up updating the active slide here.
-						if (currentDots[idx]) currentDots[idx].scrollIntoView({ block: 'center', behavior: 'smooth' });
+						updateThumb(idx, papers.length);
 					}
 				});
 			}, { root: feed, threshold: 0.6 });
