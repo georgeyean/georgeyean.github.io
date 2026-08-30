@@ -675,6 +675,12 @@
 			try {
 				if (progressTrack.hasPointerCapture(e.pointerId)) progressTrack.releasePointerCapture(e.pointerId);
 			} catch (err) { /* ignore */ }
+			// The track is tabindex="0" for accessibility, so clicking/tapping
+			// it focuses it — give focus straight back to the feed so a
+			// hardware page-turn button (which needs the feed focused) isn't
+			// left pointed at this fixed, non-scrolling element instead.
+			progressTrack.blur();
+			feed.focus({ preventScroll: true });
 		};
 		progressTrack.addEventListener('pointerup', stopTrackDrag);
 		progressTrack.addEventListener('pointercancel', stopTrackDrag);
