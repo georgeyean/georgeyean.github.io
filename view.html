@@ -34,6 +34,7 @@
 			--btn-ghost-border: rgba(255,255,255,0.35);
 			--dot-bg: rgba(255,255,255,0.35);
 			--dot-active: #fff;
+			--track-line: rgba(255,255,255,0.7);
 			--loading-bg: #14171b;
 			--loading-text: rgba(255,255,255,0.75);
 			--spinner-track: rgba(255,255,255,0.2);
@@ -70,6 +71,7 @@
 			--btn-ghost-border: rgba(32,29,24,0.25);
 			--dot-bg: rgba(32,29,24,0.25);
 			--dot-active: #201d18;
+			--track-line: rgba(32,29,24,0.55);
 			--loading-bg: #ece7de;
 			--loading-text: rgba(32,29,24,0.75);
 			--spinner-track: rgba(32,29,24,0.18);
@@ -381,19 +383,23 @@
 			left: 50%;
 			top: 0;
 			bottom: 0;
-			width: 2px;
+			width: 3px;
 			transform: translateX(-50%);
-			background: var(--dot-bg);
-			border-radius: 1px;
+			/* A translucent line (like --dot-bg elsewhere) was too faint to
+			   see at all on an e-ink screen's lower-contrast rendering —
+			   this needs to be solidly visible on a wider range of
+			   displays, not just LCD/OLED. */
+			background: var(--track-line);
+			border-radius: 1.5px;
 		}
 
 		.progress-thumb {
 			position: absolute;
 			left: 50%;
 			top: 0%;
-			width: 6px;
-			height: 22px;
-			border-radius: 3px;
+			width: 8px;
+			height: 24px;
+			border-radius: 4px;
 			background: var(--dot-active);
 			transform: translate(-50%, -50%);
 			pointer-events: none;
@@ -419,6 +425,14 @@
 			color: var(--text-dim);
 			animation: hintBob 1.6s ease-in-out infinite;
 			transition: opacity 0.4s ease;
+		}
+
+		/* Without this, the inline SVG has no intrinsic size and renders at
+		   the browser's default (huge) fallback dimensions instead of a
+		   small icon. */
+		.swipe-hint svg {
+			width: 1.4em;
+			height: 1.4em;
 			pointer-events: none;
 		}
 
