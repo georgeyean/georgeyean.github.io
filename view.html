@@ -658,6 +658,7 @@
 		}
 
 		let trackDragging = false;
+		let trackDragSafetyTimer = null;
 		progressTrack.addEventListener('pointerdown', (e) => {
 			trackDragging = true;
 			// Pointer capture keeps drag-scrubbing working even if the
@@ -665,25 +666,41 @@
 			// means drag won't track outside the track, not a broken jump.
 			try { progressTrack.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
 			jumpToTrackProportion(e.clientY);
+			// Last-resort self-heal: if nothing ever tells us the interaction
+			// ended (see stopTrackDrag's comment below), force it closed after
+			// a few seconds rather than staying stuck for the rest of the
+			// session. Generous enough not to cut off a real, deliberate drag.
+			clearTimeout(trackDragSafetyTimer);
+			trackDragSafetyTimer = setTimeout(() => stopTrackDrag(), 4000);
 		});
 		progressTrack.addEventListener('pointermove', (e) => {
 			if (trackDragging) jumpToTrackProportion(e.clientY);
 		});
-		const stopTrackDrag = (e) => {
+		function stopTrackDrag(e) {
+			clearTimeout(trackDragSafetyTimer);
+			if (!trackDragging) return; // already cleaned up — avoid redundant focus() calls
 			trackDragging = false;
 			feed.style.scrollBehavior = ''; // restore CSS smooth scrolling for arrow keys etc.
 			try {
-				if (progressTrack.hasPointerCapture(e.pointerId)) progressTrack.releasePointerCapture(e.pointerId);
+				if (e && e.pointerId != null && progressTrack.hasPointerCapture(e.pointerId)) {
+					progressTrack.releasePointerCapture(e.pointerId);
+				}
 			} catch (err) { /* ignore */ }
-			// The track is tabindex="0" for accessibility, so clicking/tapping
-			// it focuses it — give focus straight back to the feed so a
-			// hardware page-turn button (which needs the feed focused) isn't
-			// left pointed at this fixed, non-scrolling element instead.
-			progressTrack.blur();
 			feed.focus({ preventScroll: true });
-		};
+		}
 		progressTrack.addEventListener('pointerup', stopTrackDrag);
 		progressTrack.addEventListener('pointercancel', stopTrackDrag);
+		// Some touchscreens/e-ink digitizers don't reliably fire pointerup
+		// after a quick tap, which would leave pointer capture stuck on the
+		// track and swallow later pointer-type input indefinitely (which is
+		// how some e-reader hardware page-turn buttons are implemented under
+		// the hood, even though they look like "keyboard" input at the OS
+		// level) — 'lostpointercapture' fires whenever capture ends for any
+		// reason, and a window-level fallback catches cases where even that
+		// doesn't fire on the track itself.
+		progressTrack.addEventListener('lostpointercapture', stopTrackDrag);
+		window.addEventListener('pointerup', stopTrackDrag);
+		window.addEventListener('pointercancel', stopTrackDrag);
 
 		function renderFeed(papers) {
 			if (observer) observer.disconnect();
