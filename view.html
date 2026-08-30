@@ -636,7 +636,7 @@
 			setStoredTheme(currentTheme);
 			// Give focus back to the feed so it (not this fixed, non-scrolling
 			// button) is what a hardware up/down button or arrow key acts on.
-			feed.focus({ preventScroll: true });
+			reclaimFeedFocus();
 		});
 
 		let ALL_PAPERS = [];
@@ -700,7 +700,7 @@
 					progressTrack.releasePointerCapture(e.pointerId);
 				}
 			} catch (err) { /* ignore */ }
-			feed.focus({ preventScroll: true });
+			reclaimFeedFocus();
 		}
 		progressTrack.addEventListener('pointerup', stopTrackDrag);
 		progressTrack.addEventListener('pointercancel', stopTrackDrag);
@@ -777,11 +777,25 @@
 				groups.map(g => `<option value="${g}">${g} (${counts.get(g)})</option>`).join('');
 		}
 
+		// Refocusing the feed after using the group dropdown (a native
+		// control, not something we can strip tabindex from) — same fix as
+		// the progress track and theme toggle, since a hardware page-turn
+		// button reportedly goes dead after using ANY of these until an
+		// unrelated tap on the page. This is a pure focus-management change:
+		// no CSS/touch/layout behavior touched, so if this alone still
+		// breaks something, at least we'll know precisely what did it.
+		function reclaimFeedFocus() {
+			try { window.focus(); } catch (err) { /* ignore */ }
+			feed.focus({ preventScroll: true });
+		}
+
 		groupSelect.addEventListener('change', () => {
 			const value = groupSelect.value;
 			const filtered = value ? ALL_PAPERS.filter(p => p.group === value) : ALL_PAPERS;
 			renderFeed(filtered);
+			reclaimFeedFocus();
 		});
+		groupSelect.addEventListener('blur', reclaimFeedFocus);
 
 		// Keyboard support — for desktop testing, but also for e-reader/tablet
 		// hardware page-turn buttons, many of which are wired to send plain
@@ -819,7 +833,7 @@
 			// events to the page at all until something on it has been
 			// explicitly focused — without this, a hardware up/down button
 			// silently does nothing until the reader taps the screen once.
-			feed.focus({ preventScroll: true });
+			reclaimFeedFocus();
 		})();
 	</script>
 
