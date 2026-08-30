@@ -372,6 +372,8 @@
 			z-index: 5;
 			cursor: pointer;
 			-webkit-tap-highlight-color: transparent;
+			touch-action: none;
+		}
 
 		.progress-track::before {
 			content: "";
@@ -659,14 +661,6 @@
 		let trackDragSafetyTimer = null;
 		progressTrack.addEventListener('pointerdown', (e) => {
 			trackDragging = true;
-			// Grab focus right at the moment of contact, not just after
-			// release — this element handles its own pointer capture/touch
-			// instead of the OS's normal tap-to-focus path, and on at least
-			// one e-reader that meant the WebView itself never re-registered
-			// as having input focus until a later, unrelated tap elsewhere,
-			// silently blocking hardware page-turn button events.
-			try { window.focus(); } catch (err) { /* ignore */ }
-			feed.focus({ preventScroll: true });
 			// Pointer capture keeps drag-scrubbing working even if the
 			// pointer moves off the (narrow) track; failing to set it just
 			// means drag won't track outside the track, not a broken jump.
