@@ -366,11 +366,25 @@
 			z-index: 5;
 			display: flex;
 			flex-direction: column;
-			gap: 0.5rem;
-			pointer-events: none;
+			align-items: center;
+			gap: 0.1rem;
 		}
 
-		.dots span {
+		.dot-btn {
+			appearance: none;
+			-webkit-appearance: none;
+			background: none;
+			border: none;
+			margin: 0;
+			padding: 0.45rem 0.6rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			-webkit-tap-highlight-color: transparent;
+		}
+
+		.dot-btn .dot {
 			width: 5px;
 			height: 5px;
 			border-radius: 50%;
@@ -378,7 +392,7 @@
 			transition: background 0.25s ease, height 0.25s ease;
 		}
 
-		.dots span.active {
+		.dot-btn .dot.active {
 			background: var(--dot-active);
 			height: 16px;
 			border-radius: 3px;
@@ -414,7 +428,11 @@
 			50% { transform: translateX(-50%) translateY(-6px); }
 		}
 
-		@media (min-width: 720px) {
+		/* ~600px catches genuine 7"+ tablets/e-readers (which typically report
+		   a CSS width in the 600-650px range in portrait), not just iPads and
+		   up — the previous 720px cutoff missed them, leaving the smaller
+		   phone-tuned font size on a screen plenty big enough for more. */
+		@media (min-width: 600px) {
 			#feed { max-width: 480px; margin: 0 auto; box-shadow: 0 0 60px rgba(0,0,0,0.4); }
 			body { background: var(--body-bg-wide); }
 			.abstract { font-size: 1.18rem; }
@@ -636,14 +654,18 @@
 				`;
 				feed.appendChild(slide);
 
-				const dot = document.createElement('span');
-				if (i === 0) dot.classList.add('active');
-				dotsWrap.appendChild(dot);
+				const dotBtn = document.createElement('button');
+				dotBtn.type = 'button';
+				dotBtn.className = 'dot-btn';
+				dotBtn.setAttribute('aria-label', `Jump to paper ${i + 1} of ${papers.length}: ${paper.title}`);
+				dotBtn.innerHTML = `<span class="dot${i === 0 ? ' active' : ''}"></span>`;
+				dotBtn.addEventListener('click', () => slide.scrollIntoView({ behavior: 'smooth' }));
+				dotsWrap.appendChild(dotBtn);
 			});
 
 			feed.scrollTop = 0;
 			currentSlides = Array.from(feed.querySelectorAll('.slide'));
-			currentDots = Array.from(dotsWrap.children);
+			currentDots = Array.from(dotsWrap.querySelectorAll('.dot'));
 			counter.textContent = `${papers.length ? 1 : 0} / ${papers.length}`;
 
 			observer = new IntersectionObserver((entries) => {
