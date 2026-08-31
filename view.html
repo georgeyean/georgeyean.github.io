@@ -294,6 +294,12 @@
 			min-height: 0;
 			overflow: hidden;
 			margin-bottom: 0.9em;
+			/* The abstract box's own scrollbar sits at its right edge, which
+			   (at the slide's normal 1.5rem padding) lands inside the
+			   progress track's footprint on narrower screens — pull it in
+			   further so the two don't crowd each other. Only the abstract
+			   is narrowed; title/buttons/etc. keep the slide's normal width. */
+			margin-right: 1rem;
 		}
 
 		.abstract {
@@ -809,12 +815,28 @@
 			const isDown = DOWN_KEYS.has(e.key);
 			const isUp = UP_KEYS.has(e.key);
 			if (!isDown && !isUp) return;
+			// Without this, the browser's own default scroll action for
+			// these keys can target whatever scrollable element it thinks
+			// is relevant — including a long abstract's own internal
+			// scroll box — fighting with (or replacing) our slide-to-slide
+			// jump instead of moving to the next/previous paper.
+			e.preventDefault();
 			const current = currentSlides.findIndex(s => {
 				const r = s.getBoundingClientRect();
 				return r.top >= -1 && r.top < window.innerHeight / 2;
 			});
 			const next = isDown ? current + 1 : current - 1;
-			if (currentSlides[next]) currentSlides[next].scrollIntoView({ behavior: 'smooth' });
+			if (!currentSlides[next]) return;
+			// A long abstract that's been scrolled down internally has a
+			// non-zero scrollTop with overscroll-behavior: contain — with
+			// #feed's CSS scroll-behavior: smooth still active, that combo
+			// silently blocks scrollIntoView on a sibling slide in some
+			// browsers until the abstract's own scroll resets to 0. Forcing
+			// an instant (non-smooth) scroll here, same as the progress
+			// track already does, reliably sidesteps it.
+			feed.style.scrollBehavior = 'auto';
+			currentSlides[next].scrollIntoView({ block: 'start' });
+			feed.style.scrollBehavior = '';
 		});
 
 		(async function bootstrap() {
