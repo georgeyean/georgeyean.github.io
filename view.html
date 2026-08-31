@@ -306,6 +306,13 @@
 			height: 100%;
 			overflow-y: auto;
 			overscroll-behavior: contain;
+			/* A nested scrollable box inside another element that also uses
+			   -webkit-overflow-scrolling: touch (here, #feed) needs this set
+			   on itself too, or WebKit can hand a touch-drag gesture inside
+			   it to the outer snap-scroll container instead of scrolling
+			   this box's own content. */
+			-webkit-overflow-scrolling: touch;
+			touch-action: pan-y;
 			padding-right: 0.4rem;
 			font-size: 1.02rem;
 			line-height: 1.62;
