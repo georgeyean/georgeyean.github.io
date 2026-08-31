@@ -13,7 +13,13 @@ and must never be committed, since it grants read access to the whole
 private library. Generate one at zotero.org -> Settings -> Security.
 
 Scope: every top-level item in the whole personal library (items/top —
-excludes child notes/attachments), including items without an abstract.
+excludes child notes/attachments), including items without an abstract,
+EXCEPT items that look like course slides/syllabi/lecture notes (see
+is_course_material()) AND have no abstractNote in Zotero — those are
+dropped entirely rather than shown with "No abstract available," since
+they aren't really papers. A real Zotero abstract overrides the title
+pattern, so a genuine paper whose title happens to look course-y is never
+dropped incorrectly.
 Each item is tagged with a "group" name used for the feed's Group dropdown:
 its top-level ("first level") collection ancestor, EXCEPT when that
 top-level ancestor is "Zotero Library" — that one folder is broad enough
@@ -129,6 +135,40 @@ def pretty_folder_name(name):
     return re.sub(r"\b\w", lambda m: m.group(0).upper(), name)
 
 
+# Course slides/syllabi/lecture notes have no place in a public "browse my
+# research papers" feed. These patterns were validated by hand against the
+# actual library (see git history) before being made permanent here — they
+# deliberately do NOT match titles ending in .pdf with a "NN Author Title"
+# shape (e.g. "02 Fraser From Redistribution to Recognition.pdf"), since
+# those are real assigned readings, not course-generated material. An item
+# is only ever dropped by this filter if it ALSO has no abstractNote in
+# Zotero — a real abstract is treated as strong evidence it's a genuine
+# paper regardless of what its title looks like.
+_COURSE_MATERIAL_STRONG_PATTERNS = [
+    re.compile(r"^Section\s+\d+", re.IGNORECASE),
+    re.compile(r"^Chapter\s+\d+,"),
+    re.compile(r"^review\d"),
+    re.compile(r"^\d+More on\b"),
+    re.compile(r"^GOV\s*\d+|^Gov\s*\d+|^gov\d+", re.IGNORECASE),
+    re.compile(r"syllabus", re.IGNORECASE),
+    re.compile(r"^Government\s+\d+:"),
+    re.compile(r"^Untitled document$"),
+    re.compile(r"^\d+_InClass"),
+    re.compile(r"^Codes\.R"),
+    re.compile(r"_Handout_"),
+]
+_COURSE_MATERIAL_WEAK_PATTERN = re.compile(r"^\d{1,2}[\-\.]?\s*[A-Z]")
+
+
+def is_course_material(title):
+    for pattern in _COURSE_MATERIAL_STRONG_PATTERNS:
+        if pattern.search(title):
+            return True
+    if _COURSE_MATERIAL_WEAK_PATTERN.search(title) and not title.lower().endswith(".pdf"):
+        return True
+    return False
+
+
 def best_link(data, alt_href):
     # Always point at the item's own Zotero page (zotero.org/georgeyean/items/...),
     # not the public DOI/URL — the library is private, so this page (and the PDF
@@ -193,11 +233,27 @@ def main():
     papers = []
     recovered_count = 0
     checked_count = 0
+    skipped_course_material = 0
     rate_limited = False
 
     for n, it in enumerate(items, 1):
         data = it["data"]
         key = it["key"]
+        title = data.get("title") or "Untitled"
+
+        # Only drop a course-y-looking title if there's truly nothing to
+        # keep it for: no Zotero abstract AND no abstract already resolved
+        # (by a previous run's PDF/web research) sitting in the cache. That
+        # second check matters — otherwise re-running this script would
+        # silently discard real papers someone had already researched by
+        # hand just because the title also happens to look like a lecture
+        # slide (e.g. a numbered primary-source reading).
+        if not (data.get("abstractNote") or "").strip() and is_course_material(title):
+            cached_abstract = cache.get(key, {}).get("abstract", "")
+            if not cached_abstract:
+                skipped_course_material += 1
+                continue
+
         creator_summary = it.get("meta", {}).get("creatorSummary", "")
         year_match = re.search(r"\b(1[5-9]\d{2}|20\d{2})\b", data.get("date") or "")
         year = year_match.group(0) if year_match else ""
@@ -239,7 +295,7 @@ def main():
 
         papers.append({
             "key": key,
-            "title": data.get("title") or "Untitled",
+            "title": title,
             "subtitle": subtitle,
             "journal": journal,
             "abstract": abstract,
@@ -250,6 +306,9 @@ def main():
 
     OUT_PATH.write_text(json.dumps(papers, indent=2, ensure_ascii=False) + "\n")
     print(f"Wrote {len(papers)} papers to {OUT_PATH}")
+    if skipped_course_material:
+        print(f"Skipped {skipped_course_material} items that look like course "
+              f"slides/syllabi/lecture notes with no Zotero abstract")
     print(f"Recovered {recovered_count} real abstracts from indexed PDF text "
           f"(out of {len(missing)} that had none in Zotero's metadata; "
           f"{checked_count} fulltext lookups actually made this run)")
