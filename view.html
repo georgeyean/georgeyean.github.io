@@ -729,6 +729,54 @@
 		window.addEventListener('pointerup', stopTrackDrag);
 		window.addEventListener('pointercancel', stopTrackDrag);
 
+		// A nested scrollable element inside #feed's own scroll-snap
+		// container isn't reliably touch-scrollable via CSS alone on some
+		// browser engines — the outer snap-scroll grabs the gesture before
+		// it reaches the inner box. Drive the abstract's own scroll
+		// manually from pointer events instead, but only while it actually
+		// has room to move in the dragged direction; once at a boundary,
+		// back off and let the outer feed's native swipe take over, so
+		// swipe-to-next-paper still works naturally from on top of the text.
+		function setupAbstractDrag(abstractEl) {
+			if (!abstractEl) return;
+			let dragging = false;
+			let startY = 0;
+			let startScrollTop = 0;
+			let capturedId = null;
+
+			abstractEl.addEventListener('pointerdown', (e) => {
+				dragging = true;
+				startY = e.clientY;
+				startScrollTop = abstractEl.scrollTop;
+			});
+
+			abstractEl.addEventListener('pointermove', (e) => {
+				if (!dragging) return;
+				const deltaY = e.clientY - startY;
+				const maxScroll = abstractEl.scrollHeight - abstractEl.clientHeight;
+				const atTopAndPullingDown = abstractEl.scrollTop <= 0 && deltaY > 0;
+				const atBottomAndPullingUp = abstractEl.scrollTop >= maxScroll && deltaY < 0;
+				if (atTopAndPullingDown || atBottomAndPullingUp) return; // let the outer feed handle it
+				abstractEl.scrollTop = Math.max(0, Math.min(maxScroll, startScrollTop - deltaY));
+				if (e.cancelable) e.preventDefault();
+				e.stopPropagation();
+				if (capturedId === null) {
+					capturedId = e.pointerId;
+					try { abstractEl.setPointerCapture(capturedId); } catch (err) { /* ignore */ }
+				}
+			}, { passive: false });
+
+			function stopAbstractDrag(e) {
+				dragging = false;
+				if (capturedId !== null) {
+					try { if (abstractEl.hasPointerCapture(capturedId)) abstractEl.releasePointerCapture(capturedId); } catch (err) { /* ignore */ }
+					capturedId = null;
+				}
+			}
+			abstractEl.addEventListener('pointerup', stopAbstractDrag);
+			abstractEl.addEventListener('pointercancel', stopAbstractDrag);
+		}
+
 		function renderFeed(papers) {
 			if (observer) observer.disconnect();
 			feed.innerHTML = '';
@@ -755,6 +803,7 @@
 					${i === 0 ? `<div class="swipe-hint" id="swipeHint">${chevronIcon}<span>Swipe</span></div>` : ''}
 				`;
 				feed.appendChild(slide);
+				setupAbstractDrag(slide.querySelector('.abstract'));
 			});
 
 			feed.scrollTop = 0;
@@ -838,12 +887,20 @@
 			// non-zero scrollTop with overscroll-behavior: contain — with
 			// #feed's CSS scroll-behavior: smooth still active, that combo
 			// silently blocks scrollIntoView on a sibling slide in some
-			// browsers until the abstract's own scroll resets to 0. Forcing
-			// an instant (non-smooth) scroll here, same as the progress
-			// track already does, reliably sidesteps it.
-			feed.style.scrollBehavior = 'auto';
-			currentSlides[next].scrollIntoView({ block: 'start' });
-			feed.style.scrollBehavior = '';
+			// browsers until the abstract's own scroll resets to 0.
+			// Resetting it here (rather than forcing an instant page jump)
+			// keeps the normal smooth slide animation, and is reasonable UX
+			// anyway — leaving with a paper starts it fresh at the top if
+			// the reader swipes back to it later.
+			const leavingAbstract = currentSlides[current] && currentSlides[current].querySelector('.abstract');
+			if (leavingAbstract) leavingAbstract.scrollTop = 0;
+			// A layout tick between resetting that scrollTop and requesting
+			// the smooth scrollIntoView matters — doing both synchronously
+			// back-to-back reproduced the same silent block this reset is
+			// meant to avoid.
+			requestAnimationFrame(() => {
+				currentSlides[next].scrollIntoView({ behavior: 'smooth' });
+			});
 		});
 
 		(async function bootstrap() {
