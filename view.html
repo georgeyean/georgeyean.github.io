@@ -925,8 +925,17 @@
 			// PDFs, bracketed appendix titles, etc.). Strip any leading
 			// run of non-alphanumeric characters before comparing so
 			// '"Ideal Theory"...' sorts under I, not before every letter.
+			// Titles that start with a digit even after that stripping
+			// (numbered readings like "02 Fraser...", "01-Interests...")
+			// are bucketed after every letter-led title instead of being
+			// interleaved among them by numeric value.
 			const sortKey = (title) => (title || '').replace(/^[^\p{L}\p{N}]+/u, '');
-			ALL_PAPERS.sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title), undefined, { sensitivity: 'base' }));
+			ALL_PAPERS.sort((a, b) => {
+				const ka = sortKey(a.title), kb = sortKey(b.title);
+				const aIsDigit = /^\p{N}/u.test(ka), bIsDigit = /^\p{N}/u.test(kb);
+				if (aIsDigit !== bIsDigit) return aIsDigit ? 1 : -1;
+				return ka.localeCompare(kb, undefined, { sensitivity: 'base' });
+			});
 			loading.remove();
 			populateGroupOptions(ALL_PAPERS);
 			renderFeed(ALL_PAPERS);
