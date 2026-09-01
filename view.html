@@ -912,6 +912,21 @@
 				console.warn('papers.json fetch failed, using fallback papers:', err);
 			}
 			ALL_PAPERS = papers || FALLBACK_PAPERS;
+			// Alphabetical by title, case/locale-aware. Sorted once here
+			// rather than per-render: every group filter downstream is a
+			// plain .filter() over this array (no re-sort of its own), so
+			// sorting the source array once keeps both "All groups" and
+			// every individual group alphabetical for free.
+			//
+			// JS's default collation sorts leading punctuation (", (, [)
+			// before letters — technically "alphabetical" but not what a
+			// person means by it, and this library has plenty of titles
+			// starting with a quote, paren, or bracket (course-reading
+			// PDFs, bracketed appendix titles, etc.). Strip any leading
+			// run of non-alphanumeric characters before comparing so
+			// '"Ideal Theory"...' sorts under I, not before every letter.
+			const sortKey = (title) => (title || '').replace(/^[^\p{L}\p{N}]+/u, '');
+			ALL_PAPERS.sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title), undefined, { sensitivity: 'base' }));
 			loading.remove();
 			populateGroupOptions(ALL_PAPERS);
 			renderFeed(ALL_PAPERS);

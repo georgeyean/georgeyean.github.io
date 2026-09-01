@@ -13,15 +13,20 @@ and must never be committed, since it grants read access to the whole
 private library. Generate one at zotero.org -> Settings -> Security.
 
 IMPORTANT: an item already present in the existing papers.json is carried
-forward completely untouched — none of its fields are ever recomputed from
-Zotero's current data, no matter what changed on the Zotero side (title
-edit, added abstract, added attachment, etc.). Only genuinely new items
-(keys not already in papers.json) are built fresh from Zotero. This is
-deliberate: journal/abstract fields get hand-corrected via web research
-after export, and this script must never silently clobber that work just
-because you added more papers to Zotero. The one way an existing entry
-disappears is if you delete it from Zotero — since output only ever
-contains items Zotero still returns, a deleted item is simply dropped.
+forward untouched — none of its fields are recomputed from Zotero's current
+data, no matter what changed on the Zotero side (title edit, added
+abstract, added attachment, etc.) — with ONE exception: "group" (the feed's
+Group-dropdown value) is always refreshed live from the item's current
+Zotero collection, even for an existing entry, so moving a paper to a
+different folder in Zotero and re-running this script does update its
+group. Everything else about an existing entry is deliberately frozen:
+journal/abstract fields get hand-corrected via web research after export,
+and this script must never silently clobber that work just because you
+added more papers to Zotero (or moved one to a different folder). Only
+genuinely new items (keys not already in papers.json) are built fresh from
+Zotero. The one way an existing entry disappears is if you delete it from
+Zotero — since output only ever contains items Zotero still returns, a
+deleted item is simply dropped.
 
 Scope for NEW items: every top-level item in the whole personal library
 (items/top — excludes child notes/attachments), including items without an
@@ -240,14 +245,20 @@ def main():
     items = fetch_all_pages("/items/top")
     cache = load_cache()
 
-    # Existing entries are carried forward completely untouched — never
-    # re-derived from Zotero's current data, no matter what changed there.
-    # This is deliberate: journal/abstract/etc. get hand-corrected via web
-    # research after export (see the whole point of the "source" field and
-    # scripts/merge_web_abstracts.py), and re-running this script whenever a
-    # new paper gets added to Zotero must never overwrite that hand-checked
-    # work. The only thing that can remove an existing entry is deleting it
-    # from Zotero — since we only iterate over items Zotero returns right
+    # Existing entries are carried forward untouched — never re-derived from
+    # Zotero's current data, no matter what changed there — with ONE
+    # deliberate exception: "group" (the feed's folder-based Group dropdown
+    # value) is always recomputed live from the item's current Zotero
+    # collection, even for an existing entry. That's safe to keep in sync
+    # because it's cheap, unambiguous metadata straight from Zotero with no
+    # research or verification behind it — unlike journal/abstract/subtitle,
+    # which get hand-corrected via web research after export (see the whole
+    # point of the "source" field and scripts/merge_web_abstracts.py) and
+    # must never be silently overwritten by re-running this script. So:
+    # move a paper to a different Zotero folder, re-run this script, and its
+    # group updates on the next export — but its journal/abstract never do.
+    # The only thing that can remove an existing entry entirely is deleting
+    # it from Zotero — since we only iterate over items Zotero returns right
     # now, a paper no longer there is simply not carried forward.
     new_items = [it for it in items if it["key"] not in cache]
 
@@ -257,7 +268,20 @@ def main():
           f"checking each one's indexed PDF text for a real Abstract section "
           f"(skipping ones with no attachments at all)...")
 
-    papers = [cache[it["key"]] for it in items if it["key"] in cache]
+    papers = []
+    group_updated = 0
+    for it in items:
+        key = it["key"]
+        if key not in cache:
+            continue
+        p = cache[key]
+        item_collections = it["data"].get("collections") or []
+        current_group = group_map.get(item_collections[0], "My Library") if item_collections else "My Library"
+        if p.get("group") != current_group:
+            group_updated += 1
+        p["group"] = current_group
+        papers.append(p)
+
     recovered_count = 0
     checked_count = 0
     skipped_course_material = 0
@@ -322,6 +346,9 @@ def main():
 
     OUT_PATH.write_text(json.dumps(papers, indent=2, ensure_ascii=False) + "\n")
     print(f"Wrote {len(papers)} papers to {OUT_PATH}")
+    if group_updated:
+        print(f"Updated the group for {group_updated} existing papers that moved to a "
+              f"different Zotero collection since the last export")
     if skipped_course_material:
         print(f"Skipped {skipped_course_material} items that look like course "
               f"slides/syllabi/lecture notes with no Zotero abstract")
