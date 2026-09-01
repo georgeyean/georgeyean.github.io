@@ -12,15 +12,27 @@ root (same directory as this script's parent) — that file is git-ignored
 and must never be committed, since it grants read access to the whole
 private library. Generate one at zotero.org -> Settings -> Security.
 
-Scope: every top-level item in the whole personal library (items/top —
-excludes child notes/attachments), including items without an abstract,
-EXCEPT items that look like course slides/syllabi/lecture notes (see
-is_course_material()) AND have no abstractNote in Zotero — those are
+IMPORTANT: an item already present in the existing papers.json is carried
+forward completely untouched — none of its fields are ever recomputed from
+Zotero's current data, no matter what changed on the Zotero side (title
+edit, added abstract, added attachment, etc.). Only genuinely new items
+(keys not already in papers.json) are built fresh from Zotero. This is
+deliberate: journal/abstract fields get hand-corrected via web research
+after export, and this script must never silently clobber that work just
+because you added more papers to Zotero. The one way an existing entry
+disappears is if you delete it from Zotero — since output only ever
+contains items Zotero still returns, a deleted item is simply dropped.
+
+Scope for NEW items: every top-level item in the whole personal library
+(items/top — excludes child notes/attachments), including items without an
+abstract, EXCEPT items that look like course slides/syllabi/lecture notes
+(see is_course_material()) AND have no abstractNote in Zotero — those are
 dropped entirely rather than shown with "No abstract available," since
 they aren't really papers. A real Zotero abstract overrides the title
 pattern, so a genuine paper whose title happens to look course-y is never
-dropped incorrectly.
-Each item is tagged with a "group" name used for the feed's Group dropdown:
+dropped incorrectly. (This filter only ever applies to new items — an
+existing entry is never re-evaluated against it.)
+Each new item is tagged with a "group" name used for the feed's Group dropdown:
 its top-level ("first level") collection ancestor, EXCEPT when that
 top-level ancestor is "Zotero Library" — that one folder is broad enough
 that we instead use the collection one level below it (e.g. "Globalization",
@@ -28,8 +40,8 @@ that we instead use the collection one level below it (e.g. "Globalization",
 filed with no deeper nesting directly under "Zotero Library" (or in no
 collection at all) fall back to "Zotero Library" / "My Library".
 
-For items with no abstractNote in Zotero's metadata, this also tries to
-recover a REAL abstract from the attached PDF's Zotero-indexed full text
+For a NEW item with no abstractNote in Zotero's metadata, this also tries
+to recover a REAL abstract from the attached PDF's Zotero-indexed full text
 (the /fulltext endpoint) — many PDFs have an actual "Abstract" section on
 the page that was just never copied into the metadata field. This is only
 ever a real excerpt of the paper's own text, never a generated summary:
@@ -40,7 +52,10 @@ Recovered abstracts are flagged via a "source" field ("pdf" for text
 extracted here, "web" for ones a separate web-search pass merged in via
 merge_web_abstracts.py, "" for normal Zotero metadata) so the UI can (and
 does) disclose that provenance rather than presenting them as Zotero
-metadata.
+metadata. A new item's journal comes straight from Zotero's own
+publicationTitle/bookTitle/proceedingsTitle (or "" if Zotero has none) —
+there is no cache fallback to reach for here, since a genuinely new item
+was never in a previous run to begin with.
 """
 
 import json
@@ -225,34 +240,42 @@ def main():
     items = fetch_all_pages("/items/top")
     cache = load_cache()
 
-    missing = [it for it in items if not (it["data"].get("abstractNote") or "").strip()]
-    print(f"{len(missing)} of {len(items)} items have no abstract in Zotero; "
-          f"checking each one's indexed PDF text for a real Abstract section "
-          f"(skipping ones with no attachments at all, and ones already resolved by a previous run)...")
+    # Existing entries are carried forward completely untouched — never
+    # re-derived from Zotero's current data, no matter what changed there.
+    # This is deliberate: journal/abstract/etc. get hand-corrected via web
+    # research after export (see the whole point of the "source" field and
+    # scripts/merge_web_abstracts.py), and re-running this script whenever a
+    # new paper gets added to Zotero must never overwrite that hand-checked
+    # work. The only thing that can remove an existing entry is deleting it
+    # from Zotero — since we only iterate over items Zotero returns right
+    # now, a paper no longer there is simply not carried forward.
+    new_items = [it for it in items if it["key"] not in cache]
 
-    papers = []
+    missing = [it for it in new_items if not (it["data"].get("abstractNote") or "").strip()]
+    print(f"{len(items)} items in Zotero, {len(new_items)} new since the last export. "
+          f"{len(missing)} of the new ones have no abstract in Zotero; "
+          f"checking each one's indexed PDF text for a real Abstract section "
+          f"(skipping ones with no attachments at all)...")
+
+    papers = [cache[it["key"]] for it in items if it["key"] in cache]
     recovered_count = 0
     checked_count = 0
     skipped_course_material = 0
     rate_limited = False
 
-    for n, it in enumerate(items, 1):
+    for n, it in enumerate(new_items, 1):
         data = it["data"]
         key = it["key"]
         title = data.get("title") or "Untitled"
 
-        # Only drop a course-y-looking title if there's truly nothing to
-        # keep it for: no Zotero abstract AND no abstract already resolved
-        # (by a previous run's PDF/web research) sitting in the cache. That
-        # second check matters — otherwise re-running this script would
-        # silently discard real papers someone had already researched by
-        # hand just because the title also happens to look like a lecture
-        # slide (e.g. a numbered primary-source reading).
+        # Course slides/syllabi/lecture notes with no real Zotero abstract
+        # never make it in as new entries. This can only ever apply to a
+        # genuinely new item now — an existing entry is never re-evaluated
+        # against this filter, so a paper already in papers.json is safe
+        # even if its title happens to match one of these patterns.
         if not (data.get("abstractNote") or "").strip() and is_course_material(title):
-            cached_abstract = cache.get(key, {}).get("abstract", "")
-            if not cached_abstract:
-                skipped_course_material += 1
-                continue
+            skipped_course_material += 1
+            continue
 
         creator_summary = it.get("meta", {}).get("creatorSummary", "")
         year_match = re.search(r"\b(1[5-9]\d{2}|20\d{2})\b", data.get("date") or "")
@@ -267,27 +290,20 @@ def main():
         abstract = (data.get("abstractNote") or "").strip()
         source = ""
 
-        if not abstract and not rate_limited:
-            cached = cache.get(key)
-            already_resolved = cached and (cached.get("source") in ("pdf", "web") or it.get("meta", {}).get("numChildren", 0) == 0)
-            if already_resolved:
-                # Already resolved last run (recovered by some method, or confirmed no attachment)
-                abstract = cached.get("abstract", "")
-                source = cached.get("source", "")
-            elif it.get("meta", {}).get("numChildren", 0) > 0:
-                checked_count += 1
-                try:
-                    abstract = fetch_fulltext_abstract(key)
-                    source = "pdf" if abstract else ""
-                except RateLimited as e:
-                    rate_limited = True
-                    print(f"\nRate-limited by Zotero after checking {checked_count} items "
-                          f"({recovered_count} recovered). Retry-After: {e.retry_after}s "
-                          f"(~{e.retry_after // 60} min). Stopping fulltext lookups for this run — "
-                          f"everything else is still written out, and re-running later will only "
-                          f"check items not yet resolved.")
-                    abstract = cached.get("abstract", "") if cached else ""
-                    source = cached.get("source", "") if cached else ""
+        if not abstract and not rate_limited and it.get("meta", {}).get("numChildren", 0) > 0:
+            checked_count += 1
+            try:
+                abstract = fetch_fulltext_abstract(key)
+                source = "pdf" if abstract else ""
+            except RateLimited as e:
+                rate_limited = True
+                print(f"\nRate-limited by Zotero after checking {checked_count} items "
+                      f"({recovered_count} recovered). Retry-After: {e.retry_after}s "
+                      f"(~{e.retry_after // 60} min). Stopping fulltext lookups for this run — "
+                      f"everything else is still written out, and re-running later will only "
+                      f"check the new items not yet resolved.")
+                abstract = ""
+                source = ""
             if source:
                 recovered_count += 1
             if checked_count and checked_count % 50 == 0:
