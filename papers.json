@@ -1920,6 +1920,16 @@
     "group": "Example Papers"
   },
   {
+    "key": "MDDHSBSW",
+    "title": "Diplomacy and Domestic Politics: The Logic of Two-Level Games",
+    "subtitle": "Putnam · 1988",
+    "journal": "International Organization",
+    "abstract": "Argues that domestic politics and international relations are often inextricably entangled, but conventional state-centric theories fail to account for this connection. Develops a two-level game model of international negotiation in which a country's chief negotiator must simultaneously satisfy other states at the international bargaining table (Level I) and secure ratification from domestic constituents (Level II). The set of possible agreements that would be ratified domestically is a country's 'win-set'; an agreement is reachable only where negotiating parties' win-sets overlap, so a smaller domestic win-set can paradoxically strengthen a negotiator's bargaining leverage internationally. Illustrates the theory with cases including Western economic summitry, the Panama Canal and Versailles Treaty negotiations, and IMF stabilization programs.",
+    "source": "web",
+    "link": "https://www.zotero.org/georgeyean/items/MDDHSBSW",
+    "group": "Gov 1015"
+  },
+  {
     "key": "UKCSNY75",
     "title": "8-xpected Utility",
     "subtitle": "",
@@ -5788,6 +5798,16 @@
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/8PLE5XW5",
     "group": "Gov Causal"
+  },
+  {
+    "key": "FY4YIW2B",
+    "title": "Windows and War: Trend Analysis and Beijing's Use of Force",
+    "subtitle": "Christensen · 2006",
+    "journal": "New Directions in the Study of China's Foreign Policy",
+    "abstract": "Develops a trend-analysis framework, in the tradition of Allen Whiting's work on Chinese threat perception, for explaining Beijing's decisions to use force. Argues that Chinese leaders' calculations turn on perceived 'windows' — closing windows of vulnerability that create incentives to act before a security or bargaining position deteriorates further, and windows of opportunity that make coercive action seem newly viable. Examines historical instances of Chinese use of force through this lens to show how shifting trends in relative power and resolve, not just static balances, shape the timing of Beijing's decisions to escalate.",
+    "source": "web",
+    "link": "https://www.zotero.org/georgeyean/items/FY4YIW2B",
+    "group": "Gov Iain China"
   },
   {
     "key": "UFHXC5CJ",
@@ -11058,5 +11078,15 @@
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/GKNTCZ3X",
     "group": "Gvc"
+  },
+  {
+    "key": "ZY2FM7BM",
+    "title": "Initiate and Elevate! How Political Parties Can Set an Agenda",
+    "subtitle": "Eriksen · 2026",
+    "journal": "American Political Science Review",
+    "abstract": "The study of political agenda setting is a cornerstone in political science. Within this literature, political parties are implicitly portrayed as being capable of proactively initiating discussions. However, this fundamental notion of party agency deserves further theoretical and empirical attention. In response, this article crafts a new model (the Issue Initiation Model) that opens the window into parties’ efforts to set an agenda and traces how they initiate and elevate their agenda. The model is tested on an original dataset covering more than 5.5-million tweets by political parties and MPs, coupled with over 750,000 news articles and 419,000 parliamentary questions in the United Kingdom and Denmark from 2015 to 2022. Results show how parties and their MPs can proactively redirect the attention of other actors through strategic planning and orchestrated actions. By theorizing and empirically testing the implicit notion that parties can proactively initiate discussions, this article has important implications for political agenda setting.",
+    "source": "",
+    "link": "https://www.zotero.org/georgeyean/items/ZY2FM7BM",
+    "group": "Example Papers"
   }
 ]
