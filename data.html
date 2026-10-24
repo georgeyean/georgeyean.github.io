@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Datasets - George Yean</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+       $(function(){
+          $("#header").load("header.html?"); 
+        });
+    </script>
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2>Datasets</h2>
+									</div>
+								</header>
+								<p><b>Globalization Grievance Index</b></p>
+								<p><b>National security and dual-use classification: HS-6 level products</b></p>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+							<li><a href="https://x.com/george_yean?lang=en" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/in/george-yin-60b00519b/" class="icon solid">LinkedIn</a></li>
+						</ul>
+						<p class="copyright">&copy; George Yean. updated 10.2024</p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script>
+         $(function(){
+            $.get("https://georgeyean.github.io/header.html?", function(data) {
+              $("#wrapper").prepend(data); 
+              
+              // $.getScript("https://georgeyean.github.io/assets/js/util.js");
+              // $.getScript("https://georgeyean.github.io/assets/js/main.js");
+
+              
+              // Option #1
+              //$('head').append('<script src="https://georgeyean.github.io/assets/js/util.js"><\/script>');
+              //$('head').append('<script src="https://georgeyean.github.io/assets/js/main.js"><\/script>');
+
+              // Option #2
+              var utilScript = document.createElement("script");
+              utilScript.type = "text/javascript";
+              utilScript.src = "https://georgeyean.github.io/assets/js/util.js";
+               $("body").append(utilScript);
+              
+              var mainScript = document.createElement("script");
+               mainScript.type = "text/javascript";
+              mainScript.src = "https://georgeyean.github.io/assets/js/main.js";
+              $("body").append(mainScript);         
+            });
+          });
+          
+         // $(document).on("click", ".main", function () {
+         //     $("body").toggleClass("is-menu-visible");  // Adjust the menu selector as needed
+         // });
+      </script> 
+			
+
+	</body>
+</html>
