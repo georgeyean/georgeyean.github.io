@@ -173,7 +173,6 @@
     margin-top: 0.6em;
     padding: 0.85em 1.1em;
     background: rgba(0, 0, 0, 0.025);
-    border-left: 3px solid #6b7b8c;
     border-radius: 2px;
     font-size: 0.9em;
     line-height: 1.65;
@@ -283,4 +282,78 @@
 /* ── 6. Contact/social link in footer ──────────────────────── */
 #footer .icons a {
     border-bottom: 0;
+}
+
+
+/* ── 4. Main-column section headings ────────────────────────── */
+
+/* "Research" / "Datasets" labels: a real section header (title, one-line
+   descriptor, optional "all" link) over a hairline, so each group of cards
+   below reads as one section instead of floating under a tiny label. */
+#main > .section-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0 1em;
+    margin: 0 0 1.25em 0;
+    padding: 0 0 0.7em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+#main > .section-heading h2 {
+    margin: 0;
+    font-size: 1.45em;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+#main > .section-heading p {
+    flex-basis: 100%;
+    order: 3;
+    margin: 0.25em 0 0 0;
+    font-size: 0.85em;
+    color: #6b7b8c;
+}
+
+#main > .section-heading .section-more {
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7b8c;
+    border-bottom: 0;
+    white-space: nowrap;
+}
+
+#main > .section-heading .section-more:hover {
+    color: #3c3b3b;
+}
+
+/* Space between the last card of one section and the next section header */
+#main > article.post + .section-heading {
+    margin-top: 3em;
+}
+
+/* Dataset cards reuse the paper-card markup; they have no figure, so
+   close up the empty gap under the buttons */
+.post.post-dataset {
+    padding-bottom: 0.9em;
+}
+
+.post.post-dataset > header {
+    margin-bottom: 0;
+}
+
+.post.post-dataset > header .title {
+    padding-bottom: 0.25em;
+}
+
+/* Phones: the theme widens .post cards past the column padding, so extend
+   the section header to the same edges instead of leaving it inset. */
+@media screen and (max-width: 736px) {
+    #main > .section-heading {
+        margin-left: -24px;
+        margin-right: -24px;
+    }
 }
