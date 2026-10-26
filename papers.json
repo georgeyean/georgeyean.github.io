@@ -67,7 +67,13 @@
     "abstract": "How do policies in international organizations reflect the preferences of powerful institutional stakeholders? Using an underutilized data set on the conditions associated with World Bank loans, we find that borrower countries that vote with the United States at the United Nations are required to enact fewer domestic policy reforms, and on fewer and softer issue areas. Though U.S. preferences permeate World Bank decision making, we do not find evidence that borrower countries trade favors in exchange for active U.S. intervention on their behalf. Instead, we propose that U.S. influence operates indirectly when World Bank staff—consciously or unconsciously—design programs that are compatible with U.S. preferences. Our study provides novel evidence of World Bank conditionality and shows that politicized policies can result even from autonomous bureaucracies.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/PQHNTWFB",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "U.S. preferences shape World Bank loan conditions indirectly: autonomous Bank staff, consciously or not, design programs compatible with U.S. preferences. This is distinct from borrowers trading favors for U.S. intervention on their behalf.",
+      "empirics": "The Bank's Development Policy Action Database (conditions on development policy loans since 2005). Outcomes are the number of prior actions, the number of policy areas covered, and the softness of conditions. The key predictor is a borrower's UN General Assembly voting distance from the U.S., with controls and imputation, plus interviews.",
+      "why": "This database gives the first granular view of World Bank conditions, a data gap the authors note had kept the literature focused on the IMF. UN voting is the standard measure of political ties in that literature. Ruling out quid-pro-quo favoritism lets them argue for the indirect channel.",
+      "basis": "full text"
+    }
   },
   {
     "key": "NSYZ2I7L",
@@ -87,7 +93,13 @@
     "abstract": "Despite their strong implications for strategic interactions between states and non-state actors, epidemics remain underinvestigated as catalysts of civil conﬂict. This paper explains how, why, and when epidemics intensify civil conﬂict. I argue that frontier plagues, deﬁned as severe epidemics in low-capacity regions, intensify civilian coercion in outbreak epicenters. During frontier plagues, states send healthcare professionals and deploy security forces to epicenters for protection. Insurgents respond by reallocating combatants to these areas to defend territorial control, but they shift from battles against the state toward coercive violence against civilians as direct confrontation becomes costly. Frontier plagues thus generate a containment trap: eﬀorts to control epidemics intensify civil conﬂict. I test this argument using microlevel data on 44,331 Ebola patients in the Democratic Republic of the Congo and 922 epidemics across sub-Saharan Africa. Using a spatiotemporal causal inference design, I show that frontier plagues signiﬁcantly increase civilian targeting in outbreak epicenters.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/YJ677UTQ",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "In 'frontier plagues' (severe epidemics in low-capacity regions) the state sends health workers and security forces to the epicenter. Insurgents move combatants there to defend territory and shift from fighting the state to coercing civilians, so containment efforts intensify conflict (a 'containment trap').",
+      "empirics": "A dataset of 922 epidemics in sub-Saharan Africa (2011-2020) and a patient-level line list of the 2018-2020 Ebola epidemic in the DRC (88,458 records), merged with georeferenced violence events. A spatiotemporal causal design with stochastic interventions and inverse probability weighting, identified through exogenous exposure to ecological reservoirs (fruit-bat habitat for Ebola, water bodies for cholera).",
+      "why": "Comparing high-burden Ebola with low-burden cholera tests how disease burden changes the effect. Patient-level data lets the author trace mechanisms. The spatiotemporal framework is chosen because spillovers and carryover make standard panel assumptions hard to defend. Reservoir geography is time-invariant and predetermined relative to short-run conflict.",
+      "basis": "full text"
+    }
   },
   {
     "key": "XFC9F3UH",
@@ -97,7 +109,13 @@
     "abstract": "Are states more interested in claiming territories that have economic resources? While previous theories of international relations assume that resources make a territory more tempting to claim, all else equal, I argue that certain types of economic resources can make states less willing to claim a territory. The presence of capitalintensive resources—such as oil or minerals—raises concerns about how the benefits of acquiring the territory would be distributed within the nation. These distributional concerns make it harder and costlier for leaders to mobilize widespread and consistent support for claiming resource-rich lands. Using original geocoded data on territorial claims in South America from 1830 to 2001, I show that states are indeed less likely to claim lands that have oil or minerals, even when they can be claimed for historical or administrative reasons. I then illustrate the theoretical mechanism through a case study of Bolivia, comparing Bolivian attitudes toward reclaiming its two lost provinces, the Chaco and the Litoral. By showing how the presence of economic resources can become a liability in mobilizing unified support, this paper questions the widespread assumption that resources make territories more desirable to claim.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/XFC9F3UH",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Capital-intensive resources (oil, minerals) raise concerns about how a territory's benefits would be distributed at home, making it costlier for leaders to mobilize broad, consistent support for claiming it. States are therefore less likely to claim resource-rich land.",
+      "empirics": "Original geocoded data on territorial claims in South America, 1830-2001, with resource capital intensity as the key predictor. Controls for baseline claim risk: past ownership, unclear former jurisdictions, and distance from colonial administrative borders. A comparative case study of Bolivia's two lost provinces, the Chaco (oil potential) and the Litoral (no specific resources).",
+      "why": "Limiting the sample to land claimable on historical or administrative grounds isolates the resource effect from other reasons to claim. Bolivia is a good test because it lost several provinces in war, so one can see which ones leaders were able to rally support for reclaiming.",
+      "basis": "full text"
+    }
   },
   {
     "key": "IARIW5TL",
@@ -107,7 +125,13 @@
     "abstract": "Despite their significant influence on the development trajectories of recipient nations, we know little about the lending strategies of international financial institutions (IFIs) dominated by authoritarian regimes. In this paper, we provide new evidence that autocratic IFIs are not merely neutral economic actors. Our findings suggest that these institutions provide financial support to authoritarian governments facing acute threats to their survival. We introduce an original data set tracking the lending behavior of eighteen autocratic IFIs across 143 recipient countries from 1967 to 2021. Our findings uncover that aid flows from autocratic IFIs increase precisely when authoritarian regimes are most vulnerable. By situating these insights within the broader aid allocation literature, we provide a fresh perspective on the political calculus of international development lending, with profound implications for understanding global power dynamics.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/IARIW5TL",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "International financial institutions dominated by autocracies are not neutral lenders: they channel financing to authoritarian governments facing acute domestic or international threats, as defensive support against democracy promotion and anti-establishment forces. This complements theories based on donor intent.",
+      "empirics": "An original dataset of lending by 18 autocratic IFIs (classified by members' average V-Dem democracy score) to 143 recipients, 1967-2021, with the IFI-by-autocratic-recipient-year as the unit. The predictors are indicators of domestic and international threat to the regime, with controls for IFI-specific features. Extensions: democratic recipients and a comparison with democratic IFIs.",
+      "why": "The new IFI-level data is needed because existing aid data centers on Western donors (inferred). Alternative classifications of 'autocratic IFI' address classification concerns. The democratic-recipient and democratic-IFI comparisons are exploratory benchmarks for whether the pattern is specific to autocratic lenders.",
+      "basis": "full text"
+    }
   },
   {
     "key": "X6EYPM7W",
@@ -147,7 +171,13 @@
     "abstract": "Conventional wisdom treats politicization in the international human rights regime as invariant: for any given violation, states condemn adversaries while coddling friends. However, we find that politicization patterns vary markedly across human rights issues. Some norms are more politicized than others, and states are\n              more\n              likely to punish geopolitical partners on certain violations. We offer a novel theory of politicized enforcement wherein states punish human rights violations discriminatively based on their perceived “sensitivity” for the target state. Using data from the UN Universal Periodic Review, an elaborate human rights mechanism, we show that states tend to criticize their adversaries on sensitive issues that undermine the target regime’s power and legitimacy while addressing safer topics with friends. By uncovering a strategic logic of human rights enforcement, this research contributes new theoretical insights on the relationship between norms and power politics in global governance.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/L8CCS9XP",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "States punish human rights violations selectively by how 'sensitive' the issue is for the target regime. Adversaries are pressed on sensitive issues that threaten the regime's power and legitimacy, while friends are addressed on safer topics like socioeconomic rights, so politicization depends on the issue.",
+      "empirics": "More than 57,000 recommendations from the first two cycles (2006-2018) of the UN Universal Periodic Review, coded across 54 human rights issues. The analysis tracks how geopolitical ties between reviewer and target change the likelihood of each type of recommendation.",
+      "why": "The UPR is the most elaborate multilateral human rights enforcement process, and its recommendation-level data allow issue-by-issue mapping instead of one average level of politicization. The 54-issue breadth is what lets the authors show politicization varies.",
+      "basis": "full text"
+    }
   },
   {
     "key": "FUKAYUMF",
@@ -157,7 +187,13 @@
     "abstract": "Why does government violence deter political challengers in one context, but inﬂame them in the next? This paper argues that repression increases opposition activity at low and moderate levels, but decreases it in the extreme. There is a threshold level of violence, where the opposition becomes unable to recruit new members, and the rebellion unravels — even if the government kills more innocents. We ﬁnd empirical support for this proposition in disaggregated data from Chechnya and a meta-analysis of sub-national conﬂict dynamics in 71 countries. The data suggest that a threshold exists, but the level of violence needed to reach it varies. Many governments, thankfully, are unable or unwilling to go that far. We explore conditions under which this threshold may be higher or lower, and highlight a fundamental trade-off between reducing government violence and preserving civil liberties.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/FUKAYUMF",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Repression and rebellion are locked in 'coercive outbidding' for civilian cooperation. Repression raises opposition activity at low and moderate levels, but past a threshold the opposition cannot recruit and rebellion unravels. The threshold depends on information about rebels, external support, freedom of discussion, and legal and normative constraints.",
+      "empirics": "District-month data from Chechnya, 2000-2012 (14 districts, with incident reports on government and rebel violence), with grid-cell replication. A dose-response function estimated with inverse generalized propensity score weights. A meta-analysis of sub-national conflict dynamics in 71 countries from multiple event datasets.",
+      "why": "A dose-response function lets the effect differ across levels of repression, which is needed to detect a threshold. Propensity weighting handles the fact that governments do not repress at random. Chechnya supplies fine-grained two-sided violence data, and the 71-country replication tests generalizability.",
+      "basis": "full text"
+    }
   },
   {
     "key": "DCTNN244",
@@ -197,7 +233,13 @@
     "abstract": "We argue that economic and political integration leads voters’ political preferences toward cross-national convergence. Analyzing data on voter preferences across 30 European democracies from 1976 to 2022, we measure the similarity of preference distributions across state dyads over time, documenting an average increase in similarity over this period. We then model these associations statistically and ﬁnd that greater similarity and complementarity in economic production and co-participation in the European Union and the Eurozone are associated with increasingly similar voter preferences. The argument and analyses broaden our understanding of the political implications of globalization and also provide a theoretical and empirical foundation for two growing literatures: one on the cross-national diffusion of parties’ strategies and one on the political implications of macroeconomic stimuli such as trade shocks or banking crises.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/HRZCFPCF",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Economic and political integration pushes voters' preferences toward cross-national convergence. Countries with similar or complementary production structures, and those sharing EU and Eurozone membership, face similar shocks and policies, so their electorates grow more alike.",
+      "empirics": "Voter preference distributions in 30 European democracies, 1976-2022. For each pair of countries and year, the authors measure how similar their preference distributions are, then model that similarity on economic similarity and complementarity and on EU and Eurozone co-membership. An ancillary analysis looks at shared exposure to the 'China shock'.",
+      "why": "Work on party-strategy diffusion and 'electoral waves' implicitly assumes voter preferences are correlated across borders, and the paper tests that assumption directly with a pairwise similarity measure. The China-shock analysis checks the economic-exposure channel.",
+      "basis": "full text"
+    }
   },
   {
     "key": "ZTS4N56E",
@@ -207,7 +249,13 @@
     "abstract": "States often fortify their borders against militant threats. How do these efforts shape civilian welfare and perceptions in borderland communities? I conceptualize border fortiﬁcation as a legibility-building endeavor. By bolstering state reach in areas of weak historical penetration, fortiﬁcation enhances the government’s capacity for monitoring, administration, and control. Yet, expanding state authority also disrupts traditional cross-border markets. A trade-off between security and corruption emerges in consequence. I provide evidence for this theory in a difference-in-differences framework, combining administrative records on violence and representative data from a NATO-commissioned survey ﬁelded across Afghanistan. Fortiﬁcation facilitates government information-collection, improving security provision and fostering civilian reliance on state forces. Enhanced state capacity is countervailed by negative economic impacts. By disturbing the informal borderland economy, fortiﬁcation fuels criminalization and local opposition. Civilians rely on illicit economic entrepreneurs to sustain traditional market access. Higher smuggling rents fuel ofﬁcial corruption and bribe-taking. The ﬁndings point to a key dilemma inherent in border fortiﬁcation strategies.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/ZTS4N56E",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Border fortification is a legibility-building project. It extends state reach, monitoring and control into weakly penetrated borderlands, improving security provision and civilian reliance on state forces. But it also disrupts informal cross-border markets, fueling smuggling, bribe-taking and local opposition: a security-versus-corruption trade-off.",
+      "empirics": "A difference-in-differences design in Afghanistan combining administrative records on violence with a NATO-commissioned representative survey. Outcomes include information-sharing with the government, security provision, reliance on state forces versus traditional authorities, economic well-being, criminalization and corruption.",
+      "why": "Pairing violence records with survey data lets the author test both channels at once: the information and security gains and the economic costs. A difference-in-differences framework compares fortified and unfortified areas before and after (inferred).",
+      "basis": "full text"
+    }
   },
   {
     "key": "42LVZHCM",
@@ -217,7 +265,13 @@
     "abstract": "How domestic constituents respond to signals of weakness in foreign wars remains an important question in international relations. This paper studies the impact of battleﬁeld casualties and media coverage on public demand for war termination. To identify the effect of troop fatalities, we leverage the timing of survey collection across respondents from nine members of the International Security Assistance Force in Afghanistan. Quasi-experimental evidence demonstrates that battleﬁeld casualties increase the news coverage of Afghanistan and the public demand for withdrawal. Evidence from a survey experiment replicates the main results. To shed light on the media mechanism, we leverage a news pressure design and ﬁnd that major sporting matches occurring around the time of battleﬁeld casualties drive down subsequent coverage, and signiﬁcantly weaken the effect of casualties on support for war termination. These results highlight the role that media play in shaping public support for foreign military interventions.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/42LVZHCM",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Battlefield casualties signal weakness, raising news coverage of the war and public demand for withdrawal. Media coverage is the mechanism: when other news crowds out casualty coverage, casualties matter less.",
+      "empirics": "Pew Global Attitudes surveys (2007-2011) from nine troop-sending ISAF countries. A quasi-experimental design uses staggered interview dates to compare respondents interviewed shortly after versus before casualties involving their own country's troops. A survey experiment replicates the result, and a 'news pressure' design uses major sporting events as shocks that crowd out coverage.",
+      "why": "The timing of interviews relative to casualty events is plausibly unrelated to respondent traits, giving causal leverage with existing survey data. The survey experiment checks the result under controlled conditions, and sports events provide outside variation in news coverage to isolate the media mechanism.",
+      "basis": "full text"
+    }
   },
   {
     "key": "WXTQBGFH",
@@ -227,7 +281,13 @@
     "abstract": "Existing research maintains that socioeconomically disadvantaged individuals are reluctant to seek information that might help mitigate risk. We challenge this convention by proposing that perceptions of risks associated with global economic shocks can incentivize some disadvantaged individuals to acquire knowledge about their distributional effects. Internal migrants, in particular, have strong incentives to respond to such risks by seeking information. We test our hypotheses using a randomized experiment in Vietnam exposing half of the participants to risks associated with a new trade agreement with the European Union. We track willingness to learn by observing whether respondents accessed an online video describing the economic impacts of the agreement. We ﬁnd that treated migrants were 187% more likely to seek knowledge than the control group, but ﬁnd null effects for residents from sending and receiving locations. Our ﬁndings help uncover the key role migrants can play in supporting globalization and shared prosperity.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/WXTQBGFH",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Perceived risk from global economic shocks can motivate some disadvantaged people to seek information about distributional effects. Internal migrants are especially likely to, because they can respond to opportunities but also face discrimination at their destination.",
+      "empirics": "A randomized experiment embedded in Vietnam's nationally representative PAPI survey. Half of respondents were exposed to the risks of the EU-Vietnam trade agreement. The outcome is behavioral: whether respondents then accessed an online video explaining the agreement's distributional impacts. Compares migrants with residents of sending and receiving areas and includes placebo checks.",
+      "why": "Tracking real video visits measures action instead of stated intent. Randomization isolates the effect of risk perception, and the national sample with a migrant subgroup supports the test that migrants alone should respond.",
+      "basis": "full text"
+    }
   },
   {
     "key": "8L3DB7DV",
@@ -237,7 +297,13 @@
     "abstract": "Immigration has been shown to drive ethnocentrism and anti-globalization attitudes in native-born populations. Yet understanding how global integration shapes intercultural relations also necessitates clear evidence on how migration affects the attitudes of migrants. We argue that migration can foster tolerance, cosmopolitan identities, and support for international cooperation among migrants who experience sustained contact with other cultural groups. We evaluate this theory with the ﬁrst randomized controlled trial resulting in overseas migration, which connected individuals in India with job opportunities in the Persian Gulf region’s hospitality sector. Two years after the program began, individuals in the treatment group were signiﬁcantly more accepting of ethnic, cultural, and national out-groups. Migration also bolstered support for international cooperation and cultivated cosmopolitan identities. Qualitative and quantitative evidence links these changes to intercultural contact overseas. By focusing on migrants rather than nativeborn individuals, our study illustrates how cross-border mobility can facilitate rather than undermine global integration.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/8L3DB7DV",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Migration can foster tolerance, cosmopolitan identity and support for international cooperation among migrants. Sustained contact with other cultural groups, especially without perceived discrimination, dispels negative beliefs and helps migrants see commonalities with out-groups.",
+      "empirics": "The first randomized controlled trial to result in overseas migration: a program connecting people in Mizoram, India to hospitality jobs in the Persian Gulf, which raised migration from 3% to 23%. An endline survey two years later measures acceptance of out-groups, identity and support for cooperation, estimated by intent-to-treat and 2SLS, with qualitative and quantitative evidence on contact.",
+      "why": "Randomizing access to migration removes selection into who migrates. The strong first stage and the 2SLS estimates give the effect among people who actually moved.",
+      "basis": "full text"
+    }
   },
   {
     "key": "U7IXVBFT",
@@ -247,7 +313,13 @@
     "abstract": "Individuals with heightened labor market insecurity express more protectionist, xenophobic, and isolationist sentiment. We construct a novel measure of labor market insecurity that combines an individual’s industry-based exposure to import competition with an occupation-based measure of job immobility. Immobility captures the similarity of an individual’s job to others in the economy, weighted by their prevalence. The holder of a job that is dissimilar to others in the industry or in the state experiences more anxiety regarding their labor market prospects in the face of a globalization shock, and is more likely to express antiglobalization sentiment.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/U7IXVBFT",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Labor market insecurity comes from import-competition exposure combined with job immobility. People in jobs dissimilar to those of others in their industry or state feel more anxiety when a globalization shock hits, and so express more antiglobalization sentiment.",
+      "empirics": "A new individual-level measure that combines industry exposure to import competition with an occupational immobility index built from similarity of task requirements across occupations (O*NET) and local job prevalence. Applied to U.S. survey attitudes, using support for NAFTA as a proxy for trade attitudes. Exposure lowers support by about 3% on average and about 10 points among the most immobile.",
+      "why": "Standard trade models treat mobility as fully fixed or fully flexible, whereas the new measure captures skill, industry and geographic differences. Task measures from the early 2000s avoid endogeneity with Chinese imports. It also addresses the puzzle that survey evidence on trade attitudes is weak while aggregate voting tracks trade shocks.",
+      "basis": "full text"
+    }
   },
   {
     "key": "AI3MBQ9K",
@@ -257,7 +329,13 @@
     "abstract": "Many are skeptical of the appeal of authoritarian political systems. We argue that global audiences will embrace authoritarian models when they believe that autocracies can meet governance challenges better than democracies. We collect comprehensive data on the external messaging of the Chinese and American governments. We then conduct a randomized experiment in 19 countries across six continents exposing global citizens to real messages from the Chinese and American governments’ external media arms. We ﬁnd that exposure to a representative set of Chinese messages strengthens perceptions that the Chinese Communist Party delivers growth, stability, and competent leadership. It also moves the average respondent from slightly preferring the American model to slightly preferring the Chinese model. In head-tohead matchups, messages from the US government are less persuasive. Our ﬁndings show how autocracies build global support by selling growth and competence, with important implications for democratic resilience.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/AI3MBQ9K",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Global audiences embrace authoritarian models when they believe autocracies can meet governance challenges better than democracies. Chinese state media sells growth, stability and competent leadership, and that raises support for the 'China model'.",
+      "empirics": "Two parts: observational data on over 20,000 videos from Chinese and U.S. government external media, and a randomized survey experiment in 19 countries on six continents. Arms: placebo, real CGTN videos, real U.S. State Department videos, or both, with sources labeled. Outcomes are perceptions of the CCP's delivery and a 6-point preference between the Chinese and American models.",
+      "why": "The video dataset establishes what the governments actually say, so the experiment can use a representative set of real messages instead of stylized ones. The head-to-head arm tests persuasiveness against the U.S., and the 19 diverse countries (rich and poor, democratic and autocratic) test generalizability.",
+      "basis": "full text"
+    }
   },
   {
     "key": "66HQ9ICH",
@@ -267,7 +345,13 @@
     "abstract": "Health and safety standards offer a convenient means by which governments can claim to be protecting the population, even while pursuing more parochial goals. In the realm of international trade, such standards have most often been studied as a means of veiled protectionism. Yet precisely because health and safety standards create ambiguity about their intent, nations may seek to use them for goals that extend well beyond protecting domestic industry. We theorize that governments will, at times, enforce regulations in ways intended to exact political retribution. To show this, we collect original data on import refusals by Chinese border inspectors between 2011 and 2019. Though ostensibly intended to keep dangerous products out of the hands of Chinese consumers, we demonstrate that import refusals have systematically been used by the Chinese government as a way to punish states that act against China’s interest.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/66HQ9ICH",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Because health and safety standards are ambiguous in intent, governments can enforce them as political retribution, not only as veiled protectionism. China should refuse imports from states that act against its interests.",
+      "empirics": "Original data on import refusals by Chinese border inspectors, 2011-2019, analyzed at the exporting-country level over time. The models test whether political tensions with a trading partner predict more refusals.",
+      "why": "Import refusals are a direct government action, so they separate a state-led response to political tension from other reactions that also reduce trade, such as consumer boycotts, supply-chain disruption or export redirection.",
+      "basis": "full text"
+    }
   },
   {
     "key": "YZJQMAT7",
@@ -277,7 +361,13 @@
     "abstract": "Recent decades have witnessed the adoption of unprecedentedly broad and inclusive accountability mechanisms by many major international institutions, from grievance redress systems to transparency policies. What explains the establishment of these mechanisms—and why have only some institutions embraced them? I argue that adoption is more likely when member states, in particular the most powerful, face “bottom-up” pressures for accountability from dense transnational civil society networks—networks with the capacity to build leverage through agenda setting, coalition building, and advocacy strategies—and when institutions perform governance tasks that are costly to monitor. Analysis of a rich new dataset shows that adoption is positively related to the density of international nongovernmental organizations in an institution’s issue area—including only those based in powerful member countries—and that this relationship is stronger when governance tasks entail high monitoring costs. Statistical tests are complemented by qualitative evidence from interviews and other primary sources.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/YZJQMAT7",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "International institutions adopt accountability mechanisms (grievance redress, transparency, evaluation) when powerful member states face bottom-up pressure from dense transnational civil society networks, and especially when the institution's tasks are costly to monitor.",
+      "empirics": "A new institution-year panel of 52 institutions over 1960-2018, with the annual change in a composite accountability score as the outcome. The key predictor is the density of international NGOs in each issue area, counting only those based in powerful member countries (built from the Yearbook of International Organizations). Interacted with task monitoring costs, with an instrumental-variables analysis, robustness checks and qualitative evidence.",
+      "why": "This is the first systematic mapping of NGO density across many policy areas over time. Lagging predictors one year addresses simultaneity, and counting only NGOs from powerful states tests the claimed mechanism. The IV analysis tackles endogeneity (inferred).",
+      "basis": "full text"
+    }
   },
   {
     "key": "525DDTW8",
@@ -287,7 +377,13 @@
     "abstract": "This article examines how treaty withdrawal affects international cooperation. By terminating its treaty commitments, the exiting state could earn a reputation for unreliability, making other states less willing to cooperate with it. However, states’ reactions to withdrawal vary markedly, even though it is public behavior. I develop an experiential theory of international cooperation that explains this variation. I argue that withdrawal damages the exiting state’s relations with other treaty members, causing them to ratify fewer agreements with it in the future. I test this theory using an original data set of all treaties registered with the United Nations and a case study of France’s exit from NATO’s Status of Forces Agreement. I find that withdrawal reduces treaty members’ ratification of agreements with the exiting state by 7.9% in the 7 years after exit. This effect increases with the salience and material cost of withdrawal and can spill across issue areas.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/525DDTW8",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "An experiential theory of cooperation: unilateral treaty withdrawal damages the exiting state's relations with other treaty members, who also bear the material costs of broken cooperation. Treaty members therefore become less willing to cooperate with the withdrawing state than nonmembers, more so when the exit is salient or costly.",
+      "empirics": "A difference-in-differences design using the timing of withdrawals from multilateral treaties and the networked structure of membership. Outcome is the logged number of new treaties that other states join alongside the withdrawing state, comparing treaty members with nonmembers who share at least one other treaty with it, before and after exit. Cooperation by members stays below its pre-exit level even ten years later.",
+      "why": "Multilateral membership changes sequentially, so the dates when a state leaves others behind and when states join existing agreements are directly observable. Bilateral treaties are excluded because the UN records often do not show who initiated termination, making unilateral and cooperative exit hard to distinguish.",
+      "basis": "full text"
+    }
   },
   {
     "key": "NS7S37Y5",
@@ -297,7 +393,13 @@
     "abstract": "Scholars have written extensively about hierarchical international order, on the one hand, and war on the other, but surprisingly little work systematically explores the connection between the two. This disconnect is all the more striking given that empirical studies have found a strong relationship between the two. We provide a generative computational network model that explains hierarchy and war as two elements of a larger recursive process: The threat of war drives the formation of hierarchy, which in turn shapes states’ incentives for war. Grounded in canonical theories of hierarchy and war, the model explains an array of known regularities about hierarchical order and conﬂict. Surprisingly, we also ﬁnd that many traditional results of the international relations literature—including institutional persistence, balancing behavior, and systemic self-regulation—emerge from the interplay between hierarchy and war.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/NS7S37Y5",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Hierarchy and war are two parts of one recursive process: the threat of war drives states to form hierarchies, and hierarchy in turn shapes states' incentives for war. States bargain over issues, risking war, and can contract with a hierarch who reduces war danger in exchange for benefits such as alliances, basing rights or votes.",
+      "empirics": "A generative computational network model (agent-based simulation) built on canonical theories of hierarchy and war. The 'evidence' is whether simulated outcomes reproduce known empirical regularities, such as the distribution of conflict onsets per period, institutional persistence, balancing and systemic self-regulation.",
+      "why": "The authors adopt the generative standard of explanation ('if you didn't grow it, you didn't explain it'): showing that a simple set of agent-level rules produces many known regularities at once. A simulation is also the only practical way to study how bargains aggregate into system-wide hierarchy.",
+      "basis": "full text"
+    }
   },
   {
     "key": "GMD93TGV",
@@ -317,7 +419,13 @@
     "abstract": "Within political institutions largely insulated from money in politics and domestic electoral considerations, to what extent are non-state actors able to inﬂuence regulations? Many international organizations (IOs) are composed only of state members, but their regulations have far-reaching consequences for non-state actors. This paper sheds new light on the inﬂuence of non-state actors, particularly ﬁrms, on regulations with a focus on the case of OECD tax evasion regulations. I argue that ﬁrms and industry associations work to build positive reputations with bureaucrats through broad based and quality written public comments to further their policy preferences. I present evidence that bureaucrats make decisions in line with these expectations through quantitative analysis of a new dataset of 3349 OECD public comments, natural language processing methods, and 38 in-depth interviews. The results indicate that stakeholder engagement may be a double edged sword: while intended to promote democratic processes and transparency, even these fora are susceptible to strategic ﬁrm behavior. However, while well-resourced ﬁrms and associations are at an advantage in having their voice heard in the creation of regulations, smaller ﬁrms that invest substantially in the process can have an out-sized inﬂuence. International taxation also represents a substantively important case of non-state actor inﬂuence given the successful coordination of 149 countries on new tax regulations.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/QEVFSL6T",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Firms and industry associations influence international organization regulations by building positive reputations with bureaucrats, through broad-based and high-quality written public comments, and bureaucrats then decide in line with their preferences.",
+      "empirics": "A new dataset of 3,349 public comments on OECD tax evasion regulations, analyzed with natural language processing, plus 38 in-depth interviews.",
+      "why": "The abstract does not state the reasoning. Inferred, not stated by the authors: the text analysis measures comment breadth and quality at scale, and interviews check that bureaucrats actually respond to reputation in the way the theory claims.",
+      "basis": "abstract only (the PDF attached in Zotero is a different paper)"
+    }
   },
   {
     "key": "M7A5SBLL",
@@ -327,7 +435,13 @@
     "abstract": "How do changes to international tax rules affect how countries promote investment? Countries have historically relied on investment incentives to attract foreign direct investment. However, I argue that the coordination of 138 countries on new international tax rules limits the use of incentives. The agreement directly reduces the benefits of tax incentives and their subsequent use. Governments will be unable to substitute for the decline by increasing the use of cash grants – particularly in democratic contexts –because of their political unfavorability and fiscal constraints. As a result, I argue that implementing countries are disadvantaged in the global competition for FDI relative to non-implementing countries. Using a difference in difference analysis and a case study of South Korea, I find that firms that are located or headquartered in countries that have implemented international tax rules are less likely to receive incentives. In addition, FDI inflows to implementing countries decline after implementation.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/M7A5SBLL",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "The OECD global minimum tax (Pillar 2) coordinated by 138 countries lowers the value of tax incentives, and governments cannot substitute cash grants because grants need upfront funds and are politically unpopular, especially in democracies. Implementing countries therefore lose ground in the competition for foreign direct investment.",
+      "empirics": "Staggered difference-in-differences using project-level data on FDI and investment incentives. Treated countries implemented Pillar 2 in 2024 or 2025 (36 and 20 countries), and the control group is non-implementers. Outcomes are monetary incentives received, democratic versus autocratic differences, and FDI inflows. A South Korea case study complements it.",
+      "why": "Because adoption was staggered, ordinary two-way fixed effects can be biased, so the author uses heterogeneity-robust estimators (Callaway and Sant'Anna as the main one, with several alternatives). Parallel-trends plots check the key assumption, and the case study shows the mechanism at work.",
+      "basis": "full text"
+    }
   },
   {
     "key": "WXCSCV6S",
@@ -617,7 +731,13 @@
     "abstract": "Advances in artiﬁcial intelligence (AI) are reshaping labor markets and sparking political debates. Like economic globalization, AI developments promise beneﬁts, including job creation and lower prices, but also costs such as job displacement, raising crucial questions about public perceptions. Will AI, like globalization, challenge existing paradigms and trigger a backlash? Leveraging a conjoint experiment with 6,000 respondents from the United States and Canada, we examine public opinion toward offshoring and generative AI, focusing on the multidimensional trade-offs between job and price changes. Across all scenarios, respondents are equally or more sensitive to price changes than employment shifts. AI is favored over offshoring, especially among Democrats, highlighting an emerging partisan divide in the United States. Republicans and Canadians show more varied support, indicating AI is not immune to opposition. By focusing on the microfoundations of opinion formation, we identify scenarios that may trigger or temper protectionist stances.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/UKTVJKAS",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Public attitudes toward AI and toward globalization share microfoundations. Both promise gains (jobs, lower prices) and impose costs (displacement), so people weigh multidimensional trade-offs between job and price changes. AI is less politically owned by a party than offshoring, which may produce a different partisan pattern.",
+      "empirics": "A pre-registered conjoint survey experiment with about 6,000 respondents in the United States and Canada. Scenarios about offshoring and generative AI vary job creation or loss, productivity and price changes. The analysis compares sensitivity to prices versus jobs and differences by party.",
+      "why": "A conjoint design lets respondents trade off job and price effects simultaneously, as in real policy debates. Pre-registration guards against selective reporting, and using two countries tests whether the partisan pattern is specific to the U.S. (inferred).",
+      "basis": "full text"
+    }
   },
   {
     "key": "8Z2GFHSP",
@@ -627,7 +747,13 @@
     "abstract": "Why has US commercial policy become increasingly politicized in the twenty-first century? We argue that this politicization reflects an interaction between elite rhetoric on unfair trade practices and American meritocratic values. As the twenty-first century progressed, elites increasingly argued that economic malaise was a result of predatory practices by US trading partners. This “trade is unfair” rhetoric resonated most strongly with meritocratic Americans: individuals who believed in principles of market fairness but also worried about future economic prospects. To evaluate the argument that trade policy frames resonate differently among Americans, we draw on data from several survey experiments as well as a large, original panel data set with repeat observations of the same individuals. Individuals who are most tied to the myth of the classic American Dream are the most likely to respond to a frame blaming unfair trade for America’s economic problems, and this contributes to rising antiglobalization sentiment.",
     "source": "web",
     "link": "https://www.zotero.org/georgeyean/items/8Z2GFHSP",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Elite rhetoric that 'trade is unfair' resonates most with meritocratic Americans, people who believe in market fairness but worry about their economic prospects. Blaming foreign trade practices for economic decline therefore drives declining support for globalization.",
+      "empirics": "Several survey experiments that vary how economic decline is explained (foreign trade practices versus other causes such as immigration, automation or corporate greed), plus a large original panel that re-interviews the same people. Outcomes include support for expanding trade and for related policies.",
+      "why": "Experiments isolate the effect of the framing itself, and the panel tracks attitude change within the same individuals over time. Including other issue areas as alternative frames tests whether trade is special or just one more elite-cued issue.",
+      "basis": "full text"
+    }
   },
   {
     "key": "DI5L3QT2",
@@ -667,7 +793,13 @@
     "abstract": "This article provides a systematic examination of the role of security considerations in shaping mass preferences over international economic exchange. The authors employ multiple survey experiments conducted in the United States and India, along with observational and case study evidence, to investigate how geopolitics affects voters’ views of international trade. Their research shows that respondents consistently—and by large margins—prefer trading with allies over adversaries. Negative prior beliefs about adversaries, ampliﬁed by concerns that trade will bolster the partner’s military, account for this preference. Yet the authors also ﬁnd that a signiﬁcant proportion of the public believes that trade can lead to peace and that the peace-inducing aspects of trade can cause voters to overcome their aversion to trade with adversaries. This article helps explain when and why governments constrained by public opinion pursue economic cooperation in the shadow of conﬂict.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/N5GXLBD7",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Through motivated reasoning, affective prior beliefs about other countries shape trade preferences. Adversaries trigger threat and distrust, so people prefer trading with allies. Strategic beliefs then amplify or weaken this: worry that trade will strengthen an adversary's military versus belief that trade promotes peace.",
+      "empirics": "Multiple survey experiments in the United States and India (including a March 2016 vignette experiment with 1,208 U.S. adults), open-ended survey responses in both countries, and observational and case-study evidence.",
+      "why": "Experiments avoid endogeneity and let the authors separate correlated features. For example, U.S. allies tend to be democracies, so a preference for trading with allies could really be a preference for democracies. The open-ended responses check that the mechanisms people name match the theory.",
+      "basis": "full text"
+    }
   },
   {
     "key": "3Z2SDI29",
@@ -827,7 +959,13 @@
     "abstract": "Existing political economy models explain the politics of trade policy using inter-industry differences. However, this article finds that much of the variation in U.S. applied tariff rates in fact arises within industry. I offer a theory of trade liberalization that explains how product differentiation in economic markets leads to firm-level lobbying in political markets. High levels of product differentiation eliminates the collective action problem faced by exporting firms while import-competing firms need not fear product substitution. To test this argument, I construct a new dataset on lobbying by all publicly traded manufacturing firms from reports filed under the Lobbying Disclosure Act of 1995. I find that productive exporting firms are more likely to lobby to reduce tariffs, especially when their products are sufficiently differentiated. I also find that highly differentiated products have lower tariff rates. The results challenge the common focus on industry-level lobbying for protection.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/WJUJZY83",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Much tariff variation is within industries, not between them. Product differentiation removes the collective action problem for exporting firms, since few firms trade any one product, while import-competing firms need not fear substitution. Productive exporters therefore lobby to cut tariffs, especially on differentiated products. The author extends the Grossman-Helpman lobbying model with firm productivity differences.",
+      "empirics": "A new dataset on lobbying by all publicly traded U.S. manufacturing firms, built from Lobbying Disclosure Act reports (from 1999) and linked to firm financial characteristics, with product-level tariff and bill-level lobbying outcomes.",
+      "why": "Lobbying reports have no unique firm identifier, so linking lobbying to firm characteristics was a prerequisite for testing a firm-level theory. The finding that tariff variation sits within industries motivates moving the unit of analysis from industries to firms.",
+      "basis": "full text"
+    }
   },
   {
     "key": "PAF468EX",
@@ -1147,7 +1285,13 @@
     "abstract": "Do public opinion dynamics play an important role in understanding conflict trajectories between democratic governments and other rival groups? The authors interpret several theories of opinion dynamics as competing clusters of contemporaneous causal links connoting reciprocity, accountability, and credibility. They translate these clusters into four distinct Bayesian structural time series models fit to events data from the Israeli—Palestinian conflict with variables for U.S. intervention and Jewish public opinion about prospects for peace. A credibility model, allowing Jewish public opinion to influence U.S., Palestinian, and Israeli behavior within a given month, fits best. More pacific Israeli opinion leads to more immediate Palestinian hostility toward Israelis. This response's direction suggests a negative feedback mechanism in which low-level conflict is maintained and momentum toward either all-out war or dramatic peace is slowed. In addition, a forecasting model including Jewish public opinion is shown to forecast ex ante better than a model without this variable.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/T9PQVLIK",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Three rival accounts of how public opinion shapes conflict dynamics: reciprocity (rivals mirror each other's behavior), accountability (leaders respond to their own public) and credibility (rivals and third parties adjust to the other side's public opinion). A credibility model fits best, with Israeli opinion affecting Palestinian and U.S. behavior within a month.",
+      "empirics": "Four multiequation Bayesian structural time series models, one per theory, fit to monthly events data on Israel, the Palestinians and the U.S. (KEDS event data from news reports, scaled with Goldstein scores) plus the Tel Aviv University Peace Index of Jewish Israeli opinion. Models are compared on fit, followed by ex ante forecasts nine months ahead from March 2005.",
+      "why": "This case has finely timed event records and regular polling, so for the first time opinion could be tested inside a major conflict. Translating each theory into its own model lets the data adjudicate among them, and the out-of-sample forecasts show opinion matters for prediction.",
+      "basis": "full text"
+    }
   },
   {
     "key": "3ITBRKX4",
@@ -1367,7 +1511,13 @@
     "abstract": "One of the persistent obstacles to trade liberalization is a government’s inability to commit and deliver compensation to trade losers. We argue that constitutional structures interact with the geographic concentration of industries to shape a government’s ability to commit to a compensation contract, defined as an inter-branch contract whereby an executive branch promises compensation in exchange for legislative support for ratification. Our theory predicts that parliamentary systems are more likely to liberalize and compensate geographically-concentrated industries because party leaders enforce a contract with a smaller number of legislators. Presidential systems are more likely to liberalize and compensate geographically-diffused industries because legislature is better able to enforce a contract with a larger number of legislators. Using novel data on product-level agricultural trade liberalization and remote-sensed cropland data in 38 democracies, we find evidence consistent with our argument. Qualitative case studies of sugar industry and interviews with policy-makers provide further evidence.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/BS6YP8XG",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Governments struggle to commit to compensating trade losers. Constitutions shape where the compensation contract is enforced: within a party in parliamentary systems, so geographically concentrated industries (few legislators to deal with) are liberalized and compensated, and in the legislature in presidential systems, which favors geographically diffused ones.",
+      "empirics": "New product-level data on agricultural liberalization in 155 preferential trade agreements signed by 38 democracies, 1995-2016. The outcome is the tariff cut at the six-digit product level; the key variable is crop geographic concentration (a Herfindahl index from remote-sensed cropland data for 145 commodities) interacted with parliamentary versus presidential systems. A logit with correlated random effects, plus qualitative evidence (sugarcane, maize).",
+      "why": "Where crops grow is set by terrain, soil and climate, so it is plausibly independent of political institutions. Agricultural compensation is also product-specific across democracies, making the two systems comparable. The random-effects model avoids a bias that crop fixed effects would cause in a logit.",
+      "basis": "full text"
+    }
   },
   {
     "key": "P9XQZJEY",
@@ -1497,7 +1647,13 @@
     "abstract": "Global value chains have knit foreign direct investment (FDI) and trade together as ﬁrms’ engagement in one activity inextricably depends on the other. However, existing studies often overlook such simultaneous considerations at the ﬁrm-product level, where the interdependencies manifest. We present an integrated theory explaining how ﬁrms’ FDI reshapes host markets’ trade proﬁles at the product level, empowering new political coalitions in trade liberalization. Analyzing the impact of new greenﬁeld FDI projects globally from 2003, we reveal that host countries saw an average increase of over 45 unique export products the following year. To overcome the challenges of studying ﬁrm-product level eﬀects, we link the FDI data with unique Vietnamese customs records. We ﬁnd that Vietnamese export (import) volumes of FDI-related products increased by 90% (30%) within four years of initial investments. Consistent with our theory, these products also beneﬁted from more substantial tariﬀ cuts in bilateral Free Trade Agreements.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/D26A2FAS",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Multinationals' foreign direct investment reallocates host-country resources toward products tied to global value chains, widening the host's export profile at the product level. This empowers new political coalitions, the multinationals and their value-chain partners, that favor trade liberalization to reach larger markets.",
+      "empirics": "Global data on new manufacturing greenfield FDI projects (fDi Markets, 2003-2017) linked to the number of distinct six-digit products each host country exports the next year (UN Comtrade), plus a firm-product dataset from Vietnamese customs records matched to specific multinational projects. Difference-in-differences with matching estimates effects on product trade volumes and tests whether FDI-linked products got deeper tariff cuts in Vietnam's 2015 trade agreement with South Korea.",
+      "why": "Interdependence between FDI and trade shows up at the firm-product level, but such links are confidential, and Vietnam's customs data make them observable. Matching with difference-in-differences addresses multinationals choosing where to invest. Greenfield FDI is used because it changes production directly and the data improve on balance-of-payments FDI measures.",
+      "basis": "full text"
+    }
   },
   {
     "key": "6ECJJZR8",
@@ -1867,7 +2023,13 @@
     "abstract": "Climate disasters raise the salience of climate change’s negative consequences, including climate-induced migration. Policy action to address climate displacement is especially contentious in the United States, where weak support for tackling climate change intersects with high opposition to migration. Do climate disasters foster receptivity toward climate migrants and broader willingness to combat climate change? To study this question, we leverage the occurrence of Hurricane Ian during fielding of a preregistered survey in autumn 2022. Hurricane exposure increased concern about and support for policies to address climate migration. Hurricane exposure also increased support for climate action and belief in anthropogenic climate change. Effects of hurricane exposure cross-cut partisanship, education, age, and other important correlates of climate attitudes but decay within 6 months. Together, these results suggest that climate disasters may briefly increase favorability toward climate migrants and climate policy action but are unlikely to durably mobilize support even in severely impacted areas.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/9VFHIKUC",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Climate disasters make the harms of climate change, including displacement, salient. That should raise concern about and support for policies on climate migration, and broader support for climate action and belief in human-caused climate change, in a setting where both climate action and migration are politically contentious.",
+      "empirics": "A preregistered, high-frequency survey fielded August-October 2022 in Florida, Louisiana, Texas and North Carolina. Hurricane Ian made landfall in Florida on September 28 during fielding, so the authors compare respondents exposed to the storm with those not exposed, before versus after, in a difference-in-differences design. Outcomes cover climate-migration attitudes, support for climate action and belief in climate change.",
+      "why": "The hurricane interrupting a survey already in the field creates a natural experiment: exposure was not chosen by respondents and pre-storm answers serve as a baseline. Preregistration limits analytic flexibility.",
+      "basis": "full text"
+    }
   },
   {
     "key": "5UBS4QLT",
@@ -1887,7 +2049,13 @@
     "abstract": "Global value chains (GVCs) have connected ﬁrms in complex networks within and across national borders. However, political economy models often assume away production linkages and thus fail to explain pervasive and diverse trade coalitions cutting across industries and ﬁrms. I develop a GVC-centered framework where production linkages through a common foreign partner foster interdependent preferences and collective action for trade liberalization. For empirical tests, I compile ﬁrm-to-ﬁrm supply chain datasets, construct direct measures, and estimate various network models. I ﬁnd that US ﬁrms with GVC linkages tend to lobby together, lobby on the same bill, and hire the same lobbyist. Furthermore, GVC linkages among lead ﬁrms increase collective lobbying through trade associations. Finally, I show that GVC linkages predict the formation and depth of preferential trade networks. These results provide microfoundations for new coalitional politics under GVCs and challenge the common assumption about industries and ﬁrms as isolated political actors.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/IG6YWTLY",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Firms linked through a common foreign partner in a global value chain have interdependent preferences for trade liberalization, since both upstream and downstream producers lose from tariffs. Specialized, relational links also give small groups of large firms the means to act collectively, including through trade associations.",
+      "empirics": "A firm-to-firm supply-chain dataset for U.S. public firms, 2003-2020, built from millions of FactSet relationship records, analyzed with network models. Outcomes from lobbying reports: whether linked firms lobby together, on the same bill, and hire the same lobbyist, plus industry-level collective lobbying through trade associations. Many robustness checks, including for network endogeneity.",
+      "why": "Earlier measures (input-output tables, related-party trade, small surveys) do not capture linkages at the firm level where they form, so the author builds direct measures. Lobbying is a costly, observable signal of intense preferences, and public reports reveal joint action. Network models handle dependence among firms.",
+      "basis": "full text"
+    }
   },
   {
     "key": "ZBRSTUEJ",
@@ -1907,7 +2075,13 @@
     "abstract": "This article provides a systematic examination of the role of security considerations in shaping mass preferences over international economic exchange. The authors employ multiple survey experiments conducted in the United States and India, along with observational and case study evidence, to investigate how geopolitics affects voters’ views of international trade. Their research shows that respondents consistently—and by large margins—prefer trading with allies over adversaries. Negative prior beliefs about adversaries, ampliﬁed by concerns that trade will bolster the partner’s military, account for this preference. Yet the authors also ﬁnd that a signiﬁcant proportion of the public believes that trade can lead to peace and that the peace-inducing aspects of trade can cause voters to overcome their aversion to trade with adversaries. This article helps explain when and why governments constrained by public opinion pursue economic cooperation in the shadow of conﬂict.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/8PB47T8X",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Through motivated reasoning, affective prior beliefs about other countries shape trade preferences. Adversaries trigger threat and distrust, so people prefer trading with allies. Strategic beliefs then amplify or weaken this: worry that trade will strengthen an adversary's military versus belief that trade promotes peace.",
+      "empirics": "Multiple survey experiments in the United States and India (including a March 2016 vignette experiment with 1,208 U.S. adults), open-ended survey responses in both countries, and observational and case-study evidence.",
+      "why": "Experiments avoid endogeneity and let the authors separate correlated features. For example, U.S. allies tend to be democracies, so a preference for trading with allies could really be a preference for democracies. The open-ended responses check that the mechanisms people name match the theory.",
+      "basis": "full text"
+    }
   },
   {
     "key": "QHQ6YEK7",
@@ -1917,7 +2091,13 @@
     "abstract": "Politicians frequently issue public threats to manipulate tariffs but only sometimes follow through. This behavior theoretically ought to generate audience costs. We therefore test the validity of audience costs in trade war settings through a vignette-based survey experiment. The vignettes describe a hypothetical situation involving the U.S. and a second country (China, Canada, or unspecified) with whom the U.S. has a trade deficit. The president (Democrat, Republican, or unspecified) either maintains the status quo, threatens to impose tariffs and backs down, or threatens to impose tariffs and follows through. Our findings highlight differences between security and trade conflict when it comes to audience costs and presidential approval. While Americans sanction the president for issuing a threat to raise tariffs, they generally support backing down. Regression modeling and text analysis of a free response question from our surveys suggest this is because consumers are wary of paying the costs of tariffs.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/QHQ6YEK7",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Audience costs, the penalty leaders suffer for threatening and then backing down, should be weak for tariff threats. Tariffs have well-defined economic costs for the domestic public, so citizens put economic self-interest ahead of reputational consistency and may even prefer the president back down.",
+      "empirics": "A vignette survey experiment on Amazon Mechanical Turk with 1,415 respondents (two waves in 2019), using a 3x3x3 design across 24 scenarios. The U.S. has a trade deficit with China, Canada or an unspecified country; the president is a Democrat, a Republican or unspecified; and the president keeps the status quo, threatens tariffs and backs down, or threatens and follows through. The outcome is presidential approval. Regressions and text analysis of free responses probe the economic explanation.",
+      "why": "Vignettes modeled on real AP trade stories and on earlier audience-cost experiments allow comparison with the security-conflict literature. Two survey waves check robustness, and fielding in 2019, when tariffs were highly salient, helps ensure respondents connect tariffs to their own welfare.",
+      "basis": "full text"
+    }
   },
   {
     "key": "MDDHSBSW",
@@ -2037,7 +2217,13 @@
     "abstract": "We study the eﬀect of expanding trade on societal coalitions through its impact on development. We combine a majoritarian political model with a spatial model of trade to argue that trade-induced economic change—by bringing new workers to locations closer to world markets—can lead to losses rather than gains in political power for the factors of production advantaged by increased trade. We study how this phenomenon explains rising protectionism in the US from 1880 to 1900. Using county-level changes in transportation costs induced by railroad expansion, our estimates indicate that falling costs increased population and farm values but reduced the proportion of farmers. Reduced transportation costs caused a reduction in vote shares for the Democratic party, which favored liberal trade policies, and an increase in an original newspaper-based measure of protectionist sentiment. Expanding trade alters not only political interests but also the geographic distribution of those interests.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/28EMECMM",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "A spatial Rogowski theory. When transport costs fall, land-intensive U.S. exports gain value and migrant workers move into farm regions. Because labor is mobile, these workers, who favor protection, dilute the political power of landowners, the group that gained from trade. Trade can thus cost its economic winners their political power.",
+      "empirics": "County-level changes in transportation costs caused by railroad expansion, 1880-1900. Estimates cover effects on population, farm values and the share of farmers, then on the Democratic (pro-trade) vote share and an original newspaper-based measure of protectionist sentiment.",
+      "why": "Railroad-driven changes in market access vary across counties and, the authors argue, are not correlated with other developments that moved voters toward the Republicans or toward protectionism. The two-step design (economic effects, then political effects) mirrors the mechanism, and the newspaper measure provides an outcome beyond vote shares.",
+      "basis": "full text"
+    }
   },
   {
     "key": "W3F6HV3D",
@@ -2047,7 +2233,13 @@
     "abstract": "Individuals with heightened labor market insecurity express more protectionist, xenophobic and isolationist sentiment. We construct a novel measure of labor market insecurity that combines an individual’s industry-based exposure to import competition with an occupationbased measure of job immobility. Immobility captures the similarity of an individual’s job to others in the economy, weighted by their prevalence. The holder of a job that is dissimilar to others in the industry or in the state experiences more anxiety regarding their labor market prospects in the face of a globalization shock, and is more likely to express anti-globalization sentiment.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/W3F6HV3D",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Labor market insecurity comes from import-competition exposure combined with job immobility. People in jobs dissimilar to those of others in their industry or state feel more anxiety when a globalization shock hits, and so express more antiglobalization sentiment.",
+      "empirics": "A new individual-level measure that combines industry exposure to import competition with an occupational immobility index built from similarity of task requirements across occupations (O*NET) and local job prevalence. Applied to U.S. survey attitudes, using support for NAFTA as a proxy for trade attitudes. Exposure lowers support by about 3% on average and about 10 points among the most immobile.",
+      "why": "Standard trade models treat mobility as fully fixed or fully flexible, whereas the new measure captures skill, industry and geographic differences. Task measures from the early 2000s avoid endogeneity with Chinese imports. It also addresses the puzzle that survey evidence on trade attitudes is weak while aggregate voting tracks trade shocks.",
+      "basis": "full text"
+    }
   },
   {
     "key": "P4VRKPPA",
@@ -2057,7 +2249,13 @@
     "abstract": "Governments have repeatedly adjusted fiscal policy in recent decades. We examine the political effects of these adjustments in Europe since the 1990s using both district-level election outcomes and individual-level voting data. We expect austerity to increase populist votes, but only among economically vulnerable voters, who are hit the hardest by austerity. We identify economically vulnerable regions as those with a high share of low-skilled workers, workers in manufacturing and in jobs with a high routine-task intensity. The analysis of district-level elections demonstrates that austerity increases support for populist parties in economically vulnerable regions, but has little effect in less vulnerable regions. The individual-level analysis confirms these findings. Our results suggest that the success of populist parties hinges on the government’s failure to protect the losers of structural economic change. The economic origins of populism are thus not purely external; the populist backlash is triggered by internal factors, notably public policies.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/P4VRKPPA",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Austerity raises support for populist parties, but only among economically vulnerable voters (low-skilled, manufacturing and routine-task workers) who are hit hardest. The populist backlash is therefore partly triggered by public policy, not only by external economic forces.",
+      "empirics": "District-level election outcomes in Europe since the 1990s (a populism score from combining election data with expert party classifications, plus radical-left and radical-right vote shares) in a two-way fixed effects model interacting austerity with regional vulnerability, confirmed with individual-level voting data. Checks include lead variables, regional trends and tests that exclude crises.",
+      "why": "District variation in vulnerability lets austerity (a national policy) have differing effects within the same country and year. Lead variables test anticipation, and because austerity does not perfectly track downturns, the authors can separate its effect from that of economic crisis.",
+      "basis": "full text"
+    }
   },
   {
     "key": "CI2V34RP",
@@ -2067,7 +2265,13 @@
     "abstract": "Are banks sensitive to risk and reward in following global corporate transparency rules? Using a worldwide ﬁeld experiment, this study evaluates competing predictions from expected utility, behavioralist, and institutionalist accounts. We incorporated a dozen companies around the world to make over 15,000 email solicitations asking for corporate accounts from 5000 of the world’s internationally connected banks. Treatments randomize the risk proﬁles of different companies—by their countries’ association with corruption, terrorism, and tax evasion—and vary rewards by stating differing amounts of business revenues. The outcomes are the rates at which banks offer accounts and comply with rules on customer identiﬁcation. The results suggest that banks are moderately responsive to risk—though not reward—but the magnitude of the effects is small, providing mixed evidence for conventional models and suggestive support for institutionalist accounts.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/CI2V34RP",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Three competing accounts of how banks handle risk and reward when following global corporate transparency rules: expected utility (weigh costs and benefits), behavioralist, and institutionalist (organizational scripts). The findings suggest banks are only marginally sensitive to risk and relatively indifferent to the size of the reward.",
+      "empirics": "A worldwide field experiment: a dozen companies sent over 15,000 email solicitations to about 5,000 internationally connected banks asking to open corporate accounts. Treatments randomize risk (the company's country of incorporation, linked to corruption, terrorism or tax evasion) and reward (stated business revenue). Outcomes are whether banks respond, comply with transparency rules or refuse.",
+      "why": "Risk profiles were engineered from regulators' manuals (FATF), so differences in how banks engage can be read as risk sensitivity. A field experiment observes what banks actually do when approached by real-seeming customers, not what they say (inferred).",
+      "basis": "full text"
+    }
   },
   {
     "key": "FJ77BBYX",
@@ -2097,7 +2301,13 @@
     "abstract": "I show herein how to write a publishable paper by beginning with the\n                                replication of a published article. This strategy seems to work well\n                                for class projects in producing papers that ultimately get\n                                published, helping to professionalize students into the discipline,\n                                and teaching the scientific norms of the free exchange of academic\n                                information. I begin by briefly revisiting the prominent debate on\n                                replication our discipline had a decade ago and some of the progress\n                                made in data sharing since. My deepest\n                                    appreciation goes, in addition to my students, to the numerous\n                                    scholars who have cheerfully, and in some cases repeatedly,\n                                    responded to my students' queries over many years. Thanks also\n                                    to the National Institutes of Aging (P01 AG17625-01) and the\n                                    National Science Foundation (SES-0318275, IIS-9874747) for\n                                    research support.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/5CHRSV5H",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Starting a student research paper by replicating a published article is a reliable route to a publishable paper. You begin at the frontier and need only defend your improvements, not every coding and data decision, and students learn norms of data sharing.",
+      "empirics": "None. This is a how-to essay, drawing on the author's experience teaching replication-based classes, with ground rules and style advice for such papers.",
+      "why": "The author argues replication shifts the burden of justification: building on existing work means defending only what you change, whereas a project from scratch must defend every choice.",
+      "basis": "full text (not an empirical study)"
+    }
   },
   {
     "key": "QSFZXRZC",
@@ -3777,7 +3987,13 @@
     "abstract": "Despite the centrality of promise keeping to representation, we know little about how it is affected by economic globalization, which is one of the modern world’s defining characteristics. We argue that globalization reduces governing parties’ ability to keep their campaign promises. We test the empirical implications of our theory with a mixed-methods approach that combines a large-n quantitative comparative analysis of pledge fulfillment with a typical case study to trace the underlying causal mechanisms of the theory. The findings indicate that international economic integration exerts a large negative effect on the likelihood of pledge fulfillment in a broad range of contexts and that the hypothesized mechanisms are clearly observable in the detailed case study. These findings have important implications for democratic representation in a globalized world.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/SH3FGPYI",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Economic globalization reduces governing parties' ability to keep campaign promises. Highly internationalized economies face more uncertainty about business cycles, and international agreements can make some pledges hard to fulfill.",
+      "empirics": "The Comparative Pledges Project: over 20,000 election pledges across 12 countries before 57 governments (1970s-2010s). The main analysis covers fulfillment of 7,770 pledges by governing parties (coded unfulfilled, partially or fully fulfilled) against a measure of international economic integration. A typical-case study traces the mechanism.",
+      "why": "Pledge-level coding gives a direct measure of promise keeping. Combining the cross-country statistical test with a typical-case study lets the authors check both that the pattern holds broadly and that the proposed causal pathway operates (stated mixed-methods rationale).",
+      "basis": "full text"
+    }
   },
   {
     "key": "CH7R7Z7E",
@@ -4757,7 +4973,13 @@
     "abstract": "Is American populism a persistent political phenomena? Using a new dataset linking county vote shares in the 1890s with recent periods, we show that populist movements in the United States have deep roots. Counties where voters were enthusiastic about populist parties in the late nineteenth century had higher vote shares for Donald Trump in the 2016 and 2020 presidential elections. Our instrumental variable results imply that globalization fostered populism in the 1890s which in turn laid the ground for populism today. Using individual policy preferences, we show that counties with more individuals holding populist attitudes today are associated with counties voting more populist in the 1890s. Moments of rapid economic change, such as those engendered by globalization, may propel the resurgence of such attitudes, which can then be popularized by charismatic leaders.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/MT3A97HI",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "American populism is persistent. Latent populist attitudes in places that embraced the 1890s People's Party were reactivated by later shocks. Globalization acted as the catalyst both times, as commercialized agriculture, railroads and falling transport costs strained farmers in the 1890s and similar structural change did later.",
+      "empirics": "A new dataset linking county vote shares for populist parties in the 1890s to presidential results in 2016 and 2020, estimating persistence. Instrumental-variable results imply globalization fostered 1890s populism, which in turn laid the ground for today's. Individual-level policy preference data are used to examine the mechanism.",
+      "why": "Linking the same counties across more than a century measures persistence directly. The instrumental-variable step addresses the worry that 1890s populism and later voting share common local causes (inferred), and the individual preference data probe the mechanism behind the county-level correlation.",
+      "basis": "full text"
+    }
   },
   {
     "key": "XGQCXG64",
@@ -5167,7 +5389,13 @@
     "abstract": "Access to information (ATI) policies are often praised for strengthening transparency, accountability, and trust in public institutions, yet evidence that they improve institutional performance is mixed. We argue that an important impediment to the effective operation of such policies is the failure of bureaucrats to comply with information requests that could expose poor performance. Analyzing a new data set on the performance of approximately 20,000 aid projects financed by 12 donor agencies in 183 countries, we find that enforcement matters: the adoption of ATI policies by agencies is associated with better project outcomes when these policies include independent appeals processes for denied information requests but with no improvement when they do not. We also recover evidence that project staff adjust their behavior in anticipation of ATI appeals, and that the performance dividends of appeals processes increase when bottom-up collective action is easier and mechanisms of project oversight are weak.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/VN364LL3",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Access-to-information policies improve institutional performance only when bureaucrats actually comply with requests that could expose poor performance. Enforcement, such as independent appeals, is what makes transparency work.",
+      "empirics": "A new dataset of about 20,000 aid projects financed by 12 donor agencies in 183 countries over 60 years. A difference-in-differences design with donor, recipient and year fixed effects estimates how the adoption of access-to-information policies changes project success ratings, and whether effects depend on enforcement. Validated with an independent World Bank success measure and by limiting the sample to periods when donors had independent evaluation units.",
+      "why": "Comparing within donor-recipient pairs over time avoids direct comparisons across donors, which are problematic because performance ratings are partly subjective. The validation checks address the concern that staff might game ratings after a policy is adopted.",
+      "basis": "full text"
+    }
   },
   {
     "key": "QD94MPAQ",
@@ -5177,7 +5405,13 @@
     "abstract": "A rich literature has noted political business cycles in democracies. We argue that in an autocracy with strong bureaucratic institutions, the pressure of evaluation and promotion has also generated political cycles of tax-break policies. Furthermore, the timing and content of the evaluation have driven leaders to use tax breaks strategically to build economic performance, producing distributional consequences. Combining panel data of 1,510,153 firm-year observations, city-leader data from 1995 to 2007, and field interviews, we find that the tax-break rates dropped for most firms during mayors’ turnover years. In the first year of office, that is, the “busy year,” mayors needed to prioritize large firms and especially large foreign firms. Small domestic private firms bore the cost of tenure cycles. In the last year of the mayors’ tenure, that is, the “dust-settled” year, there was little incentive to seek promotion, and even important firms could not gain the mayors’ attention.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/QD94MPAQ",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "In an autocracy with institutionalized bureaucratic evaluation and promotion, local leaders manage tax breaks around their political calendar: tax breaks drop in a mayor's first and last years for most firms. Leaders also use tax breaks selectively to build economic performance when evaluations loom, with distributional consequences.",
+      "empirics": "A panel of 1,510,153 firm-year observations, city-leader data for 1995-2007, and field interviews. Two-way fixed effects (firm and year) models estimate the logged tax-break rate on first-year and last-year dummies for mayoral tenure, then compare effects across firm subgroups. Checks for alternative explanations: administrative disruption and political connections.",
+      "why": "Firm fixed effects exploit changes within a firm over the mayor's tenure while year effects absorb common shocks (inferred). The alternative-explanation tests rule out that the cycle reflects bureaucratic disruption at turnover or connections, and the interviews support the evaluation-and-promotion mechanism.",
+      "basis": "full text"
+    }
   },
   {
     "key": "PBLZK92J",
@@ -5187,7 +5421,13 @@
     "abstract": "To what extent do early experiences in the host country shape the political integration of immigrants? We argue that the initial neighborhoods immigrants settle in establish patterns of behavior that influence subsequent political participation. Using Norwegian administrative register data, we leverage quasi-exogenous variation in the placement of refugees to assess the consequences of assignment to particular neighborhoods. We find that the difference in turnout between refugees initially placed in 20th and 80th percentile neighborhoods is 12.6 percentage points, which represents 47% of the participation gap between refugees and residents. To assess the mechanism, we draw on individual-level data on all neighbors present at the time of each refugee’s arrival and then evaluate the relative impact of neighborhood characteristics and available social networks. Our findings suggest that while neighborhood socioeconomic factors play a limited role, early exposure to politically engaged neighbors and peer cohorts increases immigrants’ turnout over the long run.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/PBLZK92J",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Immigrants' first neighborhood sets patterns of behavior that shape long-run political participation. Early exposure to politically engaged neighbors and peer cohorts raises later turnout, more than neighborhood socioeconomic conditions do.",
+      "empirics": "Norwegian administrative register data on UN-resettled refugees placed in 27 municipalities (arrivals 1990-2012) and their turnout in the 2015 election. Refugee turnout is regressed on turnout of residents in the placement neighborhood in the arrival year, with individual controls. Social networks are proxied by age cohorts, siblings under 18, and peer-cohort turnout. Refugees placed in 20th versus 80th percentile neighborhoods differ by 12.6 points in turnout.",
+      "why": "Quota refugees are assigned by authorities, not choosing neighborhoods, so placement is quasi-exogenous (a strategy used in similar U.S. and Danish studies). Register data identify every neighbor present at arrival, which lets the authors separate network effects from neighborhood characteristics.",
+      "basis": "full text"
+    }
   },
   {
     "key": "G6XATLMZ",
@@ -5197,7 +5437,13 @@
     "abstract": "The global spread of electoral gender quotas has been characterized as one of the most significant institutional developments of the last 30 years. Many of the countries that have adopted these laws designed to increase women’s political representation are electoral autocracies that have otherwise-stark gender inequalities. Some scholars argue that electoral authoritarian states have adopted quotas as a strategy for improving their international reputations for democracy. This article represents the first exploration of whether quotas really generate reputational boosts. Using large-scale survey experiments in Sweden and the United States concerning hypothetical developing countries, we find that they do. In particular, audiences perceived electoral autocracies as more democratic and were more likely to support giving them foreign aid when women’s descriptive representation was greater. Beyond its contribution to our understanding of gender quotas and women’s representation, this article contributes to broader debates about international reputation, human rights, and foreign aid attitudes.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/G6XATLMZ",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Electoral autocracies adopt gender quotas to improve their international reputation for democracy, deflecting pressure to democratize. The paper tests whether quotas actually deliver that reputational gain: audiences should see autocracies with more women in parliament as more democratic and deserving of aid.",
+      "empirics": "Large-scale survey experiments in Sweden and the United States about hypothetical developing countries, varying women's descriptive representation. Outcomes are perceived democracy and support for giving the country foreign aid. A preliminary analysis of the QAROT quota dataset links quota adoption and women's representation to actual development assistance.",
+      "why": "Real-world reputation is confounded with many other country traits, so an experiment on hypothetical countries isolates the effect of women's representation. Two audiences from different countries (the U.S. and Sweden) test generality, and the aid correlation motivates the question using real aid data.",
+      "basis": "full text"
+    }
   },
   {
     "key": "ZV7KTC8J",
@@ -5207,7 +5453,13 @@
     "abstract": "How does engagement with markets affect socioeconomic values and political preferences? A long line of thinkers has debated the nature and direction of such effects, but claims are difficult to assess empirically because market engagement is endogenous. We designed a large field experiment to evaluate the impact of financial markets, which have grown dramatically in recent decades. Participants from a national sample in England received substantial sums they could invest over a 6-week period. We assigned them into several treatments designed to distinguish between different theoretical channels of influence. Results show that investment in stocks led to a more right-leaning outlook on issues such as merit and deservingness, personal responsibility, and equality. Subjects also shifted to the right on policy questions. These results appear to be driven by growing familiarity with, and decreasing distrust of markets. The spread of financial markets thus has important and underappreciated political ramifications.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/ZV7KTC8J",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Engagement with financial markets shifts socioeconomic values and political preferences to the right, through growing familiarity with markets and falling distrust of them. Observational links between investing and values are confounded because people choose to invest.",
+      "empirics": "A large field experiment with a national sample in England. Participants received sums to invest over six weeks; treatments include investing in real stocks (1,560 people given 50 pounds in a three-asset portfolio), a 'sports' treatment replicating the investing experience with baseball team ratings, and a control group that made no investments. Outcomes are values on merit, responsibility and equality and policy views.",
+      "why": "Randomizing who gets market exposure removes the endogeneity of market engagement. The sports and other asset treatments reproduce the investing experience without real markets so the authors can tell apart different theoretical channels of influence.",
+      "basis": "full text"
+    }
   },
   {
     "key": "QDEAS94S",
@@ -5217,7 +5469,13 @@
     "abstract": "Dictators face a power-sharing dilemma: Broadening elite incorporation mitigates prospects for outsider rebellions (by either elites excluded from power or the masses), but it raises the risk of insider coups. This article rethinks the theoretical foundations of the power-sharing dilemma and its consequences. My findings contrast with and provide conditionalities for a “conventional threat logic,” which argues that large outsider threats compel dictators to create broader-based regimes, despite raising coup risk. Instead, I analyze a game-theoretic model to explain why the magnitude of the elite outsider threat ambiguously affects power-sharing incentives. Dictators with weak coup-proofing institutions or who face deeply entrenched elites take the opposite actions predicted by the conventional logic. An additional outsider threat from the masses can either exacerbate or eliminate the power-sharing dilemma with elites, depending on elite affinity toward mass rule. Examining the elite-mass interaction also generates new implications for how mass threats affect the likelihood of coups and regime overthrow.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/QDEAS94S",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "A dictator faces a power-sharing dilemma: including rival elites reduces the risk of outsider rebellion but raises coup risk. Larger elite coercive capacity has an ambiguous effect on whether the ruler shares power, and the conventional 'big outsider threat means broad sharing' logic can reverse for rulers with weak coup-proofing or entrenched elites. A mass threat can worsen or dissolve the dilemma depending on elites' affinity for mass rule.",
+      "empirics": "No statistical test. A formal game-theoretic model with a dictator, an elite faction and a possible mass takeover, analyzed for its equilibria, then illustrated with qualitative evidence.",
+      "why": "A model suits the question because the key choices (share power, spend spoils, coup or accept) are strategic and interdependent, and the model can show when the conventional logic holds and when it breaks. Qualitative cases illustrate the mechanisms (inferred).",
+      "basis": "full text"
+    }
   },
   {
     "key": "I9DKS8MV",
@@ -6237,7 +6495,13 @@
     "abstract": "Trade policy has become increasingly multidimensional. Current trade agreements not only address market access but also encompass rules and provisions related to flexibility of commitment, investment protection, and dispute settlement mechanisms. Yet, rigorous evidence about how interest groups evaluate each of these in relation to the others remains scarce. We develop a firm-level theoretical framework to explain how firms’ international operations affect their preferences on different trade policy measures. We experimentally evaluate preferences over multiple policy dimensions using a conjoint analysis on firms in Costa Rica. Notably, for many types of firms, the standard trade policy measures of yesteryear—tariffs and subsidies—are no longer their most important concerns. Instead, the degree of firms’ involvement in global value chains shapes their preferences. Multinational corporations care most about protection of their foreign investments. Those exporters who are not central to global supply networks most value strong dispute settlement procedures. Finally, we find that preferences over these policy dimensions are more likely to vary by firm than by industry, which calls into question the existing literature's focus on interindustry distinctions.",
     "source": "web",
     "link": "https://www.zotero.org/georgeyean/items/BTN8BKA8",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Firms' positions on multiple trade policy dimensions depend on their international operations. Multinationals in global value chains care most about investment protection, exporters outside those networks value strong dispute settlement, and tariffs and subsidies matter less. Preferences vary more by firm than by industry.",
+      "empirics": "A paired-profiles conjoint survey experiment on firms in Costa Rica, fielded in two waves from November 2013, in which respondents rate randomized bundles of trade agreement features (market access, investment protection, dispute settlement and others). Results are broken out by firm type (domestic, exporter, multinational) to compare the relative importance of each dimension.",
+      "why": "Trade agreements bundle many features, and conjoint analysis estimates the importance of each in relation to the others within a fully randomized design, avoiding the usual approach of studying one dimension at a time. Costa Rica is a middle-income democracy open to global value chains.",
+      "basis": "full text"
+    }
   },
   {
     "key": "7A5WJARX",
@@ -7247,7 +7511,13 @@
     "abstract": "Despite widespread agreement that status matters, there is relatively little in the way of focused research on how and when it matters. Relying on the assumption that it “matters” has provided few extant theories of variation in states’ concern for status and little understanding of its specific implications for international conflict. I introduce a theory of status dissatisfaction (SD) that clarifies who forms the basis for status comparisons in world politics, when status concerns should be paramount, and how they are linked to international conflict. I demonstrate the viability of conflict as a strategy for status enhancement: both initiation and victory bring substantial status benefits over both five- and ten-year periods. Using a new, network-based measure of international status, I demonstrate that status deficits are significantly associated with an increased probability of war and militarized interstate dispute (MID) initiation. Even internationally, status is local: I use “community detection” algorithms to recover status communities and show that deficits within those communities are particularly salient for states and leaders.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/8XZ9N7VR",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Status dissatisfaction, a heightened concern for status when a state's status falls short within its own comparison group (its 'status community'), makes war and militarized disputes more likely. Conflict is a viable way to gain status: initiating and winning raises a state's status rank.",
+      "empirics": "A new network-based measure of international status built from diplomatic exchanges between countries. Statistical tests show initiation and victory raise status over five and ten years and that status deficits raise the probability of war and militarized dispute initiation. Community-detection algorithms recover status communities, with qualitative evidence in support.",
+      "why": "Earlier work could not establish patterns across time and space, and existing status measures had limits, so the author builds a new measure. Because status is local, community detection identifies who each state actually compares itself with.",
+      "basis": "full text"
+    }
   },
   {
     "key": "HSRT4S4J",
@@ -7837,7 +8107,13 @@
     "abstract": "This paper examines how treaty withdrawal aﬀects international cooperation. By terminating its treaty commitments, the exiting state could earn a reputation for unreliability, making other states less willing to cooperate with it. However, states’ reactions to withdrawal vary markedly, even though it is public behavior. I develop an experiential theory of international cooperation that explains this variation. I argue that withdrawal damages the exiting state’s relations with other treaty members, causing them to ratify fewer agreements with it in the future. I test this theory using an original dataset of all treaties registered with the United Nations and a case study of France’s exit from NATO’s status of forces agreement. I ﬁnd that withdrawal reduces treaty members’ ratiﬁcation of agreements with the exiting state by 7.9% in the seven years after exit. This eﬀect increases with the salience and material cost of withdrawal and can spill across issue areas.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/I8HH7XFF",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "An experiential theory of cooperation: unilateral treaty withdrawal damages the exiting state's relations with other treaty members, who also bear the material costs of broken cooperation. Treaty members therefore become less willing to cooperate with the withdrawing state than nonmembers, more so when the exit is salient or costly.",
+      "empirics": "A difference-in-differences design using the timing of withdrawals from multilateral treaties and the networked structure of membership. Outcome is the logged number of new treaties that other states join alongside the withdrawing state, comparing treaty members with nonmembers who share at least one other treaty with it, before and after exit. Cooperation by members stays below its pre-exit level even ten years later.",
+      "why": "Multilateral membership changes sequentially, so the dates when a state leaves others behind and when states join existing agreements are directly observable. Bilateral treaties are excluded because the UN records often do not show who initiated termination, making unilateral and cooperative exit hard to distinguish.",
+      "basis": "full text"
+    }
   },
   {
     "key": "K87U52JU",
@@ -7847,7 +8123,13 @@
     "abstract": "I argue that treaty withdrawal has two opposing eﬀects on the development of international law. First, it directly impacts the treaty where it occurs by pushing remaining members to adopt reforms to maintain cooperation. Second, it indirectly aﬀects the development of other treaties by damaging diplomatic relations between the withdrawing state and other members, hindering negotiations in other areas of cooperation. The impact of withdrawal on legal development is consequentially mixed: while it expedites the reform of one treaty, it inhibits reform elsewhere. I test this argument by applying a diﬀerence-in-diﬀerences design to an original panel of treaties built from the records of the United Nations. My ﬁndings reveal that while withdrawal increases the number of reforms in treaties where it occurs, it decreases reforms in other similar treaties with comparable memberships. The indirect eﬀect cancels out the direct eﬀect; overall, treaty withdrawal contributes to the stagnation of international law.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/K87U52JU",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Treaty withdrawal both catalyzes and inhibits international lawmaking. Directly, it pushes remaining members of the treaty's regime to reform to preserve cooperation (sparks). Indirectly, it damages relations between the exiting state and other members, hindering negotiations in other regimes they share (spillovers).",
+      "empirics": "An original panel of 662 legal regimes, 1945-2018, built by manually classifying 6,771 treaties and amendments in the UN Treaty Series. A difference-in-differences design compares the number of reforms before and after a state's first unilateral exit across directly affected regimes, indirectly affected regimes (where the exiting state is also a party) and unaffected regimes.",
+      "why": "Overlapping treaty membership naturally defines three kinds of exposure to the same exit. Focusing on a state's first withdrawal reduces bias from states anticipating later exits.",
+      "basis": "full text"
+    }
   },
   {
     "key": "QDRQCSR8",
@@ -7857,7 +8139,13 @@
     "abstract": "While the rules of international trade regimes prevent governments from employing protectionist instruments, governments continue to seek out veiled means of supporting their national industries. This article argues that the news media can serve as one channel for governments to favor domestic industries. Focusing on media coverage of auto recalls in China, I reveal a systematic bias against foreign automakers in those newspapers under strict government control. I further analyze subnational reporting patterns, exploiting variation in the level of regional government interest in the automobile industry. The analysis suggests that the media’s home bias is driven by the government’s protectionist interests but rules out the alternative hypothesis that home bias simply reflects the nationalist sentiment of readers. I show that this home bias in news coverage has meaningful impact on actual consumer behavior, combining automobile sales data and information on recall-related web searches.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/QDRQCSR8",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Governments can use news media as a veiled protectionist tool, since trade rules block formal measures. State-controlled newspapers should report more, and more negatively, on product failures of foreign firms, driven by the government's interest in supporting domestic industry and not by public nationalism.",
+      "empirics": "An original dataset of 472 passenger-car recalls in China (2005-2013), coded as domestic, joint-venture or foreign, matched to coverage in 121 newspapers. The analysis compares official (central and regional party) with nonofficial papers, provinces with and without a stake in the auto industry, and recall-related web searches.",
+      "why": "Studying recalls within one sector keeps the quality failure comparable across foreign and domestic makers. Variation across paper types and provinces separates government protectionist incentives from reader-driven nationalism, and web searches show whether coverage affects consumer attention.",
+      "basis": "full text"
+    }
   },
   {
     "key": "QMA7GQ77",
@@ -7867,7 +8155,13 @@
     "abstract": "How do international regimes change over time? Regimes facilitate cooperation by linking together otherwise ad hoc negotiations. These linkages endogenize the status quo from which subsequent negotiations depart. I develop a theory of endogenous status quo within international regimes: prior outcomes implicitly define the status quo of new negotiations by acting as focal points and by creating inconsistency costs. I test observable implications of the theory in the context of the multilateral trade regime, focusing on new member accession negotiations. These negotiations attract interest from a surprising subset of World Trade Organization members, many with few observable trade ties or other economic incentives to participate. Nonetheless participation enables states to shape the emergent status quo strategically, with potentially farreaching implications for future bargaining. I employ a text-as-data approach—together with a novel corpus of negotiating documents—finding consistent support for the theory and mechanisms.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/QMA7GQ77",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Within an international regime, earlier outcomes become the status quo for later negotiations, acting as focal points and creating inconsistency costs. States with few direct economic stakes therefore join negotiations such as new-member accessions to shape the emerging status quo for future bargaining.",
+      "empirics": "A text-as-data analysis of a novel corpus of WTO accession working-party documents: 326 texts, 30,062 questions and replies, covering accessions of 33 of the 36 countries that joined since 1995. The text measures capture how far members' requests follow earlier accession outcomes.",
+      "why": "The accession process draws many participants with little trade at stake (the Seychelles case drew 45 members, only nine seeking concessions), so material interests alone cannot explain participation. The negotiating texts record what states actually ask for, and a text approach can measure consistency with precedent at scale.",
+      "basis": "full text"
+    }
   },
   {
     "key": "PLHMHQNA",
@@ -7877,7 +8171,13 @@
     "abstract": "Political economy models view property rights as the linchpin to economic development. But strong property rights—defined as rules that provide greater compensation to a larger set of claimants—encourage opportunistic behaviors that undermine infrastructure investments. Strong rights lead to (1) holdout problems among existing property owners, (2) infrastructure trolls who occupy needed land, and (3) scope expansions in which communities demand unrelated local public goods. I draw on original qualitative research around highway projects in Colombia to illustrate how communities leverage their property rights to secure greater compensation and collective goods. A survey experiment supports the microfoundations of the theory: making salient strong property rights increases compensation demands and legal claims. State audit reports reveal that opportunistic behavior occurs on two-thirds of highway projects. These findings bolster a neglected view of strong property rights as a check on state-led economic development projects.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/PLHMHQNA",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "Strong property rights (rules giving larger compensation to more claimants) increase societal bargaining power against the state and invite opportunistic behavior that undermines infrastructure: holdouts, 'infrastructure trolls' occupying needed land, and scope expansions demanding unrelated public goods. Strong rights can thus check state-led development.",
+      "empirics": "Original qualitative research on highway projects in Colombia (interviews with officials and community leaders), a 2019 face-to-face survey experiment with 1,000 people in Cali randomizing a 'statist' versus 'liberal' property-rights framing, and state audit reports on highway projects, which show opportunistic behavior on about two-thirds of them.",
+      "why": "Colombia is a developing democracy that built infrastructure after strengthening property rights, reversing the usual order. Cali has both liberal national and statist city property rules, which makes the experimental framings plausible. The qualitative work shows the behavior, the experiment tests the individual-level mechanism and the audits show how common it is.",
+      "basis": "full text"
+    }
   },
   {
     "key": "UKL5K2K9",
@@ -7887,7 +8187,13 @@
     "abstract": "Scholars have long argued that international organizations solve information problems through increased transparency. This article introduces a distinct problem that instead requires such institutions to keep information secret. We argue that states often seek to reveal intelligence about other states’ violations of international rules and laws but are deterred by concerns about revealing the sources and methods used to collect it. Properly equipped international organizations, however, can mitigate these dilemmas by analyzing and acting on sensitive information while protecting it from wide dissemination. Using new data on intelligence disclosures to the International Atomic Energy Agency and an analysis of the full universe of nuclear proliferation cases, we demonstrate that strengthening the agency’s intelligence protection capabilities led to greater intelligence sharing and fewer suspected nuclear facilities. However, our theory suggests that this solution gives informed states a subtle form of influence and is in tension with the normative goal of international transparency.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/UKL5K2K9",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "States with intelligence about others' rule violations often will not reveal it for fear of exposing sources and methods. International organizations that can analyze and protect sensitive intelligence reduce this 'disclosure dilemma,' encouraging more sharing and deterring violations, while giving informed states subtle influence that conflicts with transparency norms.",
+      "empirics": "New data on U.S. intelligence sharing with the IAEA (from archives and interviews) and an analysis of country-years of states pursuing nuclear weapons since 1970 (excluding the five NPT nuclear states). The key predictor is the post-1991 IAEA intelligence-protection reforms, with outcomes of intelligence sharing and nuclear facility closures, plus case studies.",
+      "why": "The IAEA's 1991 reforms of its handling of intelligence create a before-and-after change in its protection capacity. Examining the full universe of proliferation cases avoids selecting only visible successes, and archives and interviews are needed because intelligence sharing is not publicly recorded (inferred).",
+      "basis": "full text"
+    }
   },
   {
     "key": "NQX83BPU",
@@ -7897,7 +8203,13 @@
     "abstract": "The dispute settlement system of the World Trade Organization prides itself on its high degree of judicial independence and the impartiality of its adjudicators. Yet compared to other international tribunals, WTO members exert considerable political control over WTO adjudicators. Contestation over appointments of adjudicators also reflects governments’ awareness that nationality may in fact matter for outcomes. Does it? An empirical analysis of 25 years of Appellate Body activity offers a nuanced answer. Exploiting the random allocation of adjudicators to AB divisions, we find no evidence of systematic national bias looking across the board. Yet we do find evidence of bias for AB chairs, suggesting that when adjudicators are singled out, they become more prone to political pressure. A similar effect pertains to individual dissenting opinions: the presence of a co-national on a division is associated with significantly increased odds of dissent. Judicial independence at the WTO has long been taken for granted. Our findings suggest that such trust is largely warranted, yet that even small tweaks in institutional design increase political pressure on adjudicators, in ways that threaten impartiality. This holds significant implications for WTO reforms going forward.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/NQX83BPU",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "WTO Appellate Body members face competing pressures: their authority depends on perceived impartiality, but members of the WTO exert political control over their reappointment. Nationality bias should therefore be limited in general but appear when adjudicators are singled out, for example as division chairs or as authors of dissents.",
+      "empirics": "Twenty-five years of Appellate Body activity, in a dataset updated to the full caseload with dissents and member tenures. The analysis first tests whether members are randomly assigned to divisions, then looks for co-national bias in the direction of rulings (share of claims decided for the complainant), including for division chairs, and finally examines how a co-national adjudicator affects dissenting opinions.",
+      "why": "Bias is hard to detect and tests face selection into litigation, since cases involving the U.S. differ from others. Using the assignment of members to cases, after checking it is effectively random, addresses that problem. Subgroup tests follow from the theory's prediction of more bias where adjudicators are conspicuous.",
+      "basis": "full text"
+    }
   },
   {
     "key": "9UD4TGEW",
@@ -11087,6 +11399,12 @@
     "abstract": "The study of political agenda setting is a cornerstone in political science. Within this literature, political parties are implicitly portrayed as being capable of proactively initiating discussions. However, this fundamental notion of party agency deserves further theoretical and empirical attention. In response, this article crafts a new model (the Issue Initiation Model) that opens the window into parties’ efforts to set an agenda and traces how they initiate and elevate their agenda. The model is tested on an original dataset covering more than 5.5-million tweets by political parties and MPs, coupled with over 750,000 news articles and 419,000 parliamentary questions in the United Kingdom and Denmark from 2015 to 2022. Results show how parties and their MPs can proactively redirect the attention of other actors through strategic planning and orchestrated actions. By theorizing and empirically testing the implicit notion that parties can proactively initiate discussions, this article has important implications for political agenda setting.",
     "source": "",
     "link": "https://www.zotero.org/georgeyean/items/ZY2FM7BM",
-    "group": "Example Papers"
+    "group": "Example Papers",
+    "analysis": {
+      "theory": "The Issue Initiation Model: parties are proactive agenda setters. They first initiate an issue and then elevate it, through concerted efforts by the party and its MPs. When this works, rival parties and the media redirect their attention to the issue.",
+      "empirics": "An original dataset of more than 5.5 million tweets by parties and MPs, over 750,000 news articles and 419,000 parliamentary questions in the UK and Denmark, 2015-2022, analyzed with vector autoregression models at the micro level. The paper also draws on an interview with a party strategist.",
+      "why": "Earlier agenda-setting work looks at aggregated attention, which cannot show who moves first. Fine-grained timing across parties, MPs and the media is needed to see whether attention follows initiation, and VAR models are suited to that.",
+      "basis": "full text"
+    }
   }
 ]
