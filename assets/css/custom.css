@@ -17,9 +17,10 @@
     margin-top: 1em;
 }
 
-/* Bolder menu bar links (theme default 400; Raleway loads 400/800/900) */
+/* Bolder, tighter menu bar links (theme default 400 weight, 0.25em spacing; Raleway loads 400/800/900) */
 #header .links ul li a {
     font-weight: 800;
+    letter-spacing: 0.12em;
 }
 
 /* About text 20% larger than theme default (0.9em) */
