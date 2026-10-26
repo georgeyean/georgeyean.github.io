@@ -17,7 +17,11 @@
     margin-top: 1em;
 }
 
-/* About text 50% larger than theme default (0.9em) */
+/* About heading and text 50% larger than theme defaults (0.8em / 0.9em) */
+.blurb h2 {
+    font-size: 1.2em;
+}
+
 .blurb p {
     font-size: 1.35em;
 }
