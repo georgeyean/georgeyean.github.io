@@ -833,7 +833,7 @@
 			} else if (/not an empirical/i.test(a.basis || '')) {
 				note += ' This piece is not an empirical study.';
 			}
-			return `<div class="ana"><div class="ana-h">Theory</div><p>${escapeHTML(a.theory)}</p><div class="ana-h">Empirical tests</div><p>${escapeHTML(a.empirics)}</p><div class="ana-h">Why this design</div><p>${escapeHTML(a.why)}</p><span class="provenance">${note}</span></div>`;
+			return `<div class="ana"><div class="ana-h">Theory</div><p>${escapeHTML(a.theory)}</p><div class="ana-h">Empirical tests</div><p>${escapeHTML(a.empirics)}</p><div class="ana-h">Why this design</div><p>${escapeHTML(a.why)}</p>${a.lessons ? `<div class="ana-h">What to learn</div><p>${escapeHTML(a.lessons)}</p>` : ''}<span class="provenance">${note}</span></div>`;
 		}
 
 		function renderFeed(papers) {
