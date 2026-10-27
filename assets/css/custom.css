@@ -645,3 +645,22 @@
 .post > header .title .abstract-toggle[open] summary {
     color: #2c4a6e;
 }
+
+/* No frame around figures */
+.paper-group > .post > a.image.featured img {
+    border: 0;
+}
+
+/* Line up Paper / SSRN / Abstract on one row: the <details> wrapper around
+   Abstract otherwise sits on an inline baseline a pixel lower than the links */
+.post > header .title .paper-actions {
+    align-items: center;
+}
+
+.post > header .title .abstract-toggle {
+    display: flex;
+}
+
+.post > header .title .abstract-toggle summary {
+    display: flex;
+}
