@@ -252,10 +252,9 @@
         line-height: 1.85;
     }
 
-    /* Prevent article images from spanning wider than comfortable */
+    /* Compact figure on phones */
     .post > a.image.featured img {
-        object-fit: cover;
-        max-height: 220px;
+        max-height: 200px;
     }
 
     /* Card padding scaled for narrow screens — the desktop values (2em card,
@@ -277,16 +276,15 @@
 
     .post > header .title {
         padding: 0;
+        margin-bottom: 0;
     }
 
-    /* The theme bleeds the featured image edge-to-edge below 480px using a
-       hardcoded -1.5em offset sized for its own 1.5em card padding. Since
-       .post padding is now 0.85em here, that stale offset overshot the
-       card border on every side — rescale it to match. */
+    /* The theme bleeds the featured image edge-to-edge below 480px with a
+       negative offset; the figure is now a framed inset instead, so cancel it. */
     .post > a.image.featured {
-        margin-left: -0.85em;
-        margin-top: calc(-0.85em - 1px);
-        width: calc(100% + 1.7em);
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
     }
 }
 
@@ -301,7 +299,7 @@
 /* "Research" / "Datasets" labels: a real section header (title, one-line
    descriptor, optional "all" link) over a hairline, so each group of cards
    below reads as one section instead of floating under a tiny label. */
-#main > .section-heading {
+#main .section-heading {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
@@ -312,14 +310,14 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-#main > .section-heading h2 {
+#main .section-heading h2 {
     margin: 0;
     font-size: 1.45em;
     font-weight: 800;
     letter-spacing: 0.02em;
 }
 
-#main > .section-heading p {
+#main .section-heading p {
     flex-basis: 100%;
     order: 3;
     margin: 0.25em 0 0 0;
@@ -327,7 +325,7 @@
     color: #6b7b8c;
 }
 
-#main > .section-heading .section-more {
+#main .section-heading .section-more {
     font-size: 0.72em;
     font-weight: 600;
     letter-spacing: 0.08em;
@@ -337,7 +335,7 @@
     white-space: nowrap;
 }
 
-#main > .section-heading .section-more:hover {
+#main .section-heading .section-more:hover {
     color: #3c3b3b;
 }
 
@@ -363,8 +361,287 @@
 /* Phones: the theme widens .post cards past the column padding, so extend
    the section header to the same edges instead of leaving it inset. */
 @media screen and (max-width: 736px) {
-    #main > .section-heading {
+    #main .section-heading {
         margin-left: -24px;
         margin-right: -24px;
     }
+}
+
+/* ── 7. Research list: flat rows, status line, side thumbnail ── */
+
+/* Papers as flat rows divided by hairlines instead of boxed cards:
+   text on the left, a small figure thumbnail on the right. */
+.paper-group > .post {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 15em;
+    gap: 0 2.25em;
+    align-items: start;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    box-shadow: none;
+    padding: 1.75em 0;
+    margin: 0;
+}
+
+/* Undo the theme's full-bleed header (negative offsets sized for card padding) */
+.paper-group > .post > header {
+    left: 0;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.paper-group > .post > header .title {
+    padding: 0;
+}
+
+/* Rows with no figure: text takes the full width */
+.paper-group > .post > header:last-child {
+    grid-column: 1 / -1;
+}
+
+.post > header .title h2 {
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+/* Status (colored dot + label) and coauthors, above the title */
+.post > header .title .paper-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25em 1em;
+    margin: 0 0 0.5em 0;
+    font-size: 0.72em;
+}
+
+.post > header .title .paper-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #6b7b8c;
+}
+
+.post > header .title .paper-status::before {
+    content: "";
+    width: 0.55em;
+    height: 0.55em;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.post > header .title .paper-status em {
+    text-transform: none;
+    letter-spacing: 0.02em;
+}
+
+.post > header .title .paper-status.status-review {
+    color: #b07400;
+}
+
+.post > header .title .paper-status.status-rr {
+    color: #2e7d4f;
+}
+
+.post > header .title .paper-coauthors {
+    color: #6b7b8c;
+}
+
+/* Buttons: squarer and darker; the main link is filled */
+.post > header .title .btn-paper,
+.post > header .title .abstract-toggle summary {
+    padding: 0.45em 0.9em;
+    border-radius: 3px;
+    font-size: 0.7em;
+    color: #4a5a6a;
+    background: transparent;
+}
+
+.post > header .title .btn-paper.btn-primary {
+    color: #fff;
+    background: #2c4a6e;
+    border-color: #2c4a6e;
+}
+
+.post > header .title .btn-paper.btn-primary:hover {
+    background: #1e3550;
+    border-color: #1e3550;
+}
+
+/* Buttons are all the same height now, so the old nudge on Abstract misaligns it */
+.post > header .title .abstract-toggle {
+    margin-top: 0;
+}
+
+/* Figure: thumbnail in the right column */
+.paper-group > .post > a.image.featured {
+    margin: 0.25em 0 0 0;
+    width: 100%;
+}
+
+.paper-group > .post > a.image.featured img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #fff;
+    transition: opacity 0.2s ease;
+}
+
+.paper-group > .post > a.image.featured:hover img {
+    transform: none;
+    opacity: 0.85;
+}
+
+/* Phones: one column, figure under the text */
+@media screen and (max-width: 736px) {
+    .paper-group > .post {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 1.4em 0;
+    }
+
+    .paper-group > .post > a.image.featured {
+        margin: 1em 0 0 0;
+    }
+}
+
+/* Open abstract: a quoted block with a left rule rather than a grey box */
+.post > header .title .abstract-body {
+    background: none;
+    border-left: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    padding: 0.1em 0 0.1em 1.1em;
+}
+
+/* Figure below the text, centered and height-capped, rather than a side thumbnail */
+.paper-group > .post {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.paper-group > .post > a.image.featured {
+    margin: 1.25em 0 0 0;
+    text-align: center;
+}
+
+.paper-group > .post > a.image.featured img {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+@media screen and (max-width: 736px) {
+    .paper-group > .post > a.image.featured img {
+        max-height: 200px;
+    }
+}
+
+/* ── 8. Section panels: each group (Research, Datasets) on a lighter panel ── */
+.paper-group {
+    background: #fbfbfb;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    padding: 1.6em 2.25em 0.25em 2.25em;
+    margin: 0 0 2.5em 0;
+}
+
+.paper-group > .post:last-child {
+    border-bottom: 0;
+}
+
+/* Keep the first paper close to its section title */
+#main .paper-group > .section-heading {
+    margin-bottom: 0;
+}
+
+.paper-group > .section-heading + .post {
+    padding-top: 1.1em;
+}
+
+@media screen and (max-width: 736px) {
+    .paper-group {
+        padding: 1.1em 1em 0 1em;
+        margin-bottom: 1.5em;
+    }
+
+    #main .paper-group > .section-heading {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* The theme widens and shifts .post past the column on phones; inside a
+   panel the rows should stay within the panel's padding. */
+.paper-group > .post {
+    left: 0;
+    width: auto;
+}
+
+/* Abstract: a plain text link with a chevron, not a button */
+.post > header .title .abstract-toggle summary,
+.post > header .title .abstract-toggle summary:hover,
+.post > header .title .abstract-toggle[open] summary {
+    padding: 0.45em 0.2em;
+    border: 0;
+    background: none;
+    color: #2c4a6e;
+}
+
+.post > header .title .abstract-toggle summary:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+@media screen and (max-width: 736px) {
+    .paper-group {
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+}
+
+/* Paper / SSRN: plain text links too, matching Abstract */
+.post > header .title .btn-paper,
+.post > header .title .btn-paper:hover,
+.post > header .title .btn-paper.btn-primary,
+.post > header .title .btn-paper.btn-primary:hover {
+    padding: 0.45em 0.2em;
+    border: 0;
+    background: none;
+    color: #2c4a6e;
+}
+
+.post > header .title .btn-paper:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.post > header .title .paper-actions {
+    gap: 0.5em 1.25em;
+}
+
+/* Main link stands out: navy and underlined; SSRN / Abstract in muted grey */
+.post > header .title .btn-paper,
+.post > header .title .abstract-toggle summary {
+    color: #6b7b8c;
+}
+
+.post > header .title .btn-paper.btn-primary {
+    color: #2c4a6e;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.post > header .title .btn-paper:hover,
+.post > header .title .abstract-toggle summary:hover,
+.post > header .title .abstract-toggle[open] summary {
+    color: #2c4a6e;
 }
