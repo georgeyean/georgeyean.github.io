@@ -664,3 +664,28 @@
 .post > header .title .abstract-toggle summary {
     display: flex;
 }
+
+/* Figures 20% larger: height cap 300px -> 360px (phones 200px -> 240px) */
+.paper-group > .post > a.image.featured img {
+    max-height: 360px;
+}
+
+@media screen and (max-width: 736px) {
+    .paper-group > .post > a.image.featured img {
+        max-height: 240px;
+    }
+}
+
+/* Let wide figures use the panel's side padding so they can reach full size */
+.paper-group > .post > a.image.featured {
+    margin-left: -2.25em;
+    margin-right: -2.25em;
+    width: auto;
+}
+
+@media screen and (max-width: 736px) {
+    .paper-group > .post > a.image.featured {
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+}
