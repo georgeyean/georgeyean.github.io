@@ -1,5 +1,15 @@
 				<!-- Header -->
 					<style>
+						/* Header 30% larger. The theme sizes the bar, padding, name, links and icons in em,
+						   so one font-size change scales all of it; body padding matches the taller bar (3.5em x 1.3). */
+						#header { font-size: 130%; }
+						body { padding-top: 4.55em; }
+						/* At this size the full link row needs ~1350px; below that, use the theme's slide-out menu
+						   (it lists every link) instead of letting the last links get clipped. */
+						@media screen and (max-width: 1360px) {
+							#header .links { display: none; }
+						}
+
 						/* Literature Network hover menu. The theme clips .links (overflow: hidden),
 						   so the submenu is position: fixed and sits at its static (in-flow) x position. */
 						#header .links li.has-sub > a:after { content: " \25BE"; letter-spacing: 0; }
