@@ -38,6 +38,7 @@ button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .theme-row:hover{background:var(--chip)}
 .theme-row .sw{width:12px;height:12px;border-radius:50%;flex:none}
 .theme-row.off{opacity:.38}
+.theme-row.focus{background:var(--chip);box-shadow:inset 3px 0 0 var(--accent);font-weight:600}
 .theme-row .n{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
 .small-links{margin-top:10px;display:flex;gap:6px;flex-wrap:wrap}
 .small-links button{font-size:11px;padding:3px 7px}
@@ -59,8 +60,15 @@ svg{width:100%;height:100%;display:block}
 .lane-label{font-size:11px;fill:var(--muted)}
 .axis text{fill:var(--muted);font-size:11px}
 .axis line,.axis path{stroke:var(--line)}
-.legend{position:absolute;left:10px;bottom:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:11px;color:var(--muted);max-width:280px}
-.legend div{display:flex;align-items:center;gap:6px;margin:2px 0}
+.legend{position:absolute;left:10px;bottom:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:11px;color:var(--muted);max-width:330px;line-height:1.35}
+.legend .lg-body div{display:flex;align-items:flex-start;gap:6px;margin:3px 0}
+.legend .lg-body div b{color:var(--ink);font-weight:600}
+.legend p{margin:4px 0 6px}
+.legend .lg-head{display:flex;justify-content:space-between;align-items:center;color:var(--ink)}
+.legend .lg-head button{padding:0 6px;font-size:12px;line-height:16px}
+.legend.collapsed .lg-body{display:none}
+.legend .l{flex:none;margin-top:6px}
+.legend .l.th{border-top-width:1px;border-top-color:var(--line)}
 .legend .l{width:22px;height:0;border-top:2px solid var(--edge)}
 .legend .l.ch{border-top-color:#dc2626}
 .legend .l.q{border-top-style:dashed}
@@ -112,19 +120,25 @@ a.ext{color:var(--accent)}
   <aside id="themes">
     <h2>Themes</h2>
     <div id="themeList"></div>
-    <div class="small-links"><button id="allOn">all</button><button id="allOff">none</button></div>
-    <p style="font-size:11px;color:var(--muted);margin-top:12px">Click a theme to toggle it. Node color = first theme tag. Click a node for its claim, method and typed links. Drag to rearrange; scroll to zoom. Data: <a class="ext" href="graph.json">graph.json</a>; review: <a class="ext" href="REVIEW.md">REVIEW.md</a>.</p>
+    <div class="small-links"><button id="allOn">show all</button><button id="allOff">hide all</button><button id="clearFocus">clear focus</button></div>
+    <p style="font-size:11px;color:var(--muted);margin-top:12px"><b>Click a theme name</b> to focus it: its hub moves to the center and grows, its works stay bright and the rest dim. Click again (or "clear focus") to release. <b>Click the color dot</b> to show or hide a theme. Node color = first theme tag. Click a work for its claim, method and typed links. Drag to rearrange; scroll to zoom. Data: <a class="ext" href="graph.json">graph.json</a>; review: <a class="ext" href="REVIEW.md">REVIEW.md</a>.</p>
   </aside>
   <main id="stage">
     <svg id="svg"></svg>
     <div id="hint">Edge direction: later work → work it relates to.</div>
-    <div class="legend">
-      <div><span class="l"></span> builds on</div>
-      <div><span class="l ch"></span> challenges</div>
-      <div><span class="l q"></span> qualifies</div>
-      <div><span class="l ex"></span> extends to new case</div>
-      <div><span class="l sy"></span> synthesizes</div>
-      <div><span class="l mt"></span> mechanism tested by</div>
+    <div class="legend" id="legend">
+      <div class="lg-head"><b>How to read the arrows</b> <button id="legendToggle" title="Collapse / expand">−</button></div>
+      <div class="lg-body">
+        <p>An arrow runs from the <b>later or dependent work</b> to the <b>work it relates to</b>: A → B means "A builds on / challenges / qualifies B". Hover an arrow for the reason; click a node to list all of its arrows with reasons.</p>
+        <div><span class="l"></span> <b>builds on</b>: extends or relies on B's argument or evidence</div>
+        <div><span class="l ch"></span> <b>challenges</b>: contests B's claim, mechanism or evidence</div>
+        <div><span class="l q"></span> <b>qualifies</b>: adds a scope condition or moderator to B</div>
+        <div><span class="l ex"></span> <b>extends to new case</b>: applies B to a new country, period or domain</div>
+        <div><span class="l sy"></span> <b>synthesizes</b>: integrates B with other work (reviews, frameworks)</div>
+        <div><span class="l mt"></span> <b>mechanism tested by</b>: tests a mechanism B implied</div>
+        <div><span class="l th"></span> thin line, no arrowhead: work → its theme hub (no relation)</div>
+        <p>Node color = first theme tag; node size grows with the number of typed links. Ring-only large circles are theme hubs.</p>
+      </div>
     </div>
   </main>
   <aside id="detail">
@@ -149,7 +163,7 @@ a.ext{color:var(--accent)}
   // ---------- state
   const state = {
     view: 'net', decade: 'all', etype: 'all', showThemes: true, seedOnly: false, q: '',
-    themesOn: new Set(themes.map(t => t.id)), selected: null,
+    themesOn: new Set(themes.map(t => t.id)), selected: null, focusTheme: null,
   };
   try { const s = localStorage.getItem('ipe-net-state'); if (s) { const o = JSON.parse(s); if (o.themesOn) state.themesOn = new Set(o.themesOn); if (o.view) state.view = o.view; } } catch (e) {}
   const persist = () => { try { localStorage.setItem('ipe-net-state', JSON.stringify({themesOn: [...state.themesOn], view: state.view})); } catch (e) {} };
@@ -161,14 +175,29 @@ a.ext{color:var(--accent)}
     works.forEach(w => w.themes.forEach(t => counts[t] = (counts[t] || 0) + 1));
     const rows = themeList.selectAll('.theme-row').data(themes, d => d.id);
     const enter = rows.enter().append('div').attr('class', 'theme-row')
-      .on('click', (ev, d) => { if (state.themesOn.has(d.id)) state.themesOn.delete(d.id); else state.themesOn.add(d.id); persist(); update(); });
-    enter.append('span').attr('class', 'sw').style('background', d => d.color);
+      .attr('title', 'Click to focus this theme (centers its hub, dims the rest). Click the color dot to show/hide it.')
+      .on('click', (ev, d) => focusTheme(d.id));
+    enter.append('span').attr('class', 'sw').style('background', d => d.color)
+      .attr('title', 'Show / hide this theme')
+      .on('click', (ev, d) => { ev.stopPropagation(); if (state.themesOn.has(d.id)) { state.themesOn.delete(d.id); if (state.focusTheme === d.id) state.focusTheme = null; } else state.themesOn.add(d.id); persist(); update(); });
     enter.append('span').attr('class', 'lab').text(d => d.label);
     enter.append('span').attr('class', 'n').text(d => counts[d.id] || 0);
-    rows.merge(enter).classed('off', d => !state.themesOn.has(d.id));
+    rows.merge(enter).classed('off', d => !state.themesOn.has(d.id)).classed('focus', d => state.focusTheme === d.id);
   }
   document.getElementById('allOn').onclick = () => { themes.forEach(t => state.themesOn.add(t.id)); persist(); update(); };
-  document.getElementById('allOff').onclick = () => { state.themesOn.clear(); persist(); update(); };
+  document.getElementById('allOff').onclick = () => { state.themesOn.clear(); state.focusTheme = null; persist(); update(); };
+  document.getElementById('clearFocus').onclick = () => { state.focusTheme = null; state.selected = null; update(); };
+
+  // focus a theme: make sure it is visible, pin its hub to the center, highlight its members
+  function focusTheme(id){
+    if (state.focusTheme === id) { state.focusTheme = null; }
+    else { state.focusTheme = id; state.themesOn.add(id); state.selected = id; showDetail(id); }
+    persist(); update();
+    if (state.focusTheme && state.view === 'net') {
+      // pull the camera back to the hub as well
+      svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+    }
+  }
 
   // ---------- filters
   function decadeOk(y){
@@ -205,7 +234,8 @@ a.ext{color:var(--accent)}
   const edgeColor = t => t === 'challenges' ? '#dc2626' : t === 'synthesizes' ? '#7c3aed' : t === 'mechanism_tested_by' ? '#059669' : 'var(--edge)';
   const edgeDash = t => t === 'qualifies' ? '5,4' : t === 'extends_to_new_case' ? '2,3' : null;
   const nodeColor = n => n.type === 'theme' ? n.color : themeById[n.themes[0]].color;
-  const radius = n => n.type === 'theme' ? 16 : 5 + Math.min(9, degree[n.id] || 0) * 0.8;
+  const radius = n => n.type === 'theme' ? (state.focusTheme === n.id ? 30 : 16) : 5 + Math.min(9, degree[n.id] || 0) * 0.8;
+  const inFocus = n => !state.focusTheme || n.id === state.focusTheme || (n.type === 'work' && n.themes.includes(state.focusTheme));
 
   const degree = {};
   relEdges.forEach(e => { degree[e.source] = (degree[e.source] || 0) + 1; degree[e.target] = (degree[e.target] || 0) + 1; });
@@ -265,39 +295,52 @@ a.ext{color:var(--accent)}
       .call(d3.drag().on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
         .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
         .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.fx = null; d.fy = null; } }))
-      .on('click', (ev, d) => { state.selected = d.id; showDetail(d.id); highlight(d.id); })
+      .on('click', (ev, d) => { if (d.type === 'theme') { focusTheme(d.id); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); })
       .merge(nd)
       .attr('r', d => radius(d))
-      .attr('fill', d => d.type === 'theme' ? 'var(--theme-node)' : nodeColor(d))
+      .attr('fill', d => d.type === 'theme' ? (state.focusTheme === d.id ? d.color : 'var(--theme-node)') : nodeColor(d))
+      .attr('fill-opacity', d => d.type === 'theme' && state.focusTheme === d.id ? 0.25 : 1)
       .attr('stroke', d => d.type === 'theme' ? d.color : 'var(--bg)')
-      .attr('stroke-width', d => d.type === 'theme' ? 3 : 1.2);
+      .attr('stroke-width', d => d.type === 'theme' ? (state.focusTheme === d.id ? 5 : 3) : 1.2);
 
     const lb = gLabels.selectAll('text').data(curNodes, d => d.id);
     lb.exit().remove();
     lb.enter().append('text').merge(lb)
       .attr('class', d => d.type === 'theme' ? 'theme-label' : 'node-label')
       .attr('text-anchor', d => d.type === 'theme' ? 'middle' : 'start')
-      .attr('dx', d => d.type === 'theme' ? 0 : radius(d) + 3).attr('dy', d => d.type === 'theme' ? -20 : 3)
+      .attr('dx', d => d.type === 'theme' ? 0 : radius(d) + 3).attr('dy', d => d.type === 'theme' ? -(radius(d) + 6) : 3)
+      .style('font-size', d => d.type === 'theme' && state.focusTheme === d.id ? '14px' : null)
       .text(d => d.type === 'theme' ? d.label.split(':')[0].split(',')[0] : d.label);
     highlight(state.selected);
   }
 
   function highlight(id){
+    // a selected theme hub highlights its members; a selected work highlights its neighbors
+    const sel = id && nodeById[id] && nodeById[id].type === 'theme' ? null : id;
     const nbr = new Set();
-    if (id) curEdges.forEach(e => { if (e.source.id === id) nbr.add(e.target.id); if (e.target.id === id) nbr.add(e.source.id); });
-    gNodes.selectAll('circle').attr('opacity', d => !id || d.id === id || nbr.has(d.id) ? 1 : 0.25);
-    gLabels.selectAll('text').attr('opacity', d => !id || d.id === id || nbr.has(d.id) ? 1 : 0.2);
-    gEdges.selectAll('path').attr('opacity', d => !id ? (d.type === 'belongs_to' ? 0.5 : 0.85) : (d.source.id === id || d.target.id === id ? 1 : 0.08))
-      .attr('stroke-width', d => id && (d.source.id === id || d.target.id === id) ? 2.2 : (d.type === 'belongs_to' ? 0.7 : 1.3));
+    if (sel) curEdges.forEach(e => { if (e.source.id === sel) nbr.add(e.target.id); if (e.target.id === sel) nbr.add(e.source.id); });
+    const nodeOn = d => (!sel || d.id === sel || nbr.has(d.id)) && inFocus(d);
+    const edgeOn = d => (!sel || d.source.id === sel || d.target.id === sel) && inFocus(d.source) && inFocus(d.target);
+    gNodes.selectAll('circle').attr('opacity', d => nodeOn(d) ? 1 : (inFocus(d) ? 0.25 : 0.08));
+    gLabels.selectAll('text').attr('opacity', d => nodeOn(d) ? 1 : (inFocus(d) ? 0.2 : 0.05));
+    gEdges.selectAll('path').attr('opacity', d => !edgeOn(d) ? 0.06 : (sel ? 1 : (d.type === 'belongs_to' ? 0.5 : 0.85)))
+      .attr('stroke-width', d => sel && (d.source.id === sel || d.target.id === sel) ? 2.2 : (d.type === 'belongs_to' ? 0.7 : 1.3));
   }
 
   // ---------- network layout
   function layoutNetwork(){
     gAxes.selectAll('*').remove();
     simNodes.forEach(n => { n.fx = null; n.fy = null; });
+    const hub = state.focusTheme && state.showThemes ? simById[state.focusTheme] : null;
+    if (hub) { hub.fx = W / 2; hub.fy = H / 2; }
     sim.nodes(curNodes);
-    sim.force('link', d3.forceLink(curEdges).id(d => d.id).distance(d => d.type === 'belongs_to' ? 70 : 55).strength(d => d.type === 'belongs_to' ? 0.25 : 0.5));
-    sim.force('x', d3.forceX(W / 2).strength(0.03)).force('y', d3.forceY(H / 2).strength(0.03));
+    sim.force('link', d3.forceLink(curEdges).id(d => d.id)
+      .distance(d => d.type === 'belongs_to' ? (hub && d.target.id === hub.id ? 90 : 70) : 55)
+      .strength(d => d.type === 'belongs_to' ? (hub && d.target.id === hub.id ? 0.6 : 0.25) : 0.5));
+    // members of the focused theme are drawn toward the center, everything else is pushed outward
+    sim.force('x', d3.forceX(W / 2).strength(d => hub ? (inFocus(d) ? 0.08 : 0.005) : 0.03))
+       .force('y', d3.forceY(H / 2).strength(d => hub ? (inFocus(d) ? 0.08 : 0.005) : 0.03));
+    sim.force('radial', hub ? d3.forceRadial(d => inFocus(d) ? 0 : Math.min(W, H) * 0.46, W / 2, H / 2).strength(d => inFocus(d) ? 0 : 0.35) : null);
     sim.alpha(0.9).restart();
   }
 
@@ -405,6 +448,8 @@ a.ext{color:var(--accent)}
   };
   window.addEventListener('resize', () => { W = stage.clientWidth; H = stage.clientHeight; sim.force('center', d3.forceCenter(W / 2, H / 2)); update(); });
   svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; highlight(null); } });
+  document.getElementById('legendToggle').onclick = e => { const l = document.getElementById('legend'); l.classList.toggle('collapsed'); e.target.textContent = l.classList.contains('collapsed') ? '+' : '−'; };
+  if (stage.clientWidth < 700) { document.getElementById('legend').classList.add('collapsed'); document.getElementById('legendToggle').textContent = '+'; }
 
   setView(state.view);
 })();
