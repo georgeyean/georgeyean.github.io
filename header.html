@@ -1,4 +1,38 @@
 				<!-- Header -->
+					<style>
+						/* Literature Network hover menu. The theme clips .links (overflow: hidden),
+						   so the submenu is position: fixed and sits at its static (in-flow) x position. */
+						#header .links li.has-sub > a:after { content: " \25BE"; letter-spacing: 0; }
+						#header .links .submenu {
+							display: none;
+							position: fixed;
+							top: 2.3em;          /* starts just under the link text ... */
+							padding-top: 1.2em;  /* ... transparent bridge down to the header edge keeps hover alive */
+							z-index: 10001;
+						}
+						#header .links li.has-sub:hover .submenu,
+						#header .links li.has-sub:focus-within .submenu { display: block; }
+						#header .links .submenu ul {
+							background: #ffffff;
+							border: solid 1px rgba(160, 160, 160, 0.3);
+							box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+							padding: 0.4em 0;
+							min-width: 15em;
+						}
+						#header .links .submenu ul li {
+							display: block;
+							border-left: 0;
+							margin: 0;
+							padding: 0;
+							line-height: 1;
+						}
+						#header .links .submenu ul li a {
+							display: block;
+							padding: 0.9em 1.4em;
+							white-space: nowrap;
+						}
+						#header .links .submenu ul li a:hover { color: #2ebaae; background: rgba(160, 160, 160, 0.08); }
+					</style>
 					<header id="header">
 						<h1><a href="index.html">George Yean</a></h1>
 						<nav class="links">
@@ -9,6 +43,15 @@
 								<li><a href="files/cv.pdf">CV</a></li>
 								<li><a href="policy.html">Policy Writing</a></li>
 								<li><a href="agent.html">AI Agent</a></li>
+								<li class="has-sub">
+									<a href="ipe-network/network.html" aria-haspopup="true">Literature Network</a>
+									<div class="submenu">
+										<ul>
+											<li><a href="ipe-network/network.html">IPE</a></li>
+											<li><a href="security-network/network.html">International Security</a></li>
+										</ul>
+									</div>
+								</li>
 							</ul>
 						</nav>
 						<nav class="main">
@@ -68,7 +111,17 @@
 										<a href="agent.html">
 											<h3>AI Agent</h3>
 										</a>
-									</li>	
+									</li>
+									<li>
+										<a href="ipe-network/network.html">
+											<h3>Literature Network: IPE</h3>
+										</a>
+									</li>
+									<li>
+										<a href="security-network/network.html">
+											<h3>Literature Network: International Security</h3>
+										</a>
+									</li>
 								</ul>
 							</section>
 
