@@ -198,8 +198,11 @@ One-line claims for non-library works are my summaries, not re-read this session
 
 ## What I could not verify (flagged)
 
-- **Anchors and library seeds:** the Crossref check of the 95 anchors and 38 library works is still running. Until it is recorded, those nodes show "pending Crossref check" in their `verified` field.
-- **Library entries:** many *Gov Theory* items are PDF excerpts. I supplied their authors, years and venues from memory, so treat those details as provisional until the check is recorded.
+- **Anchors and library seeds:** I checked 133 works in Crossref.
+  - 89 matched on title and author.
+  - 37 were found only through reviews, chapters or reference entries about them. That confirms the work exists, but not every detail I supplied.
+  - 7 classics are not in Crossref as their own records: Rawls's *A Theory of Justice* and *Political Liberalism*, the two MacIntyre pieces, Parfit's *Reasons and Persons*, and Young's *Inclusion and Democracy* and *Responsibility for Justice*. Their metadata is from memory.
+- **Library entries:** many *Gov Theory* items are PDF excerpts, so I supplied their authors, years and venues. Most were confirmed as above.
 - **Claims:** one-line claims and edge justifications for non-library works are my summaries, not checked against full text.
 - **Coverage:**
   - Political theory is book-centered, so the article-based selection understates books.

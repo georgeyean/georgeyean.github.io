@@ -229,7 +229,7 @@
    ],
    "source": "papers.json:URGFYV38",
    "zotero": "https://www.zotero.org/georgeyean/items/URGFYV38",
-   "verified": "repo entry (abstract only)"
+   "verified": "Not found as its own Crossref record (classic work; metadata from memory)"
   },
   {
    "id": "rawls1955",
@@ -247,7 +247,7 @@
    ],
    "source": "papers.json:ZGC3VW4Z",
    "zotero": "https://www.zotero.org/georgeyean/items/ZGC3VW4Z",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (The Philosophical Review, 1955; DOI 10.2307/2182230)"
   },
   {
    "id": "anderson1999",
@@ -264,7 +264,7 @@
    ],
    "source": "papers.json:M29AEN62",
    "zotero": "https://www.zotero.org/georgeyean/items/M29AEN62",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Ethics, 1999; DOI 10.1086/233897)"
   },
   {
    "id": "cohen1992",
@@ -282,7 +282,7 @@
    ],
    "source": "papers.json:IP4G6YNF",
    "zotero": "https://www.zotero.org/georgeyean/items/IP4G6YNF",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Socialism and the Common Good, 2014; DOI 10.4324/9781315036472-12); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "anderson2010",
@@ -300,7 +300,7 @@
    ],
    "source": "papers.json:35VW9DJF",
    "zotero": "https://www.zotero.org/georgeyean/items/35VW9DJF",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "scanlon2018",
@@ -317,7 +317,7 @@
    ],
    "source": "papers.json:5GP5KTFA",
    "zotero": "https://www.zotero.org/georgeyean/items/5GP5KTFA",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford Scholarship Online, 2017; DOI 10.1093/oso/9780198812692.001.0001)"
   },
   {
    "id": "waldron2017",
@@ -335,7 +335,7 @@
    ],
    "source": "papers.json:RZ8RIBZD",
    "zotero": "https://www.zotero.org/georgeyean/items/RZ8RIBZD",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Harvard University Press, 2017; DOI 10.4159/9780674978867)"
   },
   {
    "id": "fishkin2014",
@@ -353,7 +353,7 @@
    ],
    "source": "papers.json:72S3I3N5",
    "zotero": "https://www.zotero.org/georgeyean/items/72S3I3N5",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University Press, 2014; DOI 10.1093/acprof:oso/9780199812141.001.0001)"
   },
   {
    "id": "mankiw2013",
@@ -371,7 +371,7 @@
    ],
    "source": "papers.json:HHW5BHCM",
    "zotero": "https://www.zotero.org/georgeyean/items/HHW5BHCM",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Journal of Economic Perspectives, 2013; DOI 10.1257/jep.27.3.21)"
   },
   {
    "id": "rousseau1755",
@@ -389,7 +389,7 @@
    ],
    "source": "papers.json:EMJV3EAE",
    "zotero": "https://www.zotero.org/georgeyean/items/EMJV3EAE",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Discourse on the Origin of Inequality, 2009; DOI 10.1093/owc/9780199555420.003.0002); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "mills2005",
@@ -407,7 +407,7 @@
    ],
    "source": "papers.json:D825RQ7J",
    "zotero": "https://www.zotero.org/georgeyean/items/D825RQ7J",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Hypatia, 2005; DOI 10.1353/hyp.2005.0107)"
   },
   {
    "id": "mills2017",
@@ -425,7 +425,7 @@
    ],
    "source": "papers.json:IHU3FJQJ",
    "zotero": "https://www.zotero.org/georgeyean/items/IHU3FJQJ",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Oxford University PressNew York, 2017; DOI 10.1093/acprof:oso/9780190245412.001.0001)"
   },
   {
    "id": "shelby2016",
@@ -443,7 +443,7 @@
    ],
    "source": "papers.json:4MKWH4HY",
    "zotero": "https://www.zotero.org/georgeyean/items/4MKWH4HY",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Harvard University Press, 2016; DOI 10.2307/j.ctv24w638g)"
   },
   {
    "id": "appiah2018",
@@ -461,7 +461,7 @@
    ],
    "source": "papers.json:SLKHX4JI",
    "zotero": "https://www.zotero.org/georgeyean/items/SLKHX4JI",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "patterson1997",
@@ -478,7 +478,7 @@
    ],
    "source": "papers.json:ABQZGR9S",
    "zotero": "https://www.zotero.org/georgeyean/items/ABQZGR9S",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (The Journal of American History, 2001; DOI 10.2307/2674896); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "threadcraft2016",
@@ -496,7 +496,7 @@
    ],
    "source": "papers.json:BS4T4X82",
    "zotero": "https://www.zotero.org/georgeyean/items/BS4T4X82",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Intimate Justice, 2016; DOI 10.1093/acprof:oso/9780190251635.003.0005)"
   },
   {
    "id": "fricker2007",
@@ -514,7 +514,7 @@
    ],
    "source": "papers.json:JQG8CWQ2",
    "zotero": "https://www.zotero.org/georgeyean/items/JQG8CWQ2",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "stanley2015",
@@ -532,7 +532,7 @@
    ],
    "source": "papers.json:P3PLWT3M",
    "zotero": "https://www.zotero.org/georgeyean/items/P3PLWT3M",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2015; DOI 10.1515/9781400865802)"
   },
   {
    "id": "crenshaw1991",
@@ -550,7 +550,7 @@
    ],
    "source": "papers.json:HRF4GKQR",
    "zotero": "https://www.zotero.org/georgeyean/items/HRF4GKQR",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Stanford Law Review, 1991; DOI 10.2307/1229039)"
   },
   {
    "id": "mackinnon1982",
@@ -568,7 +568,7 @@
    ],
    "source": "papers.json:BDLPWWYF",
    "zotero": "https://www.zotero.org/georgeyean/items/BDLPWWYF",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Gender and Feminist Theory in Law and Society, 2017; DOI 10.4324/9781351157766-1); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "haslanger2000",
@@ -586,7 +586,7 @@
    ],
    "source": "papers.json:NZQQ2RN5",
    "zotero": "https://www.zotero.org/georgeyean/items/NZQQ2RN5",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Arguing About Science, 2012; DOI 10.4324/9780203718087-8); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "okin1999",
@@ -604,7 +604,7 @@
    ],
    "source": "papers.json:V673MB82",
    "zotero": "https://www.zotero.org/georgeyean/items/V673MB82",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "fraser1995",
@@ -622,7 +622,7 @@
    ],
    "source": "papers.json:8VF3QVIQ",
    "zotero": "https://www.zotero.org/georgeyean/items/8VF3QVIQ",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Feminism And Politics, 1998; DOI 10.1093/oso/9780198782063.003.0021); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "taylor1992",
@@ -639,7 +639,7 @@
    ],
    "source": "papers.json:H336EQUN",
    "zotero": "https://www.zotero.org/georgeyean/items/H336EQUN",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "renan1882",
@@ -657,7 +657,7 @@
    ],
    "source": "papers.json:KSSVFCXA",
    "zotero": "https://www.zotero.org/georgeyean/items/KSSVFCXA",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "macintyre1984",
@@ -675,7 +675,7 @@
    ],
    "source": "papers.json:SCVJ9EXU",
    "zotero": "https://www.zotero.org/georgeyean/items/SCVJ9EXU",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Not found as its own Crossref record (classic work; metadata from memory)"
   },
   {
    "id": "sandel1984",
@@ -693,7 +693,7 @@
    ],
    "source": "papers.json:ZDRBP2JC",
    "zotero": "https://www.zotero.org/georgeyean/items/ZDRBP2JC",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "connolly1974",
@@ -711,7 +711,7 @@
    ],
    "source": "papers.json:Q4KGGZWI",
    "zotero": "https://www.zotero.org/georgeyean/items/Q4KGGZWI",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "gaventa1980",
@@ -728,7 +728,7 @@
    ],
    "source": "papers.json:QIKXCA5N",
    "zotero": "https://www.zotero.org/georgeyean/items/QIKXCA5N",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Social Forces, 1981; DOI 10.2307/2578461)"
   },
   {
    "id": "macintyre1971",
@@ -745,7 +745,7 @@
    ],
    "source": "papers.json:FFCVI96Q",
    "zotero": "https://www.zotero.org/georgeyean/items/FFCVI96Q",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Not found as its own Crossref record (classic work; metadata from memory)"
   },
   {
    "id": "taylor1971",
@@ -762,7 +762,7 @@
    ],
    "source": "papers.json:7KSQAH5G",
    "zotero": "https://www.zotero.org/georgeyean/items/7KSQAH5G",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Philosophy and the Human Sciences, None; DOI 10.1017/cbo9781139173490.002); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "jaeggi2018",
@@ -780,7 +780,7 @@
    ],
    "source": "papers.json:IG2L94VR",
    "zotero": "https://www.zotero.org/georgeyean/items/IG2L94VR",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "waldron2013",
@@ -798,7 +798,7 @@
    ],
    "source": "papers.json:2PFFQM5A",
    "zotero": "https://www.zotero.org/georgeyean/items/2PFFQM5A",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Elsevier BV, 2012; DOI 10.2139/ssrn.2060344)"
   },
   {
    "id": "zacka2017",
@@ -816,7 +816,7 @@
    ],
    "source": "papers.json:L3LCK9GY",
    "zotero": "https://www.zotero.org/georgeyean/items/L3LCK9GY",
-   "verified": "library course reading; metadata supplied from memory, pending Crossref check"
+   "verified": "Crossref: title and author matched (Harvard University Press, 2017; DOI 10.4159/9780674981423)"
   },
   {
    "id": "mansbridge1999",
@@ -852,7 +852,7 @@
    ],
    "source": "papers.json:7AFQGDDV",
    "zotero": "https://www.zotero.org/georgeyean/items/7AFQGDDV",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (The Oxford Handbook of Public Accountability, 2014; DOI 10.1093/oxfordhb/9780199641253.013.0019)"
   },
   {
    "id": "beitz2001",
@@ -887,7 +887,7 @@
    ],
    "source": "papers.json:6BHS8PSJ",
    "zotero": "https://www.zotero.org/georgeyean/items/6BHS8PSJ",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "rosen2012",
@@ -905,7 +905,7 @@
    ],
    "source": "papers.json:WM9MPP9Z",
    "zotero": "https://www.zotero.org/georgeyean/items/WM9MPP9Z",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Harvard University Press, 2012; DOI 10.4159/harvard.9780674065512)"
   },
   {
    "id": "hirschman1970",
@@ -923,7 +923,7 @@
    ],
    "source": "papers.json:6I2WSFPA",
    "zotero": "https://www.zotero.org/georgeyean/items/6I2WSFPA",
-   "verified": "repo entry (abstract only)"
+   "verified": "Crossref: title and author matched (Social Forces, 1971; DOI 10.2307/3005748)"
   },
   {
    "id": "achenbartels2016",
@@ -1049,7 +1049,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "arendt1958",
@@ -1067,7 +1067,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "skinner1969",
@@ -1085,7 +1085,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Visions of Politics, None; DOI 10.1017/cbo9780511790812.007); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "pitkin1967",
@@ -1102,7 +1102,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (University of California Press, 1967; DOI 10.1525/9780520340503)"
   },
   {
    "id": "singer1972",
@@ -1119,7 +1119,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Global Justice, 2017; DOI 10.4324/9781315254210-1); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "nozick1974",
@@ -1137,7 +1137,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "lukes1974",
@@ -1154,7 +1154,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Macmillan Education UK, 1974; DOI 10.1007/978-1-349-02248-9)"
   },
   {
    "id": "pocock1975",
@@ -1172,7 +1172,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2016; DOI 10.23943/princeton/9780691172231.001.0001); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "foucault1977",
@@ -1189,7 +1189,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (On Violence, 2007; DOI 10.1215/9780822390169-018); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "beitz1979",
@@ -1206,7 +1206,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 1999; DOI 10.1515/9781400822928); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "sen1980",
@@ -1223,7 +1223,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "dworkin1981",
@@ -1240,7 +1240,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (The Notion of Equality, 2018; DOI 10.4324/9781315199795-7); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "walzer1983",
@@ -1259,7 +1259,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (The Philosophical Review, 1985; DOI 10.2307/2184729); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "parfit1984",
@@ -1276,7 +1276,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Not found as its own Crossref record (classic work; metadata from memory)"
   },
   {
    "id": "dahl1985",
@@ -1294,7 +1294,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (University of California Press, 1985; DOI 10.1525/9780520341166)"
   },
   {
    "id": "raz1986",
@@ -1311,7 +1311,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University PressOxford, 1988; DOI 10.1093/0198248075.001.0001); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "carens1987",
@@ -1328,7 +1328,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (The Review of Politics, 1987; DOI 10.1017/s0034670500033817)",
+   "crossref_doi": "10.1017/s0034670500033817"
   },
   {
    "id": "frankfurt1987",
@@ -1345,7 +1346,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (The Notion of Equality, 2018; DOI 10.4324/9781315199795-15); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "pateman1988",
@@ -1363,7 +1364,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "okin1989",
@@ -1381,7 +1382,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "cohen1989",
@@ -1398,7 +1399,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (On the Currency of Egalitarian Justice, and Other Essays in Political Philosophy, 2011; DOI 10.23943/princeton/9780691148700.003.0001); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "cohen1989delib",
@@ -1416,7 +1417,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Deliberative Democracy, 1997; DOI 10.7551/mitpress/2324.003.0006); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "arneson1989",
@@ -1433,7 +1434,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (The Notion of Equality, 2018; DOI 10.4324/9781315199795-9); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "young1990",
@@ -1452,7 +1453,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "butler1990",
@@ -1470,7 +1471,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Routledge, 2011; DOI 10.4324/9780203824979); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "collins1990",
@@ -1489,7 +1490,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Routledge, 2013; DOI 10.4324/9781315831824); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "rawls1993",
@@ -1506,7 +1507,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Not found as its own Crossref record (classic work; metadata from memory)"
   },
   {
    "id": "honig1993",
@@ -1523,7 +1524,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Cornell University Press, 2023; DOI 10.7591/cornell/9781501768446.001.0001); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "kymlicka1995",
@@ -1540,7 +1541,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University PressOxford, 1996; DOI 10.1093/0198290918.001.0001)"
   },
   {
    "id": "miller1995",
@@ -1559,7 +1560,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "honneth1995",
@@ -1577,7 +1578,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "tully1995",
@@ -1595,7 +1596,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 1995; DOI 10.1017/cbo9781139170888)"
   },
   {
    "id": "habermas1996",
@@ -1614,7 +1615,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "gutmannthompson1996",
@@ -1631,7 +1632,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Deliberative Politics, 1999; DOI 10.1093/oso/9780195131918.003.0017); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "pettit1997",
@@ -1648,7 +1649,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University PressOxford, 1999; DOI 10.1093/0198296428.001.0001); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "mills1997",
@@ -1666,7 +1667,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "manin1997",
@@ -1684,7 +1685,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 1997; DOI 10.1017/cbo9780511659935)"
   },
   {
    "id": "rawls1997",
@@ -1701,7 +1702,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Constitutionalism and Democracy, 2017; DOI 10.4324/9781315095455-5); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "skinner1998",
@@ -1719,7 +1720,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2012; DOI 10.1017/cbo9781139197175); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "waldron1999",
@@ -1737,7 +1738,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University Press, 1999; DOI 10.1093/acprof:oso/9780198262138.001.0001)"
   },
   {
    "id": "rawls1999",
@@ -1754,7 +1755,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "mehta1999",
@@ -1772,7 +1773,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (University of Chicago Press, 1999; DOI 10.7208/chicago/9780226519180.001.0001)"
   },
   {
    "id": "nussbaum2000",
@@ -1790,7 +1791,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2000; DOI 10.1017/cbo9780511841286)"
   },
   {
    "id": "dryzek2000",
@@ -1808,7 +1809,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University PressOxford, 2002; DOI 10.1093/019925043x.001.0001); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "mouffe2000",
@@ -1826,7 +1827,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "young2000",
@@ -1845,7 +1846,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Not found as its own Crossref record (classic work; metadata from memory)"
   },
   {
    "id": "barry2001",
@@ -1863,7 +1864,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Contemporary Sociology, 2003; DOI 10.2307/1556485); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "pogge2002",
@@ -1880,7 +1881,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Political Philosophy in the Twenty-First Century, 2018; DOI 10.4324/9780429498190-20); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "mansbridge2003",
@@ -1897,7 +1898,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (American Political Science Review, 2003; DOI 10.1017/s0003055403000856)",
+   "crossref_doi": "10.1017/s0003055403000856"
   },
   {
    "id": "fraserhonneth2003",
@@ -1915,7 +1917,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "scheffler2003",
@@ -1932,7 +1934,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (John Rawls, 2017; DOI 10.4324/9781315251431-12); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "benhabib2004",
@@ -1950,7 +1952,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2004; DOI 10.1017/cbo9780511790799)"
   },
   {
    "id": "williams2005",
@@ -1968,7 +1970,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2009; DOI 10.1515/9781400826735); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "caney2005",
@@ -1986,7 +1988,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University PressOxford, 2005; DOI 10.1093/019829350x.001.0001)"
   },
   {
    "id": "nagel2005",
@@ -2003,7 +2005,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Global Justice, 2017; DOI 10.4324/9781315254210-9); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "laclau2005",
@@ -2021,7 +2023,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "pitts2005",
@@ -2039,7 +2041,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2005; DOI 10.1515/9781400826636)"
   },
   {
    "id": "shelby2005",
@@ -2056,7 +2058,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Harvard University Press, 2005; DOI 10.4159/9780674043527)"
   },
   {
    "id": "anderson2006",
@@ -2074,7 +2076,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Episteme: A Journal of Social Epistemology, 2006; DOI 10.1353/epi.0.0000)",
+   "crossref_doi": "10.1353/epi.0.0000"
   },
   {
    "id": "waldron2006",
@@ -2092,7 +2095,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (The Yale Law Journal, 2006; DOI 10.2307/20455656)",
+   "crossref_doi": "10.2307/20455656"
   },
   {
    "id": "urbinati2006",
@@ -2109,7 +2113,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (University of Chicago Press, 2006; DOI 10.7208/chicago/9780226842806.001.0001)"
   },
   {
    "id": "sen2006",
@@ -2127,7 +2131,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Journal of Philosophy, 2006; DOI 10.5840/jphil2006103517)",
+   "crossref_doi": "10.5840/jphil2006103517"
   },
   {
    "id": "gardiner2011",
@@ -2144,7 +2149,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "estlund2008",
@@ -2162,7 +2167,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2009; DOI 10.1515/9781400831548)"
   },
   {
    "id": "geuss2008",
@@ -2179,7 +2184,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2008; DOI 10.1515/9781400835515)"
   },
   {
    "id": "wolin2008",
@@ -2197,7 +2202,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2017; DOI 10.1515/9781400888405); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "cohen2008",
@@ -2215,7 +2220,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Harvard University Press, 2008; DOI 10.4159/9780674029651)"
   },
   {
    "id": "fishkin2009",
@@ -2232,7 +2237,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University Press, 2011; DOI 10.1093/acprof:osobl/9780199604432.001.0001); Crossref date is a reprint, review or chapter"
   },
   {
    "id": "sen2009",
@@ -2250,7 +2255,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "beitz2009",
@@ -2267,7 +2272,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "lovett2010",
@@ -2285,7 +2290,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University PressOxford, 2010; DOI 10.1093/acprof:oso/9780199579419.001.0001)"
   },
   {
    "id": "saward2010",
@@ -2302,7 +2307,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University Press, 2010; DOI 10.1093/acprof:oso/9780199579389.001.0001)"
   },
   {
    "id": "young2011",
@@ -2320,7 +2325,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Not found as its own Crossref record (classic work; metadata from memory)"
   },
   {
    "id": "donaldsonkymlicka2011",
@@ -2338,7 +2343,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "quong2011",
@@ -2355,7 +2360,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University Press, 2010; DOI 10.1093/acprof:oso/9780199594870.001.0001)"
   },
   {
    "id": "gaus2011",
@@ -2372,7 +2377,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "pettit2012",
@@ -2390,7 +2395,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2012; DOI 10.1017/cbo9781139017428)"
   },
   {
    "id": "parkinsonmansbridge2012",
@@ -2407,7 +2412,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "forst2012",
@@ -2425,7 +2430,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "landemore2013",
@@ -2443,7 +2448,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2012; DOI 10.23943/princeton/9780691155654.001.0001)"
   },
   {
    "id": "carens2013",
@@ -2460,7 +2465,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "coulthard2014",
@@ -2478,7 +2483,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "brown2015",
@@ -2496,7 +2501,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Zone Books, 2015; DOI 10.2307/j.ctt17kk9p8)"
   },
   {
    "id": "brennan2016",
@@ -2513,7 +2518,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2016; DOI 10.1515/9781400882939)"
   },
   {
    "id": "muller2016",
@@ -2530,7 +2535,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "millerstrangers2016",
@@ -2547,7 +2552,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Harvard University Press, 2016; DOI 10.4159/9780674969827)"
   },
   {
    "id": "anderson2017",
@@ -2565,7 +2570,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2017; DOI 10.1515/9781400887781)"
   },
   {
    "id": "laborde2017",
@@ -2583,7 +2588,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "getachew2019",
@@ -2602,7 +2607,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2019; DOI 10.1515/9780691184340)"
   },
   {
    "id": "urbinati2019book",
@@ -2620,7 +2625,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Harvard University Press, 2019; DOI 10.4159/9780674243576)"
   },
   {
    "id": "forrester2019",
@@ -2638,7 +2643,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2019; DOI 10.2307/j.ctvfb6zcv)"
   },
   {
    "id": "lafont2020",
@@ -2656,7 +2661,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University PressOxford, 2019; DOI 10.1093/oso/9780198848189.001.0001)"
   },
   {
    "id": "landemore2020",
@@ -2675,7 +2680,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2020; DOI 10.23943/princeton/9780691181998.001.0001)"
   },
   {
    "id": "herzog2018",
@@ -2692,7 +2697,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
   },
   {
    "id": "miller2007",
@@ -2710,7 +2715,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "pending Crossref check"
+   "verified": "Crossref: title and author matched (Oxford University Press, 2007; DOI 10.1093/acprof:oso/9780199235056.001.0001)"
   },
   {
    "id": "robeyns2006",
