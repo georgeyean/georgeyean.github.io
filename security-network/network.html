@@ -34,7 +34,7 @@ select,input[type=search],button{font:inherit;font-size:12px;padding:4px 8px;bor
 button{cursor:pointer}
 button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 body{display:flex;flex-direction:column}
-#layout{display:grid;grid-template-columns:230px 1fr 360px;flex:1;min-height:0}
+#layout{display:grid;grid-template-columns:230px 1fr;flex:1;min-height:0;position:relative;overflow:hidden}
 #themes{overflow:auto;border-right:1px solid var(--line);padding:10px 12px;background:var(--panel)}
 #themes h2,#detail h2{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 8px}
 .theme-row{display:flex;align-items:center;gap:8px;padding:4px 2px;cursor:pointer;border-radius:6px;font-size:12px}
@@ -47,7 +47,11 @@ body{display:flex;flex-direction:column}
 .small-links button{font-size:11px;padding:3px 7px}
 #stage{position:relative;overflow:hidden}
 svg{width:100%;height:100%;display:block}
-#detail{overflow:auto;border-left:1px solid var(--line);padding:12px 14px;background:var(--panel)}
+#detail{position:absolute;top:0;right:0;bottom:0;width:360px;max-width:92vw;overflow:auto;border-left:1px solid var(--line);padding:12px 14px;background:var(--panel);transform:translateX(100%);transition:transform .25s ease;box-shadow:-6px 0 18px rgba(0,0,0,.18);z-index:6;visibility:hidden}
+#detail.open{transform:translateX(0);visibility:visible}
+#detailToggle{position:absolute;top:50%;right:0;transform:translateY(-50%);z-index:7;width:22px;height:56px;padding:0;border:1px solid var(--line);border-right:0;border-radius:8px 0 0 8px;background:var(--panel);color:var(--muted);font-size:16px;line-height:54px;cursor:pointer;transition:right .25s ease}
+#detailToggle:hover{color:var(--ink)}
+#detailToggle.open{right:min(360px,92vw)}
 #detail .title{font-size:15px;font-weight:650;margin:0 0 2px}
 #detail .meta{color:var(--muted);font-size:12px;margin-bottom:8px}
 #detail p{margin:6px 0}
@@ -85,9 +89,9 @@ a.ext{color:var(--accent)}
 #edgeTip .tg{color:var(--muted);font-size:11px;margin-top:2px}
 #edgeTip .tw{margin-top:5px}
 @media (max-width: 900px){
-  #layout{grid-template-columns:1fr;grid-template-rows:auto 60vh auto;height:auto}
+  #layout{grid-template-columns:1fr;grid-template-rows:auto 70vh;height:auto}
   #themes{border-right:0;border-bottom:1px solid var(--line);max-height:30vh}
-  #detail{border-left:0;border-top:1px solid var(--line)}
+  #detail,#detailToggle{position:fixed}
   body{height:auto}
 }
 </style>
@@ -155,7 +159,8 @@ a.ext{color:var(--accent)}
       </div>
     </div>
   </main>
-  <aside id="detail">
+  <button id="detailToggle" title="Show details" aria-label="Show details panel">‹</button>
+  <aside id="detail" aria-hidden="true">
     <h2>Details</h2>
     <div id="detailBody"><p style="color:var(--muted)">Select a work or theme node.</p></div>
   </aside>
@@ -319,7 +324,7 @@ a.ext{color:var(--accent)}
       .on('mouseenter', (ev, d) => showEdgeTip(ev, d))
       .on('mousemove', ev => moveTip(ev))
       .on('mouseleave', hideTip)
-      .on('click', (ev, d) => { if (d.type !== 'belongs_to') { state.selected = d.source.id; showDetail(d.source.id); highlight(d.source.id); } });
+      .on('click', (ev, d) => { if (d.type !== 'belongs_to') { state.selected = d.source.id; showDetail(d.source.id); highlight(d.source.id); openDetail(); } });
 
     const nd = gNodes.selectAll('circle').data(curNodes, d => d.id);
     nd.exit().remove();
@@ -327,7 +332,7 @@ a.ext{color:var(--accent)}
       .call(d3.drag().on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
         .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
         .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.fx = null; d.fy = null; } }))
-      .on('click', (ev, d) => { if (d.type === 'theme') { focusTheme(d.id); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); })
+      .on('click', (ev, d) => { if (d.type === 'theme') { focusTheme(d.id); if (state.focusTheme) openDetail(); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); openDetail(); })
       .on('mouseenter', (ev, d) => showNodeTip(ev, d))
       .on('mousemove', ev => moveTip(ev))
       .on('mouseleave', () => { tip.style.display = 'none'; })
@@ -538,7 +543,20 @@ a.ext{color:var(--accent)}
     r.setAttribute('data-theme', dark ? 'light' : 'dark');
   };
   window.addEventListener('resize', () => { W = stage.clientWidth; H = stage.clientHeight; sim.force('center', d3.forceCenter(W / 2, H / 2)); update(); });
-  svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; highlight(null); } });
+  svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; highlight(null); closeDetail(); } });
+  // ---------- slide-in details panel (hidden by default)
+  const detailEl = document.getElementById('detail'), detailBtn = document.getElementById('detailToggle');
+  function setDetail(open){
+    detailEl.classList.toggle('open', open); detailBtn.classList.toggle('open', open);
+    detailEl.setAttribute('aria-hidden', open ? 'false' : 'true');
+    detailBtn.textContent = open ? '›' : '‹';
+    detailBtn.title = open ? 'Hide details' : 'Show details';
+    detailBtn.setAttribute('aria-label', open ? 'Hide details panel' : 'Show details panel');
+  }
+  function openDetail(){ setDetail(true); }
+  function closeDetail(){ setDetail(false); tip.style.display = 'none'; }
+  detailBtn.onclick = () => setDetail(!detailEl.classList.contains('open'));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
   document.getElementById('legendToggle').onclick = e => { const l = document.getElementById('legend'); l.classList.toggle('collapsed'); e.target.textContent = l.classList.contains('collapsed') ? '+' : '−'; };
   if (stage.clientWidth < 700) {
     document.getElementById('legend').classList.add('collapsed'); document.getElementById('legendToggle').textContent = '+';
