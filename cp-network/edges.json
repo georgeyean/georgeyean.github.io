@@ -1,0 +1,4000 @@
+{
+ "meta": {
+  "title": "Comparative Politics knowledge network, c. 1959-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in comparative politics: democratization and backsliding, authoritarian institutions and information control, Chinese politics, state capacity and development, redistribution and political economy, parties, populism, clientelism, ethnicity, contention, corruption, gender and institutional theory. Seeds come from this repo's papers.json; works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref plus anchoring classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 259,
+   "theme_nodes": 18,
+   "seed_from_papers_json": 53,
+   "crossref_top_cited": 154,
+   "anchors_supplement": 52,
+   "relation_edges": 251,
+   "membership_edges": 411
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the IPE, security and IR maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "przeworski1997",
+   "target": "lipset1959",
+   "type": "challenges",
+   "why": "Development sustains democracy but does not cause transitions."
+  },
+  {
+   "source": "boixstokes2003",
+   "target": "przeworski1997",
+   "type": "challenges",
+   "why": "Development causes transitions once selection and history are modeled."
+  },
+  {
+   "source": "boix2003",
+   "target": "boixstokes2003",
+   "type": "builds_on",
+   "why": "Inequality and asset mobility as the mechanism."
+  },
+  {
+   "source": "acemoglurobinson2006",
+   "target": "boix2003",
+   "type": "qualifies",
+   "why": "Middle levels of inequality, with revolutionary threat, produce democracy."
+  },
+  {
+   "source": "acemoglurobinson2006",
+   "target": "moore1966",
+   "type": "builds_on",
+   "why": "Class conflict formalized."
+  },
+  {
+   "source": "houle2009",
+   "target": "acemoglurobinson2006",
+   "type": "challenges",
+   "why": "Inequality affects consolidation, not transitions."
+  },
+  {
+   "source": "haggardkaufman2012",
+   "target": "acemoglurobinson2006",
+   "type": "challenges",
+   "why": "Most transitions are not distributive."
+  },
+  {
+   "source": "ansellsamuels2010",
+   "target": "boix2003",
+   "type": "challenges",
+   "why": "Rising middle classes demand democracy to protect property."
+  },
+  {
+   "source": "epstein2006",
+   "target": "przeworski1997",
+   "type": "challenges",
+   "why": "Income predicts transitions with a three-category regime coding."
+  },
+  {
+   "source": "dahl1971",
+   "target": "lipset1959",
+   "type": "builds_on",
+   "why": "Conditions for polyarchy."
+  },
+  {
+   "source": "huntington1968",
+   "target": "deutsch1961",
+   "type": "builds_on",
+   "why": "Mobilization without institutionalization breeds disorder."
+  },
+  {
+   "source": "odonnell1986",
+   "target": "dahl1971",
+   "type": "builds_on",
+   "why": "Elite splits and pacts in transitions."
+  },
+  {
+   "source": "huntington1991",
+   "target": "odonnell1986",
+   "type": "synthesizes",
+   "why": "Waves of democratization."
+  },
+  {
+   "source": "woodberry2012",
+   "target": "lipset1959",
+   "type": "qualifies",
+   "why": "Missions, not development alone, spread democratic prerequisites."
+  },
+  {
+   "source": "levitskyway2006",
+   "target": "huntington1991",
+   "type": "builds_on",
+   "why": "International linkage and leverage shape regime change."
+  },
+  {
+   "source": "freeman2012",
+   "target": "boix2003",
+   "type": "builds_on",
+   "why": "Financial openness reduces elite resistance."
+  },
+  {
+   "source": "rudra2005",
+   "target": "boix2003",
+   "type": "qualifies",
+   "why": "Compensation conditions globalization's democratizing effect."
+  },
+  {
+   "source": "boixmillerrosato2013",
+   "target": "przeworski1997",
+   "type": "builds_on",
+   "why": "Extends dichotomous regime data to 1800."
+  },
+  {
+   "source": "treierjackman2008",
+   "target": "przeworski1997",
+   "type": "challenges",
+   "why": "Measurement uncertainty matters for regime findings."
+  },
+  {
+   "source": "lindberg2014",
+   "target": "treierjackman2008",
+   "type": "builds_on",
+   "why": "Multidimensional democracy measures with uncertainty."
+  },
+  {
+   "source": "luoprzeworski2019",
+   "target": "przeworski1997",
+   "type": "builds_on",
+   "why": "Selection explains fast-growing autocracies."
+  },
+  {
+   "source": "berman1997",
+   "target": "putnam1993",
+   "type": "challenges",
+   "why": "Civil society can undermine democracy."
+  },
+  {
+   "source": "acemoglurobinson2006apsr",
+   "target": "acemoglurobinson2001",
+   "type": "builds_on",
+   "why": "Political replacement fears block growth."
+  },
+  {
+   "source": "bermeo2016",
+   "target": "huntington1991",
+   "type": "challenges",
+   "why": "Backsliding replaces transitions as the main dynamic."
+  },
+  {
+   "source": "foamounk2017",
+   "target": "foamounk2016",
+   "type": "builds_on",
+   "why": "Deconsolidation signs."
+  },
+  {
+   "source": "levitskyway2015",
+   "target": "diamond2015",
+   "type": "challenges",
+   "why": "The democratic recession is overstated."
+  },
+  {
+   "source": "foamounk2016",
+   "target": "diamond2015",
+   "type": "synthesizes",
+   "why": "Opinion evidence for democratic decline."
+  },
+  {
+   "source": "waldnerlust2018",
+   "target": "bermeo2016",
+   "type": "synthesizes",
+   "why": "Reviews theories of backsliding."
+  },
+  {
+   "source": "svolik2019",
+   "target": "grahamsvolik2020",
+   "type": "synthesizes",
+   "why": "Polarization weakens the democratic check (same research program)."
+  },
+  {
+   "source": "grahamsvolik2020",
+   "target": "foamounk2016",
+   "type": "challenges",
+   "why": "Partisanship, not declining values, drives tolerance of violations."
+  },
+  {
+   "source": "haggardkaufman2021",
+   "target": "bermeo2016",
+   "type": "builds_on",
+   "why": "Sequence of backsliding."
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "bermeo2016",
+   "type": "builds_on",
+   "why": "Norm erosion and failed gatekeeping."
+  },
+  {
+   "source": "armingeon2014",
+   "target": "foamounk2016",
+   "type": "synthesizes",
+   "why": "Economic crisis and democratic support (Armingeon predates)."
+  },
+  {
+   "source": "reiljan2020",
+   "target": "svolik2019",
+   "type": "synthesizes",
+   "why": "Affective polarization in Europe (contemporaneous)."
+  },
+  {
+   "source": "weyland2013",
+   "target": "levitskyway2010",
+   "type": "builds_on",
+   "why": "Populist routes to competitive authoritarianism."
+  },
+  {
+   "source": "levitskyway2020",
+   "target": "bermeo2016",
+   "type": "builds_on",
+   "why": "Backsliding produces new competitive authoritarianism."
+  },
+  {
+   "source": "krook2017",
+   "target": "bermeo2016",
+   "type": "extends_to_new_case",
+   "why": "Gendered violence as a threat to democracy."
+  },
+  {
+   "source": "gwf2014",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Regime-level autocracy data."
+  },
+  {
+   "source": "gandhiprzeworski2007",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Institutions explain autocratic survival."
+  },
+  {
+   "source": "gandhi2008",
+   "target": "gandhiprzeworski2007",
+   "type": "builds_on",
+   "why": "Co-optation through legislatures and parties."
+  },
+  {
+   "source": "magaloni2008",
+   "target": "gandhiprzeworski2007",
+   "type": "builds_on",
+   "why": "Parties make power sharing credible."
+  },
+  {
+   "source": "boixsvolik2013",
+   "target": "magaloni2008",
+   "type": "builds_on",
+   "why": "Institutions ease elite monitoring."
+  },
+  {
+   "source": "svolik2009",
+   "target": "magaloni2008",
+   "type": "qualifies",
+   "why": "Power sharing breaks down as dictators accumulate power."
+  },
+  {
+   "source": "svolik2012book",
+   "target": "svolik2009",
+   "type": "builds_on",
+   "why": "Power sharing and control as authoritarianism's two problems."
+  },
+  {
+   "source": "gandhilust2009",
+   "target": "magaloni2006",
+   "type": "synthesizes",
+   "why": "Functions of authoritarian elections."
+  },
+  {
+   "source": "magalonikricheli2010",
+   "target": "magaloni2008",
+   "type": "builds_on",
+   "why": "One-party regime durability."
+  },
+  {
+   "source": "wright2008",
+   "target": "gandhiprzeworski2007",
+   "type": "builds_on",
+   "why": "Legislatures constrain rulers and raise investment."
+  },
+  {
+   "source": "howardroessler2006",
+   "target": "levitskyway2006",
+   "type": "synthesizes",
+   "why": "Liberalizing outcomes in hybrid regimes (same year)."
+  },
+  {
+   "source": "brownlee2009",
+   "target": "levitskyway2010",
+   "type": "challenges",
+   "why": "Hybrid regimes are not less stable, though breakdowns more often democratize (Brownlee predates)."
+  },
+  {
+   "source": "brownlee2007",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Succession and party institutions."
+  },
+  {
+   "source": "bellin2012",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Coercive apparatus decides regime survival."
+  },
+  {
+   "source": "levitskyway2010",
+   "target": "levitskyway2006",
+   "type": "builds_on",
+   "why": "Competitive authoritarian regime trajectories."
+  },
+  {
+   "source": "treisman2011",
+   "target": "magaloni2006",
+   "type": "qualifies",
+   "why": "Hybrid regime leaders face economic accountability."
+  },
+  {
+   "source": "hadenius2007",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Pathways from authoritarianism."
+  },
+  {
+   "source": "weeks2012",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Regime subtypes shape conflict behavior."
+  },
+  {
+   "source": "svolik2012",
+   "target": "svolik2009",
+   "type": "builds_on",
+   "why": "Military power and moral hazard in dictatorships."
+  },
+  {
+   "source": "roessler2011",
+   "target": "svolik2009",
+   "type": "builds_on",
+   "why": "Coup-proofing through ethnic exclusion."
+  },
+  {
+   "source": "paine2021",
+   "target": "roessler2011",
+   "type": "builds_on",
+   "why": "Formal power-sharing dilemma."
+  },
+  {
+   "source": "hollyer2018",
+   "target": "egorov2009",
+   "type": "synthesizes",
+   "why": "Information and autocratic stability."
+  },
+  {
+   "source": "arias2018",
+   "target": "wright2008",
+   "type": "builds_on",
+   "why": "External commitments as substitutes for domestic institutions."
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "kuran1991",
+   "type": "builds_on",
+   "why": "Protest helps elite coordination."
+  },
+  {
+   "source": "ahmed2012",
+   "target": "morrison2009",
+   "type": "builds_on",
+   "why": "Unearned income prolongs autocratic survival."
+  },
+  {
+   "source": "debre2021",
+   "target": "levitskyway2006",
+   "type": "challenges",
+   "why": "Regional organizations protect autocrats."
+  },
+  {
+   "source": "olson1993",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Encompassing interests and credible property rights."
+  },
+  {
+   "source": "slater2010",
+   "target": "tilly1990",
+   "type": "builds_on",
+   "why": "Contentious politics builds states and durable autocracies."
+  },
+  {
+   "source": "kuran1991",
+   "target": "odonnell1986",
+   "type": "challenges",
+   "why": "Revolutions are unpredictable due to preference falsification."
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "lorentzen2014",
+   "type": "synthesizes",
+   "why": "Censorship targets collective action (contemporaneous)."
+  },
+  {
+   "source": "king2017",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Fabrication for distraction."
+  },
+  {
+   "source": "lorentzen2014",
+   "target": "egorov2009",
+   "type": "builds_on",
+   "why": "Strategic tolerance of information for monitoring."
+  },
+  {
+   "source": "stockmann2011",
+   "target": "kingpanroberts2013",
+   "type": "synthesizes",
+   "why": "Market media sustain authoritarian rule (Stockmann predates)."
+  },
+  {
+   "source": "egorov2009",
+   "target": "ross2001",
+   "type": "builds_on",
+   "why": "Resource wealth shapes media freedom."
+  },
+  {
+   "source": "diamond2010",
+   "target": "kuran1991",
+   "type": "builds_on",
+   "why": "Technology can lower the costs of coordinated opposition."
+  },
+  {
+   "source": "rozenasstukal2019",
+   "target": "king2017",
+   "type": "synthesizes",
+   "why": "Manipulation through framing rather than censorship."
+  },
+  {
+   "source": "mattingly2025",
+   "target": "stockmann2011",
+   "type": "builds_on",
+   "why": "State media persuasion abroad."
+  },
+  {
+   "source": "hollyer2018",
+   "target": "kuran1991",
+   "type": "builds_on",
+   "why": "Transparency enables mass coordination."
+  },
+  {
+   "source": "wallace2014",
+   "target": "lorentzen2014",
+   "type": "builds_on",
+   "why": "Information problems from manipulated statistics."
+  },
+  {
+   "source": "panchen2018",
+   "target": "wallace2014",
+   "type": "builds_on",
+   "why": "Concealment of grievances in upward reporting."
+  },
+  {
+   "source": "montinola1995",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Market-preserving federalism as credible commitment."
+  },
+  {
+   "source": "lizhou2005",
+   "target": "montinola1995",
+   "type": "builds_on",
+   "why": "Promotion tournaments as growth incentives."
+  },
+  {
+   "source": "xu2011",
+   "target": "lizhou2005",
+   "type": "synthesizes",
+   "why": "Regionally decentralized authoritarianism."
+  },
+  {
+   "source": "shih2012",
+   "target": "lizhou2005",
+   "type": "challenges",
+   "why": "Factional ties, not growth, explain elite promotion."
+  },
+  {
+   "source": "landry2017",
+   "target": "shih2012",
+   "type": "qualifies",
+   "why": "Performance matters at lower levels only."
+  },
+  {
+   "source": "jiang2018",
+   "target": "shih2012",
+   "type": "qualifies",
+   "why": "Patronage and performance interact."
+  },
+  {
+   "source": "heilmann2008",
+   "target": "montinola1995",
+   "type": "builds_on",
+   "why": "Experimentation under hierarchy."
+  },
+  {
+   "source": "tsai2007",
+   "target": "putnam1993",
+   "type": "extends_to_new_case",
+   "why": "Informal institutions for accountability in rural China."
+  },
+  {
+   "source": "chenpanxu2016",
+   "target": "tsai2007",
+   "type": "builds_on",
+   "why": "Responsiveness in authoritarian China."
+  },
+  {
+   "source": "distelhorst2017",
+   "target": "chenpanxu2016",
+   "type": "builds_on",
+   "why": "Constituency service without elections."
+  },
+  {
+   "source": "meng2017",
+   "target": "chenpanxu2016",
+   "type": "qualifies",
+   "why": "Receptivity is conditional on threat."
+  },
+  {
+   "source": "truex2014",
+   "target": "gandhi2008",
+   "type": "extends_to_new_case",
+   "why": "Co-optation through China's legislature."
+  },
+  {
+   "source": "truex2016",
+   "target": "truex2014",
+   "type": "builds_on",
+   "why": "Consultative authoritarianism and its limits."
+  },
+  {
+   "source": "panxu2018",
+   "target": "kingpanroberts2013",
+   "type": "synthesizes",
+   "why": "Measuring opinion in China."
+  },
+  {
+   "source": "lorentzen2014jop",
+   "target": "heilmann2008",
+   "type": "challenges",
+   "why": "Vested interests undermine local innovation."
+  },
+  {
+   "source": "chenzhang2021",
+   "target": "lizhou2005",
+   "type": "builds_on",
+   "why": "Promotion calendars shape tax policy."
+  },
+  {
+   "source": "wang2022",
+   "target": "tilly1990",
+   "type": "challenges",
+   "why": "Kinship geography, not war, shapes state building in imperial China."
+  },
+  {
+   "source": "greitens2020",
+   "target": "svolik2012book",
+   "type": "extends_to_new_case",
+   "why": "Preventive repression in Xinjiang."
+  },
+  {
+   "source": "rithmire2023",
+   "target": "xu2011",
+   "type": "builds_on",
+   "why": "State-business relations under Chinese authoritarianism."
+  },
+  {
+   "source": "malesky2008",
+   "target": "montinola1995",
+   "type": "extends_to_new_case",
+   "why": "FDI empowers subnational leaders in Vietnam."
+  },
+  {
+   "source": "herbst2000",
+   "target": "tilly1990",
+   "type": "qualifies",
+   "why": "Without interstate war, African states stayed weak."
+  },
+  {
+   "source": "soifer2008",
+   "target": "tilly1990",
+   "type": "builds_on",
+   "why": "Measuring infrastructural power."
+  },
+  {
+   "source": "besley2014",
+   "target": "tilly1990",
+   "type": "extends_to_new_case",
+   "why": "Legacies of historical conflict in Africa."
+  },
+  {
+   "source": "dell2010",
+   "target": "ajr2001",
+   "type": "builds_on",
+   "why": "Persistent effects of colonial institutions."
+  },
+  {
+   "source": "acharya2016",
+   "target": "dell2010",
+   "type": "extends_to_new_case",
+   "why": "Persistence of slavery's political legacy."
+  },
+  {
+   "source": "lupupeisakhin2017",
+   "target": "dell2010",
+   "type": "extends_to_new_case",
+   "why": "Intergenerational legacies of violence."
+  },
+  {
+   "source": "blaydeschaney2013",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Constraints on rulers and divergence."
+  },
+  {
+   "source": "blaydes2018",
+   "target": "blaydeschaney2013",
+   "type": "builds_on",
+   "why": "Divergence in political thought."
+  },
+  {
+   "source": "levitskymurillo2009",
+   "target": "thelen1999",
+   "type": "qualifies",
+   "why": "Weak institutions require different theories."
+  },
+  {
+   "source": "rozenaszhukov2019",
+   "target": "davenport2007arps",
+   "type": "builds_on",
+   "why": "Repression and loyalty."
+  },
+  {
+   "source": "zhukov2023",
+   "target": "rozenaszhukov2019",
+   "type": "builds_on",
+   "why": "Non-monotonic effects of repression."
+  },
+  {
+   "source": "woodberry2012",
+   "target": "ajr2001",
+   "type": "challenges",
+   "why": "Missionaries, not settler institutions, explain much of democracy."
+  },
+  {
+   "source": "holland2023",
+   "target": "ajr2001",
+   "type": "qualifies",
+   "why": "Strong property rights can undermine development."
+  },
+  {
+   "source": "schevestasavage2010",
+   "target": "tilly1990",
+   "type": "builds_on",
+   "why": "Mass warfare and fiscal extraction."
+  },
+  {
+   "source": "ajr2001",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Institutions cause development."
+  },
+  {
+   "source": "acemoglurobinson2001",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Redistribution takes inefficient forms to preserve power."
+  },
+  {
+   "source": "hellman1998",
+   "target": "olson1993",
+   "type": "builds_on",
+   "why": "Winners of partial reform capture the state."
+  },
+  {
+   "source": "doucouliagos2008",
+   "target": "przeworski1997",
+   "type": "synthesizes",
+   "why": "Meta-analysis of democracy and growth."
+  },
+  {
+   "source": "chandrarudra2015",
+   "target": "doucouliagos2008",
+   "type": "qualifies",
+   "why": "Deliberation, not regime type, stabilizes growth."
+  },
+  {
+   "source": "ross2006",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Democracy does not make the poor better off."
+  },
+  {
+   "source": "kurtzschrank2007",
+   "target": "ajr2001",
+   "type": "challenges",
+   "why": "Governance indicators are contaminated by growth."
+  },
+  {
+   "source": "haggard2008",
+   "target": "northweingast1989",
+   "type": "synthesizes",
+   "why": "Rule of law and development."
+  },
+  {
+   "source": "besley2011",
+   "target": "doucouliagos2008",
+   "type": "builds_on",
+   "why": "Leader selection as a channel."
+  },
+  {
+   "source": "luoprzeworski2019",
+   "target": "olson1993",
+   "type": "challenges",
+   "why": "Autocratic growth reflects selection, not regime advantage."
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "No within-country resource curse."
+  },
+  {
+   "source": "ross2015",
+   "target": "habermenaldo2011",
+   "type": "synthesizes",
+   "why": "Reviews the contested resource curse."
+  },
+  {
+   "source": "ross2008",
+   "target": "ross2001",
+   "type": "extends_to_new_case",
+   "why": "Oil and women's status."
+  },
+  {
+   "source": "morrison2009",
+   "target": "ross2001",
+   "type": "qualifies",
+   "why": "Nontax revenue stabilizes all regimes."
+  },
+  {
+   "source": "lipscy2018",
+   "target": "doucouliagos2008",
+   "type": "qualifies",
+   "why": "Democracies face more financial crises."
+  },
+  {
+   "source": "moenewallerstein2003",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Insurance motives reverse the inequality effect."
+  },
+  {
+   "source": "iversensoskice2006",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Electoral institutions shape redistribution via coalitions."
+  },
+  {
+   "source": "espingandersen1990",
+   "target": "cameron1978",
+   "type": "builds_on",
+   "why": "Power resources produce welfare regimes."
+  },
+  {
+   "source": "rehm2011",
+   "target": "moenewallerstein2003",
+   "type": "builds_on",
+   "why": "Risk distribution sustains social insurance."
+  },
+  {
+   "source": "rehm2009",
+   "target": "moenewallerstein2003",
+   "type": "builds_on",
+   "why": "Occupational risk and redistribution preferences."
+  },
+  {
+   "source": "cavailletrump2015",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Two facets of redistribution preferences."
+  },
+  {
+   "source": "margalit2013",
+   "target": "rehm2009",
+   "type": "mechanism_tested_by",
+   "why": "Job loss and welfare support."
+  },
+  {
+   "source": "shayo2009",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "National identity lowers demand for redistribution."
+  },
+  {
+   "source": "lupupontusson2011",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "The skew of inequality, not its level, drives redistribution."
+  },
+  {
+   "source": "ansell2014",
+   "target": "rehm2011",
+   "type": "builds_on",
+   "why": "Housing wealth substitutes for insurance."
+  },
+  {
+   "source": "schevestasavage2012",
+   "target": "boix2003",
+   "type": "challenges",
+   "why": "War, not democratization, produced progressive taxation."
+  },
+  {
+   "source": "rueda2006",
+   "target": "espingandersen1990",
+   "type": "qualifies",
+   "why": "Insider-outsider politics in social democracy."
+  },
+  {
+   "source": "mares2009",
+   "target": "espingandersen1990",
+   "type": "extends_to_new_case",
+   "why": "Social policy in developing countries."
+  },
+  {
+   "source": "feierherd2022",
+   "target": "mares2009",
+   "type": "builds_on",
+   "why": "Left forbearance toward informal workers."
+  },
+  {
+   "source": "garrett1998",
+   "target": "espingandersen1990",
+   "type": "builds_on",
+   "why": "Partisan politics under globalization."
+  },
+  {
+   "source": "rudra2002",
+   "target": "garrett1998",
+   "type": "challenges",
+   "why": "Globalization erodes LDC welfare states."
+  },
+  {
+   "source": "adsera2002",
+   "target": "cameron1978",
+   "type": "qualifies",
+   "why": "Openness enlarges government only in democracies."
+  },
+  {
+   "source": "claytonzetterberg2018",
+   "target": "iversensoskice2006",
+   "type": "extends_to_new_case",
+   "why": "Representation shapes spending priorities."
+  },
+  {
+   "source": "hallsoskice2001",
+   "target": "espingandersen1990",
+   "type": "builds_on",
+   "why": "Firm-centered institutional complementarities."
+  },
+  {
+   "source": "korpi2006",
+   "target": "hallsoskice2001",
+   "type": "challenges",
+   "why": "Power resources, not employer interests, built welfare states."
+  },
+  {
+   "source": "iversenstephens2008",
+   "target": "hallsoskice2001",
+   "type": "builds_on",
+   "why": "Partisan routes to skill regimes."
+  },
+  {
+   "source": "hallgingerich2009",
+   "target": "hallsoskice2001",
+   "type": "mechanism_tested_by",
+   "why": "Complementarities and growth."
+  },
+  {
+   "source": "nolke2009",
+   "target": "hallsoskice2001",
+   "type": "extends_to_new_case",
+   "why": "Dependent market economies in Eastern Europe."
+  },
+  {
+   "source": "thelen2012",
+   "target": "hallsoskice2001",
+   "type": "qualifies",
+   "why": "Liberalization trajectories differ within varieties."
+  },
+  {
+   "source": "kitscheltrehm2014",
+   "target": "rehm2009",
+   "type": "builds_on",
+   "why": "Occupations shape preferences."
+  },
+  {
+   "source": "gingrichansell2012",
+   "target": "rehm2009",
+   "type": "qualifies",
+   "why": "Institutions condition risk effects."
+  },
+  {
+   "source": "hausermann2013",
+   "target": "rueda2006",
+   "type": "synthesizes",
+   "why": "New politics of the welfare state."
+  },
+  {
+   "source": "oeschrennwald2018",
+   "target": "kitscheltrehm2014",
+   "type": "builds_on",
+   "why": "Class voting in a tripolar space."
+  },
+  {
+   "source": "cox1997",
+   "target": "lijphart1999",
+   "type": "synthesizes",
+   "why": "Electoral systems and party systems (Cox predates)."
+  },
+  {
+   "source": "golderstramski2009",
+   "target": "lijphart1999",
+   "type": "challenges",
+   "why": "Congruence is similar across systems."
+  },
+  {
+   "source": "careyhix2011",
+   "target": "cox1997",
+   "type": "builds_on",
+   "why": "Low-magnitude PR balances representation and accountability."
+  },
+  {
+   "source": "dalton2008",
+   "target": "cox1997",
+   "type": "qualifies",
+   "why": "Polarization matters more than fragmentation."
+  },
+  {
+   "source": "tsebelis1995",
+   "target": "lijphart1999",
+   "type": "challenges",
+   "why": "Veto players, not regime labels, explain policy stability."
+  },
+  {
+   "source": "iversensoskice2006",
+   "target": "cox1997",
+   "type": "builds_on",
+   "why": "Electoral systems shape coalitions."
+  },
+  {
+   "source": "adams2006",
+   "target": "dalton2008",
+   "type": "synthesizes",
+   "why": "Niche party strategy (Adams predates)."
+  },
+  {
+   "source": "powelltucker2013",
+   "target": "vanbiezen2012",
+   "type": "synthesizes",
+   "why": "Party system instability."
+  },
+  {
+   "source": "eriksen2026",
+   "target": "barbera2019",
+   "type": "builds_on",
+   "why": "Parties as agenda setters."
+  },
+  {
+   "source": "kriesi2006",
+   "target": "hooghemarks2009",
+   "type": "synthesizes",
+   "why": "New cultural cleavage (Kriesi predates)."
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "kriesi2006",
+   "type": "builds_on",
+   "why": "Identity politicizes European integration."
+  },
+  {
+   "source": "mudde2018",
+   "target": "mudde2004",
+   "type": "builds_on",
+   "why": "Ideational approach to comparative populism."
+  },
+  {
+   "source": "akkerman2014",
+   "target": "mudde2004",
+   "type": "mechanism_tested_by",
+   "why": "Measuring populist attitudes."
+  },
+  {
+   "source": "jagers2007",
+   "target": "mudde2004",
+   "type": "qualifies",
+   "why": "Populism as communication style."
+  },
+  {
+   "source": "hawkins2009",
+   "target": "mudde2004",
+   "type": "mechanism_tested_by",
+   "why": "Measuring populism in speeches."
+  },
+  {
+   "source": "ivarsflaten2008",
+   "target": "kriesi2006",
+   "type": "builds_on",
+   "why": "Immigration unites populist voters."
+  },
+  {
+   "source": "rydgren2008",
+   "target": "ivarsflaten2008",
+   "type": "builds_on",
+   "why": "Ethnic nationalism among radical right voters."
+  },
+  {
+   "source": "golder2016",
+   "target": "arzheimer2009",
+   "type": "synthesizes",
+   "why": "Demand and supply of far right success."
+  },
+  {
+   "source": "arzheimer2009",
+   "target": "kriesi2006",
+   "type": "builds_on",
+   "why": "Contextual drivers of extreme right voting."
+  },
+  {
+   "source": "mudde2013",
+   "target": "golder2016",
+   "type": "synthesizes",
+   "why": "Limited policy effects of the radical right (Mudde predates)."
+  },
+  {
+   "source": "abouchadikrause2020",
+   "target": "adams2006",
+   "type": "builds_on",
+   "why": "Radical right success shifts mainstream positions."
+  },
+  {
+   "source": "caramani2017",
+   "target": "mudde2004",
+   "type": "builds_on",
+   "why": "Populism and technocracy as rivals to party government."
+  },
+  {
+   "source": "vanhauwaert2018",
+   "target": "akkerman2014",
+   "type": "builds_on",
+   "why": "Populist attitudes and issue positions."
+  },
+  {
+   "source": "norris2019",
+   "target": "kriesi2006",
+   "type": "builds_on",
+   "why": "Cultural backlash as the driver of populism."
+  },
+  {
+   "source": "colantone2018",
+   "target": "norris2019",
+   "type": "challenges",
+   "why": "Economic shocks drive nationalist voting."
+  },
+  {
+   "source": "rodrik2018",
+   "target": "kriesi2006",
+   "type": "synthesizes",
+   "why": "Economic roots of left and right populism."
+  },
+  {
+   "source": "broz2021",
+   "target": "colantone2018",
+   "type": "builds_on",
+   "why": "Place-based roots of backlash."
+  },
+  {
+   "source": "margalit2019",
+   "target": "colantone2018",
+   "type": "qualifies",
+   "why": "Economic shocks explain little variance."
+  },
+  {
+   "source": "walter2021",
+   "target": "margalit2019",
+   "type": "synthesizes",
+   "why": "Reviews the backlash literature."
+  },
+  {
+   "source": "mutz2018",
+   "target": "norris2019",
+   "type": "builds_on",
+   "why": "Status threat drives populist voting."
+  },
+  {
+   "source": "funke2016",
+   "target": "armingeon2014",
+   "type": "synthesizes",
+   "why": "Financial crises and political extremes."
+  },
+  {
+   "source": "ballardrosa2021",
+   "target": "norris2019",
+   "type": "challenges",
+   "why": "Authoritarian values have economic roots."
+  },
+  {
+   "source": "weyland2013",
+   "target": "hawkins2009",
+   "type": "builds_on",
+   "why": "Populist left in Latin America."
+  },
+  {
+   "source": "stokes2005",
+   "target": "magaloni2006",
+   "type": "synthesizes",
+   "why": "Monitoring and punishment in machine politics (contemporaneous)."
+  },
+  {
+   "source": "nichter2008",
+   "target": "stokes2005",
+   "type": "challenges",
+   "why": "Machines buy turnout, not votes."
+  },
+  {
+   "source": "hicken2011",
+   "target": "kitschelt2007",
+   "type": "synthesizes",
+   "why": "Reviews clientelism research."
+  },
+  {
+   "source": "keefer2007",
+   "target": "kitschelt2007",
+   "type": "builds_on",
+   "why": "Credibility deficits produce clientelism."
+  },
+  {
+   "source": "goldenmin2013",
+   "target": "hicken2011",
+   "type": "synthesizes",
+   "why": "Distributive politics worldwide."
+  },
+  {
+   "source": "mares2016",
+   "target": "stokes2005",
+   "type": "builds_on",
+   "why": "Coercive and positive electoral clientelism."
+  },
+  {
+   "source": "larreguy2016",
+   "target": "stokes2005",
+   "type": "mechanism_tested_by",
+   "why": "Broker monitoring capacity."
+  },
+  {
+   "source": "weitzshapiro2017",
+   "target": "ashworth2012",
+   "type": "mechanism_tested_by",
+   "why": "Information credibility and accountability."
+  },
+  {
+   "source": "olken2010",
+   "target": "putnam1993",
+   "type": "extends_to_new_case",
+   "why": "Participation and local public goods."
+  },
+  {
+   "source": "wantchekon2003",
+   "target": "kitschelt2007",
+   "type": "synthesizes",
+   "why": "Experimental evidence on clientelist appeals (Wantchekon predates)."
+  },
+  {
+   "source": "treisman2011",
+   "target": "ashworth2012",
+   "type": "synthesizes",
+   "why": "Economic accountability in hybrid regimes."
+  },
+  {
+   "source": "chandra2006",
+   "target": "fearonlaitin1996",
+   "type": "builds_on",
+   "why": "What ethnic identity is."
+  },
+  {
+   "source": "posner2004",
+   "target": "chandra2006",
+   "type": "synthesizes",
+   "why": "Constructed salience of ethnic cleavages (Posner predates)."
+  },
+  {
+   "source": "habyarimana2007",
+   "target": "fearonlaitin1996",
+   "type": "mechanism_tested_by",
+   "why": "Coethnic sanctioning explains public goods failure."
+  },
+  {
+   "source": "eifert2010",
+   "target": "posner2004",
+   "type": "builds_on",
+   "why": "Electoral competition activates ethnic identity."
+  },
+  {
+   "source": "franck2012",
+   "target": "habyarimana2007",
+   "type": "extends_to_new_case",
+   "why": "Ethnic favoritism by leaders."
+  },
+  {
+   "source": "dunningharrison2010",
+   "target": "posner2004",
+   "type": "builds_on",
+   "why": "Cross-cutting cleavages reduce ethnic voting."
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "dunningharrison2010",
+   "type": "builds_on",
+   "why": "Party ties override caste quotas."
+  },
+  {
+   "source": "robinson2014",
+   "target": "eifert2010",
+   "type": "qualifies",
+   "why": "Modernization strengthens national identity."
+  },
+  {
+   "source": "posneryoung2007",
+   "target": "herbst2000",
+   "type": "challenges",
+   "why": "African power is becoming institutionalized."
+  },
+  {
+   "source": "varshney2001",
+   "target": "putnam1993",
+   "type": "builds_on",
+   "why": "Civic networks and ethnic peace."
+  },
+  {
+   "source": "cedermangirardin2007",
+   "target": "fearonlaitin2003",
+   "type": "challenges",
+   "why": "Ethnic exclusion matters."
+  },
+  {
+   "source": "cederman2010",
+   "target": "cedermangirardin2007",
+   "type": "builds_on",
+   "why": "Excluded groups rebel."
+  },
+  {
+   "source": "collier2004",
+   "target": "fearonlaitin2003",
+   "type": "synthesizes",
+   "why": "Opportunity explanations of conflict."
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "fearonlaitin1996",
+   "type": "builds_on",
+   "why": "Ethnicity rarely explains violence."
+  },
+  {
+   "source": "kuran1991",
+   "target": "kitschelt1986",
+   "type": "challenges",
+   "why": "Opportunity structures cannot predict sudden revolutions."
+  },
+  {
+   "source": "rothsteinstolle2008",
+   "target": "putnam1993",
+   "type": "challenges",
+   "why": "Institutions create trust, not civic traditions."
+  },
+  {
+   "source": "beissinger2013",
+   "target": "kuran1991",
+   "type": "builds_on",
+   "why": "Negative coalitions in revolutions."
+  },
+  {
+   "source": "dryzek2009",
+   "target": "dahl1971",
+   "type": "builds_on",
+   "why": "Deliberative capacity as democratization."
+  },
+  {
+   "source": "davenport2007arps",
+   "target": "kitschelt1986",
+   "type": "synthesizes",
+   "why": "State repression and dissent."
+  },
+  {
+   "source": "stephanchenoweth2008",
+   "target": "kuran1991",
+   "type": "builds_on",
+   "why": "Mass participation induces defections."
+  },
+  {
+   "source": "bellin2012",
+   "target": "stephanchenoweth2008",
+   "type": "qualifies",
+   "why": "Coercive apparatus decides outcomes of uprisings."
+  },
+  {
+   "source": "davenport2007",
+   "target": "davenport2007arps",
+   "type": "synthesizes",
+   "why": "Democracy and the tyrannical peace (same author, same year)."
+  },
+  {
+   "source": "hilljones2014",
+   "target": "davenport2007",
+   "type": "builds_on",
+   "why": "Predictors of repression."
+  },
+  {
+   "source": "bateson2012",
+   "target": "putnam1993",
+   "type": "qualifies",
+   "why": "Victimization, not only civic culture, drives participation."
+  },
+  {
+   "source": "parthasarathy2019",
+   "target": "mansbridge1999",
+   "type": "mechanism_tested_by",
+   "why": "Descriptive representation in deliberation."
+  },
+  {
+   "source": "treisman2007",
+   "target": "rothsteinstolle2008",
+   "type": "synthesizes",
+   "why": "Causes of corruption (Treisman predates)."
+  },
+  {
+   "source": "morris2010",
+   "target": "rothsteinstolle2008",
+   "type": "builds_on",
+   "why": "Corruption and trust reinforce each other."
+  },
+  {
+   "source": "helmke2009",
+   "target": "perezlinan2006",
+   "type": "synthesizes",
+   "why": "Judicial independence across regimes."
+  },
+  {
+   "source": "weitzshapiro2017",
+   "target": "treisman2007",
+   "type": "builds_on",
+   "why": "Voters and corruption information."
+  },
+  {
+   "source": "panchen2018",
+   "target": "treisman2007",
+   "type": "extends_to_new_case",
+   "why": "Concealment of corruption in China."
+  },
+  {
+   "source": "htunweldon2012",
+   "target": "mansbridge1999",
+   "type": "challenges",
+   "why": "Movements, not descriptive representation, drive policy."
+  },
+  {
+   "source": "tripp2008",
+   "target": "mansbridge1999",
+   "type": "builds_on",
+   "why": "Quotas raise descriptive representation."
+  },
+  {
+   "source": "wangnerud2009",
+   "target": "mansbridge1999",
+   "type": "mechanism_tested_by",
+   "why": "Descriptive to substantive representation."
+  },
+  {
+   "source": "paxton2010",
+   "target": "tripp2008",
+   "type": "builds_on",
+   "why": "Determinants of women's representation."
+  },
+  {
+   "source": "krookobrien2012",
+   "target": "tripp2008",
+   "type": "extends_to_new_case",
+   "why": "Women in cabinets."
+  },
+  {
+   "source": "hughes2011",
+   "target": "tripp2008",
+   "type": "qualifies",
+   "why": "Quotas and intersectionality."
+  },
+  {
+   "source": "claytonzetterberg2018",
+   "target": "wangnerud2009",
+   "type": "mechanism_tested_by",
+   "why": "Quotas change spending."
+  },
+  {
+   "source": "ross2008",
+   "target": "paxton2010",
+   "type": "synthesizes",
+   "why": "Oil as a barrier to women's representation (Ross predates)."
+  },
+  {
+   "source": "thelen1999",
+   "target": "pierson2000",
+   "type": "synthesizes",
+   "why": "Historical institutionalism (Thelen predates)."
+  },
+  {
+   "source": "pierson2000",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Increasing returns in institutions."
+  },
+  {
+   "source": "greiflaitin2004",
+   "target": "pierson2000",
+   "type": "challenges",
+   "why": "Institutions change endogenously."
+  },
+  {
+   "source": "mahoneythelen2010",
+   "target": "thelen1999",
+   "type": "builds_on",
+   "why": "Modes of gradual institutional change."
+  },
+  {
+   "source": "capoccia2007",
+   "target": "pierson2000",
+   "type": "builds_on",
+   "why": "Critical junctures methodology."
+  },
+  {
+   "source": "soifer2012",
+   "target": "capoccia2007",
+   "type": "builds_on",
+   "why": "Permissive and productive conditions."
+  },
+  {
+   "source": "falleti2009",
+   "target": "capoccia2007",
+   "type": "synthesizes",
+   "why": "Context and mechanisms."
+  },
+  {
+   "source": "mahoney2010",
+   "target": "falleti2009",
+   "type": "synthesizes",
+   "why": "Qualitative methodology after KKV."
+  },
+  {
+   "source": "slaterziblatt2013",
+   "target": "mahoney2010",
+   "type": "builds_on",
+   "why": "Controlled comparison."
+  },
+  {
+   "source": "abadie2015",
+   "target": "slaterziblatt2013",
+   "type": "synthesizes",
+   "why": "Synthetic control for comparative cases (Abadie predates)."
+  },
+  {
+   "source": "schmidt2008",
+   "target": "thelen1999",
+   "type": "qualifies",
+   "why": "Ideas and discourse as sources of change."
+  },
+  {
+   "source": "levitskymurillo2009",
+   "target": "mahoneythelen2010",
+   "type": "synthesizes",
+   "why": "Institutional weakness and change."
+  },
+  {
+   "source": "hankla2013",
+   "target": "gandhiprzeworski2007",
+   "type": "extends_to_new_case",
+   "why": "Authoritarian institutions and trade policy."
+  },
+  {
+   "source": "steinberg2014",
+   "target": "geddes1999",
+   "type": "extends_to_new_case",
+   "why": "Regime subtypes and exchange-rate policy."
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "powellthyne2011",
+   "type": "builds_on",
+   "why": "Global coup data underpin the analysis of protest and coup coordination."
+  },
+  {
+   "source": "lipset1959",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deutsch1961",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deutsch1961",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moore1966",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moore1966",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huntington1968",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huntington1968",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dahl1971",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "odonnell1986",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huntington1991",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "przeworski1997",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "przeworski1997",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boixstokes2003",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boixstokes2003",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boix2003",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boix2003",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2006",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "epstein2006",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "houle2009",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "houle2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggardkaufman2012",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggardkaufman2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansellsamuels2010",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansellsamuels2010",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boixmillerrosato2013",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boixmillerrosato2013",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treierjackman2008",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treierjackman2008",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindberg2014",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindberg2014",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2006apsr",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2006apsr",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woodberry2012",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woodberry2012",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2006",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2006",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luoprzeworski2019",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luoprzeworski2019",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freeman2012",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudra2005",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudra2005",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berman1997",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berman1997",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bermeo2016",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foamounk2016",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foamounk2017",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diamond2015",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2015",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2015",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldnerlust2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2019",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2019",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grahamsvolik2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggardkaufman2021",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "armingeon2014",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reiljan2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reiljan2020",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weyland2013",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weyland2013",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geddes1999",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geddes1999",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gwf2014",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhi2008",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magaloni2006",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magaloni2006",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2010",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2010",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2012book",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhiprzeworski2007",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magaloni2008",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boixsvolik2013",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2009",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhilust2009",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhilust2009",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magalonikricheli2010",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wright2008",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wright2008",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howardroessler2006",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howardroessler2006",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2009",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2009",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2007",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellin2012",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellin2012",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2020",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treisman2011",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treisman2011",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hadenius2007",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hadenius2007",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weeks2012",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2012",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roessler2011",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roessler2011",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hollyer2018",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hollyer2018",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paine2021",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arias2018",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellthyne2011",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahmed2012",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahmed2012",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "debre2021",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson1993",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson1993",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king2017",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king2017",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stockmann2011",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stockmann2011",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egorov2009",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egorov2009",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diamond2010",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diamond2010",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rozenasstukal2019",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2025",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2025",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2020",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2020",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montinola1995",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montinola1995",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lizhou2005",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lizhou2005",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2011",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2011",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shih2012",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shih2012",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landry2017",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landry2017",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jiang2018",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jiang2018",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jiang2018",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsai2007",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsai2007",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heilmann2008",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heilmann2008",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenpanxu2016",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenpanxu2016",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "distelhorst2017",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "distelhorst2017",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meng2017",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meng2017",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "truex2014",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "truex2014",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "truex2016",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "truex2016",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wallace2014",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wallace2014",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panxu2018",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014jop",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014jop",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panchen2018",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panchen2018",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panchen2018",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenzhang2021",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenzhang2021",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2022",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2022",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tilly1990",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herbst2000",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2010",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soifer2008",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besley2014",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besley2014",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskymurillo2009",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskymurillo2009",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupupeisakhin2017",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupupeisakhin2017",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeschaney2013",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeschaney2013",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2018",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2018",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dell2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dell2010",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rozenaszhukov2019",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rozenaszhukov2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhukov2023",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhukov2023",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "northweingast1989",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "northweingast1989",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ajr2001",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ajr2001",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2001",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2001",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hellman1998",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hellman1998",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "doucouliagos2008",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "doucouliagos2008",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandrarudra2015",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandrarudra2015",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2006",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurtzschrank2007",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurtzschrank2007",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggard2008",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggard2008",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besley2011",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besley2011",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holland2023",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holland2023",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2008",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2008",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2001",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2001",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2015",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2008",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2008",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2018",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrison2009",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrison2009",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meltzerrichard1981",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "espingandersen1990",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "espingandersen1990",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moenewallerstein2003",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2006",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rehm2011",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cavailletrump2015",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rehm2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2013",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shayo2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shayo2009",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupupontusson2011",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansell2014",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansell2014",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2012",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2010",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rueda2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rueda2006",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mares2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mares2009",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feierherd2022",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feierherd2022",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cameron1978",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrett1998",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrett1998",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudra2002",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adsera2002",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adsera2002",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallsoskice2001",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "korpi2006",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "korpi2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversenstephens2008",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversenstephens2008",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallgingerich2009",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nolke2009",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen2012",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitscheltrehm2014",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitscheltrehm2014",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gingrichansell2012",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gingrichansell2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausermann2013",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausermann2013",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausermann2013",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1999",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1999",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cox1997",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cox1997",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsebelis1995",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsebelis1995",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "golderstramski2009",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "careyhix2011",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "careyhix2011",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dalton2008",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanbiezen2012",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adams2006",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adams2006",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powelltucker2013",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eriksen2026",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2019",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2004",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2006",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2006",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2018",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "akkerman2014",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jagers2007",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ivarsflaten2008",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hawkins2009",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "golder2016",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arzheimer2009",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rydgren2008",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rydgren2008",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2013",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abouchadikrause2020",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abouchadikrause2020",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oeschrennwald2018",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oeschrennwald2018",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oeschrennwald2018",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caramani2017",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanhauwaert2018",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2019",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2018",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2018",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodrik2018",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broz2021",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2019",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2021",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "funke2016",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2005",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wantchekon2003",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wantchekon2003",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt2007",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hicken2011",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nichter2008",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keefer2007",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keefer2007",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldenmin2013",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mares2016",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larreguy2016",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weitzshapiro2017",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weitzshapiro2017",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2010",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2010",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ashworth2012",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "posner2004",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2006",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habyarimana2007",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habyarimana2007",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eifert2010",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eifert2010",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franck2012",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franck2012",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningharrison2010",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningharrison2010",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robinson2014",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robinson2014",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "posneryoung2007",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "posneryoung2007",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2001",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2001",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin1996",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cedermangirardin2007",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cederman2010",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt1986",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuran1991",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuran1991",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "putnam1993",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "putnam1993",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rothsteinstolle2008",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rothsteinstolle2008",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beissinger2013",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beissinger2013",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzek2009",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzek2009",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davenport2007arps",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davenport2007arps",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bateson2012",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parthasarathy2019",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parthasarathy2019",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stephanchenoweth2008",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davenport2007",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davenport2007",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hilljones2014",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treisman2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helmke2009",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helmke2009",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morris2010",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perezlinan2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perezlinan2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "htunweldon2012",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "htunweldon2012",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krookobrien2012",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tripp2008",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wangnerud2009",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paxton2010",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paxton2010",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hughes2011",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hughes2011",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "claytonzetterberg2018",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "claytonzetterberg2018",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krook2017",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krook2017",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen1999",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahoneythelen2010",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierson2000",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greiflaitin2004",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "capoccia2007",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soifer2012",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falleti2009",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahoney2010",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abadie2015",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slaterziblatt2013",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2008",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2021",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collier2004",
+   "target": "ethnicity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collier2004",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hankla2013",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinberg2014",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}
