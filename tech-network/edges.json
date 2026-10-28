@@ -1,0 +1,4006 @@
+{
+ "meta": {
+  "title": "Technology and AI politics knowledge network, c. 1980-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates on the politics of technology and artificial intelligence: platform power and governance, algorithmic power and accountability, AI ethics and alignment, algorithmic fairness, surveillance and privacy, digital authoritarianism, misinformation and bots, social media and the public sphere, digital activism, digital campaigns, digital divides, automation and the political economy of AI, digital government, regulating technology, cyber conflict and military AI, tech geopolitics, and computational social science. Seeds come from this repo's papers.json; works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (thirteen technology, communication and AI-ethics journals plus political science and economics journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 269,
+   "theme_nodes": 17,
+   "seed_from_papers_json": 12,
+   "crossref_top_cited": 172,
+   "anchors_supplement": 85,
+   "relation_edges": 275,
+   "membership_edges": 388
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "benkler2006",
+   "target": "lessig1999",
+   "type": "builds_on",
+   "why": "Networked production and code as regulation."
+  },
+  {
+   "source": "gillespie2010",
+   "target": "benkler2006",
+   "type": "challenges",
+   "why": "Platforms are not neutral intermediaries."
+  },
+  {
+   "source": "helmond2015",
+   "target": "gillespie2010",
+   "type": "builds_on",
+   "why": "Platformization of the web."
+  },
+  {
+   "source": "plantin2018",
+   "target": "helmond2015",
+   "type": "builds_on",
+   "why": "Platforms become infrastructures."
+  },
+  {
+   "source": "nieborgpoell2018",
+   "target": "helmond2015",
+   "type": "extends_to_new_case",
+   "why": "Platformization of cultural production."
+  },
+  {
+   "source": "srnicek2017",
+   "target": "gillespie2010",
+   "type": "builds_on",
+   "why": "Platform capitalism."
+  },
+  {
+   "source": "rahmanthelen2019",
+   "target": "srnicek2017",
+   "type": "builds_on",
+   "why": "Political coalitions behind platform firms."
+  },
+  {
+   "source": "thelen2018",
+   "target": "srnicek2017",
+   "type": "extends_to_new_case",
+   "why": "Regulating Uber across countries."
+  },
+  {
+   "source": "culpepperthelen2020",
+   "target": "rahmanthelen2019",
+   "type": "builds_on",
+   "why": "Consumer allegiance as platform power."
+  },
+  {
+   "source": "khan2017",
+   "target": "srnicek2017",
+   "type": "synthesizes",
+   "why": "Antitrust and platform power (contemporaneous)."
+  },
+  {
+   "source": "gillespie2018",
+   "target": "gillespie2010",
+   "type": "builds_on",
+   "why": "Content moderation is what platforms do."
+  },
+  {
+   "source": "klonick2018",
+   "target": "gillespie2018",
+   "type": "synthesizes",
+   "why": "Platforms as new governors."
+  },
+  {
+   "source": "gorwa2019",
+   "target": "klonick2018",
+   "type": "builds_on",
+   "why": "Platform governance framework."
+  },
+  {
+   "source": "gorwa2020",
+   "target": "gorwa2019",
+   "type": "builds_on",
+   "why": "Algorithmic content moderation."
+  },
+  {
+   "source": "gillespie2020",
+   "target": "gillespie2018",
+   "type": "builds_on",
+   "why": "AI moderation and scale."
+  },
+  {
+   "source": "myerswest2018",
+   "target": "crawfordgillespie2016",
+   "type": "builds_on",
+   "why": "Users interpret moderation."
+  },
+  {
+   "source": "crawfordgillespie2016",
+   "target": "gillespie2010",
+   "type": "builds_on",
+   "why": "Flagging as complaint vocabulary."
+  },
+  {
+   "source": "zengkaye2022",
+   "target": "gillespie2018",
+   "type": "extends_to_new_case",
+   "why": "Visibility moderation on TikTok."
+  },
+  {
+   "source": "suzor2019",
+   "target": "klonick2018",
+   "type": "synthesizes",
+   "why": "Human rights responsibilities of platforms."
+  },
+  {
+   "source": "vandoorn2017",
+   "target": "srnicek2017",
+   "type": "synthesizes",
+   "why": "Exploitation in platform labor."
+  },
+  {
+   "source": "muldoonraekstad2023",
+   "target": "vandoorn2017",
+   "type": "builds_on",
+   "why": "Algorithmic domination of gig workers."
+  },
+  {
+   "source": "kim2018",
+   "target": "gillespie2010",
+   "type": "extends_to_new_case",
+   "why": "Stealth issue ads on Facebook."
+  },
+  {
+   "source": "pasquale2015",
+   "target": "winner1980",
+   "type": "builds_on",
+   "why": "Black-box algorithms embody power."
+  },
+  {
+   "source": "beer2009",
+   "target": "winner1980",
+   "type": "builds_on",
+   "why": "Power through algorithms."
+  },
+  {
+   "source": "bucher2012",
+   "target": "beer2009",
+   "type": "builds_on",
+   "why": "Algorithmic power and invisibility."
+  },
+  {
+   "source": "bucher2017",
+   "target": "bucher2012",
+   "type": "builds_on",
+   "why": "Algorithmic imaginary."
+  },
+  {
+   "source": "beer2017",
+   "target": "beer2009",
+   "type": "builds_on",
+   "why": "Social power of algorithms."
+  },
+  {
+   "source": "kitchin2017",
+   "target": "beer2017",
+   "type": "synthesizes",
+   "why": "Studying algorithms critically."
+  },
+  {
+   "source": "burrell2016",
+   "target": "pasquale2015",
+   "type": "builds_on",
+   "why": "Sources of opacity."
+  },
+  {
+   "source": "anannycrawford2018",
+   "target": "pasquale2015",
+   "type": "challenges",
+   "why": "Limits of transparency."
+  },
+  {
+   "source": "diakopoulos2015",
+   "target": "pasquale2015",
+   "type": "builds_on",
+   "why": "Algorithmic accountability reporting."
+  },
+  {
+   "source": "yeung2017",
+   "target": "lessig1999",
+   "type": "builds_on",
+   "why": "Hypernudge regulation by design."
+  },
+  {
+   "source": "yeung2018",
+   "target": "yeung2017",
+   "type": "builds_on",
+   "why": "Algorithmic regulation."
+  },
+  {
+   "source": "danaher2016",
+   "target": "pasquale2015",
+   "type": "builds_on",
+   "why": "Threat of algocracy."
+  },
+  {
+   "source": "binns2018",
+   "target": "danaher2016",
+   "type": "synthesizes",
+   "why": "Public reason and accountability."
+  },
+  {
+   "source": "seaver2017",
+   "target": "kitchin2017",
+   "type": "synthesizes",
+   "why": "Algorithms as culture."
+  },
+  {
+   "source": "christin2017",
+   "target": "seaver2017",
+   "type": "synthesizes",
+   "why": "Algorithms in practice."
+  },
+  {
+   "source": "danaher2017",
+   "target": "danaher2016",
+   "type": "builds_on",
+   "why": "Algorithmic governance agenda."
+  },
+  {
+   "source": "gritsenkowood2022",
+   "target": "yeung2018",
+   "type": "builds_on",
+   "why": "Modes of algorithmic governance."
+  },
+  {
+   "source": "rudin2019",
+   "target": "burrell2016",
+   "type": "challenges",
+   "why": "Interpretable models over explanations."
+  },
+  {
+   "source": "lepri2018",
+   "target": "diakopoulos2015",
+   "type": "synthesizes",
+   "why": "Accountable algorithmic decisions."
+  },
+  {
+   "source": "wagner2019",
+   "target": "binns2018",
+   "type": "builds_on",
+   "why": "Meaningful human agency."
+  },
+  {
+   "source": "zerilli2019",
+   "target": "burrell2016",
+   "type": "qualifies",
+   "why": "Double standard in transparency."
+  },
+  {
+   "source": "pariser2011",
+   "target": "sunstein2001",
+   "type": "builds_on",
+   "why": "Algorithmic filter bubbles."
+  },
+  {
+   "source": "guess2023",
+   "target": "pariser2011",
+   "type": "mechanism_tested_by",
+   "why": "Feed algorithms and attitudes."
+  },
+  {
+   "source": "moller2018",
+   "target": "pariser2011",
+   "type": "challenges",
+   "why": "Recommenders need not reduce diversity."
+  },
+  {
+   "source": "bostrom2014",
+   "target": "winner1980",
+   "type": "synthesizes",
+   "why": "Existential risk from AI (thematic link)."
+  },
+  {
+   "source": "russell2019",
+   "target": "bostrom2014",
+   "type": "builds_on",
+   "why": "Provably beneficial AI."
+  },
+  {
+   "source": "gabriel2020",
+   "target": "russell2019",
+   "type": "builds_on",
+   "why": "Value alignment."
+  },
+  {
+   "source": "mittelstadt2016",
+   "target": "pasquale2015",
+   "type": "builds_on",
+   "why": "Ethics of algorithms mapped."
+  },
+  {
+   "source": "floridi2018",
+   "target": "mittelstadt2016",
+   "type": "builds_on",
+   "why": "AI4People principles."
+  },
+  {
+   "source": "jobin2019",
+   "target": "floridi2018",
+   "type": "synthesizes",
+   "why": "Global landscape of guidelines."
+  },
+  {
+   "source": "mittelstadt2019",
+   "target": "jobin2019",
+   "type": "challenges",
+   "why": "Principles alone are not enough."
+  },
+  {
+   "source": "hagendorff2020",
+   "target": "jobin2019",
+   "type": "builds_on",
+   "why": "Guidelines are ineffective."
+  },
+  {
+   "source": "floridi2019",
+   "target": "floridi2018",
+   "type": "builds_on",
+   "why": "From principles to practice."
+  },
+  {
+   "source": "morley2021",
+   "target": "floridi2019",
+   "type": "builds_on",
+   "why": "Operationalizing AI ethics."
+  },
+  {
+   "source": "tsamados2022",
+   "target": "mittelstadt2016",
+   "type": "builds_on",
+   "why": "Updated ethics of algorithms."
+  },
+  {
+   "source": "mohamed2020",
+   "target": "jobin2019",
+   "type": "challenges",
+   "why": "Decolonial AI."
+  },
+  {
+   "source": "cavedihal2020",
+   "target": "mohamed2020",
+   "type": "synthesizes",
+   "why": "Whiteness of AI."
+  },
+  {
+   "source": "santonidesio2021",
+   "target": "binns2018",
+   "type": "synthesizes",
+   "why": "Responsibility gaps."
+  },
+  {
+   "source": "novelli2023",
+   "target": "santonidesio2021",
+   "type": "builds_on",
+   "why": "Accountability in AI."
+  },
+  {
+   "source": "mokanderfloridi2021",
+   "target": "floridi2019",
+   "type": "builds_on",
+   "why": "Ethics-based auditing."
+  },
+  {
+   "source": "bender2021",
+   "target": "buolamwinigebru2018",
+   "type": "builds_on",
+   "why": "Risks of large language models."
+  },
+  {
+   "source": "floridi2023",
+   "target": "bender2021",
+   "type": "synthesizes",
+   "why": "LLMs as agency without intelligence."
+  },
+  {
+   "source": "hagendorff2024",
+   "target": "hagendorff2020",
+   "type": "builds_on",
+   "why": "Ethics of generative AI."
+  },
+  {
+   "source": "vallor2014",
+   "target": "winner1980",
+   "type": "builds_on",
+   "why": "Moral deskilling."
+  },
+  {
+   "source": "scharre2018",
+   "target": "bostrom2014",
+   "type": "synthesizes",
+   "why": "Autonomous weapons and control."
+  },
+  {
+   "source": "barocasselbst2016",
+   "target": "dwork2012",
+   "type": "builds_on",
+   "why": "Disparate impact of data mining."
+  },
+  {
+   "source": "chouldechova2017",
+   "target": "dwork2012",
+   "type": "builds_on",
+   "why": "Fair prediction trade-offs."
+  },
+  {
+   "source": "kleinberg2017",
+   "target": "chouldechova2017",
+   "type": "synthesizes",
+   "why": "Incompatible fairness criteria (contemporaneous)."
+  },
+  {
+   "source": "kleinberg2018",
+   "target": "kleinberg2017",
+   "type": "builds_on",
+   "why": "Machine predictions in bail."
+  },
+  {
+   "source": "oneil2016",
+   "target": "pasquale2015",
+   "type": "builds_on",
+   "why": "Weapons of math destruction."
+  },
+  {
+   "source": "noble2018",
+   "target": "oneil2016",
+   "type": "builds_on",
+   "why": "Algorithms of oppression."
+  },
+  {
+   "source": "eubanks2018",
+   "target": "oneil2016",
+   "type": "builds_on",
+   "why": "Automating inequality."
+  },
+  {
+   "source": "benjamin2019",
+   "target": "noble2018",
+   "type": "builds_on",
+   "why": "The New Jim Code."
+  },
+  {
+   "source": "buolamwinigebru2018",
+   "target": "barocasselbst2016",
+   "type": "mechanism_tested_by",
+   "why": "Intersectional audit of face classifiers."
+  },
+  {
+   "source": "obermeyer2019",
+   "target": "barocasselbst2016",
+   "type": "mechanism_tested_by",
+   "why": "Racial bias in a health algorithm."
+  },
+  {
+   "source": "chouldechovaroth2020",
+   "target": "kleinberg2017",
+   "type": "synthesizes",
+   "why": "Frontiers of ML fairness."
+  },
+  {
+   "source": "hoffmann2019",
+   "target": "barocasselbst2016",
+   "type": "challenges",
+   "why": "Limits of antidiscrimination framing."
+  },
+  {
+   "source": "vealebinns2017",
+   "target": "barocasselbst2016",
+   "type": "builds_on",
+   "why": "Fairness without sensitive data."
+  },
+  {
+   "source": "lee2018",
+   "target": "chouldechova2017",
+   "type": "synthesizes",
+   "why": "Perceived fairness of algorithms."
+  },
+  {
+   "source": "starke2022",
+   "target": "lee2018",
+   "type": "synthesizes",
+   "why": "Review of fairness perceptions."
+  },
+  {
+   "source": "wong2020",
+   "target": "kleinberg2017",
+   "type": "builds_on",
+   "why": "Democratizing fairness choices."
+  },
+  {
+   "source": "hedden2021",
+   "target": "kleinberg2017",
+   "type": "challenges",
+   "why": "Statistical criteria are not necessary."
+  },
+  {
+   "source": "rosenblat2017",
+   "target": "barocasselbst2016",
+   "type": "extends_to_new_case",
+   "why": "Customer ratings and discrimination."
+  },
+  {
+   "source": "noble2018",
+   "target": "matamoros2017",
+   "type": "synthesizes",
+   "why": "Platformed racism."
+  },
+  {
+   "source": "rudin2019",
+   "target": "chouldechova2017",
+   "type": "synthesizes",
+   "why": "Interpretability in high-stakes decisions."
+  },
+  {
+   "source": "nissenbaum2010",
+   "target": "solove2006",
+   "type": "builds_on",
+   "why": "Contextual integrity."
+  },
+  {
+   "source": "vandijck2014",
+   "target": "lazer2009",
+   "type": "challenges",
+   "why": "Dataism and dataveillance."
+  },
+  {
+   "source": "zuboff2019",
+   "target": "vandijck2014",
+   "type": "builds_on",
+   "why": "Surveillance capitalism."
+  },
+  {
+   "source": "couldrymejias2019",
+   "target": "zuboff2019",
+   "type": "synthesizes",
+   "why": "Data colonialism."
+  },
+  {
+   "source": "sadowski2019",
+   "target": "zuboff2019",
+   "type": "synthesizes",
+   "why": "Data as capital."
+  },
+  {
+   "source": "lyon2014",
+   "target": "solove2006",
+   "type": "builds_on",
+   "why": "Snowden and big data surveillance."
+  },
+  {
+   "source": "galic2017",
+   "target": "lyon2014",
+   "type": "synthesizes",
+   "why": "Surveillance theories."
+  },
+  {
+   "source": "marwickboyd2014",
+   "target": "nissenbaum2010",
+   "type": "builds_on",
+   "why": "Networked privacy."
+  },
+  {
+   "source": "acquisti2015",
+   "target": "solove2006",
+   "type": "builds_on",
+   "why": "Privacy behavior."
+  },
+  {
+   "source": "obar2020",
+   "target": "acquisti2015",
+   "type": "mechanism_tested_by",
+   "why": "Ignoring privacy policies."
+  },
+  {
+   "source": "taylor2017",
+   "target": "lyon2014",
+   "type": "builds_on",
+   "why": "Data justice."
+  },
+  {
+   "source": "vanzoonen2016",
+   "target": "nissenbaum2010",
+   "type": "extends_to_new_case",
+   "why": "Privacy in smart cities."
+  },
+  {
+   "source": "luptonwilliamson2017",
+   "target": "vandijck2014",
+   "type": "extends_to_new_case",
+   "why": "Datafied children."
+  },
+  {
+   "source": "liang2018",
+   "target": "lyon2014",
+   "type": "extends_to_new_case",
+   "why": "Social credit as state surveillance."
+  },
+  {
+   "source": "feldstein2019",
+   "target": "morozov2011",
+   "type": "builds_on",
+   "why": "AI reshapes repression."
+  },
+  {
+   "source": "xu2021",
+   "target": "feldstein2019",
+   "type": "mechanism_tested_by",
+   "why": "Surveillance versus co-optation."
+  },
+  {
+   "source": "dragulupu2021",
+   "target": "xu2021",
+   "type": "synthesizes",
+   "why": "Digital authoritarianism and rights."
+  },
+  {
+   "source": "leibold2019",
+   "target": "liang2018",
+   "type": "builds_on",
+   "why": "Surveillance in Xinjiang."
+  },
+  {
+   "source": "morozov2011",
+   "target": "diamond2010",
+   "type": "challenges",
+   "why": "Net delusion versus liberation technology."
+  },
+  {
+   "source": "mackinnon2011",
+   "target": "diamond2010",
+   "type": "qualifies",
+   "why": "Networked authoritarianism."
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "mackinnon2011",
+   "type": "builds_on",
+   "why": "Censorship targets collective action."
+  },
+  {
+   "source": "lorentzen2014",
+   "target": "kingpanroberts2013",
+   "type": "synthesizes",
+   "why": "Strategic censorship (contemporaneous)."
+  },
+  {
+   "source": "king2017",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Fabricated posts for distraction."
+  },
+  {
+   "source": "han2015",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Voluntary fifty-cent army."
+  },
+  {
+   "source": "roberts2018",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Friction, fear and flooding."
+  },
+  {
+   "source": "roberts2018",
+   "target": "creemers2016",
+   "type": "synthesizes",
+   "why": "Cyber China propaganda (earlier)."
+  },
+  {
+   "source": "gunitsky2015",
+   "target": "morozov2011",
+   "type": "builds_on",
+   "why": "Social media for autocratic stability."
+  },
+  {
+   "source": "guriev2019",
+   "target": "gunitsky2015",
+   "type": "synthesizes",
+   "why": "Informational autocrats."
+  },
+  {
+   "source": "tucker2017",
+   "target": "diamond2010",
+   "type": "builds_on",
+   "why": "From liberation to turmoil."
+  },
+  {
+   "source": "zhuravskaya2020",
+   "target": "tucker2017",
+   "type": "synthesizes",
+   "why": "Review of internet political effects."
+  },
+  {
+   "source": "beraja2023",
+   "target": "xu2021",
+   "type": "builds_on",
+   "why": "Surveillance demand spurs AI innovation."
+  },
+  {
+   "source": "stanley2015",
+   "target": "morozov2011",
+   "type": "synthesizes",
+   "why": "Propaganda and democracy (thematic link)."
+  },
+  {
+   "source": "woolleyhoward2018",
+   "target": "gunitsky2015",
+   "type": "builds_on",
+   "why": "Computational propaganda."
+  },
+  {
+   "source": "howard2018",
+   "target": "woolleyhoward2018",
+   "type": "synthesizes",
+   "why": "Bots in the 2016 election."
+  },
+  {
+   "source": "gorwaguilbeault2020",
+   "target": "woolleyhoward2018",
+   "type": "synthesizes",
+   "why": "Typology of bots."
+  },
+  {
+   "source": "benkler2018",
+   "target": "allcottgentzkow2017",
+   "type": "challenges",
+   "why": "Media ecosystem, not technology alone."
+  },
+  {
+   "source": "allcottgentzkow2017",
+   "target": "pariser2011",
+   "type": "qualifies",
+   "why": "Fake news exposure was limited."
+  },
+  {
+   "source": "vosoughi2018",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "False news spreads faster."
+  },
+  {
+   "source": "guess2019",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "Who shares fake news."
+  },
+  {
+   "source": "pennycookrand2019",
+   "target": "vosoughi2018",
+   "type": "synthesizes",
+   "why": "Inattention behind susceptibility."
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "pennycookrand2019",
+   "type": "challenges",
+   "why": "Partisan motivation drives sharing."
+  },
+  {
+   "source": "vargo2018",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "Agenda-setting power of fake news."
+  },
+  {
+   "source": "mena2020",
+   "target": "pennycookrand2019",
+   "type": "builds_on",
+   "why": "Warning labels."
+  },
+  {
+   "source": "basol2021",
+   "target": "pennycookrand2019",
+   "type": "builds_on",
+   "why": "Prebunking interventions."
+  },
+  {
+   "source": "vaccarichadwick2020",
+   "target": "woolleyhoward2018",
+   "type": "builds_on",
+   "why": "Deepfakes and trust."
+  },
+  {
+   "source": "fallis2020",
+   "target": "vaccarichadwick2020",
+   "type": "synthesizes",
+   "why": "Epistemic threat of deepfakes."
+  },
+  {
+   "source": "altay2023",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "Overstated misinformation alarm."
+  },
+  {
+   "source": "keller2020",
+   "target": "woolleyhoward2018",
+   "type": "mechanism_tested_by",
+   "why": "Detecting astroturfing."
+  },
+  {
+   "source": "burnapwilliams2015",
+   "target": "lazer2009",
+   "type": "extends_to_new_case",
+   "why": "Machine classification of hate speech."
+  },
+  {
+   "source": "woolleyhoward2018",
+   "target": "king2017",
+   "type": "synthesizes",
+   "why": "State-run social media posts (earlier)."
+  },
+  {
+   "source": "habermas2006",
+   "target": "papacharissi2002",
+   "type": "synthesizes",
+   "why": "Mediated deliberation."
+  },
+  {
+   "source": "benkler2006",
+   "target": "papacharissi2002",
+   "type": "builds_on",
+   "why": "Networked public sphere."
+  },
+  {
+   "source": "castells2009",
+   "target": "benkler2006",
+   "type": "synthesizes",
+   "why": "Mass self-communication."
+  },
+  {
+   "source": "prior2007",
+   "target": "sunstein2001",
+   "type": "builds_on",
+   "why": "Media choice and polarization."
+  },
+  {
+   "source": "gentzkowshapiro2011",
+   "target": "sunstein2001",
+   "type": "challenges",
+   "why": "Online segregation is low."
+  },
+  {
+   "source": "flaxman2016",
+   "target": "gentzkowshapiro2011",
+   "type": "builds_on",
+   "why": "Filter bubbles measured."
+  },
+  {
+   "source": "bakshy2015",
+   "target": "pariser2011",
+   "type": "mechanism_tested_by",
+   "why": "Algorithm versus user choice."
+  },
+  {
+   "source": "bail2018",
+   "target": "bakshy2015",
+   "type": "challenges",
+   "why": "Cross-cutting exposure can polarize."
+  },
+  {
+   "source": "boutylinewiller2017",
+   "target": "bakshy2015",
+   "type": "builds_on",
+   "why": "Homophily in online networks."
+  },
+  {
+   "source": "duboisblank2018",
+   "target": "sunstein2001",
+   "type": "challenges",
+   "why": "Echo chambers are overstated."
+  },
+  {
+   "source": "fletchernielsen2018",
+   "target": "prior2007",
+   "type": "challenges",
+   "why": "Incidental news exposure."
+  },
+  {
+   "source": "lelkes2017",
+   "target": "prior2007",
+   "type": "builds_on",
+   "why": "Broadband and affective polarization."
+  },
+  {
+   "source": "guess2021",
+   "target": "flaxman2016",
+   "type": "builds_on",
+   "why": "Moderate media diets."
+  },
+  {
+   "source": "allcott2020",
+   "target": "lelkes2017",
+   "type": "mechanism_tested_by",
+   "why": "Facebook deactivation experiment."
+  },
+  {
+   "source": "guess2023",
+   "target": "allcott2020",
+   "type": "builds_on",
+   "why": "Feed algorithm experiments."
+  },
+  {
+   "source": "farrell2012",
+   "target": "benkler2006",
+   "type": "synthesizes",
+   "why": "Consequences of the internet."
+  },
+  {
+   "source": "persily2017",
+   "target": "tucker2017",
+   "type": "synthesizes",
+   "why": "Can democracy survive the internet?"
+  },
+  {
+   "source": "engesser2017",
+   "target": "chadwick2013",
+   "type": "builds_on",
+   "why": "Populism on social media."
+  },
+  {
+   "source": "ernst2017",
+   "target": "engesser2017",
+   "type": "builds_on",
+   "why": "Extreme parties and populism online."
+  },
+  {
+   "source": "milnerpopulism2021",
+   "target": "anelli2021",
+   "type": "synthesizes",
+   "why": "Technology and the extreme right (contemporaneous)."
+  },
+  {
+   "source": "magistro2025",
+   "target": "milnerpopulism2021",
+   "type": "builds_on",
+   "why": "AI and globalization attitudes."
+  },
+  {
+   "source": "shirky2011",
+   "target": "benkler2006",
+   "type": "builds_on",
+   "why": "Social media and civil society."
+  },
+  {
+   "source": "earlkimport2011",
+   "target": "garrett2006",
+   "type": "builds_on",
+   "why": "Digitally enabled activism."
+  },
+  {
+   "source": "bennettsegerberg2012",
+   "target": "earlkimport2011",
+   "type": "builds_on",
+   "why": "Connective action."
+  },
+  {
+   "source": "tufekciwilson2012",
+   "target": "shirky2011",
+   "type": "mechanism_tested_by",
+   "why": "Social media and Tahrir protest."
+  },
+  {
+   "source": "tufekci2017",
+   "target": "bennettsegerberg2012",
+   "type": "builds_on",
+   "why": "Fragility of networked protest."
+  },
+  {
+   "source": "howardhussain2011",
+   "target": "diamond2010",
+   "type": "builds_on",
+   "why": "Digital media in Arab uprisings."
+  },
+  {
+   "source": "steinertthrelkeld2017",
+   "target": "tufekciwilson2012",
+   "type": "builds_on",
+   "why": "Peripheral mobilization."
+  },
+  {
+   "source": "enikolopov2020",
+   "target": "tufekciwilson2012",
+   "type": "mechanism_tested_by",
+   "why": "Social media and Russian protest."
+  },
+  {
+   "source": "pierskalla2013",
+   "target": "shirky2011",
+   "type": "mechanism_tested_by",
+   "why": "Cell phones and collective violence."
+  },
+  {
+   "source": "jost2018",
+   "target": "bennettsegerberg2012",
+   "type": "synthesizes",
+   "why": "How social media facilitate protest."
+  },
+  {
+   "source": "mundt2018",
+   "target": "bennettsegerberg2012",
+   "type": "extends_to_new_case",
+   "why": "Scaling Black Lives Matter."
+  },
+  {
+   "source": "theocharis2015",
+   "target": "bennettsegerberg2012",
+   "type": "builds_on",
+   "why": "Twitter mobilization patterns."
+  },
+  {
+   "source": "vanlaer2010",
+   "target": "garrett2006",
+   "type": "builds_on",
+   "why": "Expanded action repertoires."
+  },
+  {
+   "source": "halupka2014",
+   "target": "earlkimport2011",
+   "type": "qualifies",
+   "why": "Clicktivism."
+  },
+  {
+   "source": "earlkimport2011",
+   "target": "karpf2010",
+   "type": "synthesizes",
+   "why": "Advocacy groups online."
+  },
+  {
+   "source": "boulianne2009",
+   "target": "papacharissi2002",
+   "type": "mechanism_tested_by",
+   "why": "Internet use and engagement."
+  },
+  {
+   "source": "boulianne2015",
+   "target": "boulianne2009",
+   "type": "builds_on",
+   "why": "Social media and participation meta-analysis."
+  },
+  {
+   "source": "gildezuniga2012",
+   "target": "boulianne2009",
+   "type": "builds_on",
+   "why": "News use and participation."
+  },
+  {
+   "source": "loadermercea2011",
+   "target": "castells2009",
+   "type": "synthesizes",
+   "why": "Networking democracy."
+  },
+  {
+   "source": "diamond2010",
+   "target": "castells2009",
+   "type": "synthesizes",
+   "why": "Liberation technology."
+  },
+  {
+   "source": "schlozman2010",
+   "target": "norris2001",
+   "type": "builds_on",
+   "why": "Participatory inequality online."
+  },
+  {
+   "source": "chadwick2007",
+   "target": "garrett2006",
+   "type": "builds_on",
+   "why": "Organizational hybridity."
+  },
+  {
+   "source": "chadwick2013",
+   "target": "chadwick2007",
+   "type": "builds_on",
+   "why": "Hybrid media system."
+  },
+  {
+   "source": "kreiss2016",
+   "target": "chadwick2013",
+   "type": "builds_on",
+   "why": "Technology-intensive campaigning."
+  },
+  {
+   "source": "bimber2014",
+   "target": "chadwick2013",
+   "type": "synthesizes",
+   "why": "Personalized campaigns."
+  },
+  {
+   "source": "jungherr2016",
+   "target": "chadwick2013",
+   "type": "synthesizes",
+   "why": "Twitter in campaigns review."
+  },
+  {
+   "source": "enliskogerbo2013",
+   "target": "chadwick2013",
+   "type": "synthesizes",
+   "why": "Personalized campaigns online."
+  },
+  {
+   "source": "klingersvensson2015",
+   "target": "chadwick2013",
+   "type": "builds_on",
+   "why": "Network media logic."
+  },
+  {
+   "source": "kreissmcgregor2018",
+   "target": "kreiss2016",
+   "type": "builds_on",
+   "why": "Tech firms shape campaigns."
+  },
+  {
+   "source": "stier2018",
+   "target": "jungherr2016",
+   "type": "builds_on",
+   "why": "Campaigning across platforms."
+  },
+  {
+   "source": "fowler2021",
+   "target": "kreissmcgregor2018",
+   "type": "builds_on",
+   "why": "Online political advertising."
+  },
+  {
+   "source": "barbera2019",
+   "target": "jungherr2016",
+   "type": "builds_on",
+   "why": "Agenda setting on Twitter."
+  },
+  {
+   "source": "gibsoncantijoch2013",
+   "target": "boulianne2009",
+   "type": "qualifies",
+   "why": "Online participation as a distinct mode."
+  },
+  {
+   "source": "vandijk2005",
+   "target": "norris2001",
+   "type": "builds_on",
+   "why": "Deepening divide."
+  },
+  {
+   "source": "hargittai2002",
+   "target": "norris2001",
+   "type": "qualifies",
+   "why": "Second-level divide in skills."
+  },
+  {
+   "source": "hargittaiwalejko2008",
+   "target": "hargittai2002",
+   "type": "builds_on",
+   "why": "Participation divide."
+  },
+  {
+   "source": "min2010",
+   "target": "hargittai2002",
+   "type": "builds_on",
+   "why": "Democratic divide."
+  },
+  {
+   "source": "vandeursen2014",
+   "target": "vandijk2005",
+   "type": "builds_on",
+   "why": "Usage divide."
+  },
+  {
+   "source": "vandeursen2019",
+   "target": "vandeursen2014",
+   "type": "builds_on",
+   "why": "Material access inequalities."
+  },
+  {
+   "source": "robinson2015",
+   "target": "vandijk2005",
+   "type": "synthesizes",
+   "why": "Why digital inequalities matter."
+  },
+  {
+   "source": "gran2021",
+   "target": "vandeursen2019",
+   "type": "extends_to_new_case",
+   "why": "Algorithm awareness divide."
+  },
+  {
+   "source": "brynjolfssonmcafee2014",
+   "target": "winner1980",
+   "type": "synthesizes",
+   "why": "Second machine age (thematic link)."
+  },
+  {
+   "source": "autor2015",
+   "target": "brynjolfssonmcafee2014",
+   "type": "qualifies",
+   "why": "Automation also complements labor."
+  },
+  {
+   "source": "freyosborne2017",
+   "target": "brynjolfssonmcafee2014",
+   "type": "builds_on",
+   "why": "Susceptibility to computerisation."
+  },
+  {
+   "source": "acemoglurestrepo2020",
+   "target": "autor2015",
+   "type": "builds_on",
+   "why": "Robots and local labor markets."
+  },
+  {
+   "source": "anelli2021",
+   "target": "acemoglurestrepo2020",
+   "type": "builds_on",
+   "why": "Robots and the radical right."
+  },
+  {
+   "source": "thewissenrueda2019",
+   "target": "autor2015",
+   "type": "builds_on",
+   "why": "Automation and redistribution preferences."
+  },
+  {
+   "source": "kurer2020",
+   "target": "thewissenrueda2019",
+   "type": "synthesizes",
+   "why": "Declining middle and populist right."
+  },
+  {
+   "source": "gallegokurer2022",
+   "target": "kurer2020",
+   "type": "synthesizes",
+   "why": "Review of workplace technology and politics."
+  },
+  {
+   "source": "brynjolfsson2025",
+   "target": "autor2015",
+   "type": "builds_on",
+   "why": "Generative AI at work."
+  },
+  {
+   "source": "jarrahi2021",
+   "target": "vandoorn2017",
+   "type": "synthesizes",
+   "why": "Algorithmic management."
+  },
+  {
+   "source": "tubaro2020",
+   "target": "vandoorn2017",
+   "type": "builds_on",
+   "why": "Human labor behind AI."
+  },
+  {
+   "source": "vandervlist2024",
+   "target": "srnicek2017",
+   "type": "builds_on",
+   "why": "Cloud infrastructure and Big AI."
+  },
+  {
+   "source": "rosenblat2017",
+   "target": "vandoorn2017",
+   "type": "synthesizes",
+   "why": "Platform labor and ratings (earlier)."
+  },
+  {
+   "source": "sadowski2019",
+   "target": "srnicek2017",
+   "type": "builds_on",
+   "why": "Data capital accumulation."
+  },
+  {
+   "source": "dunleavy2006",
+   "target": "bovenszouridis2002",
+   "type": "builds_on",
+   "why": "Digital-era governance."
+  },
+  {
+   "source": "bertot2010",
+   "target": "dunleavy2006",
+   "type": "builds_on",
+   "why": "Transparency through e-government."
+  },
+  {
+   "source": "linders2012",
+   "target": "bertot2010",
+   "type": "builds_on",
+   "why": "We-government coproduction."
+  },
+  {
+   "source": "mergel2019",
+   "target": "dunleavy2006",
+   "type": "builds_on",
+   "why": "Defining digital transformation."
+  },
+  {
+   "source": "youngbullock2019",
+   "target": "bovenszouridis2002",
+   "type": "builds_on",
+   "why": "Artificial discretion."
+  },
+  {
+   "source": "sunmedaglia2019",
+   "target": "youngbullock2019",
+   "type": "synthesizes",
+   "why": "AI challenges in the public sector."
+  },
+  {
+   "source": "zuiderwijk2021",
+   "target": "sunmedaglia2019",
+   "type": "synthesizes",
+   "why": "AI in public governance review."
+  },
+  {
+   "source": "janssen2020",
+   "target": "sunmedaglia2019",
+   "type": "builds_on",
+   "why": "Data governance for AI."
+  },
+  {
+   "source": "kuziemski2020",
+   "target": "youngbullock2019",
+   "type": "extends_to_new_case",
+   "why": "Automated decision-making in government."
+  },
+  {
+   "source": "ingrams2022",
+   "target": "araujo2020",
+   "type": "builds_on",
+   "why": "Citizen trust in AI decisions."
+  },
+  {
+   "source": "araujo2020",
+   "target": "lee2018",
+   "type": "builds_on",
+   "why": "Perceptions of automated decisions."
+  },
+  {
+   "source": "eubanks2018",
+   "target": "bovenszouridis2002",
+   "type": "challenges",
+   "why": "System-level bureaucracy harms the poor."
+  },
+  {
+   "source": "bannister2011",
+   "target": "bertot2010",
+   "type": "challenges",
+   "why": "Trouble with transparency."
+  },
+  {
+   "source": "youngbullock2019",
+   "target": "kleinberg2018",
+   "type": "synthesizes",
+   "why": "Algorithmic judgment in public decisions (earlier)."
+  },
+  {
+   "source": "barocasselbst2016",
+   "target": "lessig1999",
+   "type": "synthesizes",
+   "why": "Law and code (thematic link)."
+  },
+  {
+   "source": "bradford2020",
+   "target": "lessig1999",
+   "type": "synthesizes",
+   "why": "Global reach of EU rules."
+  },
+  {
+   "source": "bradford2023",
+   "target": "bradford2020",
+   "type": "builds_on",
+   "why": "Digital empires."
+  },
+  {
+   "source": "laux2024",
+   "target": "bradford2020",
+   "type": "builds_on",
+   "why": "EU trustworthy AI."
+  },
+  {
+   "source": "mokander2022",
+   "target": "mokanderfloridi2021",
+   "type": "builds_on",
+   "why": "US and EU AI regulation compared."
+  },
+  {
+   "source": "taeihagh2021",
+   "target": "yeung2018",
+   "type": "synthesizes",
+   "why": "Regulating disruptive technology."
+  },
+  {
+   "source": "floridi2018ptech",
+   "target": "floridi2018",
+   "type": "synthesizes",
+   "why": "Soft ethics and governance."
+  },
+  {
+   "source": "obarwildman2015",
+   "target": "lessig1999",
+   "type": "builds_on",
+   "why": "Defining social media for governance."
+  },
+  {
+   "source": "jobin2019",
+   "target": "floridi2018ptech",
+   "type": "synthesizes",
+   "why": "Guidelines as soft governance."
+  },
+  {
+   "source": "klonick2018",
+   "target": "persily2017",
+   "type": "synthesizes",
+   "why": "Platform regulation and democracy (earlier)."
+  },
+  {
+   "source": "hansennissenbaum2009",
+   "target": "winner1980",
+   "type": "synthesizes",
+   "why": "Securitization of cyberspace (thematic link)."
+  },
+  {
+   "source": "rid2012",
+   "target": "hansennissenbaum2009",
+   "type": "challenges",
+   "why": "Cyber war will not take place."
+  },
+  {
+   "source": "gartzke2013",
+   "target": "rid2012",
+   "type": "builds_on",
+   "why": "Myth of cyberwar."
+  },
+  {
+   "source": "lindsay2013",
+   "target": "rid2012",
+   "type": "synthesizes",
+   "why": "Stuxnet limits."
+  },
+  {
+   "source": "kello2013",
+   "target": "rid2012",
+   "type": "challenges",
+   "why": "Cyber revolution."
+  },
+  {
+   "source": "ridbuchanan2015",
+   "target": "rid2012",
+   "type": "builds_on",
+   "why": "Attribution."
+  },
+  {
+   "source": "gartzkelindsay2015",
+   "target": "gartzke2013",
+   "type": "builds_on",
+   "why": "Deception in cyberspace."
+  },
+  {
+   "source": "buchanan2016",
+   "target": "ridbuchanan2015",
+   "type": "builds_on",
+   "why": "Cybersecurity dilemma."
+  },
+  {
+   "source": "nye2017",
+   "target": "kello2013",
+   "type": "builds_on",
+   "why": "Deterrence in cyberspace."
+  },
+  {
+   "source": "borghard2017",
+   "target": "gartzke2013",
+   "type": "builds_on",
+   "why": "Cyber coercion."
+  },
+  {
+   "source": "slayton2017",
+   "target": "gartzkelindsay2015",
+   "type": "qualifies",
+   "why": "Offense-defense balance."
+  },
+  {
+   "source": "kostyukzhukov2019",
+   "target": "borghard2017",
+   "type": "mechanism_tested_by",
+   "why": "Cyber attacks and battlefield events."
+  },
+  {
+   "source": "horowitz2018",
+   "target": "kello2013",
+   "type": "extends_to_new_case",
+   "why": "AI and the balance of power."
+  },
+  {
+   "source": "scharre2018",
+   "target": "horowitz2018",
+   "type": "synthesizes",
+   "why": "Autonomous weapons."
+  },
+  {
+   "source": "goldfarb2022",
+   "target": "horowitz2018",
+   "type": "builds_on",
+   "why": "Prediction versus judgment in military AI."
+  },
+  {
+   "source": "kennedylim2018",
+   "target": "horowitz2018",
+   "type": "synthesizes",
+   "why": "Innovation imperative (contemporaneous)."
+  },
+  {
+   "source": "gilli2019",
+   "target": "kennedylim2018",
+   "type": "qualifies",
+   "why": "Imitation limits China's catch-up."
+  },
+  {
+   "source": "farrell2019",
+   "target": "kennedylim2018",
+   "type": "synthesizes",
+   "why": "Weaponized network interdependence."
+  },
+  {
+   "source": "floridi2020",
+   "target": "bradford2020",
+   "type": "synthesizes",
+   "why": "Digital sovereignty (contemporaneous)."
+  },
+  {
+   "source": "roberts2021",
+   "target": "kennedylim2018",
+   "type": "builds_on",
+   "why": "China's AI governance."
+  },
+  {
+   "source": "ding2024",
+   "target": "kennedylim2018",
+   "type": "challenges",
+   "why": "Diffusion, not innovation, decides rivalry."
+  },
+  {
+   "source": "beraja2023",
+   "target": "roberts2021",
+   "type": "synthesizes",
+   "why": "State data and Chinese AI."
+  },
+  {
+   "source": "bradford2023",
+   "target": "roberts2021",
+   "type": "synthesizes",
+   "why": "Competing regulatory models."
+  },
+  {
+   "source": "lazer2009",
+   "target": "benkler2006",
+   "type": "synthesizes",
+   "why": "Computational social science (thematic link)."
+  },
+  {
+   "source": "boydcrawford2012",
+   "target": "lazer2009",
+   "type": "challenges",
+   "why": "Critical questions for big data."
+  },
+  {
+   "source": "kitchin2014",
+   "target": "boydcrawford2012",
+   "type": "builds_on",
+   "why": "Big data epistemologies."
+  },
+  {
+   "source": "grimmerstewart2013",
+   "target": "lazer2009",
+   "type": "builds_on",
+   "why": "Text as data."
+  },
+  {
+   "source": "wilkersoncasas2017",
+   "target": "grimmerstewart2013",
+   "type": "synthesizes",
+   "why": "Text analysis review."
+  },
+  {
+   "source": "grimmer2021",
+   "target": "grimmerstewart2013",
+   "type": "builds_on",
+   "why": "Agnostic machine learning."
+  },
+  {
+   "source": "atheyimbens2019",
+   "target": "lazer2009",
+   "type": "synthesizes",
+   "why": "Machine learning for economists."
+  },
+  {
+   "source": "bruns2019",
+   "target": "boydcrawford2012",
+   "type": "builds_on",
+   "why": "Data access after the APIcalypse."
+  },
+  {
+   "source": "bruns2019",
+   "target": "freelon2018",
+   "type": "synthesizes",
+   "why": "Post-API research (contemporaneous)."
+  },
+  {
+   "source": "gonzalezbailon2013",
+   "target": "lazer2009",
+   "type": "synthesizes",
+   "why": "Social science and big data."
+  },
+  {
+   "source": "gilardi2023",
+   "target": "grimmer2021",
+   "type": "builds_on",
+   "why": "LLMs for annotation."
+  },
+  {
+   "source": "argyle2023",
+   "target": "gilardi2023",
+   "type": "synthesizes",
+   "why": "Simulating samples with LLMs."
+  },
+  {
+   "source": "egami2025",
+   "target": "gilardi2023",
+   "type": "qualifies",
+   "why": "Correcting bias from LLM annotations."
+  },
+  {
+   "source": "benoit2026",
+   "target": "grimmerstewart2013",
+   "type": "builds_on",
+   "why": "LLMs read texts for meaning."
+  },
+  {
+   "source": "benoit2026",
+   "target": "gilardi2023",
+   "type": "builds_on",
+   "why": "LLM measurement of party positions."
+  },
+  {
+   "source": "benoit2026",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egami2025",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magistro2025",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magistro2025",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bennettsegerberg2012",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedylim2018",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milnerpopulism2021",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milnerpopulism2021",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chouldechovaroth2020",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king2017",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king2017",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roberts2018",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mackinnon2011",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "creemers2016",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "creemers2016",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leibold2019",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leibold2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "han2015",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "han2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dragulupu2021",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dragulupu2021",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diamond2010",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diamond2010",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sunstein2001",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prior2007",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flaxman2016",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakshy2015",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakshy2015",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bail2018",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boutylinewiller2017",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lelkes2017",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guess2021",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allcottgentzkow2017",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vosoughi2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guess2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pennycookrand2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stier2018",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2021",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2019",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2019",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlozman2010",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlozman2010",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rid2012",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzke2013",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindsay2013",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kello2013",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ridbuchanan2015",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzkelindsay2015",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nye2017",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borghard2017",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slayton2017",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostyukzhukov2019",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldfarb2022",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldfarb2022",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilli2019",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2019",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stanley2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muldoonraekstad2023",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muldoonraekstad2023",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winner1980",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winner1980",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lessig1999",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lessig1999",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2001",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hargittai2002",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "papacharissi2002",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandijk2005",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benkler2006",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benkler2006",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermas2006",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "solove2006",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunleavy2006",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lazer2009",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "castells2009",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "castells2009",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nissenbaum2010",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morozov2011",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shirky2011",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "earlkimport2011",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pariser2011",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pariser2011",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dwork2012",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gildezuniga2012",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tufekciwilson2012",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tufekciwilson2012",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmerstewart2013",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chadwick2013",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chadwick2013",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brynjolfssonmcafee2014",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bostrom2014",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandijck2014",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pasquale2015",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acquisti2015",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "autor2015",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diakopoulos2015",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barocasselbst2016",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barocasselbst2016",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oneil2016",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oneil2016",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tufekci2017",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "srnicek2017",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "srnicek2017",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chouldechova2017",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kleinberg2017",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "noble2018",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "noble2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eubanks2018",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eubanks2018",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gillespie2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buolamwinigebru2018",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benkler2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benkler2018",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woolleyhoward2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klonick2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klonick2018",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kleinberg2018",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kleinberg2018",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreiss2016",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zuboff2019",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zuboff2019",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "couldrymejias2019",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benjamin2019",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "russell2019",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obermeyer2019",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurestrepo2020",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freyosborne2017",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anelli2021",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anelli2021",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rahmanthelen2019",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rahmanthelen2019",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guriev2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldstein2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldstein2019",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enikolopov2020",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enikolopov2020",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allcott2020",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradford2020",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradford2020",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bender2021",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bender2021",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2021",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2021",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2018",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2018",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharre2018",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharre2018",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buchanan2016",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradford2023",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradford2023",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilardi2023",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "argyle2023",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guess2023",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guess2023",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beraja2023",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beraja2023",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ding2024",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinertthrelkeld2017",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinertthrelkeld2017",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurer2020",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thewissenrueda2019",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gallegokurer2022",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "youngbullock2019",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bovenszouridis2002",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "khan2017",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "khan2017",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gillespie2010",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "plantin2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helmond2015",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nieborgpoell2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nieborgpoell2018",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gorwa2019",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gorwa2019",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gorwa2020",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gorwa2020",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gillespie2020",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gillespie2020",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myerswest2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandoorn2017",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandoorn2017",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen2018",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "culpepperthelen2020",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "culpepperthelen2020",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zengkaye2022",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crawfordgillespie2016",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "suzor2019",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "suzor2019",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bucher2012",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bucher2012",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bucher2017",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitchin2017",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitchin2017",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beer2017",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beer2009",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anannycrawford2018",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anannycrawford2018",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burrell2016",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yeung2017",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yeung2017",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yeung2018",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yeung2018",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "danaher2016",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "danaher2016",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "binns2018",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "binns2018",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seaver2017",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seaver2017",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christin2017",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christin2017",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gritsenkowood2022",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gritsenkowood2022",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "danaher2017",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "danaher2017",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudin2019",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudin2019",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lepri2018",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lepri2018",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wagner2019",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wagner2019",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zerilli2019",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floridi2018",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jobin2019",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jobin2019",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mittelstadt2019",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mittelstadt2016",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mittelstadt2016",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hagendorff2020",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gabriel2020",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morley2021",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floridi2019",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsamados2022",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsamados2022",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mohamed2020",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mohamed2020",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cavedihal2020",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cavedihal2020",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "santonidesio2021",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "novelli2023",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "novelli2023",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mokanderfloridi2021",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mokanderfloridi2021",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floridi2023",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floridi2023",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hagendorff2024",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vallor2014",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vallor2014",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoffmann2019",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vealebinns2017",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2018",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2018",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "starke2022",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wong2020",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wong2020",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hedden2021",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenblat2017",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenblat2017",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matamoros2017",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matamoros2017",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lyon2014",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sadowski2019",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sadowski2019",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "galic2017",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marwickboyd2014",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obar2020",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obar2020",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taylor2017",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taylor2017",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanzoonen2016",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanzoonen2016",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luptonwilliamson2017",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liang2018",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liang2018",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gunitsky2015",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howardhussain2011",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howardhussain2011",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tucker2017",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tucker2017",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "persily2017",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "persily2017",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhuravskaya2020",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhuravskaya2020",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roberts2021",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roberts2021",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howard2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howard2018",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vaccarichadwick2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fallis2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fallis2020",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gorwaguilbeault2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mena2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mena2020",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vargo2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keller2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keller2020",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altay2023",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "basol2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burnapwilliams2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burnapwilliams2015",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duboisblank2018",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fletchernielsen2018",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moller2018",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moller2018",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gentzkowshapiro2011",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2012",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "engesser2017",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "engesser2017",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ernst2017",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ernst2017",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boulianne2009",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boulianne2015",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "theocharis2015",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrett2006",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanlaer2010",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halupka2014",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierskalla2013",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierskalla2013",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jost2018",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mundt2018",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karpf2010",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karpf2010",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "loadermercea2011",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "loadermercea2011",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jungherr2016",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bimber2014",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enliskogerbo2013",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klingersvensson2015",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klingersvensson2015",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreissmcgregor2018",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreissmcgregor2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibsoncantijoch2013",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibsoncantijoch2013",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chadwick2007",
+   "target": "campaigns",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chadwick2007",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandeursen2014",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandeursen2019",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robinson2015",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hargittaiwalejko2008",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hargittaiwalejko2008",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "min2010",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "min2010",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gran2021",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gran2021",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brynjolfsson2025",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jarrahi2021",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jarrahi2021",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tubaro2020",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandervlist2024",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandervlist2024",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandervlist2024",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mergel2019",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertot2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "linders2012",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sunmedaglia2019",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zuiderwijk2021",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "janssen2020",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "janssen2020",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuziemski2020",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuziemski2020",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ingrams2022",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "araujo2020",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "araujo2020",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bannister2011",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laux2024",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mokander2022",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taeihagh2021",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floridi2018ptech",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floridi2018ptech",
+   "target": "ethics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obarwildman2015",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obarwildman2015",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hansennissenbaum2009",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floridi2020",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floridi2020",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boydcrawford2012",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boydcrawford2012",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitchin2014",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2021",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wilkersoncasas2017",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "atheyimbens2019",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bruns2019",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bruns2019",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freelon2018",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freelon2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gonzalezbailon2013",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

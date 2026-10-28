@@ -1,0 +1,5112 @@
+{
+ "meta": {
+  "title": "Technology and AI politics knowledge network, c. 1980-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates on the politics of technology and artificial intelligence: platform power and governance, algorithmic power and accountability, AI ethics and alignment, algorithmic fairness, surveillance and privacy, digital authoritarianism, misinformation and bots, social media and the public sphere, digital activism, digital campaigns, digital divides, automation and the political economy of AI, digital government, regulating technology, cyber conflict and military AI, tech geopolitics, and computational social science. Seeds come from this repo's papers.json; works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (thirteen technology, communication and AI-ethics journals plus political science and economics journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 269,
+   "theme_nodes": 17,
+   "seed_from_papers_json": 12,
+   "crossref_top_cited": 172,
+   "anchors_supplement": 85,
+   "relation_edges": 275,
+   "membership_edges": 388
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "themes": [
+  {
+   "id": "platforms",
+   "label": "Platform power, platform governance & content moderation",
+   "color": "#4f46e5"
+  },
+  {
+   "id": "algorithms",
+   "label": "Algorithmic power, accountability & transparency",
+   "color": "#2563eb"
+  },
+  {
+   "id": "ethics",
+   "label": "AI ethics, principles & alignment",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "fairness",
+   "label": "Algorithmic fairness, bias & discrimination",
+   "color": "#db2777"
+  },
+  {
+   "id": "surveillance",
+   "label": "Surveillance, datafication & privacy",
+   "color": "#991b1b"
+  },
+  {
+   "id": "authoritarian",
+   "label": "Digital authoritarianism, censorship & propaganda",
+   "color": "#dc2626"
+  },
+  {
+   "id": "misinfo",
+   "label": "Misinformation, bots, deepfakes & computational propaganda",
+   "color": "#c026d3"
+  },
+  {
+   "id": "publicsphere",
+   "label": "Social media, polarization & the public sphere",
+   "color": "#be123c"
+  },
+  {
+   "id": "mobilization",
+   "label": "Digital activism, connective action & participation",
+   "color": "#0d9488"
+  },
+  {
+   "id": "campaigns",
+   "label": "Digital campaigns & political communication",
+   "color": "#0891b2"
+  },
+  {
+   "id": "divide",
+   "label": "Digital divides & inequality",
+   "color": "#78716c"
+  },
+  {
+   "id": "labor",
+   "label": "Automation, work & the political economy of AI",
+   "color": "#b45309"
+  },
+  {
+   "id": "state",
+   "label": "Digital government & AI in the public sector",
+   "color": "#16a34a"
+  },
+  {
+   "id": "regulation",
+   "label": "Regulating technology & AI governance",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "cyber",
+   "label": "Cyber conflict, security & military AI",
+   "color": "#ea580c"
+  },
+  {
+   "id": "geopolitics",
+   "label": "Tech geopolitics, US-China rivalry & digital sovereignty",
+   "color": "#65a30d"
+  },
+  {
+   "id": "methods",
+   "label": "Computational social science, big data & LLMs",
+   "color": "#a855f7"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "platforms",
+   "type": "theme",
+   "label": "Platform power, platform governance & content moderation",
+   "color": "#4f46e5"
+  },
+  {
+   "id": "algorithms",
+   "type": "theme",
+   "label": "Algorithmic power, accountability & transparency",
+   "color": "#2563eb"
+  },
+  {
+   "id": "ethics",
+   "type": "theme",
+   "label": "AI ethics, principles & alignment",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "fairness",
+   "type": "theme",
+   "label": "Algorithmic fairness, bias & discrimination",
+   "color": "#db2777"
+  },
+  {
+   "id": "surveillance",
+   "type": "theme",
+   "label": "Surveillance, datafication & privacy",
+   "color": "#991b1b"
+  },
+  {
+   "id": "authoritarian",
+   "type": "theme",
+   "label": "Digital authoritarianism, censorship & propaganda",
+   "color": "#dc2626"
+  },
+  {
+   "id": "misinfo",
+   "type": "theme",
+   "label": "Misinformation, bots, deepfakes & computational propaganda",
+   "color": "#c026d3"
+  },
+  {
+   "id": "publicsphere",
+   "type": "theme",
+   "label": "Social media, polarization & the public sphere",
+   "color": "#be123c"
+  },
+  {
+   "id": "mobilization",
+   "type": "theme",
+   "label": "Digital activism, connective action & participation",
+   "color": "#0d9488"
+  },
+  {
+   "id": "campaigns",
+   "type": "theme",
+   "label": "Digital campaigns & political communication",
+   "color": "#0891b2"
+  },
+  {
+   "id": "divide",
+   "type": "theme",
+   "label": "Digital divides & inequality",
+   "color": "#78716c"
+  },
+  {
+   "id": "labor",
+   "type": "theme",
+   "label": "Automation, work & the political economy of AI",
+   "color": "#b45309"
+  },
+  {
+   "id": "state",
+   "type": "theme",
+   "label": "Digital government & AI in the public sector",
+   "color": "#16a34a"
+  },
+  {
+   "id": "regulation",
+   "type": "theme",
+   "label": "Regulating technology & AI governance",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "cyber",
+   "type": "theme",
+   "label": "Cyber conflict, security & military AI",
+   "color": "#ea580c"
+  },
+  {
+   "id": "geopolitics",
+   "type": "theme",
+   "label": "Tech geopolitics, US-China rivalry & digital sovereignty",
+   "color": "#65a30d"
+  },
+  {
+   "id": "methods",
+   "type": "theme",
+   "label": "Computational social science, big data & LLMs",
+   "color": "#a855f7"
+  },
+  {
+   "id": "benoit2026",
+   "type": "work",
+   "label": "Benoit 2026",
+   "authors": "Kenneth Benoit, Scott De Marchi, Conor Laver & Michael Laver",
+   "year": 2026,
+   "journal": "AJPS",
+   "title": "Using Large Language Models to Analyze Political Texts Through Natural Language Understanding",
+   "claim": "LLMs can estimate party policy positions from manifestos by reading them for meaning rather than counting words.",
+   "method": "LLM protocols validated against expert surveys",
+   "themes": [
+    "methods"
+   ],
+   "source": "papers.json:CK9RQN2I",
+   "zotero": "https://www.zotero.org/georgeyean/items/CK9RQN2I",
+   "verified": "Crossref: title and author matched (American Journal of Political Science, 2026; DOI 10.1111/ajps.70050)"
+  },
+  {
+   "id": "egami2025",
+   "type": "work",
+   "label": "Egami 2025",
+   "authors": "Naoki Egami et al.",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "Using Large Language Model Annotations for the Social Sciences: A General Framework of Using Predicted Variables in Downstream Analyses",
+   "claim": "Using LLM-predicted variables in downstream analyses biases estimates unless corrected with a small expert-coded sample.",
+   "method": "Design-based supervised learning framework",
+   "themes": [
+    "methods"
+   ],
+   "source": "papers.json:3MQ852Q4",
+   "zotero": "https://www.zotero.org/georgeyean/items/3MQ852Q4",
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "magistro2025",
+   "type": "work",
+   "label": "Magistro 2025",
+   "authors": "Beatrice Magistro, Sophie Borwein, R. Michael Alvarez, Bart Bonikowski & Peter J. Loewen",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "Attitudes toward artificial intelligence (AI) and globalization: Common microfoundations and political implications",
+   "claim": "Attitudes toward AI and toward globalization share microfoundations in perceived economic threat, with similar political implications.",
+   "method": "Cross-national surveys",
+   "themes": [
+    "labor",
+    "publicsphere"
+   ],
+   "source": "papers.json:UKTVJKAS",
+   "zotero": "https://www.zotero.org/georgeyean/items/UKTVJKAS",
+   "verified": "Crossref: title and author matched (Elsevier BV, 2024; DOI 10.2139/ssrn.4795006)"
+  },
+  {
+   "id": "bennettsegerberg2012",
+   "type": "work",
+   "label": "Bennett 2012",
+   "authors": "W. Lance Bennett & Alexandra Segerberg",
+   "year": 2012,
+   "journal": "Information, Communication & Society",
+   "title": "The Logic of Connective Action: Digital Media and the Personalization of Contentious Politics",
+   "claim": "Digitally networked action follows a logic of connective action based on personalized sharing rather than collective identity.",
+   "method": "Theory with case studies",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "papers.json:NNIV77KM",
+   "zotero": "https://www.zotero.org/georgeyean/items/NNIV77KM",
+   "verified": "Crossref: title and author matched (Handbook of Digital Politics, 2015; DOI 10.4337/9781782548768.00020); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "kennedylim2018",
+   "type": "work",
+   "label": "Kennedy 2018",
+   "authors": "Andrew B. Kennedy & Darren J. Lim",
+   "year": 2018,
+   "journal": "International Affairs",
+   "title": "The innovation imperative: technology and US–China rivalry in the twenty-first century",
+   "claim": "The innovation imperative drives U.S.-China technology rivalry through both absolute and relative gains.",
+   "method": "Theoretical analysis",
+   "themes": [
+    "geopolitics"
+   ],
+   "source": "papers.json:C6TB3ZCR",
+   "zotero": "https://www.zotero.org/georgeyean/items/C6TB3ZCR",
+   "verified": "Crossref: title and author matched (International Affairs, 2018; DOI 10.1093/ia/iiy044)"
+  },
+  {
+   "id": "milnerpopulism2021",
+   "type": "work",
+   "label": "Milner 2021",
+   "authors": "Helen V. Milner",
+   "year": 2021,
+   "journal": "Comparative Political Studies",
+   "title": "Voting for Populism in Europe: Globalization, Technological Change, and the Extreme Right",
+   "claim": "Globalization and technological change both raise extreme right voting in Europe.",
+   "method": "Regional panel data",
+   "themes": [
+    "labor",
+    "publicsphere"
+   ],
+   "source": "papers.json:I2C2J9XB",
+   "zotero": "https://www.zotero.org/georgeyean/items/I2C2J9XB",
+   "verified": "Crossref: title and author matched (Comparative Political Studies, 2021; DOI 10.1177/0010414021997175)"
+  },
+  {
+   "id": "chouldechovaroth2020",
+   "type": "work",
+   "label": "Chouldechova 2020",
+   "authors": "Alexandra Chouldechova & Aaron Roth",
+   "year": 2020,
+   "journal": "Communications of the ACM",
+   "title": "A Snapshot of the Frontiers of Fairness in Machine Learning",
+   "claim": "Surveys fairness definitions in machine learning and open problems beyond statistical parity.",
+   "method": "Review",
+   "themes": [
+    "fairness"
+   ],
+   "source": "papers.json:PRQGB7DQ",
+   "zotero": "https://www.zotero.org/georgeyean/items/PRQGB7DQ",
+   "verified": "Crossref: title and author matched (Communications of the ACM, 2020; DOI 10.1145/3376898)"
+  },
+  {
+   "id": "kingpanroberts2013",
+   "type": "work",
+   "label": "King 2013",
+   "authors": "Gary King, Jennifer Pan & Margaret E. Roberts",
+   "year": 2013,
+   "journal": "APSR",
+   "title": "How Censorship in China Allows Government Criticism but Silences Collective Expression",
+   "claim": "Chinese censorship targets collective action potential, not criticism of the state.",
+   "method": "Large-scale collection of posts before censorship",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "papers.json:KXNQ3GAM",
+   "zotero": "https://www.zotero.org/georgeyean/items/KXNQ3GAM",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "king2017",
+   "type": "work",
+   "label": "King 2017",
+   "authors": "Gary King, Jennifer Pan & Margaret E. Roberts",
+   "year": 2017,
+   "journal": "APSR",
+   "title": "How the Chinese Government Fabricates Social Media Posts for Strategic Distraction, Not Engaged Argument",
+   "claim": "The Chinese government fabricates hundreds of millions of social media posts to distract, not to argue.",
+   "method": "Leaked archives and experiments",
+   "themes": [
+    "authoritarian",
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055417000144); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055417000144"
+  },
+  {
+   "id": "roberts2018",
+   "type": "work",
+   "label": "Roberts 2018",
+   "authors": "Margaret E. Roberts",
+   "year": 2018,
+   "journal": "Princeton University Press (book)",
+   "title": "Censored: Distraction and Diversion Inside China's Great Firewall",
+   "claim": "Porous censorship works through friction and flooding: small costs divert most citizens without blocking determined ones.",
+   "method": "Experiments and observational data",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Princeton University Press, 2018; DOI 10.23943/9781400890057)",
+   "crossref_doi": "10.23943/9781400890057"
+  },
+  {
+   "id": "lorentzen2014",
+   "type": "work",
+   "label": "Lorentzen 2013",
+   "authors": "Peter Lorentzen",
+   "year": 2013,
+   "journal": "AJPS",
+   "title": "China's Strategic Censorship",
+   "claim": "China strategically allows some watchdog reporting and protest to gather information about local officials.",
+   "method": "Formal model",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12065); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/ajps.12065"
+  },
+  {
+   "id": "mackinnon2011",
+   "type": "work",
+   "label": "MacKinnon 2011",
+   "authors": "Rebecca MacKinnon",
+   "year": 2011,
+   "journal": "Journal of Democracy",
+   "title": "Liberation Technology: China's \"Networked Authoritarianism\"",
+   "claim": "Networked authoritarianism: the regime permits online discussion while controlling it to strengthen its rule.",
+   "method": "Essay",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/jod.2011.0033); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/jod.2011.0033"
+  },
+  {
+   "id": "creemers2016",
+   "type": "work",
+   "label": "Creemers 2016",
+   "authors": "Rogier Creemers",
+   "year": 2016,
+   "journal": "Journal of Contemporary China",
+   "title": "Cyber China: Upgrading Propaganda, Public Opinion Work and Social Management for the Twenty-First Century",
+   "claim": "Xi-era propaganda and social management were upgraded with digital tools and public opinion work.",
+   "method": "Policy document analysis",
+   "themes": [
+    "authoritarian",
+    "surveillance"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10670564.2016.1206281); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10670564.2016.1206281"
+  },
+  {
+   "id": "leibold2019",
+   "type": "work",
+   "label": "Leibold 2019",
+   "authors": "James Leibold",
+   "year": 2019,
+   "journal": "Journal of Contemporary China",
+   "title": "Surveillance in China’s Xinjiang Region: Ethnic Sorting, Coercion, and Inducement",
+   "claim": "Xinjiang surveillance sorts ethnic populations, combining coercion with inducement.",
+   "method": "Policy and field data",
+   "themes": [
+    "surveillance",
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10670564.2019.1621529); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10670564.2019.1621529"
+  },
+  {
+   "id": "han2015",
+   "type": "work",
+   "label": "Han 2015",
+   "authors": "Rongbin Han",
+   "year": 2015,
+   "journal": "The China Quarterly",
+   "title": "Defending the Authoritarian Regime Online: China's “Voluntary Fifty-cent Army”",
+   "claim": "Voluntary \"fifty-cent army\" defenders of the regime online coexist with paid commentators.",
+   "method": "Online ethnography",
+   "themes": [
+    "authoritarian",
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0305741015001216); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0305741015001216"
+  },
+  {
+   "id": "dragulupu2021",
+   "type": "work",
+   "label": "Dragu 2021",
+   "authors": "Tiberiu Dragu & Yonatan Lupu",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Digital Authoritarianism and the Future of Human Rights",
+   "claim": "Digital technologies let autocrats repress preemptively, threatening the human rights regime.",
+   "method": "Formal model",
+   "themes": [
+    "authoritarian",
+    "surveillance"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818320000624); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818320000624"
+  },
+  {
+   "id": "diamond2010",
+   "type": "work",
+   "label": "Diamond 2010",
+   "authors": "Larry Diamond",
+   "year": 2010,
+   "journal": "Journal of Democracy",
+   "title": "Liberation Technology",
+   "claim": "Digital technology can empower citizens against autocrats, though regimes also adapt it for control.",
+   "method": "Essay",
+   "themes": [
+    "mobilization",
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/jod.0.0190); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/jod.0.0190"
+  },
+  {
+   "id": "sunstein2001",
+   "type": "work",
+   "label": "Sunstein 2001",
+   "authors": "Cass R. Sunstein",
+   "year": 2001,
+   "journal": "Princeton University Press (book)",
+   "title": "Republic.com",
+   "claim": "Personalized media could create echo chambers that push like-minded groups to extremes.",
+   "method": "Essay",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Not found in Crossref (its 2017 sequel #Republic is, DOI 10.1515/9781400884711); metadata from memory"
+  },
+  {
+   "id": "prior2007",
+   "type": "work",
+   "label": "Prior 2007",
+   "authors": "Markus Prior",
+   "year": 2007,
+   "journal": "Cambridge University Press (book)",
+   "title": "Post-Broadcast Democracy: How Media Choice Increases Inequality in Political Involvement and Polarizes Elections",
+   "claim": "Cable and the internet let entertainment fans opt out of news, widening knowledge gaps and polarizing the electorate.",
+   "method": "Panel data and experiments",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (title match; top hit was a review of it)"
+  },
+  {
+   "id": "flaxman2016",
+   "type": "work",
+   "label": "Flaxman 2016",
+   "authors": "Seth Flaxman, Sharad Goel & Justin M. Rao",
+   "year": 2016,
+   "journal": "Public Opinion Quarterly",
+   "title": "Filter Bubbles, Echo Chambers, and Online News Consumption",
+   "claim": "Social media and search raise ideological distance in news diets but also exposure to the other side.",
+   "method": "Browsing data of 50,000 users",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/poq/nfw006); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/poq/nfw006"
+  },
+  {
+   "id": "bakshy2015",
+   "type": "work",
+   "label": "Bakshy 2015",
+   "authors": "Eytan Bakshy, Solomon Messing & Lada A. Adamic",
+   "year": 2015,
+   "journal": "Science",
+   "title": "Exposure to Ideologically Diverse News and Opinion on Facebook",
+   "claim": "Individual choices limit exposure to cross-cutting news on Facebook more than the ranking algorithm does.",
+   "method": "Data on 10 million users",
+   "themes": [
+    "publicsphere",
+    "platforms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Science, 2015; DOI 10.1126/science.aaa1160)",
+   "crossref_doi": "10.1126/science.aaa1160"
+  },
+  {
+   "id": "bail2018",
+   "type": "work",
+   "label": "Bail 2018",
+   "authors": "Christopher A. Bail et al.",
+   "year": 2018,
+   "journal": "PNAS",
+   "title": "Exposure to Opposing Views on Social Media Can Increase Political Polarization",
+   "claim": "Following a bot that retweeted the other side made Republicans more conservative.",
+   "method": "Field experiment on Twitter",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Proceedings of the National Academy of Sciences, 2018; DOI 10.1073/pnas.1804840115)",
+   "crossref_doi": "10.1073/pnas.1804840115"
+  },
+  {
+   "id": "boutylinewiller2017",
+   "type": "work",
+   "label": "Boutyline 2016",
+   "authors": "Andrei Boutyline & Robb Willer",
+   "year": 2016,
+   "journal": "Political Psychology",
+   "title": "The Social Structure of Political Echo Chambers: Variation in Ideological Homophily in Online Networks",
+   "claim": "Conservatives and extremists show more ideological homophily in online networks.",
+   "method": "Twitter network data",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/pops.12337); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/pops.12337"
+  },
+  {
+   "id": "lelkes2017",
+   "type": "work",
+   "label": "Lelkes 2015",
+   "authors": "Yphtach Lelkes, Gaurav Sood & Shanto Iyengar",
+   "year": 2015,
+   "journal": "AJPS",
+   "title": "The Hostile Audience: The Effect of Access to Broadband Internet on Partisan Affect",
+   "claim": "Broadband internet access increased affective polarization.",
+   "method": "State right-of-way laws as instrument",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12237); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/ajps.12237"
+  },
+  {
+   "id": "guess2021",
+   "type": "work",
+   "label": "Guess 2021",
+   "authors": "Andrew M. Guess",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "(Almost) Everything in Moderation: New Evidence on Americans' Online Media Diets",
+   "claim": "Most Americans have moderate online news diets; echo chambers are confined to a small group.",
+   "method": "Web tracking data",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12589); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/ajps.12589"
+  },
+  {
+   "id": "allcottgentzkow2017",
+   "type": "work",
+   "label": "Allcott 2017",
+   "authors": "Hunt Allcott & Matthew Gentzkow",
+   "year": 2017,
+   "journal": "Journal of Economic Perspectives",
+   "title": "Social Media and Fake News in the 2016 Election",
+   "claim": "Fake news was widely shared in 2016, but the average voter saw and remembered few stories.",
+   "method": "Browsing data and survey",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2017; DOI 10.3386/w23089)"
+  },
+  {
+   "id": "vosoughi2018",
+   "type": "work",
+   "label": "Vosoughi 2018",
+   "authors": "Soroush Vosoughi, Deb Roy & Sinan Aral",
+   "year": 2018,
+   "journal": "Science",
+   "title": "The Spread of True and False News Online",
+   "claim": "False news spreads farther and faster than true news on Twitter, driven by people rather than bots.",
+   "method": "Rumor cascades on Twitter",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Science, 2018; DOI 10.1126/science.aap9559)",
+   "crossref_doi": "10.1126/science.aap9559"
+  },
+  {
+   "id": "guess2019",
+   "type": "work",
+   "label": "Guess 2019",
+   "authors": "Andrew Guess, Jonathan Nagler & Joshua Tucker",
+   "year": 2019,
+   "journal": "Science Advances",
+   "title": "Less Than You Think: Prevalence and Predictors of Fake News Dissemination on Facebook",
+   "claim": "Sharing fake news was rare and concentrated among older, conservative users.",
+   "method": "Survey linked to Facebook data",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Science Advances, 2019; DOI 10.1126/sciadv.aau4586)",
+   "crossref_doi": "10.1126/sciadv.aau4586"
+  },
+  {
+   "id": "pennycookrand2019",
+   "type": "work",
+   "label": "Pennycook 2019",
+   "authors": "Gordon Pennycook & David G. Rand",
+   "year": 2019,
+   "journal": "Cognition",
+   "title": "Lazy, Not Biased: Susceptibility to Partisan Fake News Is Better Explained by Lack of Reasoning Than by Motivated Reasoning",
+   "claim": "Belief in fake news reflects a lack of analytic thinking more than partisan motivation.",
+   "method": "Survey experiments",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Elsevier BV, 2020; DOI 10.2139/ssrn.3165567)"
+  },
+  {
+   "id": "osmundsen2021",
+   "type": "work",
+   "label": "Osmundsen 2021",
+   "authors": "Mathias Osmundsen, Alexander Bor, Peter Bjerregaard Vahlstrup et al.",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Partisan Polarization Is the Primary Psychological Motivation behind Political Fake News Sharing on Twitter",
+   "claim": "Partisan hostility, not ignorance, motivates sharing fake news on Twitter.",
+   "method": "Twitter panel linked to surveys",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421000290); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055421000290"
+  },
+  {
+   "id": "stier2018",
+   "type": "work",
+   "label": "Stier 2018",
+   "authors": "Sebastian Stier, Arnim Bleier, Haiko Lietz & Markus Strohmaier",
+   "year": 2018,
+   "journal": "Political Communication",
+   "title": "Election Campaigning on Social Media: Politicians, Audiences, and the Mediation of Political Communication on Facebook and Twitter",
+   "claim": "Politicians use Facebook and Twitter differently for campaigning, reaching different audiences.",
+   "method": "Social media data",
+   "themes": [
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10584609.2017.1334728); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10584609.2017.1334728"
+  },
+  {
+   "id": "fowler2021",
+   "type": "work",
+   "label": "Fowler 2020",
+   "authors": "Erika Franklin Fowler, Michael M. Franz, Gregory J. Martin et al.",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "Political Advertising Online and Offline",
+   "claim": "Online political ads are used by different candidates, more cheaply and with different content than TV ads.",
+   "method": "Ad data",
+   "themes": [
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055420000696); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055420000696"
+  },
+  {
+   "id": "kim2018",
+   "type": "work",
+   "label": "Kim 2018",
+   "authors": "Young Mie Kim, Jordan Hsu, David Neiman et al.",
+   "year": 2018,
+   "journal": "Political Communication",
+   "title": "The Stealth Media? Groups and Targets behind Divisive Issue Campaigns on Facebook",
+   "claim": "Anonymous groups ran divisive, targeted issue ads on Facebook in 2016.",
+   "method": "Ad tracking data",
+   "themes": [
+    "campaigns",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10584609.2018.1476425); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10584609.2018.1476425"
+  },
+  {
+   "id": "barbera2019",
+   "type": "work",
+   "label": "Barberá 2019",
+   "authors": "Pablo Barberá et al.",
+   "year": 2019,
+   "journal": "APSR",
+   "title": "Who Leads? Who Follows? Measuring Issue Attention and Agenda Setting by Legislators and the Mass Public Using Social Media Data",
+   "claim": "Legislators follow rather than lead issue attention of their party supporters on Twitter.",
+   "method": "Tweets of Congress members and publics",
+   "themes": [
+    "campaigns",
+    "methods"
+   ],
+   "source": "papers.json:RJ28PJXQ",
+   "zotero": "https://www.zotero.org/georgeyean/items/RJ28PJXQ",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "schlozman2010",
+   "type": "work",
+   "label": "Schlozman 2010",
+   "authors": "Kay Lehman Schlozman, Sidney Verba & Henry E. Brady",
+   "year": 2010,
+   "journal": "Perspectives on Politics",
+   "title": "Weapon of the Strong? Participatory Inequality and the Internet",
+   "claim": "Online participation reproduces the class stratification of offline participation.",
+   "method": "Survey",
+   "themes": [
+    "divide",
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592710001210); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s1537592710001210"
+  },
+  {
+   "id": "rid2012",
+   "type": "work",
+   "label": "Rid 2012",
+   "authors": "Thomas Rid",
+   "year": 2012,
+   "journal": "Journal of Strategic Studies",
+   "title": "Cyber War Will Not Take Place",
+   "claim": "Cyber attacks are sabotage, espionage or subversion, not war, because they lack violence.",
+   "method": "Conceptual analysis",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/01402390.2011.608939); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/01402390.2011.608939"
+  },
+  {
+   "id": "gartzke2013",
+   "type": "work",
+   "label": "Gartzke 2013",
+   "authors": "Erik Gartzke",
+   "year": 2013,
+   "journal": "International Security",
+   "title": "The Myth of Cyberwar: Bringing War in Cyberspace Back Down to Earth",
+   "claim": "Cyberwar cannot substitute for force because it cannot change the balance of power or hold territory.",
+   "method": "Theoretical analysis",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00136); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec_a_00136"
+  },
+  {
+   "id": "lindsay2013",
+   "type": "work",
+   "label": "Lindsay 2013",
+   "authors": "Jon R. Lindsay",
+   "year": 2013,
+   "journal": "Security Studies",
+   "title": "Stuxnet and the Limits of Cyber Warfare",
+   "claim": "Stuxnet shows cyber weapons require great expense and intelligence and favor strong states.",
+   "method": "Case study",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09636412.2013.816122); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09636412.2013.816122"
+  },
+  {
+   "id": "kello2013",
+   "type": "work",
+   "label": "Kello 2013",
+   "authors": "Lucas Kello",
+   "year": 2013,
+   "journal": "International Security",
+   "title": "The Meaning of the Cyber Revolution: Perils to Theory and Statecraft",
+   "claim": "Cyber technology is revolutionary for statecraft because it blurs peace and war and empowers non-state actors.",
+   "method": "Theoretical essay",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00138); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec_a_00138"
+  },
+  {
+   "id": "ridbuchanan2015",
+   "type": "work",
+   "label": "Rid 2014",
+   "authors": "Thomas Rid & Ben Buchanan",
+   "year": 2014,
+   "journal": "Journal of Strategic Studies",
+   "title": "Attributing Cyber Attacks",
+   "claim": "Attribution of cyber attacks is a political and organizational process, not just a technical one.",
+   "method": "Conceptual model with cases",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/01402390.2014.977382); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/01402390.2014.977382"
+  },
+  {
+   "id": "gartzkelindsay2015",
+   "type": "work",
+   "label": "Gartzke 2015",
+   "authors": "Erik Gartzke & Jon R. Lindsay",
+   "year": 2015,
+   "journal": "Security Studies",
+   "title": "Weaving Tangled Webs: Offense, Defense, and Deception in Cyberspace",
+   "claim": "Deception is central to cyber offense and defense, which complicates the offense-defense balance.",
+   "method": "Theoretical analysis",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09636412.2015.1038188); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09636412.2015.1038188"
+  },
+  {
+   "id": "nye2017",
+   "type": "work",
+   "label": "Nye 2017",
+   "authors": "Joseph S. Nye",
+   "year": 2017,
+   "journal": "International Security",
+   "title": "Deterrence and Dissuasion in Cyberspace",
+   "claim": "Cyber deterrence works through punishment, denial, entanglement and norms together.",
+   "method": "Conceptual analysis",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00266); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec_a_00266"
+  },
+  {
+   "id": "borghard2017",
+   "type": "work",
+   "label": "Borghard 2017",
+   "authors": "Erica D. Borghard & Shawn W. Lonergan",
+   "year": 2017,
+   "journal": "Security Studies",
+   "title": "The Logic of Coercion in Cyberspace",
+   "claim": "Cyber coercion is hard because threats require revealing capabilities that then lose value.",
+   "method": "Theoretical analysis",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09636412.2017.1306396); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09636412.2017.1306396"
+  },
+  {
+   "id": "slayton2017",
+   "type": "work",
+   "label": "Slayton 2017",
+   "authors": "Rebecca Slayton",
+   "year": 2017,
+   "journal": "International Security",
+   "title": "What Is the Cyber Offense-Defense Balance? Conceptions, Causes, and Assessment",
+   "claim": "The cyber offense-defense balance depends on organizational skill and cost, not inherent offense dominance.",
+   "method": "Case-based cost analysis",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00267); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec_a_00267"
+  },
+  {
+   "id": "kostyukzhukov2019",
+   "type": "work",
+   "label": "Kostyuk 2017",
+   "authors": "Nadiya Kostyuk & Yuri M. Zhukov",
+   "year": 2017,
+   "journal": "Journal of Conflict Resolution",
+   "title": "Invisible Digital Front: Can Cyber Attacks Shape Battlefield Events?",
+   "claim": "Cyber attacks in Ukraine had little effect on battlefield events.",
+   "method": "Event data from the Ukraine conflict",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022002717737138); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/0022002717737138"
+  },
+  {
+   "id": "goldfarb2022",
+   "type": "work",
+   "label": "Goldfarb 2022",
+   "authors": "Avi Goldfarb & Jon R. Lindsay",
+   "year": 2022,
+   "journal": "International Security",
+   "title": "Prediction and Judgment: Why Artificial Intelligence Increases the Importance of Humans in War",
+   "claim": "AI lowers the cost of prediction but raises the value of human judgment, so it makes humans more, not less, important in war.",
+   "method": "Economics-of-AI framework",
+   "themes": [
+    "cyber",
+    "geopolitics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00425); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec_a_00425"
+  },
+  {
+   "id": "gilli2019",
+   "type": "work",
+   "label": "Gilli 2019",
+   "authors": "Andrea Gilli & Mauro Gilli",
+   "year": 2019,
+   "journal": "International Security",
+   "title": "Why China Has Not Caught Up Yet: Military-Technological Superiority and the Limits of Imitation, Reverse Engineering, and Cyber Espionage",
+   "claim": "Weapon-system complexity makes military technology hard to imitate, so espionage and globalization do not let China catch up quickly.",
+   "method": "Comparison of Dreadnought and F-22 imitation",
+   "themes": [
+    "geopolitics"
+   ],
+   "source": "papers.json:97KW5UGV",
+   "zotero": "https://www.zotero.org/georgeyean/items/97KW5UGV",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "farrell2019",
+   "type": "work",
+   "label": "Farrell 2019",
+   "authors": "Henry Farrell & Abraham L. Newman",
+   "year": 2019,
+   "journal": "International Security",
+   "title": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion",
+   "claim": "Global networks form asymmetric hubs; states with jurisdiction over hubs and suitable institutions weaponize them through panopticon (information) and chokepoint (denial) effects. Topology, not bilateral dependence, confers coercive power.",
+   "method": "Analytic narratives of SWIFT and internet communications",
+   "themes": [
+    "geopolitics"
+   ],
+   "source": "papers.json:855MI2G8",
+   "zotero": "https://www.zotero.org/georgeyean/items/855MI2G8",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "stanley2015",
+   "type": "work",
+   "label": "Stanley 2015",
+   "authors": "Jason Stanley",
+   "year": 2015,
+   "journal": "Princeton University Press (book)",
+   "title": "How Propaganda Works",
+   "claim": "Propaganda undermines democratic ideals by exploiting flawed ideologies that block knowledge.",
+   "method": "Philosophy of language and politics",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "papers.json:P3PLWT3M",
+   "zotero": "https://www.zotero.org/georgeyean/items/P3PLWT3M",
+   "verified": "Crossref: title and author matched (Princeton University Press, 2015; DOI 10.1515/9781400865802)"
+  },
+  {
+   "id": "muldoonraekstad2023",
+   "type": "work",
+   "label": "Muldoon 2022",
+   "authors": "James Muldoon & Paul Raekstad",
+   "year": 2022,
+   "journal": "European Journal of Political Theory",
+   "title": "Algorithmic domination in the gig economy",
+   "claim": "Algorithmic management dominates gig workers.",
+   "method": "Republican theory",
+   "themes": [
+    "labor",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/14748851221082078); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/14748851221082078"
+  },
+  {
+   "id": "winner1980",
+   "type": "work",
+   "label": "Winner 1980",
+   "authors": "Langdon Winner",
+   "year": 1980,
+   "journal": "Daedalus",
+   "title": "Do Artifacts Have Politics?",
+   "claim": "Technologies embody forms of power and authority by design and by inherent properties.",
+   "method": "Essay",
+   "themes": [
+    "algorithms",
+    "regulation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Computer Ethics, 2017; DOI 10.4324/9781315259697-21); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "lessig1999",
+   "type": "work",
+   "label": "Lessig 1999",
+   "authors": "Lawrence Lessig",
+   "year": 1999,
+   "journal": "Basic Books (book)",
+   "title": "Code and Other Laws of Cyberspace",
+   "claim": "Code is law: software architecture regulates behavior alongside law, norms and markets.",
+   "method": "Legal theory",
+   "themes": [
+    "regulation",
+    "platforms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "norris2001",
+   "type": "work",
+   "label": "Norris 2001",
+   "authors": "Pippa Norris",
+   "year": 2001,
+   "journal": "Cambridge University Press (book)",
+   "title": "Digital Divide: Civic Engagement, Information Poverty, and the Internet Worldwide",
+   "claim": "The internet reproduces global, social and democratic divides.",
+   "method": "Cross-national analysis",
+   "themes": [
+    "divide"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Labour / Le Travail, 2003; DOI 10.2307/25149431); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "hargittai2002",
+   "type": "work",
+   "label": "Hargittai 2002",
+   "authors": "Eszter Hargittai",
+   "year": 2002,
+   "journal": "First Monday",
+   "title": "Second-Level Digital Divide: Differences in People’s Online Skills",
+   "claim": "Beyond access, differences in online skills form a second-level digital divide.",
+   "method": "Skills study",
+   "themes": [
+    "divide"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (First Monday, 2002; DOI 10.5210/fm.v7i4.942)",
+   "crossref_doi": "10.5210/fm.v7i4.942"
+  },
+  {
+   "id": "papacharissi2002",
+   "type": "work",
+   "label": "Papacharissi 2002",
+   "authors": "Zizi Papacharissi",
+   "year": 2002,
+   "journal": "New Media & Society",
+   "title": "The Virtual Sphere: The Internet as a Public Sphere",
+   "claim": "The internet offers a virtual sphere but does not by itself create a public sphere.",
+   "method": "Conceptual analysis",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Praktiken der Überwachten, 2018; DOI 10.1007/978-3-658-11719-1_3); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "vandijk2005",
+   "type": "work",
+   "label": "Dijk 2005",
+   "authors": "Jan A. G. M. van Dijk",
+   "year": 2005,
+   "journal": "Sage (book)",
+   "title": "The Deepening Divide: Inequality in the Information Society",
+   "claim": "Digital divides deepen as motivation, skills and usage gaps follow access gaps.",
+   "method": "Theory",
+   "themes": [
+    "divide"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (SAGE Publications, Inc., 2005; DOI 10.4135/9781452229812)"
+  },
+  {
+   "id": "benkler2006",
+   "type": "work",
+   "label": "Benkler 2006",
+   "authors": "Yochai Benkler",
+   "year": 2006,
+   "journal": "Yale University Press (book)",
+   "title": "The Wealth of Networks: How Social Production Transforms Markets and Freedom",
+   "claim": "Commons-based peer production expands autonomy and a networked public sphere.",
+   "method": "Political economy of information",
+   "themes": [
+    "platforms",
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (The Yale Law Journal, 2007; DOI 10.2307/20455766)",
+   "crossref_doi": "10.2307/20455766"
+  },
+  {
+   "id": "habermas2006",
+   "type": "work",
+   "label": "Habermas 2006",
+   "authors": "Jürgen Habermas",
+   "year": 2006,
+   "journal": "Communication Theory",
+   "title": "Political Communication in Media Society: Does Democracy Still Enjoy an Epistemic Dimension?",
+   "claim": "Mediated political communication can still serve deliberative democracy under conditions of a self-regulating media system.",
+   "method": "Theory",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Models of Deliberative Democracy, 2026; DOI 10.4324/9781003763987-5); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "solove2006",
+   "type": "work",
+   "label": "Solove 2006",
+   "authors": "Daniel J. Solove",
+   "year": 2006,
+   "journal": "University of Pennsylvania Law Review",
+   "title": "A Taxonomy of Privacy",
+   "claim": "Privacy harms are plural: information collection, processing, dissemination and invasion.",
+   "method": "Legal theory",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (University of Pennsylvania Law Review, 2006; DOI 10.2307/40041279)",
+   "crossref_doi": "10.2307/40041279"
+  },
+  {
+   "id": "dunleavy2006",
+   "type": "work",
+   "label": "Dunleavy 2006",
+   "authors": "Patrick Dunleavy, Helen Margetts, Simon Bastow & Jane Tinkler",
+   "year": 2006,
+   "journal": "Journal of Public Administration Research and Theory",
+   "title": "New Public Management Is Dead—Long Live Digital-Era Governance",
+   "claim": "Digital-era governance reintegrates services and replaces new public management.",
+   "method": "Public administration theory",
+   "themes": [
+    "state"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Journal of Public Administration Research and Theory, 2005; DOI 10.1093/jopart/mui057)",
+   "crossref_doi": "10.1093/jopart/mui057"
+  },
+  {
+   "id": "lazer2009",
+   "type": "work",
+   "label": "Lazer 2009",
+   "authors": "David Lazer et al.",
+   "year": 2009,
+   "journal": "Science",
+   "title": "Computational Social Science",
+   "claim": "Digital traces enable a computational social science with new opportunities and privacy risks.",
+   "method": "Perspective",
+   "themes": [
+    "methods"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "castells2009",
+   "type": "work",
+   "label": "Castells 2009",
+   "authors": "Manuel Castells",
+   "year": 2009,
+   "journal": "Oxford University Press (book)",
+   "title": "Communication Power",
+   "claim": "Power in the network society is exercised through communication networks; mass self-communication enables counterpower.",
+   "method": "Social theory",
+   "themes": [
+    "publicsphere",
+    "mobilization"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "nissenbaum2010",
+   "type": "work",
+   "label": "Nissenbaum 2010",
+   "authors": "Helen Nissenbaum",
+   "year": 2010,
+   "journal": "Stanford University Press (book)",
+   "title": "Privacy in Context: Technology, Policy, and the Integrity of Social Life",
+   "claim": "Privacy is contextual integrity: information flows must match context-specific norms.",
+   "method": "Philosophy of privacy",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "morozov2011",
+   "type": "work",
+   "label": "Morozov 2011",
+   "authors": "Evgeny Morozov",
+   "year": 2011,
+   "journal": "PublicAffairs (book)",
+   "title": "The Net Delusion: The Dark Side of Internet Freedom",
+   "claim": "Cyber-utopianism ignores how authoritarian regimes use the internet for control.",
+   "method": "Critical analysis",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "shirky2011",
+   "type": "work",
+   "label": "Shirky 2011",
+   "authors": "Clay Shirky",
+   "year": 2011,
+   "journal": "Foreign Affairs",
+   "title": "The Political Power of Social Media",
+   "claim": "Social media strengthen civil society over the long run by improving coordination.",
+   "method": "Essay",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "earlkimport2011",
+   "type": "work",
+   "label": "Earl 2011",
+   "authors": "Jennifer Earl & Katrina Kimport",
+   "year": 2011,
+   "journal": "MIT Press (book)",
+   "title": "Digitally Enabled Social Change: Activism in the Internet Age",
+   "claim": "Online activism lowers costs and changes the need for copresence.",
+   "method": "Empirical study",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (The MIT Press, 2011; DOI 10.7551/mitpress/9780262015103.001.0001)"
+  },
+  {
+   "id": "pariser2011",
+   "type": "work",
+   "label": "Pariser 2011",
+   "authors": "Eli Pariser",
+   "year": 2011,
+   "journal": "Penguin Press (book)",
+   "title": "The Filter Bubble: What the Internet Is Hiding from You",
+   "claim": "Personalization algorithms create filter bubbles that limit exposure to diverse views.",
+   "method": "Essay",
+   "themes": [
+    "publicsphere",
+    "algorithms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "dwork2012",
+   "type": "work",
+   "label": "Dwork 2012",
+   "authors": "Cynthia Dwork et al.",
+   "year": 2012,
+   "journal": "Proceedings of ITCS",
+   "title": "Fairness through Awareness",
+   "claim": "Individual fairness: similar individuals should be treated similarly by a task-specific metric.",
+   "method": "Theoretical computer science",
+   "themes": [
+    "fairness"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Proceedings of the 3rd Innovations in Theoretical Computer Science Conference, 2012; DOI 10.1145/2090236.2090255)"
+  },
+  {
+   "id": "gildezuniga2012",
+   "type": "work",
+   "label": "Zúñiga 2012",
+   "authors": "Homero Gil de Zúñiga, Nakwon Jung & Sebastián Valenzuela",
+   "year": 2012,
+   "journal": "Journal of Computer-Mediated Communication",
+   "title": "Social Media Use for News and Individuals' Social Capital, Civic Engagement and Political Participation",
+   "claim": "Using social media for news predicts social capital and participation.",
+   "method": "Survey",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Journal of Computer-Mediated Communication, 2012; DOI 10.1111/j.1083-6101.2012.01574.x)",
+   "crossref_doi": "10.1111/j.1083-6101.2012.01574.x"
+  },
+  {
+   "id": "tufekciwilson2012",
+   "type": "work",
+   "label": "Tufekci 2012",
+   "authors": "Zeynep Tufekci & Christopher Wilson",
+   "year": 2012,
+   "journal": "Journal of Communication",
+   "title": "Social Media and the Decision to Participate in Political Protest: Observations from Tahrir Square",
+   "claim": "Social media use increased the odds of joining the Tahrir protests on the first day.",
+   "method": "Protester survey",
+   "themes": [
+    "mobilization",
+    "authoritarian"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Journal of Communication, 2012; DOI 10.1111/j.1460-2466.2012.01629.x)",
+   "crossref_doi": "10.1111/j.1460-2466.2012.01629.x"
+  },
+  {
+   "id": "grimmerstewart2013",
+   "type": "work",
+   "label": "Grimmer 2013",
+   "authors": "Justin Grimmer & Brandon M. Stewart",
+   "year": 2013,
+   "journal": "Political Analysis",
+   "title": "Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts",
+   "claim": "Automated text methods amplify but do not replace careful human reading and validation.",
+   "method": "Methods review",
+   "themes": [
+    "methods"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Political Analysis, 2013; DOI 10.1093/pan/mps028)",
+   "crossref_doi": "10.1093/pan/mps028"
+  },
+  {
+   "id": "chadwick2013",
+   "type": "work",
+   "label": "Chadwick 2013",
+   "authors": "Andrew Chadwick",
+   "year": 2013,
+   "journal": "Oxford University Press (book)",
+   "title": "The Hybrid Media System: Politics and Power",
+   "claim": "Older and newer media logics interact in a hybrid media system.",
+   "method": "Theory and case studies",
+   "themes": [
+    "campaigns",
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Oxford University Press, 2013; DOI 10.1093/acprof:oso/9780199759477.001.0001)"
+  },
+  {
+   "id": "brynjolfssonmcafee2014",
+   "type": "work",
+   "label": "Brynjolfsson 2014",
+   "authors": "Erik Brynjolfsson & Andrew McAfee",
+   "year": 2014,
+   "journal": "W. W. Norton (book)",
+   "title": "The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies",
+   "claim": "Digital technologies bring great bounty and growing spread in incomes.",
+   "method": "Economic analysis",
+   "themes": [
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "bostrom2014",
+   "type": "work",
+   "label": "Bostrom 2014",
+   "authors": "Nick Bostrom",
+   "year": 2014,
+   "journal": "Oxford University Press (book)",
+   "title": "Superintelligence: Paths, Dangers, Strategies",
+   "claim": "A superintelligent AI could pose existential risk unless its goals are controlled.",
+   "method": "Philosophy",
+   "themes": [
+    "ethics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "vandijck2014",
+   "type": "work",
+   "label": "Dijck 2014",
+   "authors": "José van Dijck",
+   "year": 2014,
+   "journal": "Surveillance & Society",
+   "title": "Datafication, Dataism and Dataveillance: Big Data between Scientific Paradigm and Ideology",
+   "claim": "Datafication rests on an ideology of dataism that normalizes dataveillance.",
+   "method": "Critical analysis",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Surveillance &amp; Society, 2014; DOI 10.24908/ss.v12i2.4776)",
+   "crossref_doi": "10.24908/ss.v12i2.4776"
+  },
+  {
+   "id": "pasquale2015",
+   "type": "work",
+   "label": "Pasquale 2015",
+   "authors": "Frank Pasquale",
+   "year": 2015,
+   "journal": "Harvard University Press (book)",
+   "title": "The Black Box Society: The Secret Algorithms That Control Money and Information",
+   "claim": "Secret algorithms in finance and search escape accountability.",
+   "method": "Legal analysis",
+   "themes": [
+    "algorithms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Harvard University Press, 2015; DOI 10.4159/harvard.9780674736061)"
+  },
+  {
+   "id": "acquisti2015",
+   "type": "work",
+   "label": "Acquisti 2015",
+   "authors": "Alessandro Acquisti, Laura Brandimarte & George Loewenstein",
+   "year": 2015,
+   "journal": "Science",
+   "title": "Privacy and Human Behavior in the Age of Information",
+   "claim": "People's privacy choices are uncertain, context-dependent and malleable.",
+   "method": "Review",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Science, 2015; DOI 10.1126/science.aaa1465)",
+   "crossref_doi": "10.1126/science.aaa1465"
+  },
+  {
+   "id": "autor2015",
+   "type": "work",
+   "label": "Autor 2015",
+   "authors": "David H. Autor",
+   "year": 2015,
+   "journal": "Journal of Economic Perspectives",
+   "title": "Why Are There Still So Many Jobs? The History and Future of Workplace Automation",
+   "claim": "Automation complements as well as substitutes labor, polarizing employment.",
+   "method": "Review",
+   "themes": [
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Journal of Economic Perspectives, 2015; DOI 10.1257/jep.29.3.3)",
+   "crossref_doi": "10.1257/jep.29.3.3"
+  },
+  {
+   "id": "diakopoulos2015",
+   "type": "work",
+   "label": "Diakopoulos 2015",
+   "authors": "Nicholas Diakopoulos",
+   "year": 2015,
+   "journal": "Digital Journalism",
+   "title": "Algorithmic Accountability: Journalistic Investigation of Computational Power Structures",
+   "claim": "Journalists can investigate algorithms through reverse engineering.",
+   "method": "Analysis",
+   "themes": [
+    "algorithms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Digital Journalism, 2014; DOI 10.1080/21670811.2014.976411)",
+   "crossref_doi": "10.1080/21670811.2014.976411"
+  },
+  {
+   "id": "barocasselbst2016",
+   "type": "work",
+   "label": "Barocas 2016",
+   "authors": "Solon Barocas & Andrew D. Selbst",
+   "year": 2016,
+   "journal": "California Law Review",
+   "title": "Big Data's Disparate Impact",
+   "claim": "Data mining can produce discrimination without intent, which antidiscrimination law struggles to address.",
+   "method": "Legal analysis",
+   "themes": [
+    "fairness",
+    "regulation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Elsevier BV, 2014; DOI 10.2139/ssrn.2477899); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "oneil2016",
+   "type": "work",
+   "label": "O'Neil 2016",
+   "authors": "Cathy O'Neil",
+   "year": 2016,
+   "journal": "Crown (book)",
+   "title": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
+   "claim": "Opaque, scaled and damaging models reinforce inequality.",
+   "method": "Essay",
+   "themes": [
+    "fairness",
+    "algorithms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "tufekci2017",
+   "type": "work",
+   "label": "Tufekci 2017",
+   "authors": "Zeynep Tufekci",
+   "year": 2017,
+   "journal": "Yale University Press (book)",
+   "title": "Twitter and Tear Gas: The Power and Fragility of Networked Protest",
+   "claim": "Networked protest scales fast but lacks the capacities built by slower organizing.",
+   "method": "Ethnography and analysis",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Yale University Press, 2020; DOI 10.12987/9780300228175); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "srnicek2017",
+   "type": "work",
+   "label": "Srnicek 2017",
+   "authors": "Nick Srnicek",
+   "year": 2017,
+   "journal": "Polity Press (book)",
+   "title": "Platform Capitalism",
+   "claim": "Platforms are a new business model built on extracting and controlling data.",
+   "method": "Political economy",
+   "themes": [
+    "platforms",
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "chouldechova2017",
+   "type": "work",
+   "label": "Chouldechova 2017",
+   "authors": "Alexandra Chouldechova",
+   "year": 2017,
+   "journal": "Big Data",
+   "title": "Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments",
+   "claim": "Calibration and equal error rates cannot both hold when base rates differ.",
+   "method": "Statistical analysis",
+   "themes": [
+    "fairness"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Big Data, 2017; DOI 10.1089/big.2016.0047)",
+   "crossref_doi": "10.1089/big.2016.0047"
+  },
+  {
+   "id": "kleinberg2017",
+   "type": "work",
+   "label": "Kleinberg 2017",
+   "authors": "Jon Kleinberg, Sendhil Mullainathan & Manish Raghavan",
+   "year": 2017,
+   "journal": "Proceedings of ITCS",
+   "title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
+   "claim": "Common fairness criteria are mutually incompatible except in special cases.",
+   "method": "Theorem",
+   "themes": [
+    "fairness"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "noble2018",
+   "type": "work",
+   "label": "Noble 2018",
+   "authors": "Safiya Umoja Noble",
+   "year": 2018,
+   "journal": "NYU Press (book)",
+   "title": "Algorithms of Oppression: How Search Engines Reinforce Racism",
+   "claim": "Search algorithms reproduce racist and sexist representations.",
+   "method": "Critical analysis",
+   "themes": [
+    "fairness",
+    "platforms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "eubanks2018",
+   "type": "work",
+   "label": "Eubanks 2018",
+   "authors": "Virginia Eubanks",
+   "year": 2018,
+   "journal": "St. Martin's Press (book)",
+   "title": "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor",
+   "claim": "Automated welfare systems build a digital poorhouse.",
+   "method": "Case studies",
+   "themes": [
+    "fairness",
+    "state"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "gillespie2018",
+   "type": "work",
+   "label": "Gillespie 2018",
+   "authors": "Tarleton Gillespie",
+   "year": 2018,
+   "journal": "Yale University Press (book)",
+   "title": "Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media",
+   "claim": "Moderation is the essence of what platforms do.",
+   "method": "Analysis",
+   "themes": [
+    "platforms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Yale University Press, 2019; DOI 10.12987/9780300235029)"
+  },
+  {
+   "id": "buolamwinigebru2018",
+   "type": "work",
+   "label": "Buolamwini 2018",
+   "authors": "Joy Buolamwini & Timnit Gebru",
+   "year": 2018,
+   "journal": "Proceedings of FAT* (PMLR)",
+   "title": "Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification",
+   "claim": "Commercial face classifiers are least accurate for darker-skinned women.",
+   "method": "Audit study",
+   "themes": [
+    "fairness"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "benkler2018",
+   "type": "work",
+   "label": "Benkler 2018",
+   "authors": "Yochai Benkler, Robert Faris & Hal Roberts",
+   "year": 2018,
+   "journal": "Oxford University Press (book)",
+   "title": "Network Propaganda: Manipulation, Disinformation, and Radicalization in American Politics",
+   "claim": "Asymmetric polarization in the right-wing media ecosystem, not technology alone, drove disinformation.",
+   "method": "Large-scale media analysis",
+   "themes": [
+    "misinfo",
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Oxford University PressNew York, 2018; DOI 10.1093/oso/9780190923624.001.0001)"
+  },
+  {
+   "id": "woolleyhoward2018",
+   "type": "work",
+   "label": "Woolley 2018",
+   "authors": "Samuel C. Woolley & Philip N. Howard (eds.)",
+   "year": 2018,
+   "journal": "Oxford University Press (edited volume)",
+   "title": "Computational Propaganda: Political Parties, Politicians, and Political Manipulation on Social Media",
+   "claim": "Bots and algorithms are used to manipulate public opinion across countries.",
+   "method": "Country case studies",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "klonick2018",
+   "type": "work",
+   "label": "Klonick 2018",
+   "authors": "Kate Klonick",
+   "year": 2018,
+   "journal": "Harvard Law Review",
+   "title": "The New Governors: The People, Rules, and Processes Governing Online Speech",
+   "claim": "Platforms are new governors of online speech with their own rules and processes.",
+   "method": "Legal analysis",
+   "themes": [
+    "platforms",
+    "regulation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "kleinberg2018",
+   "type": "work",
+   "label": "Kleinberg 2018",
+   "authors": "Jon Kleinberg et al.",
+   "year": 2018,
+   "journal": "Quarterly Journal of Economics",
+   "title": "Human Decisions and Machine Predictions",
+   "claim": "Algorithms could cut crime or jail populations while reducing racial disparities in bail decisions.",
+   "method": "Machine learning on bail data",
+   "themes": [
+    "fairness",
+    "state"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2017; DOI 10.3386/w23180)"
+  },
+  {
+   "id": "kreiss2016",
+   "type": "work",
+   "label": "Kreiss 2016",
+   "authors": "Daniel Kreiss",
+   "year": 2016,
+   "journal": "Oxford University Press (book)",
+   "title": "Prototype Politics: Technology-Intensive Campaigning and the Data of Democracy",
+   "claim": "Party network infrastructure explains Democrats' technology advantage in campaigns.",
+   "method": "Historical analysis",
+   "themes": [
+    "campaigns"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Oxford University Press, 2016; DOI 10.1093/acprof:oso/9780199350247.001.0001)"
+  },
+  {
+   "id": "zuboff2019",
+   "type": "work",
+   "label": "Zuboff 2019",
+   "authors": "Shoshana Zuboff",
+   "year": 2019,
+   "journal": "PublicAffairs (book)",
+   "title": "The Age of Surveillance Capitalism",
+   "claim": "Surveillance capitalism claims human experience as raw material for behavioral prediction products.",
+   "method": "Critical political economy",
+   "themes": [
+    "surveillance",
+    "platforms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "couldrymejias2019",
+   "type": "work",
+   "label": "Couldry 2019",
+   "authors": "Nick Couldry & Ulises A. Mejias",
+   "year": 2019,
+   "journal": "Stanford University Press (book)",
+   "title": "The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism",
+   "claim": "Data colonialism appropriates human life through data extraction.",
+   "method": "Critical theory",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Social Forces, 2020; DOI 10.1093/sf/soz172)",
+   "crossref_doi": "10.1093/sf/soz172"
+  },
+  {
+   "id": "benjamin2019",
+   "type": "work",
+   "label": "Benjamin 2019",
+   "authors": "Ruha Benjamin",
+   "year": 2019,
+   "journal": "Polity Press (book)",
+   "title": "Race After Technology: Abolitionist Tools for the New Jim Code",
+   "claim": "Technology encodes racial hierarchies in a New Jim Code.",
+   "method": "Critical race analysis",
+   "themes": [
+    "fairness"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "russell2019",
+   "type": "work",
+   "label": "Russell 2019",
+   "authors": "Stuart Russell",
+   "year": 2019,
+   "journal": "Viking (book)",
+   "title": "Human Compatible: Artificial Intelligence and the Problem of Control",
+   "claim": "AI should be designed to be uncertain about human preferences and to defer to humans.",
+   "method": "AI research",
+   "themes": [
+    "ethics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "obermeyer2019",
+   "type": "work",
+   "label": "Obermeyer 2019",
+   "authors": "Ziad Obermeyer et al.",
+   "year": 2019,
+   "journal": "Science",
+   "title": "Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations",
+   "claim": "A widely used health algorithm underestimated Black patients' needs by predicting costs.",
+   "method": "Audit study",
+   "themes": [
+    "fairness"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Science, 2019; DOI 10.1126/science.aax2342)",
+   "crossref_doi": "10.1126/science.aax2342"
+  },
+  {
+   "id": "acemoglurestrepo2020",
+   "type": "work",
+   "label": "Acemoglu 2020",
+   "authors": "Daron Acemoglu & Pascual Restrepo",
+   "year": 2020,
+   "journal": "Journal of Political Economy",
+   "title": "Robots and Jobs: Evidence from US Labor Markets",
+   "claim": "Industrial robots reduce employment and wages in exposed U.S. commuting zones.",
+   "method": "Local labor market analysis",
+   "themes": [
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2017; DOI 10.3386/w23285); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "freyosborne2017",
+   "type": "work",
+   "label": "Frey 2017",
+   "authors": "Carl Benedikt Frey & Michael A. Osborne",
+   "year": 2017,
+   "journal": "Technological Forecasting and Social Change",
+   "title": "The Future of Employment: How Susceptible Are Jobs to Computerisation?",
+   "claim": "About 47 percent of U.S. employment is at high risk of computerisation.",
+   "method": "Occupational classification",
+   "themes": [
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Technological Forecasting and Social Change, 2017; DOI 10.1016/j.techfore.2016.08.019)",
+   "crossref_doi": "10.1016/j.techfore.2016.08.019"
+  },
+  {
+   "id": "anelli2021",
+   "type": "work",
+   "label": "Anelli 2021",
+   "authors": "Massimo Anelli, Italo Colantone & Piero Stanig",
+   "year": 2021,
+   "journal": "PNAS",
+   "title": "Individual Vulnerability to Industrial Robot Adoption Increases Support for the Radical Right",
+   "claim": "Workers vulnerable to robots shift toward the radical right.",
+   "method": "Individual panel data",
+   "themes": [
+    "labor",
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Proceedings of the National Academy of Sciences, 2021; DOI 10.1073/pnas.2111611118)",
+   "crossref_doi": "10.1073/pnas.2111611118"
+  },
+  {
+   "id": "rahmanthelen2019",
+   "type": "work",
+   "label": "Rahman 2019",
+   "authors": "K. Sabeel Rahman & Kathleen Thelen",
+   "year": 2019,
+   "journal": "Politics & Society",
+   "title": "The Rise of the Platform Business Model and the Transformation of Twenty-First-Century Capitalism",
+   "claim": "Platform firms rest on patient capital and network effects, building political coalitions with consumers.",
+   "method": "Comparative political economy",
+   "themes": [
+    "platforms",
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Politics &amp; Society, 2019; DOI 10.1177/0032329219838932)",
+   "crossref_doi": "10.1177/0032329219838932"
+  },
+  {
+   "id": "guriev2019",
+   "type": "work",
+   "label": "Guriev 2019",
+   "authors": "Sergei Guriev & Daniel Treisman",
+   "year": 2019,
+   "journal": "Journal of Economic Perspectives",
+   "title": "Informational Autocrats",
+   "claim": "Modern autocrats rely on manipulating information rather than mass repression.",
+   "method": "Theory and evidence",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (SSRN Electronic Journal, 2018; DOI 10.2139/ssrn.3208523)",
+   "crossref_doi": "10.2139/ssrn.3208523"
+  },
+  {
+   "id": "feldstein2019",
+   "type": "work",
+   "label": "Feldstein 2019",
+   "authors": "Steven Feldstein",
+   "year": 2019,
+   "journal": "Journal of Democracy",
+   "title": "The Road to Digital Unfreedom: How Artificial Intelligence Is Reshaping Repression",
+   "claim": "AI surveillance tools are spreading and reshaping repression.",
+   "method": "Global index",
+   "themes": [
+    "authoritarian",
+    "surveillance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (KANT Social Sciences &amp; Humanities, 2021; DOI 10.24923/2305-8757.2021-5.4); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "enikolopov2020",
+   "type": "work",
+   "label": "Enikolopov 2020",
+   "authors": "Ruben Enikolopov, Alexey Makarin & Maria Petrova",
+   "year": 2020,
+   "journal": "Econometrica",
+   "title": "Social Media and Protest Participation: Evidence from Russia",
+   "claim": "Social media penetration increased protest participation in Russia.",
+   "method": "Instrumental variables",
+   "themes": [
+    "mobilization",
+    "authoritarian"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (SSRN Electronic Journal, 2015; DOI 10.2139/ssrn.2696236); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "allcott2020",
+   "type": "work",
+   "label": "Allcott 2020",
+   "authors": "Hunt Allcott, Luca Braghieri, Sarah Eichmeyer & Matthew Gentzkow",
+   "year": 2020,
+   "journal": "American Economic Review",
+   "title": "The Welfare Effects of Social Media",
+   "claim": "Deactivating Facebook reduced news knowledge and polarization and raised well-being.",
+   "method": "Randomized experiment",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2019; DOI 10.3386/w25514)"
+  },
+  {
+   "id": "bradford2020",
+   "type": "work",
+   "label": "Bradford 2020",
+   "authors": "Anu Bradford",
+   "year": 2020,
+   "journal": "Oxford University Press (book)",
+   "title": "The Brussels Effect: How the European Union Rules the World",
+   "claim": "EU regulation becomes global through market size and firms' incentives to standardize.",
+   "method": "Legal and political analysis",
+   "themes": [
+    "regulation",
+    "geopolitics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (The Brussels Effect, 2020; DOI 10.1093/oso/9780190088583.003.0003)"
+  },
+  {
+   "id": "bender2021",
+   "type": "work",
+   "label": "Bender 2021",
+   "authors": "Emily M. Bender, Timnit Gebru, Angelina McMillan-Major & Shmargaret Shmitchell",
+   "year": 2021,
+   "journal": "Proceedings of FAccT",
+   "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+   "claim": "Large language models carry environmental, financial and bias risks.",
+   "method": "Critical analysis",
+   "themes": [
+    "ethics",
+    "methods"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 2021; DOI 10.1145/3442188.3445922)"
+  },
+  {
+   "id": "xu2021",
+   "type": "work",
+   "label": "Xu 2021",
+   "authors": "Xu Xu",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "To Repress or to Co-opt? Authoritarian Control in the Age of Digital Surveillance",
+   "claim": "Digital surveillance lets autocrats replace co-optation with targeted repression.",
+   "method": "Chinese provincial data",
+   "themes": [
+    "authoritarian",
+    "surveillance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (American Journal of Political Science, 2020; DOI 10.1111/ajps.12514)",
+   "crossref_doi": "10.1111/ajps.12514"
+  },
+  {
+   "id": "horowitz2018",
+   "type": "work",
+   "label": "Horowitz 2018",
+   "authors": "Michael C. Horowitz",
+   "year": 2018,
+   "journal": "Texas National Security Review",
+   "title": "Artificial Intelligence, International Competition, and the Balance of Power",
+   "claim": "AI's military impact depends on adoption capacity as a general-purpose technology.",
+   "method": "Analysis",
+   "themes": [
+    "cyber",
+    "geopolitics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "scharre2018",
+   "type": "work",
+   "label": "Scharre 2018",
+   "authors": "Paul Scharre",
+   "year": 2018,
+   "journal": "W. W. Norton (book)",
+   "title": "Army of None: Autonomous Weapons and the Future of War",
+   "claim": "Autonomous weapons raise risks of accidents and loss of human control.",
+   "method": "Analysis",
+   "themes": [
+    "cyber",
+    "ethics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "buchanan2016",
+   "type": "work",
+   "label": "Buchanan 2016",
+   "authors": "Ben Buchanan",
+   "year": 2016,
+   "journal": "Oxford University Press (book)",
+   "title": "The Cybersecurity Dilemma: Hacking, Trust and Fear Between Nations",
+   "claim": "Defensive intrusions look offensive, creating a cybersecurity dilemma.",
+   "method": "Analysis",
+   "themes": [
+    "cyber"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "bradford2023",
+   "type": "work",
+   "label": "Bradford 2023",
+   "authors": "Anu Bradford",
+   "year": 2023,
+   "journal": "Oxford University Press (book)",
+   "title": "Digital Empires: The Global Battle to Regulate Technology",
+   "claim": "American market-driven, Chinese state-driven and European rights-driven regulatory models compete.",
+   "method": "Comparative analysis",
+   "themes": [
+    "regulation",
+    "geopolitics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Oxford University PressNew York, 2023; DOI 10.1093/oso/9780197649268.001.0001)"
+  },
+  {
+   "id": "gilardi2023",
+   "type": "work",
+   "label": "Gilardi 2023",
+   "authors": "Fabrizio Gilardi, Meysam Alizadeh & Maël Kubli",
+   "year": 2023,
+   "journal": "PNAS",
+   "title": "ChatGPT Outperforms Crowd Workers for Text-Annotation Tasks",
+   "claim": "ChatGPT annotates text more accurately and cheaply than crowd workers.",
+   "method": "Benchmark comparison",
+   "themes": [
+    "methods"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Proceedings of the National Academy of Sciences, 2023; DOI 10.1073/pnas.2305016120)",
+   "crossref_doi": "10.1073/pnas.2305016120"
+  },
+  {
+   "id": "argyle2023",
+   "type": "work",
+   "label": "Argyle 2023",
+   "authors": "Lisa P. Argyle et al.",
+   "year": 2023,
+   "journal": "Political Analysis",
+   "title": "Out of One, Many: Using Language Models to Simulate Human Samples",
+   "claim": "Language models can simulate subgroup survey responses (algorithmic fidelity).",
+   "method": "Validation study",
+   "themes": [
+    "methods"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Political Analysis, 2023; DOI 10.1017/pan.2023.2)",
+   "crossref_doi": "10.1017/pan.2023.2"
+  },
+  {
+   "id": "guess2023",
+   "type": "work",
+   "label": "Guess 2023",
+   "authors": "Andrew M. Guess et al.",
+   "year": 2023,
+   "journal": "Science",
+   "title": "How Do Social Media Feed Algorithms Affect Attitudes and Behavior in an Election Campaign?",
+   "claim": "Switching to chronological feeds changed exposure but not polarization or attitudes.",
+   "method": "Platform field experiment",
+   "themes": [
+    "publicsphere",
+    "algorithms"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Science, 2023; DOI 10.1126/science.abp9364)",
+   "crossref_doi": "10.1126/science.abp9364"
+  },
+  {
+   "id": "beraja2023",
+   "type": "work",
+   "label": "Beraja 2023",
+   "authors": "Martin Beraja, David Y. Yang & Noam Yuchtman",
+   "year": 2023,
+   "journal": "Quarterly Journal of Economics",
+   "title": "Data-Intensive Innovation and the State: Evidence from AI Firms in China",
+   "claim": "Government data and contracts for surveillance AI spur commercial AI innovation in China.",
+   "method": "Firm-level data",
+   "themes": [
+    "authoritarian",
+    "geopolitics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2020; DOI 10.3386/w27723); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "ding2024",
+   "type": "work",
+   "label": "Ding 2024",
+   "authors": "Jeffrey Ding",
+   "year": 2024,
+   "journal": "Princeton University Press (book)",
+   "title": "Technology and the Rise of Great Powers: How Diffusion Shapes Economic Competition",
+   "claim": "Great-power rise depends on diffusing general-purpose technologies, not just innovating.",
+   "method": "Historical comparative analysis",
+   "themes": [
+    "geopolitics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Princeton University Press, 2024; DOI 10.1515/9780691260372)"
+  },
+  {
+   "id": "steinertthrelkeld2017",
+   "type": "work",
+   "label": "Steinert-Threlkeld 2017",
+   "authors": "Zachary C. Steinert-Threlkeld",
+   "year": 2017,
+   "journal": "APSR",
+   "title": "Spontaneous Collective Action: Peripheral Mobilization During the Arab Spring",
+   "claim": "Peripheral users, not central activists, drove protest mobilization on Twitter.",
+   "method": "Twitter data",
+   "themes": [
+    "mobilization",
+    "authoritarian"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (American Political Science Review, 2017; DOI 10.1017/s0003055416000769)",
+   "crossref_doi": "10.1017/s0003055416000769"
+  },
+  {
+   "id": "kurer2020",
+   "type": "work",
+   "label": "Kurer 2020",
+   "authors": "Thomas Kurer",
+   "year": 2020,
+   "journal": "Comparative Political Studies",
+   "title": "The Declining Middle: Occupational Change, Social Status, and the Populist Right",
+   "claim": "Routine workers who hold on but lose relative status move to the populist right.",
+   "method": "Panel data",
+   "themes": [
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Center for Open Science, 2021; DOI 10.31235/osf.io/3kznw)"
+  },
+  {
+   "id": "thewissenrueda2019",
+   "type": "work",
+   "label": "Thewissen 2019",
+   "authors": "Stefan Thewissen & David Rueda",
+   "year": 2019,
+   "journal": "Comparative Political Studies",
+   "title": "Automation and the Welfare State: Technological Change as a Determinant of Redistribution Preferences",
+   "claim": "Routine task exposure increases support for redistribution.",
+   "method": "Cross-national surveys",
+   "themes": [
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Comparative Political Studies, 2017; DOI 10.1177/0010414017740600); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "gallegokurer2022",
+   "type": "work",
+   "label": "Gallego 2022",
+   "authors": "Aina Gallego & Thomas Kurer",
+   "year": 2022,
+   "journal": "Annual Review of Political Science",
+   "title": "Automation, Digitalization, and Artificial Intelligence in the Workplace: Implications for Political Behavior",
+   "claim": "Reviews how workplace technology shapes political behavior.",
+   "method": "Review",
+   "themes": [
+    "labor"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Annual Review of Political Science, 2022; DOI 10.1146/annurev-polisci-051120-104535)",
+   "crossref_doi": "10.1146/annurev-polisci-051120-104535"
+  },
+  {
+   "id": "youngbullock2019",
+   "type": "work",
+   "label": "Young 2019",
+   "authors": "Matthew M. Young, Justin B. Bullock & Jesse D. Lecy",
+   "year": 2019,
+   "journal": "Perspectives on Public Management and Governance",
+   "title": "Artificial Discretion as a Tool of Governance: A Framework for Understanding the Impact of Artificial Intelligence on Public Administration",
+   "claim": "AI shifts administrative discretion from street-level bureaucrats to systems.",
+   "method": "Framework",
+   "themes": [
+    "state"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Perspectives on Public Management and Governance, 2019; DOI 10.1093/ppmgov/gvz014)",
+   "crossref_doi": "10.1093/ppmgov/gvz014"
+  },
+  {
+   "id": "bovenszouridis2002",
+   "type": "work",
+   "label": "Bovens 2002",
+   "authors": "Mark Bovens & Stavros Zouridis",
+   "year": 2002,
+   "journal": "Public Administration Review",
+   "title": "From Street-Level to System-Level Bureaucracies: How Information and Communication Technology Is Transforming Administrative Discretion and Constitutional Control",
+   "claim": "ICT turns street-level bureaucracies into system-level ones, moving discretion to designers.",
+   "method": "Case analysis",
+   "themes": [
+    "state"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Public Administration Review, 2002; DOI 10.1111/0033-3352.00168)",
+   "crossref_doi": "10.1111/0033-3352.00168"
+  },
+  {
+   "id": "khan2017",
+   "type": "work",
+   "label": "Khan 2017",
+   "authors": "Lina M. Khan",
+   "year": 2017,
+   "journal": "Yale Law Journal",
+   "title": "Amazon's Antitrust Paradox",
+   "claim": "Consumer-welfare antitrust misses platform power like Amazon's.",
+   "method": "Legal analysis",
+   "themes": [
+    "platforms",
+    "regulation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Amazon, 2022; DOI 10.5040/9798881809775.ch-1); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "gillespie2010",
+   "type": "work",
+   "label": "Gillespie 2010",
+   "authors": "Tarleton Gillespie",
+   "year": 2010,
+   "journal": "New Media & Society",
+   "title": "The politics of ‘platforms’",
+   "claim": "The term 'platform' is a political claim that positions firms as neutral intermediaries.",
+   "method": "Discourse analysis",
+   "themes": [
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444809342738); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444809342738"
+  },
+  {
+   "id": "plantin2018",
+   "type": "work",
+   "label": "Plantin 2016",
+   "authors": "Jean-Christophe Plantin, Carl Lagoze, Paul N Edwards & Christian Sandvig",
+   "year": 2016,
+   "journal": "New Media & Society",
+   "title": "Infrastructure studies meet platform studies in the age of Google and Facebook",
+   "claim": "Google and Facebook are platforms becoming infrastructures.",
+   "method": "Theory",
+   "themes": [
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444816661553); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444816661553"
+  },
+  {
+   "id": "helmond2015",
+   "type": "work",
+   "label": "Helmond 2015",
+   "authors": "Anne Helmond",
+   "year": 2015,
+   "journal": "Social Media + Society",
+   "title": "The Platformization of the Web: Making Web Data Platform Ready",
+   "claim": "Platformization extends platforms into the web through APIs and data.",
+   "method": "Theory",
+   "themes": [
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2056305115603080); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2056305115603080"
+  },
+  {
+   "id": "nieborgpoell2018",
+   "type": "work",
+   "label": "Nieborg 2018",
+   "authors": "David B Nieborg & Thomas Poell",
+   "year": 2018,
+   "journal": "New Media & Society",
+   "title": "The platformization of cultural production: Theorizing the contingent cultural commodity",
+   "claim": "Platformization makes cultural commodities contingent.",
+   "method": "Theory",
+   "themes": [
+    "platforms",
+    "labor"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444818769694); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444818769694"
+  },
+  {
+   "id": "gorwa2019",
+   "type": "work",
+   "label": "Gorwa 2019",
+   "authors": "Robert Gorwa",
+   "year": 2019,
+   "journal": "Information, Communication & Society",
+   "title": "What is platform governance?",
+   "claim": "Platform governance spans self-, co- and external governance.",
+   "method": "Conceptual review",
+   "themes": [
+    "platforms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2019.1573914); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2019.1573914"
+  },
+  {
+   "id": "gorwa2020",
+   "type": "work",
+   "label": "Gorwa 2020",
+   "authors": "Robert Gorwa, Reuben Binns & Christian Katzenbach",
+   "year": 2020,
+   "journal": "Big Data & Society",
+   "title": "Algorithmic content moderation: Technical and political challenges in the automation of platform governance",
+   "claim": "Automated moderation raises technical and political problems.",
+   "method": "Analysis",
+   "themes": [
+    "platforms",
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951719897945); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951719897945"
+  },
+  {
+   "id": "gillespie2020",
+   "type": "work",
+   "label": "Gillespie 2020",
+   "authors": "Tarleton Gillespie",
+   "year": 2020,
+   "journal": "Big Data & Society",
+   "title": "Content moderation, AI, and the question of scale",
+   "claim": "AI moderation answers the question of scale but changes what moderation means.",
+   "method": "Essay",
+   "themes": [
+    "platforms",
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951720943234); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951720943234"
+  },
+  {
+   "id": "myerswest2018",
+   "type": "work",
+   "label": "Myers West 2018",
+   "authors": "Sarah Myers West",
+   "year": 2018,
+   "journal": "New Media & Society",
+   "title": "Censored, suspended, shadowbanned: User interpretations of content moderation on social media platforms",
+   "claim": "Users interpret moderation through folk theories.",
+   "method": "Survey of users",
+   "themes": [
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444818773059); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444818773059"
+  },
+  {
+   "id": "vandoorn2017",
+   "type": "work",
+   "label": "van Doorn 2017",
+   "authors": "Niels van Doorn",
+   "year": 2017,
+   "journal": "Information, Communication & Society",
+   "title": "Platform labor: on the gendered and racialized exploitation of low-income service work in the ‘on-demand’ economy",
+   "claim": "Platform labor exploits gendered and racialized low-income workers.",
+   "method": "Critical analysis",
+   "themes": [
+    "platforms",
+    "labor"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2017.1294194); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2017.1294194"
+  },
+  {
+   "id": "thelen2018",
+   "type": "work",
+   "label": "Thelen 2018",
+   "authors": "Kathleen Thelen",
+   "year": 2018,
+   "journal": "Perspectives on Politics",
+   "title": "Regulating Uber: The Politics of the Platform Economy in Europe and the United States",
+   "claim": "Uber's regulation varied with national coalitions and institutions.",
+   "method": "Comparative cases",
+   "themes": [
+    "platforms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592718001081); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s1537592718001081"
+  },
+  {
+   "id": "culpepperthelen2020",
+   "type": "work",
+   "label": "Culpepper 2019",
+   "authors": "Pepper D. Culpepper & Kathleen Thelen",
+   "year": 2019,
+   "journal": "Comparative Political Studies",
+   "title": "Are We All Amazon Primed? Consumers and the Politics of Platform Power",
+   "claim": "Platform power rests on consumer allegiance, which constrains regulation.",
+   "method": "Comparative analysis",
+   "themes": [
+    "platforms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414019852687); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/0010414019852687"
+  },
+  {
+   "id": "zengkaye2022",
+   "type": "work",
+   "label": "Zeng 2022",
+   "authors": "Jing Zeng & D. Bondy Valdovinos Kaye",
+   "year": 2022,
+   "journal": "Policy & Internet",
+   "title": "From content moderation to visibility moderation : A case study of platform governance on TikTok",
+   "claim": "TikTok shifts from content moderation to visibility moderation.",
+   "method": "Case study",
+   "themes": [
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.287); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.287"
+  },
+  {
+   "id": "crawfordgillespie2016",
+   "type": "work",
+   "label": "Crawford 2014",
+   "authors": "Kate Crawford & Tarleton Gillespie",
+   "year": 2014,
+   "journal": "New Media & Society",
+   "title": "What is a flag for? Social media reporting tools and the vocabulary of complaint",
+   "claim": "Flags are a limited vocabulary of complaint.",
+   "method": "Analysis",
+   "themes": [
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444814543163); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444814543163"
+  },
+  {
+   "id": "suzor2019",
+   "type": "work",
+   "label": "Suzor 2018",
+   "authors": "Nicolas Suzor, Molly Dragiewicz, Bridget Harris et al.",
+   "year": 2018,
+   "journal": "Policy & Internet",
+   "title": "Human Rights by Design: The Responsibilities of Social Media Platforms to Address Gender‐Based Violence Online",
+   "claim": "Platforms bear responsibilities for gender-based violence.",
+   "method": "Legal analysis",
+   "themes": [
+    "platforms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.185); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.185"
+  },
+  {
+   "id": "bucher2012",
+   "type": "work",
+   "label": "Bucher 2012",
+   "authors": "Taina Bucher",
+   "year": 2012,
+   "journal": "New Media & Society",
+   "title": "Want to be on the top? Algorithmic power and the threat of invisibility on Facebook",
+   "claim": "Facebook's algorithm creates a threat of invisibility that disciplines users.",
+   "method": "Analysis of EdgeRank",
+   "themes": [
+    "algorithms",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444812440159); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444812440159"
+  },
+  {
+   "id": "bucher2017",
+   "type": "work",
+   "label": "Bucher 2016",
+   "authors": "Taina Bucher",
+   "year": 2016,
+   "journal": "Information, Communication & Society",
+   "title": "The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms",
+   "claim": "Users' algorithmic imaginary shapes how they act.",
+   "method": "Interviews",
+   "themes": [
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2016.1154086); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2016.1154086"
+  },
+  {
+   "id": "kitchin2017",
+   "type": "work",
+   "label": "Kitchin 2016",
+   "authors": "Rob Kitchin",
+   "year": 2016,
+   "journal": "Information, Communication & Society",
+   "title": "Thinking critically about and researching algorithms",
+   "claim": "Ways to study algorithms critically.",
+   "method": "Methodological essay",
+   "themes": [
+    "algorithms",
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2016.1154087); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2016.1154087"
+  },
+  {
+   "id": "beer2017",
+   "type": "work",
+   "label": "Beer 2016",
+   "authors": "David Beer",
+   "year": 2016,
+   "journal": "Information, Communication & Society",
+   "title": "The social power of algorithms",
+   "claim": "Algorithms have social power through their operation and notion.",
+   "method": "Theory",
+   "themes": [
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2016.1216147); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2016.1216147"
+  },
+  {
+   "id": "beer2009",
+   "type": "work",
+   "label": "Beer 2009",
+   "authors": "David Beer",
+   "year": 2009,
+   "journal": "New Media & Society",
+   "title": "Power through the algorithm? Participatory web cultures and the technological unconscious",
+   "claim": "Web 2.0 power operates through algorithms.",
+   "method": "Theory",
+   "themes": [
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444809336551); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444809336551"
+  },
+  {
+   "id": "anannycrawford2018",
+   "type": "work",
+   "label": "Ananny 2016",
+   "authors": "Mike Ananny & Kate Crawford",
+   "year": 2016,
+   "journal": "New Media & Society",
+   "title": "Seeing without knowing: Limitations of the transparency ideal and its application to algorithmic accountability",
+   "claim": "Transparency has limits as an ideal for algorithmic accountability.",
+   "method": "Critique",
+   "themes": [
+    "algorithms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444816676645); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444816676645"
+  },
+  {
+   "id": "burrell2016",
+   "type": "work",
+   "label": "Burrell 2016",
+   "authors": "Jenna Burrell",
+   "year": 2016,
+   "journal": "Big Data & Society",
+   "title": "How the machine ‘thinks’: Understanding opacity in machine learning algorithms",
+   "claim": "Machine learning opacity comes from secrecy, illiteracy and scale.",
+   "method": "Analysis",
+   "themes": [
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951715622512); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951715622512"
+  },
+  {
+   "id": "yeung2017",
+   "type": "work",
+   "label": "Yeung 2016",
+   "authors": "Karen Yeung",
+   "year": 2016,
+   "journal": "Information, Communication & Society",
+   "title": "‘Hypernudge’: Big Data as a mode of regulation by design",
+   "claim": "Big data enables hypernudge regulation by design.",
+   "method": "Legal analysis",
+   "themes": [
+    "algorithms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2016.1186713); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2016.1186713"
+  },
+  {
+   "id": "yeung2018",
+   "type": "work",
+   "label": "Yeung 2017",
+   "authors": "Karen Yeung",
+   "year": 2017,
+   "journal": "Regulation & Governance",
+   "title": "Algorithmic regulation: A critical interrogation",
+   "claim": "Algorithmic regulation needs critical interrogation.",
+   "method": "Analysis",
+   "themes": [
+    "algorithms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/rego.12158); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/rego.12158"
+  },
+  {
+   "id": "danaher2016",
+   "type": "work",
+   "label": "Danaher 2016",
+   "authors": "John Danaher",
+   "year": 2016,
+   "journal": "Philosophy & Technology",
+   "title": "The Threat of Algocracy: Reality, Resistance and Accommodation",
+   "claim": "Algocracy threatens legitimate decision procedures.",
+   "method": "Philosophy",
+   "themes": [
+    "algorithms",
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-015-0211-1); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-015-0211-1"
+  },
+  {
+   "id": "binns2018",
+   "type": "work",
+   "label": "Binns 2017",
+   "authors": "Reuben Binns",
+   "year": 2017,
+   "journal": "Philosophy & Technology",
+   "title": "Algorithmic Accountability and Public Reason",
+   "claim": "Algorithmic accountability requires public reason.",
+   "method": "Philosophy",
+   "themes": [
+    "algorithms",
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-017-0263-5); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-017-0263-5"
+  },
+  {
+   "id": "seaver2017",
+   "type": "work",
+   "label": "Seaver 2017",
+   "authors": "Nick Seaver",
+   "year": 2017,
+   "journal": "Big Data & Society",
+   "title": "Algorithms as culture: Some tactics for the ethnography of algorithmic systems",
+   "claim": "Algorithms are culture and can be studied ethnographically.",
+   "method": "Methodology",
+   "themes": [
+    "algorithms",
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951717738104); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951717738104"
+  },
+  {
+   "id": "christin2017",
+   "type": "work",
+   "label": "Christin 2017",
+   "authors": "Angèle Christin",
+   "year": 2017,
+   "journal": "Big Data & Society",
+   "title": "Algorithms in practice: Comparing web journalism and criminal justice",
+   "claim": "Practitioners buffer algorithms in journalism and criminal justice.",
+   "method": "Ethnography",
+   "themes": [
+    "algorithms",
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951717718855); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951717718855"
+  },
+  {
+   "id": "gritsenkowood2022",
+   "type": "work",
+   "label": "Gritsenko 2020",
+   "authors": "Daria Gritsenko & Matthew Wood",
+   "year": 2020,
+   "journal": "Regulation & Governance",
+   "title": "Algorithmic governance: A modes of governance approach",
+   "claim": "Algorithmic governance as a mode of governance.",
+   "method": "Framework",
+   "themes": [
+    "algorithms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/rego.12367); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/rego.12367"
+  },
+  {
+   "id": "danaher2017",
+   "type": "work",
+   "label": "Danaher 2017",
+   "authors": "John Danaher, Michael J Hogan, Chris Noone et al.",
+   "year": 2017,
+   "journal": "Big Data & Society",
+   "title": "Algorithmic governance: Developing a research agenda through the power of collective intelligence",
+   "claim": "A research agenda for algorithmic governance.",
+   "method": "Collective intelligence agenda",
+   "themes": [
+    "algorithms",
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951717726554); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951717726554"
+  },
+  {
+   "id": "rudin2019",
+   "type": "work",
+   "label": "Rudin 2019",
+   "authors": "Cynthia Rudin",
+   "year": 2019,
+   "journal": "Nature Machine Intelligence",
+   "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+   "claim": "Use interpretable models for high-stakes decisions.",
+   "method": "Perspective",
+   "themes": [
+    "algorithms",
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1038/s42256-019-0048-x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1038/s42256-019-0048-x"
+  },
+  {
+   "id": "lepri2018",
+   "type": "work",
+   "label": "Lepri 2017",
+   "authors": "Bruno Lepri, Nuria Oliver, Emmanuel Letouzé et al.",
+   "year": 2017,
+   "journal": "Philosophy & Technology",
+   "title": "Fair, Transparent, and Accountable Algorithmic Decision-making Processes",
+   "claim": "Fair, transparent and accountable algorithmic decision-making.",
+   "method": "Review",
+   "themes": [
+    "algorithms",
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-017-0279-x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-017-0279-x"
+  },
+  {
+   "id": "wagner2019",
+   "type": "work",
+   "label": "Wagner 2019",
+   "authors": "Ben Wagner",
+   "year": 2019,
+   "journal": "Policy & Internet",
+   "title": "Liable, but Not in Control? Ensuring Meaningful Human Agency in Automated Decision‐Making Systems",
+   "claim": "Meaningful human agency in automated decisions.",
+   "method": "Analysis",
+   "themes": [
+    "algorithms",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.198); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.198"
+  },
+  {
+   "id": "zerilli2019",
+   "type": "work",
+   "label": "Zerilli 2018",
+   "authors": "John Zerilli, Alistair Knott, James Maclaurin & Colin Gavaghan",
+   "year": 2018,
+   "journal": "Philosophy & Technology",
+   "title": "Transparency in Algorithmic and Human Decision-Making: Is There a Double Standard?",
+   "claim": "Transparency demands on algorithms exceed those on humans.",
+   "method": "Philosophy",
+   "themes": [
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-018-0330-6); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-018-0330-6"
+  },
+  {
+   "id": "floridi2018",
+   "type": "work",
+   "label": "Floridi 2018",
+   "authors": "Luciano Floridi, Josh Cowls, Monica Beltrametti et al.",
+   "year": 2018,
+   "journal": "Minds and Machines",
+   "title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations",
+   "claim": "Five principles for a good AI society.",
+   "method": "Ethical framework",
+   "themes": [
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11023-018-9482-5); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11023-018-9482-5"
+  },
+  {
+   "id": "jobin2019",
+   "type": "work",
+   "label": "Jobin 2019",
+   "authors": "Anna Jobin, Marcello Ienca & Effy Vayena",
+   "year": 2019,
+   "journal": "Nature Machine Intelligence",
+   "title": "The global landscape of AI ethics guidelines",
+   "claim": "AI ethics guidelines converge on five principles but diverge in meaning.",
+   "method": "Review of 84 guidelines",
+   "themes": [
+    "ethics",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1038/s42256-019-0088-2); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1038/s42256-019-0088-2"
+  },
+  {
+   "id": "mittelstadt2019",
+   "type": "work",
+   "label": "Mittelstadt 2019",
+   "authors": "Brent Mittelstadt",
+   "year": 2019,
+   "journal": "Nature Machine Intelligence",
+   "title": "Principles alone cannot guarantee ethical AI",
+   "claim": "Principles alone cannot guarantee ethical AI.",
+   "method": "Critique",
+   "themes": [
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1038/s42256-019-0114-4); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1038/s42256-019-0114-4"
+  },
+  {
+   "id": "mittelstadt2016",
+   "type": "work",
+   "label": "Mittelstadt 2016",
+   "authors": "Brent Daniel Mittelstadt, Patrick Allo, Mariarosaria Taddeo et al.",
+   "year": 2016,
+   "journal": "Big Data & Society",
+   "title": "The ethics of algorithms: Mapping the debate",
+   "claim": "Maps the ethics of algorithms debate.",
+   "method": "Review",
+   "themes": [
+    "ethics",
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951716679679); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951716679679"
+  },
+  {
+   "id": "hagendorff2020",
+   "type": "work",
+   "label": "Hagendorff 2020",
+   "authors": "Thilo Hagendorff",
+   "year": 2020,
+   "journal": "Minds and Machines",
+   "title": "The Ethics of AI Ethics: An Evaluation of Guidelines",
+   "claim": "AI ethics guidelines are largely ineffective.",
+   "method": "Evaluation of guidelines",
+   "themes": [
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11023-020-09517-8); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11023-020-09517-8"
+  },
+  {
+   "id": "gabriel2020",
+   "type": "work",
+   "label": "Gabriel 2020",
+   "authors": "Iason Gabriel",
+   "year": 2020,
+   "journal": "Minds and Machines",
+   "title": "Artificial Intelligence, Values, and Alignment",
+   "claim": "Alignment requires choosing which values and how.",
+   "method": "Philosophy",
+   "themes": [
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11023-020-09539-2); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11023-020-09539-2"
+  },
+  {
+   "id": "morley2021",
+   "type": "work",
+   "label": "Morley 2021",
+   "authors": "Jessica Morley, Libby Kinsey, Anat Elhalal et al.",
+   "year": 2021,
+   "journal": "AI & Society",
+   "title": "Operationalising AI ethics: barriers, enablers and next steps",
+   "claim": "Barriers to operationalizing AI ethics.",
+   "method": "Analysis",
+   "themes": [
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s00146-021-01308-8); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s00146-021-01308-8"
+  },
+  {
+   "id": "floridi2019",
+   "type": "work",
+   "label": "Floridi 2019",
+   "authors": "Luciano Floridi",
+   "year": 2019,
+   "journal": "Philosophy & Technology",
+   "title": "Translating Principles into Practices of Digital Ethics: Five Risks of Being Unethical",
+   "claim": "Five risks of being unethical in practice.",
+   "method": "Analysis",
+   "themes": [
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-019-00354-x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-019-00354-x"
+  },
+  {
+   "id": "tsamados2022",
+   "type": "work",
+   "label": "Tsamados 2021",
+   "authors": "Andreas Tsamados, Nikita Aggarwal, Josh Cowls et al.",
+   "year": 2021,
+   "journal": "AI & Society",
+   "title": "The ethics of algorithms: key problems and solutions",
+   "claim": "Updates key problems and solutions in algorithm ethics.",
+   "method": "Review",
+   "themes": [
+    "ethics",
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s00146-021-01154-8); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s00146-021-01154-8"
+  },
+  {
+   "id": "mohamed2020",
+   "type": "work",
+   "label": "Mohamed 2020",
+   "authors": "Shakir Mohamed, Marie-Therese Png & William Isaac",
+   "year": 2020,
+   "journal": "Philosophy & Technology",
+   "title": "Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence",
+   "claim": "Decolonial theory as foresight for AI.",
+   "method": "Critical theory",
+   "themes": [
+    "ethics",
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-020-00405-8); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-020-00405-8"
+  },
+  {
+   "id": "cavedihal2020",
+   "type": "work",
+   "label": "Cave 2020",
+   "authors": "Stephen Cave & Kanta Dihal",
+   "year": 2020,
+   "journal": "Philosophy & Technology",
+   "title": "The Whiteness of AI",
+   "claim": "AI is imagined as white.",
+   "method": "Critical analysis",
+   "themes": [
+    "ethics",
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-020-00415-6); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-020-00415-6"
+  },
+  {
+   "id": "santonidesio2021",
+   "type": "work",
+   "label": "Santoni de Sio 2021",
+   "authors": "Filippo Santoni de Sio & Giulio Mecacci",
+   "year": 2021,
+   "journal": "Philosophy & Technology",
+   "title": "Four Responsibility Gaps with Artificial Intelligence: Why they Matter and How to Address them",
+   "claim": "Four responsibility gaps with AI and how to address them.",
+   "method": "Philosophy",
+   "themes": [
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-021-00450-x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-021-00450-x"
+  },
+  {
+   "id": "novelli2023",
+   "type": "work",
+   "label": "Novelli 2023",
+   "authors": "Claudio Novelli, Mariarosaria Taddeo & Luciano Floridi",
+   "year": 2023,
+   "journal": "AI & Society",
+   "title": "Accountability in artificial intelligence: what it is and how it works",
+   "claim": "What accountability in AI is and how it works.",
+   "method": "Conceptual analysis",
+   "themes": [
+    "ethics",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s00146-023-01635-y); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s00146-023-01635-y"
+  },
+  {
+   "id": "mokanderfloridi2021",
+   "type": "work",
+   "label": "Mökander 2021",
+   "authors": "Jakob Mökander & Luciano Floridi",
+   "year": 2021,
+   "journal": "Minds and Machines",
+   "title": "Ethics-Based Auditing to Develop Trustworthy AI",
+   "claim": "Ethics-based auditing for trustworthy AI.",
+   "method": "Framework",
+   "themes": [
+    "ethics",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11023-021-09557-8); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11023-021-09557-8"
+  },
+  {
+   "id": "floridi2023",
+   "type": "work",
+   "label": "Floridi 2023",
+   "authors": "Luciano Floridi",
+   "year": 2023,
+   "journal": "Philosophy & Technology",
+   "title": "AI as Agency Without Intelligence: on ChatGPT, Large Language Models, and Other Generative Models",
+   "claim": "LLMs show agency without intelligence.",
+   "method": "Philosophy",
+   "themes": [
+    "ethics",
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-023-00621-y); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-023-00621-y"
+  },
+  {
+   "id": "hagendorff2024",
+   "type": "work",
+   "label": "Hagendorff 2024",
+   "authors": "Thilo Hagendorff",
+   "year": 2024,
+   "journal": "Minds and Machines",
+   "title": "Mapping the Ethics of Generative AI: A Comprehensive Scoping Review",
+   "claim": "Maps the ethics of generative AI.",
+   "method": "Scoping review",
+   "themes": [
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11023-024-09694-w); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11023-024-09694-w"
+  },
+  {
+   "id": "vallor2014",
+   "type": "work",
+   "label": "Vallor 2014",
+   "authors": "Shannon Vallor",
+   "year": 2014,
+   "journal": "Philosophy & Technology",
+   "title": "Moral Deskilling and Upskilling in a New Machine Age: Reflections on the Ambiguous Future of Character",
+   "claim": "Machines can deskill moral practice.",
+   "method": "Philosophy",
+   "themes": [
+    "ethics",
+    "labor"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-014-0156-9); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-014-0156-9"
+  },
+  {
+   "id": "hoffmann2019",
+   "type": "work",
+   "label": "Hoffmann 2019",
+   "authors": "Anna Lauren Hoffmann",
+   "year": 2019,
+   "journal": "Information, Communication & Society",
+   "title": "Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse",
+   "claim": "Antidiscrimination discourse limits algorithmic fairness.",
+   "method": "Critique",
+   "themes": [
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2019.1573912); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2019.1573912"
+  },
+  {
+   "id": "vealebinns2017",
+   "type": "work",
+   "label": "Veale 2017",
+   "authors": "Michael Veale & Reuben Binns",
+   "year": 2017,
+   "journal": "Big Data & Society",
+   "title": "Fairer machine learning in the real world: Mitigating discrimination without collecting sensitive data",
+   "claim": "Fairness without collecting sensitive data.",
+   "method": "Analysis",
+   "themes": [
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951717743530); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951717743530"
+  },
+  {
+   "id": "lee2018",
+   "type": "work",
+   "label": "Lee 2018",
+   "authors": "Min Kyung Lee",
+   "year": 2018,
+   "journal": "Big Data & Society",
+   "title": "Understanding perception of algorithmic decisions: Fairness, trust, and emotion in response to algorithmic management",
+   "claim": "People perceive algorithmic decisions as less fair for human tasks.",
+   "method": "Experiment",
+   "themes": [
+    "fairness",
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951718756684); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951718756684"
+  },
+  {
+   "id": "starke2022",
+   "type": "work",
+   "label": "Starke 2022",
+   "authors": "Christopher Starke, Janine Baleis, Birte Keller & Frank Marcinkowski",
+   "year": 2022,
+   "journal": "Big Data & Society",
+   "title": "Fairness perceptions of algorithmic decision-making: A systematic review of the empirical literature",
+   "claim": "Reviews fairness perceptions of algorithmic decisions.",
+   "method": "Systematic review",
+   "themes": [
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/20539517221115189); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/20539517221115189"
+  },
+  {
+   "id": "wong2020",
+   "type": "work",
+   "label": "Wong 2019",
+   "authors": "Pak-Hang Wong",
+   "year": 2019,
+   "journal": "Philosophy & Technology",
+   "title": "Democratizing Algorithmic Fairness",
+   "claim": "Algorithmic fairness should be democratized.",
+   "method": "Philosophy",
+   "themes": [
+    "fairness",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-019-00355-w); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-019-00355-w"
+  },
+  {
+   "id": "hedden2021",
+   "type": "work",
+   "label": "Hedden 2021",
+   "authors": "Brian Hedden",
+   "year": 2021,
+   "journal": "Philosophy & Public Affairs",
+   "title": "On statistical criteria of algorithmic fairness",
+   "claim": "Most statistical fairness criteria are not necessary for fairness.",
+   "method": "Philosophy",
+   "themes": [
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/papa.12189); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/papa.12189"
+  },
+  {
+   "id": "rosenblat2017",
+   "type": "work",
+   "label": "Rosenblat 2017",
+   "authors": "Alex Rosenblat, Karen E.C. Levy, Solon Barocas & Tim Hwang",
+   "year": 2017,
+   "journal": "Policy & Internet",
+   "title": "Discriminating Tastes: Uber's Customer Ratings as Vehicles for Workplace Discrimination",
+   "claim": "Uber ratings import customer bias into workplace evaluation.",
+   "method": "Analysis",
+   "themes": [
+    "fairness",
+    "labor"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.153); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.153"
+  },
+  {
+   "id": "matamoros2017",
+   "type": "work",
+   "label": "Matamoros-Fernández 2017",
+   "authors": "Ariadna Matamoros-Fernández",
+   "year": 2017,
+   "journal": "Information, Communication & Society",
+   "title": "Platformed racism: the mediation and circulation of an Australian race-based controversy on Twitter, Facebook and YouTube",
+   "claim": "Platform design mediates racism.",
+   "method": "Case study",
+   "themes": [
+    "fairness",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2017.1293130); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2017.1293130"
+  },
+  {
+   "id": "lyon2014",
+   "type": "work",
+   "label": "Lyon 2014",
+   "authors": "David Lyon",
+   "year": 2014,
+   "journal": "Big Data & Society",
+   "title": "Surveillance, Snowden, and Big Data: Capacities, consequences, critique",
+   "claim": "Snowden revealed big data surveillance capacities.",
+   "method": "Analysis",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951714541861); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951714541861"
+  },
+  {
+   "id": "sadowski2019",
+   "type": "work",
+   "label": "Sadowski 2019",
+   "authors": "Jathan Sadowski",
+   "year": 2019,
+   "journal": "Big Data & Society",
+   "title": "When data is capital: Datafication, accumulation, and extraction",
+   "claim": "Data is a form of capital driving accumulation.",
+   "method": "Political economy",
+   "themes": [
+    "surveillance",
+    "labor"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951718820549); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951718820549"
+  },
+  {
+   "id": "galic2017",
+   "type": "work",
+   "label": "Galič 2016",
+   "authors": "Maša Galič, Tjerk Timan & Bert-Jaap Koops",
+   "year": 2016,
+   "journal": "Philosophy & Technology",
+   "title": "Bentham, Deleuze and Beyond: An Overview of Surveillance Theories from the Panopticon to Participation",
+   "claim": "Surveillance theory from the panopticon onward.",
+   "method": "Review",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-016-0219-1); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-016-0219-1"
+  },
+  {
+   "id": "marwickboyd2014",
+   "type": "work",
+   "label": "Marwick 2014",
+   "authors": "Alice E Marwick & danah boyd",
+   "year": 2014,
+   "journal": "New Media & Society",
+   "title": "Networked privacy: How teenagers negotiate context in social media",
+   "claim": "Teens negotiate networked privacy.",
+   "method": "Interviews",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444814543995); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444814543995"
+  },
+  {
+   "id": "obar2020",
+   "type": "work",
+   "label": "Obar 2018",
+   "authors": "Jonathan A. Obar & Anne Oeldorf-Hirsch",
+   "year": 2018,
+   "journal": "Information, Communication & Society",
+   "title": "The biggest lie on the Internet: ignoring the privacy policies and terms of service policies of social networking services",
+   "claim": "Users ignore privacy policies and terms of service.",
+   "method": "Experiment",
+   "themes": [
+    "surveillance",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2018.1486870); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2018.1486870"
+  },
+  {
+   "id": "taylor2017",
+   "type": "work",
+   "label": "Taylor 2017",
+   "authors": "Linnet Taylor",
+   "year": 2017,
+   "journal": "Big Data & Society",
+   "title": "What is data justice? The case for connecting digital rights and freedoms globally",
+   "claim": "Data justice connects digital rights globally.",
+   "method": "Framework",
+   "themes": [
+    "surveillance",
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951717736335); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951717736335"
+  },
+  {
+   "id": "vanzoonen2016",
+   "type": "work",
+   "label": "van Zoonen 2016",
+   "authors": "Liesbet van Zoonen",
+   "year": 2016,
+   "journal": "Government Information Quarterly",
+   "title": "Privacy concerns in smart cities",
+   "claim": "Privacy concerns in smart cities.",
+   "method": "Framework",
+   "themes": [
+    "surveillance",
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.giq.2016.06.004); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.giq.2016.06.004"
+  },
+  {
+   "id": "luptonwilliamson2017",
+   "type": "work",
+   "label": "Lupton 2017",
+   "authors": "Deborah Lupton & Ben Williamson",
+   "year": 2017,
+   "journal": "New Media & Society",
+   "title": "The datafied child: The dataveillance of children and implications for their rights",
+   "claim": "Dataveillance of children threatens rights.",
+   "method": "Analysis",
+   "themes": [
+    "surveillance"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444816686328); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444816686328"
+  },
+  {
+   "id": "liang2018",
+   "type": "work",
+   "label": "Liang 2018",
+   "authors": "Fan Liang, Vishnupriya Das, Nadiya Kostyuk & Muzammil M. Hussain",
+   "year": 2018,
+   "journal": "Policy & Internet",
+   "title": "Constructing a Data‐Driven Society: China's Social Credit System as a State Surveillance Infrastructure",
+   "claim": "China's social credit system as state surveillance infrastructure.",
+   "method": "Analysis",
+   "themes": [
+    "surveillance",
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.183); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.183"
+  },
+  {
+   "id": "gunitsky2015",
+   "type": "work",
+   "label": "Gunitsky 2015",
+   "authors": "Seva Gunitsky",
+   "year": 2015,
+   "journal": "Perspectives on Politics",
+   "title": "Corrupting the Cyber-Commons: Social Media as a Tool of Autocratic Stability",
+   "claim": "Autocrats co-opt social media for stability.",
+   "method": "Theory",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592714003120); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s1537592714003120"
+  },
+  {
+   "id": "howardhussain2011",
+   "type": "work",
+   "label": "Howard 2011",
+   "authors": "Philip N. Howard & Muzammil M. Hussain",
+   "year": 2011,
+   "journal": "Journal of Democracy",
+   "title": "The Upheavals in Egypt and Tunisia: The Role of Digital Media",
+   "claim": "Digital media mattered in the Egyptian and Tunisian uprisings.",
+   "method": "Analysis",
+   "themes": [
+    "mobilization",
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/jod.2011.0041); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/jod.2011.0041"
+  },
+  {
+   "id": "tucker2017",
+   "type": "work",
+   "label": "Tucker 2017",
+   "authors": "Joshua A. Tucker, Yannis Theocharis, Margaret E. Roberts & Pablo Barberá",
+   "year": 2017,
+   "journal": "Journal of Democracy",
+   "title": "From Liberation to Turmoil: Social Media And Democracy",
+   "claim": "Social media went from liberation to turmoil for democracy.",
+   "method": "Synthesis",
+   "themes": [
+    "authoritarian",
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/jod.2017.0064); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/jod.2017.0064"
+  },
+  {
+   "id": "persily2017",
+   "type": "work",
+   "label": "Persily 2017",
+   "authors": "Nathaniel Persily",
+   "year": 2017,
+   "journal": "Journal of Democracy",
+   "title": "Can Democracy Survive the Internet?",
+   "claim": "The 2016 election raised doubts that democracy survives the internet.",
+   "method": "Analysis",
+   "themes": [
+    "publicsphere",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/jod.2017.0025); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/jod.2017.0025"
+  },
+  {
+   "id": "zhuravskaya2020",
+   "type": "work",
+   "label": "Zhuravskaya 2020",
+   "authors": "Ekaterina Zhuravskaya, Maria Petrova & Ruben Enikolopov",
+   "year": 2020,
+   "journal": "Annual Review of Economics",
+   "title": "Political Effects of the Internet and Social Media",
+   "claim": "Reviews the political effects of the internet and social media.",
+   "method": "Review",
+   "themes": [
+    "publicsphere",
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-economics-081919-050239); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1146/annurev-economics-081919-050239"
+  },
+  {
+   "id": "roberts2021",
+   "type": "work",
+   "label": "Roberts 2020",
+   "authors": "Huw Roberts, Josh Cowls, Jessica Morley et al.",
+   "year": 2020,
+   "journal": "AI & Society",
+   "title": "The Chinese approach to artificial intelligence: an analysis of policy, ethics, and regulation",
+   "claim": "China's AI policy, ethics and regulation.",
+   "method": "Policy analysis",
+   "themes": [
+    "geopolitics",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s00146-020-00992-2); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s00146-020-00992-2"
+  },
+  {
+   "id": "howard2018",
+   "type": "work",
+   "label": "Howard 2018",
+   "authors": "Philip N. Howard, Samuel Woolley & Ryan Calo",
+   "year": 2018,
+   "journal": "Journal of Information Technology & Politics",
+   "title": "Algorithms, bots, and political communication in the US 2016 election: The challenge of automated political communication for election law and administration",
+   "claim": "Bots shaped political communication in 2016.",
+   "method": "Analysis",
+   "themes": [
+    "misinfo",
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/19331681.2018.1448735); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/19331681.2018.1448735"
+  },
+  {
+   "id": "vaccarichadwick2020",
+   "type": "work",
+   "label": "Vaccari 2020",
+   "authors": "Cristian Vaccari & Andrew Chadwick",
+   "year": 2020,
+   "journal": "Social Media + Society",
+   "title": "Deepfakes and Disinformation: Exploring the Impact of Synthetic Political Video on Deception, Uncertainty, and Trust in News",
+   "claim": "Deepfakes create uncertainty that reduces trust in news.",
+   "method": "Experiment",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2056305120903408); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2056305120903408"
+  },
+  {
+   "id": "fallis2020",
+   "type": "work",
+   "label": "Fallis 2020",
+   "authors": "Don Fallis",
+   "year": 2020,
+   "journal": "Philosophy & Technology",
+   "title": "The Epistemic Threat of Deepfakes",
+   "claim": "Deepfakes threaten the epistemic value of video.",
+   "method": "Philosophy",
+   "themes": [
+    "misinfo",
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-020-00419-2); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-020-00419-2"
+  },
+  {
+   "id": "gorwaguilbeault2020",
+   "type": "work",
+   "label": "Gorwa 2018",
+   "authors": "Robert Gorwa & Douglas Guilbeault",
+   "year": 2018,
+   "journal": "Policy & Internet",
+   "title": "Unpacking the Social Media Bot: A Typology to Guide Research and Policy",
+   "claim": "A typology of social media bots.",
+   "method": "Typology",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.184); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.184"
+  },
+  {
+   "id": "mena2020",
+   "type": "work",
+   "label": "Mena 2019",
+   "authors": "Paul Mena",
+   "year": 2019,
+   "journal": "Policy & Internet",
+   "title": "Cleaning Up Social Media: The Effect of Warning Labels on Likelihood of Sharing False News on Facebook",
+   "claim": "Warning labels reduce sharing of false news.",
+   "method": "Experiment",
+   "themes": [
+    "misinfo",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.214); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.214"
+  },
+  {
+   "id": "vargo2018",
+   "type": "work",
+   "label": "Vargo 2017",
+   "authors": "Chris J Vargo, Lei Guo & Michelle A Amazeen",
+   "year": 2017,
+   "journal": "New Media & Society",
+   "title": "The agenda-setting power of fake news: A big data analysis of the online media landscape from 2014 to 2016",
+   "claim": "Fake news has agenda-setting power in some contexts.",
+   "method": "Big data analysis",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444817712086); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444817712086"
+  },
+  {
+   "id": "keller2020",
+   "type": "work",
+   "label": "Keller 2019",
+   "authors": "Franziska B. Keller, David Schoch, Sebastian Stier & JungHwan Yang",
+   "year": 2019,
+   "journal": "Political Communication",
+   "title": "Political Astroturfing on Twitter: How to Coordinate a Disinformation Campaign",
+   "claim": "Coordinated astroturfing campaigns can be detected on Twitter.",
+   "method": "Network analysis",
+   "themes": [
+    "misinfo",
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10584609.2019.1661888); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10584609.2019.1661888"
+  },
+  {
+   "id": "altay2023",
+   "type": "work",
+   "label": "Altay 2023",
+   "authors": "Sacha Altay, Manon Berriche & Alberto Acerbi",
+   "year": 2023,
+   "journal": "Social Media + Society",
+   "title": "Misinformation on Misinformation: Conceptual and Methodological Challenges",
+   "claim": "Alarmism about misinformation is itself misinformation.",
+   "method": "Critique",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/20563051221150412); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/20563051221150412"
+  },
+  {
+   "id": "basol2021",
+   "type": "work",
+   "label": "Basol 2021",
+   "authors": "Melisa Basol, Jon Roozenbeek, Manon Berriche et al.",
+   "year": 2021,
+   "journal": "Big Data & Society",
+   "title": "Towards psychological herd immunity: Cross-cultural evidence for two prebunking interventions against COVID-19 misinformation",
+   "claim": "Prebunking games build resistance across cultures.",
+   "method": "Experiments",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/20539517211013868); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/20539517211013868"
+  },
+  {
+   "id": "burnapwilliams2015",
+   "type": "work",
+   "label": "Burnap 2015",
+   "authors": "Pete Burnap & Matthew L. Williams",
+   "year": 2015,
+   "journal": "Policy & Internet",
+   "title": "Cyber Hate Speech on Twitter: An Application of Machine Classification and Statistical Modeling for Policy and Decision Making",
+   "claim": "Machine classification of cyber hate on Twitter.",
+   "method": "Machine learning",
+   "themes": [
+    "misinfo",
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.85); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.85"
+  },
+  {
+   "id": "duboisblank2018",
+   "type": "work",
+   "label": "Dubois 2018",
+   "authors": "Elizabeth Dubois & Grant Blank",
+   "year": 2018,
+   "journal": "Information, Communication & Society",
+   "title": "The echo chamber is overstated: the moderating effect of political interest and diverse media",
+   "claim": "Interest and diverse media blunt echo chambers.",
+   "method": "Survey",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2018.1428656); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2018.1428656"
+  },
+  {
+   "id": "fletchernielsen2018",
+   "type": "work",
+   "label": "Fletcher 2017",
+   "authors": "Richard Fletcher & Rasmus Kleis Nielsen",
+   "year": 2017,
+   "journal": "New Media & Society",
+   "title": "Are people incidentally exposed to news on social media? A comparative analysis",
+   "claim": "Social media users are incidentally exposed to more news.",
+   "method": "Comparative survey",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444817724170); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444817724170"
+  },
+  {
+   "id": "moller2018",
+   "type": "work",
+   "label": "Möller 2018",
+   "authors": "Judith Möller, Damian Trilling, Natali Helberger & Bram van Es",
+   "year": 2018,
+   "journal": "Information, Communication & Society",
+   "title": "Do not blame it on the algorithm: an empirical assessment of multiple recommender systems and their impact on content diversity",
+   "claim": "Recommender systems need not reduce diversity.",
+   "method": "Simulation",
+   "themes": [
+    "publicsphere",
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2018.1444076); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2018.1444076"
+  },
+  {
+   "id": "gentzkowshapiro2011",
+   "type": "work",
+   "label": "Gentzkow 2011",
+   "authors": "Matthew Gentzkow & Jesse M. Shapiro",
+   "year": 2011,
+   "journal": "Quarterly Journal of Economics",
+   "title": "Ideological Segregation Online and Offline",
+   "claim": "Online news segregation is low relative to offline interactions.",
+   "method": "Browsing data",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/qje/qjr044); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/qje/qjr044"
+  },
+  {
+   "id": "farrell2012",
+   "type": "work",
+   "label": "Farrell 2012",
+   "authors": "Henry Farrell",
+   "year": 2012,
+   "journal": "Annual Review of Political Science",
+   "title": "The Consequences of the Internet for Politics",
+   "claim": "Reviews the internet's political consequences.",
+   "method": "Review",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-030810-110815); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1146/annurev-polisci-030810-110815"
+  },
+  {
+   "id": "engesser2017",
+   "type": "work",
+   "label": "Engesser 2016",
+   "authors": "Sven Engesser, Nicole Ernst, Frank Esser & Florin Büchel",
+   "year": 2016,
+   "journal": "Information, Communication & Society",
+   "title": "Populism and social media: how politicians spread a fragmented ideology",
+   "claim": "Politicians spread a fragmented populist ideology on social media.",
+   "method": "Content analysis",
+   "themes": [
+    "publicsphere",
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2016.1207697); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2016.1207697"
+  },
+  {
+   "id": "ernst2017",
+   "type": "work",
+   "label": "Ernst 2017",
+   "authors": "Nicole Ernst, Sven Engesser, Florin Büchel et al.",
+   "year": 2017,
+   "journal": "Information, Communication & Society",
+   "title": "Extreme parties and populism: an analysis of Facebook and Twitter across six countries",
+   "claim": "Extreme parties use more populism on Facebook and Twitter.",
+   "method": "Content analysis",
+   "themes": [
+    "publicsphere",
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2017.1329333); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2017.1329333"
+  },
+  {
+   "id": "boulianne2009",
+   "type": "work",
+   "label": "Boulianne 2009",
+   "authors": "Shelley Boulianne",
+   "year": 2009,
+   "journal": "Political Communication",
+   "title": "Does Internet Use Affect Engagement? A Meta-Analysis of Research",
+   "claim": "Internet use has small positive effects on engagement.",
+   "method": "Meta-analysis",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10584600902854363); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10584600902854363"
+  },
+  {
+   "id": "boulianne2015",
+   "type": "work",
+   "label": "Boulianne 2015",
+   "authors": "Shelley Boulianne",
+   "year": 2015,
+   "journal": "Information, Communication & Society",
+   "title": "Social media use and participation: a meta-analysis of current research",
+   "claim": "Social media use correlates positively with participation.",
+   "method": "Meta-analysis",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2015.1008542); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2015.1008542"
+  },
+  {
+   "id": "theocharis2015",
+   "type": "work",
+   "label": "Theocharis 2014",
+   "authors": "Yannis Theocharis, Will Lowe, Jan W. van Deth & Gema García-Albacete",
+   "year": 2014,
+   "journal": "Information, Communication & Society",
+   "title": "Using Twitter to mobilize protest action: online mobilization patterns and action repertoires in the Occupy Wall Street, Indignados, and Aganaktismenoi movements",
+   "claim": "Twitter mobilization patterns differ across protest movements.",
+   "method": "Twitter data",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2014.948035); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2014.948035"
+  },
+  {
+   "id": "garrett2006",
+   "type": "work",
+   "label": "Kelly Garrett 2006",
+   "authors": "R. Kelly Garrett",
+   "year": 2006,
+   "journal": "Information, Communication & Society",
+   "title": "Protest in an Information Society: a review of literature on social movements and new ICTs",
+   "claim": "Reviews social movements and new ICTs.",
+   "method": "Review",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/13691180600630773); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/13691180600630773"
+  },
+  {
+   "id": "vanlaer2010",
+   "type": "work",
+   "label": "Van Laer 2010",
+   "authors": "Jeroen Van Laer & Peter Van Aelst",
+   "year": 2010,
+   "journal": "Information, Communication & Society",
+   "title": "Internet and Social Movement Action Repertoires",
+   "claim": "The internet expands social movement action repertoires.",
+   "method": "Review",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/13691181003628307); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/13691181003628307"
+  },
+  {
+   "id": "halupka2014",
+   "type": "work",
+   "label": "Halupka 2014",
+   "authors": "Max Halupka",
+   "year": 2014,
+   "journal": "Policy & Internet",
+   "title": "Clicktivism: A Systematic Heuristic",
+   "claim": "A systematic heuristic for clicktivism.",
+   "method": "Conceptual",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/1944-2866.poi355); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/1944-2866.poi355"
+  },
+  {
+   "id": "pierskalla2013",
+   "type": "work",
+   "label": "Pierskalla 2013",
+   "authors": "Jan H. Pierskalla & Florian M. Hollenbach",
+   "year": 2013,
+   "journal": "APSR",
+   "title": "Technology and Collective Action: The Effect of Cell Phone Coverage on Political Violence in Africa",
+   "claim": "Cell phone coverage increases organized political violence in Africa.",
+   "method": "Grid-cell data",
+   "themes": [
+    "mobilization",
+    "authoritarian"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055413000075); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055413000075"
+  },
+  {
+   "id": "jost2018",
+   "type": "work",
+   "label": "Jost 2018",
+   "authors": "John T. Jost, Pablo Barberá, Richard Bonneau et al.",
+   "year": 2018,
+   "journal": "Political Psychology",
+   "title": "How Social Media Facilitates Political Protest: Information, Motivation, and Social Networks",
+   "claim": "Social media facilitate protest through information, motivation and networks.",
+   "method": "Review",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/pops.12478); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/pops.12478"
+  },
+  {
+   "id": "mundt2018",
+   "type": "work",
+   "label": "Mundt 2018",
+   "authors": "Marcia Mundt, Karen Ross & Charla M Burnett",
+   "year": 2018,
+   "journal": "Social Media + Society",
+   "title": "Scaling Social Movements Through Social Media: The Case of Black Lives Matter",
+   "claim": "Social media scale BLM organizing.",
+   "method": "Interviews",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2056305118807911); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2056305118807911"
+  },
+  {
+   "id": "karpf2010",
+   "type": "work",
+   "label": "Karpf 2010",
+   "authors": "David Karpf",
+   "year": 2010,
+   "journal": "Policy & Internet",
+   "title": "Online Political Mobilization from the Advocacy Group's Perspective: Looking Beyond Clicktivism",
+   "claim": "Online mobilization from the advocacy group's perspective.",
+   "method": "Analysis",
+   "themes": [
+    "mobilization",
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2202/1944-2866.1098); claim is my summary, not re-read this session",
+   "crossref_doi": "10.2202/1944-2866.1098"
+  },
+  {
+   "id": "loadermercea2011",
+   "type": "work",
+   "label": "Loader 2011",
+   "authors": "Brian D. Loader & Dan Mercea",
+   "year": 2011,
+   "journal": "Information, Communication & Society",
+   "title": "Networking Democracy?",
+   "claim": "Social media and participatory democracy.",
+   "method": "Special issue introduction",
+   "themes": [
+    "mobilization",
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2011.592648); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2011.592648"
+  },
+  {
+   "id": "jungherr2016",
+   "type": "work",
+   "label": "Jungherr 2015",
+   "authors": "Andreas Jungherr",
+   "year": 2015,
+   "journal": "Journal of Information Technology & Politics",
+   "title": "Twitter use in election campaigns: A systematic literature review",
+   "claim": "Systematic review of Twitter in election campaigns.",
+   "method": "Review",
+   "themes": [
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/19331681.2015.1132401); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/19331681.2015.1132401"
+  },
+  {
+   "id": "bimber2014",
+   "type": "work",
+   "label": "Bimber 2014",
+   "authors": "Bruce Bimber",
+   "year": 2014,
+   "journal": "Journal of Information Technology & Politics",
+   "title": "Digital Media in the Obama Campaigns of 2008 and 2012: Adaptation to the Personalized Political Communication Environment",
+   "claim": "Obama campaigns adapted to personalized communication.",
+   "method": "Case analysis",
+   "themes": [
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/19331681.2014.895691); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/19331681.2014.895691"
+  },
+  {
+   "id": "enliskogerbo2013",
+   "type": "work",
+   "label": "Enli 2013",
+   "authors": "Gunn Sara Enli & Eli Skogerbø",
+   "year": 2013,
+   "journal": "Information, Communication & Society",
+   "title": "Personalized Campaigns in Party-centred Politics",
+   "claim": "Social media personalize campaigns in party-centered systems.",
+   "method": "Case study",
+   "themes": [
+    "campaigns"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2013.782330); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2013.782330"
+  },
+  {
+   "id": "klingersvensson2015",
+   "type": "work",
+   "label": "Klinger 2014",
+   "authors": "Ulrike Klinger & Jakob Svensson",
+   "year": 2014,
+   "journal": "New Media & Society",
+   "title": "The emergence of network media logic in political communication: A theoretical approach",
+   "claim": "Network media logic in political communication.",
+   "method": "Theory",
+   "themes": [
+    "campaigns",
+    "publicsphere"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444814522952); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444814522952"
+  },
+  {
+   "id": "kreissmcgregor2018",
+   "type": "work",
+   "label": "Kreiss 2017",
+   "authors": "Daniel Kreiss & Shannon C. Mcgregor",
+   "year": 2017,
+   "journal": "Political Communication",
+   "title": "Technology Firms Shape Political Communication: The Work of Microsoft, Facebook, Twitter, and Google With Campaigns During the 2016 U.S. Presidential Cycle",
+   "claim": "Tech firms actively shape campaign communication.",
+   "method": "Interviews",
+   "themes": [
+    "campaigns",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10584609.2017.1364814); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10584609.2017.1364814"
+  },
+  {
+   "id": "gibsoncantijoch2013",
+   "type": "work",
+   "label": "Gibson 2013",
+   "authors": "Rachel Gibson & Marta Cantijoch",
+   "year": 2013,
+   "journal": "JOP",
+   "title": "Conceptualizing and Measuring Participation in the Age of the Internet: Is Online Political Engagement Really Different to Offline?",
+   "claim": "Online participation is a distinct mode.",
+   "method": "Survey",
+   "themes": [
+    "campaigns",
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381613000431); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0022381613000431"
+  },
+  {
+   "id": "chadwick2007",
+   "type": "work",
+   "label": "Chadwick 2007",
+   "authors": "Andrew Chadwick",
+   "year": 2007,
+   "journal": "Political Communication",
+   "title": "Digital Network Repertoires and Organizational Hybridity",
+   "claim": "Digital network repertoires produce organizational hybridity.",
+   "method": "Theory",
+   "themes": [
+    "campaigns",
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10584600701471666); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10584600701471666"
+  },
+  {
+   "id": "vandeursen2014",
+   "type": "work",
+   "label": "van Deursen 2013",
+   "authors": "Alexander Jam van Deursen & Jan Agm van Dijk",
+   "year": 2013,
+   "journal": "New Media & Society",
+   "title": "The digital divide shifts to differences in usage",
+   "claim": "The digital divide shifts to differences in usage.",
+   "method": "Survey",
+   "themes": [
+    "divide"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444813487959); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444813487959"
+  },
+  {
+   "id": "vandeursen2019",
+   "type": "work",
+   "label": "van Deursen 2018",
+   "authors": "Alexander Jam van Deursen & Jan Agm van Dijk",
+   "year": 2018,
+   "journal": "New Media & Society",
+   "title": "The first-level digital divide shifts from inequalities in physical access to inequalities in material access",
+   "claim": "The first-level divide shifts to inequalities in material access.",
+   "method": "Survey",
+   "themes": [
+    "divide"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1461444818797082); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1461444818797082"
+  },
+  {
+   "id": "robinson2015",
+   "type": "work",
+   "label": "Robinson 2015",
+   "authors": "Laura Robinson, Shelia R. Cotten, Hiroshi Ono et al.",
+   "year": 2015,
+   "journal": "Information, Communication & Society",
+   "title": "Digital inequalities and why they matter",
+   "claim": "Digital inequalities matter for life chances.",
+   "method": "Review",
+   "themes": [
+    "divide"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2015.1012532); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2015.1012532"
+  },
+  {
+   "id": "hargittaiwalejko2008",
+   "type": "work",
+   "label": "Hargittai 2008",
+   "authors": "Eszter Hargittai & Gina Walejko",
+   "year": 2008,
+   "journal": "Information, Communication & Society",
+   "title": "THE PARTICIPATION DIVIDE: Content creation and sharing in the digital age1",
+   "claim": "Content creation divides by education and gender.",
+   "method": "Survey",
+   "themes": [
+    "divide",
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/13691180801946150); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/13691180801946150"
+  },
+  {
+   "id": "min2010",
+   "type": "work",
+   "label": "Min 2010",
+   "authors": "Seong-Jae Min",
+   "year": 2010,
+   "journal": "Journal of Information Technology & Politics",
+   "title": "From the Digital Divide to the Democratic Divide: Internet Skills, Political Interest, and the Second-Level Digital Divide in Political Internet Use",
+   "claim": "Internet skills link the digital divide to a democratic divide.",
+   "method": "Survey",
+   "themes": [
+    "divide",
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/19331680903109402); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/19331680903109402"
+  },
+  {
+   "id": "gran2021",
+   "type": "work",
+   "label": "Gran 2020",
+   "authors": "Anne-Britt Gran, Peter Booth & Taina Bucher",
+   "year": 2020,
+   "journal": "Information, Communication & Society",
+   "title": "To be or not to be algorithm aware: a question of a new digital divide?",
+   "claim": "Algorithm awareness is a new digital divide.",
+   "method": "Survey",
+   "themes": [
+    "divide",
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2020.1736124); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2020.1736124"
+  },
+  {
+   "id": "brynjolfsson2025",
+   "type": "work",
+   "label": "Brynjolfsson 2025",
+   "authors": "Erik Brynjolfsson, Danielle Li & Lindsey Raymond",
+   "year": 2025,
+   "journal": "Quarterly Journal of Economics",
+   "title": "Generative AI at Work",
+   "claim": "Generative AI raised customer-support productivity, especially for novices.",
+   "method": "Field deployment data",
+   "themes": [
+    "labor"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/qje/qjae044); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/qje/qjae044"
+  },
+  {
+   "id": "jarrahi2021",
+   "type": "work",
+   "label": "Jarrahi 2021",
+   "authors": "Mohammad Hossein Jarrahi, Gemma Newlands, Min Kyung Lee et al.",
+   "year": 2021,
+   "journal": "Big Data & Society",
+   "title": "Algorithmic management in a work context",
+   "claim": "Algorithmic management reshapes work.",
+   "method": "Review",
+   "themes": [
+    "labor",
+    "algorithms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/20539517211020332); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/20539517211020332"
+  },
+  {
+   "id": "tubaro2020",
+   "type": "work",
+   "label": "Tubaro 2020",
+   "authors": "Paola Tubaro, Antonio A Casilli & Marion Coville",
+   "year": 2020,
+   "journal": "Big Data & Society",
+   "title": "The trainer, the verifier, the imitator: Three ways in which human platform workers support artificial intelligence",
+   "claim": "Platform workers train, verify and imitate AI.",
+   "method": "Analysis",
+   "themes": [
+    "labor"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951720919776); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951720919776"
+  },
+  {
+   "id": "vandervlist2024",
+   "type": "work",
+   "label": "van der Vlist 2024",
+   "authors": "Fernando van der Vlist, Anne Helmond & Fabian Ferrari",
+   "year": 2024,
+   "journal": "Big Data & Society",
+   "title": "Big AI: Cloud infrastructure dependence and the industrialisation of artificial intelligence",
+   "claim": "AI industrialization depends on cloud infrastructure.",
+   "method": "Political economy",
+   "themes": [
+    "labor",
+    "geopolitics",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/20539517241232630); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/20539517241232630"
+  },
+  {
+   "id": "mergel2019",
+   "type": "work",
+   "label": "Mergel 2019",
+   "authors": "Ines Mergel, Noella Edelmann & Nathalie Haug",
+   "year": 2019,
+   "journal": "Government Information Quarterly",
+   "title": "Defining digital transformation: Results from expert interviews",
+   "claim": "Defines digital transformation in government.",
+   "method": "Expert interviews",
+   "themes": [
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.giq.2019.06.002); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.giq.2019.06.002"
+  },
+  {
+   "id": "bertot2010",
+   "type": "work",
+   "label": "Bertot 2010",
+   "authors": "John C. Bertot, Paul T. Jaeger & Justin M. Grimes",
+   "year": 2010,
+   "journal": "Government Information Quarterly",
+   "title": "Using ICTs to create a culture of transparency: E-government and social media as openness and anti-corruption tools for societies",
+   "claim": "E-government and social media as openness tools.",
+   "method": "Analysis",
+   "themes": [
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.giq.2010.03.001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.giq.2010.03.001"
+  },
+  {
+   "id": "linders2012",
+   "type": "work",
+   "label": "Linders 2012",
+   "authors": "Dennis Linders",
+   "year": 2012,
+   "journal": "Government Information Quarterly",
+   "title": "From e-government to we-government: Defining a typology for citizen coproduction in the age of social media",
+   "claim": "From e-government to we-government coproduction.",
+   "method": "Typology",
+   "themes": [
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.giq.2012.06.003); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.giq.2012.06.003"
+  },
+  {
+   "id": "sunmedaglia2019",
+   "type": "work",
+   "label": "Sun 2019",
+   "authors": "Tara Qian Sun & Rony Medaglia",
+   "year": 2019,
+   "journal": "Government Information Quarterly",
+   "title": "Mapping the challenges of Artificial Intelligence in the public sector: Evidence from public healthcare",
+   "claim": "Challenges of AI in the public sector.",
+   "method": "Case study",
+   "themes": [
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.giq.2018.09.008); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.giq.2018.09.008"
+  },
+  {
+   "id": "zuiderwijk2021",
+   "type": "work",
+   "label": "Zuiderwijk 2021",
+   "authors": "Anneke Zuiderwijk, Yu-Che Chen & Fadi Salem",
+   "year": 2021,
+   "journal": "Government Information Quarterly",
+   "title": "Implications of the use of artificial intelligence in public governance: A systematic literature review and a research agenda",
+   "claim": "Implications of AI in public governance.",
+   "method": "Systematic review",
+   "themes": [
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.giq.2021.101577); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.giq.2021.101577"
+  },
+  {
+   "id": "janssen2020",
+   "type": "work",
+   "label": "Janssen 2020",
+   "authors": "Marijn Janssen, Paul Brous, Elsa Estevez et al.",
+   "year": 2020,
+   "journal": "Government Information Quarterly",
+   "title": "Data governance: Organizing data for trustworthy Artificial Intelligence",
+   "claim": "Data governance for trustworthy AI.",
+   "method": "Framework",
+   "themes": [
+    "state",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.giq.2020.101493); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.giq.2020.101493"
+  },
+  {
+   "id": "kuziemski2020",
+   "type": "work",
+   "label": "Kuziemski 2020",
+   "authors": "Maciej Kuziemski & Gianluca Misuraca",
+   "year": 2020,
+   "journal": "Telecommunications Policy",
+   "title": "AI governance in the public sector: Three tales from the frontiers of automated decision-making in democratic settings",
+   "claim": "Three tales of automated decision-making in government.",
+   "method": "Case studies",
+   "themes": [
+    "state",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.telpol.2020.101976); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.telpol.2020.101976"
+  },
+  {
+   "id": "ingrams2022",
+   "type": "work",
+   "label": "Ingrams 2021",
+   "authors": "Alex Ingrams, Wesley Kaufmann & Daan Jacobs",
+   "year": 2021,
+   "journal": "Policy & Internet",
+   "title": "In AI we trust? Citizen perceptions of AI in government decision making",
+   "claim": "Citizens trust AI in government decisions less for complex tasks.",
+   "method": "Experiment",
+   "themes": [
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.276); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.276"
+  },
+  {
+   "id": "araujo2020",
+   "type": "work",
+   "label": "Araujo 2020",
+   "authors": "Theo Araujo, Natali Helberger, Sanne Kruikemeier & Claes H. de Vreese",
+   "year": 2020,
+   "journal": "AI & Society",
+   "title": "In AI we trust? Perceptions about automated decision-making by artificial intelligence",
+   "claim": "People perceive automated decisions as fair in some domains.",
+   "method": "Survey",
+   "themes": [
+    "state",
+    "fairness"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s00146-019-00931-w); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s00146-019-00931-w"
+  },
+  {
+   "id": "bannister2011",
+   "type": "work",
+   "label": "Bannister 2011",
+   "authors": "Frank Bannister & Regina Connolly",
+   "year": 2011,
+   "journal": "Policy & Internet",
+   "title": "The Trouble with Transparency: A Critical Review of Openness in e‐Government",
+   "claim": "Openness in e-government has trouble spots.",
+   "method": "Review",
+   "themes": [
+    "state"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2202/1944-2866.1076); claim is my summary, not re-read this session",
+   "crossref_doi": "10.2202/1944-2866.1076"
+  },
+  {
+   "id": "laux2024",
+   "type": "work",
+   "label": "Laux 2023",
+   "authors": "Johann Laux, Sandra Wachter & Brent Mittelstadt",
+   "year": 2023,
+   "journal": "Regulation & Governance",
+   "title": "Trustworthy artificial intelligence and the European Union AI act: On the conflation of trustworthiness and acceptability of risk",
+   "claim": "EU trustworthy AI regulation faces design tensions.",
+   "method": "Analysis",
+   "themes": [
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/rego.12512); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/rego.12512"
+  },
+  {
+   "id": "mokander2022",
+   "type": "work",
+   "label": "Mökander 2022",
+   "authors": "Jakob Mökander, Prathm Juneja, David S. Watson & Luciano Floridi",
+   "year": 2022,
+   "journal": "Minds and Machines",
+   "title": "The US Algorithmic Accountability Act of 2022 vs. The EU Artificial Intelligence Act: what can they learn from each other?",
+   "claim": "Compares the US Algorithmic Accountability Act and EU AI Act.",
+   "method": "Comparative legal analysis",
+   "themes": [
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11023-022-09612-y); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11023-022-09612-y"
+  },
+  {
+   "id": "taeihagh2021",
+   "type": "work",
+   "label": "Taeihagh 2021",
+   "authors": "Araz Taeihagh, M Ramesh & Michael Howlett",
+   "year": 2021,
+   "journal": "Regulation & Governance",
+   "title": "Assessing the regulatory challenges of emerging disruptive technologies",
+   "claim": "Regulatory challenges of emerging disruptive technologies.",
+   "method": "Review",
+   "themes": [
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/rego.12392); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/rego.12392"
+  },
+  {
+   "id": "floridi2018ptech",
+   "type": "work",
+   "label": "Floridi 2018",
+   "authors": "Luciano Floridi",
+   "year": 2018,
+   "journal": "Philosophy & Technology",
+   "title": "Soft Ethics and the Governance of the Digital",
+   "claim": "Soft ethics complements hard law in digital governance.",
+   "method": "Philosophy",
+   "themes": [
+    "regulation",
+    "ethics"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-018-0303-9); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-018-0303-9"
+  },
+  {
+   "id": "obarwildman2015",
+   "type": "work",
+   "label": "Obar 2015",
+   "authors": "Jonathan A. Obar & Steve Wildman",
+   "year": 2015,
+   "journal": "Telecommunications Policy",
+   "title": "Social media definition and the governance challenge: An introduction to the special issue",
+   "claim": "Defining social media is a governance challenge.",
+   "method": "Introduction",
+   "themes": [
+    "regulation",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1016/j.telpol.2015.07.014); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.telpol.2015.07.014"
+  },
+  {
+   "id": "hansennissenbaum2009",
+   "type": "work",
+   "label": "Hansen 2009",
+   "authors": "Lene Hansen & Helen Nissenbaum",
+   "year": 2009,
+   "journal": "ISQ",
+   "title": "Digital Disaster, Cyber Security, and the Copenhagen School",
+   "claim": "Cyber security as a securitization sector.",
+   "method": "Copenhagen School analysis",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1468-2478.2009.00572.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1468-2478.2009.00572.x"
+  },
+  {
+   "id": "floridi2020",
+   "type": "work",
+   "label": "Floridi 2020",
+   "authors": "Luciano Floridi",
+   "year": 2020,
+   "journal": "Philosophy & Technology",
+   "title": "The Fight for Digital Sovereignty: What It Is, and Why It Matters, Especially for the EU",
+   "claim": "Digital sovereignty matters especially for the EU.",
+   "method": "Analysis",
+   "themes": [
+    "geopolitics",
+    "regulation"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s13347-020-00423-6); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s13347-020-00423-6"
+  },
+  {
+   "id": "boydcrawford2012",
+   "type": "work",
+   "label": "boyd 2012",
+   "authors": "danah boyd & Kate Crawford",
+   "year": 2012,
+   "journal": "Information, Communication & Society",
+   "title": "Critical Questions for Big Data",
+   "claim": "Six provocations about big data.",
+   "method": "Critical essay",
+   "themes": [
+    "methods",
+    "surveillance"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2012.678878); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2012.678878"
+  },
+  {
+   "id": "kitchin2014",
+   "type": "work",
+   "label": "Kitchin 2014",
+   "authors": "Rob Kitchin",
+   "year": 2014,
+   "journal": "Big Data & Society",
+   "title": "Big Data, new epistemologies and paradigm shifts",
+   "claim": "Big data brings new epistemologies and paradigm shifts.",
+   "method": "Analysis",
+   "themes": [
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/2053951714528481); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/2053951714528481"
+  },
+  {
+   "id": "grimmer2021",
+   "type": "work",
+   "label": "Grimmer 2021",
+   "authors": "Justin Grimmer, Margaret E. Roberts & Brandon M. Stewart",
+   "year": 2021,
+   "journal": "Annual Review of Political Science",
+   "title": "Machine Learning for Social Science: An Agnostic Approach",
+   "claim": "An agnostic approach to machine learning in social science.",
+   "method": "Review",
+   "themes": [
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-053119-015921); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1146/annurev-polisci-053119-015921"
+  },
+  {
+   "id": "wilkersoncasas2017",
+   "type": "work",
+   "label": "Wilkerson 2017",
+   "authors": "John Wilkerson & Andreu Casas",
+   "year": 2017,
+   "journal": "Annual Review of Political Science",
+   "title": "Large-Scale Computerized Text Analysis in Political Science: Opportunities and Challenges",
+   "claim": "Opportunities and challenges of large-scale text analysis.",
+   "method": "Review",
+   "themes": [
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-052615-025542); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1146/annurev-polisci-052615-025542"
+  },
+  {
+   "id": "atheyimbens2019",
+   "type": "work",
+   "label": "Athey 2019",
+   "authors": "Susan Athey & Guido W. Imbens",
+   "year": 2019,
+   "journal": "Annual Review of Economics",
+   "title": "Machine Learning Methods That Economists Should Know About",
+   "claim": "Machine learning methods economists should know.",
+   "method": "Review",
+   "themes": [
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-economics-080217-053433); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1146/annurev-economics-080217-053433"
+  },
+  {
+   "id": "bruns2019",
+   "type": "work",
+   "label": "Bruns 2019",
+   "authors": "Axel Bruns",
+   "year": 2019,
+   "journal": "Information, Communication & Society",
+   "title": "After the ‘APIcalypse’: social media platforms and their fight against critical scholarly research",
+   "claim": "Platforms restricted data access for critical research.",
+   "method": "Analysis",
+   "themes": [
+    "methods",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/1369118x.2019.1637447); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1369118x.2019.1637447"
+  },
+  {
+   "id": "freelon2018",
+   "type": "work",
+   "label": "Freelon 2018",
+   "authors": "Deen Freelon",
+   "year": 2018,
+   "journal": "Political Communication",
+   "title": "Computational Research in the Post-API Age",
+   "claim": "Computational research in the post-API age.",
+   "method": "Analysis",
+   "themes": [
+    "methods",
+    "platforms"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/10584609.2018.1477506); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10584609.2018.1477506"
+  },
+  {
+   "id": "gonzalezbailon2013",
+   "type": "work",
+   "label": "González‐Bailón 2013",
+   "authors": "Sandra González‐Bailón",
+   "year": 2013,
+   "journal": "Policy & Internet",
+   "title": "Social science in the era of big data",
+   "claim": "Social science in the era of big data.",
+   "method": "Essay",
+   "themes": [
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/1944-2866.poi328); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/1944-2866.poi328"
+  }
+ ]
+}

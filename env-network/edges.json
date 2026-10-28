@@ -1,0 +1,3760 @@
+{
+ "meta": {
+  "title": "Environmental politics knowledge network, c. 1968-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in environmental and climate politics: the international climate regime, transnational and private governance, governance architecture and earth system governance, the political economy of climate policy, public opinion, denial and the countermovement, parties and populism, policy instruments, energy transitions, environmental and climate justice, adaptation, the commons, natural resources and the resource curse, climate and conflict, the environmental state and democracy, trade, finance and corporate power, and movements and litigation. Seeds come from this repo's papers.json; works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (nine environmental journals plus political science journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 252,
+   "theme_nodes": 17,
+   "seed_from_papers_json": 10,
+   "crossref_top_cited": 187,
+   "anchors_supplement": 55,
+   "relation_edges": 251,
+   "membership_edges": 371
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "haas1989",
+   "target": "hardin1968",
+   "type": "qualifies",
+   "why": "Epistemic communities enable cooperation on shared resources."
+  },
+  {
+   "source": "barrett2003",
+   "target": "hardin1968",
+   "type": "builds_on",
+   "why": "Treaty design for global commons."
+  },
+  {
+   "source": "mitchell1994",
+   "target": "haas1989",
+   "type": "synthesizes",
+   "why": "Regime design and compliance."
+  },
+  {
+   "source": "victor2011",
+   "target": "barrett2003",
+   "type": "builds_on",
+   "why": "Gridlock in universal climate talks."
+  },
+  {
+   "source": "keohanevictor2011",
+   "target": "victor2011",
+   "type": "synthesizes",
+   "why": "Regime complex for climate change."
+  },
+  {
+   "source": "nordhaus2015",
+   "target": "barrett2003",
+   "type": "builds_on",
+   "why": "Climate clubs with trade penalties."
+  },
+  {
+   "source": "falkner2016",
+   "target": "keohanevictor2011",
+   "type": "builds_on",
+   "why": "Paris and the logic of pledge and review."
+  },
+  {
+   "source": "dimitrov2016",
+   "target": "falkner2016",
+   "type": "synthesizes",
+   "why": "Inside the Paris negotiations."
+  },
+  {
+   "source": "hale2016",
+   "target": "falkner2016",
+   "type": "builds_on",
+   "why": "Paris and nonstate action."
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "barrett2003",
+   "type": "challenges",
+   "why": "Distributive conflict, not free riding."
+  },
+  {
+   "source": "eckersley2012",
+   "target": "victor2011",
+   "type": "qualifies",
+   "why": "Inclusive minilateralism."
+  },
+  {
+   "source": "falkner2016pop",
+   "target": "nordhaus2015",
+   "type": "builds_on",
+   "why": "Minilateral clubs."
+  },
+  {
+   "source": "mitchell2020",
+   "target": "mitchell1994",
+   "type": "synthesizes",
+   "why": "What we know about IEAs."
+  },
+  {
+   "source": "tingleytomz2014",
+   "target": "barrett2003",
+   "type": "mechanism_tested_by",
+   "why": "Conditional cooperation in publics."
+  },
+  {
+   "source": "bechtel2019",
+   "target": "tingleytomz2014",
+   "type": "builds_on",
+   "why": "Interests and norms in climate support."
+  },
+  {
+   "source": "vanhala2016",
+   "target": "falkner2016",
+   "type": "synthesizes",
+   "why": "Loss and damage framing."
+  },
+  {
+   "source": "gupta2010",
+   "target": "barrett2003",
+   "type": "synthesizes",
+   "why": "History of climate policy."
+  },
+  {
+   "source": "schleussner2016",
+   "target": "falkner2016",
+   "type": "synthesizes",
+   "why": "Temperature goal science."
+  },
+  {
+   "source": "biermannboas2010",
+   "target": "biermann2009",
+   "type": "extends_to_new_case",
+   "why": "Governing climate refugees."
+  },
+  {
+   "source": "hale2021",
+   "target": "hale2016",
+   "type": "builds_on",
+   "why": "Net zero targets."
+  },
+  {
+   "source": "bernauer2013",
+   "target": "victor2011",
+   "type": "synthesizes",
+   "why": "Review of climate politics."
+  },
+  {
+   "source": "vonstein2008",
+   "target": "barrett2003",
+   "type": "builds_on",
+   "why": "Climate law and politics."
+  },
+  {
+   "source": "allan2017",
+   "target": "haas1989",
+   "type": "builds_on",
+   "why": "Scientists constitute climate governance."
+  },
+  {
+   "source": "battig2009",
+   "target": "barrett2003",
+   "type": "qualifies",
+   "why": "Democracies cooperate more on climate."
+  },
+  {
+   "source": "stoddard2021",
+   "target": "victor2011",
+   "type": "synthesizes",
+   "why": "Thirty years of failed mitigation."
+  },
+  {
+   "source": "cashore2002",
+   "target": "vogel1995",
+   "type": "builds_on",
+   "why": "Market-driven private authority."
+  },
+  {
+   "source": "andonova2009",
+   "target": "bulkeleybetsill2003",
+   "type": "builds_on",
+   "why": "Transnational climate governance typology."
+  },
+  {
+   "source": "andonova2009",
+   "target": "backstrand2008",
+   "type": "synthesizes",
+   "why": "Accountability of partnerships."
+  },
+  {
+   "source": "andonova2010",
+   "target": "andonova2009",
+   "type": "builds_on",
+   "why": "Hybrid public-private authority."
+  },
+  {
+   "source": "okereke2009",
+   "target": "andonova2009",
+   "type": "synthesizes",
+   "why": "Beyond the regime."
+  },
+  {
+   "source": "green2013",
+   "target": "cashore2002",
+   "type": "builds_on",
+   "why": "Private carbon rules."
+  },
+  {
+   "source": "green2014",
+   "target": "green2013",
+   "type": "builds_on",
+   "why": "Private authority book."
+  },
+  {
+   "source": "abbott2015",
+   "target": "haleroger2014",
+   "type": "synthesizes",
+   "why": "Orchestration in climate governance."
+  },
+  {
+   "source": "backstrandkuyper2017",
+   "target": "haleroger2014",
+   "type": "qualifies",
+   "why": "Legitimacy of orchestration."
+  },
+  {
+   "source": "backstrand2017",
+   "target": "hale2016",
+   "type": "synthesizes",
+   "why": "Nonstate actors from Copenhagen to Paris."
+  },
+  {
+   "source": "andonova2017",
+   "target": "andonova2009",
+   "type": "builds_on",
+   "why": "National policy and transnational governance."
+  },
+  {
+   "source": "roger2017",
+   "target": "andonova2017",
+   "type": "synthesizes",
+   "why": "Comparative politics of transnational governance."
+  },
+  {
+   "source": "hale2020",
+   "target": "andonova2009",
+   "type": "synthesizes",
+   "why": "Review of transnational governance."
+  },
+  {
+   "source": "bulkeley2014",
+   "target": "andonova2009",
+   "type": "builds_on",
+   "why": "Database of transnational initiatives."
+  },
+  {
+   "source": "bulkeley2010",
+   "target": "bulkeleybetsill2003",
+   "type": "builds_on",
+   "why": "Cities governing climate."
+  },
+  {
+   "source": "bulkeleybetsill2013",
+   "target": "bulkeleybetsill2003",
+   "type": "builds_on",
+   "why": "Revisiting urban climate politics."
+  },
+  {
+   "source": "kern2019",
+   "target": "bulkeleybetsill2013",
+   "type": "builds_on",
+   "why": "Cities lead EU climate governance."
+  },
+  {
+   "source": "lee2013",
+   "target": "bulkeley2010",
+   "type": "mechanism_tested_by",
+   "why": "Global cities in climate networks."
+  },
+  {
+   "source": "hakelberg2014",
+   "target": "bulkeley2010",
+   "type": "mechanism_tested_by",
+   "why": "Diffusion through municipal networks."
+  },
+  {
+   "source": "dingwerth2010",
+   "target": "cashore2002",
+   "type": "qualifies",
+   "why": "Tamed transparency in disclosure."
+  },
+  {
+   "source": "auldgulbrandsen2010",
+   "target": "cashore2002",
+   "type": "builds_on",
+   "why": "Transparency in certification."
+  },
+  {
+   "source": "haufler2010",
+   "target": "dingwerth2010",
+   "type": "synthesizes",
+   "why": "Disclosure as governance."
+  },
+  {
+   "source": "newell2008",
+   "target": "cashore2002",
+   "type": "challenges",
+   "why": "Corporate accountability from civil society."
+  },
+  {
+   "source": "biermann2007",
+   "target": "wced1987",
+   "type": "builds_on",
+   "why": "Earth system governance agenda."
+  },
+  {
+   "source": "biermann2009",
+   "target": "biermann2007",
+   "type": "builds_on",
+   "why": "Fragmentation of architectures."
+  },
+  {
+   "source": "zellivanasselt2013",
+   "target": "biermann2009",
+   "type": "builds_on",
+   "why": "Fragmentation causes and effects."
+  },
+  {
+   "source": "keohanevictor2011",
+   "target": "biermann2009",
+   "type": "synthesizes",
+   "why": "Regime complex and fragmentation (contemporaneous)."
+  },
+  {
+   "source": "abbott2016",
+   "target": "keohanevictor2011",
+   "type": "builds_on",
+   "why": "Organizational ecology of governance."
+  },
+  {
+   "source": "burch2019",
+   "target": "biermann2007",
+   "type": "builds_on",
+   "why": "New directions in earth system governance."
+  },
+  {
+   "source": "glassnewig2019",
+   "target": "wced1987",
+   "type": "extends_to_new_case",
+   "why": "Governance for the SDGs."
+  },
+  {
+   "source": "dorschflachsland2017",
+   "target": "ostrom2010",
+   "type": "builds_on",
+   "why": "Polycentric climate governance."
+  },
+  {
+   "source": "lemosagrawal2006",
+   "target": "ostrom1990",
+   "type": "builds_on",
+   "why": "Hybrid environmental governance."
+  },
+  {
+   "source": "biermannkalfagianni2020",
+   "target": "biermann2007",
+   "type": "builds_on",
+   "why": "Planetary justice framework."
+  },
+  {
+   "source": "rockstrom2009",
+   "target": "meadows1972",
+   "type": "builds_on",
+   "why": "Planetary limits revisited."
+  },
+  {
+   "source": "steffen2015",
+   "target": "rockstrom2009",
+   "type": "builds_on",
+   "why": "Updated planetary boundaries."
+  },
+  {
+   "source": "bernstein2001",
+   "target": "wced1987",
+   "type": "challenges",
+   "why": "Liberal environmentalism compromise."
+  },
+  {
+   "source": "dryzek1997",
+   "target": "meadows1972",
+   "type": "synthesizes",
+   "why": "Discourses from survivalism onward."
+  },
+  {
+   "source": "beck1992",
+   "target": "meadows1972",
+   "type": "synthesizes",
+   "why": "Risk society (thematic link)."
+  },
+  {
+   "source": "mannwainwright2018",
+   "target": "beck1992",
+   "type": "synthesizes",
+   "why": "Planetary sovereignty scenarios."
+  },
+  {
+   "source": "wced1987",
+   "target": "meadows1972",
+   "type": "qualifies",
+   "why": "Sustainable development reframes limits."
+  },
+  {
+   "source": "harrisonsundstrom2007",
+   "target": "barrett2003",
+   "type": "qualifies",
+   "why": "Domestic politics explain climate commitments."
+  },
+  {
+   "source": "harrisonsundstrom2010",
+   "target": "harrisonsundstrom2007",
+   "type": "builds_on",
+   "why": "Comparative politics of climate change."
+  },
+  {
+   "source": "meckling2011",
+   "target": "harrisonsundstrom2010",
+   "type": "synthesizes",
+   "why": "Business coalitions and emissions trading."
+  },
+  {
+   "source": "meckling2015",
+   "target": "meckling2011",
+   "type": "builds_on",
+   "why": "Green industrial policy builds coalitions."
+  },
+  {
+   "source": "aklinurpelainen2013",
+   "target": "unruh2000",
+   "type": "builds_on",
+   "why": "Path dependence in transitions."
+  },
+  {
+   "source": "aklinurpelainen2018",
+   "target": "aklinurpelainen2013",
+   "type": "builds_on",
+   "why": "Renewables book."
+  },
+  {
+   "source": "stokes2016",
+   "target": "meckling2015",
+   "type": "qualifies",
+   "why": "Local backlash to clean energy."
+  },
+  {
+   "source": "stokes2020",
+   "target": "stokes2016",
+   "type": "builds_on",
+   "why": "Utility retrenchment of clean energy laws."
+  },
+  {
+   "source": "breetz2018",
+   "target": "meckling2015",
+   "type": "builds_on",
+   "why": "Phases of transition politics."
+  },
+  {
+   "source": "mildenberger2020",
+   "target": "meckling2011",
+   "type": "builds_on",
+   "why": "Double representation of carbon interests."
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "mildenberger2020",
+   "type": "synthesizes",
+   "why": "Distributive conflict framing."
+  },
+  {
+   "source": "colgan2021",
+   "target": "aklinmildenberger2020",
+   "type": "builds_on",
+   "why": "Asset revaluation and existential politics."
+  },
+  {
+   "source": "green2021",
+   "target": "colgan2021",
+   "type": "builds_on",
+   "why": "Transition, hedge or resist."
+  },
+  {
+   "source": "allan2021",
+   "target": "meckling2015",
+   "type": "builds_on",
+   "why": "Green industrial policy transforms climate politics."
+  },
+  {
+   "source": "meckling2021",
+   "target": "meckling2015",
+   "type": "builds_on",
+   "why": "Strategic state capacity."
+  },
+  {
+   "source": "finnegan2022",
+   "target": "harrisonsundstrom2010",
+   "type": "builds_on",
+   "why": "Institutions for long-term policy."
+  },
+  {
+   "source": "hugheslipscy2013",
+   "target": "unruh2000",
+   "type": "synthesizes",
+   "why": "Politics of energy review."
+  },
+  {
+   "source": "gaikwad2022",
+   "target": "aklinmildenberger2020",
+   "type": "mechanism_tested_by",
+   "why": "Compensation builds climate coalitions."
+  },
+  {
+   "source": "allan2021",
+   "target": "lewis2014",
+   "type": "synthesizes",
+   "why": "Renewable protectionism (earlier)."
+  },
+  {
+   "source": "patterson2023",
+   "target": "stokes2016",
+   "type": "synthesizes",
+   "why": "Backlash to climate policy."
+  },
+  {
+   "source": "leiserowitz2006",
+   "target": "dryzek1997",
+   "type": "synthesizes",
+   "why": "Sustainability values review."
+  },
+  {
+   "source": "lorenzoni2007",
+   "target": "leiserowitz2006",
+   "type": "builds_on",
+   "why": "Barriers to engagement."
+  },
+  {
+   "source": "franzenvogl2013",
+   "target": "leiserowitz2006",
+   "type": "builds_on",
+   "why": "Environmental attitudes across countries."
+  },
+  {
+   "source": "kahan2012",
+   "target": "mccrightdunlap2011",
+   "type": "builds_on",
+   "why": "Science literacy polarizes."
+  },
+  {
+   "source": "eganmullin2017",
+   "target": "kahan2012",
+   "type": "synthesizes",
+   "why": "U.S. climate opinion review."
+  },
+  {
+   "source": "eganmullin2017",
+   "target": "howe2015",
+   "type": "synthesizes",
+   "why": "Geographic variation in opinion."
+  },
+  {
+   "source": "kimwolinsky2014",
+   "target": "franzenvogl2013",
+   "type": "builds_on",
+   "why": "Affluence and vulnerability."
+  },
+  {
+   "source": "lewis2019",
+   "target": "kimwolinsky2014",
+   "type": "builds_on",
+   "why": "Cross-national determinants."
+  },
+  {
+   "source": "mccright2016",
+   "target": "mccrightdunlap2011",
+   "type": "extends_to_new_case",
+   "why": "Ideology and climate views in the EU."
+  },
+  {
+   "source": "carmichaelbrulle2017",
+   "target": "brulle2014",
+   "type": "builds_on",
+   "why": "Elite cues drive concern."
+  },
+  {
+   "source": "bergquistwarshaw2019",
+   "target": "eganmullin2017",
+   "type": "mechanism_tested_by",
+   "why": "Local warming and concern."
+  },
+  {
+   "source": "hazlettmildenberger2020",
+   "target": "eganmullin2017",
+   "type": "mechanism_tested_by",
+   "why": "Wildfire exposure and voting."
+  },
+  {
+   "source": "ariasblair2024",
+   "target": "hazlettmildenberger2020",
+   "type": "builds_on",
+   "why": "Climate migration and attitudes."
+  },
+  {
+   "source": "bushclayton2023",
+   "target": "franzenvogl2013",
+   "type": "builds_on",
+   "why": "Gender gap in climate concern."
+  },
+  {
+   "source": "kahan2012",
+   "target": "schuldt2011",
+   "type": "synthesizes",
+   "why": "Question wording and partisanship."
+  },
+  {
+   "source": "drews2016",
+   "target": "leiserowitz2006",
+   "type": "builds_on",
+   "why": "Support for climate policies."
+  },
+  {
+   "source": "mildenberger2019",
+   "target": "eganmullin2017",
+   "type": "builds_on",
+   "why": "Second-order climate beliefs."
+  },
+  {
+   "source": "gaikwad2022",
+   "target": "drews2016",
+   "type": "builds_on",
+   "why": "Preferences for compensating vulnerability."
+  },
+  {
+   "source": "oreskesconway2010",
+   "target": "jacques2008",
+   "type": "builds_on",
+   "why": "Merchants of doubt."
+  },
+  {
+   "source": "mccrightdunlap2011",
+   "target": "jacques2008",
+   "type": "builds_on",
+   "why": "Who denies climate change."
+  },
+  {
+   "source": "brulle2014",
+   "target": "jacques2008",
+   "type": "builds_on",
+   "why": "Funding of the countermovement."
+  },
+  {
+   "source": "farrellfunding2016",
+   "target": "brulle2014",
+   "type": "builds_on",
+   "why": "Corporate funding and contrarian discourse."
+  },
+  {
+   "source": "supranoreskes2017",
+   "target": "oreskesconway2010",
+   "type": "builds_on",
+   "why": "ExxonMobil communications."
+  },
+  {
+   "source": "tesler2018",
+   "target": "kahan2012",
+   "type": "qualifies",
+   "why": "Elite domination of doubts."
+  },
+  {
+   "source": "merkleystecula2021",
+   "target": "carmichaelbrulle2017",
+   "type": "builds_on",
+   "why": "Party cues and backlash."
+  },
+  {
+   "source": "carter2013",
+   "target": "dryzek1997",
+   "type": "synthesizes",
+   "why": "Party competition on the environment."
+  },
+  {
+   "source": "abouchadi2016",
+   "target": "carter2013",
+   "type": "builds_on",
+   "why": "Niche parties shift mainstream positions."
+  },
+  {
+   "source": "lockwood2018",
+   "target": "jacques2008",
+   "type": "builds_on",
+   "why": "Populism and climate skepticism."
+  },
+  {
+   "source": "huber2020",
+   "target": "lockwood2018",
+   "type": "mechanism_tested_by",
+   "why": "Populist attitudes and skepticism."
+  },
+  {
+   "source": "kulin2021",
+   "target": "lockwood2018",
+   "type": "mechanism_tested_by",
+   "why": "Nationalism and climate views."
+  },
+  {
+   "source": "fielding2012",
+   "target": "mccrightdunlap2011",
+   "type": "extends_to_new_case",
+   "why": "Partisanship among Australian politicians."
+  },
+  {
+   "source": "stern2007",
+   "target": "meadows1972",
+   "type": "synthesizes",
+   "why": "Economics of climate change."
+  },
+  {
+   "source": "narassimhan2018",
+   "target": "stern2007",
+   "type": "builds_on",
+   "why": "ETS in practice."
+  },
+  {
+   "source": "haites2018",
+   "target": "narassimhan2018",
+   "type": "synthesizes",
+   "why": "Lessons from carbon pricing."
+  },
+  {
+   "source": "baranzini2017",
+   "target": "stern2007",
+   "type": "builds_on",
+   "why": "Case for carbon pricing."
+  },
+  {
+   "source": "carattini2018",
+   "target": "baranzini2017",
+   "type": "builds_on",
+   "why": "Overcoming resistance to carbon taxes."
+  },
+  {
+   "source": "maestreandres2019",
+   "target": "drews2016",
+   "type": "builds_on",
+   "why": "Fairness and acceptability."
+  },
+  {
+   "source": "klenert2018",
+   "target": "carattini2018",
+   "type": "synthesizes",
+   "why": "Revenue use and acceptability."
+  },
+  {
+   "source": "rabe2018",
+   "target": "meckling2011",
+   "type": "builds_on",
+   "why": "Can we price carbon?"
+  },
+  {
+   "source": "jordanhuitema2014",
+   "target": "vosssimons2014",
+   "type": "synthesizes",
+   "why": "Innovations in climate policy (contemporaneous)."
+  },
+  {
+   "source": "vosssimons2014",
+   "target": "meckling2011",
+   "type": "builds_on",
+   "why": "Instrument constituencies for trading."
+  },
+  {
+   "source": "rogge2017",
+   "target": "jordanhuitema2014",
+   "type": "builds_on",
+   "why": "Policy mixes for transitions."
+  },
+  {
+   "source": "campiglio2018",
+   "target": "stern2007",
+   "type": "extends_to_new_case",
+   "why": "Central banks and climate."
+  },
+  {
+   "source": "semieniuk2021",
+   "target": "campiglio2018",
+   "type": "builds_on",
+   "why": "Transition risks for finance."
+  },
+  {
+   "source": "nordhaus2015",
+   "target": "stern2007",
+   "type": "qualifies",
+   "why": "Clubs rather than universal pricing."
+  },
+  {
+   "source": "geels2002",
+   "target": "unruh2000",
+   "type": "synthesizes",
+   "why": "Multi-level perspective (contemporaneous)."
+  },
+  {
+   "source": "seto2016",
+   "target": "unruh2000",
+   "type": "builds_on",
+   "why": "Types of carbon lock-in."
+  },
+  {
+   "source": "sovacool2016",
+   "target": "geels2002",
+   "type": "builds_on",
+   "why": "Temporal dynamics of transitions."
+  },
+  {
+   "source": "cherp2018",
+   "target": "geels2002",
+   "type": "synthesizes",
+   "why": "Integrating perspectives on transitions."
+  },
+  {
+   "source": "robertstransitions2018",
+   "target": "geels2002",
+   "type": "builds_on",
+   "why": "Politics of accelerating transitions."
+  },
+  {
+   "source": "burkestephens2017",
+   "target": "geels2002",
+   "type": "qualifies",
+   "why": "Energy democracy instruments."
+  },
+  {
+   "source": "burkestephens2018",
+   "target": "burkestephens2017",
+   "type": "builds_on",
+   "why": "Power and renewable futures."
+  },
+  {
+   "source": "szulecki2018",
+   "target": "burkestephens2017",
+   "type": "synthesizes",
+   "why": "Conceptualizing energy democracy."
+  },
+  {
+   "source": "seyfangsmith2007",
+   "target": "geels2002",
+   "type": "extends_to_new_case",
+   "why": "Grassroots innovations."
+  },
+  {
+   "source": "yorkbell2019",
+   "target": "sovacool2016",
+   "type": "challenges",
+   "why": "Transitions are additions."
+  },
+  {
+   "source": "overland2019",
+   "target": "hugheslipscy2013",
+   "type": "builds_on",
+   "why": "Geopolitics of renewables."
+  },
+  {
+   "source": "kuzemko2022",
+   "target": "overland2019",
+   "type": "synthesizes",
+   "why": "War and European energy policy."
+  },
+  {
+   "source": "johnsson2019",
+   "target": "seto2016",
+   "type": "builds_on",
+   "why": "Fossil abundance and supply-side policy."
+  },
+  {
+   "source": "malm2016",
+   "target": "unruh2000",
+   "type": "challenges",
+   "why": "Capitalism, not technology, roots lock-in."
+  },
+  {
+   "source": "riofrancos2023",
+   "target": "overland2019",
+   "type": "builds_on",
+   "why": "Lithium and the security-sustainability nexus."
+  },
+  {
+   "source": "martinezalier2002",
+   "target": "bullard1990",
+   "type": "extends_to_new_case",
+   "why": "Environmentalism of the poor in the Global South."
+  },
+  {
+   "source": "schlosberg2007",
+   "target": "bullard1990",
+   "type": "builds_on",
+   "why": "Theorizing environmental justice."
+  },
+  {
+   "source": "mohai2009",
+   "target": "bullard1990",
+   "type": "synthesizes",
+   "why": "Review of environmental justice."
+  },
+  {
+   "source": "agyeman2016",
+   "target": "mohai2009",
+   "type": "builds_on",
+   "why": "Trends in environmental justice."
+  },
+  {
+   "source": "schlosberg2013",
+   "target": "schlosberg2007",
+   "type": "builds_on",
+   "why": "Expanding discourse of environmental justice."
+  },
+  {
+   "source": "schlosbergcollins2014",
+   "target": "schlosberg2013",
+   "type": "builds_on",
+   "why": "From environmental to climate justice."
+  },
+  {
+   "source": "schlosbergcarruthers2010",
+   "target": "schlosberg2007",
+   "type": "extends_to_new_case",
+   "why": "Indigenous struggles and capabilities."
+  },
+  {
+   "source": "kaijserkronsell2014",
+   "target": "schlosberg2007",
+   "type": "qualifies",
+   "why": "Intersectional climate analysis."
+  },
+  {
+   "source": "jenkinsenergy2016",
+   "target": "schlosberg2007",
+   "type": "extends_to_new_case",
+   "why": "Energy justice framework."
+  },
+  {
+   "source": "wanglo2021",
+   "target": "jenkinsenergy2016",
+   "type": "builds_on",
+   "why": "Just transition concept."
+  },
+  {
+   "source": "newell2021",
+   "target": "schlosbergcollins2014",
+   "type": "builds_on",
+   "why": "Transformative climate justice."
+  },
+  {
+   "source": "whyte2020",
+   "target": "schlosbergcarruthers2010",
+   "type": "builds_on",
+   "why": "Indigenous climate justice and tipping points."
+  },
+  {
+   "source": "wanglo2021",
+   "target": "ciplet2020",
+   "type": "synthesizes",
+   "why": "Tensions in just transition movements."
+  },
+  {
+   "source": "wanglo2021",
+   "target": "stevisfelli2020",
+   "type": "synthesizes",
+   "why": "Planetary just transition."
+  },
+  {
+   "source": "dolsakprakash2022",
+   "target": "schlosbergcollins2014",
+   "type": "synthesizes",
+   "why": "Three faces of climate justice."
+  },
+  {
+   "source": "celermajer2021envp",
+   "target": "schlosberg2013",
+   "type": "builds_on",
+   "why": "Multispecies justice agenda."
+  },
+  {
+   "source": "celermajer2021",
+   "target": "celermajer2021envp",
+   "type": "synthesizes",
+   "why": "Multispecies lens in political theory."
+  },
+  {
+   "source": "sovacool2021",
+   "target": "jenkinsenergy2016",
+   "type": "builds_on",
+   "why": "Victims of low-carbon transitions."
+  },
+  {
+   "source": "nixon2011",
+   "target": "martinezalier2002",
+   "type": "builds_on",
+   "why": "Slow violence."
+  },
+  {
+   "source": "caney2010",
+   "target": "stern2007",
+   "type": "qualifies",
+   "why": "Burdens on the advantaged."
+  },
+  {
+   "source": "gardiner2011",
+   "target": "stern2007",
+   "type": "qualifies",
+   "why": "Ethical storm behind economics."
+  },
+  {
+   "source": "thompson2010",
+   "target": "wced1987",
+   "type": "builds_on",
+   "why": "Representing future generations."
+  },
+  {
+   "source": "wenar2008",
+   "target": "karl1997",
+   "type": "builds_on",
+   "why": "Property rights and the resource curse."
+  },
+  {
+   "source": "smitwandel2006",
+   "target": "wced1987",
+   "type": "synthesizes",
+   "why": "Adaptation concepts."
+  },
+  {
+   "source": "nelson2007",
+   "target": "smitwandel2006",
+   "type": "builds_on",
+   "why": "Resilience framework for adaptation."
+  },
+  {
+   "source": "pahlwostl2009",
+   "target": "nelson2007",
+   "type": "builds_on",
+   "why": "Adaptive capacity and learning."
+  },
+  {
+   "source": "barnettoneill2010",
+   "target": "smitwandel2006",
+   "type": "qualifies",
+   "why": "Maladaptation."
+  },
+  {
+   "source": "pelling2011",
+   "target": "nelson2007",
+   "type": "builds_on",
+   "why": "From resilience to transformation."
+  },
+  {
+   "source": "eriksen2015",
+   "target": "pelling2011",
+   "type": "builds_on",
+   "why": "Adaptation is political."
+  },
+  {
+   "source": "javeline2014",
+   "target": "smitwandel2006",
+   "type": "synthesizes",
+   "why": "Political science neglects adaptation."
+  },
+  {
+   "source": "obrien2007",
+   "target": "smitwandel2006",
+   "type": "qualifies",
+   "why": "Interpretations of vulnerability."
+  },
+  {
+   "source": "few2007",
+   "target": "smitwandel2006",
+   "type": "qualifies",
+   "why": "Participation in adaptation."
+  },
+  {
+   "source": "ciplet2013",
+   "target": "obrien2007",
+   "type": "builds_on",
+   "why": "Justice in adaptation funding."
+  },
+  {
+   "source": "adger2011",
+   "target": "obrien2007",
+   "type": "builds_on",
+   "why": "Place and identity in adaptation."
+  },
+  {
+   "source": "bilal2023",
+   "target": "smitwandel2006",
+   "type": "extends_to_new_case",
+   "why": "Economic adaptation through investment and migration."
+  },
+  {
+   "source": "ostrom1990",
+   "target": "hardin1968",
+   "type": "challenges",
+   "why": "Communities can govern commons."
+  },
+  {
+   "source": "agrawal2001",
+   "target": "ostrom1990",
+   "type": "synthesizes",
+   "why": "Conditions for commons governance."
+  },
+  {
+   "source": "dietz2003",
+   "target": "ostrom1990",
+   "type": "builds_on",
+   "why": "Adaptive governance of commons."
+  },
+  {
+   "source": "ostrom2009",
+   "target": "ostrom1990",
+   "type": "builds_on",
+   "why": "Social-ecological systems framework."
+  },
+  {
+   "source": "ostrom2010",
+   "target": "ostrom2009",
+   "type": "extends_to_new_case",
+   "why": "Polycentricity for climate change."
+  },
+  {
+   "source": "bodincrona2009",
+   "target": "ostrom1990",
+   "type": "builds_on",
+   "why": "Networks in resource governance."
+  },
+  {
+   "source": "lubell2010",
+   "target": "ostrom1990",
+   "type": "builds_on",
+   "why": "Ecology of games."
+  },
+  {
+   "source": "morrison2019",
+   "target": "ostrom2010",
+   "type": "challenges",
+   "why": "Power in polycentric systems."
+  },
+  {
+   "source": "brondizio2009",
+   "target": "ostrom2009",
+   "type": "synthesizes",
+   "why": "Multilevel social-ecological governance."
+  },
+  {
+   "source": "larsonsoto2008",
+   "target": "agrawal2001",
+   "type": "builds_on",
+   "why": "Decentralized resource governance."
+  },
+  {
+   "source": "konisky2007",
+   "target": "vogel1995",
+   "type": "mechanism_tested_by",
+   "why": "Race to the bottom among states."
+  },
+  {
+   "source": "wolf2007",
+   "target": "homerdixon1999",
+   "type": "challenges",
+   "why": "Water brings cooperation more than war."
+  },
+  {
+   "source": "ross2001",
+   "target": "karl1997",
+   "type": "builds_on",
+   "why": "Oil hinders democracy."
+  },
+  {
+   "source": "luongweinthal2006",
+   "target": "karl1997",
+   "type": "qualifies",
+   "why": "Ownership structure conditions the curse."
+  },
+  {
+   "source": "ross2012",
+   "target": "ross2001",
+   "type": "builds_on",
+   "why": "The oil curse book."
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "No resource curse in long-run data."
+  },
+  {
+   "source": "ross2015",
+   "target": "ross2012",
+   "type": "synthesizes",
+   "why": "What we know about the resource curse."
+  },
+  {
+   "source": "ramsay2011",
+   "target": "ross2001",
+   "type": "mechanism_tested_by",
+   "why": "Oil price shocks and democracy."
+  },
+  {
+   "source": "hertog2010",
+   "target": "karl1997",
+   "type": "qualifies",
+   "why": "Successful SOEs in rentier states."
+  },
+  {
+   "source": "kurtzbrooks2011",
+   "target": "ross2001",
+   "type": "qualifies",
+   "why": "Human capital conditions the curse."
+  },
+  {
+   "source": "lujala2010",
+   "target": "karl1997",
+   "type": "extends_to_new_case",
+   "why": "Resources and civil conflict."
+  },
+  {
+   "source": "riofrancos2023",
+   "target": "karl1997",
+   "type": "extends_to_new_case",
+   "why": "Extractivism for the green transition."
+  },
+  {
+   "source": "burke2009",
+   "target": "homerdixon1999",
+   "type": "mechanism_tested_by",
+   "why": "Warming and civil war."
+  },
+  {
+   "source": "buhaug2010",
+   "target": "burke2009",
+   "type": "challenges",
+   "why": "Climate not to blame."
+  },
+  {
+   "source": "hsiang2013",
+   "target": "burke2009",
+   "type": "builds_on",
+   "why": "Meta-analysis of climate and conflict."
+  },
+  {
+   "source": "theisen2012",
+   "target": "buhaug2010",
+   "type": "synthesizes",
+   "why": "Drought and conflict."
+  },
+  {
+   "source": "hendrixsalehyan2012",
+   "target": "burke2009",
+   "type": "builds_on",
+   "why": "Rainfall and social conflict."
+  },
+  {
+   "source": "kelley2015",
+   "target": "hsiang2013",
+   "type": "extends_to_new_case",
+   "why": "Syrian drought."
+  },
+  {
+   "source": "koubi2019",
+   "target": "hsiang2013",
+   "type": "synthesizes",
+   "why": "Review of climate and conflict."
+  },
+  {
+   "source": "abel2019",
+   "target": "kelley2015",
+   "type": "builds_on",
+   "why": "Climate, conflict and asylum."
+  },
+  {
+   "source": "black2011",
+   "target": "homerdixon1999",
+   "type": "qualifies",
+   "why": "Multiple drivers of environmental migration."
+  },
+  {
+   "source": "black2011",
+   "target": "mclemanhunter2010",
+   "type": "synthesizes",
+   "why": "Migration as adaptation."
+  },
+  {
+   "source": "scheidel2020",
+   "target": "martinezalier2002",
+   "type": "builds_on",
+   "why": "Atlas of environmental conflicts."
+  },
+  {
+   "source": "lireuveny2006",
+   "target": "grossmankrueger1995",
+   "type": "qualifies",
+   "why": "Democracy reduces degradation."
+  },
+  {
+   "source": "battig2009",
+   "target": "lireuveny2006",
+   "type": "builds_on",
+   "why": "Democracies and global public goods."
+  },
+  {
+   "source": "povitkina2018",
+   "target": "lireuveny2006",
+   "type": "qualifies",
+   "why": "Democracy works only with low corruption."
+  },
+  {
+   "source": "beeson2010",
+   "target": "dryzek1997",
+   "type": "challenges",
+   "why": "Environmental authoritarianism."
+  },
+  {
+   "source": "gilley2012",
+   "target": "beeson2010",
+   "type": "builds_on",
+   "why": "Authoritarian environmentalism in China."
+  },
+  {
+   "source": "eatonkostka2014",
+   "target": "gilley2012",
+   "type": "qualifies",
+   "why": "Local leaders undermine authoritarian environmentalism."
+  },
+  {
+   "source": "kostkazhang2018",
+   "target": "gilley2012",
+   "type": "builds_on",
+   "why": "Tightened governance under Xi."
+  },
+  {
+   "source": "kostkazhang2018",
+   "target": "kostkanahm2017",
+   "type": "synthesizes",
+   "why": "Recentralization and environmental governance."
+  },
+  {
+   "source": "molcarter2006",
+   "target": "dryzek1997",
+   "type": "extends_to_new_case",
+   "why": "China's environmental governance."
+  },
+  {
+   "source": "steinhardtwu2016",
+   "target": "molcarter2006",
+   "type": "builds_on",
+   "why": "Environmental protest in China."
+  },
+  {
+   "source": "duit2016",
+   "target": "beck1992",
+   "type": "builds_on",
+   "why": "Rise of the environmental state."
+  },
+  {
+   "source": "hausknost2020",
+   "target": "duit2016",
+   "type": "challenges",
+   "why": "Glass ceiling of transformation."
+  },
+  {
+   "source": "mittiga2022",
+   "target": "beeson2010",
+   "type": "synthesizes",
+   "why": "Legitimacy and climate authoritarianism."
+  },
+  {
+   "source": "tobin2017",
+   "target": "harrisonsundstrom2010",
+   "type": "builds_on",
+   "why": "Leaders and laggards."
+  },
+  {
+   "source": "schreurs2007",
+   "target": "harrisonsundstrom2007",
+   "type": "synthesizes",
+   "why": "EU climate leadership."
+  },
+  {
+   "source": "kelemenvogel2010",
+   "target": "vogel1995",
+   "type": "builds_on",
+   "why": "U.S. and EU traded places."
+  },
+  {
+   "source": "duit2016",
+   "target": "thompson2010",
+   "type": "synthesizes",
+   "why": "Presentism of democracy (thematic link, earlier)."
+  },
+  {
+   "source": "grossmankrueger1995",
+   "target": "meadows1972",
+   "type": "challenges",
+   "why": "Growth can reduce pollution."
+  },
+  {
+   "source": "vogel1995",
+   "target": "grossmankrueger1995",
+   "type": "synthesizes",
+   "why": "Trade and standards (contemporaneous)."
+  },
+  {
+   "source": "prakash2006",
+   "target": "vogel1995",
+   "type": "builds_on",
+   "why": "ISO 14001 diffusion through trade."
+  },
+  {
+   "source": "caoprakash2012",
+   "target": "prakash2006",
+   "type": "builds_on",
+   "why": "Trade competition and visible regulation."
+  },
+  {
+   "source": "holzinger2008",
+   "target": "vogel1995",
+   "type": "builds_on",
+   "why": "Policy convergence."
+  },
+  {
+   "source": "morin2018",
+   "target": "vogel1995",
+   "type": "builds_on",
+   "why": "Environmental provisions in trade agreements."
+  },
+  {
+   "source": "clapp2018",
+   "target": "cashore2002",
+   "type": "challenges",
+   "why": "Corporate concentration and sustainability."
+  },
+  {
+   "source": "dauvergne2018",
+   "target": "clappswanston2009",
+   "type": "builds_on",
+   "why": "Plastic governance failures."
+  },
+  {
+   "source": "gaborbraun2025",
+   "target": "campiglio2018",
+   "type": "builds_on",
+   "why": "Green macrofinancial regimes."
+  },
+  {
+   "source": "newell2019",
+   "target": "malm2016",
+   "type": "synthesizes",
+   "why": "IPE of energy transitions."
+  },
+  {
+   "source": "paterson2021",
+   "target": "newell2019",
+   "type": "synthesizes",
+   "why": "IPE of climate."
+  },
+  {
+   "source": "dauvergne2022",
+   "target": "dauvergne2018",
+   "type": "builds_on",
+   "why": "AI and supply chains."
+  },
+  {
+   "source": "ponte2020",
+   "target": "cashore2002",
+   "type": "qualifies",
+   "why": "Costs of environmental upgrading."
+  },
+  {
+   "source": "brandwissen2013",
+   "target": "bernstein2001",
+   "type": "challenges",
+   "why": "Imperial mode of living."
+  },
+  {
+   "source": "caoprakash2012",
+   "target": "konisky2007",
+   "type": "synthesizes",
+   "why": "Race to the bottom, visibility."
+  },
+  {
+   "source": "mcadam2017",
+   "target": "hadden2015",
+   "type": "synthesizes",
+   "why": "Weakness of U.S. climate activism."
+  },
+  {
+   "source": "hadden2015",
+   "target": "newell2008",
+   "type": "builds_on",
+   "why": "Climate movement networks."
+  },
+  {
+   "source": "setzervanhala2019",
+   "target": "hadden2015",
+   "type": "synthesizes",
+   "why": "Climate litigation review."
+  },
+  {
+   "source": "dichiro2008",
+   "target": "bullard1990",
+   "type": "builds_on",
+   "why": "Coalition environmentalism."
+  },
+  {
+   "source": "wanglo2021",
+   "target": "brownspiegel2019",
+   "type": "synthesizes",
+   "why": "Coal and climate justice (earlier)."
+  },
+  {
+   "source": "clappswanston2009",
+   "target": "cashore2002",
+   "type": "synthesizes",
+   "why": "Plastic bag norms."
+  },
+  {
+   "source": "ariasblair2024",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ariasblair2024",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caoprakash2012",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caoprakash2012",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roger2017",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bilal2023",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bilal2023",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barrett2003",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "green2014",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "green2014",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohanevictor2011",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohanevictor2011",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell1994",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vonstein2008",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2017",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2017",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haleroger2014",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andonova2017",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbott2016",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "battig2009",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "battig2009",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bechtel2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bechtel2019",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2022",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2022",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2022",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mildenberger2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2021",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2021",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prakash2006",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2001",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2015",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wenar2008",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wenar2008",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lujala2010",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lujala2010",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hendrixsalehyan2012",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "theisen2012",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostkanahm2017",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eatonkostka2014",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinhardtwu2016",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinhardtwu2016",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caney2010",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gardiner2011",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "celermajer2021",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2010",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hardin1968",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meadows1972",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meadows1972",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wced1987",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wced1987",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haas1989",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ostrom1990",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullard1990",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beck1992",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beck1992",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grossmankrueger1995",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vogel1995",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzek1997",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzek1997",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "homerdixon1999",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karl1997",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "unruh2000",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernstein2001",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernstein2001",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martinezalier2002",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martinezalier2002",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cashore2002",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cashore2002",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geels2002",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dietz2003",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bulkeleybetsill2003",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stern2007",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stern2007",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burke2009",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ostrom2009",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rockstrom2009",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buhaug2010",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oreskesconway2010",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harrisonsundstrom2010",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harrisonsundstrom2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "victor2011",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meckling2011",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meckling2011",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2012",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hsiang2013",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2015",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steffen2015",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nordhaus2015",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nordhaus2015",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meckling2015",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meckling2015",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falkner2016",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrellfunding2016",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malm2016",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malm2016",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mannwainwright2018",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mannwainwright2018",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinurpelainen2018",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2020",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2020",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mildenberger2020",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mildenberger2020",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brulle2014",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "supranoreskes2017",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosberg2007",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nixon2011",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pelling2011",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hadden2015",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rabe2018",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbott2015",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbott2015",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bulkeley2014",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "breetz2018",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "breetz2018",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "agrawal2001",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dimitrov2016",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hale2016",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hale2016",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eckersley2012",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falkner2016pop",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell2020",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tingleytomz2014",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tingleytomz2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanhala2016",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanhala2016",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gupta2010",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schleussner2016",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biermannboas2010",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biermannboas2010",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hale2021",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hale2021",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernauer2013",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernauer2013",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andonova2009",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "backstrand2008",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "backstrand2017",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "backstrand2017",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "backstrandkuyper2017",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "backstrandkuyper2017",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hale2020",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bulkeleybetsill2013",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bulkeley2010",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kern2019",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2013",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hakelberg2014",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "green2013",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "green2013",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andonova2010",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "okereke2009",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "okereke2009",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dingwerth2010",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dingwerth2010",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auldgulbrandsen2010",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auldgulbrandsen2010",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newell2008",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newell2008",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biermann2009",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zellivanasselt2013",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biermann2007",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burch2019",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glassnewig2019",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dorschflachsland2017",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dorschflachsland2017",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lemosagrawal2006",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lemosagrawal2006",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biermannkalfagianni2020",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biermannkalfagianni2020",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hugheslipscy2013",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hugheslipscy2013",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2021",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2021",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2021",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meckling2021",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meckling2021",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "green2021",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "green2021",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinurpelainen2013",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinurpelainen2013",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finnegan2022",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finnegan2022",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2016",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2016",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lewis2014",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lewis2014",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stoddard2021",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stoddard2021",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "patterson2023",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "patterson2023",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eganmullin2017",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kahan2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kahan2012",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howe2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorenzoni2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kimwolinsky2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lewis2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccright2016",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccright2016",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carmichaelbrulle2017",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carmichaelbrulle2017",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bergquistwarshaw2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hazlettmildenberger2020",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hazlettmildenberger2020",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bushclayton2023",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schuldt2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drews2016",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drews2016",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leiserowitz2006",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franzenvogl2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacques2008",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccrightdunlap2011",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccrightdunlap2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2018",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "merkleystecula2021",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "merkleystecula2021",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lockwood2018",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lockwood2018",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huber2020",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huber2020",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kulin2021",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kulin2021",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carter2013",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abouchadi2016",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fielding2012",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fielding2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "narassimhan2018",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haites2018",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baranzini2017",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carattini2018",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carattini2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maestreandres2019",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maestreandres2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maestreandres2019",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klenert2018",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klenert2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jordanhuitema2014",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vosssimons2014",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rogge2017",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rogge2017",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campiglio2018",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campiglio2018",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seto2016",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sovacool2016",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burkestephens2018",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burkestephens2018",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burkestephens2017",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burkestephens2017",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robertstransitions2018",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robertstransitions2018",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cherp2018",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "szulecki2018",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "szulecki2018",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seyfangsmith2007",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seyfangsmith2007",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yorkbell2019",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "overland2019",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "overland2019",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuzemko2022",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnsson2019",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnsson2019",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosberg2013",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosbergcollins2014",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mohai2009",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "agyeman2016",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kaijserkronsell2014",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jenkinsenergy2016",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jenkinsenergy2016",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wanglo2021",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wanglo2021",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newell2021",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "whyte2020",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosbergcarruthers2010",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosbergcarruthers2010",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciplet2020",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciplet2020",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stevisfelli2020",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dolsakprakash2022",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "celermajer2021envp",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sovacool2021",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sovacool2021",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smitwandel2006",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nelson2007",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pahlwostl2009",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pahlwostl2009",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barnettoneill2010",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eriksen2015",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eriksen2015",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "javeline2014",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obrien2007",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "few2007",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciplet2013",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciplet2013",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciplet2013",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adger2011",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ostrom2010",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ostrom2010",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bodincrona2009",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lubell2010",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrison2019",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brondizio2009",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larsonsoto2008",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larsonsoto2008",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "konisky2007",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "konisky2007",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "konisky2007",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luongweinthal2006",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haufler2010",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haufler2010",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2010",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "riofrancos2023",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "riofrancos2023",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurtzbrooks2011",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ramsay2011",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koubi2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abel2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "black2011",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "black2011",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mclemanhunter2010",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mclemanhunter2010",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheidel2020",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheidel2020",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheidel2020",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wolf2007",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wolf2007",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilley2012",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beeson2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "povitkina2018",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duit2016",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausknost2020",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lireuveny2006",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mittiga2022",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mittiga2022",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "molcarter2006",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostkazhang2018",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harrisonsundstrom2007",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harrisonsundstrom2007",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tobin2017",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schreurs2007",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schreurs2007",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemenvogel2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemenvogel2010",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holzinger2008",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holzinger2008",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morin2018",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clapp2018",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dauvergne2018",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dauvergne2018",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "semieniuk2021",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "semieniuk2021",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaborbraun2025",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newell2019",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newell2019",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paterson2021",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dauvergne2022",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ponte2020",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brandwissen2013",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brandwissen2013",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcadam2017",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "setzervanhala2019",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dichiro2008",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dichiro2008",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownspiegel2019",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownspiegel2019",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownspiegel2019",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clappswanston2009",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clappswanston2009",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

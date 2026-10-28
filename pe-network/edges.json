@@ -1,0 +1,4564 @@
+{
+ "meta": {
+  "title": "Political economy knowledge network, c. 1962-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in political economy: institutions and long-run development, history, culture and persistence, state capacity and taxation, inequality and redistribution, welfare states, varieties of capitalism and growth models, central banks and fiscal institutions, political business cycles and economic voting, interest groups and rent seeking, political agency and accountability, corruption, finance and crises, labor and unions, development and distributive politics, regimes and economic performance, and media and information. Seeds come from this repo's papers.json via the comparative politics and IPE maps; works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (economics and political-economy journals plus political science journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 307,
+   "theme_nodes": 16,
+   "seed_from_papers_json": 15,
+   "crossref_top_cited": 165,
+   "anchors_supplement": 127,
+   "relation_edges": 317,
+   "membership_edges": 439
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "north1990",
+   "target": "olson1982",
+   "type": "builds_on",
+   "why": "Institutions and long-run performance."
+  },
+  {
+   "source": "north1990",
+   "target": "northweingast1989",
+   "type": "synthesizes",
+   "why": "Credible commitment after the Glorious Revolution (contemporaneous)."
+  },
+  {
+   "source": "weingast1995",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Market-preserving federalism."
+  },
+  {
+   "source": "olson1993",
+   "target": "olson1982",
+   "type": "builds_on",
+   "why": "Stationary bandits and democracy."
+  },
+  {
+   "source": "ajr2001",
+   "target": "north1990",
+   "type": "mechanism_tested_by",
+   "why": "Colonial settler mortality as an instrument for institutions."
+  },
+  {
+   "source": "sokoloffengerman2000",
+   "target": "north1990",
+   "type": "builds_on",
+   "why": "Endowments shape institutions in the Americas."
+  },
+  {
+   "source": "ajr2001",
+   "target": "sokoloffengerman2000",
+   "type": "synthesizes",
+   "why": "Colonial origins of institutions."
+  },
+  {
+   "source": "rodrik2004",
+   "target": "ajr2001",
+   "type": "builds_on",
+   "why": "Institutions rule over geography."
+  },
+  {
+   "source": "glaeser2004",
+   "target": "ajr2001",
+   "type": "challenges",
+   "why": "Human capital, not institutions."
+  },
+  {
+   "source": "ajr2005",
+   "target": "ajr2001",
+   "type": "synthesizes",
+   "why": "Institutions as fundamental cause."
+  },
+  {
+   "source": "acemoglurobinson2012",
+   "target": "ajr2005",
+   "type": "builds_on",
+   "why": "Inclusive versus extractive institutions."
+  },
+  {
+   "source": "acemoglu2014arec",
+   "target": "glaeser2004",
+   "type": "challenges",
+   "why": "Institutions over human capital."
+  },
+  {
+   "source": "northwallisweingast2009",
+   "target": "north1990",
+   "type": "builds_on",
+   "why": "Violence and social orders."
+  },
+  {
+   "source": "greif2006",
+   "target": "north1990",
+   "type": "qualifies",
+   "why": "Institutions as beliefs and norms."
+  },
+  {
+   "source": "greif2006",
+   "target": "greiflaitin2004",
+   "type": "synthesizes",
+   "why": "Endogenous institutional change (contemporaneous)."
+  },
+  {
+   "source": "haggard2008",
+   "target": "north1990",
+   "type": "synthesizes",
+   "why": "Rule of law and development."
+  },
+  {
+   "source": "kurtzschrank2007",
+   "target": "rodrik2004",
+   "type": "challenges",
+   "why": "Governance measures are weak."
+  },
+  {
+   "source": "laporta1998",
+   "target": "north1990",
+   "type": "extends_to_new_case",
+   "why": "Legal origins and finance."
+  },
+  {
+   "source": "laporta2008",
+   "target": "laporta1998",
+   "type": "synthesizes",
+   "why": "Consequences of legal origins."
+  },
+  {
+   "source": "xu2011",
+   "target": "weingast1995",
+   "type": "extends_to_new_case",
+   "why": "Regionally decentralized authoritarianism in China."
+  },
+  {
+   "source": "levitskymurillo2009",
+   "target": "north1990",
+   "type": "qualifies",
+   "why": "Institutional strength varies."
+  },
+  {
+   "source": "mahoneythelen2010",
+   "target": "streeckthelen2005",
+   "type": "builds_on",
+   "why": "Gradual institutional change."
+  },
+  {
+   "source": "holland2023",
+   "target": "goldsteinudry2008",
+   "type": "challenges",
+   "why": "Property rights can undermine development."
+  },
+  {
+   "source": "goldsteinudry2008",
+   "target": "north1990",
+   "type": "mechanism_tested_by",
+   "why": "Insecure rights and investment."
+  },
+  {
+   "source": "galiani2010",
+   "target": "north1990",
+   "type": "mechanism_tested_by",
+   "why": "Land titling and investment."
+  },
+  {
+   "source": "williamson2009",
+   "target": "north1990",
+   "type": "builds_on",
+   "why": "Informal institutions rule."
+  },
+  {
+   "source": "jensen2008",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Democratic institutions lower political risk for FDI."
+  },
+  {
+   "source": "jensen2008",
+   "target": "bussehefeker2007",
+   "type": "synthesizes",
+   "why": "Institutions and FDI (earlier)."
+  },
+  {
+   "source": "putnam1993",
+   "target": "north1990",
+   "type": "builds_on",
+   "why": "Civic traditions and institutional performance."
+  },
+  {
+   "source": "guiso2006",
+   "target": "putnam1993",
+   "type": "builds_on",
+   "why": "Culture affects economic outcomes."
+  },
+  {
+   "source": "tabellini2010",
+   "target": "guiso2006",
+   "type": "builds_on",
+   "why": "Culture and regional development."
+  },
+  {
+   "source": "nunn2008",
+   "target": "ajr2001",
+   "type": "builds_on",
+   "why": "Slave trades and long-run development."
+  },
+  {
+   "source": "nunnwantchekon2011",
+   "target": "nunn2008",
+   "type": "builds_on",
+   "why": "Slave trade and mistrust."
+  },
+  {
+   "source": "nunn2009",
+   "target": "nunn2008",
+   "type": "synthesizes",
+   "why": "Importance of history."
+  },
+  {
+   "source": "dell2010",
+   "target": "ajr2001",
+   "type": "builds_on",
+   "why": "Persistent effects of forced labor."
+  },
+  {
+   "source": "acharya2016",
+   "target": "nunn2008",
+   "type": "extends_to_new_case",
+   "why": "Slavery's political legacy in the U.S. South."
+  },
+  {
+   "source": "voigtlandervoth2012",
+   "target": "nunn2009",
+   "type": "builds_on",
+   "why": "Persistent anti-Semitism."
+  },
+  {
+   "source": "beckerwoessmann2009",
+   "target": "guiso2006",
+   "type": "challenges",
+   "why": "Human capital, not work ethic."
+  },
+  {
+   "source": "spolaorewacziarg2009",
+   "target": "ajr2001",
+   "type": "qualifies",
+   "why": "Diffusion barriers to development."
+  },
+  {
+   "source": "puttermanweil2010",
+   "target": "spolaorewacziarg2009",
+   "type": "builds_on",
+   "why": "Ancestry and long-run development."
+  },
+  {
+   "source": "michalopoulos2013",
+   "target": "ajr2001",
+   "type": "challenges",
+   "why": "National institutions matter little within groups."
+  },
+  {
+   "source": "acemoglu2014jpe",
+   "target": "ajr2005",
+   "type": "extends_to_new_case",
+   "why": "Chiefs and elite control."
+  },
+  {
+   "source": "gennaioli2013",
+   "target": "glaeser2004",
+   "type": "builds_on",
+   "why": "Human capital and regional development."
+  },
+  {
+   "source": "algancahuc2013",
+   "target": "tabellini2010",
+   "type": "synthesizes",
+   "why": "Trust and growth."
+  },
+  {
+   "source": "bjornskov2006",
+   "target": "putnam1993",
+   "type": "builds_on",
+   "why": "Determinants of trust."
+  },
+  {
+   "source": "rothsteinstolle2008",
+   "target": "putnam1993",
+   "type": "challenges",
+   "why": "Institutions generate trust."
+  },
+  {
+   "source": "aghion2010",
+   "target": "guiso2006",
+   "type": "builds_on",
+   "why": "Distrust and regulation."
+  },
+  {
+   "source": "fismanmiguel2007",
+   "target": "guiso2006",
+   "type": "extends_to_new_case",
+   "why": "Corruption norms travel with diplomats."
+  },
+  {
+   "source": "tilly1990",
+   "target": "levi1988",
+   "type": "builds_on",
+   "why": "War makes states."
+  },
+  {
+   "source": "scott1998",
+   "target": "tilly1990",
+   "type": "builds_on",
+   "why": "Legibility and state simplification."
+  },
+  {
+   "source": "evans1995",
+   "target": "bates1981",
+   "type": "qualifies",
+   "why": "Embedded autonomy of developmental states."
+  },
+  {
+   "source": "timmons2005",
+   "target": "levi1988",
+   "type": "builds_on",
+   "why": "The fiscal contract."
+  },
+  {
+   "source": "besleypersson2009",
+   "target": "tilly1990",
+   "type": "builds_on",
+   "why": "Origins of fiscal and legal capacity."
+  },
+  {
+   "source": "besleypersson2011",
+   "target": "besleypersson2009",
+   "type": "builds_on",
+   "why": "Development clusters."
+  },
+  {
+   "source": "dincecco2011",
+   "target": "tilly1990",
+   "type": "builds_on",
+   "why": "Fiscal centralization in Europe."
+  },
+  {
+   "source": "schevestasavage2010",
+   "target": "tilly1990",
+   "type": "builds_on",
+   "why": "Mass warfare and progressive taxation."
+  },
+  {
+   "source": "schevestasavage2012",
+   "target": "schevestasavage2010",
+   "type": "builds_on",
+   "why": "Inheritance taxation and war."
+  },
+  {
+   "source": "kasara2007",
+   "target": "bates1981",
+   "type": "builds_on",
+   "why": "Ethnic geography and agricultural taxation."
+  },
+  {
+   "source": "leezhang2017",
+   "target": "scott1998",
+   "type": "builds_on",
+   "why": "Legibility and state capacity."
+  },
+  {
+   "source": "hansonsigman2021",
+   "target": "besleypersson2009",
+   "type": "builds_on",
+   "why": "Measuring state capacity."
+  },
+  {
+   "source": "gordonli2009",
+   "target": "besleypersson2009",
+   "type": "synthesizes",
+   "why": "Tax structures in developing countries."
+  },
+  {
+   "source": "dalbo2013",
+   "target": "evans1995",
+   "type": "mechanism_tested_by",
+   "why": "Recruiting state capabilities."
+  },
+  {
+   "source": "morrison2009",
+   "target": "levi1988",
+   "type": "qualifies",
+   "why": "Nontax revenue and regime stability."
+  },
+  {
+   "source": "afonso2010",
+   "target": "barro1996",
+   "type": "synthesizes",
+   "why": "Government size and growth."
+  },
+  {
+   "source": "acemoglurobinson2001",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Inefficient redistribution."
+  },
+  {
+   "source": "boix2003",
+   "target": "meltzerrichard1981",
+   "type": "builds_on",
+   "why": "Redistribution and democratization."
+  },
+  {
+   "source": "acemoglurobinson2006",
+   "target": "meltzerrichard1981",
+   "type": "builds_on",
+   "why": "Redistributive conflict and regimes."
+  },
+  {
+   "source": "alesinaglaeser2004",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Race and institutions, not the median voter."
+  },
+  {
+   "source": "alesinaangeletos2005",
+   "target": "alesinaglaeser2004",
+   "type": "builds_on",
+   "why": "Fairness beliefs and redistribution."
+  },
+  {
+   "source": "benabou2006",
+   "target": "alesinaangeletos2005",
+   "type": "builds_on",
+   "why": "Belief in a just world."
+  },
+  {
+   "source": "iversensoskice2006",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Electoral systems and coalitions."
+  },
+  {
+   "source": "moenewallerstein2003",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Insurance motive for welfare."
+  },
+  {
+   "source": "lupupontusson2011",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Structure of inequality matters."
+  },
+  {
+   "source": "shayo2009",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Identity and redistribution."
+  },
+  {
+   "source": "bartels2008",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Unequal responsiveness."
+  },
+  {
+   "source": "gilens2012",
+   "target": "bartels2008",
+   "type": "builds_on",
+   "why": "Affluence and influence."
+  },
+  {
+   "source": "mccarty2006",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Polarization and inequality."
+  },
+  {
+   "source": "piketty2014",
+   "target": "meltzerrichard1981",
+   "type": "synthesizes",
+   "why": "Long-run inequality dynamics."
+  },
+  {
+   "source": "saezzucman2016",
+   "target": "piketty2014",
+   "type": "builds_on",
+   "why": "U.S. wealth inequality."
+  },
+  {
+   "source": "piketty2018",
+   "target": "saezzucman2016",
+   "type": "builds_on",
+   "why": "Distributional national accounts."
+  },
+  {
+   "source": "piketty2014",
+   "target": "roine2009",
+   "type": "synthesizes",
+   "why": "Top income determinants (earlier)."
+  },
+  {
+   "source": "chetty2014",
+   "target": "piketty2014",
+   "type": "synthesizes",
+   "why": "Mobility and place."
+  },
+  {
+   "source": "alesina2018",
+   "target": "benabou2006",
+   "type": "builds_on",
+   "why": "Mobility beliefs and redistribution."
+  },
+  {
+   "source": "kuziemko2015",
+   "target": "alesinaangeletos2005",
+   "type": "mechanism_tested_by",
+   "why": "Information and redistribution preferences."
+  },
+  {
+   "source": "cruces2013",
+   "target": "meltzerrichard1981",
+   "type": "mechanism_tested_by",
+   "why": "Perceived rank and preferences."
+  },
+  {
+   "source": "gimpelsontreisman2018",
+   "target": "cruces2013",
+   "type": "builds_on",
+   "why": "Misperceiving inequality."
+  },
+  {
+   "source": "kenworthymccall2008",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Inequality does not raise demand."
+  },
+  {
+   "source": "mijs2021",
+   "target": "benabou2006",
+   "type": "builds_on",
+   "why": "Inequality and meritocracy beliefs."
+  },
+  {
+   "source": "schevestasavage2006",
+   "target": "moenewallerstein2003",
+   "type": "qualifies",
+   "why": "Religion as social insurance."
+  },
+  {
+   "source": "iversensoskice2009",
+   "target": "iversensoskice2006",
+   "type": "builds_on",
+   "why": "Historical roots of redistribution."
+  },
+  {
+   "source": "dimick2017",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Altruistic rich."
+  },
+  {
+   "source": "houle2009",
+   "target": "boix2003",
+   "type": "challenges",
+   "why": "Inequality harms consolidation, not transition."
+  },
+  {
+   "source": "ansellsamuels2010",
+   "target": "boix2003",
+   "type": "challenges",
+   "why": "Contractarian approach."
+  },
+  {
+   "source": "haggardkaufman2012",
+   "target": "acemoglurobinson2006",
+   "type": "challenges",
+   "why": "Few transitions are distributive."
+  },
+  {
+   "source": "solt2008",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Inequality depresses engagement."
+  },
+  {
+   "source": "fowler2013",
+   "target": "meltzerrichard1981",
+   "type": "mechanism_tested_by",
+   "why": "Compulsory voting and pensions."
+  },
+  {
+   "source": "bergh2010",
+   "target": "roine2009",
+   "type": "synthesizes",
+   "why": "Liberalization and inequality (contemporaneous)."
+  },
+  {
+   "source": "alesina2016",
+   "target": "alesina1999",
+   "type": "builds_on",
+   "why": "Ethnic inequality and development."
+  },
+  {
+   "source": "gilenspage2014",
+   "target": "gilens2012",
+   "type": "builds_on",
+   "why": "Elites and interest groups."
+  },
+  {
+   "source": "hackerpierson2010",
+   "target": "bartels2008",
+   "type": "synthesizes",
+   "why": "Winner-take-all politics."
+  },
+  {
+   "source": "espingandersen1990",
+   "target": "korpi1983",
+   "type": "builds_on",
+   "why": "Three worlds of welfare capitalism."
+  },
+  {
+   "source": "pierson1996",
+   "target": "espingandersen1990",
+   "type": "qualifies",
+   "why": "New politics of retrenchment."
+  },
+  {
+   "source": "pierson1993",
+   "target": "korpi1983",
+   "type": "qualifies",
+   "why": "Policy feedback."
+  },
+  {
+   "source": "huberstephens2001",
+   "target": "korpi1983",
+   "type": "builds_on",
+   "why": "Partisanship and welfare states."
+  },
+  {
+   "source": "swenson2002",
+   "target": "korpi1983",
+   "type": "challenges",
+   "why": "Employers shaped welfare states."
+  },
+  {
+   "source": "mares2003",
+   "target": "swenson2002",
+   "type": "synthesizes",
+   "why": "Employer risk profiles (contemporaneous)."
+  },
+  {
+   "source": "hackerpierson2002",
+   "target": "swenson2002",
+   "type": "challenges",
+   "why": "Business power limited U.S. social policy."
+  },
+  {
+   "source": "korpi2006",
+   "target": "swenson2002",
+   "type": "challenges",
+   "why": "Power resources versus employer-centered approaches."
+  },
+  {
+   "source": "iversenstephens2008",
+   "target": "espingandersen1990",
+   "type": "builds_on",
+   "why": "Human capital in three worlds."
+  },
+  {
+   "source": "rueda2005",
+   "target": "korpi1983",
+   "type": "challenges",
+   "why": "Insider-outsider politics."
+  },
+  {
+   "source": "rueda2006",
+   "target": "rueda2005",
+   "type": "builds_on",
+   "why": "Active labor market policies."
+  },
+  {
+   "source": "rehm2009",
+   "target": "moenewallerstein2003",
+   "type": "builds_on",
+   "why": "Risk and redistribution."
+  },
+  {
+   "source": "rehm2011",
+   "target": "rehm2009",
+   "type": "builds_on",
+   "why": "Social policy by popular demand."
+  },
+  {
+   "source": "rehm2012",
+   "target": "rehm2011",
+   "type": "builds_on",
+   "why": "Insecure alliances."
+  },
+  {
+   "source": "cavailletrump2015",
+   "target": "rehm2009",
+   "type": "qualifies",
+   "why": "Two facets of social policy preferences."
+  },
+  {
+   "source": "margalit2013",
+   "target": "rehm2009",
+   "type": "mechanism_tested_by",
+   "why": "Preferences shift with job loss."
+  },
+  {
+   "source": "mares2009",
+   "target": "espingandersen1990",
+   "type": "extends_to_new_case",
+   "why": "Social policy in developing countries."
+  },
+  {
+   "source": "rudra2002",
+   "target": "espingandersen1990",
+   "type": "extends_to_new_case",
+   "why": "Globalization and welfare in LDCs."
+  },
+  {
+   "source": "hausermann2013",
+   "target": "pierson1996",
+   "type": "synthesizes",
+   "why": "Party politics and the welfare state."
+  },
+  {
+   "source": "hausermann2014",
+   "target": "rueda2005",
+   "type": "qualifies",
+   "why": "High-skilled outsiders."
+  },
+  {
+   "source": "andersonpontusson2007",
+   "target": "moenewallerstein2003",
+   "type": "builds_on",
+   "why": "Social protection and insecurity."
+  },
+  {
+   "source": "brooksmanza2006",
+   "target": "pierson1996",
+   "type": "builds_on",
+   "why": "Opinion sustains welfare states."
+  },
+  {
+   "source": "potrafke2009",
+   "target": "rudra2002",
+   "type": "challenges",
+   "why": "Globalization did not end partisan politics."
+  },
+  {
+   "source": "mettler2011",
+   "target": "pierson1993",
+   "type": "builds_on",
+   "why": "Submerged state."
+  },
+  {
+   "source": "ansell2014",
+   "target": "moenewallerstein2003",
+   "type": "builds_on",
+   "why": "Housing wealth and welfare preferences."
+  },
+  {
+   "source": "alesinaglaeser2004",
+   "target": "espingandersen1990",
+   "type": "synthesizes",
+   "why": "U.S. versus European welfare."
+  },
+  {
+   "source": "hallsoskice2001",
+   "target": "espingandersen1990",
+   "type": "builds_on",
+   "why": "Varieties of capitalism."
+  },
+  {
+   "source": "amable2003",
+   "target": "hallsoskice2001",
+   "type": "qualifies",
+   "why": "Five models of capitalism."
+  },
+  {
+   "source": "hallgingerich2009",
+   "target": "hallsoskice2001",
+   "type": "mechanism_tested_by",
+   "why": "Institutional complementarities."
+  },
+  {
+   "source": "hallthelen2009",
+   "target": "hallsoskice2001",
+   "type": "builds_on",
+   "why": "Institutional change in VoC."
+  },
+  {
+   "source": "deegjackson2007",
+   "target": "hallsoskice2001",
+   "type": "qualifies",
+   "why": "Dynamic capitalist variety."
+  },
+  {
+   "source": "streeckthelen2005",
+   "target": "hallsoskice2001",
+   "type": "challenges",
+   "why": "Gradual liberalizing change."
+  },
+  {
+   "source": "nolke2009",
+   "target": "hallsoskice2001",
+   "type": "extends_to_new_case",
+   "why": "Dependent market economies."
+  },
+  {
+   "source": "thelen2012",
+   "target": "streeckthelen2005",
+   "type": "builds_on",
+   "why": "Trajectories of liberalization."
+  },
+  {
+   "source": "thelen2014",
+   "target": "thelen2012",
+   "type": "builds_on",
+   "why": "Varieties of liberalization."
+  },
+  {
+   "source": "baccaropontusson2016",
+   "target": "hallsoskice2001",
+   "type": "challenges",
+   "why": "Growth models replace supply-side VoC."
+  },
+  {
+   "source": "streeck2014",
+   "target": "streeckthelen2005",
+   "type": "builds_on",
+   "why": "Buying time."
+  },
+  {
+   "source": "culpepper2011",
+   "target": "hallsoskice2001",
+   "type": "qualifies",
+   "why": "Quiet politics and business power."
+  },
+  {
+   "source": "mcnally2012",
+   "target": "hallsoskice2001",
+   "type": "extends_to_new_case",
+   "why": "Sino-capitalism."
+  },
+  {
+   "source": "wittredding2013",
+   "target": "hallsoskice2001",
+   "type": "extends_to_new_case",
+   "why": "Asian business systems."
+  },
+  {
+   "source": "scharpf2010",
+   "target": "hallsoskice2001",
+   "type": "synthesizes",
+   "why": "EU integration and social market economy."
+  },
+  {
+   "source": "jahn2016",
+   "target": "hallsoskice2001",
+   "type": "synthesizes",
+   "why": "Decline of corporatism."
+  },
+  {
+   "source": "korpi2006",
+   "target": "hallsoskice2001",
+   "type": "challenges",
+   "why": "Power resources against employer-centered VoC."
+  },
+  {
+   "source": "iversensoskice2009",
+   "target": "hallsoskice2001",
+   "type": "builds_on",
+   "why": "Historical origins of coordination."
+  },
+  {
+   "source": "barrogordon1983",
+   "target": "kydlandprescott1977",
+   "type": "builds_on",
+   "why": "Reputation and monetary policy."
+  },
+  {
+   "source": "rogoff1985",
+   "target": "kydlandprescott1977",
+   "type": "builds_on",
+   "why": "Conservative central banker."
+  },
+  {
+   "source": "cukierman1992",
+   "target": "rogoff1985",
+   "type": "mechanism_tested_by",
+   "why": "Measuring CBI."
+  },
+  {
+   "source": "alesinasummers1993",
+   "target": "cukierman1992",
+   "type": "builds_on",
+   "why": "CBI and performance."
+  },
+  {
+   "source": "bernhard2002",
+   "target": "alesinasummers1993",
+   "type": "qualifies",
+   "why": "Politics of monetary institutions."
+  },
+  {
+   "source": "bodea2015io",
+   "target": "alesinasummers1993",
+   "type": "builds_on",
+   "why": "CBI, credibility and democracy."
+  },
+  {
+   "source": "cukierman2008",
+   "target": "cukierman1992",
+   "type": "synthesizes",
+   "why": "Evolution of CBI."
+  },
+  {
+   "source": "crowemeade2008",
+   "target": "cukierman2008",
+   "type": "synthesizes",
+   "why": "Independence and transparency (contemporaneous)."
+  },
+  {
+   "source": "eijffinger2006",
+   "target": "cukierman1992",
+   "type": "builds_on",
+   "why": "Transparency of central banks."
+  },
+  {
+   "source": "braun2018",
+   "target": "bernhard2002",
+   "type": "challenges",
+   "why": "Infrastructural power of finance over central banks."
+  },
+  {
+   "source": "hallerberg2007",
+   "target": "kydlandprescott1977",
+   "type": "extends_to_new_case",
+   "why": "Fiscal rules in the EU."
+  },
+  {
+   "source": "heinemann2018",
+   "target": "hallerberg2007",
+   "type": "synthesizes",
+   "why": "Do fiscal rules constrain?"
+  },
+  {
+   "source": "primo2006",
+   "target": "buchanantullock1962",
+   "type": "builds_on",
+   "why": "Constraints on spending."
+  },
+  {
+   "source": "giordanotommasino2011",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Institutions and debt intolerance."
+  },
+  {
+   "source": "schultz2003",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Democratic advantage in borrowing."
+  },
+  {
+   "source": "frieden2017",
+   "target": "alesinasummers1993",
+   "type": "synthesizes",
+   "why": "Eurozone crisis politics."
+  },
+  {
+   "source": "frieden2017",
+   "target": "jones2016",
+   "type": "synthesizes",
+   "why": "Failing forward (earlier)."
+  },
+  {
+   "source": "rogoff1990",
+   "target": "nordhaus1975",
+   "type": "challenges",
+   "why": "Equilibrium cycles with rational voters."
+  },
+  {
+   "source": "fiorina1981",
+   "target": "nordhaus1975",
+   "type": "synthesizes",
+   "why": "Retrospective voting."
+  },
+  {
+   "source": "brenderdrazen2005",
+   "target": "rogoff1990",
+   "type": "qualifies",
+   "why": "Cycles concentrate in new democracies."
+  },
+  {
+   "source": "shisvensson2006",
+   "target": "rogoff1990",
+   "type": "mechanism_tested_by",
+   "why": "Cycles across countries."
+  },
+  {
+   "source": "altlassen2006",
+   "target": "shisvensson2006",
+   "type": "synthesizes",
+   "why": "Transparency and polarization (contemporaneous)."
+  },
+  {
+   "source": "veiga2007",
+   "target": "rogoff1990",
+   "type": "extends_to_new_case",
+   "why": "Municipal cycles."
+  },
+  {
+   "source": "dehaanklomp2013",
+   "target": "brenderdrazen2005",
+   "type": "synthesizes",
+   "why": "Conditional cycles."
+  },
+  {
+   "source": "dubois2016",
+   "target": "nordhaus1975",
+   "type": "synthesizes",
+   "why": "Forty years of PBC research."
+  },
+  {
+   "source": "guo2009",
+   "target": "rogoff1990",
+   "type": "extends_to_new_case",
+   "why": "Budget cycles in China."
+  },
+  {
+   "source": "alesinaparadisi2017",
+   "target": "veiga2007",
+   "type": "builds_on",
+   "why": "Italian municipal cycles."
+  },
+  {
+   "source": "aidt2011",
+   "target": "rogoff1990",
+   "type": "mechanism_tested_by",
+   "why": "Opportunistic policies and margins."
+  },
+  {
+   "source": "duchstevenson2008",
+   "target": "fiorina1981",
+   "type": "builds_on",
+   "why": "Institutions condition the economic vote."
+  },
+  {
+   "source": "duchstevenson2008",
+   "target": "andersoncj2007",
+   "type": "synthesizes",
+   "why": "Limits of economic voting (contemporaneous)."
+  },
+  {
+   "source": "lewisbeck2013",
+   "target": "duchstevenson2008",
+   "type": "synthesizes",
+   "why": "VP-functions reviewed."
+  },
+  {
+   "source": "kayserperess2012",
+   "target": "duchstevenson2008",
+   "type": "builds_on",
+   "why": "Benchmarking the economy."
+  },
+  {
+   "source": "healymalhotra2013",
+   "target": "fiorina1981",
+   "type": "synthesizes",
+   "why": "Retrospective voting reconsidered."
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "fiorina1981",
+   "type": "challenges",
+   "why": "Blind retrospection."
+  },
+  {
+   "source": "hernandezkriesi2016",
+   "target": "duchstevenson2008",
+   "type": "extends_to_new_case",
+   "why": "Crisis and electoral punishment."
+  },
+  {
+   "source": "olson1965",
+   "target": "buchanantullock1962",
+   "type": "builds_on",
+   "why": "Collective action and interest groups."
+  },
+  {
+   "source": "stigler1971",
+   "target": "olson1965",
+   "type": "builds_on",
+   "why": "Regulatory capture."
+  },
+  {
+   "source": "krueger1974",
+   "target": "stigler1971",
+   "type": "builds_on",
+   "why": "Rent-seeking society."
+  },
+  {
+   "source": "olson1982",
+   "target": "olson1965",
+   "type": "builds_on",
+   "why": "Distributional coalitions."
+  },
+  {
+   "source": "grossmanhelpman1994",
+   "target": "stigler1971",
+   "type": "builds_on",
+   "why": "Protection for sale."
+  },
+  {
+   "source": "fisman2001",
+   "target": "krueger1974",
+   "type": "mechanism_tested_by",
+   "why": "Value of political connections."
+  },
+  {
+   "source": "faccio2006",
+   "target": "fisman2001",
+   "type": "builds_on",
+   "why": "Connected firms worldwide."
+  },
+  {
+   "source": "richter2009",
+   "target": "grossmanhelpman1994",
+   "type": "mechanism_tested_by",
+   "why": "Lobbying and taxes."
+  },
+  {
+   "source": "halldeardorff2006",
+   "target": "grossmanhelpman1994",
+   "type": "challenges",
+   "why": "Lobbying as subsidy, not purchase."
+  },
+  {
+   "source": "baumgartner2009",
+   "target": "olson1965",
+   "type": "qualifies",
+   "why": "Lobbying rarely moves policy."
+  },
+  {
+   "source": "bombarditrebbi2020",
+   "target": "grossmanhelpman1994",
+   "type": "synthesizes",
+   "why": "Empirical models of lobbying."
+  },
+  {
+   "source": "defigueiredorichter2014",
+   "target": "grossmanhelpman1994",
+   "type": "synthesizes",
+   "why": "Empirical lobbying research."
+  },
+  {
+   "source": "kim2017",
+   "target": "grossmanhelpman1994",
+   "type": "qualifies",
+   "why": "Firm-level lobbying."
+  },
+  {
+   "source": "culpepper2011",
+   "target": "olson1965",
+   "type": "qualifies",
+   "why": "Low salience increases business power."
+  },
+  {
+   "source": "miansufitrebbi2010",
+   "target": "grossmanhelpman1994",
+   "type": "extends_to_new_case",
+   "why": "Crisis legislation votes."
+  },
+  {
+   "source": "campos2007",
+   "target": "krueger1974",
+   "type": "builds_on",
+   "why": "Lobbying versus corruption."
+  },
+  {
+   "source": "kuziemkowerker2006",
+   "target": "krueger1974",
+   "type": "extends_to_new_case",
+   "why": "Buying Security Council votes."
+  },
+  {
+   "source": "gilenspage2014",
+   "target": "olson1965",
+   "type": "builds_on",
+   "why": "Organized interests dominate."
+  },
+  {
+   "source": "ferejohn1986",
+   "target": "barro1973",
+   "type": "builds_on",
+   "why": "Electoral control."
+  },
+  {
+   "source": "besleycase1995",
+   "target": "ferejohn1986",
+   "type": "mechanism_tested_by",
+   "why": "Term limits and policy."
+  },
+  {
+   "source": "perssonroland1997",
+   "target": "ferejohn1986",
+   "type": "builds_on",
+   "why": "Separation of powers."
+  },
+  {
+   "source": "perssontabellini2000",
+   "target": "perssonroland1997",
+   "type": "synthesizes",
+   "why": "Political economics."
+  },
+  {
+   "source": "perssontabellini2003",
+   "target": "perssontabellini2000",
+   "type": "builds_on",
+   "why": "Economic effects of constitutions."
+  },
+  {
+   "source": "besleyburgess2002",
+   "target": "ferejohn1986",
+   "type": "mechanism_tested_by",
+   "why": "Media and responsiveness."
+  },
+  {
+   "source": "ashworth2012",
+   "target": "ferejohn1986",
+   "type": "synthesizes",
+   "why": "Electoral accountability review."
+  },
+  {
+   "source": "ferrazfinan2008",
+   "target": "besleyburgess2002",
+   "type": "builds_on",
+   "why": "Exposing corrupt politicians."
+  },
+  {
+   "source": "ferrazfinan2011",
+   "target": "besleycase1995",
+   "type": "builds_on",
+   "why": "Reelection incentives and corruption."
+  },
+  {
+   "source": "snyderstromberg2010",
+   "target": "besleyburgess2002",
+   "type": "builds_on",
+   "why": "Press coverage and accountability."
+  },
+  {
+   "source": "pande2011",
+   "target": "ferrazfinan2008",
+   "type": "synthesizes",
+   "why": "Informed voters in poor democracies."
+  },
+  {
+   "source": "altlassen2011",
+   "target": "besleycase1995",
+   "type": "builds_on",
+   "why": "Accountability versus competence."
+  },
+  {
+   "source": "persson2007",
+   "target": "perssontabellini2003",
+   "type": "builds_on",
+   "why": "Electoral rules and spending."
+  },
+  {
+   "source": "gordonhuber2007",
+   "target": "ferejohn1986",
+   "type": "extends_to_new_case",
+   "why": "Electoral pressure on judges."
+  },
+  {
+   "source": "bjorkmansvensson2009",
+   "target": "reinikkasvensson2004",
+   "type": "builds_on",
+   "why": "Community monitoring."
+  },
+  {
+   "source": "keefer2007",
+   "target": "ferejohn1986",
+   "type": "qualifies",
+   "why": "Credibility problems of young democracies."
+  },
+  {
+   "source": "stokes2005",
+   "target": "ferejohn1986",
+   "type": "challenges",
+   "why": "Perverse accountability."
+  },
+  {
+   "source": "tsai2007",
+   "target": "putnam1993",
+   "type": "builds_on",
+   "why": "Informal accountability."
+  },
+  {
+   "source": "shleifervishny1993",
+   "target": "krueger1974",
+   "type": "builds_on",
+   "why": "Corruption as rent extraction."
+  },
+  {
+   "source": "mauro1995",
+   "target": "shleifervishny1993",
+   "type": "mechanism_tested_by",
+   "why": "Corruption and growth."
+  },
+  {
+   "source": "roseackerman1999",
+   "target": "shleifervishny1993",
+   "type": "synthesizes",
+   "why": "Corruption and government."
+  },
+  {
+   "source": "reinikkasvensson2004",
+   "target": "shleifervishny1993",
+   "type": "mechanism_tested_by",
+   "why": "Local capture of grants."
+  },
+  {
+   "source": "treisman2007",
+   "target": "mauro1995",
+   "type": "synthesizes",
+   "why": "Causes of corruption."
+  },
+  {
+   "source": "olken2007",
+   "target": "reinikkasvensson2004",
+   "type": "builds_on",
+   "why": "Monitoring corruption in Indonesia."
+  },
+  {
+   "source": "olken2009",
+   "target": "treisman2007",
+   "type": "challenges",
+   "why": "Perceptions do not track reality."
+  },
+  {
+   "source": "olkenpande2012",
+   "target": "olken2007",
+   "type": "synthesizes",
+   "why": "Corruption in developing countries."
+  },
+  {
+   "source": "treisman2007",
+   "target": "glaesersaks2006",
+   "type": "synthesizes",
+   "why": "Corruption in America (earlier)."
+  },
+  {
+   "source": "fan2009",
+   "target": "treisman2007",
+   "type": "builds_on",
+   "why": "Decentralization and corruption."
+  },
+  {
+   "source": "chenkung2019",
+   "target": "faccio2006",
+   "type": "extends_to_new_case",
+   "why": "Princelings and land."
+  },
+  {
+   "source": "dreher2011",
+   "target": "mauro1995",
+   "type": "qualifies",
+   "why": "Greasing the wheels."
+  },
+  {
+   "source": "grundler2019",
+   "target": "mauro1995",
+   "type": "builds_on",
+   "why": "Corruption and growth evidence."
+  },
+  {
+   "source": "mendez2006",
+   "target": "mauro1995",
+   "type": "qualifies",
+   "why": "Regime conditions corruption effects."
+  },
+  {
+   "source": "changgolden2007",
+   "target": "perssontabellini2003",
+   "type": "builds_on",
+   "why": "Electoral systems and corruption."
+  },
+  {
+   "source": "morris2010",
+   "target": "treisman2007",
+   "type": "builds_on",
+   "why": "Corruption and trust."
+  },
+  {
+   "source": "donchev2014",
+   "target": "olken2009",
+   "type": "builds_on",
+   "why": "What corruption indices measure."
+  },
+  {
+   "source": "rothsteinstolle2008",
+   "target": "roseackerman1999",
+   "type": "synthesizes",
+   "why": "Impartial institutions and trust."
+  },
+  {
+   "source": "laporta1998",
+   "target": "olson1982",
+   "type": "synthesizes",
+   "why": "Law, finance and growth (thematic link)."
+  },
+  {
+   "source": "reinhartrogoff2009",
+   "target": "laporta1998",
+   "type": "synthesizes",
+   "why": "Recurring crises."
+  },
+  {
+   "source": "miansufi2009",
+   "target": "reinhartrogoff2009",
+   "type": "synthesizes",
+   "why": "Mortgage expansion and defaults (contemporaneous)."
+  },
+  {
+   "source": "rajan2010",
+   "target": "miansufi2009",
+   "type": "builds_on",
+   "why": "Inequality and credit."
+  },
+  {
+   "source": "miansufitrebbi2010",
+   "target": "miansufi2009",
+   "type": "builds_on",
+   "why": "Political economy of the mortgage crisis."
+  },
+  {
+   "source": "krippner2011",
+   "target": "reinhartrogoff2009",
+   "type": "qualifies",
+   "why": "Political origins of financialization."
+  },
+  {
+   "source": "calomirishaber2014",
+   "target": "laporta1998",
+   "type": "builds_on",
+   "why": "Political bargains in banking."
+  },
+  {
+   "source": "funke2016",
+   "target": "reinhartrogoff2009",
+   "type": "builds_on",
+   "why": "Politics after financial crises."
+  },
+  {
+   "source": "lipscy2018",
+   "target": "reinhartrogoff2009",
+   "type": "builds_on",
+   "why": "Democracy and financial crisis."
+  },
+  {
+   "source": "chwieroth2019",
+   "target": "rajan2010",
+   "type": "builds_on",
+   "why": "Wealth effect and middle-class expectations."
+  },
+  {
+   "source": "vanderzwan2014",
+   "target": "krippner2011",
+   "type": "synthesizes",
+   "why": "Making sense of financialization."
+  },
+  {
+   "source": "fligstein2015",
+   "target": "krippner2011",
+   "type": "builds_on",
+   "why": "Household finance culture."
+  },
+  {
+   "source": "dehaansturm2017",
+   "target": "rajan2010",
+   "type": "mechanism_tested_by",
+   "why": "Finance and inequality."
+  },
+  {
+   "source": "gaborbrooks2017",
+   "target": "vanderzwan2014",
+   "type": "extends_to_new_case",
+   "why": "Fintech and development."
+  },
+  {
+   "source": "ballardrosa2020",
+   "target": "reinhartrogoff2009",
+   "type": "builds_on",
+   "why": "Regime type and default."
+  },
+  {
+   "source": "streeck2014",
+   "target": "krippner2011",
+   "type": "synthesizes",
+   "why": "Debt and democratic capitalism."
+  },
+  {
+   "source": "schultz2003",
+   "target": "laporta1998",
+   "type": "synthesizes",
+   "why": "Institutions and financial power (thematic link)."
+  },
+  {
+   "source": "western1997",
+   "target": "freemanmedoff1984",
+   "type": "builds_on",
+   "why": "Institutions and unionization."
+  },
+  {
+   "source": "freemanmedoff1984",
+   "target": "korpi1983",
+   "type": "synthesizes",
+   "why": "Union voice and power."
+  },
+  {
+   "source": "card2013",
+   "target": "freemanmedoff1984",
+   "type": "builds_on",
+   "why": "Wage inequality and workplaces."
+  },
+  {
+   "source": "farber2021",
+   "target": "freemanmedoff1984",
+   "type": "builds_on",
+   "why": "Unions reduced inequality."
+  },
+  {
+   "source": "autor2015",
+   "target": "oesch2011",
+   "type": "builds_on",
+   "why": "Job polarization and automation."
+  },
+  {
+   "source": "acemoglurestrepo2020",
+   "target": "autor2015",
+   "type": "builds_on",
+   "why": "Robots and jobs."
+  },
+  {
+   "source": "autor2013",
+   "target": "freemanmedoff1984",
+   "type": "synthesizes",
+   "why": "Trade shocks and local labor markets (thematic link)."
+  },
+  {
+   "source": "mosleyuno2007",
+   "target": "western1997",
+   "type": "builds_on",
+   "why": "Globalization and labor rights."
+  },
+  {
+   "source": "rueda2005",
+   "target": "western1997",
+   "type": "synthesizes",
+   "why": "Insiders and union strength."
+  },
+  {
+   "source": "bates1981",
+   "target": "olson1965",
+   "type": "builds_on",
+   "why": "Urban bias as collective action."
+  },
+  {
+   "source": "easterlylevine1997",
+   "target": "bates1981",
+   "type": "builds_on",
+   "why": "Ethnic divisions and policy."
+  },
+  {
+   "source": "alesina1999",
+   "target": "easterlylevine1997",
+   "type": "builds_on",
+   "why": "Ethnic divisions and public goods."
+  },
+  {
+   "source": "miguelgugerty2005",
+   "target": "alesina1999",
+   "type": "mechanism_tested_by",
+   "why": "Social sanctions in Kenya."
+  },
+  {
+   "source": "habyarimana2007",
+   "target": "alesina1999",
+   "type": "mechanism_tested_by",
+   "why": "Why diversity undermines public goods."
+  },
+  {
+   "source": "baldwinhuber2010",
+   "target": "alesina1999",
+   "type": "qualifies",
+   "why": "Economic versus cultural differences."
+  },
+  {
+   "source": "easterly2006",
+   "target": "easterlylevine1997",
+   "type": "builds_on",
+   "why": "Social cohesion and institutions."
+  },
+  {
+   "source": "burgess2015",
+   "target": "easterlylevine1997",
+   "type": "builds_on",
+   "why": "Ethnic favoritism and democracy."
+  },
+  {
+   "source": "kramonposner2016",
+   "target": "burgess2015",
+   "type": "builds_on",
+   "why": "Ethnic favoritism in education."
+  },
+  {
+   "source": "kramonposner2013",
+   "target": "goldenmin2013",
+   "type": "qualifies",
+   "why": "Outcome choice in distributive politics."
+  },
+  {
+   "source": "goldenmin2013",
+   "target": "bates1981",
+   "type": "synthesizes",
+   "why": "Distributive politics review."
+  },
+  {
+   "source": "wantchekon2003",
+   "target": "bates1981",
+   "type": "synthesizes",
+   "why": "Clientelism experiment."
+  },
+  {
+   "source": "kitschelt2007",
+   "target": "wantchekon2003",
+   "type": "synthesizes",
+   "why": "Patrons, clients and policies."
+  },
+  {
+   "source": "hicken2011",
+   "target": "kitschelt2007",
+   "type": "synthesizes",
+   "why": "Clientelism review."
+  },
+  {
+   "source": "nichter2008",
+   "target": "stokes2005",
+   "type": "challenges",
+   "why": "Turnout buying."
+  },
+  {
+   "source": "gansmorse2014",
+   "target": "nichter2008",
+   "type": "builds_on",
+   "why": "Varieties of clientelism."
+  },
+  {
+   "source": "weitzshapiro2012",
+   "target": "stokes2005",
+   "type": "qualifies",
+   "why": "Opting out of clientelism."
+  },
+  {
+   "source": "colliervicente2012",
+   "target": "wantchekon2003",
+   "type": "builds_on",
+   "why": "Violence, bribery and fraud."
+  },
+  {
+   "source": "olken2010",
+   "target": "tsai2007",
+   "type": "synthesizes",
+   "why": "Direct democracy and public goods."
+  },
+  {
+   "source": "banerjeeduflo2009",
+   "target": "bates1981",
+   "type": "synthesizes",
+   "why": "Experimental development economics."
+  },
+  {
+   "source": "mares2009",
+   "target": "bates1981",
+   "type": "synthesizes",
+   "why": "Social policy in development."
+  },
+  {
+   "source": "xu2011",
+   "target": "evans1995",
+   "type": "synthesizes",
+   "why": "China's institutional foundations."
+  },
+  {
+   "source": "alesina2016",
+   "target": "easterlylevine1997",
+   "type": "builds_on",
+   "why": "Ethnic inequality."
+  },
+  {
+   "source": "barro1996",
+   "target": "olson1993",
+   "type": "builds_on",
+   "why": "Democracy and growth."
+  },
+  {
+   "source": "przeworski2000",
+   "target": "barro1996",
+   "type": "builds_on",
+   "why": "Democracy and development."
+  },
+  {
+   "source": "bdm2003",
+   "target": "olson1993",
+   "type": "builds_on",
+   "why": "Selectorate theory."
+  },
+  {
+   "source": "doucouliagos2008",
+   "target": "przeworski2000",
+   "type": "synthesizes",
+   "why": "Meta-analysis of democracy and growth."
+  },
+  {
+   "source": "acemoglu2019",
+   "target": "przeworski2000",
+   "type": "challenges",
+   "why": "Democracy does cause growth."
+  },
+  {
+   "source": "gandhiprzeworski2006",
+   "target": "bdm2003",
+   "type": "builds_on",
+   "why": "Cooptation under dictatorship."
+  },
+  {
+   "source": "gandhiprzeworski2007",
+   "target": "gandhiprzeworski2006",
+   "type": "builds_on",
+   "why": "Authoritarian institutions and survival."
+  },
+  {
+   "source": "gandhi2008",
+   "target": "gandhiprzeworski2007",
+   "type": "builds_on",
+   "why": "Political institutions under dictatorship."
+  },
+  {
+   "source": "wright2008",
+   "target": "gandhi2008",
+   "type": "synthesizes",
+   "why": "Legislatures and growth (contemporaneous)."
+  },
+  {
+   "source": "boixsvolik2013",
+   "target": "gandhiprzeworski2007",
+   "type": "builds_on",
+   "why": "Limited authoritarian government."
+  },
+  {
+   "source": "cheibub2010",
+   "target": "przeworski2000",
+   "type": "builds_on",
+   "why": "Regime dataset."
+  },
+  {
+   "source": "chandrarudra2015",
+   "target": "przeworski2000",
+   "type": "qualifies",
+   "why": "Regime type and performance."
+  },
+  {
+   "source": "luoprzeworski2019",
+   "target": "przeworski2000",
+   "type": "builds_on",
+   "why": "Fast-growing autocracies."
+  },
+  {
+   "source": "aisenveiga2013",
+   "target": "barro1996",
+   "type": "builds_on",
+   "why": "Instability and growth."
+  },
+  {
+   "source": "desai2009",
+   "target": "bdm2003",
+   "type": "builds_on",
+   "why": "Authoritarian bargains."
+  },
+  {
+   "source": "bdmsmith2010",
+   "target": "bdm2003",
+   "type": "builds_on",
+   "why": "Revenue and survival."
+  },
+  {
+   "source": "deacon2009",
+   "target": "bdm2003",
+   "type": "mechanism_tested_by",
+   "why": "Public goods by regime."
+  },
+  {
+   "source": "albertusmenaldo2012",
+   "target": "northweingast1989",
+   "type": "extends_to_new_case",
+   "why": "Autocratic constitutions."
+  },
+  {
+   "source": "northwallisweingast2009",
+   "target": "bdm2003",
+   "type": "synthesizes",
+   "why": "Social orders and coalitions."
+  },
+  {
+   "source": "bodea2015io",
+   "target": "przeworski2000",
+   "type": "synthesizes",
+   "why": "CBI under democracy."
+  },
+  {
+   "source": "morrison2009",
+   "target": "bdm2003",
+   "type": "builds_on",
+   "why": "Nontax revenue and stability."
+  },
+  {
+   "source": "besleyprat2006",
+   "target": "besleyburgess2002",
+   "type": "builds_on",
+   "why": "Media capture."
+  },
+  {
+   "source": "stromberg2004",
+   "target": "besleyburgess2002",
+   "type": "synthesizes",
+   "why": "Radio and spending (contemporaneous)."
+  },
+  {
+   "source": "gentzkowshapiro2006",
+   "target": "besleyprat2006",
+   "type": "synthesizes",
+   "why": "Bias and reputation."
+  },
+  {
+   "source": "gentzkow2006",
+   "target": "stromberg2004",
+   "type": "builds_on",
+   "why": "TV and turnout."
+  },
+  {
+   "source": "dellavignakaplan2007",
+   "target": "gentzkowshapiro2006",
+   "type": "builds_on",
+   "why": "Fox News effect."
+  },
+  {
+   "source": "gentzkowshapiro2010",
+   "target": "gentzkowshapiro2006",
+   "type": "builds_on",
+   "why": "Demand-driven slant."
+  },
+  {
+   "source": "baron2006",
+   "target": "besleyprat2006",
+   "type": "synthesizes",
+   "why": "Persistent media bias."
+  },
+  {
+   "source": "enikolopov2011",
+   "target": "dellavignakaplan2007",
+   "type": "extends_to_new_case",
+   "why": "Independent TV in Russia."
+  },
+  {
+   "source": "egorov2009",
+   "target": "besleyprat2006",
+   "type": "builds_on",
+   "why": "Resource-poor dictators allow free media."
+  },
+  {
+   "source": "gehlbachsonin2014",
+   "target": "egorov2009",
+   "type": "builds_on",
+   "why": "Government control of media."
+  },
+  {
+   "source": "adena2015",
+   "target": "enikolopov2011",
+   "type": "builds_on",
+   "why": "Radio and the Nazis."
+  },
+  {
+   "source": "yanagizawa2014",
+   "target": "enikolopov2011",
+   "type": "builds_on",
+   "why": "Hate radio and genocide."
+  },
+  {
+   "source": "hollyer2018",
+   "target": "egorov2009",
+   "type": "builds_on",
+   "why": "Transparency and regimes."
+  },
+  {
+   "source": "rozenasstukal2019",
+   "target": "gehlbachsonin2014",
+   "type": "builds_on",
+   "why": "Manipulating economic news."
+  },
+  {
+   "source": "ajr2001",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ajr2001",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "northweingast1989",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "northweingast1989",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2006",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2006",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boix2003",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boix2003",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson1993",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson1993",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greiflaitin2004",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggard2008",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurtzschrank2007",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2011",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2011",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskymurillo2009",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dell2010",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holland2023",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holland2023",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rothsteinstolle2008",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rothsteinstolle2008",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meltzerrichard1981",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupupontusson2011",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shayo2009",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2006",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moenewallerstein2003",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moenewallerstein2003",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansell2014",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansell2014",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansell2014",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2012",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2012",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2010",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2010",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "houle2009",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "houle2009",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansellsamuels2010",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansellsamuels2010",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggardkaufman2012",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggardkaufman2012",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2001",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels2008",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilens2012",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccarty2006",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "solt2008",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "espingandersen1990",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rehm2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rehm2011",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cavailletrump2015",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cavailletrump2015",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2013",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rueda2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rueda2006",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mares2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mares2009",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudra2002",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "korpi2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "korpi2006",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversenstephens2008",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversenstephens2008",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausermann2013",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierson1993",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mettler2011",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2010",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2010",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallsoskice2001",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallgingerich2009",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nolke2009",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen2012",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahoneythelen2010",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahoneythelen2010",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcnally2012",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernhard2002",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bodea2015io",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bodea2015io",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultz2003",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultz2003",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "funke2016",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2018",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2018",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chwieroth2019",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frieden2017",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frieden2017",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2020",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2020",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2017",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halldeardorff2006",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "richter2009",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "defigueiredorichter2014",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baumgartner2009",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilenspage2014",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilenspage2014",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ashworth2012",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "healymalhotra2013",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "healymalhotra2013",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fiorina1981",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fiorina1981",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treisman2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morris2010",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habyarimana2007",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsai2007",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsai2007",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2010",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt2007",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hicken2011",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2005",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2005",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wantchekon2003",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nichter2008",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keefer2007",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keefer2007",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhiprzeworski2007",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wright2008",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "doucouliagos2008",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandrarudra2015",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luoprzeworski2019",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boixsvolik2013",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhi2008",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrison2009",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrison2009",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensen2008",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensen2008",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellavignakaplan2007",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gentzkowshapiro2010",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egorov2009",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egorov2009",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hollyer2018",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hollyer2018",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rozenasstukal2019",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "autor2013",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurestrepo2020",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "autor2015",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buchanantullock1962",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buchanantullock1962",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson1965",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stigler1971",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barro1973",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krueger1974",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nordhaus1975",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kydlandprescott1977",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bates1981",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bates1981",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson1982",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson1982",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barrogordon1983",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "korpi1983",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "korpi1983",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freemanmedoff1984",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rogoff1985",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferejohn1986",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levi1988",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tilly1990",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "north1990",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rogoff1990",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cukierman1992",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "putnam1993",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "putnam1993",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesinasummers1993",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shleifervishny1993",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grossmanhelpman1994",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mauro1995",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mauro1995",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "evans1995",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "evans1995",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weingast1995",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleycase1995",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierson1996",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barro1996",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "easterlylevine1997",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perssonroland1997",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perssonroland1997",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laporta1998",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laporta1998",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "western1997",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scott1998",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesina1999",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roseackerman1999",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perssontabellini2000",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perssontabellini2000",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "przeworski2000",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sokoloffengerman2000",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sokoloffengerman2000",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fisman2001",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fisman2001",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huberstephens2001",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "swenson2002",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "swenson2002",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleyburgess2002",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleyburgess2002",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mares2003",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mares2003",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perssontabellini2003",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perssontabellini2003",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdm2003",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "amable2003",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glaeser2004",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodrik2004",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reinikkasvensson2004",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reinikkasvensson2004",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ajr2005",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rueda2005",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rueda2005",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brenderdrazen2005",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "streeckthelen2005",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "streeckthelen2005",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miguelgugerty2005",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleyprat2006",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleyprat2006",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guiso2006",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greif2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greif2006",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesinaglaeser2004",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesinaglaeser2004",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesinaangeletos2005",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nunn2008",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nunn2008",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleypersson2009",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reinhartrogoff2009",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "northwallisweingast2009",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "northwallisweingast2009",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tabellini2010",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miansufitrebbi2010",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miansufitrebbi2010",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rajan2010",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rajan2010",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nunnwantchekon2011",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrazfinan2011",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrazfinan2011",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleypersson2011",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleypersson2011",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enikolopov2011",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krippner2011",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "culpepper2011",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "culpepper2011",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglurobinson2012",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piketty2014",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "streeck2014",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "streeck2014",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen2014",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thelen2014",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "calomirishaber2014",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuziemko2015",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burgess2015",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burgess2015",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccaropontusson2016",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesina2018",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "voigtlandervoth2012",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dincecco2011",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "faccio2006",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "faccio2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stromberg2004",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stromberg2004",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duchstevenson2008",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "timmons2005",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2002",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2002",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laporta2008",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laporta2008",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglu2014arec",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nunn2009",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beckerwoessmann2009",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "spolaorewacziarg2009",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "puttermanweil2010",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "michalopoulos2013",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "michalopoulos2013",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglu2014jpe",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglu2014jpe",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gennaioli2013",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gennaioli2013",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "algancahuc2013",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bjornskov2006",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williamson2009",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williamson2009",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldsteinudry2008",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldsteinudry2008",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "galiani2010",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "galiani2010",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aghion2010",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aghion2010",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kasara2007",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kasara2007",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leezhang2017",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hansonsigman2021",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gordonli2009",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gordonli2009",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dalbo2013",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dalbo2013",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "afonso2010",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "afonso2010",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bergh2010",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benabou2006",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saezzucman2016",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piketty2018",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chetty2014",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cruces2013",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gimpelsontreisman2018",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kenworthymccall2008",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mijs2021",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2006",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schevestasavage2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2009",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2009",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dimick2017",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roine2009",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesina2016",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesina2016",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dehaansturm2017",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dehaansturm2017",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andersonpontusson2007",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andersonpontusson2007",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausermann2014",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausermann2014",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rehm2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rehm2012",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brooksmanza2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "potrafke2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallthelen2009",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallthelen2009",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deegjackson2007",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wittredding2013",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanderzwan2014",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanderzwan2014",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "braun2018",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "braun2018",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf2010",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf2010",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jahn2016",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jahn2016",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cukierman2008",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crowemeade2008",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eijffinger2006",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallerberg2007",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heinemann2018",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "primo2006",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "primo2006",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "giordanotommasino2011",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "giordanotommasino2011",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shisvensson2006",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altlassen2006",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altlassen2006",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "veiga2007",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dehaanklomp2013",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dubois2016",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lewisbeck2013",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andersoncj2007",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andersoncj2007",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kayserperess2012",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kayserperess2012",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guo2009",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guo2009",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alesinaparadisi2017",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aidt2011",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bombarditrebbi2020",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campos2007",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campos2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuziemkowerker2006",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuziemkowerker2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrazfinan2008",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrazfinan2008",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "snyderstromberg2010",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "snyderstromberg2010",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pande2011",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pande2011",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altlassen2011",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "persson2007",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "persson2007",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gordonhuber2007",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2013",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2013",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bjorkmansvensson2009",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bjorkmansvensson2009",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2007",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olkenpande2012",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fismanmiguel2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fismanmiguel2007",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glaesersaks2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2009",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fan2009",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenkung2019",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenkung2019",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2011",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2011",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grundler2019",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mendez2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mendez2006",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "changgolden2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "changgolden2007",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "donchev2014",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miansufi2009",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fligstein2015",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hernandezkriesi2016",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hernandezkriesi2016",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2016",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2016",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaborbrooks2017",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaborbrooks2017",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "card2013",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farber2021",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farber2021",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oesch2011",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mosleyuno2007",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kramonposner2016",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldenmin2013",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kramonposner2013",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "banerjeeduflo2009",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gansmorse2014",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weitzshapiro2012",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weitzshapiro2012",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colliervicente2012",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colliervicente2012",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "easterly2006",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "easterly2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baldwinhuber2010",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglu2019",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cheibub2010",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhiprzeworski2006",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aisenveiga2013",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "desai2009",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdmsmith2010",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deacon2009",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deacon2009",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bussehefeker2007",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bussehefeker2007",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "albertusmenaldo2012",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "albertusmenaldo2012",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gentzkowshapiro2006",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gentzkow2006",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adena2015",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adena2015",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yanagizawa2014",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gehlbachsonin2014",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gehlbachsonin2014",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baron2006",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}
