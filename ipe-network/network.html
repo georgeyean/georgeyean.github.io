@@ -77,15 +77,6 @@ svg{width:100%;height:100%;display:block}
 .legend .l.mt{border-top-color:#059669}
 #hint{position:absolute;top:10px;left:10px;font-size:11px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
 a.ext{color:var(--accent)}
-.stats{position:absolute;right:10px;top:10px;width:230px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:11px;color:var(--muted)}
-.stats .lg-head{display:flex;justify-content:space-between;align-items:center;color:var(--ink)}
-.stats .lg-head button{padding:0 6px;font-size:12px;line-height:16px}
-.stats.collapsed .st-body{display:none}
-.stats .st-sub{margin:2px 0 6px}
-.stats .st-row{display:grid;grid-template-columns:92px 1fr 26px;gap:6px;align-items:center;margin:3px 0}
-.stats .st-name{color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.stats .st-bar{height:7px;border-radius:4px;background:var(--accent);opacity:.75}
-.stats .st-n{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
 #edgeTip{position:absolute;display:none;pointer-events:none;z-index:5;max-width:320px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font-size:12px;line-height:1.4;box-shadow:0 4px 14px rgba(0,0,0,.18)}
 #edgeTip .tt{font-weight:600}
 #edgeTip .tg{color:var(--muted);font-size:11px;margin-top:2px}
@@ -134,19 +125,12 @@ a.ext{color:var(--accent)}
     <h2>Themes</h2>
     <div id="themeList"></div>
     <div class="small-links"><button id="allOn">show all</button><button id="allOff">hide all</button><button id="clearFocus">clear focus</button></div>
-    <p style="font-size:11px;color:var(--muted);margin-top:12px"><b>Click a theme name</b> to focus it: its hub moves to the center and grows, its works stay bright and the rest dim. Click again (or "clear focus") to release. <b>Click the color dot</b> to show or hide a theme. Node color = first theme tag. Click a work for its claim, method and typed links. Drag to rearrange; scroll to zoom. Data: <a class="ext" href="graph.json">graph.json</a>; review: <a class="ext" href="REVIEW.md">REVIEW.md</a>.</p>
+    <p style="font-size:11px;color:var(--muted);margin-top:12px"><b>Click a theme name</b> to focus it: its hub moves to the center and grows, its works stay bright and the rest dim. Click again (or "clear focus") to release. <b>Click the color dot</b> to show or hide a theme. Node color = first theme tag. Click a work for its claim, method and typed links. Drag to rearrange; scroll to zoom.</p>
   </aside>
   <main id="stage">
     <svg id="svg"></svg>
     <div id="hint">Hover a dot for its title, a line for what it means. Arrow: later work → work it relates to.</div>
     <div id="edgeTip" role="tooltip"></div>
-    <div id="stats" class="stats">
-      <div class="lg-head"><b>Top 10 venues</b> <button id="statsToggle" title="Collapse / expand">−</button></div>
-      <div class="st-body">
-        <div class="st-sub" id="statsSub"></div>
-        <div id="statsRows"></div>
-      </div>
-    </div>
     <div class="legend" id="legend">
       <div class="lg-head"><b>How to read the arrows</b> <button id="legendToggle" title="Collapse / expand">−</button></div>
       <div class="lg-body">
@@ -289,46 +273,9 @@ a.ext{color:var(--accent)}
     return links;
   }
 
-  // ---------- venue statistics (top 10 among works currently shown)
-  const VENUE = {
-    'IO': 'International Organization', 'APSR': 'APSR', 'AJPS': 'AJPS', 'JOP': 'Journal of Politics',
-    'ISQ': 'ISQ', 'BJPS': 'BJPS', 'Review of International Political Economy': 'RIPE',
-    'Review of International Organizations': 'Rev. Int. Organizations', 'Annual Review of Political Science': 'Annual Rev. Pol. Sci.',
-    'Annual Review of Economics': 'Annual Rev. Economics', 'American Economic Review': 'AER',
-    'Comparative Political Studies': 'Comparative Pol. Studies', 'Journal of International Economics': 'J. Int. Economics',
-    'European Economic Review': 'European Econ. Review',
-  };
-  function venueOf(j){
-    if (/working paper/i.test(j)) return 'Working papers';
-    const press = j.match(/^(.*?)(?: \((?:book|edited volume)\))$/);
-    if (press) return press[1].replace('University Press', 'UP').replace('Institution Press', 'Inst. Press');
-    return VENUE[j] || j;
-  }
-  function renderStats(vis){
-    const counts = d3.rollups(vis, v => v.length, n => venueOf(n.journal)).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-    const top = counts.slice(0, 10);
-    const max = top.length ? top[0][1] : 1;
-    document.getElementById('statsSub').textContent = vis.length === works.length
-      ? `${works.length} works, ${counts.length} venues`
-      : `${vis.length} of ${works.length} works shown, ${counts.length} venues`;
-    const rows = d3.select('#statsRows').selectAll('.st-row').data(top, d => d[0]);
-    rows.exit().remove();
-    const en = rows.enter().append('div').attr('class', 'st-row');
-    en.append('span').attr('class', 'st-name');
-    en.append('span').append('div').attr('class', 'st-bar');
-    en.append('span').attr('class', 'st-n');
-    const all = en.merge(rows).order();
-    all.select('.st-name').text(d => d[0]).attr('title', d => d[0]);
-    all.select('.st-bar').style('width', d => (d[1] / max * 100) + '%');
-    all.select('.st-n').text(d => d[1]);
-    d3.select('#statsRows').selectAll('.st-row').sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-  }
-  document.getElementById('statsToggle').onclick = e => { const s = document.getElementById('stats'); s.classList.toggle('collapsed'); e.target.textContent = s.classList.contains('collapsed') ? '+' : '−'; };
-
   function update(){
     renderThemeList();
     const vis = visibleWorks();
-    renderStats(vis);
     curNodes = vis.map(n => simById[n.id]);
     if (state.showThemes && state.view === 'net') curNodes = curNodes.concat(themes.filter(t => state.themesOn.has(t.id)).map(t => simById[t.id]));
     curEdges = buildLinks(vis);
@@ -577,7 +524,6 @@ a.ext{color:var(--accent)}
   document.getElementById('legendToggle').onclick = e => { const l = document.getElementById('legend'); l.classList.toggle('collapsed'); e.target.textContent = l.classList.contains('collapsed') ? '+' : '−'; };
   if (stage.clientWidth < 700) {
     document.getElementById('legend').classList.add('collapsed'); document.getElementById('legendToggle').textContent = '+';
-    document.getElementById('stats').classList.add('collapsed'); document.getElementById('statsToggle').textContent = '+';
   }
 
   setView(state.view);

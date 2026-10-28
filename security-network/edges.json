@@ -1,0 +1,4270 @@
+{
+ "meta": {
+  "title": "International security knowledge network, c. 1966-2026",
+  "built": "2026-10-28",
+  "description": "Key works and theme nodes in top-journal international security research. Seeds come from this repo's papers.json (Zotero); most other works were selected from the top-cited 2006-2026 articles in fifteen journals via Crossref, plus anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 262,
+   "theme_nodes": 21,
+   "seed_from_papers_json": 83,
+   "crossref_top_cited": 150,
+   "anchors_supplement": 29,
+   "relation_edges": 283,
+   "membership_edges": 424
+  },
+  "verification": "Repo works come from the user's Zotero library. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors were checked in Crossref separately; see each node's `verified` field. All one-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "fearon1995",
+   "target": "schelling1966",
+   "type": "builds_on",
+   "why": "Formalizes the logic of bargaining and credibility that Schelling sketched."
+  },
+  {
+   "source": "fearon1995",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Anarchy alone cannot explain war; a rationalist mechanism is needed."
+  },
+  {
+   "source": "gartzke1999",
+   "target": "fearon1995",
+   "type": "builds_on",
+   "why": "Private information implies war is unpredictable in individual cases."
+  },
+  {
+   "source": "powell2006",
+   "target": "fearon1995",
+   "type": "builds_on",
+   "why": "Unifies commitment problems and recasts indivisibility as a commitment problem."
+  },
+  {
+   "source": "leventoglu2007",
+   "target": "powell2006",
+   "type": "extends_to_new_case",
+   "why": "Costs of armed peace as a further route to war under bargaining."
+  },
+  {
+   "source": "feyramsay2010",
+   "target": "fearon1995",
+   "type": "qualifies",
+   "why": "Shows which informational results survive across bargaining protocols."
+  },
+  {
+   "source": "debsmonteiro2013",
+   "target": "powell2006",
+   "type": "builds_on",
+   "why": "Uncertainty about power shifts, not just their size, triggers preventive war."
+  },
+  {
+   "source": "lake2010",
+   "target": "fearon1995",
+   "type": "challenges",
+   "why": "Bargaining theory needs behavioral factors to explain the Iraq War."
+  },
+  {
+   "source": "duelfer2011",
+   "target": "jervis1976",
+   "type": "mechanism_tested_by",
+   "why": "Two-sided misperception documented in the US-Iraq relationship."
+  },
+  {
+   "source": "lake2010",
+   "target": "duelfer2011",
+   "type": "synthesizes",
+   "why": "Both read Iraq through misperception rather than pure bargaining (contemporaneous)."
+  },
+  {
+   "source": "toft2006",
+   "target": "fearon1995",
+   "type": "qualifies",
+   "why": "Indivisibility and time horizons are real rationalist causes of war."
+  },
+  {
+   "source": "goddard2006",
+   "target": "powell2006",
+   "type": "challenges",
+   "why": "Indivisibility is socially constructed through legitimation, not reducible to commitment."
+  },
+  {
+   "source": "goddard2006",
+   "target": "toft2006",
+   "type": "synthesizes",
+   "why": "Two accounts of why territory becomes indivisible."
+  },
+  {
+   "source": "slantchev2012",
+   "target": "fearon1995",
+   "type": "builds_on",
+   "why": "Debt finance eliminates the bargaining range under complete information."
+  },
+  {
+   "source": "beek2025",
+   "target": "fearon1995",
+   "type": "builds_on",
+   "why": "Embeds bargaining failure in a model of hierarchy formation."
+  },
+  {
+   "source": "brandt2008",
+   "target": "fearon1994",
+   "type": "mechanism_tested_by",
+   "why": "Opinion as a credibility signal tested in event data."
+  },
+  {
+   "source": "walter1997",
+   "target": "fearon1995",
+   "type": "extends_to_new_case",
+   "why": "Commitment problems applied to civil war settlement."
+  },
+  {
+   "source": "mattes2009",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Agreement design that reduces commitment problems sustains peace."
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "fearon1995",
+   "type": "extends_to_new_case",
+   "why": "Terrorism analyzed as costly signaling in a bargaining framework."
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Spoiling as a terrorist strategy exploiting commitment problems in peace processes."
+  },
+  {
+   "source": "fearon1994",
+   "target": "schelling1966",
+   "type": "builds_on",
+   "why": "Domestic audiences as a commitment device for threats."
+  },
+  {
+   "source": "schultz2001",
+   "target": "fearon1994",
+   "type": "builds_on",
+   "why": "Opposition parties make democratic threats informative."
+  },
+  {
+   "source": "tomz2007",
+   "target": "fearon1994",
+   "type": "mechanism_tested_by",
+   "why": "Experimental micro-evidence that citizens punish backing down."
+  },
+  {
+   "source": "weeks2008",
+   "target": "fearon1994",
+   "type": "extends_to_new_case",
+   "why": "Audience costs extended to autocracies with elite audiences."
+  },
+  {
+   "source": "slantchev2006",
+   "target": "fearon1994",
+   "type": "qualifies",
+   "why": "Audience costs require a free press to reveal backing down."
+  },
+  {
+   "source": "kurizaki2007",
+   "target": "fearon1994",
+   "type": "challenges",
+   "why": "Private threats can be efficient precisely because they avoid audience costs."
+  },
+  {
+   "source": "snyder2011",
+   "target": "fearon1994",
+   "type": "challenges",
+   "why": "Historical cases show small costs for backing down."
+  },
+  {
+   "source": "trachtenberg2012",
+   "target": "fearon1994",
+   "type": "challenges",
+   "why": "Little historical evidence leaders created or feared audience costs."
+  },
+  {
+   "source": "snyder2011",
+   "target": "tomz2007",
+   "type": "challenges",
+   "why": "Experimental costs do not show up in historical crises."
+  },
+  {
+   "source": "levendusky2012",
+   "target": "tomz2007",
+   "type": "qualifies",
+   "why": "New information and partisanship shrink audience costs."
+  },
+  {
+   "source": "trager2011",
+   "target": "tomz2007",
+   "type": "qualifies",
+   "why": "Rhetoric and party condition the political costs of crisis bargaining."
+  },
+  {
+   "source": "kertzerbrutger2015",
+   "target": "tomz2007",
+   "type": "builds_on",
+   "why": "Decomposes audience costs into inconsistency and belligerence costs."
+  },
+  {
+   "source": "weissdafoe2019",
+   "target": "weeks2008",
+   "type": "extends_to_new_case",
+   "why": "Autocratic audience costs measured among Chinese citizens."
+  },
+  {
+   "source": "quek2018",
+   "target": "weissdafoe2019",
+   "type": "builds_on",
+   "why": "Face-saving tactics let Chinese leaders back down despite nationalist publics."
+  },
+  {
+   "source": "downes2012",
+   "target": "schultz2001",
+   "type": "challenges",
+   "why": "Democratic credibility advantage disappears with proper coding of threats."
+  },
+  {
+   "source": "schwartzblair2020",
+   "target": "kertzerbrutger2015",
+   "type": "builds_on",
+   "why": "Gender stereotypes shift inconsistency and belligerence costs."
+  },
+  {
+   "source": "yarhimilo2018",
+   "target": "fearon1994",
+   "type": "qualifies",
+   "why": "Perception of costly signals depends on leader attributes."
+  },
+  {
+   "source": "casler2021",
+   "target": "tomz2007",
+   "type": "extends_to_new_case",
+   "why": "Audience costs tested for trade threats."
+  },
+  {
+   "source": "thompson2006",
+   "target": "schultz2001",
+   "type": "builds_on",
+   "why": "IO approval as another channel for transmitting information about intentions."
+  },
+  {
+   "source": "tomzweeks2013",
+   "target": "tomz2007",
+   "type": "builds_on",
+   "why": "Experimental approach applied to the democratic peace."
+  },
+  {
+   "source": "bellquek2018",
+   "target": "tomzweeks2013",
+   "type": "challenges",
+   "why": "Autocratic publics share the same aversion, so opinion alone cannot explain the democratic peace."
+  },
+  {
+   "source": "barnhart2020",
+   "target": "tomzweeks2013",
+   "type": "builds_on",
+   "why": "Gender gap in support for force as a democratic-peace mechanism."
+  },
+  {
+   "source": "gartzke2007",
+   "target": "tomzweeks2013",
+   "type": "challenges",
+   "why": "Capitalism, not democracy, explains liberal peace (Gartzke predates)."
+  },
+  {
+   "source": "dafoe2011",
+   "target": "gartzke2007",
+   "type": "challenges",
+   "why": "The democratic peace survives statistical critiques including the capitalist-peace challenge."
+  },
+  {
+   "source": "gibler2007",
+   "target": "dafoe2011",
+   "type": "challenges",
+   "why": "Settled borders produce both democracy and peace (Gibler predates)."
+  },
+  {
+   "source": "weeks2012",
+   "target": "weeks2008",
+   "type": "builds_on",
+   "why": "Autocratic subtypes differ in conflict initiation, not just signaling."
+  },
+  {
+   "source": "debsgoemans2010",
+   "target": "weeks2012",
+   "type": "synthesizes",
+   "why": "Leader fates by regime type shape war choices (Debs-Goemans predates)."
+  },
+  {
+   "source": "colgan2013wp",
+   "target": "weeks2012",
+   "type": "builds_on",
+   "why": "Revolutionary leaders as another source of autocratic belligerence."
+  },
+  {
+   "source": "tomz2020io",
+   "target": "tomzweeks2013",
+   "type": "builds_on",
+   "why": "Shows elites anticipate public opinion in decisions on force."
+  },
+  {
+   "source": "vreeland2008",
+   "target": "fearonlaitin2003",
+   "type": "challenges",
+   "why": "The regime-civil war link is partly a Polity coding artifact."
+  },
+  {
+   "source": "mercer1996",
+   "target": "schelling1966",
+   "type": "challenges",
+   "why": "Reputations for resolve rarely form because of attribution biases."
+  },
+  {
+   "source": "press2005",
+   "target": "schelling1966",
+   "type": "challenges",
+   "why": "Leaders judge credibility by current power and interests, not past behavior."
+  },
+  {
+   "source": "crescenzi2007",
+   "target": "mercer1996",
+   "type": "challenges",
+   "why": "Past conflict behavior shapes how states are treated."
+  },
+  {
+   "source": "weisiger2015",
+   "target": "press2005",
+   "type": "challenges",
+   "why": "States that backed down are challenged more often."
+  },
+  {
+   "source": "weisiger2015",
+   "target": "mercer1996",
+   "type": "challenges",
+   "why": "Reputations for resolve do form."
+  },
+  {
+   "source": "brutgerkertzer2018",
+   "target": "weisiger2015",
+   "type": "builds_on",
+   "why": "Reputation costs depend on observers' dispositions."
+  },
+  {
+   "source": "wolford2007",
+   "target": "crescenzi2007",
+   "type": "builds_on",
+   "why": "New leaders lack reputations and may fight to build them."
+  },
+  {
+   "source": "sechser2010",
+   "target": "schelling1966",
+   "type": "qualifies",
+   "why": "Strong challengers often fail to compel because compliance invites more demands."
+  },
+  {
+   "source": "mcmanus2021",
+   "target": "schelling1966",
+   "type": "challenges",
+   "why": "Madman reputations aid deterrence but undermine compellence."
+  },
+  {
+   "source": "yarhimilo2014",
+   "target": "press2005",
+   "type": "challenges",
+   "why": "Leaders rely on vivid personal impressions rather than calculated capabilities."
+  },
+  {
+   "source": "kertzer2016",
+   "target": "mercer2005",
+   "type": "builds_on",
+   "why": "Resolve as a psychological disposition, not only strategic."
+  },
+  {
+   "source": "nye2017",
+   "target": "schelling1966",
+   "type": "extends_to_new_case",
+   "why": "Deterrence logic applied to cyberspace."
+  },
+  {
+   "source": "borghard2017",
+   "target": "schelling1966",
+   "type": "extends_to_new_case",
+   "why": "Coercion logic applied to cyber, with revealing-capability problems."
+  },
+  {
+   "source": "walter2006",
+   "target": "crescenzi2007",
+   "type": "extends_to_new_case",
+   "why": "Reputation building applied to governments facing separatists."
+  },
+  {
+   "source": "sagan1996",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Proliferation is driven by domestic and normative as well as security motives."
+  },
+  {
+   "source": "jogartzke2007",
+   "target": "sagan1996",
+   "type": "mechanism_tested_by",
+   "why": "Security, latency and norms tested cross-nationally."
+  },
+  {
+   "source": "fuhrmann2009",
+   "target": "jogartzke2007",
+   "type": "builds_on",
+   "why": "Peaceful nuclear cooperation raises proliferation risk."
+  },
+  {
+   "source": "rauchhaus2009",
+   "target": "waltz1979",
+   "type": "mechanism_tested_by",
+   "why": "Tests the nuclear-peace hypothesis."
+  },
+  {
+   "source": "kroenig2013",
+   "target": "schelling1966",
+   "type": "challenges",
+   "why": "Superiority, not just balance of resolve, wins nuclear crises."
+  },
+  {
+   "source": "sechser2017",
+   "target": "kroenig2013",
+   "type": "challenges",
+   "why": "Nuclear weapons rarely work for compellence."
+  },
+  {
+   "source": "sechser2017",
+   "target": "sechser2010",
+   "type": "builds_on",
+   "why": "Coercion limits extended to nuclear threats."
+  },
+  {
+   "source": "narang2014",
+   "target": "rauchhaus2009",
+   "type": "qualifies",
+   "why": "Nuclear posture, not possession, decides deterrence of conventional attack."
+  },
+  {
+   "source": "press2013",
+   "target": "sagan1996",
+   "type": "challenges",
+   "why": "Little evidence of a nuclear taboo among Americans."
+  },
+  {
+   "source": "saganvalentino2017",
+   "target": "press2013",
+   "type": "builds_on",
+   "why": "Americans approve nuclear use against civilians to save soldiers."
+  },
+  {
+   "source": "lieberpress2017",
+   "target": "lieberpress2006",
+   "type": "builds_on",
+   "why": "Counterforce technology erodes survivability-based deterrence."
+  },
+  {
+   "source": "lieberpress2006",
+   "target": "jervis1978",
+   "type": "challenges",
+   "why": "Nuclear primacy may revive first-strike incentives."
+  },
+  {
+   "source": "acton2018",
+   "target": "lieberpress2017",
+   "type": "builds_on",
+   "why": "Entangled command systems raise escalation risk in conventional war."
+  },
+  {
+   "source": "wu2022",
+   "target": "acton2018",
+   "type": "challenges",
+   "why": "China's centralized command and mobile forces limit inadvertent escalation risk."
+  },
+  {
+   "source": "cunninghamfravel2019",
+   "target": "acton2018",
+   "type": "qualifies",
+   "why": "Chinese confidence that war stays conventional may itself raise risk."
+  },
+  {
+   "source": "cunningham2020",
+   "target": "narang2014",
+   "type": "builds_on",
+   "why": "Strategic substitution as a response to a leverage deficit."
+  },
+  {
+   "source": "gavin2015",
+   "target": "sagan1996",
+   "type": "builds_on",
+   "why": "US nonproliferation strategy as a driver of states' choices."
+  },
+  {
+   "source": "carnegiecarson2019",
+   "target": "gavin2015",
+   "type": "builds_on",
+   "why": "Intelligence sharing with the IAEA as a nonproliferation tool."
+  },
+  {
+   "source": "fuhrmannsechser2014",
+   "target": "schelling1966",
+   "type": "mechanism_tested_by",
+   "why": "Hand-tying vs sinking costs in extended deterrence."
+  },
+  {
+   "source": "lindsay2013",
+   "target": "gartzke2013",
+   "type": "synthesizes",
+   "why": "Stuxnet as evidence that cyber weapons favor strong states (contemporaneous)."
+  },
+  {
+   "source": "leeds2003",
+   "target": "walt1987",
+   "type": "builds_on",
+   "why": "Tests deterrence effects of different alliance types."
+  },
+  {
+   "source": "leedssavun2007",
+   "target": "leeds2003",
+   "type": "builds_on",
+   "why": "Alliance termination follows changed circumstances."
+  },
+  {
+   "source": "walt2009",
+   "target": "walt1987",
+   "type": "builds_on",
+   "why": "Balance-of-threat logic applied under unipolarity."
+  },
+  {
+   "source": "crescenzi2012",
+   "target": "leeds2003",
+   "type": "builds_on",
+   "why": "Reliability reputations shape alliance formation."
+  },
+  {
+   "source": "beckley2015",
+   "target": "snyder1984",
+   "type": "challenges",
+   "why": "US alliances rarely entrapped Washington."
+  },
+  {
+   "source": "kim2011",
+   "target": "snyder1984",
+   "type": "qualifies",
+   "why": "Alliance design lets states avoid entrapment."
+  },
+  {
+   "source": "beckley2015",
+   "target": "kim2011",
+   "type": "builds_on",
+   "why": "Evidence that entanglement rarely becomes entrapment."
+  },
+  {
+   "source": "yarhimilo2016",
+   "target": "snyder1984",
+   "type": "builds_on",
+   "why": "Patrons manage protégés with arms or alliances."
+  },
+  {
+   "source": "cha2010",
+   "target": "snyder1984",
+   "type": "extends_to_new_case",
+   "why": "Restraining allies as the origin of US bilateral alliances in Asia."
+  },
+  {
+   "source": "cha2010",
+   "target": "hemmer2002",
+   "type": "challenges",
+   "why": "Control of allies, not identity, explains the hub-and-spoke system."
+  },
+  {
+   "source": "kydd2001",
+   "target": "jervis1978",
+   "type": "builds_on",
+   "why": "Trust and security dilemmas in alliance enlargement."
+  },
+  {
+   "source": "shifrinson2016",
+   "target": "kydd2001",
+   "type": "extends_to_new_case",
+   "why": "Archival evidence on NATO expansion assurances."
+  },
+  {
+   "source": "poast2012",
+   "target": "leeds2003",
+   "type": "builds_on",
+   "why": "Issue linkage helps conclude alliance negotiations."
+  },
+  {
+   "source": "allen2013",
+   "target": "leeds2003",
+   "type": "builds_on",
+   "why": "Credit access shapes alliance formation."
+  },
+  {
+   "source": "alley2021",
+   "target": "beckley2015",
+   "type": "synthesizes",
+   "why": "Costs of US alliances smaller than critics claim."
+  },
+  {
+   "source": "rathbun2011",
+   "target": "axelrod1981",
+   "type": "challenges",
+   "why": "Generalized trust, not strategic reciprocity, enables binding institutions."
+  },
+  {
+   "source": "fuhrmannsechser2014",
+   "target": "leeds2003",
+   "type": "builds_on",
+   "why": "Alliance commitments deter attacks on protégés."
+  },
+  {
+   "source": "mearsheimer2001",
+   "target": "waltz1979",
+   "type": "builds_on",
+   "why": "Offensive realism extends structural realism to power maximization."
+  },
+  {
+   "source": "gilpin1981",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Change and hegemonic war, not equilibrium balancing, drive the system."
+  },
+  {
+   "source": "wohlforth2009",
+   "target": "gilpin1981",
+   "type": "builds_on",
+   "why": "Status competition depends on the clarity of hierarchy."
+  },
+  {
+   "source": "larson2010",
+   "target": "wohlforth2009",
+   "type": "builds_on",
+   "why": "Status-seeking strategies of rising powers."
+  },
+  {
+   "source": "renshon2016",
+   "target": "wohlforth2009",
+   "type": "mechanism_tested_by",
+   "why": "Status deficits measured and linked to conflict."
+  },
+  {
+   "source": "lin2024",
+   "target": "renshon2016",
+   "type": "builds_on",
+   "why": "Status contestation comes from below as well as above."
+  },
+  {
+   "source": "harden2021",
+   "target": "renshon2016",
+   "type": "builds_on",
+   "why": "Leader narcissism drives status-seeking conflict."
+  },
+  {
+   "source": "goh2008",
+   "target": "walt1987",
+   "type": "challenges",
+   "why": "Southeast Asian states enmesh rather than balance or bandwagon."
+  },
+  {
+   "source": "ikenberrynexon2019",
+   "target": "gilpin1981",
+   "type": "builds_on",
+   "why": "Hegemonic orders as dynamic and contested."
+  },
+  {
+   "source": "allan2018",
+   "target": "ikenberrynexon2019",
+   "type": "synthesizes",
+   "why": "Identity distribution shapes hegemonic prospects (Allan predates)."
+  },
+  {
+   "source": "brooks2013",
+   "target": "mearsheimer2001",
+   "type": "challenges",
+   "why": "Deep engagement rather than offshore balancing serves US interests."
+  },
+  {
+   "source": "brookswohlforth2016",
+   "target": "gilpin1981",
+   "type": "challenges",
+   "why": "Polarity and power transition overstate China's near-term rise."
+  },
+  {
+   "source": "beckley2018",
+   "target": "brookswohlforth2016",
+   "type": "builds_on",
+   "why": "Net power measures show a wider US lead."
+  },
+  {
+   "source": "porter2018",
+   "target": "brooks2013",
+   "type": "challenges",
+   "why": "Primacy persists from establishment habit, not strategic merit."
+  },
+  {
+   "source": "silove2018",
+   "target": "porter2018",
+   "type": "synthesizes",
+   "why": "Clarifies what grand strategy means in such debates."
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "mearsheimer2001",
+   "type": "builds_on",
+   "why": "Order type follows power; liberal order ends with unipolarity."
+  },
+  {
+   "source": "nexon2009",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Balance-of-power theory is underspecified historically."
+  },
+  {
+   "source": "beek2025",
+   "target": "gilpin1981",
+   "type": "builds_on",
+   "why": "Hierarchy and war as one process."
+  },
+  {
+   "source": "drezner2013",
+   "target": "brooks2013",
+   "type": "challenges",
+   "why": "The economic returns to primacy are modest."
+  },
+  {
+   "source": "walt2009",
+   "target": "wohlforth2009",
+   "type": "synthesizes",
+   "why": "Behavior of secondary states under unipolarity."
+  },
+  {
+   "source": "friedberg2005",
+   "target": "mearsheimer2001",
+   "type": "synthesizes",
+   "why": "Maps optimistic and pessimistic variants of each IR theory for US-China."
+  },
+  {
+   "source": "johnston2003",
+   "target": "mearsheimer2001",
+   "type": "challenges",
+   "why": "China behaved as a largely status quo power."
+  },
+  {
+   "source": "kastnersaunders2012",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "Leader travel as an indicator of status quo orientation."
+  },
+  {
+   "source": "ross2006",
+   "target": "walt1987",
+   "type": "extends_to_new_case",
+   "why": "Balance-of-threat logic in East Asian responses to China."
+  },
+  {
+   "source": "liff2014",
+   "target": "jervis1978",
+   "type": "extends_to_new_case",
+   "why": "Security-dilemma dynamics in Asia-Pacific military competition."
+  },
+  {
+   "source": "goldstein2020",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "Chinese strategy under Xi mixes reassurance with resistance."
+  },
+  {
+   "source": "shambaugh2018",
+   "target": "goh2008",
+   "type": "builds_on",
+   "why": "Competitive coexistence in Southeast Asia."
+  },
+  {
+   "source": "fravel2008",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "China's compromise and force in territorial disputes."
+  },
+  {
+   "source": "glaser2015",
+   "target": "jervis1978",
+   "type": "builds_on",
+   "why": "Defensive realism grounds a US-China grand bargain."
+  },
+  {
+   "source": "glaser2015",
+   "target": "mearsheimer2001",
+   "type": "challenges",
+   "why": "Structure allows a peaceful rise if Taiwan is managed."
+  },
+  {
+   "source": "fravelglaser2022",
+   "target": "glaser2015",
+   "type": "builds_on",
+   "why": "Calibrating risk in the South China Sea."
+  },
+  {
+   "source": "montgomery2014",
+   "target": "brooks2013",
+   "type": "challenges",
+   "why": "Both grand strategies overestimate US military power in East Asia."
+  },
+  {
+   "source": "greentalmadge2022",
+   "target": "glaser2015",
+   "type": "challenges",
+   "why": "Taiwan has military, not just political, value to the US."
+  },
+  {
+   "source": "gilli2019",
+   "target": "brookswohlforth2016",
+   "type": "builds_on",
+   "why": "Technological complexity sustains the US military lead."
+  },
+  {
+   "source": "weissdafoe2019",
+   "target": "fravel2008",
+   "type": "synthesizes",
+   "why": "Domestic audiences and Chinese crisis behavior."
+  },
+  {
+   "source": "lin2024",
+   "target": "larson2010",
+   "type": "builds_on",
+   "why": "Chinese status seeking traced in official statements."
+  },
+  {
+   "source": "greitens2020",
+   "target": "pearson2022",
+   "type": "synthesizes",
+   "why": "Securitization of governance at home and in the economy (contemporaneous)."
+  },
+  {
+   "source": "pearson2022",
+   "target": "liff2014",
+   "type": "extends_to_new_case",
+   "why": "Security-dilemma dynamics in the economic realm."
+  },
+  {
+   "source": "saunders2011",
+   "target": "jervis1976",
+   "type": "builds_on",
+   "why": "Leaders' beliefs shape intervention strategies."
+  },
+  {
+   "source": "saunders2017",
+   "target": "saunders2011",
+   "type": "builds_on",
+   "why": "Leader experience shapes how advisers' biases aggregate."
+  },
+  {
+   "source": "schub2022",
+   "target": "saunders2017",
+   "type": "builds_on",
+   "why": "Bureaucratic specialization shapes advice to leaders."
+  },
+  {
+   "source": "horowitzstam2014",
+   "target": "saunders2011",
+   "type": "builds_on",
+   "why": "Leader backgrounds predict militarized behavior."
+  },
+  {
+   "source": "croco2011",
+   "target": "debsgoemans2010",
+   "type": "builds_on",
+   "why": "Culpability shapes punishment and war duration."
+  },
+  {
+   "source": "yarhimilo2014",
+   "target": "jervis1976",
+   "type": "builds_on",
+   "why": "Vividness and personal impressions in assessing intentions."
+  },
+  {
+   "source": "avey2022",
+   "target": "schub2022",
+   "type": "synthesizes",
+   "why": "How officials use expertise and information (contemporaneous program)."
+  },
+  {
+   "source": "mercer2005",
+   "target": "jervis1976",
+   "type": "builds_on",
+   "why": "Psychology underlies rational models, not just errors."
+  },
+  {
+   "source": "tir2010",
+   "target": "debsgoemans2010",
+   "type": "builds_on",
+   "why": "Leader insecurity drives territorial diversion."
+  },
+  {
+   "source": "koch2011",
+   "target": "horowitzstam2014",
+   "type": "synthesizes",
+   "why": "Leader characteristics and defense policy (Koch predates)."
+  },
+  {
+   "source": "gelpi2006",
+   "target": "karol2007",
+   "type": "synthesizes",
+   "why": "Casualty sensitivity conditional on success and its electoral cost (contemporaneous)."
+  },
+  {
+   "source": "berinsky2007",
+   "target": "gelpi2006",
+   "type": "challenges",
+   "why": "Elite cues, not casualties or success, drive support."
+  },
+  {
+   "source": "gartner2008",
+   "target": "gelpi2006",
+   "type": "builds_on",
+   "why": "Casualty trends and individual heterogeneity."
+  },
+  {
+   "source": "fetzer2025",
+   "target": "gartner2008",
+   "type": "builds_on",
+   "why": "Media coverage as the mechanism linking casualties to support."
+  },
+  {
+   "source": "grieco2011",
+   "target": "thompson2006",
+   "type": "mechanism_tested_by",
+   "why": "IO endorsement as information for domestic publics."
+  },
+  {
+   "source": "greenriley2023",
+   "target": "berinsky2007",
+   "type": "qualifies",
+   "why": "Racial group identity shapes support for force."
+  },
+  {
+   "source": "kreps2016",
+   "target": "press2013",
+   "type": "builds_on",
+   "why": "Legal information shifts support for force."
+  },
+  {
+   "source": "lyall2013",
+   "target": "kalyvas2006",
+   "type": "mechanism_tested_by",
+   "why": "Civilian attribution of harm in counterinsurgency."
+  },
+  {
+   "source": "berrebi2008",
+   "target": "kyddwalter2006",
+   "type": "mechanism_tested_by",
+   "why": "Terrorism shifts electorates (provocation and attrition)."
+  },
+  {
+   "source": "getmansky2014",
+   "target": "berrebi2008",
+   "type": "builds_on",
+   "why": "Threat exposure, not attacks, shifts votes right."
+  },
+  {
+   "source": "giavazzi2024",
+   "target": "getmansky2014",
+   "type": "extends_to_new_case",
+   "why": "Attacks shift public discourse toward the radical right in Germany."
+  },
+  {
+   "source": "cartergoemans2011",
+   "target": "gibler2007",
+   "type": "builds_on",
+   "why": "Origins of borders shape later conflict."
+  },
+  {
+   "source": "johnsontoft2014",
+   "target": "toft2006",
+   "type": "builds_on",
+   "why": "Evolutionary roots of territorial indivisibility."
+  },
+  {
+   "source": "lee2024",
+   "target": "brooks1999",
+   "type": "builds_on",
+   "why": "Resource economics shape the value of territory."
+  },
+  {
+   "source": "blair2025",
+   "target": "cartergoemans2011",
+   "type": "extends_to_new_case",
+   "why": "Border fortification as state-building."
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "collier2004",
+   "type": "synthesizes",
+   "why": "Both stress opportunity over grievance (contemporaneous)."
+  },
+  {
+   "source": "hegresambanis2006",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Few onset correlates are robust."
+  },
+  {
+   "source": "cedermangirardin2007",
+   "target": "fearonlaitin2003",
+   "type": "challenges",
+   "why": "Ethnic exclusion, not fractionalization, matters."
+  },
+  {
+   "source": "cederman2010",
+   "target": "cedermangirardin2007",
+   "type": "builds_on",
+   "why": "EPR data on excluded groups."
+  },
+  {
+   "source": "cederman2011",
+   "target": "cederman2010",
+   "type": "builds_on",
+   "why": "Horizontal economic inequalities revive grievance."
+  },
+  {
+   "source": "cederman2011",
+   "target": "collier2004",
+   "type": "challenges",
+   "why": "Grievances matter once measured at group level."
+  },
+  {
+   "source": "urdal2006",
+   "target": "collier2004",
+   "type": "builds_on",
+   "why": "Youth bulges as opportunity for rebellion."
+  },
+  {
+   "source": "hendrix2010",
+   "target": "fearonlaitin2003",
+   "type": "builds_on",
+   "why": "Better measures of state capacity."
+  },
+  {
+   "source": "salehyan2006",
+   "target": "fearonlaitin2003",
+   "type": "challenges",
+   "why": "Transnational factors (refugees) cause civil war."
+  },
+  {
+   "source": "kalyvasbalcells2010",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "International system shapes the technology of rebellion."
+  },
+  {
+   "source": "hendrixsalehyan2012",
+   "target": "collier2004",
+   "type": "extends_to_new_case",
+   "why": "Climate shocks as triggers of conflict."
+  },
+  {
+   "source": "theisen2012",
+   "target": "hendrixsalehyan2012",
+   "type": "challenges",
+   "why": "Little robust evidence that drought causes civil war."
+  },
+  {
+   "source": "lujala2010",
+   "target": "collier2004",
+   "type": "builds_on",
+   "why": "Resource location matters for conflict."
+  },
+  {
+   "source": "gibler2016",
+   "target": "fearonlaitin2003",
+   "type": "builds_on",
+   "why": "Behavioral triggers added to structural risk."
+  },
+  {
+   "source": "roessler2011",
+   "target": "cederman2010",
+   "type": "builds_on",
+   "why": "Ethnic exclusion as coup-proofing produces civil war."
+  },
+  {
+   "source": "fearonlaitin_varshney",
+   "target": "fearonlaitin1996",
+   "type": "builds_on",
+   "why": "Civic networks sustain interethnic peace."
+  },
+  {
+   "source": "mukaigawara2025",
+   "target": "kalyvas2006",
+   "type": "builds_on",
+   "why": "Territorial control logic drives violence under containment."
+  },
+  {
+   "source": "weinstein2007",
+   "target": "kalyvas2006",
+   "type": "synthesizes",
+   "why": "Organization vs control as explanations of violence (contemporaneous)."
+  },
+  {
+   "source": "humphreysweinstein2006",
+   "target": "weinstein2007",
+   "type": "mechanism_tested_by",
+   "why": "Organization and recruitment shape abuse."
+  },
+  {
+   "source": "humphreysweinstein2008",
+   "target": "collier2004",
+   "type": "qualifies",
+   "why": "Both grievance and selective incentives explain participation."
+  },
+  {
+   "source": "kalyvaskocher2007",
+   "target": "kalyvas2006",
+   "type": "builds_on",
+   "why": "Risks of non-participation under indiscriminate violence."
+  },
+  {
+   "source": "lyall2009",
+   "target": "kalyvas2006",
+   "type": "challenges",
+   "why": "Indiscriminate shelling reduced insurgent attacks."
+  },
+  {
+   "source": "kocher2011",
+   "target": "lyall2009",
+   "type": "challenges",
+   "why": "Indiscriminate bombing in Vietnam backfired."
+  },
+  {
+   "source": "kocher2011",
+   "target": "kalyvas2006",
+   "type": "mechanism_tested_by",
+   "why": "Indiscriminate violence shifts control to insurgents."
+  },
+  {
+   "source": "lyallwilson2009",
+   "target": "biddle2004",
+   "type": "builds_on",
+   "why": "Force structure shapes counterinsurgency outcomes."
+  },
+  {
+   "source": "balcells2010",
+   "target": "kalyvas2006",
+   "type": "extends_to_new_case",
+   "why": "Violence in conventional civil wars follows prewar rivalry."
+  },
+  {
+   "source": "wood2010",
+   "target": "weinstein2007",
+   "type": "builds_on",
+   "why": "Weak rebels kill more civilians."
+  },
+  {
+   "source": "salehyan2011",
+   "target": "salehyan2006",
+   "type": "builds_on",
+   "why": "External support as principal-agent relationship."
+  },
+  {
+   "source": "salehyan2014",
+   "target": "salehyan2011",
+   "type": "builds_on",
+   "why": "Sponsor type shapes rebel abuse."
+  },
+  {
+   "source": "parkinson2013",
+   "target": "weinstein2007",
+   "type": "challenges",
+   "why": "Everyday social networks, not formal structure, sustain militancy."
+  },
+  {
+   "source": "arjona2014",
+   "target": "kalyvas2006",
+   "type": "builds_on",
+   "why": "Wartime institutions vary with armed group strategies."
+  },
+  {
+   "source": "stewart2018",
+   "target": "arjona2014",
+   "type": "builds_on",
+   "why": "Secessionist goals drive rebel governance."
+  },
+  {
+   "source": "blattman2009",
+   "target": "humphreysweinstein2008",
+   "type": "builds_on",
+   "why": "Legacies of participation in armed groups."
+  },
+  {
+   "source": "cunningham2013",
+   "target": "cunningham2006",
+   "type": "builds_on",
+   "why": "Internal divisions generate conflict."
+  },
+  {
+   "source": "beber2013",
+   "target": "humphreysweinstein2008",
+   "type": "builds_on",
+   "why": "Coercive recruitment of children."
+  },
+  {
+   "source": "stephanchenoweth2008",
+   "target": "kalyvaskocher2007",
+   "type": "challenges",
+   "why": "Nonviolent campaigns attract broader participation."
+  },
+  {
+   "source": "zhukov2023",
+   "target": "lyall2009",
+   "type": "synthesizes",
+   "why": "Repression has non-monotonic effects on rebellion."
+  },
+  {
+   "source": "cohen2013apsr",
+   "target": "weinstein2007",
+   "type": "builds_on",
+   "why": "Recruitment by abduction drives wartime rape."
+  },
+  {
+   "source": "cohen2013wp",
+   "target": "cohen2013apsr",
+   "type": "synthesizes",
+   "why": "Micro evidence from Sierra Leone matching the cross-national pattern."
+  },
+  {
+   "source": "abrahms2015",
+   "target": "weinstein2007",
+   "type": "builds_on",
+   "why": "Leadership control shapes targeting of civilians."
+  },
+  {
+   "source": "mukaigawara2025",
+   "target": "arjona2014",
+   "type": "builds_on",
+   "why": "Insurgents coerce civilians to defend territory."
+  },
+  {
+   "source": "fortna2004",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Peacekeeping as a third-party commitment device."
+  },
+  {
+   "source": "fortna2008",
+   "target": "fortna2004",
+   "type": "builds_on",
+   "why": "Mechanisms through which peacekeeping works."
+  },
+  {
+   "source": "hultman2013",
+   "target": "fortna2008",
+   "type": "extends_to_new_case",
+   "why": "Peacekeeping protects civilians during war."
+  },
+  {
+   "source": "hultman2014",
+   "target": "hultman2013",
+   "type": "builds_on",
+   "why": "Troops reduce battlefield deaths."
+  },
+  {
+   "source": "fjelde2019",
+   "target": "hultman2013",
+   "type": "builds_on",
+   "why": "Local presence protects civilians."
+  },
+  {
+   "source": "ruggeri2017",
+   "target": "hultman2014",
+   "type": "builds_on",
+   "why": "Local deployments shorten conflict episodes."
+  },
+  {
+   "source": "beardsley2008",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Mediation produces agreements without lasting peace."
+  },
+  {
+   "source": "toft2010",
+   "target": "walter1997",
+   "type": "challenges",
+   "why": "Rebel victory, not settlement, yields durable peace."
+  },
+  {
+   "source": "kuperman2008",
+   "target": "fortna2008",
+   "type": "qualifies",
+   "why": "Expected intervention creates moral hazard for rebels."
+  },
+  {
+   "source": "lo2008",
+   "target": "fortna2004",
+   "type": "extends_to_new_case",
+   "why": "Postwar peace duration after interstate wars and FIRC."
+  },
+  {
+   "source": "prorok2017",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Legal threats worsen commitment problems for leaders."
+  },
+  {
+   "source": "walter2017",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Extremist ideology as a commitment device for rebels."
+  },
+  {
+   "source": "fortna2015",
+   "target": "abrahms2006",
+   "type": "builds_on",
+   "why": "Terrorism hurts rebels' civil war outcomes."
+  },
+  {
+   "source": "walter2006",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Reputational motives block settlement with separatists."
+  },
+  {
+   "source": "cunningham2006",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Veto players lengthen civil wars."
+  },
+  {
+   "source": "abrahms2006",
+   "target": "kyddwalter2006",
+   "type": "challenges",
+   "why": "Terrorism rarely achieves political goals."
+  },
+  {
+   "source": "abrahms2008",
+   "target": "abrahms2006",
+   "type": "builds_on",
+   "why": "Social solidarity, not goals, motivates terrorists."
+  },
+  {
+   "source": "bdmdickson2007",
+   "target": "kyddwalter2006",
+   "type": "synthesizes",
+   "why": "Provocation and mobilization formalized (contemporaneous)."
+  },
+  {
+   "source": "powell2007",
+   "target": "bdmdickson2007",
+   "type": "synthesizes",
+   "why": "Strategic models of terrorism and defense."
+  },
+  {
+   "source": "piazza2008",
+   "target": "fearonlaitin2003",
+   "type": "extends_to_new_case",
+   "why": "State weakness and transnational terrorism."
+  },
+  {
+   "source": "asal2008",
+   "target": "abrahms2008",
+   "type": "synthesizes",
+   "why": "Organizational features drive lethality."
+  },
+  {
+   "source": "chenoweth2010",
+   "target": "kyddwalter2006",
+   "type": "mechanism_tested_by",
+   "why": "Outbidding under democratic competition."
+  },
+  {
+   "source": "johnston2012",
+   "target": "jordan2014",
+   "type": "challenges",
+   "why": "Decapitation helps counterinsurgency campaigns (Johnston predates)."
+  },
+  {
+   "source": "jordan2014",
+   "target": "johnston2012",
+   "type": "challenges",
+   "why": "Bureaucratized groups survive decapitation."
+  },
+  {
+   "source": "johnstonsarbahi2016",
+   "target": "johnston2012",
+   "type": "builds_on",
+   "why": "Drone strikes reduce militant violence."
+  },
+  {
+   "source": "thomas2021",
+   "target": "kyddwalter2006",
+   "type": "builds_on",
+   "why": "Gender norms shape the effectiveness of terrorist tactics."
+  },
+  {
+   "source": "gartzke2013",
+   "target": "rid2012",
+   "type": "builds_on",
+   "why": "Cyberwar cannot substitute for force."
+  },
+  {
+   "source": "kello2013",
+   "target": "rid2012",
+   "type": "challenges",
+   "why": "Cyber is revolutionary for statecraft."
+  },
+  {
+   "source": "ridbuchanan2015",
+   "target": "rid2012",
+   "type": "builds_on",
+   "why": "Attribution is political and organizational."
+  },
+  {
+   "source": "gartzkelindsay2015",
+   "target": "gartzke2013",
+   "type": "builds_on",
+   "why": "Deception shapes cyber offense and defense."
+  },
+  {
+   "source": "slayton2017",
+   "target": "jervis1978",
+   "type": "extends_to_new_case",
+   "why": "Offense-defense balance applied to cyber."
+  },
+  {
+   "source": "slayton2017",
+   "target": "gartzkelindsay2015",
+   "type": "builds_on",
+   "why": "Organizational cost shapes the cyber balance."
+  },
+  {
+   "source": "kostyukzhukov2019",
+   "target": "gartzke2013",
+   "type": "mechanism_tested_by",
+   "why": "Cyber attacks barely affect battlefield events."
+  },
+  {
+   "source": "horowitz2019jss",
+   "target": "horowitz2010",
+   "type": "builds_on",
+   "why": "Autonomy and the diffusion of military innovation."
+  },
+  {
+   "source": "goldfarb2022",
+   "target": "horowitz2019jss",
+   "type": "challenges",
+   "why": "AI raises the importance of human judgment."
+  },
+  {
+   "source": "horowitz2010",
+   "target": "biddle2004",
+   "type": "builds_on",
+   "why": "Adoption capacity shapes military power."
+  },
+  {
+   "source": "gilli2019",
+   "target": "horowitz2010",
+   "type": "challenges",
+   "why": "Complexity limits imitation more than adoption-capacity theory implies."
+  },
+  {
+   "source": "montgomery2014",
+   "target": "biddle2004",
+   "type": "builds_on",
+   "why": "Force employment and A2/AD in the Western Pacific."
+  },
+  {
+   "source": "cunningham2020",
+   "target": "kello2013",
+   "type": "builds_on",
+   "why": "Cyber as coercive leverage for China."
+  },
+  {
+   "source": "morrow2007",
+   "target": "axelrod1981",
+   "type": "builds_on",
+   "why": "Reciprocity enforces the laws of war."
+  },
+  {
+   "source": "josimmons2016",
+   "target": "morrow2007",
+   "type": "builds_on",
+   "why": "International courts deter atrocity."
+  },
+  {
+   "source": "prorok2017",
+   "target": "josimmons2016",
+   "type": "challenges",
+   "why": "ICC involvement can prolong wars."
+  },
+  {
+   "source": "kimsikkink2010",
+   "target": "josimmons2016",
+   "type": "synthesizes",
+   "why": "Prosecutions deter abuses (Kim-Sikkink predates)."
+  },
+  {
+   "source": "carpenter2011",
+   "target": "morrow2007",
+   "type": "builds_on",
+   "why": "Advocacy networks shape weapons norms."
+  },
+  {
+   "source": "mearsheimer1994",
+   "target": "axelrod1981",
+   "type": "challenges",
+   "why": "Institutions have little independent security effect."
+  },
+  {
+   "source": "rathbun2011",
+   "target": "mearsheimer1994",
+   "type": "challenges",
+   "why": "Trust enables binding security institutions."
+  },
+  {
+   "source": "thompson2006",
+   "target": "mearsheimer1994",
+   "type": "challenges",
+   "why": "IOs transmit information that shapes coercion."
+  },
+  {
+   "source": "colgan2013",
+   "target": "collier2004",
+   "type": "builds_on",
+   "why": "Oil's many pathways to international conflict."
+  },
+  {
+   "source": "glaser2013",
+   "target": "colgan2013",
+   "type": "builds_on",
+   "why": "Specifies oil mechanisms relevant to US security."
+  },
+  {
+   "source": "lindpress2018",
+   "target": "glaser2013",
+   "type": "builds_on",
+   "why": "Energy mercantilism as rational security policy."
+  },
+  {
+   "source": "kim2019petro",
+   "target": "colgan2013",
+   "type": "builds_on",
+   "why": "Petro-alignment between great powers and oil states."
+  },
+  {
+   "source": "brooks1999",
+   "target": "mearsheimer2001",
+   "type": "challenges",
+   "why": "Globalized production lowers the benefits of conquest."
+  },
+  {
+   "source": "hegre2010",
+   "target": "gartzke2007",
+   "type": "builds_on",
+   "why": "Trade promotes peace in simultaneous estimates."
+  },
+  {
+   "source": "maoz2009",
+   "target": "hegre2010",
+   "type": "synthesizes",
+   "why": "Network interdependence and conflict (Maoz predates)."
+  },
+  {
+   "source": "farrellnewman2019",
+   "target": "lipson1984",
+   "type": "challenges",
+   "why": "Economic networks become instruments of coercion."
+  },
+  {
+   "source": "pearson2022",
+   "target": "farrellnewman2019",
+   "type": "builds_on",
+   "why": "Weaponization fears drive economic security dilemmas."
+  },
+  {
+   "source": "casler2021",
+   "target": "farrellnewman2019",
+   "type": "synthesizes",
+   "why": "Trade coercion has domestic political limits (contemporaneous)."
+  },
+  {
+   "source": "nordhaus2012",
+   "target": "jervis1978",
+   "type": "mechanism_tested_by",
+   "why": "Spending responds to threat environments."
+  },
+  {
+   "source": "caverley2007",
+   "target": "brooks2013",
+   "type": "synthesizes",
+   "why": "Defense-industrial hegemony underpins US primacy (Caverley predates)."
+  },
+  {
+   "source": "allen2013",
+   "target": "slantchev2012",
+   "type": "synthesizes",
+   "why": "Finance shapes military choices (alliances, war)."
+  },
+  {
+   "source": "matthews1996",
+   "target": "lipson1984",
+   "type": "builds_on",
+   "why": "Cumulative gains explain where cooperation fails."
+  },
+  {
+   "source": "hudson2009",
+   "target": "barnhart2020",
+   "type": "synthesizes",
+   "why": "Women's security and state peacefulness (Hudson predates)."
+  },
+  {
+   "source": "koch2011",
+   "target": "barnhart2020",
+   "type": "challenges",
+   "why": "Women executives raise, not lower, conflict behavior (Koch predates)."
+  },
+  {
+   "source": "plumper2006",
+   "target": "hudson2009",
+   "type": "synthesizes",
+   "why": "Gendered costs of war."
+  },
+  {
+   "source": "svolik2012",
+   "target": "roessler2011",
+   "type": "synthesizes",
+   "why": "Coup-proofing dilemmas in dictatorships."
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "powellthyne2011",
+   "type": "builds_on",
+   "why": "Protest and coup coordination."
+  },
+  {
+   "source": "paine2021",
+   "target": "roessler2011",
+   "type": "builds_on",
+   "why": "Formalizes the coup-civil war trade-off."
+  },
+  {
+   "source": "hilljones2014",
+   "target": "davenport2007",
+   "type": "builds_on",
+   "why": "Predictors of repression evaluated."
+  },
+  {
+   "source": "rozenaszhukov2019",
+   "target": "kalyvas2006",
+   "type": "extends_to_new_case",
+   "why": "Selective retribution logic in state terror."
+  },
+  {
+   "source": "zhukov2023",
+   "target": "rozenaszhukov2019",
+   "type": "builds_on",
+   "why": "Repression's effects depend on intensity and credibility."
+  },
+  {
+   "source": "greitens2020",
+   "target": "davenport2007",
+   "type": "extends_to_new_case",
+   "why": "Preventive repression in Xinjiang."
+  },
+  {
+   "source": "kimsikkink2010",
+   "target": "hilljones2014",
+   "type": "synthesizes",
+   "why": "Legal accountability and repression."
+  },
+  {
+   "source": "wendt1992",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Anarchy is what states make of it."
+  },
+  {
+   "source": "jervis1978",
+   "target": "waltz1979",
+   "type": "qualifies",
+   "why": "Offense-defense balance shapes security dilemma severity."
+  },
+  {
+   "source": "lipson1984",
+   "target": "axelrod1981",
+   "type": "builds_on",
+   "why": "Cooperation theory applied across issue areas."
+  },
+  {
+   "source": "pouliot2008",
+   "target": "wendt1992",
+   "type": "builds_on",
+   "why": "Practices sustain security communities."
+  },
+  {
+   "source": "hemmer2002",
+   "target": "wendt1992",
+   "type": "builds_on",
+   "why": "Collective identity shapes alliance form."
+  },
+  {
+   "source": "mearsheimer1994",
+   "target": "waltz1979",
+   "type": "builds_on",
+   "why": "Realist skepticism of institutions."
+  },
+  {
+   "source": "schelling1966",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schelling1966",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jervis1976",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jervis1976",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jervis1978",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jervis1978",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waltz1979",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waltz1979",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilpin1981",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilpin1981",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walt1987",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walt1987",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer2001",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer2001",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wendt1992",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "axelrod1981",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipson1984",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipson1984",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer1994",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer1994",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matthews1996",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matthews1996",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer2005",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer2005",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pouliot2008",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nexon2009",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nexon2009",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearon1995",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzke1999",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powell2006",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leventoglu2007",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feyramsay2010",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "debsmonteiro2013",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "debsmonteiro2013",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2010",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2010",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "toft2006",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "toft2006",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slantchev2012",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slantchev2012",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brandt2008",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brandt2008",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beek2025",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beek2025",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearon1994",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultz2001",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultz2001",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomz2007",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomz2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weeks2008",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weeks2008",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slantchev2006",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurizaki2007",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "snyder2011",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trachtenberg2012",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2012",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trager2011",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trager2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzerbrutger2015",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzerbrutger2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weissdafoe2019",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weissdafoe2019",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quek2018",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quek2018",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "downes2012",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "downes2012",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwartzblair2020",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwartzblair2020",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yarhimilo2018",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yarhimilo2018",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "casler2021",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "casler2021",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzke2007",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzke2007",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dafoe2011",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weeks2012",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weeks2012",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomzweeks2013",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomzweeks2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellquek2018",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellquek2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellquek2018",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barnhart2020",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barnhart2020",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "debsgoemans2010",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "debsgoemans2010",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "croco2011",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "croco2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2013wp",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2013wp",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer1996",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer1996",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "press2005",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "press2005",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crescenzi2007",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wolford2007",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wolford2007",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weisiger2015",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brutgerkertzer2018",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brutgerkertzer2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sechser2010",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcmanus2021",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcmanus2021",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lin2024",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lin2024",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sagan1996",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jogartzke2007",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fuhrmann2009",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rauchhaus2009",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kroenig2013",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kroenig2013",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sechser2017",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sechser2017",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "narang2014",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "press2013",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "press2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saganvalentino2017",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saganvalentino2017",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberpress2006",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberpress2006",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberpress2017",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberpress2017",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acton2018",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acton2018",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gavin2015",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gavin2015",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegiecarson2019",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegiecarson2019",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunninghamfravel2019",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunninghamfravel2019",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wu2022",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wu2022",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "snyder1984",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leeds2003",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leedssavun2007",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walt2009",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walt2009",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crescenzi2012",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crescenzi2012",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fuhrmannsechser2014",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fuhrmannsechser2014",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beckley2015",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2011",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yarhimilo2016",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cha2010",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cha2010",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hemmer2002",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hemmer2002",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kydd2001",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kydd2001",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "poast2012",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "poast2012",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allen2013",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allen2013",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rathbun2011",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rathbun2011",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alley2021",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alley2021",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shifrinson2016",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shifrinson2016",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wohlforth2009",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larson2010",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larson2010",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renshon2016",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renshon2016",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goh2008",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goh2008",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ikenberrynexon2019",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ikenberrynexon2019",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2018",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2018",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brooks2013",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brooks2013",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brookswohlforth2016",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brookswohlforth2016",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brookswohlforth2016",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beckley2018",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beckley2018",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "porter2018",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "silove2018",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2013",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2013",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2003",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2003",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "friedberg2005",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "friedberg2005",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2006",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2006",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravel2008",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravel2008",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liff2014",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liff2014",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldstein2020",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldstein2020",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shambaugh2018",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shambaugh2018",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastnersaunders2012",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastnersaunders2012",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montgomery2014",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montgomery2014",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glaser2015",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glaser2015",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravelglaser2022",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravelglaser2022",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greentalmadge2022",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greentalmadge2022",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunningham2020",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunningham2020",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunningham2020",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilli2019",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilli2019",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2020",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2020",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saunders2011",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yarhimilo2014",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yarhimilo2014",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzer2016",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzer2016",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitzstam2014",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saunders2017",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schub2022",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harden2021",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harden2021",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duelfer2011",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duelfer2011",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "avey2022",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "avey2022",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gelpi2006",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinsky2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartner2008",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karol2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomz2020io",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomz2020io",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fetzer2025",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grieco2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grieco2011",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenriley2023",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreps2016",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreps2016",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreps2016",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goddard2006",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goddard2006",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibler2007",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibler2007",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cartergoemans2011",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tir2010",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tir2010",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnsontoft2014",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2024",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2024",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blair2025",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blair2025",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collier2004",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collier2004",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin1996",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hegresambanis2006",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cedermangirardin2007",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cederman2010",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cederman2011",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urdal2006",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hendrix2010",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vreeland2008",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vreeland2008",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "salehyan2006",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "salehyan2006",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvasbalcells2010",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvasbalcells2010",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hendrixsalehyan2012",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hendrixsalehyan2012",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "theisen2012",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "theisen2012",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lujala2010",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lujala2010",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibler2016",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mukaigawara2025",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvas2006",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weinstein2007",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "humphreysweinstein2006",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "humphreysweinstein2008",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvaskocher2007",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lyall2009",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lyallwilson2009",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lyallwilson2009",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lyall2013",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lyall2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kocher2011",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kocher2011",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "balcells2010",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wood2010",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "salehyan2011",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "salehyan2011",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "salehyan2014",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parkinson2013",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arjona2014",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stewart2018",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blattman2009",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunningham2006",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunningham2006",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunningham2013",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunningham2013",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roessler2011",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roessler2011",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beber2013",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stephanchenoweth2008",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stephanchenoweth2008",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin_varshney",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhukov2023",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhukov2023",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2013wp",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2013wp",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2013apsr",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2013apsr",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter1997",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter1997",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fortna2004",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fortna2008",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hultman2013",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hultman2013",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hultman2014",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fjelde2019",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fjelde2019",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ruggeri2017",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattes2009",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattes2009",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beardsley2008",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "toft2010",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2006",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2006",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2006",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2017",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2017",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuperman2008",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lo2008",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prorok2017",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prorok2017",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abrahms2006",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abrahms2008",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdmdickson2007",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powell2007",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piazza2008",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "asal2008",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenoweth2010",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenoweth2010",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fortna2015",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fortna2015",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2012",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2012",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jordan2014",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnstonsarbahi2016",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnstonsarbahi2016",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berrebi2008",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berrebi2008",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "getmansky2014",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "getmansky2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abrahms2015",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abrahms2015",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomas2021",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomas2021",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "giavazzi2024",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "giavazzi2024",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biddle2004",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2010",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2010",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rid2012",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzke2013",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindsay2013",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindsay2013",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kello2013",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ridbuchanan2015",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzkelindsay2015",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nye2017",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nye2017",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slayton2017",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borghard2017",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borghard2017",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostyukzhukov2019",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostyukzhukov2019",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2019jss",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldfarb2022",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrow2007",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "josimmons2016",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "josimmons2016",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2006",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2006",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kimsikkink2010",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kimsikkink2010",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpenter2011",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpenter2011",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2013",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glaser2013",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindpress2018",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindpress2018",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maoz2009",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brooks1999",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brooks1999",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2019petro",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2019petro",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caverley2007",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caverley2007",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hegre2010",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearson2022",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearson2022",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrellnewman2019",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nordhaus2012",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nordhaus2012",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hudson2009",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "plumper2006",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "plumper2006",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koch2011",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koch2011",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellthyne2011",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2012",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davenport2007",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davenport2007",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hilljones2014",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rozenaszhukov2019",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paine2021",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}
