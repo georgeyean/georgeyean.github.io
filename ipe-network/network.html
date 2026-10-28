@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPE Knowledge Network</title>
+<meta name="description" content="Interactive map of key works and debates in International Political Economy, c. 1976-2026, with a timeline view, theme and decade filters, and click-to-see details.">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+:root{
+  --bg:#f7f7f5; --panel:#ffffff; --ink:#1c1c1c; --muted:#6b6b6b; --line:#e3e3df; --accent:#2563eb;
+  --chip:#eeeeea; --edge:#b9b9b4; --theme-node:#ffffff;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121212; --panel:#1b1b1b; --ink:#ececec; --muted:#a0a0a0; --line:#2c2c2c; --accent:#60a5fa;
+    --chip:#262626; --edge:#4a4a4a; --theme-node:#1b1b1b;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121212; --panel:#1b1b1b; --ink:#ececec; --muted:#a0a0a0; --line:#2c2c2c; --accent:#60a5fa;
+  --chip:#262626; --edge:#4a4a4a; --theme-node:#1b1b1b;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+header h1{font-size:16px;margin:0 8px 0 0;font-weight:650}
+header .sub{color:var(--muted);font-size:12px}
+.controls{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.controls label{display:inline-flex;gap:4px;align-items:center;font-size:12px;color:var(--muted)}
+select,input[type=search],button{font:inherit;font-size:12px;padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+button{cursor:pointer}
+button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+#layout{display:grid;grid-template-columns:230px 1fr 360px;height:calc(100% - 58px)}
+#themes{overflow:auto;border-right:1px solid var(--line);padding:10px 12px;background:var(--panel)}
+#themes h2,#detail h2{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 8px}
+.theme-row{display:flex;align-items:center;gap:8px;padding:4px 2px;cursor:pointer;border-radius:6px;font-size:12px}
+.theme-row:hover{background:var(--chip)}
+.theme-row .sw{width:12px;height:12px;border-radius:50%;flex:none}
+.theme-row.off{opacity:.38}
+.theme-row .n{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+.small-links{margin-top:10px;display:flex;gap:6px;flex-wrap:wrap}
+.small-links button{font-size:11px;padding:3px 7px}
+#stage{position:relative;overflow:hidden}
+svg{width:100%;height:100%;display:block}
+#detail{overflow:auto;border-left:1px solid var(--line);padding:12px 14px;background:var(--panel)}
+#detail .title{font-size:15px;font-weight:650;margin:0 0 2px}
+#detail .meta{color:var(--muted);font-size:12px;margin-bottom:8px}
+#detail p{margin:6px 0}
+#detail .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-top:12px}
+.chip{display:inline-block;padding:2px 7px;border-radius:999px;background:var(--chip);font-size:11px;margin:2px 3px 2px 0}
+.rel{padding:6px 0;border-top:1px solid var(--line);font-size:12.5px}
+.rel b{font-weight:600}
+.rel .why{color:var(--muted)}
+.rel a{color:var(--accent);cursor:pointer;text-decoration:none}
+.rel a:hover{text-decoration:underline}
+.node-label{font-size:10px;pointer-events:none;fill:var(--ink);paint-order:stroke;stroke:var(--bg);stroke-width:3px;stroke-linejoin:round}
+.theme-label{font-size:11px;font-weight:650;pointer-events:none;fill:var(--ink);paint-order:stroke;stroke:var(--bg);stroke-width:3px}
+.lane-label{font-size:11px;fill:var(--muted)}
+.axis text{fill:var(--muted);font-size:11px}
+.axis line,.axis path{stroke:var(--line)}
+.legend{position:absolute;left:10px;bottom:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:11px;color:var(--muted);max-width:280px}
+.legend div{display:flex;align-items:center;gap:6px;margin:2px 0}
+.legend .l{width:22px;height:0;border-top:2px solid var(--edge)}
+.legend .l.ch{border-top-color:#dc2626}
+.legend .l.q{border-top-style:dashed}
+.legend .l.ex{border-top-style:dotted}
+.legend .l.sy{border-top-color:#7c3aed}
+.legend .l.mt{border-top-color:#059669}
+#hint{position:absolute;top:10px;left:10px;font-size:11px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+a.ext{color:var(--accent)}
+@media (max-width: 900px){
+  #layout{grid-template-columns:1fr;grid-template-rows:auto 60vh auto;height:auto}
+  #themes{border-right:0;border-bottom:1px solid var(--line);max-height:30vh}
+  #detail{border-left:0;border-top:1px solid var(--line)}
+  body{height:auto}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>IPE knowledge network</h1>
+  <span class="sub" id="counts"></span>
+  <div class="controls">
+    <button id="viewNet" class="active">Network</button>
+    <button id="viewTime">Timeline</button>
+    <label>Decade
+      <select id="decade">
+        <option value="all">all</option>
+        <option value="pre2000">before 2000</option>
+        <option value="2000">2000s</option>
+        <option value="2010">2010s</option>
+        <option value="2020">2020s</option>
+      </select></label>
+    <label>Edges
+      <select id="etype">
+        <option value="all">all relations</option>
+        <option value="builds_on">builds on</option>
+        <option value="challenges">challenges</option>
+        <option value="qualifies">qualifies</option>
+        <option value="extends_to_new_case">extends to new case</option>
+        <option value="synthesizes">synthesizes</option>
+        <option value="mechanism_tested_by">mechanism tested by</option>
+      </select></label>
+    <label><input type="checkbox" id="showThemes" checked> theme hubs</label>
+    <label><input type="checkbox" id="seedOnly"> repo (Zotero) works only</label>
+    <input type="search" id="q" placeholder="search author, title, claim…">
+    <button id="themeToggle" title="Toggle light/dark">◐</button>
+  </div>
+</header>
+<div id="layout">
+  <aside id="themes">
+    <h2>Themes</h2>
+    <div id="themeList"></div>
+    <div class="small-links"><button id="allOn">all</button><button id="allOff">none</button></div>
+    <p style="font-size:11px;color:var(--muted);margin-top:12px">Click a theme to toggle it. Node color = first theme tag. Click a node for its claim, method and typed links. Drag to rearrange; scroll to zoom. Data: <a class="ext" href="graph.json">graph.json</a>; review: <a class="ext" href="REVIEW.md">REVIEW.md</a>.</p>
+  </aside>
+  <main id="stage">
+    <svg id="svg"></svg>
+    <div id="hint">Edge direction: later work → work it relates to.</div>
+    <div class="legend">
+      <div><span class="l"></span> builds on</div>
+      <div><span class="l ch"></span> challenges</div>
+      <div><span class="l q"></span> qualifies</div>
+      <div><span class="l ex"></span> extends to new case</div>
+      <div><span class="l sy"></span> synthesizes</div>
+      <div><span class="l mt"></span> mechanism tested by</div>
+    </div>
+  </main>
+  <aside id="detail">
+    <h2>Details</h2>
+    <div id="detailBody"><p style="color:var(--muted)">Select a work or theme node.</p></div>
+  </aside>
+</div>
+
+<script>
+(async function(){
+  const data = await fetch('graph.json').then(r => r.json());
+  const themes = data.themes;
+  const themeById = Object.fromEntries(themes.map(t => [t.id, t]));
+  const works = data.nodes.filter(n => n.type === 'work');
+  const nodeById = Object.fromEntries(data.nodes.map(n => [n.id, n]));
+  const relEdges = data.edges.filter(e => e.type !== 'belongs_to');
+  const memEdges = data.edges.filter(e => e.type === 'belongs_to');
+
+  document.getElementById('counts').textContent =
+    `${works.length} works · ${themes.length} themes · ${relEdges.length} typed relations`;
+
+  // ---------- state
+  const state = {
+    view: 'net', decade: 'all', etype: 'all', showThemes: true, seedOnly: false, q: '',
+    themesOn: new Set(themes.map(t => t.id)), selected: null,
+  };
+  try { const s = localStorage.getItem('ipe-net-state'); if (s) { const o = JSON.parse(s); if (o.themesOn) state.themesOn = new Set(o.themesOn); if (o.view) state.view = o.view; } } catch (e) {}
+  const persist = () => { try { localStorage.setItem('ipe-net-state', JSON.stringify({themesOn: [...state.themesOn], view: state.view})); } catch (e) {} };
+
+  // ---------- theme list
+  const themeList = d3.select('#themeList');
+  function renderThemeList(){
+    const counts = {};
+    works.forEach(w => w.themes.forEach(t => counts[t] = (counts[t] || 0) + 1));
+    const rows = themeList.selectAll('.theme-row').data(themes, d => d.id);
+    const enter = rows.enter().append('div').attr('class', 'theme-row')
+      .on('click', (ev, d) => { if (state.themesOn.has(d.id)) state.themesOn.delete(d.id); else state.themesOn.add(d.id); persist(); update(); });
+    enter.append('span').attr('class', 'sw').style('background', d => d.color);
+    enter.append('span').attr('class', 'lab').text(d => d.label);
+    enter.append('span').attr('class', 'n').text(d => counts[d.id] || 0);
+    rows.merge(enter).classed('off', d => !state.themesOn.has(d.id));
+  }
+  document.getElementById('allOn').onclick = () => { themes.forEach(t => state.themesOn.add(t.id)); persist(); update(); };
+  document.getElementById('allOff').onclick = () => { state.themesOn.clear(); persist(); update(); };
+
+  // ---------- filters
+  function decadeOk(y){
+    if (state.decade === 'all') return true;
+    if (state.decade === 'pre2000') return y < 2000;
+    return y >= +state.decade && y < +state.decade + 10;
+  }
+  function matchQ(n){
+    if (!state.q) return true;
+    const q = state.q.toLowerCase();
+    return [n.authors, n.title, n.claim, n.journal, n.label].join(' ').toLowerCase().includes(q);
+  }
+  function visibleWorks(){
+    return works.filter(n => n.themes.some(t => state.themesOn.has(t)) && decadeOk(n.year) && matchQ(n)
+      && (!state.seedOnly || (n.source || '').startsWith('papers.json')));
+  }
+
+  // ---------- svg scaffolding
+  const svg = d3.select('#svg');
+  const stage = document.getElementById('stage');
+  let W = stage.clientWidth, H = stage.clientHeight;
+  const g = svg.append('g');
+  const gEdges = g.append('g').attr('class', 'edges');
+  const gNodes = g.append('g').attr('class', 'nodes');
+  const gLabels = g.append('g').attr('class', 'labels');
+  const gAxes = g.append('g').attr('class', 'axes');
+  const zoom = d3.zoom().scaleExtent([0.25, 5]).on('zoom', ev => g.attr('transform', ev.transform));
+  svg.call(zoom);
+
+  svg.append('defs').append('marker').attr('id', 'arrow').attr('viewBox', '0 -4 8 8').attr('refX', 8).attr('refY', 0)
+    .attr('markerWidth', 6).attr('markerHeight', 6).attr('orient', 'auto')
+    .append('path').attr('d', 'M0,-4L8,0L0,4').attr('fill', 'var(--edge)');
+
+  const edgeColor = t => t === 'challenges' ? '#dc2626' : t === 'synthesizes' ? '#7c3aed' : t === 'mechanism_tested_by' ? '#059669' : 'var(--edge)';
+  const edgeDash = t => t === 'qualifies' ? '5,4' : t === 'extends_to_new_case' ? '2,3' : null;
+  const nodeColor = n => n.type === 'theme' ? n.color : themeById[n.themes[0]].color;
+  const radius = n => n.type === 'theme' ? 16 : 5 + Math.min(9, degree[n.id] || 0) * 0.8;
+
+  const degree = {};
+  relEdges.forEach(e => { degree[e.source] = (degree[e.source] || 0) + 1; degree[e.target] = (degree[e.target] || 0) + 1; });
+
+  // simulation nodes keep positions across updates
+  const simNodes = data.nodes.map(n => Object.assign({}, n));
+  const simById = Object.fromEntries(simNodes.map(n => [n.id, n]));
+  // seed theme hubs on a circle so lanes are stable
+  themes.forEach((t, i) => { const a = (i / themes.length) * 2 * Math.PI; simById[t.id].x = W / 2 + Math.cos(a) * Math.min(W, H) * 0.38; simById[t.id].y = H / 2 + Math.sin(a) * Math.min(W, H) * 0.38; });
+
+  let sim = d3.forceSimulation(simNodes)
+    .force('charge', d3.forceManyBody().strength(d => d.type === 'theme' ? -500 : -90))
+    .force('collide', d3.forceCollide().radius(d => radius(d) + 4))
+    .force('center', d3.forceCenter(W / 2, H / 2))
+    .alphaDecay(0.03)
+    .on('tick', ticked);
+
+  let curNodes = [], curEdges = [];
+
+  function buildLinks(vis){
+    const visIds = new Set(vis.map(n => n.id));
+    const links = relEdges.filter(e => visIds.has(e.source) && visIds.has(e.target) && (state.etype === 'all' || e.type === state.etype))
+      .map(e => ({source: simById[e.source], target: simById[e.target], type: e.type, why: e.why}));
+    if (state.showThemes && state.view === 'net'){
+      memEdges.filter(e => visIds.has(e.source) && state.themesOn.has(e.target) && e.source && nodeById[e.source].themes[0] === e.target)
+        .forEach(e => links.push({source: simById[e.source], target: simById[e.target], type: 'belongs_to'}));
+    }
+    return links;
+  }
+
+  function update(){
+    renderThemeList();
+    const vis = visibleWorks();
+    curNodes = vis.map(n => simById[n.id]);
+    if (state.showThemes && state.view === 'net') curNodes = curNodes.concat(themes.filter(t => state.themesOn.has(t.id)).map(t => simById[t.id]));
+    curEdges = buildLinks(vis);
+    draw();
+    if (state.view === 'net') layoutNetwork(); else layoutTimeline();
+    if (state.selected) showDetail(state.selected);
+  }
+
+  function draw(){
+    const ed = gEdges.selectAll('path').data(curEdges, d => d.source.id + '|' + d.target.id + '|' + d.type);
+    ed.exit().remove();
+    ed.enter().append('path').attr('fill', 'none')
+      .merge(ed)
+      .attr('stroke', d => d.type === 'belongs_to' ? 'var(--line)' : edgeColor(d.type))
+      .attr('stroke-dasharray', d => edgeDash(d.type))
+      .attr('stroke-width', d => d.type === 'belongs_to' ? 0.7 : 1.3)
+      .attr('opacity', d => d.type === 'belongs_to' ? 0.5 : 0.85)
+      .attr('marker-end', d => d.type === 'belongs_to' ? null : 'url(#arrow)')
+      .append('title').text(d => d.type === 'belongs_to' ? '' : `${d.source.label} ${d.type.replace(/_/g, ' ')} ${d.target.label}: ${d.why}`);
+
+    const nd = gNodes.selectAll('circle').data(curNodes, d => d.id);
+    nd.exit().remove();
+    nd.enter().append('circle').attr('cursor', 'pointer')
+      .call(d3.drag().on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
+        .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+        .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.fx = null; d.fy = null; } }))
+      .on('click', (ev, d) => { state.selected = d.id; showDetail(d.id); highlight(d.id); })
+      .merge(nd)
+      .attr('r', d => radius(d))
+      .attr('fill', d => d.type === 'theme' ? 'var(--theme-node)' : nodeColor(d))
+      .attr('stroke', d => d.type === 'theme' ? d.color : 'var(--bg)')
+      .attr('stroke-width', d => d.type === 'theme' ? 3 : 1.2);
+
+    const lb = gLabels.selectAll('text').data(curNodes, d => d.id);
+    lb.exit().remove();
+    lb.enter().append('text').merge(lb)
+      .attr('class', d => d.type === 'theme' ? 'theme-label' : 'node-label')
+      .attr('text-anchor', d => d.type === 'theme' ? 'middle' : 'start')
+      .attr('dx', d => d.type === 'theme' ? 0 : radius(d) + 3).attr('dy', d => d.type === 'theme' ? -20 : 3)
+      .text(d => d.type === 'theme' ? d.label.split(':')[0].split(',')[0] : d.label);
+    highlight(state.selected);
+  }
+
+  function highlight(id){
+    const nbr = new Set();
+    if (id) curEdges.forEach(e => { if (e.source.id === id) nbr.add(e.target.id); if (e.target.id === id) nbr.add(e.source.id); });
+    gNodes.selectAll('circle').attr('opacity', d => !id || d.id === id || nbr.has(d.id) ? 1 : 0.25);
+    gLabels.selectAll('text').attr('opacity', d => !id || d.id === id || nbr.has(d.id) ? 1 : 0.2);
+    gEdges.selectAll('path').attr('opacity', d => !id ? (d.type === 'belongs_to' ? 0.5 : 0.85) : (d.source.id === id || d.target.id === id ? 1 : 0.08))
+      .attr('stroke-width', d => id && (d.source.id === id || d.target.id === id) ? 2.2 : (d.type === 'belongs_to' ? 0.7 : 1.3));
+  }
+
+  // ---------- network layout
+  function layoutNetwork(){
+    gAxes.selectAll('*').remove();
+    simNodes.forEach(n => { n.fx = null; n.fy = null; });
+    sim.nodes(curNodes);
+    sim.force('link', d3.forceLink(curEdges).id(d => d.id).distance(d => d.type === 'belongs_to' ? 70 : 55).strength(d => d.type === 'belongs_to' ? 0.25 : 0.5));
+    sim.force('x', d3.forceX(W / 2).strength(0.03)).force('y', d3.forceY(H / 2).strength(0.03));
+    sim.alpha(0.9).restart();
+  }
+
+  // ---------- timeline layout (x = year, y = primary theme lane)
+  function layoutTimeline(){
+    sim.stop();
+    const lanes = themes.filter(t => state.themesOn.has(t.id));
+    const laneH = Math.max(44, (H - 60) / Math.max(1, lanes.length));
+    const laneY = Object.fromEntries(lanes.map((t, i) => [t.id, 40 + i * laneH + laneH / 2]));
+    const years = curNodes.filter(n => n.type === 'work').map(n => n.year);
+    const X0 = 1975; // earlier anchor works are clamped to a 'pre-1975' slot at the left edge
+    const x0 = d3.scaleLinear().domain([X0, (d3.max(years) || 2026) + 1]).range([200, W - 30]);
+    const x = y => y < X0 ? 172 : x0(y);
+    // place, then nudge apart within lane
+    const byLane = d3.group(curNodes.filter(n => n.type === 'work'), n => n.themes.find(t => state.themesOn.has(t)));
+    byLane.forEach((arr, lane) => {
+      arr.sort((a, b) => a.year - b.year);
+      const slots = {};
+      arr.forEach(n => {
+        const key = n.year;
+        slots[key] = (slots[key] || 0) + 1;
+        const k = slots[key] - 1;
+        const off = ((k % 5) - 2) * 9;
+        n.fx = n.x = x(n.year + ((k % 3) * 0.3)); n.fy = n.y = laneY[lane] + off;
+      });
+    });
+    gAxes.selectAll('*').remove();
+    gAxes.append('g').attr('class', 'axis').attr('transform', `translate(0,${28})`).call(d3.axisTop(x0).tickFormat(d3.format('d')).ticks(10));
+    gAxes.append('text').attr('class', 'lane-label').attr('x', 172).attr('y', 24).attr('text-anchor', 'middle').text('pre-1975');
+    lanes.forEach((t, i) => {
+      gAxes.append('line').attr('x1', 160).attr('x2', W - 20).attr('y1', 40 + i * laneH).attr('y2', 40 + i * laneH).attr('stroke', 'var(--line)');
+      gAxes.append('text').attr('class', 'lane-label').attr('x', 8).attr('y', laneY[t.id] + 4)
+        .text(t.label.split(':')[0].split(',')[0].slice(0, 24)).attr('fill', t.color);
+    });
+    ticked();
+  }
+
+  function ticked(){
+    gNodes.selectAll('circle').attr('cx', d => d.x).attr('cy', d => d.y);
+    gLabels.selectAll('text').attr('x', d => d.x).attr('y', d => d.y);
+    gEdges.selectAll('path').attr('d', d => {
+      const sx = d.source.x, sy = d.source.y, tx = d.target.x, ty = d.target.y;
+      const dx = tx - sx, dy = ty - sy, dist = Math.hypot(dx, dy) || 1;
+      const r = radius(d.target) + 2;
+      const ex = tx - dx / dist * r, ey = ty - dy / dist * r;
+      if (state.view === 'time') { const curv = Math.abs(dx) * 0.35 + 10; return `M${sx},${sy} Q${(sx + ex) / 2},${Math.min(sy, ey) - curv} ${ex},${ey}`; }
+      return `M${sx},${sy} L${ex},${ey}`;
+    });
+  }
+
+  // ---------- details panel
+  function showDetail(id){
+    const n = nodeById[id];
+    const body = d3.select('#detailBody').html('');
+    if (!n) return;
+    if (n.type === 'theme'){
+      const members = works.filter(w => w.themes.includes(id)).sort((a, b) => a.year - b.year);
+      body.append('p').attr('class', 'title').text(n.label);
+      body.append('p').attr('class', 'meta').text(`${members.length} works tagged. Click one to open it.`);
+      const list = body.append('div');
+      members.forEach(m => list.append('div').attr('class', 'rel').html(`<a data-id="${m.id}"><b>${m.label}</b></a> · <span class="why">${m.journal}</span><br><span class="why">${m.title}</span>`));
+      body.selectAll('a[data-id]').on('click', function(){ const i = this.dataset.id; state.selected = i; showDetail(i); highlight(i); });
+      return;
+    }
+    body.append('p').attr('class', 'title').text(n.title);
+    body.append('p').attr('class', 'meta').text(`${n.authors} · ${n.year} · ${n.journal}`);
+    const chips = body.append('div');
+    n.themes.forEach(t => chips.append('span').attr('class', 'chip').style('border-left', `3px solid ${themeById[t].color}`).text(themeById[t].label.split(':')[0].split(',')[0]));
+    body.append('div').attr('class', 'lbl').text('Core claim / finding');
+    body.append('p').text(n.claim);
+    body.append('div').attr('class', 'lbl').text('Method');
+    body.append('p').text(n.method);
+    body.append('div').attr('class', 'lbl').text('Provenance');
+    const prov = body.append('p').style('font-size', '12px').style('color', 'var(--muted)');
+    prov.html(`${n.source === 'supplement' ? 'Supplementary (not in papers.json).' : 'From papers.json.'} Basis: ${n.verified}.` +
+      (n.zotero ? ` <a class="ext" href="${n.zotero}" target="_blank" rel="noopener">Zotero</a>` : '') + (n.note ? `<br>${n.note}` : ''));
+    const out = relEdges.filter(e => e.source === id), inn = relEdges.filter(e => e.target === id);
+    const sec = (lbl, arr, dir) => {
+      if (!arr.length) return;
+      body.append('div').attr('class', 'lbl').text(lbl);
+      arr.forEach(e => {
+        const other = nodeById[dir === 'out' ? e.target : e.source];
+        body.append('div').attr('class', 'rel').html(
+          `<span style="color:${edgeColor(e.type) === 'var(--edge)' ? 'var(--muted)' : edgeColor(e.type)}">${e.type.replace(/_/g, ' ')}</span> ${dir === 'out' ? '→' : '←'} <a data-id="${other.id}"><b>${other.label}</b></a><br><span class="why">${e.why}</span>`);
+      });
+    };
+    sec('This work relates to', out, 'out');
+    sec('Later work relating to it', inn, 'in');
+    body.selectAll('a[data-id]').on('click', function(){ const i = this.dataset.id; state.selected = i; showDetail(i); highlight(i); });
+  }
+
+  // ---------- controls
+  const setView = v => { state.view = v; persist(); document.getElementById('viewNet').classList.toggle('active', v === 'net'); document.getElementById('viewTime').classList.toggle('active', v === 'time'); update(); };
+  document.getElementById('viewNet').onclick = () => setView('net');
+  document.getElementById('viewTime').onclick = () => setView('time');
+  document.getElementById('decade').onchange = e => { state.decade = e.target.value; update(); };
+  document.getElementById('etype').onchange = e => { state.etype = e.target.value; update(); };
+  document.getElementById('showThemes').onchange = e => { state.showThemes = e.target.checked; update(); };
+  document.getElementById('seedOnly').onchange = e => { state.seedOnly = e.target.checked; update(); };
+  document.getElementById('q').oninput = e => { state.q = e.target.value.trim(); update(); };
+  document.getElementById('themeToggle').onclick = () => {
+    const r = document.documentElement; const cur = r.getAttribute('data-theme');
+    const dark = cur ? cur === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    r.setAttribute('data-theme', dark ? 'light' : 'dark');
+  };
+  window.addEventListener('resize', () => { W = stage.clientWidth; H = stage.clientHeight; sim.force('center', d3.forceCenter(W / 2, H / 2)); update(); });
+  svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; highlight(null); } });
+
+  setView(state.view);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,3607 @@
+{
+ "meta": {
+  "title": "IPE knowledge network, c. 1976-2026",
+  "built": "2026-10-28",
+  "description": "Key works and theme nodes in top-journal International Political Economy, seeded from this repo's papers.json (Zotero) and supplemented with canonical works. Edges are typed relations with a one-line justification. Direction: source (later or dependent work) -> target (earlier or anchoring work); belongs_to edges link works to themes.",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 193,
+   "theme_nodes": 18,
+   "seed_from_papers_json": 91,
+   "supplement": 102,
+   "relation_edges": 251,
+   "membership_edges": 290
+  }
+ },
+ "themes": [
+  {
+   "id": "trade-prefs",
+   "label": "Trade preferences: factors, sectors, skills & non-material sources",
+   "color": "#2563eb"
+  },
+  {
+   "id": "compensation",
+   "label": "Embedded liberalism & compensation",
+   "color": "#0891b2"
+  },
+  {
+   "id": "backlash",
+   "label": "Globalization backlash, China shock & populism",
+   "color": "#dc2626"
+  },
+  {
+   "id": "firms-gvc",
+   "label": "Firms, GVCs & the new trade politics",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "fdi",
+   "label": "FDI, MNCs & investment regimes",
+   "color": "#9333ea"
+  },
+  {
+   "id": "money-finance",
+   "label": "Exchange rates, sovereign debt & financial crises",
+   "color": "#059669"
+  },
+  {
+   "id": "ifi",
+   "label": "IMF, World Bank & informal governance",
+   "color": "#16a34a"
+  },
+  {
+   "id": "trade-inst",
+   "label": "GATT/WTO, PTAs & institutional design",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "weaponized",
+   "label": "Weaponized interdependence, sanctions & economic statecraft",
+   "color": "#ea580c"
+  },
+  {
+   "id": "geoecon",
+   "label": "Industrial policy, economic security & geoeconomics",
+   "color": "#b45309"
+  },
+  {
+   "id": "china-order",
+   "label": "China's rise & contestation of the liberal order",
+   "color": "#be123c"
+  },
+  {
+   "id": "regime",
+   "label": "Regime type, autocracies & the global economy",
+   "color": "#db2777"
+  },
+  {
+   "id": "migration",
+   "label": "Migration politics",
+   "color": "#0d9488"
+  },
+  {
+   "id": "ipe-theory",
+   "label": "IPE's self-critique: OEP, new interdependence, structural power",
+   "color": "#475569"
+  },
+  {
+   "id": "trade-security",
+   "label": "Trade, interdependence & conflict",
+   "color": "#4f46e5"
+  },
+  {
+   "id": "diffusion",
+   "label": "Diffusion, transgovernmental networks & regulatory politics",
+   "color": "#65a30d"
+  },
+  {
+   "id": "hegemony",
+   "label": "US hegemony, the dollar & systemic power",
+   "color": "#78716c"
+  },
+  {
+   "id": "legitimacy",
+   "label": "Politicization & legitimacy of international cooperation",
+   "color": "#c026d3"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "trade-prefs",
+   "type": "theme",
+   "label": "Trade preferences: factors, sectors, skills & non-material sources",
+   "color": "#2563eb"
+  },
+  {
+   "id": "compensation",
+   "type": "theme",
+   "label": "Embedded liberalism & compensation",
+   "color": "#0891b2"
+  },
+  {
+   "id": "backlash",
+   "type": "theme",
+   "label": "Globalization backlash, China shock & populism",
+   "color": "#dc2626"
+  },
+  {
+   "id": "firms-gvc",
+   "type": "theme",
+   "label": "Firms, GVCs & the new trade politics",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "fdi",
+   "type": "theme",
+   "label": "FDI, MNCs & investment regimes",
+   "color": "#9333ea"
+  },
+  {
+   "id": "money-finance",
+   "type": "theme",
+   "label": "Exchange rates, sovereign debt & financial crises",
+   "color": "#059669"
+  },
+  {
+   "id": "ifi",
+   "type": "theme",
+   "label": "IMF, World Bank & informal governance",
+   "color": "#16a34a"
+  },
+  {
+   "id": "trade-inst",
+   "type": "theme",
+   "label": "GATT/WTO, PTAs & institutional design",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "weaponized",
+   "type": "theme",
+   "label": "Weaponized interdependence, sanctions & economic statecraft",
+   "color": "#ea580c"
+  },
+  {
+   "id": "geoecon",
+   "type": "theme",
+   "label": "Industrial policy, economic security & geoeconomics",
+   "color": "#b45309"
+  },
+  {
+   "id": "china-order",
+   "type": "theme",
+   "label": "China's rise & contestation of the liberal order",
+   "color": "#be123c"
+  },
+  {
+   "id": "regime",
+   "type": "theme",
+   "label": "Regime type, autocracies & the global economy",
+   "color": "#db2777"
+  },
+  {
+   "id": "migration",
+   "type": "theme",
+   "label": "Migration politics",
+   "color": "#0d9488"
+  },
+  {
+   "id": "ipe-theory",
+   "type": "theme",
+   "label": "IPE's self-critique: OEP, new interdependence, structural power",
+   "color": "#475569"
+  },
+  {
+   "id": "trade-security",
+   "type": "theme",
+   "label": "Trade, interdependence & conflict",
+   "color": "#4f46e5"
+  },
+  {
+   "id": "diffusion",
+   "type": "theme",
+   "label": "Diffusion, transgovernmental networks & regulatory politics",
+   "color": "#65a30d"
+  },
+  {
+   "id": "hegemony",
+   "type": "theme",
+   "label": "US hegemony, the dollar & systemic power",
+   "color": "#78716c"
+  },
+  {
+   "id": "legitimacy",
+   "type": "theme",
+   "label": "Politicization & legitimacy of international cooperation",
+   "color": "#c026d3"
+  },
+  {
+   "id": "rogowski1987",
+   "type": "work",
+   "label": "Rogowski 1987",
+   "authors": "Ronald Rogowski",
+   "year": 1987,
+   "journal": "APSR",
+   "title": "Political Cleavages and Changing Exposure to Trade",
+   "claim": "Stolper-Samuelson plus a simple political model: trade expansion empowers owners of locally abundant factors and hurts scarce ones, so factor endowments predict whether trade shocks produce class or urban-rural coalitions.",
+   "method": "Deductive theory with illustrative historical survey",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "papers.json:AYECQDGF",
+   "zotero": "https://www.zotero.org/georgeyean/items/AYECQDGF",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "rogowski1987io",
+   "type": "work",
+   "label": "Rogowski 1987",
+   "authors": "Ronald Rogowski",
+   "year": 1987,
+   "journal": "IO",
+   "title": "Trade and the Variety of Democratic Institutions",
+   "claim": "Trade-dependent democracies need insulated, stable, autonomous states, so they drift toward PR, large districts and parliamentarism.",
+   "method": "OECD cross-section c. 1970, correlations and path analysis",
+   "themes": [
+    "trade-prefs",
+    "compensation"
+   ],
+   "source": "papers.json:K9PCSI8L",
+   "zotero": "https://www.zotero.org/georgeyean/items/K9PCSI8L",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "hiscox2001",
+   "type": "work",
+   "label": "Hiscox 2001",
+   "authors": "Michael J. Hiscox",
+   "year": 2001,
+   "journal": "IO",
+   "title": "Class Versus Industry Cleavages: Inter-Industry Factor Mobility and the Politics of Trade",
+   "claim": "Whether trade politics pits classes or industries against each other depends on inter-industry factor mobility: high mobility yields Stolper-Samuelson class cleavages, low mobility yields Ricardo-Viner industry cleavages.",
+   "method": "Historical wage/profit dispersion measures for six countries 1815-1994 with qualitative evidence",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "papers.json:EDDCI9TM",
+   "zotero": "https://www.zotero.org/georgeyean/items/EDDCI9TM",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "scheve2001",
+   "type": "work",
+   "label": "Scheve 2001",
+   "authors": "Kenneth F. Scheve & Matthew J. Slaughter",
+   "year": 2001,
+   "journal": "Journal of International Economics",
+   "title": "What Determines Individual Trade-Policy Preferences?",
+   "claim": "Factor type, proxied by skill, predicts US trade preferences in line with Heckscher-Ohlin: low-skilled workers favor protection, and home ownership in import-competing counties adds an asset channel.",
+   "method": "NES survey data, probit models",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "mayda2005",
+   "type": "work",
+   "label": "Mayda 2005",
+   "authors": "Anna Maria Mayda & Dani Rodrik",
+   "year": 2005,
+   "journal": "European Economic Review",
+   "title": "Why Are Some People (and Countries) More Protectionist Than Others?",
+   "claim": "Across countries, skill raises support for trade in skill-abundant economies and lowers it in skill-scarce ones, consistent with factor endowments; but values, national pride and neighborhood attachment matter independently.",
+   "method": "ISSP and WVS cross-national surveys",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "hainmueller2006",
+   "type": "work",
+   "label": "Hainmueller 2006",
+   "authors": "Jens Hainmueller & Michael J. Hiscox",
+   "year": 2006,
+   "journal": "IO",
+   "title": "Learning to Love Globalization: Education and Individual Attitudes toward International Trade",
+   "claim": "The education effect on trade support reflects exposure to economic ideas and cosmopolitan values rather than labor-market skill: it holds for the retired and non-working, and tracks college exposure, not occupation.",
+   "method": "ISSP and NES survey analysis",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "mansfield2009",
+   "type": "work",
+   "label": "Mansfield 2009",
+   "authors": "Edward D. Mansfield & Diana C. Mutz",
+   "year": 2009,
+   "journal": "IO",
+   "title": "Support for Free Trade: Self-Interest, Sociotropic Politics, and Out-Group Anxiety",
+   "claim": "Trade attitudes are driven less by material self-interest than by sociotropic perceptions of national effects and by out-group anxiety; the education gradient largely reflects isolationism and ethnocentrism.",
+   "method": "Two US national surveys with detailed occupation and industry items",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "papers.json:9XFJFSG6",
+   "zotero": "https://www.zotero.org/georgeyean/items/9XFJFSG6",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "rho2017",
+   "type": "work",
+   "label": "Rho 2017",
+   "authors": "Sungmin Rho & Michael Tomz",
+   "year": 2017,
+   "journal": "IO",
+   "title": "Why Don't Trade Preferences Reflect Economic Self-Interest?",
+   "claim": "Most people do not know how trade affects their own income; even when informed, many still weigh sociotropic and distributional concerns, so self-interest cannot anchor trade preferences.",
+   "method": "US survey experiments with information treatments",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "owen2017",
+   "type": "work",
+   "label": "Owen 2017",
+   "authors": "Erica Owen & Noel P. Johnston",
+   "year": 2017,
+   "journal": "IO",
+   "title": "Occupation and the Political Economy of Trade: Job Routineness, Offshorability, and Protectionist Sentiment",
+   "claim": "Workers in routine-task and offshorable occupations are more protectionist in rich democracies, reviving a material account at the level of occupational tasks rather than skill or industry.",
+   "method": "ISSP 2003 and 2013 surveys across high-income democracies",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (IO 71(4): 665-699)"
+  },
+  {
+   "id": "mutz2018",
+   "type": "work",
+   "label": "Mutz 2018",
+   "authors": "Diana C. Mutz",
+   "year": 2018,
+   "journal": "PNAS",
+   "title": "Status Threat, Not Economic Hardship, Explains the 2016 Presidential Vote",
+   "claim": "Trump support tracked perceived threats to dominant-group status (including from China's rise and trade) rather than personal economic hardship.",
+   "method": "US panel survey 2012-2016",
+   "themes": [
+    "trade-prefs",
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "ballardrosa2024",
+   "type": "work",
+   "label": "Ballard-Rosa 2024",
+   "authors": "Cameron Ballard-Rosa, Judith Goldstein & Nita Rudra",
+   "year": 2024,
+   "journal": "JOP",
+   "title": "Trade as Villain: Belief in the American Dream and Declining Support for Globalization",
+   "claim": "Elite rhetoric that trade is unfair resonates most with meritocratic Americans who worry about their prospects; blaming foreign trade practices drives falling support for globalization.",
+   "method": "Survey experiments plus an original panel",
+   "themes": [
+    "trade-prefs",
+    "backlash"
+   ],
+   "source": "papers.json:8Z2GFHSP",
+   "zotero": "https://www.zotero.org/georgeyean/items/8Z2GFHSP",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "carnegie2022",
+   "type": "work",
+   "label": "Carnegie 2022",
+   "authors": "Allison Carnegie & Nikhar Gaikwad",
+   "year": 2022,
+   "journal": "World Politics",
+   "title": "Public Opinion on Geopolitics and Trade: Theory and Evidence",
+   "claim": "Affective beliefs about other countries shape trade preferences: people prefer trading with allies and resist adversaries, amplified by beliefs that trade strengthens rivals' militaries.",
+   "method": "Survey experiments in the US and India, open-ended responses, case evidence",
+   "themes": [
+    "trade-prefs",
+    "trade-security"
+   ],
+   "source": "papers.json:N5GXLBD7",
+   "zotero": "https://www.zotero.org/georgeyean/items/N5GXLBD7",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "bisbee2025",
+   "type": "work",
+   "label": "Bisbee 2025",
+   "authors": "James Bisbee & B. Peter Rosendorff",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "Antiglobalization Sentiment: Exposure and Immobility",
+   "claim": "Antiglobalization sentiment rises where import exposure meets occupational immobility: workers whose jobs are dissimilar from local alternatives feel the most insecurity.",
+   "method": "New individual exposure-by-immobility measure (O*NET) applied to US attitudes toward NAFTA",
+   "themes": [
+    "trade-prefs",
+    "backlash"
+   ],
+   "source": "papers.json:U7IXVBFT",
+   "zotero": "https://www.zotero.org/georgeyean/items/U7IXVBFT",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "scheve2024",
+   "type": "work",
+   "label": "Scheve 2024",
+   "authors": "Kenneth Scheve & Theo Serlin",
+   "year": 2024,
+   "journal": "AJPS",
+   "title": "Trains, Trade, and Transformation: A Spatial Rogowski Theory of America's 19th-Century Protectionism",
+   "claim": "Falling transport costs enriched land-intensive exporters but drew protectionist migrant workers into farm regions, so trade's winners lost political power: a spatial twist on Rogowski.",
+   "method": "County-level railroad expansion 1880-1900, votes and newspaper-based protectionist sentiment",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "papers.json:28EMECMM",
+   "zotero": "https://www.zotero.org/georgeyean/items/28EMECMM",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "pandya2010",
+   "type": "work",
+   "label": "Pandya 2010",
+   "authors": "Sonal S. Pandya",
+   "year": 2010,
+   "journal": "IO",
+   "title": "Labor Markets and the Demand for Foreign Direct Investment",
+   "claim": "Support for inward FDI rises with skill because multinationals raise labor demand and skilled wages, shifting FDI research from investor supply to host-country demand.",
+   "method": "Latinobarometer 1995-2001, probit with country fixed effects",
+   "themes": [
+    "fdi",
+    "trade-prefs"
+   ],
+   "source": "papers.json:S6PBPV6L",
+   "zotero": "https://www.zotero.org/georgeyean/items/S6PBPV6L",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "ruggie1982",
+   "type": "work",
+   "label": "Ruggie 1982",
+   "authors": "John Gerard Ruggie",
+   "year": 1982,
+   "journal": "IO",
+   "title": "International Regimes, Transactions, and Change: Embedded Liberalism in the Postwar Economic Order",
+   "claim": "Postwar openness rested on a compromise fusing multilateral liberalization with domestic intervention for stability; regimes fuse power with legitimate social purpose, so hegemony predicts the form but not the content of order.",
+   "method": "Historical-interpretive essay",
+   "themes": [
+    "compensation",
+    "hegemony"
+   ],
+   "source": "papers.json:2N5SET2G",
+   "zotero": "https://www.zotero.org/georgeyean/items/2N5SET2G",
+   "verified": "repo analysis (full text; not an empirical study)",
+   "note": "Zotero entry is dated 2023 (reprint); original 1982."
+  },
+  {
+   "id": "cameron1978",
+   "type": "work",
+   "label": "Cameron 1978",
+   "authors": "David R. Cameron",
+   "year": 1978,
+   "journal": "APSR",
+   "title": "The Expansion of the Public Economy: A Comparative Analysis",
+   "claim": "Trade openness is the strongest predictor of public-sector growth in rich democracies, via industrial concentration, unionization and left governments.",
+   "method": "Cross-national OECD regressions 1960-1975",
+   "themes": [
+    "compensation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "rodrik1998",
+   "type": "work",
+   "label": "Rodrik 1998",
+   "authors": "Dani Rodrik",
+   "year": 1998,
+   "journal": "Journal of Political Economy",
+   "title": "Why Do More Open Economies Have Bigger Governments?",
+   "claim": "Open economies have larger governments because public spending insures against external risk; the openness-government link is strongest where terms-of-trade volatility is high.",
+   "method": "Cross-national regressions, 100+ countries",
+   "themes": [
+    "compensation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "garrett1998",
+   "type": "work",
+   "label": "Garrett 1998",
+   "authors": "Geoffrey Garrett",
+   "year": 1998,
+   "journal": "Cambridge University Press (book)",
+   "title": "Partisan Politics in the Global Economy",
+   "claim": "Globalization did not force convergence: where strong left parties and encompassing unions coexist, governments can sustain redistribution and still compete.",
+   "method": "OECD panel analysis",
+   "themes": [
+    "compensation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "adsera2002",
+   "type": "work",
+   "label": "Adserà 2002",
+   "authors": "Alícia Adserà & Carles Boix",
+   "year": 2002,
+   "journal": "IO",
+   "title": "Trade, Democracy, and the Size of the Public Sector: The Political Underpinnings of Openness",
+   "claim": "The openness-government link is political: in democracies exporters win free trade only by compensating exposed sectors; open economies with small states arise mainly under authoritarian rule.",
+   "method": "Formal model and panel of ~65 countries 1950-1990",
+   "themes": [
+    "compensation",
+    "regime"
+   ],
+   "source": "papers.json:KT8IAEX8",
+   "zotero": "https://www.zotero.org/georgeyean/items/KT8IAEX8",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "rudra2002",
+   "type": "work",
+   "label": "Rudra 2002",
+   "authors": "Nita Rudra",
+   "year": 2002,
+   "journal": "IO",
+   "title": "Globalization and the Decline of the Welfare State in Less-Developed Countries",
+   "claim": "In LDCs, surplus low-skilled labor cannot defend social spending as globalization deepens, so openness shrinks welfare where potential labor power is weak, reversing the OECD compensation pattern.",
+   "method": "Panel of 53 LDCs 1972-1995 with a new potential-labor-power index",
+   "themes": [
+    "compensation",
+    "regime"
+   ],
+   "source": "papers.json:ZDATGE9T",
+   "zotero": "https://www.zotero.org/georgeyean/items/ZDATGE9T",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "rudra2005",
+   "type": "work",
+   "label": "Rudra 2005",
+   "authors": "Nita Rudra",
+   "year": 2005,
+   "journal": "AJPS",
+   "title": "Globalization and the Strengthening of Democracy in the Developing World",
+   "claim": "Openness improves democracy in developing countries only when rising social spending compensates losers; otherwise elites choose repression.",
+   "method": "Panel of 59 developing countries 1972-1997, FE and 2SLS",
+   "themes": [
+    "regime",
+    "compensation"
+   ],
+   "source": "papers.json:I9DKS8MV",
+   "zotero": "https://www.zotero.org/georgeyean/items/I9DKS8MV",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "hays2005",
+   "type": "work",
+   "label": "Hays 2005",
+   "authors": "Jude C. Hays, Sean D. Ehrlich & Clint Peinhardt",
+   "year": 2005,
+   "journal": "IO",
+   "title": "Government Spending and Public Support for Trade in the OECD: An Empirical Test of the Embedded Liberalism Thesis",
+   "claim": "Where governments spend more on social protection and active labor-market policy, exposed workers are more supportive of trade: the micro-foundation of embedded liberalism.",
+   "method": "ISSP survey data with country-level spending",
+   "themes": [
+    "compensation",
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "walter2010",
+   "type": "work",
+   "label": "Walter 2010",
+   "authors": "Stefanie Walter",
+   "year": 2010,
+   "journal": "ISQ",
+   "title": "Globalization and the Welfare State: Testing the Microfoundations of the Compensation Hypothesis",
+   "claim": "Globalization-exposed individuals feel more economic insecurity, which raises demand for welfare and, given it, support for openness: the compensation chain holds at the individual level.",
+   "method": "Swiss survey data, structural models",
+   "themes": [
+    "compensation",
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "margalit2011",
+   "type": "work",
+   "label": "Margalit 2011",
+   "authors": "Yotam Margalit",
+   "year": 2011,
+   "journal": "APSR",
+   "title": "Costly Jobs: Trade-Related Layoffs, Government Compensation, and Voting in U.S. Elections",
+   "claim": "Trade-related job losses cost incumbents votes, more than other layoffs, but Trade Adjustment Assistance compensation measurably blunts the punishment.",
+   "method": "County-level TAA certifications and presidential vote",
+   "themes": [
+    "compensation",
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "kim2021taa",
+   "type": "work",
+   "label": "Kim 2021",
+   "authors": "Sung Eun Kim & Krzysztof J. Pelc",
+   "year": 2021,
+   "journal": "Comparative Political Studies",
+   "title": "The Politics of Trade Adjustment Versus Trade Protection",
+   "claim": "Counties with successful TAA petitions file fewer demands for trade protection: compensation and protection act as substitutes, and TAA yields Democratic electoral gains.",
+   "method": "Geocoded antidumping petitions matched to TAA data",
+   "themes": [
+    "compensation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (CPS 54(13): 2354-2381)"
+  },
+  {
+   "id": "kim2025agri",
+   "type": "work",
+   "label": "Kim 2025",
+   "authors": "In Song Kim, Megumi Naoi & Tomoya Sasaki",
+   "year": 2025,
+   "journal": "APSR",
+   "title": "Domestic Institutions, Geographic Concentration, and Agricultural Liberalization",
+   "claim": "Constitutions decide where the compensation contract is enforced: parliamentary systems liberalize and compensate geographically concentrated crops, presidential systems favor diffuse ones.",
+   "method": "Product-level tariff cuts in 155 PTAs by 38 democracies 1995-2016, remote-sensed crop concentration",
+   "themes": [
+    "compensation",
+    "trade-inst"
+   ],
+   "source": "papers.json:BS6YP8XG",
+   "zotero": "https://www.zotero.org/georgeyean/items/BS6YP8XG",
+   "verified": "repo analysis (full text); authors/year web-verified"
+  },
+  {
+   "id": "zohlnhofer2018",
+   "type": "work",
+   "label": "Zohlnhöfer 2018",
+   "authors": "Reimut Zohlnhöfer, Fabian Engler & Kathrin Dümig",
+   "year": 2018,
+   "journal": "BJPS",
+   "title": "The Retreat of the Interventionist State in Advanced Democracies",
+   "claim": "Government intervention has receded on almost every instrument since 1980 except social spending, and 130 quantitative studies disagree on why because of research-design choices, not settled nulls.",
+   "method": "Systematic review of 130 studies plus OECD trend data",
+   "themes": [
+    "compensation"
+   ],
+   "source": "papers.json:Z4UEUUMQ",
+   "zotero": "https://www.zotero.org/georgeyean/items/Z4UEUUMQ",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "goodman2021",
+   "type": "work",
+   "label": "Goodman 2021",
+   "authors": "Sara Wallace Goodman & Thomas B. Pepinsky",
+   "year": 2021,
+   "journal": "IO",
+   "title": "The Exclusionary Foundations of Embedded Liberalism",
+   "claim": "Embedded liberalism also depended on migration: receiving democracies combined open labor migration with generous welfare only by excluding migrants from rights; later inclusion eroded the compact from below.",
+   "method": "Historical-institutionalist comparison of West Germany, UK and Japan",
+   "themes": [
+    "compensation",
+    "migration"
+   ],
+   "source": "papers.json:LW7MLLZ3",
+   "zotero": "https://www.zotero.org/georgeyean/items/LW7MLLZ3",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "schneider2024",
+   "type": "work",
+   "label": "Schneider 2024",
+   "authors": "Christina J. Schneider & Robert Thomson",
+   "year": 2024,
+   "journal": "AJPS",
+   "title": "Globalization and Promissory Representation",
+   "claim": "Economic globalization lowers governing parties' pledge fulfillment through macro uncertainty and international constraints, a representational cost of interdependence.",
+   "method": "7,770 pledges across 12 countries, 1970s-2010s",
+   "themes": [
+    "legitimacy",
+    "compensation"
+   ],
+   "source": "papers.json:SH3FGPYI",
+   "zotero": "https://www.zotero.org/georgeyean/items/SH3FGPYI",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "baccini2024",
+   "type": "work",
+   "label": "Baccini 2024",
+   "authors": "Leonardo Baccini & Thomas Sattler",
+   "year": 2024,
+   "journal": "AJPS",
+   "title": "Austerity, Economic Vulnerability, and Populism",
+   "claim": "Austerity raises populist support, but only among economically vulnerable voters; backlash is partly policy-made rather than only shock-driven.",
+   "method": "District-level European elections since the 1990s, TWFE with vulnerability interactions",
+   "themes": [
+    "backlash",
+    "compensation"
+   ],
+   "source": "papers.json:P4VRKPPA",
+   "zotero": "https://www.zotero.org/georgeyean/items/P4VRKPPA",
+   "verified": "repo analysis (full text); year approximate (AJPS, c. 2024)"
+  },
+  {
+   "id": "autor2013",
+   "type": "work",
+   "label": "Autor 2013",
+   "authors": "David H. Autor, David Dorn & Gordon H. Hanson",
+   "year": 2013,
+   "journal": "American Economic Review",
+   "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
+   "claim": "Rising Chinese import competition explains a quarter of the US manufacturing employment decline 1990-2007 and raised transfer receipt and unemployment in exposed commuting zones.",
+   "method": "Shift-share instrument using other rich countries' China imports",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "autor2020",
+   "type": "work",
+   "label": "Autor 2020",
+   "authors": "David Autor, David Dorn, Gordon Hanson & Kaveh Majlesi",
+   "year": 2020,
+   "journal": "American Economic Review",
+   "title": "Importing Political Polarization? The Electoral Consequences of Rising Trade Exposure",
+   "claim": "China-shock exposure pushed US districts toward ideologically extreme representatives and raised Trump's 2016 vote share, mainly among white majorities.",
+   "method": "Shift-share China shock on congressional and presidential outcomes",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "colantone2018",
+   "type": "work",
+   "label": "Colantone 2018",
+   "authors": "Italo Colantone & Piero Stanig",
+   "year": 2018,
+   "journal": "AJPS",
+   "title": "The Trade Origins of Economic Nationalism: Import Competition and Voting Behavior in Western Europe",
+   "claim": "Regions more exposed to Chinese imports shifted toward nationalist, isolationist and radical-right parties as the embedded-liberalism promise of compensation lost credibility.",
+   "method": "76 elections in 15 countries 1988-2007, shift-share China shock, ESS individual data",
+   "themes": [
+    "backlash"
+   ],
+   "source": "papers.json:7XIV6LJQ",
+   "zotero": "https://www.zotero.org/georgeyean/items/7XIV6LJQ",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "colantone2018brexit",
+   "type": "work",
+   "label": "Colantone 2018",
+   "authors": "Italo Colantone & Piero Stanig",
+   "year": 2018,
+   "journal": "APSR",
+   "title": "Global Competition and Brexit",
+   "claim": "Leave support was systematically higher in regions hit harder by the China import shock, and the effect ran through sociotropic rather than personal exposure.",
+   "method": "Regional shift-share China shock and referendum results plus BES survey",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "jensen2017",
+   "type": "work",
+   "label": "Jensen 2017",
+   "authors": "J. Bradford Jensen, Dennis P. Quinn & Stephen Weymouth",
+   "year": 2017,
+   "journal": "IO",
+   "title": "Winners and Losers in International Trade: The Effects on US Presidential Voting",
+   "claim": "Both losers and winners vote on trade: counties with import-competing low-skill manufacturing punish incumbents while counties with high-skill tradable services reward them.",
+   "method": "County-level presidential votes 1992-2012 with industry trade exposure",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "baccini2021",
+   "type": "work",
+   "label": "Baccini 2021",
+   "authors": "Leonardo Baccini & Stephen Weymouth",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Gone for Good: Deindustrialization, White Voter Backlash, and US Presidential Voting",
+   "claim": "Long-run manufacturing job loss shifted white voters toward Republicans but Black voters toward Democrats, so deindustrialization's politics is racialized group-status politics, not uniform economic voting.",
+   "method": "County and individual-level analysis 2000-2016",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "ballardrosa2021",
+   "type": "work",
+   "label": "Ballard-Rosa 2021",
+   "authors": "Cameron Ballard-Rosa, Mashail Malik, Stephanie Rickard & Kenneth Scheve",
+   "year": 2021,
+   "journal": "Comparative Political Studies",
+   "title": "The Economic Origins of Authoritarian Values: Evidence from Local Trade Shocks in the United Kingdom",
+   "claim": "Import-competition shocks raise authoritarian values among exposed individuals, a psychological mechanism linking economic shock to cultural backlash.",
+   "method": "UK regional China shock matched to survey values",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "rodrik2018",
+   "type": "work",
+   "label": "Rodrik 2018",
+   "authors": "Dani Rodrik",
+   "year": 2018,
+   "journal": "Journal of International Business Policy",
+   "title": "Populism and the Economics of Globalization",
+   "claim": "Advanced-stage globalization generates large distributional losses with small efficiency gains; whether backlash takes left (class) or right (identity) form depends on which cleavage is salient (trade/finance vs. immigration).",
+   "method": "Synthetic essay with descriptive data",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "rodrik2021",
+   "type": "work",
+   "label": "Rodrik 2021",
+   "authors": "Dani Rodrik",
+   "year": 2021,
+   "journal": "Annual Review of Economics",
+   "title": "Why Does Globalization Fuel Populism? Economics, Culture, and the Rise of Right-Wing Populism",
+   "claim": "Four mechanisms connect globalization shocks to right-wing populism (direct, via cultural grievance, via political supply, via elite cues); evidence supports an economic root beneath cultural expression.",
+   "method": "Literature synthesis",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "walter2021",
+   "type": "work",
+   "label": "Walter 2021",
+   "authors": "Stefanie Walter",
+   "year": 2021,
+   "journal": "Annual Review of Political Science",
+   "title": "The Backlash Against Globalization",
+   "claim": "Backlash has three layers (attitudes, behavior, policy); evidence is strongest that economic and cultural drivers interact, and that elites and institutions decide whether grievance becomes policy reversal.",
+   "method": "Literature synthesis",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "margalit2019",
+   "type": "work",
+   "label": "Margalit 2019",
+   "authors": "Yotam Margalit",
+   "year": 2019,
+   "journal": "Journal of Economic Perspectives",
+   "title": "Economic Insecurity and the Causes of Populism, Reconsidered",
+   "claim": "Economic shocks are 'outcome significant' but explain only a small share of populist support; cultural and partisan factors dominate the variance even where trade shocks have real effects.",
+   "method": "Critical review of evidence",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "norris2019",
+   "type": "work",
+   "label": "Norris 2019",
+   "authors": "Pippa Norris & Ronald Inglehart",
+   "year": 2019,
+   "journal": "Cambridge University Press (book)",
+   "title": "Cultural Backlash: Trump, Brexit, and Authoritarian Populism",
+   "claim": "Authoritarian populism is a reaction by older, less educated cohorts to generational value change toward post-materialism; economics matters mainly as an accelerant.",
+   "method": "Cross-national survey and party data",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "flaherty2021",
+   "type": "work",
+   "label": "Flaherty 2021",
+   "authors": "Thomas M. Flaherty & Ronald Rogowski",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Rising Inequality as a Threat to the Liberal International Order",
+   "claim": "Newer trade theories (superstar workers, firms, cities) predict top-heavy gains that classical factor models miss, so far more people lose from openness and backlash follows where top inequality is high.",
+   "method": "Theoretical review plus re-analysis of two European datasets",
+   "themes": [
+    "backlash",
+    "trade-prefs"
+   ],
+   "source": "papers.json:V54PKP6D",
+   "zotero": "https://www.zotero.org/georgeyean/items/V54PKP6D",
+   "verified": "repo analysis (full text); year 2021 (IO 75th-anniversary issue)"
+  },
+  {
+   "id": "broz2021",
+   "type": "work",
+   "label": "Broz 2021",
+   "authors": "J. Lawrence Broz, Jeffry Frieden & Stephen Weymouth",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Populism in Place: The Economic Geography of the Globalization Backlash",
+   "claim": "Backlash is rooted in place: trade, offshoring and automation hollowed manufacturing towns whose decline spilled into property, services and health, while superstar cities thrived.",
+   "method": "Descriptive US county and EU regional data plus county OLS for 2012-2016 swing",
+   "themes": [
+    "backlash"
+   ],
+   "source": "papers.json:G9Z63M7X",
+   "zotero": "https://www.zotero.org/georgeyean/items/G9Z63M7X",
+   "verified": "repo analysis (full text); year 2021 (IO 75th-anniversary issue)"
+  },
+  {
+   "id": "han2024",
+   "type": "work",
+   "label": "Han 2024",
+   "authors": "Han et al.",
+   "year": 2024,
+   "journal": "Working paper (SSRN)",
+   "title": "The Deep Roots of American Populism",
+   "claim": "1890s People's Party strongholds vote populist today; globalization shocks catalyzed populism in both eras, and latent attitudes persisted in between.",
+   "method": "County-level persistence with IV for 1890s globalization",
+   "themes": [
+    "backlash"
+   ],
+   "source": "papers.json:MT3A97HI",
+   "zotero": "https://www.zotero.org/georgeyean/items/MT3A97HI",
+   "verified": "repo analysis (full text); unpublished, year approximate"
+  },
+  {
+   "id": "kim2021tariffs",
+   "type": "work",
+   "label": "Kim 2021",
+   "authors": "Sung Eun Kim & Yotam Margalit",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Tariffs As Electoral Weapons: The Political Geography of the US-China Trade War",
+   "claim": "China targeted retaliatory tariffs at Republican-leaning counties, and exposed voters shifted away from the GOP in 2018: trade policy as a tool of foreign electoral pressure.",
+   "method": "Product-county exposure to Chinese retaliation and 2018 midterm results",
+   "themes": [
+    "backlash",
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "blanchard2024",
+   "type": "work",
+   "label": "Blanchard 2024",
+   "authors": "Emily J. Blanchard, Chad P. Bown & Davin Chor",
+   "year": 2024,
+   "journal": "Journal of International Economics",
+   "title": "Did Trump's Trade War Impact the 2018 Election?",
+   "claim": "Republican House candidates lost ground in counties exposed to foreign retaliatory tariffs and gained little from US protection; farm subsidies offset only modestly.",
+   "method": "County-level tariff exposure and 2018 House results",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (JIE 148, 2024)"
+  },
+  {
+   "id": "milner2021",
+   "type": "work",
+   "label": "Milner 2021",
+   "authors": "Helen V. Milner",
+   "year": 2021,
+   "journal": "ISQ",
+   "title": "Is Global Capitalism Compatible with Democracy? Inequality, Insecurity, and Interdependence",
+   "claim": "Globalization strains liberal democracy through three pathways: inequality undermines political equality, insecurity feeds populism, and interdependence constrains policy and shifts authority to IOs.",
+   "method": "ISA presidential address synthesizing the literature",
+   "themes": [
+    "backlash",
+    "legitimacy",
+    "ipe-theory"
+   ],
+   "source": "papers.json:7RKPXE3F",
+   "zotero": "https://www.zotero.org/georgeyean/items/7RKPXE3F",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "ahlquist2020",
+   "type": "work",
+   "label": "Ahlquist 2020",
+   "authors": "John Ahlquist, Mark Copelovitch & Stefanie Walter",
+   "year": 2020,
+   "journal": "AJPS",
+   "title": "The Political Consequences of External Economic Shocks: Evidence from Poland",
+   "claim": "Voters directly hit by an external shock (Swiss-franc mortgages) form interest-consistent preferences and respond to targeted promises, while unexposed voters follow partisan cues.",
+   "method": "Pre-election Polish survey with embedded experiment after the 2015 franc shock",
+   "themes": [
+    "trade-prefs",
+    "money-finance"
+   ],
+   "source": "papers.json:32EVI5W8",
+   "zotero": "https://www.zotero.org/georgeyean/items/32EVI5W8",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "melitz2003",
+   "type": "work",
+   "label": "Melitz 2003",
+   "authors": "Marc J. Melitz",
+   "year": 2003,
+   "journal": "Econometrica",
+   "title": "The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity",
+   "claim": "With heterogeneous firms, only the most productive export; liberalization reallocates market share within industries toward them. The economic foundation of firm-level trade politics.",
+   "method": "Formal general-equilibrium model",
+   "themes": [
+    "firms-gvc"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "kim2017",
+   "type": "work",
+   "label": "Kim 2017",
+   "authors": "In Song Kim",
+   "year": 2017,
+   "journal": "APSR",
+   "title": "Political Cleavages within Industry: Firm-Level Lobbying for Trade Liberalization",
+   "claim": "Most tariff variation is within industries: product differentiation frees productive exporters from collective-action problems, so they lobby individually for liberalization of their own products.",
+   "method": "New firm-level Lobbying Disclosure Act dataset linked to product tariffs",
+   "themes": [
+    "firms-gvc"
+   ],
+   "source": "papers.json:WJUJZY83",
+   "zotero": "https://www.zotero.org/georgeyean/items/WJUJZY83",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "osgood2017",
+   "type": "work",
+   "label": "Osgood 2017",
+   "authors": "Iain Osgood",
+   "year": 2017,
+   "journal": "World Politics",
+   "title": "The Breakdown of Industrial Opposition to Trade: Firms, Product Variety, and Reciprocal Liberalization",
+   "claim": "In differentiated-product industries, reciprocal liberalization splits firms within industries and large exporters dominate position-taking, dissolving industry-level opposition.",
+   "method": "Original data on firm and association positions on 15 US trade agreements 1995-2012",
+   "themes": [
+    "firms-gvc"
+   ],
+   "source": "papers.json:6XGYT8HL",
+   "zotero": "https://www.zotero.org/georgeyean/items/6XGYT8HL",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "osgood2018",
+   "type": "work",
+   "label": "Osgood 2018",
+   "authors": "Iain Osgood",
+   "year": 2018,
+   "journal": "IO",
+   "title": "Globalizing the Supply Chain: Firm and Industrial Support for US Trade Agreements",
+   "claim": "Firms that produce abroad or import intermediates are the core of the pro-trade coalition; direct import competition matters mainly in homogeneous-goods industries.",
+   "method": "Positions of 403 industries across ten US FTAs with input-output offshoring measures",
+   "themes": [
+    "firms-gvc"
+   ],
+   "source": "papers.json:C3BMMTRB",
+   "zotero": "https://www.zotero.org/georgeyean/items/C3BMMTRB",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "blanchard2016",
+   "type": "work",
+   "label": "Blanchard 2016",
+   "authors": "Emily J. Blanchard, Chad P. Bown & Robert C. Johnson",
+   "year": 2016,
+   "journal": "NBER Working Paper 21883",
+   "title": "Global Supply Chains and Trade Policy",
+   "claim": "Governments set lower tariffs on goods whose value added comes from partner countries with which they share supply chains, so GVC integration disciplines protection.",
+   "method": "Theory plus product-level tariff and value-added trade data",
+   "themes": [
+    "firms-gvc",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "baccini2017",
+   "type": "work",
+   "label": "Baccini 2017",
+   "authors": "Leonardo Baccini, Pablo M. Pinto & Stephen Weymouth",
+   "year": 2017,
+   "journal": "IO",
+   "title": "The Distributional Consequences of Preferential Trade Liberalization: Firm-Level Evidence",
+   "claim": "PTAs raise sales and employment at large, productive, multinational-linked firms and hurt small domestic ones: the firm-level distributional footprint of trade agreements.",
+   "method": "Firm-level data across many countries and PTAs",
+   "themes": [
+    "firms-gvc",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "kim2019firms",
+   "type": "work",
+   "label": "Kim 2019",
+   "authors": "In Song Kim, Helen V. Milner, Thomas Bernauer, Iain Osgood, Gabriele Spilker & Dustin Tingley",
+   "year": 2019,
+   "journal": "ISQ",
+   "title": "Firms and Global Value Chains: Identifying Firms' Multidimensional Trade Preferences",
+   "claim": "Firms' trade-policy priorities vary more by firm than industry: GVC multinationals prize investment protection, non-GVC exporters prize dispute settlement, tariffs matter less.",
+   "method": "Conjoint experiment on firms in Costa Rica",
+   "themes": [
+    "firms-gvc"
+   ],
+   "source": "papers.json:BTN8BKA8",
+   "zotero": "https://www.zotero.org/georgeyean/items/BTN8BKA8",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "kim2019arps",
+   "type": "work",
+   "label": "Kim 2019",
+   "authors": "In Song Kim & Iain Osgood",
+   "year": 2019,
+   "journal": "Annual Review of Political Science",
+   "title": "Firms in Trade and Trade Politics",
+   "claim": "Synthesizes the firm turn: heterogeneous firms, product differentiation and GVCs replace industries and factors as the units of trade politics, with implications for lobbying, agreements and backlash.",
+   "method": "Literature review",
+   "themes": [
+    "firms-gvc"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "zhang2023",
+   "type": "work",
+   "label": "Zhang 2023",
+   "authors": "Zhang",
+   "year": 2023,
+   "journal": "SSRN working paper",
+   "title": "Commerce, Coalitions, and Global Value Chains: Coordinated and Collective Lobbying on Trade",
+   "claim": "Firms linked through common foreign GVC partners lobby together and share lobbyists; relational supply-chain ties solve collective-action problems for small groups of large firms.",
+   "method": "FactSet firm-to-firm supply-chain network 2003-2020 matched to lobbying reports",
+   "themes": [
+    "firms-gvc"
+   ],
+   "source": "papers.json:IG6YWTLY",
+   "zotero": "https://www.zotero.org/georgeyean/items/IG6YWTLY",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "malesky2018",
+   "type": "work",
+   "label": "Malesky 2018",
+   "authors": "Edmund J. Malesky & Layna Mosley",
+   "year": 2018,
+   "journal": "AJPS",
+   "title": "Chains of Love? Global Production and the Firm-Level Diffusion of Labor Standards",
+   "claim": "Supply chains diffuse labor standards upward only when the markup gap between high- and low-standard markets is large and lead firms care about labor practices.",
+   "method": "Survey experiment on ~900 foreign-invested firms in Vietnam",
+   "themes": [
+    "firms-gvc",
+    "diffusion"
+   ],
+   "source": "papers.json:C8DU39A6",
+   "zotero": "https://www.zotero.org/georgeyean/items/C8DU39A6",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "kim2025fdi",
+   "type": "work",
+   "label": "Kim 2025",
+   "authors": "In Song Kim, Steven Liao & Sayumi Miyano",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "How FDI Reshapes Host Markets' Trade Profile and Politics",
+   "claim": "Greenfield FDI widens host export profiles toward GVC products and creates new pro-liberalization coalitions, visible in deeper tariff cuts on FDI-linked products.",
+   "method": "Global fDi Markets projects 2003-2017, Vietnamese customs records, DiD with matching",
+   "themes": [
+    "fdi",
+    "firms-gvc"
+   ],
+   "source": "papers.json:D26A2FAS",
+   "zotero": "https://www.zotero.org/georgeyean/items/D26A2FAS",
+   "verified": "repo analysis (full text); authors/year web-verified"
+  },
+  {
+   "id": "jensen2003",
+   "type": "work",
+   "label": "Jensen 2003",
+   "authors": "Nathan M. Jensen",
+   "year": 2003,
+   "journal": "IO",
+   "title": "Democratic Governance and Multinational Corporations: Political Regimes and Inflows of Foreign Direct Investment",
+   "claim": "Democracies attract more FDI because credibility and audience costs lower political risk, contrary to the view that autocracies offer investors a better deal.",
+   "method": "Cross-national panel of FDI inflows",
+   "themes": [
+    "fdi",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "buthe2008",
+   "type": "work",
+   "label": "Büthe 2008",
+   "authors": "Tim Büthe & Helen V. Milner",
+   "year": 2008,
+   "journal": "AJPS",
+   "title": "The Politics of Foreign Direct Investment into Developing Countries: Increasing FDI through International Trade Agreements?",
+   "claim": "GATT/WTO membership and PTAs raise FDI into developing countries by making liberal policy commitments credible.",
+   "method": "Panel of 122 developing countries 1970-2000",
+   "themes": [
+    "fdi",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "buthe2014",
+   "type": "work",
+   "label": "Büthe 2014",
+   "authors": "Tim Büthe & Helen V. Milner",
+   "year": 2014,
+   "journal": "World Politics",
+   "title": "Foreign Direct Investment and Institutional Diversity in Trade Agreements: Credibility, Commitment, and Economic Flows in the Developing World",
+   "claim": "PTAs attract FDI through credibility, so ratified agreements with strict investment clauses and third-party dispute settlement draw more investment than signed or shallow ones.",
+   "method": "Panel of 122 economies 1971-2007 with a new 385-PTA design dataset",
+   "themes": [
+    "fdi",
+    "trade-inst"
+   ],
+   "source": "papers.json:5MFE5TBC",
+   "zotero": "https://www.zotero.org/georgeyean/items/5MFE5TBC",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "wellhausen2015",
+   "type": "work",
+   "label": "Wellhausen 2015",
+   "authors": "Rachel L. Wellhausen",
+   "year": 2015,
+   "journal": "Cambridge University Press (book)",
+   "title": "The Shield of Nationality: When Governments Break Contracts with Foreign Firms",
+   "claim": "Governments breach contracts selectively: firms protected by co-national investor communities that can retaliate are shielded, while diversification of investor nationalities frees hosts to expropriate.",
+   "method": "Firm surveys, arbitration data, case studies",
+   "themes": [
+    "fdi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "johns2016",
+   "type": "work",
+   "label": "Johns 2016",
+   "authors": "Leslie Johns & Rachel L. Wellhausen",
+   "year": 2016,
+   "journal": "APSR",
+   "title": "Under One Roof: Supply Chains and the Protection of Foreign Investment",
+   "claim": "Supply-chain links create a protective roof: partner firms harmed by a breach lobby on the victim's behalf, so governments violate the rights of tightly linked firms less often.",
+   "method": "Formal model, arbitration panel 2002-2012, survey of subsidiaries in Russia, cases",
+   "themes": [
+    "fdi",
+    "firms-gvc"
+   ],
+   "source": "papers.json:9BUB55YX",
+   "zotero": "https://www.zotero.org/georgeyean/items/9BUB55YX",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "pandya2014",
+   "type": "work",
+   "label": "Pandya 2014",
+   "authors": "Sonal S. Pandya",
+   "year": 2014,
+   "journal": "Cambridge University Press (book)",
+   "title": "Trading Spaces: Foreign Direct Investment Regulation, 1970-2000",
+   "claim": "FDI liberalization followed from democratization and skilled-labor demand, as labor came to see multinationals as wage-raising employers rather than exploiters.",
+   "method": "New dataset on FDI restrictions across countries 1970-2000",
+   "themes": [
+    "fdi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "arias2018",
+   "type": "work",
+   "label": "Arias 2018",
+   "authors": "Eric Arias, James R. Hollyer & B. Peter Rosendorff",
+   "year": 2018,
+   "journal": "AJPS",
+   "title": "Cooperative Autocracies: Leader Survival, Creditworthiness, and Bilateral Investment Treaties",
+   "claim": "BITs let autocrats import property-rights protection; they improve autocracies' investment climate more than democracies' and prolong autocratic leaders' tenure.",
+   "method": "Formal model plus Cox models on 921 leaders 1960-2013",
+   "themes": [
+    "fdi",
+    "regime"
+   ],
+   "source": "papers.json:M8CNHWML",
+   "zotero": "https://www.zotero.org/georgeyean/items/M8CNHWML",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "bak2016",
+   "type": "work",
+   "label": "Bak 2016",
+   "authors": "Daehee Bak & Chungshik Moon",
+   "year": 2016,
+   "journal": "Comparative Political Studies",
+   "title": "Foreign Direct Investment and Authoritarian Stability",
+   "claim": "FDI inflows stabilize authoritarian regimes by supplying revenue and growth that leaders channel to supporters.",
+   "method": "Cross-national panel of autocracies",
+   "themes": [
+    "fdi",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "chilton2020",
+   "type": "work",
+   "label": "Chilton 2020",
+   "authors": "Adam S. Chilton, Helen V. Milner & Dustin Tingley",
+   "year": 2020,
+   "journal": "BJPS",
+   "title": "Reciprocity and Public Opposition to Foreign Direct Investment",
+   "claim": "Public opposition to inward FDI is driven by reciprocity concerns (whether the source country admits one's own firms) and by security framing, not just jobs or skill.",
+   "method": "Survey experiments in the US and China",
+   "themes": [
+    "fdi",
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "peters2014",
+   "type": "work",
+   "label": "Peters 2014",
+   "authors": "Margaret E. Peters",
+   "year": 2014,
+   "journal": "IO",
+   "title": "Trade, Foreign Direct Investment, and Immigration Policy Making in the United States",
+   "claim": "Trade openness and firm mobility push low-skill-intensive firms to close or move abroad, removing the main pro-immigration lobby, so immigration policy tightens as trade liberalizes.",
+   "method": "313 US Senate roll calls 1950-2008 with trade and capital openness",
+   "themes": [
+    "migration",
+    "fdi"
+   ],
+   "source": "papers.json:KDZ7L89Z",
+   "zotero": "https://www.zotero.org/georgeyean/items/KDZ7L89Z",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "frieden1991",
+   "type": "work",
+   "label": "Frieden 1991",
+   "authors": "Jeffry A. Frieden",
+   "year": 1991,
+   "journal": "IO",
+   "title": "Invested Interests: The Politics of National Economic Policies in a World of Global Finance",
+   "claim": "Capital mobility shifts distributional conflict from factors to sectors defined by asset specificity and tradability, which predicts preferences over exchange-rate levels and regimes.",
+   "method": "Deductive theory with illustrations",
+   "themes": [
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "bernhard2002",
+   "type": "work",
+   "label": "Bernhard 2002",
+   "authors": "William Bernhard, J. Lawrence Broz & William Roberts Clark",
+   "year": 2002,
+   "journal": "IO",
+   "title": "The Political Economy of Monetary Institutions",
+   "claim": "Exchange-rate regimes and central-bank independence are chosen jointly by domestic coalitions and institutions, not dictated by optimum-currency-area economics.",
+   "method": "Special-issue framework essay",
+   "themes": [
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "steinberg2014",
+   "type": "work",
+   "label": "Steinberg 2014",
+   "authors": "David A. Steinberg & Krishan Malhotra",
+   "year": 2014,
+   "journal": "World Politics",
+   "title": "The Effect of Authoritarian Regime Type on Exchange Rate Policy",
+   "claim": "Among autocracies, small-selectorate regimes fix exchange rates and long-horizon regimes undervalue them, so autocratic subtype matters as much as the democracy-autocracy divide.",
+   "method": "Panel of up to 146 developing countries 1973-2006",
+   "themes": [
+    "money-finance",
+    "regime"
+   ],
+   "source": "papers.json:YVIK7G8A",
+   "zotero": "https://www.zotero.org/georgeyean/items/YVIK7G8A",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "steinberg2015",
+   "type": "work",
+   "label": "Steinberg 2015",
+   "authors": "David A. Steinberg",
+   "year": 2015,
+   "journal": "Cornell University Press (book)",
+   "title": "Demanding Devaluation: Exchange Rate Politics in the Developing World",
+   "claim": "Undervalued currencies emerge where manufacturing interests are powerful and labor is weak, and where state-controlled finance lets governments offset exporters' costs.",
+   "method": "Case studies of China, Argentina, South Korea, Mexico, Iran with statistical tests",
+   "themes": [
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "tomz2007",
+   "type": "work",
+   "label": "Tomz 2007",
+   "authors": "Michael Tomz",
+   "year": 2007,
+   "journal": "Princeton University Press (book)",
+   "title": "Reputation and International Cooperation: Sovereign Debt across Three Centuries",
+   "claim": "Sovereign lending is sustained by reputation: lenders update beliefs about borrower type from repayment under adversity, which explains compliance without enforcement.",
+   "method": "Three centuries of sovereign debt records and bond prices",
+   "themes": [
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "schultz2003",
+   "type": "work",
+   "label": "Schultz 2003",
+   "authors": "Kenneth A. Schultz & Barry R. Weingast",
+   "year": 2003,
+   "journal": "IO",
+   "title": "The Democratic Advantage: Institutional Foundations of Financial Power in International Competition",
+   "claim": "Representative institutions let democracies borrow more cheaply and mobilize more credit in long rivalries, a financial advantage underpinning their geopolitical success.",
+   "method": "Historical comparison of early modern and modern rivalries",
+   "themes": [
+    "money-finance",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "mosley2003",
+   "type": "work",
+   "label": "Mosley 2003",
+   "authors": "Layna Mosley",
+   "year": 2003,
+   "journal": "Cambridge University Press (book)",
+   "title": "Global Capital and National Governments",
+   "claim": "Financial markets constrain rich democracies narrowly (a few macro indicators) but developing countries broadly, because investors scrutinize more where default risk is higher.",
+   "method": "Interviews with fund managers plus cross-national bond-market data",
+   "themes": [
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "ballardrosa2020",
+   "type": "work",
+   "label": "Ballard-Rosa 2020",
+   "authors": "Cameron Ballard-Rosa",
+   "year": 2020,
+   "journal": "Cambridge University Press (book)",
+   "title": "Democracy, Dictatorship, and Default: Urban-Rural Bias and Economic Crises across Regimes",
+   "claim": "Default is a distributional choice: regimes dependent on urban consumers (many autocracies) default rather than cut food subsidies, while rural-based democracies adjust.",
+   "method": "Cross-national default data and cases",
+   "themes": [
+    "money-finance",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "lipscy2018",
+   "type": "work",
+   "label": "Lipscy 2018",
+   "authors": "Phillip Y. Lipscy",
+   "year": 2018,
+   "journal": "IO",
+   "title": "Democracy and Financial Crisis",
+   "claim": "Democracies are more prone to banking crises because veto players, electoral horizons, civil liberties and openness favor liberalization and slow intervention; masked only in the capital-control era.",
+   "method": "Reinhart-Rogoff crisis data for 68 countries 1800-2009, FE logits",
+   "themes": [
+    "money-finance",
+    "regime"
+   ],
+   "source": "papers.json:XJTNLH7Y",
+   "zotero": "https://www.zotero.org/georgeyean/items/XJTNLH7Y",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "funke2016",
+   "type": "work",
+   "label": "Funke 2016",
+   "authors": "Manuel Funke, Moritz Schularick & Christoph Trebesch",
+   "year": 2016,
+   "journal": "European Economic Review",
+   "title": "Going to Extremes: Politics after Financial Crises, 1870-2014",
+   "claim": "Financial crises, unlike ordinary recessions, raise far-right vote shares by about 30 percent and fragment legislatures for roughly five years.",
+   "method": "800 elections in 20 democracies over 140 years",
+   "themes": [
+    "money-finance",
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "chwieroth2019",
+   "type": "work",
+   "label": "Chwieroth 2019",
+   "authors": "Jeffrey M. Chwieroth & Andrew Walter",
+   "year": 2019,
+   "journal": "Cambridge University Press (book)",
+   "title": "The Wealth Effect: How the Great Expectations of the Middle Class Have Changed the Politics of Banking Crises",
+   "claim": "Mass wealth-holding created expectations of bailouts, so governments now rescue finance generously yet are punished electorally anyway: crises became more costly for incumbents.",
+   "method": "Long-run cross-national crisis, policy and election data",
+   "themes": [
+    "money-finance",
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "frieden2017",
+   "type": "work",
+   "label": "Frieden 2017",
+   "authors": "Jeffry Frieden & Stefanie Walter",
+   "year": 2017,
+   "journal": "Annual Review of Political Science",
+   "title": "Understanding the Political Economy of the Eurozone Crisis",
+   "claim": "The euro crisis was a distributional fight over adjustment between and within debtor and creditor states, shaped by vulnerability profiles and bargaining power.",
+   "method": "Literature synthesis",
+   "themes": [
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "freeman2012",
+   "type": "work",
+   "label": "Freeman 2012",
+   "authors": "John R. Freeman & Dennis P. Quinn",
+   "year": 2012,
+   "journal": "APSR",
+   "title": "The Economic Origins of Democracy Reconsidered",
+   "claim": "Financial openness lets elites diversify abroad, lowering their stake in resisting democracy, so unequal but financially open autocracies democratize more.",
+   "method": "Panel of up to 91 countries 1955-2004",
+   "themes": [
+    "regime",
+    "money-finance"
+   ],
+   "source": "papers.json:YCZNWRXM",
+   "zotero": "https://www.zotero.org/georgeyean/items/YCZNWRXM",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "lipscy2019",
+   "type": "work",
+   "label": "Lipscy 2019",
+   "authors": "Phillip Y. Lipscy & Haillie Na-Kyung Lee",
+   "year": 2019,
+   "journal": "IO",
+   "title": "The IMF as a Biased Global Insurance Mechanism: Asymmetrical Moral Hazard, Reserve Accumulation, and Financial Crisis",
+   "claim": "Because IMF lending is politicized, influential states expect bailouts and take more risk while others self-insure through reserve hoarding; asymmetric moral hazard.",
+   "method": "Panel 1980-2010 with an IMF-influence index plus synthetic control on Taiwan",
+   "themes": [
+    "ifi",
+    "money-finance"
+   ],
+   "source": "papers.json:46CTTSAW",
+   "zotero": "https://www.zotero.org/georgeyean/items/46CTTSAW",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "stone2008",
+   "type": "work",
+   "label": "Stone 2008",
+   "authors": "Randall W. Stone",
+   "year": 2008,
+   "journal": "IO",
+   "title": "The Scope of IMF Conditionality",
+   "claim": "IOs run on formal rules plus informal US control exercised sparingly: conditionality reflects technical priorities except when strategically important borrowers need help, when US intervention reduces it.",
+   "method": "MONA data on 96 programs 1992-2002, two-stage selection and count models",
+   "themes": [
+    "ifi",
+    "hegemony"
+   ],
+   "source": "papers.json:SACTPPVY",
+   "zotero": "https://www.zotero.org/georgeyean/items/SACTPPVY",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "copelovitch2010",
+   "type": "work",
+   "label": "Copelovitch 2010",
+   "authors": "Mark S. Copelovitch",
+   "year": 2010,
+   "journal": "ISQ",
+   "title": "Master or Servant? Common Agency and the Political Economy of IMF Lending",
+   "claim": "IMF loan size and conditions track the bank exposure of the G5 collectively; when their interests diverge, Fund staff gain autonomy. A common-agency view of informal governance.",
+   "method": "IMF programs 1984-2003",
+   "themes": [
+    "ifi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "dreher2009",
+   "type": "work",
+   "label": "Dreher 2009",
+   "authors": "Axel Dreher, Jan-Egbert Sturm & James Raymond Vreeland",
+   "year": 2009,
+   "journal": "European Economic Review",
+   "title": "Global Horse Trading: IMF Loans for Votes in the United Nations Security Council",
+   "claim": "Countries serving on the UN Security Council receive more IMF programs with fewer conditions: lending buys geopolitical votes.",
+   "method": "Panel of IMF programs with UNSC membership",
+   "themes": [
+    "ifi",
+    "hegemony"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "nelson2014",
+   "type": "work",
+   "label": "Nelson 2014",
+   "authors": "Stephen C. Nelson",
+   "year": 2014,
+   "journal": "IO",
+   "title": "Playing Favorites: How Shared Beliefs Shape the IMF's Lending Decisions",
+   "claim": "Borrowers whose top officials share the IMF's neoliberal beliefs get larger loans, fewer conditions and more waivers, independent of US power: ideas shape informal governance.",
+   "method": "Original data on policymakers' training and IMF treatment 1980-2000",
+   "themes": [
+    "ifi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "clark2021wb",
+   "type": "work",
+   "label": "Clark 2021",
+   "authors": "Richard Clark & Lindsay R. Dolan",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "Pleasing the Principal: U.S. Influence in World Bank Policymaking",
+   "claim": "US preferences shape World Bank conditions indirectly: autonomous staff anticipate Washington, softening conditions for US-aligned borrowers without explicit intervention.",
+   "method": "World Bank Development Policy Action Database since 2005, UNGA voting distance, interviews",
+   "themes": [
+    "ifi",
+    "hegemony"
+   ],
+   "source": "papers.json:PQHNTWFB",
+   "zotero": "https://www.zotero.org/georgeyean/items/PQHNTWFB",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "carnegie2023",
+   "type": "work",
+   "label": "Carnegie 2023",
+   "authors": "Allison Carnegie & Richard Clark",
+   "year": 2023,
+   "journal": "World Politics",
+   "title": "Reforming Global Governance: Power, Alliance, and Institutional Performance",
+   "claim": "Routine World Bank reforms reward US allies, but poor performance in non-allied members prompts concessions to prevent exit or rival institutions.",
+   "method": "108 IBRD reforms 1944-2018 with IEG project ratings",
+   "themes": [
+    "ifi",
+    "hegemony"
+   ],
+   "source": "papers.json:U822XIHK",
+   "zotero": "https://www.zotero.org/georgeyean/items/U822XIHK",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "lipscy2015",
+   "type": "work",
+   "label": "Lipscy 2015",
+   "authors": "Phillip Y. Lipscy",
+   "year": 2015,
+   "journal": "AJPS",
+   "title": "Explaining Institutional Change: Policy Areas, Outside Options, and the Bretton Woods Institutions",
+   "claim": "Institutions redistribute influence as power shifts only where outside options are credible; network effects in balance-of-payments lending make the IMF path dependent while the World Bank adjusts.",
+   "method": "Formal model and IMF-IBRD comparison of voting shares",
+   "themes": [
+    "ifi"
+   ],
+   "source": "papers.json:WSMVQWEE",
+   "zotero": "https://www.zotero.org/georgeyean/items/WSMVQWEE",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "clark2022imf",
+   "type": "work",
+   "label": "Clark 2022",
+   "authors": "Richard Clark",
+   "year": 2022,
+   "journal": "JOP",
+   "title": "Bargain Down or Shop Around? Outside Options and IMF Conditionality",
+   "claim": "Overlapping IOs give leverage only when they compete: members of regional financing arrangements that compete with the IMF bargain down conditionality; cooperating RFAs do not.",
+   "method": "Original IMF-RFA cooperation data merged with conditionality 1978-2014",
+   "themes": [
+    "ifi"
+   ],
+   "source": "papers.json:QTLPL5VQ",
+   "zotero": "https://www.zotero.org/georgeyean/items/QTLPL5VQ",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "qian2023",
+   "type": "work",
+   "label": "Qian 2023",
+   "authors": "Jing Qian, James Raymond Vreeland & Jianzhi Zhao",
+   "year": 2023,
+   "journal": "IO",
+   "title": "The Impact of China's AIIB on the World Bank",
+   "claim": "Developing AIIB founders cut World Bank infrastructure borrowing by about 22 percent after 2016, an outside-option effect driven by borrower demand.",
+   "method": "Panel of 155 borrowers 1992-2019, dynamic latent factor and DiD models",
+   "themes": [
+    "ifi",
+    "china-order"
+   ],
+   "source": "papers.json:7WW65XSF",
+   "zotero": "https://www.zotero.org/georgeyean/items/7WW65XSF",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "dreher2022",
+   "type": "work",
+   "label": "Dreher 2022",
+   "authors": "Axel Dreher, Andreas Fuchs, Bradley Parks, Austin Strange & Michael J. Tierney",
+   "year": 2022,
+   "journal": "Cambridge University Press (book)",
+   "title": "Banking on Beijing: The Aims and Impacts of China's Overseas Development Program",
+   "claim": "Chinese official finance is mostly commercially oriented debt rather than aid; it spurs growth and is politically allocated, but with weaker governance effects than critics or boosters claim.",
+   "method": "AidData's global Chinese finance dataset 2000-2017",
+   "themes": [
+    "ifi",
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "cottiero2026",
+   "type": "work",
+   "label": "Cottiero 2026",
+   "authors": "Christina Cottiero & Christina J. Schneider",
+   "year": 2026,
+   "journal": "IO",
+   "title": "International Financial Institutions and the Promotion of Autocratic Resilience",
+   "claim": "Autocracy-dominated IFIs channel finance to authoritarian governments facing domestic or international threats, as defensive support against democratization.",
+   "method": "Original data on 18 autocratic IFIs lending to 143 recipients 1967-2021",
+   "themes": [
+    "ifi",
+    "regime",
+    "china-order"
+   ],
+   "source": "papers.json:IARIW5TL",
+   "zotero": "https://www.zotero.org/georgeyean/items/IARIW5TL",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "broz2020china",
+   "type": "work",
+   "label": "Broz 2020",
+   "authors": "J. Lawrence Broz, Zhiwen Zhang & Gaoyang Wang",
+   "year": 2020,
+   "journal": "IO",
+   "title": "Explaining Foreign Support for China's Global Economic Leadership",
+   "claim": "Grievances with the US-led order, especially financial instability under capital mobility and IMF voice gaps, push leaders toward China's economic leadership.",
+   "method": "Cross-section of 192 countries' representation at the 2017 Belt and Road Forum",
+   "themes": [
+    "china-order",
+    "ifi"
+   ],
+   "source": "papers.json:MGJNY9CI",
+   "zotero": "https://www.zotero.org/georgeyean/items/MGJNY9CI",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "mmr2000",
+   "type": "work",
+   "label": "Mansfield 2000",
+   "authors": "Edward D. Mansfield, Helen V. Milner & B. Peter Rosendorff",
+   "year": 2000,
+   "journal": "APSR",
+   "title": "Free to Trade: Democracies, Autocracies, and International Trade",
+   "claim": "Because legislatures must ratify, pairs of democracies set lower trade barriers toward each other than mixed pairs.",
+   "method": "Formal model and dyadic trade 1960-1990",
+   "themes": [
+    "regime",
+    "trade-inst"
+   ],
+   "source": "papers.json:YXV7RH9E",
+   "zotero": "https://www.zotero.org/georgeyean/items/YXV7RH9E",
+   "verified": "repo analysis (abstract only)"
+  },
+  {
+   "id": "mmr2002",
+   "type": "work",
+   "label": "Mansfield 2002",
+   "authors": "Edward D. Mansfield, Helen V. Milner & B. Peter Rosendorff",
+   "year": 2002,
+   "journal": "IO",
+   "title": "Why Democracies Cooperate More: Electoral Control and International Trade Agreements",
+   "claim": "Democratic leaders sign trade agreements to signal to voters that they are not protectionist rent-seekers, so democracies form more PTAs.",
+   "method": "Formal model and PTA formation data",
+   "themes": [
+    "trade-inst",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "rosendorff2001",
+   "type": "work",
+   "label": "Rosendorff 2001",
+   "authors": "B. Peter Rosendorff & Helen V. Milner",
+   "year": 2001,
+   "journal": "IO",
+   "title": "The Optimal Design of International Trade Institutions: Uncertainty and Escape",
+   "claim": "Escape clauses with costs make trade agreements self-enforcing under domestic political uncertainty, trading rigidity for durability.",
+   "method": "Formal model",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "kucik2008",
+   "type": "work",
+   "label": "Kucik 2008",
+   "authors": "Jeffrey Kucik & Eric Reinhardt",
+   "year": 2008,
+   "journal": "IO",
+   "title": "Does Flexibility Promote Cooperation? An Application to the Global Trade Regime",
+   "claim": "States with antidumping mechanisms are more likely to join the GATT/WTO, bind more tariffs and set lower bound rates: flexibility deepens commitment.",
+   "method": "Cross-national data on antidumping and WTO commitments",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "rose2004",
+   "type": "work",
+   "label": "Rose 2004",
+   "authors": "Andrew K. Rose",
+   "year": 2004,
+   "journal": "American Economic Review",
+   "title": "Do We Really Know That the WTO Increases Trade?",
+   "claim": "GATT/WTO membership has no robust effect on bilateral trade in gravity models, challenging the institution's core rationale.",
+   "method": "Gravity models 1948-1999",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "gowa2005",
+   "type": "work",
+   "label": "Gowa 2005",
+   "authors": "Joanne Gowa & Soo Yeon Kim",
+   "year": 2005,
+   "journal": "World Politics",
+   "title": "An Exclusive Country Club: The Effects of the GATT on Trade, 1950-94",
+   "claim": "The GATT raised trade only among the five major powers who bargained under the principal-supplier rule and failed to dismantle interwar blocs.",
+   "method": "Directed-dyad gravity models with interwar bloc data",
+   "themes": [
+    "trade-inst",
+    "hegemony"
+   ],
+   "source": "papers.json:VKUHFIIK",
+   "zotero": "https://www.zotero.org/georgeyean/items/VKUHFIIK",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "goldstein2007",
+   "type": "work",
+   "label": "Goldstein 2007",
+   "authors": "Judith L. Goldstein, Douglas Rivers & Michael Tomz",
+   "year": 2007,
+   "journal": "IO",
+   "title": "Institutions in International Relations: Understanding the Effects of the GATT and the WTO on World Trade",
+   "claim": "Counting de facto participants (colonies, provisional members) rather than formal members, GATT/WTO participation raised trade by about 43 percent.",
+   "method": "Gravity models 1946-2004 with recoded institutional standing",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "papers.json:CB4ID3JD",
+   "zotero": "https://www.zotero.org/georgeyean/items/CB4ID3JD",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "carnegie2014",
+   "type": "work",
+   "label": "Carnegie 2014",
+   "authors": "Allison Carnegie",
+   "year": 2014,
+   "journal": "APSR",
+   "title": "States Held Hostage: Political Hold-Up Problems and the Effects of International Institutions",
+   "claim": "The WTO's trade gains accrue disproportionately to politically dissimilar dyads because it solves hold-up problems that deter relationship-specific trade between rivals.",
+   "method": "Formal model and gravity models 1948-2003 with contract-intensity tests",
+   "themes": [
+    "trade-inst",
+    "trade-security"
+   ],
+   "source": "papers.json:39GKM33G",
+   "zotero": "https://www.zotero.org/georgeyean/items/39GKM33G",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "davis2004",
+   "type": "work",
+   "label": "Davis 2004",
+   "authors": "Christina L. Davis",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "International Institutions and Issue Linkage: Building Support for Agricultural Trade Liberalization",
+   "claim": "Linking agriculture to industrial issues within GATT rounds mobilizes export interests and produces more agricultural liberalization than threats or budget pressure.",
+   "method": "US negotiations with Japan and the EU 1970-1999 plus case studies",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "papers.json:Q8INCT9J",
+   "zotero": "https://www.zotero.org/georgeyean/items/Q8INCT9J",
+   "verified": "repo analysis (full text (PDF extraction partly garbled; written with care from legible sections and abstract))"
+  },
+  {
+   "id": "davis2012",
+   "type": "work",
+   "label": "Davis 2012",
+   "authors": "Christina L. Davis",
+   "year": 2012,
+   "journal": "Princeton University Press (book)",
+   "title": "Why Adjudicate? Enforcing Trade Rules in the WTO",
+   "claim": "Governments file WTO disputes to satisfy domestic constituencies and legislatures, so democratic accountability, not just expected gains, explains litigation.",
+   "method": "US and Japanese dispute data, surveys and cases",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "johns2014",
+   "type": "work",
+   "label": "Johns 2014",
+   "authors": "Leslie Johns & Krzysztof J. Pelc",
+   "year": 2014,
+   "journal": "IO",
+   "title": "Who Gets to Be in the Room? Manipulating Participation in WTO Disputes",
+   "claim": "Litigants manipulate third-party participation because more voices make disputes harder to settle; participation rules shape dispute outcomes.",
+   "method": "WTO disputes 1995-2011",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (IO 68(3): 663-699)"
+  },
+  {
+   "id": "pelc2014",
+   "type": "work",
+   "label": "Pelc 2014",
+   "authors": "Krzysztof J. Pelc",
+   "year": 2014,
+   "journal": "APSR",
+   "title": "The Politics of Precedent in International Law: A Social Network Application",
+   "claim": "States litigate for rule gains: strategic complainants set precedent in low-stakes test cases and exploit it in high-value disputes, advantaging repeat players.",
+   "method": "Citation network of all WTO rulings since 1995",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "papers.json:7A5WJARX",
+   "zotero": "https://www.zotero.org/georgeyean/items/7A5WJARX",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "mansfield2006",
+   "type": "work",
+   "label": "Mansfield 2006",
+   "authors": "Edward D. Mansfield & Jon C. Pevehouse",
+   "year": 2006,
+   "journal": "IO",
+   "title": "Democratization and International Organizations",
+   "claim": "Democratizing states join IOs to make reform commitments credible, especially IOs with democratic memberships.",
+   "method": "Country-year IO membership changes 1965-2000",
+   "themes": [
+    "trade-inst",
+    "regime"
+   ],
+   "source": "papers.json:6NCK6K42",
+   "zotero": "https://www.zotero.org/georgeyean/items/6NCK6K42",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "baccini2014",
+   "type": "work",
+   "label": "Baccini 2014",
+   "authors": "Leonardo Baccini & Johannes Urpelainen",
+   "year": 2014,
+   "journal": "JOP",
+   "title": "International Institutions and Domestic Politics: Can Preferential Trading Agreements Help Leaders Promote Economic Reform?",
+   "claim": "New, insecure leaders in recently democratized countries seek PTAs with the EU or US to lock in reforms they cannot deliver alone, and PTAs then produce reform.",
+   "method": "Original data on 71 EU/US PTA negotiation onsets, Cox models and structural breaks",
+   "themes": [
+    "trade-inst",
+    "regime"
+   ],
+   "source": "papers.json:IH9N22Q3",
+   "zotero": "https://www.zotero.org/georgeyean/items/IH9N22Q3",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "mansfield2012",
+   "type": "work",
+   "label": "Mansfield 2012",
+   "authors": "Edward D. Mansfield & Helen V. Milner",
+   "year": 2012,
+   "journal": "Princeton University Press (book)",
+   "title": "Votes, Vetoes, and the Political Economy of International Trade Agreements",
+   "claim": "Democracies sign more PTAs but veto players slow ratification; PTAs are domestic reassurance devices as much as economic instruments.",
+   "method": "PTA formation data 1950-2004",
+   "themes": [
+    "trade-inst",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "baccini2019",
+   "type": "work",
+   "label": "Baccini 2019",
+   "authors": "Leonardo Baccini",
+   "year": 2019,
+   "journal": "Annual Review of Political Science",
+   "title": "The Economics and Politics of Preferential Trade Agreements",
+   "claim": "Synthesizes two decades of PTA research: design varies with domestic institutions and GVCs, effects concentrate in large firms, and depth rather than membership drives outcomes.",
+   "method": "Literature review",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "lipscy2017",
+   "type": "work",
+   "label": "Lipscy 2017",
+   "authors": "Phillip Y. Lipscy",
+   "year": 2017,
+   "journal": "Cambridge University Press (book)",
+   "title": "Renegotiating the World Order: Institutional Change in International Relations",
+   "claim": "Institutions adapt to shifting power when outside options are cheap and resist when network effects lock members in, which explains uneven reform across the UN, IMF, World Bank and others.",
+   "method": "Cross-institution comparison with quantitative tests",
+   "themes": [
+    "trade-inst",
+    "ifi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "milner2005",
+   "type": "work",
+   "label": "Milner 2005",
+   "authors": "Helen V. Milner & Keiko Kubota",
+   "year": 2005,
+   "journal": "IO",
+   "title": "Why the Move to Free Trade? Democracy and Trade Policy in the Developing Countries",
+   "claim": "Democratization in labor-abundant developing countries enfranchised trade's winners and drove the wave of trade liberalization after 1970.",
+   "method": "Panel of developing countries 1970-1999",
+   "themes": [
+    "regime",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "kono2006",
+   "type": "work",
+   "label": "Kono 2006",
+   "authors": "Daniel Yuichi Kono",
+   "year": 2006,
+   "journal": "APSR",
+   "title": "Optimal Obfuscation: Democracy and Trade Policy Transparency",
+   "claim": "Democracy does not simply liberalize: electoral competition punishes transparent tariffs, so democracies substitute opaque non-tariff barriers.",
+   "method": "Cross-national TRAINS data for 75 countries, sector-level Tobit",
+   "themes": [
+    "regime",
+    "trade-inst"
+   ],
+   "source": "papers.json:YTGI82YI",
+   "zotero": "https://www.zotero.org/georgeyean/items/YTGI82YI",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "hankla2013",
+   "type": "work",
+   "label": "Hankla 2013",
+   "authors": "Charles R. Hankla & Daniel Kuthy",
+   "year": 2013,
+   "journal": "ISQ",
+   "title": "Economic Liberalism in Illiberal Regimes: Authoritarian Variation and the Political Economy of Trade",
+   "claim": "More institutionalized, multiparty and stable autocracies trade more openly because large selectorates and long horizons favor public goods over targeted protection.",
+   "method": "Panel of all autocracies 1962-2007",
+   "themes": [
+    "regime",
+    "trade-inst"
+   ],
+   "source": "papers.json:IBT3CR5J",
+   "zotero": "https://www.zotero.org/georgeyean/items/IBT3CR5J",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "kim2018media",
+   "type": "work",
+   "label": "Kim 2018",
+   "authors": "Sung Eun Kim",
+   "year": 2018,
+   "journal": "APSR",
+   "title": "Media Bias against Foreign Firms as a Veiled Trade Barrier: Evidence from Chinese Newspapers",
+   "claim": "State newspapers cover foreign firms' product failures more and more negatively, a veiled protectionist tool where formal barriers are constrained by trade rules.",
+   "method": "472 car recalls 2005-2013 matched to 121 newspapers",
+   "themes": [
+    "trade-inst",
+    "china-order"
+   ],
+   "source": "papers.json:HIW8QYKR",
+   "zotero": "https://www.zotero.org/georgeyean/items/HIW8QYKR",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "bown2024",
+   "type": "work",
+   "label": "Bown 2024",
+   "authors": "Chad P. Bown",
+   "year": 2024,
+   "journal": "Annual Review of Economics",
+   "title": "Modern Industrial Policy and the World Trade Organization",
+   "claim": "China, supply-chain resilience and climate have made industrial policy central to trade, and WTO rules built for tariffs cannot discipline it; the system needs new transparency and negotiation modes.",
+   "method": "Policy review",
+   "themes": [
+    "geoecon",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (ARE 16: 243-270)"
+  },
+  {
+   "id": "hirschman1945",
+   "type": "work",
+   "label": "Hirschman 1945",
+   "authors": "Albert O. Hirschman",
+   "year": 1945,
+   "journal": "University of California Press (book)",
+   "title": "National Power and the Structure of Foreign Trade",
+   "claim": "Asymmetric trade dependence is a source of political influence: the less dependent partner can threaten to interrupt exchange and shape the other's policy.",
+   "method": "Theory with interwar German trade data",
+   "themes": [
+    "weaponized",
+    "trade-security"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "mastanduno1998",
+   "type": "work",
+   "label": "Mastanduno 1998",
+   "authors": "Michael Mastanduno",
+   "year": 1998,
+   "journal": "IO",
+   "title": "Economics and Security in Statecraft and Scholarship",
+   "claim": "Whether economics and security are integrated in statecraft and scholarship depends on polarity, threat perception and perceived economic decline; bipolarity separated them, unipolarity reintegrates.",
+   "method": "Interpretive historical essay",
+   "themes": [
+    "geoecon",
+    "ipe-theory"
+   ],
+   "source": "papers.json:NUSNXXRM",
+   "zotero": "https://www.zotero.org/georgeyean/items/NUSNXXRM",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "drezner2003",
+   "type": "work",
+   "label": "Drezner 2003",
+   "authors": "Daniel W. Drezner",
+   "year": 2003,
+   "journal": "IO",
+   "title": "The Hidden Hand of Economic Coercion",
+   "claim": "Sanctions work mostly at the threat stage; observed imposed sanctions are the selected failures, so studies of imposed cases understate coercive success.",
+   "method": "Game-theoretic selection argument with case evidence",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "early2009",
+   "type": "work",
+   "label": "Early 2009",
+   "authors": "Bryan R. Early",
+   "year": 2009,
+   "journal": "ISQ",
+   "title": "Sleeping with Your Friends' Enemies: An Explanation of Sanctions-Busting Trade",
+   "claim": "Profit-seeking firms, not black-knight geopolitics, drive sanctions busting, and the sender's own allies bust most because firms relocate trade there.",
+   "method": "Dyad-year busting measure for 77 sanctions cases 1950-1990",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "papers.json:9S9LXTG6",
+   "zotero": "https://www.zotero.org/georgeyean/items/9S9LXTG6",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "grauvogel2017",
+   "type": "work",
+   "label": "Grauvogel 2017",
+   "authors": "Julia Grauvogel, Amanda A. Licht & Christian von Soest",
+   "year": 2017,
+   "journal": "ISQ",
+   "title": "Sanctions and Signals: How International Sanction Threats Trigger Domestic Protest in Targeted Regimes",
+   "claim": "Sanction threats raise antigovernment protest by signaling international support for the opposition, while imposed sanctions do not.",
+   "method": "Country-month TIES and mass mobilization data 1990-2005",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "papers.json:D4JVHBXY",
+   "zotero": "https://www.zotero.org/georgeyean/items/D4JVHBXY",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "farrell2019",
+   "type": "work",
+   "label": "Farrell 2019",
+   "authors": "Henry Farrell & Abraham L. Newman",
+   "year": 2019,
+   "journal": "International Security",
+   "title": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion",
+   "claim": "Global networks form asymmetric hubs; states with jurisdiction over hubs and suitable institutions weaponize them through panopticon (information) and chokepoint (denial) effects. Topology, not bilateral dependence, confers coercive power.",
+   "method": "Analytic narratives of SWIFT and internet communications",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "papers.json:855MI2G8",
+   "zotero": "https://www.zotero.org/georgeyean/items/855MI2G8",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "drezner2021",
+   "type": "work",
+   "label": "Drezner 2021",
+   "authors": "Daniel W. Drezner, Henry Farrell & Abraham L. Newman (eds.)",
+   "year": 2021,
+   "journal": "Brookings Institution Press (edited volume)",
+   "title": "The Uses and Abuses of Weaponized Interdependence",
+   "claim": "Extends the framework across finance, energy, data and supply chains and identifies limits: overuse invites hedging, and non-state hubs complicate state control.",
+   "method": "Edited essays",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "mulder2022",
+   "type": "work",
+   "label": "Mulder 2022",
+   "authors": "Nicholas Mulder",
+   "year": 2022,
+   "journal": "Yale University Press (book)",
+   "title": "The Economic Weapon: The Rise of Sanctions as a Tool of Modern War",
+   "claim": "Interwar sanctions were conceived as a deterrent form of total war; they worked against small states but drove revisionist great powers toward autarky and conquest.",
+   "method": "Diplomatic and economic history 1914-1945",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "farrell2023",
+   "type": "work",
+   "label": "Farrell 2023",
+   "authors": "Henry Farrell & Abraham Newman",
+   "year": 2023,
+   "journal": "Henry Holt (book)",
+   "title": "Underground Empire: How America Weaponized the World Economy",
+   "claim": "The US turned private financial, data and semiconductor infrastructures into instruments of surveillance and coercion, with escalating risks of fragmentation and retaliation.",
+   "method": "Narrative synthesis",
+   "themes": [
+    "weaponized",
+    "hegemony"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "gholz2021",
+   "type": "work",
+   "label": "Gholz 2021",
+   "authors": "Eugene Gholz & Llewelyn Hughes",
+   "year": 2021,
+   "journal": "Review of International Political Economy",
+   "title": "Market Structure and Economic Sanctions: The 2010 Rare Earth Elements Episode as a Pathway Case of Market Adjustment",
+   "claim": "China's 2010 rare-earth cutoff failed because markets adjusted through stockpiles, substitution and new entry; chokepoints are weaker than network maps suggest.",
+   "method": "Pathway case study",
+   "themes": [
+    "weaponized",
+    "geoecon"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "gjesvik2023",
+   "type": "work",
+   "label": "Gjesvik 2023",
+   "authors": "Lars Gjesvik",
+   "year": 2023,
+   "journal": "Review of International Political Economy",
+   "title": "Private Infrastructure in Weaponized Interdependence",
+   "claim": "States' authority over the private firms that own network hubs is contested and has eroded in the submarine-cable industry, limiting weaponization.",
+   "method": "Case study of submarine cables",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (RIPE 30(2): 722-746)"
+  },
+  {
+   "id": "lim2022",
+   "type": "work",
+   "label": "Lim 2022",
+   "authors": "Darren J. Lim & Victor A. Ferguson",
+   "year": 2022,
+   "journal": "Review of International Political Economy",
+   "title": "Informal Economic Sanctions: The Political Economy of Chinese Coercion during the THAAD Dispute",
+   "claim": "China coerces informally, through unacknowledged regulatory harassment; regulatory availability and firm opportunism explain which targets are hit and how hard.",
+   "method": "Qualitative dataset of disruptions to South Korean firms 2016-2017",
+   "themes": [
+    "weaponized",
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (RIPE 29(5): 1525-1548)"
+  },
+  {
+   "id": "kim2025refusals",
+   "type": "work",
+   "label": "Kim 2025",
+   "authors": "Kim et al.",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "The Politics of Rejection: Explaining Chinese Import Refusals",
+   "claim": "Chinese border inspectors refuse more imports from states that cross Beijing politically: ambiguous health and safety standards double as retribution.",
+   "method": "Original import-refusal data 2011-2019 by exporting country",
+   "themes": [
+    "weaponized",
+    "china-order"
+   ],
+   "source": "papers.json:66HQ9ICH",
+   "zotero": "https://www.zotero.org/georgeyean/items/66HQ9ICH",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "mcdowell2023",
+   "type": "work",
+   "label": "McDowell 2023",
+   "authors": "Daniel McDowell",
+   "year": 2023,
+   "journal": "Oxford University Press (book)",
+   "title": "Bucking the Buck: US Financial Sanctions and the International Backlash against the Dollar",
+   "claim": "Targets of US financial sanctions hedge by de-dollarizing reserves, payments and trade settlement, so sanctions overuse slowly erodes the dollar's network position.",
+   "method": "Cross-national reserve and payments data plus cases (Russia, Turkey, Venezuela)",
+   "themes": [
+    "weaponized",
+    "hegemony",
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "lind2018",
+   "type": "work",
+   "label": "Lind 2018",
+   "authors": "Jennifer Lind & Daryl G. Press",
+   "year": 2018,
+   "journal": "International Security",
+   "title": "Markets or Mercantilism? How China Secures Its Energy Supplies",
+   "claim": "Energy mercantilism mirrors firms' supply-chain management under imperfect contracting and concentrated suppliers; China's control-seeking policies rationally buy security.",
+   "method": "Conceptual argument and case study of China",
+   "themes": [
+    "geoecon",
+    "weaponized"
+   ],
+   "source": "papers.json:BJKW5AF7",
+   "zotero": "https://www.zotero.org/georgeyean/items/BJKW5AF7",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "gowa1993",
+   "type": "work",
+   "label": "Gowa 1993",
+   "authors": "Joanne Gowa & Edward D. Mansfield",
+   "year": 1993,
+   "journal": "APSR",
+   "title": "Power Politics and International Trade",
+   "claim": "Trade creates security externalities, so free trade is more likely within alliances and more so under bipolarity.",
+   "method": "Optimal-tariff model and gravity estimates among major powers 1905-1985",
+   "themes": [
+    "trade-security"
+   ],
+   "source": "papers.json:AHFSFXB7",
+   "zotero": "https://www.zotero.org/georgeyean/items/AHFSFXB7",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "juhasz2024",
+   "type": "work",
+   "label": "Juhász 2024",
+   "authors": "Réka Juhász, Nathan J. Lane & Dani Rodrik",
+   "year": 2024,
+   "journal": "Annual Review of Economics",
+   "title": "The New Economics of Industrial Policy",
+   "claim": "Credible modern evidence shows industrial policy can work under externalities and coordination failures; the binding constraints are political economy and state capacity, not theory.",
+   "method": "Literature review",
+   "themes": [
+    "geoecon"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "helleiner2021",
+   "type": "work",
+   "label": "Helleiner 2021",
+   "authors": "Eric Helleiner",
+   "year": 2021,
+   "journal": "Cornell University Press (book)",
+   "title": "The Neomercantilists: A Global Intellectual History",
+   "claim": "Neomercantilist thought has deep and globally diverse roots beyond List; today's economic nationalism revives a tradition IPE had written out of its canon.",
+   "method": "Intellectual history",
+   "themes": [
+    "geoecon",
+    "ipe-theory"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "meunier2019",
+   "type": "work",
+   "label": "Meunier 2019",
+   "authors": "Sophie Meunier & Kalypso Nicolaïdis",
+   "year": 2019,
+   "journal": "Journal of Common Market Studies",
+   "title": "The Geopoliticization of European Trade and Investment Policy",
+   "claim": "EU trade and investment policy shifted from market-making to geopolitical ends (screening, reciprocity, strategic autonomy) under pressure from China and US unilateralism.",
+   "method": "Interpretive policy analysis",
+   "themes": [
+    "geoecon"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "bauerle2023",
+   "type": "work",
+   "label": "Danzman 2023",
+   "authors": "Sarah Bauerle Danzman & Sophie Meunier",
+   "year": 2023,
+   "journal": "Global Policy",
+   "title": "Naïve No More: Foreign Direct Investment Screening in the European Union",
+   "claim": "National investment-screening mechanisms spread across the EU with designs shaped by Chinese investment, debt and R&D exposure; screening shifted from economic to security logic.",
+   "method": "Comparative mapping of national screening mechanisms",
+   "themes": [
+    "geoecon",
+    "fdi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (Global Policy 14(S3): 40-53)"
+  },
+  {
+   "id": "pearson2022",
+   "type": "work",
+   "label": "Pearson 2022",
+   "authors": "Margaret M. Pearson, Meg Rithmire & Kellee S. Tsai",
+   "year": 2022,
+   "journal": "International Security",
+   "title": "China's Party-State Capitalism and International Backlash: From Interdependence to Security Dilemma Dynamics",
+   "claim": "After 2008 the CCP securitized economic governance into party-state capitalism; because party control blurs the firm-state line, other states read Chinese firms as capabilities and restrict them, deepening a security dilemma in the economic realm.",
+   "method": "Process tracing from Chinese laws and OECD policy responses",
+   "themes": [
+    "geoecon",
+    "china-order"
+   ],
+   "source": "papers.json:PB2VVIWQ",
+   "zotero": "https://www.zotero.org/georgeyean/items/PB2VVIWQ",
+   "verified": "repo analysis (full text)",
+   "note": "papers.json holds two entries for this paper (PB2VVIWQ, 3EF2KRIS); merged here."
+  },
+  {
+   "id": "rithmire2023",
+   "type": "work",
+   "label": "Rithmire 2023",
+   "authors": "Meg Rithmire",
+   "year": 2023,
+   "journal": "Cambridge University Press (book)",
+   "title": "Precarious Ties: Business and the State in Authoritarian Asia",
+   "claim": "State-business relations in China shifted from mutual alignment to mutual endangerment, as the party disciplines capital it also depends on; this instability drives both outward investment and crackdowns.",
+   "method": "Comparative cases: China, Indonesia, Malaysia",
+   "themes": [
+    "geoecon",
+    "china-order",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "norris2016",
+   "type": "work",
+   "label": "Norris 2016",
+   "authors": "William J. Norris",
+   "year": 2016,
+   "journal": "Cornell University Press (book)",
+   "title": "Chinese Economic Statecraft: Commercial Actors, Grand Strategy, and State Control",
+   "claim": "China can use commerce strategically only when the state can control the commercial actors involved; control varies with state unity, actor concentration and reporting relationships.",
+   "method": "Case studies of Chinese firms and sovereign funds",
+   "themes": [
+    "geoecon",
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "kastner2016",
+   "type": "work",
+   "label": "Kastner 2016",
+   "authors": "Scott L. Kastner",
+   "year": 2016,
+   "journal": "Journal of Conflict Resolution",
+   "title": "Buying Influence? Assessing the Political Effects of China's International Trade",
+   "claim": "Trade with China yields little measurable foreign-policy deference on issues like Taiwan or human rights; dependence rarely converts to influence.",
+   "method": "Cross-national tests of trade and policy alignment",
+   "themes": [
+    "geoecon",
+    "trade-security"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "fuchs2013",
+   "type": "work",
+   "label": "Fuchs 2013",
+   "authors": "Andreas Fuchs & Nils-Hendrik Klann",
+   "year": 2013,
+   "journal": "Journal of International Economics",
+   "title": "Paying a Visit: The Dalai Lama Effect on International Trade",
+   "claim": "Countries whose leaders receive the Dalai Lama see exports to China fall for about two years, evidence of quiet trade punishment.",
+   "method": "Gravity models 1991-2008",
+   "themes": [
+    "geoecon",
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "floresmacias2013",
+   "type": "work",
+   "label": "Flores-Macías 2013",
+   "authors": "Gustavo A. Flores-Macías & Sarah E. Kreps",
+   "year": 2013,
+   "journal": "JOP",
+   "title": "The Foreign Policy Consequences of Trade: China's Commercial Relations with Africa and Latin America, 1992-2006",
+   "claim": "Developing countries that trade more with China vote with it more on UN human-rights resolutions: asymmetric dependence produces foreign-policy convergence.",
+   "method": "Dyad-year TSCS with fixed effects and 2SLS",
+   "themes": [
+    "china-order",
+    "trade-security"
+   ],
+   "source": "papers.json:NJVBVTUA",
+   "zotero": "https://www.zotero.org/georgeyean/items/NJVBVTUA",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "colgan2021",
+   "type": "work",
+   "label": "Colgan 2021",
+   "authors": "Jeff D. Colgan, Jessica F. Green & Thomas N. Hale",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Asset Revaluation and the Existential Politics of Climate Change",
+   "claim": "Climate politics is a distributional contest between holders of climate-forcing and climate-vulnerable assets; uneven decarbonization will push trade restrictions that strain the open order.",
+   "method": "Theory article",
+   "themes": [
+    "geoecon",
+    "ipe-theory"
+   ],
+   "source": "papers.json:PGPKBT8J",
+   "zotero": "https://www.zotero.org/georgeyean/items/PGPKBT8J",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "krasner1976",
+   "type": "work",
+   "label": "Krasner 1976",
+   "authors": "Stephen D. Krasner",
+   "year": 1976,
+   "journal": "World Politics",
+   "title": "State Power and the Structure of International Trade",
+   "claim": "Openness of the trading system follows the distribution of state power: a hegemon gains from openness and can induce it, though domestic groups keep policy from adjusting as power shifts.",
+   "method": "Deductive argument with descriptive series 1820-1970",
+   "themes": [
+    "hegemony"
+   ],
+   "source": "papers.json:ZJP6MX29",
+   "zotero": "https://www.zotero.org/georgeyean/items/ZJP6MX29",
+   "verified": "repo analysis (full text)",
+   "note": "Zotero entry dated 2021 (reprint); original 1976."
+  },
+  {
+   "id": "strange1987",
+   "type": "work",
+   "label": "Strange 1987",
+   "authors": "Susan Strange",
+   "year": 1987,
+   "journal": "IO",
+   "title": "The Persistent Myth of Lost Hegemony",
+   "claim": "US structural power over security, production, finance and knowledge persisted after relational decline; declinism misreads where power lies.",
+   "method": "Conceptual essay",
+   "themes": [
+    "hegemony",
+    "ipe-theory"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "mastanduno2009",
+   "type": "work",
+   "label": "Mastanduno 2009",
+   "authors": "Michael Mastanduno",
+   "year": 2009,
+   "journal": "World Politics",
+   "title": "System Maker and Privilege Taker: U.S. Power and the International Political Economy",
+   "claim": "The US builds the liberal economy and uses the dollar to avoid adjustment, resting on tacit bargains with partners that fray once security leverage over them declines.",
+   "method": "Historical comparison of three adjustment struggles",
+   "themes": [
+    "hegemony"
+   ],
+   "source": "papers.json:BMYRELAV",
+   "zotero": "https://www.zotero.org/georgeyean/items/BMYRELAV",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "norrlof2010",
+   "type": "work",
+   "label": "Norrlof 2010",
+   "authors": "Carla Norrlof",
+   "year": 2010,
+   "journal": "Cambridge University Press (book)",
+   "title": "America's Global Advantage: US Hegemony and International Cooperation",
+   "claim": "The US gains disproportionately from the system it sustains, because dollar centrality and military primacy let it run deficits and borrow cheaply.",
+   "method": "Quantitative and historical analysis",
+   "themes": [
+    "hegemony"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "drezner2013",
+   "type": "work",
+   "label": "Drezner 2013",
+   "authors": "Daniel W. Drezner",
+   "year": 2013,
+   "journal": "International Security",
+   "title": "Military Primacy Doesn't Pay (Nearly As Much As You Think)",
+   "claim": "The economic returns to US military primacy are modest; benefits flow mainly from full-spectrum unipolarity when military and economic dominance coincide.",
+   "method": "Analytical review",
+   "themes": [
+    "hegemony"
+   ],
+   "source": "papers.json:X4IZX2ZA",
+   "zotero": "https://www.zotero.org/georgeyean/items/X4IZX2ZA",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "oatley2015",
+   "type": "work",
+   "label": "Oatley 2015",
+   "authors": "Thomas Oatley",
+   "year": 2015,
+   "journal": "Cambridge University Press (book)",
+   "title": "A Political Economy of American Hegemony: Buildups, Booms, and Busts",
+   "claim": "Debt-financed US military buildups generate booms and busts that propagate globally through the dollar system; US hegemony is a source of systemic instability.",
+   "method": "Time-series analysis and cases",
+   "themes": [
+    "hegemony",
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "ikenberry2018",
+   "type": "work",
+   "label": "Ikenberry 2018",
+   "authors": "G. John Ikenberry",
+   "year": 2018,
+   "journal": "International Affairs",
+   "title": "The End of Liberal International Order?",
+   "claim": "The order's crisis is one of authority and legitimacy within the West, not of its functional logic; a reformed, less hegemonic liberal order remains possible.",
+   "method": "Essay",
+   "themes": [
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "colgan2017",
+   "type": "work",
+   "label": "Colgan 2017",
+   "authors": "Jeff D. Colgan & Robert O. Keohane",
+   "year": 2017,
+   "journal": "Foreign Affairs",
+   "title": "The Liberal Order Is Rigged: Fix It Now or Watch It Wither",
+   "claim": "Elites captured the order's gains and dismantled domestic compensation, so populist backlash is a predictable response; saving the order requires rebuilding embedded liberalism.",
+   "method": "Essay",
+   "themes": [
+    "china-order",
+    "compensation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "mearsheimer2019",
+   "type": "work",
+   "label": "Mearsheimer 2019",
+   "authors": "John J. Mearsheimer",
+   "year": 2019,
+   "journal": "International Security",
+   "title": "Bound to Fail: The Rise and Fall of the Liberal International Order",
+   "claim": "A liberal order requires unipolarity; its own policies (democracy promotion, hyperglobalization that enriched China) ended unipolarity, so bounded rival orders will follow.",
+   "method": "Theoretical and historical essay",
+   "themes": [
+    "china-order"
+   ],
+   "source": "papers.json:PL8JXCMB",
+   "zotero": "https://www.zotero.org/georgeyean/items/PL8JXCMB",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "johnston2019",
+   "type": "work",
+   "label": "Johnston 2019",
+   "authors": "Alastair Iain Johnston",
+   "year": 2019,
+   "journal": "International Security",
+   "title": "China in a World of Orders: Rethinking Compliance and Challenge in Beijing's International Relations",
+   "claim": "There is no single liberal order but many issue-specific orders; China supports some (trade, finance), contests others (political development, human rights), so blanket revisionism claims mislead.",
+   "method": "Conceptual analysis with issue-area coding",
+   "themes": [
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "goddard2018",
+   "type": "work",
+   "label": "Goddard 2018",
+   "authors": "Stacie E. Goddard",
+   "year": 2018,
+   "journal": "IO",
+   "title": "Embedded Revisionism: Networks, Institutions, and Challenges to World Order",
+   "claim": "A rising power's revisionist strategy follows its network position: access and brokerage in institutional ties yield integrated, bridging, isolated or rogue strategies.",
+   "method": "Structured historical cases with alliance network data",
+   "themes": [
+    "china-order"
+   ],
+   "source": "papers.json:TH3H6THK",
+   "zotero": "https://www.zotero.org/georgeyean/items/TH3H6THK",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "lake2021",
+   "type": "work",
+   "label": "Lake 2021",
+   "authors": "David A. Lake, Lisa L. Martin & Thomas Risse",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Challenges to the Liberal Order: Reflections on International Organization",
+   "claim": "The LIO's liberal elements sit in tension with Westphalian sovereignty; challenges from inside (backlash, distributional effects) and outside (authoritarian competitors) interact to make it fragile.",
+   "method": "Stocktaking essay",
+   "themes": [
+    "china-order",
+    "ipe-theory"
+   ],
+   "source": "papers.json:IS9IWFG2",
+   "zotero": "https://www.zotero.org/georgeyean/items/IS9IWFG2",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "borzel2021",
+   "type": "work",
+   "label": "Börzel 2021",
+   "authors": "Tanja A. Börzel & Michael Zürn",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Contestations of the Liberal International Order: From Liberal Multilateralism to Postnational Liberalism",
+   "claim": "Contestation is endogenous: the post-1989 shift to intrusive postnational liberalism created legitimation problems; contestants' strategies depend on preferences and institutional power.",
+   "method": "Conceptual argument with an intrusiveness index and two cases",
+   "themes": [
+    "china-order",
+    "legitimacy"
+   ],
+   "source": "papers.json:QKVINBTF",
+   "zotero": "https://www.zotero.org/georgeyean/items/QKVINBTF",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "weiss2021",
+   "type": "work",
+   "label": "Weiss 2021",
+   "authors": "Jessica Chen Weiss & Jeremy L. Wallace",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Domestic Politics, China's Rise, and the Future of the Liberal International Order",
+   "claim": "China's engagement with each issue depends on how central it is to regime pillars and how divided domestic interests are; US consensus for the order eroded as China gained.",
+   "method": "Framework with issue-area illustrations",
+   "themes": [
+    "china-order"
+   ],
+   "source": "papers.json:WMQLAGT3",
+   "zotero": "https://www.zotero.org/georgeyean/items/WMQLAGT3",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "simmons2021",
+   "type": "work",
+   "label": "Simmons 2021",
+   "authors": "Beth A. Simmons & Hein E. Goemans",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Built on Borders: Tensions with the Institution Liberalism (Thought It) Left Behind",
+   "claim": "The LIO's de-bordering erodes the territorial order that grounds identity and authority, producing identity backlash, legitimacy loss and re-bordering.",
+   "method": "Agenda-setting essay",
+   "themes": [
+    "china-order",
+    "migration"
+   ],
+   "source": "papers.json:GANNKV8W",
+   "zotero": "https://www.zotero.org/georgeyean/items/GANNKV8W",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "farrell2021",
+   "type": "work",
+   "label": "Farrell 2021",
+   "authors": "Henry Farrell & Abraham L. Newman",
+   "year": 2021,
+   "journal": "IO",
+   "title": "The Janus Face of the Liberal International Information Order: When Global Institutions Are Self-Undermining",
+   "claim": "Open information flows and private governance let illiberal states convert openness into a weapon and let platforms drift, so the order undermined itself from within.",
+   "method": "Historical-institutionalist analysis",
+   "themes": [
+    "china-order",
+    "weaponized"
+   ],
+   "source": "papers.json:98NWEWU6",
+   "zotero": "https://www.zotero.org/georgeyean/items/98NWEWU6",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "devries2021",
+   "type": "work",
+   "label": "Vries 2021",
+   "authors": "Catherine E. De Vries, Sara B. Hobolt & Stefanie Walter",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Politicizing International Cooperation: The Mass Public, Political Entrepreneurs, and Political Opportunity Structures",
+   "claim": "Discontent matters only when challenger parties politicize it and opportunity structures (referendums, PR) transmit it; politicization can legitimize or destabilize institutions.",
+   "method": "Framework with ISSP, CHES and referendum data",
+   "themes": [
+    "legitimacy",
+    "backlash"
+   ],
+   "source": "papers.json:VAHG2HW3",
+   "zotero": "https://www.zotero.org/georgeyean/items/VAHG2HW3",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "hollyer2018",
+   "type": "work",
+   "label": "Hollyer 2018",
+   "authors": "James R. Hollyer, B. Peter Rosendorff & James Raymond Vreeland",
+   "year": 2018,
+   "journal": "Cambridge University Press (book)",
+   "title": "Information, Democracy, and Autocracy: Economic Transparency and Political (In)Stability",
+   "claim": "Transparency stabilizes democracies but destabilizes autocracies by enabling mass coordination, so autocrats under-report economic data to international bodies.",
+   "method": "New HRV transparency index and cross-national tests",
+   "themes": [
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "debre2021",
+   "type": "work",
+   "label": "Debre 2021",
+   "authors": "Maria J. Debre",
+   "year": 2021,
+   "journal": "Democratization",
+   "title": "The Dark Side of Regionalism: How Regional Organizations Help Authoritarian Regimes to Boost Survival",
+   "claim": "Regional organizations help incumbents survive by legitimizing flawed elections, co-opting elites and coordinating against protesters.",
+   "method": "Qualitative cases: Zimbabwe, China, Bahrain",
+   "themes": [
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (Democratization 28(2))"
+  },
+  {
+   "id": "ginsburg2020",
+   "type": "work",
+   "label": "Ginsburg 2020",
+   "authors": "Tom Ginsburg",
+   "year": 2020,
+   "journal": "American Journal of International Law",
+   "title": "Authoritarian International Law?",
+   "claim": "Authoritarian states are building international legal practices (regional organizations, extradition, counter-terrorism norms) that entrench rulers and insulate regimes.",
+   "method": "Doctrinal and comparative analysis",
+   "themes": [
+    "regime",
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "keohane2009",
+   "type": "work",
+   "label": "Keohane 2009",
+   "authors": "Robert O. Keohane, Stephen Macedo & Andrew Moravcsik",
+   "year": 2009,
+   "journal": "IO",
+   "title": "Democracy-Enhancing Multilateralism",
+   "claim": "Multilateral institutions can improve domestic democracy by countering factions, protecting rights and improving deliberation, at some cost to participation.",
+   "method": "Normative and theoretical essay",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "papers.json:AGCCFYY7",
+   "zotero": "https://www.zotero.org/georgeyean/items/AGCCFYY7",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "gartzke2011",
+   "type": "work",
+   "label": "Gartzke 2011",
+   "authors": "Erik Gartzke & Megumi Naoi",
+   "year": 2011,
+   "journal": "IO",
+   "title": "Multilateralism and Democracy: A Dissent Regarding Keohane, Macedo, and Moravcsik",
+   "claim": "Multilateral organizations threaten democracy because they are political: they erode representation and invite capture by powerful states and special interests.",
+   "method": "Critical response essay",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "papers.json:NCQFJRRL",
+   "zotero": "https://www.zotero.org/georgeyean/items/NCQFJRRL",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "dellmuth2022",
+   "type": "work",
+   "label": "Dellmuth 2022",
+   "authors": "Lisa Dellmuth, Jan Aart Scholte, Jonas Tallberg & Soetkin Verhaegen",
+   "year": 2022,
+   "journal": "APSR",
+   "title": "The Elite-Citizen Gap in International Organization Legitimacy",
+   "claim": "Elites see IOs as more legitimate than citizens do because of status, liberal values, global identity and institutional trust; the gap varies by IO and country.",
+   "method": "Coordinated WVS citizen and LegGov elite surveys in five countries",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "papers.json:AUCSHWWM",
+   "zotero": "https://www.zotero.org/georgeyean/items/AUCSHWWM",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "zurn2018",
+   "type": "work",
+   "label": "Zürn 2018",
+   "authors": "Michael Zürn",
+   "year": 2018,
+   "journal": "Oxford University Press (book)",
+   "title": "A Theory of Global Governance: Authority, Legitimacy, and Contestation",
+   "claim": "Global governance exercises reflexive authority that generates legitimation problems and endogenous contestation (counter-institutionalization, populist withdrawal).",
+   "method": "Theoretical treatise with illustrations",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "mayda2006",
+   "type": "work",
+   "label": "Mayda 2006",
+   "authors": "Anna Maria Mayda",
+   "year": 2006,
+   "journal": "Review of Economics and Statistics",
+   "title": "Who Is against Immigration? A Cross-Country Investigation of Individual Attitudes toward Immigrants",
+   "claim": "Skilled natives favor immigration where immigrants are relatively unskilled, consistent with labor-market competition, though non-economic factors matter too.",
+   "method": "ISSP and WVS cross-national surveys",
+   "themes": [
+    "migration"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "hainmueller2010",
+   "type": "work",
+   "label": "Hainmueller 2010",
+   "authors": "Jens Hainmueller & Michael J. Hiscox",
+   "year": 2010,
+   "journal": "APSR",
+   "title": "Attitudes toward Highly Skilled and Low-Skilled Immigration: Evidence from a Survey Experiment",
+   "claim": "Natives of all skill levels prefer high-skilled immigrants, contradicting labor-market competition and fiscal-burden models; attitudes look sociotropic or ethnocentric.",
+   "method": "Survey experiment on a US probability panel",
+   "themes": [
+    "migration"
+   ],
+   "source": "papers.json:JJ5TEBWE",
+   "zotero": "https://www.zotero.org/georgeyean/items/JJ5TEBWE",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "hainmueller2014",
+   "type": "work",
+   "label": "Hainmueller 2014",
+   "authors": "Jens Hainmueller & Daniel J. Hopkins",
+   "year": 2014,
+   "journal": "Annual Review of Political Science",
+   "title": "Public Attitudes toward Immigration",
+   "claim": "Evidence for personal economic self-interest in immigration attitudes is weak; sociotropic concerns about national culture and economy dominate.",
+   "method": "Literature review",
+   "themes": [
+    "migration"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "peters2017",
+   "type": "work",
+   "label": "Peters 2017",
+   "authors": "Margaret E. Peters",
+   "year": 2017,
+   "journal": "Princeton University Press (book)",
+   "title": "Trading Barriers: Immigration and the Remaking of Globalization",
+   "claim": "Across 19 countries and 200 years, trade and capital openness close borders to low-skill labor because mobile firms stop lobbying for immigration.",
+   "method": "New immigration-policy dataset plus cases",
+   "themes": [
+    "migration"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "bearce2017",
+   "type": "work",
+   "label": "Bearce 2017",
+   "authors": "David H. Bearce & Andrew F. Hart",
+   "year": 2017,
+   "journal": "IO",
+   "title": "International Labor Mobility and the Variety of Democratic Political Institutions",
+   "claim": "Institutions responsive to voters (PR, parliamentarism) restrict labor openness because voters favor restriction while organized employers favor openness.",
+   "method": "New labor-openness measure for 36 countries 1996-2012",
+   "themes": [
+    "migration"
+   ],
+   "source": "papers.json:SKDLI33P",
+   "zotero": "https://www.zotero.org/georgeyean/items/SKDLI33P",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "liao2023",
+   "type": "work",
+   "label": "Liao 2023",
+   "authors": "Steven Liao",
+   "year": 2023,
+   "journal": "JOP",
+   "title": "The Effect of Firm Lobbying on High-Skilled Visa Adjudication",
+   "claim": "Firms that lobbied immigration agencies saw H-1B denial rates fall by at least 4.5 points under Trump: bureaucratic lobbying wins firm-specific relief when policy tightens by implementation.",
+   "method": "7.2 million visa petitions matched to lobbying reports, DiD around 2016",
+   "themes": [
+    "migration",
+    "firms-gvc"
+   ],
+   "source": "papers.json:BUBUSZVE",
+   "zotero": "https://www.zotero.org/georgeyean/items/BUBUSZVE",
+   "verified": "repo analysis (full text); year web-verified (JOP 85(4))"
+  },
+  {
+   "id": "gaikwad2025",
+   "type": "work",
+   "label": "Gaikwad 2025",
+   "authors": "Nikhar Gaikwad et al.",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "Bridging the Gulf: How Migration Fosters Tolerance, Cosmopolitanism, and Support for Globalization",
+   "claim": "Migration itself fosters tolerance, cosmopolitan identity and support for cooperation among migrants, through sustained intergroup contact.",
+   "method": "First RCT inducing overseas migration (Mizoram to the Gulf)",
+   "themes": [
+    "migration"
+   ],
+   "source": "papers.json:8L3DB7DV",
+   "zotero": "https://www.zotero.org/georgeyean/items/8L3DB7DV",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "gourevitch1978",
+   "type": "work",
+   "label": "Gourevitch 1978",
+   "authors": "Peter Gourevitch",
+   "year": 1978,
+   "journal": "IO",
+   "title": "The Second Image Reversed: The International Sources of Domestic Politics",
+   "claim": "Domestic structure is shaped by the international system (war, markets, price shocks); policy is best explained by coalitions of interests working through institutions.",
+   "method": "Critical review essay",
+   "themes": [
+    "ipe-theory"
+   ],
+   "source": "papers.json:BWX55DBW",
+   "zotero": "https://www.zotero.org/georgeyean/items/BWX55DBW",
+   "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "lake2009",
+   "type": "work",
+   "label": "Lake 2009",
+   "authors": "David A. Lake",
+   "year": 2009,
+   "journal": "Review of International Organizations",
+   "title": "Open Economy Politics: A Critical Review",
+   "claim": "OEP, the dominant paradigm, proceeds from interests (derived from economic theory) through institutions to international bargaining; its weaknesses are its treatment of systemic feedback and ideas.",
+   "method": "Review essay",
+   "themes": [
+    "ipe-theory"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "oatley2011",
+   "type": "work",
+   "label": "Oatley 2011",
+   "authors": "Thomas Oatley",
+   "year": 2011,
+   "journal": "IO",
+   "title": "The Reductionist Gamble: Open Economy Politics in the Global Economy",
+   "claim": "OEP's methodological reductionism omits macro processes that shape and are shaped by domestic politics, producing biased inferences; IPE must model the system.",
+   "method": "Theoretical critique with examples from monetary and financial politics",
+   "themes": [
+    "ipe-theory"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "chaudoin2015",
+   "type": "work",
+   "label": "Chaudoin 2015",
+   "authors": "Stephen Chaudoin, Helen V. Milner & Xun Pang",
+   "year": 2015,
+   "journal": "IO",
+   "title": "International Systems and Domestic Politics: Linking Complex Interactions with Empirical Models in International Relations",
+   "claim": "Systemic interdependence can be incorporated into OEP with spatial and multilevel models rather than abandoning the paradigm.",
+   "method": "Methodological argument with applications",
+   "themes": [
+    "ipe-theory"
+   ],
+   "source": "papers.json:ACN6Z8HJ",
+   "zotero": "https://www.zotero.org/georgeyean/items/ACN6Z8HJ",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "farrell2014",
+   "type": "work",
+   "label": "Farrell 2014",
+   "authors": "Henry Farrell & Abraham L. Newman",
+   "year": 2014,
+   "journal": "World Politics",
+   "title": "Domestic Institutions beyond the Nation-State: Charting the New Interdependence Approach",
+   "claim": "Interdependence creates opportunity structures that let domestic actors forum-shop across jurisdictions, so rule overlap, not preference aggregation, drives global regulation.",
+   "method": "Theoretical synthesis",
+   "themes": [
+    "ipe-theory",
+    "diffusion"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "farrell2016",
+   "type": "work",
+   "label": "Farrell 2016",
+   "authors": "Henry Farrell & Abraham L. Newman",
+   "year": 2016,
+   "journal": "Review of International Political Economy",
+   "title": "The New Interdependence Approach: Theoretical Development and Empirical Demonstration",
+   "claim": "Develops the new interdependence approach and demonstrates it on transatlantic regulatory conflicts.",
+   "method": "Theory with case demonstrations",
+   "themes": [
+    "ipe-theory",
+    "diffusion"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "drezner2013mcnamara",
+   "type": "work",
+   "label": "Drezner 2013",
+   "authors": "Daniel W. Drezner & Kathleen R. McNamara",
+   "year": 2013,
+   "journal": "Perspectives on Politics",
+   "title": "International Political Economy, Global Financial Orders and the 2008 Financial Crisis",
+   "claim": "American IPE drifted from the geopolitical and systemic forces that shape the global economy; the field should explain how financial orders form and change via power and ideas.",
+   "method": "Critical essay",
+   "themes": [
+    "ipe-theory"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "web-verified this session (PoP 11(1): 155-166)"
+  },
+  {
+   "id": "blyth2017",
+   "type": "work",
+   "label": "Blyth 2017",
+   "authors": "Mark Blyth & Matthias Matthijs",
+   "year": 2017,
+   "journal": "Review of International Political Economy",
+   "title": "Black Swans, Lame Ducks, and the Mystery of IPE's Missing Macroeconomy",
+   "claim": "IPE lost the macroeconomy by reducing outcomes to micro-level preferences; growth regimes and their crises require a macro political economy.",
+   "method": "Critical essay",
+   "themes": [
+    "ipe-theory",
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "winecoff2020",
+   "type": "work",
+   "label": "Winecoff 2020",
+   "authors": "W. Kindred Winecoff",
+   "year": 2020,
+   "journal": "European Journal of International Relations",
+   "title": "'The Persistent Myth of Lost Hegemony,' Revisited: Structural Power as a Complex Network Phenomenon",
+   "claim": "Network analysis of finance and trade shows US structural centrality rising, not falling, after 2008; hegemony is a network property.",
+   "method": "Network analysis of global financial and trade data",
+   "themes": [
+    "ipe-theory",
+    "hegemony"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "simmons2004",
+   "type": "work",
+   "label": "Simmons 2004",
+   "authors": "Beth A. Simmons & Zachary Elkins",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "The Globalization of Liberalization: Policy Diffusion in the International Political Economy",
+   "claim": "Liberal economic policies cluster in time and space because governments respond to competitors' and culturally similar peers' choices via altered payoffs and information.",
+   "method": "Event-history models for 182 countries 1967-1996 with spatial lags",
+   "themes": [
+    "diffusion"
+   ],
+   "source": "papers.json:F7LEJZMS",
+   "zotero": "https://www.zotero.org/georgeyean/items/F7LEJZMS",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "bach2010",
+   "type": "work",
+   "label": "Bach 2010",
+   "authors": "David Bach & Abraham L. Newman",
+   "year": 2010,
+   "journal": "IO",
+   "title": "Transgovernmental Networks and Domestic Policy Convergence: Evidence from Insider Trading Regulation",
+   "claim": "Bilateral ties to a powerful regulator drive adoption of rules while multilateral forum membership drives enforcement: different network components, different stages.",
+   "method": "Event-history models for 116 jurisdictions 1977-2006",
+   "themes": [
+    "diffusion"
+   ],
+   "source": "papers.json:I4G5V2KM",
+   "zotero": "https://www.zotero.org/georgeyean/items/I4G5V2KM",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "guasti2022",
+   "type": "work",
+   "label": "Guasti 2022",
+   "authors": "Alessandro Guasti & Mathias Koenig-Archibugi",
+   "year": 2022,
+   "journal": "ISQ",
+   "title": "Has Global Trade Competition Really Led to a Race to the Bottom in Labor Standards?",
+   "claim": "Properly specified spatial tests find no race to the bottom in labor rights from export competition; earlier findings reflected design errors.",
+   "method": "Spatial econometrics on two labor-rights panels",
+   "themes": [
+    "diffusion"
+   ],
+   "source": "papers.json:D3M52P5A",
+   "zotero": "https://www.zotero.org/georgeyean/items/D3M52P5A",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "gartzke2007",
+   "type": "work",
+   "label": "Gartzke 2007",
+   "authors": "Erik Gartzke",
+   "year": 2007,
+   "journal": "AJPS",
+   "title": "The Capitalist Peace",
+   "claim": "Economic development, financial openness and policy similarity, not democracy, account for the peace among liberal states.",
+   "method": "Dyadic conflict models",
+   "themes": [
+    "trade-security"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "martin2008",
+   "type": "work",
+   "label": "Martin 2008",
+   "authors": "Philippe Martin, Thierry Mayer & Mathias Thoenig",
+   "year": 2008,
+   "journal": "Review of Economic Studies",
+   "title": "Make Trade Not War?",
+   "claim": "Bilateral trade deters conflict between the pair, but multilateral openness lowers the cost of bilateral war and raises conflict probability.",
+   "method": "Theory and dyadic trade-conflict data 1950-2000",
+   "themes": [
+    "trade-security"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "copeland2015",
+   "type": "work",
+   "label": "Copeland 2015",
+   "authors": "Dale C. Copeland",
+   "year": 2015,
+   "journal": "Princeton University Press (book)",
+   "title": "Economic Interdependence and War",
+   "claim": "Trade expectations theory: interdependence pacifies when leaders expect future commerce and provokes war when they expect cutoff.",
+   "method": "Historical case studies 1790-1991",
+   "themes": [
+    "trade-security"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  },
+  {
+   "id": "davis2011",
+   "type": "work",
+   "label": "Davis 2011",
+   "authors": "Christina L. Davis & Sophie Meunier",
+   "year": 2011,
+   "journal": "AJPS",
+   "title": "Business as Usual? Economic Responses to Political Tensions",
+   "claim": "Political tensions between the US, Japan, China and France produce little measurable disruption of trade or investment: economic ties are stickier than the security externalities view implies.",
+   "method": "Event analysis of trade and FDI flows",
+   "themes": [
+    "trade-security"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+  }
+ ]
+}

@@ -1,0 +1,3272 @@
+{
+ "meta": {
+  "title": "IPE knowledge network, c. 1976-2026",
+  "built": "2026-10-28",
+  "description": "Key works and theme nodes in top-journal International Political Economy, seeded from this repo's papers.json (Zotero) and supplemented with canonical works. Edges are typed relations with a one-line justification. Direction: source (later or dependent work) -> target (earlier or anchoring work); belongs_to edges link works to themes.",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 193,
+   "theme_nodes": 18,
+   "seed_from_papers_json": 91,
+   "supplement": 102,
+   "relation_edges": 251,
+   "membership_edges": 290
+  }
+ },
+ "edges": [
+  {
+   "source": "hiscox2001",
+   "target": "rogowski1987",
+   "type": "qualifies",
+   "why": "Factor mobility decides whether Rogowski's class cleavages or Ricardo-Viner industry cleavages organize trade politics."
+  },
+  {
+   "source": "scheve2001",
+   "target": "rogowski1987",
+   "type": "mechanism_tested_by",
+   "why": "Takes the factor-endowment logic to individual survey data; skill predicts US trade preferences as Heckscher-Ohlin implies."
+  },
+  {
+   "source": "mayda2005",
+   "target": "scheve2001",
+   "type": "extends_to_new_case",
+   "why": "Replicates the skill effect cross-nationally and shows it flips sign in skill-scarce countries, as factor theory predicts."
+  },
+  {
+   "source": "hainmueller2006",
+   "target": "scheve2001",
+   "type": "challenges",
+   "why": "Education effect holds among the retired and tracks ideas, so it is not a labor-market skill effect."
+  },
+  {
+   "source": "mansfield2009",
+   "target": "scheve2001",
+   "type": "challenges",
+   "why": "Sociotropic perceptions and out-group anxiety outperform self-interest; education proxies for ethnocentrism."
+  },
+  {
+   "source": "mansfield2009",
+   "target": "hainmueller2006",
+   "type": "builds_on",
+   "why": "Extends the non-material reading of the education gradient with explicit attitudinal measures."
+  },
+  {
+   "source": "rho2017",
+   "target": "mansfield2009",
+   "type": "builds_on",
+   "why": "Shows most people cannot locate their own trade interest, closing the information gap in the self-interest debate."
+  },
+  {
+   "source": "owen2017",
+   "target": "mansfield2009",
+   "type": "challenges",
+   "why": "Revives a material account at the occupational-task level: routineness and offshorability predict protectionism net of sociotropic controls."
+  },
+  {
+   "source": "owen2017",
+   "target": "scheve2001",
+   "type": "builds_on",
+   "why": "Replaces skill and industry with task-based exposure as the material basis of preferences."
+  },
+  {
+   "source": "bisbee2025",
+   "target": "owen2017",
+   "type": "builds_on",
+   "why": "Adds occupational immobility to task exposure to measure insecurity at the individual level."
+  },
+  {
+   "source": "bisbee2025",
+   "target": "autor2013",
+   "type": "builds_on",
+   "why": "Uses import-competition exposure in the China-shock tradition as the shock component."
+  },
+  {
+   "source": "mutz2018",
+   "target": "mansfield2009",
+   "type": "builds_on",
+   "why": "Status threat and out-group anxiety as the engine of trade-related voting."
+  },
+  {
+   "source": "mutz2018",
+   "target": "autor2020",
+   "type": "challenges",
+   "why": "Argues the 2016 vote tracked group-status threat, not economic hardship from trade."
+  },
+  {
+   "source": "ballardrosa2024",
+   "target": "mansfield2009",
+   "type": "builds_on",
+   "why": "Elite 'trade is unfair' rhetoric activates fairness beliefs, a non-material route to declining trade support."
+  },
+  {
+   "source": "carnegie2022",
+   "target": "mansfield2009",
+   "type": "builds_on",
+   "why": "Out-group affect extended to specific partner countries: allies versus adversaries."
+  },
+  {
+   "source": "carnegie2022",
+   "target": "gowa1993",
+   "type": "extends_to_new_case",
+   "why": "Security externalities of trade reappear in mass opinion, not just state tariff games."
+  },
+  {
+   "source": "scheve2024",
+   "target": "rogowski1987",
+   "type": "extends_to_new_case",
+   "why": "A spatial Rogowski model for 19th-century US protectionism, where trade winners lost political power."
+  },
+  {
+   "source": "pandya2010",
+   "target": "scheve2001",
+   "type": "extends_to_new_case",
+   "why": "Skill-based factor logic applied to preferences over inward FDI in Latin America."
+  },
+  {
+   "source": "chilton2020",
+   "target": "pandya2010",
+   "type": "challenges",
+   "why": "Public FDI opposition turns on reciprocity and security framing rather than skill-based income effects."
+  },
+  {
+   "source": "hays2005",
+   "target": "ruggie1982",
+   "type": "mechanism_tested_by",
+   "why": "Micro-level test: social spending sustains support for openness among the exposed."
+  },
+  {
+   "source": "walter2010",
+   "target": "hays2005",
+   "type": "builds_on",
+   "why": "Traces the full compensation chain at the individual level: exposure, insecurity, welfare demand, trade support."
+  },
+  {
+   "source": "flaherty2021",
+   "target": "rogowski1987",
+   "type": "challenges",
+   "why": "Superstar-based trade theories imply far more losers than classical factor models predict."
+  },
+  {
+   "source": "flaherty2021",
+   "target": "colantone2018",
+   "type": "builds_on",
+   "why": "Re-analyzes the Colantone-Stanig data, interacting the China shock with top-income shares."
+  },
+  {
+   "source": "ahlquist2020",
+   "target": "margalit2011",
+   "type": "extends_to_new_case",
+   "why": "Exposed losers from an external shock (franc mortgages) become attentive, interest-driven voters, as with trade layoffs."
+  },
+  {
+   "source": "ruggie1982",
+   "target": "krasner1976",
+   "type": "challenges",
+   "why": "Hegemony explains the form of the postwar order but not its content, which came from the embedded-liberal social purpose."
+  },
+  {
+   "source": "rodrik1998",
+   "target": "cameron1978",
+   "type": "builds_on",
+   "why": "Re-establishes the openness-government link worldwide and supplies an insurance mechanism."
+  },
+  {
+   "source": "adsera2002",
+   "target": "rodrik1998",
+   "type": "qualifies",
+   "why": "The openness-government link is a democratic bargain; it vanishes under authoritarian rule."
+  },
+  {
+   "source": "garrett1998",
+   "target": "ruggie1982",
+   "type": "builds_on",
+   "why": "Embedded liberalism persists where left-labor power is encompassing, against convergence claims."
+  },
+  {
+   "source": "rudra2002",
+   "target": "garrett1998",
+   "type": "challenges",
+   "why": "In LDCs weak labor cannot defend welfare, so globalization erodes compensation rather than sustaining it."
+  },
+  {
+   "source": "rudra2005",
+   "target": "rudra2002",
+   "type": "builds_on",
+   "why": "Compensation as the condition under which openness strengthens rather than threatens democracy."
+  },
+  {
+   "source": "freeman2012",
+   "target": "rudra2005",
+   "type": "qualifies",
+   "why": "Financial openness changes elite incentives directly, offering a second channel from globalization to democratization."
+  },
+  {
+   "source": "margalit2011",
+   "target": "hays2005",
+   "type": "builds_on",
+   "why": "Compensation (TAA) blunts electoral punishment for trade layoffs at the county level."
+  },
+  {
+   "source": "kim2021taa",
+   "target": "margalit2011",
+   "type": "builds_on",
+   "why": "Compensation and protection are substitutes: TAA-receiving counties demand fewer trade remedies."
+  },
+  {
+   "source": "kim2025agri",
+   "target": "ruggie1982",
+   "type": "qualifies",
+   "why": "Whether the compensation contract can be enforced depends on constitutional structure and geographic concentration."
+  },
+  {
+   "source": "colantone2018",
+   "target": "ruggie1982",
+   "type": "builds_on",
+   "why": "Backlash occurs when the embedded-liberal promise of compensation becomes non-credible."
+  },
+  {
+   "source": "goodman2021",
+   "target": "ruggie1982",
+   "type": "challenges",
+   "why": "Embedded liberalism rested on excluding migrants from rights; inclusion eroded the compact."
+  },
+  {
+   "source": "zohlnhofer2018",
+   "target": "garrett1998",
+   "type": "challenges",
+   "why": "Systematic review finds no settled evidence on why intervention retreated; disagreement reflects design choices."
+  },
+  {
+   "source": "rogowski1987io",
+   "target": "cameron1978",
+   "type": "builds_on",
+   "why": "Trade dependence shapes not only state size but constitutional design (PR, parliamentarism)."
+  },
+  {
+   "source": "bearce2017",
+   "target": "rogowski1987io",
+   "type": "extends_to_new_case",
+   "why": "Institutional responsiveness to voters versus organized interests applied to labor-migration openness."
+  },
+  {
+   "source": "schneider2024",
+   "target": "milner2021",
+   "type": "mechanism_tested_by",
+   "why": "Interdependence constrains governments: measured as lower pledge fulfillment."
+  },
+  {
+   "source": "baccini2024",
+   "target": "colantone2018",
+   "type": "qualifies",
+   "why": "Policy (austerity) interacts with vulnerability to produce populism, not only external shocks."
+  },
+  {
+   "source": "colgan2017",
+   "target": "ruggie1982",
+   "type": "builds_on",
+   "why": "Diagnoses the order's crisis as the dismantling of embedded liberalism by captured elites."
+  },
+  {
+   "source": "colgan2017",
+   "target": "colantone2018",
+   "type": "synthesizes",
+   "why": "Reads the China-shock voting evidence as proof that uncompensated losers abandon the order."
+  },
+  {
+   "source": "autor2020",
+   "target": "autor2013",
+   "type": "builds_on",
+   "why": "Political consequences of the labor-market China shock: polarization and the 2016 vote."
+  },
+  {
+   "source": "colantone2018",
+   "target": "autor2013",
+   "type": "extends_to_new_case",
+   "why": "Shift-share China shock applied to Western European elections."
+  },
+  {
+   "source": "colantone2018brexit",
+   "target": "autor2013",
+   "type": "extends_to_new_case",
+   "why": "China shock applied to the Brexit referendum."
+  },
+  {
+   "source": "jensen2017",
+   "target": "autor2013",
+   "type": "builds_on",
+   "why": "Adds trade winners (tradable services) to the electoral analysis of trade exposure."
+  },
+  {
+   "source": "baccini2021",
+   "target": "autor2013",
+   "type": "builds_on",
+   "why": "Long-run deindustrialization rather than the 2000s China shock as the shock of interest."
+  },
+  {
+   "source": "baccini2021",
+   "target": "autor2020",
+   "type": "qualifies",
+   "why": "Racialized response: white voters move right, Black voters left, so the effect is group-status politics."
+  },
+  {
+   "source": "ballardrosa2021",
+   "target": "autor2013",
+   "type": "mechanism_tested_by",
+   "why": "Trade shocks raise authoritarian values, linking economic shock to cultural backlash."
+  },
+  {
+   "source": "ballardrosa2021",
+   "target": "norris2019",
+   "type": "challenges",
+   "why": "Shows 'cultural' authoritarian values have economic origins."
+  },
+  {
+   "source": "mutz2018",
+   "target": "norris2019",
+   "type": "builds_on",
+   "why": "Status threat as the cultural mechanism behind the 2016 vote."
+  },
+  {
+   "source": "margalit2019",
+   "target": "autor2020",
+   "type": "challenges",
+   "why": "Trade shocks are outcome-significant but explain little of populist support's variance."
+  },
+  {
+   "source": "rodrik2018",
+   "target": "autor2020",
+   "type": "synthesizes",
+   "why": "Integrates China-shock evidence into a theory of left versus right populism."
+  },
+  {
+   "source": "rodrik2018",
+   "target": "colantone2018",
+   "type": "synthesizes",
+   "why": "European evidence as the right-populist branch of globalization backlash."
+  },
+  {
+   "source": "rodrik2021",
+   "target": "rodrik2018",
+   "type": "builds_on",
+   "why": "Four mechanisms from globalization shock to right-wing populism, weighing economics against culture."
+  },
+  {
+   "source": "rodrik2021",
+   "target": "margalit2019",
+   "type": "challenges",
+   "why": "Argues economic causes operate beneath cultural expression even where variance explained is small."
+  },
+  {
+   "source": "walter2021",
+   "target": "rodrik2018",
+   "type": "synthesizes",
+   "why": "Reviews attitudes, behavior and policy layers of backlash across economic and cultural accounts."
+  },
+  {
+   "source": "walter2021",
+   "target": "norris2019",
+   "type": "synthesizes",
+   "why": "Places the cultural-backlash thesis alongside economic accounts and finds interaction."
+  },
+  {
+   "source": "devries2021",
+   "target": "walter2021",
+   "type": "qualifies",
+   "why": "Backlash reaches institutions only when entrepreneurs politicize it through permissive opportunity structures."
+  },
+  {
+   "source": "broz2021",
+   "target": "autor2013",
+   "type": "builds_on",
+   "why": "Place-based account of long-run manufacturing decline and populist geography."
+  },
+  {
+   "source": "han2024",
+   "target": "broz2021",
+   "type": "extends_to_new_case",
+   "why": "Populist geography has 1890s roots reactivated by later globalization shocks."
+  },
+  {
+   "source": "kim2021tariffs",
+   "target": "autor2020",
+   "type": "builds_on",
+   "why": "Trade-war tariffs as a new geographically targeted trade shock with electoral effects."
+  },
+  {
+   "source": "kim2021tariffs",
+   "target": "farrell2019",
+   "type": "extends_to_new_case",
+   "why": "A foreign state weaponizes trade exposure to pressure an adversary's electorate."
+  },
+  {
+   "source": "blanchard2024",
+   "target": "kim2021tariffs",
+   "type": "builds_on",
+   "why": "Confirms retaliation exposure cost Republicans House seats in 2018 and protection gained little."
+  },
+  {
+   "source": "funke2016",
+   "target": "chwieroth2019",
+   "type": "builds_on",
+   "why": "Chwieroth and Walter extend the crisis-to-extremes finding with a wealth-effect mechanism (edge direction reflects later work building on earlier)."
+  },
+  {
+   "source": "milner2021",
+   "target": "autor2020",
+   "type": "synthesizes",
+   "why": "Insecurity pathway draws on China-shock political effects."
+  },
+  {
+   "source": "milner2021",
+   "target": "rodrik2018",
+   "type": "synthesizes",
+   "why": "Three pathways framework organizes the globalization-democracy literature."
+  },
+  {
+   "source": "flaherty2021",
+   "target": "milner2021",
+   "type": "builds_on",
+   "why": "Inequality pathway specified through superstar trade theories."
+  },
+  {
+   "source": "baccini2024",
+   "target": "autor2020",
+   "type": "qualifies",
+   "why": "Shock effects are mediated by fiscal policy choices."
+  },
+  {
+   "source": "kim2017",
+   "target": "melitz2003",
+   "type": "builds_on",
+   "why": "Heterogeneous-firm theory as the microfoundation of firm-level lobbying."
+  },
+  {
+   "source": "kim2017",
+   "target": "hiscox2001",
+   "type": "challenges",
+   "why": "Cleavages run within industries by firm productivity, not only between classes or industries."
+  },
+  {
+   "source": "osgood2017",
+   "target": "melitz2003",
+   "type": "builds_on",
+   "why": "Product differentiation plus firm heterogeneity splits industries over reciprocal liberalization."
+  },
+  {
+   "source": "osgood2017",
+   "target": "hiscox2001",
+   "type": "challenges",
+   "why": "Industry opposition breaks down in differentiated-goods sectors; Ricardo-Viner holds only for commodities."
+  },
+  {
+   "source": "osgood2018",
+   "target": "osgood2017",
+   "type": "builds_on",
+   "why": "Offshoring and intermediate-input sourcing, not export opportunities, define the pro-trade coalition."
+  },
+  {
+   "source": "blanchard2016",
+   "target": "melitz2003",
+   "type": "builds_on",
+   "why": "GVC value-added linkages discipline tariffs, extending firm-level logic to policy outcomes."
+  },
+  {
+   "source": "baccini2017",
+   "target": "melitz2003",
+   "type": "mechanism_tested_by",
+   "why": "Firm-level distributional consequences of PTAs confirm reallocation toward large, productive firms."
+  },
+  {
+   "source": "kim2019firms",
+   "target": "kim2017",
+   "type": "builds_on",
+   "why": "Firm heterogeneity in preferences across multiple dimensions of trade agreements."
+  },
+  {
+   "source": "kim2019arps",
+   "target": "kim2017",
+   "type": "synthesizes",
+   "why": "Review of the firm turn in trade politics."
+  },
+  {
+   "source": "kim2019arps",
+   "target": "osgood2017",
+   "type": "synthesizes",
+   "why": "Integrates product-differentiation and GVC arguments."
+  },
+  {
+   "source": "zhang2023",
+   "target": "osgood2018",
+   "type": "builds_on",
+   "why": "Supply-chain partners' interdependent preferences produce coordinated lobbying."
+  },
+  {
+   "source": "zhang2023",
+   "target": "johns2016",
+   "type": "builds_on",
+   "why": "Relational supply-chain ties as a collective-action solution, here for lobbying rather than investor protection."
+  },
+  {
+   "source": "kim2025fdi",
+   "target": "osgood2018",
+   "type": "builds_on",
+   "why": "FDI creates the GVC-linked pro-trade coalitions in host countries."
+  },
+  {
+   "source": "kim2025fdi",
+   "target": "pandya2014",
+   "type": "builds_on",
+   "why": "Moves from FDI regulation to FDI's reshaping of host trade politics."
+  },
+  {
+   "source": "johns2016",
+   "target": "wellhausen2015",
+   "type": "builds_on",
+   "why": "Supply-chain ties as an additional shield for foreign investors beyond nationality."
+  },
+  {
+   "source": "malesky2018",
+   "target": "simmons2004",
+   "type": "qualifies",
+   "why": "Diffusion through market access is conditional on markup gaps and lead-firm salience."
+  },
+  {
+   "source": "guasti2022",
+   "target": "rudra2002",
+   "type": "challenges",
+   "why": "No race-to-the-bottom from export competition once spatial tests are specified properly."
+  },
+  {
+   "source": "guasti2022",
+   "target": "malesky2018",
+   "type": "qualifies",
+   "why": "Upward diffusion via lead firms coexists with the absence of downward competitive races."
+  },
+  {
+   "source": "liao2023",
+   "target": "kim2017",
+   "type": "extends_to_new_case",
+   "why": "Firm-level lobbying data applied to immigration adjudication."
+  },
+  {
+   "source": "liao2023",
+   "target": "peters2014",
+   "type": "qualifies",
+   "why": "Firms still lobby for high-skill visas even as low-skill immigration lobbying fades."
+  },
+  {
+   "source": "buthe2008",
+   "target": "jensen2003",
+   "type": "builds_on",
+   "why": "Credibility logic extended from regime type to international trade agreements."
+  },
+  {
+   "source": "buthe2014",
+   "target": "buthe2008",
+   "type": "builds_on",
+   "why": "Disaggregates PTA design to isolate the credibility channel."
+  },
+  {
+   "source": "buthe2014",
+   "target": "kim2019firms",
+   "type": "qualifies",
+   "why": "Firms' stated priority on investment protection matches the FDI-attracting design features."
+  },
+  {
+   "source": "wellhausen2015",
+   "target": "jensen2003",
+   "type": "challenges",
+   "why": "Nationality-based investor communities, not democracy, shield firms from breach."
+  },
+  {
+   "source": "arias2018",
+   "target": "jensen2003",
+   "type": "challenges",
+   "why": "BITs let autocracies substitute for democratic credibility and even prolong autocrats' rule."
+  },
+  {
+   "source": "arias2018",
+   "target": "bak2016",
+   "type": "builds_on",
+   "why": "FDI's regime-stabilizing effect operates through treaty-based credibility."
+  },
+  {
+   "source": "pandya2014",
+   "target": "pandya2010",
+   "type": "builds_on",
+   "why": "From individual FDI preferences to the political economy of FDI regulation."
+  },
+  {
+   "source": "bauerle2023",
+   "target": "pearson2022",
+   "type": "builds_on",
+   "why": "Investment screening as the OECD response to party-state capitalism."
+  },
+  {
+   "source": "bauerle2023",
+   "target": "meunier2019",
+   "type": "builds_on",
+   "why": "Screening as a concrete instance of geopoliticized EU investment policy."
+  },
+  {
+   "source": "peters2014",
+   "target": "hiscox2001",
+   "type": "builds_on",
+   "why": "Firm-level factor substitution (trade, mobility) reshapes the immigration coalition."
+  },
+  {
+   "source": "bernhard2002",
+   "target": "frieden1991",
+   "type": "synthesizes",
+   "why": "Monetary institutions as distributional choices among Frieden's sectoral coalitions."
+  },
+  {
+   "source": "steinberg2014",
+   "target": "bernhard2002",
+   "type": "builds_on",
+   "why": "Adds authoritarian subtypes to the domestic-politics theory of exchange-rate regimes."
+  },
+  {
+   "source": "steinberg2014",
+   "target": "hankla2013",
+   "type": "builds_on",
+   "why": "Autocratic institutional variation applied to monetary rather than trade policy."
+  },
+  {
+   "source": "steinberg2015",
+   "target": "frieden1991",
+   "type": "builds_on",
+   "why": "Sectoral preferences over currency levels plus state-controlled finance explain undervaluation."
+  },
+  {
+   "source": "ballardrosa2020",
+   "target": "tomz2007",
+   "type": "qualifies",
+   "why": "Default is a domestic distributional choice, not only a reputational calculation."
+  },
+  {
+   "source": "lipscy2018",
+   "target": "schultz2003",
+   "type": "challenges",
+   "why": "The institutional features behind the democratic financial advantage also breed banking crises."
+  },
+  {
+   "source": "mosley2003",
+   "target": "frieden1991",
+   "type": "builds_on",
+   "why": "Capital mobility's constraint on governments varies with investor scrutiny, not uniformly."
+  },
+  {
+   "source": "chwieroth2019",
+   "target": "funke2016",
+   "type": "builds_on",
+   "why": "Supplies a wealth-effect mechanism for why crises punish incumbents and feed extremes."
+  },
+  {
+   "source": "frieden2017",
+   "target": "frieden1991",
+   "type": "builds_on",
+   "why": "Eurozone adjustment conflicts read through creditor-debtor sectoral interests."
+  },
+  {
+   "source": "frieden2017",
+   "target": "mosley2003",
+   "type": "synthesizes",
+   "why": "Market constraint and bailout politics integrated into one account of the euro crisis."
+  },
+  {
+   "source": "oatley2015",
+   "target": "mastanduno2009",
+   "type": "builds_on",
+   "why": "Privilege-taking via the dollar generates systemic booms and busts."
+  },
+  {
+   "source": "mcdowell2023",
+   "target": "mastanduno2009",
+   "type": "challenges",
+   "why": "Sanctions overuse erodes the tacit dollar bargains the privilege-taker relied on."
+  },
+  {
+   "source": "ahlquist2020",
+   "target": "frieden1991",
+   "type": "builds_on",
+   "why": "Asset exposure (foreign-currency liabilities) defines a voter group with sharp preferences."
+  },
+  {
+   "source": "copelovitch2010",
+   "target": "stone2008",
+   "type": "builds_on",
+   "why": "Collective G5 interests (bank exposure) rather than US control alone shape IMF lending."
+  },
+  {
+   "source": "dreher2009",
+   "target": "stone2008",
+   "type": "mechanism_tested_by",
+   "why": "Informal great-power access shows up as IMF favors for UNSC members."
+  },
+  {
+   "source": "nelson2014",
+   "target": "stone2008",
+   "type": "challenges",
+   "why": "Shared neoliberal beliefs, independent of US power, explain favorable IMF treatment."
+  },
+  {
+   "source": "clark2021wb",
+   "target": "stone2008",
+   "type": "builds_on",
+   "why": "Informal influence operates through staff anticipation rather than explicit intervention."
+  },
+  {
+   "source": "carnegie2023",
+   "target": "clark2021wb",
+   "type": "builds_on",
+   "why": "Routine reforms reward US allies but poor performance in non-allies triggers concessions."
+  },
+  {
+   "source": "clark2022imf",
+   "target": "lipscy2015",
+   "type": "builds_on",
+   "why": "Outside options matter only when overlapping IOs compete rather than pool."
+  },
+  {
+   "source": "qian2023",
+   "target": "lipscy2015",
+   "type": "mechanism_tested_by",
+   "why": "A new outside option (AIIB) reduces borrowing from the incumbent institution."
+  },
+  {
+   "source": "lipscy2017",
+   "target": "lipscy2015",
+   "type": "builds_on",
+   "why": "Generalizes the outside-options theory of institutional change across IOs."
+  },
+  {
+   "source": "lipscy2019",
+   "target": "stone2008",
+   "type": "builds_on",
+   "why": "Politicized lending generates asymmetric moral hazard and reserve hoarding."
+  },
+  {
+   "source": "broz2020china",
+   "target": "lipscy2019",
+   "type": "builds_on",
+   "why": "Grievances with the IMF-centered order push states toward Chinese leadership."
+  },
+  {
+   "source": "dreher2022",
+   "target": "dreher2009",
+   "type": "extends_to_new_case",
+   "why": "Political allocation of official finance examined for China's overseas lending."
+  },
+  {
+   "source": "dreher2022",
+   "target": "qian2023",
+   "type": "synthesizes",
+   "why": "China's finance as an outside option with commercial rather than aid logic."
+  },
+  {
+   "source": "cottiero2026",
+   "target": "debre2021",
+   "type": "builds_on",
+   "why": "Autocratic IFIs, like regional organizations, defend threatened autocrats."
+  },
+  {
+   "source": "cottiero2026",
+   "target": "dreher2022",
+   "type": "builds_on",
+   "why": "Autocracy-led lending allocated by regime-threat logic rather than donor intent alone."
+  },
+  {
+   "source": "carnegie2023",
+   "target": "lipscy2015",
+   "type": "builds_on",
+   "why": "Exit options and rival institutions discipline the incumbent IO's reform behavior."
+  },
+  {
+   "source": "mmr2002",
+   "target": "mmr2000",
+   "type": "builds_on",
+   "why": "From democracies' lower bilateral barriers to their greater propensity to sign trade agreements."
+  },
+  {
+   "source": "kono2006",
+   "target": "mmr2000",
+   "type": "challenges",
+   "why": "Democracy changes the form of protection (opaque NTBs) rather than its level."
+  },
+  {
+   "source": "milner2005",
+   "target": "mmr2000",
+   "type": "builds_on",
+   "why": "Democratization explains the developing-world liberalization wave."
+  },
+  {
+   "source": "hankla2013",
+   "target": "milner2005",
+   "type": "qualifies",
+   "why": "Among autocracies, institutionalization predicts openness as strongly as democracy does."
+  },
+  {
+   "source": "kucik2008",
+   "target": "rosendorff2001",
+   "type": "mechanism_tested_by",
+   "why": "Flexibility (antidumping) deepens WTO commitments, as the escape-clause model implies."
+  },
+  {
+   "source": "gowa2005",
+   "target": "rose2004",
+   "type": "qualifies",
+   "why": "GATT effects exist but only within the principal-supplier club of major powers."
+  },
+  {
+   "source": "goldstein2007",
+   "target": "rose2004",
+   "type": "challenges",
+   "why": "Coding de facto participation reveals large GATT/WTO trade effects."
+  },
+  {
+   "source": "carnegie2014",
+   "target": "goldstein2007",
+   "type": "builds_on",
+   "why": "Specifies for whom the WTO raises trade: politically dissimilar dyads facing hold-up."
+  },
+  {
+   "source": "carnegie2014",
+   "target": "gowa1993",
+   "type": "builds_on",
+   "why": "Security externalities become hold-up problems that institutions can solve."
+  },
+  {
+   "source": "davis2012",
+   "target": "davis2004",
+   "type": "builds_on",
+   "why": "Domestic political pressures explain WTO litigation as they explained issue linkage."
+  },
+  {
+   "source": "pelc2014",
+   "target": "davis2012",
+   "type": "builds_on",
+   "why": "Beyond dispute resolution, states litigate strategically for precedent."
+  },
+  {
+   "source": "johns2014",
+   "target": "davis2012",
+   "type": "builds_on",
+   "why": "Participation rules in disputes are manipulated for settlement advantage."
+  },
+  {
+   "source": "mansfield2012",
+   "target": "mmr2002",
+   "type": "builds_on",
+   "why": "Veto players condition the democratic propensity to sign PTAs."
+  },
+  {
+   "source": "baccini2014",
+   "target": "mansfield2006",
+   "type": "builds_on",
+   "why": "PTAs as reform-locking devices for insecure leaders after democratization."
+  },
+  {
+   "source": "mansfield2006",
+   "target": "mmr2002",
+   "type": "builds_on",
+   "why": "Credibility logic from trade agreements to IO membership during democratization."
+  },
+  {
+   "source": "baccini2019",
+   "target": "mansfield2012",
+   "type": "synthesizes",
+   "why": "Reviews PTA design, formation and effects."
+  },
+  {
+   "source": "baccini2019",
+   "target": "baccini2017",
+   "type": "synthesizes",
+   "why": "Firm-level distributional effects integrated into the PTA literature."
+  },
+  {
+   "source": "buthe2008",
+   "target": "mmr2002",
+   "type": "builds_on",
+   "why": "Trade agreements' credibility effects extended to investment flows."
+  },
+  {
+   "source": "kim2018media",
+   "target": "kono2006",
+   "type": "builds_on",
+   "why": "Veiled protection via state media as an extreme case of optimal obfuscation."
+  },
+  {
+   "source": "kim2025refusals",
+   "target": "kim2018media",
+   "type": "builds_on",
+   "why": "From veiled protectionism to veiled political retribution at the border."
+  },
+  {
+   "source": "blanchard2016",
+   "target": "kucik2008",
+   "type": "qualifies",
+   "why": "GVC linkages, not only institutional flexibility, drive tariff commitments."
+  },
+  {
+   "source": "bown2024",
+   "target": "juhasz2024",
+   "type": "builds_on",
+   "why": "Takes the rehabilitation of industrial policy to the question of WTO discipline."
+  },
+  {
+   "source": "bown2024",
+   "target": "rosendorff2001",
+   "type": "challenges",
+   "why": "Rules designed for tariffs and escape clauses cannot govern subsidies and export controls."
+  },
+  {
+   "source": "kim2025agri",
+   "target": "mansfield2012",
+   "type": "builds_on",
+   "why": "Institutional (parliamentary vs presidential) variation in PTA liberalization at the product level."
+  },
+  {
+   "source": "farrell2019",
+   "target": "hirschman1945",
+   "type": "builds_on",
+   "why": "Network topology replaces bilateral asymmetric dependence as the source of coercive power."
+  },
+  {
+   "source": "farrell2019",
+   "target": "mastanduno1998",
+   "type": "builds_on",
+   "why": "Reintegrates economics and security under unipolar network control."
+  },
+  {
+   "source": "farrell2019",
+   "target": "farrell2014",
+   "type": "builds_on",
+   "why": "Jurisdiction over hubs is the coercive face of the new interdependence approach."
+  },
+  {
+   "source": "drezner2021",
+   "target": "farrell2019",
+   "type": "synthesizes",
+   "why": "Extends the framework across domains and catalogs its limits."
+  },
+  {
+   "source": "farrell2023",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "Book-length account of US weaponization of financial, data and chip networks."
+  },
+  {
+   "source": "mulder2022",
+   "target": "farrell2019",
+   "type": "extends_to_new_case",
+   "why": "Interwar sanctions as an earlier weaponization of interdependence with escalation risks."
+  },
+  {
+   "source": "gholz2021",
+   "target": "farrell2019",
+   "type": "challenges",
+   "why": "Market adjustment defeated China's rare-earth chokepoint; network maps overstate leverage."
+  },
+  {
+   "source": "gjesvik2023",
+   "target": "farrell2019",
+   "type": "challenges",
+   "why": "Private hub owners can resist states, limiting weaponization."
+  },
+  {
+   "source": "lim2022",
+   "target": "farrell2019",
+   "type": "extends_to_new_case",
+   "why": "Informal, deniable Chinese coercion outside formal sanctions."
+  },
+  {
+   "source": "lim2022",
+   "target": "drezner2003",
+   "type": "builds_on",
+   "why": "Informal sanctions let senders coerce while avoiding the costs that make imposed sanctions fail."
+  },
+  {
+   "source": "kim2025refusals",
+   "target": "lim2022",
+   "type": "builds_on",
+   "why": "Regulatory availability (safety standards) as the channel of informal retribution."
+  },
+  {
+   "source": "fuchs2013",
+   "target": "hirschman1945",
+   "type": "mechanism_tested_by",
+   "why": "Trade punishment for diplomatic affronts measured in export flows."
+  },
+  {
+   "source": "kastner2016",
+   "target": "fuchs2013",
+   "type": "qualifies",
+   "why": "Trade punishment exists but rarely buys sustained foreign-policy deference."
+  },
+  {
+   "source": "kastner2016",
+   "target": "floresmacias2013",
+   "type": "challenges",
+   "why": "Finds little conversion of China trade dependence into policy alignment."
+  },
+  {
+   "source": "floresmacias2013",
+   "target": "hirschman1945",
+   "type": "builds_on",
+   "why": "Asymmetric dependence produces foreign-policy convergence toward China."
+  },
+  {
+   "source": "davis2011",
+   "target": "gowa1993",
+   "type": "challenges",
+   "why": "Political tensions leave trade and FDI largely undisturbed, contrary to security-externality logic."
+  },
+  {
+   "source": "early2009",
+   "target": "drezner2003",
+   "type": "builds_on",
+   "why": "Third-party busting, driven by firms, as a reason imposed sanctions fail."
+  },
+  {
+   "source": "grauvogel2017",
+   "target": "drezner2003",
+   "type": "builds_on",
+   "why": "Threats matter more than imposition, here through protest signaling rather than concessions."
+  },
+  {
+   "source": "mcdowell2023",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "Financial weaponization provokes de-dollarization hedging by targets."
+  },
+  {
+   "source": "mcdowell2023",
+   "target": "drezner2021",
+   "type": "builds_on",
+   "why": "Empirical test of the overuse-and-backlash limit."
+  },
+  {
+   "source": "norris2016",
+   "target": "hirschman1945",
+   "type": "qualifies",
+   "why": "Dependence yields influence only when the state controls its own commercial actors."
+  },
+  {
+   "source": "lim2022",
+   "target": "norris2016",
+   "type": "builds_on",
+   "why": "Informal coercion works through regulatory control over firms' market access."
+  },
+  {
+   "source": "lind2018",
+   "target": "hirschman1945",
+   "type": "builds_on",
+   "why": "Vulnerability to supply interruption drives China's energy mercantilism."
+  },
+  {
+   "source": "pearson2022",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "Interdependence becomes a security dilemma once firms are read as state capabilities."
+  },
+  {
+   "source": "pearson2022",
+   "target": "mastanduno1998",
+   "type": "builds_on",
+   "why": "Economics-security integration driven by threat perception, now in China and the OECD."
+  },
+  {
+   "source": "rithmire2023",
+   "target": "pearson2022",
+   "type": "builds_on",
+   "why": "Mutual endangerment between party and capital underlies party-state capitalism."
+  },
+  {
+   "source": "farrell2021",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "Openness converted into a weapon in the information order."
+  },
+  {
+   "source": "mastanduno2009",
+   "target": "strange1987",
+   "type": "builds_on",
+   "why": "Structural power exercised as privilege-taking through the dollar."
+  },
+  {
+   "source": "norrlof2010",
+   "target": "strange1987",
+   "type": "builds_on",
+   "why": "Quantifies the persistent gains from US structural position."
+  },
+  {
+   "source": "drezner2013",
+   "target": "norrlof2010",
+   "type": "challenges",
+   "why": "Military primacy per se yields modest economic returns."
+  },
+  {
+   "source": "winecoff2020",
+   "target": "strange1987",
+   "type": "builds_on",
+   "why": "Structural power as network centrality, measured."
+  },
+  {
+   "source": "winecoff2020",
+   "target": "oatley2011",
+   "type": "builds_on",
+   "why": "Systemic, network-level modeling as the alternative to reductionism."
+  },
+  {
+   "source": "farrell2019",
+   "target": "winecoff2020",
+   "type": "synthesizes",
+   "why": "Network centrality and coercive capacity converge on the same hubs (contemporaneous work)."
+  },
+  {
+   "source": "juhasz2024",
+   "target": "helleiner2021",
+   "type": "synthesizes",
+   "why": "Economic rehabilitation of industrial policy alongside the intellectual revival of neomercantilism."
+  },
+  {
+   "source": "meunier2019",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "EU policy geopoliticized in response to weaponized interdependence by the US and China."
+  },
+  {
+   "source": "meunier2019",
+   "target": "pearson2022",
+   "type": "builds_on",
+   "why": "China's party-state capitalism as the trigger for EU screening and reciprocity."
+  },
+  {
+   "source": "gholz2021",
+   "target": "lind2018",
+   "type": "challenges",
+   "why": "Supply-cutoff fears can be overstated when markets adjust."
+  },
+  {
+   "source": "colgan2021",
+   "target": "frieden1991",
+   "type": "builds_on",
+   "why": "Asset-based interests extended to climate-forcing versus climate-vulnerable assets."
+  },
+  {
+   "source": "colgan2021",
+   "target": "bown2024",
+   "type": "synthesizes",
+   "why": "Decarbonization-driven trade restrictions as a strain on WTO discipline (contemporaneous)."
+  },
+  {
+   "source": "kastner2016",
+   "target": "norris2016",
+   "type": "qualifies",
+   "why": "Even with state control, trade dependence buys little visible deference."
+  },
+  {
+   "source": "lake2021",
+   "target": "ruggie1982",
+   "type": "builds_on",
+   "why": "LIO defined through its liberal-Westphalian tension, with embedded liberalism as its economic core."
+  },
+  {
+   "source": "lake2021",
+   "target": "milner2021",
+   "type": "synthesizes",
+   "why": "Internal backlash and external challengers as interacting threats."
+  },
+  {
+   "source": "borzel2021",
+   "target": "zurn2018",
+   "type": "builds_on",
+   "why": "Endogenous contestation from intrusive postnational liberal authority."
+  },
+  {
+   "source": "devries2021",
+   "target": "zurn2018",
+   "type": "builds_on",
+   "why": "Politicization as the channel from legitimacy deficits to institutional change."
+  },
+  {
+   "source": "dellmuth2022",
+   "target": "zurn2018",
+   "type": "mechanism_tested_by",
+   "why": "Elite-citizen legitimacy gap measured across IOs."
+  },
+  {
+   "source": "gartzke2011",
+   "target": "keohane2009",
+   "type": "challenges",
+   "why": "Multilateralism erodes representation and invites capture."
+  },
+  {
+   "source": "milner2021",
+   "target": "keohane2009",
+   "type": "challenges",
+   "why": "Interdependence pathway: IOs weaken accountability and legitimacy."
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "ikenberry2018",
+   "type": "challenges",
+   "why": "The liberal order was bound to fail with the end of unipolarity, not merely in crisis."
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "krasner1976",
+   "type": "builds_on",
+   "why": "Order type follows the distribution of power."
+  },
+  {
+   "source": "johnston2019",
+   "target": "mearsheimer2019",
+   "type": "challenges",
+   "why": "China complies with many issue-specific orders; blanket revisionism is wrong."
+  },
+  {
+   "source": "weiss2021",
+   "target": "johnston2019",
+   "type": "builds_on",
+   "why": "Issue-specific Chinese engagement explained by regime centrality and domestic heterogeneity."
+  },
+  {
+   "source": "weiss2021",
+   "target": "pearson2022",
+   "type": "synthesizes",
+   "why": "Domestic regime security as the driver of China's external economic behavior (contemporaneous)."
+  },
+  {
+   "source": "goddard2018",
+   "target": "krasner1976",
+   "type": "challenges",
+   "why": "Revisionist strategy depends on network position, not just power and intentions."
+  },
+  {
+   "source": "broz2020china",
+   "target": "goddard2018",
+   "type": "builds_on",
+   "why": "Followership of a rising power driven by grievances with the incumbent order."
+  },
+  {
+   "source": "simmons2021",
+   "target": "goodman2021",
+   "type": "builds_on",
+   "why": "Re-bordering as the territorial counterpart to the exclusionary foundations of the order."
+  },
+  {
+   "source": "simmons2021",
+   "target": "ikenberry2018",
+   "type": "challenges",
+   "why": "The crisis is structural: the LIO undermines the territorial order it rests on."
+  },
+  {
+   "source": "farrell2021",
+   "target": "lake2021",
+   "type": "builds_on",
+   "why": "Self-undermining feedback in the information order as one source of internal fragility."
+  },
+  {
+   "source": "colgan2017",
+   "target": "ikenberry2018",
+   "type": "qualifies",
+   "why": "Reform requires rebuilding domestic compensation, not just international authority."
+  },
+  {
+   "source": "ginsburg2020",
+   "target": "debre2021",
+   "type": "synthesizes",
+   "why": "Authoritarian regional organizations as part of an emerging authoritarian international law."
+  },
+  {
+   "source": "debre2021",
+   "target": "mansfield2006",
+   "type": "challenges",
+   "why": "IOs can protect autocrats, reversing the democracy-locking view of IO membership."
+  },
+  {
+   "source": "cottiero2026",
+   "target": "mansfield2006",
+   "type": "challenges",
+   "why": "Autocratic IFIs lend to shore up threatened autocracies."
+  },
+  {
+   "source": "hollyer2018",
+   "target": "arias2018",
+   "type": "builds_on",
+   "why": "Autocrats' selective engagement with international economic institutions (transparency, treaties) as survival strategy (contemporaneous)."
+  },
+  {
+   "source": "kim2018media",
+   "target": "pearson2022",
+   "type": "builds_on",
+   "why": "Party-controlled media as an instrument of economic statecraft (edge reflects conceptual kinship; Kim predates)."
+  },
+  {
+   "source": "ikenberry2018",
+   "target": "ruggie1982",
+   "type": "builds_on",
+   "why": "Liberal order as an institutional bargain whose legitimacy, not logic, is in crisis."
+  },
+  {
+   "source": "lipscy2018",
+   "target": "mmr2000",
+   "type": "challenges",
+   "why": "Democratic openness has a financial downside: more banking crises."
+  },
+  {
+   "source": "freeman2012",
+   "target": "jensen2003",
+   "type": "builds_on",
+   "why": "Financial openness alters elites' domestic stakes, a political consequence of investment flows."
+  },
+  {
+   "source": "arias2018",
+   "target": "mansfield2006",
+   "type": "challenges",
+   "why": "Autocrats, not democratizers, gain most from signing investment treaties."
+  },
+  {
+   "source": "baccini2014",
+   "target": "milner2005",
+   "type": "builds_on",
+   "why": "Democratization creates demand for reform that PTAs help deliver."
+  },
+  {
+   "source": "ballardrosa2020",
+   "target": "steinberg2014",
+   "type": "builds_on",
+   "why": "Regime coalitions (urban vs rural) drive macro choices, as with exchange rates."
+  },
+  {
+   "source": "hainmueller2010",
+   "target": "mayda2006",
+   "type": "challenges",
+   "why": "Experimental evidence rejects labor-market competition and fiscal-burden models."
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "hainmueller2010",
+   "type": "synthesizes",
+   "why": "Reviews the weak evidence for self-interest in immigration attitudes."
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "mansfield2009",
+   "type": "synthesizes",
+   "why": "Sociotropic accounts converge across trade and immigration attitudes."
+  },
+  {
+   "source": "peters2017",
+   "target": "peters2014",
+   "type": "builds_on",
+   "why": "Trade-immigration substitution across 19 countries and two centuries."
+  },
+  {
+   "source": "bearce2017",
+   "target": "hainmueller2014",
+   "type": "builds_on",
+   "why": "Restrictive mass opinion versus pro-openness employers, filtered by institutions."
+  },
+  {
+   "source": "gaikwad2025",
+   "target": "hainmueller2014",
+   "type": "extends_to_new_case",
+   "why": "Migrants' own attitudes studied with experimentally induced migration."
+  },
+  {
+   "source": "goodman2021",
+   "target": "peters2017",
+   "type": "builds_on",
+   "why": "Migration as the third pillar of the postwar openness compromise."
+  },
+  {
+   "source": "lake2009",
+   "target": "gourevitch1978",
+   "type": "builds_on",
+   "why": "OEP organizes second-image-reversed insights into an interests-institutions-bargaining paradigm."
+  },
+  {
+   "source": "lake2009",
+   "target": "rogowski1987",
+   "type": "synthesizes",
+   "why": "Factor-based interest derivation as OEP's canonical first step."
+  },
+  {
+   "source": "lake2009",
+   "target": "frieden1991",
+   "type": "synthesizes",
+   "why": "Sector and asset-specificity models as OEP's interest foundations."
+  },
+  {
+   "source": "oatley2011",
+   "target": "lake2009",
+   "type": "challenges",
+   "why": "OEP's reductionism omits systemic feedback and yields biased inference."
+  },
+  {
+   "source": "chaudoin2015",
+   "target": "oatley2011",
+   "type": "challenges",
+   "why": "Systemic interactions can be modeled within OEP using spatial and multilevel methods."
+  },
+  {
+   "source": "farrell2014",
+   "target": "lake2009",
+   "type": "challenges",
+   "why": "Interdependence creates cross-jurisdictional opportunity structures that OEP's domestic aggregation misses."
+  },
+  {
+   "source": "farrell2016",
+   "target": "farrell2014",
+   "type": "builds_on",
+   "why": "Theoretical development and empirical demonstration of the new interdependence approach."
+  },
+  {
+   "source": "farrell2014",
+   "target": "bach2010",
+   "type": "builds_on",
+   "why": "Transgovernmental networks as evidence of domestic institutions operating beyond the state."
+  },
+  {
+   "source": "drezner2013mcnamara",
+   "target": "lake2009",
+   "type": "challenges",
+   "why": "American IPE abandoned the systemic and geopolitical questions of financial order."
+  },
+  {
+   "source": "blyth2017",
+   "target": "oatley2011",
+   "type": "builds_on",
+   "why": "Reductionism also lost the macroeconomy: growth regimes and crises."
+  },
+  {
+   "source": "gourevitch1978",
+   "target": "krasner1976",
+   "type": "challenges",
+   "why": "Replaces state-strength explanations with coalitional analysis of international pressures."
+  },
+  {
+   "source": "simmons2004",
+   "target": "gourevitch1978",
+   "type": "builds_on",
+   "why": "International sources of domestic policy as diffusion among interdependent governments."
+  },
+  {
+   "source": "bach2010",
+   "target": "simmons2004",
+   "type": "builds_on",
+   "why": "Specifies network channels (bilateral vs multilateral) behind diffusion."
+  },
+  {
+   "source": "milner2021",
+   "target": "gourevitch1978",
+   "type": "builds_on",
+   "why": "Globalization as an international source of domestic democratic strain."
+  },
+  {
+   "source": "helleiner2021",
+   "target": "lake2009",
+   "type": "challenges",
+   "why": "Recovers a neomercantilist tradition the OEP canon excluded."
+  },
+  {
+   "source": "colgan2021",
+   "target": "oatley2011",
+   "type": "builds_on",
+   "why": "Dynamic, system-level distributional politics against static collective-action framing."
+  },
+  {
+   "source": "lake2021",
+   "target": "lake2009",
+   "type": "qualifies",
+   "why": "Identifies blind spots (exclusion, interests behind rules, social foundations, domestic politics) in IO scholarship."
+  },
+  {
+   "source": "gartzke2007",
+   "target": "gowa1993",
+   "type": "qualifies",
+   "why": "Market openness and development, rather than alliance-structured trade, underpin the liberal peace."
+  },
+  {
+   "source": "martin2008",
+   "target": "gartzke2007",
+   "type": "qualifies",
+   "why": "Bilateral trade pacifies but multilateral openness raises conflict risk."
+  },
+  {
+   "source": "copeland2015",
+   "target": "hirschman1945",
+   "type": "builds_on",
+   "why": "Expectations about future access to trade decide whether dependence pacifies or provokes."
+  },
+  {
+   "source": "copeland2015",
+   "target": "martin2008",
+   "type": "synthesizes",
+   "why": "Reconciles mixed trade-conflict findings through expectations."
+  },
+  {
+   "source": "pearson2022",
+   "target": "copeland2015",
+   "type": "builds_on",
+   "why": "Negative trade expectations drive China's self-reliance and OECD restrictions."
+  },
+  {
+   "source": "davis2011",
+   "target": "copeland2015",
+   "type": "qualifies",
+   "why": "Firms keep trading through political tension, so expectations must shift sharply to disrupt flows."
+  },
+  {
+   "source": "rogowski1987",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rogowski1987io",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rogowski1987io",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hiscox2001",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheve2001",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mayda2005",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2006",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansfield2009",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rho2017",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "owen2017",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2018",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2018",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2024",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2024",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegie2022",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegie2022",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisbee2025",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisbee2025",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheve2024",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pandya2010",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pandya2010",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ruggie1982",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ruggie1982",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cameron1978",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodrik1998",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrett1998",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adsera2002",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adsera2002",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudra2002",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudra2002",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudra2005",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudra2005",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hays2005",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hays2005",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2010",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2010",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2011",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2011",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2021taa",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2025agri",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2025agri",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zohlnhofer2018",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodman2021",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodman2021",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schneider2024",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schneider2024",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2024",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2024",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "autor2013",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "autor2020",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2018",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2018brexit",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensen2017",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2021",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2021",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodrik2018",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodrik2021",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2021",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2019",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2019",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flaherty2021",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flaherty2021",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broz2021",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "han2024",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2021tariffs",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2021tariffs",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blanchard2024",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milner2021",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milner2021",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milner2021",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahlquist2020",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahlquist2020",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "melitz2003",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2017",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "osgood2017",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "osgood2018",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blanchard2016",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blanchard2016",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2017",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2017",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2019firms",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2019arps",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhang2023",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2018",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2018",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2025fdi",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2025fdi",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensen2003",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensen2003",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buthe2008",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buthe2008",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buthe2014",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buthe2014",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wellhausen2015",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johns2016",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johns2016",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pandya2014",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arias2018",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arias2018",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bak2016",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bak2016",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chilton2020",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chilton2020",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peters2014",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peters2014",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frieden1991",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernhard2002",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinberg2014",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinberg2014",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinberg2015",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomz2007",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultz2003",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultz2003",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mosley2003",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2020",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2020",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2018",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2018",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "funke2016",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "funke2016",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chwieroth2019",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chwieroth2019",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frieden2017",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freeman2012",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freeman2012",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2019",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2019",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2008",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2008",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "copelovitch2010",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2009",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2009",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nelson2014",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2021wb",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2021wb",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegie2023",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegie2023",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2015",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2022imf",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "qian2023",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "qian2023",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2022",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2022",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cottiero2026",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cottiero2026",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cottiero2026",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broz2020china",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broz2020china",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mmr2000",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mmr2000",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mmr2002",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mmr2002",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosendorff2001",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kucik2008",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rose2004",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gowa2005",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gowa2005",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldstein2007",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegie2014",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegie2014",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davis2004",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davis2012",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johns2014",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pelc2014",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansfield2006",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansfield2006",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2014",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2014",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansfield2012",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansfield2012",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2019",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2017",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2017",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milner2005",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milner2005",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kono2006",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kono2006",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hankla2013",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hankla2013",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018media",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018media",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bown2024",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bown2024",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hirschman1945",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hirschman1945",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mastanduno1998",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mastanduno1998",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2003",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "early2009",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grauvogel2017",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2019",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2021",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mulder2022",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2023",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2023",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gholz2021",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gholz2021",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gjesvik2023",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lim2022",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lim2022",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2025refusals",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2025refusals",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcdowell2023",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcdowell2023",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcdowell2023",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lind2018",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lind2018",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gowa1993",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "juhasz2024",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helleiner2021",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helleiner2021",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meunier2019",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauerle2023",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauerle2023",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearson2022",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearson2022",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2016",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2016",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastner2016",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastner2016",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fuchs2013",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fuchs2013",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floresmacias2013",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floresmacias2013",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2021",
+   "target": "geoecon",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2021",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krasner1976",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "strange1987",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "strange1987",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mastanduno2009",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norrlof2010",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2013",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oatley2015",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oatley2015",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ikenberry2018",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2017",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2017",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2019",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goddard2018",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2021",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2021",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzel2021",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzel2021",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2021",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2021",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2021",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2021",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2021",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2021",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2021",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hollyer2018",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "debre2021",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ginsburg2020",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ginsburg2020",
+   "target": "china-order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane2009",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzke2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellmuth2022",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zurn2018",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mayda2006",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2010",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peters2017",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bearce2017",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liao2023",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liao2023",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2025",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gourevitch1978",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2009",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oatley2011",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaudoin2015",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2014",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2014",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2016",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2016",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2013mcnamara",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blyth2017",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blyth2017",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winecoff2020",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winecoff2020",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2004",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bach2010",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guasti2022",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzke2007",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martin2008",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "copeland2015",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davis2011",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}
