@@ -77,6 +77,10 @@ svg{width:100%;height:100%;display:block}
 .legend .l.mt{border-top-color:#059669}
 #hint{position:absolute;top:10px;left:10px;font-size:11px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
 a.ext{color:var(--accent)}
+#edgeTip{position:absolute;display:none;pointer-events:none;z-index:5;max-width:320px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font-size:12px;line-height:1.4;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+#edgeTip .tt{font-weight:600}
+#edgeTip .tg{color:var(--muted);font-size:11px;margin-top:2px}
+#edgeTip .tw{margin-top:5px}
 @media (max-width: 900px){
   #layout{grid-template-columns:1fr;grid-template-rows:auto 60vh auto;height:auto}
   #themes{border-right:0;border-bottom:1px solid var(--line);max-height:30vh}
@@ -125,7 +129,8 @@ a.ext{color:var(--accent)}
   </aside>
   <main id="stage">
     <svg id="svg"></svg>
-    <div id="hint">Edge direction: later work → work it relates to.</div>
+    <div id="hint">Hover a dot for its title, a line for what it means. Arrow: later work → work it relates to.</div>
+    <div id="edgeTip" role="tooltip"></div>
     <div class="legend" id="legend">
       <div class="lg-head"><b>How to read the arrows</b> <button id="legendToggle" title="Collapse / expand">−</button></div>
       <div class="lg-body">
@@ -221,6 +226,7 @@ a.ext{color:var(--accent)}
   let W = stage.clientWidth, H = stage.clientHeight;
   const g = svg.append('g');
   const gEdges = g.append('g').attr('class', 'edges');
+  const gHits = g.append('g').attr('class', 'edge-hits');
   const gNodes = g.append('g').attr('class', 'nodes');
   const gLabels = g.append('g').attr('class', 'labels');
   const gAxes = g.append('g').attr('class', 'axes');
@@ -234,7 +240,7 @@ a.ext{color:var(--accent)}
   const edgeColor = t => t === 'challenges' ? '#dc2626' : t === 'synthesizes' ? '#7c3aed' : t === 'mechanism_tested_by' ? '#059669' : 'var(--edge)';
   const edgeDash = t => t === 'qualifies' ? '5,4' : t === 'extends_to_new_case' ? '2,3' : null;
   const nodeColor = n => n.type === 'theme' ? n.color : themeById[n.themes[0]].color;
-  const radius = n => n.type === 'theme' ? (state.focusTheme === n.id ? 30 : 16) : 5 + Math.min(9, degree[n.id] || 0) * 0.8;
+  const radius = n => n.type === 'theme' ? (state.focusTheme === n.id ? 20 : 16) : 5 + Math.min(9, degree[n.id] || 0) * 0.8;
   const inFocus = n => !state.focusTheme || n.id === state.focusTheme || (n.type === 'work' && n.themes.includes(state.focusTheme));
 
   const degree = {};
@@ -286,8 +292,17 @@ a.ext{color:var(--accent)}
       .attr('stroke-dasharray', d => edgeDash(d.type))
       .attr('stroke-width', d => d.type === 'belongs_to' ? 0.7 : 1.3)
       .attr('opacity', d => d.type === 'belongs_to' ? 0.5 : 0.85)
-      .attr('marker-end', d => d.type === 'belongs_to' ? null : 'url(#arrow)')
-      .append('title').text(d => d.type === 'belongs_to' ? '' : `${d.source.label} ${d.type.replace(/_/g, ' ')} ${d.target.label}: ${d.why}`);
+      .attr('marker-end', d => d.type === 'belongs_to' ? null : 'url(#arrow)');
+
+    // wide invisible hit areas so thin lines are easy to hover
+    const hit = gHits.selectAll('path').data(curEdges, d => d.source.id + '|' + d.target.id + '|' + d.type);
+    hit.exit().remove();
+    hit.enter().append('path').attr('fill', 'none').attr('stroke', 'transparent').attr('stroke-width', 10)
+      .style('cursor', 'help').style('pointer-events', 'stroke')
+      .on('mouseenter', (ev, d) => showEdgeTip(ev, d))
+      .on('mousemove', ev => moveTip(ev))
+      .on('mouseleave', hideTip)
+      .on('click', (ev, d) => { if (d.type !== 'belongs_to') { state.selected = d.source.id; showDetail(d.source.id); highlight(d.source.id); } });
 
     const nd = gNodes.selectAll('circle').data(curNodes, d => d.id);
     nd.exit().remove();
@@ -296,12 +311,15 @@ a.ext{color:var(--accent)}
         .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
         .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.fx = null; d.fy = null; } }))
       .on('click', (ev, d) => { if (d.type === 'theme') { focusTheme(d.id); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); })
+      .on('mouseenter', (ev, d) => showNodeTip(ev, d))
+      .on('mousemove', ev => moveTip(ev))
+      .on('mouseleave', () => { tip.style.display = 'none'; })
       .merge(nd)
       .attr('r', d => radius(d))
       .attr('fill', d => d.type === 'theme' ? (state.focusTheme === d.id ? d.color : 'var(--theme-node)') : nodeColor(d))
       .attr('fill-opacity', d => d.type === 'theme' && state.focusTheme === d.id ? 0.25 : 1)
       .attr('stroke', d => d.type === 'theme' ? d.color : 'var(--bg)')
-      .attr('stroke-width', d => d.type === 'theme' ? (state.focusTheme === d.id ? 5 : 3) : 1.2);
+      .attr('stroke-width', d => d.type === 'theme' ? (state.focusTheme === d.id ? 4 : 3) : 1.2);
 
     const lb = gLabels.selectAll('text').data(curNodes, d => d.id);
     lb.exit().remove();
@@ -309,7 +327,7 @@ a.ext{color:var(--accent)}
       .attr('class', d => d.type === 'theme' ? 'theme-label' : 'node-label')
       .attr('text-anchor', d => d.type === 'theme' ? 'middle' : 'start')
       .attr('dx', d => d.type === 'theme' ? 0 : radius(d) + 3).attr('dy', d => d.type === 'theme' ? -(radius(d) + 6) : 3)
-      .style('font-size', d => d.type === 'theme' && state.focusTheme === d.id ? '14px' : null)
+      .style('font-size', d => d.type === 'theme' && state.focusTheme === d.id ? '12.5px' : null)
       .text(d => d.type === 'theme' ? d.label.split(':')[0].split(',')[0] : d.label);
     highlight(state.selected);
   }
@@ -381,14 +399,68 @@ a.ext{color:var(--accent)}
   function ticked(){
     gNodes.selectAll('circle').attr('cx', d => d.x).attr('cy', d => d.y);
     gLabels.selectAll('text').attr('x', d => d.x).attr('y', d => d.y);
-    gEdges.selectAll('path').attr('d', d => {
+    gHits.selectAll('path').attr('d', edgePath);
+    gEdges.selectAll('path').attr('d', edgePath);
+  }
+
+  // ---------- edge hover tooltip
+  const REL_TEXT = {
+    builds_on: 'builds on',
+    challenges: 'challenges',
+    qualifies: 'qualifies (adds a scope condition to)',
+    extends_to_new_case: 'extends to a new case',
+    synthesizes: 'synthesizes',
+    mechanism_tested_by: 'tests a mechanism from',
+  };
+  const REL_GLOSS = {
+    builds_on: 'extends or relies on its argument or evidence',
+    challenges: 'contests its claim, mechanism or evidence',
+    qualifies: 'adds a condition under which it holds or fails',
+    extends_to_new_case: 'applies its logic to a new country, period or domain',
+    synthesizes: 'integrates it with other work',
+    mechanism_tested_by: 'tests a mechanism it implied',
+  };
+  const tip = document.getElementById('edgeTip');
+  function showEdgeTip(ev, d){
+    if (d.type === 'belongs_to') {
+      tip.innerHTML = `<b>${d.source.label}</b> is tagged with the theme <b>${d.target.label.split(':')[0]}</b><div class="tg">Theme membership only, not a relation between works.</div>`;
+    } else {
+      const col = edgeColor(d.type) === 'var(--edge)' ? 'var(--ink)' : edgeColor(d.type);
+      tip.innerHTML = `<b>${d.source.label}</b> <span style="color:${col};font-weight:600">${REL_TEXT[d.type]}</span> <b>${d.target.label}</b>` +
+        `<div class="tg">${REL_GLOSS[d.type]}</div><div class="tw">${d.why}</div>`;
+    }
+    tip.style.display = 'block'; moveTip(ev);
+    gEdges.selectAll('path').filter(e => e === d).attr('stroke-width', 3).attr('opacity', 1);
+  }
+  function moveTip(ev){
+    const r = stage.getBoundingClientRect();
+    let x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 14;
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    if (x + w > r.width - 8) x = ev.clientX - r.left - w - 14;
+    if (y + h > r.height - 8) y = ev.clientY - r.top - h - 14;
+    tip.style.left = Math.max(6, x) + 'px'; tip.style.top = Math.max(6, y) + 'px';
+  }
+  function hideTip(){ tip.style.display = 'none'; highlight(state.selected); }
+
+  function edgePath(d){
+    {
       const sx = d.source.x, sy = d.source.y, tx = d.target.x, ty = d.target.y;
       const dx = tx - sx, dy = ty - sy, dist = Math.hypot(dx, dy) || 1;
       const r = radius(d.target) + 2;
       const ex = tx - dx / dist * r, ey = ty - dy / dist * r;
       if (state.view === 'time') { const curv = Math.abs(dx) * 0.35 + 10; return `M${sx},${sy} Q${(sx + ex) / 2},${Math.min(sy, ey) - curv} ${ex},${ey}`; }
       return `M${sx},${sy} L${ex},${ey}`;
-    });
+    }
+  }
+
+  function showNodeTip(ev, d){
+    if (d.type === 'theme') {
+      const n = works.filter(w => w.themes.includes(d.id)).length;
+      tip.innerHTML = `<b>${d.label}</b><div class="tg">Theme hub · ${n} works · click to focus</div>`;
+    } else {
+      tip.innerHTML = `<div class="tt">${d.title}</div><div class="tg">${d.authors} · ${d.year} · ${d.journal}</div>`;
+    }
+    tip.style.display = 'block'; moveTip(ev);
   }
 
   // ---------- details panel

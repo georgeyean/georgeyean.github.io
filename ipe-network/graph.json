@@ -19,7 +19,8 @@
    "supplement": 102,
    "relation_edges": 251,
    "membership_edges": 290
-  }
+  },
+  "verification": "Repo works: from the user's Zotero library (papers.json). Supplementary works: each looked up in Crossref on 2026-10-28 by title and first author; result recorded in each node's `verified` field. One work (Colgan & Keohane 2017, Foreign Affairs) could not be confirmed in Crossref."
  },
  "themes": [
   {
@@ -289,7 +290,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Journal of International Economics, 2001; DOI 10.1016/s0022-1996(00)00094-5)",
+   "crossref_doi": "10.1016/s0022-1996(00)00094-5"
   },
   {
    "id": "mayda2005",
@@ -306,7 +308,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2001, earlier working-paper version; DOI 10.3386/w8461)",
+   "crossref_doi": "10.3386/w8461"
   },
   {
    "id": "hainmueller2006",
@@ -323,7 +326,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2006; DOI 10.1017/s0020818306060140)",
+   "crossref_doi": "10.1017/s0020818306060140"
   },
   {
    "id": "mansfield2009",
@@ -357,7 +361,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2017; DOI 10.1017/s0020818316000394)",
+   "crossref_doi": "10.1017/s0020818316000394"
   },
   {
    "id": "owen2017",
@@ -374,7 +379,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (IO 71(4): 665-699)"
+   "verified": "Crossref: title and author matched (International Organization, 2017; DOI 10.1017/s0020818317000339); also web-verified",
+   "crossref_doi": "10.1017/s0020818317000339"
   },
   {
    "id": "mutz2018",
@@ -392,7 +398,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Proceedings of the National Academy of Sciences, 2018; DOI 10.1073/pnas.1718155115)",
+   "crossref_doi": "10.1073/pnas.1718155115"
   },
   {
    "id": "ballardrosa2024",
@@ -517,7 +524,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (American Political Science Review, 1978; DOI 10.2307/1954537)",
+   "crossref_doi": "10.2307/1954537"
   },
   {
    "id": "rodrik1998",
@@ -534,7 +542,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 1996, earlier working-paper version; DOI 10.3386/w5537)",
+   "crossref_doi": "10.3386/w5537"
   },
   {
    "id": "garrett1998",
@@ -551,7 +560,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 1998; DOI 10.1017/cbo9780511625633)",
+   "crossref_doi": "10.1017/cbo9780511625633"
   },
   {
    "id": "adsera2002",
@@ -623,7 +633,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2005; DOI 10.1017/s0020818305050150)",
+   "crossref_doi": "10.1017/s0020818305050150"
   },
   {
    "id": "walter2010",
@@ -641,7 +652,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Studies Quarterly, 2010; DOI 10.1111/j.1468-2478.2010.00593.x)",
+   "crossref_doi": "10.1111/j.1468-2478.2010.00593.x"
   },
   {
    "id": "margalit2011",
@@ -659,7 +671,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (American Political Science Review, 2011; DOI 10.1017/s000305541000050x)",
+   "crossref_doi": "10.1017/s000305541000050x"
   },
   {
    "id": "kim2021taa",
@@ -676,7 +689,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (CPS 54(13): 2354-2381)"
+   "verified": "Crossref: title and author matched (Comparative Political Studies, 2020; DOI 10.1177/0010414020957687); also web-verified",
+   "crossref_doi": "10.1177/0010414020957687"
   },
   {
    "id": "kim2025agri",
@@ -782,7 +796,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2012; DOI 10.3386/w18054)",
+   "crossref_doi": "10.3386/w18054"
   },
   {
    "id": "autor2020",
@@ -799,7 +814,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2016, earlier working-paper version; DOI 10.3386/w22637)",
+   "crossref_doi": "10.3386/w22637"
   },
   {
    "id": "colantone2018",
@@ -833,7 +849,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Elsevier BV, 2016, earlier working-paper version; DOI 10.2139/ssrn.2870313)",
+   "crossref_doi": "10.2139/ssrn.2870313"
   },
   {
    "id": "jensen2017",
@@ -850,7 +867,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2016; DOI 10.3386/w21899)",
+   "crossref_doi": "10.3386/w21899"
   },
   {
    "id": "baccini2021",
@@ -867,7 +885,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (American Political Science Review, 2021; DOI 10.1017/s0003055421000022)",
+   "crossref_doi": "10.1017/s0003055421000022"
   },
   {
    "id": "ballardrosa2021",
@@ -884,7 +903,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Comparative Political Studies, 2021; DOI 10.1177/00104140211024296)",
+   "crossref_doi": "10.1177/00104140211024296"
   },
   {
    "id": "rodrik2018",
@@ -901,7 +921,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2017; DOI 10.3386/w23559)",
+   "crossref_doi": "10.3386/w23559"
   },
   {
    "id": "rodrik2021",
@@ -918,7 +939,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2020; DOI 10.3386/w27526)",
+   "crossref_doi": "10.3386/w27526"
   },
   {
    "id": "walter2021",
@@ -935,7 +957,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Annual Review of Political Science, 2021; DOI 10.1146/annurev-polisci-041719-102405)",
+   "crossref_doi": "10.1146/annurev-polisci-041719-102405"
   },
   {
    "id": "margalit2019",
@@ -952,7 +975,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Journal of Economic Perspectives, 2019; DOI 10.1257/jep.33.4.152)",
+   "crossref_doi": "10.1257/jep.33.4.152"
   },
   {
    "id": "norris2019",
@@ -969,7 +993,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2019; DOI 10.1017/9781108595841)",
+   "crossref_doi": "10.1017/9781108595841"
   },
   {
    "id": "flaherty2021",
@@ -1039,7 +1064,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2021; DOI 10.1017/s0020818320000612)",
+   "crossref_doi": "10.1017/s0020818320000612"
   },
   {
    "id": "blanchard2024",
@@ -1056,7 +1082,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (JIE 148, 2024)"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2019, earlier working-paper version; DOI 10.3386/w26434); also web-verified",
+   "crossref_doi": "10.3386/w26434"
   },
   {
    "id": "milner2021",
@@ -1110,7 +1137,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2002; DOI 10.3386/w8881)",
+   "crossref_doi": "10.3386/w8881"
   },
   {
    "id": "kim2017",
@@ -1179,7 +1207,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2016; DOI 10.3386/w21883)",
+   "crossref_doi": "10.3386/w21883"
   },
   {
    "id": "baccini2017",
@@ -1197,7 +1226,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2017; DOI 10.1017/s002081831700011x)",
+   "crossref_doi": "10.1017/s002081831700011x"
   },
   {
    "id": "kim2019firms",
@@ -1231,7 +1261,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Annual Review of Political Science, 2019; DOI 10.1146/annurev-polisci-050317-063728)",
+   "crossref_doi": "10.1146/annurev-polisci-050317-063728"
   },
   {
    "id": "zhang2023",
@@ -1302,7 +1333,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2003; DOI 10.1017/s0020818303573040)",
+   "crossref_doi": "10.1017/s0020818303573040"
   },
   {
    "id": "buthe2008",
@@ -1320,7 +1352,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (American Journal of Political Science, 2008; DOI 10.1111/j.1540-5907.2008.00340.x)",
+   "crossref_doi": "10.1111/j.1540-5907.2008.00340.x"
   },
   {
    "id": "buthe2014",
@@ -1355,7 +1388,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2014; DOI 10.1017/cbo9781316014547)",
+   "crossref_doi": "10.1017/cbo9781316014547"
   },
   {
    "id": "johns2016",
@@ -1390,7 +1424,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2013; DOI 10.1017/cbo9781139628884)",
+   "crossref_doi": "10.1017/cbo9781139628884"
   },
   {
    "id": "arias2018",
@@ -1426,7 +1461,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Comparative Political Studies, 2016; DOI 10.1177/0010414016655536)",
+   "crossref_doi": "10.1177/0010414016655536"
   },
   {
    "id": "chilton2020",
@@ -1444,7 +1480,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: paper exists (SSRN 2017); BJPS 2020 publication not confirmed",
+   "crossref_doi": "10.2139/ssrn.2981073"
   },
   {
    "id": "peters2014",
@@ -1479,7 +1516,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 1991; DOI 10.1017/s0020818300033178)",
+   "crossref_doi": "10.1017/s0020818300033178"
   },
   {
    "id": "bernhard2002",
@@ -1496,7 +1534,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2002; DOI 10.1162/002081802760403748)",
+   "crossref_doi": "10.1162/002081802760403748"
   },
   {
    "id": "steinberg2014",
@@ -1531,7 +1570,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cornell University Press, 2015; DOI 10.7591/cornell/9780801453847.001.0001)",
+   "crossref_doi": "10.7591/cornell/9780801453847.001.0001"
   },
   {
    "id": "tomz2007",
@@ -1548,7 +1588,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: book exists (Princeton UP; Crossref DOI dated 2012 e-book; original 2007)",
+   "crossref_doi": "10.1515/9781400842926"
   },
   {
    "id": "schultz2003",
@@ -1566,7 +1607,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2003; DOI 10.1017/s0020818303571065)",
+   "crossref_doi": "10.1017/s0020818303571065"
   },
   {
    "id": "mosley2003",
@@ -1583,7 +1625,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: book exists (CUP, DOI 10.1017/cbo9780511615672); Crossref lists 2001, standard citation is 2003, check year",
+   "crossref_doi": "10.1017/cbo9780511615672"
   },
   {
    "id": "ballardrosa2020",
@@ -1601,7 +1644,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2020; DOI 10.1017/9781108871310)",
+   "crossref_doi": "10.1017/9781108871310"
   },
   {
    "id": "lipscy2018",
@@ -1637,7 +1681,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: paper exists (SSRN 2015); European Economic Review 2016 not confirmed",
+   "crossref_doi": "10.2139/ssrn.2688897"
   },
   {
    "id": "chwieroth2019",
@@ -1655,7 +1700,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2019; DOI 10.1017/9781316649992)",
+   "crossref_doi": "10.1017/9781316649992"
   },
   {
    "id": "frieden2017",
@@ -1672,7 +1718,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Annual Review of Political Science, 2017; DOI 10.1146/annurev-polisci-051215-023101)",
+   "crossref_doi": "10.1146/annurev-polisci-051215-023101"
   },
   {
    "id": "freeman2012",
@@ -1743,7 +1790,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Studies Quarterly, 2010; DOI 10.1111/j.1468-2478.2009.00577.x)",
+   "crossref_doi": "10.1111/j.1468-2478.2009.00577.x"
   },
   {
    "id": "dreher2009",
@@ -1761,7 +1809,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (European Economic Review, 2009; DOI 10.1016/j.euroecorev.2009.03.002)",
+   "crossref_doi": "10.1016/j.euroecorev.2009.03.002"
   },
   {
    "id": "nelson2014",
@@ -1778,7 +1827,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2014; DOI 10.1017/s0020818313000477)",
+   "crossref_doi": "10.1017/s0020818313000477"
   },
   {
    "id": "clark2021wb",
@@ -1884,7 +1934,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: book exists (title match; top hit was a review of it)",
+   "crossref_doi": "10.1080/00130095.2022.2134004"
   },
   {
    "id": "cottiero2026",
@@ -1957,7 +2008,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Global Trade, 2017; DOI 10.4324/9781315254166-10)",
+   "crossref_doi": "10.4324/9781315254166-10"
   },
   {
    "id": "rosendorff2001",
@@ -1974,7 +2026,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Elsevier BV, 2001; DOI 10.2139/ssrn.276123)",
+   "crossref_doi": "10.2139/ssrn.276123"
   },
   {
    "id": "kucik2008",
@@ -1991,7 +2044,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2008; DOI 10.1017/s0020818308080168)",
+   "crossref_doi": "10.1017/s0020818308080168"
   },
   {
    "id": "rose2004",
@@ -2008,7 +2062,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2002, earlier working-paper version; DOI 10.3386/w9273)",
+   "crossref_doi": "10.3386/w9273"
   },
   {
    "id": "gowa2005",
@@ -2095,7 +2150,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: \"Why Adjudicate?\" Princeton UP 2012, author matched",
+   "crossref_doi": "10.23943/princeton/9780691152752.001.0001"
   },
   {
    "id": "johns2014",
@@ -2112,7 +2168,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (IO 68(3): 663-699)"
+   "verified": "Crossref: title and author matched (International Organization, 2014; DOI 10.1017/s0020818314000241); also web-verified",
+   "crossref_doi": "10.1017/s0020818314000241"
   },
   {
    "id": "pelc2014",
@@ -2183,7 +2240,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2012; DOI 10.23943/princeton/9780691135298.001.0001)",
+   "crossref_doi": "10.23943/princeton/9780691135298.001.0001"
   },
   {
    "id": "baccini2019",
@@ -2200,7 +2258,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: Annual Review of Political Science 2019, DOI 10.1146/annurev-polisci-050317-070708",
+   "crossref_doi": "10.1093/oxfordhb/9780198793519.013.10"
   },
   {
    "id": "lipscy2017",
@@ -2218,7 +2277,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2017; DOI 10.1017/9781316570463)",
+   "crossref_doi": "10.1017/9781316570463"
   },
   {
    "id": "milner2005",
@@ -2236,7 +2296,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2005; DOI 10.1017/s002081830505006x)",
+   "crossref_doi": "10.1017/s002081830505006x"
   },
   {
    "id": "kono2006",
@@ -2308,7 +2369,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (ARE 16: 243-270)"
+   "verified": "Crossref: title and author matched (Annual Review of Economics, 2024; DOI 10.1146/annurev-economics-100223-041958); also web-verified",
+   "crossref_doi": "10.1146/annurev-economics-100223-041958"
   },
   {
    "id": "hirschman1945",
@@ -2326,7 +2388,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (University of California Press, 1945; DOI 10.1525/9780520378179)",
+   "crossref_doi": "10.1525/9780520378179"
   },
   {
    "id": "mastanduno1998",
@@ -2361,7 +2424,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2003; DOI 10.1017/s0020818303573052)",
+   "crossref_doi": "10.1017/s0020818303573052"
   },
   {
    "id": "early2009",
@@ -2429,7 +2493,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: book exists (Rowman & Littlefield / Brookings, 2021)",
+   "crossref_doi": "10.5771/9780815738381"
   },
   {
    "id": "mulder2022",
@@ -2446,7 +2511,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Yale University Press, 2022; DOI 10.12987/9780300262520)",
+   "crossref_doi": "10.12987/9780300262520"
   },
   {
    "id": "farrell2023",
@@ -2464,7 +2530,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: book exists (title match via 2024 review); trade publisher, no DOI",
+   "crossref_doi": "10.1093/ia/iiae210"
   },
   {
    "id": "gholz2021",
@@ -2482,7 +2549,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Review of International Political Economy, 2019, earlier working-paper version; DOI 10.1080/09692290.2019.1693411)",
+   "crossref_doi": "10.1080/09692290.2019.1693411"
   },
   {
    "id": "gjesvik2023",
@@ -2499,7 +2567,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (RIPE 30(2): 722-746)"
+   "verified": "Crossref: title and author matched (Review of International Political Economy, 2022; DOI 10.1080/09692290.2022.2069145); also web-verified",
+   "crossref_doi": "10.1080/09692290.2022.2069145"
   },
   {
    "id": "lim2022",
@@ -2517,7 +2586,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (RIPE 29(5): 1525-1548)"
+   "verified": "Crossref: title and author matched (Review of International Political Economy, 2021; DOI 10.1080/09692290.2021.1918746); also web-verified",
+   "crossref_doi": "10.1080/09692290.2021.1918746"
   },
   {
    "id": "kim2025refusals",
@@ -2554,7 +2624,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Oxford University PressNew York, 2023; DOI 10.1093/oso/9780197679876.001.0001)",
+   "crossref_doi": "10.1093/oso/9780197679876.001.0001"
   },
   {
    "id": "lind2018",
@@ -2606,7 +2677,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (National Bureau of Economic Research, 2023; DOI 10.3386/w31538)",
+   "crossref_doi": "10.3386/w31538"
   },
   {
    "id": "helleiner2021",
@@ -2624,7 +2696,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cornell University Press, 2021; DOI 10.7591/cornell/9781501760129.001.0001)",
+   "crossref_doi": "10.7591/cornell/9781501760129.001.0001"
   },
   {
    "id": "meunier2019",
@@ -2641,7 +2714,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (JCMS: Journal of Common Market Studies, 2019; DOI 10.1111/jcms.12932)",
+   "crossref_doi": "10.1111/jcms.12932"
   },
   {
    "id": "bauerle2023",
@@ -2659,7 +2733,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (Global Policy 14(S3): 40-53)"
+   "verified": "Crossref: title and author matched (Global Policy, 2023; DOI 10.1111/1758-5899.13215); also web-verified",
+   "crossref_doi": "10.1111/1758-5899.13215"
   },
   {
    "id": "pearson2022",
@@ -2697,7 +2772,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Oxford University PressNew York, 2023; DOI 10.1093/oso/9780197697528.001.0001)",
+   "crossref_doi": "10.1093/oso/9780197697528.001.0001"
   },
   {
    "id": "norris2016",
@@ -2715,7 +2791,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cornell University Press, 2016; DOI 10.7591/cornell/9780801454493.001.0001)",
+   "crossref_doi": "10.7591/cornell/9780801454493.001.0001"
   },
   {
    "id": "kastner2016",
@@ -2733,7 +2810,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Journal of Conflict Resolution, 2016; DOI 10.1177/0022002714560345)",
+   "crossref_doi": "10.1177/0022002714560345"
   },
   {
    "id": "fuchs2013",
@@ -2751,7 +2829,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Elsevier BV, 2010, earlier working-paper version; DOI 10.2139/ssrn.1694602)",
+   "crossref_doi": "10.2139/ssrn.1694602"
   },
   {
    "id": "floresmacias2013",
@@ -2823,7 +2902,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 1987; DOI 10.1017/s0020818300027600)",
+   "crossref_doi": "10.1017/s0020818300027600"
   },
   {
    "id": "mastanduno2009",
@@ -2857,7 +2937,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2010; DOI 10.1017/cbo9780511676406)",
+   "crossref_doi": "10.1017/cbo9780511676406"
   },
   {
    "id": "drezner2013",
@@ -2892,7 +2973,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2015; DOI 10.1017/cbo9781316109199)",
+   "crossref_doi": "10.1017/cbo9781316109199"
   },
   {
    "id": "ikenberry2018",
@@ -2909,7 +2991,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Affairs, 2018; DOI 10.1093/ia/iix241)",
+   "crossref_doi": "10.1093/ia/iix241"
   },
   {
    "id": "colgan2017",
@@ -2927,7 +3010,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "NOT VERIFIED: Foreign Affairs is not indexed in Crossref; check before citing",
+   "crossref_doi": "10.5070/lp61251594"
   },
   {
    "id": "mearsheimer2019",
@@ -2961,7 +3045,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Security, 2019; DOI 10.1162/isec_a_00360)",
+   "crossref_doi": "10.1162/isec_a_00360"
   },
   {
    "id": "goddard2018",
@@ -3102,7 +3187,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2018; DOI 10.1017/9781108355100)",
+   "crossref_doi": "10.1017/9781108355100"
   },
   {
    "id": "debre2021",
@@ -3119,7 +3205,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (Democratization 28(2))"
+   "verified": "Crossref: title and author matched (Democratization, 2020; DOI 10.1080/13510347.2020.1823970); also web-verified",
+   "crossref_doi": "10.1080/13510347.2020.1823970"
   },
   {
    "id": "ginsburg2020",
@@ -3137,7 +3224,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (American Journal of International Law, 2020; DOI 10.1017/ajil.2020.3)",
+   "crossref_doi": "10.1017/ajil.2020.3"
   },
   {
    "id": "keohane2009",
@@ -3205,7 +3293,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: book exists (title match via 2019 review)",
+   "crossref_doi": "10.1093/ia/iiz150"
   },
   {
    "id": "mayda2006",
@@ -3222,7 +3311,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Elsevier BV, 2004, earlier working-paper version; DOI 10.2139/ssrn.533802)",
+   "crossref_doi": "10.2139/ssrn.533802"
   },
   {
    "id": "hainmueller2010",
@@ -3256,7 +3346,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Elsevier BV, 2013; DOI 10.2139/ssrn.2289270)",
+   "crossref_doi": "10.2139/ssrn.2289270"
   },
   {
    "id": "peters2017",
@@ -3273,7 +3364,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2017; DOI 10.23943/princeton/9780691174488.001.0001)",
+   "crossref_doi": "10.23943/princeton/9780691174488.001.0001"
   },
   {
    "id": "bearce2017",
@@ -3359,7 +3451,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (The Review of International Organizations, 2009; DOI 10.1007/s11558-009-9060-y)",
+   "crossref_doi": "10.1007/s11558-009-9060-y"
   },
   {
    "id": "oatley2011",
@@ -3376,7 +3469,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (International Organization, 2011; DOI 10.1017/s002081831100004x)",
+   "crossref_doi": "10.1017/s002081831100004x"
   },
   {
    "id": "chaudoin2015",
@@ -3411,7 +3505,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (World Politics, 2014; DOI 10.1017/s0043887114000057)",
+   "crossref_doi": "10.1017/s0043887114000057"
   },
   {
    "id": "farrell2016",
@@ -3429,7 +3524,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Review of International Political Economy, 2016; DOI 10.1080/09692290.2016.1247009)",
+   "crossref_doi": "10.1080/09692290.2016.1247009"
   },
   {
    "id": "drezner2013mcnamara",
@@ -3446,7 +3542,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "web-verified this session (PoP 11(1): 155-166)"
+   "verified": "Crossref: title and author matched (Perspectives on Politics, 2013; DOI 10.1017/s1537592712003660); also web-verified",
+   "crossref_doi": "10.1017/s1537592712003660"
   },
   {
    "id": "blyth2017",
@@ -3464,7 +3561,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Review of International Political Economy, 2017; DOI 10.1080/09692290.2017.1308417)",
+   "crossref_doi": "10.1080/09692290.2017.1308417"
   },
   {
    "id": "winecoff2020",
@@ -3482,7 +3580,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (European Journal of International Relations, 2020; DOI 10.1177/1354066120952876)",
+   "crossref_doi": "10.1177/1354066120952876"
   },
   {
    "id": "simmons2004",
@@ -3550,7 +3649,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (American Journal of Political Science, 2007; DOI 10.1111/j.1540-5907.2007.00244.x)",
+   "crossref_doi": "10.1111/j.1540-5907.2007.00244.x"
   },
   {
    "id": "martin2008",
@@ -3567,7 +3667,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Review of Economic Studies, 2008; DOI 10.1111/j.1467-937x.2008.00492.x)",
+   "crossref_doi": "10.1111/j.1467-937x.2008.00492.x"
   },
   {
    "id": "copeland2015",
@@ -3584,7 +3685,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (Princeton University Press, 2014; DOI 10.23943/princeton/9780691161587.001.0001)",
+   "crossref_doi": "10.23943/princeton/9780691161587.001.0001"
   },
   {
    "id": "davis2011",
@@ -3601,7 +3703,8 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "canonical work; bibliographic details from memory, not re-verified this session"
+   "verified": "Crossref: title and author matched (American Journal of Political Science, 2011; DOI 10.1111/j.1540-5907.2010.00507.x)",
+   "crossref_doi": "10.1111/j.1540-5907.2010.00507.x"
   }
  ],
  "edges": [
