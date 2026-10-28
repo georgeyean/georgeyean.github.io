@@ -1,0 +1,2908 @@
+{
+ "meta": {
+  "title": "Chinese politics knowledge network, c. 1986-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates on Chinese politics: elite and cadre politics, central-local relations and the policy process, responsiveness, information control, contention and repression, legitimacy and nationalism, political economy, corruption and law, civil society, environment, historical legacies, the periphery and China in the world. Seeds come from this repo's papers.json; works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (including six China-studies journals) plus anchoring books. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 183,
+   "theme_nodes": 16,
+   "seed_from_papers_json": 35,
+   "crossref_top_cited": 108,
+   "anchors_supplement": 40,
+   "relation_edges": 183,
+   "membership_edges": 297
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other four maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "lieberthal1988",
+   "target": "walder1986",
+   "type": "synthesizes",
+   "why": "Institutional foundations of Chinese politics (contemporaneous)."
+  },
+  {
+   "source": "shirk1993",
+   "target": "lieberthal1988",
+   "type": "builds_on",
+   "why": "Reform politics within fragmented institutions."
+  },
+  {
+   "source": "oi1992",
+   "target": "lieberthal1988",
+   "type": "builds_on",
+   "why": "Local state corporatism as a product of fiscal decentralization."
+  },
+  {
+   "source": "oi1999",
+   "target": "oi1992",
+   "type": "builds_on",
+   "why": "Rural industrialization driven by local officials."
+  },
+  {
+   "source": "montinola1995",
+   "target": "oi1992",
+   "type": "builds_on",
+   "why": "Market-preserving federalism."
+  },
+  {
+   "source": "caitreisman2006",
+   "target": "montinola1995",
+   "type": "challenges",
+   "why": "Decentralization did not cause growth."
+  },
+  {
+   "source": "heilmann2008cj",
+   "target": "lieberthal1988",
+   "type": "challenges",
+   "why": "Experimentation under hierarchy, not just bargaining."
+  },
+  {
+   "source": "heilmann2008",
+   "target": "heilmann2008cj",
+   "type": "synthesizes",
+   "why": "Policy experimentation (companion articles)."
+  },
+  {
+   "source": "heilmannperry2011",
+   "target": "heilmann2008cj",
+   "type": "builds_on",
+   "why": "Maoist roots of adaptive governance."
+  },
+  {
+   "source": "mertha2009",
+   "target": "lieberthal1988",
+   "type": "builds_on",
+   "why": "Fragmented authoritarianism 2.0."
+  },
+  {
+   "source": "zhou2010",
+   "target": "lieberthal1988",
+   "type": "builds_on",
+   "why": "Collusion among local governments."
+  },
+  {
+   "source": "landry2008",
+   "target": "montinola1995",
+   "type": "qualifies",
+   "why": "Decentralization coexists with central cadre control."
+  },
+  {
+   "source": "xu2011",
+   "target": "landry2008",
+   "type": "synthesizes",
+   "why": "Regionally decentralized authoritarianism."
+  },
+  {
+   "source": "kostkanahm2017",
+   "target": "mertha2009",
+   "type": "challenges",
+   "why": "Recentralization under Xi."
+  },
+  {
+   "source": "heilmannmelton2013",
+   "target": "heilmann2008cj",
+   "type": "builds_on",
+   "why": "Planning as coordination."
+  },
+  {
+   "source": "heberer2013",
+   "target": "landry2008",
+   "type": "builds_on",
+   "why": "Evaluation shapes cadre behavior."
+  },
+  {
+   "source": "tan2020",
+   "target": "zhou2010",
+   "type": "builds_on",
+   "why": "Divergent central and local responses to WTO entry."
+  },
+  {
+   "source": "ang2016",
+   "target": "heilmann2008cj",
+   "type": "builds_on",
+   "why": "Directed improvisation."
+  },
+  {
+   "source": "malesky2014",
+   "target": "montinola1995",
+   "type": "synthesizes",
+   "why": "Development in China and Vietnam."
+  },
+  {
+   "source": "lin1992",
+   "target": "oi1999",
+   "type": "synthesizes",
+   "why": "Rural reform and growth (Lin predates)."
+  },
+  {
+   "source": "lizhou2005",
+   "target": "landry2008",
+   "type": "synthesizes",
+   "why": "Promotion incentives (Li-Zhou predates)."
+  },
+  {
+   "source": "shih2008",
+   "target": "shirk1993",
+   "type": "builds_on",
+   "why": "Factional conflict and economic policy."
+  },
+  {
+   "source": "shih2012",
+   "target": "lizhou2005",
+   "type": "challenges",
+   "why": "Factions, not growth, explain promotion."
+  },
+  {
+   "source": "landry2017",
+   "target": "shih2012",
+   "type": "qualifies",
+   "why": "Performance matters lower down."
+  },
+  {
+   "source": "jiang2018",
+   "target": "shih2012",
+   "type": "qualifies",
+   "why": "Patronage and performance interact."
+  },
+  {
+   "source": "luelandry2014",
+   "target": "lizhou2005",
+   "type": "builds_on",
+   "why": "Promotion competition raises extraction."
+  },
+  {
+   "source": "kungchen2011",
+   "target": "lizhou2005",
+   "type": "extends_to_new_case",
+   "why": "Career incentives in the Great Leap Forward."
+  },
+  {
+   "source": "zuo2015",
+   "target": "lizhou2005",
+   "type": "builds_on",
+   "why": "City leader promotion."
+  },
+  {
+   "source": "choi2012",
+   "target": "lizhou2005",
+   "type": "challenges",
+   "why": "Patronage over performance for provincial leaders."
+  },
+  {
+   "source": "gao2015",
+   "target": "heberer2013",
+   "type": "builds_on",
+   "why": "Manipulation of evaluation targets."
+  },
+  {
+   "source": "koutsai2014",
+   "target": "landry2008",
+   "type": "builds_on",
+   "why": "Age rules in cadre careers."
+  },
+  {
+   "source": "nathan2003",
+   "target": "shirk1993",
+   "type": "builds_on",
+   "why": "Institutionalization explains resilience."
+  },
+  {
+   "source": "chenzhang2021",
+   "target": "lizhou2005",
+   "type": "builds_on",
+   "why": "Promotion calendars shape tax policy."
+  },
+  {
+   "source": "zhuzhang2016",
+   "target": "shih2012",
+   "type": "builds_on",
+   "why": "Anticorruption as factional weapon."
+  },
+  {
+   "source": "zweigwang2013",
+   "target": "landry2008",
+   "type": "extends_to_new_case",
+   "why": "Cadre management of talent recruitment."
+  },
+  {
+   "source": "chenpanxu2016",
+   "target": "tsai2007",
+   "type": "builds_on",
+   "why": "Authoritarian responsiveness."
+  },
+  {
+   "source": "distelhorst2017",
+   "target": "chenpanxu2016",
+   "type": "builds_on",
+   "why": "Constituency service."
+  },
+  {
+   "source": "meng2017",
+   "target": "chenpanxu2016",
+   "type": "qualifies",
+   "why": "Receptivity conditional on threat."
+  },
+  {
+   "source": "truex2014",
+   "target": "nathan2003",
+   "type": "builds_on",
+   "why": "Co-optation through the NPC."
+  },
+  {
+   "source": "truex2016book",
+   "target": "truex2014",
+   "type": "builds_on",
+   "why": "Representation without democracy."
+  },
+  {
+   "source": "truex2016",
+   "target": "truex2016book",
+   "type": "synthesizes",
+   "why": "Consultative authoritarianism (same author)."
+  },
+  {
+   "source": "teets2013",
+   "target": "mertha2009",
+   "type": "builds_on",
+   "why": "Consultative authoritarianism and civil society."
+  },
+  {
+   "source": "hethogersen2010",
+   "target": "nathan2003",
+   "type": "builds_on",
+   "why": "Consultative institutions as adaptation."
+  },
+  {
+   "source": "fishkin2010",
+   "target": "hethogersen2010",
+   "type": "mechanism_tested_by",
+   "why": "Deliberative polling in a township."
+  },
+  {
+   "source": "fudistelhorst2018",
+   "target": "teets2013",
+   "type": "challenges",
+   "why": "Repression of organized participation under Xi."
+  },
+  {
+   "source": "xuyao2015",
+   "target": "tsai2007",
+   "type": "builds_on",
+   "why": "Lineages enable collective action for public goods."
+  },
+  {
+   "source": "obrienhan2009",
+   "target": "tsai2007",
+   "type": "synthesizes",
+   "why": "Village elections and accountability."
+  },
+  {
+   "source": "dickson2016",
+   "target": "nathan2003",
+   "type": "builds_on",
+   "why": "Survival through mixed strategies."
+  },
+  {
+   "source": "dengkennedy2010",
+   "target": "mertha2009",
+   "type": "builds_on",
+   "why": "Business lobbying in the policy process."
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "shambaugh2007",
+   "type": "challenges",
+   "why": "Censorship targets collective action, not criticism."
+  },
+  {
+   "source": "king2017",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Fabrication for distraction."
+  },
+  {
+   "source": "lorentzen2014",
+   "target": "lorentzen2013",
+   "type": "builds_on",
+   "why": "Strategic censorship for information."
+  },
+  {
+   "source": "roberts2018",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Porous censorship through friction and flooding."
+  },
+  {
+   "source": "brady2008",
+   "target": "shambaugh2007",
+   "type": "synthesizes",
+   "why": "Propaganda system rebuilt after 1989."
+  },
+  {
+   "source": "stockmann2011",
+   "target": "brady2008",
+   "type": "builds_on",
+   "why": "Commercial media sustain rule."
+  },
+  {
+   "source": "mackinnon2011",
+   "target": "kingpanroberts2013",
+   "type": "synthesizes",
+   "why": "Networked authoritarianism (MacKinnon predates)."
+  },
+  {
+   "source": "creemers2016",
+   "target": "mackinnon2011",
+   "type": "builds_on",
+   "why": "Digital upgrading of propaganda."
+  },
+  {
+   "source": "repnikova2018",
+   "target": "brady2008",
+   "type": "builds_on",
+   "why": "Participatory persuasion."
+  },
+  {
+   "source": "han2015",
+   "target": "king2017",
+   "type": "synthesizes",
+   "why": "Voluntary and paid online commentators."
+  },
+  {
+   "source": "tai2014",
+   "target": "kingpanroberts2013",
+   "type": "qualifies",
+   "why": "Censorship varies by issue and time."
+  },
+  {
+   "source": "cairns2016",
+   "target": "kingpanroberts2013",
+   "type": "mechanism_tested_by",
+   "why": "Collective-action censorship during a nationalist crisis."
+  },
+  {
+   "source": "wallace2014",
+   "target": "lorentzen2014",
+   "type": "builds_on",
+   "why": "Information problems from manipulated statistics."
+  },
+  {
+   "source": "panchen2018",
+   "target": "wallace2014",
+   "type": "builds_on",
+   "why": "Concealment in upward reporting."
+  },
+  {
+   "source": "yang2024",
+   "target": "roberts2018",
+   "type": "synthesizes",
+   "why": "Autocracy 2.0 controls through information."
+  },
+  {
+   "source": "huang2015",
+   "target": "stockmann2011",
+   "type": "qualifies",
+   "why": "International knowledge weakens propaganda effects."
+  },
+  {
+   "source": "mattingly2025",
+   "target": "brady2008",
+   "type": "extends_to_new_case",
+   "why": "Propaganda aimed at global audiences."
+  },
+  {
+   "source": "obrienli2006",
+   "target": "walder1986",
+   "type": "builds_on",
+   "why": "Rightful resistance using regime commitments."
+  },
+  {
+   "source": "lee2007",
+   "target": "obrienli2006",
+   "type": "synthesizes",
+   "why": "Labor protest within the law."
+  },
+  {
+   "source": "chen2012",
+   "target": "obrienli2006",
+   "type": "builds_on",
+   "why": "Contentious bargaining through petitions."
+  },
+  {
+   "source": "lorentzen2013",
+   "target": "chen2012",
+   "type": "synthesizes",
+   "why": "Tolerated protest as information."
+  },
+  {
+   "source": "cai2008bjps",
+   "target": "obrienli2006",
+   "type": "builds_on",
+   "why": "Central-local divisions shape protest outcomes."
+  },
+  {
+   "source": "cai2008cq",
+   "target": "cai2008bjps",
+   "type": "builds_on",
+   "why": "Local suppression of resistance."
+  },
+  {
+   "source": "channgai2009",
+   "target": "lee2007",
+   "type": "builds_on",
+   "why": "Migrant worker collective action."
+  },
+  {
+   "source": "chanhui2013",
+   "target": "channgai2009",
+   "type": "builds_on",
+   "why": "From bargaining by riot to party-led bargaining."
+  },
+  {
+   "source": "fu2016",
+   "target": "obrienli2006",
+   "type": "builds_on",
+   "why": "Disguised collective action."
+  },
+  {
+   "source": "li2008",
+   "target": "obrienli2006",
+   "type": "mechanism_tested_by",
+   "why": "Trust in the center among petitioners."
+  },
+  {
+   "source": "steinhardtwu2016",
+   "target": "mertha2009",
+   "type": "builds_on",
+   "why": "Environmental protest and the policy process."
+  },
+  {
+   "source": "dengobrien2013",
+   "target": "cai2008cq",
+   "type": "builds_on",
+   "why": "Relational repression."
+  },
+  {
+   "source": "wangminzner2015",
+   "target": "greitens2016",
+   "type": "synthesizes",
+   "why": "Security state expansion (contemporaneous)."
+  },
+  {
+   "source": "greitens2020",
+   "target": "greitens2016",
+   "type": "builds_on",
+   "why": "Preventive repression in Xinjiang."
+  },
+  {
+   "source": "leibold2019",
+   "target": "greitens2020",
+   "type": "synthesizes",
+   "why": "Surveillance in Xinjiang (contemporaneous)."
+  },
+  {
+   "source": "kanghan2008",
+   "target": "teets2013",
+   "type": "synthesizes",
+   "why": "Graduated controls on organizations (Kang-Han predates)."
+  },
+  {
+   "source": "rithmire2023",
+   "target": "pei2016",
+   "type": "builds_on",
+   "why": "Mutual endangerment of party and capital."
+  },
+  {
+   "source": "zhu2011",
+   "target": "nathan2003",
+   "type": "qualifies",
+   "why": "Performance legitimacy is fragile."
+  },
+  {
+   "source": "li2016",
+   "target": "li2008",
+   "type": "builds_on",
+   "why": "Hierarchy of trust across surveys."
+  },
+  {
+   "source": "jiangyang2016",
+   "target": "li2016",
+   "type": "qualifies",
+   "why": "Preference falsification inflates measured support."
+  },
+  {
+   "source": "pei2006",
+   "target": "nathan2003",
+   "type": "challenges",
+   "why": "Trapped transition, not resilience."
+  },
+  {
+   "source": "perry2007",
+   "target": "nathan2003",
+   "type": "synthesizes",
+   "why": "Revolutionary legacies in governance."
+  },
+  {
+   "source": "kennedy2010",
+   "target": "mcnally2012",
+   "type": "synthesizes",
+   "why": "Is there a China model? (Kennedy predates)."
+  },
+  {
+   "source": "panxu2018",
+   "target": "li2016",
+   "type": "builds_on",
+   "why": "Ideological structure of opinion."
+  },
+  {
+   "source": "dickson2016",
+   "target": "pei2006",
+   "type": "challenges",
+   "why": "Real popular support for the regime."
+  },
+  {
+   "source": "wang2019",
+   "target": "kungchen2011",
+   "type": "builds_on",
+   "why": "Legacies of Maoist violence."
+  },
+  {
+   "source": "yang2024",
+   "target": "dickson2016",
+   "type": "builds_on",
+   "why": "Survival strategies of a sophisticated autocracy."
+  },
+  {
+   "source": "wang2012",
+   "target": "brady2008",
+   "type": "builds_on",
+   "why": "Patriotic education and nationalism."
+  },
+  {
+   "source": "weiss2013",
+   "target": "wang2012",
+   "type": "builds_on",
+   "why": "Nationalist protest as signaling."
+  },
+  {
+   "source": "weiss2014",
+   "target": "weiss2013",
+   "type": "builds_on",
+   "why": "Powerful patriots."
+  },
+  {
+   "source": "johnston2017",
+   "target": "wang2012",
+   "type": "challenges",
+   "why": "Little evidence of rising nationalism."
+  },
+  {
+   "source": "gries2011",
+   "target": "wang2012",
+   "type": "qualifies",
+   "why": "Nationalism versus patriotism."
+  },
+  {
+   "source": "weiss2019jcc",
+   "target": "johnston2017",
+   "type": "qualifies",
+   "why": "Hawkish but not more nationalist."
+  },
+  {
+   "source": "zhao2013",
+   "target": "wang2012",
+   "type": "builds_on",
+   "why": "Strident turn in nationalism."
+  },
+  {
+   "source": "weissdafoe2019",
+   "target": "weiss2013",
+   "type": "builds_on",
+   "why": "Audience costs in China."
+  },
+  {
+   "source": "quek2018",
+   "target": "weiss2013",
+   "type": "qualifies",
+   "why": "Face-saving de-escalation."
+  },
+  {
+   "source": "johnston2013",
+   "target": "zhao2013",
+   "type": "challenges",
+   "why": "Assertiveness overstated."
+  },
+  {
+   "source": "christensen2006",
+   "target": "johnston2003",
+   "type": "synthesizes",
+   "why": "Trend analysis of Beijing's use of force (contemporaneous)."
+  },
+  {
+   "source": "naughton2007",
+   "target": "shirk1993",
+   "type": "builds_on",
+   "why": "Economic logic of gradual reform."
+  },
+  {
+   "source": "huang2008",
+   "target": "oi1999",
+   "type": "challenges",
+   "why": "Private rural entrepreneurs, not local states, drove growth."
+  },
+  {
+   "source": "ktsai2007",
+   "target": "dickson2007",
+   "type": "synthesizes",
+   "why": "Entrepreneurs adapt rather than democratize."
+  },
+  {
+   "source": "chendickson2008",
+   "target": "dickson2007",
+   "type": "builds_on",
+   "why": "Entrepreneurs as allies of the state."
+  },
+  {
+   "source": "gallagher2005",
+   "target": "shirk1993",
+   "type": "builds_on",
+   "why": "Globalization reformed labor before politics."
+  },
+  {
+   "source": "song2011",
+   "target": "naughton2007",
+   "type": "builds_on",
+   "why": "Formal model of private-SOE reallocation."
+  },
+  {
+   "source": "mcnally2012",
+   "target": "naughton2007",
+   "type": "builds_on",
+   "why": "Sino-capitalism."
+  },
+  {
+   "source": "brodsgaard2012",
+   "target": "landry2008",
+   "type": "extends_to_new_case",
+   "why": "Party control of business groups."
+  },
+  {
+   "source": "angjia2014",
+   "target": "ktsai2007",
+   "type": "builds_on",
+   "why": "Connections and courts as complements."
+  },
+  {
+   "source": "zhu2016",
+   "target": "wedeman2012",
+   "type": "builds_on",
+   "why": "Multinational rents and corruption."
+  },
+  {
+   "source": "stone2021",
+   "target": "pearson2022",
+   "type": "synthesizes",
+   "why": "SOEs and state power abroad (contemporaneous)."
+  },
+  {
+   "source": "pearson2022",
+   "target": "rithmire2023",
+   "type": "synthesizes",
+   "why": "Party-state capitalism (contemporaneous)."
+  },
+  {
+   "source": "ong2014",
+   "target": "hsing2006",
+   "type": "builds_on",
+   "why": "Land revenue and urbanization."
+  },
+  {
+   "source": "kim2018media",
+   "target": "brady2008",
+   "type": "extends_to_new_case",
+   "why": "Media as a protectionist tool."
+  },
+  {
+   "source": "jiang2018",
+   "target": "xu2011",
+   "type": "builds_on",
+   "why": "Personnel networks and local growth."
+  },
+  {
+   "source": "wedeman2012",
+   "target": "pei2006",
+   "type": "challenges",
+   "why": "Corruption followed growth and was contained."
+  },
+  {
+   "source": "pei2016",
+   "target": "pei2006",
+   "type": "builds_on",
+   "why": "Crony capitalism and regime decay."
+  },
+  {
+   "source": "manion2004",
+   "target": "wedeman2012",
+   "type": "synthesizes",
+   "why": "Breaking corruption equilibria (Manion predates)."
+  },
+  {
+   "source": "li2010",
+   "target": "manion2004",
+   "type": "builds_on",
+   "why": "Guanxi practices in bribery."
+  },
+  {
+   "source": "zhuzhang2016",
+   "target": "manion2004",
+   "type": "qualifies",
+   "why": "Anticorruption as factional weapon."
+  },
+  {
+   "source": "sng2014",
+   "target": "manion2004",
+   "type": "extends_to_new_case",
+   "why": "Imperial principal-agent problems."
+  },
+  {
+   "source": "hsuhasmath2014",
+   "target": "teets2013",
+   "type": "builds_on",
+   "why": "Local corporatism and NGOs."
+  },
+  {
+   "source": "shieh2011",
+   "target": "teets2013",
+   "type": "synthesizes",
+   "why": "Earthquake and civil society (Shieh-Deng predates)."
+  },
+  {
+   "source": "hildebrandt2011",
+   "target": "kanghan2008",
+   "type": "builds_on",
+   "why": "Registration as control."
+  },
+  {
+   "source": "eatonkostka2014",
+   "target": "zhou2010",
+   "type": "builds_on",
+   "why": "Time horizons undermine environmental policy."
+  },
+  {
+   "source": "ran2017",
+   "target": "zhou2010",
+   "type": "builds_on",
+   "why": "Blame politics in decentralized governance."
+  },
+  {
+   "source": "vanrooij2017",
+   "target": "kostkanahm2017",
+   "type": "synthesizes",
+   "why": "Centralization and enforcement."
+  },
+  {
+   "source": "kostkahobbs2012",
+   "target": "zhou2010",
+   "type": "builds_on",
+   "why": "Implementation through interest bundling."
+  },
+  {
+   "source": "lorentzen2014jop",
+   "target": "kostkahobbs2012",
+   "type": "builds_on",
+   "why": "Industrial giants undermine transparency."
+  },
+  {
+   "source": "wang2022book",
+   "target": "wang2022",
+   "type": "builds_on",
+   "why": "The sovereign's dilemma across dynasties."
+  },
+  {
+   "source": "sng2014",
+   "target": "wang2022book",
+   "type": "synthesizes",
+   "why": "Imperial state weakness (Sng predates)."
+  },
+  {
+   "source": "veg2017",
+   "target": "fong2017",
+   "type": "synthesizes",
+   "why": "Hong Kong localism and identity."
+  },
+  {
+   "source": "kaeding2017",
+   "target": "veg2017",
+   "type": "synthesizes",
+   "why": "Rise of localism."
+  },
+  {
+   "source": "cheng2016",
+   "target": "obrienli2006",
+   "type": "extends_to_new_case",
+   "why": "Street politics in Hong Kong."
+  },
+  {
+   "source": "manion2004",
+   "target": "cheng2016",
+   "type": "synthesizes",
+   "why": "Hong Kong governance (Manion predates)."
+  },
+  {
+   "source": "fravel2008",
+   "target": "christensen2006",
+   "type": "synthesizes",
+   "why": "Territorial disputes and the use of force."
+  },
+  {
+   "source": "glaser2015",
+   "target": "fravel2008",
+   "type": "builds_on",
+   "why": "Taiwan and maritime disputes."
+  },
+  {
+   "source": "greentalmadge2022",
+   "target": "glaser2015",
+   "type": "challenges",
+   "why": "Taiwan's military value."
+  },
+  {
+   "source": "zweig2002",
+   "target": "shirk1993",
+   "type": "builds_on",
+   "why": "Domestic channels of internationalization."
+  },
+  {
+   "source": "johnston2003",
+   "target": "zweig2002",
+   "type": "synthesizes",
+   "why": "China's integration into institutions."
+  },
+  {
+   "source": "kastner2016ss",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "Strategic context shapes multilateralism."
+  },
+  {
+   "source": "wuthnow2012",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "Four multilateral strategies."
+  },
+  {
+   "source": "johnston2019",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "China in a world of orders."
+  },
+  {
+   "source": "weiss2021",
+   "target": "johnston2019",
+   "type": "builds_on",
+   "why": "Domestic sources of China's order engagement."
+  },
+  {
+   "source": "weiss2019ssrn",
+   "target": "weiss2021",
+   "type": "synthesizes",
+   "why": "China defends autocracy without exporting it."
+  },
+  {
+   "source": "bader2014",
+   "target": "weiss2019ssrn",
+   "type": "synthesizes",
+   "why": "Little systematic autocratic patronage (Bader predates)."
+  },
+  {
+   "source": "kastnerpearson2021",
+   "target": "kastner2016",
+   "type": "builds_on",
+   "why": "Conceptualizing economic influence."
+  },
+  {
+   "source": "fung2023",
+   "target": "kastnerpearson2021",
+   "type": "builds_on",
+   "why": "Conditions on China's influence."
+  },
+  {
+   "source": "kastner2016",
+   "target": "floresmacias2013",
+   "type": "challenges",
+   "why": "Trade buys little influence."
+  },
+  {
+   "source": "fuchs2013",
+   "target": "floresmacias2013",
+   "type": "synthesizes",
+   "why": "Trade punishment and alignment."
+  },
+  {
+   "source": "lim2022",
+   "target": "fuchs2013",
+   "type": "builds_on",
+   "why": "Informal economic coercion."
+  },
+  {
+   "source": "kim2025refusals",
+   "target": "lim2022",
+   "type": "builds_on",
+   "why": "Import refusals as retribution."
+  },
+  {
+   "source": "norris2016",
+   "target": "kastnerpearson2021",
+   "type": "synthesizes",
+   "why": "State control of commercial actors (Norris predates)."
+  },
+  {
+   "source": "yu2016",
+   "target": "mcnally2012",
+   "type": "builds_on",
+   "why": "Belt and Road motives."
+  },
+  {
+   "source": "zhouesteban2018",
+   "target": "yu2016",
+   "type": "builds_on",
+   "why": "Beyond balancing."
+  },
+  {
+   "source": "dreher2018",
+   "target": "bader2014",
+   "type": "builds_on",
+   "why": "Political allocation of Chinese aid."
+  },
+  {
+   "source": "dreher2022",
+   "target": "dreher2018",
+   "type": "builds_on",
+   "why": "Global Chinese finance."
+  },
+  {
+   "source": "qian2023",
+   "target": "broz2020china",
+   "type": "synthesizes",
+   "why": "Chinese institutions as outside options."
+  },
+  {
+   "source": "broz2020china",
+   "target": "schwellerpu2011",
+   "type": "builds_on",
+   "why": "Followers of China's leadership."
+  },
+  {
+   "source": "liaomcdowell2015",
+   "target": "mcnally2012",
+   "type": "extends_to_new_case",
+   "why": "Renminbi internationalization."
+  },
+  {
+   "source": "kaplan2016",
+   "target": "dreher2018",
+   "type": "synthesizes",
+   "why": "Conditionality-free Chinese lending (Kaplan predates)."
+  },
+  {
+   "source": "hartig2011",
+   "target": "brady2008",
+   "type": "extends_to_new_case",
+   "why": "Soft power abroad."
+  },
+  {
+   "source": "lee2009",
+   "target": "gallagher2005",
+   "type": "extends_to_new_case",
+   "why": "Chinese labor practices abroad."
+  },
+  {
+   "source": "kuik2016",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "Hedging toward China."
+  },
+  {
+   "source": "christensen2006is",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "Managing China's rise."
+  },
+  {
+   "source": "goldstein2020",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "Strategy under Xi."
+  },
+  {
+   "source": "kastnersaunders2012",
+   "target": "johnston2003",
+   "type": "builds_on",
+   "why": "Status quo orientation measured."
+  },
+  {
+   "source": "lin2024",
+   "target": "kastnersaunders2012",
+   "type": "builds_on",
+   "why": "Status contestation in official statements."
+  },
+  {
+   "source": "malkin2020",
+   "target": "mcnally2012",
+   "type": "builds_on",
+   "why": "Industrial policy and structural power."
+  },
+  {
+   "source": "cunninghamfravel2019",
+   "target": "christensen2006",
+   "type": "builds_on",
+   "why": "Chinese views on escalation."
+  },
+  {
+   "source": "lindpress2018",
+   "target": "yu2016",
+   "type": "synthesizes",
+   "why": "Energy security and China's outward strategy."
+  },
+  {
+   "source": "gilli2019",
+   "target": "malkin2020",
+   "type": "synthesizes",
+   "why": "Limits of technological catch-up."
+  },
+  {
+   "source": "tan2020",
+   "target": "zweig2002",
+   "type": "builds_on",
+   "why": "Domestic politics of WTO entry."
+  },
+  {
+   "source": "stone2021",
+   "target": "norris2016",
+   "type": "builds_on",
+   "why": "State control of firms abroad."
+  },
+  {
+   "source": "hsing2006",
+   "target": "oi1999",
+   "type": "builds_on",
+   "why": "Land as the base of local state power."
+  },
+  {
+   "source": "smith2010",
+   "target": "kennedy2007",
+   "type": "builds_on",
+   "why": "Hollow rural state after tax reform."
+  },
+  {
+   "source": "kennedy2007",
+   "target": "oi1999",
+   "type": "builds_on",
+   "why": "Tax reform and township finances."
+  },
+  {
+   "source": "wingchan2008",
+   "target": "hsing2006",
+   "type": "synthesizes",
+   "why": "Hukou and urbanization."
+  },
+  {
+   "source": "obrienli2006",
+   "target": "kennedy2007",
+   "type": "synthesizes",
+   "why": "Rural grievances and governance."
+  },
+  {
+   "source": "walder1986",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walder1986",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberthal1988",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shirk1993",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shirk1993",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oi1992",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oi1992",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oi1999",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oi1999",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lin1992",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lin1992",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heilmannperry2011",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heilmannperry2011",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landry2008",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landry2008",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montinola1995",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montinola1995",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lizhou2005",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2011",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2011",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heilmann2008",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heilmann2008cj",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mertha2009",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mertha2009",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caitreisman2006",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caitreisman2006",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhou2010",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostkanahm2017",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostkanahm2017",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heilmannmelton2013",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heilmannmelton2013",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heberer2013",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heberer2013",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tan2020",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tan2020",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shih2008",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shih2008",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shih2012",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landry2017",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jiang2018",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jiang2018",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenzhang2021",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenzhang2021",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luelandry2014",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luelandry2014",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kungchen2011",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kungchen2011",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zuo2015",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "choi2012",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gao2015",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gao2015",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koutsai2014",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zweigwang2013",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zweigwang2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nathan2003",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nathan2003",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhuzhang2016",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhuzhang2016",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenpanxu2016",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "distelhorst2017",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meng2017",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "truex2014",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "truex2014",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "truex2016",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsai2007",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsai2007",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "truex2016book",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "teets2013",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "teets2013",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hethogersen2010",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fishkin2010",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fudistelhorst2018",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fudistelhorst2018",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xuyao2015",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xuyao2015",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obrienhan2009",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obrienhan2009",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king2017",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stockmann2011",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wallace2014",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wallace2014",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panchen2018",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panchen2018",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brady2008",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brady2008",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roberts2018",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shambaugh2007",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shambaugh2007",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mackinnon2011",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "creemers2016",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "creemers2016",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "repnikova2018",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "han2015",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tai2014",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cairns2016",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cairns2016",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2025",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2025",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yang2024",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yang2024",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obrienli2006",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obrienli2006",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2007",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chen2012",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chen2012",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2013",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2013",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cai2008bjps",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cai2008bjps",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cai2008cq",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cai2008cq",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "channgai2009",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chanhui2013",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chanhui2013",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fu2016",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "li2008",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "li2008",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinhardtwu2016",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinhardtwu2016",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2016",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wangminzner2015",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dengobrien2013",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dengobrien2013",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leibold2019",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leibold2019",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2020",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2020",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kanghan2008",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kanghan2008",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dickson2016",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dickson2016",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pei2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pei2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhu2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "li2016",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jiangyang2016",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jiangyang2016",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perry2007",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perry2007",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2015",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2015",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedy2010",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedy2010",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panxu2018",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2012",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2012",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2014",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2014",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2013",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2013",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2017",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2013",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gries2011",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2019jcc",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhao2013",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhao2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weissdafoe2019",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quek2018",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "naughton2007",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2008",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2008",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ktsai2007",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ktsai2007",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gallagher2005",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gallagher2005",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ang2016",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ang2016",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "song2011",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2014",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2014",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcnally2012",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcnally2012",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dickson2007",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dickson2007",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chendickson2008",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chendickson2008",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brodsgaard2012",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brodsgaard2012",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dengkennedy2010",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dengkennedy2010",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "angjia2014",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "angjia2014",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhu2016",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhu2016",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2021",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2021",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ong2014",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ong2014",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearson2022",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearson2022",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018media",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018media",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manion2004",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manion2004",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wedeman2012",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wedeman2012",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pei2016",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pei2016",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "li2010",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hsuhasmath2014",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hsuhasmath2014",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shieh2011",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hildebrandt2011",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eatonkostka2014",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eatonkostka2014",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ran2017",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ran2017",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanrooij2017",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanrooij2017",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostkahobbs2012",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kostkahobbs2012",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014jop",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lorentzen2014jop",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2022book",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2022book",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2022",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2022",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sng2014",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sng2014",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2019",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2019",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "veg2017",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kaeding2017",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fong2017",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fong2017",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cheng2016",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cheng2016",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zweig2002",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zweig2002",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen2006",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen2006",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastner2016ss",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastnerpearson2021",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastnerpearson2021",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2019ssrn",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2019ssrn",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wuthnow2012",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fung2023",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen2006is",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuik2016",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yu2016",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yu2016",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhouesteban2018",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bader2014",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bader2014",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liaomcdowell2015",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liaomcdowell2015",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hartig2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hartig2011",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kaplan2016",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kaplan2016",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2009",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2009",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2003",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2019",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2021",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broz2020china",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "qian2023",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2018",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2022",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dreher2022",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lim2022",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2016",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2016",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2025refusals",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "floresmacias2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastner2016",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fuchs2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwellerpu2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravel2008",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravel2008",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldstein2020",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastnersaunders2012",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lin2024",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lin2024",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malkin2020",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malkin2020",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cunninghamfravel2019",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greentalmadge2022",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greentalmadge2022",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glaser2015",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glaser2015",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindpress2018",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilli2019",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wingchan2008",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hsing2006",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hsing2006",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2010",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2010",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedy2007",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedy2007",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}
