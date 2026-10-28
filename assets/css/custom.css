@@ -29,7 +29,7 @@
 }
 
 .blurb p {
-    font-size: 1.1em;
+    font-size: 1.045em;
 }
 
 #intro header p {
@@ -256,7 +256,7 @@
 
     /* Slightly more breathing room in the about blurb */
     .blurb p {
-        font-size: 1.13em;
+        font-size: 1.07em;
         line-height: 1.85;
     }
 
