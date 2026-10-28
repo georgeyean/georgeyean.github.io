@@ -1,0 +1,6688 @@
+{
+ "meta": {
+  "title": "Political theory knowledge network, c. 1755-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in political theory: distributive justice and equality, ideal and nonideal theory and realism, legitimacy and public reason, deliberative democracy, representation, epistemic democracy and epistemic injustice, republicanism and domination, global justice and human rights, migration and the boundary problem, race and colonialism, feminist theory, multiculturalism and recognition, the history of political thought, critical theory and radical democracy, populism, work and the economy, and climate and intergenerational justice. Seeds come from this repo's papers.json (including the Gov Theory reading list); works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (including fourteen political-theory and philosophy journals) plus anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 407,
+   "theme_nodes": 17,
+   "seed_from_papers_json": 41,
+   "crossref_top_cited": 268,
+   "anchors_supplement": 98,
+   "relation_edges": 449,
+   "membership_edges": 661
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other six maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "rawls1971",
+   "target": "rawls1955",
+   "type": "builds_on",
+   "why": "Practice-based reasoning behind justice as fairness."
+  },
+  {
+   "source": "rawls1971",
+   "target": "rousseau1755",
+   "type": "builds_on",
+   "why": "Contract tradition and concern with inequality."
+  },
+  {
+   "source": "nozick1974",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Entitlement theory against patterned justice."
+  },
+  {
+   "source": "sen1980",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Capabilities, not primary goods."
+  },
+  {
+   "source": "dworkin1981",
+   "target": "rawls1971",
+   "type": "builds_on",
+   "why": "Ambition-sensitive equality of resources."
+  },
+  {
+   "source": "cohen1989",
+   "target": "dworkin1981",
+   "type": "builds_on",
+   "why": "Access to advantage refines resource equality."
+  },
+  {
+   "source": "arneson1989",
+   "target": "dworkin1981",
+   "type": "challenges",
+   "why": "Opportunity for welfare instead of resources."
+  },
+  {
+   "source": "frankfurt1987",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Sufficiency rather than equality."
+  },
+  {
+   "source": "walzer1983",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Complex equality and shared meanings."
+  },
+  {
+   "source": "cohen1992",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Incentive argument for the difference principle fails."
+  },
+  {
+   "source": "anderson1999",
+   "target": "cohen1989",
+   "type": "challenges",
+   "why": "Democratic equality against luck egalitarianism."
+  },
+  {
+   "source": "anderson1999",
+   "target": "arneson1989",
+   "type": "challenges",
+   "why": "Against equal opportunity for welfare."
+  },
+  {
+   "source": "scheffler2003",
+   "target": "anderson1999",
+   "type": "builds_on",
+   "why": "Equality as a social ideal."
+  },
+  {
+   "source": "cohen2008",
+   "target": "cohen1992",
+   "type": "synthesizes",
+   "why": "Book-length rescue of equality from Rawls."
+  },
+  {
+   "source": "nussbaum2000",
+   "target": "sen1980",
+   "type": "builds_on",
+   "why": "A list of central capabilities."
+  },
+  {
+   "source": "sen2009",
+   "target": "sen1980",
+   "type": "builds_on",
+   "why": "Capabilities in a comparative theory of justice."
+  },
+  {
+   "source": "robeyns2006",
+   "target": "nussbaum2000",
+   "type": "synthesizes",
+   "why": "Capability approach in practice."
+  },
+  {
+   "source": "nelson2008",
+   "target": "nussbaum2000",
+   "type": "challenges",
+   "why": "Capabilities face neutrality problems."
+  },
+  {
+   "source": "casal2007",
+   "target": "frankfurt1987",
+   "type": "challenges",
+   "why": "Sufficiency is not enough."
+  },
+  {
+   "source": "huseby2010",
+   "target": "frankfurt1987",
+   "type": "builds_on",
+   "why": "Restates sufficientarianism."
+  },
+  {
+   "source": "axelsennielsen2015",
+   "target": "huseby2010",
+   "type": "builds_on",
+   "why": "Sufficiency as freedom from duress."
+  },
+  {
+   "source": "oneill2008",
+   "target": "scheffler2003",
+   "type": "builds_on",
+   "why": "Non-intrinsic egalitarianism."
+  },
+  {
+   "source": "schemmel2011",
+   "target": "anderson1999",
+   "type": "qualifies",
+   "why": "Relational equality still cares about distribution."
+  },
+  {
+   "source": "fourie2012",
+   "target": "anderson1999",
+   "type": "builds_on",
+   "why": "Social equality as status equality."
+  },
+  {
+   "source": "otsukavoorhoeve2009",
+   "target": "frankfurt1987",
+   "type": "synthesizes",
+   "why": "Priority and the worse off."
+  },
+  {
+   "source": "otsukavoorhoeve2009",
+   "target": "brighouseswift2006",
+   "type": "synthesizes",
+   "why": "Positional goods and priority."
+  },
+  {
+   "source": "anderson2007",
+   "target": "anderson1999",
+   "type": "extends_to_new_case",
+   "why": "Democratic equality in education."
+  },
+  {
+   "source": "satz2007",
+   "target": "anderson2007",
+   "type": "synthesizes",
+   "why": "Educational adequacy for citizenship."
+  },
+  {
+   "source": "robeyns2022",
+   "target": "frankfurt1987",
+   "type": "extends_to_new_case",
+   "why": "An upper threshold: limitarianism."
+  },
+  {
+   "source": "carter2011",
+   "target": "rawls1971",
+   "type": "builds_on",
+   "why": "Basis of equality."
+  },
+  {
+   "source": "waldron2017",
+   "target": "carter2011",
+   "type": "builds_on",
+   "why": "Defense of basic human equality."
+  },
+  {
+   "source": "scanlon2018",
+   "target": "scheffler2003",
+   "type": "synthesizes",
+   "why": "Pluralist reasons inequality matters."
+  },
+  {
+   "source": "fishkin2014",
+   "target": "rawls1971",
+   "type": "qualifies",
+   "why": "Equal opportunity reconceived as bottlenecks."
+  },
+  {
+   "source": "mankiw2013",
+   "target": "cohen1992",
+   "type": "challenges",
+   "why": "Just deserts for top earners."
+  },
+  {
+   "source": "vallentyne2008",
+   "target": "cohen1989",
+   "type": "synthesizes",
+   "why": "Clarifies luck and responsibility."
+  },
+  {
+   "source": "nussbaum2011",
+   "target": "rawls1993",
+   "type": "builds_on",
+   "why": "Political over perfectionist liberalism."
+  },
+  {
+   "source": "okin1989",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "The family belongs in the basic structure."
+  },
+  {
+   "source": "young1990",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Justice is about oppression, not only distribution."
+  },
+  {
+   "source": "barry2001",
+   "target": "young1990",
+   "type": "challenges",
+   "why": "Egalitarian critique of the politics of difference."
+  },
+  {
+   "source": "lovett2010",
+   "target": "pettit1997",
+   "type": "builds_on",
+   "why": "Justice as minimizing domination."
+  },
+  {
+   "source": "mills2005",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Ideal theory serves the privileged."
+  },
+  {
+   "source": "sen2006",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Comparative rather than transcendental justice."
+  },
+  {
+   "source": "cohen2008",
+   "target": "rawls1993",
+   "type": "challenges",
+   "why": "Fact-insensitive principles of justice."
+  },
+  {
+   "source": "simmons2010",
+   "target": "rawls1971",
+   "type": "builds_on",
+   "why": "Ideal theory guides nonideal theory."
+  },
+  {
+   "source": "simmons2010",
+   "target": "sen2006",
+   "type": "challenges",
+   "why": "Targets are needed for comparisons."
+  },
+  {
+   "source": "valentini2009",
+   "target": "sen2006",
+   "type": "synthesizes",
+   "why": "Disentangles senses of ideal theory."
+  },
+  {
+   "source": "estlund2011",
+   "target": "cohen2008",
+   "type": "builds_on",
+   "why": "Justice need not bend to motivation."
+  },
+  {
+   "source": "estlund2014",
+   "target": "estlund2011",
+   "type": "builds_on",
+   "why": "Against utopophobia."
+  },
+  {
+   "source": "williams2005",
+   "target": "rawls1993",
+   "type": "challenges",
+   "why": "Realism: legitimacy before justice."
+  },
+  {
+   "source": "geuss2008",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Realist critique of ethics-first theory."
+  },
+  {
+   "source": "galston2010",
+   "target": "williams2005",
+   "type": "synthesizes",
+   "why": "Surveys the realist turn."
+  },
+  {
+   "source": "horton2010",
+   "target": "williams2005",
+   "type": "builds_on",
+   "why": "Modus vivendi realism."
+  },
+  {
+   "source": "philp2010",
+   "target": "geuss2008",
+   "type": "builds_on",
+   "why": "Realism about political agents."
+  },
+  {
+   "source": "sleat2010",
+   "target": "williams2005",
+   "type": "builds_on",
+   "why": "Williams-style realist legitimacy."
+  },
+  {
+   "source": "sleat2014",
+   "target": "sleat2010",
+   "type": "builds_on",
+   "why": "Realist legitimacy developed."
+  },
+  {
+   "source": "rossi2012",
+   "target": "williams2005",
+   "type": "builds_on",
+   "why": "Normative authority for realists."
+  },
+  {
+   "source": "prinzrossi2017",
+   "target": "geuss2008",
+   "type": "builds_on",
+   "why": "Realism as ideology critique."
+  },
+  {
+   "source": "hallsleat2017",
+   "target": "williams2005",
+   "type": "builds_on",
+   "why": "Ethics versus morality in realism."
+  },
+  {
+   "source": "leadermaynard2018",
+   "target": "hallsleat2017",
+   "type": "challenges",
+   "why": "No distinctively political normativity."
+  },
+  {
+   "source": "rossi2019",
+   "target": "prinzrossi2017",
+   "type": "builds_on",
+   "why": "Realism and radical demands."
+  },
+  {
+   "source": "lawfordsmith2013",
+   "target": "estlund2011",
+   "type": "qualifies",
+   "why": "Feasibility as a scalar constraint."
+  },
+  {
+   "source": "wiens2012",
+   "target": "sen2006",
+   "type": "builds_on",
+   "why": "Institutions without ideal theory."
+  },
+  {
+   "source": "sangiovanni2008",
+   "target": "rawls1993",
+   "type": "builds_on",
+   "why": "Practice dependence of principles."
+  },
+  {
+   "source": "ackerly2021",
+   "target": "mills2005",
+   "type": "builds_on",
+   "why": "Theory grounded in lived experience."
+  },
+  {
+   "source": "waldron2013",
+   "target": "williams2005",
+   "type": "synthesizes",
+   "why": "Political political theory of institutions."
+  },
+  {
+   "source": "forrester2019",
+   "target": "rawls1971",
+   "type": "builds_on",
+   "why": "History of Rawlsian liberalism."
+  },
+  {
+   "source": "forrester2012",
+   "target": "williams2005",
+   "type": "builds_on",
+   "why": "Shklar and Williams as realist sources."
+  },
+  {
+   "source": "taylor1971",
+   "target": "macintyre1971",
+   "type": "synthesizes",
+   "why": "Interpretive critique of naturalist social science."
+  },
+  {
+   "source": "connolly1974",
+   "target": "macintyre1971",
+   "type": "synthesizes",
+   "why": "Meanings constitute political concepts (thematic link)."
+  },
+  {
+   "source": "connolly1974",
+   "target": "taylor1971",
+   "type": "builds_on",
+   "why": "Essential contestability of political concepts."
+  },
+  {
+   "source": "jaeggi2018",
+   "target": "taylor1971",
+   "type": "builds_on",
+   "why": "Immanent critique of forms of life."
+  },
+  {
+   "source": "zacka2017",
+   "target": "waldron2013",
+   "type": "extends_to_new_case",
+   "why": "Normative theory of street-level institutions."
+  },
+  {
+   "source": "modoodthompson2018",
+   "target": "taylor1971",
+   "type": "builds_on",
+   "why": "Contextualism in political theory."
+  },
+  {
+   "source": "connolly1974",
+   "target": "skinner1969",
+   "type": "synthesizes",
+   "why": "Linguistic context of political concepts."
+  },
+  {
+   "source": "perreau2007",
+   "target": "skinner1969",
+   "type": "qualifies",
+   "why": "Contextualizing Skinner."
+  },
+  {
+   "source": "pocock2008",
+   "target": "pocock1975",
+   "type": "builds_on",
+   "why": "History of Enlightenment historiography."
+  },
+  {
+   "source": "march2009",
+   "target": "skinner1969",
+   "type": "qualifies",
+   "why": "What comparative political theory is for."
+  },
+  {
+   "source": "williamswarren2014",
+   "target": "march2009",
+   "type": "builds_on",
+   "why": "Democratic case for comparative theory."
+  },
+  {
+   "source": "rawls1993",
+   "target": "rawls1971",
+   "type": "builds_on",
+   "why": "From comprehensive to political liberalism."
+  },
+  {
+   "source": "rawls1997",
+   "target": "rawls1993",
+   "type": "builds_on",
+   "why": "Public reason revisited."
+  },
+  {
+   "source": "raz1986",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Perfectionist liberal authority."
+  },
+  {
+   "source": "habermas1996",
+   "target": "rawls1993",
+   "type": "challenges",
+   "why": "Discourse-theoretic legitimacy."
+  },
+  {
+   "source": "waldron1999",
+   "target": "rawls1993",
+   "type": "challenges",
+   "why": "Disagreement extends to justice and rights."
+  },
+  {
+   "source": "waldron2006",
+   "target": "waldron1999",
+   "type": "builds_on",
+   "why": "Against judicial review."
+  },
+  {
+   "source": "quong2011",
+   "target": "rawls1993",
+   "type": "builds_on",
+   "why": "Internal conception of political liberalism."
+  },
+  {
+   "source": "quong2011",
+   "target": "raz1986",
+   "type": "challenges",
+   "why": "Anti-perfectionism defended."
+  },
+  {
+   "source": "gaus2011",
+   "target": "rawls1993",
+   "type": "challenges",
+   "why": "Convergence, not consensus, public reason."
+  },
+  {
+   "source": "forst2012",
+   "target": "habermas1996",
+   "type": "builds_on",
+   "why": "Right to justification."
+  },
+  {
+   "source": "forst2014",
+   "target": "forst2012",
+   "type": "synthesizes",
+   "why": "Dialogue on the right to justification."
+  },
+  {
+   "source": "forst2012",
+   "target": "forst2010",
+   "type": "synthesizes",
+   "why": "Justification of human rights."
+  },
+  {
+   "source": "laborde2017",
+   "target": "rawls1993",
+   "type": "qualifies",
+   "why": "Disaggregating religion in liberal neutrality."
+  },
+  {
+   "source": "laborde2011",
+   "target": "rawls1993",
+   "type": "qualifies",
+   "why": "Political liberalism and establishment."
+  },
+  {
+   "source": "kolodny2014a",
+   "target": "estlund2008",
+   "type": "challenges",
+   "why": "Instrumental justifications are insufficient."
+  },
+  {
+   "source": "kolodny2014b",
+   "target": "kolodny2014a",
+   "type": "builds_on",
+   "why": "Social equality justifies democracy."
+  },
+  {
+   "source": "kolodny2014b",
+   "target": "anderson1999",
+   "type": "builds_on",
+   "why": "Relational equality grounds democracy."
+  },
+  {
+   "source": "viehoff2014",
+   "target": "kolodny2014b",
+   "type": "synthesizes",
+   "why": "Democratic equality and authority."
+  },
+  {
+   "source": "viehoff2014",
+   "target": "raz1986",
+   "type": "challenges",
+   "why": "Authority without the service conception."
+  },
+  {
+   "source": "cohen2009",
+   "target": "rawls1997",
+   "type": "qualifies",
+   "why": "Public reason needs truth."
+  },
+  {
+   "source": "bohmanrichardson2009",
+   "target": "rawls1997",
+   "type": "challenges",
+   "why": "Acceptability to all is too strong."
+  },
+  {
+   "source": "horton2012",
+   "target": "williams2005",
+   "type": "builds_on",
+   "why": "Legitimacy apart from justice and consent."
+  },
+  {
+   "source": "list2006",
+   "target": "cohen1989delib",
+   "type": "qualifies",
+   "why": "Discursive dilemma in reason-based decisions."
+  },
+  {
+   "source": "lefkowitz2007",
+   "target": "rawls1971",
+   "type": "builds_on",
+   "why": "Civil disobedience in legitimate democracies."
+  },
+  {
+   "source": "bell2014",
+   "target": "rawls1993",
+   "type": "qualifies",
+   "why": "Liberalism as a historical tradition."
+  },
+  {
+   "source": "ripstein2006",
+   "target": "raz1986",
+   "type": "challenges",
+   "why": "Sovereignty rather than harm principle."
+  },
+  {
+   "source": "saffonurbinati2013",
+   "target": "urbinati2006",
+   "type": "builds_on",
+   "why": "Procedural democracy and equal liberty."
+  },
+  {
+   "source": "sandel1984",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Communitarian critique of the liberal self."
+  },
+  {
+   "source": "cohen1989delib",
+   "target": "rawls1971",
+   "type": "builds_on",
+   "why": "Deliberative legitimacy from free and equal reasoning."
+  },
+  {
+   "source": "gutmannthompson1996",
+   "target": "cohen1989delib",
+   "type": "builds_on",
+   "why": "Reciprocity, publicity and accountability."
+  },
+  {
+   "source": "habermas1996",
+   "target": "cohen1989delib",
+   "type": "synthesizes",
+   "why": "Discourse theory of democracy."
+  },
+  {
+   "source": "dryzek2000",
+   "target": "habermas1996",
+   "type": "challenges",
+   "why": "Critical, discursive democracy beyond liberal constitutionalism."
+  },
+  {
+   "source": "young2000",
+   "target": "gutmannthompson1996",
+   "type": "challenges",
+   "why": "Communicative democracy beyond argument."
+  },
+  {
+   "source": "mouffe2000",
+   "target": "habermas1996",
+   "type": "challenges",
+   "why": "Agonism against rational consensus."
+  },
+  {
+   "source": "fishkin2009",
+   "target": "gutmannthompson1996",
+   "type": "extends_to_new_case",
+   "why": "Deliberative polling."
+  },
+  {
+   "source": "parkinsonmansbridge2012",
+   "target": "dryzek2000",
+   "type": "builds_on",
+   "why": "Deliberative systems."
+  },
+  {
+   "source": "mansbridge2010",
+   "target": "gutmannthompson1996",
+   "type": "qualifies",
+   "why": "Self-interest and power in deliberation."
+  },
+  {
+   "source": "bachtiger2010",
+   "target": "mansbridge2010",
+   "type": "synthesizes",
+   "why": "Type I and type II deliberation."
+  },
+  {
+   "source": "owensmith2015",
+   "target": "parkinsonmansbridge2012",
+   "type": "synthesizes",
+   "why": "The systemic turn surveyed."
+  },
+  {
+   "source": "lafont2015",
+   "target": "fishkin2009",
+   "type": "challenges",
+   "why": "Mini-publics cannot substitute for citizens."
+  },
+  {
+   "source": "lafont2020",
+   "target": "lafont2015",
+   "type": "builds_on",
+   "why": "Democracy without shortcuts."
+  },
+  {
+   "source": "chambers2009",
+   "target": "habermas1996",
+   "type": "builds_on",
+   "why": "Rhetoric in the public sphere."
+  },
+  {
+   "source": "dryzek2010",
+   "target": "chambers2009",
+   "type": "builds_on",
+   "why": "Systemic view of rhetoric."
+  },
+  {
+   "source": "dryzek2016",
+   "target": "parkinsonmansbridge2012",
+   "type": "synthesizes",
+   "why": "Forum, system, polity."
+  },
+  {
+   "source": "thompson2008",
+   "target": "gutmannthompson1996",
+   "type": "builds_on",
+   "why": "Theory and empirics of deliberation."
+  },
+  {
+   "source": "mutz2008",
+   "target": "thompson2008",
+   "type": "builds_on",
+   "why": "Making deliberative theory falsifiable."
+  },
+  {
+   "source": "neblo2010",
+   "target": "mutz2008",
+   "type": "mechanism_tested_by",
+   "why": "Who wants to deliberate."
+  },
+  {
+   "source": "karpowitz2012",
+   "target": "young2000",
+   "type": "mechanism_tested_by",
+   "why": "Gender inequality in deliberation."
+  },
+  {
+   "source": "warrengastil2015",
+   "target": "fishkin2009",
+   "type": "builds_on",
+   "why": "Minipublics as trusted proxies."
+  },
+  {
+   "source": "sassdryzek2014",
+   "target": "dryzek2000",
+   "type": "extends_to_new_case",
+   "why": "Deliberative cultures."
+  },
+  {
+   "source": "knops2007",
+   "target": "mouffe2000",
+   "type": "challenges",
+   "why": "Agonism is itself deliberation."
+  },
+  {
+   "source": "guerrero2014",
+   "target": "manin1997",
+   "type": "builds_on",
+   "why": "Lottocracy versus elective aristocracy."
+  },
+  {
+   "source": "stone2009",
+   "target": "manin1997",
+   "type": "builds_on",
+   "why": "The logic of lotteries."
+  },
+  {
+   "source": "landapevnick2021",
+   "target": "guerrero2014",
+   "type": "challenges",
+   "why": "Random selection is no cure."
+  },
+  {
+   "source": "blumzuber2016",
+   "target": "manin1997",
+   "type": "qualifies",
+   "why": "Liquid democracy as an alternative."
+  },
+  {
+   "source": "hewarren2011",
+   "target": "dryzek2000",
+   "type": "extends_to_new_case",
+   "why": "Authoritarian deliberation in China."
+  },
+  {
+   "source": "pateman2012",
+   "target": "gutmannthompson1996",
+   "type": "challenges",
+   "why": "Participatory, not only deliberative, democracy."
+  },
+  {
+   "source": "boker2017",
+   "target": "lafont2015",
+   "type": "builds_on",
+   "why": "Limits of mini-publics."
+  },
+  {
+   "source": "mackie2006",
+   "target": "cohen1989delib",
+   "type": "mechanism_tested_by",
+   "why": "Does deliberation change minds?"
+  },
+  {
+   "source": "landemore2013",
+   "target": "mercierlandemore2012",
+   "type": "synthesizes",
+   "why": "Argumentative theory and deliberation."
+  },
+  {
+   "source": "parkinsonmansbridge2012",
+   "target": "rummens2012",
+   "type": "synthesizes",
+   "why": "Representative institutions in deliberative systems."
+  },
+  {
+   "source": "parthasarathy2019",
+   "target": "young2000",
+   "type": "mechanism_tested_by",
+   "why": "Deliberation under inequality in Indian village assemblies."
+  },
+  {
+   "source": "hammond2019",
+   "target": "habermas1996",
+   "type": "builds_on",
+   "why": "Deliberative democracy as critical theory."
+  },
+  {
+   "source": "landemore2020",
+   "target": "landemore2013",
+   "type": "builds_on",
+   "why": "Open democracy institutions."
+  },
+  {
+   "source": "mansbridge2003",
+   "target": "pitkin1967",
+   "type": "builds_on",
+   "why": "New forms of representation."
+  },
+  {
+   "source": "manin1997",
+   "target": "pitkin1967",
+   "type": "synthesizes",
+   "why": "History of representative government."
+  },
+  {
+   "source": "urbinati2006",
+   "target": "pitkin1967",
+   "type": "builds_on",
+   "why": "Representation as democratic process."
+  },
+  {
+   "source": "urbinatiwarren2008",
+   "target": "urbinati2006",
+   "type": "synthesizes",
+   "why": "Review of representation theory."
+  },
+  {
+   "source": "rehfeld2006",
+   "target": "pitkin1967",
+   "type": "challenges",
+   "why": "Representation without democratic legitimacy."
+  },
+  {
+   "source": "rehfeld2009",
+   "target": "rehfeld2006",
+   "type": "builds_on",
+   "why": "Disaggregates trustee and delegate."
+  },
+  {
+   "source": "mansbridge2011",
+   "target": "rehfeld2009",
+   "type": "challenges",
+   "why": "Clarifies types in response."
+  },
+  {
+   "source": "mansbridge2009",
+   "target": "mansbridge2003",
+   "type": "builds_on",
+   "why": "Selection model."
+  },
+  {
+   "source": "mansbridge2014",
+   "target": "mansbridge2009",
+   "type": "builds_on",
+   "why": "Contingency theory of accountability."
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "pitkin1967",
+   "type": "qualifies",
+   "why": "When descriptive representation matters."
+  },
+  {
+   "source": "saward2006",
+   "target": "pitkin1967",
+   "type": "challenges",
+   "why": "Constructivist representative claim."
+  },
+  {
+   "source": "saward2010",
+   "target": "saward2006",
+   "type": "builds_on",
+   "why": "Book-length representative claim."
+  },
+  {
+   "source": "saward2009",
+   "target": "saward2006",
+   "type": "builds_on",
+   "why": "Legitimacy of unelected representatives."
+  },
+  {
+   "source": "disch2011",
+   "target": "saward2006",
+   "type": "builds_on",
+   "why": "Mobilization conception."
+  },
+  {
+   "source": "disch2015",
+   "target": "disch2011",
+   "type": "qualifies",
+   "why": "Normative limits of constructivism."
+  },
+  {
+   "source": "montanaro2012",
+   "target": "saward2009",
+   "type": "builds_on",
+   "why": "Self-appointed representatives."
+  },
+  {
+   "source": "runciman2007",
+   "target": "pitkin1967",
+   "type": "builds_on",
+   "why": "Paradox of presence and absence."
+  },
+  {
+   "source": "brown2006jpp",
+   "target": "pitkin1967",
+   "type": "extends_to_new_case",
+   "why": "Citizen panels as representation."
+  },
+  {
+   "source": "nasstrom2011",
+   "target": "saward2010",
+   "type": "synthesizes",
+   "why": "Where the representative turn goes."
+  },
+  {
+   "source": "warren2017",
+   "target": "parkinsonmansbridge2012",
+   "type": "builds_on",
+   "why": "Problem-based democratic theory."
+  },
+  {
+   "source": "thompson2010",
+   "target": "pitkin1967",
+   "type": "extends_to_new_case",
+   "why": "Representing future generations."
+  },
+  {
+   "source": "dryzekniemeyer2008",
+   "target": "dryzek2000",
+   "type": "builds_on",
+   "why": "Representing discourses."
+  },
+  {
+   "source": "waldron1999",
+   "target": "pitkin1967",
+   "type": "builds_on",
+   "why": "Dignity of legislation."
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "pitkin1967",
+   "type": "challenges",
+   "why": "Elections do not deliver representation."
+  },
+  {
+   "source": "hirschman1970",
+   "target": "pitkin1967",
+   "type": "synthesizes",
+   "why": "Voice and exit as representation (thematic link)."
+  },
+  {
+   "source": "dahl1985",
+   "target": "hirschman1970",
+   "type": "builds_on",
+   "why": "Voice in firms."
+  },
+  {
+   "source": "ober2008",
+   "target": "manin1997",
+   "type": "synthesizes",
+   "why": "Classical democracy as capacity."
+  },
+  {
+   "source": "bai2008",
+   "target": "manin1997",
+   "type": "extends_to_new_case",
+   "why": "Confucian limited democracy."
+  },
+  {
+   "source": "caramani2017",
+   "target": "urbinati2006",
+   "type": "builds_on",
+   "why": "Populist and technocratic representation."
+  },
+  {
+   "source": "anderson2006",
+   "target": "habermas1996",
+   "type": "builds_on",
+   "why": "Deweyan epistemology of democracy."
+  },
+  {
+   "source": "estlund2008",
+   "target": "rawls1993",
+   "type": "builds_on",
+   "why": "Epistemic proceduralism acceptable to qualified views."
+  },
+  {
+   "source": "landemore2013",
+   "target": "estlund2008",
+   "type": "builds_on",
+   "why": "Collective intelligence of the many."
+  },
+  {
+   "source": "brennan2016",
+   "target": "landemore2013",
+   "type": "challenges",
+   "why": "Epistocracy over democracy."
+  },
+  {
+   "source": "brennan2016",
+   "target": "achenbartels2016",
+   "type": "builds_on",
+   "why": "Voter ignorance as evidence."
+  },
+  {
+   "source": "brennan2017",
+   "target": "brennan2016",
+   "type": "builds_on",
+   "why": "Replies to the demographic objection."
+  },
+  {
+   "source": "hannon2022",
+   "target": "brennan2016",
+   "type": "challenges",
+   "why": "Knowledge does not make better voters."
+  },
+  {
+   "source": "holstmolander2019",
+   "target": "landemore2013",
+   "type": "qualifies",
+   "why": "Experts in epistemic democracy."
+  },
+  {
+   "source": "estlund2008",
+   "target": "peter2007",
+   "type": "synthesizes",
+   "why": "Proceduralist social epistemology (contemporaneous)."
+  },
+  {
+   "source": "landemorepage2015",
+   "target": "landemore2013",
+   "type": "mechanism_tested_by",
+   "why": "Diversity and deliberative disagreement."
+  },
+  {
+   "source": "fricker2007",
+   "target": "collins1990",
+   "type": "builds_on",
+   "why": "Epistemic injustice and marginalized knowers."
+  },
+  {
+   "source": "dotson2011",
+   "target": "fricker2007",
+   "type": "builds_on",
+   "why": "Silencing as epistemic violence."
+  },
+  {
+   "source": "pohlhaus2012",
+   "target": "fricker2007",
+   "type": "builds_on",
+   "why": "Willful hermeneutical ignorance."
+  },
+  {
+   "source": "tuana2006",
+   "target": "mills1997",
+   "type": "builds_on",
+   "why": "Epistemologies of ignorance."
+  },
+  {
+   "source": "davis2016",
+   "target": "fricker2007",
+   "type": "qualifies",
+   "why": "Credibility excess as injustice."
+  },
+  {
+   "source": "toole2019",
+   "target": "harding2009",
+   "type": "builds_on",
+   "why": "Standpoint as epistemic oppression."
+  },
+  {
+   "source": "harding2009",
+   "target": "collins1990",
+   "type": "synthesizes",
+   "why": "Standpoint theories reviewed."
+  },
+  {
+   "source": "berenstain2021",
+   "target": "dotson2011",
+   "type": "builds_on",
+   "why": "Epistemic oppression and resurgence."
+  },
+  {
+   "source": "ortega2006",
+   "target": "mills1997",
+   "type": "builds_on",
+   "why": "White ignorance in feminism."
+  },
+  {
+   "source": "kukla2014",
+   "target": "fricker2007",
+   "type": "extends_to_new_case",
+   "why": "Discursive injustice in speech acts."
+  },
+  {
+   "source": "srinivasan2018",
+   "target": "fricker2007",
+   "type": "builds_on",
+   "why": "Affective injustice of apt anger."
+  },
+  {
+   "source": "stanley2015",
+   "target": "fricker2007",
+   "type": "synthesizes",
+   "why": "Propaganda and flawed ideology."
+  },
+  {
+   "source": "sunsteinvermeule2009",
+   "target": "anderson2006",
+   "type": "synthesizes",
+   "why": "Crippled epistemologies (thematic link)."
+  },
+  {
+   "source": "brennan2016",
+   "target": "bickertonaccetti2017",
+   "type": "synthesizes",
+   "why": "Technocracy and populism."
+  },
+  {
+   "source": "pettit1997",
+   "target": "berlin1958",
+   "type": "challenges",
+   "why": "Non-domination as a third concept of liberty."
+  },
+  {
+   "source": "pettit1997",
+   "target": "pocock1975",
+   "type": "builds_on",
+   "why": "Republican tradition recovered."
+  },
+  {
+   "source": "skinner1998",
+   "target": "pocock1975",
+   "type": "builds_on",
+   "why": "Neo-Roman theory of free states."
+  },
+  {
+   "source": "skinner1998",
+   "target": "berlin1958",
+   "type": "challenges",
+   "why": "Liberty before liberalism."
+  },
+  {
+   "source": "pettit2012",
+   "target": "pettit1997",
+   "type": "builds_on",
+   "why": "Republican democratic legitimacy."
+  },
+  {
+   "source": "markell2008",
+   "target": "pettit1997",
+   "type": "challenges",
+   "why": "Non-domination is insufficient."
+  },
+  {
+   "source": "pettit2006",
+   "target": "pettit1997",
+   "type": "extends_to_new_case",
+   "why": "Republican freedom in markets."
+  },
+  {
+   "source": "dagger2006",
+   "target": "pettit1997",
+   "type": "extends_to_new_case",
+   "why": "Civic economy."
+  },
+  {
+   "source": "brennanlomasky2006",
+   "target": "pettit1997",
+   "type": "challenges",
+   "why": "Nothing new beyond liberalism."
+  },
+  {
+   "source": "pettit2011",
+   "target": "berlin1958",
+   "type": "challenges",
+   "why": "Noninterference is unstable."
+  },
+  {
+   "source": "listvalentini2016",
+   "target": "pettit1997",
+   "type": "qualifies",
+   "why": "Freedom as independence."
+  },
+  {
+   "source": "laborde2010",
+   "target": "pettit1997",
+   "type": "extends_to_new_case",
+   "why": "Republican global justice."
+  },
+  {
+   "source": "pettit2010",
+   "target": "rawls1999",
+   "type": "builds_on",
+   "why": "A republican law of peoples."
+  },
+  {
+   "source": "gourevitch2013",
+   "target": "pettit1997",
+   "type": "extends_to_new_case",
+   "why": "Labor republicanism and wage labor."
+  },
+  {
+   "source": "oshea2020",
+   "target": "gourevitch2013",
+   "type": "builds_on",
+   "why": "Socialist republicanism."
+  },
+  {
+   "source": "muldoon2019",
+   "target": "gourevitch2013",
+   "type": "builds_on",
+   "why": "Socialist republican freedom."
+  },
+  {
+   "source": "gadeke2020",
+   "target": "lovett2010",
+   "type": "qualifies",
+   "why": "Domination is structural."
+  },
+  {
+   "source": "coffee2015",
+   "target": "pettit1997",
+   "type": "qualifies",
+   "why": "Domination through social norms."
+  },
+  {
+   "source": "coffee2013",
+   "target": "skinner1998",
+   "type": "extends_to_new_case",
+   "why": "Wollstonecraft as republican theorist."
+  },
+  {
+   "source": "white2011",
+   "target": "pettit2006",
+   "type": "challenges",
+   "why": "Republican critique of capitalism."
+  },
+  {
+   "source": "cicerchia2019",
+   "target": "gadeke2020",
+   "type": "builds_on",
+   "why": "Structural domination in labor markets."
+  },
+  {
+   "source": "vrousalis2013",
+   "target": "pettit1997",
+   "type": "builds_on",
+   "why": "Exploitation as domination."
+  },
+  {
+   "source": "anderson2017",
+   "target": "gourevitch2013",
+   "type": "builds_on",
+   "why": "Workplaces as private government."
+  },
+  {
+   "source": "vergara2020",
+   "target": "pettit2012",
+   "type": "challenges",
+   "why": "Plebeian, anti-oligarchic republicanism."
+  },
+  {
+   "source": "beitz1979",
+   "target": "rawls1971",
+   "type": "extends_to_new_case",
+   "why": "Rawlsian principles globally."
+  },
+  {
+   "source": "pogge2002",
+   "target": "beitz1979",
+   "type": "builds_on",
+   "why": "Global order harms the poor."
+  },
+  {
+   "source": "pogge2002",
+   "target": "singer1972",
+   "type": "qualifies",
+   "why": "Negative, not only positive, duties."
+  },
+  {
+   "source": "rawls1999",
+   "target": "beitz1979",
+   "type": "challenges",
+   "why": "Duty of assistance, not global equality."
+  },
+  {
+   "source": "nagel2005",
+   "target": "rawls1999",
+   "type": "builds_on",
+   "why": "Statist view of socioeconomic justice."
+  },
+  {
+   "source": "cohensabel2006",
+   "target": "nagel2005",
+   "type": "challenges",
+   "why": "Global institutions create obligations."
+  },
+  {
+   "source": "julius2006",
+   "target": "nagel2005",
+   "type": "challenges",
+   "why": "Coercion alone does not trigger justice."
+  },
+  {
+   "source": "abizadeh2007",
+   "target": "nagel2005",
+   "type": "challenges",
+   "why": "Scope of distributive justice."
+  },
+  {
+   "source": "sangiovanni2007",
+   "target": "nagel2005",
+   "type": "qualifies",
+   "why": "Reciprocity rather than coercion."
+  },
+  {
+   "source": "caney2005",
+   "target": "beitz1979",
+   "type": "builds_on",
+   "why": "Cosmopolitan political theory."
+  },
+  {
+   "source": "miller2007",
+   "target": "miller1995",
+   "type": "builds_on",
+   "why": "National responsibility and global justice."
+  },
+  {
+   "source": "miller2008crispp",
+   "target": "miller2007",
+   "type": "synthesizes",
+   "why": "National responsibility summarized."
+  },
+  {
+   "source": "ronzoni2009",
+   "target": "sangiovanni2008",
+   "type": "builds_on",
+   "why": "Practice-dependent global background injustice."
+  },
+  {
+   "source": "meckledgarcia2008",
+   "target": "rawls1999",
+   "type": "builds_on",
+   "why": "Constructivism limits cosmopolitanism."
+  },
+  {
+   "source": "wenar2008",
+   "target": "pogge2002",
+   "type": "builds_on",
+   "why": "Resource curse and property rights."
+  },
+  {
+   "source": "young2011",
+   "target": "pogge2002",
+   "type": "qualifies",
+   "why": "Shared responsibility for structural injustice."
+  },
+  {
+   "source": "beitz2001",
+   "target": "rawls1999",
+   "type": "builds_on",
+   "why": "Practical role of human rights."
+  },
+  {
+   "source": "beitz2009",
+   "target": "beitz2001",
+   "type": "builds_on",
+   "why": "Idea of human rights."
+  },
+  {
+   "source": "beitz2013",
+   "target": "beitz2009",
+   "type": "builds_on",
+   "why": "Dignity in human rights."
+  },
+  {
+   "source": "beitz2013",
+   "target": "rosen2012",
+   "type": "synthesizes",
+   "why": "History of dignity (contemporaneous)."
+  },
+  {
+   "source": "bayefsky2013",
+   "target": "rosen2012",
+   "type": "builds_on",
+   "why": "Dignity as honor."
+  },
+  {
+   "source": "gilabert2011",
+   "target": "beitz2009",
+   "type": "synthesizes",
+   "why": "Humanist and political conceptions."
+  },
+  {
+   "source": "miller2012",
+   "target": "beitz2009",
+   "type": "challenges",
+   "why": "Needs ground human rights."
+  },
+  {
+   "source": "christiano2011",
+   "target": "beitz2009",
+   "type": "builds_on",
+   "why": "Human right to democracy."
+  },
+  {
+   "source": "dworkin2013",
+   "target": "rawls1999",
+   "type": "builds_on",
+   "why": "Philosophy of international law."
+  },
+  {
+   "source": "habermas2008",
+   "target": "habermas1996",
+   "type": "extends_to_new_case",
+   "why": "Constitutionalizing international law."
+  },
+  {
+   "source": "cohen2008pt",
+   "target": "habermas2008",
+   "type": "synthesizes",
+   "why": "Human rights and sovereignty."
+  },
+  {
+   "source": "follesdal2006",
+   "target": "habermas1996",
+   "type": "extends_to_new_case",
+   "why": "EU legitimacy deficits."
+  },
+  {
+   "source": "stilz2011",
+   "target": "miller1995",
+   "type": "challenges",
+   "why": "States, not nations, hold territory."
+  },
+  {
+   "source": "stilz2013",
+   "target": "stilz2011",
+   "type": "builds_on",
+   "why": "Occupancy rights."
+  },
+  {
+   "source": "lichtenberg2010",
+   "target": "singer1972",
+   "type": "qualifies",
+   "why": "New harms blur duty types."
+  },
+  {
+   "source": "forst2010",
+   "target": "beitz2009",
+   "type": "challenges",
+   "why": "Right to justification grounds human rights."
+  },
+  {
+   "source": "carens1987",
+   "target": "rawls1971",
+   "type": "extends_to_new_case",
+   "why": "Liberal case for open borders."
+  },
+  {
+   "source": "carens1987",
+   "target": "walzer1983",
+   "type": "challenges",
+   "why": "Against communal closure."
+  },
+  {
+   "source": "carens2013",
+   "target": "carens1987",
+   "type": "builds_on",
+   "why": "Ethics of immigration."
+  },
+  {
+   "source": "benhabib2004",
+   "target": "habermas1996",
+   "type": "builds_on",
+   "why": "Democratic iterations."
+  },
+  {
+   "source": "abizadeh2008",
+   "target": "habermas1996",
+   "type": "builds_on",
+   "why": "Border coercion needs democratic justification."
+  },
+  {
+   "source": "miller2010",
+   "target": "abizadeh2008",
+   "type": "challenges",
+   "why": "Controls prevent rather than coerce."
+  },
+  {
+   "source": "abizadeh2010",
+   "target": "miller2010",
+   "type": "challenges",
+   "why": "Reply to Miller."
+  },
+  {
+   "source": "wellman2008",
+   "target": "carens1987",
+   "type": "challenges",
+   "why": "Freedom of association to exclude."
+  },
+  {
+   "source": "blake2013",
+   "target": "wellman2008",
+   "type": "qualifies",
+   "why": "Jurisdictional grounds for exclusion."
+  },
+  {
+   "source": "miller2008jpp",
+   "target": "miller1995",
+   "type": "extends_to_new_case",
+   "why": "Integration of immigrants."
+  },
+  {
+   "source": "millerstrangers2016",
+   "target": "miller2008jpp",
+   "type": "synthesizes",
+   "why": "Political philosophy of immigration."
+  },
+  {
+   "source": "millerstrangers2016",
+   "target": "miller2015",
+   "type": "synthesizes",
+   "why": "Survey of justice in immigration."
+  },
+  {
+   "source": "ypi2008",
+   "target": "carens1987",
+   "type": "qualifies",
+   "why": "Migration and global distribution together."
+  },
+  {
+   "source": "scheffler2007",
+   "target": "kymlicka1995",
+   "type": "qualifies",
+   "why": "Culture is not static."
+  },
+  {
+   "source": "carens2008",
+   "target": "carens1987",
+   "type": "extends_to_new_case",
+   "why": "Temporary workers and membership."
+  },
+  {
+   "source": "shacharhirschl2007",
+   "target": "carens1987",
+   "type": "builds_on",
+   "why": "Birthright citizenship as inherited property."
+  },
+  {
+   "source": "shacharhirschl2014",
+   "target": "shacharhirschl2007",
+   "type": "builds_on",
+   "why": "Marketized citizenship."
+  },
+  {
+   "source": "goodin2007",
+   "target": "dahl1985",
+   "type": "challenges",
+   "why": "All-affected principle."
+  },
+  {
+   "source": "miller2009",
+   "target": "goodin2007",
+   "type": "challenges",
+   "why": "Bounded demos."
+  },
+  {
+   "source": "gibney2015",
+   "target": "carens2013",
+   "type": "extends_to_new_case",
+   "why": "Refugee burden sharing."
+  },
+  {
+   "source": "baubock2011",
+   "target": "carens2008",
+   "type": "builds_on",
+   "why": "Partial citizenship."
+  },
+  {
+   "source": "erman2014",
+   "target": "goodin2007",
+   "type": "qualifies",
+   "why": "Boundary problem and democracy."
+  },
+  {
+   "source": "saunders2011demos",
+   "target": "goodin2007",
+   "type": "qualifies",
+   "why": "Defining the demos."
+  },
+  {
+   "source": "nasstrom2007",
+   "target": "habermas1996",
+   "type": "challenges",
+   "why": "Legitimacy of the people."
+  },
+  {
+   "source": "schaap2011",
+   "target": "benhabib2004",
+   "type": "challenges",
+   "why": "Rancière on the right to have rights."
+  },
+  {
+   "source": "yuvaldavis2007",
+   "target": "benhabib2004",
+   "type": "qualifies",
+   "why": "Intersectional politics of belonging."
+  },
+  {
+   "source": "mills1997",
+   "target": "pateman1988",
+   "type": "builds_on",
+   "why": "Racial contract modeled on the sexual contract."
+  },
+  {
+   "source": "mills1997",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Contract theory hides white supremacy."
+  },
+  {
+   "source": "mills2017",
+   "target": "mills1997",
+   "type": "builds_on",
+   "why": "Black radical liberalism."
+  },
+  {
+   "source": "mills2017",
+   "target": "mills2005",
+   "type": "builds_on",
+   "why": "Nonideal theory of racial justice."
+  },
+  {
+   "source": "shelby2005",
+   "target": "mills1997",
+   "type": "qualifies",
+   "why": "Thin Black solidarity against racial injustice."
+  },
+  {
+   "source": "shelby2007",
+   "target": "rawls1971",
+   "type": "extends_to_new_case",
+   "why": "Rawlsian nonideal theory of the ghetto."
+  },
+  {
+   "source": "shelby2016",
+   "target": "shelby2007",
+   "type": "builds_on",
+   "why": "Dark Ghettos book."
+  },
+  {
+   "source": "anderson2010",
+   "target": "mills2005",
+   "type": "builds_on",
+   "why": "Nonideal theory of integration."
+  },
+  {
+   "source": "shelby2016",
+   "target": "anderson2010",
+   "type": "challenges",
+   "why": "Against integration as the remedy."
+  },
+  {
+   "source": "appiah2018",
+   "target": "shelby2005",
+   "type": "synthesizes",
+   "why": "Identity and solidarity."
+  },
+  {
+   "source": "threadcraft2016",
+   "target": "crenshaw1991",
+   "type": "builds_on",
+   "why": "Black women's bodily justice."
+  },
+  {
+   "source": "hooker2016",
+   "target": "shelby2016",
+   "type": "synthesizes",
+   "why": "Black politics and sacrifice."
+  },
+  {
+   "source": "havercroftowen2016",
+   "target": "hooker2016",
+   "type": "builds_on",
+   "why": "BLM and police orders."
+  },
+  {
+   "source": "issar2021",
+   "target": "hooker2016",
+   "type": "builds_on",
+   "why": "Racial capitalism and BLM."
+  },
+  {
+   "source": "coulthard2007",
+   "target": "taylor1992",
+   "type": "challenges",
+   "why": "Recognition reproduces colonialism."
+  },
+  {
+   "source": "coulthard2014",
+   "target": "coulthard2007",
+   "type": "builds_on",
+   "why": "Red Skin, White Masks."
+  },
+  {
+   "source": "mehta1999",
+   "target": "pocock1975",
+   "type": "challenges",
+   "why": "Liberalism and empire."
+  },
+  {
+   "source": "pitts2005",
+   "target": "mehta1999",
+   "type": "builds_on",
+   "why": "Liberal turn to empire."
+  },
+  {
+   "source": "getachew2016",
+   "target": "mehta1999",
+   "type": "qualifies",
+   "why": "Universalism after postcolonial critique."
+  },
+  {
+   "source": "getachew2019",
+   "target": "getachew2016",
+   "type": "builds_on",
+   "why": "Anticolonial worldmaking."
+  },
+  {
+   "source": "farr2008",
+   "target": "mills1997",
+   "type": "builds_on",
+   "why": "Locke and slavery."
+  },
+  {
+   "source": "hinshelwood2013",
+   "target": "farr2008",
+   "type": "builds_on",
+   "why": "Carolinian context."
+  },
+  {
+   "source": "bell2009",
+   "target": "pitts2005",
+   "type": "builds_on",
+   "why": "Mill on settler colonies."
+  },
+  {
+   "source": "tunick2006",
+   "target": "mehta1999",
+   "type": "challenges",
+   "why": "Mill's tolerant imperialism."
+  },
+  {
+   "source": "myers2019",
+   "target": "mills1997",
+   "type": "builds_on",
+   "why": "Du Bois on white dominion."
+  },
+  {
+   "source": "ypi2013",
+   "target": "pitts2005",
+   "type": "builds_on",
+   "why": "What is wrong with colonialism."
+  },
+  {
+   "source": "lu2011",
+   "target": "young2011",
+   "type": "builds_on",
+   "why": "Colonialism as structural injustice."
+  },
+  {
+   "source": "glasgow2009",
+   "target": "mills1997",
+   "type": "qualifies",
+   "why": "Racism as disrespect."
+  },
+  {
+   "source": "mallon2006",
+   "target": "haslanger2000",
+   "type": "builds_on",
+   "why": "Normative turn in race debates."
+  },
+  {
+   "source": "lugones2010",
+   "target": "crenshaw1991",
+   "type": "builds_on",
+   "why": "Decolonial feminism."
+  },
+  {
+   "source": "nichols2018",
+   "target": "coulthard2014",
+   "type": "builds_on",
+   "why": "Dispossession and property."
+  },
+  {
+   "source": "feola2021",
+   "target": "mills1997",
+   "type": "builds_on",
+   "why": "Melancholic whiteness."
+  },
+  {
+   "source": "tully1995",
+   "target": "kymlicka1995",
+   "type": "qualifies",
+   "why": "Constitutional dialogue and Indigenous peoples."
+  },
+  {
+   "source": "frazerhutchings2008",
+   "target": "arendt1958",
+   "type": "challenges",
+   "why": "Fanon against Arendt on violence."
+  },
+  {
+   "source": "mantena2012",
+   "target": "mehta1999",
+   "type": "synthesizes",
+   "why": "Gandhi's critique of the state."
+  },
+  {
+   "source": "pateman1988",
+   "target": "rousseau1755",
+   "type": "challenges",
+   "why": "Sexual contract behind the social contract."
+  },
+  {
+   "source": "okin1989",
+   "target": "pateman1988",
+   "type": "synthesizes",
+   "why": "Feminist critique of contract and family."
+  },
+  {
+   "source": "crenshaw1991",
+   "target": "mackinnon1982",
+   "type": "challenges",
+   "why": "Single-axis feminism misses women of color."
+  },
+  {
+   "source": "collins1990",
+   "target": "mackinnon1982",
+   "type": "qualifies",
+   "why": "Matrix of domination."
+  },
+  {
+   "source": "butler1990",
+   "target": "mackinnon1982",
+   "type": "challenges",
+   "why": "Performativity rather than essence."
+  },
+  {
+   "source": "haslanger2000",
+   "target": "butler1990",
+   "type": "synthesizes",
+   "why": "Social constructionism with political aims."
+  },
+  {
+   "source": "okin1999",
+   "target": "kymlicka1995",
+   "type": "challenges",
+   "why": "Multiculturalism can harm women."
+  },
+  {
+   "source": "young1990",
+   "target": "mackinnon1982",
+   "type": "builds_on",
+   "why": "Oppression and domination."
+  },
+  {
+   "source": "jenkins2016",
+   "target": "haslanger2000",
+   "type": "qualifies",
+   "why": "Ameliorative concept including trans women."
+  },
+  {
+   "source": "bettcher2007",
+   "target": "butler1990",
+   "type": "builds_on",
+   "why": "Transphobic violence."
+  },
+  {
+   "source": "garlandthomson2011",
+   "target": "butler1990",
+   "type": "extends_to_new_case",
+   "why": "Feminist disability concept."
+  },
+  {
+   "source": "arneil2009",
+   "target": "pateman1988",
+   "type": "extends_to_new_case",
+   "why": "Disability in the history of political thought."
+  },
+  {
+   "source": "westlund2009",
+   "target": "okin1989",
+   "type": "synthesizes",
+   "why": "Relational autonomy."
+  },
+  {
+   "source": "yuvaldavis2007",
+   "target": "crenshaw1991",
+   "type": "builds_on",
+   "why": "Intersectional citizenship."
+  },
+  {
+   "source": "collins2021",
+   "target": "crenshaw1991",
+   "type": "builds_on",
+   "why": "Intersectionality as critical theory."
+  },
+  {
+   "source": "dougherty2015",
+   "target": "okin1989",
+   "type": "synthesizes",
+   "why": "Consent as communication (thematic link)."
+  },
+  {
+   "source": "woodly2021",
+   "target": "young1990",
+   "type": "builds_on",
+   "why": "Politics of care."
+  },
+  {
+   "source": "terwiel2020",
+   "target": "mackinnon1982",
+   "type": "challenges",
+   "why": "Against carceral feminism."
+  },
+  {
+   "source": "karpowitz2012",
+   "target": "mansbridge1999",
+   "type": "synthesizes",
+   "why": "Gender and voice in deliberation."
+  },
+  {
+   "source": "coffee2013",
+   "target": "pateman1988",
+   "type": "synthesizes",
+   "why": "Wollstonecraft on domination."
+  },
+  {
+   "source": "taylor1992",
+   "target": "sandel1984",
+   "type": "builds_on",
+   "why": "Communitarian politics of recognition."
+  },
+  {
+   "source": "kymlicka1995",
+   "target": "taylor1992",
+   "type": "qualifies",
+   "why": "Liberal grounds for minority rights."
+  },
+  {
+   "source": "honneth1995",
+   "target": "taylor1992",
+   "type": "builds_on",
+   "why": "Moral grammar of recognition."
+  },
+  {
+   "source": "fraser1995",
+   "target": "honneth1995",
+   "type": "challenges",
+   "why": "Redistribution and recognition both matter."
+  },
+  {
+   "source": "fraserhonneth2003",
+   "target": "fraser1995",
+   "type": "synthesizes",
+   "why": "Fraser-Honneth exchange."
+  },
+  {
+   "source": "barry2001",
+   "target": "kymlicka1995",
+   "type": "challenges",
+   "why": "Egalitarian critique of multiculturalism."
+  },
+  {
+   "source": "miller1995",
+   "target": "macintyre1984",
+   "type": "builds_on",
+   "why": "Nationality and particular obligations."
+  },
+  {
+   "source": "macintyre1984",
+   "target": "sandel1984",
+   "type": "synthesizes",
+   "why": "Communitarian critique (contemporaneous)."
+  },
+  {
+   "source": "renan1882",
+   "target": "rousseau1755",
+   "type": "synthesizes",
+   "why": "Nation as voluntary community (thematic link)."
+  },
+  {
+   "source": "miller1995",
+   "target": "renan1882",
+   "type": "builds_on",
+   "why": "Nations as ethical communities."
+  },
+  {
+   "source": "fraser2007",
+   "target": "fraser1995",
+   "type": "builds_on",
+   "why": "Status model of recognition."
+  },
+  {
+   "source": "kompridis2007",
+   "target": "fraserhonneth2003",
+   "type": "qualifies",
+   "why": "Contested meaning of recognition."
+  },
+  {
+   "source": "jones2006",
+   "target": "taylor1992",
+   "type": "qualifies",
+   "why": "Toleration versus recognition."
+  },
+  {
+   "source": "patten2009",
+   "target": "kymlicka1995",
+   "type": "builds_on",
+   "why": "Minority language rights."
+  },
+  {
+   "source": "mcqueen2015",
+   "target": "honneth1995",
+   "type": "qualifies",
+   "why": "Ambivalent effects of recognition."
+  },
+  {
+   "source": "muller2006",
+   "target": "habermas1996",
+   "type": "builds_on",
+   "why": "Constitutional patriotism."
+  },
+  {
+   "source": "horton2011",
+   "target": "kymlicka1995",
+   "type": "challenges",
+   "why": "Toleration still matters."
+  },
+  {
+   "source": "weinstock2013",
+   "target": "gutmannthompson1996",
+   "type": "builds_on",
+   "why": "Principled compromise."
+  },
+  {
+   "source": "appiah2018",
+   "target": "taylor1992",
+   "type": "qualifies",
+   "why": "Identities as useful fictions."
+  },
+  {
+   "source": "laborde2017",
+   "target": "kymlicka1995",
+   "type": "synthesizes",
+   "why": "Religion and liberal neutrality."
+  },
+  {
+   "source": "bejan2016",
+   "target": "jones2006",
+   "type": "synthesizes",
+   "why": "Hobbes on toleration (thematic link)."
+  },
+  {
+   "source": "donaldsonkymlicka2011",
+   "target": "kymlicka1995",
+   "type": "extends_to_new_case",
+   "why": "Citizenship for animals."
+  },
+  {
+   "source": "anderson2010",
+   "target": "patterson1997",
+   "type": "builds_on",
+   "why": "Integration and its ordeal."
+  },
+  {
+   "source": "pocock1975",
+   "target": "skinner1969",
+   "type": "builds_on",
+   "why": "Contextualist history of republicanism."
+  },
+  {
+   "source": "arendt1958",
+   "target": "rousseau1755",
+   "type": "challenges",
+   "why": "Politics as action, not social question."
+  },
+  {
+   "source": "berlin1958",
+   "target": "rousseau1755",
+   "type": "challenges",
+   "why": "Positive liberty as a danger."
+  },
+  {
+   "source": "jacobsohn2006",
+   "target": "skinner1969",
+   "type": "synthesizes",
+   "why": "Constitutional identity in context (thematic link)."
+  },
+  {
+   "source": "finlayson2010",
+   "target": "arendt1958",
+   "type": "synthesizes",
+   "why": "Bare life and politics."
+  },
+  {
+   "source": "muthu2008",
+   "target": "pocock1975",
+   "type": "builds_on",
+   "why": "Smith on trading companies and empire."
+  },
+  {
+   "source": "hill2006",
+   "target": "pocock1975",
+   "type": "builds_on",
+   "why": "Corruption in Smith."
+  },
+  {
+   "source": "bertram2012",
+   "target": "rousseau1755",
+   "type": "builds_on",
+   "why": "General will readings."
+  },
+  {
+   "source": "kimsungmoon2011",
+   "target": "march2009",
+   "type": "extends_to_new_case",
+   "why": "Confucian constitutionalism."
+  },
+  {
+   "source": "behrent2009",
+   "target": "foucault1977",
+   "type": "builds_on",
+   "why": "Foucault and neoliberalism."
+  },
+  {
+   "source": "mehta2010",
+   "target": "march2009",
+   "type": "extends_to_new_case",
+   "why": "Gandhi on democracy."
+  },
+  {
+   "source": "ober2008",
+   "target": "arendt1958",
+   "type": "synthesizes",
+   "why": "Democracy as collective capacity."
+  },
+  {
+   "source": "slingerland2011",
+   "target": "march2009",
+   "type": "synthesizes",
+   "why": "Confucian ethics comparatively."
+  },
+  {
+   "source": "march2009",
+   "target": "metz2007",
+   "type": "synthesizes",
+   "why": "African moral theory."
+  },
+  {
+   "source": "getachew2019",
+   "target": "march2009",
+   "type": "synthesizes",
+   "why": "Global intellectual history of anticolonialism."
+  },
+  {
+   "source": "muller2006",
+   "target": "skinner1969",
+   "type": "synthesizes",
+   "why": "Intellectual history of constitutional patriotism."
+  },
+  {
+   "source": "hewarren2011",
+   "target": "march2009",
+   "type": "synthesizes",
+   "why": "Deliberation in Chinese politics."
+  },
+  {
+   "source": "bell2014",
+   "target": "skinner1969",
+   "type": "builds_on",
+   "why": "Contextual definition of liberalism."
+  },
+  {
+   "source": "lukes1974",
+   "target": "arendt1958",
+   "type": "synthesizes",
+   "why": "Power reconsidered (thematic link)."
+  },
+  {
+   "source": "gaventa1980",
+   "target": "lukes1974",
+   "type": "mechanism_tested_by",
+   "why": "Three faces of power in Appalachia."
+  },
+  {
+   "source": "foucault1977",
+   "target": "lukes1974",
+   "type": "challenges",
+   "why": "Disciplinary power beyond agents."
+  },
+  {
+   "source": "honig1993",
+   "target": "arendt1958",
+   "type": "builds_on",
+   "why": "Agonistic displacement of politics."
+  },
+  {
+   "source": "mouffe2000",
+   "target": "honig1993",
+   "type": "builds_on",
+   "why": "Agonistic pluralism."
+  },
+  {
+   "source": "laclau2005",
+   "target": "mouffe2000",
+   "type": "builds_on",
+   "why": "Hegemony and populist reason."
+  },
+  {
+   "source": "wolin2008",
+   "target": "arendt1958",
+   "type": "builds_on",
+   "why": "Inverted totalitarianism."
+  },
+  {
+   "source": "brown2006pt",
+   "target": "foucault1977",
+   "type": "builds_on",
+   "why": "Neoliberal rationality."
+  },
+  {
+   "source": "brown2015",
+   "target": "brown2006pt",
+   "type": "builds_on",
+   "why": "Undoing the demos."
+  },
+  {
+   "source": "biebricher2015",
+   "target": "brown2015",
+   "type": "qualifies",
+   "why": "Neoliberal thinkers on democracy."
+  },
+  {
+   "source": "foster2016",
+   "target": "brown2015",
+   "type": "builds_on",
+   "why": "Therapeutic neoliberalism."
+  },
+  {
+   "source": "chambers2011",
+   "target": "mouffe2000",
+   "type": "synthesizes",
+   "why": "Rancière and pure politics."
+  },
+  {
+   "source": "schaap2011",
+   "target": "arendt1958",
+   "type": "challenges",
+   "why": "Rancière contra Arendt."
+  },
+  {
+   "source": "celikates2006",
+   "target": "habermas1996",
+   "type": "builds_on",
+   "why": "Social theory of critique."
+  },
+  {
+   "source": "jaeggi2018",
+   "target": "celikates2006",
+   "type": "synthesizes",
+   "why": "Immanent critique."
+  },
+  {
+   "source": "forst2015",
+   "target": "lukes1974",
+   "type": "qualifies",
+   "why": "Noumenal power."
+  },
+  {
+   "source": "krause2011",
+   "target": "arendt1958",
+   "type": "builds_on",
+   "why": "Corporeal agency in action."
+  },
+  {
+   "source": "raekstad2018",
+   "target": "mouffe2000",
+   "type": "synthesizes",
+   "why": "Prefigurative politics."
+  },
+  {
+   "source": "raekstad2018",
+   "target": "vandesande2013",
+   "type": "synthesizes",
+   "why": "Tahrir as prefiguration (thematic link)."
+  },
+  {
+   "source": "washick2015",
+   "target": "foucault1977",
+   "type": "builds_on",
+   "why": "New materialism and power."
+  },
+  {
+   "source": "neocleous2007",
+   "target": "foucault1977",
+   "type": "builds_on",
+   "why": "Critique of security."
+  },
+  {
+   "source": "hartmannhonneth2006",
+   "target": "honneth1995",
+   "type": "builds_on",
+   "why": "Paradoxes of capitalism."
+  },
+  {
+   "source": "stanley2015",
+   "target": "lukes1974",
+   "type": "builds_on",
+   "why": "Ideology and the third face of power."
+  },
+  {
+   "source": "mackinnon1982",
+   "target": "lukes1974",
+   "type": "synthesizes",
+   "why": "Consciousness and power (thematic link)."
+  },
+  {
+   "source": "connolly1974",
+   "target": "lukes1974",
+   "type": "synthesizes",
+   "why": "Contested concepts and power (contemporaneous)."
+  },
+  {
+   "source": "laclau2005",
+   "target": "mudde2004",
+   "type": "challenges",
+   "why": "Populism as political logic, not thin ideology."
+  },
+  {
+   "source": "muller2016",
+   "target": "mudde2004",
+   "type": "builds_on",
+   "why": "Antipluralist moralism."
+  },
+  {
+   "source": "muller2014",
+   "target": "mudde2004",
+   "type": "builds_on",
+   "why": "Moral monopoly of representation."
+  },
+  {
+   "source": "muller2016",
+   "target": "muller2014",
+   "type": "builds_on",
+   "why": "What Is Populism?"
+  },
+  {
+   "source": "urbinati2019book",
+   "target": "urbinati2006",
+   "type": "builds_on",
+   "why": "Populism disfigures representation."
+  },
+  {
+   "source": "urbinati2019",
+   "target": "urbinati2019book",
+   "type": "synthesizes",
+   "why": "Review of populism theory."
+  },
+  {
+   "source": "urbinati2015",
+   "target": "urbinati2006",
+   "type": "builds_on",
+   "why": "Revolt against intermediary bodies."
+  },
+  {
+   "source": "stavrakakis2014",
+   "target": "laclau2005",
+   "type": "builds_on",
+   "why": "Return of the people."
+  },
+  {
+   "source": "stavrakakis2017",
+   "target": "stavrakakis2014",
+   "type": "builds_on",
+   "why": "Anti-populism and crisis."
+  },
+  {
+   "source": "arditi2010",
+   "target": "laclau2005",
+   "type": "qualifies",
+   "why": "Review of On Populist Reason."
+  },
+  {
+   "source": "vergara2020",
+   "target": "mouffe2000",
+   "type": "synthesizes",
+   "why": "Plebeian populism."
+  },
+  {
+   "source": "pappas2016",
+   "target": "mudde2004",
+   "type": "mechanism_tested_by",
+   "why": "Charisma among populist leaders."
+  },
+  {
+   "source": "aratocohen2017",
+   "target": "laclau2005",
+   "type": "challenges",
+   "why": "Civil society against populism."
+  },
+  {
+   "source": "mudde2018",
+   "target": "mudde2004",
+   "type": "builds_on",
+   "why": "Comparative populism research."
+  },
+  {
+   "source": "caramani2017",
+   "target": "mudde2004",
+   "type": "builds_on",
+   "why": "Populism and technocracy."
+  },
+  {
+   "source": "caramani2017",
+   "target": "bickertonaccetti2017",
+   "type": "synthesizes",
+   "why": "Complements, not opposites."
+  },
+  {
+   "source": "feola2021",
+   "target": "muller2016",
+   "type": "synthesizes",
+   "why": "White nationalist populism."
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "muller2016",
+   "type": "synthesizes",
+   "why": "Populists and democratic erosion."
+  },
+  {
+   "source": "muller2014",
+   "target": "saffonurbinati2013",
+   "type": "synthesizes",
+   "why": "Procedural democracy versus populist substance."
+  },
+  {
+   "source": "dahl1985",
+   "target": "nozick1974",
+   "type": "challenges",
+   "why": "Democracy in firms."
+  },
+  {
+   "source": "anderson2017",
+   "target": "dahl1985",
+   "type": "builds_on",
+   "why": "Private government of employers."
+  },
+  {
+   "source": "landemoreferreras2016",
+   "target": "dahl1985",
+   "type": "builds_on",
+   "why": "Workplace democracy defended."
+  },
+  {
+   "source": "breen2015",
+   "target": "pettit2006",
+   "type": "builds_on",
+   "why": "Republicanism and workplace democracy."
+  },
+  {
+   "source": "hsieh2008",
+   "target": "rawls1971",
+   "type": "extends_to_new_case",
+   "why": "Justice in production."
+  },
+  {
+   "source": "roessler2012",
+   "target": "hsieh2008",
+   "type": "builds_on",
+   "why": "Meaningful work and autonomy."
+  },
+  {
+   "source": "sayer2009",
+   "target": "hsieh2008",
+   "type": "synthesizes",
+   "why": "Contributive justice."
+  },
+  {
+   "source": "ciepley2013",
+   "target": "dahl1985",
+   "type": "synthesizes",
+   "why": "Political theory of the corporation."
+  },
+  {
+   "source": "ciepley2013",
+   "target": "pettit2007",
+   "type": "synthesizes",
+   "why": "Corporate responsibility (earlier, thematic)."
+  },
+  {
+   "source": "muldoonraekstad2023",
+   "target": "anderson2017",
+   "type": "extends_to_new_case",
+   "why": "Algorithmic domination in gig work."
+  },
+  {
+   "source": "benklernissenbaum2006",
+   "target": "dahl1985",
+   "type": "synthesizes",
+   "why": "Peer production as economic organization."
+  },
+  {
+   "source": "herzog2018",
+   "target": "anderson2017",
+   "type": "synthesizes",
+   "why": "Moral responsibility in organizations."
+  },
+  {
+   "source": "wolin2008",
+   "target": "dahl1985",
+   "type": "synthesizes",
+   "why": "Corporate power and democracy."
+  },
+  {
+   "source": "caney2010",
+   "target": "caney2005",
+   "type": "builds_on",
+   "why": "Duties of the advantaged."
+  },
+  {
+   "source": "caney2012",
+   "target": "caney2010",
+   "type": "builds_on",
+   "why": "Just emissions."
+  },
+  {
+   "source": "caney2014",
+   "target": "caney2012",
+   "type": "builds_on",
+   "why": "Two kinds of climate justice."
+  },
+  {
+   "source": "caney2014ppe",
+   "target": "parfit1984",
+   "type": "builds_on",
+   "why": "Discounting and future generations."
+  },
+  {
+   "source": "gardiner2011",
+   "target": "parfit1984",
+   "type": "builds_on",
+   "why": "Intergenerational storm."
+  },
+  {
+   "source": "gardiner2006",
+   "target": "rawls1971",
+   "type": "builds_on",
+   "why": "Maximin as precautionary principle."
+  },
+  {
+   "source": "meyerroser2010",
+   "target": "parfit1984",
+   "type": "qualifies",
+   "why": "Historical emissions despite non-identity."
+  },
+  {
+   "source": "gosseries2008",
+   "target": "parfit1984",
+   "type": "challenges",
+   "why": "Future generations can have rights."
+  },
+  {
+   "source": "parfit2017",
+   "target": "parfit1984",
+   "type": "builds_on",
+   "why": "Person-affecting principles revisited."
+  },
+  {
+   "source": "kagan2011",
+   "target": "parfit1984",
+   "type": "builds_on",
+   "why": "Making a difference in collective harm."
+  },
+  {
+   "source": "nefsky2011",
+   "target": "kagan2011",
+   "type": "challenges",
+   "why": "Reply on imperceptible differences."
+  },
+  {
+   "source": "bell2011",
+   "target": "caney2005",
+   "type": "builds_on",
+   "why": "Climate change and human rights."
+  },
+  {
+   "source": "schlosbergcoles2016",
+   "target": "young2011",
+   "type": "synthesizes",
+   "why": "Everyday environmentalism."
+  },
+  {
+   "source": "celermajer2021",
+   "target": "donaldsonkymlicka2011",
+   "type": "builds_on",
+   "why": "Multispecies justice."
+  },
+  {
+   "source": "celermajer2023",
+   "target": "celermajer2021",
+   "type": "builds_on",
+   "why": "Political theory for a multispecies world."
+  },
+  {
+   "source": "cochrane2013",
+   "target": "donaldsonkymlicka2011",
+   "type": "synthesizes",
+   "why": "Sentient rights."
+  },
+  {
+   "source": "battistoni2017",
+   "target": "schlosbergcoles2016",
+   "type": "synthesizes",
+   "why": "Nature's work in political economy."
+  },
+  {
+   "source": "whyte2014",
+   "target": "young2011",
+   "type": "builds_on",
+   "why": "Indigenous women and climate responsibility."
+  },
+  {
+   "source": "gardiner2011",
+   "target": "thompson2010",
+   "type": "synthesizes",
+   "why": "Democratic presentism and climate."
+  },
+  {
+   "source": "rawls1971",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rawls1971",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rawls1955",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rawls1955",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson1999",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1992",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1992",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2010",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2010",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scanlon2018",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron2017",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron2017",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fishkin2014",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fishkin2014",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mankiw2013",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mankiw2013",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rousseau1755",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rousseau1755",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mills2005",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mills2005",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mills2017",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mills2017",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shelby2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shelby2016",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "appiah2018",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "appiah2018",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "patterson1997",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "threadcraft2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "threadcraft2016",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fricker2007",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fricker2007",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stanley2015",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stanley2015",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crenshaw1991",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crenshaw1991",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mackinnon1982",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mackinnon1982",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haslanger2000",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haslanger2000",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "okin1999",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "okin1999",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraser1995",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraser1995",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taylor1992",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renan1882",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renan1882",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "macintyre1984",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "macintyre1984",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sandel1984",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sandel1984",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "connolly1974",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "connolly1974",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaventa1980",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "macintyre1971",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taylor1971",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaeggi2018",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaeggi2018",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron2013",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zacka2017",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zacka2017",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beitz2001",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forst2014",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forst2014",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosen2012",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosen2012",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hirschman1970",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hirschman1970",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2004",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2018",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caramani2017",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caramani2017",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parthasarathy2019",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berlin1958",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berlin1958",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arendt1958",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arendt1958",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skinner1969",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skinner1969",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pitkin1967",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "singer1972",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nozick1974",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nozick1974",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lukes1974",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pocock1975",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pocock1975",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foucault1977",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beitz1979",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sen1980",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dworkin1981",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walzer1983",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walzer1983",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walzer1983",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parfit1984",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dahl1985",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dahl1985",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "raz1986",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carens1987",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frankfurt1987",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pateman1988",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pateman1988",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "okin1989",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "okin1989",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1989",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1989delib",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1989delib",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arneson1989",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young1990",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young1990",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young1990",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "butler1990",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "butler1990",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collins1990",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collins1990",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collins1990",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rawls1993",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "honig1993",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kymlicka1995",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller1995",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller1995",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller1995",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "honneth1995",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "honneth1995",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tully1995",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tully1995",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermas1996",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermas1996",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermas1996",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gutmannthompson1996",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit1997",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mills1997",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mills1997",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manin1997",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manin1997",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rawls1997",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skinner1998",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skinner1998",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron1999",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron1999",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rawls1999",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mehta1999",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mehta1999",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nussbaum2000",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nussbaum2000",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzek2000",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzek2000",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mouffe2000",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mouffe2000",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young2000",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young2000",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young2000",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barry2001",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barry2001",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pogge2002",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge2003",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraserhonneth2003",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraserhonneth2003",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheffler2003",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benhabib2004",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benhabib2004",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williams2005",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williams2005",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caney2005",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caney2005",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nagel2005",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laclau2005",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laclau2005",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pitts2005",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pitts2005",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shelby2005",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2006",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2006",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urbinati2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sen2006",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sen2006",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gardiner2011",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "estlund2008",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "estlund2008",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geuss2008",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wolin2008",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wolin2008",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2008",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2008",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fishkin2009",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sen2009",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sen2009",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beitz2009",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lovett2010",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lovett2010",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saward2010",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young2011",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "donaldsonkymlicka2011",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "donaldsonkymlicka2011",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quong2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaus2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2012",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2012",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parkinsonmansbridge2012",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forst2012",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forst2012",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemore2013",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemore2013",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carens2013",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coulthard2014",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coulthard2014",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2015",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2015",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brennan2016",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muller2016",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "millerstrangers2016",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2017",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2017",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laborde2017",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laborde2017",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "getachew2019",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "getachew2019",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "getachew2019",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urbinati2019book",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urbinati2019book",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forrester2019",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forrester2019",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lafont2020",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lafont2020",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemore2020",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemore2020",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemore2020",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herzog2018",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2007",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2007",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robeyns2006",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "casal2007",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huseby2010",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "axelsennielsen2015",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oneill2008",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schemmel2011",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fourie2012",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "otsukavoorhoeve2009",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brighouseswift2006",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2007",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2007",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "satz2007",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robeyns2022",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robeyns2022",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carter2011",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nelson2008",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nussbaum2011",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nussbaum2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vallentyne2008",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2010",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentini2009",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "estlund2011",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "estlund2014",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "galston2010",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horton2010",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horton2010",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "philp2010",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sleat2010",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sleat2014",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sleat2014",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rossi2012",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rossi2012",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prinzrossi2017",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prinzrossi2017",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallsleat2017",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lawfordsmith2013",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wiens2012",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ackerly2021",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leadermaynard2018",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sangiovanni2008",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sangiovanni2008",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rossi2019",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rossi2019",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kolodny2014a",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kolodny2014b",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kolodny2014b",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "viehoff2014",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "viehoff2014",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2009",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bohmanrichardson2009",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bohmanrichardson2009",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laborde2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laborde2011",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horton2012",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forst2010",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forst2010",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "list2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "list2006",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lefkowitz2007",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bell2014",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bell2014",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ripstein2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saffonurbinati2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saffonurbinati2013",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge2010",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bachtiger2010",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lafont2015",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lafont2015",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "owensmith2015",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chambers2009",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzek2010",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzek2016",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2008",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2008",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "neblo2010",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karpowitz2012",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karpowitz2012",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "warrengastil2015",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "warrengastil2015",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sassdryzek2014",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sassdryzek2014",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knops2007",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knops2007",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guerrero2014",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guerrero2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2009",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2009",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landapevnick2021",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landapevnick2021",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blumzuber2016",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blumzuber2016",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hewarren2011",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hewarren2011",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pateman2012",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pateman2012",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boker2017",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boker2017",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mackie2006",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercierlandemore2012",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercierlandemore2012",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rummens2012",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rummens2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urbinatiwarren2008",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rehfeld2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rehfeld2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge2011",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saward2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saward2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "disch2011",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "disch2015",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montanaro2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "runciman2007",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2006jpp",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2006jpp",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasstrom2011",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "warren2017",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "warren2017",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2010",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2010",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzekniemeyer2008",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzekniemeyer2008",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dotson2011",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dotson2011",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dotson2011",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pohlhaus2012",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tuana2006",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tuana2006",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holstmolander2019",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peter2007",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peter2007",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemorepage2015",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemorepage2015",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brennan2017",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hannon2022",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sunsteinvermeule2009",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davis2016",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davis2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "toole2019",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "toole2019",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berenstain2021",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berenstain2021",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harding2009",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harding2009",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "srinivasan2018",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "srinivasan2018",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "srinivasan2018",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "markell2008",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2006",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2006",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dagger2006",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dagger2006",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brennanlomasky2006",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2011",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2011",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "listvalentini2016",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laborde2010",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laborde2010",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2010",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2010",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gourevitch2013",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gourevitch2013",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gourevitch2013",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oshea2020",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oshea2020",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muldoon2019",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muldoon2019",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gadeke2020",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coffee2015",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coffee2015",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coffee2013",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coffee2013",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coffee2013",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2011",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2011",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cicerchia2019",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cicerchia2019",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vrousalis2013",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vrousalis2013",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sangiovanni2007",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abizadeh2007",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohensabel2006",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "julius2006",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ronzoni2009",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ronzoni2009",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wenar2008",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wenar2008",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2008crispp",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meckledgarcia2008",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christiano2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christiano2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beitz2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilabert2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2012",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dworkin2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dworkin2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermas2008",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermas2008",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2008pt",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "follesdal2006",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "follesdal2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stilz2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stilz2011",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stilz2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stilz2013",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lichtenberg2010",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bayefsky2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bayefsky2013",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abizadeh2008",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abizadeh2008",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2010",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abizadeh2010",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wellman2008",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blake2013",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2008jpp",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2008jpp",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ypi2008",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ypi2008",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheffler2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheffler2007",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carens2008",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carens2008",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shacharhirschl2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shacharhirschl2007",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodin2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodin2007",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2009",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibney2015",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibney2015",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2015",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baubock2011",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "erman2014",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "erman2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saunders2011demos",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saunders2011demos",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasstrom2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasstrom2007",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shelby2007",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shelby2007",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooker2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coulthard2007",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coulthard2007",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "getachew2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "getachew2016",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farr2008",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farr2008",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinshelwood2013",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinshelwood2013",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bell2009",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bell2009",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myers2019",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myers2019",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ypi2013",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ypi2013",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lu2011",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lu2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glasgow2009",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mallon2006",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "issar2021",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "issar2021",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "issar2021",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tunick2006",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tunick2006",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lugones2010",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lugones2010",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nichols2018",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nichols2018",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feola2021",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feola2021",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "havercroftowen2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "havercroftowen2016",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garlandthomson2011",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bettcher2007",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jenkins2016",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "westlund2009",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yuvaldavis2007",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yuvaldavis2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collins2021",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collins2021",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kukla2014",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kukla2014",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dougherty2015",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woodly2021",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woodly2021",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arneil2009",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arneil2009",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ortega2006",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ortega2006",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ortega2006",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "terwiel2020",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "terwiel2020",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraser2007",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraser2007",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kompridis2007",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2006",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "patten2009",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcqueen2015",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcqueen2015",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "modoodthompson2018",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "modoodthompson2018",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muller2006",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muller2006",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horton2011",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horton2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weinstock2013",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weinstock2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "march2009",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "march2009",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williamswarren2014",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williamswarren2014",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacobsohn2006",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacobsohn2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finlayson2010",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finlayson2010",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perreau2007",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perreau2007",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muthu2008",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muthu2008",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2006",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2006",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertram2012",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertram2012",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kimsungmoon2011",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "behrent2009",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "behrent2009",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mantena2012",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mantena2012",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mehta2010",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pocock2008",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pocock2008",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ober2008",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ober2008",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forrester2012",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forrester2012",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bejan2016",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bejan2016",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slingerland2011",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "metz2007",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "metz2007",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bai2008",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bai2008",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2006pt",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2006pt",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaap2011",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaap2011",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chambers2011",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "celikates2006",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "celikates2006",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forst2015",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forst2015",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krause2011",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foster2016",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foster2016",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biebricher2015",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biebricher2015",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "raekstad2018",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandesande2013",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "washick2015",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "neocleous2007",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "neocleous2007",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frazerhutchings2008",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frazerhutchings2008",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hammond2019",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hammond2019",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hartmannhonneth2006",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hartmannhonneth2006",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urbinati2019",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urbinati2019",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muller2014",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stavrakakis2014",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stavrakakis2017",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bickertonaccetti2017",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bickertonaccetti2017",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vergara2020",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vergara2020",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arditi2010",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arditi2010",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urbinati2015",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urbinati2015",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pappas2016",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aratocohen2017",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aratocohen2017",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemoreferreras2016",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "landemoreferreras2016",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hsieh2008",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hsieh2008",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roessler2012",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sayer2009",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sayer2009",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "breen2015",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "breen2015",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciepley2013",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciepley2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muldoonraekstad2023",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muldoonraekstad2023",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit2007",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benklernissenbaum2006",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shacharhirschl2014",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shacharhirschl2014",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caney2010",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caney2014",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caney2012",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caney2014ppe",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meyerroser2010",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gardiner2006",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gosseries2008",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parfit2017",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosbergcoles2016",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosbergcoles2016",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "celermajer2021",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "celermajer2023",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "battistoni2017",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "battistoni2017",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "whyte2014",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "whyte2014",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "whyte2014",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bell2011",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bell2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kagan2011",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nefsky2011",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cochrane2013",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}
