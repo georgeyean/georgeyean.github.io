@@ -1,0 +1,6364 @@
+{
+ "meta": {
+  "title": "American politics knowledge network, c. 1957-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in American politics: polarization and partisan identity, opinion formation and misinformation, media, participation, campaigns and accountability, race and gender, representation and inequality, Congress, the presidency and bureaucracy, courts, interest groups and money, states and policy diffusion, policy feedback and American political development, democratic norms, and political psychology. Seeds come from this repo's papers.json; works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (including eleven American-politics journals) plus anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 385,
+   "theme_nodes": 18,
+   "seed_from_papers_json": 9,
+   "crossref_top_cited": 287,
+   "anchors_supplement": 89,
+   "relation_edges": 415,
+   "membership_edges": 641
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other five maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "converse1964",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Belief systems analyzed with the Michigan surveys."
+  },
+  {
+   "source": "fiorina1981",
+   "target": "campbell1960",
+   "type": "challenges",
+   "why": "Party ID as a running tally rather than a fixed attachment."
+  },
+  {
+   "source": "fiorina1981",
+   "target": "downs1957",
+   "type": "builds_on",
+   "why": "Retrospective voting as a low-cost information shortcut."
+  },
+  {
+   "source": "greenpalmquist2002",
+   "target": "fiorina1981",
+   "type": "challenges",
+   "why": "Party ID is a durable social identity, not a tally."
+  },
+  {
+   "source": "greenpalmquist2002",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Revives the Michigan view of party identification."
+  },
+  {
+   "source": "zaller1992",
+   "target": "converse1964",
+   "type": "builds_on",
+   "why": "Elite messages and awareness explain weak mass constraint."
+  },
+  {
+   "source": "pageshapiro1992",
+   "target": "converse1964",
+   "type": "challenges",
+   "why": "Collective opinion is stable even if individual opinion is not."
+  },
+  {
+   "source": "mayhew1974",
+   "target": "downs1957",
+   "type": "builds_on",
+   "why": "Electoral motive applied to individual legislators."
+  },
+  {
+   "source": "aldrich1995",
+   "target": "mayhew1974",
+   "type": "builds_on",
+   "why": "Ambitious politicians build parties to win office."
+  },
+  {
+   "source": "coxmccubbins2005",
+   "target": "aldrich1995",
+   "type": "builds_on",
+   "why": "Party as a legislative cartel serving members."
+  },
+  {
+   "source": "krehbiel1998",
+   "target": "coxmccubbins2005",
+   "type": "challenges",
+   "why": "Pivots, not parties, explain lawmaking (contemporaneous debate)."
+  },
+  {
+   "source": "poolerosenthal1997",
+   "target": "millerstokes1963",
+   "type": "builds_on",
+   "why": "Roll-call ideology as the object of representation studies."
+  },
+  {
+   "source": "stimson1995",
+   "target": "pageshapiro1992",
+   "type": "builds_on",
+   "why": "Aggregate mood drives policy."
+  },
+  {
+   "source": "erikson1993",
+   "target": "millerstokes1963",
+   "type": "extends_to_new_case",
+   "why": "Opinion-policy link tested across states."
+  },
+  {
+   "source": "verba1995",
+   "target": "rosenstonehansen1993",
+   "type": "synthesizes",
+   "why": "Resources plus recruitment explain participation."
+  },
+  {
+   "source": "rosenstonehansen1993",
+   "target": "downs1957",
+   "type": "qualifies",
+   "why": "Mobilization lowers the costs of voting."
+  },
+  {
+   "source": "gerbergreen2000",
+   "target": "rosenstonehansen1993",
+   "type": "mechanism_tested_by",
+   "why": "Field experiment on mobilization effects."
+  },
+  {
+   "source": "kindersanders1996",
+   "target": "converse1964",
+   "type": "qualifies",
+   "why": "Group attitudes structure opinion where ideology does not."
+  },
+  {
+   "source": "mendelberg2001",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "How campaign messages activate racial resentment."
+  },
+  {
+   "source": "dawson1994",
+   "target": "campbell1960",
+   "type": "qualifies",
+   "why": "Group interest, not party, anchors Black political choice."
+  },
+  {
+   "source": "berryberry1990",
+   "target": "walker1969",
+   "type": "builds_on",
+   "why": "Event history version of state innovation."
+  },
+  {
+   "source": "pierson1993",
+   "target": "schattschneider1960",
+   "type": "builds_on",
+   "why": "New policies create a new politics."
+  },
+  {
+   "source": "campbell2003",
+   "target": "pierson1993",
+   "type": "mechanism_tested_by",
+   "why": "Social Security as a feedback case."
+  },
+  {
+   "source": "skowronek1982",
+   "target": "neustadt1960",
+   "type": "qualifies",
+   "why": "Institutional development, not persuasion, shapes executive capacity."
+  },
+  {
+   "source": "kernell1986",
+   "target": "neustadt1960",
+   "type": "challenges",
+   "why": "Going public replaces bargaining."
+  },
+  {
+   "source": "moehowell1999",
+   "target": "neustadt1960",
+   "type": "challenges",
+   "why": "Unilateral action, not persuasion, as presidential power."
+  },
+  {
+   "source": "howell2003",
+   "target": "moehowell1999",
+   "type": "mechanism_tested_by",
+   "why": "Executive order data test unilateral power."
+  },
+  {
+   "source": "epsteinknight1998",
+   "target": "segalspaeth2002",
+   "type": "challenges",
+   "why": "Strategic versus attitudinal models of justices (earlier edition, 1993)."
+  },
+  {
+   "source": "rosenberg1991",
+   "target": "epsteinknight1998",
+   "type": "synthesizes",
+   "why": "Courts constrained by other branches (thematic link)."
+  },
+  {
+   "source": "marcus2000",
+   "target": "converse1964",
+   "type": "qualifies",
+   "why": "Emotion changes how citizens use information."
+  },
+  {
+   "source": "alford2005",
+   "target": "campbell1960",
+   "type": "challenges",
+   "why": "Attitudes partly heritable, not only socialized."
+  },
+  {
+   "source": "sunstein2001",
+   "target": "zaller1992",
+   "type": "extends_to_new_case",
+   "why": "Elite-message model applied to personalized media."
+  },
+  {
+   "source": "binder2003",
+   "target": "krehbiel1998",
+   "type": "qualifies",
+   "why": "Polarization and bicameral differences matter for gridlock."
+  },
+  {
+   "source": "fiorina2005",
+   "target": "poolerosenthal1997",
+   "type": "qualifies",
+   "why": "Elites polarized, public sorted."
+  },
+  {
+   "source": "segalspaeth2002",
+   "target": "rosenberg1991",
+   "type": "synthesizes",
+   "why": "Policy-driven courts and their limits."
+  },
+  {
+   "source": "mccarty2006",
+   "target": "poolerosenthal1997",
+   "type": "builds_on",
+   "why": "NOMINATE trends linked to inequality and immigration."
+  },
+  {
+   "source": "abramowitz2008",
+   "target": "fiorina2005",
+   "type": "challenges",
+   "why": "Engaged public is polarized."
+  },
+  {
+   "source": "fiorinaabrams2008",
+   "target": "abramowitz2008",
+   "type": "challenges",
+   "why": "Sorting, not polarization, in the mass public."
+  },
+  {
+   "source": "fiorina2008",
+   "target": "abramowitz2008",
+   "type": "challenges",
+   "why": "Reply on misreadings of polarization data."
+  },
+  {
+   "source": "abramowitz2010",
+   "target": "abramowitz2008",
+   "type": "builds_on",
+   "why": "Book-length case for engaged polarization."
+  },
+  {
+   "source": "layman2006",
+   "target": "poolerosenthal1997",
+   "type": "synthesizes",
+   "why": "Review of polarization research."
+  },
+  {
+   "source": "shormccarty2011",
+   "target": "poolerosenthal1997",
+   "type": "extends_to_new_case",
+   "why": "Ideal points for state legislatures."
+  },
+  {
+   "source": "mccarty2009",
+   "target": "mccarty2006",
+   "type": "builds_on",
+   "why": "Tests gerrymandering as a cause of polarization."
+  },
+  {
+   "source": "hall2015",
+   "target": "brady2007",
+   "type": "mechanism_tested_by",
+   "why": "Causal effect of primary extremism."
+  },
+  {
+   "source": "brady2007",
+   "target": "downs1957",
+   "type": "qualifies",
+   "why": "Primaries pull candidates from the median."
+  },
+  {
+   "source": "bafumiherron2010",
+   "target": "millerstokes1963",
+   "type": "builds_on",
+   "why": "Dyadic representation on a common scale."
+  },
+  {
+   "source": "bafumiherron2010",
+   "target": "mccarty2006",
+   "type": "builds_on",
+   "why": "Elite extremism relative to voters."
+  },
+  {
+   "source": "barberpope2019",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Party as anchor over ideology."
+  },
+  {
+   "source": "barberpope2019",
+   "target": "converse1964",
+   "type": "builds_on",
+   "why": "Weak ideological constraint in the mass public."
+  },
+  {
+   "source": "druckman2013",
+   "target": "zaller1992",
+   "type": "builds_on",
+   "why": "Elite polarization as a cue environment."
+  },
+  {
+   "source": "levendusky2010",
+   "target": "zaller1992",
+   "type": "builds_on",
+   "why": "Clearer cues improve consistency."
+  },
+  {
+   "source": "levendusky2010",
+   "target": "fiorina2005",
+   "type": "builds_on",
+   "why": "Sorting driven by elite cues."
+  },
+  {
+   "source": "lelkes2016",
+   "target": "fiorinaabrams2008",
+   "type": "synthesizes",
+   "why": "Reconciles measures of mass polarization."
+  },
+  {
+   "source": "ahler2014",
+   "target": "fiorinaabrams2008",
+   "type": "builds_on",
+   "why": "Perceived polarization exceeds actual polarization."
+  },
+  {
+   "source": "levenduskymalhotra2016",
+   "target": "ahler2014",
+   "type": "synthesizes",
+   "why": "Misperceptions of mass polarization."
+  },
+  {
+   "source": "thomsen2014",
+   "target": "mccarty2006",
+   "type": "qualifies",
+   "why": "Candidate supply explains elite polarization."
+  },
+  {
+   "source": "barber2016jop",
+   "target": "bonica2014",
+   "type": "builds_on",
+   "why": "Donor ideology and legislative polarization."
+  },
+  {
+   "source": "lee2015",
+   "target": "lee2016",
+   "type": "synthesizes",
+   "why": "Governance effects of competition and polarization."
+  },
+  {
+   "source": "leesenate2009",
+   "target": "poolerosenthal1997",
+   "type": "challenges",
+   "why": "Partisanship is not only ideology."
+  },
+  {
+   "source": "lee2016",
+   "target": "leesenate2009",
+   "type": "builds_on",
+   "why": "Insecure majorities drive team play."
+  },
+  {
+   "source": "theriault2008",
+   "target": "poolerosenthal1997",
+   "type": "builds_on",
+   "why": "Procedural roots of congressional polarization."
+  },
+  {
+   "source": "mcghee2014",
+   "target": "brady2007",
+   "type": "challenges",
+   "why": "Primary rules have little effect on ideology."
+  },
+  {
+   "source": "hopkins2022",
+   "target": "shormccarty2011",
+   "type": "builds_on",
+   "why": "State polarization and nationalization."
+  },
+  {
+   "source": "kuk2022",
+   "target": "feigenbaum2015",
+   "type": "builds_on",
+   "why": "Partisan responses to the China shock in Congress."
+  },
+  {
+   "source": "kuk2022",
+   "target": "autor2020",
+   "type": "builds_on",
+   "why": "Trade shock and partisan divergence."
+  },
+  {
+   "source": "autor2020",
+   "target": "mccarty2006",
+   "type": "extends_to_new_case",
+   "why": "Trade shocks as a cause of polarization."
+  },
+  {
+   "source": "iyengar2012",
+   "target": "greenpalmquist2002",
+   "type": "builds_on",
+   "why": "Partisanship as social identity produces affective division."
+  },
+  {
+   "source": "iyengarwestwood2015",
+   "target": "iyengar2012",
+   "type": "builds_on",
+   "why": "Behavioral evidence of partisan animus."
+  },
+  {
+   "source": "iyengar2019",
+   "target": "iyengar2012",
+   "type": "synthesizes",
+   "why": "Review of affective polarization."
+  },
+  {
+   "source": "mason2015",
+   "target": "greenpalmquist2002",
+   "type": "builds_on",
+   "why": "Sorted identities intensify partisan bias."
+  },
+  {
+   "source": "mason2015",
+   "target": "fiorina2005",
+   "type": "qualifies",
+   "why": "Sorting matters even without issue polarization."
+  },
+  {
+   "source": "mason2016",
+   "target": "mason2015",
+   "type": "builds_on",
+   "why": "Cross-cutting identities as the counterfactual."
+  },
+  {
+   "source": "mason2018poq",
+   "target": "mason2015",
+   "type": "builds_on",
+   "why": "Ideological identity apart from issues."
+  },
+  {
+   "source": "mason2018",
+   "target": "mason2015",
+   "type": "synthesizes",
+   "why": "Book-length account of mega-identities."
+  },
+  {
+   "source": "huddy2015",
+   "target": "greenpalmquist2002",
+   "type": "builds_on",
+   "why": "Expressive partisan identity drives action."
+  },
+  {
+   "source": "abramowitzwebster2018",
+   "target": "iyengar2012",
+   "type": "builds_on",
+   "why": "Negative partisanship."
+  },
+  {
+   "source": "websterabramowitz2017",
+   "target": "iyengar2012",
+   "type": "challenges",
+   "why": "Affective polarization has ideological roots."
+  },
+  {
+   "source": "rogowskisutherland2016",
+   "target": "iyengar2012",
+   "type": "qualifies",
+   "why": "Ideological distance drives affect."
+  },
+  {
+   "source": "westiyengar2022",
+   "target": "iyengarwestwood2015",
+   "type": "synthesizes",
+   "why": "Partisanship as social identity."
+  },
+  {
+   "source": "hubermalhotra2017",
+   "target": "iyengarwestwood2015",
+   "type": "extends_to_new_case",
+   "why": "Partisan sorting in dating markets."
+  },
+  {
+   "source": "lelkeswestwood2017",
+   "target": "iyengarwestwood2015",
+   "type": "qualifies",
+   "why": "Limits of partisan prejudice."
+  },
+  {
+   "source": "levendusky2018",
+   "target": "iyengar2012",
+   "type": "mechanism_tested_by",
+   "why": "Superordinate identity reduces affect."
+  },
+  {
+   "source": "ahlersood2018",
+   "target": "iyengar2012",
+   "type": "builds_on",
+   "why": "Misperceived party composition fuels animus."
+  },
+  {
+   "source": "druckmanlevendusky2019",
+   "target": "iyengar2012",
+   "type": "qualifies",
+   "why": "Measures conflate elites and voters."
+  },
+  {
+   "source": "druckman2022",
+   "target": "druckmanlevendusky2019",
+   "type": "builds_on",
+   "why": "Overestimation of affective polarization."
+  },
+  {
+   "source": "kingzette2021",
+   "target": "iyengar2019",
+   "type": "builds_on",
+   "why": "Affect erodes support for democratic norms."
+  },
+  {
+   "source": "mcconnell2018",
+   "target": "iyengarwestwood2015",
+   "type": "extends_to_new_case",
+   "why": "Partisanship in economic behavior."
+  },
+  {
+   "source": "gerberhuber2009",
+   "target": "campbell1960",
+   "type": "extends_to_new_case",
+   "why": "Partisan perceptual screen in economic behavior."
+  },
+  {
+   "source": "wojcieszakwarner2020",
+   "target": "iyengar2019",
+   "type": "mechanism_tested_by",
+   "why": "Contact as a remedy for affective polarization."
+  },
+  {
+   "source": "bankert2021",
+   "target": "abramowitzwebster2018",
+   "type": "builds_on",
+   "why": "Positive versus negative partisanship."
+  },
+  {
+   "source": "jennings2009",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Family transmission of party identification."
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "greenpalmquist2002",
+   "type": "builds_on",
+   "why": "Group identity theory of voting."
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "fiorina1981",
+   "type": "challenges",
+   "why": "Retrospection is myopic and blind."
+  },
+  {
+   "source": "kalmoemason2022",
+   "target": "mason2018",
+   "type": "builds_on",
+   "why": "Partisan identity and violent hostility."
+  },
+  {
+   "source": "tesler2016",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Racial resentment spills over into partisanship."
+  },
+  {
+   "source": "taberlodge2006",
+   "target": "zaller1992",
+   "type": "qualifies",
+   "why": "Motivated reasoning in accepting messages."
+  },
+  {
+   "source": "lodgetaber2013",
+   "target": "taberlodge2006",
+   "type": "synthesizes",
+   "why": "Theory of the rationalizing voter."
+  },
+  {
+   "source": "chongdruckman2007arps",
+   "target": "zaller1992",
+   "type": "synthesizes",
+   "why": "Review of framing theory."
+  },
+  {
+   "source": "chongdruckman2007",
+   "target": "chongdruckman2007arps",
+   "type": "mechanism_tested_by",
+   "why": "Competing frames tested."
+  },
+  {
+   "source": "chongdruckman2010",
+   "target": "chongdruckman2007",
+   "type": "builds_on",
+   "why": "Over-time framing effects."
+  },
+  {
+   "source": "bullock2011",
+   "target": "zaller1992",
+   "type": "qualifies",
+   "why": "Policy content matters next to cues."
+  },
+  {
+   "source": "lenz2009",
+   "target": "zaller1992",
+   "type": "challenges",
+   "why": "Priming often reflects learning."
+  },
+  {
+   "source": "ansolabehere2008",
+   "target": "converse1964",
+   "type": "challenges",
+   "why": "Measurement error masks stable preferences."
+  },
+  {
+   "source": "slothuusdevreese2010",
+   "target": "chongdruckman2007arps",
+   "type": "qualifies",
+   "why": "Party sponsorship conditions framing."
+  },
+  {
+   "source": "leeperslothuus2014",
+   "target": "taberlodge2006",
+   "type": "synthesizes",
+   "why": "Motivated reasoning in party-driven opinion."
+  },
+  {
+   "source": "bolsen2014",
+   "target": "taberlodge2006",
+   "type": "mechanism_tested_by",
+   "why": "Party endorsements and motivated reasoning."
+  },
+  {
+   "source": "gaines2007",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Partisan interpretation of facts."
+  },
+  {
+   "source": "jeritbarabas2012",
+   "target": "gaines2007",
+   "type": "qualifies",
+   "why": "Information environment conditions bias."
+  },
+  {
+   "source": "goren2009",
+   "target": "zaller1992",
+   "type": "builds_on",
+   "why": "Party cues shape value expression."
+  },
+  {
+   "source": "nicholson2012",
+   "target": "goren2009",
+   "type": "builds_on",
+   "why": "Out-party cues polarize."
+  },
+  {
+   "source": "tesler2015",
+   "target": "lenz2009",
+   "type": "qualifies",
+   "why": "When campaigns prime versus change opinion."
+  },
+  {
+   "source": "hopkins2019",
+   "target": "hainmueller2014",
+   "type": "builds_on",
+   "why": "Information and immigration attitudes."
+  },
+  {
+   "source": "boudreaumackenzie2014",
+   "target": "bullock2011",
+   "type": "builds_on",
+   "why": "Policy information versus party cues on ballot measures."
+  },
+  {
+   "source": "druckmanleeper2012",
+   "target": "chongdruckman2010",
+   "type": "qualifies",
+   "why": "Pretreatment mutes experimental effects."
+  },
+  {
+   "source": "broockmankalla2016",
+   "target": "kindersanders1996",
+   "type": "qualifies",
+   "why": "Prejudice can be reduced durably."
+  },
+  {
+   "source": "enos2014",
+   "target": "kindersanders1996",
+   "type": "extends_to_new_case",
+   "why": "Group threat in a field experiment."
+  },
+  {
+   "source": "ballardrosa2024",
+   "target": "margalit2011",
+   "type": "builds_on",
+   "why": "Beliefs about the American Dream and trade opinion."
+  },
+  {
+   "source": "nyhanreifler2010",
+   "target": "taberlodge2006",
+   "type": "builds_on",
+   "why": "Motivated reasoning resists corrections."
+  },
+  {
+   "source": "woodporter2019",
+   "target": "nyhanreifler2010",
+   "type": "challenges",
+   "why": "Backfire effects rarely replicate."
+  },
+  {
+   "source": "flynn2017",
+   "target": "nyhanreifler2010",
+   "type": "synthesizes",
+   "why": "Review of misperceptions."
+  },
+  {
+   "source": "thorson2016",
+   "target": "nyhanreifler2010",
+   "type": "builds_on",
+   "why": "Belief echoes after correction."
+  },
+  {
+   "source": "walter2020",
+   "target": "woodporter2019",
+   "type": "synthesizes",
+   "why": "Meta-analysis of fact-checking."
+  },
+  {
+   "source": "clayton2020",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "Interventions against fake news."
+  },
+  {
+   "source": "nyhan2020",
+   "target": "woodporter2019",
+   "type": "builds_on",
+   "why": "Fact-checks change beliefs, not votes."
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "pennycookrand2019",
+   "type": "challenges",
+   "why": "Partisan motivation drives sharing."
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "iyengar2019",
+   "type": "builds_on",
+   "why": "Affective polarization fuels fake news sharing."
+  },
+  {
+   "source": "pennycookrand2019",
+   "target": "taberlodge2006",
+   "type": "challenges",
+   "why": "Inattention, not motivated reasoning."
+  },
+  {
+   "source": "oliverwood2014",
+   "target": "taberlodge2006",
+   "type": "extends_to_new_case",
+   "why": "Predispositions behind conspiracy beliefs."
+  },
+  {
+   "source": "miller2016",
+   "target": "oliverwood2014",
+   "type": "builds_on",
+   "why": "Conspiracy endorsement as motivated reasoning."
+  },
+  {
+   "source": "uscinski2016",
+   "target": "oliverwood2014",
+   "type": "builds_on",
+   "why": "Cues and predispositions."
+  },
+  {
+   "source": "douglas2019",
+   "target": "oliverwood2014",
+   "type": "synthesizes",
+   "why": "Review of conspiracy theories."
+  },
+  {
+   "source": "nyhanreifler2015",
+   "target": "nyhanreifler2010",
+   "type": "extends_to_new_case",
+   "why": "Fact-checking aimed at elites."
+  },
+  {
+   "source": "enders2021",
+   "target": "uscinski2016",
+   "type": "builds_on",
+   "why": "Social media use and conspiracy beliefs."
+  },
+  {
+   "source": "jeritzhao2020",
+   "target": "flynn2017",
+   "type": "synthesizes",
+   "why": "Review of political misinformation."
+  },
+  {
+   "source": "allcottgentzkow2017",
+   "target": "gentzkowshapiro2010",
+   "type": "builds_on",
+   "why": "Demand-side view of fake news."
+  },
+  {
+   "source": "vosoughi2018",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "Spread dynamics of false news."
+  },
+  {
+   "source": "guess2019",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "Who shares fake news."
+  },
+  {
+   "source": "dellavignakaplan2007",
+   "target": "zaller1992",
+   "type": "mechanism_tested_by",
+   "why": "Persuasive effects of a partisan network."
+  },
+  {
+   "source": "gentzkowshapiro2010",
+   "target": "dellavignakaplan2007",
+   "type": "qualifies",
+   "why": "Slant follows demand."
+  },
+  {
+   "source": "martinyurukoglu2017",
+   "target": "dellavignakaplan2007",
+   "type": "builds_on",
+   "why": "Cable news persuasion and polarization."
+  },
+  {
+   "source": "prior2007",
+   "target": "zaller1992",
+   "type": "builds_on",
+   "why": "Media choice and information gaps."
+  },
+  {
+   "source": "flaxman2016",
+   "target": "sunstein2001",
+   "type": "challenges",
+   "why": "Online news is less segregated than feared."
+  },
+  {
+   "source": "stroud2008",
+   "target": "sunstein2001",
+   "type": "mechanism_tested_by",
+   "why": "Selective exposure measured."
+  },
+  {
+   "source": "levendusky2013",
+   "target": "stroud2008",
+   "type": "builds_on",
+   "why": "Partisan media effects on viewers."
+  },
+  {
+   "source": "prior2013",
+   "target": "levendusky2013",
+   "type": "synthesizes",
+   "why": "Review of media and polarization."
+  },
+  {
+   "source": "prior2009",
+   "target": "prior2007",
+   "type": "qualifies",
+   "why": "Self-reported exposure is inflated."
+  },
+  {
+   "source": "baumgroeling2008",
+   "target": "gentzkowshapiro2010",
+   "type": "synthesizes",
+   "why": "Partisan story selection in new media."
+  },
+  {
+   "source": "arceneaux2012",
+   "target": "stroud2008",
+   "type": "qualifies",
+   "why": "Hostility toward counter-attitudinal media."
+  },
+  {
+   "source": "guess2021",
+   "target": "flaxman2016",
+   "type": "builds_on",
+   "why": "Moderate online media diets."
+  },
+  {
+   "source": "bakshy2015",
+   "target": "sunstein2001",
+   "type": "mechanism_tested_by",
+   "why": "Algorithmic versus individual filtering."
+  },
+  {
+   "source": "bail2018",
+   "target": "bakshy2015",
+   "type": "challenges",
+   "why": "Cross-cutting exposure can polarize."
+  },
+  {
+   "source": "martinmccrain2019",
+   "target": "gentzkowshapiro2010",
+   "type": "qualifies",
+   "why": "Ownership shifts local news content."
+  },
+  {
+   "source": "moskowitz2021",
+   "target": "jacobson2015",
+   "type": "builds_on",
+   "why": "Local news and nationalization."
+  },
+  {
+   "source": "hayeslawless2018",
+   "target": "prior2007",
+   "type": "builds_on",
+   "why": "Local news decline and engagement."
+  },
+  {
+   "source": "lelkes2017",
+   "target": "prior2007",
+   "type": "builds_on",
+   "why": "Internet access and affective polarization."
+  },
+  {
+   "source": "boutylinewiller2017",
+   "target": "bakshy2015",
+   "type": "builds_on",
+   "why": "Homophily in online networks."
+  },
+  {
+   "source": "baumgartnermorris2006",
+   "target": "prior2007",
+   "type": "synthesizes",
+   "why": "Soft news and political attitudes."
+  },
+  {
+   "source": "bondmessing2015",
+   "target": "poolerosenthal1997",
+   "type": "extends_to_new_case",
+   "why": "Ideal points from social media."
+  },
+  {
+   "source": "druckman2018",
+   "target": "levendusky2013",
+   "type": "builds_on",
+   "why": "Two-step flow of partisan media effects."
+  },
+  {
+   "source": "wells2016",
+   "target": "kernell1986",
+   "type": "extends_to_new_case",
+   "why": "Going public via social media."
+  },
+  {
+   "source": "kim2018",
+   "target": "fowler2021",
+   "type": "synthesizes",
+   "why": "Online political advertising."
+  },
+  {
+   "source": "fowler2021",
+   "target": "gerber2011",
+   "type": "builds_on",
+   "why": "Ad effects moved online."
+  },
+  {
+   "source": "stier2018",
+   "target": "wells2016",
+   "type": "synthesizes",
+   "why": "Campaigning on social media."
+  },
+  {
+   "source": "barbera2019",
+   "target": "stimson1995",
+   "type": "builds_on",
+   "why": "Who leads whom in issue attention."
+  },
+  {
+   "source": "mutz2006",
+   "target": "verba1995",
+   "type": "qualifies",
+   "why": "Cross-cutting exposure lowers participation."
+  },
+  {
+   "source": "bailey2024",
+   "target": "rosenberg1991",
+   "type": "challenges",
+   "why": "Court decisions do shape issue attention."
+  },
+  {
+   "source": "valentino2013",
+   "target": "brader2008",
+   "type": "builds_on",
+   "why": "Media priming of group attitudes."
+  },
+  {
+   "source": "gerber2008",
+   "target": "gerbergreen2000",
+   "type": "builds_on",
+   "why": "Social pressure in get-out-the-vote experiments."
+  },
+  {
+   "source": "gerberrogers2009",
+   "target": "gerber2008",
+   "type": "builds_on",
+   "why": "Descriptive norms and turnout."
+  },
+  {
+   "source": "nickerson2008",
+   "target": "gerbergreen2000",
+   "type": "builds_on",
+   "why": "Spillover of canvassing within households."
+  },
+  {
+   "source": "arceneauxnickerson2009",
+   "target": "gerbergreen2000",
+   "type": "synthesizes",
+   "why": "Reanalysis of mobilization experiments."
+  },
+  {
+   "source": "blais2006",
+   "target": "downs1957",
+   "type": "synthesizes",
+   "why": "Review of turnout research."
+  },
+  {
+   "source": "fowler2008",
+   "target": "alford2005",
+   "type": "extends_to_new_case",
+   "why": "Heritability of participation."
+  },
+  {
+   "source": "fowlerdawes2008",
+   "target": "fowler2008",
+   "type": "builds_on",
+   "why": "Specific genes and turnout."
+  },
+  {
+   "source": "fowlerkam2007",
+   "target": "downs1957",
+   "type": "challenges",
+   "why": "Altruism resolves the paradox of voting."
+  },
+  {
+   "source": "solt2008",
+   "target": "verba1995",
+   "type": "extends_to_new_case",
+   "why": "Inequality and engagement across countries."
+  },
+  {
+   "source": "hajnal2017",
+   "target": "rosenstonehansen1993",
+   "type": "builds_on",
+   "why": "Voting rules and minority turnout."
+  },
+  {
+   "source": "cantonipons2021",
+   "target": "hajnal2017",
+   "type": "challenges",
+   "why": "Strict ID laws had no turnout effect."
+  },
+  {
+   "source": "white2015",
+   "target": "butlerbroockman2011",
+   "type": "extends_to_new_case",
+   "why": "Audit of election officials."
+  },
+  {
+   "source": "valentino2011",
+   "target": "marcus2000",
+   "type": "builds_on",
+   "why": "Anger, anxiety and participation."
+  },
+  {
+   "source": "kampalmer2008",
+   "target": "verba1995",
+   "type": "challenges",
+   "why": "Education effect reflects selection."
+  },
+  {
+   "source": "berinskylenz2011",
+   "target": "kampalmer2008",
+   "type": "builds_on",
+   "why": "Natural experiment on education and turnout."
+  },
+  {
+   "source": "gomez2007",
+   "target": "downs1957",
+   "type": "mechanism_tested_by",
+   "why": "Costs of voting and turnout."
+  },
+  {
+   "source": "schlozman2010",
+   "target": "verba1995",
+   "type": "extends_to_new_case",
+   "why": "Participatory inequality online."
+  },
+  {
+   "source": "barreto2007",
+   "target": "dawson1994",
+   "type": "extends_to_new_case",
+   "why": "Coethnic mobilization among Latinos."
+  },
+  {
+   "source": "blaisachen2019",
+   "target": "downs1957",
+   "type": "qualifies",
+   "why": "Civic duty in the calculus of voting."
+  },
+  {
+   "source": "weaverlerman2010",
+   "target": "campbell2003",
+   "type": "extends_to_new_case",
+   "why": "Negative feedback from the carceral state."
+  },
+  {
+   "source": "campbellwolbrecht2006",
+   "target": "verba1995",
+   "type": "builds_on",
+   "why": "Role models and gendered participation."
+  },
+  {
+   "source": "jennings2009",
+   "target": "verba1995",
+   "type": "synthesizes",
+   "why": "Family transmission of engagement."
+  },
+  {
+   "source": "hersh2015",
+   "target": "rosenstonehansen1993",
+   "type": "builds_on",
+   "why": "Data shapes who campaigns mobilize."
+  },
+  {
+   "source": "enoshersh2015",
+   "target": "hersh2015",
+   "type": "builds_on",
+   "why": "Campaign ground workers as agents."
+  },
+  {
+   "source": "enoshersh2015",
+   "target": "gerbergreen2000",
+   "type": "qualifies",
+   "why": "Who canvasses matters for ground campaigns."
+  },
+  {
+   "source": "huddykhatib2007",
+   "target": "verba1995",
+   "type": "qualifies",
+   "why": "National identity as a participation motive."
+  },
+  {
+   "source": "mondak2010",
+   "target": "verba1995",
+   "type": "qualifies",
+   "why": "Personality shapes engagement."
+  },
+  {
+   "source": "healymalhotra2009",
+   "target": "fiorina1981",
+   "type": "qualifies",
+   "why": "Myopic retrospection."
+  },
+  {
+   "source": "healymalhotra2013",
+   "target": "fiorina1981",
+   "type": "synthesizes",
+   "why": "Review of retrospective voting."
+  },
+  {
+   "source": "healylenz2014",
+   "target": "healymalhotra2009",
+   "type": "builds_on",
+   "why": "End bias in economic voting."
+  },
+  {
+   "source": "gerber2011",
+   "target": "zaller1992",
+   "type": "mechanism_tested_by",
+   "why": "Ad persuasion and decay."
+  },
+  {
+   "source": "kallabroockman2018",
+   "target": "gerber2011",
+   "type": "builds_on",
+   "why": "Persuasion near zero in general elections."
+  },
+  {
+   "source": "lau2007",
+   "target": "mendelberg2001",
+   "type": "synthesizes",
+   "why": "Effects of negative campaigning."
+  },
+  {
+   "source": "jacobson2015",
+   "target": "mayhew1974",
+   "type": "challenges",
+   "why": "The personal vote has declined."
+  },
+  {
+   "source": "grimmer2012",
+   "target": "mayhew1974",
+   "type": "mechanism_tested_by",
+   "why": "Credit claiming and the personal vote."
+  },
+  {
+   "source": "carson2007",
+   "target": "mayhew1974",
+   "type": "qualifies",
+   "why": "Candidate quality and incumbency."
+  },
+  {
+   "source": "stonesimas2010",
+   "target": "downs1957",
+   "type": "qualifies",
+   "why": "Valence alongside spatial position."
+  },
+  {
+   "source": "huberarceneaux2007",
+   "target": "gerber2011",
+   "type": "synthesizes",
+   "why": "Natural experiment on presidential ads."
+  },
+  {
+   "source": "jessee2009",
+   "target": "downs1957",
+   "type": "mechanism_tested_by",
+   "why": "Spatial voting with a common scale."
+  },
+  {
+   "source": "karol2007",
+   "target": "fiorina1981",
+   "type": "extends_to_new_case",
+   "why": "War casualties and retrospective voting."
+  },
+  {
+   "source": "ansolabeherejones2010",
+   "target": "mayhew1974",
+   "type": "mechanism_tested_by",
+   "why": "Voters respond to roll calls."
+  },
+  {
+   "source": "hershschaffner2013",
+   "target": "hersh2015",
+   "type": "synthesizes",
+   "why": "Targeted appeals."
+  },
+  {
+   "source": "vavreck2009",
+   "target": "fiorina1981",
+   "type": "builds_on",
+   "why": "Campaign messages and the economy."
+  },
+  {
+   "source": "sides2018",
+   "target": "vavreck2009",
+   "type": "builds_on",
+   "why": "Campaign activation of identities in 2016."
+  },
+  {
+   "source": "ashworth2012",
+   "target": "fiorina1981",
+   "type": "synthesizes",
+   "why": "Theory of electoral accountability."
+  },
+  {
+   "source": "healymalhotra2013",
+   "target": "ashworth2012",
+   "type": "synthesizes",
+   "why": "Accountability with imperfect voters."
+  },
+  {
+   "source": "margalit2011",
+   "target": "fiorina1981",
+   "type": "extends_to_new_case",
+   "why": "Trade layoffs and incumbent punishment."
+  },
+  {
+   "source": "jensen2017",
+   "target": "margalit2011",
+   "type": "builds_on",
+   "why": "Trade exposure and presidential voting."
+  },
+  {
+   "source": "baccini2021",
+   "target": "autor2020",
+   "type": "builds_on",
+   "why": "Deindustrialization and white backlash."
+  },
+  {
+   "source": "mutz2018",
+   "target": "autor2020",
+   "type": "challenges",
+   "why": "Status threat, not economic hardship."
+  },
+  {
+   "source": "reny2019",
+   "target": "mutz2018",
+   "type": "builds_on",
+   "why": "Racial attitudes and 2016 vote switching."
+  },
+  {
+   "source": "gomez2007",
+   "target": "rosenstonehansen1993",
+   "type": "synthesizes",
+   "why": "Turnout costs and outcomes."
+  },
+  {
+   "source": "hopkins2010",
+   "target": "hainmueller2014",
+   "type": "synthesizes",
+   "why": "Local context and immigration attitudes."
+  },
+  {
+   "source": "brader2008",
+   "target": "marcus2000",
+   "type": "builds_on",
+   "why": "Anxiety and group cues."
+  },
+  {
+   "source": "hainmuellerhopkins2015",
+   "target": "hainmueller2010",
+   "type": "builds_on",
+   "why": "Conjoint design on immigrant attributes."
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "hainmueller2010",
+   "type": "synthesizes",
+   "why": "Review of immigration attitudes."
+  },
+  {
+   "source": "malhotra2013",
+   "target": "hainmueller2010",
+   "type": "qualifies",
+   "why": "Labor-market threat in specific sectors."
+  },
+  {
+   "source": "tesler2012",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Racialization of health care."
+  },
+  {
+   "source": "tesler2013",
+   "target": "tesler2012",
+   "type": "builds_on",
+   "why": "Old-fashioned racism and partisanship."
+  },
+  {
+   "source": "tesler2016",
+   "target": "tesler2012",
+   "type": "synthesizes",
+   "why": "Obama-era racialization."
+  },
+  {
+   "source": "piston2010",
+   "target": "kindersanders1996",
+   "type": "extends_to_new_case",
+   "why": "Prejudice and the 2008 vote."
+  },
+  {
+   "source": "valentino2018",
+   "target": "mendelberg2001",
+   "type": "challenges",
+   "why": "End of the implicit-explicit distinction."
+  },
+  {
+   "source": "enos2016",
+   "target": "enos2014",
+   "type": "builds_on",
+   "why": "Racial threat in Chicago housing."
+  },
+  {
+   "source": "soss2008",
+   "target": "kindersanders1996",
+   "type": "extends_to_new_case",
+   "why": "Race and welfare policy design."
+  },
+  {
+   "source": "butlerbroockman2011",
+   "target": "millerstokes1963",
+   "type": "extends_to_new_case",
+   "why": "Discrimination in legislator responsiveness."
+  },
+  {
+   "source": "broockman2013",
+   "target": "butlerbroockman2011",
+   "type": "builds_on",
+   "why": "Intrinsic motivation of Black legislators."
+  },
+  {
+   "source": "white2007",
+   "target": "mendelberg2001",
+   "type": "qualifies",
+   "why": "Racial cues differ by group."
+  },
+  {
+   "source": "mcclain2009",
+   "target": "dawson1994",
+   "type": "synthesizes",
+   "why": "Measures of group consciousness."
+  },
+  {
+   "source": "junnmasuoka2008",
+   "target": "dawson1994",
+   "type": "extends_to_new_case",
+   "why": "Linked fate among Asian Americans."
+  },
+  {
+   "source": "sanchez2006",
+   "target": "dawson1994",
+   "type": "extends_to_new_case",
+   "why": "Group consciousness among Latinos."
+  },
+  {
+   "source": "wasow2020",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Protest effects on racial politics."
+  },
+  {
+   "source": "renynewman2021",
+   "target": "wasow2020",
+   "type": "builds_on",
+   "why": "Protest moves opinion."
+  },
+  {
+   "source": "enos2019",
+   "target": "wasow2020",
+   "type": "qualifies",
+   "why": "Riots can increase support for spending."
+  },
+  {
+   "source": "lee2008",
+   "target": "dawson1994",
+   "type": "synthesizes",
+   "why": "Identity-to-politics link."
+  },
+  {
+   "source": "kuo2017",
+   "target": "hajnallee2011",
+   "type": "builds_on",
+   "why": "Exclusion and Asian American partisanship."
+  },
+  {
+   "source": "hajnallee2011",
+   "target": "dawson1994",
+   "type": "builds_on",
+   "why": "Group identity and nonpartisanship."
+  },
+  {
+   "source": "jardina2019",
+   "target": "kindersanders1996",
+   "type": "qualifies",
+   "why": "In-group identity, not only out-group resentment."
+  },
+  {
+   "source": "knox2020",
+   "target": "sossweaver2017",
+   "type": "mechanism_tested_by",
+   "why": "Measuring biased policing."
+  },
+  {
+   "source": "bartels2020",
+   "target": "jardina2019",
+   "type": "builds_on",
+   "why": "Ethnic antagonism and democratic commitment."
+  },
+  {
+   "source": "acharya2016",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Historical roots of racial resentment."
+  },
+  {
+   "source": "han2024",
+   "target": "acharya2016",
+   "type": "builds_on",
+   "why": "Deep historical roots of American populism."
+  },
+  {
+   "source": "sides2018",
+   "target": "tesler2016",
+   "type": "builds_on",
+   "why": "Racialized partisanship in 2016."
+  },
+  {
+   "source": "lawlesspearson2008",
+   "target": "lawlessfox2010",
+   "type": "synthesizes",
+   "why": "Primaries and women candidates."
+  },
+  {
+   "source": "foxlawless2010",
+   "target": "lawlessfox2010",
+   "type": "builds_on",
+   "why": "Recruitment gaps."
+  },
+  {
+   "source": "foxlawless2014",
+   "target": "foxlawless2010",
+   "type": "builds_on",
+   "why": "Origins of the ambition gap."
+  },
+  {
+   "source": "anziaberry2011",
+   "target": "lawlesspearson2008",
+   "type": "builds_on",
+   "why": "Selection makes congresswomen more effective."
+  },
+  {
+   "source": "volden2013",
+   "target": "anziaberry2011",
+   "type": "builds_on",
+   "why": "Women legislators' effectiveness."
+  },
+  {
+   "source": "dolan2014",
+   "target": "sanbonmatsudolan2009",
+   "type": "builds_on",
+   "why": "Stereotypes and vote choice."
+  },
+  {
+   "source": "teele2018",
+   "target": "foxlawless2010",
+   "type": "qualifies",
+   "why": "Demand-side bias against women with families."
+  },
+  {
+   "source": "thomsen2015",
+   "target": "thomsen2014",
+   "type": "builds_on",
+   "why": "Party fit and Republican women."
+  },
+  {
+   "source": "cassesebarnes2019",
+   "target": "valentino2018poq",
+   "type": "synthesizes",
+   "why": "Sexism and 2016 vote choice."
+  },
+  {
+   "source": "lawless2015",
+   "target": "lawlessfox2010",
+   "type": "synthesizes",
+   "why": "Review of women candidates."
+  },
+  {
+   "source": "valentino2018poq",
+   "target": "valentino2011",
+   "type": "builds_on",
+   "why": "Emotion activates sexism."
+  },
+  {
+   "source": "kanthakwoon2015",
+   "target": "foxlawless2010",
+   "type": "mechanism_tested_by",
+   "why": "Election aversion in the lab."
+  },
+  {
+   "source": "schwarzcoppock2022",
+   "target": "teele2018",
+   "type": "challenges",
+   "why": "Voters slightly prefer women on average."
+  },
+  {
+   "source": "lowande2019",
+   "target": "broockman2013",
+   "type": "extends_to_new_case",
+   "why": "Descriptive representation in casework."
+  },
+  {
+   "source": "boyd2010",
+   "target": "segalspaeth2002",
+   "type": "qualifies",
+   "why": "Judge sex affects decisions."
+  },
+  {
+   "source": "glynnsen2015",
+   "target": "boyd2010",
+   "type": "builds_on",
+   "why": "Daughters and judicial empathy."
+  },
+  {
+   "source": "bartels2008",
+   "target": "millerstokes1963",
+   "type": "builds_on",
+   "why": "Unequal responsiveness to income groups."
+  },
+  {
+   "source": "gilens2012",
+   "target": "bartels2008",
+   "type": "builds_on",
+   "why": "Policy outcomes favor the affluent."
+  },
+  {
+   "source": "gilenspage2014",
+   "target": "gilens2012",
+   "type": "builds_on",
+   "why": "Elites and groups versus average citizens."
+  },
+  {
+   "source": "page2013",
+   "target": "gilens2012",
+   "type": "builds_on",
+   "why": "Preferences of the very wealthy."
+  },
+  {
+   "source": "winterspage2009",
+   "target": "schattschneider1960",
+   "type": "builds_on",
+   "why": "Oligarchy and material power."
+  },
+  {
+   "source": "hackerpierson2010",
+   "target": "bartels2008",
+   "type": "synthesizes",
+   "why": "Organized combat behind inequality."
+  },
+  {
+   "source": "laxphillips2009",
+   "target": "erikson1993",
+   "type": "builds_on",
+   "why": "Policy-specific responsiveness in states."
+  },
+  {
+   "source": "laxphillips2012",
+   "target": "laxphillips2009",
+   "type": "builds_on",
+   "why": "Democratic deficit across policies."
+  },
+  {
+   "source": "laxphillips2009ajps",
+   "target": "erikson1993",
+   "type": "qualifies",
+   "why": "MRP improves state opinion estimates."
+  },
+  {
+   "source": "tausanovitchwarshaw2013",
+   "target": "laxphillips2009ajps",
+   "type": "builds_on",
+   "why": "Constituent preferences on one scale."
+  },
+  {
+   "source": "tausanovitchwarshaw2014",
+   "target": "tausanovitchwarshaw2013",
+   "type": "extends_to_new_case",
+   "why": "Responsiveness in cities."
+  },
+  {
+   "source": "caugheywarshaw2018",
+   "target": "erikson1993",
+   "type": "builds_on",
+   "why": "Dynamic state responsiveness."
+  },
+  {
+   "source": "caugheywarshaw2018",
+   "target": "stimson1995",
+   "type": "extends_to_new_case",
+   "why": "Dynamic representation in states."
+  },
+  {
+   "source": "broockmanskovron2018",
+   "target": "millerstokes1963",
+   "type": "builds_on",
+   "why": "Elite perceptions of constituent opinion."
+  },
+  {
+   "source": "hertelfernandez2019apsr",
+   "target": "broockmanskovron2018",
+   "type": "builds_on",
+   "why": "Staff misperceptions."
+  },
+  {
+   "source": "kallabroockman2016",
+   "target": "halldeardorff2006",
+   "type": "mechanism_tested_by",
+   "why": "Money buys access."
+  },
+  {
+   "source": "clinton2006",
+   "target": "millerstokes1963",
+   "type": "builds_on",
+   "why": "Subconstituency representation."
+  },
+  {
+   "source": "broockman2016",
+   "target": "millerstokes1963",
+   "type": "synthesizes",
+   "why": "Approaches to representation."
+  },
+  {
+   "source": "flavin2012",
+   "target": "bartels2008",
+   "type": "extends_to_new_case",
+   "why": "Unequal responsiveness in states."
+  },
+  {
+   "source": "enns2014",
+   "target": "stimson1995",
+   "type": "extends_to_new_case",
+   "why": "Mood and punitive policy."
+  },
+  {
+   "source": "bawn2012",
+   "target": "aldrich1995",
+   "type": "challenges",
+   "why": "Groups, not politicians, as the core of parties."
+  },
+  {
+   "source": "carnes2012",
+   "target": "bartels2008",
+   "type": "builds_on",
+   "why": "Class composition of Congress shapes policy."
+  },
+  {
+   "source": "carneslupu2016",
+   "target": "carnes2012",
+   "type": "builds_on",
+   "why": "Voter bias against working-class candidates tested."
+  },
+  {
+   "source": "solt2008",
+   "target": "bartels2008",
+   "type": "synthesizes",
+   "why": "Inequality and political voice."
+  },
+  {
+   "source": "canes2006",
+   "target": "stimson1995",
+   "type": "builds_on",
+   "why": "Presidential responsiveness to opinion."
+  },
+  {
+   "source": "ansolabeherejones2010",
+   "target": "bafumiherron2010",
+   "type": "synthesizes",
+   "why": "Voters and legislators on roll calls."
+  },
+  {
+   "source": "finocchiarorohde2008",
+   "target": "coxmccubbins2005",
+   "type": "builds_on",
+   "why": "Special rules and floor control."
+  },
+  {
+   "source": "carson2010",
+   "target": "coxmccubbins2005",
+   "type": "qualifies",
+   "why": "Electoral costs of party loyalty."
+  },
+  {
+   "source": "harbridgemalhotra2011",
+   "target": "leesenate2009",
+   "type": "builds_on",
+   "why": "Public views of partisan conflict."
+  },
+  {
+   "source": "grimmer2013",
+   "target": "grimmer2013book",
+   "type": "synthesizes",
+   "why": "Representational style and electoral incentives."
+  },
+  {
+   "source": "grimmer2013book",
+   "target": "mayhew1974",
+   "type": "builds_on",
+   "why": "Position taking and credit claiming measured in text."
+  },
+  {
+   "source": "miquelsnyder2006",
+   "target": "mayhew1974",
+   "type": "qualifies",
+   "why": "Effectiveness and careers."
+  },
+  {
+   "source": "halldeardorff2006",
+   "target": "schattschneider1960",
+   "type": "qualifies",
+   "why": "Lobbying as subsidy to allies."
+  },
+  {
+   "source": "bailey2007",
+   "target": "poolerosenthal1997",
+   "type": "extends_to_new_case",
+   "why": "Ideal points across institutions."
+  },
+  {
+   "source": "clinton2012",
+   "target": "bailey2007",
+   "type": "builds_on",
+   "why": "Agency ideology on a common scale."
+  },
+  {
+   "source": "carey2007",
+   "target": "coxmccubbins2005",
+   "type": "extends_to_new_case",
+   "why": "Party unity across systems."
+  },
+  {
+   "source": "feigenbaum2015",
+   "target": "mayhew1974",
+   "type": "extends_to_new_case",
+   "why": "Legislators respond to local trade shocks."
+  },
+  {
+   "source": "nyhanreifler2015",
+   "target": "grimmer2012",
+   "type": "synthesizes",
+   "why": "Legislators respond to reputational threats."
+  },
+  {
+   "source": "anziaberry2011",
+   "target": "mayhew1974",
+   "type": "extends_to_new_case",
+   "why": "Spending delivery by members."
+  },
+  {
+   "source": "lewis2008",
+   "target": "skowronek1982",
+   "type": "builds_on",
+   "why": "Politicization of the administrative state."
+  },
+  {
+   "source": "lewis2007",
+   "target": "lewis2008",
+   "type": "synthesizes",
+   "why": "Appointees and performance."
+  },
+  {
+   "source": "gailmardpatty2007",
+   "target": "skowronek1982",
+   "type": "qualifies",
+   "why": "Why civil service attracts expertise."
+  },
+  {
+   "source": "krause2006",
+   "target": "lewis2008",
+   "type": "synthesizes",
+   "why": "Balancing appointees and careerists."
+  },
+  {
+   "source": "berry2010",
+   "target": "howell2003",
+   "type": "extends_to_new_case",
+   "why": "Presidential particularism in spending."
+  },
+  {
+   "source": "larcinese2006",
+   "target": "berry2010",
+   "type": "synthesizes",
+   "why": "Presidents and federal allocations."
+  },
+  {
+   "source": "reeves2011",
+   "target": "howell2003",
+   "type": "extends_to_new_case",
+   "why": "Unilateral declarations and elections."
+  },
+  {
+   "source": "caneswrone2008",
+   "target": "canes2006",
+   "type": "builds_on",
+   "why": "Two presidencies reconsidered."
+  },
+  {
+   "source": "rudalevige2012",
+   "target": "howell2003",
+   "type": "builds_on",
+   "why": "Executive orders in practice."
+  },
+  {
+   "source": "lowande2014",
+   "target": "rudalevige2012",
+   "type": "builds_on",
+   "why": "Memoranda as unilateral tools."
+  },
+  {
+   "source": "finewarber2012",
+   "target": "howell2003",
+   "type": "mechanism_tested_by",
+   "why": "Divided government and executive orders."
+  },
+  {
+   "source": "reevesrogowski2015",
+   "target": "howell2003",
+   "type": "qualifies",
+   "why": "Public opinion constrains unilateralism."
+  },
+  {
+   "source": "howellmoe2023",
+   "target": "moehowell1999",
+   "type": "builds_on",
+   "why": "Unilateral power and the strongman presidency."
+  },
+  {
+   "source": "moe2009",
+   "target": "neustadt1960",
+   "type": "challenges",
+   "why": "Institutional, quantitative presidency research."
+  },
+  {
+   "source": "yackee2006",
+   "target": "schattschneider1960",
+   "type": "extends_to_new_case",
+   "why": "Business bias in rulemaking."
+  },
+  {
+   "source": "nelsonyackee2012",
+   "target": "yackee2006",
+   "type": "builds_on",
+   "why": "Coalitions in rulemaking."
+  },
+  {
+   "source": "carpentersin2007",
+   "target": "skowronek1982",
+   "type": "builds_on",
+   "why": "Regulatory state building."
+  },
+  {
+   "source": "kernell1986",
+   "target": "canes2006",
+   "type": "synthesizes",
+   "why": "Going public and responsiveness (thematic link)."
+  },
+  {
+   "source": "krehbiel1998",
+   "target": "howell2003",
+   "type": "synthesizes",
+   "why": "Pivots and veto bargaining frame unilateral action (thematic link)."
+  },
+  {
+   "source": "bartelsjohnston2013",
+   "target": "segalspaeth2002",
+   "type": "builds_on",
+   "why": "Ideology shapes legitimacy perceptions of an ideological Court."
+  },
+  {
+   "source": "gibsonnelson2014",
+   "target": "bartelsjohnston2013",
+   "type": "challenges",
+   "why": "Legitimacy rests on democratic values."
+  },
+  {
+   "source": "gibsoncaldeira2009",
+   "target": "rosenberg1991",
+   "type": "qualifies",
+   "why": "Public knowledge of the Court."
+  },
+  {
+   "source": "christensonglick2015",
+   "target": "bartelsjohnston2013",
+   "type": "builds_on",
+   "why": "Legitimacy after a salient ruling."
+  },
+  {
+   "source": "clark2009",
+   "target": "epsteinknight1998",
+   "type": "builds_on",
+   "why": "Court curbing and strategic restraint."
+  },
+  {
+   "source": "casillas2011",
+   "target": "stimson1995",
+   "type": "extends_to_new_case",
+   "why": "Mood and Supreme Court decisions."
+  },
+  {
+   "source": "kastellec2013",
+   "target": "boyd2010",
+   "type": "extends_to_new_case",
+   "why": "Panel effects by race."
+  },
+  {
+   "source": "johnson2006",
+   "target": "epsteinknight1998",
+   "type": "builds_on",
+   "why": "Information from oral arguments."
+  },
+  {
+   "source": "nicholsonhansford2014",
+   "target": "bartelsjohnston2013",
+   "type": "builds_on",
+   "why": "Party cues and acceptance of decisions."
+  },
+  {
+   "source": "epsteinknight2013",
+   "target": "epsteinknight1998",
+   "type": "builds_on",
+   "why": "Broader judicial preferences."
+  },
+  {
+   "source": "bailey2024",
+   "target": "gibsoncaldeira2009",
+   "type": "builds_on",
+   "why": "Courts and public consciousness."
+  },
+  {
+   "source": "bonica2014",
+   "target": "poolerosenthal1997",
+   "type": "extends_to_new_case",
+   "why": "Ideal points from contributions."
+  },
+  {
+   "source": "bonica2013",
+   "target": "bonica2014",
+   "type": "builds_on",
+   "why": "Ideology versus access in giving."
+  },
+  {
+   "source": "richter2009",
+   "target": "halldeardorff2006",
+   "type": "synthesizes",
+   "why": "Returns to lobbying."
+  },
+  {
+   "source": "defigueiredorichter2014",
+   "target": "baumgartner2009",
+   "type": "synthesizes",
+   "why": "Review of lobbying research."
+  },
+  {
+   "source": "baumgartner2009",
+   "target": "schattschneider1960",
+   "type": "qualifies",
+   "why": "Resources matter less than expected."
+  },
+  {
+   "source": "anzia2011",
+   "target": "schattschneider1960",
+   "type": "builds_on",
+   "why": "Election timing and group influence."
+  },
+  {
+   "source": "anziamoe2015",
+   "target": "anzia2011",
+   "type": "builds_on",
+   "why": "Union power and costs."
+  },
+  {
+   "source": "skocpolhertel2016",
+   "target": "skocpolwilliamson2012",
+   "type": "builds_on",
+   "why": "Koch network and party extremism."
+  },
+  {
+   "source": "hertelfernandez2014",
+   "target": "squire2007",
+   "type": "builds_on",
+   "why": "Legislative capacity and model bills."
+  },
+  {
+   "source": "hertelfernandez2019",
+   "target": "hertelfernandez2014",
+   "type": "synthesizes",
+   "why": "State capture by conservative networks."
+  },
+  {
+   "source": "hertelfernandez2018",
+   "target": "skocpolhertel2016",
+   "type": "builds_on",
+   "why": "Donor consortia."
+  },
+  {
+   "source": "powellgrimmer2016",
+   "target": "halldeardorff2006",
+   "type": "mechanism_tested_by",
+   "why": "Contributions and committee access."
+  },
+  {
+   "source": "barber2016ajps",
+   "target": "bonica2014",
+   "type": "builds_on",
+   "why": "Ideological individual donors."
+  },
+  {
+   "source": "gimpel2006",
+   "target": "verba1995",
+   "type": "extends_to_new_case",
+   "why": "Geography of giving."
+  },
+  {
+   "source": "kim2017",
+   "target": "halldeardorff2006",
+   "type": "extends_to_new_case",
+   "why": "Firm-level lobbying on trade."
+  },
+  {
+   "source": "kim2018",
+   "target": "hersh2015",
+   "type": "synthesizes",
+   "why": "Data-driven targeting by outside groups."
+  },
+  {
+   "source": "gilenspage2014",
+   "target": "baumgartner2009",
+   "type": "challenges",
+   "why": "Business groups do shape outcomes."
+  },
+  {
+   "source": "shipanvolden2008",
+   "target": "berryberry1990",
+   "type": "builds_on",
+   "why": "Mechanisms of diffusion."
+  },
+  {
+   "source": "shipanvolden2006",
+   "target": "walker1969",
+   "type": "extends_to_new_case",
+   "why": "Vertical diffusion from cities."
+  },
+  {
+   "source": "volden2006",
+   "target": "walker1969",
+   "type": "builds_on",
+   "why": "Learning from success."
+  },
+  {
+   "source": "volden2008",
+   "target": "volden2006",
+   "type": "builds_on",
+   "why": "Formalized learning."
+  },
+  {
+   "source": "gilardi2010",
+   "target": "shipanvolden2008",
+   "type": "builds_on",
+   "why": "Ideology filters learning."
+  },
+  {
+   "source": "squire2007",
+   "target": "erikson1993",
+   "type": "synthesizes",
+   "why": "Measures for state politics research."
+  },
+  {
+   "source": "berry2010sppq",
+   "target": "erikson1993",
+   "type": "builds_on",
+   "why": "State ideology measures."
+  },
+  {
+   "source": "caugheywarshaw2016",
+   "target": "erikson1993",
+   "type": "builds_on",
+   "why": "Policy liberalism over time."
+  },
+  {
+   "source": "caughey2017",
+   "target": "caugheywarshaw2016",
+   "type": "builds_on",
+   "why": "Partisan effects on state policy."
+  },
+  {
+   "source": "gerberhopkins2011",
+   "target": "tausanovitchwarshaw2014",
+   "type": "synthesizes",
+   "why": "Do local partisans change policy?"
+  },
+  {
+   "source": "debenedictis2016",
+   "target": "gerberhopkins2011",
+   "type": "challenges",
+   "why": "Mayoral partisanship affects fiscal policy."
+  },
+  {
+   "source": "boehmkeskinner2012",
+   "target": "walker1969",
+   "type": "builds_on",
+   "why": "Innovativeness revisited."
+  },
+  {
+   "source": "karch2007",
+   "target": "berryberry1990",
+   "type": "synthesizes",
+   "why": "Review of diffusion research."
+  },
+  {
+   "source": "pacheco2012",
+   "target": "shipanvolden2008",
+   "type": "qualifies",
+   "why": "Opinion contagion drives diffusion."
+  },
+  {
+   "source": "berry2008",
+   "target": "erikson1993",
+   "type": "extends_to_new_case",
+   "why": "Fiscal politics of overlapping governments."
+  },
+  {
+   "source": "biggershanmer2017",
+   "target": "shipanvolden2008",
+   "type": "extends_to_new_case",
+   "why": "Voter ID adoption."
+  },
+  {
+   "source": "bowlerdonovan2016",
+   "target": "biggershanmer2017",
+   "type": "synthesizes",
+   "why": "Partisan electoral reform."
+  },
+  {
+   "source": "jansa2019",
+   "target": "hertelfernandez2014",
+   "type": "builds_on",
+   "why": "Policy reinvention through text reuse."
+  },
+  {
+   "source": "shormccarty2011",
+   "target": "squire2007",
+   "type": "synthesizes",
+   "why": "Legislative ideology and capacity."
+  },
+  {
+   "source": "soss2008",
+   "target": "shipanvolden2008",
+   "type": "qualifies",
+   "why": "Race shapes devolved policy choice."
+  },
+  {
+   "source": "sossschram2007",
+   "target": "pierson1993",
+   "type": "qualifies",
+   "why": "Visibility conditions feedback."
+  },
+  {
+   "source": "campbell2012",
+   "target": "campbell2003",
+   "type": "synthesizes",
+   "why": "Review of policy feedback."
+  },
+  {
+   "source": "mettler2011",
+   "target": "pierson1993",
+   "type": "builds_on",
+   "why": "Submerged policies weaken feedback."
+  },
+  {
+   "source": "sossweaver2017",
+   "target": "weaverlerman2010",
+   "type": "synthesizes",
+   "why": "Policing and citizenship."
+  },
+  {
+   "source": "weaver2007",
+   "target": "skowronek1982",
+   "type": "builds_on",
+   "why": "Development of the punitive state."
+  },
+  {
+   "source": "hackerpierson2014",
+   "target": "hackerpierson2010",
+   "type": "builds_on",
+   "why": "Policy-focused theory of politics."
+  },
+  {
+   "source": "hackerpierson2014",
+   "target": "downs1957",
+   "type": "challenges",
+   "why": "Against the electoral master theory."
+  },
+  {
+   "source": "patashnikzelizer2013",
+   "target": "pierson1993",
+   "type": "qualifies",
+   "why": "Limits of policy feedback."
+  },
+  {
+   "source": "lermanmccabe2017",
+   "target": "sossschram2007",
+   "type": "builds_on",
+   "why": "Conditional feedback from experience."
+  },
+  {
+   "source": "galvinhacker2020",
+   "target": "hackerpierson2010",
+   "type": "builds_on",
+   "why": "Policy drift."
+  },
+  {
+   "source": "feinsteinschickler2008",
+   "target": "kindersanders1996",
+   "type": "synthesizes",
+   "why": "Civil rights realignment."
+  },
+  {
+   "source": "schicklercaughey2011",
+   "target": "feinsteinschickler2008",
+   "type": "synthesizes",
+   "why": "Limits of New Deal liberalism."
+  },
+  {
+   "source": "hacker2013",
+   "target": "hackerpierson2010",
+   "type": "builds_on",
+   "why": "Insecurity and policy attitudes."
+  },
+  {
+   "source": "enns2014",
+   "target": "weaver2007",
+   "type": "qualifies",
+   "why": "Opinion also drove mass incarceration."
+  },
+  {
+   "source": "acharya2016",
+   "target": "feinsteinschickler2008",
+   "type": "synthesizes",
+   "why": "Historical roots of southern politics."
+  },
+  {
+   "source": "wasow2020",
+   "target": "weaver2007",
+   "type": "builds_on",
+   "why": "Protest and social-control politics."
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "bermeo2016",
+   "type": "builds_on",
+   "why": "Backsliding through elected leaders."
+  },
+  {
+   "source": "svolik2019",
+   "target": "levitskyziblatt2018",
+   "type": "builds_on",
+   "why": "Polarization lets voters tolerate violations."
+  },
+  {
+   "source": "grahamsvolik2020",
+   "target": "svolik2019",
+   "type": "mechanism_tested_by",
+   "why": "Partisans trade democracy for party."
+  },
+  {
+   "source": "kingzette2021",
+   "target": "grahamsvolik2020",
+   "type": "builds_on",
+   "why": "Affect and democratic norms."
+  },
+  {
+   "source": "bartels2020",
+   "target": "grahamsvolik2020",
+   "type": "synthesizes",
+   "why": "Republican commitment to democracy."
+  },
+  {
+   "source": "kalmoemason2022",
+   "target": "grahamsvolik2020",
+   "type": "synthesizes",
+   "why": "Partisan hostility and democracy."
+  },
+  {
+   "source": "inglehartnorris2017",
+   "target": "mutz2018",
+   "type": "synthesizes",
+   "why": "Cultural backlash in 2016."
+  },
+  {
+   "source": "williamson2011",
+   "target": "skocpolwilliamson2012",
+   "type": "synthesizes",
+   "why": "Tea Party and Republican conservatism."
+  },
+  {
+   "source": "skocpolwilliamson2012",
+   "target": "mason2018",
+   "type": "synthesizes",
+   "why": "Movement conservatism and identity (thematic link)."
+  },
+  {
+   "source": "waldnerlust2018",
+   "target": "bermeo2016",
+   "type": "synthesizes",
+   "why": "Review of backsliding."
+  },
+  {
+   "source": "claassen2020",
+   "target": "levitskyziblatt2018",
+   "type": "qualifies",
+   "why": "Public support sustains democracy."
+  },
+  {
+   "source": "citrinstoker2018",
+   "target": "iyengar2019",
+   "type": "synthesizes",
+   "why": "Partisan trust in a cynical age."
+  },
+  {
+   "source": "howellmoe2023",
+   "target": "levitskyziblatt2018",
+   "type": "builds_on",
+   "why": "Strongman presidency as backsliding."
+  },
+  {
+   "source": "ballardrosa2024",
+   "target": "han2024",
+   "type": "synthesizes",
+   "why": "Roots of antiglobalism and populism."
+  },
+  {
+   "source": "gerber2010",
+   "target": "alford2005",
+   "type": "builds_on",
+   "why": "Dispositional roots of attitudes."
+  },
+  {
+   "source": "gerber2011arps",
+   "target": "gerber2010",
+   "type": "synthesizes",
+   "why": "Big Five review."
+  },
+  {
+   "source": "mondak2010",
+   "target": "gerber2010",
+   "type": "synthesizes",
+   "why": "Personality and engagement."
+  },
+  {
+   "source": "carney2008",
+   "target": "alford2005",
+   "type": "synthesizes",
+   "why": "Personality differences by ideology."
+  },
+  {
+   "source": "feldmanjohnston2014",
+   "target": "converse1964",
+   "type": "qualifies",
+   "why": "Ideology has multiple dimensions."
+  },
+  {
+   "source": "jost2017",
+   "target": "carney2008",
+   "type": "builds_on",
+   "why": "Ideological asymmetries."
+  },
+  {
+   "source": "hetheringtonsuhay2011",
+   "target": "marcus2000",
+   "type": "builds_on",
+   "why": "Threat and authoritarian responses."
+  },
+  {
+   "source": "smith2017",
+   "target": "jost2017",
+   "type": "challenges",
+   "why": "Ideology causes moral foundations, not the reverse."
+  },
+  {
+   "source": "valentino2008",
+   "target": "marcus2000",
+   "type": "mechanism_tested_by",
+   "why": "Anxiety and information seeking."
+  },
+  {
+   "source": "hatemi2009",
+   "target": "alford2005",
+   "type": "builds_on",
+   "why": "Genes and attitudes over the life course."
+  },
+  {
+   "source": "ryan2017",
+   "target": "taberlodge2006",
+   "type": "extends_to_new_case",
+   "why": "Moral conviction and compromise."
+  },
+  {
+   "source": "huddy2015",
+   "target": "marcus2000",
+   "type": "builds_on",
+   "why": "Emotion in partisan identity."
+  },
+  {
+   "source": "brader2008",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Group cues in immigration opinion."
+  },
+  {
+   "source": "douglas2019",
+   "target": "jost2017",
+   "type": "synthesizes",
+   "why": "Psychological needs behind conspiracy belief."
+  },
+  {
+   "source": "downs1957",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "downs1957",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbell1960",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbell1960",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "converse1964",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "converse1964",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "millerstokes1963",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "millerstokes1963",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schattschneider1960",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schattschneider1960",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "neustadt1960",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walker1969",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mayhew1974",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mayhew1974",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fiorina1981",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fiorina1981",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skowronek1982",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skowronek1982",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kernell1986",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kernell1986",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berryberry1990",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenberg1991",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenberg1991",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zaller1992",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zaller1992",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pageshapiro1992",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pageshapiro1992",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierson1993",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "erikson1993",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "erikson1993",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenstonehansen1993",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dawson1994",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "verba1995",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "verba1995",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stimson1995",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aldrich1995",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aldrich1995",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kindersanders1996",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kindersanders1996",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "poolerosenthal1997",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "poolerosenthal1997",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krehbiel1998",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krehbiel1998",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "epsteinknight1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moehowell1999",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerbergreen2000",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marcus2000",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marcus2000",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mendelberg2001",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mendelberg2001",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sunstein2001",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sunstein2001",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenpalmquist2002",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "segalspaeth2002",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howell2003",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbell2003",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbell2003",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "binder2003",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fiorina2005",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coxmccubbins2005",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alford2005",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccarty2006",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccarty2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2006",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2006",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "canes2006",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "canes2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prior2007",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prior2007",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prior2007",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellavignakaplan2007",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellavignakaplan2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels2008",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lewis2008",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "theriault2008",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "theriault2008",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leesenate2009",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leesenate2009",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vavreck2009",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baumgartner2009",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abramowitz2010",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abramowitz2010",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gentzkowshapiro2010",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2010",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2010",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2010",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lawlessfox2010",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mettler2011",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnallee2011",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnallee2011",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilens2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skocpolwilliamson2012",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skocpolwilliamson2012",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lodgetaber2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lodgetaber2013",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2013book",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2013book",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2014",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakshy2015",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hersh2015",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hersh2015",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2016",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2016",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2016",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockmankalla2016",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockmankalla2016",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martinyurukoglu2017",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martinyurukoglu2017",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allcottgentzkow2017",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allcottgentzkow2017",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2018",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sides2018",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sides2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sides2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vosoughi2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vosoughi2018",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bail2018",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bail2018",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pennycookrand2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pennycookrand2019",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guess2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guess2019",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jardina2019",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertelfernandez2019",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertelfernandez2019",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels2020",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels2020",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cantonipons2021",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cantonipons2021",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalmoemason2022",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalmoemason2022",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enoshersh2015",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enoshersh2015",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2024",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2024",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuk2022",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuk2022",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grahamsvolik2020",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grahamsvolik2020",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2019",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2019",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bermeo2016",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2010",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2010",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malhotra2013",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malhotra2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "autor2020",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "autor2020",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2021",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2021",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2018",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2011",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensen2017",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feigenbaum2015",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2017",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2019",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2019",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ashworth2012",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2024",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2024",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "han2024",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "han2024",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abramowitz2008",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fiorinaabrams2008",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fiorina2008",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "layman2006",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "layman2006",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shormccarty2011",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shormccarty2011",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccarty2009",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccarty2009",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hall2015",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hall2015",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brady2007",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brady2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bafumiherron2010",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bafumiherron2010",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barberpope2019",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barberpope2019",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2013",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2010",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2010",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lelkes2016",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lelkes2016",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahler2014",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levenduskymalhotra2016",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levenduskymalhotra2016",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomsen2014",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomsen2014",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barber2016jop",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barber2016jop",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2015",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2015",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcghee2014",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcghee2014",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2022",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2022",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengar2012",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengar2012",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengarwestwood2015",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengar2019",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengar2019",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2015",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2015",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2016",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2018poq",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2018poq",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddy2015",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddy2015",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abramowitzwebster2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "websterabramowitz2017",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "websterabramowitz2017",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rogowskisutherland2016",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "westiyengar2022",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hubermalhotra2017",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lelkeswestwood2017",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahlersood2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanlevendusky2019",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingzette2021",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingzette2021",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcconnell2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerberhuber2009",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerberhuber2009",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wojcieszakwarner2020",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wojcieszakwarner2020",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bankert2021",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bankert2021",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2022",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jennings2009",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jennings2009",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taberlodge2006",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taberlodge2006",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chongdruckman2007arps",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chongdruckman2007arps",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chongdruckman2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chongdruckman2010",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullock2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lenz2009",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lenz2009",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansolabehere2008",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansolabehere2008",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slothuusdevreese2010",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leeperslothuus2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leeperslothuus2014",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bolsen2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bolsen2014",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaines2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaines2007",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jeritbarabas2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jeritbarabas2012",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goren2009",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goren2009",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nicholson2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nicholson2012",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2019",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boudreaumackenzie2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanleeper2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhanreifler2010",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woodporter2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flynn2017",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flynn2017",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thorson2016",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clayton2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clayton2020",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhan2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhan2020",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oliverwood2014",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oliverwood2014",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2016",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2016",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "uscinski2016",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "douglas2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "douglas2019",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhanreifler2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhanreifler2015",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enders2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enders2021",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jeritzhao2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flaxman2016",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flaxman2016",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stroud2008",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2013",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2013",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prior2013",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prior2013",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prior2009",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baumgroeling2008",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baumgroeling2008",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arceneaux2012",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guess2021",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martinmccrain2019",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moskowitz2021",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moskowitz2021",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hayeslawless2018",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hayeslawless2018",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lelkes2017",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lelkes2017",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boutylinewiller2017",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boutylinewiller2017",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baumgartnermorris2006",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baumgartnermorris2006",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bondmessing2015",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bondmessing2015",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2018",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wells2016",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wells2016",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2021",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2021",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stier2018",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stier2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2008",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerberrogers2009",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nickerson2008",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arceneauxnickerson2009",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blais2006",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2008",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2008",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowlerkam2007",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowlerkam2007",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "solt2008",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "solt2008",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnal2017",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnal2017",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2015",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2015",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2011",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2011",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kampalmer2008",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinskylenz2011",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gomez2007",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gomez2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlozman2010",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlozman2010",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barreto2007",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barreto2007",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaisachen2019",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaverlerman2010",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaverlerman2010",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaverlerman2010",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "healymalhotra2009",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "healymalhotra2013",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "healylenz2014",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2011",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2011",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2018",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lau2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacobson2015",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacobson2015",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2012",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2012",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carson2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carson2007",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stonesimas2010",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huberarceneaux2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huberarceneaux2007",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jessee2009",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jessee2009",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karol2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansolabeherejones2010",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansolabeherejones2010",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hershschaffner2013",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2010",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2008",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2008",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhopkins2015",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhopkins2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2012",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2013",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2013",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piston2010",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piston2010",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2018",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2016",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2016",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soss2008",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soss2008",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soss2008",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "butlerbroockman2011",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "butlerbroockman2011",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2013",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2013",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2007",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcclain2009",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "junnmasuoka2008",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchez2006",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wasow2020",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wasow2020",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wasow2020",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renynewman2021",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renynewman2021",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reny2019",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reny2019",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2008",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuo2017",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuo2017",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2019",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knox2020",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knox2020",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2013",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2013",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lawlesspearson2008",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lawlesspearson2008",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foxlawless2010",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foxlawless2014",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anziaberry2011",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anziaberry2011",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "volden2013",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "volden2013",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbellwolbrecht2006",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbellwolbrecht2006",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dolan2014",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dolan2014",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanbonmatsudolan2009",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "teele2018",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomsen2015",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomsen2015",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cassesebarnes2019",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cassesebarnes2019",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lawless2015",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2018poq",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2018poq",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2018poq",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kanthakwoon2015",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwarzcoppock2022",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwarzcoppock2022",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilenspage2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilenspage2014",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "page2013",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laxphillips2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laxphillips2009",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laxphillips2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laxphillips2012",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laxphillips2009ajps",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laxphillips2009ajps",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tausanovitchwarshaw2013",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tausanovitchwarshaw2013",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tausanovitchwarshaw2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tausanovitchwarshaw2014",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheywarshaw2018",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheywarshaw2018",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockmanskovron2018",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertelfernandez2019apsr",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertelfernandez2019apsr",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertelfernandez2019apsr",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2016",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2016",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clinton2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clinton2006",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lowande2019",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lowande2019",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lowande2019",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2016",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winterspage2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winterspage2009",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flavin2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flavin2012",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enns2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enns2014",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bawn2012",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bawn2012",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bawn2012",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnes2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnes2012",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carneslupu2016",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carneslupu2016",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finocchiarorohde2008",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carson2010",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carson2010",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harbridgemalhotra2011",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harbridgemalhotra2011",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2013",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2013",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miquelsnyder2006",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halldeardorff2006",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halldeardorff2006",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2007",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2007",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2007",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clinton2012",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clinton2012",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carey2007",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lewis2007",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gailmardpatty2007",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berry2010",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berry2010",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larcinese2006",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larcinese2006",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reeves2011",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reeves2011",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krause2006",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caneswrone2008",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudalevige2012",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lowande2014",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finewarber2012",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finewarber2012",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reevesrogowski2015",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reevesrogowski2015",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howellmoe2023",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howellmoe2023",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yackee2006",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yackee2006",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nelsonyackee2012",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nelsonyackee2012",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moe2009",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartelsjohnston2013",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartelsjohnston2013",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibsonnelson2014",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibsoncaldeira2009",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensonglick2015",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2009",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2009",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "casillas2011",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "casillas2011",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boyd2010",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boyd2010",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glynnsen2015",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glynnsen2015",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastellec2013",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastellec2013",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnson2006",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nicholsonhansford2014",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nicholsonhansford2014",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "epsteinknight2013",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bonica2014",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bonica2014",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bonica2013",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "richter2009",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "defigueiredorichter2014",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anzia2011",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anzia2011",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anziamoe2015",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anziamoe2015",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skocpolhertel2016",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skocpolhertel2016",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertelfernandez2014",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertelfernandez2014",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertelfernandez2018",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellgrimmer2016",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellgrimmer2016",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barber2016ajps",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barber2016ajps",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gimpel2006",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shipanvolden2008",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shipanvolden2006",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "volden2006",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "volden2008",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilardi2010",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "squire2007",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berry2010sppq",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheywarshaw2016",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheywarshaw2016",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caughey2017",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caughey2017",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerberhopkins2011",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "debenedictis2016",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boehmkeskinner2012",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karch2007",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pacheco2012",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pacheco2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berry2008",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biggershanmer2017",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biggershanmer2017",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bowlerdonovan2016",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bowlerdonovan2016",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jansa2019",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jansa2019",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sossschram2007",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbell2012",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbell2012",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sossweaver2017",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sossweaver2017",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2007",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2007",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2014",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hackerpierson2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "patashnikzelizer2013",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lermanmccabe2017",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lermanmccabe2017",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "galvinhacker2020",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feinsteinschickler2008",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feinsteinschickler2008",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feinsteinschickler2008",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schicklercaughey2011",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hacker2013",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hacker2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpentersin2007",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpentersin2007",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "inglehartnorris2017",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "inglehartnorris2017",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williamson2011",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williamson2011",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldnerlust2018",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "claassen2020",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "citrinstoker2018",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "citrinstoker2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2010",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2011arps",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mondak2010",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mondak2010",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carney2008",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldmanjohnston2014",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldmanjohnston2014",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jost2017",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonsuhay2011",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddykhatib2007",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddykhatib2007",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2017",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2008",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2008",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowlerdawes2008",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowlerdawes2008",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hatemi2009",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ryan2017",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ryan2017",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

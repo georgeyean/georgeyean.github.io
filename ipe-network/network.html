@@ -150,6 +150,13 @@ input[type=checkbox]{accent-color:var(--accent)}
 .node-label{font-family:"Source Sans Pro",Helvetica,sans-serif;font-size:10.5px;fill:var(--ink)}
 .theme-label{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;fill:var(--ink)}
 .lane-label,.axis text{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.1em}
+
+/* ===================== Phones: no side panel; tap a dot or line for a bottom card ===================== */
+@media (max-width: 700px){
+  #detail,#detailToggle{display:none !important}
+  #edgeTip.pop{position:fixed;left:12px !important;right:12px;top:auto !important;bottom:12px;max-width:none;max-height:45vh;overflow:auto;pointer-events:auto;z-index:40;padding:12px 34px 12px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+  #edgeTip .tipx{position:absolute;top:6px;right:6px;width:26px;height:26px;padding:0;border:0;background:none;font-size:18px;line-height:26px;color:var(--muted);cursor:pointer}
+}
 </style>
 </head>
 <body>
@@ -160,6 +167,7 @@ input[type=checkbox]{accent-color:var(--accent)}
     <div class="field-picker">
       <button type="button" id="fieldBtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="fieldLabel fieldBtn">IPE <span class="caret" aria-hidden="true">▾</span></button>
       <ul id="fieldList" role="listbox" aria-labelledby="fieldLabel" hidden>
+          <li role="option" aria-selected="false"><a href="../ap-network/network.html">American Politics</a></li>
           <li role="option" aria-selected="false"><a href="../cn-network/network.html">Chinese Politics</a></li>
           <li role="option" aria-selected="false"><a href="../cp-network/network.html">Comparative Politics</a></li>
           <li role="option" aria-selected="false"><a href="../ir-network/network.html">International Relations</a></li>
@@ -206,8 +214,8 @@ input[type=checkbox]{accent-color:var(--accent)}
     <svg id="svg"></svg>
     <div id="hint">Hover a dot for its title, a line for what it means. Arrow: later work → work it relates to.</div>
     <div id="edgeTip" role="tooltip"></div>
-    <div class="legend" id="legend">
-      <div class="lg-head"><b>How to read the arrows</b> <button id="legendToggle" title="Collapse / expand">−</button></div>
+    <div class="legend collapsed" id="legend">
+      <div class="lg-head"><b>How to read the arrows</b> <button id="legendToggle" title="Collapse / expand">+</button></div>
       <div class="lg-body">
         <p>An arrow runs from the <b>later or dependent work</b> to the <b>work it relates to</b>: A → B means "A builds on / challenges / qualifies B". Hover an arrow for the reason; click a node to list all of its arrows with reasons.</p>
         <div><span class="l"></span> <b>builds on</b>: extends or relies on B's argument or evidence</div>
@@ -382,10 +390,10 @@ input[type=checkbox]{accent-color:var(--accent)}
     hit.exit().remove();
     hit.enter().append('path').attr('fill', 'none').attr('stroke', 'transparent').attr('stroke-width', 10)
       .style('cursor', 'help').style('pointer-events', 'stroke')
-      .on('mouseenter', (ev, d) => showEdgeTip(ev, d))
-      .on('mousemove', ev => moveTip(ev))
-      .on('mouseleave', hideTip)
-      .on('click', (ev, d) => { if (d.type !== 'belongs_to') { state.selected = d.source.id; showDetail(d.source.id); highlight(d.source.id); openDetail(); } });
+      .on('mouseenter', (ev, d) => { if (!isMobile()) showEdgeTip(ev, d); })
+      .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
+      .on('mouseleave', () => { if (!isMobile()) hideTip(); })
+      .on('click', (ev, d) => { if (isMobile()) { highlight(null); showEdgeTip(ev, d); popTip(); return; } if (d.type !== 'belongs_to') { state.selected = d.source.id; showDetail(d.source.id); highlight(d.source.id); openDetail(); } });
 
     const nd = gNodes.selectAll('circle').data(curNodes, d => d.id);
     nd.exit().remove();
@@ -393,10 +401,10 @@ input[type=checkbox]{accent-color:var(--accent)}
       .call(d3.drag().on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
         .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
         .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.fx = null; d.fy = null; } }))
-      .on('click', (ev, d) => { if (d.type === 'theme') { focusTheme(d.id); if (state.focusTheme) openDetail(); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); openDetail(); })
-      .on('mouseenter', (ev, d) => showNodeTip(ev, d))
-      .on('mousemove', ev => moveTip(ev))
-      .on('mouseleave', () => { tip.style.display = 'none'; })
+      .on('click', (ev, d) => { if (isMobile()) { if (d.type === 'theme') focusTheme(d.id); else { state.selected = d.id; highlight(d.id); } showNodePop(d); return; } if (d.type === 'theme') { focusTheme(d.id); if (state.focusTheme) openDetail(); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); openDetail(); })
+      .on('mouseenter', (ev, d) => { if (!isMobile()) showNodeTip(ev, d); })
+      .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
+      .on('mouseleave', () => { if (!isMobile()) tip.style.display = 'none'; })
       .merge(nd)
       .attr('r', d => radius(d))
       .attr('fill', d => d.type === 'theme' ? (state.focusTheme === d.id ? d.color : 'var(--theme-node)') : nodeColor(d))
@@ -524,6 +532,25 @@ input[type=checkbox]{accent-color:var(--accent)}
     tip.style.left = Math.max(6, x) + 'px'; tip.style.top = Math.max(6, y) + 'px';
   }
   function hideTip(){ tip.style.display = 'none'; highlight(state.selected); }
+  // phones: no side panel; taps open a bottom card with basic info
+  const mobileMQ = window.matchMedia('(max-width: 700px)');
+  function isMobile(){ return mobileMQ.matches; }
+  if (isMobile()) document.getElementById('hint').textContent = 'Tap a dot or a line for details. Arrow: later work → work it relates to.';
+  function popTip(){ tip.insertAdjacentHTML('beforeend', '<button class="tipx" type="button" aria-label="Close">×</button>'); tip.classList.add('pop'); tip.style.display = 'block'; tip.setAttribute('role', 'dialog'); }
+  function closePop(){ tip.classList.remove('pop'); tip.setAttribute('role', 'tooltip'); tip.style.display = 'none'; }
+  tip.addEventListener('click', e => { if (e.target.closest('.tipx')) { e.stopPropagation(); closePop(); state.selected = null; highlight(null); } });
+  function showNodePop(d){
+    if (d.type === 'theme') {
+      const n = works.filter(w => w.themes.includes(d.id)).length;
+      tip.innerHTML = `<b>${d.label}</b><div class="tg">Theme · ${n} works${state.focusTheme === d.id ? ' · map focused on this theme' : ''}</div>`;
+    } else {
+      const nrel = relEdges.filter(e => (e.source.id || e.source) === d.id || (e.target.id || e.target) === d.id).length;
+      tip.innerHTML = `<div class="tt">${d.title}</div><div class="tg">${d.authors} · ${d.year} · ${d.journal}</div>` +
+        `<div class="tw">${d.claim}</div><div class="tg" style="margin-top:6px">${nrel} relation${nrel === 1 ? '' : 's'} · tap a line for what it means</div>`;
+    }
+    popTip();
+  }
+  mobileMQ.addEventListener('change', () => { closePop(); setDetail(false); });
 
   function edgePath(d){
     {
@@ -614,13 +641,10 @@ input[type=checkbox]{accent-color:var(--accent)}
     detailBtn.setAttribute('aria-label', open ? 'Hide details panel' : 'Show details panel');
   }
   function openDetail(){ setDetail(true); }
-  function closeDetail(){ setDetail(false); tip.style.display = 'none'; }
+  function closeDetail(){ setDetail(false); tip.style.display = 'none'; tip.classList.remove('pop'); }
   detailBtn.onclick = () => setDetail(!detailEl.classList.contains('open'));
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
   document.getElementById('legendToggle').onclick = e => { const l = document.getElementById('legend'); l.classList.toggle('collapsed'); e.target.textContent = l.classList.contains('collapsed') ? '+' : '−'; };
-  if (stage.clientWidth < 700) {
-    document.getElementById('legend').classList.add('collapsed'); document.getElementById('legendToggle').textContent = '+';
-  }
 
   setView(state.view);
 })();
