@@ -24,9 +24,18 @@
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
 header{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
-.brand{display:flex;flex-direction:column;gap:3px;margin-right:10px}
-.brand-title{font-size:16px;font-weight:650;line-height:1.1;letter-spacing:.01em}
-.brand select{font-size:13px;font-weight:600;padding:2px 6px;cursor:pointer;max-width:220px}
+header{position:relative;z-index:20}
+.brand{display:flex;flex-direction:column;align-items:flex-start;margin-right:10px}
+.brand-title{font-size:16px;font-weight:650;line-height:1.1;letter-spacing:.01em;margin-bottom:8px}
+.field-label{font-size:11px;color:var(--muted);margin-bottom:2px}
+.field-picker{position:relative}
+#fieldBtn{font-size:13px;font-weight:600;padding:3px 8px;min-width:120px;text-align:left;display:flex;justify-content:space-between;gap:10px;align-items:center}
+#fieldBtn .caret{color:var(--muted);font-size:11px;transition:transform .15s}
+#fieldBtn[aria-expanded="true"] .caret{transform:rotate(180deg)}
+#fieldList{position:absolute;top:calc(100% + 4px);left:0;min-width:100%;margin:0;padding:4px 0;list-style:none;background:var(--panel);border:1px solid var(--line);border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.18);z-index:30}
+#fieldList a{display:block;padding:6px 12px;font-size:13px;color:var(--ink);text-decoration:none;white-space:nowrap}
+#fieldList a:hover,#fieldList a:focus{background:var(--chip);outline:none}
+#fieldList a.current{font-weight:650;color:var(--accent)}
 header .sub{color:var(--muted);font-size:12px}
 .controls{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
 .controls label{display:inline-flex;gap:4px;align-items:center;font-size:12px;color:var(--muted)}
@@ -100,10 +109,14 @@ a.ext{color:var(--accent)}
 <header>
   <div class="brand">
     <div class="brand-title">Literature Network</div>
-    <select id="mapSwitch" aria-label="Choose literature map">
-      <option value="../ipe-network/network.html" selected>IPE</option>
-      <option value="../security-network/network.html">International Security</option>
-    </select>
+    <div class="field-label" id="fieldLabel">Field:</div>
+    <div class="field-picker">
+      <button type="button" id="fieldBtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="fieldLabel fieldBtn">IPE <span class="caret" aria-hidden="true">▾</span></button>
+      <ul id="fieldList" role="listbox" aria-labelledby="fieldLabel" hidden>
+          <li role="option" aria-selected="true"><a href="../ipe-network/network.html" class="current">IPE</a></li>
+          <li role="option" aria-selected="false"><a href="../security-network/network.html">International Security</a></li>
+      </ul>
+    </div>
   </div>
   <span class="sub" id="counts"></span>
   <div class="controls">
@@ -528,8 +541,13 @@ a.ext{color:var(--accent)}
 
   // ---------- controls
   const setView = v => { state.view = v; persist(); document.getElementById('viewNet').classList.toggle('active', v === 'net'); document.getElementById('viewTime').classList.toggle('active', v === 'time'); update(); };
-  document.getElementById('mapSwitch').onchange = e => { window.location.href = e.target.value; };
-  window.addEventListener('pageshow', () => { const sel = document.getElementById('mapSwitch'); sel.value = sel.querySelector('option[selected]').value; });
+  // field picker: opens downward below the button; links navigate to the chosen map
+  const fieldBtn = document.getElementById('fieldBtn'), fieldList = document.getElementById('fieldList');
+  const setField = open => { fieldList.hidden = !open; fieldBtn.setAttribute('aria-expanded', open ? 'true' : 'false'); };
+  fieldBtn.onclick = e => { e.stopPropagation(); setField(fieldList.hidden); if (!fieldList.hidden) fieldList.querySelector('a').focus(); };
+  document.addEventListener('click', e => { if (!e.target.closest('.field-picker')) setField(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !fieldList.hidden) { setField(false); fieldBtn.focus(); } });
+  window.addEventListener('pageshow', () => setField(false));
   document.getElementById('viewNet').onclick = () => setView('net');
   document.getElementById('viewTime').onclick = () => setView('time');
   document.getElementById('decade').onchange = e => { state.decade = e.target.value; update(); };
