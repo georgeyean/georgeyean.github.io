@@ -5,21 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Security Knowledge Network</title>
 <meta name="description" content="Interactive map of key works and debates in international security research, c. 1966-2026, with a timeline view, theme and decade filters, and click-to-see details.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:400,800&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <style>
 :root{
-  --bg:#f7f7f5; --panel:#ffffff; --ink:#1c1c1c; --muted:#6b6b6b; --line:#e3e3df; --accent:#2563eb;
-  --chip:#eeeeea; --edge:#b9b9b4; --theme-node:#ffffff;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#121212; --panel:#1b1b1b; --ink:#ececec; --muted:#a0a0a0; --line:#2c2c2c; --accent:#60a5fa;
-    --chip:#262626; --edge:#4a4a4a; --theme-node:#1b1b1b;
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#121212; --panel:#1b1b1b; --ink:#ececec; --muted:#a0a0a0; --line:#2c2c2c; --accent:#60a5fa;
-  --chip:#262626; --edge:#4a4a4a; --theme-node:#1b1b1b;
+  --bg:#f4f4f4; --panel:#ffffff; --ink:#3c3b3b; --text:#555555; --muted:#8a8a8a; --line:rgba(160,160,160,.3);
+  --accent:#2ebaae; --chip:#f4f4f4; --edge:#c4c4c4; --theme-node:#ffffff;
 }
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
@@ -103,6 +94,62 @@ a.ext{color:var(--accent)}
   #detail,#detailToggle{position:fixed}
   body{height:auto}
 }
+
+/* ===================== Site style (matches georgeyean.github.io: Future Imperfect theme) ===================== */
+html,body{font:15px/1.5 "Source Sans Pro",Helvetica,sans-serif;color:var(--text)}
+header{background:var(--panel);border-bottom:1px solid var(--line);padding:12px 20px;gap:10px 22px}
+.brand-title{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:13px;letter-spacing:.25em;text-transform:uppercase;color:var(--ink);margin-bottom:10px}
+.field-label{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.controls{gap:8px 14px}
+.controls label,header .sub{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+header .sub{letter-spacing:.16em}
+button{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.2em;text-transform:uppercase;background:transparent;border:0;border-radius:2px;
+  box-shadow:inset 0 0 0 1px var(--line);color:var(--ink);height:30px;line-height:30px;padding:0 14px;transition:box-shadow .2s ease,color .2s ease,background-color .2s ease}
+button:hover{box-shadow:inset 0 0 0 1px var(--accent);color:var(--accent)}
+button.active{background:rgba(46,186,174,.08);box-shadow:inset 0 0 0 1px var(--accent);color:var(--accent)}
+select,input[type=search]{font-family:"Source Sans Pro",Helvetica,sans-serif;font-size:13px;height:30px;padding:0 8px;border:1px solid var(--line);border-radius:2px;background:var(--panel);color:var(--text)}
+select:focus,input[type=search]:focus{outline:none;border-color:var(--accent)}
+input[type=checkbox]{accent-color:var(--accent)}
+#fieldBtn{height:30px;line-height:30px;min-width:200px;padding:0 12px;font-size:10.5px;letter-spacing:.16em}
+#fieldList{border-radius:2px;box-shadow:0 6px 16px rgba(0,0,0,.08);padding:6px 0}
+#fieldList a{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;padding:9px 14px;color:var(--ink)}
+#fieldList a:hover,#fieldList a:focus{background:var(--chip);color:var(--accent)}
+#fieldList a.current{color:var(--accent)}
+.home{margin-left:auto;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap}
+.home:hover{color:var(--accent)}
+#layout{background:var(--bg)}
+#themes{background:var(--panel);padding:16px 16px 12px}
+#themes h2,#detail h2{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10.5px;letter-spacing:.25em;text-transform:uppercase;color:var(--ink);margin:2px 0 12px}
+.theme-row{font-size:13px;color:var(--text);padding:5px 6px;border-radius:2px;line-height:1.3}
+.theme-row:hover{background:var(--chip)}
+.theme-row.focus{background:rgba(46,186,174,.07);box-shadow:inset 3px 0 0 var(--accent);color:var(--ink);font-weight:600}
+.theme-row .sw{width:10px;height:10px}
+.small-links{margin-top:14px}
+.small-links button{height:26px;line-height:26px;padding:0 10px;font-size:9px}
+#themes p{font-size:12.5px !important;line-height:1.5;color:var(--muted) !important}
+#stage{background:var(--bg)}
+.legend,#hint,#edgeTip{background:var(--panel);border:1px solid var(--line);border-radius:2px;box-shadow:0 1px 8px rgba(0,0,0,.06)}
+.legend{font-size:12px;color:var(--text);padding:10px 12px}
+.legend .lg-head b{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink)}
+.legend .lg-head button{height:20px;line-height:20px;padding:0 7px;font-size:11px;letter-spacing:0}
+.legend .lg-body div b{color:var(--ink)}
+#hint{font-size:12px;color:var(--muted);padding:6px 10px}
+#edgeTip{font-size:13px;color:var(--text);padding:9px 11px;box-shadow:0 4px 14px rgba(0,0,0,.1)}
+#edgeTip .tt,#edgeTip b{color:var(--ink)}
+#detail{padding:20px 22px;border-left:1px solid var(--line);box-shadow:-4px 0 14px rgba(0,0,0,.06);font-size:14px}
+#detail .title{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:16px;line-height:1.4;letter-spacing:.02em;color:var(--ink);margin:0 0 4px}
+#detail .meta{font-size:13px;color:var(--muted);margin-bottom:10px}
+#detail .lbl{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-top:16px}
+#detail p{color:var(--text);line-height:1.6}
+.chip{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9px;letter-spacing:.12em;text-transform:uppercase;background:var(--chip);border-radius:2px;padding:4px 8px;color:var(--ink)}
+.rel{font-size:13px;color:var(--text);padding:8px 0}
+.rel b{color:var(--ink);font-weight:700}
+.rel a,a.ext{color:var(--accent)}
+#detailToggle{border-radius:2px 0 0 2px;box-shadow:0 1px 8px rgba(0,0,0,.06);height:56px;line-height:56px;padding:0;letter-spacing:0;font-family:"Source Sans Pro",Helvetica,sans-serif;font-weight:400;font-size:18px;text-transform:none}
+#detailToggle:hover{color:var(--accent)}
+.node-label{font-family:"Source Sans Pro",Helvetica,sans-serif;font-size:10.5px;fill:var(--ink)}
+.theme-label{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;fill:var(--ink)}
+.lane-label,.axis text{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.1em}
 </style>
 </head>
 <body>
@@ -143,8 +190,8 @@ a.ext{color:var(--accent)}
     <label><input type="checkbox" id="showThemes" checked> theme hubs</label>
     <label><input type="checkbox" id="seedOnly"> repo (Zotero) works only</label>
     <input type="search" id="q" placeholder="search author, title, claim…">
-    <button id="themeToggle" title="Toggle light/dark">◐</button>
   </div>
+  <a class="home" href="../index.html">← George Yean</a>
 </header>
 <div id="layout">
   <aside id="themes">
@@ -555,11 +602,6 @@ a.ext{color:var(--accent)}
   document.getElementById('showThemes').onchange = e => { state.showThemes = e.target.checked; update(); };
   document.getElementById('seedOnly').onchange = e => { state.seedOnly = e.target.checked; update(); };
   document.getElementById('q').oninput = e => { state.q = e.target.value.trim(); update(); };
-  document.getElementById('themeToggle').onclick = () => {
-    const r = document.documentElement; const cur = r.getAttribute('data-theme');
-    const dark = cur ? cur === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-    r.setAttribute('data-theme', dark ? 'light' : 'dark');
-  };
   window.addEventListener('resize', () => { W = stage.clientWidth; H = stage.clientHeight; sim.force('center', d3.forceCenter(W / 2, H / 2)); update(); });
   svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; highlight(null); closeDetail(); } });
   // ---------- slide-in details panel (hidden by default)
