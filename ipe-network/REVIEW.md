@@ -1,6 +1,6 @@
 # The IPE literature, c. 2006–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` / `network.html` in this folder. The graph has 193 work nodes (91 from this repo's `papers.json`, 102 supplementary canonical works), 18 theme nodes and 251 typed relations. Each theme section below follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[farrell2019]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` / `network.html` in this folder. The graph has 263 work nodes (98 from this repo's `papers.json`, 165 supplementary works), 19 theme nodes and 367 typed relations. 70 of the works were added after a citation-based coverage audit (see the end of this file); each section marks them under **Added after the coverage audit**. Each theme section below follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[farrell2019]`) point to entries in `graph.json`.
 
 **Provenance and caveats.** Claims for the 91 repo works are condensed from the "Theory & evidence" analyses already in `papers.json` (written from full text, with a few abstract-only exceptions noted in the node's `verified` field). Supplementary works are canonical pieces I added from my own knowledge of the field, not from a systematic search. On 2026-10-28 each was looked up in Crossref by title and first author: 101 of 102 were confirmed to exist, and the result is recorded in each node's `verified` field. The one I could not confirm is Colgan & Keohane 2017 (*Foreign Affairs* is not indexed in Crossref). A few venue or year details remain soft and are listed at the end. Johns & Pelc is 2014, not 2016 as often miscited. Three repo entries lack a firm year (Han et al. working paper; Baccini & Sattler; the IO 75th-anniversary pieces, which I dated 2021). The graph is deliberately larger than the 80–150 nodes requested because the seed corpus alone yields ~90 relevant works; use the theme and decade filters, or the "repo works only" toggle, to thin it.
 
@@ -15,6 +15,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 **Settled.** The skill gradient is real but is not mainly a labor-market effect. The education effect survives among the retired and tracks exposure to economic ideas `[hainmueller2006]`; sociotropic perceptions and out-group anxiety dominate self-interest, and the education coefficient largely proxies for ethnocentrism `[mansfield2009]`; most respondents cannot locate their own interest, and information treatments only partly re-align preferences `[rho2017]`. The repo's own analysis of Mansfield & Mutz flags this as the hinge of the debate. The same conclusion holds for immigration `[hainmueller2010]`, `[hainmueller2014]` and, with reciprocity and security framing, for FDI `[chilton2020]` against the skill-based account `[pandya2010]`.
 
 **Contested.** Material accounts were revived at a finer grain. Occupational task content (routineness, offshorability) predicts protectionism net of sociotropic controls `[owen2017]`, and exposure interacted with occupational immobility predicts anti-globalization sentiment in the US `[bisbee2025]`. Elite cues and fairness beliefs add a third family: "trade is unfair" rhetoric moves meritocratic but anxious Americans `[ballardrosa2024]`; affect toward partner countries sorts preferences by geopolitical alignment `[carnegie2022]`. Historically, Scheve & Serlin's "spatial Rogowski" shows trade's economic winners can lose political power through migration `[scheve2024]`, and Flaherty & Rogowski argue superstar trade theories imply far more losers than the classical models counted `[flaherty2021]`.
+
+**Added after the coverage audit.** Framing moves trade support sharply `[hiscox2006]`, and voters rarely know how their representatives vote on trade `[guisinger2009]`. Interests work through household and community context `[fordham2012]`. Relative gains and fairness drive evaluations of deals `[mutzkim2017]`, `[brutger2021]`. Material interests matter for trade and immigration but ideology for aid `[milnertingley2011]`. Perceived exposure and cultural concern together explain discontent `[margalit2012]`. Together these reinforce the non-material turn, with Fordham & Kleinberg as the main interest-based reply.
 
 **Gaps and open questions.**
 - *Reconciling the three families.* No paper yet estimates, in one design, the relative weight of task-based material exposure, sociotropic/identity concerns and elite cues on the same respondents over time. A panel with occupation-level exposure, partisan cue exposure and identity measures would arbitrate; the repo's Ballard-Rosa et al. panel is the closest template.
@@ -44,6 +46,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 
 **Contested.** Three things. (i) *Magnitude*: Margalit shows trade shocks are "outcome significant" but explain a small share of variance `[margalit2019]`; cultural accounts `[norris2019]`, `[mutz2018]` claim the main effect. Rodrik's synthesis `[rodrik2018]`, `[rodrik2021]` and Walter's review `[walter2021]` argue for interaction, with economics underneath cultural expression. (ii) *Mechanism*: racialized group-status politics `[baccini2021]` vs. insecurity `[bisbee2025]` vs. place `[broz2021]` vs. elite cues `[ballardrosa2024]`. (iii) *Transmission*: De Vries, Hobolt & Walter argue grievance becomes institutional change only when challenger parties politicize it through permissive opportunity structures `[devries2021]`; Milner's three-pathway synthesis `[milner2021]` leaves open which pathway dominates where.
 
+**Added after the coverage audit.** Legislators in China-shock districts vote more protectionist `[feigenbaum2015]`. A 2024 meta-analysis of causal studies finds globalization shocks raise populist support robustly but modestly, mostly on the right `[scheiring2024]`. That supports Margalit's "outcome significant but small" reading over both strong economic and purely cultural accounts. Adler-Nissen & Zarakol add a status-recognition account of order-level discontent `[adlernissen2021]`.
+
 **Gaps and open questions.**
 - *Backlash outside the OECD.* Nearly all evidence is US/European. A PEIO paper cited in the search found no right-wing shift from the China shock in emerging economies, and Milner's address calls for developing-country evidence. Your Globalization Grievance Index, if it covers the Global South, fills exactly this hole: do import shocks in middle-income democracies (Brazil, Indonesia, South Africa, Türkiye) produce left, right, or no backlash, and does the answer track compensation capacity (`[rudra2002]`)?
 - *The second China shock and the export-controls shock.* Chinese EV, solar and battery exports after 2021 are a new shock to European and emerging-market manufacturing. No top-journal paper yet treats it with a shift-share design. Likewise the *supply-side* shock of US export controls on firms and regions in allied countries (Netherlands, Korea, Japan, Taiwan).
@@ -59,6 +63,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 
 **Contested.** How far the firm turn explains *backlash*: if large firms won the trade policy fight, the mass politics of Section 3 is a reaction to a firm-dominated regime (Flaherty & Rogowski's superstar argument makes this link). Whether supply chains diffuse standards upward is conditional `[malesky2018]`, while competitive races to the bottom appear not to exist once properly tested `[guasti2022]`.
 
+**Added after the coverage audit.** Firm surveys confirm superstar exporters and importers are the most pro-trade firms `[osgood2017jop]`. Industries trading inside their own multinational supply chains file fewer trade-remedy petitions `[jensen2015]`. In solar, supply-chain position splits manufacturers from installers over tariffs `[meckling2017]`, an early clean-energy case of GVC trade politics.
+
 **Gaps and open questions.**
 - *Firms under geoeconomics.* The firm literature was built for liberalization. We have almost no systematic evidence on how firms position themselves on export controls, screening, sanctions compliance and friend-shoring, where the "productive exporter wants openness" logic may invert (national champions may want protection from Chinese competition but access to Chinese inputs). Lobbying-disclosure data with LLM-coded issue content would reveal this.
 - *GVC position and security exposure.* Kim et al.'s multidimensional conjoint `[kim2019firms]` could be re-run with security dimensions (data localization, dual-use licensing, origin rules). Your HS-6 dual-use classification gives the product-level exposure measure that this literature lacks.
@@ -72,6 +78,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 **Settled.** Credible commitment devices work, and their *design* matters more than their count. But the regime-type story is heavily qualified: investor nationality communities shield firms more than regime type `[wellhausen2015]`, supply-chain ties shield further `[johns2016]`, BITs help autocracies most and prolong autocrats' tenure `[arias2018]`, and FDI stabilizes authoritarian rule `[bak2016]`.
 
 **Contested.** Whether investment regimes are now reversing. The spread of investment screening across the EU `[bauerle2023]`, driven by Chinese investment and the securitization of economic policy `[meunier2019]`, `[pearson2022]`, means the dependent variable of twenty years of work (how to attract FDI) has flipped for a class of investors (how to exclude it).
+
+**Added after the coverage audit.** The investment-treaty literature now sits in the graph. BITs spread as a competitive race for capital `[elkins2006]` and attract FDI by commitment and signaling `[kerner2009]`. Their credibility depends on arbitration records `[allee2011]`. States signed them with bounded rationality until the first claim hit `[poulsen2013]`, then redesigned treaties `[thompson2019]`. Simmons recasts the regime as asymmetric bargains now under contestation `[simmons2014]`. Also added: executive constraints as the democratic FDI mechanism `[jensen2008]`, diaspora networks `[leblang2010]`, FDI empowering Vietnamese provinces `[malesky2008]`, the rise of transnational state capital `[babic2019]`, and member-state support for EU screening `[chan2021]`.
 
 **Gaps and open questions.**
 - *The political economy of investment screening.* Bauerle Danzman & Meunier map designs; no one has yet explained screening *decisions* (which deals are blocked, by whom, with what domestic coalitions) across countries with firm-level data, nor measured the chilling effect on FDI by origin and sector.
@@ -87,6 +95,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 
 **Contested.** The democratic advantage: Lipscy shows the same institutional features that give democracies credit also make them crisis-prone `[lipscy2018]`. The IMF's role is contested between informal US control `[stone2008]`, common agency `[copelovitch2010]`, geopolitical vote-buying `[dreher2009]`, shared beliefs `[nelson2014]`, and asymmetric moral hazard with reserve hoarding `[lipscy2019]`. The dollar's future is contested between structural persistence `[strange1987]`, `[winecoff2020]`, privilege-taking that frays as security leverage declines `[mastanduno2009]`, instability generated by US buildups `[oatley2015]`, and sanctions-driven hedging `[mcdowell2023]`.
 
+**Added after the coverage audit.** The democratic advantage in sovereign debt is qualified twice: it lies in market access more than price `[beaulieu2012]`, and it depends on global liquidity cycles `[ballardrosa2019]`. Central bank independence works best where democratic institutions make it credible `[bodea2015io]`. Neoliberal-trained economists sped capital-account liberalization `[chwieroth2007]`. Remittances make fixed exchange rates cheaper `[singer2010]`. The 2008 crisis is read as Knightian uncertainty rather than risk `[nelson2014ik]`. On China, Drezner shows creditor leverage is weaker than feared `[drezner2009]`.
+
 **Gaps and open questions.**
 - *Currency politics under weaponized finance.* Frieden's sectoral model predates sanctions on central banks. Which domestic groups in China, India, Gulf states and Brazil push for de-dollarization or CBDC settlement, and why? McDowell's country cases could be turned into a sectoral-preference study.
 - *Sovereign debt with China as creditor.* Debt distress in 2020-25 involved Chinese lenders outside the Paris Club. Reputation `[tomz2007]` and distributional `[ballardrosa2020]` theories were built for Western creditors; whether borrowers treat Chinese and Western creditors differently, and how China's lending interacts with IMF programs `[clark2022imf]`, is open.
@@ -101,6 +111,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 
 **Contested.** Whether Chinese finance is a rival *order* or a commercially driven outside option `[dreher2022]`, `[broz2020china]`; and whether IFIs now actively prop up autocracies: Cottiero & Schneider show autocracy-dominated IFIs lend to threatened autocrats `[cottiero2026]`, extending Debre's regional-organization finding `[debre2021]` and reversing the democracy-locking view of IO membership `[mansfield2006]`.
 
+**Added after the coverage audit.** New conditionality data show IMF conditions did not fall after the 2000s reforms `[kentikelenis2016]`. IMF programs cut spending, but democracies protect social spending `[nooruddin2006]`. Strong labor wins softer labor conditions `[caraway2012]`. Staff exercise informal governance of their own `[chwieroth2013]`. Overlapping development IOs pool when their leading shareholders are aligned `[clark2021pool]`. Both the WTO and the IMF adapted imperfectly to rising powers `[zangl2016]`. Donor influence extends to the Asian Development Bank `[kilby2006]`.
+
 **Gaps and open questions.**
 - *Autocratic IFIs as a system.* `[cottiero2026]` is new. The next steps are conditionality content (what do autocratic lenders ask for?), interaction with IMF programs, and whether recipients' behavior (repression, election manipulation) changes after such loans. This is squarely in your "autocratic rise" agenda.
 - *Informal governance in new institutions.* Stone's framework has not been applied to the AIIB, NDB or the BRI's financing bodies: is China's informal access structured like the US's at the IMF?
@@ -113,6 +125,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 **Settled.** After Rose's null `[rose2004]`, the trade effects of the GATT/WTO were re-established once participation was coded properly `[goldstein2007]`, though concentrated among major powers `[gowa2005]` and politically dissimilar dyads facing hold-up `[carnegie2014]`. PTA design varies with domestic institutions and GVCs, and effects run through depth `[baccini2019]`, `[mansfield2012]`, `[buthe2014]`, `[kim2025agri]`. Democracy changes the *form* of protection toward opaque measures `[kono2006]`, including state media `[kim2018media]`.
 
 **Contested.** Whether the rulebook still fits the instruments states use. Bown argues WTO rules built for tariffs cannot discipline modern industrial policy `[bown2024]`; the Appellate Body's collapse and the shift to subsidies, export controls and security exceptions mean the dependent variables of the design literature (tariff bindings, dispute filings) are losing relevance.
+
+**Added after the coverage audit.** The DESTA dataset shows deep PTAs raise trade far more than shallow ones `[dur2014]`, and PTA texts are largely copied from templates `[allee2019]`. The dispute-settlement strand is now represented. States shop for forums `[busch2007]`, third parties hinder settlement `[busch2006]`, and legal experience decides who files `[davisbermeo2009]`. Institutions also reduce trade volatility `[mansfield2008]`. Accession is geopolitical `[daviswilf2017]`, and gains come from rigorous accession commitments `[allee2012]`. Brazil, India and China broke into the regime's core by different routes `[hopewell2014]`, and China contests the trade order selectively `[weinhardt2019]`.
 
 **Gaps and open questions.**
 - *Design of geoeconomic agreements.* The IPEF, EU trade-and-technology council, critical-minerals agreements and "friend-shoring" clubs are new institutional forms with no PTA-style design dataset. A DESTA-like coding of security provisions, origin rules and export-control coordination in post-2018 agreements would be a public good and a dissertation.
@@ -127,6 +141,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 **Settled.** The network view displaced bilateral dependence as the default framework within five years, and its core descriptive claims (US control of financial messaging, dollar clearing, chip tooling) are not disputed `[drezner2021]`, `[farrell2023]`. Sanctions research settled earlier that threats matter more than imposition `[grauvogel2017]`, that firms, not black knights, drive busting `[early2009]`, and that informal, deniable coercion is China's modal form `[lim2022]`, `[kim2025refusals]`, `[fuchs2013]`.
 
 **Contested.** The limits. Markets adjust around chokepoints `[gholz2021]`; private hub owners resist states `[gjesvik2023]`; targets hedge by de-dollarizing `[mcdowell2023]`; interwar history shows sanctions drove revisionists toward autarky and war `[mulder2022]`; state control over commercial actors is a precondition China often lacks `[norris2016]`; and trade dependence rarely buys policy deference `[kastner2016]` against `[floresmacias2013]`. Whether the economic realm is now a security dilemma `[pearson2022]` or still "business as usual" `[davis2011]` is the live question.
+
+**Added after the coverage audit.** Sanctions increase repression in targets `[wood2008]` and succeed more often when major trading partners impose them `[mclean2010]`. They also serve presidents' domestic audiences `[whang2011]`. They cost the sender's own investors `[biglaiser2011]`, who reroute FDI through third parties `[barry2015]`. Chen & Evers theorize supply-chain chokepoints as a power-transition strategy `[chenevers2023]`.
 
 **Gaps and open questions.**
 - *Effectiveness with a comparable dataset.* There is no TIES-style dataset of export controls, entity listings, investment bans and informal Chinese measures after 2018 coded with outcomes. Building one (with HS-6 dual-use coverage) would let the field replicate the sanctions-effectiveness debate for the new instruments.
@@ -143,6 +159,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 
 **Contested.** Almost everything causal: whether security motives or protectionist rent-seeking drive policy; whether party-state capitalism is a response to threat or a project of control; whether decoupling is happening or re-routing; whether climate asset revaluation `[colgan2021]` or great-power rivalry is the stronger driver of trade restriction. The web search for 2024-26 canonical pieces returned mostly working papers, special-issue introductions and think-tank work; this is a debate without an empirical anchor yet (flag: I could not verify a top-journal empirical article on economic-security policy choice).
 
+**Added after the coverage audit.** Made in China 2025 is analyzed as a challenge to US structural power over intellectual property and production `[malkin2020]`. State-led foreign investment is a structural shift behind economic-security politics `[babic2019]`. Helleiner frames the moment as a polycrisis of interacting shocks `[helleiner2024]`.
+
 **Gaps and open questions.**
 - *A theory of industrial-policy coalitions.* OEP's toolkit (interests from factor/sector/firm position, institutions, bargaining) has not been applied systematically to who demands and who gets industrial-policy money across the US, EU, Japan, Korea and China. Lobbying, subsidy and procurement microdata exist.
 - *Security vs. protection: a measurement problem.* Separating security-motivated from protectionist measures is the field's central identification problem. Product-level dual-use intensity (your HS-6 classification) gives a direct test: measures concentrated on dual-use lines look like security policy; measures on non-dual-use lines in politically sensitive districts look like protection.
@@ -157,6 +175,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 **Settled.** That the LIO is internally contested and that China is selectively, not uniformly, revisionist (`[johnston2019]`, `[weiss2021]`, and Lake, Martin & Risse's stocktaking `[lake2021]`). Chinese finance creates real outside options `[qian2023]`, `[dreher2022]`. Authoritarian regional organizations and IFIs protect incumbents `[debre2021]`, `[cottiero2026]`, `[ginsburg2020]`.
 
 **Contested.** Whether domestic backlash (Section 3) and external challenge interact or are separable; whether China exports a model (Mattingly et al. in the repo show state media persuades global audiences) or merely offers finance; and whether "order" is the right unit at all versus issue-specific regimes.
+
+**Added after the coverage audit.** Chinese state media persuades global audiences of the China model `[mattingly2025]`. The new aid theme (Section 19) adds evidence that Chinese aid follows political alignment `[dreher2018]` but buys limited soft power `[blair2021]`.
 
 **Gaps and open questions.**
 - *Measuring order contestation.* Beyond UN votes and IO membership, there is no standard measure of states' positions toward competing orders across issue areas. Text of leaders' speeches, IO statements and treaty language could be coded for alignment with liberal vs. sovereigntist framings, which is a task well suited to validated LLM annotation and directly to your order-contestation work.
@@ -184,6 +204,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 **Settled.** Individual self-interest explains little of immigration attitudes; sociotropic and cultural concerns dominate `[hainmueller2010]`, `[hainmueller2014]`. The trade-immigration substitution at the policy level is well supported. Firms still win firm-specific relief for high-skill visas through bureaucratic lobbying `[liao2023]`. Migration can itself foster cosmopolitanism among migrants `[gaikwad2025]`. The postwar compromise depended on migrants' exclusion `[goodman2021]`.
 
 **Contested.** How migration backlash relates to trade backlash: Rodrik treats immigration salience as what makes populism right-wing `[rodrik2018]`; Simmons & Goemans see re-bordering as a structural reaction to the LIO `[simmons2021]`.
+
+**Added after the coverage audit.** Labor-market threat drives opposition to high-skilled immigration among directly competing workers `[malhotra2013]`. Sectoral growth or decline shapes immigration attitudes `[dancygier2013]`. Border walls cut trade between neighbors `[carter2019]`.
 
 **Gaps and open questions.**
 - *Migration as a geoeconomic instrument.* Talent controls (student-visa restrictions on Chinese STEM students, researcher screening) are economic-security policy with no IPE literature; Liao's visa data approach could be extended.
@@ -214,6 +236,8 @@ A note on what "top IPE" means here. The brief named APSR, AJPS, JOP, IO, World 
 
 Liberal policies diffused through competition and information `[simmons2004]`; bilateral regulator ties drive adoption while multilateral forums drive enforcement `[bach2010]`; supply chains diffuse labor standards only conditionally `[malesky2018]`; competitive races to the bottom in labor rights do not appear once properly tested `[guasti2022]`.
 
+**Added after the coverage audit.** Labor rights diffuse upward through export markets `[greenhill2009]`, as does the ISO 14001 environmental standard `[prakash2006]`. Nonbinding Basel III standards still had credible distributional effects `[wilf2016]`.
+
 **Gap.** The diffusion toolkit (spatial lags, event history) has not been applied to the *de-liberalizing* wave: investment screening, export-control regimes, data-localization and industrial-policy adoption after 2017 plausibly diffuse through the same competitor and ally channels, with security framing added. Bauerle Danzman & Meunier's mapping `[bauerle2023]` is the starting dataset.
 
 ## 17. US hegemony, the dollar and systemic power
@@ -230,6 +254,19 @@ Multilateralism can enhance democracy `[keohane2009]` or erode representation `[
 
 ---
 
+## 19. Foreign aid and development finance (added after the coverage audit)
+
+**Claimed.** Aid buys policy concessions from leaders with small winning coalitions `[bdm2009]`. Unearned foreign income lets autocrats fund patronage and survive `[ahmed2012]`, though aid tied to democratization works when autocrats expect to stay competitive after a transition `[wright2009]`.
+
+**Settled.** Allocation is political: donors favor allies and adapt delivery to recipient governance, bypassing weak states through NGOs `[dietrich2013]`. Major donors steer multilateral development banks `[kilby2006]`, consistent with the informal-governance findings in Section 7. Donors increasingly target places whose problems spill over to them `[bermeo2017]`.
+
+**Contested.** What Chinese aid and lending do. Chinese aid follows political alignment while its commercial lending follows economic interest `[dreher2018]`, `[dreher2022]`. Publics reward US aid more than Chinese finance with goodwill `[blair2021]`. Whether China's development finance is a rival order or a commercially driven outside option remains open (Section 7).
+
+**Gaps and open questions.**
+- *Aid in a geoeconomic contest.* US, EU (Global Gateway), Japanese and Chinese development finance now compete explicitly. No top-journal study models donor competition as strategic interaction with recipient hedging as the outcome.
+- *Autocratic donors.* Cottiero & Schneider's autocratic-IFI finding `[cottiero2026]` has no bilateral counterpart. Do Gulf, Russian and Chinese bilateral flows rise when recipient autocrats face threats?
+- *Aid and order alignment.* Whether aid shifts recipients' positions on contested order questions (UN votes, BRI participation, export-control alignment) is testable with geocoded project data and the alignment measures proposed in Section 11.
+
 ## Cross-cutting roadmap: where your work fits
 
 Reading the eighteen sections together, four openings recur, each matched to assets you already have.
@@ -239,27 +276,23 @@ Reading the eighteen sections together, four openings recur, each matched to ass
 3. **The autocratic economic governance complex.** Sections 7, 11 and 12 show the pieces (autocratic IFIs, regional organizations, Chinese finance, authoritarian international law) but no test of whether they form an order with commitment and compensation devices, nor a standard measure of states' order alignment. *Asset:* your order-contestation project and text-as-data capacity for leader and IO speech.
 4. **Measurement as contribution.** Across sections, the binding constraint is data: grievance, firm positions on controls, staff anticipation, order alignment, security motives. Validated LLM annotation with bias correction is the method IPE lacks, and a methods-plus-substance paper (measure, validate, then test a Section 9/10 hypothesis) is a credible top-journal path.
 
-## Coverage audit: what this map is likely missing
+## Coverage audit and additions
 
-The graph is not a systematic sample. It starts from your Zotero library, which over-represents your interests (LIO contestation, China, globalization backlash, *IO* and *AJPS*), and adds works I judged canonical. To check that bias, I pulled the 400 most-cited 2006–2026 articles from each of ten journals in Crossref (*IO, WP, APSR, AJPS, JOP, ISQ, BJPS, IS, RIPE, RIO*) and matched the IPE-related ones against the graph. Citation counts favor older papers, so this check under-weights 2022–2026 work.
+The original graph was not a systematic sample. It started from your Zotero library, which over-represents your interests (LIO contestation, China, globalization backlash, *IO* and *AJPS*), plus works I judged canonical. To check that bias I pulled the 400 most-cited 2006–2026 articles from each of ten journals in Crossref (*IO, WP, APSR, AJPS, JOP, ISQ, BJPS, IS, RIPE, RIO*), filtered them to IPE topics, and compared them with the graph.
 
-The clearest omissions among highly cited IPE articles:
+**What was added (70 works).** Investment treaties and FDI (12), the WTO and PTAs (12, including Davis & Wilf 2017 and Allee & Scalera 2012 from your library), trade and immigration attitudes (11), IMF, money and debt (12), sanctions and statecraft (7), labor and environmental standards (2), foreign aid as a new theme (8), and order, borders and polycrisis (4). Title, authors, year, venue and DOI for each new supplementary work come straight from its Crossref record. Its one-line claim is my summary and was not re-read against the paper.
 
-- **Investment treaties and FDI:** Elkins, Guzman & Simmons 2006 on BIT diffusion (*IO*); Jensen 2008 on political risk (*JOP*); Kerner 2009 (*ISQ*); Allee & Peinhardt 2011 (*IO*); Simmons 2014 on the investment regime (*WP*); Leblang 2010 on diaspora networks (*APSR*); Malesky 2008 (*JOP*).
-- **Trade agreements and the WTO:** Dür, Baccini & Elsig 2014, the DESTA design dataset (*RIO*); Busch 2007 on forum shopping (*IO*); Davis & Bermeo 2009 on developing-country litigation (*JOP*); Mansfield & Reinhardt 2008 (*IO*); Hopewell 2014 on Brazil, India and China at the WTO (*RIPE*). Two repo works also belong here but were left out: Davis & Wilf 2017 on geopolitical GATT accession and Allee & Scalera 2012.
-- **Trade and immigration attitudes:** Margalit 2012 (*ISQ*); Hiscox 2006 on framing (*IO*); Milner & Tingley 2011 (*IO*); Guisinger 2009 (*IO*); Mutz & Kim 2017 on in-group favoritism (*IO*); Feigenbaum & Hall 2015 on legislators and the China shock (*JOP*); Malhotra, Margalit & Mo 2013 (*AJPS*); Dancygier & Donnelly 2013 (*JOP*).
-- **IMF, money and debt:** Kentikelenis, Stubbs & King 2016 on conditionality (*RIPE*); Nooruddin & Simmons 2006 (*IO*); Chwieroth 2007 on neoliberal economists (*IO*); Bodea & Hicks 2015 on central bank independence (*IO*); Beaulieu, Cox & Saiegh 2012 on the democratic advantage in debt (*IO*); Singer 2010 on remittances and exchange rates (*APSR*); Nelson & Katzenstein 2014 (*IO*).
-- **Sanctions:** Wood 2008 on sanctions and repression (*ISQ*); McLean & Whang 2010 (*ISQ*); Whang 2011 (*ISQ*).
-- **Labor standards and diffusion:** Greenhill, Mosley & Prakash 2009 (*APSR*); Prakash & Potoski 2006 and 2007.
-- **Foreign aid and Chinese finance:** I left this whole subfield out. It is core *IO*/*ISQ* IPE: Bueno de Mesquita & Smith 2009, Ahmed 2012, Dietrich 2013, Bermeo 2017, and Dreher et al. 2018 on Chinese state financing in Africa.
-
-Topics from your brief with thin coverage relative to the literature are aid, investment treaties, and the WTO dispute-settlement literature. The 2023–2026 cohort is also probably under-sampled, because neither your library nor citation counts surface it well. A systematic pass (journal tables of contents for 2023–2026, plus the omissions above) would likely add 40–60 nodes.
+**Remaining limits.**
+- Citation counts favor older papers, so 2023–2026 work is still probably under-sampled. A pass through journal tables of contents for those years is the next step.
+- Books and journals outside the ten checked were not audited systematically.
+- The keyword filter is crude. Comparative political economy (welfare states, inequality) and resource politics were mostly left out on purpose as outside the brief.
 
 ## What I could not verify (flagged)
 
-- Existence: 101 of 102 supplementary works confirmed in Crossref. Colgan & Keohane 2017 (*Foreign Affairs*) is unconfirmed because the magazine is not indexed.
+- Existence: 101 of the original 102 supplementary works confirmed in Crossref, and all 70 audit additions were taken from Crossref records. Colgan & Keohane 2017 (*Foreign Affairs*) is unconfirmed because the magazine is not indexed.
 - Venue or year still soft: Chilton, Milner & Tingley (BJPS 2020) and Funke, Schularick & Trebesch (*European Economic Review* 2016) matched only their SSRN preprints; Mosley's *Global Capital and National Governments* is dated 2001 in Crossref but usually cited as 2003.
-- Claims and edge justifications for supplementary works are my summaries, not checked against full text this session.
+- Claims and edge justifications for supplementary works, including the 70 additions, are my summaries, not checked against full text this session.
+- Crossref dates some articles by online-first year, so a few added works show a year one earlier than their print issue (e.g., Dür et al. 2013 for the 2014 *RIO* issue).
 - Years for Han et al. (working paper), Baccini & Sattler (AJPS, c. 2024) and the IO 75th-anniversary pieces (dated 2021 here).
 - The existence of a canonical, top-journal, empirical paper on economic-security policy choice for 2024-26; the searches returned special-issue introductions, working papers and policy pieces only. Treat Section 10's "settled" paragraph as provisional.
 - One repo entry (`YXV7RH9E`, Mansfield, Milner & Rosendorff 2000) is coded in `papers.json` from the abstract only; its claim is correspondingly thin.

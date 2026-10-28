@@ -13,14 +13,15 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 193,
-   "theme_nodes": 18,
-   "seed_from_papers_json": 91,
-   "supplement": 102,
-   "relation_edges": 251,
-   "membership_edges": 290
+   "work_nodes": 263,
+   "theme_nodes": 19,
+   "seed_from_papers_json": 98,
+   "supplement": 165,
+   "relation_edges": 367,
+   "membership_edges": 410,
+   "added_by_coverage_audit": 70
   },
-  "verification": "Repo works: from the user's Zotero library (papers.json). Supplementary works: each looked up in Crossref on 2026-10-28 by title and first author; result recorded in each node's `verified` field. One work (Colgan & Keohane 2017, Foreign Affairs) could not be confirmed in Crossref."
+  "verification": "Repo works: from the user's Zotero library (papers.json). Supplementary works: each looked up in Crossref on 2026-10-28 by title and first author; result recorded in each node's `verified` field. One work (Colgan & Keohane 2017, Foreign Affairs) could not be confirmed in Crossref. Works added by the coverage audit take title, authors, year, venue and DOI directly from Crossref records; their claims are my summaries."
  },
  "themes": [
   {
@@ -112,6 +113,11 @@
    "id": "legitimacy",
    "label": "Politicization & legitimacy of international cooperation",
    "color": "#c026d3"
+  },
+  {
+   "id": "aid",
+   "label": "Foreign aid & development finance",
+   "color": "#38bdf8"
   }
  ],
  "nodes": [
@@ -3705,6 +3711,1385 @@
    "zotero": null,
    "verified": "Crossref: title and author matched (American Journal of Political Science, 2011; DOI 10.1111/j.1540-5907.2010.00507.x)",
    "crossref_doi": "10.1111/j.1540-5907.2010.00507.x"
+  },
+  {
+   "id": "aid",
+   "type": "theme",
+   "label": "Foreign aid & development finance",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "elkins2006",
+   "type": "work",
+   "label": "Elkins 2006",
+   "authors": "Zachary Elkins, Andrew T. Guzman & Beth A. Simmons",
+   "year": 2006,
+   "journal": "IO",
+   "title": "Competing for Capital: The Diffusion of Bilateral Investment Treaties, 1960–2000",
+   "claim": "Developing countries signed bilateral investment treaties in response to their competitors for the same investors, so the BIT wave was a competitive race for capital rather than learning or coercion.",
+   "method": "Dyadic event-history models of BIT signing, 1960-2000",
+   "themes": [
+    "fdi",
+    "diffusion"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818306060279); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818306060279",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "jensen2008",
+   "type": "work",
+   "label": "Jensen 2008",
+   "authors": "Nathan Jensen",
+   "year": 2008,
+   "journal": "JOP",
+   "title": "Political Risk, Democratic Institutions, and Foreign Direct Investment",
+   "claim": "Constraints on the executive lower the political risk that multinationals face, which is why democratic institutions attract foreign investment.",
+   "method": "Political risk insurance premiums and FDI across countries",
+   "themes": [
+    "fdi",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381608081048); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0022381608081048",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "kerner2009",
+   "type": "work",
+   "label": "Kerner 2009",
+   "authors": "Andrew Kerner",
+   "year": 2009,
+   "journal": "ISQ",
+   "title": "Why Should I Believe You? The Costs and Consequences of Bilateral Investment Treaties",
+   "claim": "BITs raise FDI both by binding the host and by signaling its type, so investors from non-signatory countries also respond to a new treaty.",
+   "method": "Dyadic and monadic panels of BITs and FDI flows",
+   "themes": [
+    "fdi",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1468-2478.2008.01524.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1468-2478.2008.01524.x",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "allee2011",
+   "type": "work",
+   "label": "Allee 2011",
+   "authors": "Todd Allee & Clint Peinhardt",
+   "year": 2011,
+   "journal": "IO",
+   "title": "Contingent Credibility: The Impact of Investment Treaty Violations on Foreign Direct Investment",
+   "claim": "BIT credibility is contingent: treaties attract FDI, but being taken to investment arbitration, and especially losing, cuts later inflows.",
+   "method": "Panel of BITs, ICSID claims and FDI inflows",
+   "themes": [
+    "fdi",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818311000099); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818311000099",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "simmons2014",
+   "type": "work",
+   "label": "Simmons 2013",
+   "authors": "Beth A. Simmons",
+   "year": 2013,
+   "journal": "World Politics",
+   "title": "Bargaining over BITs, Arbitrating Awards: The Regime for Protection and Promotion of International Investment",
+   "claim": "The investment regime is a set of asymmetric bilateral bargains in which capital-poor states traded regulatory sovereignty for credibility; the arbitration record those bargains produced now fuels contestation of the regime.",
+   "method": "Review and analysis of BIT terms and arbitration outcomes",
+   "themes": [
+    "fdi",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887113000312); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0043887113000312",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "poulsen2013",
+   "type": "work",
+   "label": "Poulsen 2013",
+   "authors": "Lauge N. Skovgaard Poulsen & Emma Aisbett",
+   "year": 2013,
+   "journal": "World Politics",
+   "title": "When the Claim Hits: Bilateral Investment Treaties and Bounded Rational Learning",
+   "claim": "Developing states signed BITs with bounded rationality, discounting their risks until a first arbitration claim hit them, after which they slowed signing sharply.",
+   "method": "Event-history analysis of BIT signing after first claims",
+   "themes": [
+    "fdi",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887113000063); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0043887113000063",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "thompson2019",
+   "type": "work",
+   "label": "Thompson 2019",
+   "authors": "Alexander Thompson, Tomer Broude & Yoram Z. Haftel",
+   "year": 2019,
+   "journal": "IO",
+   "title": "Once Bitten, Twice Shy? Investment Disputes, State Sovereignty, and Change in Treaty Design",
+   "claim": "States that have faced investor-state claims redesign their later treaties to reclaim regulatory space, narrowing investor protections.",
+   "method": "Text-based coding of investment treaty design over time",
+   "themes": [
+    "fdi",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818319000195); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818319000195",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "leblang2010",
+   "type": "work",
+   "label": "Leblang 2010",
+   "authors": "David Leblang",
+   "year": 2010,
+   "journal": "APSR",
+   "title": "Familiarity Breeds Investment: Diaspora Networks and International Investment",
+   "claim": "Diaspora networks lower information and transaction costs, so migrant stocks raise portfolio and direct investment toward their home countries.",
+   "method": "Dyadic cross-border investment data with migrant stocks",
+   "themes": [
+    "fdi",
+    "migration"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055410000201); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055410000201",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "malesky2008",
+   "type": "work",
+   "label": "Malesky 2008",
+   "authors": "Edmund J. Malesky",
+   "year": 2008,
+   "journal": "JOP",
+   "title": "Straight Ahead on Red: How Foreign Direct Investment Empowers Subnational Leaders",
+   "claim": "In Vietnam, provinces that attracted more FDI gained leverage over the center and pushed economic reforms ahead of national policy.",
+   "method": "Provincial panel data on FDI and policy innovation in Vietnam",
+   "themes": [
+    "fdi",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381607080085); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0022381607080085",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "biglaiser2011",
+   "type": "work",
+   "label": "Biglaiser 2011",
+   "authors": "Glen Biglaiser & David Lektzian",
+   "year": 2011,
+   "journal": "IO",
+   "title": "The Effect of Sanctions on U.S. Foreign Direct Investment",
+   "claim": "US sanctions reduce US firms' FDI in target states, and the effect lingers after sanctions end: sanctions cost the sender's own investors.",
+   "method": "Panel of US FDI into sanctioned and non-sanctioned states",
+   "themes": [
+    "weaponized",
+    "fdi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818311000117); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818311000117",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "babic2019",
+   "type": "work",
+   "label": "Babic 2019",
+   "authors": "Milan Babic, Javier Garcia-Bernardo & Eelke M. Heemskerk",
+   "year": 2019,
+   "journal": "Review of International Political Economy",
+   "title": "The rise of transnational state capital: state-led foreign investment in the 21st century",
+   "claim": "State-led foreign investment (SOEs and sovereign funds) has grown into a large share of global FDI, a structural shift that makes cross-border ownership a geopolitical question.",
+   "method": "Firm-level ownership network data on transnational state capital",
+   "themes": [
+    "geoecon",
+    "fdi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09692290.2019.1665084); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09692290.2019.1665084",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "chan2021",
+   "type": "work",
+   "label": "Chan 2021",
+   "authors": "Zenobia T. Chan & Sophie Meunier",
+   "year": 2021,
+   "journal": "Review of International Organizations",
+   "title": "Behind the screen: Understanding national support for a foreign investment screening mechanism in the European Union",
+   "claim": "EU member states' support for a common investment-screening mechanism followed their exposure to Chinese acquisitions in strategic sectors and their economic ideology; states courting Chinese capital resisted.",
+   "method": "Comparative analysis of member-state positions on the EU screening regulation",
+   "themes": [
+    "geoecon",
+    "fdi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11558-021-09436-y); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11558-021-09436-y",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "dur2014",
+   "type": "work",
+   "label": "Dür 2013",
+   "authors": "Andreas Dür, Leonardo Baccini & Manfred Elsig",
+   "year": 2013,
+   "journal": "Review of International Organizations",
+   "title": "The design of international trade agreements: Introducing a new dataset",
+   "claim": "Introduces the DESTA dataset coding the design of hundreds of PTAs and shows that deep agreements raise trade much more than shallow ones.",
+   "method": "New PTA design dataset with gravity models",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11558-013-9179-8); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11558-013-9179-8",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "busch2007",
+   "type": "work",
+   "label": "Busch 2007",
+   "authors": "Marc L. Busch",
+   "year": 2007,
+   "journal": "IO",
+   "title": "Overlapping Institutions, Forum Shopping, and Dispute Settlement in International Trade",
+   "claim": "States with overlapping trade institutions choose the forum strategically: they take disputes to the WTO when they want broad precedent and to PTA forums when they do not.",
+   "method": "Analysis of forum choice in trade disputes",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818307070257); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818307070257",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "busch2006",
+   "type": "work",
+   "label": "Busch 2006",
+   "authors": "Marc L. Busch & Eric Reinhardt",
+   "year": 2006,
+   "journal": "World Politics",
+   "title": "Three's a Crowd: Third Parties and WTO Dispute Settlement",
+   "claim": "Third-party participation in WTO disputes makes early settlement less likely, because more parties complicate concessions.",
+   "method": "WTO dispute data with third-party participation",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/wp.2007.0000); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/wp.2007.0000",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "davisbermeo2009",
+   "type": "work",
+   "label": "Davis 2009",
+   "authors": "Christina L. Davis & Sarah Blodgett Bermeo",
+   "year": 2009,
+   "journal": "JOP",
+   "title": "Who Files? Developing Country Participation in GATT/WTO Adjudication",
+   "claim": "Developing countries file WTO disputes once they have litigation experience: the fixed costs of legal capacity, not only trade stakes, decide who files.",
+   "method": "GATT/WTO dispute filing data for developing countries",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381609090860); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0022381609090860",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "mansfield2008",
+   "type": "work",
+   "label": "Mansfield 2008",
+   "authors": "Edward D. Mansfield & Eric Reinhardt",
+   "year": 2008,
+   "journal": "IO",
+   "title": "International Institutions and the Volatility of International Trade",
+   "claim": "GATT/WTO membership and PTAs make bilateral trade flows less volatile, an overlooked benefit that gives firms predictability.",
+   "method": "Dyadic trade volatility models",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818308080223); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818308080223",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "hopewell2014",
+   "type": "work",
+   "label": "Hopewell 2014",
+   "authors": "Kristen Hopewell",
+   "year": 2014,
+   "journal": "Review of International Political Economy",
+   "title": "Different paths to power: The rise of Brazil, India and China at the World Trade Organization",
+   "claim": "Brazil, India and China reached the WTO's inner circle by different routes (coalition leadership, blocking, market size), reshaping power in the trade regime.",
+   "method": "Interview-based comparative study of WTO negotiations",
+   "themes": [
+    "trade-inst",
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09692290.2014.927387); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09692290.2014.927387",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "daviswilf2017",
+   "type": "work",
+   "label": "Davis 2017",
+   "authors": "Christina L. Davis & Meredith Wilf",
+   "year": 2017,
+   "journal": "JOP",
+   "title": "Joining the Club: Accession to the GATT/WTO",
+   "claim": "Who joins the GATT/WTO depends more on geopolitical alignment than on trade gains: aligned states apply sooner and members ease entry for friends while delaying rivals.",
+   "method": "GATT archival data on applications and accessions 1948-2014, Cox models",
+   "themes": [
+    "trade-inst",
+    "trade-security"
+   ],
+   "source": "papers.json:CJ98DT2D",
+   "zotero": "https://www.zotero.org/georgeyean/items/CJ98DT2D",
+   "verified": "repo analysis (full text)",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "allee2012",
+   "type": "work",
+   "label": "Allee 2012",
+   "authors": "Todd Allee & Jamie E. Scalera",
+   "year": 2012,
+   "journal": "IO",
+   "title": "The Divergent Effects of Joining International Organizations: Trade Gains and the Rigors of WTO Accession",
+   "claim": "Gains from joining the WTO depend on how demanding accession was: rigorous accessions force liberalization that produces trade gains, while automatic joiners see none.",
+   "method": "Original accession data for every GATT/WTO member, country-year panel 1950-2006",
+   "themes": [
+    "trade-inst"
+   ],
+   "source": "papers.json:3R79K5MR",
+   "zotero": "https://www.zotero.org/georgeyean/items/3R79K5MR",
+   "verified": "repo analysis (full text)",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "allee2019",
+   "type": "work",
+   "label": "Allee 2019",
+   "authors": "Todd Allee & Manfred Elsig",
+   "year": 2019,
+   "journal": "ISQ",
+   "title": "Are the Contents of International Treaties Copied and Pasted? Evidence from Preferential Trade Agreements",
+   "claim": "Much PTA text is copied from earlier agreements, mostly from each country's own templates, so treaty design is path dependent and template-driven.",
+   "method": "Text-similarity analysis of PTA texts",
+   "themes": [
+    "trade-inst",
+    "diffusion"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqz029); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/isq/sqz029",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "zangl2016",
+   "type": "work",
+   "label": "Zangl 2016",
+   "authors": "Bernhard Zangl, Frederick Heußner, Andreas Kruck & Xenia Lanzendörfer",
+   "year": 2016,
+   "journal": "Review of International Organizations",
+   "title": "Imperfect adaptation: how the WTO and the IMF adjust to shifting power distributions among their members",
+   "claim": "The WTO and IMF adjusted imperfectly to rising powers: the WTO informally, by bringing them into core negotiating groups, and the IMF formally but slowly through quota reform.",
+   "method": "Comparative case study of WTO and IMF adaptation",
+   "themes": [
+    "trade-inst",
+    "ifi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11558-016-9246-z); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11558-016-9246-z",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "weinhardt2019",
+   "type": "work",
+   "label": "Weinhardt 2019",
+   "authors": "Clara Weinhardt & Tobias ten Brink",
+   "year": 2019,
+   "journal": "Review of International Political Economy",
+   "title": "Varieties of contestation: China’s rise and the liberal trade order",
+   "claim": "China contests the liberal trade order selectively, backing liberal rules that serve it while resisting rules that would constrain its state-led development.",
+   "method": "Qualitative analysis of Chinese positions in trade governance",
+   "themes": [
+    "china-order",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09692290.2019.1699145); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09692290.2019.1699145",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "margalit2012",
+   "type": "work",
+   "label": "Margalit 2012",
+   "authors": "Yotam Margalit",
+   "year": 2012,
+   "journal": "ISQ",
+   "title": "Lost in Globalization: International Economic Integration and the Sources of Popular Discontent1",
+   "claim": "Discontent with globalization reflects both economic insecurity and cultural concerns, with perceived rather than measured exposure doing much of the work.",
+   "method": "Survey analysis of attitudes toward globalization",
+   "themes": [
+    "trade-prefs",
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1468-2478.2012.00747.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1468-2478.2012.00747.x",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "hiscox2006",
+   "type": "work",
+   "label": "Hiscox 2006",
+   "authors": "Michael J. Hiscox",
+   "year": 2006,
+   "journal": "IO",
+   "title": "Through a Glass and Darkly: Attitudes Toward International Trade and the Curious Effects of Issue Framing",
+   "claim": "Trade support is highly sensitive to framing: anti-trade frames cut support sharply, especially among less educated respondents.",
+   "method": "Survey framing experiment in the US",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818306060255); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818306060255",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "milnertingley2011",
+   "type": "work",
+   "label": "Milner 2011",
+   "authors": "Helen V. Milner & Dustin H. Tingley",
+   "year": 2011,
+   "journal": "IO",
+   "title": "Who Supports Global Economic Engagement? The Sources of Preferences in American Foreign Economic Policy",
+   "claim": "Support for different foreign economic instruments has distinct sources: material interests matter more for trade and immigration, ideology more for foreign aid.",
+   "method": "US survey data across trade, immigration and aid",
+   "themes": [
+    "trade-prefs",
+    "aid"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818310000317); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818310000317",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "guisinger2009",
+   "type": "work",
+   "label": "Guisinger 2009",
+   "authors": "Alexandra Guisinger",
+   "year": 2009,
+   "journal": "IO",
+   "title": "Determining Trade Policy: Do Voters Hold Politicians Accountable?",
+   "claim": "Few voters know how their representatives vote on trade and trade is rarely salient, so electoral accountability for trade policy is weak.",
+   "method": "US survey data on knowledge and salience of trade votes",
+   "themes": [
+    "trade-prefs",
+    "trade-inst"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818309090183); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818309090183",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "mutzkim2017",
+   "type": "work",
+   "label": "Mutz 2017",
+   "authors": "Diana C. Mutz & Eunji Kim",
+   "year": 2017,
+   "journal": "IO",
+   "title": "The Impact of In-group Favoritism on Trade Preferences",
+   "claim": "Americans favor trade policies that help the US relative to other countries, even at an absolute cost: in-group favoritism and relative-gains thinking shape trade attitudes.",
+   "method": "Survey experiments varying the distribution of gains",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818317000327); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818317000327",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "fordham2012",
+   "type": "work",
+   "label": "Fordham 2012",
+   "authors": "Benjamin O. Fordham & Katja B. Kleinberg",
+   "year": 2012,
+   "journal": "IO",
+   "title": "How Can Economic Interests Influence Support for Free Trade?",
+   "claim": "Economic interests shape trade preferences mainly through social context such as household and community, not individual occupation alone.",
+   "method": "Survey analysis of interest measures at several levels",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818312000057); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818312000057",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "brutger2021",
+   "type": "work",
+   "label": "Brutger 2021",
+   "authors": "Ryan Brutger & Brian Rathbun",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Fair Share? Equality and Equity in American Attitudes Toward Trade",
+   "claim": "Americans judge trade deals by fairness, rejecting agreements in which the partner gains more even when the US gains too.",
+   "method": "Survey experiments on the distribution of gains",
+   "themes": [
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818321000084); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818321000084",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "feigenbaum2015",
+   "type": "work",
+   "label": "Feigenbaum 2015",
+   "authors": "James J. Feigenbaum & Andrew B. Hall",
+   "year": 2015,
+   "journal": "JOP",
+   "title": "How Legislators Respond to Localized Economic Shocks: Evidence from Chinese Import Competition",
+   "claim": "Legislators from districts hit harder by Chinese import competition vote more protectionist on trade bills, without moving on other issues.",
+   "method": "China-shock exposure and US House roll-call votes",
+   "themes": [
+    "backlash",
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/682151); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1086/682151",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "scheiring2024",
+   "type": "work",
+   "label": "Scheiring 2024",
+   "authors": "Gábor Scheiring, Manuel Serrano-Alarcón, Alexandru Moise et al.",
+   "year": 2024,
+   "journal": "BJPS",
+   "title": "The Populist Backlash Against Globalization: A Meta-Analysis of the Causal Evidence",
+   "claim": "A meta-analysis of causal studies finds globalization shocks raise populist and nationalist support; the pooled effect is robust but modest and concentrated in right-wing outcomes.",
+   "method": "Meta-analysis of quasi-experimental studies",
+   "themes": [
+    "backlash"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123424000024); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0007123424000024",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "osgood2017jop",
+   "type": "work",
+   "label": "Osgood 2017",
+   "authors": "Iain Osgood, Dustin Tingley, Thomas Bernauer et al.",
+   "year": 2017,
+   "journal": "JOP",
+   "title": "The Charmed Life of Superstar Exporters: Survey Evidence on Firms and Trade Policy",
+   "claim": "Large, productive exporters and importers are the firms most supportive of trade liberalization, matching heterogeneous-firm theory.",
+   "method": "Firm surveys in developing countries",
+   "themes": [
+    "firms-gvc"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/687207); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1086/687207",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "jensen2015",
+   "type": "work",
+   "label": "Jensen 2015",
+   "authors": "J. Bradford Jensen, Dennis P. Quinn & Stephen Weymouth",
+   "year": 2015,
+   "journal": "IO",
+   "title": "The Influence of Firm Global Supply Chains and Foreign Currency Undervaluations on US Trade Disputes",
+   "claim": "US industries whose imports run through their own multinational supply chains file fewer trade-remedy petitions, while currency undervaluation by partners raises filings.",
+   "method": "Industry-level antidumping petitions with related-party trade and exchange-rate data",
+   "themes": [
+    "firms-gvc",
+    "money-finance"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818315000247); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818315000247",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "meckling2017",
+   "type": "work",
+   "label": "Meckling 2017",
+   "authors": "Jonas Meckling & Llewelyn Hughes",
+   "year": 2017,
+   "journal": "ISQ",
+   "title": "Globalizing Solar: Global Supply Chains and Trade Preferences",
+   "claim": "In solar, a firm's position in the global supply chain predicts its stance on trade protection: upstream manufacturers seek tariffs while downstream installers oppose them.",
+   "method": "Case study of US and EU solar trade disputes",
+   "themes": [
+    "firms-gvc",
+    "geoecon"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqw055); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/isq/sqw055",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "malhotra2013",
+   "type": "work",
+   "label": "Malhotra 2013",
+   "authors": "Neil Malhotra, Yotam Margalit & Cecilia Hyunjung Mo",
+   "year": 2013,
+   "journal": "AJPS",
+   "title": "Economic Explanations for Opposition to Immigration: Distinguishing between Prevalence and Conditional Impact",
+   "claim": "Labor-market threat drives opposition to high-skilled immigration among the small group of tech workers who compete directly, even if the average effect looks small.",
+   "method": "US survey with occupation-specific exposure to H-1B immigration",
+   "themes": [
+    "migration"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12012); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/ajps.12012",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "dancygier2013",
+   "type": "work",
+   "label": "Dancygier 2013",
+   "authors": "Rafaela M. Dancygier & Michael J. Donnelly",
+   "year": 2013,
+   "journal": "JOP",
+   "title": "Sectoral Economies, Economic Contexts, and Attitudes toward Immigration",
+   "claim": "Sectoral conditions shape immigration attitudes: workers in growing sectors are more open to immigration than those in declining ones.",
+   "method": "Cross-national survey data linked to sectoral employment trends",
+   "themes": [
+    "migration",
+    "trade-prefs"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381612000849); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0022381612000849",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "kentikelenis2016",
+   "type": "work",
+   "label": "Kentikelenis 2016",
+   "authors": "Alexander E. Kentikelenis, Thomas H. Stubbs & Lawrence P. King",
+   "year": 2016,
+   "journal": "Review of International Political Economy",
+   "title": "IMF conditionality and development policy space, 1985–2014",
+   "claim": "A new dataset of IMF conditions from 1985 to 2014 shows conditionality did not fall after the 2000s reforms; structural conditions stayed pervasive and kept narrowing borrowers' policy space.",
+   "method": "Original coding of IMF loan conditions",
+   "themes": [
+    "ifi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09692290.2016.1174953); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09692290.2016.1174953",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "nooruddin2006",
+   "type": "work",
+   "label": "Nooruddin 2006",
+   "authors": "Irfan Nooruddin & Joel W. Simmons",
+   "year": 2006,
+   "journal": "IO",
+   "title": "The Politics of Hard Choices: IMF Programs and Government Spending",
+   "claim": "IMF programs bring cuts in government spending, but democracies protect social spending more than dictatorships do.",
+   "method": "Panel of IMF programs and spending composition",
+   "themes": [
+    "ifi",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818306060334); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818306060334",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "chwieroth2007",
+   "type": "work",
+   "label": "Chwieroth 2007",
+   "authors": "Jeffrey Chwieroth",
+   "year": 2007,
+   "journal": "IO",
+   "title": "Neoliberal Economists and Capital Account Liberalization in Emerging Markets",
+   "claim": "Emerging markets liberalized capital accounts faster when economists trained in neoliberal programs held key policy posts.",
+   "method": "Panel with data on policymakers' training",
+   "themes": [
+    "money-finance",
+    "ifi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818307070154); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818307070154",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "chwieroth2013",
+   "type": "work",
+   "label": "Chwieroth 2012",
+   "authors": "Jeffrey M. Chwieroth",
+   "year": 2012,
+   "journal": "Review of International Organizations",
+   "title": "“The silent revolution:” How the staff exercise informal governance over IMF lending",
+   "claim": "IMF staff exercise informal governance over lending: staff beliefs shaped conditionality in ways shareholders did not direct.",
+   "method": "Analysis of IMF lending decisions and staff composition",
+   "themes": [
+    "ifi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11558-012-9154-9); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11558-012-9154-9",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "bodea2015io",
+   "type": "work",
+   "label": "Bodea 2014",
+   "authors": "Cristina Bodea & Raymond Hicks",
+   "year": 2014,
+   "journal": "IO",
+   "title": "Price Stability and Central Bank Independence: Discipline, Credibility, and Democratic Institutions",
+   "claim": "Central bank independence lowers inflation, and does so more where democratic institutions make independence credible.",
+   "method": "Cross-national panel with a new CBI measure",
+   "themes": [
+    "money-finance",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818314000277); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818314000277",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "beaulieu2012",
+   "type": "work",
+   "label": "Beaulieu 2012",
+   "authors": "Emily Beaulieu, Gary W. Cox & Sebastian Saiegh",
+   "year": 2012,
+   "journal": "IO",
+   "title": "Sovereign Debt and Regime Type: Reconsidering the Democratic Advantage",
+   "claim": "Once one accounts for which states can borrow at all, democracies' advantage shows up mainly in access to sovereign credit rather than in lower borrowing costs.",
+   "method": "Selection models of sovereign credit access and terms",
+   "themes": [
+    "money-finance",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818312000288); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818312000288",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "ballardrosa2019",
+   "type": "work",
+   "label": "Ballard-Rosa 2019",
+   "authors": "Cameron Ballard-Rosa, Layna Mosley & Rachel L Wellhausen",
+   "year": 2019,
+   "journal": "BJPS",
+   "title": "Contingent Advantage? Sovereign Borrowing, Democratic Institutions and Global Capital Cycles",
+   "claim": "Democracies' advantage in sovereign borrowing costs depends on global capital cycles: it appears when global liquidity is tight and fades in booms.",
+   "method": "Panel of sovereign bond spreads across global liquidity conditions",
+   "themes": [
+    "money-finance",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123418000455); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0007123418000455",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "singer2010",
+   "type": "work",
+   "label": "Singer 2010",
+   "authors": "David Andrew Singer",
+   "year": 2010,
+   "journal": "APSR",
+   "title": "Migrant Remittances and Exchange Rate Regimes in the Developing World",
+   "claim": "Countries with large remittance inflows more often fix their exchange rates, because countercyclical remittances lower the cost of giving up monetary autonomy.",
+   "method": "Cross-national panel of exchange-rate regimes and remittances",
+   "themes": [
+    "money-finance",
+    "migration"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055410000110); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055410000110",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "nelson2014ik",
+   "type": "work",
+   "label": "Nelson 2014",
+   "authors": "Stephen C. Nelson & Peter J. Katzenstein",
+   "year": 2014,
+   "journal": "IO",
+   "title": "Uncertainty, Risk, and the Financial Crisis of 2008",
+   "claim": "The 2008 crisis reflected Knightian uncertainty that models treated as calculable risk; markets run on social conventions that IPE must study.",
+   "method": "Theoretical essay",
+   "themes": [
+    "money-finance",
+    "ipe-theory"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818313000416); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818313000416",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "caraway2012",
+   "type": "work",
+   "label": "Caraway 2012",
+   "authors": "Teri L. Caraway, Stephanie J. Rickard & Mark S. Anner",
+   "year": 2012,
+   "journal": "IO",
+   "title": "International Negotiations and Domestic Politics: The Case of IMF Labor Market Conditionality",
+   "claim": "Governments facing structurally powerful labor bargain for less intrusive IMF labor-market conditions, especially in democracies.",
+   "method": "IMF letters of intent for ~120 countries 1980-2000, negative binomial models",
+   "themes": [
+    "ifi",
+    "compensation"
+   ],
+   "source": "papers.json:CWTWPWXJ",
+   "zotero": "https://www.zotero.org/georgeyean/items/CWTWPWXJ",
+   "verified": "repo analysis (full text)",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "clark2021pool",
+   "type": "work",
+   "label": "Clark 2021",
+   "authors": "Richard Clark",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Pool or Duel? Cooperation and Competition Among International Organizations",
+   "claim": "Overlapping development IOs pool resources rather than compete when their leading shareholders are geopolitically aligned, because staff anticipate the dominant member's preferences.",
+   "method": "IO-dyad co-financing data plus an elite survey experiment",
+   "themes": [
+    "ifi",
+    "hegemony"
+   ],
+   "source": "papers.json:HSRT4S4J",
+   "zotero": "https://www.zotero.org/georgeyean/items/HSRT4S4J",
+   "verified": "repo analysis (full text)",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "wilf2016",
+   "type": "work",
+   "label": "Wilf 2016",
+   "authors": "Meredith Wilf",
+   "year": 2016,
+   "journal": "IO",
+   "title": "Credibility and Distributional Effects of International Banking Regulations: Evidence from US Bank Stock Returns",
+   "claim": "Nonbinding Basel III standards moved US bank stocks, so transgovernmental agreements can be credible and distributional even without enforcement.",
+   "method": "Event study of Basel III announcements on bank stock returns",
+   "themes": [
+    "diffusion",
+    "money-finance"
+   ],
+   "source": "papers.json:QVX3BIAP",
+   "zotero": "https://www.zotero.org/georgeyean/items/QVX3BIAP",
+   "verified": "repo analysis (full text)",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "wood2008",
+   "type": "work",
+   "label": "Wood 2008",
+   "authors": "Reed M. Wood",
+   "year": 2008,
+   "journal": "ISQ",
+   "title": "“A Hand upon the Throat of the Nation”: Economic Sanctions and State Repression, 1976-2001",
+   "claim": "Economic sanctions increase state repression in targets, as regimes crack down amid hardship; multilateral and UN sanctions have the largest effect.",
+   "method": "Cross-national panel 1976-2001",
+   "themes": [
+    "weaponized",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1468-2478.2008.00512.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1468-2478.2008.00512.x",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "mclean2010",
+   "type": "work",
+   "label": "McLean 2010",
+   "authors": "Elena V. McLean & Taehee Whang",
+   "year": 2010,
+   "journal": "ISQ",
+   "title": "Friends or Foes? Major Trading Partners and the Success of Economic Sanctions",
+   "claim": "Sanctions succeed more often when imposed by the target's major trading partners, because trade dependence gives them leverage.",
+   "method": "Sanctions-case outcomes with trade dependence",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1468-2478.2010.00594.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1468-2478.2010.00594.x",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "whang2011",
+   "type": "work",
+   "label": "Whang 2011",
+   "authors": "Taehee Whang",
+   "year": 2011,
+   "journal": "ISQ",
+   "title": "Playing to the Home Crowd? Symbolic Use of Economic Sanctions in the United States1",
+   "claim": "US presidents use sanctions symbolically: imposing them raises presidential approval even when they do not change the target's behavior.",
+   "method": "Time series of sanctions and presidential approval",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1468-2478.2011.00668.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1468-2478.2011.00668.x",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "barry2015",
+   "type": "work",
+   "label": "Barry 2015",
+   "authors": "Colin M. Barry & Katja B. Kleinberg",
+   "year": 2015,
+   "journal": "IO",
+   "title": "Profiting from Sanctions: Economic Coercion and US Foreign Direct Investment in Third-Party States",
+   "claim": "US firms redirect FDI toward third-party states that keep trading with sanctioned targets, profiting from the sanctions their own government imposes.",
+   "method": "Panel of US FDI into third-party states",
+   "themes": [
+    "weaponized",
+    "fdi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s002081831500017x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s002081831500017x",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "chenevers2023",
+   "type": "work",
+   "label": "Chen 2023",
+   "authors": "Ling S. Chen & Miles M. Evers",
+   "year": 2023,
+   "journal": "International Security",
+   "title": "“Wars without Gun Smoke”: Global Supply Chains, Power Transitions, and Economic Statecraft",
+   "claim": "In power transitions the incumbent turns supply-chain chokepoints against the challenger; its success depends on the challenger's dependence on the incumbent's technology networks.",
+   "method": "Theory with historical and US-China case evidence",
+   "themes": [
+    "weaponized",
+    "geoecon"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00473); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec_a_00473",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "drezner2009",
+   "type": "work",
+   "label": "Drezner 2009",
+   "authors": "Daniel W. Drezner",
+   "year": 2009,
+   "journal": "International Security",
+   "title": "Bad Debts: Assessing China's Financial Influence in Great Power Politics",
+   "claim": "China's holdings of US debt give it far less coercive leverage than feared, because mutual financial vulnerability lets China deter but not compel.",
+   "method": "Analytical essay with historical cases of financial statecraft",
+   "themes": [
+    "money-finance",
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.2009.34.2.7); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec.2009.34.2.7",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "malkin2020",
+   "type": "work",
+   "label": "Malkin 2020",
+   "authors": "Anton Malkin",
+   "year": 2020,
+   "journal": "Review of International Political Economy",
+   "title": "The made in China challenge to US structural power: industrial policy, intellectual property and multinational corporations",
+   "claim": "Made in China 2025 challenges US structural power by contesting control over intellectual property and multinational-centered production networks.",
+   "method": "Qualitative analysis of industrial policy and IP regimes",
+   "themes": [
+    "geoecon",
+    "hegemony",
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09692290.2020.1824930); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09692290.2020.1824930",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "greenhill2009",
+   "type": "work",
+   "label": "Greenhill 2009",
+   "authors": "Brian Greenhill, Layna Mosley & Aseem Prakash",
+   "year": 2009,
+   "journal": "APSR",
+   "title": "Trade-based Diffusion of Labor Rights: A Panel Study, 1986–2002",
+   "claim": "Labor rights diffuse through trade: countries' labor practices move toward those of their export markets, a trading-up effect.",
+   "method": "Panel of labor rights with trade-weighted spatial lags 1986-2002",
+   "themes": [
+    "diffusion",
+    "firms-gvc"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055409990116); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055409990116",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "prakash2006",
+   "type": "work",
+   "label": "Prakash 2006",
+   "authors": "Aseem Prakash & Matthew Potoski",
+   "year": 2006,
+   "journal": "AJPS",
+   "title": "Racing to the Bottom? Trade, Environmental Governance, and ISO 14001",
+   "claim": "Countries adopt the ISO 14001 environmental standard when their export markets have adopted it, a race to the top rather than the bottom.",
+   "method": "Cross-national panel of ISO 14001 adoption",
+   "themes": [
+    "diffusion"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2006.00188.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1540-5907.2006.00188.x",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "bdm2009",
+   "type": "work",
+   "label": "Bueno de Mesquita 2009",
+   "authors": "Bruce Bueno de Mesquita & Alastair Smith",
+   "year": 2009,
+   "journal": "IO",
+   "title": "A Political Economy of Aid",
+   "claim": "Aid buys policy concessions: donors give aid to recipient leaders with small winning coalitions, for whom concessions are cheap to deliver.",
+   "method": "Selectorate model with cross-national aid data",
+   "themes": [
+    "aid",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818309090109); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818309090109",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "ahmed2012",
+   "type": "work",
+   "label": "Ahmed 2012",
+   "authors": "Faisal Z. Ahmed",
+   "year": 2012,
+   "journal": "APSR",
+   "title": "The Perils of Unearned Foreign Income: Aid, Remittances, and Government Survival",
+   "claim": "Unearned foreign income such as aid and remittances lets autocrats fund patronage, lowering their risk of losing power.",
+   "method": "Cross-national panel with instruments for aid and remittances",
+   "themes": [
+    "aid",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055411000475); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055411000475",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "dietrich2013",
+   "type": "work",
+   "label": "Dietrich 2013",
+   "authors": "Simone Dietrich",
+   "year": 2013,
+   "journal": "ISQ",
+   "title": "Bypass or Engage? Explaining Donor Delivery Tactics in Foreign Aid Allocation*",
+   "claim": "Donors bypass poorly governed recipient governments by channeling aid through NGOs rather than the state.",
+   "method": "Donor-recipient aid delivery data",
+   "themes": [
+    "aid"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/isqu.12041); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/isqu.12041",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "wright2009",
+   "type": "work",
+   "label": "Wright 2009",
+   "authors": "Joseph Wright",
+   "year": 2009,
+   "journal": "AJPS",
+   "title": "How Foreign Aid Can Foster Democratization in Authoritarian Regimes",
+   "claim": "Aid conditioned on democratization works when autocrats expect to stay competitive after a transition; elsewhere aid helps entrench them.",
+   "method": "Cross-national panel of aid and democratization in autocracies",
+   "themes": [
+    "aid",
+    "regime"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2009.00386.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1540-5907.2009.00386.x",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "bermeo2017",
+   "type": "work",
+   "label": "Bermeo 2017",
+   "authors": "Sarah Blodgett Bermeo",
+   "year": 2017,
+   "journal": "IO",
+   "title": "Aid Allocation and Targeted Development in an Increasingly Connected World",
+   "claim": "In an interconnected world, donors target development aid at places whose problems spill over to them (migration, conflict, disease).",
+   "method": "Panel of aid allocation with spillover proxies",
+   "themes": [
+    "aid"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818317000315); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818317000315",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "dreher2018",
+   "type": "work",
+   "label": "Dreher 2018",
+   "authors": "Axel Dreher, Andreas Fuchs, Brad Parks et al.",
+   "year": 2018,
+   "journal": "ISQ",
+   "title": "Apples and Dragon Fruits: The Determinants of Aid and Other Forms of State Financing from China to Africa",
+   "claim": "Chinese aid to Africa follows foreign-policy alignment such as UN voting and Taiwan recognition, while its commercial lending follows economic interests.",
+   "method": "New data on Chinese official finance to Africa",
+   "themes": [
+    "aid",
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqx052); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/isq/sqx052",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "blair2021",
+   "type": "work",
+   "label": "Blair 2021",
+   "authors": "Robert A. Blair, Robert Marty & Philip Roessler",
+   "year": 2021,
+   "journal": "BJPS",
+   "title": "Foreign Aid and Soft Power: Great Power Competition in Africa in the Early Twenty-first Century",
+   "claim": "US aid improves African publics' views of the US, while Chinese development finance yields weaker soft-power gains for China.",
+   "method": "Survey data linked to geocoded aid projects",
+   "themes": [
+    "aid",
+    "china-order"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123421000193); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0007123421000193",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "kilby2006",
+   "type": "work",
+   "label": "Kilby 2006",
+   "authors": "Christopher Kilby",
+   "year": 2006,
+   "journal": "Review of International Organizations",
+   "title": "Donor influence in multilateral development banks: The case of the Asian Development Bank",
+   "claim": "Major donors' interests, especially Japan's, shape Asian Development Bank lending, extending informal-governance findings to regional development banks.",
+   "method": "Panel of ADB lending decisions",
+   "themes": [
+    "aid",
+    "ifi"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11558-006-8343-9); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11558-006-8343-9",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "adlernissen2021",
+   "type": "work",
+   "label": "Adler-Nissen 2021",
+   "authors": "Rebecca Adler-Nissen & Ayşe Zarakol",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Struggles for Recognition: The Liberal International Order and the Merger of Its Discontents",
+   "claim": "Discontent with the liberal order is a struggle for recognition more than economic grievance: core populists resent lost status and semiperipheral autocrats resent unmet equality, and the two strains now reinforce each other.",
+   "method": "Theoretical and historical-sociological essay",
+   "themes": [
+    "china-order",
+    "backlash"
+   ],
+   "source": "papers.json:WMRWGFAV",
+   "zotero": "https://www.zotero.org/georgeyean/items/WMRWGFAV",
+   "verified": "repo analysis (full text; not an empirical study)",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "mattingly2025",
+   "type": "work",
+   "label": "Mattingly 2025",
+   "authors": "Daniel C. Mattingly et al.",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "Chinese state media persuades a global audience that the “China model” is superior: Evidence from a 19‐country experiment",
+   "claim": "Chinese state media persuades global audiences that the China model delivers growth and competent governance, raising support for it relative to the US model.",
+   "method": "Content data on 20,000 state-media videos and a 19-country survey experiment",
+   "themes": [
+    "china-order"
+   ],
+   "source": "papers.json:AI3MBQ9K",
+   "zotero": "https://www.zotero.org/georgeyean/items/AI3MBQ9K",
+   "verified": "repo analysis (full text)",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "helleiner2024",
+   "type": "work",
+   "label": "Helleiner 2024",
+   "authors": "Eric Helleiner",
+   "year": 2024,
+   "journal": "ISQ",
+   "title": "Economic Globalization's Polycrisis",
+   "claim": "Economic globalization faces a polycrisis of interacting geopolitical, ecological, distributional and health shocks, which IPE should study together.",
+   "method": "Conceptual essay",
+   "themes": [
+    "ipe-theory",
+    "geoecon"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqae024); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/isq/sqae024",
+   "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "carter2019",
+   "type": "work",
+   "label": "Carter 2019",
+   "authors": "David B. Carter & Paul Poast",
+   "year": 2019,
+   "journal": "IO",
+   "title": "Barriers to Trade: How Border Walls Affect Trade Relations",
+   "claim": "Border walls substantially reduce trade between neighboring states.",
+   "method": "Dyadic gravity models with border-wall data",
+   "themes": [
+    "trade-security",
+    "migration"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818319000353); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818319000353",
+   "added": "coverage audit 2026-10-28"
   }
  ]
 }
