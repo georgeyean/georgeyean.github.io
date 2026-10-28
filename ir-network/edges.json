@@ -1,0 +1,3688 @@
+{
+ "meta": {
+  "title": "International Relations knowledge network, c. 1977-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in general International Relations: cooperation and institutions, law and compliance, human rights, norms, legitimacy, regime complexity, order and hierarchy, public opinion and climate. Seeds come from this repo's papers.json; works shared with the IPE and security maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref plus anchoring classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 218,
+   "theme_nodes": 17,
+   "seed_from_papers_json": 102,
+   "crossref_top_cited": 92,
+   "anchors_supplement": 24,
+   "relation_edges": 237,
+   "membership_edges": 373
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the IPE and security maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "keohane1984",
+   "target": "keohanenye1977",
+   "type": "builds_on",
+   "why": "Regime theory grows out of complex interdependence."
+  },
+  {
+   "source": "keohane1984",
+   "target": "axelrod1981",
+   "type": "builds_on",
+   "why": "Reciprocity and the shadow of the future explain regime maintenance."
+  },
+  {
+   "source": "keohane1984",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Institutions sustain cooperation after hegemony, against structural realism."
+  },
+  {
+   "source": "keohane1984",
+   "target": "krasner1982a",
+   "type": "builds_on",
+   "why": "Functional theory of why regimes exist."
+  },
+  {
+   "source": "mearsheimer1994",
+   "target": "keohane1984",
+   "type": "challenges",
+   "why": "Institutions have little independent effect on behavior."
+  },
+  {
+   "source": "moravcsik1997",
+   "target": "keohane1984",
+   "type": "challenges",
+   "why": "Preferences, not institutions, drive outcomes."
+  },
+  {
+   "source": "moravcsik1997",
+   "target": "gourevitch1978",
+   "type": "builds_on",
+   "why": "Domestic sources of state preferences."
+  },
+  {
+   "source": "wendt1992",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Anarchy is what states make of it."
+  },
+  {
+   "source": "wendt1999",
+   "target": "wendt1992",
+   "type": "builds_on",
+   "why": "Systematic social theory of cultures of anarchy."
+  },
+  {
+   "source": "barnettduvall2005",
+   "target": "keohanenye1977",
+   "type": "qualifies",
+   "why": "Power has institutional, structural and productive forms beyond compulsory power."
+  },
+  {
+   "source": "acharya2014",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "IR theory generalizes from Western history."
+  },
+  {
+   "source": "owens2018",
+   "target": "acharya2014",
+   "type": "synthesizes",
+   "why": "Both recover voices excluded from the IR canon."
+  },
+  {
+   "source": "maliniak2013",
+   "target": "owens2018",
+   "type": "synthesizes",
+   "why": "Gender gaps in IR's citations and canon (Maliniak predates)."
+  },
+  {
+   "source": "hbnetwork2009",
+   "target": "keohanenye1977",
+   "type": "builds_on",
+   "why": "Network position as a source of power in interdependence."
+  },
+  {
+   "source": "fioretos2011",
+   "target": "krasner1982b",
+   "type": "builds_on",
+   "why": "Lags and feedback formalized as path dependence."
+  },
+  {
+   "source": "hb2017behavioral",
+   "target": "mercer2005",
+   "type": "builds_on",
+   "why": "Behavioral findings as foundations of strategic models."
+  },
+  {
+   "source": "drezner2020",
+   "target": "lake2021",
+   "type": "synthesizes",
+   "why": "COVID and the order's existing trends."
+  },
+  {
+   "source": "mercer2005",
+   "target": "keohane1984",
+   "type": "qualifies",
+   "why": "Rational models of trust and reputation rest on psychology."
+  },
+  {
+   "source": "krasner1982b",
+   "target": "krasner1982a",
+   "type": "builds_on",
+   "why": "Regimes become autonomous variables."
+  },
+  {
+   "source": "ruggie1982",
+   "target": "krasner1982a",
+   "type": "qualifies",
+   "why": "Regimes fuse power with social purpose."
+  },
+  {
+   "source": "martin1992",
+   "target": "keohane1984",
+   "type": "builds_on",
+   "why": "Institutional forms vary with strategic problems."
+  },
+  {
+   "source": "fearon1998",
+   "target": "axelrod1981",
+   "type": "challenges",
+   "why": "The shadow of the future also makes bargaining harder."
+  },
+  {
+   "source": "fearon1998",
+   "target": "martin1992",
+   "type": "challenges",
+   "why": "Cooperation problems share one bargaining-enforcement structure."
+  },
+  {
+   "source": "lipson1984",
+   "target": "axelrod1981",
+   "type": "builds_on",
+   "why": "Cooperation theory applied across issue areas."
+  },
+  {
+   "source": "kinne2013",
+   "target": "axelrod1981",
+   "type": "builds_on",
+   "why": "Cooperation spreads through network ties."
+  },
+  {
+   "source": "tallberg2010",
+   "target": "martin1992",
+   "type": "builds_on",
+   "why": "Procedural power inside cooperation."
+  },
+  {
+   "source": "fazal2020",
+   "target": "martin1992",
+   "type": "extends_to_new_case",
+   "why": "Cooperation forms applied to health diplomacy."
+  },
+  {
+   "source": "colgan2014",
+   "target": "krasner1982b",
+   "type": "builds_on",
+   "why": "Institutions persist as rational myths when members benefit politically."
+  },
+  {
+   "source": "koremenos2001",
+   "target": "keohane1984",
+   "type": "builds_on",
+   "why": "Rational design of the institutions regime theory explained."
+  },
+  {
+   "source": "koremenos2001",
+   "target": "martin1992",
+   "type": "builds_on",
+   "why": "Design follows cooperation problems."
+  },
+  {
+   "source": "wendt2001",
+   "target": "koremenos2001",
+   "type": "challenges",
+   "why": "Rational design is untested against alternatives."
+  },
+  {
+   "source": "abbott2000",
+   "target": "keohane2000",
+   "type": "synthesizes",
+   "why": "Companion legalization framework (same special issue)."
+  },
+  {
+   "source": "abbottsnidal2000",
+   "target": "abbott2000",
+   "type": "builds_on",
+   "why": "Why states choose softer forms of legalization."
+  },
+  {
+   "source": "hawkins2006",
+   "target": "nielson2003",
+   "type": "builds_on",
+   "why": "Principal-agent theory generalized."
+  },
+  {
+   "source": "nielson2003",
+   "target": "koremenos2001",
+   "type": "builds_on",
+   "why": "Delegation and control of IO agents."
+  },
+  {
+   "source": "downs1998",
+   "target": "downs1996",
+   "type": "builds_on",
+   "why": "Sequential membership softens the breadth-depth trade-off."
+  },
+  {
+   "source": "dai2002",
+   "target": "koremenos2001",
+   "type": "builds_on",
+   "why": "Monitoring design follows victims' incentives."
+  },
+  {
+   "source": "mitchell1994",
+   "target": "chayes1993",
+   "type": "qualifies",
+   "why": "Design of compliance systems decides outcomes."
+  },
+  {
+   "source": "hooghemarks2015",
+   "target": "hawkins2006",
+   "type": "builds_on",
+   "why": "Distinguishes delegation from pooling."
+  },
+  {
+   "source": "vabulas2013",
+   "target": "abbottsnidal2000",
+   "type": "builds_on",
+   "why": "Informality as a design choice."
+  },
+  {
+   "source": "haftel2006",
+   "target": "koremenos2001",
+   "type": "builds_on",
+   "why": "Measures IO independence."
+  },
+  {
+   "source": "rosendorff2001",
+   "target": "koremenos2001",
+   "type": "synthesizes",
+   "why": "Flexibility design under uncertainty (same special issue)."
+  },
+  {
+   "source": "kucik2008",
+   "target": "rosendorff2001",
+   "type": "mechanism_tested_by",
+   "why": "Flexibility deepens commitment."
+  },
+  {
+   "source": "rathbun2011",
+   "target": "koremenos2001",
+   "type": "challenges",
+   "why": "Trust, not rational safeguards, explains binding design."
+  },
+  {
+   "source": "kydd2001",
+   "target": "koremenos2001",
+   "type": "builds_on",
+   "why": "Membership rules screen for cooperative types."
+  },
+  {
+   "source": "vaubel2006",
+   "target": "hawkins2006",
+   "type": "synthesizes",
+   "why": "Agency slack in IO bureaucracies (Vaubel predates)."
+  },
+  {
+   "source": "downs1996",
+   "target": "chayes1993",
+   "type": "challenges",
+   "why": "High compliance reflects shallow commitments, not management."
+  },
+  {
+   "source": "simmons2000",
+   "target": "chayes1993",
+   "type": "builds_on",
+   "why": "Legal commitment raises reputational costs of reneging."
+  },
+  {
+   "source": "vonstein2005",
+   "target": "simmons2000",
+   "type": "challenges",
+   "why": "Selection explains much of the treaty effect."
+  },
+  {
+   "source": "simmonshopkins2005",
+   "target": "vonstein2005",
+   "type": "challenges",
+   "why": "Treaties screen and constrain."
+  },
+  {
+   "source": "lupu2013ajps",
+   "target": "vonstein2005",
+   "type": "builds_on",
+   "why": "Spatial model addresses selection in treaty effects."
+  },
+  {
+   "source": "mitchellhensel2007",
+   "target": "chayes1993",
+   "type": "builds_on",
+   "why": "Institutions raise compliance with settlements."
+  },
+  {
+   "source": "leeds2009",
+   "target": "simmons2000",
+   "type": "qualifies",
+   "why": "Commitments break when domestic coalitions change."
+  },
+  {
+   "source": "goldstein2007",
+   "target": "downs1996",
+   "type": "challenges",
+   "why": "Institutional standing has large effects."
+  },
+  {
+   "source": "morrow2007",
+   "target": "axelrod1981",
+   "type": "builds_on",
+   "why": "Reciprocity enforces the laws of war."
+  },
+  {
+   "source": "carnegiecarson2019",
+   "target": "dai2002",
+   "type": "builds_on",
+   "why": "IOs that protect information encourage disclosure."
+  },
+  {
+   "source": "carnegiecarson2019jop",
+   "target": "carnegiecarson2019",
+   "type": "builds_on",
+   "why": "Revisionist leaders reveal violations to weaken regimes."
+  },
+  {
+   "source": "hafnerburton2014",
+   "target": "koremenos2001",
+   "type": "qualifies",
+   "why": "Individual traits shape preferences for legal cooperation."
+  },
+  {
+   "source": "keck1998",
+   "target": "finnemore1998",
+   "type": "synthesizes",
+   "why": "Advocacy networks as norm entrepreneurs."
+  },
+  {
+   "source": "risse1999",
+   "target": "keck1998",
+   "type": "builds_on",
+   "why": "Spiral model of human rights change."
+  },
+  {
+   "source": "hathaway2002",
+   "target": "risse1999",
+   "type": "challenges",
+   "why": "Ratification does not improve practices."
+  },
+  {
+   "source": "hbtsutsui2005",
+   "target": "hathaway2002",
+   "type": "qualifies",
+   "why": "Empty promises still empower civil society."
+  },
+  {
+   "source": "simmons2009",
+   "target": "hathaway2002",
+   "type": "challenges",
+   "why": "Treaties matter in transitional states through domestic mobilization."
+  },
+  {
+   "source": "simmons2009",
+   "target": "keck1998",
+   "type": "builds_on",
+   "why": "Domestic mobilization channels treaty effects."
+  },
+  {
+   "source": "hathaway2007",
+   "target": "hathaway2002",
+   "type": "builds_on",
+   "why": "Who commits depends on expected enforcement costs."
+  },
+  {
+   "source": "hbtsutsui2007",
+   "target": "hbtsutsui2005",
+   "type": "builds_on",
+   "why": "No effect in the most repressive states."
+  },
+  {
+   "source": "hb2008",
+   "target": "keck1998",
+   "type": "mechanism_tested_by",
+   "why": "Shaming improves some rights and not others."
+  },
+  {
+   "source": "murdiedavis2012",
+   "target": "hb2008",
+   "type": "qualifies",
+   "why": "Shaming works with local INGO presence."
+  },
+  {
+   "source": "lebovicvoeten2006",
+   "target": "hb2008",
+   "type": "synthesizes",
+   "why": "Politics of UN shaming (Lebovic-Voeten predates)."
+  },
+  {
+   "source": "powellstaton2009",
+   "target": "hathaway2007",
+   "type": "builds_on",
+   "why": "Weak courts make ratification cheap."
+  },
+  {
+   "source": "hill2010",
+   "target": "hathaway2002",
+   "type": "builds_on",
+   "why": "Matching confirms mixed treaty effects."
+  },
+  {
+   "source": "fariss2014",
+   "target": "hathaway2002",
+   "type": "challenges",
+   "why": "Practices improved once reporting standards are modeled."
+  },
+  {
+   "source": "cingranelli2018",
+   "target": "fariss2014",
+   "type": "challenges",
+   "why": "Improvement depends on modeling assumptions."
+  },
+  {
+   "source": "cole2015",
+   "target": "simmons2009",
+   "type": "qualifies",
+   "why": "State capacity limits implementation."
+  },
+  {
+   "source": "sikkink2007",
+   "target": "risse1999",
+   "type": "builds_on",
+   "why": "Trials as part of the justice cascade."
+  },
+  {
+   "source": "kimsikkink2010",
+   "target": "sikkink2007",
+   "type": "builds_on",
+   "why": "Prosecutions deter repression."
+  },
+  {
+   "source": "krain2012",
+   "target": "hb2008",
+   "type": "challenges",
+   "why": "Shaming reduces atrocity severity."
+  },
+  {
+   "source": "wallace2013",
+   "target": "simmons2009",
+   "type": "mechanism_tested_by",
+   "why": "Legal information shifts public attitudes."
+  },
+  {
+   "source": "dragulupu2021",
+   "target": "risse1999",
+   "type": "challenges",
+   "why": "Digital repression undercuts the spiral model."
+  },
+  {
+   "source": "chaudhry2022",
+   "target": "keck1998",
+   "type": "challenges",
+   "why": "States close civic space to block advocacy."
+  },
+  {
+   "source": "vreeland2008",
+   "target": "hathaway2002",
+   "type": "qualifies",
+   "why": "Party institutions explain the torture-ratification link."
+  },
+  {
+   "source": "lupu2013io",
+   "target": "powellstaton2009",
+   "type": "builds_on",
+   "why": "Evidence costs limit judicial enforcement."
+  },
+  {
+   "source": "kelley2007",
+   "target": "simmons2000",
+   "type": "builds_on",
+   "why": "Valuing commitments explains resistance to pressure."
+  },
+  {
+   "source": "goodliffe2009",
+   "target": "kelley2007",
+   "type": "synthesizes",
+   "why": "Dependence networks shape ICC positions."
+  },
+  {
+   "source": "simmonsdanner2010",
+   "target": "hathaway2007",
+   "type": "challenges",
+   "why": "Vulnerable autocracies join the ICC to commit to restraint."
+  },
+  {
+   "source": "josimmons2016",
+   "target": "simmonsdanner2010",
+   "type": "builds_on",
+   "why": "ICC deters atrocity."
+  },
+  {
+   "source": "prorok2017",
+   "target": "josimmons2016",
+   "type": "challenges",
+   "why": "ICC involvement can prolong wars."
+  },
+  {
+   "source": "termanbyun2022",
+   "target": "lebovicvoeten2006",
+   "type": "builds_on",
+   "why": "Issue sensitivity shapes politicized shaming."
+  },
+  {
+   "source": "beitz2001",
+   "target": "risse1999",
+   "type": "synthesizes",
+   "why": "Normative grounding of the human rights doctrine."
+  },
+  {
+   "source": "kelleysimmons2015",
+   "target": "finnemore1998",
+   "type": "builds_on",
+   "why": "Indicators as social pressure."
+  },
+  {
+   "source": "finnemore1998",
+   "target": "wendt1992",
+   "type": "builds_on",
+   "why": "Norm life cycle within constructivism."
+  },
+  {
+   "source": "johnston2001",
+   "target": "finnemore1998",
+   "type": "builds_on",
+   "why": "Persuasion and social influence as mechanisms."
+  },
+  {
+   "source": "barnettfinnemore1999",
+   "target": "finnemore1998",
+   "type": "builds_on",
+   "why": "IOs as norm diffusers with their own authority."
+  },
+  {
+   "source": "barnettfinnemore1999",
+   "target": "keohane1984",
+   "type": "challenges",
+   "why": "IOs are autonomous bureaucracies, not just tools."
+  },
+  {
+   "source": "acharya2011",
+   "target": "finnemore1998",
+   "type": "qualifies",
+   "why": "Norms can be made by weaker states to resist great powers."
+  },
+  {
+   "source": "adlernissen2014",
+   "target": "finnemore1998",
+   "type": "builds_on",
+   "why": "Stigma management as norm politics."
+  },
+  {
+   "source": "carpenter2007",
+   "target": "keck1998",
+   "type": "qualifies",
+   "why": "Gatekeepers decide which issues become campaigns."
+  },
+  {
+   "source": "carpenter2011",
+   "target": "carpenter2007",
+   "type": "builds_on",
+   "why": "Network centrality and weapons norms."
+  },
+  {
+   "source": "deitelhoff2009",
+   "target": "johnston2001",
+   "type": "mechanism_tested_by",
+   "why": "Persuasion in ICC negotiations."
+  },
+  {
+   "source": "greenhill2010",
+   "target": "johnston2001",
+   "type": "mechanism_tested_by",
+   "why": "IGO socialization of human rights practices."
+  },
+  {
+   "source": "bearce2007",
+   "target": "johnston2001",
+   "type": "mechanism_tested_by",
+   "why": "IGO membership converges interests."
+  },
+  {
+   "source": "towns2012",
+   "target": "finnemore1998",
+   "type": "challenges",
+   "why": "Diffusion from below via social hierarchies."
+  },
+  {
+   "source": "sending2006",
+   "target": "keck1998",
+   "type": "challenges",
+   "why": "NGOs as part of governmentality, not counter-power."
+  },
+  {
+   "source": "hemmer2002",
+   "target": "wendt1992",
+   "type": "builds_on",
+   "why": "Collective identity shapes institutional form."
+  },
+  {
+   "source": "haas1992",
+   "target": "keohane1984",
+   "type": "builds_on",
+   "why": "Expert knowledge shapes cooperation under uncertainty."
+  },
+  {
+   "source": "rathbun2011",
+   "target": "johnston2001",
+   "type": "synthesizes",
+   "why": "Dispositional trust and socialization."
+  },
+  {
+   "source": "stone2008",
+   "target": "barnettfinnemore1999",
+   "type": "challenges",
+   "why": "Powerful states control IOs informally."
+  },
+  {
+   "source": "stone2013",
+   "target": "stone2008",
+   "type": "builds_on",
+   "why": "Informal governance generalized."
+  },
+  {
+   "source": "clark2021wb",
+   "target": "stone2008",
+   "type": "builds_on",
+   "why": "Staff anticipate the principal."
+  },
+  {
+   "source": "carnegie2023",
+   "target": "clark2021wb",
+   "type": "builds_on",
+   "why": "Reforms reward allies."
+  },
+  {
+   "source": "carterstone2015",
+   "target": "stone2008",
+   "type": "builds_on",
+   "why": "Aid linkage buys votes credibly from democracies."
+  },
+  {
+   "source": "bailey2017",
+   "target": "carterstone2015",
+   "type": "synthesizes",
+   "why": "Measuring the preferences behind UN votes."
+  },
+  {
+   "source": "daviswilf2017",
+   "target": "stone2008",
+   "type": "extends_to_new_case",
+   "why": "Geopolitics in GATT accession."
+  },
+  {
+   "source": "clarkdolan_cottiero",
+   "target": "stone2008",
+   "type": "extends_to_new_case",
+   "why": "Autocratic powers in autocratic IFIs."
+  },
+  {
+   "source": "lall2017",
+   "target": "koremenos2001",
+   "type": "challenges",
+   "why": "Informal autonomy, not formal design, drives performance."
+  },
+  {
+   "source": "honig2023",
+   "target": "lall2017",
+   "type": "builds_on",
+   "why": "Enforced transparency improves performance."
+  },
+  {
+   "source": "lebovicvoeten2006",
+   "target": "stone2008",
+   "type": "synthesizes",
+   "why": "Power politics inside UN human rights bodies."
+  },
+  {
+   "source": "termanbyun2022",
+   "target": "stone2008",
+   "type": "synthesizes",
+   "why": "Geopolitics in peer review."
+  },
+  {
+   "source": "zurn2018",
+   "target": "barnettfinnemore1999",
+   "type": "builds_on",
+   "why": "Authority of IOs generates legitimation problems."
+  },
+  {
+   "source": "tallbergzurn2019",
+   "target": "zurn2018",
+   "type": "builds_on",
+   "why": "Legitimacy and legitimation framework."
+  },
+  {
+   "source": "dellmuth2022",
+   "target": "tallbergzurn2019",
+   "type": "mechanism_tested_by",
+   "why": "Elite-citizen gap in IO legitimacy."
+  },
+  {
+   "source": "devries2021",
+   "target": "zurn2018",
+   "type": "builds_on",
+   "why": "Politicization transmits discontent."
+  },
+  {
+   "source": "hooghe2019",
+   "target": "hooghemarks2015",
+   "type": "builds_on",
+   "why": "Authority growth produces contestation."
+  },
+  {
+   "source": "hooghe2019",
+   "target": "zurn2018",
+   "type": "synthesizes",
+   "why": "Politicization of international authority."
+  },
+  {
+   "source": "gartzke2011",
+   "target": "keohane2009",
+   "type": "challenges",
+   "why": "Multilateralism erodes representation."
+  },
+  {
+   "source": "bernstein2011",
+   "target": "tallbergzurn2019",
+   "type": "synthesizes",
+   "why": "Legitimacy beyond intergovernmental settings (Bernstein predates)."
+  },
+  {
+   "source": "tallberg2016",
+   "target": "keck1998",
+   "type": "builds_on",
+   "why": "NGO access traded for information."
+  },
+  {
+   "source": "bindheupel2015",
+   "target": "voeten2005",
+   "type": "builds_on",
+   "why": "States assess Council legitimacy procedurally."
+  },
+  {
+   "source": "voeten2005",
+   "target": "thompson2006",
+   "type": "synthesizes",
+   "why": "Security Council approval as information (contemporaneous)."
+  },
+  {
+   "source": "thompson2006",
+   "target": "fang2008",
+   "type": "synthesizes",
+   "why": "IO approval informs publics (contemporaneous)."
+  },
+  {
+   "source": "grieco2011",
+   "target": "thompson2006",
+   "type": "mechanism_tested_by",
+   "why": "IO endorsement as a second opinion."
+  },
+  {
+   "source": "kentikelenisvoeten2021",
+   "target": "borzel2021",
+   "type": "challenges",
+   "why": "Rhetorical challenges peaked in the 1970s, not today."
+  },
+  {
+   "source": "lall2025",
+   "target": "tallberg2016",
+   "type": "builds_on",
+   "why": "Civil society pressure drives accountability reforms."
+  },
+  {
+   "source": "wratil2023",
+   "target": "devries2021",
+   "type": "mechanism_tested_by",
+   "why": "Public opinion in EU negotiations."
+  },
+  {
+   "source": "fang2008",
+   "target": "putnam1988",
+   "type": "builds_on",
+   "why": "Institutions inform domestic audiences."
+  },
+  {
+   "source": "raustiala2004",
+   "target": "krasner1982a",
+   "type": "challenges",
+   "why": "Regimes are not decomposable units."
+  },
+  {
+   "source": "alter2009",
+   "target": "raustiala2004",
+   "type": "builds_on",
+   "why": "Politics of regime complexity."
+  },
+  {
+   "source": "keohanevictor2011",
+   "target": "alter2009",
+   "type": "extends_to_new_case",
+   "why": "Climate as a regime complex."
+  },
+  {
+   "source": "morsekeohane2014",
+   "target": "alter2009",
+   "type": "builds_on",
+   "why": "Contested multilateralism via regime shifting."
+  },
+  {
+   "source": "gehringfaude2014",
+   "target": "raustiala2004",
+   "type": "qualifies",
+   "why": "Competition produces division of labor."
+  },
+  {
+   "source": "colgan2012",
+   "target": "fioretos2011",
+   "type": "synthesizes",
+   "why": "Punctuated equilibrium in regime complexes."
+  },
+  {
+   "source": "abbottfaude2021",
+   "target": "abbott2016",
+   "type": "builds_on",
+   "why": "Hybrid public-private complexes."
+  },
+  {
+   "source": "eswesterwinter2021",
+   "target": "alter2009",
+   "type": "builds_on",
+   "why": "Dimensions of institutional complexity."
+  },
+  {
+   "source": "pratt2018",
+   "target": "gehringfaude2014",
+   "type": "builds_on",
+   "why": "Deference as bargained division of labor."
+  },
+  {
+   "source": "kennard2023",
+   "target": "pratt2018",
+   "type": "synthesizes",
+   "why": "Strategic shaping of regime status quos."
+  },
+  {
+   "source": "lipscy2015",
+   "target": "morsekeohane2014",
+   "type": "synthesizes",
+   "why": "Outside options in contested multilateralism."
+  },
+  {
+   "source": "clark2021pool",
+   "target": "gehringfaude2014",
+   "type": "builds_on",
+   "why": "Pooling vs dueling among overlapping IOs."
+  },
+  {
+   "source": "greenhilllupu2017",
+   "target": "raustiala2004",
+   "type": "qualifies",
+   "why": "Fragmentation of IGO networks is overstated."
+  },
+  {
+   "source": "vabulas2013",
+   "target": "morsekeohane2014",
+   "type": "synthesizes",
+   "why": "Informal bodies as alternatives (Vabulas predates)."
+  },
+  {
+   "source": "abbott2016",
+   "target": "koremenos2001",
+   "type": "challenges",
+   "why": "Organizational ecology rather than design explains institutional populations."
+  },
+  {
+   "source": "gray2018",
+   "target": "abbott2016",
+   "type": "builds_on",
+   "why": "Zombie IOs and secretariat quality."
+  },
+  {
+   "source": "eilstrup2018",
+   "target": "abbott2016",
+   "type": "builds_on",
+   "why": "Why IGOs die."
+  },
+  {
+   "source": "borzyskowski2019",
+   "target": "eilstrup2018",
+   "type": "synthesizes",
+   "why": "Withdrawal and death as exits."
+  },
+  {
+   "source": "schmidt2025",
+   "target": "borzyskowski2019",
+   "type": "builds_on",
+   "why": "Costs of withdrawal for cooperation."
+  },
+  {
+   "source": "schmidt2023",
+   "target": "schmidt2025",
+   "type": "synthesizes",
+   "why": "Withdrawal sparks and spillovers (same research program)."
+  },
+  {
+   "source": "allee2012",
+   "target": "mansfield2006",
+   "type": "builds_on",
+   "why": "Accession commitments drive gains."
+  },
+  {
+   "source": "daviswilf2017",
+   "target": "allee2012",
+   "type": "synthesizes",
+   "why": "Accession politics."
+  },
+  {
+   "source": "putnam1988",
+   "target": "gourevitch1978",
+   "type": "builds_on",
+   "why": "Domestic ratification shapes international bargains."
+  },
+  {
+   "source": "mmr2002",
+   "target": "putnam1988",
+   "type": "builds_on",
+   "why": "Electoral incentives for agreements."
+  },
+  {
+   "source": "davis2004",
+   "target": "putnam1988",
+   "type": "builds_on",
+   "why": "Issue linkage reshapes domestic coalitions."
+  },
+  {
+   "source": "chaudoin2014",
+   "target": "putnam1988",
+   "type": "mechanism_tested_by",
+   "why": "Audience reactions to breaking agreements."
+  },
+  {
+   "source": "morsepratt2022",
+   "target": "chaudoin2014",
+   "type": "builds_on",
+   "why": "Image management after violations."
+  },
+  {
+   "source": "alleehuth2006",
+   "target": "putnam1988",
+   "type": "builds_on",
+   "why": "Legal rulings as domestic political cover."
+  },
+  {
+   "source": "schneider2024",
+   "target": "putnam1988",
+   "type": "builds_on",
+   "why": "International constraints on domestic promises."
+  },
+  {
+   "source": "gray2009",
+   "target": "mansfield2006",
+   "type": "builds_on",
+   "why": "IO membership as credibility signal to markets."
+  },
+  {
+   "source": "leeds2009",
+   "target": "putnam1988",
+   "type": "builds_on",
+   "why": "Domestic coalition change breaks commitments."
+  },
+  {
+   "source": "pevehouse2002",
+   "target": "keohane1984",
+   "type": "builds_on",
+   "why": "Regional IOs as commitment devices for democracy."
+  },
+  {
+   "source": "mansfield2006",
+   "target": "pevehouse2002",
+   "type": "builds_on",
+   "why": "Democratizers join IOs to commit."
+  },
+  {
+   "source": "poasturpelainen2015",
+   "target": "pevehouse2002",
+   "type": "qualifies",
+   "why": "IOs consolidate but cannot prevent reversals."
+  },
+  {
+   "source": "gleditschward2006",
+   "target": "pevehouse2002",
+   "type": "synthesizes",
+   "why": "International diffusion of democratization."
+  },
+  {
+   "source": "donno2010",
+   "target": "pevehouse2002",
+   "type": "qualifies",
+   "why": "Enforcement of democratic norms is selective."
+  },
+  {
+   "source": "kelley2008",
+   "target": "finnemore1998",
+   "type": "extends_to_new_case",
+   "why": "Election monitoring as a norm."
+  },
+  {
+   "source": "hyde2011",
+   "target": "kelley2008",
+   "type": "builds_on",
+   "why": "Signaling explains monitoring norm diffusion."
+  },
+  {
+   "source": "bushzetterberg2021",
+   "target": "hyde2011",
+   "type": "builds_on",
+   "why": "Autocrats signal democracy cheaply."
+  },
+  {
+   "source": "hughes2015",
+   "target": "towns2012",
+   "type": "synthesizes",
+   "why": "Gender quota diffusion."
+  },
+  {
+   "source": "keohane2009",
+   "target": "pevehouse2002",
+   "type": "builds_on",
+   "why": "Multilateralism can enhance democracy."
+  },
+  {
+   "source": "clarkdolan_cottiero",
+   "target": "pevehouse2002",
+   "type": "challenges",
+   "why": "Autocratic IOs defend autocracy."
+  },
+  {
+   "source": "ikenberry2001",
+   "target": "keohane1984",
+   "type": "builds_on",
+   "why": "Institutions bind victors after war."
+  },
+  {
+   "source": "lake2009book",
+   "target": "lake2007",
+   "type": "builds_on",
+   "why": "Hierarchy theory and measurement."
+  },
+  {
+   "source": "lake2007",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Hierarchy, not just anarchy."
+  },
+  {
+   "source": "lake2010isq",
+   "target": "lake2007",
+   "type": "builds_on",
+   "why": "Authority grounded in rightful rules."
+  },
+  {
+   "source": "mattern2016",
+   "target": "lake2009book",
+   "type": "synthesizes",
+   "why": "Integrates hierarchy research."
+  },
+  {
+   "source": "finnemore2009",
+   "target": "ikenberry2001",
+   "type": "qualifies",
+   "why": "Unipolar order depends on legitimacy."
+  },
+  {
+   "source": "schwellerpu2011",
+   "target": "ikenberry2001",
+   "type": "challenges",
+   "why": "China may contest US order."
+  },
+  {
+   "source": "kupchan2007",
+   "target": "ikenberry2001",
+   "type": "challenges",
+   "why": "Domestic support for liberal internationalism eroded."
+  },
+  {
+   "source": "lake2021",
+   "target": "ruggie1982",
+   "type": "builds_on",
+   "why": "LIO defined by its liberal-Westphalian tension."
+  },
+  {
+   "source": "borzel2021",
+   "target": "zurn2018",
+   "type": "builds_on",
+   "why": "Endogenous contestation of intrusive authority."
+  },
+  {
+   "source": "weiss2021",
+   "target": "schwellerpu2011",
+   "type": "builds_on",
+   "why": "China's issue-specific engagement."
+  },
+  {
+   "source": "goddard2018",
+   "target": "morsekeohane2014",
+   "type": "synthesizes",
+   "why": "Network position and contesting order."
+  },
+  {
+   "source": "simmons2021",
+   "target": "lake2021",
+   "type": "builds_on",
+   "why": "Territorial foundations of order."
+  },
+  {
+   "source": "adlernissen2021",
+   "target": "adlernissen2014",
+   "type": "builds_on",
+   "why": "Recognition struggles over order."
+  },
+  {
+   "source": "farrell2021",
+   "target": "lake2021",
+   "type": "builds_on",
+   "why": "Self-undermining information order."
+  },
+  {
+   "source": "lin2024",
+   "target": "towns2012",
+   "type": "builds_on",
+   "why": "Status contestation from below."
+  },
+  {
+   "source": "mattingly2025",
+   "target": "goldsmith2012",
+   "type": "builds_on",
+   "why": "Soft power competition by state media."
+  },
+  {
+   "source": "broz2020china",
+   "target": "morsekeohane2014",
+   "type": "builds_on",
+   "why": "Grievances push followers to new leaders."
+  },
+  {
+   "source": "buzas2021",
+   "target": "ruggie1982",
+   "type": "challenges",
+   "why": "Racial hierarchy in the liberal order."
+  },
+  {
+   "source": "chia2022",
+   "target": "lake2009book",
+   "type": "challenges",
+   "why": "Order rests on recognition, not bargained hierarchy."
+  },
+  {
+   "source": "johnston2019",
+   "target": "schwellerpu2011",
+   "type": "challenges",
+   "why": "China supports many issue-specific orders."
+  },
+  {
+   "source": "acharya2014",
+   "target": "ikenberry2001",
+   "type": "challenges",
+   "why": "Order seen from regional worlds."
+  },
+  {
+   "source": "hooghe2019",
+   "target": "borzel2021",
+   "type": "synthesizes",
+   "why": "Contestation as a function of authority (Hooghe predates)."
+  },
+  {
+   "source": "kertzerzeitzoff2017",
+   "target": "guisinger2017",
+   "type": "challenges",
+   "why": "Opinion forms bottom-up from peers."
+  },
+  {
+   "source": "guisinger2017",
+   "target": "baumgroeling2010",
+   "type": "builds_on",
+   "why": "Elite cues and their limits."
+  },
+  {
+   "source": "kertzer2014moral",
+   "target": "rathbun2016",
+   "type": "synthesizes",
+   "why": "Values and morals as foundations of FP attitudes (Kertzer predates)."
+  },
+  {
+   "source": "baumpotter2019",
+   "target": "baumgroeling2010",
+   "type": "builds_on",
+   "why": "Social media reshapes opinion formation."
+  },
+  {
+   "source": "churecchia2022",
+   "target": "tomz2020io",
+   "type": "builds_on",
+   "why": "Elites respond to public opinion."
+  },
+  {
+   "source": "goldsmith2021",
+   "target": "goldsmith2012",
+   "type": "builds_on",
+   "why": "Public diplomacy shapes foreign opinion."
+  },
+  {
+   "source": "kupchan2007",
+   "target": "rathbun2016",
+   "type": "synthesizes",
+   "why": "Partisanship in internationalism."
+  },
+  {
+   "source": "dellmuth2022",
+   "target": "guisinger2017",
+   "type": "synthesizes",
+   "why": "Elite-citizen differences in views on IOs."
+  },
+  {
+   "source": "wallace2013",
+   "target": "chaudoin2014",
+   "type": "synthesizes",
+   "why": "International law cues and public attitudes."
+  },
+  {
+   "source": "keohanevictor2011",
+   "target": "battig2009",
+   "type": "synthesizes",
+   "why": "Institutional fragmentation and national commitments."
+  },
+  {
+   "source": "vonstein2008",
+   "target": "abbottsnidal2000",
+   "type": "mechanism_tested_by",
+   "why": "Flexibility raises climate commitments."
+  },
+  {
+   "source": "haleroger2014",
+   "target": "abbott2016",
+   "type": "synthesizes",
+   "why": "Orchestration of transnational regulators."
+  },
+  {
+   "source": "andonova2017",
+   "target": "haleroger2014",
+   "type": "builds_on",
+   "why": "Transnational and national climate governance as complements."
+  },
+  {
+   "source": "allan2017",
+   "target": "haas1992",
+   "type": "builds_on",
+   "why": "Scientists constitute governance objects."
+  },
+  {
+   "source": "colgan2021",
+   "target": "keohanevictor2011",
+   "type": "challenges",
+   "why": "Climate is distributional conflict, not just collective action."
+  },
+  {
+   "source": "gaikwad2022",
+   "target": "colgan2021",
+   "type": "builds_on",
+   "why": "Compensation builds climate coalitions."
+  },
+  {
+   "source": "bechtel2019",
+   "target": "gaikwad2022",
+   "type": "synthesizes",
+   "why": "Interests and norms in climate support (Bechtel predates)."
+  },
+  {
+   "source": "mildenberger2019",
+   "target": "bechtel2019",
+   "type": "synthesizes",
+   "why": "Opinion foundations of climate cooperation."
+  },
+  {
+   "source": "battig2009",
+   "target": "pevehouse2002",
+   "type": "extends_to_new_case",
+   "why": "Regime type and international commitments in climate."
+  },
+  {
+   "source": "nielson2003",
+   "target": "mitchell1994",
+   "type": "synthesizes",
+   "why": "Environmental governance through institutional reform."
+  },
+  {
+   "source": "keohane2000",
+   "target": "abbott2000",
+   "type": "builds_on",
+   "why": "Transnational vs interstate dispute resolution."
+  },
+  {
+   "source": "voeten2008",
+   "target": "keohane2000",
+   "type": "mechanism_tested_by",
+   "why": "Judicial independence at the ECtHR."
+  },
+  {
+   "source": "lupuvoeten2012",
+   "target": "voeten2008",
+   "type": "builds_on",
+   "why": "Strategic use of precedent."
+  },
+  {
+   "source": "helfervoeten2014",
+   "target": "keohane2000",
+   "type": "mechanism_tested_by",
+   "why": "Courts as agents of legal change."
+  },
+  {
+   "source": "larssonnaurin2016",
+   "target": "voeten2008",
+   "type": "qualifies",
+   "why": "Override risk limits judicial independence."
+  },
+  {
+   "source": "pauwelynpelc2023",
+   "target": "voeten2008",
+   "type": "extends_to_new_case",
+   "why": "Nationality bias at the WTO Appellate Body."
+  },
+  {
+   "source": "pelc2014",
+   "target": "lupuvoeten2012",
+   "type": "synthesizes",
+   "why": "Precedent networks in international adjudication."
+  },
+  {
+   "source": "alleehuth2006",
+   "target": "keohane2000",
+   "type": "builds_on",
+   "why": "Legal rulings legitimize concessions."
+  },
+  {
+   "source": "mitchellhensel2007",
+   "target": "alleehuth2006",
+   "type": "builds_on",
+   "why": "Binding settlements improve compliance."
+  },
+  {
+   "source": "simmonsdobbin2006",
+   "target": "simmons2004",
+   "type": "builds_on",
+   "why": "Four mechanisms of diffusion."
+  },
+  {
+   "source": "bach2010",
+   "target": "simmons2004",
+   "type": "builds_on",
+   "why": "Network channels of diffusion."
+  },
+  {
+   "source": "newman2008",
+   "target": "bach2010",
+   "type": "synthesizes",
+   "why": "Transgovernmental entrepreneurs (Newman predates)."
+  },
+  {
+   "source": "gleditschward2006",
+   "target": "simmonsdobbin2006",
+   "type": "synthesizes",
+   "why": "Diffusion of democracy (same year)."
+  },
+  {
+   "source": "hughes2015",
+   "target": "keck1998",
+   "type": "builds_on",
+   "why": "Transnational activism diffuses quotas."
+  },
+  {
+   "source": "helfervoeten2014",
+   "target": "simmonsdobbin2006",
+   "type": "extends_to_new_case",
+   "why": "Legal diffusion through courts."
+  },
+  {
+   "source": "kinne2013",
+   "target": "hbnetwork2009",
+   "type": "builds_on",
+   "why": "Network dynamics of cooperation."
+  },
+  {
+   "source": "goodliffe2009",
+   "target": "hbnetwork2009",
+   "type": "synthesizes",
+   "why": "Dependence networks shape positions."
+  },
+  {
+   "source": "keohanenye1977",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohanenye1977",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane1984",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane1984",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik1997",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik1997",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wendt1999",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wendt1999",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haas1992",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haas1992",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wendt1992",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wendt1992",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "axelrod1981",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "axelrod1981",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipson1984",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer1994",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer1994",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer2005",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waltz1979",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barnettduvall2005",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "owens2018",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2014",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2014",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maliniak2013",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hbnetwork2009",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hbnetwork2009",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fioretos2011",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fioretos2011",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hb2017behavioral",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hb2017behavioral",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2020",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2020",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krasner1982a",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krasner1982a",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krasner1982b",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krasner1982b",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ruggie1982",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ruggie1982",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martin1992",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martin1992",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearon1998",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fazal2020",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinne2013",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinne2013",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2010",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2010",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2014",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2014",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koremenos2001",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wendt2001",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wendt2001",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbott2000",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbott2000",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbottsnidal2000",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hawkins2006",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hawkins2006",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nielson2003",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nielson2003",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nielson2003",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "downs1998",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "downs1998",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dai2002",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dai2002",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell1994",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell1994",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell1994",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2015",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vabulas2013",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vabulas2013",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haftel2006",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haftel2006",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosendorff2001",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kucik2008",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kucik2008",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rathbun2011",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rathbun2011",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kydd2001",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chayes1993",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "downs1996",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "downs1996",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2000",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vonstein2005",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmonshopkins2005",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchellhensel2007",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchellhensel2007",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leeds2009",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leeds2009",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupu2013ajps",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupu2013ajps",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldstein2007",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldstein2007",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrow2007",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegiecarson2019",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegiecarson2019",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegiecarson2019jop",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegiecarson2019jop",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hafnerburton2014",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hafnerburton2014",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keck1998",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keck1998",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keck1998",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "risse1999",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "risse1999",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hathaway2002",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hathaway2002",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hbtsutsui2005",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hbtsutsui2005",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2009",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2009",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2009",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hathaway2007",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hathaway2007",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hbtsutsui2007",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hbtsutsui2007",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hb2008",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "murdiedavis2012",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "murdiedavis2012",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lebovicvoeten2006",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lebovicvoeten2006",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellstaton2009",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellstaton2009",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellstaton2009",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2010",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2010",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fariss2014",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cingranelli2018",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cole2015",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cole2015",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sikkink2007",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sikkink2007",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krain2012",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wallace2013",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wallace2013",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dragulupu2021",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dragulupu2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaudhry2022",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaudhry2022",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vreeland2008",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vreeland2008",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupu2013io",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupu2013io",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2007",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2007",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodliffe2009",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodliffe2009",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodliffe2009",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmonsdanner2010",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmonsdanner2010",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmonsdanner2010",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "termanbyun2022",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "termanbyun2022",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beitz2001",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beitz2001",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "josimmons2016",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "josimmons2016",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prorok2017",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prorok2017",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kimsikkink2010",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kimsikkink2010",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelleysimmons2015",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelleysimmons2015",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finnemore1998",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2001",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2001",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barnettfinnemore1999",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barnettfinnemore1999",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2011",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2011",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adlernissen2014",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adlernissen2014",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpenter2007",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpenter2007",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deitelhoff2009",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deitelhoff2009",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenhill2010",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenhill2010",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenhill2010",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bearce2007",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bearce2007",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "towns2012",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "towns2012",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "towns2012",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sending2006",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sending2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpenter2011",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hemmer2002",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hemmer2002",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2008",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2013",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vaubel2006",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vaubel2006",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2021wb",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegie2023",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carnegie2023",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carterstone2015",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carterstone2015",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2017",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2017",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "daviswilf2017",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "daviswilf2017",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarkdolan_cottiero",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarkdolan_cottiero",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lall2017",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lall2017",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "honig2023",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "honig2023",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zurn2018",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellmuth2022",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellmuth2022",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2021",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2021",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane2009",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane2009",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzke2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2006",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grieco2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grieco2011",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallbergzurn2019",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernstein2011",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernstein2011",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghe2019",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghe2019",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2016",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2016",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bindheupel2015",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kentikelenisvoeten2021",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kentikelenisvoeten2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lall2025",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lall2025",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "voeten2005",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "voeten2005",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wratil2023",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wratil2023",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "raustiala2004",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alter2009",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohanevictor2011",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohanevictor2011",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morsekeohane2014",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morsekeohane2014",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gehringfaude2014",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2012",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbottfaude2021",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eswesterwinter2021",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pratt2018",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennard2023",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennard2023",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2015",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2015",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2021pool",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenhilllupu2017",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenhilllupu2017",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbott2016",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbott2016",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gray2018",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eilstrup2018",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzyskowski2019",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzyskowski2019",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2025",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2025",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2023",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2023",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allee2012",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "putnam1988",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gourevitch1978",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gourevitch1978",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mmr2002",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mmr2002",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davis2004",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davis2004",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fang2008",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fang2008",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaudoin2014",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaudoin2014",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morsepratt2022",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morsepratt2022",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alleehuth2006",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alleehuth2006",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schneider2024",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gray2009",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gray2009",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pevehouse2002",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansfield2006",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "poasturpelainen2015",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gleditschward2006",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gleditschward2006",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "donno2010",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "donno2010",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2008",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2008",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hyde2011",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hyde2011",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bushzetterberg2021",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bushzetterberg2021",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hughes2015",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hughes2015",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ikenberry2001",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2009book",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2009book",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2007",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2010isq",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2010isq",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattern2016",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattern2016",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finnemore2009",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finnemore2009",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwellerpu2011",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kupchan2007",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kupchan2007",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzel2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzel2021",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goddard2018",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adlernissen2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adlernissen2021",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lin2024",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2025",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broz2020china",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broz2020china",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buzas2021",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buzas2021",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chia2022",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chia2022",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnston2019",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzerzeitzoff2017",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzer2014moral",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzer2014moral",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rathbun2016",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guisinger2017",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baumgroeling2010",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baumpotter2019",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "churecchia2022",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "churecchia2022",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldsmith2012",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldsmith2012",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldsmith2021",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomz2020io",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tomz2020io",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "battig2009",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "battig2009",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vonstein2008",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vonstein2008",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haleroger2014",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haleroger2014",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andonova2017",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andonova2017",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2017",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allan2017",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2021",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2022",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2022",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bechtel2019",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bechtel2019",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mildenberger2019",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mildenberger2019",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane2000",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane2000",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "voeten2008",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupuvoeten2012",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helfervoeten2014",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helfervoeten2014",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helfervoeten2014",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larssonnaurin2016",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pauwelynpelc2023",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pelc2014",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmonsdobbin2006",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2004",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bach2010",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newman2008",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newman2008",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

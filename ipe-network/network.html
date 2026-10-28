@@ -160,6 +160,7 @@ input[type=checkbox]{accent-color:var(--accent)}
     <div class="field-picker">
       <button type="button" id="fieldBtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="fieldLabel fieldBtn">IPE <span class="caret" aria-hidden="true">▾</span></button>
       <ul id="fieldList" role="listbox" aria-labelledby="fieldLabel" hidden>
+          <li role="option" aria-selected="false"><a href="../ir-network/network.html">International Relations</a></li>
           <li role="option" aria-selected="true"><a href="../ipe-network/network.html" class="current">IPE</a></li>
           <li role="option" aria-selected="false"><a href="../security-network/network.html">International Security</a></li>
       </ul>
@@ -188,7 +189,6 @@ input[type=checkbox]{accent-color:var(--accent)}
         <option value="mechanism_tested_by">mechanism tested by</option>
       </select></label>
     <label><input type="checkbox" id="showThemes" checked> theme hubs</label>
-    <label><input type="checkbox" id="seedOnly"> repo (Zotero) works only</label>
     <input type="search" id="q" placeholder="search author, title, claim…">
   </div>
   <a class="home" href="../index.html">← George Yean</a>
@@ -247,7 +247,7 @@ input[type=checkbox]{accent-color:var(--accent)}
 
   // ---------- state
   const state = {
-    view: 'net', decade: 'all', etype: 'all', showThemes: true, seedOnly: false, q: '',
+    view: 'net', decade: 'all', etype: 'all', showThemes: true, q: '',
     themesOn: new Set(themes.map(t => t.id)), selected: null, focusTheme: null,
   };
   // Every load starts fresh (all themes on, network view). Clear state saved by earlier versions.
@@ -297,8 +297,7 @@ input[type=checkbox]{accent-color:var(--accent)}
     return [n.authors, n.title, n.claim, n.journal, n.label].join(' ').toLowerCase().includes(q);
   }
   function visibleWorks(){
-    return works.filter(n => n.themes.some(t => state.themesOn.has(t)) && decadeOk(n.year) && matchQ(n)
-      && (!state.seedOnly || (n.source || '').startsWith('papers.json')));
+    return works.filter(n => n.themes.some(t => state.themesOn.has(t)) && decadeOk(n.year) && matchQ(n));
   }
 
   // ---------- svg scaffolding
@@ -600,7 +599,6 @@ input[type=checkbox]{accent-color:var(--accent)}
   document.getElementById('decade').onchange = e => { state.decade = e.target.value; update(); };
   document.getElementById('etype').onchange = e => { state.etype = e.target.value; update(); };
   document.getElementById('showThemes').onchange = e => { state.showThemes = e.target.checked; update(); };
-  document.getElementById('seedOnly').onchange = e => { state.seedOnly = e.target.checked; update(); };
   document.getElementById('q').oninput = e => { state.q = e.target.value.trim(); update(); };
   window.addEventListener('resize', () => { W = stage.clientWidth; H = stage.clientHeight; sim.force('center', d3.forceCenter(W / 2, H / 2)); update(); });
   svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; highlight(null); closeDetail(); } });
