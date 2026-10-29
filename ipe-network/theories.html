@@ -115,12 +115,35 @@ a.navbtn{display:inline-block;height:34px;line-height:34px;padding:0 16px;border
 a.navbtn:hover,a.navbtn:focus-visible{background:#249a90;color:#fff;outline:none;transform:translateY(-1px);box-shadow:0 4px 10px rgba(46,186,174,.45)}
 a.navbtn.rl{color:#fff;background:#d4a017;box-shadow:0 2px 6px rgba(212,160,23,.4)}
 a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-shadow:0 4px 10px rgba(212,160,23,.5)}
+
+/* ===================== Phones: compact header; everything else in an Options drawer over the map ===================== */
+.home-m,#optsBtn{display:none}
+.opts{display:contents}
+@media (max-width: 700px){
+  body{height:100vh;height:100dvh;overflow:hidden}
+  header{flex-wrap:nowrap;padding:10px 14px;gap:0}
+  .brand{flex-direction:row;flex-wrap:wrap;align-items:center;gap:8px;width:100%;margin-right:0}
+  .brand-title{width:100%;display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:0;font-size:12px;letter-spacing:.16em}
+  a.home-m{display:inline;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-decoration:none;white-space:nowrap}
+  a.home-m:hover{color:var(--accent)}
+  .field-label{display:none}
+  .field-picker{flex:1;min-width:0}
+  #fieldBtn{width:100%;min-width:0}
+  #optsBtn{display:inline-block;flex:none}
+  .opts{display:none;position:absolute;top:100%;left:0;right:0;z-index:45;max-height:78vh;max-height:calc(100dvh - 90px);overflow:auto;flex-direction:column;align-items:stretch;gap:14px;padding:14px 14px 18px;background:var(--panel);border-bottom:1px solid var(--line);box-shadow:0 10px 24px rgba(0,0,0,.16)}
+  body.opts-open .opts{display:flex}
+  .opts .navlinks{margin-left:0;flex-wrap:wrap}
+  .opts .navlinks a:not(.navbtn){display:none}
+  .opts #themes,.opts #families{display:block;max-height:none;overflow:visible;border:0;border-top:1px solid var(--line);padding:14px 0 0}
+  #layout{display:block;flex:1 1 auto;min-height:0;height:auto}
+  #stage{height:100%}
+}
 </style>
 </head>
 <body>
 <header>
   <div class="brand">
-    <div class="brand-title">LitNet: Theory Network</div>
+    <div class="brand-title"><span>LitNet: Theory Network</span><a class="home-m" href="../index.html">&larr; George Yean</a></div>
     <div class="field-label" id="fieldLabel">Field:</div>
     <div class="field-picker">
       <button type="button" id="fieldBtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="fieldLabel fieldBtn">International Political Economy <span class="caret" aria-hidden="true">▾</span></button>
@@ -137,7 +160,9 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
           <li role="option" aria-selected="false"><a href="../tech-network/theories.html">Technology and AI Politics</a></li>
       </ul>
     </div>
+    <button type="button" id="optsBtn" aria-expanded="false" aria-controls="opts">Options <span class="caret" aria-hidden="true">&#9662;</span></button>
   </div>
+  <div class="opts" id="opts">
   <span class="sub" id="counts"></span>
   <div class="controls">
     <button id="viewNet" class="active">Network</button>
@@ -154,6 +179,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
     <input type="search" id="q" placeholder="search theory, scholar, claim…">
   </div>
   <nav class="navlinks"><a class="navbtn" href="network.html">Literature map</a><a class="navbtn" href="../litnet/index.html">All fields</a><a class="navbtn rl" href="../litnet/reading-list.html">★ My Reading List (<span id="rlCount">0</span>)</a><a href="../index.html">← George Yean</a></nav>
+  </div>
 </header>
 <div id="layout">
   <aside id="families">
@@ -440,6 +466,18 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
   // open a theory from a link: theories.html?theory=<id>
   const want = new URLSearchParams(location.search).get('theory');
   if (want && byId[want]) setTimeout(() => { if (isMobile()) { state.selected = want; highlight(want); nodePop(byId[want]); } else select(want); }, 400);
+})();
+</script>
+<script>
+/* phones: the side list lives in the Options drawer; tapping the map closes the drawer */
+(function(){
+  const mq = window.matchMedia('(max-width: 700px)'), side = document.getElementById('families'), layout = document.getElementById('layout'),
+        opts = document.getElementById('opts'), btn = document.getElementById('optsBtn');
+  function place(){ if (mq.matches) opts.appendChild(side); else if (side.parentNode !== layout) layout.insertBefore(side, layout.firstChild); }
+  function set(o){ document.body.classList.toggle('opts-open', o); btn.setAttribute('aria-expanded', o); btn.querySelector('.caret').textContent = o ? '\u25B4' : '\u25BE'; }
+  place(); mq.addEventListener('change', () => { place(); set(false); });
+  btn.addEventListener('click', () => set(!document.body.classList.contains('opts-open')));
+  document.getElementById('stage').addEventListener('pointerdown', () => set(false));
 })();
 </script>
 </body>
