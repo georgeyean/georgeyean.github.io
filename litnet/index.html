@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LitNet All Fields</title>
-<meta name="description" content="Overview of the ten LitNet literature maps, linked through the works they share.">
+<meta name="description" content="Overview of the eleven LitNet literature maps, linked through the works they share.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:400,800&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="reading-list.js"></script>
@@ -104,7 +104,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
 </header>
 <div id="layout">
   <aside id="fields">
-    <h2>Fields (10)</h2>
+    <h2 id="fieldsHead">Fields</h2>
     <div id="fieldList"></div>
     <p class="note"><b>How to read this map.</b> Each large circle is a field map. Each small dot is a work that appears in two or more fields, linked to every field it belongs to. Gray lines between fields grow with the number of works they share. Click a field to see its links, or open its map. Click a dot to see where the work sits in each field.</p>
   </aside>
@@ -119,6 +119,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
 (async function () {
   const data = await fetch('overview.json').then(r => r.json());
   const F = data.fields, fById = Object.fromEntries(F.map(f => [f.id, f]));
+  document.getElementById('fieldsHead').textContent = `Fields (${F.length})`;
   const RL = window.ReadingList;
   const state = { q: '', field: null, pair: null, showPairs: true, view: 'net', selected: null };
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -233,7 +234,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
     d3.selectAll('.frow').classed('on', function () { return this.dataset.id === state.field || (state.pair && state.pair.includes(this.dataset.id)); });
     paintRings();
     const n = data.shared.filter(w => inScope(w) && matchQ(w)).length;
-    document.getElementById('counts').textContent = `Fields (10) · Unique works (${data.total_unique_works}) · Shared works (${n === data.shared.length ? n : n + ' of ' + data.shared.length})`;
+    document.getElementById('counts').textContent = `Fields (${F.length}) · Unique works (${data.total_unique_works}) · Shared works (${n === data.shared.length ? n : n + ' of ' + data.shared.length})`;
   }
   function paintRings() {
     const ids = RL.ids();

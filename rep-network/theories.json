@@ -1,0 +1,1614 @@
+{
+ "meta": {
+  "field": "Race, Ethnicity and Politics",
+  "built": "2026-10-28",
+  "theories": 32,
+  "relations": 36,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "attitudes",
+   "label": "Prejudice & racial attitudes",
+   "color": "#dc2626"
+  },
+  {
+   "id": "context",
+   "label": "Context & intergroup relations",
+   "color": "#0891b2"
+  },
+  {
+   "id": "identity",
+   "label": "Group identity & consciousness",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "structure",
+   "label": "Structural & institutional accounts",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "representation",
+   "label": "Representation & incorporation",
+   "color": "#16a34a"
+  },
+  {
+   "id": "critical",
+   "label": "Critical & normative theories of race",
+   "color": "#db2777"
+  },
+  {
+   "id": "comparative",
+   "label": "Comparative ethnic politics",
+   "color": "#78716c"
+  }
+ ],
+ "theories": [
+  {
+   "id": "groupposition",
+   "label": "Group position theory",
+   "family": "attitudes",
+   "year": 1958,
+   "origin": "Blumer; Bobo",
+   "core": "Prejudice is a dominant group's collective sense of its rightful position, defended when challenged.",
+   "works": [
+    {
+     "id": "blumer1958",
+     "dir": "rep-network",
+     "label": "Blumer 1958",
+     "title": "Race Prejudice as a Sense of Group Position",
+     "authors": "Herbert Blumer",
+     "year": 1958,
+     "journal": "Pacific Sociological Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bobo1983",
+     "dir": "rep-network",
+     "label": "Bobo 1983",
+     "title": "Whites' Opposition to Busing: Symbolic Racism or Realistic Group Conflict?",
+     "authors": "Lawrence Bobo",
+     "year": 1983,
+     "journal": "Journal of Personality and Social Psychology",
+     "doi": "10.1037/0022-3514.45.6.1196",
+     "zotero": null
+    },
+    {
+     "id": "bobohutchings1996",
+     "dir": "rep-network",
+     "label": "Bobo 1996",
+     "title": "Perceptions of Racial Group Competition: Extending Blumer's Theory of Group Position to a Multiracial Social Context",
+     "authors": "Lawrence Bobo & Vincent L. Hutchings",
+     "year": 1996,
+     "journal": "American Sociological Review",
+     "doi": "10.2307/2096302",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "symbolic",
+   "label": "Symbolic racism & racial resentment",
+   "family": "attitudes",
+   "year": 1981,
+   "origin": "Kinder & Sears; Kinder & Sanders",
+   "core": "Anti-Black affect fused with traditional values, not self-interest, drives white racial policy opinion.",
+   "works": [
+    {
+     "id": "kindersears1981",
+     "dir": "rep-network",
+     "label": "Kinder 1981",
+     "title": "Prejudice and Politics: Symbolic Racism versus Racial Threats to the Good Life",
+     "authors": "Donald R. Kinder & David O. Sears",
+     "year": 1981,
+     "journal": "Journal of Personality and Social Psychology",
+     "doi": "10.1037/0022-3514.40.3.414",
+     "zotero": null
+    },
+    {
+     "id": "kindersanders1996",
+     "dir": "rep-network",
+     "label": "Kinder 1996",
+     "title": "Divided by Color: Racial Politics and Democratic Ideals",
+     "authors": "Donald R. Kinder & Lynn M. Sanders",
+     "year": 1996,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "henrysears2002",
+     "dir": "rep-network",
+     "label": "Henry 2002",
+     "title": "The Symbolic Racism 2000 Scale",
+     "authors": "P. J. Henry & David O. Sears",
+     "year": 2002,
+     "journal": "Political Psychology",
+     "doi": "10.1111/0162-895x.00281",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "principled",
+   "label": "Principled conservatism",
+   "family": "attitudes",
+   "year": 1993,
+   "origin": "Sniderman & Piazza",
+   "core": "White opposition to racial policy reflects ideology and policy design more than prejudice.",
+   "works": [
+    {
+     "id": "sniderman1993",
+     "dir": "rep-network",
+     "label": "Sniderman 1993",
+     "title": "The Scar of Race",
+     "authors": "Paul M. Sniderman & Thomas Piazza",
+     "year": 1993,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "socialdominance",
+   "label": "Social dominance theory",
+   "family": "attitudes",
+   "year": 1999,
+   "origin": "Sidanius & Pratto",
+   "core": "Group hierarchies persist through legitimizing myths and individual dominance orientation.",
+   "works": [
+    {
+     "id": "sidaniuspratto1999",
+     "dir": "rep-network",
+     "label": "Sidanius 1999",
+     "title": "Social Dominance: An Intergroup Theory of Social Hierarchy and Oppression",
+     "authors": "Jim Sidanius & Felicia Pratto",
+     "year": 1999,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mcfarland2010",
+     "dir": "rep-network",
+     "label": "McFarland 2010",
+     "title": "Authoritarianism, Social Dominance, and Other Roots of Generalized Prejudice",
+     "authors": "Sam McFarland",
+     "year": 2010,
+     "journal": "Political Psychology",
+     "doi": "10.1111/j.1467-9221.2010.00765.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ethnocentrism",
+   "label": "Ethnocentrism",
+   "family": "attitudes",
+   "year": 2009,
+   "origin": "Kinder & Kam",
+   "core": "A general readiness to divide the world into in-groups and out-groups shapes opinion across issues.",
+   "works": [
+    {
+     "id": "kinderkam2009",
+     "dir": "rep-network",
+     "label": "Kinder 2009",
+     "title": "Us Against Them: Ethnocentric Foundations of American Opinion",
+     "authors": "Donald R. Kinder & Cindy D. Kam",
+     "year": 2009,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "valentino2013",
+     "dir": "rep-network",
+     "label": "Valentino 2012",
+     "title": "Immigration Opposition Among U.S. Whites: General Ethnocentrism or Media Priming of Attitudes About Latinos?",
+     "authors": "Nicholas A. Valentino, Ted Brader & Ashley E. Jardina",
+     "year": 2012,
+     "journal": "Political Psychology",
+     "doi": "10.1111/j.1467-9221.2012.00928.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "priming",
+   "label": "Racial priming (implicit-explicit model)",
+   "family": "attitudes",
+   "year": 2001,
+   "origin": "Mendelberg",
+   "core": "Implicit racial appeals activate resentment; explicit ones backfire under the norm of equality.",
+   "works": [
+    {
+     "id": "mendelberg2001",
+     "dir": "rep-network",
+     "label": "Mendelberg 2001",
+     "title": "The Race Card: Campaign Strategy, Implicit Messages, and the Norm of Equality",
+     "authors": "Tali Mendelberg",
+     "year": 2001,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.2307/3089114",
+     "zotero": null
+    },
+    {
+     "id": "valentino2002",
+     "dir": "rep-network",
+     "label": "Valentino 2002",
+     "title": "Cues That Matter: How Political Ads Prime Racial Attitudes during Campaigns",
+     "authors": "Nicholas A. Valentino, Vincent L. Hutchings & Ismail K. White",
+     "year": 2002,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055402004240",
+     "zotero": null
+    },
+    {
+     "id": "huberlapinski2006",
+     "dir": "rep-network",
+     "label": "Huber 2006",
+     "title": "The “Race Card” Revisited: Assessing Racial Priming in Policy Contests",
+     "authors": "Gregory A. Huber & John S. Lapinski",
+     "year": 2006,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2006.00192.x",
+     "zotero": null
+    },
+    {
+     "id": "valentino2018",
+     "dir": "rep-network",
+     "label": "Valentino 2018",
+     "title": "The Changing Norms of Racial Political Rhetoric and the End of Racial Priming",
+     "authors": "Nicholas A. Valentino, Fabian G. Neuner & L. Matthew Vandenbroek",
+     "year": 2018,
+     "journal": "JOP",
+     "doi": "10.1086/694845",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "statusthreat",
+   "label": "Status threat & white identity",
+   "family": "attitudes",
+   "year": 2014,
+   "origin": "Craig & Richeson; Jardina",
+   "core": "Perceived demographic and status loss activates white in-group identity and conservative politics.",
+   "works": [
+    {
+     "id": "craigricheson2014",
+     "dir": "rep-network",
+     "label": "Craig 2014",
+     "title": "On the Precipice of a 'Majority-Minority' America: Perceived Status Threat from the Racial Demographic Shift Affects White Americans' Political Ideology",
+     "authors": "Maureen A. Craig & Jennifer A. Richeson",
+     "year": 2014,
+     "journal": "Psychological Science",
+     "doi": "10.1177/0956797614527113",
+     "zotero": null
+    },
+    {
+     "id": "jardina2019",
+     "dir": "rep-network",
+     "label": "Jardina 2019",
+     "title": "White Identity Politics",
+     "authors": "Ashley Jardina",
+     "year": 2019,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mutz2018",
+     "dir": "rep-network",
+     "label": "Mutz 2018",
+     "title": "Status Threat, Not Economic Hardship, Explains the 2016 Presidential Vote",
+     "authors": "Diana C. Mutz",
+     "year": 2018,
+     "journal": "PNAS",
+     "doi": "10.1073/pnas.1718155115",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "sociotropic",
+   "label": "Sociotropic & cultural threat (immigration)",
+   "family": "attitudes",
+   "year": 2007,
+   "origin": "Sides & Citrin; Hainmueller & Hopkins",
+   "core": "Concerns about national culture and economy, not personal interest, drive immigration attitudes.",
+   "works": [
+    {
+     "id": "sidescitrin2007",
+     "dir": "rep-network",
+     "label": "Sides 2007",
+     "title": "European Opinion About Immigration: The Role of Identities, Interests and Information",
+     "authors": "John Sides & Jack Citrin",
+     "year": 2007,
+     "journal": "BJPS",
+     "doi": "10.1017/s0007123407000257",
+     "zotero": null
+    },
+    {
+     "id": "hainmueller2014",
+     "dir": "rep-network",
+     "label": "Hainmueller 2014",
+     "title": "Public Attitudes toward Immigration",
+     "authors": "Jens Hainmueller & Daniel J. Hopkins",
+     "year": 2014,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.2139/ssrn.2289270",
+     "zotero": null
+    },
+    {
+     "id": "brader2008",
+     "dir": "rep-network",
+     "label": "Brader 2008",
+     "title": "What Triggers Public Opposition to Immigration? Anxiety, Group Cues, and Immigration Threat",
+     "authors": "Ted Brader, Nicholas A. Valentino & Elizabeth Suhay",
+     "year": 2008,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2008.00353.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "labormarket",
+   "label": "Labor-market competition (immigration)",
+   "family": "attitudes",
+   "year": 2006,
+   "origin": "Mayda; Scheve & Slaughter",
+   "core": "Workers oppose immigrants who compete with them for jobs and wages.",
+   "works": [
+    {
+     "id": "mayda2006",
+     "dir": "rep-network",
+     "label": "Mayda 2006",
+     "title": "Who Is against Immigration? A Cross-Country Investigation of Individual Attitudes toward Immigrants",
+     "authors": "Anna Maria Mayda",
+     "year": 2006,
+     "journal": "Review of Economics and Statistics",
+     "doi": "10.2139/ssrn.533802",
+     "zotero": null
+    },
+    {
+     "id": "malhotra2013",
+     "dir": "rep-network",
+     "label": "Malhotra 2013",
+     "title": "Economic Explanations for Opposition to Immigration: Distinguishing between Prevalence and Conditional Impact",
+     "authors": "Neil Malhotra, Yotam Margalit & Cecilia Hyunjung Mo",
+     "year": 2013,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12012",
+     "zotero": null
+    },
+    {
+     "id": "hainmueller2010",
+     "dir": "rep-network",
+     "label": "Hainmueller 2010",
+     "title": "Attitudes toward Highly Skilled and Low-Skilled Immigration: Evidence from a Survey Experiment",
+     "authors": "Jens Hainmueller & Michael J. Hiscox",
+     "year": 2010,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/JJ5TEBWE"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "racialthreat",
+   "label": "Racial threat hypothesis",
+   "family": "context",
+   "year": 1949,
+   "origin": "Key; Blalock",
+   "core": "Larger or growing minority populations provoke white hostility and political reaction.",
+   "works": [
+    {
+     "id": "key1949",
+     "dir": "rep-network",
+     "label": "Key 1949",
+     "title": "Southern Politics in State and Nation",
+     "authors": "V. O. Key Jr.",
+     "year": 1949,
+     "journal": "Alfred A. Knopf (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gileshertz1994",
+     "dir": "rep-network",
+     "label": "Giles 1994",
+     "title": "Racial Threat and Partisan Identification",
+     "authors": "Micheal W. Giles & Kaenan Hertz",
+     "year": 1994,
+     "journal": "APSR",
+     "doi": "10.2307/2944706",
+     "zotero": null
+    },
+    {
+     "id": "enos2016",
+     "dir": "rep-network",
+     "label": "Enos 2015",
+     "title": "What the Demolition of Public Housing Teaches Us about the Impact of Racial Threat on Political Behavior",
+     "authors": "Ryan D. Enos",
+     "year": 2015,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12156",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "contact",
+   "label": "Intergroup contact theory",
+   "family": "context",
+   "year": 1954,
+   "origin": "Allport",
+   "core": "Equal-status, cooperative contact reduces prejudice.",
+   "works": [
+    {
+     "id": "allport1954",
+     "dir": "rep-network",
+     "label": "Allport 1954",
+     "title": "The Nature of Prejudice",
+     "authors": "Gordon W. Allport",
+     "year": 1954,
+     "journal": "Addison-Wesley (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "enos2014",
+     "dir": "rep-network",
+     "label": "Enos 2014",
+     "title": "Causal Effect of Intergroup Contact on Exclusionary Attitudes",
+     "authors": "Ryan D. Enos",
+     "year": 2014,
+     "journal": "PNAS",
+     "doi": "10.1073/pnas.1317670111",
+     "zotero": null
+    },
+    {
+     "id": "scaccowarren2018",
+     "dir": "rep-network",
+     "label": "Scacco 2018",
+     "title": "Can Social Contact Reduce Prejudice and Discrimination? Evidence from a Field Experiment in Nigeria",
+     "authors": "Alexandra Scacco & Shana S. Warren",
+     "year": 2018,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055418000151",
+     "zotero": null
+    },
+    {
+     "id": "kallabroockman2021",
+     "dir": "rep-network",
+     "label": "Kalla 2021",
+     "title": "Which Narrative Strategies Durably Reduce Prejudice? Evidence from Field and Survey Experiments Supporting the Efficacy of Perspective‐Getting",
+     "authors": "Joshua L. Kalla & David E. Broockman",
+     "year": 2021,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12657",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "segregation",
+   "label": "Segregation & spatial inequality",
+   "family": "context",
+   "year": 1993,
+   "origin": "Massey & Denton; Trounstine",
+   "core": "Residential segregation, often designed by policy, structures inequality and intergroup conflict.",
+   "works": [
+    {
+     "id": "masseydenton1993",
+     "dir": "rep-network",
+     "label": "Massey 1993",
+     "title": "American Apartheid: Segregation and the Making of the Underclass",
+     "authors": "Douglas S. Massey & Nancy A. Denton",
+     "year": 1993,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "trounstine2018",
+     "dir": "rep-network",
+     "label": "Trounstine 2018",
+     "title": "Segregated by Design: Local Politics and Inequality in American Cities",
+     "authors": "Jessica Trounstine",
+     "year": 2018,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "enos2017",
+     "dir": "rep-network",
+     "label": "Enos 2017",
+     "title": "The Space between Us: Social Geography and Politics",
+     "authors": "Ryan D. Enos",
+     "year": 2017,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "linkedfate",
+   "label": "Linked fate & group consciousness",
+   "family": "identity",
+   "year": 1994,
+   "origin": "Dawson",
+   "core": "Members use group interest as a proxy for self-interest when their fates are tied to the group.",
+   "works": [
+    {
+     "id": "dawson1994",
+     "dir": "rep-network",
+     "label": "Dawson 1994",
+     "title": "Behind the Mule: Race and Class in African-American Politics",
+     "authors": "Michael C. Dawson",
+     "year": 1994,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "sanchez2006",
+     "dir": "rep-network",
+     "label": "Sanchez 2006",
+     "title": "The Role of Group Consciousness in Latino Public Opinion",
+     "authors": "Gabriel R. Sanchez",
+     "year": 2006,
+     "journal": "Political Research Quarterly",
+     "doi": "10.1177/106591290605900311",
+     "zotero": null
+    },
+    {
+     "id": "gay2016",
+     "dir": "rep-network",
+     "label": "Gay 2016",
+     "title": "Americans' Belief in Linked Fate: Does the Measure Capture the Concept?",
+     "authors": "Claudine Gay, Jennifer Hochschild & Ariel White",
+     "year": 2016,
+     "journal": "Journal of Race, Ethnicity, and Politics",
+     "doi": "10.1017/rep.2015.3",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "panethnicity",
+   "label": "Panethnicity & racial triangulation",
+   "family": "identity",
+   "year": 1992,
+   "origin": "Espiritu; Kim",
+   "core": "State categories and shared treatment forge panethnic groups placed between Black and white.",
+   "works": [
+    {
+     "id": "espiritu1992",
+     "dir": "rep-network",
+     "label": "Le Espiritu 1992",
+     "title": "Asian American Panethnicity: Bridging Institutions and Identities",
+     "authors": "Yen Le Espiritu",
+     "year": 1992,
+     "journal": "Temple University Press (book)",
+     "doi": "10.2307/2547109",
+     "zotero": null
+    },
+    {
+     "id": "kim1999",
+     "dir": "rep-network",
+     "label": "Kim 1999",
+     "title": "The Racial Triangulation of Asian Americans",
+     "authors": "Claire Jean Kim",
+     "year": 1999,
+     "journal": "Politics & Society",
+     "doi": "10.1177/0032329299027001005",
+     "zotero": null
+    },
+    {
+     "id": "junnmasuoka2008",
+     "dir": "rep-network",
+     "label": "Junn 2008",
+     "title": "Asian American Identity: Shared Racial Status and Political Context",
+     "authors": "Jane Junn & Natalie Masuoka",
+     "year": 2008,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592708081887",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "peopleofcolor",
+   "label": "People-of-color identity & minority coalitions",
+   "family": "identity",
+   "year": 2006,
+   "origin": "Sears & Savalei; Pérez",
+   "core": "A shared minority identity can unite groups, though Black exceptionalism and distancing limit it.",
+   "works": [
+    {
+     "id": "searssavalei2006",
+     "dir": "rep-network",
+     "label": "Sears 2006",
+     "title": "The Political Color Line in America: Many “Peoples of Color” or Black Exceptionalism?",
+     "authors": "David O. Sears & Victoria Savalei",
+     "year": 2006,
+     "journal": "Political Psychology",
+     "doi": "10.1111/j.1467-9221.2006.00542.x",
+     "zotero": null
+    },
+    {
+     "id": "perez2020",
+     "dir": "rep-network",
+     "label": "Pérez 2020",
+     "title": "(Mis)Calculations, Psychological Mechanisms, and the Future Politics of People of Color",
+     "authors": "Efrén Pérez",
+     "year": 2020,
+     "journal": "Journal of Race, Ethnicity, and Politics",
+     "doi": "10.1017/rep.2020.37",
+     "zotero": null
+    },
+    {
+     "id": "mcclain2006",
+     "dir": "rep-network",
+     "label": "McClain 2006",
+     "title": "Racial Distancing in a Southern City: Latino Immigrants' Views of Black Americans",
+     "authors": "Paula D. McClain, Niambi M. Carter, Victoria M. DeFrancesco Soto et al.",
+     "year": 2006,
+     "journal": "JOP",
+     "doi": "10.1111/j.1468-2508.2006.00446.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "socialconstraint",
+   "label": "Racialized social constraint",
+   "family": "identity",
+   "year": 2014,
+   "origin": "White & Laird",
+   "core": "Social pressure within Black networks enforces group-interest political behavior.",
+   "works": [
+    {
+     "id": "whitelaird2014",
+     "dir": "rep-network",
+     "label": "White 2014",
+     "title": "Selling Out?: The Politics of Navigating Conflicts between Racial Group Interest and Self-interest",
+     "authors": "Ismail K. White, Chryl N. Laird & Troy D. Allen",
+     "year": 2014,
+     "journal": "APSR",
+     "doi": "10.1017/s000305541400046x",
+     "zotero": null
+    },
+    {
+     "id": "whitelaird2020",
+     "dir": "rep-network",
+     "label": "White 2020",
+     "title": "Steadfast Democrats: How Social Forces Shape Black Political Behavior",
+     "authors": "Ismail K. White & Chryl N. Laird",
+     "year": 2020,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "racialformation",
+   "label": "Racial formation theory",
+   "family": "structure",
+   "year": 1986,
+   "origin": "Omi & Winant",
+   "core": "Race is made and remade through racial projects, with the state at the center.",
+   "works": [
+    {
+     "id": "omiwinant1986",
+     "dir": "rep-network",
+     "label": "Omi 1986",
+     "title": "Racial Formation in the United States: From the 1960s to the 1980s",
+     "authors": "Michael Omi & Howard Winant",
+     "year": 1986,
+     "journal": "Routledge (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hochschildpowell2008",
+     "dir": "rep-network",
+     "label": "Hochschild 2008",
+     "title": "Racial Reorganization and the United States Census 1850–1930: Mulattoes, Half-Breeds, Mixed Parentage, Hindoos, and the Mexican Race",
+     "authors": "Jennifer L. Hochschild & Brenna Marea Powell",
+     "year": 2008,
+     "journal": "Studies in American Political Development",
+     "doi": "10.1017/s0898588x08000047",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "racialorders",
+   "label": "Racial orders & American political development",
+   "family": "structure",
+   "year": 2005,
+   "origin": "King & Smith",
+   "core": "American politics is structured by competing white-supremacist and egalitarian institutional orders.",
+   "works": [
+    {
+     "id": "kingsmith2005",
+     "dir": "rep-network",
+     "label": "King 2005",
+     "title": "Racial Orders in American Political Development",
+     "authors": "Desmond S. King & Rogers M. Smith",
+     "year": 2005,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055405051506",
+     "zotero": null
+    },
+    {
+     "id": "smith1993",
+     "dir": "rep-network",
+     "label": "Smith 1993",
+     "title": "Beyond Tocqueville, Myrdal, and Hartz: The Multiple Traditions in America",
+     "authors": "Rogers M. Smith",
+     "year": 1993,
+     "journal": "APSR",
+     "doi": "10.2307/2938735",
+     "zotero": null
+    },
+    {
+     "id": "katznelson2005",
+     "dir": "rep-network",
+     "label": "Katznelson 2005",
+     "title": "When Affirmative Action Was White: An Untold History of Racial Inequality in Twentieth-Century America",
+     "authors": "Ira Katznelson",
+     "year": 2005,
+     "journal": "W. W. Norton (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "realignment",
+   "label": "Issue evolution & racial realignment",
+   "family": "structure",
+   "year": 1989,
+   "origin": "Carmines & Stimson",
+   "core": "Race realigned the parties once elites diverged on civil rights.",
+   "works": [
+    {
+     "id": "carmines1989",
+     "dir": "rep-network",
+     "label": "Carmines 1989",
+     "title": "Issue Evolution: Race and the Transformation of American Politics",
+     "authors": "Edward G. Carmines & James A. Stimson",
+     "year": 1989,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "schickler2016",
+     "dir": "rep-network",
+     "label": "Schickler 2016",
+     "title": "Racial Realignment: The Transformation of American Liberalism, 1932-1965",
+     "authors": "Eric Schickler",
+     "year": 2016,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kuziemkowashington2018",
+     "dir": "rep-network",
+     "label": "Kuziemko 2018",
+     "title": "Why Did the Democrats Lose the South? Bringing New Data to an Old Debate",
+     "authors": "Ilyana Kuziemko & Ebonya Washington",
+     "year": 2018,
+     "journal": "American Economic Review",
+     "doi": "10.1257/aer.20161413",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "carceral",
+   "label": "Carceral state & custodial citizenship",
+   "family": "structure",
+   "year": 2007,
+   "origin": "Weaver; Lerman & Weaver",
+   "core": "Crime policy built after civil rights governs race-class subjugated communities and depresses citizenship.",
+   "works": [
+    {
+     "id": "weaver2007",
+     "dir": "rep-network",
+     "label": "Weaver 2007",
+     "title": "Frontlash: Race and the Development of Punitive Crime Policy",
+     "authors": "Vesla M. Weaver",
+     "year": 2007,
+     "journal": "Studies in American Political Development",
+     "doi": "10.1017/s0898588x07000211",
+     "zotero": null
+    },
+    {
+     "id": "lermanweaver2014",
+     "dir": "rep-network",
+     "label": "Lerman 2014",
+     "title": "Arresting Citizenship: The Democratic Consequences of American Crime Control",
+     "authors": "Amy E. Lerman & Vesla M. Weaver",
+     "year": 2014,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "sossweaver2017",
+     "dir": "rep-network",
+     "label": "Soss 2017",
+     "title": "Police Are Our Government: Politics, Political Science, and the Policing of Race–Class Subjugated Communities",
+     "authors": "Joe Soss & Vesla Weaver",
+     "year": 2017,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-060415-093825",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "welfarerace",
+   "label": "Racialized welfare state",
+   "family": "structure",
+   "year": 1994,
+   "origin": "Quadagno; Lieberman; Gilens",
+   "core": "Racial exclusion shaped welfare institutions, and racial stereotypes shape opposition to them.",
+   "works": [
+    {
+     "id": "quadagno1994",
+     "dir": "rep-network",
+     "label": "Quadagno 1994",
+     "title": "The Color of Welfare: How Racism Undermined the War on Poverty",
+     "authors": "Jill Quadagno",
+     "year": 1994,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lieberman1998",
+     "dir": "rep-network",
+     "label": "Lieberman 1998",
+     "title": "Shifting the Color Line: Race and the American Welfare State",
+     "authors": "Robert C. Lieberman",
+     "year": 1998,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gilens1999",
+     "dir": "rep-network",
+     "label": "Gilens 1999",
+     "title": "Why Americans Hate Welfare: Race, Media, and the Politics of Antipoverty Policy",
+     "authors": "Martin Gilens",
+     "year": 1999,
+     "journal": "University of Chicago Press (book)",
+     "doi": "10.2307/4614010",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "descriptive",
+   "label": "Descriptive representation (politics of presence)",
+   "family": "representation",
+   "year": 1999,
+   "origin": "Mansbridge",
+   "core": "Shared-group representatives matter under distrust and uncrystallized interests.",
+   "works": [
+    {
+     "id": "mansbridge1999",
+     "dir": "rep-network",
+     "label": "Mansbridge 1999",
+     "title": "Should Blacks Represent Blacks and Women Represent Women? A Contingent \"Yes\"",
+     "authors": "Jane Mansbridge",
+     "year": 1999,
+     "journal": "JOP",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/AAHGHNYJ"
+    },
+    {
+     "id": "tate2003",
+     "dir": "rep-network",
+     "label": "Tate 2003",
+     "title": "Black Faces in the Mirror: African Americans and Their Representatives in the U.S. Congress",
+     "authors": "Katherine Tate",
+     "year": 2003,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "broockman2013",
+     "dir": "rep-network",
+     "label": "Broockman 2013",
+     "title": "Black Politicians Are More Intrinsically Motivated to Advance Blacks’ Interests: A Field Experiment Manipulating Political Incentives",
+     "authors": "David E. Broockman",
+     "year": 2013,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12018",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "vrd",
+   "label": "Majority-minority districting",
+   "family": "representation",
+   "year": 1992,
+   "origin": "Grofman; Lublin; Cameron et al.",
+   "core": "Districts drawn under the Voting Rights Act secure minority officeholding, with trade-offs for substantive representation.",
+   "works": [
+    {
+     "id": "grofman1992",
+     "dir": "rep-network",
+     "label": "Grofman 1992",
+     "title": "Minority Representation and the Quest for Voting Equality",
+     "authors": "Bernard Grofman, Lisa Handley & Richard G. Niemi",
+     "year": 1992,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lublin1997",
+     "dir": "rep-network",
+     "label": "Lublin 1997",
+     "title": "The Paradox of Representation: Racial Gerrymandering and Minority Interests in Congress",
+     "authors": "David Lublin",
+     "year": 1997,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "cameron1996",
+     "dir": "rep-network",
+     "label": "Cameron 1996",
+     "title": "Do Majority-Minority Districts Maximize Substantive Black Representation in Congress?",
+     "authors": "Charles Cameron, David Epstein & Sharyn O'Halloran",
+     "year": 1996,
+     "journal": "APSR",
+     "doi": "10.2307/2945843",
+     "zotero": null
+    },
+    {
+     "id": "canon1999",
+     "dir": "rep-network",
+     "label": "Canon 1999",
+     "title": "Race, Redistricting, and Representation: The Unintended Consequences of Black Majority Districts",
+     "authors": "David T. Canon",
+     "year": 1999,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "empowerment",
+   "label": "Empowerment & participation",
+   "family": "representation",
+   "year": 1990,
+   "origin": "Bobo & Gilliam",
+   "core": "Minority political power raises trust and participation among group members.",
+   "works": [
+    {
+     "id": "bobogilliam1990",
+     "dir": "rep-network",
+     "label": "Bobo 1990",
+     "title": "Race, Sociopolitical Participation, and Black Empowerment",
+     "authors": "Lawrence Bobo & Franklin D. Gilliam Jr.",
+     "year": 1990,
+     "journal": "APSR",
+     "doi": "10.2307/1963525",
+     "zotero": null
+    },
+    {
+     "id": "gay2001",
+     "dir": "rep-network",
+     "label": "Gay 2001",
+     "title": "The Effect of Black Congressional Representation on Political Participation",
+     "authors": "Claudine Gay",
+     "year": 2001,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055401003021",
+     "zotero": null
+    },
+    {
+     "id": "fraga2018",
+     "dir": "rep-network",
+     "label": "Fraga 2018",
+     "title": "The Turnout Gap: Race, Ethnicity, and Political Inequality in a Diversifying America",
+     "authors": "Bernard L. Fraga",
+     "year": 2018,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ethniccues",
+   "label": "Ethnic cues & coethnic mobilization",
+   "family": "representation",
+   "year": 2007,
+   "origin": "Barreto",
+   "core": "Shared ethnicity with candidates mobilizes and persuades voters.",
+   "works": [
+    {
+     "id": "barreto2007",
+     "dir": "rep-network",
+     "label": "Barreto 2007",
+     "title": "¡Sí Se Puede! Latino Candidates and the Mobilization of Latino Voters",
+     "authors": "Matt A. Barreto",
+     "year": 2007,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055407070293",
+     "zotero": null
+    },
+    {
+     "id": "barreto2010",
+     "dir": "rep-network",
+     "label": "Barreto 2010",
+     "title": "Ethnic Cues: The Role of Shared Ethnicity in Latino Political Participation",
+     "authors": "Matt A. Barreto",
+     "year": 2010,
+     "journal": "University of Michigan Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mcconnaughy2010",
+     "dir": "rep-network",
+     "label": "McConnaughy 2010",
+     "title": "A Latino on the Ballot: Explaining Coethnic Voting Among Latinos and the Response of White Americans",
+     "authors": "Corrine M. McConnaughy, Ismail K. White, David L. Leal & Jason P. Casellas",
+     "year": 2010,
+     "journal": "JOP",
+     "doi": "10.1017/s0022381610000629",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "intersectionality",
+   "label": "Intersectionality",
+   "family": "critical",
+   "year": 1989,
+   "origin": "Crenshaw; Collins; Hancock",
+   "core": "Race, gender and class interlock, so single-axis analysis erases those at the intersections.",
+   "works": [
+    {
+     "id": "crenshaw1989",
+     "dir": "rep-network",
+     "label": "Crenshaw 1989",
+     "title": "Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics",
+     "authors": "Kimberlé Crenshaw",
+     "year": 1989,
+     "journal": "University of Chicago Legal Forum",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "crenshaw1991",
+     "dir": "rep-network",
+     "label": "Crenshaw 1991",
+     "title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+     "authors": "Kimberlé Crenshaw",
+     "year": 1991,
+     "journal": "Stanford Law Review",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/HRF4GKQR"
+    },
+    {
+     "id": "hancock2007",
+     "dir": "rep-network",
+     "label": "Hancock 2007",
+     "title": "When Multiplication Doesn't Equal Quick Addition: Examining Intersectionality as a Research Paradigm",
+     "authors": "Ange-Marie Hancock",
+     "year": 2007,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592707070065",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "racialcontract",
+   "label": "Racial contract & white supremacy as a political system",
+   "family": "critical",
+   "year": 1997,
+   "origin": "Mills",
+   "core": "Liberal polities were built on a racial contract that made whites full persons.",
+   "works": [
+    {
+     "id": "mills1997",
+     "dir": "rep-network",
+     "label": "Mills 1997",
+     "title": "The Racial Contract",
+     "authors": "Charles W. Mills",
+     "year": 1997,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "olson2004",
+     "dir": "rep-network",
+     "label": "Olson 2004",
+     "title": "The Abolition of White Democracy",
+     "authors": "Joel Olson",
+     "year": 2004,
+     "journal": "University of Minnesota Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mills2017",
+     "dir": "rep-network",
+     "label": "Mills 2017",
+     "title": "Black rights/white wrongs: the critique of racial liberalism",
+     "authors": "Charles W. Mills",
+     "year": 2017,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/IHU3FJQJ"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "colorblind",
+   "label": "Color-blind racism",
+   "family": "critical",
+   "year": 2003,
+   "origin": "Bonilla-Silva",
+   "core": "Post-civil-rights racism works through race-neutral frames that explain away inequality.",
+   "works": [
+    {
+     "id": "bonillasilva2003",
+     "dir": "rep-network",
+     "label": "Bonilla-Silva 2003",
+     "title": "Racism without Racists: Color-Blind Racism and the Persistence of Racial Inequality in the United States",
+     "authors": "Eduardo Bonilla-Silva",
+     "year": 2003,
+     "journal": "Rowman & Littlefield (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "globalcolorline",
+   "label": "The global color line",
+   "family": "critical",
+   "year": 1915,
+   "origin": "Du Bois; Lake & Reynolds; Vitalis",
+   "core": "Racial hierarchy organized empire, migration and the founding of international relations.",
+   "works": [
+    {
+     "id": "dubois1915",
+     "dir": "rep-network",
+     "label": "Du Bois 1915",
+     "title": "The African Roots of War",
+     "authors": "W. E. B. Du Bois",
+     "year": 1915,
+     "journal": "The Atlantic Monthly",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lakereynolds2008",
+     "dir": "rep-network",
+     "label": "Lake 2008",
+     "title": "Drawing the Global Colour Line: White Men's Countries and the International Challenge of Racial Equality",
+     "authors": "Marilyn Lake & Henry Reynolds",
+     "year": 2008,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "vitalis2015",
+     "dir": "rep-network",
+     "label": "Vitalis 2015",
+     "title": "White World Order, Black Power Politics: The Birth of American International Relations",
+     "authors": "Robert Vitalis",
+     "year": 2015,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "constructivist",
+   "label": "Constructivist ethnicity",
+   "family": "comparative",
+   "year": 2004,
+   "origin": "Brubaker; Chandra; Wimmer",
+   "core": "Ethnicity is a set of categories and boundaries made in practice, not fixed groups.",
+   "works": [
+    {
+     "id": "brubaker2004",
+     "dir": "rep-network",
+     "label": "Brubaker 2004",
+     "title": "Ethnicity without Groups",
+     "authors": "Rogers Brubaker",
+     "year": 2004,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "chandra2006",
+     "dir": "rep-network",
+     "label": "Chandra 2006",
+     "title": "What Is Ethnic Identity and Does It Matter?",
+     "authors": "Kanchan Chandra",
+     "year": 2006,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.9.062404.170715",
+     "zotero": null
+    },
+    {
+     "id": "wimmer2008",
+     "dir": "rep-network",
+     "label": "Wimmer 2008",
+     "title": "Elementary strategies of ethnic boundary making",
+     "authors": "Andreas Wimmer",
+     "year": 2008,
+     "journal": "Ethnic and Racial Studies",
+     "doi": "10.1080/01419870801905612",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "instrumental",
+   "label": "Ethnic head counts & patronage",
+   "family": "comparative",
+   "year": 2004,
+   "origin": "Chandra; Posner",
+   "core": "Voters and elites activate the ethnic identity that wins under the rules of the game.",
+   "works": [
+    {
+     "id": "chandra2004",
+     "dir": "rep-network",
+     "label": "Chandra 2004",
+     "title": "Why Ethnic Parties Succeed: Patronage and Ethnic Head Counts in India",
+     "authors": "Kanchan Chandra",
+     "year": 2004,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "posner2005",
+     "dir": "rep-network",
+     "label": "Posner 2005",
+     "title": "Institutions and Ethnic Politics in Africa",
+     "authors": "Daniel N. Posner",
+     "year": 2005,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "posner2004",
+     "dir": "rep-network",
+     "label": "Posner 2004",
+     "title": "The Political Salience of Cultural Difference: Why Chewas and Tumbukas Are Allies in Zambia and Adversaries in Malawi",
+     "authors": "Daniel N. Posner",
+     "year": 2004,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/YD73RHCQ"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "consociational",
+   "label": "Consociationalism vs. centripetalism",
+   "family": "comparative",
+   "year": 1977,
+   "origin": "Lijphart; Horowitz",
+   "core": "Divided societies need power sharing among groups, or institutions that reward cross-group appeals.",
+   "works": [
+    {
+     "id": "lijphart1977",
+     "dir": "rep-network",
+     "label": "Lijphart 1977",
+     "title": "Democracy in Plural Societies: A Comparative Exploration",
+     "authors": "Arend Lijphart",
+     "year": 1977,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "horowitz1985",
+     "dir": "rep-network",
+     "label": "Horowitz 1985",
+     "title": "Ethnic Groups in Conflict",
+     "authors": "Donald L. Horowitz",
+     "year": 1985,
+     "journal": "University of California Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/3YM2P4BC"
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "symbolic",
+   "target": "groupposition",
+   "type": "rivals",
+   "why": "Values and affect versus group interest and position."
+  },
+  {
+   "source": "principled",
+   "target": "symbolic",
+   "type": "rivals",
+   "why": "Principle versus prejudice."
+  },
+  {
+   "source": "socialdominance",
+   "target": "groupposition",
+   "type": "extends",
+   "why": "Hierarchy sustained by legitimizing myths."
+  },
+  {
+   "source": "ethnocentrism",
+   "target": "symbolic",
+   "type": "extends",
+   "why": "From anti-Black resentment to general ethnocentrism."
+  },
+  {
+   "source": "priming",
+   "target": "symbolic",
+   "type": "applies",
+   "why": "Campaigns activate resentment."
+  },
+  {
+   "source": "statusthreat",
+   "target": "groupposition",
+   "type": "extends",
+   "why": "Demographic change threatens group position."
+  },
+  {
+   "source": "statusthreat",
+   "target": "symbolic",
+   "type": "rivals",
+   "why": "In-group identity, not out-group resentment."
+  },
+  {
+   "source": "statusthreat",
+   "target": "sociotropic",
+   "type": "complements",
+   "why": "Demographic threat drives immigration opposition."
+  },
+  {
+   "source": "sociotropic",
+   "target": "labormarket",
+   "type": "rivals",
+   "why": "National and cultural concerns over personal economics."
+  },
+  {
+   "source": "sociotropic",
+   "target": "ethnocentrism",
+   "type": "complements",
+   "why": "Group attitudes shape immigration views."
+  },
+  {
+   "source": "racialthreat",
+   "target": "groupposition",
+   "type": "complements",
+   "why": "Group size triggers the defense of position."
+  },
+  {
+   "source": "contact",
+   "target": "racialthreat",
+   "type": "rivals",
+   "why": "Contact reduces what group size inflames."
+  },
+  {
+   "source": "segregation",
+   "target": "racialthreat",
+   "type": "synthesizes",
+   "why": "The spatial structure behind threat."
+  },
+  {
+   "source": "segregation",
+   "target": "contact",
+   "type": "complements",
+   "why": "Segregation limits the contact that reduces prejudice."
+  },
+  {
+   "source": "empowerment",
+   "target": "linkedfate",
+   "type": "complements",
+   "why": "Group consciousness and empowerment both drive participation."
+  },
+  {
+   "source": "panethnicity",
+   "target": "linkedfate",
+   "type": "extends",
+   "why": "Group consciousness across national origins."
+  },
+  {
+   "source": "panethnicity",
+   "target": "racialformation",
+   "type": "applies",
+   "why": "State categories make panethnic groups."
+  },
+  {
+   "source": "peopleofcolor",
+   "target": "linkedfate",
+   "type": "extends",
+   "why": "Shared minority identity across groups."
+  },
+  {
+   "source": "socialconstraint",
+   "target": "linkedfate",
+   "type": "extends",
+   "why": "Social norms enforce group-interest behavior."
+  },
+  {
+   "source": "racialorders",
+   "target": "racialformation",
+   "type": "synthesizes",
+   "why": "Institutional orders built from racial projects."
+  },
+  {
+   "source": "racialorders",
+   "target": "realignment",
+   "type": "synthesizes",
+   "why": "Party alignment as a racial order."
+  },
+  {
+   "source": "carceral",
+   "target": "racialorders",
+   "type": "extends",
+   "why": "Crime policy as a racial order."
+  },
+  {
+   "source": "welfarerace",
+   "target": "carceral",
+   "type": "complements",
+   "why": "Welfare and punishment govern the poor by race."
+  },
+  {
+   "source": "welfarerace",
+   "target": "symbolic",
+   "type": "complements",
+   "why": "Racialized deservingness drives welfare opposition."
+  },
+  {
+   "source": "vrd",
+   "target": "descriptive",
+   "type": "applies",
+   "why": "Districting to secure descriptive representation."
+  },
+  {
+   "source": "empowerment",
+   "target": "descriptive",
+   "type": "extends",
+   "why": "Representation raises participation and trust."
+  },
+  {
+   "source": "ethniccues",
+   "target": "empowerment",
+   "type": "extends",
+   "why": "Coethnic candidates mobilize voters."
+  },
+  {
+   "source": "intersectionality",
+   "target": "linkedfate",
+   "type": "extends",
+   "why": "Group consciousness along intersecting axes."
+  },
+  {
+   "source": "racialcontract",
+   "target": "principled",
+   "type": "rivals",
+   "why": "Liberal principle masks racial domination."
+  },
+  {
+   "source": "racialcontract",
+   "target": "racialorders",
+   "type": "complements",
+   "why": "White supremacy as a political system."
+  },
+  {
+   "source": "colorblind",
+   "target": "principled",
+   "type": "rivals",
+   "why": "Race-neutral principle as a frame of color-blind racism."
+  },
+  {
+   "source": "colorblind",
+   "target": "racialformation",
+   "type": "extends",
+   "why": "The post-civil-rights racial ideology."
+  },
+  {
+   "source": "globalcolorline",
+   "target": "racialcontract",
+   "type": "applies",
+   "why": "White supremacy at world scale."
+  },
+  {
+   "source": "instrumental",
+   "target": "constructivist",
+   "type": "extends",
+   "why": "Which constructed identity is activated depends on payoffs."
+  },
+  {
+   "source": "consociational",
+   "target": "constructivist",
+   "type": "rivals",
+   "why": "Fixed segments versus fluid categories."
+  },
+  {
+   "source": "constructivist",
+   "target": "racialformation",
+   "type": "complements",
+   "why": "Race and ethnicity as made categories."
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
 "built": "2026-10-28",
-"total_unique_works": 2450,
+"total_unique_works": 2723,
 "fields": [
 {
 "id": "ap",
@@ -84,6 +84,15 @@
 "relations": 449
 },
 {
+"id": "rep",
+"dir": "rep-network",
+"label": "Race, Ethnicity and Politics",
+"color": "#ea580c",
+"works": 361,
+"themes": 20,
+"relations": 402
+},
+{
 "id": "tech",
 "dir": "tech-network",
 "label": "Technology and AI Politics",
@@ -118,6 +127,11 @@
 "a": "ap",
 "b": "pt",
 "n": 2
+},
+{
+"a": "ap",
+"b": "rep",
+"n": 54
 },
 {
 "a": "ap",
@@ -191,6 +205,11 @@
 },
 {
 "a": "cp",
+"b": "rep",
+"n": 17
+},
+{
+"a": "cp",
 "b": "tech",
 "n": 5
 },
@@ -231,6 +250,11 @@
 },
 {
 "a": "ipe",
+"b": "rep",
+"n": 9
+},
+{
+"a": "ipe",
 "b": "tech",
 "n": 1
 },
@@ -246,8 +270,18 @@
 },
 {
 "a": "ir",
+"b": "rep",
+"n": 1
+},
+{
+"a": "ir",
 "b": "tech",
 "n": 1
+},
+{
+"a": "sec",
+"b": "rep",
+"n": 5
 },
 {
 "a": "sec",
@@ -261,8 +295,18 @@
 },
 {
 "a": "pe",
+"b": "rep",
+"n": 2
+},
+{
+"a": "pe",
 "b": "tech",
 "n": 2
+},
+{
+"a": "pt",
+"b": "rep",
+"n": 14
 },
 {
 "a": "pt",
@@ -271,6 +315,89 @@
 }
 ],
 "shared": [
+{
+"id": "mutz2018",
+"label": "Mutz 2018",
+"title": "Status Threat, Not Economic Hardship, Explains the 2016 Presidential Vote",
+"authors": "Diana C. Mutz",
+"year": 2018,
+"journal": "PNAS",
+"doi": "10.1073/pnas.1718155115",
+"zotero": null,
+"claim": "Trump support tracked perceived threats to dominant-group status (including from China's rise and trade) rather than personal economic hardship.",
+"fields": {
+"ap": {
+"themes": [
+"Campaigns, elections & accountability",
+"Race, ethnicity & immigration"
+],
+"degree": 3
+},
+"cp": {
+"themes": [
+"Populism & the radical right"
+],
+"degree": 1
+},
+"ipe": {
+"themes": [
+"Trade preferences",
+"Globalization backlash, China shock & populism"
+],
+"degree": 4
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash"
+],
+"degree": 3
+}
+},
+"span": 4,
+"degree": 11
+},
+{
+"id": "acharya2016",
+"label": "Acharya 2016",
+"title": "The Political Legacy of American Slavery",
+"authors": "Avidit Acharya, Matthew Blackwell & Maya Sen",
+"year": 2016,
+"journal": "JOP",
+"doi": "10.1086/686631",
+"zotero": null,
+"claim": "Southern counties with more slavery in 1860 remain more conservative and racially hostile today.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Policy feedback & American political development"
+],
+"degree": 3
+},
+"cp": {
+"themes": [
+"State capacity, state building & historical legacies",
+"Ethnic politics & identity"
+],
+"degree": 1
+},
+"pe": {
+"themes": [
+"History, culture & persistence"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Race, the state & American political development",
+"Racial attitudes"
+],
+"degree": 1
+}
+},
+"span": 4,
+"degree": 6
+},
 {
 "id": "mattingly2025",
 "label": "Mattingly 2025",
@@ -311,6 +438,40 @@
 },
 "span": 4,
 "degree": 5
+},
+{
+"id": "fearonlaitin2003",
+"label": "Fearon 2003",
+"title": "Ethnicity, Insurgency, and Civil War",
+"authors": "James D. Fearon & David D. Laitin",
+"year": 2003,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/ANPFUUHA",
+"claim": "Civil war onset follows conditions favoring insurgency (weak states, rough terrain, large populations), not ethnic diversity or grievance.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity",
+"State capacity, state building & historical legacies"
+],
+"degree": 3
+},
+"sec": {
+"themes": [
+"Civil war onset"
+],
+"degree": 9
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 3
+}
+},
+"span": 3,
+"degree": 15
 },
 {
 "id": "kingpanroberts2013",
@@ -383,6 +544,110 @@
 "degree": 15
 },
 {
+"id": "hainmueller2010",
+"label": "Hainmueller 2010",
+"title": "Attitudes toward Highly Skilled and Low-Skilled Immigration: Evidence from a Survey Experiment",
+"authors": "Jens Hainmueller & Michael J. Hiscox",
+"year": 2010,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/JJ5TEBWE",
+"claim": "Natives of all skill levels prefer high-skilled immigrants, contradicting labor-market competition and fiscal-burden models; attitudes look sociotropic or ethnocentric.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 3
+},
+"ipe": {
+"themes": [
+"Migration politics"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 6
+}
+},
+"span": 3,
+"degree": 12
+},
+{
+"id": "mansbridge1999",
+"label": "Mansbridge 1999",
+"title": "Should Blacks Represent Blacks and Women Represent Women? A Contingent \"Yes\"",
+"authors": "Jane Mansbridge",
+"year": 1999,
+"journal": "JOP",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/AAHGHNYJ",
+"claim": "Descriptive representation is valuable in contexts of mistrust, uncrystallized interests and histories of subordination.",
+"fields": {
+"cp": {
+"themes": [
+"Gender & representation"
+],
+"degree": 4
+},
+"pt": {
+"themes": [
+"Representation & democratic theory",
+"Feminist theory, gender & intersectionality",
+"Race, colonialism & racial justice"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Descriptive & substantive representation",
+"Race in political theory"
+],
+"degree": 4
+}
+},
+"span": 3,
+"degree": 10
+},
+{
+"id": "hainmueller2014",
+"label": "Hainmueller 2014",
+"title": "Public Attitudes toward Immigration",
+"authors": "Jens Hainmueller & Daniel J. Hopkins",
+"year": 2014,
+"journal": "Annual Review of Political Science",
+"doi": "10.2139/ssrn.2289270",
+"zotero": null,
+"claim": "Evidence for personal economic self-interest in immigration attitudes is weak; sociotropic concerns about national culture and economy dominate.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 3
+},
+"ipe": {
+"themes": [
+"Migration politics"
+],
+"degree": 5
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 2
+}
+},
+"span": 3,
+"degree": 10
+},
+{
 "id": "rudra2002",
 "label": "Rudra 2002",
 "title": "Globalization and the Decline of the Welfare State in Less-Developed Countries",
@@ -415,41 +680,6 @@
 },
 "span": 3,
 "degree": 9
-},
-{
-"id": "mutz2018",
-"label": "Mutz 2018",
-"title": "Status Threat, Not Economic Hardship, Explains the 2016 Presidential Vote",
-"authors": "Diana C. Mutz",
-"year": 2018,
-"journal": "PNAS",
-"doi": "10.1073/pnas.1718155115",
-"zotero": null,
-"claim": "Trump support tracked perceived threats to dominant-group status (including from China's rise and trade) rather than personal economic hardship.",
-"fields": {
-"ap": {
-"themes": [
-"Campaigns, elections & accountability",
-"Race, ethnicity & immigration"
-],
-"degree": 3
-},
-"cp": {
-"themes": [
-"Populism & the radical right"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"Trade preferences",
-"Globalization backlash, China shock & populism"
-],
-"degree": 4
-}
-},
-"span": 3,
-"degree": 8
 },
 {
 "id": "tsai2007",
@@ -587,6 +817,72 @@
 },
 "span": 3,
 "degree": 7
+},
+{
+"id": "fearonlaitin1996",
+"label": "Fearon 1996",
+"title": "Explaining Interethnic Cooperation",
+"authors": "James D. Fearon & David D. Laitin",
+"year": 1996,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/F5KGU9MV",
+"claim": "Interethnic peace is the norm because in-group policing sanctions members who wrong outsiders.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity"
+],
+"degree": 3
+},
+"sec": {
+"themes": [
+"Civil war onset"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 2
+}
+},
+"span": 3,
+"degree": 6
+},
+{
+"id": "cedermangirardin2007",
+"label": "Cederman 2007",
+"title": "Beyond Fractionalization: Mapping Ethnicity onto Nationalist Insurgencies",
+"authors": "Lars-Erik Cederman & Luc Girardin",
+"year": 2007,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/KBRK6CIT",
+"claim": "Exclusion of large ethnic groups from state power, not fractionalization, predicts nationalist insurgency.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity"
+],
+"degree": 2
+},
+"sec": {
+"themes": [
+"Civil war onset"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 2
+}
+},
+"span": 3,
+"degree": 6
 },
 {
 "id": "xu2011",
@@ -763,6 +1059,73 @@
 "degree": 6
 },
 {
+"id": "habyarimana2007",
+"label": "Habyarimana 2007",
+"title": "Why Does Ethnic Diversity Undermine Public Goods Provision?",
+"authors": "James Habyarimana, Macartan Humphreys, Daniel N. Posner & Jeremy M. Weinstein",
+"year": 2007,
+"journal": "APSR",
+"doi": "10.1017/s0003055407070499",
+"zotero": null,
+"claim": "Ethnic diversity undermines public goods because coethnics can sanction each other more easily, not because of preferences.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity",
+"Political economy of development"
+],
+"degree": 2
+},
+"pe": {
+"themes": [
+"Development, public goods & distributive politics"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 2
+}
+},
+"span": 3,
+"degree": 5
+},
+{
+"id": "cederman2010",
+"label": "Cederman 2009",
+"title": "Why Do Ethnic Groups Rebel? New Data and Analysis",
+"authors": "Lars-Erik Cederman, Andreas Wimmer & Brian Min",
+"year": 2009,
+"journal": "World Politics",
+"doi": "10.1017/s0043887109990219",
+"zotero": null,
+"claim": "Ethnic groups excluded from state power, especially recently downgraded ones, are much more likely to rebel.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity"
+],
+"degree": 1
+},
+"sec": {
+"themes": [
+"Civil war onset"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 5
+},
+{
 "id": "ashworth2012",
 "label": "Ashworth 2012",
 "title": "Electoral Accountability: Recent Theoretical and Empirical Work",
@@ -826,41 +1189,6 @@
 "Epistemic democracy, expertise & epistemic injustice"
 ],
 "degree": 2
-}
-},
-"span": 3,
-"degree": 5
-},
-{
-"id": "acharya2016",
-"label": "Acharya 2016",
-"title": "The Political Legacy of American Slavery",
-"authors": "Avidit Acharya, Matthew Blackwell & Maya Sen",
-"year": 2016,
-"journal": "JOP",
-"doi": "10.1086/686631",
-"zotero": null,
-"claim": "Southern counties with more slavery in 1860 remain more conservative and racially hostile today.",
-"fields": {
-"ap": {
-"themes": [
-"Race, ethnicity & immigration",
-"Policy feedback & American political development"
-],
-"degree": 3
-},
-"cp": {
-"themes": [
-"State capacity, state building & historical legacies",
-"Ethnic politics & identity"
-],
-"degree": 1
-},
-"pe": {
-"themes": [
-"History, culture & persistence"
-],
-"degree": 1
 }
 },
 "span": 3,
@@ -1074,6 +1402,40 @@
 "degree": 4
 },
 {
+"id": "baccini2021",
+"label": "Baccini 2021",
+"title": "Gone for Good: Deindustrialization, White Voter Backlash, and US Presidential Voting",
+"authors": "Leonardo Baccini & Stephen Weymouth",
+"year": 2021,
+"journal": "APSR",
+"doi": "10.1017/s0003055421000022",
+"zotero": null,
+"claim": "Long-run manufacturing job loss shifted white voters toward Republicans but Black voters toward Democrats, so deindustrialization's politics is racialized group-status politics, not uniform economic voting.",
+"fields": {
+"ap": {
+"themes": [
+"Campaigns, elections & accountability",
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"ipe": {
+"themes": [
+"Globalization backlash, China shock & populism"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 4
+},
+{
 "id": "rithmire2023",
 "label": "Rithmire 2023",
 "title": "Precarious Ties: Business and the State in Authoritarian Asia",
@@ -1146,6 +1508,40 @@
 "degree": 4
 },
 {
+"id": "malhotra2013",
+"label": "Malhotra 2013",
+"title": "Economic Explanations for Opposition to Immigration: Distinguishing between Prevalence and Conditional Impact",
+"authors": "Neil Malhotra, Yotam Margalit & Cecilia Hyunjung Mo",
+"year": 2013,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12012",
+"zotero": null,
+"claim": "Labor-market threat drives opposition to high-skilled immigration among the small group of tech workers who compete directly, even if the average effect looks small.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 1
+},
+"ipe": {
+"themes": [
+"Migration politics"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 3
+},
+{
 "id": "barbera2019",
 "label": "Barberá 2019",
 "title": "Who Leads? Who Follows? Measuring Issue Attention and Agenda Setting by Legislators and the Mass Public Using Social Media Data",
@@ -1179,6 +1575,34 @@
 },
 "span": 3,
 "degree": 3
+},
+{
+"id": "kindersanders1996",
+"label": "Kinder 1996",
+"title": "Divided by Color: Racial Politics and Democratic Ideals",
+"authors": "Donald R. Kinder & Lynn M. Sanders",
+"year": 1996,
+"journal": "University of Chicago Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Racial resentment, not self-interest, structures white opinion on race policy, and framing shapes it.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 13
+},
+"rep": {
+"themes": [
+"Racial attitudes"
+],
+"degree": 22
+}
+},
+"span": 2,
+"degree": 35
 },
 {
 "id": "meltzerrichard1981",
@@ -1235,6 +1659,34 @@
 "degree": 21
 },
 {
+"id": "dawson1994",
+"label": "Dawson 1994",
+"title": "Behind the Mule: Race and Class in African-American Politics",
+"authors": "Michael C. Dawson",
+"year": 1994,
+"journal": "Princeton University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Linked fate leads Black Americans to use group interest as a proxy for self-interest.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 7
+},
+"rep": {
+"themes": [
+"Group consciousness, linked fate & racial identity",
+"Black politics, protest & the civil rights movement"
+],
+"degree": 13
+}
+},
+"span": 2,
+"degree": 20
+},
+{
 "id": "stone2008",
 "label": "Stone 2008",
 "title": "The Scope of IMF Conditionality",
@@ -1263,6 +1715,34 @@
 "degree": 18
 },
 {
+"id": "mills1997",
+"label": "Mills 1997",
+"title": "The Racial Contract",
+"authors": "Charles W. Mills",
+"year": 1997,
+"journal": "Cornell University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "The social contract has been a racial contract establishing white supremacy.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice",
+"History of political thought & comparative political theory"
+],
+"degree": 10
+},
+"rep": {
+"themes": [
+"Race in political theory"
+],
+"degree": 7
+}
+},
+"span": 2,
+"degree": 17
+},
+{
 "id": "farrell2019",
 "label": "Farrell 2019",
 "title": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion",
@@ -1288,6 +1768,34 @@
 },
 "span": 2,
 "degree": 17
+},
+{
+"id": "verba1995",
+"label": "Verba 1995",
+"title": "Voice and Equality: Civic Voluntarism in American Politics",
+"authors": "Sidney Verba, Kay Lehman Schlozman & Henry E. Brady",
+"year": 1995,
+"journal": "Harvard University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Participation depends on resources, engagement and recruitment, so it is unequal by class.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Representation, responsiveness & inequality"
+],
+"degree": 10
+},
+"rep": {
+"themes": [
+"Participation, mobilization & turnout"
+],
+"degree": 6
+}
+},
+"span": 2,
+"degree": 16
 },
 {
 "id": "fiorina1981",
@@ -1396,6 +1904,34 @@
 "themes": [
 "IR theory",
 "Great-power competition, status & hierarchy"
+],
+"degree": 9
+}
+},
+"span": 2,
+"degree": 13
+},
+{
+"id": "mendelberg2001",
+"label": "Mendelberg 2001",
+"title": "The Race Card: Campaign Strategy, Implicit Messages, and the Norm of Equality",
+"authors": "Tali Mendelberg",
+"year": 2001,
+"journal": "Princeton University Press (book)",
+"doi": "10.2307/3089114",
+"zotero": null,
+"claim": "Implicit racial appeals activate resentment; making them explicit defuses them because of the norm of equality.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Campaigns, elections & accountability"
+],
+"degree": 4
+},
+"rep": {
+"themes": [
+"Racial priming, cues & campaign appeals"
 ],
 "degree": 9
 }
@@ -1518,28 +2054,28 @@
 "degree": 12
 },
 {
-"id": "fearonlaitin2003",
-"label": "Fearon 2003",
-"title": "Ethnicity, Insurgency, and Civil War",
-"authors": "James D. Fearon & David D. Laitin",
-"year": 2003,
-"journal": "APSR",
+"id": "crenshaw1991",
+"label": "Crenshaw 1991",
+"title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+"authors": "Kimberlé Crenshaw",
+"year": 1991,
+"journal": "Stanford Law Review",
 "doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/ANPFUUHA",
-"claim": "Civil war onset follows conditions favoring insurgency (weak states, rough terrain, large populations), not ethnic diversity or grievance.",
+"zotero": "https://www.zotero.org/georgeyean/items/HRF4GKQR",
+"claim": "Intersectionality: violence against women of color is shaped by race and gender together, which single-axis politics misses.",
 "fields": {
-"cp": {
+"pt": {
 "themes": [
-"Ethnic politics & identity",
-"State capacity, state building & historical legacies"
+"Feminist theory, gender & intersectionality",
+"Race, colonialism & racial justice"
 ],
-"degree": 3
+"degree": 5
 },
-"sec": {
+"rep": {
 "themes": [
-"Civil war onset"
+"Intersectionality"
 ],
-"degree": 9
+"degree": 7
 }
 },
 "span": 2,
@@ -1846,6 +2382,35 @@
 "IOs, democratization & election monitoring"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 9
+},
+{
+"id": "weaver2007",
+"label": "Weaver 2007",
+"title": "Frontlash: Race and the Development of Punitive Crime Policy",
+"authors": "Vesla M. Weaver",
+"year": 2007,
+"journal": "Studies in American Political Development",
+"doi": "10.1017/s0898588x07000211",
+"zotero": null,
+"claim": "Losers on civil rights shifted to crime policy, building the punitive state.",
+"fields": {
+"ap": {
+"themes": [
+"Policy feedback & American political development",
+"Race, ethnicity & immigration"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Policing, criminal justice & the carceral state",
+"Race, the state & American political development"
+],
+"degree": 6
 }
 },
 "span": 2,
@@ -2159,6 +2724,35 @@
 "degree": 8
 },
 {
+"id": "brader2008",
+"label": "Brader 2008",
+"title": "What Triggers Public Opposition to Immigration? Anxiety, Group Cues, and Immigration Threat",
+"authors": "Ted Brader, Nicholas A. Valentino & Elizabeth Suhay",
+"year": 2008,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2008.00353.x",
+"zotero": null,
+"claim": "Anxiety triggered by group cues drives opposition to immigration.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Personality, emotion, values & genes"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement",
+"Racial priming, cues & campaign appeals"
+],
+"degree": 5
+}
+},
+"span": 2,
+"degree": 8
+},
+{
 "id": "rehm2009",
 "label": "Rehm 2009",
 "title": "Risks and Redistribution",
@@ -2213,26 +2807,27 @@
 "degree": 8
 },
 {
-"id": "hainmueller2014",
-"label": "Hainmueller 2014",
-"title": "Public Attitudes toward Immigration",
-"authors": "Jens Hainmueller & Daniel J. Hopkins",
-"year": 2014,
-"journal": "Annual Review of Political Science",
-"doi": "10.2139/ssrn.2289270",
+"id": "tesler2016",
+"label": "Tesler 2016",
+"title": "Post-Racial or Most-Racial? Race and Politics in the Obama Era",
+"authors": "Michael Tesler",
+"year": 2016,
+"journal": "University of Chicago Press (book)",
+"doi": null,
 "zotero": null,
-"claim": "Evidence for personal economic self-interest in immigration attitudes is weak; sociotropic concerns about national culture and economy dominate.",
+"claim": "Obama's presidency racialized a wide range of issues and accelerated partisan sorting by racial attitudes.",
 "fields": {
 "ap": {
 "themes": [
 "Race, ethnicity & immigration",
-"Opinion formation"
+"Partisan identity & affective polarization"
 ],
 "degree": 3
 },
-"ipe": {
+"rep": {
 "themes": [
-"Migration politics"
+"Race, partisanship & realignment",
+"Racial attitudes"
 ],
 "degree": 5
 }
@@ -2289,6 +2884,33 @@
 "Legitimacy, politicization & accountability of global governance"
 ],
 "degree": 5
+}
+},
+"span": 2,
+"degree": 8
+},
+{
+"id": "jardina2019",
+"label": "Jardina 2019",
+"title": "White Identity Politics",
+"authors": "Ashley Jardina",
+"year": 2019,
+"journal": "Cambridge University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "White identity has become politically salient, shaping opinion on immigration and candidate choice.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash"
+],
+"degree": 6
 }
 },
 "span": 2,
@@ -2372,6 +2994,64 @@
 "Political agency, accountability & selection"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 7
+},
+{
+"id": "hajnallee2011",
+"label": "Hajnal 2011",
+"title": "Why Americans Don't Join the Party: Race, Immigration, and the Failure (of Political Parties) to Engage the Electorate",
+"authors": "Zoltan L. Hajnal & Taeku Lee",
+"year": 2011,
+"journal": "Princeton University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Many Latinos and Asian Americans stay nonpartisan because parties fail to engage them.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Partisan identity & affective polarization"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Race, partisanship & realignment",
+"Latino politics",
+"Asian American politics & panethnicity"
+],
+"degree": 5
+}
+},
+"span": 2,
+"degree": 7
+},
+{
+"id": "butlerbroockman2011",
+"label": "Butler 2011",
+"title": "Do Politicians Racially Discriminate Against Constituents? A Field Experiment on State Legislators",
+"authors": "Daniel M. Butler & David E. Broockman",
+"year": 2011,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2011.00515.x",
+"zotero": null,
+"claim": "Legislators reply less often to constituents with Black-sounding names.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Representation, responsiveness & inequality"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Descriptive & substantive representation"
+],
+"degree": 4
 }
 },
 "span": 2,
@@ -2546,35 +3226,6 @@
 "degree": 6
 },
 {
-"id": "mansbridge1999",
-"label": "Mansbridge 1999",
-"title": "Should Blacks Represent Blacks and Women Represent Women? A Contingent \"Yes\"",
-"authors": "Jane Mansbridge",
-"year": 1999,
-"journal": "JOP",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/AAHGHNYJ",
-"claim": "Descriptive representation is valuable in contexts of mistrust, uncrystallized interests and histories of subordination.",
-"fields": {
-"cp": {
-"themes": [
-"Gender & representation"
-],
-"degree": 4
-},
-"pt": {
-"themes": [
-"Representation & democratic theory",
-"Feminist theory, gender & intersectionality",
-"Race, colonialism & racial justice"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 6
-},
-{
 "id": "mmr2002",
 "label": "Mansfield 2002",
 "title": "Why Democracies Cooperate More: Electoral Control and International Trade Agreements",
@@ -2598,6 +3249,33 @@
 "Institutional design, legalization & delegation"
 ],
 "degree": 1
+}
+},
+"span": 2,
+"degree": 6
+},
+{
+"id": "posner2004",
+"label": "Posner 2004",
+"title": "The Political Salience of Cultural Difference: Why Chewas and Tumbukas Are Allies in Zambia and Adversaries in Malawi",
+"authors": "Daniel N. Posner",
+"year": 2004,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/YD73RHCQ",
+"claim": "Cultural cleavages become politically salient when the groups are large relative to the arena of competition.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 3
 }
 },
 "span": 2,
@@ -2776,34 +3454,6 @@
 "degree": 6
 },
 {
-"id": "hainmueller2010",
-"label": "Hainmueller 2010",
-"title": "Attitudes toward Highly Skilled and Low-Skilled Immigration: Evidence from a Survey Experiment",
-"authors": "Jens Hainmueller & Michael J. Hiscox",
-"year": 2010,
-"journal": "APSR",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/JJ5TEBWE",
-"claim": "Natives of all skill levels prefer high-skilled immigrants, contradicting labor-market competition and fiscal-burden models; attitudes look sociotropic or ethnocentric.",
-"fields": {
-"ap": {
-"themes": [
-"Race, ethnicity & immigration",
-"Opinion formation"
-],
-"degree": 3
-},
-"ipe": {
-"themes": [
-"Migration politics"
-],
-"degree": 3
-}
-},
-"span": 2,
-"degree": 6
-},
-{
 "id": "diamond2010",
 "label": "Diamond 2010",
 "title": "Liberation Technology",
@@ -2853,6 +3503,35 @@
 "themes": [
 "Embedded liberalism & compensation",
 "Globalization backlash, China shock & populism"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 6
+},
+{
+"id": "tesler2012",
+"label": "Tesler 2012",
+"title": "The Spillover of Racialization into Health Care: How President Obama Polarized Public Opinion by Racial Attitudes and Race",
+"authors": "Michael Tesler",
+"year": 2012,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2011.00577.x",
+"zotero": null,
+"claim": "Obama's association with health reform racialized health care opinion.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Racial attitudes",
+"Race, welfare & public policy"
 ],
 "degree": 3
 }
@@ -3051,6 +3730,34 @@
 "Regime complexes, overlap & institutional change"
 ],
 "degree": 5
+}
+},
+"span": 2,
+"degree": 6
+},
+{
+"id": "hajnal2017",
+"label": "Hajnal 2017",
+"title": "Voter Identification Laws and the Suppression of Minority Votes",
+"authors": "Zoltan Hajnal, Nazita Lajevardi & Lindsay Nielson",
+"year": 2017,
+"journal": "JOP",
+"doi": "10.1086/688343",
+"zotero": null,
+"claim": "Strict voter ID laws reduce minority turnout (a finding later contested on data grounds).",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Race, ethnicity & immigration"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Voting rights, redistricting & election administration"
+],
+"degree": 4
 }
 },
 "span": 2,
@@ -3364,6 +4071,62 @@
 "degree": 5
 },
 {
+"id": "shelby2005",
+"label": "Shelby 2005",
+"title": "We Who Are Dark: The Philosophical Foundations of Black Solidarity",
+"authors": "Tommie Shelby",
+"year": 2005,
+"journal": "Harvard University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Black solidarity should rest on shared commitment to fighting racial injustice, not a thick collective identity.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Race in political theory",
+"Group consciousness, linked fate & racial identity"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "sanchez2006",
+"label": "Sanchez 2006",
+"title": "The Role of Group Consciousness in Latino Public Opinion",
+"authors": "Gabriel R. Sanchez",
+"year": 2006,
+"journal": "Political Research Quarterly",
+"doi": "10.1177/106591290605900311",
+"zotero": null,
+"claim": "Group consciousness shapes Latino policy opinion.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Latino politics",
+"Group consciousness, linked fate & racial identity"
+],
+"degree": 4
+}
+},
+"span": 2,
+"degree": 5
+},
+{
 "id": "iversensoskice2006",
 "label": "Iversen 2006",
 "title": "Electoral Institutions and the Politics of Coalitions: Why Some Democracies Redistribute More Than Others",
@@ -3470,6 +4233,36 @@
 "Economics of security"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "feinsteinschickler2008",
+"label": "Feinstein 2008",
+"title": "Platforms and Partners: The Civil Rights Realignment Reconsidered",
+"authors": "Brian D. Feinstein & Eric Schickler",
+"year": 2008,
+"journal": "Studies in American Political Development",
+"doi": "10.1017/s0898588x08000011",
+"zotero": null,
+"claim": "State parties realigned on civil rights before the national parties did.",
+"fields": {
+"ap": {
+"themes": [
+"Policy feedback & American political development",
+"Race, ethnicity & immigration",
+"Partisan identity & affective polarization"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Race, partisanship & realignment",
+"Race, the state & American political development"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -3590,6 +4383,64 @@
 "degree": 5
 },
 {
+"id": "weaverlerman2010",
+"label": "Weaver 2010",
+"title": "Political Consequences of the Carceral State",
+"authors": "Vesla M. Weaver & Amy E. Lerman",
+"year": 2010,
+"journal": "APSR",
+"doi": "10.1017/s0003055410000456",
+"zotero": null,
+"claim": "Contact with the criminal justice system reduces civic participation and trust.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Policy feedback & American political development",
+"Race, ethnicity & immigration"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Policing, criminal justice & the carceral state",
+"Participation, mobilization & turnout"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "piston2010",
+"label": "Piston 2010",
+"title": "How Explicit Racial Prejudice Hurt Obama in the 2008 Election",
+"authors": "Spencer Piston",
+"year": 2010,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-010-9108-y",
+"zotero": null,
+"claim": "Explicit prejudice cost Obama white votes in 2008.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Campaigns, elections & accountability"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial attitudes"
+],
+"degree": 4
+}
+},
+"span": 2,
+"degree": 5
+},
+{
 "id": "bach2010",
 "label": "Bach 2010",
 "title": "Transgovernmental Networks and Domestic Policy Convergence: Evidence from Insider Trading Regulation",
@@ -3609,6 +4460,35 @@
 "ir": {
 "themes": [
 "Diffusion & transnational networks"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "anderson2010",
+"label": "Anderson 2010",
+"title": "The Imperative of Integration",
+"authors": "Elizabeth Anderson",
+"year": 2010,
+"journal": "Princeton University Press (book)",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/35VW9DJF",
+"claim": "Racial segregation is the root of persistent racial inequality, so integration is an imperative of justice and democracy.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice",
+"Distributive justice & equality"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Race in political theory",
+"Context, contact, threat & segregation"
 ],
 "degree": 2
 }
@@ -3700,6 +4580,35 @@
 "degree": 5
 },
 {
+"id": "enos2014",
+"label": "Enos 2014",
+"title": "Causal Effect of Intergroup Contact on Exclusionary Attitudes",
+"authors": "Ryan D. Enos",
+"year": 2014,
+"journal": "PNAS",
+"doi": "10.1073/pnas.1317670111",
+"zotero": null,
+"claim": "Brief exposure to Spanish-speaking confederates on train platforms raised exclusionary attitudes.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Context, contact, threat & segregation",
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 5
+},
+{
 "id": "norris2016",
 "label": "Norris 2016",
 "title": "Chinese Economic Statecraft: Commercial Actors, Grand Strategy, and State Control",
@@ -3780,6 +4689,148 @@
 "Civil war dynamics, rebel organization & violence against civilians"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "shelby2016",
+"label": "Shelby 2016",
+"title": "Dark Ghettos: Injustice, Dissent, and Reform",
+"authors": "Tommie Shelby",
+"year": 2016,
+"journal": "Harvard University Press (book)",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/4MKWH4HY",
+"claim": "Ghetto residents face a basic structure that is unjust, which affects their civic obligations and justifies dissent.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice",
+"Distributive justice & equality"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Race in political theory"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "hooker2016",
+"label": "Hooker 2016",
+"title": "Black Lives Matter and the Paradoxes of U.S. Black Politics",
+"authors": "Juliet Hooker",
+"year": 2016,
+"journal": "Political Theory",
+"doi": "10.1177/0090591716640314",
+"zotero": null,
+"claim": "Black Lives Matter exposes paradoxes of Black politics: demands for repair meet expectations of sacrifice.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Black politics, protest & the civil rights movement",
+"Race in political theory"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "sossweaver2017",
+"label": "Soss 2017",
+"title": "Police Are Our Government: Politics, Political Science, and the Policing of Race–Class Subjugated Communities",
+"authors": "Joe Soss & Vesla Weaver",
+"year": 2017,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev-polisci-060415-093825",
+"zotero": null,
+"claim": "Policing is a central form of governance for race-class subjugated communities.",
+"fields": {
+"ap": {
+"themes": [
+"Policy feedback & American political development",
+"Race, ethnicity & immigration"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Policing, criminal justice & the carceral state"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "wasow2020",
+"label": "Wasow 2020",
+"title": "Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting",
+"authors": "Omar Wasow",
+"year": 2020,
+"journal": "APSR",
+"doi": "10.1017/s000305542000009x",
+"zotero": null,
+"claim": "Nonviolent Black protest in the 1960s moved opinion toward civil rights; violent protest moved it toward social control.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Policy feedback & American political development",
+"Campaigns, elections & accountability"
+],
+"degree": 4
+},
+"rep": {
+"themes": [
+"Black politics, protest & the civil rights movement"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "goodman2021",
+"label": "Goodman 2021",
+"title": "The Exclusionary Foundations of Embedded Liberalism",
+"authors": "Sara Wallace Goodman & Thomas B. Pepinsky",
+"year": 2021,
+"journal": "IO",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/LW7MLLZ3",
+"claim": "Embedded liberalism also depended on migration: receiving democracies combined open labor migration with generous welfare only by excluding migrants from rights; later inclusion eroded the compact from below.",
+"fields": {
+"ipe": {
+"themes": [
+"Embedded liberalism & compensation",
+"Migration politics"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Race in international politics",
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -3927,6 +4978,35 @@
 "degree": 4
 },
 {
+"id": "collins1990",
+"label": "Collins 1990",
+"title": "Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment",
+"authors": "Patricia Hill Collins",
+"year": 1990,
+"journal": "Unwin Hyman (book)",
+"doi": null,
+"zotero": null,
+"claim": "Black women's standpoint and the matrix of domination ground a distinct critical knowledge.",
+"fields": {
+"pt": {
+"themes": [
+"Feminist theory, gender & intersectionality",
+"Race, colonialism & racial justice",
+"Epistemic democracy, expertise & epistemic injustice"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Intersectionality"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "mitchell1994",
 "label": "Mitchell 1994",
 "title": "Regime design matters: intentional oil pollution and treaty compliance",
@@ -3950,33 +5030,6 @@
 "Climate & environmental cooperation"
 ],
 "degree": 2
-}
-},
-"span": 2,
-"degree": 4
-},
-{
-"id": "fearonlaitin1996",
-"label": "Fearon 1996",
-"title": "Explaining Interethnic Cooperation",
-"authors": "James D. Fearon & David D. Laitin",
-"year": 1996,
-"journal": "APSR",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/F5KGU9MV",
-"claim": "Interethnic peace is the norm because in-group policing sanctions members who wrong outsiders.",
-"fields": {
-"cp": {
-"themes": [
-"Ethnic politics & identity"
-],
-"degree": 3
-},
-"sec": {
-"themes": [
-"Civil war onset"
-],
-"degree": 1
 }
 },
 "span": 2,
@@ -4095,6 +5148,33 @@
 "degree": 4
 },
 {
+"id": "chandra2006",
+"label": "Chandra 2006",
+"title": "WHAT IS ETHNIC IDENTITY AND DOES IT MATTER?",
+"authors": "Kanchan Chandra",
+"year": 2006,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev.polisci.9.062404.170715",
+"zotero": null,
+"claim": "Ethnic identity is defined by descent-based attributes, and much of what is attributed to ethnicity is not.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "prakash2006",
 "label": "Prakash 2006",
 "title": "Racing to the Bottom? Trade, Environmental Governance, and ISO 14001",
@@ -4122,27 +5202,29 @@
 "degree": 4
 },
 {
-"id": "cedermangirardin2007",
-"label": "Cederman 2007",
-"title": "Beyond Fractionalization: Mapping Ethnicity onto Nationalist Insurgencies",
-"authors": "Lars-Erik Cederman & Luc Girardin",
+"id": "barreto2007",
+"label": "Barreto 2007",
+"title": "¡Sí Se Puede! Latino Candidates and the Mobilization of Latino Voters",
+"authors": "Matt A. Barreto",
 "year": 2007,
 "journal": "APSR",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/KBRK6CIT",
-"claim": "Exclusion of large ethnic groups from state power, not fractionalization, predicts nationalist insurgency.",
+"doi": "10.1017/s0003055407070293",
+"zotero": null,
+"claim": "Latino candidates mobilize Latino voters.",
 "fields": {
-"cp": {
+"ap": {
 "themes": [
-"Ethnic politics & identity"
+"Turnout, mobilization & participation",
+"Race, ethnicity & immigration"
 ],
-"degree": 2
+"degree": 1
 },
-"sec": {
+"rep": {
 "themes": [
-"Civil war onset"
+"Latino politics",
+"Participation, mobilization & turnout"
 ],
-"degree": 2
+"degree": 3
 }
 },
 "span": 2,
@@ -4197,6 +5279,64 @@
 "sec": {
 "themes": [
 "Institutions, laws of war & international courts"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "soss2008",
+"label": "Soss 2008",
+"title": "The Color of Devolution: Race, Federalism, and the Politics of Social Control",
+"authors": "Joe Soss, Richard C. Fording & Sanford F. Schram",
+"year": 2008,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2008.00328.x",
+"zotero": null,
+"claim": "Devolution let states with more Black recipients adopt tougher welfare sanctions.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"States, localities & policy diffusion",
+"Policy feedback & American political development"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Race, welfare & public policy",
+"Policing, criminal justice & the carceral state"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "junnmasuoka2008",
+"label": "Junn 2008",
+"title": "Asian American Identity: Shared Racial Status and Political Context",
+"authors": "Jane Junn & Natalie Masuoka",
+"year": 2008,
+"journal": "Perspectives on Politics",
+"doi": "10.1017/s1537592708081887",
+"zotero": null,
+"claim": "Asian American identity becomes politically relevant when context makes race salient.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Asian American politics & panethnicity",
+"Group consciousness, linked fate & racial identity"
 ],
 "degree": 3
 }
@@ -4340,33 +5480,6 @@
 "Development, public goods & distributive politics"
 ],
 "degree": 2
-}
-},
-"span": 2,
-"degree": 4
-},
-{
-"id": "cederman2010",
-"label": "Cederman 2009",
-"title": "Why Do Ethnic Groups Rebel? New Data and Analysis",
-"authors": "Lars-Erik Cederman, Andreas Wimmer & Brian Min",
-"year": 2009,
-"journal": "World Politics",
-"doi": "10.1017/s0043887109990219",
-"zotero": null,
-"claim": "Ethnic groups excluded from state power, especially recently downgraded ones, are much more likely to rebel.",
-"fields": {
-"cp": {
-"themes": [
-"Ethnic politics & identity"
-],
-"degree": 1
-},
-"sec": {
-"themes": [
-"Civil war onset"
-],
-"degree": 3
 }
 },
 "span": 2,
@@ -4962,6 +6075,34 @@
 "degree": 4
 },
 {
+"id": "biggershanmer2017",
+"label": "Biggers 2017",
+"title": "Understanding the Adoption of Voter Identification Laws in the American States",
+"authors": "Daniel R. Biggers & Michael J. Hanmer",
+"year": 2017,
+"journal": "American Politics Research",
+"doi": "10.1177/1532673x16687266",
+"zotero": null,
+"claim": "Republican control drives voter ID adoption.",
+"fields": {
+"ap": {
+"themes": [
+"States, localities & policy diffusion",
+"Turnout, mobilization & participation"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Voting rights, redistricting & election administration"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "caramani2017",
 "label": "Caramani 2017",
 "title": "Will vs. Reason: The Populist and Technocratic Forms of Political Representation and Their Critique to Party Government",
@@ -5126,6 +6267,35 @@
 "Parties, party systems & electoral institutions"
 ],
 "degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "reny2019",
+"label": "Reny 2019",
+"title": "Vote Switching in the 2016 Election: How Racial and Immigration Attitudes, Not Economics, Explain Shifts in White Voting",
+"authors": "Tyler T Reny, Loren Collingwood & Ali A Valenzuela",
+"year": 2019,
+"journal": "Public Opinion Quarterly",
+"doi": "10.1093/poq/nfz011",
+"zotero": null,
+"claim": "Racial and immigration attitudes, not economics, explain white vote switching in 2016.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Campaigns, elections & accountability"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash",
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 3
 }
 },
 "span": 2,
@@ -5444,6 +6614,34 @@
 "degree": 3
 },
 {
+"id": "varshney2001",
+"label": "Varshney 2001",
+"title": "ETHNIC CONFLICT AND CIVIL SOCIETY",
+"authors": "Ashutosh Varshney",
+"year": 2001,
+"journal": "World Politics",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/XW7R7H25",
+"claim": "Interethnic civic networks restrain communal riots in Indian cities.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity",
+"Protest, civil society & contentious politics"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "kydd2001",
 "label": "Kydd 2001",
 "title": "Trust Building, Trust Breaking: The Dilemma of NATO Enlargement",
@@ -5587,6 +6785,33 @@
 "degree": 3
 },
 {
+"id": "mayda2006",
+"label": "Mayda 2006",
+"title": "Who Is against Immigration? A Cross-Country Investigation of Individual Attitudes toward Immigrants",
+"authors": "Anna Maria Mayda",
+"year": 2006,
+"journal": "Review of Economics and Statistics",
+"doi": "10.2139/ssrn.533802",
+"zotero": null,
+"claim": "Skilled natives favor immigration where immigrants are relatively unskilled, consistent with labor-market competition, though non-economic factors matter too.",
+"fields": {
+"ipe": {
+"themes": [
+"Migration politics"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "heilmann2008",
 "label": "Heilmann 2007",
 "title": "Policy Experimentation in China’s Economic Rise",
@@ -5609,34 +6834,6 @@
 "Political economy of development"
 ],
 "degree": 2
-}
-},
-"span": 2,
-"degree": 3
-},
-{
-"id": "habyarimana2007",
-"label": "Habyarimana 2007",
-"title": "Why Does Ethnic Diversity Undermine Public Goods Provision?",
-"authors": "James Habyarimana, Macartan Humphreys, Daniel N. Posner & Jeremy M. Weinstein",
-"year": 2007,
-"journal": "APSR",
-"doi": "10.1017/s0003055407070499",
-"zotero": null,
-"claim": "Ethnic diversity undermines public goods because coethnics can sanction each other more easily, not because of preferences.",
-"fields": {
-"cp": {
-"themes": [
-"Ethnic politics & identity",
-"Political economy of development"
-],
-"degree": 2
-},
-"pe": {
-"themes": [
-"Development, public goods & distributive politics"
-],
-"degree": 1
 }
 },
 "span": 2,
@@ -5720,6 +6917,35 @@
 "themes": [
 "FDI, MNCs & investment regimes",
 "Regime type, autocracies & the global economy"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "rydgren2008",
+"label": "Rydgren 2008",
+"title": "Immigration sceptics, xenophobes or racists? Radical right‐wing voting in six West European countries",
+"authors": "Jens Rydgren",
+"year": 2008,
+"journal": "European Journal of Political Research",
+"doi": "10.1111/j.1475-6765.2008.00784.x",
+"zotero": null,
+"claim": "Radical right voters are motivated by ethnic nationalism and concerns about immigrants' cultural effects.",
+"fields": {
+"cp": {
+"themes": [
+"Populism & the radical right",
+"Ethnic politics & identity"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement",
+"Comparative ethnic politics & ethnic voting"
 ],
 "degree": 2
 }
@@ -5868,6 +7094,34 @@
 "degree": 3
 },
 {
+"id": "glasgow2009",
+"label": "Glasgow 2009",
+"title": "Racism as Disrespect",
+"authors": "Joshua Glasgow",
+"year": 2009,
+"journal": "Ethics",
+"doi": "10.1086/648588",
+"zotero": null,
+"claim": "Racism is disrespect for members of racialized groups.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Race in political theory",
+"Racial attitudes"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "schevestasavage2010",
 "label": "Scheve 2010",
 "title": "The Conscription of Wealth: Mass Warfare and the Demand for Progressive Taxation",
@@ -5891,6 +7145,62 @@
 "State capacity, taxation & fiscal contracts"
 ],
 "degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "eifert2010",
+"label": "Eifert 2010",
+"title": "Political Competition and Ethnic Identification in Africa",
+"authors": "Benn Eifert, Edward Miguel & Daniel N. Posner",
+"year": 2010,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2010.00443.x",
+"zotero": null,
+"claim": "Ethnic identification rises near competitive presidential elections in Africa.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity",
+"Parties, party systems & electoral institutions"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "dunningharrison2010",
+"label": "Dunning 2010",
+"title": "Cross-cutting Cleavages and Ethnic Voting: An Experimental Study of Cousinage in Mali",
+"authors": "Thad Dunning & Lauren Harrison",
+"year": 2010,
+"journal": "APSR",
+"doi": "10.1017/s0003055409990311",
+"zotero": null,
+"claim": "Cross-cutting cousinage ties reduce ethnic voting in Mali.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity",
+"Clientelism, distributive politics & accountability"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 1
 }
 },
 "span": 2,
@@ -6233,6 +7543,64 @@
 "degree": 3
 },
 {
+"id": "tesler2013",
+"label": "Tesler 2013",
+"title": "The Return of Old-Fashioned Racism to White Americans’ Partisan Preferences in the Early Obama Era",
+"authors": "Michael Tesler",
+"year": 2013,
+"journal": "JOP",
+"doi": "10.1017/s0022381612000904",
+"zotero": null,
+"claim": "Old-fashioned racism returned as a predictor of white partisanship under Obama.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial attitudes",
+"Race, partisanship & realignment"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "broockman2013",
+"label": "Broockman 2013",
+"title": "Black Politicians Are More Intrinsically Motivated to Advance Blacks’ Interests: A Field Experiment Manipulating Political Incentives",
+"authors": "David E. Broockman",
+"year": 2013,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12018",
+"zotero": null,
+"claim": "Black legislators are intrinsically motivated to advance Black interests beyond electoral incentives.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Representation, responsiveness & inequality"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Descriptive & substantive representation",
+"Black politics, protest & the civil rights movement"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "goldenmin2013",
 "label": "Golden 2013",
 "title": "Distributive Politics Around the World",
@@ -6252,6 +7620,35 @@
 "pe": {
 "themes": [
 "Development, public goods & distributive politics"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "dunningnilekani2013",
+"label": "Dunning 2013",
+"title": "Ethnic Quotas and Political Mobilization: Caste, Parties, and Distribution in Indian Village Councils",
+"authors": "Thad Dunning & Janhavi Nilekani",
+"year": 2013,
+"journal": "APSR",
+"doi": "10.1017/s0003055412000573",
+"zotero": null,
+"claim": "Caste quotas for village council presidents in India have little distributive effect because party ties dominate.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity",
+"Clientelism, distributive politics & accountability"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting",
+"Descriptive & substantive representation"
 ],
 "degree": 2
 }
@@ -6282,6 +7679,90 @@
 "GATT/WTO, PTAs & institutional design"
 ],
 "degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "dancygier2013",
+"label": "Dancygier 2013",
+"title": "Sectoral Economies, Economic Contexts, and Attitudes toward Immigration",
+"authors": "Rafaela M. Dancygier & Michael J. Donnelly",
+"year": 2013,
+"journal": "JOP",
+"doi": "10.1017/s0022381612000849",
+"zotero": null,
+"claim": "Sectoral conditions shape immigration attitudes: workers in growing sectors are more open to immigration than those in declining ones.",
+"fields": {
+"ipe": {
+"themes": [
+"Migration politics",
+"Trade preferences"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "hainmuellerhopkins2015",
+"label": "Hainmueller 2014",
+"title": "The Hidden American Immigration Consensus: A Conjoint Analysis of Attitudes toward Immigrants",
+"authors": "Jens Hainmueller & Daniel J. Hopkins",
+"year": 2014,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12138",
+"zotero": null,
+"claim": "Americans share a consensus on which immigrants to admit, regardless of partisanship.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "enns2014",
+"label": "Enns 2014",
+"title": "The Public's Increasing Punitiveness and Its Influence on Mass Incarceration in the United States",
+"authors": "Peter K. Enns",
+"year": 2014,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12098",
+"zotero": null,
+"claim": "Rising public punitiveness helped drive mass incarceration.",
+"fields": {
+"ap": {
+"themes": [
+"Representation, responsiveness & inequality",
+"Policy feedback & American political development"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Policing, criminal justice & the carceral state"
+],
+"degree": 1
 }
 },
 "span": 2,
@@ -6426,6 +7907,34 @@
 "degree": 3
 },
 {
+"id": "coulthard2014",
+"label": "Coulthard 2014",
+"title": "Red Skin, White Masks: Rejecting the Colonial Politics of Recognition",
+"authors": "Glen Sean Coulthard",
+"year": 2014,
+"journal": "University of Minnesota Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Liberal recognition reproduces settler colonialism; Indigenous resurgence is the alternative.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice",
+"Multiculturalism, recognition & identity"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Race in political theory"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "lelkes2017",
 "label": "Lelkes 2015",
 "title": "The Hostile Audience: The Effect of Access to Broadband Internet on Partisan Affect",
@@ -6446,6 +7955,35 @@
 "tech": {
 "themes": [
 "Social media, polarization & the public sphere"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "enos2016",
+"label": "Enos 2015",
+"title": "What the Demolition of Public Housing Teaches Us about the Impact of Racial Threat on Political Behavior",
+"authors": "Ryan D. Enos",
+"year": 2015,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12156",
+"zotero": null,
+"claim": "Removing public housing reduced white turnout and conservative voting nearby, evidence of racial threat.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Turnout, mobilization & participation"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Context, contact, threat & segregation",
+"Participation, mobilization & turnout"
 ],
 "degree": 2
 }
@@ -6476,6 +8014,35 @@
 "Misinformation, bots, deepfakes & computational propaganda"
 ],
 "degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "kuo2017",
+"label": "Kuo 2017",
+"title": "Social Exclusion and Political Identity: The Case of Asian American Partisanship",
+"authors": "Alexander Kuo, Neil Malhotra & Cecilia Hyunjung Mo",
+"year": 2017,
+"journal": "JOP",
+"doi": "10.1086/687570",
+"zotero": null,
+"claim": "Experiences of social exclusion push Asian Americans toward the Democratic Party.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Asian American politics & panethnicity",
+"Race, partisanship & realignment"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -6651,6 +8218,64 @@
 "degree": 3
 },
 {
+"id": "mills2017",
+"label": "Mills 2017",
+"title": "Black rights/white wrongs: the critique of racial liberalism",
+"authors": "Charles W. Mills",
+"year": 2017,
+"journal": "Oxford University Press (book)",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/IHU3FJQJ",
+"claim": "Liberalism has been racial liberalism; it can be reclaimed for corrective racial justice.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice",
+"Distributive justice & equality"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Race in political theory"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "sides2018",
+"label": "Sides 2018",
+"title": "Identity Crisis: The 2016 Presidential Campaign and the Battle for the Meaning of America",
+"authors": "John Sides, Michael Tesler & Lynn Vavreck",
+"year": 2018,
+"journal": "Princeton University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Racial, ethnic and religious attitudes, activated by the campaign, drove 2016 vote shifts more than economic distress.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Campaigns, elections & accountability",
+"Partisan identity & affective polarization"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash",
+"Race, partisanship & realignment"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "vosoughi2018",
 "label": "Vosoughi 2018",
 "title": "The Spread of True and False News Online",
@@ -6702,6 +8327,63 @@
 "Platform power, platform governance & content moderation"
 ],
 "degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "valentino2018",
+"label": "Valentino 2018",
+"title": "The Changing Norms of Racial Political Rhetoric and the End of Racial Priming",
+"authors": "Nicholas A. Valentino, Fabian G. Neuner & L. Matthew Vandenbroek",
+"year": 2018,
+"journal": "JOP",
+"doi": "10.1086/694845",
+"zotero": null,
+"claim": "Explicit racial rhetoric no longer triggers backlash, so implicit and explicit appeals now work alike.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Campaigns, elections & accountability"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial priming, cues & campaign appeals"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "cassesebarnes2019",
+"label": "Cassese 2018",
+"title": "Reconciling Sexism and Women’s Support for Republican Candidates: A Look at Gender, Class, and Whiteness in the 2012 and 2016 Presidential Races",
+"authors": "Erin C. Cassese & Tiffany D. Barnes",
+"year": 2018,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-018-9468-2",
+"zotero": null,
+"claim": "Hostile sexism helps explain white women's support for Trump.",
+"fields": {
+"ap": {
+"themes": [
+"Gender & political representation",
+"Campaigns, elections & accountability"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Intersectionality",
+"White identity, status threat & racial backlash"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -6795,6 +8477,35 @@
 "degree": 3
 },
 {
+"id": "enos2019",
+"label": "Enos 2019",
+"title": "Can Violent Protest Change Local Policy Support? Evidence from the Aftermath of the 1992 Los Angeles Riot",
+"authors": "Ryan D. Enos, Aaron R. Kaufman & Melissa L. Sands",
+"year": 2019,
+"journal": "APSR",
+"doi": "10.1017/s0003055419000340",
+"zotero": null,
+"claim": "The 1992 Los Angeles riot increased support for public spending among Black and white voters.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Black politics, protest & the civil rights movement",
+"Race, welfare & public policy"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "luoprzeworski2019",
 "label": "Luo 2019",
 "title": "Why Are the Fastest Growing Countries Autocracies?",
@@ -6872,6 +8583,34 @@
 "themes": [
 "Nuclear weapons",
 "Institutions, laws of war & international courts"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "bartels2020",
+"label": "Bartels 2020",
+"title": "Ethnic Antagonism Erodes Republicans' Commitment to Democracy",
+"authors": "Larry M. Bartels",
+"year": 2020,
+"journal": "PNAS",
+"doi": "10.1073/pnas.2007747117",
+"zotero": null,
+"claim": "Ethnic antagonism strongly predicts Republican agreement with antidemocratic statements.",
+"fields": {
+"ap": {
+"themes": [
+"Democratic norms, populism & backsliding",
+"Race, ethnicity & immigration"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash"
 ],
 "degree": 1
 }
@@ -6991,28 +8730,29 @@
 "degree": 3
 },
 {
-"id": "baccini2021",
-"label": "Baccini 2021",
-"title": "Gone for Good: Deindustrialization, White Voter Backlash, and US Presidential Voting",
-"authors": "Leonardo Baccini & Stephen Weymouth",
-"year": 2021,
-"journal": "APSR",
-"doi": "10.1017/s0003055421000022",
+"id": "feola2021",
+"label": "Feola 2020",
+"title": "“You Will Not Replace Us”: The Melancholic Nationalism of Whiteness",
+"authors": "Michael Feola",
+"year": 2020,
+"journal": "Political Theory",
+"doi": "10.1177/0090591720972745",
 "zotero": null,
-"claim": "Long-run manufacturing job loss shifted white voters toward Republicans but Black voters toward Democrats, so deindustrialization's politics is racialized group-status politics, not uniform economic voting.",
+"claim": "White nationalism expresses melancholic attachment to whiteness.",
 "fields": {
-"ap": {
+"pt": {
 "themes": [
-"Campaigns, elections & accountability",
-"Race, ethnicity & immigration"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"Globalization backlash, China shock & populism"
+"Race, colonialism & racial justice",
+"Populism & the people"
 ],
 "degree": 2
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash",
+"Race in political theory"
+],
+"degree": 1
 }
 },
 "span": 2,
@@ -7271,6 +9011,34 @@
 "degree": 3
 },
 {
+"id": "greenriley2023",
+"label": "Green-Riley 2023",
+"title": "Whose War is it Anyway? Explaining the Black-White Gap in Support for the Use of Force Abroad",
+"authors": "Naima Green-Riley & Andrew Leber",
+"year": 2023,
+"journal": "Security Studies",
+"doi": "10.1080/09636412.2023.2230881",
+"zotero": "https://www.zotero.org/georgeyean/items/DQVVWWXX",
+"claim": "Black Americans are less supportive of using force abroad than white Americans, reflecting distinct views of whose war it is.",
+"fields": {
+"sec": {
+"themes": [
+"Public opinion, casualties & the use of force"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Race in international politics",
+"Racial attitudes"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "ballardrosa2024",
 "label": "Ballard-Rosa 2024",
 "title": "Trade as Villain: Belief in the American Dream and Declining Support for Globalization",
@@ -7354,6 +9122,33 @@
 },
 "span": 2,
 "degree": 3
+},
+{
+"id": "patterson1997",
+"label": "Patterson 1997",
+"title": "The Ordeal of Integration: Progress and Resentment in America’s \"Racial\" Crisis",
+"authors": "Orlando Patterson",
+"year": 1997,
+"journal": "Civitas/Counterpoint (book)",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/ABQZGR9S",
+"claim": "Integration has made great progress; racial essentialism on both left and right hinders it.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Race in political theory"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
 },
 {
 "id": "adsera2002",
@@ -7496,6 +9291,35 @@
 "degree": 2
 },
 {
+"id": "white2007",
+"label": "White 2007",
+"title": "When Race Matters and When It Doesn't: Racial Group Differences in Response to Racial Cues",
+"authors": "Ismail K. White",
+"year": 2007,
+"journal": "APSR",
+"doi": "10.1017/s0003055407070177",
+"zotero": null,
+"claim": "Racial cues work differently for Black and white Americans.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial priming, cues & campaign appeals",
+"Black politics, protest & the civil rights movement"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "kurtzschrank2007",
 "label": "Kurtz 2007",
 "title": "Growth and Governance: Models, Measures, and Mechanisms",
@@ -7545,6 +9369,34 @@
 "themes": [
 "Development, public goods & distributive politics",
 "Political agency, accountability & selection"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "lee2008",
+"label": "Lee 2008",
+"title": "Race, Immigration, and the Identity-to-Politics Link",
+"authors": "Taeku Lee",
+"year": 2008,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev.polisci.11.051707.122615",
+"zotero": null,
+"claim": "Links between racial identity and political action depend on context and immigration.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Group consciousness, linked fate & racial identity",
+"Immigration attitudes, nativism & enforcement"
 ],
 "degree": 1
 }
@@ -7688,6 +9540,33 @@
 "themes": [
 "Civil war onset",
 "Regime type, democratic peace & autocratic conflict"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "mcclain2009",
+"label": "McClain 2009",
+"title": "Group Membership, Group Identity, and Group Consciousness: Measures of Racial Identity in American Politics?",
+"authors": "Paula D. McClain, Jessica D. Johnson Carew, Eugene Walton & Candis S. Watts",
+"year": 2009,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev.polisci.10.072805.102452",
+"zotero": null,
+"claim": "Reviews racial identity, linked fate and group consciousness measures.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Group consciousness, linked fate & racial identity"
 ],
 "degree": 1
 }
@@ -7855,6 +9734,34 @@
 "themes": [
 "Digital divides & inequality",
 "Digital activism, connective action & participation"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "hopkins2010",
+"label": "Hopkins 2010",
+"title": "Politicized Places: Explaining Where and When Immigrants Provoke Local Opposition",
+"authors": "Daniel J. Hopkins",
+"year": 2010,
+"journal": "APSR",
+"doi": "10.1017/s0003055409990360",
+"zotero": null,
+"claim": "Sudden immigrant influx provokes local opposition when national rhetoric makes immigration salient.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement",
+"Context, contact, threat & segregation"
 ],
 "degree": 1
 }
@@ -8057,6 +9964,35 @@
 "degree": 2
 },
 {
+"id": "hughes2011",
+"label": "Hughes 2011",
+"title": "Intersectionality, Quotas, and Minority Women's Political Representation Worldwide",
+"authors": "Melanie M. Hughes",
+"year": 2011,
+"journal": "APSR",
+"doi": "10.1017/s0003055411000293",
+"zotero": null,
+"claim": "Quotas designed for women or minorities alone advantage majority women and minority men; minority women gain only from combined quotas.",
+"fields": {
+"cp": {
+"themes": [
+"Gender & representation",
+"Ethnic politics & identity"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Intersectionality",
+"Descriptive & substantive representation"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "gartzke2011",
 "label": "Gartzke 2011",
 "title": "Multilateralism and Democracy: A Dissent Regarding Keohane, Macedo, and Moravcsik",
@@ -8133,6 +10069,63 @@
 "themes": [
 "Public opinion, casualties & the use of force",
 "Institutions, laws of war & international courts"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "valentino2013",
+"label": "Valentino 2012",
+"title": "Immigration Opposition Among U.S. Whites: General Ethnocentrism or Media Priming of Attitudes About Latinos?",
+"authors": "Nicholas A. Valentino, Ted Brader & Ashley E. Jardina",
+"year": 2012,
+"journal": "Political Psychology",
+"doi": "10.1111/j.1467-9221.2012.00928.x",
+"zotero": null,
+"claim": "White opposition to immigration reflects attitudes toward Latinos primed by media.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"News media, selective exposure & social media"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement",
+"Racial attitudes"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "kastellec2013",
+"label": "Kastellec 2012",
+"title": "Racial Diversity and Judicial Influence on Appellate Courts",
+"authors": "Jonathan P. Kastellec",
+"year": 2012,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2012.00618.x",
+"zotero": null,
+"claim": "Black judges change colleagues' votes on affirmative action panels.",
+"fields": {
+"ap": {
+"themes": [
+"Courts & judicial politics",
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Descriptive & substantive representation"
 ],
 "degree": 1
 }
@@ -8255,6 +10248,34 @@
 "degree": 2
 },
 {
+"id": "franck2012",
+"label": "Franck 2012",
+"title": "Does the Leader's Ethnicity Matter? Ethnic Favoritism, Education, and Health in Sub-Saharan Africa",
+"authors": "RAPHAËL Franck & Ilia Rainer",
+"year": 2012,
+"journal": "APSR",
+"doi": "10.1017/s0003055412000172",
+"zotero": null,
+"claim": "Leaders' coethnics receive better education and health outcomes in Africa.",
+"fields": {
+"cp": {
+"themes": [
+"Ethnic politics & identity",
+"Clientelism, distributive politics & accountability"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "theisen2012",
 "label": "Theisen 2012",
 "title": "Climate Wars? Assessing the Claim That Drought Breeds Conflict",
@@ -8275,34 +10296,6 @@
 "themes": [
 "Civil war onset",
 "Economics of security"
-],
-"degree": 1
-}
-},
-"span": 2,
-"degree": 2
-},
-{
-"id": "malhotra2013",
-"label": "Malhotra 2013",
-"title": "Economic Explanations for Opposition to Immigration: Distinguishing between Prevalence and Conditional Impact",
-"authors": "Neil Malhotra, Yotam Margalit & Cecilia Hyunjung Mo",
-"year": 2013,
-"journal": "AJPS",
-"doi": "10.1111/ajps.12012",
-"zotero": null,
-"claim": "Labor-market threat drives opposition to high-skilled immigration among the small group of tech workers who compete directly, even if the average effect looks small.",
-"fields": {
-"ap": {
-"themes": [
-"Race, ethnicity & immigration",
-"Opinion formation"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"Migration politics"
 ],
 "degree": 1
 }
@@ -8413,6 +10406,34 @@
 "tech": {
 "themes": [
 "Cyber conflict, security & military AI"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "white2015",
+"label": "White 2014",
+"title": "What Do I Need to Vote? Bureaucratic Discretion and Discrimination by Local Election Officials",
+"authors": "Ariel R. White, Noah L. Nathan & Julie K. Faller",
+"year": 2014,
+"journal": "APSR",
+"doi": "10.1017/s0003055414000562",
+"zotero": null,
+"claim": "Local election officials answer Latino-named emails less often and less accurately.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Voting rights, redistricting & election administration"
 ],
 "degree": 1
 }
@@ -8666,6 +10687,34 @@
 "tech": {
 "themes": [
 "Social media, polarization & the public sphere"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "bowlerdonovan2016",
+"label": "Bowler 2016",
+"title": "A Partisan Model of Electoral Reform: Voter Identification Laws and Confidence in State Elections",
+"authors": "Shaun Bowler & Todd Donovan",
+"year": 2016,
+"journal": "State Politics & Policy Quarterly",
+"doi": "10.1177/1532440015624102",
+"zotero": null,
+"claim": "Partisanship drives support for voter ID laws and confidence in elections.",
+"fields": {
+"ap": {
+"themes": [
+"States, localities & policy diffusion",
+"Turnout, mobilization & participation"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Voting rights, redistricting & election administration"
 ],
 "degree": 1
 }
@@ -9177,6 +11226,35 @@
 "degree": 2
 },
 {
+"id": "myers2019",
+"label": "Myers 2018",
+"title": "Beyond the Psychological Wage: Du Bois on White Dominion",
+"authors": "Ella Myers",
+"year": 2018,
+"journal": "Political Theory",
+"doi": "10.1177/0090591718791744",
+"zotero": null,
+"claim": "Du Bois theorized white dominion beyond a psychological wage.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice",
+"History of political thought & comparative political theory"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Race in political theory",
+"White identity, status threat & racial backlash"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "guess2019",
 "label": "Guess 2019",
 "title": "Less Than You Think: Prevalence and Predictors of Fake News Dissemination on Facebook",
@@ -9197,6 +11275,63 @@
 "tech": {
 "themes": [
 "Misinformation, bots, deepfakes & computational propaganda"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "hopkins2019",
+"label": "Hopkins 2019",
+"title": "The Muted Consequences of Correct Information about Immigration",
+"authors": "Daniel J. Hopkins, John Sides & Jack Citrin",
+"year": 2019,
+"journal": "JOP",
+"doi": "10.1086/699914",
+"zotero": null,
+"claim": "Correct information about immigrant numbers shifts beliefs but not attitudes toward immigration.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "lowande2019",
+"label": "Lowande 2019",
+"title": "Descriptive and Substantive Representation in Congress: Evidence from 80,000 Congressional Inquiries",
+"authors": "Kenneth Lowande, Melinda Ritchie & Erinn Lauterbach",
+"year": 2019,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12443",
+"zotero": null,
+"claim": "Women and minority members advocate for their groups in contacts with agencies.",
+"fields": {
+"ap": {
+"themes": [
+"Representation, responsiveness & inequality",
+"Gender & political representation",
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Descriptive & substantive representation"
 ],
 "degree": 1
 }
@@ -9346,6 +11481,34 @@
 "degree": 2
 },
 {
+"id": "knox2020",
+"label": "Knox 2020",
+"title": "Administrative Records Mask Racially Biased Policing",
+"authors": "Dean Knox, Will Lowe & Jonathan Mummolo",
+"year": 2020,
+"journal": "APSR",
+"doi": "10.1017/s0003055420000039",
+"zotero": null,
+"claim": "Administrative records undercount racial bias in policing because stops themselves are selected.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Courts & judicial politics"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Policing, criminal justice & the carceral state"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "goldstein2020",
 "label": "Goldstein 2020",
 "title": "China's Grand Strategy under Xi Jinping: Reassurance, Reform, and Resistance",
@@ -9374,6 +11537,34 @@
 "degree": 2
 },
 {
+"id": "cantonipons2021",
+"label": "Cantoni 2021",
+"title": "Strict ID Laws Don't Stop Voters: Evidence from a U.S. Nationwide Panel, 2008-2018",
+"authors": "Enrico Cantoni & Vincent Pons",
+"year": 2021,
+"journal": "Quarterly Journal of Economics",
+"doi": null,
+"zotero": null,
+"claim": "Strict voter ID laws had no significant negative effect on turnout or on its racial gap.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Race, ethnicity & immigration"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Voting rights, redistricting & election administration"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "guess2021",
 "label": "Guess 2021",
 "title": "(Almost) Everything in Moderation: New Evidence on Americans' Online Media Diets",
@@ -9393,6 +11584,35 @@
 "tech": {
 "themes": [
 "Social media, polarization & the public sphere"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "renynewman2021",
+"label": "Reny 2021",
+"title": "The Opinion-Mobilizing Effect of Social Protest against Police Violence: Evidence from the 2020 George Floyd Protests",
+"authors": "Tyler T. Reny & Benjamin J. Newman",
+"year": 2021,
+"journal": "APSR",
+"doi": "10.1017/s0003055421000460",
+"zotero": null,
+"claim": "George Floyd protests shifted opinion on police and anti-Black discrimination.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Black politics, protest & the civil rights movement",
+"Policing, criminal justice & the carceral state"
 ],
 "degree": 1
 }
@@ -9478,6 +11698,34 @@
 "themes": [
 "Digital authoritarianism, censorship & propaganda",
 "Surveillance, datafication & privacy"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "buzas2021",
+"label": "Búzás 2021",
+"title": "Racism and Antiracism in the Liberal International Order",
+"authors": "Zoltán I. Búzás",
+"year": 2021,
+"journal": "IO",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/3FCLAURH",
+"claim": "The liberal order's racial diversity regimes emerge from struggles between racial and antiracist transnational coalitions.",
+"fields": {
+"ir": {
+"themes": [
+"International order, hierarchy & contestation",
+"Norms, socialization & constructivism"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Race in international politics"
 ],
 "degree": 1
 }
@@ -9650,6 +11898,34 @@
 "ir": {
 "themes": [
 "Domestic politics & international commitments"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "gaikwad2025",
+"label": "Gaikwad 2025",
+"title": "Bridging the Gulf: How Migration Fosters Tolerance, Cosmopolitanism, and Support for Globalization",
+"authors": "Nikhar Gaikwad et al.",
+"year": 2025,
+"journal": "AJPS",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/8L3DB7DV",
+"claim": "Migration itself fosters tolerance, cosmopolitan identity and support for cooperation among migrants, through sustained intergroup contact.",
+"fields": {
+"ipe": {
+"themes": [
+"Migration politics"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement",
+"Race in international politics"
 ],
 "degree": 1
 }

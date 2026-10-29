@@ -1,0 +1,6004 @@
+{
+ "meta": {
+  "title": "Race, ethnicity and politics knowledge network, c. 1903-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in race, ethnicity and politics (REP): race and American political development, racial attitudes and resentment, racial priming, white identity and backlash, linked fate and group consciousness, Black, Latino and Asian American politics, immigration attitudes and enforcement, descriptive and substantive representation, voting rights and redistricting, participation, race and partisan realignment, policing and the carceral state, race and welfare policy, context, contact and segregation, intersectionality, race in political theory, comparative ethnic politics, and race in international politics. Seeds come from this repo's papers.json; works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (REP journals plus political science journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 361,
+   "theme_nodes": 20,
+   "seed_from_papers_json": 20,
+   "crossref_top_cited": 213,
+   "anchors_supplement": 128,
+   "relation_edges": 402,
+   "membership_edges": 594
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "dubois1935",
+   "target": "dubois1903",
+   "type": "builds_on",
+   "why": "Extends the color-line thesis to the political economy of Reconstruction."
+  },
+  {
+   "source": "myrdal1944",
+   "target": "dubois1903",
+   "type": "challenges",
+   "why": "Frames the color line as a moral dilemma resolvable within the American creed."
+  },
+  {
+   "source": "key1949",
+   "target": "myrdal1944",
+   "type": "qualifies",
+   "why": "Shows southern politics organized by local racial threat, not creed."
+  },
+  {
+   "source": "kousser1974",
+   "target": "key1949",
+   "type": "challenges",
+   "why": "Attributes the one-party South to deliberate disfranchisement rather than demography alone."
+  },
+  {
+   "source": "omiwinant1986",
+   "target": "dubois1935",
+   "type": "builds_on",
+   "why": "Race as a political project made through the state."
+  },
+  {
+   "source": "smith1993",
+   "target": "myrdal1944",
+   "type": "challenges",
+   "why": "Ascriptive traditions are as American as the liberal creed."
+  },
+  {
+   "source": "smith1997",
+   "target": "smith1993",
+   "type": "builds_on",
+   "why": "Traces multiple traditions through citizenship law."
+  },
+  {
+   "source": "marx1998",
+   "target": "omiwinant1986",
+   "type": "extends_to_new_case",
+   "why": "Comparative state-made racial orders in South Africa, the US and Brazil."
+  },
+  {
+   "source": "klinkner1999",
+   "target": "myrdal1944",
+   "type": "challenges",
+   "why": "Racial progress is episodic, not a steady working-out of the creed."
+  },
+  {
+   "source": "kingsmith2005",
+   "target": "smith1993",
+   "type": "builds_on",
+   "why": "Formalizes multiple traditions as competing racial orders."
+  },
+  {
+   "source": "kingsmith2005",
+   "target": "omiwinant1986",
+   "type": "synthesizes",
+   "why": "Combines racial formation with institutional analysis."
+  },
+  {
+   "source": "katznelson2005",
+   "target": "lieberman1998",
+   "type": "builds_on",
+   "why": "New Deal benefits channeled to whites by southern Democrats."
+  },
+  {
+   "source": "valelly2004",
+   "target": "kousser1974",
+   "type": "builds_on",
+   "why": "Compares the failed and successful Reconstructions of Black enfranchisement."
+  },
+  {
+   "source": "mickey2015",
+   "target": "key1949",
+   "type": "builds_on",
+   "why": "Southern states as authoritarian enclaves."
+  },
+  {
+   "source": "mickey2015",
+   "target": "mickey2008",
+   "type": "builds_on",
+   "why": "Book-length account of enclave democratization begun with Smith v. Allwright."
+  },
+  {
+   "source": "mickey2008",
+   "target": "key1949",
+   "type": "builds_on",
+   "why": "The white primary as pillar of the one-party South."
+  },
+  {
+   "source": "hochschildpowell2008",
+   "target": "omiwinant1986",
+   "type": "extends_to_new_case",
+   "why": "Census categories as a racial project, 1850-1930."
+  },
+  {
+   "source": "acharya2016",
+   "target": "key1949",
+   "type": "builds_on",
+   "why": "Slavery legacy behind white racial attitudes in the Black Belt."
+  },
+  {
+   "source": "smithking2021",
+   "target": "kingsmith2005",
+   "type": "builds_on",
+   "why": "Racial orders now align with the two parties."
+  },
+  {
+   "source": "epperly2019",
+   "target": "kousser1974",
+   "type": "builds_on",
+   "why": "Lynching and Jim Crow suppression as roots of current voting restrictions."
+  },
+  {
+   "source": "junn2007",
+   "target": "omiwinant1986",
+   "type": "extends_to_new_case",
+   "why": "State construction of the model minority."
+  },
+  {
+   "source": "weaver2007",
+   "target": "kingsmith2005",
+   "type": "extends_to_new_case",
+   "why": "Racial orders in crime policy."
+  },
+  {
+   "source": "feinsteinschickler2008",
+   "target": "carmines1989",
+   "type": "challenges",
+   "why": "Civil rights realignment began in state parties before 1964."
+  },
+  {
+   "source": "dawson1994",
+   "target": "dubois1903",
+   "type": "builds_on",
+   "why": "Black political thought and group interest."
+  },
+  {
+   "source": "blumer1958",
+   "target": "allport1954",
+   "type": "challenges",
+   "why": "Prejudice as group position rather than individual faulty generalization."
+  },
+  {
+   "source": "kindersears1981",
+   "target": "allport1954",
+   "type": "qualifies",
+   "why": "Symbolic racism blends affect and values instead of realistic threat."
+  },
+  {
+   "source": "bobo1983",
+   "target": "kindersears1981",
+   "type": "challenges",
+   "why": "Realistic group conflict explains opposition to busing."
+  },
+  {
+   "source": "bobo1983",
+   "target": "blumer1958",
+   "type": "builds_on",
+   "why": "Group conflict and position."
+  },
+  {
+   "source": "sniderman1993",
+   "target": "kindersears1981",
+   "type": "challenges",
+   "why": "Principled conservatism, not symbolic racism, drives policy opposition."
+  },
+  {
+   "source": "kindersanders1996",
+   "target": "kindersears1981",
+   "type": "builds_on",
+   "why": "Racial resentment as successor to symbolic racism."
+  },
+  {
+   "source": "kindersanders1996",
+   "target": "sniderman1993",
+   "type": "challenges",
+   "why": "Resentment, not principle, explains white policy opinion."
+  },
+  {
+   "source": "bobohutchings1996",
+   "target": "blumer1958",
+   "type": "extends_to_new_case",
+   "why": "Group position in a multiracial setting."
+  },
+  {
+   "source": "sidaniuspratto1999",
+   "target": "blumer1958",
+   "type": "synthesizes",
+   "why": "Group hierarchy maintained by legitimizing myths and dominance orientation."
+  },
+  {
+   "source": "henrysears2002",
+   "target": "kindersears1981",
+   "type": "builds_on",
+   "why": "Refined symbolic racism scale."
+  },
+  {
+   "source": "hochschild1995",
+   "target": "myrdal1944",
+   "type": "qualifies",
+   "why": "Belief in the American dream divides by race and class."
+  },
+  {
+   "source": "bonillasilva2003",
+   "target": "omiwinant1986",
+   "type": "builds_on",
+   "why": "Color-blind racism as the post-civil-rights racial ideology."
+  },
+  {
+   "source": "hutchingsvalentino2004",
+   "target": "kindersanders1996",
+   "type": "synthesizes",
+   "why": "Reviews the centrality of race in opinion and campaigns."
+  },
+  {
+   "source": "kinderkam2009",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "From racial resentment to general ethnocentrism."
+  },
+  {
+   "source": "huddyfeldman2009",
+   "target": "kindersanders1996",
+   "type": "qualifies",
+   "why": "Measurement doubts about resentment as prejudice."
+  },
+  {
+   "source": "huddyfeldman2009",
+   "target": "sniderman1993",
+   "type": "synthesizes",
+   "why": "Weighs prejudice and principle accounts."
+  },
+  {
+   "source": "mcfarland2010",
+   "target": "sidaniuspratto1999",
+   "type": "builds_on",
+   "why": "Social dominance and authoritarianism as roots of prejudice."
+  },
+  {
+   "source": "piston2010",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Explicit prejudice cost Obama votes."
+  },
+  {
+   "source": "valentinobrader2011",
+   "target": "piston2010",
+   "type": "extends_to_new_case",
+   "why": "Obama era shifts in perceived discrimination."
+  },
+  {
+   "source": "tesler2012",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Racial resentment spills into health care opinion via Obama."
+  },
+  {
+   "source": "tesler2013",
+   "target": "tesler2012",
+   "type": "builds_on",
+   "why": "Old-fashioned racism returns to partisanship under Obama."
+  },
+  {
+   "source": "banksvalentino2012",
+   "target": "kindersanders1996",
+   "type": "qualifies",
+   "why": "Anger is the emotional substrate of resentment."
+  },
+  {
+   "source": "kalmoepiston2013",
+   "target": "perez2010",
+   "type": "challenges",
+   "why": "Implicit prejudice adds little beyond explicit measures."
+  },
+  {
+   "source": "desante2013",
+   "target": "gilens1999",
+   "type": "mechanism_tested_by",
+   "why": "Tests the deservingness mechanism behind racialized welfare opinion."
+  },
+  {
+   "source": "filindrakaplan2015",
+   "target": "kindersanders1996",
+   "type": "extends_to_new_case",
+   "why": "Resentment and gun policy."
+  },
+  {
+   "source": "kamburge2018",
+   "target": "kindersanders1996",
+   "type": "qualifies",
+   "why": "The resentment scale means different things across races."
+  },
+  {
+   "source": "chudy2021",
+   "target": "kindersanders1996",
+   "type": "qualifies",
+   "why": "Racial sympathy as a distinct white attitude."
+  },
+  {
+   "source": "cramer2020",
+   "target": "kindersanders1996",
+   "type": "synthesizes",
+   "why": "Reviews racism in contemporary US opinion."
+  },
+  {
+   "source": "engelhardt2020",
+   "target": "tesler2016",
+   "type": "challenges",
+   "why": "Partisanship now shapes racial attitudes, reversing the causal arrow."
+  },
+  {
+   "source": "jardinapiston2023",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Racist dehumanization as an overlooked dimension."
+  },
+  {
+   "source": "lajevardi2018",
+   "target": "kindersanders1996",
+   "type": "extends_to_new_case",
+   "why": "Old-fashioned racism and Islamophobia in 2016."
+  },
+  {
+   "source": "millerdavis2020",
+   "target": "kindersanders1996",
+   "type": "extends_to_new_case",
+   "why": "Social prejudice and support for democracy."
+  },
+  {
+   "source": "davisernst2017",
+   "target": "bonillasilva2003",
+   "type": "builds_on",
+   "why": "Racial gaslighting as a mechanism of color-blind white supremacy."
+  },
+  {
+   "source": "hopkinswashington2020",
+   "target": "piston2010",
+   "type": "qualifies",
+   "why": "Expressed prejudice fell during the Trump era."
+  },
+  {
+   "source": "glasgow2009",
+   "target": "blumer1958",
+   "type": "synthesizes",
+   "why": "Racism as disrespect, a normative account of prejudice."
+  },
+  {
+   "source": "perez2010",
+   "target": "kinderkam2009",
+   "type": "builds_on",
+   "why": "Implicit attitudes toward Latinos and immigration."
+  },
+  {
+   "source": "greenriley2023",
+   "target": "kindersanders1996",
+   "type": "extends_to_new_case",
+   "why": "Race and the gap in support for using force abroad."
+  },
+  {
+   "source": "mendelberg2001",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Implicit racial appeals prime resentment."
+  },
+  {
+   "source": "gilliamiyengar2000",
+   "target": "kindersanders1996",
+   "type": "mechanism_tested_by",
+   "why": "Tests priming of racial attitudes through crime news."
+  },
+  {
+   "source": "valentino2002",
+   "target": "mendelberg2001",
+   "type": "mechanism_tested_by",
+   "why": "Tests implicit racial cues in campaign ads."
+  },
+  {
+   "source": "huberlapinski2006",
+   "target": "mendelberg2001",
+   "type": "challenges",
+   "why": "Explicit appeals work as well as implicit ones."
+  },
+  {
+   "source": "white2007",
+   "target": "mendelberg2001",
+   "type": "qualifies",
+   "why": "Racial cues work differently for Black and white Americans."
+  },
+  {
+   "source": "mendelberg2008",
+   "target": "huberlapinski2006",
+   "type": "challenges",
+   "why": "Defends the implicit-explicit model."
+  },
+  {
+   "source": "hutchingsjardina2009",
+   "target": "mendelberg2001",
+   "type": "synthesizes",
+   "why": "Reviews racial priming experiments."
+  },
+  {
+   "source": "valentino2018",
+   "target": "mendelberg2001",
+   "type": "challenges",
+   "why": "Norms against explicit racial rhetoric have weakened; priming may have ended."
+  },
+  {
+   "source": "newman2020",
+   "target": "valentino2018",
+   "type": "builds_on",
+   "why": "Inflammatory elite rhetoric emboldens prejudice."
+  },
+  {
+   "source": "stephensdougan2020",
+   "target": "mendelberg2001",
+   "type": "builds_on",
+   "why": "Racial appeals by both parties, including distancing."
+  },
+  {
+   "source": "stephensdougan2021",
+   "target": "stephensdougan2020",
+   "type": "synthesizes",
+   "why": "Reviews persistent racial cues in elections."
+  },
+  {
+   "source": "weaver2011",
+   "target": "mendelberg2001",
+   "type": "extends_to_new_case",
+   "why": "Skin tone as a hidden racial cue."
+  },
+  {
+   "source": "philpot2007",
+   "target": "mendelberg2001",
+   "type": "extends_to_new_case",
+   "why": "Racial imagery in Republican outreach."
+  },
+  {
+   "source": "perez2013",
+   "target": "valentino2002",
+   "type": "extends_to_new_case",
+   "why": "Elite discourse primes ethnic identities."
+  },
+  {
+   "source": "krupnikovpiston2014",
+   "target": "piston2010",
+   "type": "builds_on",
+   "why": "Prejudice depresses white turnout with Black candidates."
+  },
+  {
+   "source": "brader2008",
+   "target": "valentino2002",
+   "type": "extends_to_new_case",
+   "why": "Group cues and anxiety in immigration news."
+  },
+  {
+   "source": "olson2004",
+   "target": "dubois1935",
+   "type": "builds_on",
+   "why": "The wages of whiteness as a form of citizenship."
+  },
+  {
+   "source": "parkerbarreto2013",
+   "target": "blumer1958",
+   "type": "builds_on",
+   "why": "Reactionary defense of group position in the Tea Party."
+  },
+  {
+   "source": "craigricheson2014",
+   "target": "blumer1958",
+   "type": "mechanism_tested_by",
+   "why": "Tests status threat from the demographic shift."
+  },
+  {
+   "source": "abrajanohajnal2015",
+   "target": "key1949",
+   "type": "extends_to_new_case",
+   "why": "Racial threat from Latino immigration drives white partisanship."
+  },
+  {
+   "source": "abrajanohajnal2015",
+   "target": "hajnallee2011",
+   "type": "builds_on",
+   "why": "Immigration reshapes white partisanship."
+  },
+  {
+   "source": "sides2018",
+   "target": "tesler2016",
+   "type": "builds_on",
+   "why": "Racialized identity politics in the 2016 campaign."
+  },
+  {
+   "source": "mutz2018",
+   "target": "craigricheson2014",
+   "type": "builds_on",
+   "why": "Status threat, not economic hardship, in the 2016 vote."
+  },
+  {
+   "source": "schaffner2018",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Racism and sexism explain the white education divide in 2016."
+  },
+  {
+   "source": "reny2019",
+   "target": "schaffner2018",
+   "type": "builds_on",
+   "why": "Racial and immigration attitudes explain vote switching."
+  },
+  {
+   "source": "jardina2019",
+   "target": "kindersanders1996",
+   "type": "challenges",
+   "why": "White in-group identity is distinct from out-group resentment."
+  },
+  {
+   "source": "jardina2019",
+   "target": "craigricheson2014",
+   "type": "builds_on",
+   "why": "White identity activated by demographic threat."
+  },
+  {
+   "source": "jardina2020",
+   "target": "jardina2019",
+   "type": "builds_on",
+   "why": "In-group love versus out-group hate in voting."
+  },
+  {
+   "source": "berry2019",
+   "target": "jardina2019",
+   "type": "extends_to_new_case",
+   "why": "White linked fate and participation."
+  },
+  {
+   "source": "jardina2019",
+   "target": "schildkraut2015",
+   "type": "builds_on",
+   "why": "White identity and attitudes toward descriptive representation."
+  },
+  {
+   "source": "baccini2021",
+   "target": "mutz2018",
+   "type": "challenges",
+   "why": "Deindustrialization triggered white backlash, so economics matters through race."
+  },
+  {
+   "source": "bartels2020",
+   "target": "jardina2019",
+   "type": "builds_on",
+   "why": "Ethnic antagonism erodes Republican commitment to democracy."
+  },
+  {
+   "source": "mason2021",
+   "target": "mutz2018",
+   "type": "builds_on",
+   "why": "Social animus uniquely predicts Trump support."
+  },
+  {
+   "source": "engelhardt2019",
+   "target": "schaffner2018",
+   "type": "builds_on",
+   "why": "Racial attitudes explain race effects on whites in 2016."
+  },
+  {
+   "source": "ennsjardina2021",
+   "target": "reny2019",
+   "type": "qualifies",
+   "why": "Complicates vote-switching accounts of 2016."
+  },
+  {
+   "source": "parkertowler2019",
+   "target": "parkerbarreto2013",
+   "type": "synthesizes",
+   "why": "Reviews authoritarianism and race."
+  },
+  {
+   "source": "schaffner2020",
+   "target": "schaffner2018",
+   "type": "extends_to_new_case",
+   "why": "Racism and sexism in the 2018 midterms."
+  },
+  {
+   "source": "cassesebarnes2019",
+   "target": "junn2017",
+   "type": "builds_on",
+   "why": "White womanhood and Republican voting."
+  },
+  {
+   "source": "cassesebarnes2019",
+   "target": "schaffner2018",
+   "type": "builds_on",
+   "why": "Sexism, class and whiteness among white women in 2016."
+  },
+  {
+   "source": "strolovitch2017",
+   "target": "junn2017",
+   "type": "builds_on",
+   "why": "White heteropatriarchy in the 2016 election."
+  },
+  {
+   "source": "virdee2017",
+   "target": "parkerbarreto2013",
+   "type": "extends_to_new_case",
+   "why": "Racialized reaction to crisis in Brexit Britain."
+  },
+  {
+   "source": "frymergrumbach2020",
+   "target": "kindersanders1996",
+   "type": "qualifies",
+   "why": "Union membership lowers white resentment."
+  },
+  {
+   "source": "feola2021",
+   "target": "olson2004",
+   "type": "builds_on",
+   "why": "Melancholic nationalism of whiteness."
+  },
+  {
+   "source": "myers2019",
+   "target": "dubois1935",
+   "type": "builds_on",
+   "why": "Du Bois on white dominion beyond the psychological wage."
+  },
+  {
+   "source": "dawson1994",
+   "target": "tate1993",
+   "type": "builds_on",
+   "why": "Linked fate as a group-interest heuristic."
+  },
+  {
+   "source": "searssavalei2006",
+   "target": "dawson1994",
+   "type": "qualifies",
+   "why": "Black exceptionalism rather than shared minority identity."
+  },
+  {
+   "source": "mcclain2009",
+   "target": "dawson1994",
+   "type": "synthesizes",
+   "why": "Reviews measures of racial identity and consciousness."
+  },
+  {
+   "source": "sanchez2006",
+   "target": "dawson1994",
+   "type": "extends_to_new_case",
+   "why": "Group consciousness among Latinos."
+  },
+  {
+   "source": "sanchez2006apr",
+   "target": "sanchez2006",
+   "type": "builds_on",
+   "why": "Consciousness raises Latino participation."
+  },
+  {
+   "source": "junnmasuoka2008",
+   "target": "dawson1994",
+   "type": "extends_to_new_case",
+   "why": "Linked fate among Asian Americans."
+  },
+  {
+   "source": "lee2008",
+   "target": "dawson1994",
+   "type": "synthesizes",
+   "why": "Reviews the identity-to-politics link across groups."
+  },
+  {
+   "source": "masuoka2008",
+   "target": "omiwinant1986",
+   "type": "extends_to_new_case",
+   "why": "Multiracial identification as racial formation."
+  },
+  {
+   "source": "gay2016",
+   "target": "dawson1994",
+   "type": "challenges",
+   "why": "The linked-fate measure does not capture the concept well."
+  },
+  {
+   "source": "bunyasi2019",
+   "target": "dawson1994",
+   "type": "qualifies",
+   "why": "Respectability politics limits linked fate."
+  },
+  {
+   "source": "vargas2017",
+   "target": "sanchez2006",
+   "type": "builds_on",
+   "why": "Immigration laws heighten Latino linked fate."
+  },
+  {
+   "source": "maltby2020",
+   "target": "vargas2017",
+   "type": "builds_on",
+   "why": "Deportation and Latino linked fate."
+  },
+  {
+   "source": "sanchez2019",
+   "target": "sanchez2006",
+   "type": "builds_on",
+   "why": "Revisits the brown-utility heuristic."
+  },
+  {
+   "source": "zepedamillan2013",
+   "target": "garciabedolla2005",
+   "type": "builds_on",
+   "why": "Protest shapes Latino racial identity."
+  },
+  {
+   "source": "perez2014",
+   "target": "perez2013",
+   "type": "builds_on",
+   "why": "Xenophobic rhetoric strengthens coethnic identity."
+  },
+  {
+   "source": "perez2020",
+   "target": "searssavalei2006",
+   "type": "qualifies",
+   "why": "Conditions for a people-of-color identity."
+  },
+  {
+   "source": "oskooii2018",
+   "target": "dawson1994",
+   "type": "extends_to_new_case",
+   "why": "Perceived discrimination and behavior among minorities."
+  },
+  {
+   "source": "davenport2020",
+   "target": "omiwinant1986",
+   "type": "builds_on",
+   "why": "Fluid racial classification."
+  },
+  {
+   "source": "whitelaird2014",
+   "target": "dawson1994",
+   "type": "mechanism_tested_by",
+   "why": "Tests social norms behind group-interest voting."
+  },
+  {
+   "source": "fouka2019",
+   "target": "oskooii2018",
+   "type": "extends_to_new_case",
+   "why": "Discrimination and assimilation, historically."
+  },
+  {
+   "source": "golashboza2008",
+   "target": "omiwinant1986",
+   "type": "extends_to_new_case",
+   "why": "Latino racial self-identification."
+  },
+  {
+   "source": "hooker2009",
+   "target": "shelby2005",
+   "type": "synthesizes",
+   "why": "Racial injustice and democratic solidarity."
+  },
+  {
+   "source": "shelby2005",
+   "target": "dubois1903",
+   "type": "builds_on",
+   "why": "Philosophical foundations of Black solidarity."
+  },
+  {
+   "source": "morris1984",
+   "target": "mcadam1982",
+   "type": "qualifies",
+   "why": "Indigenous organization in Black communities."
+  },
+  {
+   "source": "tate1993",
+   "target": "morris1984",
+   "type": "builds_on",
+   "why": "From protest to electoral politics."
+  },
+  {
+   "source": "harris1999",
+   "target": "morris1984",
+   "type": "builds_on",
+   "why": "Churches as resources for activism."
+  },
+  {
+   "source": "cohen1999",
+   "target": "dawson1994",
+   "type": "challenges",
+   "why": "Black politics marginalizes cross-cutting issues."
+  },
+  {
+   "source": "gillion2013",
+   "target": "mcadam1982",
+   "type": "builds_on",
+   "why": "Protest moves policymakers."
+  },
+  {
+   "source": "gillion2013",
+   "target": "gillion2012",
+   "type": "builds_on",
+   "why": "Extends district-level protest effects to presidents and courts."
+  },
+  {
+   "source": "wasow2020",
+   "target": "mcadam1982",
+   "type": "builds_on",
+   "why": "Nonviolent and violent protest moved opinion and votes."
+  },
+  {
+   "source": "mazumder2018",
+   "target": "mcadam1982",
+   "type": "builds_on",
+   "why": "Lasting effects of civil rights protest on attitudes."
+  },
+  {
+   "source": "enos2019",
+   "target": "mcadam1982",
+   "type": "extends_to_new_case",
+   "why": "A riot as protest that raised local policy support."
+  },
+  {
+   "source": "whitelaird2020",
+   "target": "dawson1994",
+   "type": "builds_on",
+   "why": "Social pressure behind Black Democratic loyalty."
+  },
+  {
+   "source": "whitelaird2020",
+   "target": "whitelaird2014",
+   "type": "builds_on",
+   "why": "Racialized social constraint."
+  },
+  {
+   "source": "hooker2016",
+   "target": "shelby2016",
+   "type": "synthesizes",
+   "why": "BLM and Black political theory."
+  },
+  {
+   "source": "tillery2019",
+   "target": "hooker2016",
+   "type": "builds_on",
+   "why": "How BLM frames itself on Twitter."
+  },
+  {
+   "source": "williamson2018",
+   "target": "mcadam1982",
+   "type": "builds_on",
+   "why": "Police killings as triggers of BLM protest."
+  },
+  {
+   "source": "bonillatillery2020",
+   "target": "tillery2019",
+   "type": "builds_on",
+   "why": "Identity frames and BLM support."
+  },
+  {
+   "source": "renynewman2021",
+   "target": "williamson2018",
+   "type": "builds_on",
+   "why": "George Floyd protests moved opinion."
+  },
+  {
+   "source": "towlerparker2018",
+   "target": "banks2018",
+   "type": "builds_on",
+   "why": "Anger and Black engagement under Trump."
+  },
+  {
+   "source": "banks2018",
+   "target": "banksvalentino2012",
+   "type": "extends_to_new_case",
+   "why": "Anger among Black Americans."
+  },
+  {
+   "source": "philpot2009",
+   "target": "tate1993",
+   "type": "builds_on",
+   "why": "Obama and Black turnout."
+  },
+  {
+   "source": "hochschild1995",
+   "target": "tate1993",
+   "type": "synthesizes",
+   "why": "Black and white views of the American dream."
+  },
+  {
+   "source": "nteta2012",
+   "target": "gay2006",
+   "type": "builds_on",
+   "why": "Self-interest and Black views of immigration."
+  },
+  {
+   "source": "gay2006",
+   "target": "bobohutchings1996",
+   "type": "builds_on",
+   "why": "Economic competition and Black attitudes toward Latinos."
+  },
+  {
+   "source": "mcclain2006",
+   "target": "bobohutchings1996",
+   "type": "extends_to_new_case",
+   "why": "Latino immigrants and Black Americans in the South."
+  },
+  {
+   "source": "mcclain2007",
+   "target": "mcclain2006",
+   "type": "builds_on",
+   "why": "Mutual stereotypes and coalitions."
+  },
+  {
+   "source": "adidarobinson2023",
+   "target": "fouka2019",
+   "type": "builds_on",
+   "why": "Immigrants resist assimilation into a stigmatized group."
+  },
+  {
+   "source": "fortner2013",
+   "target": "weaver2007",
+   "type": "challenges",
+   "why": "Black constituencies also pushed punitive drug laws."
+  },
+  {
+   "source": "garciabedolla2005",
+   "target": "desipio1996",
+   "type": "builds_on",
+   "why": "Identity and stigma shape Latino engagement."
+  },
+  {
+   "source": "segurarodrigues2006",
+   "target": "desipio1996",
+   "type": "synthesizes",
+   "why": "Moves ethnic politics beyond Black and white."
+  },
+  {
+   "source": "barreto2007",
+   "target": "desipio1996",
+   "type": "builds_on",
+   "why": "Latino candidates mobilize Latino voters."
+  },
+  {
+   "source": "barreto2010",
+   "target": "barreto2007",
+   "type": "builds_on",
+   "why": "Book-length theory of ethnic cues."
+  },
+  {
+   "source": "beltran2010",
+   "target": "garciabedolla2005",
+   "type": "challenges",
+   "why": "The idea of Latino unity obscures diversity."
+  },
+  {
+   "source": "fraga2010",
+   "target": "desipio1996",
+   "type": "synthesizes",
+   "why": "Latino National Survey portrait of incorporation."
+  },
+  {
+   "source": "mcconnaughy2010",
+   "target": "barreto2007",
+   "type": "builds_on",
+   "why": "Coethnic voting and white responses."
+  },
+  {
+   "source": "valenzuelamichelson2016",
+   "target": "barreto2010",
+   "type": "mechanism_tested_by",
+   "why": "Field test of group-identity appeals."
+  },
+  {
+   "source": "gutierrez2019",
+   "target": "perez2014",
+   "type": "builds_on",
+   "why": "Threat and anger mobilize Latinos."
+  },
+  {
+   "source": "white2016",
+   "target": "perez2014",
+   "type": "builds_on",
+   "why": "Enforcement threat mobilizes Latino turnout."
+  },
+  {
+   "source": "branton2014",
+   "target": "zepedamillan2013",
+   "type": "synthesizes",
+   "why": "The 2006 rallies and opinion."
+  },
+  {
+   "source": "griffinnewman2007",
+   "target": "desipio1996",
+   "type": "extends_to_new_case",
+   "why": "Latino representation in Congress."
+  },
+  {
+   "source": "kim1999",
+   "target": "omiwinant1986",
+   "type": "builds_on",
+   "why": "Racial triangulation of Asian Americans."
+  },
+  {
+   "source": "espiritu1992",
+   "target": "omiwinant1986",
+   "type": "builds_on",
+   "why": "State categorization and panethnicity."
+  },
+  {
+   "source": "lien2001",
+   "target": "espiritu1992",
+   "type": "builds_on",
+   "why": "Participation in the making of Asian America."
+  },
+  {
+   "source": "junnmasuoka2008",
+   "target": "espiritu1992",
+   "type": "builds_on",
+   "why": "Shared racial status and context."
+  },
+  {
+   "source": "junn2007",
+   "target": "kim1999",
+   "type": "builds_on",
+   "why": "From coolie to model minority."
+  },
+  {
+   "source": "wong2011",
+   "target": "lien2001",
+   "type": "builds_on",
+   "why": "National survey of Asian American participation."
+  },
+  {
+   "source": "kuo2017",
+   "target": "wong2011",
+   "type": "builds_on",
+   "why": "Social exclusion drives Asian American partisanship."
+  },
+  {
+   "source": "kim2018dbr",
+   "target": "kim1999",
+   "type": "builds_on",
+   "why": "Asian Americans and the Black-white binary."
+  },
+  {
+   "source": "merseth2018",
+   "target": "junnmasuoka2008",
+   "type": "extends_to_new_case",
+   "why": "Asian American solidarity with BLM."
+  },
+  {
+   "source": "renybarreto2020",
+   "target": "kim1999",
+   "type": "mechanism_tested_by",
+   "why": "Foreignness stereotypes activated by COVID-19."
+  },
+  {
+   "source": "wongramakrishnan2023",
+   "target": "wong2011",
+   "type": "synthesizes",
+   "why": "Review of Asian American politics."
+  },
+  {
+   "source": "hajnallee2011",
+   "target": "wong2011",
+   "type": "synthesizes",
+   "why": "Latino and Asian American nonpartisanship."
+  },
+  {
+   "source": "fragamerseth2016",
+   "target": "grofman1992",
+   "type": "extends_to_new_case",
+   "why": "Language-minority provisions of the VRA."
+  },
+  {
+   "source": "huntington2004",
+   "target": "smith1997",
+   "type": "challenges",
+   "why": "Defends an Anglo-Protestant core identity against Hispanic immigration."
+  },
+  {
+   "source": "citrin2007",
+   "target": "huntington2004",
+   "type": "challenges",
+   "why": "Hispanic immigrants assimilate into American identity."
+  },
+  {
+   "source": "rustenbach2010",
+   "target": "mayda2006",
+   "type": "builds_on",
+   "why": "Economic and non-economic sources of attitudes across Europe."
+  },
+  {
+   "source": "rustenbach2010",
+   "target": "sidescitrin2007",
+   "type": "builds_on",
+   "why": "Multilevel sources of European attitudes."
+  },
+  {
+   "source": "sidescitrin2007",
+   "target": "kindersears1981",
+   "type": "extends_to_new_case",
+   "why": "Symbolic identities over material interests, applied to European immigration opinion."
+  },
+  {
+   "source": "brader2008",
+   "target": "sidescitrin2007",
+   "type": "builds_on",
+   "why": "Group cues and anxiety drive opposition."
+  },
+  {
+   "source": "hainmueller2010",
+   "target": "mayda2006",
+   "type": "challenges",
+   "why": "Labor-market competition does not explain attitudes toward skilled immigrants."
+  },
+  {
+   "source": "hopkins2010",
+   "target": "key1949",
+   "type": "extends_to_new_case",
+   "why": "Sudden local immigrant influx plus national rhetoric triggers opposition."
+  },
+  {
+   "source": "valentino2013",
+   "target": "kinderkam2009",
+   "type": "builds_on",
+   "why": "Ethnocentrism versus Latino-specific priming."
+  },
+  {
+   "source": "malhotra2013",
+   "target": "hainmueller2010",
+   "type": "qualifies",
+   "why": "Labor competition matters for a subset of workers."
+  },
+  {
+   "source": "hainmuellerhopkins2015",
+   "target": "hainmueller2010",
+   "type": "builds_on",
+   "why": "Conjoint shows a hidden consensus on immigrant attributes."
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "hainmueller2010",
+   "type": "synthesizes",
+   "why": "Reviews political economy and sociotropic explanations."
+  },
+  {
+   "source": "dancygier2013",
+   "target": "hainmueller2010",
+   "type": "qualifies",
+   "why": "Sectoral economics shape attitudes."
+  },
+  {
+   "source": "hopkins2019",
+   "target": "sidescitrin2007",
+   "type": "builds_on",
+   "why": "Correcting misperceptions has muted effects."
+  },
+  {
+   "source": "perez2010",
+   "target": "brader2008",
+   "type": "builds_on",
+   "why": "Implicit bias in immigration judgments."
+  },
+  {
+   "source": "branton2011",
+   "target": "brader2008",
+   "type": "builds_on",
+   "why": "Acculturation fear and anti-Latino affect."
+  },
+  {
+   "source": "farris2018",
+   "target": "brader2008",
+   "type": "builds_on",
+   "why": "Media images criminalize immigrants."
+  },
+  {
+   "source": "sirin2016",
+   "target": "kinderkam2009",
+   "type": "challenges",
+   "why": "Group empathy as counterweight to ethnocentrism."
+  },
+  {
+   "source": "degenova2013",
+   "target": "smith1997",
+   "type": "synthesizes",
+   "why": "Illegality as a produced exclusion."
+  },
+  {
+   "source": "vertovec2007",
+   "target": "brubaker2004",
+   "type": "builds_on",
+   "why": "Super-diversity beyond bounded groups."
+  },
+  {
+   "source": "ford2011",
+   "target": "sidescitrin2007",
+   "type": "builds_on",
+   "why": "Racial hierarchy of preferred migrants in Britain."
+  },
+  {
+   "source": "koopmans2010",
+   "target": "bloemraad2007",
+   "type": "challenges",
+   "why": "Multiculturalism plus generous welfare produces poorer integration."
+  },
+  {
+   "source": "koopmans2010",
+   "target": "vertovec2007",
+   "type": "qualifies",
+   "why": "Welfare-state settings shape integration outcomes."
+  },
+  {
+   "source": "hainmuellerhangartner2013",
+   "target": "hainmueller2010",
+   "type": "extends_to_new_case",
+   "why": "Discrimination in Swiss naturalization votes."
+  },
+  {
+   "source": "hainmueller2017",
+   "target": "hainmuellerhangartner2013",
+   "type": "builds_on",
+   "why": "Naturalization effects on integration."
+  },
+  {
+   "source": "bratsberg2021",
+   "target": "hainmueller2017",
+   "type": "extends_to_new_case",
+   "why": "Refugee settlement and political integration."
+  },
+  {
+   "source": "dancygierlaitin2014",
+   "target": "hainmueller2014",
+   "type": "synthesizes",
+   "why": "Review of immigration politics in Europe."
+  },
+  {
+   "source": "rydgren2008",
+   "target": "sidescitrin2007",
+   "type": "extends_to_new_case",
+   "why": "Immigration skepticism and radical-right voting."
+  },
+  {
+   "source": "brubaker2017",
+   "target": "rydgren2008",
+   "type": "builds_on",
+   "why": "From nationalism to civilizationism."
+  },
+  {
+   "source": "masuokajunn2013",
+   "target": "huntington2004",
+   "type": "challenges",
+   "why": "A racial hierarchy of belonging shapes immigration views."
+  },
+  {
+   "source": "reny2019",
+   "target": "hainmuellerhopkins2015",
+   "type": "builds_on",
+   "why": "Immigration attitudes and 2016 vote switching."
+  },
+  {
+   "source": "kallabroockman2021",
+   "target": "allport1954",
+   "type": "mechanism_tested_by",
+   "why": "Tests narrative exchange as a form of contact."
+  },
+  {
+   "source": "gaikwad2025",
+   "target": "allport1954",
+   "type": "extends_to_new_case",
+   "why": "Migration abroad fosters tolerance at home."
+  },
+  {
+   "source": "goodman2021",
+   "target": "lakereynolds2008",
+   "type": "builds_on",
+   "why": "Racial exclusion underwrote embedded liberalism."
+  },
+  {
+   "source": "heropreuhs2007",
+   "target": "hero1998",
+   "type": "builds_on",
+   "why": "Immigration and state welfare generosity."
+  },
+  {
+   "source": "lakereynolds2008",
+   "target": "dubois1915",
+   "type": "builds_on",
+   "why": "The global colour line."
+  },
+  {
+   "source": "swain1993",
+   "target": "bobogilliam1990",
+   "type": "challenges",
+   "why": "Substantive representation does not require descriptive representation."
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "swain1993",
+   "type": "qualifies",
+   "why": "Descriptive representation is valuable under specific conditions."
+  },
+  {
+   "source": "canon1999",
+   "target": "swain1993",
+   "type": "challenges",
+   "why": "Black members represent differently."
+  },
+  {
+   "source": "tate2003",
+   "target": "mansbridge1999",
+   "type": "builds_on",
+   "why": "Constituents value descriptive representation."
+  },
+  {
+   "source": "gay2001",
+   "target": "bobogilliam1990",
+   "type": "qualifies",
+   "why": "Black representation does not uniformly raise turnout."
+  },
+  {
+   "source": "gay2002",
+   "target": "gay2001",
+   "type": "builds_on",
+   "why": "Descriptive representation and trust."
+  },
+  {
+   "source": "griffinkeane2006",
+   "target": "gay2001",
+   "type": "builds_on",
+   "why": "Representation and the composition of Black turnout."
+  },
+  {
+   "source": "preuhs2006",
+   "target": "swain1993",
+   "type": "qualifies",
+   "why": "Black legislators matter when they hold institutional power."
+  },
+  {
+   "source": "gamble2007",
+   "target": "canon1999",
+   "type": "builds_on",
+   "why": "Committee activity of Black members."
+  },
+  {
+   "source": "minta2009",
+   "target": "gamble2007",
+   "type": "builds_on",
+   "why": "Oversight and minority interests."
+  },
+  {
+   "source": "minta2012",
+   "target": "minta2009",
+   "type": "builds_on",
+   "why": "Diversity and responsiveness."
+  },
+  {
+   "source": "grose2011",
+   "target": "canon1999",
+   "type": "builds_on",
+   "why": "Constituency service and race."
+  },
+  {
+   "source": "butlerbroockman2011",
+   "target": "swain1993",
+   "type": "mechanism_tested_by",
+   "why": "Legislators discriminate against Black constituents."
+  },
+  {
+   "source": "broockman2013",
+   "target": "butlerbroockman2011",
+   "type": "builds_on",
+   "why": "Black politicians intrinsically motivated to advance Black interests."
+  },
+  {
+   "source": "griffin2014",
+   "target": "mansbridge1999",
+   "type": "synthesizes",
+   "why": "When minority legislators matter."
+  },
+  {
+   "source": "lowande2019",
+   "target": "minta2009",
+   "type": "builds_on",
+   "why": "Descriptive representation in oversight letters."
+  },
+  {
+   "source": "kastellec2013",
+   "target": "mansbridge1999",
+   "type": "extends_to_new_case",
+   "why": "Racial diversity on appellate courts."
+  },
+  {
+   "source": "juenkeshah2016",
+   "target": "canon1999",
+   "type": "qualifies",
+   "why": "Candidate supply limits minority officeholding."
+  },
+  {
+   "source": "grumbachsahn2020",
+   "target": "juenkeshah2016",
+   "type": "builds_on",
+   "why": "Campaign finance and minority candidates."
+  },
+  {
+   "source": "einsteinglick2016",
+   "target": "butlerbroockman2011",
+   "type": "extends_to_new_case",
+   "why": "Bureaucrats as well as legislators discriminate."
+  },
+  {
+   "source": "trounstinevaldini2008",
+   "target": "lublin1997",
+   "type": "extends_to_new_case",
+   "why": "District versus at-large city elections."
+  },
+  {
+   "source": "rocha2010",
+   "target": "gay2001",
+   "type": "qualifies",
+   "why": "State legislative representation and minority turnout."
+  },
+  {
+   "source": "fraga2015",
+   "target": "gay2001",
+   "type": "builds_on",
+   "why": "Districts, not candidates, drive turnout gaps."
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "lijphart1977",
+   "type": "extends_to_new_case",
+   "why": "Group quotas as power sharing in Indian village councils."
+  },
+  {
+   "source": "horowitz1985",
+   "target": "lijphart1977",
+   "type": "challenges",
+   "why": "Centripetal electoral incentives rather than consociationalism."
+  },
+  {
+   "source": "grofman1992",
+   "target": "kousser1974",
+   "type": "builds_on",
+   "why": "The Voting Rights Act and the quest for equality."
+  },
+  {
+   "source": "cameron1996",
+   "target": "grofman1992",
+   "type": "qualifies",
+   "why": "Majority-minority districts are not always optimal."
+  },
+  {
+   "source": "lublin1997",
+   "target": "cameron1996",
+   "type": "builds_on",
+   "why": "The paradox of racial gerrymandering."
+  },
+  {
+   "source": "canon1999",
+   "target": "lublin1997",
+   "type": "qualifies",
+   "why": "Unintended benefits of Black-majority districts."
+  },
+  {
+   "source": "keyssar2000",
+   "target": "kousser1974",
+   "type": "synthesizes",
+   "why": "History of the contested right to vote."
+  },
+  {
+   "source": "valelly2004",
+   "target": "keyssar2000",
+   "type": "qualifies",
+   "why": "Institutional conditions for durable enfranchisement."
+  },
+  {
+   "source": "lublin2009",
+   "target": "lublin1997",
+   "type": "builds_on",
+   "why": "The VRA remains necessary."
+  },
+  {
+   "source": "benteleobrien2013",
+   "target": "keyssar2000",
+   "type": "builds_on",
+   "why": "Jim Crow 2.0 voter access restrictions."
+  },
+  {
+   "source": "rochamatsubayashi2013",
+   "target": "benteleobrien2013",
+   "type": "builds_on",
+   "why": "Race and voter ID adoption."
+  },
+  {
+   "source": "biggershanmer2017",
+   "target": "benteleobrien2013",
+   "type": "qualifies",
+   "why": "Partisanship explains ID law adoption."
+  },
+  {
+   "source": "biggershanmer2017",
+   "target": "bowlerdonovan2016",
+   "type": "builds_on",
+   "why": "Partisan model of electoral reform."
+  },
+  {
+   "source": "herronsmith2014",
+   "target": "benteleobrien2013",
+   "type": "extends_to_new_case",
+   "why": "Early-voting cuts in Florida."
+  },
+  {
+   "source": "white2015",
+   "target": "butlerbroockman2011",
+   "type": "extends_to_new_case",
+   "why": "Election officials discriminate by race."
+  },
+  {
+   "source": "hajnal2017",
+   "target": "benteleobrien2013",
+   "type": "builds_on",
+   "why": "Voter ID laws suppress minority votes."
+  },
+  {
+   "source": "barreto2018",
+   "target": "hajnal2017",
+   "type": "builds_on",
+   "why": "Minority voters less likely to hold ID."
+  },
+  {
+   "source": "kuk2020",
+   "target": "hajnal2017",
+   "type": "builds_on",
+   "why": "Strict ID laws burden minority turnout."
+  },
+  {
+   "source": "cantonipons2021",
+   "target": "hajnal2017",
+   "type": "challenges",
+   "why": "Strict ID laws have little effect on turnout."
+  },
+  {
+   "source": "fragamerseth2016",
+   "target": "lublin2009",
+   "type": "builds_on",
+   "why": "Causal impact of VRA provisions."
+  },
+  {
+   "source": "komisarchikwhite2025",
+   "target": "lublin2009",
+   "type": "mechanism_tested_by",
+   "why": "Turnout after the end of preclearance."
+  },
+  {
+   "source": "morris2023",
+   "target": "key1949",
+   "type": "extends_to_new_case",
+   "why": "Racial threat and restrictive voting bills."
+  },
+  {
+   "source": "manzauggen2006",
+   "target": "keyssar2000",
+   "type": "builds_on",
+   "why": "Felon disenfranchisement as voting restriction."
+  },
+  {
+   "source": "verba1995",
+   "target": "bobogilliam1990",
+   "type": "qualifies",
+   "why": "Resources and recruitment explain racial participation gaps."
+  },
+  {
+   "source": "leighleyvedlitz1999",
+   "target": "verba1995",
+   "type": "qualifies",
+   "why": "Different models explain participation across groups."
+  },
+  {
+   "source": "leighleyvedlitz1999",
+   "target": "tate1993",
+   "type": "synthesizes",
+   "why": "Group consciousness and context in participation."
+  },
+  {
+   "source": "hajnal2009",
+   "target": "leighleyvedlitz1999",
+   "type": "builds_on",
+   "why": "Uneven turnout skews city policy."
+  },
+  {
+   "source": "fraga2018",
+   "target": "hajnal2009",
+   "type": "builds_on",
+   "why": "Electoral influence explains turnout gaps."
+  },
+  {
+   "source": "fraga2018",
+   "target": "fraga2015",
+   "type": "builds_on",
+   "why": "District context and turnout."
+  },
+  {
+   "source": "enos2016",
+   "target": "key1949",
+   "type": "mechanism_tested_by",
+   "why": "Public housing demolition tests racial threat on white turnout."
+  },
+  {
+   "source": "farrisholman2014",
+   "target": "verba1995",
+   "type": "qualifies",
+   "why": "Social capital explains Black women's participation."
+  },
+  {
+   "source": "philpotwalton2007",
+   "target": "tate1993",
+   "type": "builds_on",
+   "why": "Black women voters and Black female candidates."
+  },
+  {
+   "source": "krupnikovpiston2014",
+   "target": "gay2001",
+   "type": "synthesizes",
+   "why": "White turnout responses to Black candidates."
+  },
+  {
+   "source": "michener2018",
+   "target": "verba1995",
+   "type": "builds_on",
+   "why": "Policy feedback from Medicaid shapes participation."
+  },
+  {
+   "source": "oskooii2018",
+   "target": "verba1995",
+   "type": "qualifies",
+   "why": "Discrimination as a driver of participation."
+  },
+  {
+   "source": "berry2019",
+   "target": "verba1995",
+   "type": "extends_to_new_case",
+   "why": "Group identity and white participation."
+  },
+  {
+   "source": "carmines1989",
+   "target": "key1949",
+   "type": "builds_on",
+   "why": "Race realigned the parties after the 1960s."
+  },
+  {
+   "source": "edsall1991",
+   "target": "carmines1989",
+   "type": "builds_on",
+   "why": "Race, rights and taxes in the realignment."
+  },
+  {
+   "source": "frymer1999",
+   "target": "carmines1989",
+   "type": "builds_on",
+   "why": "Party competition captures Black voters."
+  },
+  {
+   "source": "gileshertz1994",
+   "target": "key1949",
+   "type": "mechanism_tested_by",
+   "why": "Racial threat and white Republican identification."
+  },
+  {
+   "source": "valentinosears2005",
+   "target": "carmines1989",
+   "type": "builds_on",
+   "why": "Racial conservatism drove southern realignment."
+  },
+  {
+   "source": "schickler2016",
+   "target": "carmines1989",
+   "type": "challenges",
+   "why": "Realignment began from below in the 1930s-1950s."
+  },
+  {
+   "source": "schickler2016",
+   "target": "feinsteinschickler2008",
+   "type": "builds_on",
+   "why": "Early civil rights realignment."
+  },
+  {
+   "source": "kuziemkowashington2018",
+   "target": "valentinosears2005",
+   "type": "builds_on",
+   "why": "Racial attitudes explain Democratic losses in the South."
+  },
+  {
+   "source": "tesler2016",
+   "target": "carmines1989",
+   "type": "builds_on",
+   "why": "Racialization of partisanship in the Obama era."
+  },
+  {
+   "source": "tesler2016",
+   "target": "tesler2013",
+   "type": "builds_on",
+   "why": "Book-length account of the most-racial era."
+  },
+  {
+   "source": "hajnallee2011",
+   "target": "carmines1989",
+   "type": "qualifies",
+   "why": "Latino and Asian American voters do not fit the Black-white party model."
+  },
+  {
+   "source": "hajnalrivera2014",
+   "target": "hajnallee2011",
+   "type": "builds_on",
+   "why": "Immigration pushes whites toward Republicans."
+  },
+  {
+   "source": "endersscott2018",
+   "target": "carmines1989",
+   "type": "builds_on",
+   "why": "Racialization of elections, 1988-2016."
+  },
+  {
+   "source": "westwoodpeterson2020",
+   "target": "tesler2016",
+   "type": "builds_on",
+   "why": "Race and partisanship are inseparable."
+  },
+  {
+   "source": "zhirkov2022",
+   "target": "westwoodpeterson2020",
+   "type": "builds_on",
+   "why": "Racialized party schemas."
+  },
+  {
+   "source": "frymergrumbach2020",
+   "target": "frymer1999",
+   "type": "builds_on",
+   "why": "Labor and white racial politics."
+  },
+  {
+   "source": "kuo2017",
+   "target": "hajnallee2011",
+   "type": "builds_on",
+   "why": "Exclusion and Asian American partisanship."
+  },
+  {
+   "source": "philpot2007",
+   "target": "frymer1999",
+   "type": "qualifies",
+   "why": "Republican outreach does not end Black capture."
+  },
+  {
+   "source": "gottschalk2006",
+   "target": "western2006",
+   "type": "synthesizes",
+   "why": "Political origins and consequences of mass incarceration."
+  },
+  {
+   "source": "weaver2007",
+   "target": "carmines1989",
+   "type": "builds_on",
+   "why": "'Frontlash': crime policy as a response to civil rights."
+  },
+  {
+   "source": "gottschalk2008",
+   "target": "gottschalk2006",
+   "type": "synthesizes",
+   "why": "The carceral state as political science subject."
+  },
+  {
+   "source": "alexander2010",
+   "target": "western2006",
+   "type": "builds_on",
+   "why": "Mass incarceration as racial caste."
+  },
+  {
+   "source": "weaverlerman2010",
+   "target": "western2006",
+   "type": "builds_on",
+   "why": "Criminal justice contact reduces participation."
+  },
+  {
+   "source": "lermanweaver2014",
+   "target": "weaverlerman2010",
+   "type": "builds_on",
+   "why": "Book-length theory of custodial citizenship."
+  },
+  {
+   "source": "burch2013",
+   "target": "manzauggen2006",
+   "type": "builds_on",
+   "why": "Neighborhood-level demobilization from convictions."
+  },
+  {
+   "source": "murakawa2011",
+   "target": "weaver2007",
+   "type": "qualifies",
+   "why": "Liberal race-neutral policy also built the carceral state."
+  },
+  {
+   "source": "murakawa2014",
+   "target": "murakawa2011",
+   "type": "builds_on",
+   "why": "How liberals built prison America."
+  },
+  {
+   "source": "hinton2016",
+   "target": "weaver2007",
+   "type": "builds_on",
+   "why": "War on poverty became war on crime."
+  },
+  {
+   "source": "enns2014",
+   "target": "weaver2007",
+   "type": "challenges",
+   "why": "Public punitiveness, not only elites, drove incarceration."
+  },
+  {
+   "source": "walker2014",
+   "target": "weaverlerman2010",
+   "type": "extends_to_new_case",
+   "why": "Proximal contact with the carceral state."
+  },
+  {
+   "source": "sossweaver2017",
+   "target": "lermanweaver2014",
+   "type": "synthesizes",
+   "why": "Policing of race-class subjugated communities."
+  },
+  {
+   "source": "mummolo2018",
+   "target": "sossweaver2017",
+   "type": "synthesizes",
+   "why": "Effects of modern police tactics."
+  },
+  {
+   "source": "knox2020",
+   "target": "mummolo2018",
+   "type": "challenges",
+   "why": "Administrative records understate racial bias in policing."
+  },
+  {
+   "source": "harris2020",
+   "target": "sossweaver2017",
+   "type": "extends_to_new_case",
+   "why": "Fiscal incentives for discriminatory stops."
+  },
+  {
+   "source": "weaver2019",
+   "target": "lermanweaver2014",
+   "type": "builds_on",
+   "why": "Knowledge without power in policed communities."
+  },
+  {
+   "source": "weaver2020",
+   "target": "weaver2019",
+   "type": "builds_on",
+   "why": "Political discourse in policed communities."
+  },
+  {
+   "source": "white2022",
+   "target": "burch2013",
+   "type": "synthesizes",
+   "why": "Review of participation amid mass incarceration."
+  },
+  {
+   "source": "peffleyhurwitz2007",
+   "target": "gilliamiyengar2000",
+   "type": "builds_on",
+   "why": "Racial divides in punitive attitudes."
+  },
+  {
+   "source": "soss2008",
+   "target": "quadagno1994",
+   "type": "builds_on",
+   "why": "Race and federalism in welfare discipline."
+  },
+  {
+   "source": "soss2011",
+   "target": "soss2008",
+   "type": "builds_on",
+   "why": "Neoliberal paternalism and race."
+  },
+  {
+   "source": "manzauggen2006",
+   "target": "western2006",
+   "type": "builds_on",
+   "why": "Incarceration and disenfranchisement."
+  },
+  {
+   "source": "quadagno1994",
+   "target": "myrdal1944",
+   "type": "challenges",
+   "why": "Racism undermined the war on poverty."
+  },
+  {
+   "source": "lieberman1998",
+   "target": "quadagno1994",
+   "type": "builds_on",
+   "why": "Institutional design of the color line in welfare."
+  },
+  {
+   "source": "hero1998",
+   "target": "key1949",
+   "type": "extends_to_new_case",
+   "why": "Social diversity shapes state policy."
+  },
+  {
+   "source": "gilens1999",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "Race and welfare opinion via media images."
+  },
+  {
+   "source": "winter2006",
+   "target": "gilens1999",
+   "type": "extends_to_new_case",
+   "why": "Racialization of Social Security."
+  },
+  {
+   "source": "geeford2011",
+   "target": "omiwinant1986",
+   "type": "extends_to_new_case",
+   "why": "Structural racism and health."
+  },
+  {
+   "source": "michener2018",
+   "target": "soss2011",
+   "type": "builds_on",
+   "why": "Federalism and unequal welfare politics."
+  },
+  {
+   "source": "tesler2012",
+   "target": "winter2006",
+   "type": "builds_on",
+   "why": "Racialization spills into health policy."
+  },
+  {
+   "source": "enos2019",
+   "target": "gilens1999",
+   "type": "qualifies",
+   "why": "Riots raised support for public spending."
+  },
+  {
+   "source": "allport1954",
+   "target": "key1949",
+   "type": "qualifies",
+   "why": "Contact under equal status can offset the hostility that group size provokes."
+  },
+  {
+   "source": "masseydenton1993",
+   "target": "key1949",
+   "type": "synthesizes",
+   "why": "Segregation as the structure behind racial threat and poverty."
+  },
+  {
+   "source": "oliver2010",
+   "target": "masseydenton1993",
+   "type": "builds_on",
+   "why": "Scale of context and integration."
+  },
+  {
+   "source": "oliver2010",
+   "target": "bobohutchings1996",
+   "type": "qualifies",
+   "why": "Threat at the metro level, contact at the neighborhood level."
+  },
+  {
+   "source": "rochaespino2008",
+   "target": "bobohutchings1996",
+   "type": "qualifies",
+   "why": "Segregation conditions racial threat."
+  },
+  {
+   "source": "hopkins2009",
+   "target": "habyarimana2007",
+   "type": "extends_to_new_case",
+   "why": "Diversity and local public goods in the US."
+  },
+  {
+   "source": "wong2012",
+   "target": "oliver2010",
+   "type": "qualifies",
+   "why": "Perceived rather than census context."
+  },
+  {
+   "source": "enos2014",
+   "target": "allport1954",
+   "type": "challenges",
+   "why": "Brief contact increased exclusionary attitudes."
+  },
+  {
+   "source": "enos2017",
+   "target": "enos2014",
+   "type": "builds_on",
+   "why": "Social geography and intergroup conflict."
+  },
+  {
+   "source": "trounstine2015",
+   "target": "masseydenton1993",
+   "type": "builds_on",
+   "why": "Segregation and public goods spending."
+  },
+  {
+   "source": "trounstine2018",
+   "target": "trounstine2015",
+   "type": "builds_on",
+   "why": "Local politics designed segregation."
+  },
+  {
+   "source": "trounstine2020",
+   "target": "trounstine2018",
+   "type": "builds_on",
+   "why": "Land-use regulation produces segregation."
+  },
+  {
+   "source": "rughmassey2013",
+   "target": "masseydenton1993",
+   "type": "builds_on",
+   "why": "Segregation after civil rights."
+  },
+  {
+   "source": "scaccowarren2018",
+   "target": "allport1954",
+   "type": "mechanism_tested_by",
+   "why": "Field experiment on intergroup contact in Nigeria."
+  },
+  {
+   "source": "anderson2010",
+   "target": "masseydenton1993",
+   "type": "builds_on",
+   "why": "Segregation as the core of racial injustice."
+  },
+  {
+   "source": "enos2016",
+   "target": "enos2014",
+   "type": "builds_on",
+   "why": "Racial threat and white participation."
+  },
+  {
+   "source": "collins1990",
+   "target": "crenshaw1989",
+   "type": "builds_on",
+   "why": "Black feminist thought and the matrix of domination."
+  },
+  {
+   "source": "crenshaw1991",
+   "target": "crenshaw1989",
+   "type": "builds_on",
+   "why": "Intersectionality applied to violence against women of color."
+  },
+  {
+   "source": "strolovitch2006",
+   "target": "crenshaw1991",
+   "type": "extends_to_new_case",
+   "why": "Intersectional disadvantage in interest groups."
+  },
+  {
+   "source": "strolovitch2007",
+   "target": "strolovitch2006",
+   "type": "builds_on",
+   "why": "Affirmative advocacy."
+  },
+  {
+   "source": "hancock2007",
+   "target": "crenshaw1991",
+   "type": "builds_on",
+   "why": "Intersectionality as research paradigm."
+  },
+  {
+   "source": "philpotwalton2007",
+   "target": "crenshaw1991",
+   "type": "extends_to_new_case",
+   "why": "Race and gender in candidate support."
+  },
+  {
+   "source": "dhamoon2011",
+   "target": "hancock2007",
+   "type": "builds_on",
+   "why": "Mainstreaming intersectionality."
+  },
+  {
+   "source": "hughes2011",
+   "target": "crenshaw1991",
+   "type": "extends_to_new_case",
+   "why": "Quotas and minority women worldwide."
+  },
+  {
+   "source": "carbado2013",
+   "target": "crenshaw1991",
+   "type": "synthesizes",
+   "why": "Intersectionality as a traveling theory."
+  },
+  {
+   "source": "brown2014",
+   "target": "philpotwalton2007",
+   "type": "builds_on",
+   "why": "Black women legislators."
+  },
+  {
+   "source": "holmanschneider2016",
+   "target": "brown2014",
+   "type": "builds_on",
+   "why": "Ambition among women of color."
+  },
+  {
+   "source": "tormos2017",
+   "target": "carbado2013",
+   "type": "builds_on",
+   "why": "Intersectional solidarity in movements."
+  },
+  {
+   "source": "shah2018",
+   "target": "holmanschneider2016",
+   "type": "builds_on",
+   "why": "Women of color candidates in state legislatures."
+  },
+  {
+   "source": "gershon2019",
+   "target": "hancock2007",
+   "type": "mechanism_tested_by",
+   "why": "Intersectional linked fate and representation."
+  },
+  {
+   "source": "bejarano2020",
+   "target": "gershon2019",
+   "type": "builds_on",
+   "why": "Shared identities and candidate evaluations."
+  },
+  {
+   "source": "cohen1999",
+   "target": "crenshaw1991",
+   "type": "builds_on",
+   "why": "Secondary marginalization within Black politics."
+  },
+  {
+   "source": "bonillatillery2020",
+   "target": "cohen1999",
+   "type": "builds_on",
+   "why": "Feminist and queer framing of BLM."
+  },
+  {
+   "source": "mills1997",
+   "target": "dubois1903",
+   "type": "builds_on",
+   "why": "White supremacy as a political system."
+  },
+  {
+   "source": "mills1997",
+   "target": "omiwinant1986",
+   "type": "synthesizes",
+   "why": "The racial contract."
+  },
+  {
+   "source": "patterson1997",
+   "target": "myrdal1944",
+   "type": "builds_on",
+   "why": "Integration as progress amid resentment."
+  },
+  {
+   "source": "olson2004",
+   "target": "mills1997",
+   "type": "builds_on",
+   "why": "White democracy in the United States."
+  },
+  {
+   "source": "shelby2016",
+   "target": "shelby2005",
+   "type": "builds_on",
+   "why": "Justice and the dark ghetto."
+  },
+  {
+   "source": "anderson2010",
+   "target": "mills1997",
+   "type": "qualifies",
+   "why": "Integration as an ideal within nonideal theory."
+  },
+  {
+   "source": "mills2017",
+   "target": "mills1997",
+   "type": "builds_on",
+   "why": "Critique of racial liberalism."
+  },
+  {
+   "source": "coulthard2014",
+   "target": "mills1997",
+   "type": "extends_to_new_case",
+   "why": "Settler colonialism and the politics of recognition."
+  },
+  {
+   "source": "desmondemirbayer2009",
+   "target": "omiwinant1986",
+   "type": "builds_on",
+   "why": "Racial domination as a field."
+  },
+  {
+   "source": "feaginelias2013",
+   "target": "omiwinant1986",
+   "type": "challenges",
+   "why": "Systemic racism rather than racial formation."
+  },
+  {
+   "source": "senwasow2016",
+   "target": "omiwinant1986",
+   "type": "synthesizes",
+   "why": "Race as a bundle of manipulable components."
+  },
+  {
+   "source": "beltran2010",
+   "target": "omiwinant1986",
+   "type": "builds_on",
+   "why": "Latino identity as political formation."
+  },
+  {
+   "source": "glasgow2009",
+   "target": "mills1997",
+   "type": "qualifies",
+   "why": "A respect-based account of what racism is."
+  },
+  {
+   "source": "fearonlaitin1996",
+   "target": "horowitz1985",
+   "type": "challenges",
+   "why": "In-group policing explains interethnic cooperation."
+  },
+  {
+   "source": "varshney2001",
+   "target": "horowitz1985",
+   "type": "qualifies",
+   "why": "Civic ties between groups prevent ethnic riots."
+  },
+  {
+   "source": "chandra2004",
+   "target": "horowitz1985",
+   "type": "builds_on",
+   "why": "Ethnic head counts and party success."
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "horowitz1985",
+   "type": "challenges",
+   "why": "Insurgency conditions, not ethnic diversity, cause civil war."
+  },
+  {
+   "source": "posner2004",
+   "target": "horowitz1985",
+   "type": "builds_on",
+   "why": "Group size makes cultural differences salient."
+  },
+  {
+   "source": "posner2005",
+   "target": "posner2004",
+   "type": "builds_on",
+   "why": "Institutions decide which cleavage matters."
+  },
+  {
+   "source": "wilkinson2004",
+   "target": "varshney2001",
+   "type": "challenges",
+   "why": "Electoral incentives, not civil society, explain riots."
+  },
+  {
+   "source": "brubaker2004",
+   "target": "horowitz1985",
+   "type": "challenges",
+   "why": "Ethnicity without groups."
+  },
+  {
+   "source": "chandra2006",
+   "target": "brubaker2004",
+   "type": "synthesizes",
+   "why": "What ethnic identity is and whether it matters."
+  },
+  {
+   "source": "habyarimana2007",
+   "target": "fearonlaitin1996",
+   "type": "mechanism_tested_by",
+   "why": "Tests mechanisms linking diversity to public goods."
+  },
+  {
+   "source": "cedermangirardin2007",
+   "target": "fearonlaitin2003",
+   "type": "challenges",
+   "why": "Ethnic power relations predict insurgency."
+  },
+  {
+   "source": "cederman2010",
+   "target": "cedermangirardin2007",
+   "type": "builds_on",
+   "why": "Ethnic exclusion and rebellion data."
+  },
+  {
+   "source": "wimmer2008",
+   "target": "brubaker2004",
+   "type": "builds_on",
+   "why": "Strategies of ethnic boundary making."
+  },
+  {
+   "source": "chandrawilkinson2008",
+   "target": "chandra2006",
+   "type": "builds_on",
+   "why": "Measuring ethnicity."
+  },
+  {
+   "source": "kalyvas2008",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Ethnic defection in civil war."
+  },
+  {
+   "source": "eifert2010",
+   "target": "posner2005",
+   "type": "builds_on",
+   "why": "Electoral competition activates ethnic identification."
+  },
+  {
+   "source": "dunningharrison2010",
+   "target": "posner2004",
+   "type": "mechanism_tested_by",
+   "why": "Cross-cutting cleavages and ethnic voting."
+  },
+  {
+   "source": "franck2012",
+   "target": "chandra2004",
+   "type": "extends_to_new_case",
+   "why": "Ethnic favoritism in African public goods."
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "chandra2004",
+   "type": "qualifies",
+   "why": "Ethnic quotas and party mobilization in India."
+  },
+  {
+   "source": "ishiyama2009",
+   "target": "horowitz1985",
+   "type": "challenges",
+   "why": "Ethnic parties do not necessarily fuel conflict."
+  },
+  {
+   "source": "marx1998",
+   "target": "horowitz1985",
+   "type": "synthesizes",
+   "why": "State-made race and nation in comparison."
+  },
+  {
+   "source": "henderson2013",
+   "target": "dubois1915",
+   "type": "builds_on",
+   "why": "Racism hidden in IR theory."
+  },
+  {
+   "source": "vitalis2015",
+   "target": "henderson2013",
+   "type": "builds_on",
+   "why": "American IR born as race relations."
+  },
+  {
+   "source": "vitalis2015",
+   "target": "dubois1915",
+   "type": "builds_on",
+   "why": "Black critics of imperial IR."
+  },
+  {
+   "source": "anievas2015",
+   "target": "henderson2013",
+   "type": "synthesizes",
+   "why": "Race and racism in IR."
+  },
+  {
+   "source": "buzas2013",
+   "target": "lakereynolds2008",
+   "type": "builds_on",
+   "why": "Race and alliance politics."
+  },
+  {
+   "source": "rosenberg2019",
+   "target": "lakereynolds2008",
+   "type": "mechanism_tested_by",
+   "why": "Measures racial bias in migration flows."
+  },
+  {
+   "source": "bell2020",
+   "target": "lakereynolds2008",
+   "type": "builds_on",
+   "why": "Anglo-American racial utopias."
+  },
+  {
+   "source": "buzas2021",
+   "target": "vitalis2015",
+   "type": "builds_on",
+   "why": "Racism and antiracism in liberal order."
+  },
+  {
+   "source": "freeman2022",
+   "target": "anievas2015",
+   "type": "synthesizes",
+   "why": "Review of race in IR."
+  },
+  {
+   "source": "greenriley2023",
+   "target": "freeman2022",
+   "type": "builds_on",
+   "why": "Racial gaps in foreign-policy opinion."
+  },
+  {
+   "source": "goodman2021",
+   "target": "vitalis2015",
+   "type": "builds_on",
+   "why": "Exclusion behind the postwar order."
+  },
+  {
+   "source": "horowitz1985",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenberg2019",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenberg2019",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bratsberg2021",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bratsberg2021",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buzas2013",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dawson1994",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dawson1994",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kindersanders1996",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mendelberg2001",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnallee2011",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnallee2011",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnallee2011",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2014",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2014",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2016",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2016",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sides2018",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sides2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jardina2019",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels2020",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cantonipons2021",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2010",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malhotra2013",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccini2021",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2018",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2019",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnal2017",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2015",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barreto2007",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barreto2007",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaverlerman2010",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaverlerman2010",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2010",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2010",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2008",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2008",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhopkins2015",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2012",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2012",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2013",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2013",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piston2010",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2018",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2016",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2016",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soss2008",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soss2008",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "butlerbroockman2011",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2013",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2013",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2007",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2007",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcclain2009",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "junnmasuoka2008",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "junnmasuoka2008",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchez2006",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchez2006",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wasow2020",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renynewman2021",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renynewman2021",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reny2019",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reny2019",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2008",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2008",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuo2017",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuo2017",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2019",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2019",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knox2020",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2013",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2013",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lowande2019",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enns2014",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kastellec2013",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biggershanmer2017",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bowlerdonovan2016",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sossweaver2017",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2007",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2007",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feinsteinschickler2008",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feinsteinschickler2008",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "verba1995",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cassesebarnes2019",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cassesebarnes2019",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2010",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2010",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mills1997",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mills2017",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shelby2005",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shelby2005",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shelby2016",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crenshaw1991",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collins1990",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooker2016",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooker2016",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myers2019",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myers2019",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glasgow2009",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "glasgow2009",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coulthard2014",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feola2021",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feola2021",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "patterson1997",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "posner2004",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2006",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habyarimana2007",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eifert2010",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franck2012",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningharrison2010",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2001",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin1996",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cedermangirardin2007",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cederman2010",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hughes2011",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hughes2011",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rydgren2008",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rydgren2008",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mayda2006",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dancygier2013",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodman2021",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodman2021",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2025",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2025",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenriley2023",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenriley2023",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buzas2021",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lajevardi2018",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lajevardi2018",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gay2016",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tillery2019",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bunyasi2019",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bunyasi2019",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bunyasi2019",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vargas2017",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vargas2017",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vargas2017",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "juenkeshah2016",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2020",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2020",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "millerdavis2020",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "millerdavis2020",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maltby2020",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maltby2020",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maltby2020",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhirkov2022",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morris2023",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morris2023",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fragamerseth2016",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fragamerseth2016",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fragamerseth2016",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harris2020",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smithking2021",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smithking2021",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "towlerparker2018",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "towlerparker2018",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perez2020",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renybarreto2020",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renybarreto2020",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farris2018",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "junn2017",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "junn2017",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davisernst2017",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davisernst2017",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holmanschneider2016",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holmanschneider2016",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tormos2017",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "strolovitch2017",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "strolovitch2017",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gershon2019",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gershon2019",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gershon2019",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "merseth2018",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "merseth2018",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schildkraut2015",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schildkraut2015",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zepedamillan2013",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zepedamillan2013",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrisholman2014",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrisholman2014",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrisholman2014",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berry2019",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berry2019",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchez2019",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchez2019",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuk2020",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shah2018",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shah2018",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carbado2013",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geeford2011",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geeford2011",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "desmondemirbayer2009",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rughmassey2013",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "murakawa2011",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "murakawa2011",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2018dbr",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "junn2007",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "junn2007",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcclain2007",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcclain2007",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bloemraad2007",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vertovec2007",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wimmer2008",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brubaker2017",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brubaker2017",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "degenova2013",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "virdee2017",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "virdee2017",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "golashboza2008",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "golashboza2008",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feaginelias2013",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ishiyama2009",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koopmans2010",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koopmans2010",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ford2011",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ford2011",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rustenbach2010",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhangartner2013",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhangartner2013",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scaccowarren2018",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scaccowarren2018",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2017",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valenzuelamichelson2016",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valenzuelamichelson2016",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fouka2019",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fouka2019",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bonillatillery2020",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bonillatillery2020",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grumbachsahn2020",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "whitelaird2014",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "whitelaird2014",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2021",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2021",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trounstine2020",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trounstine2020",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gay2006",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gay2006",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "philpotwalton2007",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "philpotwalton2007",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "philpotwalton2007",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "desante2013",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "desante2013",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peffleyhurwitz2007",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peffleyhurwitz2007",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mazumder2018",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mazumder2018",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trounstinevaldini2008",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trounstinevaldini2008",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "banksvalentino2012",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "einsteinglick2016",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "einsteinglick2016",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perez2014",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perez2014",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perez2014",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heropreuhs2007",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heropreuhs2007",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2021",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2021",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trounstine2015",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trounstine2015",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnalrivera2014",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnalrivera2014",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnalrivera2014",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraga2015",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraga2015",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huberlapinski2006",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frymergrumbach2020",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frymergrumbach2020",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winter2006",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winter2006",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "griffinkeane2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "griffinkeane2006",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "branton2014",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "branton2014",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcclain2006",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcclain2006",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "preuhs2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "preuhs2006",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcconnaughy2010",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcconnaughy2010",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "strolovitch2006",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "strolovitch2006",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mummolo2018",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kamburge2018",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chudy2021",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2009",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkins2009",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "griffinnewman2007",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "griffinnewman2007",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2019",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2019",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gillion2012",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gillion2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "branton2011",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "branton2011",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sirin2016",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sirin2016",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wong2012",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidescitrin2007",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newman2020",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newman2020",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oskooii2018",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oskooii2018",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "engelhardt2020",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "engelhardt2020",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaffner2020",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaffner2020",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "filindrakaplan2015",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "filindrakaplan2015",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perez2010",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perez2010",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2011",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weaver2011",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jardina2020",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jardina2020",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "westwoodpeterson2020",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2016",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2016",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2016",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "banks2018",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "banks2018",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perez2013",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "perez2013",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krupnikovpiston2014",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krupnikovpiston2014",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkinswashington2020",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkinswashington2020",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentinobrader2011",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ennsjardina2021",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ennsjardina2021",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "philpot2009",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "philpot2009",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalmoepiston2013",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dhamoon2011",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rochaespino2008",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rochaespino2008",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gutierrez2019",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gutierrez2019",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masuoka2008",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walker2014",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walker2014",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herronsmith2014",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herronsmith2014",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rochamatsubayashi2013",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rocha2010",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rocha2010",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bejarano2020",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bejarano2020",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "minta2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchez2006apr",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchez2006apr",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchez2006apr",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "endersscott2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "endersscott2018",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barreto2018",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nteta2012",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nteta2012",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcfarland2010",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "searssavalei2006",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "searssavalei2006",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hancock2007",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benteleobrien2013",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williamson2018",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "williamson2018",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mendelberg2008",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "citrin2007",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "citrin2007",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "epperly2019",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "epperly2019",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "senwasow2016",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddyfeldman2009",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dancygierlaitin2014",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dancygierlaitin2014",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gottschalk2008",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchingsjardina2009",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "griffin2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "segurarodrigues2006",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "segurarodrigues2006",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cramer2020",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parkertowler2019",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parkertowler2019",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freeman2022",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wongramakrishnan2023",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jardinapiston2023",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jardinapiston2023",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stephensdougan2021",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "davenport2020",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2022",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "white2022",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "minta2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gamble2007",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gamble2007",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lublin2009",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lublin2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hochschildpowell2008",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mickey2008",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mickey2008",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fortner2013",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fortner2013",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "komisarchikwhite2025",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "engelhardt2019",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "engelhardt2019",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adidarobinson2023",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adidarobinson2023",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandrawilkinson2008",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvas2008",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dubois1903",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dubois1903",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dubois1915",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dubois1915",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dubois1935",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dubois1935",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myrdal1944",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myrdal1944",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "key1949",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "key1949",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kousser1974",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kousser1974",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "omiwinant1986",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "omiwinant1986",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith1993",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith1993",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith1997",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith1997",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marx1998",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marx1998",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klinkner1999",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingsmith2005",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "katznelson2005",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "katznelson2005",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valelly2004",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valelly2004",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mickey2015",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allport1954",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allport1954",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blumer1958",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blumer1958",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kindersears1981",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bobo1983",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sniderman1993",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hochschild1995",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hochschild1995",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bobohutchings1996",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bobohutchings1996",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidaniuspratto1999",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "henrysears2002",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bonillasilva2003",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bonillasilva2003",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchingsvalentino2004",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchingsvalentino2004",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinderkam2009",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinderkam2009",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilliamiyengar2000",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilliamiyengar2000",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2002",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stephensdougan2020",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stephensdougan2020",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "philpot2007",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "philpot2007",
+   "target": "priming",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parkerbarreto2013",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "craigricheson2014",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abrajanohajnal2015",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abrajanohajnal2015",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abrajanohajnal2015",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaffner2018",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaffner2018",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson2004",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olson2004",
+   "target": "whiteness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bobogilliam1990",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bobogilliam1990",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bobogilliam1990",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tate1993",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tate1993",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcadam1982",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morris1984",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harris1999",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harris1999",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1999",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1999",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gillion2013",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gillion2013",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "whitelaird2020",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "whitelaird2020",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooker2009",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooker2009",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "desipio1996",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garciabedolla2005",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garciabedolla2005",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barreto2010",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barreto2010",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beltran2010",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beltran2010",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraga2010",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraga2010",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "espiritu1992",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "espiritu1992",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim1999",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim1999",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lien2001",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lien2001",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wong2011",
+   "target": "asian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wong2011",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masuokajunn2013",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masuokajunn2013",
+   "target": "consciousness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huntington2004",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huntington2004",
+   "target": "latino",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "swain1993",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lublin1997",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lublin1997",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cameron1996",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cameron1996",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "canon1999",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "canon1999",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grofman1992",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keyssar2000",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keyssar2000",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tate2003",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tate2003",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grose2011",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gay2001",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gay2001",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gay2001",
+   "target": "black",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gay2002",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1977",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1977",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leighleyvedlitz1999",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnal2009",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hajnal2009",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraga2018",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manzauggen2006",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manzauggen2006",
+   "target": "voting",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carmines1989",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "edsall1991",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frymer1999",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frymer1999",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentinosears2005",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schickler2016",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schickler2016",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuziemkowashington2018",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "western2006",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gottschalk2006",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gottschalk2006",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alexander2010",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soss2011",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soss2011",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burch2013",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burch2013",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lermanweaver2014",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lermanweaver2014",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "murakawa2014",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "murakawa2014",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinton2016",
+   "target": "carceral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinton2016",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quadagno1994",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberman1998",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberman1998",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hero1998",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hero1998",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilens1999",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilens1999",
+   "target": "attitudes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "michener2018",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "michener2018",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gileshertz1994",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gileshertz1994",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masseydenton1993",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oliver2010",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enos2017",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trounstine2018",
+   "target": "context",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trounstine2018",
+   "target": "policy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crenshaw1989",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "strolovitch2007",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "strolovitch2007",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2014",
+   "target": "intersectionality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2014",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2004",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wilkinson2004",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brubaker2004",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brubaker2004",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "posner2005",
+   "target": "comparative",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lakereynolds2008",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lakereynolds2008",
+   "target": "immigration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "henderson2013",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vitalis2015",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anievas2015",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bell2020",
+   "target": "world",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bell2020",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}
