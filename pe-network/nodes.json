@@ -286,7 +286,7 @@
    "authors": "Mancur Olson",
    "year": 1993,
    "journal": "APSR",
-   "title": "Olson 1993 - Dictatorship, Democracy, and Development.pdf",
+   "title": "Dictatorship, Democracy, and Development",
    "claim": "A stationary bandit has an encompassing interest in output, but only secure property rights under democracy sustain long-run growth.",
    "method": "Theoretical essay",
    "themes": [
@@ -1320,7 +1320,7 @@
   {
    "id": "defigueiredorichter2014",
    "type": "work",
-   "label": "Figueiredo 2014",
+   "label": "de Figueiredo 2014",
    "authors": "John M. de Figueiredo & Brian Kelleher Richter",
    "year": 2014,
    "journal": "Annual Review of Political Science",
@@ -2496,7 +2496,7 @@
   {
    "id": "laporta1998",
    "type": "work",
-   "label": "Porta 1998",
+   "label": "La Porta 1998",
    "authors": "Rafael La Porta, Florencio Lopez-de-Silanes, Andrei Shleifer & Robert W. Vishny",
    "year": 1998,
    "journal": "Journal of Political Economy",
@@ -2745,7 +2745,7 @@
   {
    "id": "bdm2003",
    "type": "work",
-   "label": "Mesquita 2003",
+   "label": "Bueno de Mesquita 2003",
    "authors": "Bruce Bueno de Mesquita, Alastair Smith, Randolph M. Siverson & James D. Morrow",
    "year": 2003,
    "journal": "MIT Press (book)",
@@ -3523,7 +3523,7 @@
   {
    "id": "laporta2008",
    "type": "work",
-   "label": "Porta 2008",
+   "label": "La Porta 2008",
    "authors": "Rafael La Porta, Florencio Lopez-de-Silanes & Andrei Shleifer",
    "year": 2008,
    "journal": "Journal of Economic Literature",
@@ -4167,7 +4167,7 @@
   {
    "id": "dehaansturm2017",
    "type": "work",
-   "label": "Haan 2017",
+   "label": "de Haan 2017",
    "authors": "Jakob de Haan & Jan-Egbert Sturm",
    "year": 2017,
    "journal": "European Journal of Political Economy",
@@ -4593,7 +4593,7 @@
   {
    "id": "dehaanklomp2013",
    "type": "work",
-   "label": "Haan 2013",
+   "label": "de Haan 2013",
    "authors": "Jakob de Haan & Jeroen Klomp",
    "year": 2013,
    "journal": "Public Choice",
@@ -5589,7 +5589,7 @@
   {
    "id": "bdmsmith2010",
    "type": "work",
-   "label": "Mesquita 2010",
+   "label": "Bueno de Mesquita 2010",
    "authors": "Bruce Bueno De Mesquita & Alastair Smith",
    "year": 2010,
    "journal": "AJPS",

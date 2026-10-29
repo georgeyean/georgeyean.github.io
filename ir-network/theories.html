@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>International Relations Theory Network</title>
+<meta name="description" content="Interactive map of the main theories in international relations and how they relate: which theories extend, rival, complement, synthesize or apply others, with key works for each.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:400,800&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="../litnet/reading-list.js"></script>
+<style>
+:root{
+  --bg:#f4f4f4; --panel:#ffffff; --ink:#3c3b3b; --text:#555555; --muted:#8a8a8a; --line:rgba(160,160,160,.3);
+  --accent:#2ebaae; --chip:#f4f4f4; --edge:#b5b5b5;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font:15px/1.5 "Source Sans Pro",Helvetica,sans-serif}
+body{display:flex;flex-direction:column}
+header{position:relative;z-index:20;display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;padding:12px 20px;border-bottom:1px solid var(--line);background:var(--panel)}
+.brand{display:flex;flex-direction:column;align-items:flex-start;margin-right:10px}
+.brand-title{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:13px;letter-spacing:.25em;text-transform:uppercase;color:var(--ink);margin-bottom:10px}
+.field-label,.controls label,header .sub{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.field-label{margin-bottom:4px}
+.field-picker{position:relative}
+#fieldBtn{min-width:200px;padding:0 12px;font-size:10.5px;letter-spacing:.16em;text-align:left;display:flex;justify-content:space-between;gap:10px;align-items:center}
+#fieldBtn .caret{color:var(--muted);font-size:11px;transition:transform .15s}
+#fieldBtn[aria-expanded="true"] .caret{transform:rotate(180deg)}
+#fieldList{position:absolute;top:calc(100% + 4px);left:0;min-width:100%;margin:0;padding:6px 0;list-style:none;background:var(--panel);border:1px solid var(--line);border-radius:2px;box-shadow:0 6px 16px rgba(0,0,0,.08);z-index:30}
+#fieldList a{display:block;padding:9px 14px;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap}
+#fieldList a:hover,#fieldList a:focus{background:var(--chip);color:var(--accent);outline:none}
+#fieldList a.current{color:var(--accent)}
+.controls{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.controls label{display:inline-flex;gap:6px;align-items:center}
+button{cursor:pointer;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.2em;text-transform:uppercase;background:transparent;border:0;border-radius:2px;
+  box-shadow:inset 0 0 0 1px var(--line);color:var(--ink);height:30px;line-height:30px;padding:0 14px;transition:box-shadow .2s ease,color .2s ease,background-color .2s ease}
+button:hover{box-shadow:inset 0 0 0 1px var(--accent);color:var(--accent)}
+button.active{background:rgba(46,186,174,.08);box-shadow:inset 0 0 0 1px var(--accent);color:var(--accent)}
+select,input[type=search]{font-family:"Source Sans Pro",Helvetica,sans-serif;font-size:13px;height:30px;padding:0 8px;border:1px solid var(--line);border-radius:2px;background:var(--panel);color:var(--text)}
+select:focus,input[type=search]:focus{outline:none;border-color:var(--accent)}
+.navlinks{margin-left:auto;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.navlinks a{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap}
+.navlinks a:hover{color:var(--accent)}
+#layout{display:grid;grid-template-columns:240px 1fr;flex:1;min-height:0;position:relative;overflow:hidden}
+#families{overflow:auto;border-right:1px solid var(--line);padding:16px 16px 12px;background:var(--panel)}
+#families h2,#detail h2{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10.5px;letter-spacing:.25em;text-transform:uppercase;color:var(--ink);margin:2px 0 12px}
+.fam-row{display:flex;align-items:center;gap:8px;padding:5px 6px;cursor:pointer;border-radius:2px;font-size:13px;line-height:1.3}
+.fam-row:hover{background:var(--chip)}
+.fam-row .sw{width:10px;height:10px;border-radius:50%;flex:none}
+.fam-row.off{opacity:.38}
+.fam-row.focus{background:rgba(46,186,174,.07);box-shadow:inset 3px 0 0 var(--accent);color:var(--ink);font-weight:600}
+.fam-row .n{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+.small-links{margin-top:14px;display:flex;gap:6px;flex-wrap:wrap}
+.small-links button{height:26px;line-height:26px;padding:0 10px;font-size:9px}
+#families p{font-size:12.5px;line-height:1.5;color:var(--muted)}
+#stage{position:relative;overflow:hidden;background:var(--bg)}
+svg{width:100%;height:100%;display:block}
+.t-label{font-family:"Source Sans Pro",Helvetica,sans-serif;font-size:11.5px;font-weight:600;fill:var(--ink);pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:3.5px;stroke-linejoin:round}
+.lane-label,.axis text{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.1em;fill:var(--muted)}
+.axis line,.axis path{stroke:var(--line)}
+#detail{position:absolute;top:0;right:0;bottom:0;width:380px;max-width:92vw;overflow:auto;padding:20px 22px;border-left:1px solid var(--line);background:var(--panel);transform:translateX(100%);transition:transform .25s ease;box-shadow:-4px 0 14px rgba(0,0,0,.06);z-index:6;visibility:hidden;font-size:14px}
+#detail.open{transform:translateX(0);visibility:visible}
+#detailToggle{position:absolute;top:50%;right:0;transform:translateY(-50%);z-index:7;width:22px;height:56px;padding:0;border-radius:2px 0 0 2px;background:var(--panel);color:var(--muted);font:400 18px/56px "Source Sans Pro",Helvetica,sans-serif;letter-spacing:0;text-transform:none;box-shadow:0 1px 8px rgba(0,0,0,.06);transition:right .25s ease}
+#detailToggle.open{right:min(380px,92vw)}
+#detail .title{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:16px;line-height:1.4;letter-spacing:.02em;color:var(--ink);margin:0 0 4px}
+#detail .meta{font-size:13px;color:var(--muted);margin-bottom:10px}
+#detail p{color:var(--text);line-height:1.6;margin:6px 0}
+#detail .lbl{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-top:16px}
+.chip{display:inline-block;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9px;letter-spacing:.12em;text-transform:uppercase;background:var(--chip);border-radius:2px;padding:4px 8px;color:var(--ink);margin:2px 3px 2px 0}
+.rel{padding:8px 0;border-top:1px solid var(--line);font-size:13px}
+.rel b{color:var(--ink);font-weight:700}
+.rel .why{color:var(--muted)}
+.rel a,a.ext{color:var(--accent);cursor:pointer;text-decoration:none}
+.rel a:hover,a.ext:hover{text-decoration:underline}
+.work-row{display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+.rl-mini{flex:none;height:24px;line-height:24px;padding:0 8px;font-size:12px;letter-spacing:0}
+.rl-mini.on{color:#8a6d0b;box-shadow:inset 0 0 0 1px #d4a017;background:#fdf8ea}
+.legend,#hint,#edgeTip{position:absolute;background:var(--panel);border:1px solid var(--line);border-radius:2px;box-shadow:0 1px 8px rgba(0,0,0,.06)}
+.legend{left:10px;bottom:10px;font-size:12px;color:var(--text);padding:10px 12px;max-width:340px;line-height:1.35}
+.legend .lg-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.legend .lg-head b{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink)}
+.legend .lg-head button{height:20px;line-height:20px;padding:0 7px;font-size:11px;letter-spacing:0}
+.legend.collapsed .lg-body{display:none}
+.legend .lg-body div{display:flex;align-items:flex-start;gap:6px;margin:3px 0}
+.legend .lg-body b{color:var(--ink)}
+.legend p{margin:6px 0}
+.legend svg{flex:none;width:26px;height:10px;margin-top:4px}
+#hint{top:10px;left:10px;font-size:12px;color:var(--muted);padding:6px 10px}
+#edgeTip{display:none;pointer-events:none;z-index:5;max-width:320px;font-size:13px;color:var(--text);padding:9px 11px;line-height:1.4;box-shadow:0 4px 14px rgba(0,0,0,.1)}
+#edgeTip .tt,#edgeTip b{color:var(--ink);font-weight:600}
+#edgeTip .tg{color:var(--muted);font-size:11.5px;margin-top:2px}
+#edgeTip .tw{margin-top:5px}
+#edgeTip a{color:var(--accent);text-decoration:none}
+@media (max-width: 900px){
+  #layout{grid-template-columns:1fr;grid-template-rows:auto 70vh;height:auto}
+  #families{border-right:0;border-bottom:1px solid var(--line);max-height:30vh}
+  #detail,#detailToggle{position:fixed}
+  body{height:auto}
+}
+/* phones: no side panel; tap a dot or line for a bottom card */
+@media (max-width: 700px){
+  #detailToggle{display:none !important}
+  #detail{z-index:50;width:92vw;padding:16px 18px}
+  #detailClose{display:inline-block !important}
+  #edgeTip.pop{cursor:pointer}
+  #edgeTip.pop .more{color:var(--accent);font-weight:600;margin-top:8px}
+  .navlinks{margin-left:0}
+  #edgeTip.pop{position:fixed;left:12px !important;right:12px;top:auto !important;bottom:12px;max-width:none;max-height:50vh;overflow:auto;pointer-events:auto;z-index:40;padding:12px 34px 12px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+  #edgeTip .tipx{position:absolute;top:6px;right:6px;width:26px;height:26px;padding:0;box-shadow:none;background:none;font:400 18px/26px "Source Sans Pro",Helvetica,sans-serif;color:var(--muted)}
+  #edgeTip .pw{margin-top:4px;font-size:12.5px}
+}
+#detailClose{display:none;float:right;height:26px;line-height:26px;padding:0 9px;margin-top:-4px;font:400 18px/26px "Source Sans Pro",Helvetica,sans-serif;letter-spacing:0;text-transform:none;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-title">LitNet: Theory Network</div>
+    <div class="field-label" id="fieldLabel">Field:</div>
+    <div class="field-picker">
+      <button type="button" id="fieldBtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="fieldLabel fieldBtn">International Relations <span class="caret" aria-hidden="true">▾</span></button>
+      <ul id="fieldList" role="listbox" aria-labelledby="fieldLabel" hidden>
+          <li role="option" aria-selected="false"><a href="../ap-network/theories.html">American Politics</a></li>
+          <li role="option" aria-selected="false"><a href="../cn-network/theories.html">Chinese Politics</a></li>
+          <li role="option" aria-selected="false"><a href="../cp-network/theories.html">Comparative Politics</a></li>
+          <li role="option" aria-selected="false"><a href="../env-network/theories.html">Environmental Politics</a></li>
+          <li role="option" aria-selected="false"><a href="../ipe-network/theories.html">International Political Economy</a></li>
+          <li role="option" aria-selected="true"><a href="../ir-network/theories.html" class="current">International Relations</a></li>
+          <li role="option" aria-selected="false"><a href="../security-network/theories.html">International Security</a></li>
+          <li role="option" aria-selected="false"><a href="../pe-network/theories.html">Political Economy</a></li>
+          <li role="option" aria-selected="false"><a href="../pt-network/theories.html">Political Theory</a></li>
+          <li role="option" aria-selected="false"><a href="../tech-network/theories.html">Technology and AI Politics</a></li>
+      </ul>
+    </div>
+  </div>
+  <span class="sub" id="counts"></span>
+  <div class="controls">
+    <button id="viewNet" class="active">Network</button>
+    <button id="viewTime">Timeline</button>
+    <label>Relations
+      <select id="rtype">
+        <option value="all">all relations</option>
+        <option value="extends">extends</option>
+        <option value="rivals">rivals</option>
+        <option value="complements">complements</option>
+        <option value="synthesizes">synthesizes</option>
+        <option value="applies">applies</option>
+      </select></label>
+    <input type="search" id="q" placeholder="search theory, scholar, claim…">
+  </div>
+  <nav class="navlinks"><a href="network.html">Literature map</a><a href="../litnet/index.html">All fields</a><a href="../litnet/reading-list.html">My Reading List (<span id="rlCount">0</span>)</a><a href="../index.html">← George Yean</a></nav>
+</header>
+<div id="layout">
+  <aside id="families">
+    <h2>Theory families</h2>
+    <div id="famList"></div>
+    <div class="small-links"><button id="allOn">show all</button><button id="clearFocus">clear focus</button></div>
+    <p>Each dot is a <b>theory</b>, not a paper. Lines show how theories relate. <b>Click a family name</b> to focus it; <b>click its dot</b> to show or hide it. Click a theory for its core claim, its relations with reasons and its key works, which open in the literature map. Drag to rearrange; scroll to zoom.</p>
+  </aside>
+  <main id="stage">
+    <svg id="svg"></svg>
+    <div id="hint">Hover a dot for its core claim, a line for how two theories relate.</div>
+    <div id="edgeTip" role="tooltip"></div>
+    <div class="legend collapsed" id="legend">
+      <div class="lg-head"><b>How to read the lines</b> <button id="legendToggle" title="Collapse / expand">+</button></div>
+      <div class="lg-body">
+        <p>A → B: theory A relates to theory B in the way named. Hover a line for the reason.</p>
+        <div id="legendRows"></div>
+        <p>Dot color = theory family; dot size grows with the number of relations.</p>
+      </div>
+    </div>
+  </main>
+  <button id="detailToggle" title="Show details" aria-label="Show details panel">‹</button>
+  <aside id="detail" aria-hidden="true">
+    <h2>Details <button type="button" id="detailClose" aria-label="Close details">×</button></h2>
+    <div id="detailBody"><p style="color:var(--muted)">Select a theory.</p></div>
+  </aside>
+</div>
+
+<script>
+(async function(){
+  const FIELDS = {"ap-network": "American Politics", "cn-network": "Chinese Politics", "cp-network": "Comparative Politics", "env-network": "Environmental Politics", "ipe-network": "International Political Economy", "ir-network": "International Relations", "security-network": "International Security", "pe-network": "Political Economy", "pt-network": "Political Theory", "tech-network": "Technology and AI Politics"};
+  const DIR = location.pathname.split('/').slice(-2)[0];
+  const data = await fetch('theories.json').then(r => r.json());
+  const fams = data.families, famById = Object.fromEntries(fams.map(f => [f.id, f]));
+  const nodes = data.theories.map(t => Object.assign({}, t));
+  const byId = Object.fromEntries(nodes.map(n => [n.id, n]));
+  const rels = data.relations.map(r => Object.assign({}, r));
+  const RTYPES = data.meta.relation_types;
+  // extends/synthesizes/applies are directional; rivals/complements are symmetric (no arrowhead)
+  const STYLE = {
+    extends:     { color: '#8a8a8a', dash: null,  arrow: true },
+    rivals:      { color: '#dc2626', dash: '6,4', arrow: false },
+    complements: { color: '#059669', dash: '2,4', arrow: false },
+    synthesizes: { color: '#7c3aed', dash: null,  arrow: true },
+    applies:     { color: '#0891b2', dash: '8,3,2,3', arrow: true },
+  };
+  const deg = {}; rels.forEach(r => { deg[r.source] = (deg[r.source] || 0) + 1; deg[r.target] = (deg[r.target] || 0) + 1; });
+  const radius = d => 7 + Math.sqrt(deg[d.id] || 0) * 3.2;
+  const state = { view: 'net', rtype: 'all', q: '', hidden: new Set(), focus: null, selected: null };
+
+  // ---------- My Reading List
+  const RL = window.ReadingList;
+  let rlSet = RL.ids();
+  const rlItem = w => ({ id: w.id, label: w.label, title: w.title, authors: w.authors, year: w.year, journal: w.journal,
+                         doi: w.doi || null, zotero: w.zotero || null, fields: [{ dir: w.dir, label: FIELDS[w.dir] || w.dir }] });
+  const workById = {}; nodes.forEach(n => n.works.forEach(w => { workById[w.id] = w; }));
+  const rlBtn = w => `<button type="button" class="rl-mini${rlSet.has(w.id) ? ' on' : ''}" data-rl="${w.id}" title="${rlSet.has(w.id) ? 'In My Reading List (click to remove)' : 'Add to My Reading List'}" aria-label="${rlSet.has(w.id) ? 'Remove from' : 'Add to'} My Reading List">${rlSet.has(w.id) ? '★' : '☆'}</button>`;
+  document.addEventListener('click', e => { const b = e.target.closest('[data-rl]'); if (b) { e.stopPropagation(); RL.toggle(rlItem(workById[b.dataset.rl])); } }, true);
+  RL.onChange(() => {
+    rlSet = RL.ids(); document.getElementById('rlCount').textContent = rlSet.size;
+    document.querySelectorAll('[data-rl]').forEach(b => { const on = rlSet.has(b.dataset.rl); b.classList.toggle('on', on); b.textContent = on ? '★' : '☆';
+      b.title = on ? 'In My Reading List (click to remove)' : 'Add to My Reading List'; b.setAttribute('aria-label', (on ? 'Remove from' : 'Add to') + ' My Reading List'); });
+  });
+  document.getElementById('rlCount').textContent = rlSet.size;
+
+  // ---------- legend and family list
+  const lineSvg = t => `<svg viewBox="0 0 26 10"><line x1="1" y1="5" x2="${STYLE[t].arrow ? 19 : 25}" y2="5" stroke="${STYLE[t].color}" stroke-width="2" ${STYLE[t].dash ? `stroke-dasharray="${STYLE[t].dash}"` : ''}/>${STYLE[t].arrow ? `<path d="M18,1 L25,5 L18,9 Z" fill="${STYLE[t].color}"/>` : ''}</svg>`;
+  document.getElementById('legendRows').innerHTML = Object.keys(STYLE).map(t => `<div>${lineSvg(t)} <span><b>${t}</b>: ${RTYPES[t]}</span></div>`).join('');
+  document.getElementById('legendToggle').onclick = e => { const l = document.getElementById('legend'); l.classList.toggle('collapsed'); e.target.textContent = l.classList.contains('collapsed') ? '+' : '−'; };
+  function renderFamilies(){
+    const list = d3.select('#famList').html('');
+    fams.forEach(f => {
+      const n = nodes.filter(t => t.family === f.id).length;
+      const row = list.append('div').attr('class', 'fam-row' + (state.hidden.has(f.id) ? ' off' : '') + (state.focus === f.id ? ' focus' : ''));
+      row.append('span').attr('class', 'sw').style('background', f.color).attr('title', 'Show or hide').on('click', ev => {
+        ev.stopPropagation(); state.hidden.has(f.id) ? state.hidden.delete(f.id) : state.hidden.add(f.id); if (state.focus === f.id) state.focus = null; update(); });
+      row.append('span').text(f.label);
+      row.append('span').attr('class', 'n').text(n);
+      row.on('click', () => { state.focus = state.focus === f.id ? null : f.id; state.hidden.delete(f.id); update(); });
+    });
+  }
+  document.getElementById('allOn').onclick = () => { state.hidden.clear(); update(); };
+  document.getElementById('clearFocus').onclick = () => { state.focus = null; update(); };
+
+  // ---------- svg
+  const stage = document.getElementById('stage');
+  let W = stage.clientWidth, H = stage.clientHeight;
+  const svg = d3.select('#svg');
+  const defs = svg.append('defs');
+  Object.entries(STYLE).filter(([, s]) => s.arrow).forEach(([t, s]) => defs.append('marker').attr('id', 'ar-' + t).attr('viewBox', '0 -5 10 10').attr('refX', 9).attr('refY', 0)
+    .attr('markerWidth', 7).attr('markerHeight', 7).attr('orient', 'auto').append('path').attr('d', 'M0,-4L10,0L0,4').attr('fill', s.color));
+  const g = svg.append('g');
+  const zoom = d3.zoom().scaleExtent([0.3, 4]).on('zoom', ev => g.attr('transform', ev.transform));
+  svg.call(zoom);
+  const gAxis = g.append('g').attr('class', 'axis'), gLanes = g.append('g'), gEdges = g.append('g'), gNodes = g.append('g');
+  const tip = document.getElementById('edgeTip');
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink([]).id(d => d.id).distance(95).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(-420))
+    .force('collide', d3.forceCollide(d => radius(d) + 16))
+    .on('tick', ticked);
+
+  const visible = () => {
+    const q = state.q.toLowerCase();
+    return nodes.filter(n => !state.hidden.has(n.family) && (!q || [n.label, n.origin, n.core, ...n.works.map(w => w.authors + ' ' + w.title), ...n.cites].join(' ').toLowerCase().includes(q)));
+  };
+  const timeX = () => { const ys = nodes.map(n => n.year); return d3.scaleLinear().domain([d3.min(ys) - 3, d3.max(ys) + 3]).range([150, Math.max(W, 700) - 60]); };
+  const laneY = id => { const i = fams.findIndex(f => f.id === id); return 60 + (i + 0.5) * Math.max(80, (H - 110) / fams.length); };
+
+  function update(){
+    W = stage.clientWidth; H = stage.clientHeight;
+    renderFamilies();
+    const vn = visible(), vs = new Set(vn.map(n => n.id));
+    const ve = rels.filter(r => vs.has(r.source.id || r.source) && vs.has(r.target.id || r.target) && (state.rtype === 'all' || r.type === state.rtype));
+    document.getElementById('counts').textContent = `${vn.length === nodes.length ? nodes.length : vn.length + ' of ' + nodes.length} theories · ${ve.length === rels.length ? rels.length : ve.length + ' of ' + rels.length} relations`;
+
+    const es = gEdges.selectAll('path').data(ve, d => (d.source.id || d.source) + '>' + (d.target.id || d.target));
+    es.exit().remove();
+    es.enter().append('path').attr('fill', 'none').style('cursor', 'pointer')
+      .attr('stroke', d => STYLE[d.type].color).attr('stroke-dasharray', d => STYLE[d.type].dash)
+      .attr('marker-end', d => STYLE[d.type].arrow ? `url(#ar-${d.type})` : null)
+      .on('mouseenter', (ev, d) => { if (!isMobile()) { edgeTip(d); moveTip(ev); } })
+      .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
+      .on('mouseleave', () => { if (!isMobile()) tip.style.display = 'none'; })
+      .on('click', (ev, d) => { ev.stopPropagation(); if (isMobile()) { edgeTip(d); popFor = { edge: d }; popTip(); } else select(d.source.id); });
+
+    const ns = gNodes.selectAll('g.t').data(vn, d => d.id);
+    ns.exit().remove();
+    const ne = ns.enter().append('g').attr('class', 't').style('cursor', 'pointer')
+      .call(d3.drag().on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
+        .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+        .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.fx = null; d.fy = null; } }))
+      .on('mouseenter', (ev, d) => { if (!isMobile()) { nodeTip(d); moveTip(ev); highlight(d.id); } })
+      .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
+      .on('mouseleave', () => { if (!isMobile()) { tip.style.display = 'none'; highlight(state.selected); } })
+      .on('click', (ev, d) => { ev.stopPropagation(); if (isMobile()) { state.selected = d.id; highlight(d.id); nodePop(d); } else select(d.id); });
+    ne.append('circle').attr('r', radius).attr('fill', d => famById[d.family].color).attr('stroke', '#fff').attr('stroke-width', 1.5);
+    ne.append('text').attr('class', 't-label').attr('dy', d => radius(d) + 13).attr('text-anchor', 'middle').text(d => d.label);
+
+    sim.nodes(vn);
+    sim.force('link').links(ve);
+    if (state.view === 'time') {
+      const x = timeX();
+      vn.forEach(n => { n.fx = null; n.fy = null; });
+      sim.force('x', d3.forceX(d => x(d.year)).strength(1)).force('y', d3.forceY(d => laneY(d.family)).strength(0.35))
+        .force('center', null).force('charge', d3.forceManyBody().strength(-60)).force('link').strength(0);
+      gAxis.attr('transform', `translate(0,${H - 30})`).call(d3.axisBottom(x).tickFormat(d3.format('d')).ticks(8));
+      const lanes = gLanes.selectAll('text').data(fams.filter(f => !state.hidden.has(f.id)), f => f.id);
+      lanes.exit().remove();
+      lanes.enter().append('text').attr('class', 'lane-label').attr('x', 10).merge(lanes).attr('y', f => laneY(f.id)).text(f => f.label.length > 22 ? f.label.slice(0, 21) + '…' : f.label);
+    } else {
+      gAxis.selectAll('*').remove(); gLanes.selectAll('*').remove();
+      // focused family pulls to the center; others drift around it
+      sim.force('x', d3.forceX(W / 2).strength(d => state.focus && d.family === state.focus ? 0.12 : 0.04))
+        .force('y', d3.forceY(H / 2).strength(d => state.focus && d.family === state.focus ? 0.12 : 0.05))
+        .force('center', d3.forceCenter(W / 2, H / 2)).force('charge', d3.forceManyBody().strength(-420)).force('link').strength(0.5);
+    }
+    sim.alpha(0.9).restart();
+    highlight(state.selected);
+  }
+
+  function edgePath(d){
+    const sx = d.source.x, sy = d.source.y, tx = d.target.x, ty = d.target.y;
+    const dx = tx - sx, dy = ty - sy, dist = Math.hypot(dx, dy) || 1, r = radius(d.target) + 3;
+    const ex = tx - dx / dist * r, ey = ty - dy / dist * r;
+    // gentle curve so two-way pairs and parallel lines stay readable
+    const mx = (sx + ex) / 2 - dy * 0.12, my = (sy + ey) / 2 + dx * 0.12;
+    return `M${sx},${sy} Q${mx},${my} ${ex},${ey}`;
+  }
+  function ticked(){
+    gEdges.selectAll('path').attr('d', edgePath);
+    gNodes.selectAll('g.t').attr('transform', d => `translate(${d.x},${d.y})`);
+  }
+  function highlight(id){
+    const fam = state.focus;
+    const nb = new Set(id ? [id] : []);
+    if (id) rels.forEach(r => { const s = r.source.id || r.source, t = r.target.id || r.target; if (s === id) nb.add(t); if (t === id) nb.add(s); });
+    gNodes.selectAll('g.t').attr('opacity', d => id ? (nb.has(d.id) ? 1 : 0.18) : (fam && d.family !== fam ? 0.2 : 1))
+      .select('circle').attr('stroke', d => d.id === id ? 'var(--ink)' : '#fff').attr('stroke-width', d => d.id === id ? 2.5 : 1.5);
+    gEdges.selectAll('path').attr('opacity', d => { const s = d.source.id, t = d.target.id;
+      if (id) return s === id || t === id ? 0.95 : 0.06; if (fam) return byId[s].family === fam || byId[t].family === fam ? 0.85 : 0.08; return 0.6; })
+      .attr('stroke-width', d => id && (d.source.id === id || d.target.id === id) ? 2.4 : 1.6);
+  }
+
+  // ---------- tooltips and phone cards
+  function moveTip(ev){
+    const r = stage.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+    let x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 14;
+    if (x + w > r.width - 8) x = ev.clientX - r.left - w - 14;
+    if (y + h > r.height - 8) y = ev.clientY - r.top - h - 14;
+    tip.style.left = Math.max(6, x) + 'px'; tip.style.top = Math.max(6, y) + 'px';
+  }
+  const famLabel = d => famById[d.family].label;
+  function nodeTip(d){
+    tip.innerHTML = `<div class="tt">${d.label}</div><div class="tg">${famLabel(d)} · ${d.origin} · ${d.year}</div><div class="tw">${d.core}</div>`;
+    tip.style.display = 'block';
+  }
+  function edgeTip(d){
+    const s = d.source.id ? d.source : byId[d.source], t = d.target.id ? d.target : byId[d.target];
+    tip.innerHTML = `<div><b>${s.label}</b> <span style="color:${STYLE[d.type].color}">${d.type}</span> <b>${t.label}</b></div><div class="tw">${d.why}</div><div class="tg">${d.type}: ${RTYPES[d.type]}</div>`;
+    tip.style.display = 'block';
+  }
+  const mobileMQ = window.matchMedia('(max-width: 700px)');
+  function isMobile(){ return mobileMQ.matches; }
+  if (isMobile()) document.getElementById('hint').textContent = 'Tap a dot or a line for basic info, then tap the card for full details.';
+  function popTip(){ tip.insertAdjacentHTML('beforeend', '<div class="tg more">Tap this card for full details ›</div><button class="tipx" type="button" aria-label="Close">×</button>'); tip.classList.add('pop'); tip.style.display = 'block'; tip.setAttribute('role', 'dialog'); }
+  function closePop(){ tip.classList.remove('pop'); tip.setAttribute('role', 'tooltip'); tip.style.display = 'none'; }
+  tip.addEventListener('click', e => { if (e.target.closest('.tipx')) { e.stopPropagation(); closePop(); state.selected = null; highlight(null); } });
+  const workHref = w => `../${w.dir}/network.html?work=${encodeURIComponent(w.id)}`;
+  // tapping the card itself (not its buttons or links) slides in the full details panel
+  let popFor = null;
+  tip.addEventListener('click', e => {
+    if (!tip.classList.contains('pop') || !popFor || e.target.closest('.tipx, [data-rl], a')) return;
+    const id = popFor.node ? popFor.node.id : popFor.edge.source.id;
+    closePop(); select(id);
+  });
+  function nodePop(d){
+    popFor = { node: d };
+    nodeTip(d);
+    const n = (deg[d.id] || 0);
+    tip.innerHTML += `<div class="tg" style="margin-top:6px">${n} relation${n === 1 ? '' : 's'} · tap a line for what it means</div>` +
+      (d.works.length ? `<div class="tg" style="margin-top:8px">Key works</div>` + d.works.map(w => `<div class="pw work-row"><a href="${workHref(w)}">${w.label}</a>${rlBtn(w)}</div>`).join('') : '');
+    popTip();
+  }
+  mobileMQ.addEventListener('change', () => { closePop(); setDetail(false); });
+
+  // ---------- details panel
+  function select(id){ state.selected = id; highlight(id); showDetail(id); setDetail(true); }
+  function showDetail(id){
+    const d = byId[id], body = d3.select('#detailBody').html('');
+    body.append('p').attr('class', 'title').text(d.label);
+    body.append('p').attr('class', 'meta').text(`${d.origin} · ${d.year}`);
+    body.append('span').attr('class', 'chip').style('border-left', `3px solid ${famById[d.family].color}`).text(famLabel(d));
+    body.append('div').attr('class', 'lbl').text('Core claim');
+    body.append('p').text(d.core);
+    const sec = (lbl, arr, out) => {
+      if (!arr.length) return;
+      body.append('div').attr('class', 'lbl').text(lbl);
+      arr.forEach(r => { const o = byId[out ? (r.target.id || r.target) : (r.source.id || r.source)];
+        body.append('div').attr('class', 'rel').html(`<span style="color:${STYLE[r.type].color}">${r.type}</span> ${out ? '→' : '←'} <a data-id="${o.id}"><b>${o.label}</b></a><br><span class="why">${r.why}</span>`); });
+    };
+    sec('This theory', rels.filter(r => (r.source.id || r.source) === id), true);
+    sec('Theories relating to it', rels.filter(r => (r.target.id || r.target) === id), false);
+    if (d.works.length) {
+      body.append('div').attr('class', 'lbl').text('Key works in the literature maps');
+      d.works.forEach(w => body.append('div').attr('class', 'rel').html(
+        `<div class="work-row"><div><a href="${workHref(w)}"><b>${w.label}</b></a>${w.dir !== DIR ? ` <span class="why">· ${FIELDS[w.dir] || w.dir} map</span>` : ''}<br><span class="why">${w.title}${w.journal ? ' · ' + w.journal : ''}</span></div>${rlBtn(w)}</div>`));
+    }
+    if (d.cites.length) {
+      body.append('div').attr('class', 'lbl').text('Also cited (not in the maps)');
+      body.append('p').style('font-size', '13px').style('color', 'var(--muted)').text(d.cites.join('; '));
+    }
+    body.selectAll('a[data-id]').on('click', function(){ select(this.dataset.id); });
+  }
+  const detailEl = document.getElementById('detail'), detailBtn = document.getElementById('detailToggle');
+  function setDetail(open){
+    detailEl.classList.toggle('open', open); detailBtn.classList.toggle('open', open);
+    detailEl.setAttribute('aria-hidden', open ? 'false' : 'true');
+    detailBtn.textContent = open ? '›' : '‹';
+    detailBtn.title = open ? 'Hide details' : 'Show details';
+    detailBtn.setAttribute('aria-label', open ? 'Hide details panel' : 'Show details panel');
+  }
+  detailBtn.onclick = () => setDetail(!detailEl.classList.contains('open'));
+  document.getElementById('detailClose').onclick = () => setDetail(false);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { setDetail(false); closePop(); } });
+  svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; highlight(null); setDetail(false); closePop(); } });
+
+  // ---------- controls
+  const setView = v => { state.view = v; document.getElementById('viewNet').classList.toggle('active', v === 'net'); document.getElementById('viewTime').classList.toggle('active', v === 'time');
+    if (v === 'net') svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); update(); };
+  document.getElementById('viewNet').onclick = () => setView('net');
+  document.getElementById('viewTime').onclick = () => setView('time');
+  document.getElementById('rtype').onchange = e => { state.rtype = e.target.value; update(); };
+  document.getElementById('q').oninput = e => { state.q = e.target.value.trim(); update(); };
+  const fieldBtn = document.getElementById('fieldBtn'), fieldList = document.getElementById('fieldList');
+  const setField = open => { fieldList.hidden = !open; fieldBtn.setAttribute('aria-expanded', open ? 'true' : 'false'); };
+  fieldBtn.onclick = e => { e.stopPropagation(); setField(fieldList.hidden); if (!fieldList.hidden) fieldList.querySelector('a').focus(); };
+  document.addEventListener('click', e => { if (!e.target.closest('.field-picker')) setField(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !fieldList.hidden) { setField(false); fieldBtn.focus(); } });
+  window.addEventListener('pageshow', () => setField(false));
+  window.addEventListener('resize', () => update());
+
+  update();
+  // open a theory from a link: theories.html?theory=<id>
+  const want = new URLSearchParams(location.search).get('theory');
+  if (want && byId[want]) setTimeout(() => { if (isMobile()) { state.selected = want; highlight(want); nodePop(byId[want]); } else select(want); }, 400);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1188 @@
+{
+ "meta": {
+  "field": "Political Economy",
+  "built": "2026-10-28",
+  "theories": 29,
+  "relations": 29,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "institutions",
+   "label": "Institutions & development",
+   "color": "#2563eb"
+  },
+  {
+   "id": "collective",
+   "label": "Collective choice & interest groups",
+   "color": "#b45309"
+  },
+  {
+   "id": "distribution",
+   "label": "Distribution & welfare",
+   "color": "#be123c"
+  },
+  {
+   "id": "macro",
+   "label": "Macro politics & accountability",
+   "color": "#0d9488"
+  },
+  {
+   "id": "regimes",
+   "label": "Regimes & the state",
+   "color": "#7c3aed"
+  }
+ ],
+ "theories": [
+  {
+   "id": "nie",
+   "label": "New institutional economics",
+   "family": "institutions",
+   "year": 1990,
+   "origin": "North",
+   "core": "Institutions shape transaction costs and long-run performance.",
+   "works": [
+    {
+     "id": "north1990",
+     "dir": "pe-network",
+     "label": "North 1990",
+     "title": "Institutions, Institutional Change and Economic Performance",
+     "authors": "Douglass C. North",
+     "year": 1990,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "greif2006",
+     "dir": "pe-network",
+     "label": "Greif 2006",
+     "title": "Institutions and the Path to the Modern Economy: Lessons from Medieval Trade",
+     "authors": "Avner Greif",
+     "year": 2006,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "commitment",
+   "label": "Credible commitment",
+   "family": "institutions",
+   "year": 1989,
+   "origin": "North & Weingast; Kydland & Prescott",
+   "core": "Constraints on rulers make promises credible and enable markets.",
+   "works": [
+    {
+     "id": "northweingast1989",
+     "dir": "pe-network",
+     "label": "North 1989",
+     "title": "Constitutions and Commitment: The Evolution of Institutions Governing Public Choice in Seventeenth-Century England",
+     "authors": "Douglass C. North & Barry R. Weingast",
+     "year": 1989,
+     "journal": "Journal of Economic History",
+     "doi": "10.1017/cbo9781139174633.012",
+     "zotero": null
+    },
+    {
+     "id": "kydlandprescott1977",
+     "dir": "pe-network",
+     "label": "Kydland 1977",
+     "title": "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+     "authors": "Finn E. Kydland & Edward C. Prescott",
+     "year": 1977,
+     "journal": "Journal of Political Economy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "weingast1995",
+     "dir": "pe-network",
+     "label": "Weingast 1995",
+     "title": "The Economic Role of Political Institutions: Market-Preserving Federalism and Economic Development",
+     "authors": "Barry R. Weingast",
+     "year": 1995,
+     "journal": "Journal of Law, Economics, & Organization",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "colonialorigins",
+   "label": "Inclusive vs. extractive institutions",
+   "family": "institutions",
+   "year": 2001,
+   "origin": "Acemoglu, Johnson & Robinson",
+   "core": "Colonial settlement shaped institutions that drive divergence.",
+   "works": [
+    {
+     "id": "ajr2001",
+     "dir": "pe-network",
+     "label": "Acemoglu 2001",
+     "title": "The Colonial Origins of Comparative Development: An Empirical Investigation",
+     "authors": "Daron Acemoglu, Simon Johnson & James A. Robinson",
+     "year": 2001,
+     "journal": "American Economic Review",
+     "doi": "10.3386/w7771",
+     "zotero": null
+    },
+    {
+     "id": "ajr2005",
+     "dir": "pe-network",
+     "label": "Acemoglu 2005",
+     "title": "Institutions as a Fundamental Cause of Long-Run Growth",
+     "authors": "Daron Acemoglu, Simon Johnson & James A. Robinson",
+     "year": 2005,
+     "journal": "Handbook of Economic Growth (chapter)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "acemoglurobinson2012",
+     "dir": "pe-network",
+     "label": "Acemoglu 2012",
+     "title": "Why Nations Fail: The Origins of Power, Prosperity, and Poverty",
+     "authors": "Daron Acemoglu & James A. Robinson",
+     "year": 2012,
+     "journal": "Crown (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "geography_hc",
+   "label": "Human capital & geography alternatives",
+   "family": "institutions",
+   "year": 2004,
+   "origin": "Glaeser et al.; Sachs",
+   "core": "Human capital or geography, not institutions, drive growth.",
+   "works": [
+    {
+     "id": "glaeser2004",
+     "dir": "pe-network",
+     "label": "Glaeser 2004",
+     "title": "Do Institutions Cause Growth?",
+     "authors": "Edward L. Glaeser, Rafael La Porta, Florencio Lopez-de-Silanes & Andrei Shleifer",
+     "year": 2004,
+     "journal": "Journal of Economic Growth",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "culture",
+   "label": "Culture & historical persistence",
+   "family": "institutions",
+   "year": 2006,
+   "origin": "Guiso, Sapienza & Zingales; Nunn",
+   "core": "Inherited beliefs and historical shocks persist.",
+   "works": [
+    {
+     "id": "guiso2006",
+     "dir": "pe-network",
+     "label": "Guiso 2006",
+     "title": "Does Culture Affect Economic Outcomes?",
+     "authors": "Luigi Guiso, Paola Sapienza & Luigi Zingales",
+     "year": 2006,
+     "journal": "Journal of Economic Perspectives",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "nunn2008",
+     "dir": "pe-network",
+     "label": "Nunn 2008",
+     "title": "The Long-Term Effects of Africa's Slave Trades",
+     "authors": "Nathan Nunn",
+     "year": 2008,
+     "journal": "Quarterly Journal of Economics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "tabellini2010",
+     "dir": "pe-network",
+     "label": "Tabellini 2010",
+     "title": "Culture and Institutions: Economic Development in the Regions of Europe",
+     "authors": "Guido Tabellini",
+     "year": 2010,
+     "journal": "Journal of the European Economic Association",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "legalorigins",
+   "label": "Legal origins",
+   "family": "institutions",
+   "year": 1998,
+   "origin": "La Porta et al.",
+   "core": "Common- versus civil-law origins shape finance and regulation.",
+   "works": [
+    {
+     "id": "laporta1998",
+     "dir": "pe-network",
+     "label": "La Porta 1998",
+     "title": "Law and Finance",
+     "authors": "Rafael La Porta, Florencio Lopez-de-Silanes, Andrei Shleifer & Robert W. Vishny",
+     "year": 1998,
+     "journal": "Journal of Political Economy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "laporta2008",
+     "dir": "pe-network",
+     "label": "La Porta 2008",
+     "title": "The Economic Consequences of Legal Origins",
+     "authors": "Rafael La Porta, Florencio Lopez-de-Silanes & Andrei Shleifer",
+     "year": 2008,
+     "journal": "Journal of Economic Literature",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "collectiveaction",
+   "label": "Logic of collective action",
+   "family": "collective",
+   "year": 1965,
+   "origin": "Olson",
+   "core": "Small concentrated groups organize better than large diffuse ones.",
+   "works": [
+    {
+     "id": "olson1965",
+     "dir": "pe-network",
+     "label": "Olson 1965",
+     "title": "The Logic of Collective Action: Public Goods and the Theory of Groups",
+     "authors": "Mancur Olson",
+     "year": 1965,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "olson1982",
+     "dir": "pe-network",
+     "label": "Olson 1982",
+     "title": "The Rise and Decline of Nations",
+     "authors": "Mancur Olson",
+     "year": 1982,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "capture",
+   "label": "Regulatory capture (Chicago school)",
+   "family": "collective",
+   "year": 1971,
+   "origin": "Stigler",
+   "core": "Industries acquire regulation for their benefit.",
+   "works": [
+    {
+     "id": "stigler1971",
+     "dir": "pe-network",
+     "label": "Stigler 1971",
+     "title": "The Theory of Economic Regulation",
+     "authors": "George J. Stigler",
+     "year": 1971,
+     "journal": "Bell Journal of Economics and Management Science",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rentseeking",
+   "label": "Rent seeking",
+   "family": "collective",
+   "year": 1974,
+   "origin": "Tullock; Krueger",
+   "core": "Competition for policy-created rents wastes resources.",
+   "works": [
+    {
+     "id": "krueger1974",
+     "dir": "pe-network",
+     "label": "Krueger 1974",
+     "title": "The Political Economy of the Rent-Seeking Society",
+     "authors": "Anne O. Krueger",
+     "year": 1974,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "pfs",
+   "label": "Protection for sale",
+   "family": "collective",
+   "year": 1994,
+   "origin": "Grossman & Helpman",
+   "core": "Interest groups buy policy through contributions.",
+   "works": [
+    {
+     "id": "grossmanhelpman1994",
+     "dir": "pe-network",
+     "label": "Grossman 1994",
+     "title": "Protection for Sale",
+     "authors": "Gene M. Grossman & Elhanan Helpman",
+     "year": 1994,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "constitutional",
+   "label": "Constitutional political economy",
+   "family": "collective",
+   "year": 1962,
+   "origin": "Buchanan & Tullock",
+   "core": "Rules should be chosen as if behind constitutional uncertainty.",
+   "works": [
+    {
+     "id": "buchanantullock1962",
+     "dir": "pe-network",
+     "label": "Buchanan 1962",
+     "title": "The Calculus of Consent: Logical Foundations of Constitutional Democracy",
+     "authors": "James M. Buchanan & Gordon Tullock",
+     "year": 1962,
+     "journal": "University of Michigan Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "medianvoter",
+   "label": "Median-voter model of redistribution",
+   "family": "distribution",
+   "year": 1981,
+   "origin": "Meltzer & Richard",
+   "core": "Inequality raises the median voter's demand for redistribution.",
+   "works": [
+    {
+     "id": "meltzerrichard1981",
+     "dir": "pe-network",
+     "label": "Meltzer 1981",
+     "title": "A Rational Theory of the Size of Government",
+     "authors": "Allan H. Meltzer & Scott F. Richard",
+     "year": 1981,
+     "journal": "Journal of Political Economy",
+     "doi": "10.1086/261013",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "powerres",
+   "label": "Power resources theory",
+   "family": "distribution",
+   "year": 1983,
+   "origin": "Korpi; Esping-Andersen",
+   "core": "Labor and left strength build welfare states.",
+   "works": [
+    {
+     "id": "korpi1983",
+     "dir": "pe-network",
+     "label": "Korpi 1983",
+     "title": "The Democratic Class Struggle",
+     "authors": "Walter Korpi",
+     "year": 1983,
+     "journal": "Routledge & Kegan Paul (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "espingandersen1990",
+     "dir": "pe-network",
+     "label": "Esping-Andersen 1990",
+     "title": "The Three Worlds of Welfare Capitalism",
+     "authors": "Gøsta Esping-Andersen",
+     "year": 1990,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.2307/2073705",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "insurance",
+   "label": "Insurance & risk-based preferences",
+   "family": "distribution",
+   "year": 2003,
+   "origin": "Moene & Wallerstein; Rehm",
+   "core": "Demand for social policy reflects risk, not only income.",
+   "works": [
+    {
+     "id": "moenewallerstein2003",
+     "dir": "pe-network",
+     "label": "Moene 2003",
+     "title": "Earnings Inequality and Welfare Spending: A Disaggregated Analysis",
+     "authors": "Karl Ove Moene & Michael Wallerstein",
+     "year": 2003,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/S35JZE9F"
+    },
+    {
+     "id": "rehm2009",
+     "dir": "pe-network",
+     "label": "Rehm 2009",
+     "title": "Risks and Redistribution",
+     "authors": "Philipp Rehm",
+     "year": 2009,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414008330595",
+     "zotero": null
+    },
+    {
+     "id": "iversensoskice2006",
+     "dir": "pe-network",
+     "label": "Iversen 2006",
+     "title": "Electoral Institutions and the Politics of Coalitions: Why Some Democracies Redistribute More Than Others",
+     "authors": "Torben Iversen & David Soskice",
+     "year": 2006,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/YG2M56BF"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "beliefs",
+   "label": "Fairness beliefs & redistribution",
+   "family": "distribution",
+   "year": 2005,
+   "origin": "Alesina & Angeletos; Benabou & Tirole",
+   "core": "Beliefs about effort and luck sustain different equilibria.",
+   "works": [
+    {
+     "id": "alesinaangeletos2005",
+     "dir": "pe-network",
+     "label": "Alesina 2005",
+     "title": "Fairness and Redistribution",
+     "authors": "Alberto Alesina & George-Marios Angeletos",
+     "year": 2005,
+     "journal": "American Economic Review",
+     "doi": "10.1257/0002828054825655",
+     "zotero": null
+    },
+    {
+     "id": "benabou2006",
+     "dir": "pe-network",
+     "label": "Benabou 2006",
+     "title": "Belief in a Just World and Redistributive Politics",
+     "authors": "R. Benabou & J. Tirole",
+     "year": 2006,
+     "journal": "Quarterly Journal of Economics",
+     "doi": "10.1162/qjec.2006.121.2.699",
+     "zotero": null
+    },
+    {
+     "id": "alesina2018",
+     "dir": "pe-network",
+     "label": "Alesina 2018",
+     "title": "Intergenerational Mobility and Preferences for Redistribution",
+     "authors": "Alberto Alesina, Stefanie Stantcheva & Edoardo Teso",
+     "year": 2018,
+     "journal": "American Economic Review",
+     "doi": "10.1257/aer.20162015",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "voc",
+   "label": "Varieties of capitalism",
+   "family": "distribution",
+   "year": 2001,
+   "origin": "Hall & Soskice",
+   "core": "Institutional complementarities define coordinated and liberal economies.",
+   "works": [
+    {
+     "id": "hallsoskice2001",
+     "dir": "pe-network",
+     "label": "Hall 2001",
+     "title": "Varieties of Capitalism: The Institutional Foundations of Comparative Advantage",
+     "authors": "Peter A. Hall & David Soskice (eds.)",
+     "year": 2001,
+     "journal": "Oxford University Press (edited volume)",
+     "doi": "10.1093/0199247757.001.0001",
+     "zotero": null
+    },
+    {
+     "id": "iversensoskice2009",
+     "dir": "pe-network",
+     "label": "Iversen 2009",
+     "title": "Distribution and Redistribution: The Shadow of the Nineteenth Century",
+     "authors": "Torben Iversen & David Soskice",
+     "year": 2009,
+     "journal": "World Politics",
+     "doi": "10.1017/s004388710900015x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "growthmodels",
+   "label": "Growth models",
+   "family": "distribution",
+   "year": 2016,
+   "origin": "Baccaro & Pontusson",
+   "core": "Demand-side drivers distinguish export-led and consumption-led models.",
+   "works": [
+    {
+     "id": "baccaropontusson2016",
+     "dir": "pe-network",
+     "label": "Baccaro 2016",
+     "title": "Rethinking Comparative Political Economy: The Growth Model Perspective",
+     "authors": "Lucio Baccaro & Jonas Pontusson",
+     "year": 2016,
+     "journal": "Politics & Society",
+     "doi": "10.1177/0032329216638053",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "pbc",
+   "label": "Political business cycles",
+   "family": "macro",
+   "year": 1975,
+   "origin": "Nordhaus; Rogoff",
+   "core": "Incumbents manipulate the economy or budgets before elections.",
+   "works": [
+    {
+     "id": "nordhaus1975",
+     "dir": "pe-network",
+     "label": "Nordhaus 1975",
+     "title": "The Political Business Cycle",
+     "authors": "William D. Nordhaus",
+     "year": 1975,
+     "journal": "Review of Economic Studies",
+     "doi": "10.2307/2296528",
+     "zotero": null
+    },
+    {
+     "id": "rogoff1990",
+     "dir": "pe-network",
+     "label": "Rogoff 1990",
+     "title": "Equilibrium Political Budget Cycles",
+     "authors": "Kenneth Rogoff",
+     "year": 1990,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "brenderdrazen2005",
+     "dir": "pe-network",
+     "label": "Brender 2005",
+     "title": "Political Budget Cycles in New versus Established Democracies",
+     "authors": "Adi Brender & Allan Drazen",
+     "year": 2005,
+     "journal": "Journal of Monetary Economics",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cbi",
+   "label": "Central bank independence",
+   "family": "macro",
+   "year": 1985,
+   "origin": "Rogoff; Cukierman",
+   "core": "Delegating to independent, conservative central banks lowers inflation.",
+   "works": [
+    {
+     "id": "rogoff1985",
+     "dir": "pe-network",
+     "label": "Rogoff 1985",
+     "title": "The Optimal Degree of Commitment to an Intermediate Monetary Target",
+     "authors": "Kenneth Rogoff",
+     "year": 1985,
+     "journal": "Quarterly Journal of Economics",
+     "doi": "10.2307/1885679",
+     "zotero": null
+    },
+    {
+     "id": "alesinasummers1993",
+     "dir": "pe-network",
+     "label": "Alesina 1993",
+     "title": "Central Bank Independence and Macroeconomic Performance: Some Comparative Evidence",
+     "authors": "Alberto Alesina & Lawrence H. Summers",
+     "year": 1993,
+     "journal": "Journal of Money, Credit and Banking",
+     "doi": "10.2307/2077833",
+     "zotero": null
+    },
+    {
+     "id": "cukierman1992",
+     "dir": "pe-network",
+     "label": "Cukierman 1992",
+     "title": "Measuring the Independence of Central Banks and Its Effect on Policy Outcomes",
+     "authors": "Alex Cukierman, Steven B. Webb & Bilin Neyapti",
+     "year": 1992,
+     "journal": "World Bank Economic Review",
+     "doi": "10.1093/wber/6.3.353",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "agency",
+   "label": "Electoral agency (accountability & selection)",
+   "family": "macro",
+   "year": 1973,
+   "origin": "Barro; Ferejohn; Besley",
+   "core": "Elections discipline and select politicians.",
+   "works": [
+    {
+     "id": "barro1973",
+     "dir": "pe-network",
+     "label": "Barro 1973",
+     "title": "The Control of Politicians: An Economic Model",
+     "authors": "Robert J. Barro",
+     "year": 1973,
+     "journal": "Public Choice",
+     "doi": "10.1007/bf01718440",
+     "zotero": null
+    },
+    {
+     "id": "ferejohn1986",
+     "dir": "pe-network",
+     "label": "Ferejohn 1986",
+     "title": "Incumbent Performance and Electoral Control",
+     "authors": "John Ferejohn",
+     "year": 1986,
+     "journal": "Public Choice",
+     "doi": "10.1007/bf00124924",
+     "zotero": null
+    },
+    {
+     "id": "ferrazfinan2008",
+     "dir": "pe-network",
+     "label": "Ferraz 2008",
+     "title": "Exposing Corrupt Politicians: The Effects of Brazil's Publicly Released Audits on Electoral Outcomes",
+     "authors": "Claudio Ferraz & Frederico Finan",
+     "year": 2008,
+     "journal": "Quarterly Journal of Economics",
+     "doi": "10.1162/qjec.2008.123.2.703",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "media",
+   "label": "Media and accountability",
+   "family": "macro",
+   "year": 2002,
+   "origin": "Besley & Burgess; Besley & Prat",
+   "core": "Free media inform voters and constrain governments; capture undermines this.",
+   "works": [
+    {
+     "id": "besleyburgess2002",
+     "dir": "pe-network",
+     "label": "Besley 2002",
+     "title": "The Political Economy of Government Responsiveness: Theory and Evidence from India",
+     "authors": "Timothy Besley & Robin Burgess",
+     "year": 2002,
+     "journal": "Quarterly Journal of Economics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "besleyprat2006",
+     "dir": "pe-network",
+     "label": "Besley 2006",
+     "title": "Handcuffs for the Grabbing Hand? Media Capture and Government Accountability",
+     "authors": "Timothy Besley & Andrea Prat",
+     "year": 2006,
+     "journal": "American Economic Review",
+     "doi": "10.1257/aer.96.3.720",
+     "zotero": null
+    },
+    {
+     "id": "snyderstromberg2010",
+     "dir": "pe-network",
+     "label": "Snyder 2010",
+     "title": "Press Coverage and Political Accountability",
+     "authors": "James M. Snyder & David Strömberg",
+     "year": 2010,
+     "journal": "Journal of Political Economy",
+     "doi": "10.1086/652903",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "economicvote",
+   "label": "Economic voting & clarity of responsibility",
+   "family": "macro",
+   "year": 2008,
+   "origin": "Duch & Stevenson",
+   "core": "Voters reward or punish incumbents for the economy, conditioned by institutions.",
+   "works": [
+    {
+     "id": "duchstevenson2008",
+     "dir": "pe-network",
+     "label": "Duch 2008",
+     "title": "The Economic Vote: How Political and Economic Institutions Condition Election Results",
+     "authors": "Raymond M. Duch & Randolph T. Stevenson",
+     "year": 2008,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "stationary",
+   "label": "Stationary bandit",
+   "family": "regimes",
+   "year": 1993,
+   "origin": "Olson",
+   "core": "A secure autocrat with an encompassing interest limits predation.",
+   "works": [
+    {
+     "id": "olson1993",
+     "dir": "pe-network",
+     "label": "Olson 1993",
+     "title": "Dictatorship, Democracy, and Development",
+     "authors": "Mancur Olson",
+     "year": 1993,
+     "journal": "APSR",
+     "doi": "10.2307/2938736",
+     "zotero": "https://www.zotero.org/georgeyean/items/GR58PGUV"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "selectorate",
+   "label": "Selectorate theory",
+   "family": "regimes",
+   "year": 2003,
+   "origin": "Bueno de Mesquita et al.",
+   "core": "Coalition size determines public versus private goods.",
+   "works": [
+    {
+     "id": "bdm2003",
+     "dir": "pe-network",
+     "label": "Bueno de Mesquita 2003",
+     "title": "The Logic of Political Survival",
+     "authors": "Bruce Bueno de Mesquita, Alastair Smith, Randolph M. Siverson & James D. Morrow",
+     "year": 2003,
+     "journal": "MIT Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "statecapacity",
+   "label": "Fiscal-military state capacity",
+   "family": "regimes",
+   "year": 1990,
+   "origin": "Tilly; Besley & Persson",
+   "core": "War and common interests drive fiscal and legal capacity.",
+   "works": [
+    {
+     "id": "tilly1990",
+     "dir": "pe-network",
+     "label": "Tilly 1990",
+     "title": "Coercion, Capital, and European States, AD 990-1990",
+     "authors": "Charles Tilly",
+     "year": 1990,
+     "journal": "Basil Blackwell (book)",
+     "doi": "10.4324/9781315205021-9",
+     "zotero": null
+    },
+    {
+     "id": "besleypersson2009",
+     "dir": "pe-network",
+     "label": "Besley 2009",
+     "title": "The Origins of State Capacity: Property Rights, Taxation, and Politics",
+     "authors": "Timothy Besley & Torsten Persson",
+     "year": 2009,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "dincecco2011",
+     "dir": "pe-network",
+     "label": "Dincecco 2011",
+     "title": "Political Transformations and Public Finances: Europe, 1650-1913",
+     "authors": "Mark Dincecco",
+     "year": 2011,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ethnicgoods",
+   "label": "Ethnic diversity & public goods",
+   "family": "regimes",
+   "year": 1997,
+   "origin": "Easterly & Levine; Alesina et al.",
+   "core": "Ethnic divisions reduce public goods and growth.",
+   "works": [
+    {
+     "id": "easterlylevine1997",
+     "dir": "pe-network",
+     "label": "Easterly 1997",
+     "title": "Africa's Growth Tragedy: Policies and Ethnic Divisions",
+     "authors": "William Easterly & Ross Levine",
+     "year": 1997,
+     "journal": "Quarterly Journal of Economics",
+     "doi": "10.1162/003355300555466",
+     "zotero": null
+    },
+    {
+     "id": "alesina1999",
+     "dir": "pe-network",
+     "label": "Alesina 1999",
+     "title": "Public Goods and Ethnic Divisions",
+     "authors": "Alberto Alesina, Reza Baqir & William Easterly",
+     "year": 1999,
+     "journal": "Quarterly Journal of Economics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "habyarimana2007",
+     "dir": "pe-network",
+     "label": "Habyarimana 2007",
+     "title": "Why Does Ethnic Diversity Undermine Public Goods Provision?",
+     "authors": "James Habyarimana, Macartan Humphreys, Daniel N. Posner & Jeremy M. Weinstein",
+     "year": 2007,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055407070499",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "clientelism",
+   "label": "Clientelism",
+   "family": "regimes",
+   "year": 2005,
+   "origin": "Stokes; Keefer",
+   "core": "Targeted exchange substitutes for programmatic policy in young democracies.",
+   "works": [
+    {
+     "id": "stokes2005",
+     "dir": "pe-network",
+     "label": "Stokes 2005",
+     "title": "Perverse Accountability: A Formal Model of Machine Politics with Evidence from Argentina",
+     "authors": "Susan C. Stokes",
+     "year": 2005,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055405051683",
+     "zotero": null
+    },
+    {
+     "id": "keefer2007",
+     "dir": "pe-network",
+     "label": "Keefer 2007",
+     "title": "Clientelism, Credibility, and the Policy Choices of Young Democracies",
+     "authors": "Philip Keefer",
+     "year": 2007,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2007.00282.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "demgrowth",
+   "label": "Democracy and growth",
+   "family": "regimes",
+   "year": 2000,
+   "origin": "Przeworski et al.; Acemoglu et al.",
+   "core": "Debate over whether democracy causes growth.",
+   "works": [
+    {
+     "id": "przeworski2000",
+     "dir": "pe-network",
+     "label": "Przeworski 2000",
+     "title": "Democracy and Development: Political Institutions and Well-Being in the World, 1950-1990",
+     "authors": "Adam Przeworski, Michael E. Alvarez, José Antonio Cheibub & Fernando Limongi",
+     "year": 2000,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "acemoglu2019",
+     "dir": "pe-network",
+     "label": "Acemoglu 2019",
+     "title": "Democracy Does Cause Growth",
+     "authors": "Daron Acemoglu, Suresh Naidu, Pascual Restrepo & James A. Robinson",
+     "year": 2019,
+     "journal": "Journal of Political Economy",
+     "doi": "10.1086/700936",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "redistdemoc",
+   "label": "Redistributive theories of regime change",
+   "family": "regimes",
+   "year": 2006,
+   "origin": "Acemoglu & Robinson; Boix",
+   "core": "Distributive conflict shapes democratization.",
+   "works": [
+    {
+     "id": "acemoglurobinson2006",
+     "dir": "pe-network",
+     "label": "Acemoglu 2006",
+     "title": "Economic Origins of Dictatorship and Democracy",
+     "authors": "Daron Acemoglu & James A. Robinson",
+     "year": 2006,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511510809",
+     "zotero": null
+    },
+    {
+     "id": "boix2003",
+     "dir": "pe-network",
+     "label": "Boix 2003",
+     "title": "Democracy and Redistribution",
+     "authors": "Carles Boix",
+     "year": 2003,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511804960",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "commitment",
+   "target": "nie",
+   "type": "extends",
+   "why": "Credible constraints as key institutions."
+  },
+  {
+   "source": "colonialorigins",
+   "target": "nie",
+   "type": "applies",
+   "why": "Empirical test of institutions."
+  },
+  {
+   "source": "geography_hc",
+   "target": "colonialorigins",
+   "type": "rivals",
+   "why": "Human capital or geography first."
+  },
+  {
+   "source": "culture",
+   "target": "colonialorigins",
+   "type": "rivals",
+   "why": "Culture versus formal institutions."
+  },
+  {
+   "source": "legalorigins",
+   "target": "colonialorigins",
+   "type": "rivals",
+   "why": "Legal tradition versus colonial settlement."
+  },
+  {
+   "source": "capture",
+   "target": "collectiveaction",
+   "type": "extends",
+   "why": "Concentrated industries capture regulators."
+  },
+  {
+   "source": "rentseeking",
+   "target": "capture",
+   "type": "extends",
+   "why": "Social costs of capture."
+  },
+  {
+   "source": "pfs",
+   "target": "capture",
+   "type": "extends",
+   "why": "Formal model of influence."
+  },
+  {
+   "source": "constitutional",
+   "target": "collectiveaction",
+   "type": "complements",
+   "why": "Choosing rules under collective action problems."
+  },
+  {
+   "source": "powerres",
+   "target": "medianvoter",
+   "type": "rivals",
+   "why": "Power, not the median voter."
+  },
+  {
+   "source": "insurance",
+   "target": "medianvoter",
+   "type": "rivals",
+   "why": "Risk motives, not just income."
+  },
+  {
+   "source": "beliefs",
+   "target": "medianvoter",
+   "type": "rivals",
+   "why": "Beliefs explain weak demand."
+  },
+  {
+   "source": "voc",
+   "target": "powerres",
+   "type": "rivals",
+   "why": "Employer coordination versus labor power."
+  },
+  {
+   "source": "growthmodels",
+   "target": "voc",
+   "type": "rivals",
+   "why": "Demand-side growth models."
+  },
+  {
+   "source": "voc",
+   "target": "insurance",
+   "type": "complements",
+   "why": "Skill specificity drives insurance demand."
+  },
+  {
+   "source": "pbc",
+   "target": "agency",
+   "type": "complements",
+   "why": "Opportunism within accountability."
+  },
+  {
+   "source": "cbi",
+   "target": "commitment",
+   "type": "applies",
+   "why": "Commitment in monetary policy."
+  },
+  {
+   "source": "cbi",
+   "target": "pbc",
+   "type": "rivals",
+   "why": "Insulation limits political cycles."
+  },
+  {
+   "source": "media",
+   "target": "agency",
+   "type": "extends",
+   "why": "Information enables accountability."
+  },
+  {
+   "source": "economicvote",
+   "target": "agency",
+   "type": "extends",
+   "why": "How voters judge performance."
+  },
+  {
+   "source": "stationary",
+   "target": "collectiveaction",
+   "type": "applies",
+   "why": "Encompassing interests in autocracy."
+  },
+  {
+   "source": "selectorate",
+   "target": "stationary",
+   "type": "extends",
+   "why": "Coalitions shape autocratic goods."
+  },
+  {
+   "source": "statecapacity",
+   "target": "stationary",
+   "type": "complements",
+   "why": "Building the extractive state."
+  },
+  {
+   "source": "ethnicgoods",
+   "target": "collectiveaction",
+   "type": "applies",
+   "why": "Diversity impedes collective action."
+  },
+  {
+   "source": "clientelism",
+   "target": "selectorate",
+   "type": "complements",
+   "why": "Private goods in democracies."
+  },
+  {
+   "source": "demgrowth",
+   "target": "stationary",
+   "type": "rivals",
+   "why": "Democratic versus autocratic growth."
+  },
+  {
+   "source": "redistdemoc",
+   "target": "medianvoter",
+   "type": "applies",
+   "why": "Redistribution and regime change."
+  },
+  {
+   "source": "redistdemoc",
+   "target": "commitment",
+   "type": "complements",
+   "why": "Democracy as commitment to redistribute."
+  },
+  {
+   "source": "agency",
+   "target": "constitutional",
+   "type": "complements",
+   "why": "Design of accountability institutions."
+  }
+ ]
+}

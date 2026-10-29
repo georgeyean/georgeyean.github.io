@@ -1,0 +1,844 @@
+{
+ "meta": {
+  "field": "International Security",
+  "built": "2026-10-28",
+  "theories": 26,
+  "relations": 26,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "war",
+   "label": "Causes of war & crisis",
+   "color": "#be123c"
+  },
+  {
+   "id": "nuclear",
+   "label": "Nuclear weapons",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "alliances",
+   "label": "Alliances & coercion",
+   "color": "#2563eb"
+  },
+  {
+   "id": "civil",
+   "label": "Civil war & political violence",
+   "color": "#ea580c"
+  },
+  {
+   "id": "conduct",
+   "label": "Conduct of war & military power",
+   "color": "#16a34a"
+  }
+ ],
+ "theories": [
+  {
+   "id": "bargaining",
+   "label": "Bargaining model of war",
+   "family": "war",
+   "year": 1995,
+   "origin": "Fearon",
+   "core": "Rational states fight because of private information, commitment problems or indivisibilities.",
+   "works": [
+    {
+     "id": "fearon1995",
+     "dir": "security-network",
+     "label": "Fearon 1995",
+     "title": "Rationalist Explanations for War",
+     "authors": "James D. Fearon",
+     "year": 1995,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/KT8UMYSX"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "commitment",
+   "label": "Commitment problems & shifting power",
+   "family": "war",
+   "year": 2006,
+   "origin": "Powell",
+   "core": "Rapid power shifts make deals non-credible and cause war.",
+   "works": [
+    {
+     "id": "powell2006",
+     "dir": "security-network",
+     "label": "Powell 2006",
+     "title": "War as a Commitment Problem",
+     "authors": "Robert Powell",
+     "year": 2006,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/CAI5D3IH"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "audience",
+   "label": "Audience costs",
+   "family": "war",
+   "year": 1994,
+   "origin": "Fearon",
+   "core": "Public threats create domestic costs for backing down, signaling resolve.",
+   "works": [
+    {
+     "id": "fearon1994",
+     "dir": "security-network",
+     "label": "Fearon 1994",
+     "title": "Domestic Political Audiences and the Escalation of International Disputes",
+     "authors": "James D. Fearon",
+     "year": 1994,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/C6JKP379"
+    },
+    {
+     "id": "tomz2007",
+     "dir": "security-network",
+     "label": "Tomz 2007",
+     "title": "Domestic Audience Costs in International Relations: An Experimental Approach",
+     "authors": "Michael Tomz",
+     "year": 2007,
+     "journal": "IO",
+     "doi": "10.1017/s0020818307070282",
+     "zotero": null
+    },
+    {
+     "id": "weeks2008",
+     "dir": "security-network",
+     "label": "Weeks 2008",
+     "title": "Autocratic Audience Costs: Regime Type and Signaling Resolve",
+     "authors": "Jessica L. Weeks",
+     "year": 2008,
+     "journal": "IO",
+     "doi": "10.1017/s0020818308080028",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "dempeace",
+   "label": "Democratic peace",
+   "family": "war",
+   "year": 1993,
+   "origin": "Russett; Doyle",
+   "core": "Democracies do not fight each other.",
+   "works": [
+    {
+     "id": "tomzweeks2013",
+     "dir": "security-network",
+     "label": "Tomz 2013",
+     "title": "Public Opinion and the Democratic Peace",
+     "authors": "Michael R. Tomz & Jessica L. P. Weeks",
+     "year": 2013,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/9XXYS6XB"
+    }
+   ],
+   "cites": [
+    "Russett 1993"
+   ]
+  },
+  {
+   "id": "offdef",
+   "label": "Offense-defense theory",
+   "family": "war",
+   "year": 1978,
+   "origin": "Jervis; Van Evera",
+   "core": "War is likelier when offense has the advantage.",
+   "works": [
+    {
+     "id": "jervis1978",
+     "dir": "security-network",
+     "label": "Jervis 1978",
+     "title": "Cooperation under the Security Dilemma",
+     "authors": "Robert Jervis",
+     "year": 1978,
+     "journal": "World Politics",
+     "doi": "10.2307/2009958",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Van Evera 1998"
+   ]
+  },
+  {
+   "id": "secdilemma",
+   "label": "Security dilemma",
+   "family": "war",
+   "year": 1978,
+   "origin": "Jervis",
+   "core": "Defensive measures appear threatening and spiral into conflict.",
+   "works": [
+    {
+     "id": "jervis1978",
+     "dir": "security-network",
+     "label": "Jervis 1978",
+     "title": "Cooperation under the Security Dilemma",
+     "authors": "Robert Jervis",
+     "year": 1978,
+     "journal": "World Politics",
+     "doi": "10.2307/2009958",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "powertransition",
+   "label": "Power transition",
+   "family": "war",
+   "year": 1958,
+   "origin": "Organski; Gilpin",
+   "core": "War results when a dissatisfied challenger nears parity.",
+   "works": [
+    {
+     "id": "gilpin1981",
+     "dir": "security-network",
+     "label": "Gilpin 1981",
+     "title": "War and Change in World Politics",
+     "authors": "Robert Gilpin",
+     "year": 1981,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511664267",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "deterrence",
+   "label": "Nuclear deterrence & the nuclear revolution",
+   "family": "nuclear",
+   "year": 1989,
+   "origin": "Jervis; Waltz",
+   "core": "Secure second-strike forces make great-power war irrational.",
+   "works": [],
+   "cites": [
+    "Jervis 1989",
+    "Waltz 1981"
+   ]
+  },
+  {
+   "id": "organizational",
+   "label": "Organizational theory of nuclear risk",
+   "family": "nuclear",
+   "year": 1993,
+   "origin": "Sagan",
+   "core": "Organizational pathologies make nuclear accidents and misuse likely.",
+   "works": [
+    {
+     "id": "sagan1996",
+     "dir": "security-network",
+     "label": "Sagan 1996",
+     "title": "Why Do States Build Nuclear Weapons? Three Models in Search of a Bomb",
+     "authors": "Scott D. Sagan",
+     "year": 1996,
+     "journal": "International Security",
+     "doi": "10.2307/2539273",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Sagan 1993"
+   ]
+  },
+  {
+   "id": "proliferation",
+   "label": "Supply and demand of proliferation",
+   "family": "nuclear",
+   "year": 1996,
+   "origin": "Sagan; Kroenig; Fuhrmann",
+   "core": "Security threats, norms and sensitive assistance drive proliferation.",
+   "works": [
+    {
+     "id": "sagan1996",
+     "dir": "security-network",
+     "label": "Sagan 1996",
+     "title": "Why Do States Build Nuclear Weapons? Three Models in Search of a Bomb",
+     "authors": "Scott D. Sagan",
+     "year": 1996,
+     "journal": "International Security",
+     "doi": "10.2307/2539273",
+     "zotero": null
+    },
+    {
+     "id": "fuhrmann2009",
+     "dir": "security-network",
+     "label": "Fuhrmann 2009",
+     "title": "Spreading Temptation: Proliferation and Peaceful Nuclear Cooperation Agreements",
+     "authors": "Matthew Fuhrmann",
+     "year": 2009,
+     "journal": "International Security",
+     "doi": "10.1162/isec.2009.34.1.7",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Kroenig 2009"
+   ]
+  },
+  {
+   "id": "counterforce",
+   "label": "Counterforce and the end of MAD",
+   "family": "nuclear",
+   "year": 2017,
+   "origin": "Lieber & Press",
+   "core": "Accuracy and sensing may undermine secure second strike.",
+   "works": [
+    {
+     "id": "lieberpress2017",
+     "dir": "security-network",
+     "label": "Lieber 2017",
+     "title": "The New Era of Counterforce: Technological Change and the Future of Nuclear Deterrence",
+     "authors": "Keir A. Lieber & Daryl G. Press",
+     "year": 2017,
+     "journal": "International Security",
+     "doi": "10.1162/isec_a_00273",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "balancethreat",
+   "label": "Balance of threat",
+   "family": "alliances",
+   "year": 1987,
+   "origin": "Walt",
+   "core": "States ally against threats, not just power.",
+   "works": [
+    {
+     "id": "walt1987",
+     "dir": "security-network",
+     "label": "Walt 1987",
+     "title": "The Origins of Alliances",
+     "authors": "Stephen M. Walt",
+     "year": 1987,
+     "journal": "Cornell University Press (book)",
+     "doi": "10.7591/9780801469992",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "allydilemma",
+   "label": "Alliance security dilemma",
+   "family": "alliances",
+   "year": 1984,
+   "origin": "Snyder",
+   "core": "Allies fear abandonment and entrapment.",
+   "works": [
+    {
+     "id": "snyder1984",
+     "dir": "security-network",
+     "label": "Snyder 1984",
+     "title": "The Security Dilemma in Alliance Politics",
+     "authors": "Glenn H. Snyder",
+     "year": 1984,
+     "journal": "World Politics",
+     "doi": "10.2307/2010183",
+     "zotero": null
+    },
+    {
+     "id": "kim2011",
+     "dir": "security-network",
+     "label": "Kim 2011",
+     "title": "Why Alliances Entangle But Seldom Entrap States",
+     "authors": "Tongfi Kim",
+     "year": 2011,
+     "journal": "Security Studies",
+     "doi": "10.1080/09636412.2011.599201",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "coercion",
+   "label": "Coercion & compellence",
+   "family": "alliances",
+   "year": 1966,
+   "origin": "Schelling",
+   "core": "Threats of pain shape adversary choices; compellence is harder than deterrence.",
+   "works": [
+    {
+     "id": "schelling1966",
+     "dir": "security-network",
+     "label": "Schelling 1966",
+     "title": "Arms and Influence",
+     "authors": "Thomas C. Schelling",
+     "year": 1966,
+     "journal": "Yale University Press (book)",
+     "doi": "10.12987/9780300186703",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "reputation",
+   "label": "Reputation and credibility",
+   "family": "alliances",
+   "year": 2005,
+   "origin": "Press; Mercer",
+   "core": "Credibility depends on current power and interests, not past behavior.",
+   "works": [
+    {
+     "id": "press2005",
+     "dir": "security-network",
+     "label": "Press 2005",
+     "title": "Calculating Credibility: How Leaders Assess Military Threats",
+     "authors": "Daryl G. Press",
+     "year": 2005,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "greed",
+   "label": "Opportunity (greed) theory of civil war",
+   "family": "civil",
+   "year": 2003,
+   "origin": "Collier & Hoeffler; Fearon & Laitin",
+   "core": "Rebellion depends on feasibility: weak states, terrain, lootable resources.",
+   "works": [
+    {
+     "id": "fearonlaitin2003",
+     "dir": "security-network",
+     "label": "Fearon 2003",
+     "title": "Ethnicity, Insurgency, and Civil War",
+     "authors": "James D. Fearon & David D. Laitin",
+     "year": 2003,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/ANPFUUHA"
+    },
+    {
+     "id": "collier2004",
+     "dir": "security-network",
+     "label": "Collier 2004",
+     "title": "Greed and Grievance in Civil War",
+     "authors": "Paul Collier & Anke Hoeffler",
+     "year": 2004,
+     "journal": "Oxford Economic Papers",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "grievance",
+   "label": "Ethnic exclusion & horizontal inequalities",
+   "family": "civil",
+   "year": 2010,
+   "origin": "Cederman, Wimmer & Min",
+   "core": "Excluded ethnic groups rebel.",
+   "works": [
+    {
+     "id": "cederman2010",
+     "dir": "security-network",
+     "label": "Cederman 2009",
+     "title": "Why Do Ethnic Groups Rebel? New Data and Analysis",
+     "authors": "Lars-Erik Cederman, Andreas Wimmer & Brian Min",
+     "year": 2009,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887109990219",
+     "zotero": null
+    },
+    {
+     "id": "cederman2011",
+     "dir": "security-network",
+     "label": "Cederman 2011",
+     "title": "Horizontal Inequalities and Ethnonationalist Civil War: A Global Comparison",
+     "authors": "Lars-Erik Cederman, Nils B. Weidmann & Kristian Skrede Gleditsch",
+     "year": 2011,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055411000207",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "violence",
+   "label": "Logic of violence in civil war",
+   "family": "civil",
+   "year": 2006,
+   "origin": "Kalyvas",
+   "core": "Selective violence follows territorial control and denunciation.",
+   "works": [
+    {
+     "id": "kalyvas2006",
+     "dir": "security-network",
+     "label": "Kalyvas 2006",
+     "title": "The Logic of Violence in Civil War",
+     "authors": "Stathis N. Kalyvas",
+     "year": 2006,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511818462",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rebelorg",
+   "label": "Rebel organization & recruitment",
+   "family": "civil",
+   "year": 2007,
+   "origin": "Weinstein",
+   "core": "Resource endowments shape recruits and rebel behavior toward civilians.",
+   "works": [
+    {
+     "id": "weinstein2007",
+     "dir": "security-network",
+     "label": "Weinstein 2007",
+     "title": "Inside Rebellion: The Politics of Insurgent Violence",
+     "authors": "Jeremy M. Weinstein",
+     "year": 2007,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511808654",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "terrorism",
+   "label": "Strategic logic of terrorism",
+   "family": "civil",
+   "year": 2006,
+   "origin": "Kydd & Walter; Pape",
+   "core": "Terrorism is costly signaling to coerce, spoil, provoke and outbid.",
+   "works": [
+    {
+     "id": "kyddwalter2006",
+     "dir": "security-network",
+     "label": "Kydd 2006",
+     "title": "The Strategies of Terrorism",
+     "authors": "Andrew H. Kydd & Barbara F. Walter",
+     "year": 2006,
+     "journal": "International Security",
+     "doi": "10.1162/isec.2006.31.1.49",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Pape 2003"
+   ]
+  },
+  {
+   "id": "peacekeeping",
+   "label": "Peacekeeping & commitment",
+   "family": "civil",
+   "year": 2004,
+   "origin": "Fortna; Walter",
+   "core": "Third parties solve commitment problems and keep peace.",
+   "works": [
+    {
+     "id": "fortna2004",
+     "dir": "security-network",
+     "label": "Fortna 2004",
+     "title": "Does Peacekeeping Keep Peace? International Intervention and the Duration of Peace After Civil War",
+     "authors": "Virginia Page Fortna",
+     "year": 2004,
+     "journal": "ISQ",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/YXRD8X3J"
+    },
+    {
+     "id": "walter1997",
+     "dir": "security-network",
+     "label": "Walter 1997",
+     "title": "The Critical Barrier to Civil War Settlement",
+     "authors": "Barbara F. Walter",
+     "year": 1997,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/GRGMKA8B"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "coin",
+   "label": "Population-centric counterinsurgency",
+   "family": "conduct",
+   "year": 2008,
+   "origin": "Kilcullen; Lyall & Wilson",
+   "core": "Winning civilian support, not killing, defeats insurgents.",
+   "works": [
+    {
+     "id": "lyall2009",
+     "dir": "security-network",
+     "label": "Lyall 2009",
+     "title": "Does Indiscriminate Violence Incite Insurgent Attacks?",
+     "authors": "Jason Lyall",
+     "year": 2009,
+     "journal": "Journal of Conflict Resolution",
+     "doi": "10.1177/0022002708330881",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "airpower",
+   "label": "Airpower and coercion",
+   "family": "conduct",
+   "year": 1996,
+   "origin": "Pape",
+   "core": "Denial, not punishment, makes coercive airpower work.",
+   "works": [],
+   "cites": [
+    "Pape 1996"
+   ]
+  },
+  {
+   "id": "cmr",
+   "label": "Civil-military relations",
+   "family": "conduct",
+   "year": 1957,
+   "origin": "Huntington; Feaver",
+   "core": "Objective civilian control and principal-agent problems shape militaries.",
+   "works": [],
+   "cites": [
+    "Huntington 1957"
+   ]
+  },
+  {
+   "id": "cyber",
+   "label": "Cyber conflict debates",
+   "family": "conduct",
+   "year": 2012,
+   "origin": "Rid; Gartzke; Kello",
+   "core": "Whether cyberspace revolutionizes or merely supplements conflict.",
+   "works": [
+    {
+     "id": "rid2012",
+     "dir": "security-network",
+     "label": "Rid 2012",
+     "title": "Cyber War Will Not Take Place",
+     "authors": "Thomas Rid",
+     "year": 2012,
+     "journal": "Journal of Strategic Studies",
+     "doi": "10.1080/01402390.2011.608939",
+     "zotero": null
+    },
+    {
+     "id": "gartzke2013",
+     "dir": "security-network",
+     "label": "Gartzke 2013",
+     "title": "The Myth of Cyberwar: Bringing War in Cyberspace Back Down to Earth",
+     "authors": "Erik Gartzke",
+     "year": 2013,
+     "journal": "International Security",
+     "doi": "10.1162/isec_a_00136",
+     "zotero": null
+    },
+    {
+     "id": "kello2013",
+     "dir": "security-network",
+     "label": "Kello 2013",
+     "title": "The Meaning of the Cyber Revolution: Perils to Theory and Statecraft",
+     "authors": "Lucas Kello",
+     "year": 2013,
+     "journal": "International Security",
+     "doi": "10.1162/isec_a_00138",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "diversion",
+   "label": "Diversionary war",
+   "family": "war",
+   "year": 1989,
+   "origin": "Levy",
+   "core": "Leaders start conflicts to rally domestic support.",
+   "works": [],
+   "cites": [
+    "Levy 1989"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "source": "commitment",
+   "target": "bargaining",
+   "type": "extends",
+   "why": "Commitment problems as a cause of war."
+  },
+  {
+   "source": "audience",
+   "target": "bargaining",
+   "type": "applies",
+   "why": "Costly signals solve information problems."
+  },
+  {
+   "source": "dempeace",
+   "target": "audience",
+   "type": "complements",
+   "why": "Democratic institutions make signals credible."
+  },
+  {
+   "source": "offdef",
+   "target": "secdilemma",
+   "type": "extends",
+   "why": "Offense dominance intensifies the dilemma."
+  },
+  {
+   "source": "powertransition",
+   "target": "commitment",
+   "type": "complements",
+   "why": "Shifting power as cause of war."
+  },
+  {
+   "source": "diversion",
+   "target": "audience",
+   "type": "rivals",
+   "why": "Domestic politics causes rather than restrains war."
+  },
+  {
+   "source": "organizational",
+   "target": "deterrence",
+   "type": "rivals",
+   "why": "Organizations undermine deterrence stability."
+  },
+  {
+   "source": "proliferation",
+   "target": "deterrence",
+   "type": "applies",
+   "why": "Why states seek deterrents."
+  },
+  {
+   "source": "counterforce",
+   "target": "deterrence",
+   "type": "rivals",
+   "why": "Technology erodes mutual vulnerability."
+  },
+  {
+   "source": "balancethreat",
+   "target": "secdilemma",
+   "type": "complements",
+   "why": "Threat perception drives alignment."
+  },
+  {
+   "source": "allydilemma",
+   "target": "balancethreat",
+   "type": "extends",
+   "why": "Dynamics within alliances."
+  },
+  {
+   "source": "coercion",
+   "target": "deterrence",
+   "type": "synthesizes",
+   "why": "General theory of threats."
+  },
+  {
+   "source": "reputation",
+   "target": "coercion",
+   "type": "extends",
+   "why": "What makes threats credible."
+  },
+  {
+   "source": "reputation",
+   "target": "audience",
+   "type": "rivals",
+   "why": "Credibility from interests, not reputation costs."
+  },
+  {
+   "source": "grievance",
+   "target": "greed",
+   "type": "rivals",
+   "why": "Exclusion versus feasibility."
+  },
+  {
+   "source": "violence",
+   "target": "greed",
+   "type": "extends",
+   "why": "Micro-dynamics within civil war."
+  },
+  {
+   "source": "rebelorg",
+   "target": "greed",
+   "type": "extends",
+   "why": "Resources shape rebel organization."
+  },
+  {
+   "source": "rebelorg",
+   "target": "violence",
+   "type": "complements",
+   "why": "Organization and violence against civilians."
+  },
+  {
+   "source": "terrorism",
+   "target": "bargaining",
+   "type": "applies",
+   "why": "Bargaining logic for nonstate violence."
+  },
+  {
+   "source": "peacekeeping",
+   "target": "commitment",
+   "type": "applies",
+   "why": "Third parties fix commitment problems."
+  },
+  {
+   "source": "coin",
+   "target": "violence",
+   "type": "applies",
+   "why": "Control and civilian support."
+  },
+  {
+   "source": "airpower",
+   "target": "coercion",
+   "type": "applies",
+   "why": "Coercion through air campaigns."
+  },
+  {
+   "source": "cmr",
+   "target": "organizational",
+   "type": "complements",
+   "why": "Military organizations and civilian control."
+  },
+  {
+   "source": "cyber",
+   "target": "offdef",
+   "type": "applies",
+   "why": "Offense-defense in cyberspace."
+  },
+  {
+   "source": "cyber",
+   "target": "coercion",
+   "type": "applies",
+   "why": "Coercion in cyberspace."
+  },
+  {
+   "source": "dempeace",
+   "target": "bargaining",
+   "type": "complements",
+   "why": "Regime type and information."
+  }
+ ]
+}

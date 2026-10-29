@@ -1,0 +1,1328 @@
+{
+ "meta": {
+  "field": "American Politics",
+  "built": "2026-10-28",
+  "theories": 33,
+  "relations": 34,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "behavior",
+   "label": "Voting & opinion",
+   "color": "#2563eb"
+  },
+  {
+   "id": "identity",
+   "label": "Identity & psychology",
+   "color": "#dc2626"
+  },
+  {
+   "id": "parties",
+   "label": "Parties & Congress",
+   "color": "#4f46e5"
+  },
+  {
+   "id": "institutions",
+   "label": "Presidency, courts & bureaucracy",
+   "color": "#0891b2"
+  },
+  {
+   "id": "representation",
+   "label": "Representation & political economy",
+   "color": "#ca8a04"
+  }
+ ],
+ "theories": [
+  {
+   "id": "michigan",
+   "label": "Michigan model (party identification)",
+   "family": "behavior",
+   "year": 1960,
+   "origin": "Campbell, Converse, Miller & Stokes",
+   "core": "Party identification is a stable, early-learned attachment that filters perceptions and votes.",
+   "works": [
+    {
+     "id": "campbell1960",
+     "dir": "ap-network",
+     "label": "Campbell 1960",
+     "title": "The American Voter",
+     "authors": "Angus Campbell, Philip E. Converse, Warren E. Miller & Donald E. Stokes",
+     "year": 1960,
+     "journal": "Wiley (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "converse1964",
+     "dir": "ap-network",
+     "label": "Converse 1964",
+     "title": "The Nature of Belief Systems in Mass Publics",
+     "authors": "Philip E. Converse",
+     "year": 1964,
+     "journal": "Ideology and Discontent, Free Press (chapter)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "spatial",
+   "label": "Spatial voting & the median voter",
+   "family": "behavior",
+   "year": 1957,
+   "origin": "Downs",
+   "core": "Voters choose the closest candidate, so two-party competition converges on the median.",
+   "works": [
+    {
+     "id": "downs1957",
+     "dir": "ap-network",
+     "label": "Downs 1957",
+     "title": "An Economic Theory of Democracy",
+     "authors": "Anthony Downs",
+     "year": 1957,
+     "journal": "Harper & Row (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "jessee2009",
+     "dir": "ap-network",
+     "label": "Jessee 2009",
+     "title": "Spatial Voting in the 2004 Presidential Election",
+     "authors": "Stephen A. Jessee",
+     "year": 2009,
+     "journal": "APSR",
+     "doi": "10.1017/s000305540909008x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "retro",
+   "label": "Retrospective voting",
+   "family": "behavior",
+   "year": 1981,
+   "origin": "Key; Fiorina",
+   "core": "Voters judge incumbents on past performance; party ID is a running tally.",
+   "works": [
+    {
+     "id": "fiorina1981",
+     "dir": "ap-network",
+     "label": "Fiorina 1981",
+     "title": "Retrospective Voting in American National Elections",
+     "authors": "Morris P. Fiorina",
+     "year": 1981,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "healymalhotra2009",
+     "dir": "ap-network",
+     "label": "Healy 2009",
+     "title": "Myopic Voters and Natural Disaster Policy",
+     "authors": "Andrew Healy & Neil Malhotra",
+     "year": 2009,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055409990104",
+     "zotero": null
+    },
+    {
+     "id": "healymalhotra2013",
+     "dir": "ap-network",
+     "label": "Healy 2013",
+     "title": "Retrospective Voting Reconsidered",
+     "authors": "Andrew Healy & Neil Malhotra",
+     "year": 2013,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-032211-212920",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "realist",
+   "label": "Group-based (realist) theory of democracy",
+   "family": "behavior",
+   "year": 2016,
+   "origin": "Achen & Bartels",
+   "core": "Voters act on group identities and myopic retrospection, so elections do not deliver the folk theory of democracy.",
+   "works": [
+    {
+     "id": "achenbartels2016",
+     "dir": "ap-network",
+     "label": "Achen 2016",
+     "title": "Democracy for Realists: Why Elections Do Not Produce Responsive Government",
+     "authors": "Christopher H. Achen & Larry M. Bartels",
+     "year": 2016,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ras",
+   "label": "Receive-Accept-Sample model",
+   "family": "behavior",
+   "year": 1992,
+   "origin": "Zaller",
+   "core": "Opinion follows elite messages filtered by awareness and predispositions.",
+   "works": [
+    {
+     "id": "zaller1992",
+     "dir": "ap-network",
+     "label": "Zaller 1992",
+     "title": "The Nature and Origins of Mass Opinion",
+     "authors": "John R. Zaller",
+     "year": 1992,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rational_public",
+   "label": "Rational public (collective opinion)",
+   "family": "behavior",
+   "year": 1992,
+   "origin": "Page & Shapiro",
+   "core": "Aggregate opinion is stable and responds sensibly to events.",
+   "works": [
+    {
+     "id": "pageshapiro1992",
+     "dir": "ap-network",
+     "label": "Page 1992",
+     "title": "The Rational Public: Fifty Years of Trends in Americans' Policy Preferences",
+     "authors": "Benjamin I. Page & Robert Y. Shapiro",
+     "year": 1992,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "framing",
+   "label": "Framing theory",
+   "family": "behavior",
+   "year": 2007,
+   "origin": "Chong & Druckman",
+   "core": "Frames shape opinion depending on their strength, accessibility and competition.",
+   "works": [
+    {
+     "id": "chongdruckman2007arps",
+     "dir": "ap-network",
+     "label": "Chong 2007",
+     "title": "Framing Theory",
+     "authors": "Dennis Chong & James N. Druckman",
+     "year": 2007,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.10.072805.103054",
+     "zotero": null
+    },
+    {
+     "id": "druckman2013",
+     "dir": "ap-network",
+     "label": "Druckman 2013",
+     "title": "How Elite Partisan Polarization Affects Public Opinion Formation",
+     "authors": "James N. Druckman, Erik Peterson & Rune Slothuus",
+     "year": 2013,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055412000500",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "motivated",
+   "label": "Motivated reasoning",
+   "family": "identity",
+   "year": 2006,
+   "origin": "Taber & Lodge",
+   "core": "People process political information to defend prior attitudes.",
+   "works": [
+    {
+     "id": "taberlodge2006",
+     "dir": "ap-network",
+     "label": "Taber 2006",
+     "title": "Motivated Skepticism in the Evaluation of Political Beliefs",
+     "authors": "Charles S. Taber & Milton Lodge",
+     "year": 2006,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2006.00214.x",
+     "zotero": null
+    },
+    {
+     "id": "lodgetaber2013",
+     "dir": "ap-network",
+     "label": "Lodge 2013",
+     "title": "The Rationalizing Voter",
+     "authors": "Milton Lodge & Charles S. Taber",
+     "year": 2013,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "nyhanreifler2010",
+     "dir": "ap-network",
+     "label": "Nyhan 2010",
+     "title": "When Corrections Fail: The Persistence of Political Misperceptions",
+     "authors": "Brendan Nyhan & Jason Reifler",
+     "year": 2010,
+     "journal": "Political Behavior",
+     "doi": "10.1007/s11109-010-9112-2",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "socialid",
+   "label": "Partisanship as social identity",
+   "family": "identity",
+   "year": 2002,
+   "origin": "Green, Palmquist & Schickler",
+   "core": "Party identification is a group identity, not an ideological or performance tally.",
+   "works": [
+    {
+     "id": "greenpalmquist2002",
+     "dir": "ap-network",
+     "label": "Green 2002",
+     "title": "Partisan Hearts and Minds: Political Parties and the Social Identities of Voters",
+     "authors": "Donald Green, Bradley Palmquist & Eric Schickler",
+     "year": 2002,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "huddy2015",
+     "dir": "ap-network",
+     "label": "Huddy 2015",
+     "title": "Expressive Partisanship: Campaign Involvement, Political Emotion, and Partisan Identity",
+     "authors": "Leonie Huddy, Lilliana Mason & Lene AARØE",
+     "year": 2015,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055414000604",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "affective",
+   "label": "Affective polarization",
+   "family": "identity",
+   "year": 2012,
+   "origin": "Iyengar, Sood & Lelkes",
+   "core": "Partisans increasingly dislike the other side, beyond policy disagreement.",
+   "works": [
+    {
+     "id": "iyengar2012",
+     "dir": "ap-network",
+     "label": "Iyengar 2012",
+     "title": "Affect, Not Ideology",
+     "authors": "Shanto Iyengar, Gaurav Sood & Yphtach Lelkes",
+     "year": 2012,
+     "journal": "Public Opinion Quarterly",
+     "doi": "10.1093/poq/nfs038",
+     "zotero": null
+    },
+    {
+     "id": "iyengar2019",
+     "dir": "ap-network",
+     "label": "Iyengar 2019",
+     "title": "The Origins and Consequences of Affective Polarization in the United States",
+     "authors": "Shanto Iyengar, Yphtach Lelkes, Matthew Levendusky et al.",
+     "year": 2019,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-051117-073034",
+     "zotero": null
+    },
+    {
+     "id": "mason2018",
+     "dir": "ap-network",
+     "label": "Mason 2018",
+     "title": "Uncivil Agreement: How Politics Became Our Identity",
+     "authors": "Lilliana Mason",
+     "year": 2018,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "sorting",
+   "label": "Partisan sorting thesis",
+   "family": "parties",
+   "year": 2005,
+   "origin": "Fiorina; Levendusky",
+   "core": "The mass public is sorted, not polarized: elites polarized and voters followed cues.",
+   "works": [
+    {
+     "id": "fiorina2005",
+     "dir": "ap-network",
+     "label": "Fiorina 2005",
+     "title": "Culture War? The Myth of a Polarized America",
+     "authors": "Morris P. Fiorina, Samuel J. Abrams & Jeremy C. Pope",
+     "year": 2005,
+     "journal": "Pearson Longman (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "levendusky2010",
+     "dir": "ap-network",
+     "label": "Levendusky 2009",
+     "title": "Clearer Cues, More Consistent Voters: A Benefit of Elite Polarization",
+     "authors": "Matthew S. Levendusky",
+     "year": 2009,
+     "journal": "Political Behavior",
+     "doi": "10.1007/s11109-009-9094-0",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "masspolar",
+   "label": "Mass polarization thesis",
+   "family": "parties",
+   "year": 2008,
+   "origin": "Abramowitz",
+   "core": "The engaged public itself is ideologically polarized.",
+   "works": [
+    {
+     "id": "abramowitz2008",
+     "dir": "ap-network",
+     "label": "Abramowitz 2008",
+     "title": "Is Polarization a Myth?",
+     "authors": "Alan I. Abramowitz & Kyle L. Saunders",
+     "year": 2008,
+     "journal": "JOP",
+     "doi": "10.1017/s0022381608080493",
+     "zotero": null
+    },
+    {
+     "id": "abramowitz2010",
+     "dir": "ap-network",
+     "label": "Abramowitz 2010",
+     "title": "The Disappearing Center: Engaged Citizens, Polarization, and American Democracy",
+     "authors": "Alan I. Abramowitz",
+     "year": 2010,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "elitepolar",
+   "label": "Elite polarization (spatial roll-call)",
+   "family": "parties",
+   "year": 1997,
+   "origin": "Poole & Rosenthal; McCarty, Poole & Rosenthal",
+   "core": "Congressional voting is low-dimensional and has polarized since the 1970s.",
+   "works": [
+    {
+     "id": "poolerosenthal1997",
+     "dir": "ap-network",
+     "label": "Poole 1997",
+     "title": "Congress: A Political-Economic History of Roll Call Voting",
+     "authors": "Keith T. Poole & Howard Rosenthal",
+     "year": 1997,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mccarty2006",
+     "dir": "ap-network",
+     "label": "McCarty 2006",
+     "title": "Polarized America: The Dance of Ideology and Unequal Riches",
+     "authors": "Nolan McCarty, Keith T. Poole & Howard Rosenthal",
+     "year": 2006,
+     "journal": "MIT Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "electoral",
+   "label": "Electoral connection",
+   "family": "parties",
+   "year": 1974,
+   "origin": "Mayhew",
+   "core": "Reelection-seeking members advertise, claim credit and take positions.",
+   "works": [
+    {
+     "id": "mayhew1974",
+     "dir": "ap-network",
+     "label": "Mayhew 1974",
+     "title": "Congress: The Electoral Connection",
+     "authors": "David R. Mayhew",
+     "year": 1974,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "grimmer2013book",
+     "dir": "ap-network",
+     "label": "Grimmer 2013",
+     "title": "Representational Style in Congress: What Legislators Say and Why It Matters",
+     "authors": "Justin Grimmer",
+     "year": 2013,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cartel",
+   "label": "Procedural cartel theory",
+   "family": "parties",
+   "year": 2005,
+   "origin": "Cox & McCubbins",
+   "core": "The majority party controls the agenda to keep divisive bills off the floor.",
+   "works": [
+    {
+     "id": "coxmccubbins2005",
+     "dir": "ap-network",
+     "label": "Cox 2005",
+     "title": "Setting the Agenda: Responsible Party Government in the U.S. House of Representatives",
+     "authors": "Gary W. Cox & Mathew D. McCubbins",
+     "year": 2005,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "aldrich1995",
+     "dir": "ap-network",
+     "label": "Aldrich 1995",
+     "title": "Why Parties? The Origin and Transformation of Political Parties in America",
+     "authors": "John H. Aldrich",
+     "year": 1995,
+     "journal": "University of Chicago Press (book)",
+     "doi": "10.2307/2945504",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "pivotal",
+   "label": "Pivotal politics",
+   "family": "parties",
+   "year": 1998,
+   "origin": "Krehbiel",
+   "core": "Supermajority pivots, not parties, explain gridlock and lawmaking.",
+   "works": [
+    {
+     "id": "krehbiel1998",
+     "dir": "ap-network",
+     "label": "Krehbiel 1998",
+     "title": "Pivotal Politics: A Theory of U.S. Lawmaking",
+     "authors": "Keith Krehbiel",
+     "year": 1998,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "binder2003",
+     "dir": "ap-network",
+     "label": "Binder 2003",
+     "title": "Stalemate: Causes and Consequences of Legislative Gridlock",
+     "authors": "Sarah A. Binder",
+     "year": 2003,
+     "journal": "Brookings Institution Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ucla",
+   "label": "Parties as coalitions of policy demanders",
+   "family": "parties",
+   "year": 2012,
+   "origin": "Bawn et al.",
+   "core": "Interest groups and activists, not politicians, form parties and control nominations.",
+   "works": [
+    {
+     "id": "bawn2012",
+     "dir": "ap-network",
+     "label": "Bawn 2012",
+     "title": "A Theory of Political Parties: Groups, Policy Demands and Nominations in American Politics",
+     "authors": "Kathleen Bawn, Martin Cohen, David Karol et al.",
+     "year": 2012,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592712001624",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "unilateral",
+   "label": "Unilateral presidential power",
+   "family": "institutions",
+   "year": 1999,
+   "origin": "Moe & Howell",
+   "core": "Presidents move first with executive action, constrained mainly by Congress and courts.",
+   "works": [
+    {
+     "id": "moehowell1999",
+     "dir": "ap-network",
+     "label": "Moe 1999",
+     "title": "The Presidential Power of Unilateral Action",
+     "authors": "Terry M. Moe & William G. Howell",
+     "year": 1999,
+     "journal": "Presidential Studies Quarterly",
+     "doi": "10.1093/jleo/15.1.132",
+     "zotero": null
+    },
+    {
+     "id": "howell2003",
+     "dir": "ap-network",
+     "label": "Howell 2003",
+     "title": "Power without Persuasion: The Politics of Direct Presidential Action",
+     "authors": "William G. Howell",
+     "year": 2003,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "persuasion",
+   "label": "Presidential persuasion & going public",
+   "family": "institutions",
+   "year": 1960,
+   "origin": "Neustadt; Kernell",
+   "core": "Presidential power is the power to persuade, increasingly by appealing to the public.",
+   "works": [
+    {
+     "id": "neustadt1960",
+     "dir": "ap-network",
+     "label": "Neustadt 1960",
+     "title": "Presidential Power: The Politics of Leadership",
+     "authors": "Richard E. Neustadt",
+     "year": 1960,
+     "journal": "Wiley (book)",
+     "doi": "10.2307/2710338",
+     "zotero": null
+    },
+    {
+     "id": "kernell1986",
+     "dir": "ap-network",
+     "label": "Kernell 1986",
+     "title": "Going Public: New Strategies of Presidential Leadership",
+     "authors": "Samuel Kernell",
+     "year": 1986,
+     "journal": "CQ Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "attitudinal",
+   "label": "Attitudinal model of judging",
+   "family": "institutions",
+   "year": 2002,
+   "origin": "Segal & Spaeth",
+   "core": "Justices vote their policy preferences.",
+   "works": [
+    {
+     "id": "segalspaeth2002",
+     "dir": "ap-network",
+     "label": "Segal 2002",
+     "title": "The Supreme Court and the Attitudinal Model Revisited",
+     "authors": "Jeffrey A. Segal & Harold J. Spaeth",
+     "year": 2002,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "strategic",
+   "label": "Strategic model of judging",
+   "family": "institutions",
+   "year": 1998,
+   "origin": "Epstein & Knight",
+   "core": "Justices pursue policy strategically, anticipating colleagues and other branches.",
+   "works": [
+    {
+     "id": "epsteinknight1998",
+     "dir": "ap-network",
+     "label": "Epstein 1998",
+     "title": "The Choices Justices Make",
+     "authors": "Lee Epstein & Jack Knight",
+     "year": 1998,
+     "journal": "CQ Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "clark2009",
+     "dir": "ap-network",
+     "label": "Clark 2009",
+     "title": "The Separation of Powers, Court Curbing, and Judicial Legitimacy",
+     "authors": "Tom S. Clark",
+     "year": 2009,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2009.00411.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "politicization",
+   "label": "Bureaucratic politicization",
+   "family": "institutions",
+   "year": 2008,
+   "origin": "Lewis",
+   "core": "Presidents control agencies through appointees at a cost to performance.",
+   "works": [
+    {
+     "id": "lewis2008",
+     "dir": "ap-network",
+     "label": "Lewis 2008",
+     "title": "The Politics of Presidential Appointments: Political Control and Bureaucratic Performance",
+     "authors": "David E. Lewis",
+     "year": 2008,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "subsidy",
+   "label": "Lobbying as legislative subsidy",
+   "family": "representation",
+   "year": 2006,
+   "origin": "Hall & Deardorff",
+   "core": "Lobbyists subsidize allies' work rather than buying votes.",
+   "works": [
+    {
+     "id": "halldeardorff2006",
+     "dir": "ap-network",
+     "label": "Hall 2006",
+     "title": "Lobbying as Legislative Subsidy",
+     "authors": "Richard L. Hall & Alan V. Deardorff",
+     "year": 2006,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055406062010",
+     "zotero": null
+    },
+    {
+     "id": "kallabroockman2016",
+     "dir": "ap-network",
+     "label": "Kalla 2015",
+     "title": "Campaign Contributions Facilitate Access to Congressional Officials: A Randomized Field Experiment",
+     "authors": "Joshua L. Kalla & David E. Broockman",
+     "year": 2015,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12180",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "unequal",
+   "label": "Unequal representation",
+   "family": "representation",
+   "year": 2008,
+   "origin": "Bartels; Gilens",
+   "core": "Policy responds to the affluent far more than to the poor.",
+   "works": [
+    {
+     "id": "bartels2008",
+     "dir": "ap-network",
+     "label": "Bartels 2008",
+     "title": "Unequal Democracy: The Political Economy of the New Gilded Age",
+     "authors": "Larry M. Bartels",
+     "year": 2008,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gilens2012",
+     "dir": "ap-network",
+     "label": "Gilens 2012",
+     "title": "Affluence and Influence: Economic Inequality and Political Power in America",
+     "authors": "Martin Gilens",
+     "year": 2012,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gilenspage2014",
+     "dir": "ap-network",
+     "label": "Gilens 2014",
+     "title": "Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens",
+     "authors": "Martin Gilens & Benjamin I. Page",
+     "year": 2014,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592714001595",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "dynamic",
+   "label": "Dynamic representation",
+   "family": "representation",
+   "year": 1995,
+   "origin": "Stimson, MacKuen & Erikson",
+   "core": "Policy follows shifts in public mood through elections and anticipation.",
+   "works": [
+    {
+     "id": "stimson1995",
+     "dir": "ap-network",
+     "label": "Stimson 1995",
+     "title": "Dynamic Representation",
+     "authors": "James A. Stimson, Michael B. MacKuen & Robert S. Erikson",
+     "year": 1995,
+     "journal": "APSR",
+     "doi": "10.2307/2082973",
+     "zotero": null
+    },
+    {
+     "id": "erikson1993",
+     "dir": "ap-network",
+     "label": "Erikson 1993",
+     "title": "Statehouse Democracy: Public Opinion and Policy in the American States",
+     "authors": "Robert S. Erikson, Gerald C. Wright & John P. McIver",
+     "year": 1993,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "caugheywarshaw2018",
+     "dir": "ap-network",
+     "label": "Caughey 2017",
+     "title": "Policy Preferences and Policy Change: Dynamic Responsiveness in the American States, 1936–2014",
+     "authors": "Devin Caughey & Christopher Warshaw",
+     "year": 2017,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055417000533",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "feedback",
+   "label": "Policy feedback",
+   "family": "representation",
+   "year": 1993,
+   "origin": "Pierson; Campbell",
+   "core": "Policies create constituencies and resources that reshape later politics.",
+   "works": [
+    {
+     "id": "pierson1993",
+     "dir": "ap-network",
+     "label": "Pierson 1993",
+     "title": "When Effect Becomes Cause: Policy Feedback and Political Change",
+     "authors": "Paul Pierson",
+     "year": 1993,
+     "journal": "World Politics",
+     "doi": "10.2307/2950710",
+     "zotero": null
+    },
+    {
+     "id": "campbell2003",
+     "dir": "ap-network",
+     "label": "Campbell 2003",
+     "title": "How Policies Make Citizens: Senior Political Activism and the American Welfare State",
+     "authors": "Andrea Louise Campbell",
+     "year": 2003,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mettler2011",
+     "dir": "ap-network",
+     "label": "Mettler 2011",
+     "title": "The Submerged State: How Invisible Government Policies Undermine American Democracy",
+     "authors": "Suzanne Mettler",
+     "year": 2011,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "civic",
+   "label": "Civic voluntarism model",
+   "family": "behavior",
+   "year": 1995,
+   "origin": "Verba, Schlozman & Brady",
+   "core": "Participation depends on resources, engagement and recruitment.",
+   "works": [
+    {
+     "id": "verba1995",
+     "dir": "ap-network",
+     "label": "Verba 1995",
+     "title": "Voice and Equality: Civic Voluntarism in American Politics",
+     "authors": "Sidney Verba, Kay Lehman Schlozman & Henry E. Brady",
+     "year": 1995,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mobilization",
+   "label": "Mobilization theory",
+   "family": "behavior",
+   "year": 1993,
+   "origin": "Rosenstone & Hansen; Gerber & Green",
+   "core": "Turnout depends on contact and social pressure from parties and groups.",
+   "works": [
+    {
+     "id": "rosenstonehansen1993",
+     "dir": "ap-network",
+     "label": "Rosenstone 1993",
+     "title": "Mobilization, Participation, and Democracy in America",
+     "authors": "Steven J. Rosenstone & John Mark Hansen",
+     "year": 1993,
+     "journal": "Macmillan (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gerbergreen2000",
+     "dir": "ap-network",
+     "label": "Gerber 2000",
+     "title": "The Effects of Canvassing, Telephone Calls, and Direct Mail on Voter Turnout: A Field Experiment",
+     "authors": "Alan S. Gerber & Donald P. Green",
+     "year": 2000,
+     "journal": "APSR",
+     "doi": "10.2307/2585837",
+     "zotero": null
+    },
+    {
+     "id": "gerber2008",
+     "dir": "ap-network",
+     "label": "Gerber 2008",
+     "title": "Social Pressure and Voter Turnout: Evidence from a Large-Scale Field Experiment",
+     "authors": "Alan S. Gerber, Donald P. Green & Christopher W. Larimer",
+     "year": 2008,
+     "journal": "APSR",
+     "doi": "10.1017/s000305540808009x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "resentment",
+   "label": "Racial resentment (symbolic racism)",
+   "family": "identity",
+   "year": 1996,
+   "origin": "Kinder & Sanders",
+   "core": "A blend of anti-Black affect and individualism structures white opinion.",
+   "works": [
+    {
+     "id": "kindersanders1996",
+     "dir": "ap-network",
+     "label": "Kinder 1996",
+     "title": "Divided by Color: Racial Politics and Democratic Ideals",
+     "authors": "Donald R. Kinder & Lynn M. Sanders",
+     "year": 1996,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "tesler2016",
+     "dir": "ap-network",
+     "label": "Tesler 2016",
+     "title": "Post-Racial or Most-Racial? Race and Politics in the Obama Era",
+     "authors": "Michael Tesler",
+     "year": 2016,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "threat",
+   "label": "Racial and group threat",
+   "family": "identity",
+   "year": 1949,
+   "origin": "Key; Blalock",
+   "core": "Proximity to growing out-groups triggers threat and exclusion.",
+   "works": [
+    {
+     "id": "enos2016",
+     "dir": "ap-network",
+     "label": "Enos 2015",
+     "title": "What the Demolition of Public Housing Teaches Us about the Impact of Racial Threat on Political Behavior",
+     "authors": "Ryan D. Enos",
+     "year": 2015,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12156",
+     "zotero": null
+    },
+    {
+     "id": "hopkins2010",
+     "dir": "ap-network",
+     "label": "Hopkins 2010",
+     "title": "Politicized Places: Explaining Where and When Immigrants Provoke Local Opposition",
+     "authors": "Daniel J. Hopkins",
+     "year": 2010,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055409990360",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "linkedfate",
+   "label": "Linked fate",
+   "family": "identity",
+   "year": 1994,
+   "origin": "Dawson",
+   "core": "Group interest serves as a proxy for self-interest among Black Americans.",
+   "works": [
+    {
+     "id": "dawson1994",
+     "dir": "ap-network",
+     "label": "Dawson 1994",
+     "title": "Behind the Mule: Race and Class in African-American Politics",
+     "authors": "Michael C. Dawson",
+     "year": 1994,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "affint",
+   "label": "Affective intelligence",
+   "family": "identity",
+   "year": 2000,
+   "origin": "Marcus, Neuman & MacKuen",
+   "core": "Anxiety prompts information seeking; anger and enthusiasm reinforce habits.",
+   "works": [
+    {
+     "id": "marcus2000",
+     "dir": "ap-network",
+     "label": "Marcus 2000",
+     "title": "Affective Intelligence and Political Judgment",
+     "authors": "George E. Marcus, W. Russell Neuman & Michael MacKuen",
+     "year": 2000,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "valentino2011",
+     "dir": "ap-network",
+     "label": "Valentino 2011",
+     "title": "Election Night’s Alright for Fighting: The Role of Emotions in Political Participation",
+     "authors": "Nicholas A. Valentino, Ted Brader, Eric W. Groenendyk et al.",
+     "year": 2011,
+     "journal": "JOP",
+     "doi": "10.1017/s0022381610000939",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "backsliding",
+   "label": "Partisan trade-offs and backsliding",
+   "family": "identity",
+   "year": 2019,
+   "origin": "Svolik; Graham & Svolik",
+   "core": "Polarized partisans tolerate democratic violations by their own side.",
+   "works": [
+    {
+     "id": "svolik2019",
+     "dir": "ap-network",
+     "label": "Svolik 2019",
+     "title": "Polarization versus Democracy",
+     "authors": "Milan W. Svolik",
+     "year": 2019,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2019.0039",
+     "zotero": null
+    },
+    {
+     "id": "grahamsvolik2020",
+     "dir": "ap-network",
+     "label": "Graham 2020",
+     "title": "Democracy in America? Partisanship, Polarization, and the Robustness of Support for Democracy in the United States",
+     "authors": "Matthew H. Graham & Milan W. Svolik",
+     "year": 2020,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/J99APNRV"
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "spatial",
+   "target": "michigan",
+   "type": "rivals",
+   "why": "Issue proximity versus partisan attachment."
+  },
+  {
+   "source": "retro",
+   "target": "michigan",
+   "type": "rivals",
+   "why": "Party ID as a running tally, not a fixed identity."
+  },
+  {
+   "source": "socialid",
+   "target": "retro",
+   "type": "rivals",
+   "why": "Identity, not performance updating."
+  },
+  {
+   "source": "socialid",
+   "target": "michigan",
+   "type": "extends",
+   "why": "Revives party ID as social identity."
+  },
+  {
+   "source": "affective",
+   "target": "socialid",
+   "type": "extends",
+   "why": "Identity produces inter-party hostility."
+  },
+  {
+   "source": "realist",
+   "target": "socialid",
+   "type": "extends",
+   "why": "Group identity as the basis of voting."
+  },
+  {
+   "source": "realist",
+   "target": "retro",
+   "type": "rivals",
+   "why": "Retrospection is myopic and blind."
+  },
+  {
+   "source": "ras",
+   "target": "rational_public",
+   "type": "complements",
+   "why": "Individual instability, aggregate stability."
+  },
+  {
+   "source": "framing",
+   "target": "ras",
+   "type": "extends",
+   "why": "Elite communication shapes considerations."
+  },
+  {
+   "source": "motivated",
+   "target": "ras",
+   "type": "extends",
+   "why": "Acceptance biased by directional goals."
+  },
+  {
+   "source": "motivated",
+   "target": "socialid",
+   "type": "complements",
+   "why": "Identity motivates biased reasoning."
+  },
+  {
+   "source": "sorting",
+   "target": "masspolar",
+   "type": "rivals",
+   "why": "Sorting versus genuine mass divergence."
+  },
+  {
+   "source": "sorting",
+   "target": "elitepolar",
+   "type": "extends",
+   "why": "Voters sort after elites polarize."
+  },
+  {
+   "source": "affective",
+   "target": "sorting",
+   "type": "extends",
+   "why": "Sorted identities intensify affect."
+  },
+  {
+   "source": "electoral",
+   "target": "spatial",
+   "type": "applies",
+   "why": "Reelection motive applied to legislators."
+  },
+  {
+   "source": "cartel",
+   "target": "electoral",
+   "type": "extends",
+   "why": "Parties solve members' collective problems."
+  },
+  {
+   "source": "pivotal",
+   "target": "cartel",
+   "type": "rivals",
+   "why": "Pivots versus parties."
+  },
+  {
+   "source": "ucla",
+   "target": "cartel",
+   "type": "rivals",
+   "why": "Groups, not politicians, define parties."
+  },
+  {
+   "source": "elitepolar",
+   "target": "electoral",
+   "type": "complements",
+   "why": "Measures the positions members take."
+  },
+  {
+   "source": "unilateral",
+   "target": "persuasion",
+   "type": "rivals",
+   "why": "Command versus persuasion."
+  },
+  {
+   "source": "unilateral",
+   "target": "pivotal",
+   "type": "complements",
+   "why": "Unilateral action within veto constraints."
+  },
+  {
+   "source": "strategic",
+   "target": "attitudinal",
+   "type": "rivals",
+   "why": "Strategic versus sincere voting."
+  },
+  {
+   "source": "politicization",
+   "target": "unilateral",
+   "type": "complements",
+   "why": "Administrative tools of presidential control."
+  },
+  {
+   "source": "subsidy",
+   "target": "ucla",
+   "type": "complements",
+   "why": "Groups influence through allies."
+  },
+  {
+   "source": "unequal",
+   "target": "dynamic",
+   "type": "rivals",
+   "why": "Responsiveness is unequal, not to the median."
+  },
+  {
+   "source": "unequal",
+   "target": "civic",
+   "type": "extends",
+   "why": "Unequal voice produces unequal influence."
+  },
+  {
+   "source": "dynamic",
+   "target": "rational_public",
+   "type": "extends",
+   "why": "Aggregate mood drives policy."
+  },
+  {
+   "source": "feedback",
+   "target": "civic",
+   "type": "extends",
+   "why": "Policies create participatory resources."
+  },
+  {
+   "source": "mobilization",
+   "target": "civic",
+   "type": "complements",
+   "why": "Recruitment as a participation input."
+  },
+  {
+   "source": "resentment",
+   "target": "motivated",
+   "type": "complements",
+   "why": "Group affect shapes opinion processing."
+  },
+  {
+   "source": "threat",
+   "target": "resentment",
+   "type": "rivals",
+   "why": "Contextual threat versus learned predisposition."
+  },
+  {
+   "source": "linkedfate",
+   "target": "socialid",
+   "type": "applies",
+   "why": "Group identity in Black politics."
+  },
+  {
+   "source": "affint",
+   "target": "motivated",
+   "type": "rivals",
+   "why": "Emotion can trigger reconsideration, not only defense."
+  },
+  {
+   "source": "backsliding",
+   "target": "affective",
+   "type": "extends",
+   "why": "Affect undermines democratic constraints."
+  }
+ ]
+}

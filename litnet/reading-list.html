@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Reading List</title>
+<meta name="description" content="Works saved from the LitNet literature maps, with reading status, notes and export.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:400,800&display=swap">
+<script src="reading-list.js"></script>
+<style>
+:root{--bg:#f4f4f4;--panel:#fff;--ink:#3c3b3b;--text:#555;--muted:#8a8a8a;--line:rgba(160,160,160,.3);--accent:#2ebaae;--chip:#f4f4f4;--gold:#d4a017}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 "Source Sans Pro",Helvetica,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;padding:12px 20px;background:var(--panel);border-bottom:1px solid var(--line)}
+.brand-title{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:13px;letter-spacing:.25em;text-transform:uppercase;color:var(--ink)}
+.brand-sub{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-top:4px}
+.navlinks{margin-left:auto;display:flex;gap:18px}
+.navlinks a{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.navlinks a:hover{color:var(--accent)}
+main{max-width:980px;margin:0 auto;padding:22px 16px 60px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+button,select,input[type=search]{font:inherit;font-size:12.5px;padding:6px 10px;border:1px solid var(--line);border-radius:2px;background:var(--panel);color:var(--ink)}
+button{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;cursor:pointer}
+button:hover{color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+button.active{color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:rgba(46,186,174,.08)}
+input[type=search]{flex:1;min-width:180px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.spacer{flex:1}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px 16px;margin:10px 0;display:grid;grid-template-columns:1fr auto;gap:6px 14px}
+.item.read{opacity:.72}
+.t{font-weight:700;color:var(--ink);font-size:15.5px;line-height:1.35}
+.m{color:var(--muted);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9px;letter-spacing:.12em;text-transform:uppercase;background:var(--chip);border-radius:2px;padding:4px 8px;color:var(--ink);text-decoration:none}
+.chip:hover{color:var(--accent)}
+.side{display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.side .rm{color:var(--muted)}
+textarea{grid-column:1 / -1;width:100%;min-height:54px;font:inherit;font-size:13.5px;padding:8px;border:1px solid var(--line);border-radius:2px;background:#fcfcfc;resize:vertical}
+textarea:focus{outline:none;border-color:var(--accent)}
+.empty{background:var(--panel);border:1px dashed var(--line);padding:28px;text-align:center;color:var(--muted)}
+.empty a{color:var(--accent)}
+.foot{font-size:12.5px;color:var(--muted);margin-top:22px;line-height:1.6}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:8px 14px;border-radius:3px;font-size:13px;display:none}
+@media (max-width:640px){.item{grid-template-columns:1fr}.side{flex-direction:row;align-items:center;justify-content:flex-start}.navlinks{margin-left:0}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="brand-title">LitNet: Literature Network</div>
+    <div class="brand-sub">My Reading List</div>
+  </div>
+  <nav class="navlinks">
+    <a href="index.html">All fields</a>
+    <a href="../index.html">← George Yean</a>
+  </nav>
+</header>
+<main>
+  <div class="bar">
+    <div class="tabs" id="tabs"></div>
+    <select id="field" aria-label="Filter by field"><option value="">all fields</option></select>
+    <input type="search" id="q" placeholder="search your list…">
+  </div>
+  <div class="bar">
+    <button id="copyText">Copy as text</button>
+    <button id="dlBib">Download BibTeX</button>
+    <button id="dlJson">Back up list</button>
+    <button id="importBtn">Restore backup</button>
+    <input type="file" id="importFile" accept="application/json" hidden>
+    <span class="spacer"></span>
+    <button id="clearAll">Clear list</button>
+  </div>
+  <div id="list"></div>
+  <p class="foot">Your list is saved in this browser only. It stays on this device and is not sent anywhere. Use "Back up list" to save a copy, and "Restore backup" to load it on another device or browser.</p>
+</main>
+<div id="toast"></div>
+<script>
+(function () {
+  const RL = window.ReadingList;
+  const state = { tab: 'all', field: '', q: '' };
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const toast = msg => { const t = document.getElementById('toast'); t.textContent = msg; t.style.display = 'block'; clearTimeout(toast.h); toast.h = setTimeout(() => t.style.display = 'none', 1800); };
+
+  function renderTabs() {
+    const all = RL.all();
+    const tabs = [['all', 'All'], ['to read', 'To read'], ['reading', 'Reading'], ['read', 'Read']];
+    document.getElementById('tabs').innerHTML = tabs.map(([k, l]) => {
+      const n = k === 'all' ? all.length : all.filter(x => x.status === k).length;
+      return `<button data-tab="${k}" class="${state.tab === k ? 'active' : ''}">${l} (${n})</button>`;
+    }).join('');
+    document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { state.tab = b.dataset.tab; render(); });
+    const sel = document.getElementById('field');
+    const fields = [...new Map(all.flatMap(x => x.fields || []).map(f => [f.dir, f.label])).entries()].sort((a, b) => a[1].localeCompare(b[1]));
+    sel.innerHTML = '<option value="">all fields</option>' + fields.map(([d, l]) => `<option value="${esc(d)}"${state.field === d ? ' selected' : ''}>${esc(l)}</option>`).join('');
+  }
+  function filtered() {
+    return RL.all().filter(x => (state.tab === 'all' || x.status === state.tab)
+      && (!state.field || (x.fields || []).some(f => f.dir === state.field))
+      && (!state.q || [x.title, x.authors, x.journal, x.note].join(' ').toLowerCase().includes(state.q)))
+      .sort((a, b) => (a.status === 'read') - (b.status === 'read') || (b.added || '').localeCompare(a.added || '') || a.year - b.year);
+  }
+  function render() {
+    renderTabs();
+    const items = filtered(), box = document.getElementById('list');
+    if (!RL.all().length) {
+      box.innerHTML = '<div class="empty">Your reading list is empty. Open any map from <a href="index.html">All fields</a>, click a work, and choose "Add to My Reading List".</div>';
+      return;
+    }
+    if (!items.length) { box.innerHTML = '<div class="empty">Nothing matches these filters.</div>'; return; }
+    box.innerHTML = items.map(x => `
+      <div class="item${x.status === 'read' ? ' read' : ''}" data-id="${esc(x.id)}">
+        <div>
+          <div class="t">${esc(x.title)}</div>
+          <div class="m">${esc(x.authors)} · ${esc(x.year)} · ${esc(x.journal)}${x.doi ? ` · <a class="chip" style="padding:2px 6px" href="https://doi.org/${esc(x.doi)}" target="_blank" rel="noopener">DOI</a>` : ''}${x.zotero ? ` · <a class="chip" style="padding:2px 6px" href="${esc(x.zotero)}" target="_blank" rel="noopener">Zotero</a>` : ''}</div>
+          <div class="chips">${(x.fields || []).map(f => `<a class="chip" href="../${esc(f.dir)}/network.html?work=${encodeURIComponent(x.id)}" title="Open in this map">${esc(f.label)}</a>`).join('')}<span class="m" style="margin-left:4px">added ${esc(x.added || '')}</span></div>
+        </div>
+        <div class="side">
+          <select class="st" aria-label="Reading status">${RL.STATUSES.map(s => `<option value="${s}"${x.status === s ? ' selected' : ''}>${s}</option>`).join('')}</select>
+          <button class="rm">Remove</button>
+        </div>
+        <textarea class="note" placeholder="Notes (saved as you type)…">${esc(x.note || '')}</textarea>
+      </div>`).join('');
+    box.querySelectorAll('.item').forEach(el => {
+      const id = el.dataset.id;
+      el.querySelector('.st').onchange = e => RL.setStatus(id, e.target.value);
+      el.querySelector('.rm').onclick = () => { RL.remove(id); toast('Removed'); };
+      el.querySelector('.note').oninput = e => { clearTimeout(el.h); el.h = setTimeout(() => { quiet = true; RL.setNote(id, e.target.value); quiet = false; }, 400); };
+    });
+  }
+  let quiet = false;
+  RL.onChange(() => { if (!quiet) render(); });
+
+  // ---------- export
+  const textOf = x => `${x.authors} (${x.year}). ${x.title}. ${x.journal}.${x.doi ? ' https://doi.org/' + x.doi : ''}`;
+  document.getElementById('copyText').onclick = async () => {
+    const t = filtered().map(textOf).join('\n');
+    try { await navigator.clipboard.writeText(t); toast(`Copied ${filtered().length} references`); } catch (e) { toast('Copy failed; your browser blocked clipboard access'); }
+  };
+  function bibKey(x, used) {
+    const first = (x.authors || 'anon').split(/,| & | and /)[0].trim().split(/\s+/).pop().normalize('NFD').replace(/[^A-Za-z]/g, '').toLowerCase() || 'anon';
+    let k = first + x.year, i = 0; while (used.has(k)) k = first + x.year + 'abcdefghijklmnopqrstuvwxyz'[i++]; used.add(k); return k;
+  }
+  function toBib(items) {
+    const used = new Set();
+    return items.map(x => {
+      const isBook = /\(book\)|edited volume|university press|press \(|\(report\)/i.test(x.journal || '');
+      const venue = (x.journal || '').replace(/\s*\((book|edited volume|report|chapter|essay)[^)]*\)/i, '').trim();
+      const authors = (x.authors || '').replace(/ et al\.$/, ' and others').replace(/, | & /g, ' and ');
+      const f = [`  author = {${authors}}`, `  title = {${x.title}}`, `  year = {${x.year}}`, isBook ? `  publisher = {${venue}}` : `  journal = {${venue}}`];
+      if (x.doi) f.push(`  doi = {${x.doi}}`);
+      if (x.note) f.push(`  note = {${x.note.replace(/[{}]/g, '')}}`);
+      return `@${isBook ? 'book' : 'article'}{${bibKey(x, used)},\n${f.join(',\n')}\n}`;
+    }).join('\n\n');
+  }
+  function download(name, text, type) {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([text], { type }));
+    a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+  document.getElementById('dlBib').onclick = () => { const it = filtered(); if (!it.length) return toast('Nothing to export'); download('my-reading-list.bib', toBib(it), 'application/x-bibtex'); };
+  document.getElementById('dlJson').onclick = () => download('litnet-reading-list-backup.json', JSON.stringify(RL.all(), null, 1), 'application/json');
+  document.getElementById('importBtn').onclick = () => document.getElementById('importFile').click();
+  document.getElementById('importFile').onchange = async e => {
+    const f = e.target.files[0]; if (!f) return;
+    try {
+      const arr = JSON.parse(await f.text());
+      if (!Array.isArray(arr)) throw new Error('not a list');
+      const cur = RL.all(), have = new Set(cur.map(x => x.id));
+      const merged = cur.concat(arr.filter(x => x && x.id && x.title && !have.has(x.id)));
+      RL.replaceAll(merged); toast(`Restored ${merged.length - cur.length} works`);
+    } catch (err) { toast('That file is not a LitNet backup'); }
+    e.target.value = '';
+  };
+  document.getElementById('clearAll').onclick = () => { if (RL.all().length && confirm('Remove every work from your reading list? Back it up first if you might want it later.')) RL.clear(); };
+  document.getElementById('field').onchange = e => { state.field = e.target.value; render(); };
+  document.getElementById('q').oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
+  render();
+})();
+</script>
+</body>
+</html>

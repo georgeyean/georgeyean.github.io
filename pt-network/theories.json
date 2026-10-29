@@ -1,0 +1,1449 @@
+{
+ "meta": {
+  "field": "Political Theory",
+  "built": "2026-10-28",
+  "theories": 32,
+  "relations": 34,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "justice",
+   "label": "Theories of justice & equality",
+   "color": "#be123c"
+  },
+  {
+   "id": "liberal",
+   "label": "Liberalism & its rivals",
+   "color": "#2563eb"
+  },
+  {
+   "id": "democracy",
+   "label": "Democratic theory",
+   "color": "#0d9488"
+  },
+  {
+   "id": "critical",
+   "label": "Critical, feminist & race theory",
+   "color": "#c026d3"
+  },
+  {
+   "id": "global",
+   "label": "Global justice & membership",
+   "color": "#ca8a04"
+  }
+ ],
+ "theories": [
+  {
+   "id": "jaf",
+   "label": "Justice as fairness",
+   "family": "justice",
+   "year": 1971,
+   "origin": "Rawls",
+   "core": "Principles chosen behind a veil of ignorance: equal liberties and the difference principle.",
+   "works": [
+    {
+     "id": "rawls1971",
+     "dir": "pt-network",
+     "label": "Rawls 1971",
+     "title": "A theory of justice",
+     "authors": "John Rawls",
+     "year": 1971,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/URGFYV38"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "libertarian",
+   "label": "Libertarian entitlement theory",
+   "family": "justice",
+   "year": 1974,
+   "origin": "Nozick",
+   "core": "Justice is historical entitlement; only a minimal state is justified.",
+   "works": [
+    {
+     "id": "nozick1974",
+     "dir": "pt-network",
+     "label": "Nozick 1974",
+     "title": "Anarchy, State, and Utopia",
+     "authors": "Robert Nozick",
+     "year": 1974,
+     "journal": "Basic Books (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "lucke",
+   "label": "Luck egalitarianism",
+   "family": "justice",
+   "year": 1981,
+   "origin": "Dworkin; Cohen; Arneson",
+   "core": "Neutralize brute luck but hold people responsible for choices.",
+   "works": [
+    {
+     "id": "dworkin1981",
+     "dir": "pt-network",
+     "label": "Dworkin 1981",
+     "title": "What Is Equality? Part 2: Equality of Resources",
+     "authors": "Ronald Dworkin",
+     "year": 1981,
+     "journal": "Philosophy & Public Affairs",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "cohen1989",
+     "dir": "pt-network",
+     "label": "Cohen 1989",
+     "title": "On the Currency of Egalitarian Justice",
+     "authors": "G. A. Cohen",
+     "year": 1989,
+     "journal": "Ethics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "arneson1989",
+     "dir": "pt-network",
+     "label": "Arneson 1989",
+     "title": "Equality and Equal Opportunity for Welfare",
+     "authors": "Richard J. Arneson",
+     "year": 1989,
+     "journal": "Philosophical Studies",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "relational",
+   "label": "Relational (democratic) egalitarianism",
+   "family": "justice",
+   "year": 1999,
+   "origin": "Anderson; Scheffler",
+   "core": "Equality means relating as equals and ending oppression.",
+   "works": [
+    {
+     "id": "anderson1999",
+     "dir": "pt-network",
+     "label": "Anderson 1999",
+     "title": "What Is the Point of Equality?",
+     "authors": "Elizabeth S. Anderson",
+     "year": 1999,
+     "journal": "Ethics",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/M29AEN62"
+    },
+    {
+     "id": "scheffler2003",
+     "dir": "pt-network",
+     "label": "Scheffler 2003",
+     "title": "What Is Egalitarianism?",
+     "authors": "Samuel Scheffler",
+     "year": 2003,
+     "journal": "Philosophy & Public Affairs",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kolodny2014b",
+     "dir": "pt-network",
+     "label": "Kolodny 2014",
+     "title": "Rule Over None II: Social Equality and the Justification of Democracy",
+     "authors": "Niko Kolodny",
+     "year": 2014,
+     "journal": "Philosophy & Public Affairs",
+     "doi": "10.1111/papa.12037",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "capabilities",
+   "label": "Capabilities approach",
+   "family": "justice",
+   "year": 1980,
+   "origin": "Sen; Nussbaum",
+   "core": "Justice is about what people are able to do and be.",
+   "works": [
+    {
+     "id": "sen1980",
+     "dir": "pt-network",
+     "label": "Sen 1980",
+     "title": "Equality of What?",
+     "authors": "Amartya Sen",
+     "year": 1980,
+     "journal": "Tanner Lectures on Human Values",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "nussbaum2000",
+     "dir": "pt-network",
+     "label": "Nussbaum 2000",
+     "title": "Women and Human Development: The Capabilities Approach",
+     "authors": "Martha C. Nussbaum",
+     "year": 2000,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "sen2009",
+     "dir": "pt-network",
+     "label": "Sen 2009",
+     "title": "The Idea of Justice",
+     "authors": "Amartya Sen",
+     "year": 2009,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "sufficiency",
+   "label": "Sufficientarianism & prioritarianism",
+   "family": "justice",
+   "year": 1987,
+   "origin": "Frankfurt; Parfit",
+   "core": "What matters is that everyone has enough, or priority for the worse off.",
+   "works": [
+    {
+     "id": "frankfurt1987",
+     "dir": "pt-network",
+     "label": "Frankfurt 1987",
+     "title": "Equality as a Moral Ideal",
+     "authors": "Harry Frankfurt",
+     "year": 1987,
+     "journal": "Ethics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "casal2007",
+     "dir": "pt-network",
+     "label": "Casal 2007",
+     "title": "Why Sufficiency Is Not Enough",
+     "authors": "Paula Casal",
+     "year": 2007,
+     "journal": "Ethics",
+     "doi": "10.1086/510692",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "polliberal",
+   "label": "Political liberalism & public reason",
+   "family": "liberal",
+   "year": 1993,
+   "origin": "Rawls",
+   "core": "Legitimacy under reasonable pluralism requires public reason and overlapping consensus.",
+   "works": [
+    {
+     "id": "rawls1993",
+     "dir": "pt-network",
+     "label": "Rawls 1993",
+     "title": "Political Liberalism",
+     "authors": "John Rawls",
+     "year": 1993,
+     "journal": "Columbia University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "rawls1997",
+     "dir": "pt-network",
+     "label": "Rawls 1997",
+     "title": "The Idea of Public Reason Revisited",
+     "authors": "John Rawls",
+     "year": 1997,
+     "journal": "University of Chicago Law Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "quong2011",
+     "dir": "pt-network",
+     "label": "Quong 2011",
+     "title": "Liberalism without Perfection",
+     "authors": "Jonathan Quong",
+     "year": 2011,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gaus2011",
+     "dir": "pt-network",
+     "label": "Gaus 2011",
+     "title": "The Order of Public Reason: A Theory of Freedom and Morality in a Diverse and Bounded World",
+     "authors": "Gerald Gaus",
+     "year": 2011,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "perfectionism",
+   "label": "Perfectionist liberalism",
+   "family": "liberal",
+   "year": 1986,
+   "origin": "Raz",
+   "core": "The state may promote valuable options and autonomy.",
+   "works": [
+    {
+     "id": "raz1986",
+     "dir": "pt-network",
+     "label": "Raz 1986",
+     "title": "The Morality of Freedom",
+     "authors": "Joseph Raz",
+     "year": 1986,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "communitarian",
+   "label": "Communitarianism",
+   "family": "liberal",
+   "year": 1982,
+   "origin": "Sandel; Taylor; Walzer; MacIntyre",
+   "core": "The self is embedded in community; liberal neutrality is incoherent.",
+   "works": [
+    {
+     "id": "sandel1984",
+     "dir": "pt-network",
+     "label": "Sandel 1984",
+     "title": "Liberalism and Its Critics",
+     "authors": "Michael J. Sandel (ed.)",
+     "year": 1984,
+     "journal": "NYU Press (edited volume)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/ZDRBP2JC"
+    },
+    {
+     "id": "walzer1983",
+     "dir": "pt-network",
+     "label": "Walzer 1983",
+     "title": "Spheres of Justice: A Defense of Pluralism and Equality",
+     "authors": "Michael Walzer",
+     "year": 1983,
+     "journal": "Basic Books (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "macintyre1984",
+     "dir": "pt-network",
+     "label": "MacIntyre 1984",
+     "title": "Is Patriotism a Virtue?",
+     "authors": "Alasdair MacIntyre",
+     "year": 1984,
+     "journal": "Lindley Lecture, University of Kansas",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/SCVJ9EXU"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "republican",
+   "label": "Republicanism (non-domination)",
+   "family": "liberal",
+   "year": 1997,
+   "origin": "Pettit; Skinner",
+   "core": "Freedom is non-domination, not mere non-interference.",
+   "works": [
+    {
+     "id": "pettit1997",
+     "dir": "pt-network",
+     "label": "Pettit 1997",
+     "title": "Republicanism: A Theory of Freedom and Government",
+     "authors": "Philip Pettit",
+     "year": 1997,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "skinner1998",
+     "dir": "pt-network",
+     "label": "Skinner 1998",
+     "title": "Liberty before Liberalism",
+     "authors": "Quentin Skinner",
+     "year": 1998,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "pettit2012",
+     "dir": "pt-network",
+     "label": "Pettit 2012",
+     "title": "On the People's Terms: A Republican Theory and Model of Democracy",
+     "authors": "Philip Pettit",
+     "year": 2012,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "realism",
+   "label": "Political realism",
+   "family": "liberal",
+   "year": 2005,
+   "origin": "Williams; Geuss",
+   "core": "Politics is prior to morality; legitimacy before justice.",
+   "works": [
+    {
+     "id": "williams2005",
+     "dir": "pt-network",
+     "label": "Williams 2005",
+     "title": "In the Beginning Was the Deed: Realism and Moral Argument in Political Argument",
+     "authors": "Bernard Williams",
+     "year": 2005,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "geuss2008",
+     "dir": "pt-network",
+     "label": "Geuss 2008",
+     "title": "Philosophy and Real Politics",
+     "authors": "Raymond Geuss",
+     "year": 2008,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "galston2010",
+     "dir": "pt-network",
+     "label": "Galston 2010",
+     "title": "Realism in political theory",
+     "authors": "William A Galston",
+     "year": 2010,
+     "journal": "European Journal of Political Theory",
+     "doi": "10.1177/1474885110374001",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "nonideal",
+   "label": "Nonideal theory",
+   "family": "justice",
+   "year": 2005,
+   "origin": "Mills; Sen",
+   "core": "Theory should start from actual injustice and comparisons, not ideal societies.",
+   "works": [
+    {
+     "id": "mills2005",
+     "dir": "pt-network",
+     "label": "Mills 2005",
+     "title": "&quot;Ideal Theory&quot; as Ideology",
+     "authors": "Charles W. Mills",
+     "year": 2005,
+     "journal": "Hypatia",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/D825RQ7J"
+    },
+    {
+     "id": "sen2006",
+     "dir": "pt-network",
+     "label": "Sen 2006",
+     "title": "What Do We Want from a Theory of Justice?",
+     "authors": "Amartya Sen",
+     "year": 2006,
+     "journal": "Journal of Philosophy",
+     "doi": "10.5840/jphil2006103517",
+     "zotero": null
+    },
+    {
+     "id": "simmons2010",
+     "dir": "pt-network",
+     "label": "Simmons 2010",
+     "title": "Ideal and Nonideal Theory",
+     "authors": "A. John Simmons",
+     "year": 2010,
+     "journal": "Philosophy & Public Affairs",
+     "doi": "10.1111/j.1088-4963.2009.01172.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "deliberative",
+   "label": "Deliberative democracy",
+   "family": "democracy",
+   "year": 1989,
+   "origin": "Cohen; Habermas; Gutmann & Thompson",
+   "core": "Legitimacy comes from reasoned deliberation among equals.",
+   "works": [
+    {
+     "id": "cohen1989delib",
+     "dir": "pt-network",
+     "label": "Cohen 1989",
+     "title": "Deliberation and Democratic Legitimacy",
+     "authors": "Joshua Cohen",
+     "year": 1989,
+     "journal": "The Good Polity, Blackwell (chapter)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "habermas1996",
+     "dir": "pt-network",
+     "label": "Habermas 1996",
+     "title": "Between Facts and Norms: Contributions to a Discourse Theory of Law and Democracy",
+     "authors": "Jürgen Habermas",
+     "year": 1996,
+     "journal": "MIT Press (book, English translation)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gutmannthompson1996",
+     "dir": "pt-network",
+     "label": "Gutmann 1996",
+     "title": "Democracy and Disagreement",
+     "authors": "Amy Gutmann & Dennis Thompson",
+     "year": 1996,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "systemic",
+   "label": "Deliberative systems",
+   "family": "democracy",
+   "year": 2012,
+   "origin": "Mansbridge & Parkinson",
+   "core": "Assess deliberation across the whole system, not single forums.",
+   "works": [
+    {
+     "id": "parkinsonmansbridge2012",
+     "dir": "pt-network",
+     "label": "Parkinson 2012",
+     "title": "Deliberative Systems: Deliberative Democracy at the Large Scale",
+     "authors": "John Parkinson & Jane Mansbridge (eds.)",
+     "year": 2012,
+     "journal": "Cambridge University Press (edited volume)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "owensmith2015",
+     "dir": "pt-network",
+     "label": "Owen 2015",
+     "title": "Survey Article: Deliberation, Democracy, and the Systemic Turn",
+     "authors": "David Owen & Graham Smith",
+     "year": 2015,
+     "journal": "Journal of Political Philosophy",
+     "doi": "10.1111/jopp.12054",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "agonism",
+   "label": "Agonistic democracy",
+   "family": "democracy",
+   "year": 2000,
+   "origin": "Mouffe; Honig",
+   "core": "Conflict between adversaries is ineliminable and valuable.",
+   "works": [
+    {
+     "id": "mouffe2000",
+     "dir": "pt-network",
+     "label": "Mouffe 2000",
+     "title": "The Democratic Paradox",
+     "authors": "Chantal Mouffe",
+     "year": 2000,
+     "journal": "Verso (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "honig1993",
+     "dir": "pt-network",
+     "label": "Honig 1993",
+     "title": "Political Theory and the Displacement of Politics",
+     "authors": "Bonnie Honig",
+     "year": 1993,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "epistemic",
+   "label": "Epistemic democracy",
+   "family": "democracy",
+   "year": 2008,
+   "origin": "Estlund; Landemore",
+   "core": "Democracy is justified partly by its tendency to decide well.",
+   "works": [
+    {
+     "id": "estlund2008",
+     "dir": "pt-network",
+     "label": "Estlund 2008",
+     "title": "Democratic Authority: A Philosophical Framework",
+     "authors": "David M. Estlund",
+     "year": 2008,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "landemore2013",
+     "dir": "pt-network",
+     "label": "Landemore 2013",
+     "title": "Democratic Reason: Politics, Collective Intelligence, and the Rule of the Many",
+     "authors": "Hélène Landemore",
+     "year": 2013,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "epistocracy",
+   "label": "Epistocracy",
+   "family": "democracy",
+   "year": 2016,
+   "origin": "Brennan",
+   "core": "Rule by the knowledgeable may outperform democracy.",
+   "works": [
+    {
+     "id": "brennan2016",
+     "dir": "pt-network",
+     "label": "Brennan 2016",
+     "title": "Against Democracy",
+     "authors": "Jason Brennan",
+     "year": 2016,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "representation",
+   "label": "Constructivist representation",
+   "family": "democracy",
+   "year": 2006,
+   "origin": "Saward; Disch",
+   "core": "Representation is constituted by claims, not just elections.",
+   "works": [
+    {
+     "id": "saward2006",
+     "dir": "pt-network",
+     "label": "Saward 2006",
+     "title": "The Representative Claim",
+     "authors": "Michael Saward",
+     "year": 2006,
+     "journal": "Contemporary Political Theory",
+     "doi": "10.1057/palgrave.cpt.9300234",
+     "zotero": null
+    },
+    {
+     "id": "saward2010",
+     "dir": "pt-network",
+     "label": "Saward 2010",
+     "title": "The Representative Claim",
+     "authors": "Michael Saward",
+     "year": 2010,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "disch2011",
+     "dir": "pt-network",
+     "label": "Disch 2011",
+     "title": "Toward a Mobilization Conception of Democratic Representation",
+     "authors": "Lisa Disch",
+     "year": 2011,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055410000602",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "sortition",
+   "label": "Lottocracy & sortition",
+   "family": "democracy",
+   "year": 2014,
+   "origin": "Guerrero; Landemore",
+   "core": "Randomly selected bodies can replace or supplement elections.",
+   "works": [
+    {
+     "id": "guerrero2014",
+     "dir": "pt-network",
+     "label": "Guerrero 2014",
+     "title": "Against Elections: The Lottocratic Alternative",
+     "authors": "Alexander A. Guerrero",
+     "year": 2014,
+     "journal": "Philosophy & Public Affairs",
+     "doi": "10.1111/papa.12029",
+     "zotero": null
+    },
+    {
+     "id": "landemore2020",
+     "dir": "pt-network",
+     "label": "Landemore 2020",
+     "title": "Open Democracy: Reinventing Popular Rule for the Twenty-First Century",
+     "authors": "Hélène Landemore",
+     "year": 2020,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "criticaltheory",
+   "label": "Critical theory (Frankfurt tradition)",
+   "family": "critical",
+   "year": 1996,
+   "origin": "Habermas; Honneth; Forst",
+   "core": "Critique of social pathologies grounded in communication, recognition or justification.",
+   "works": [
+    {
+     "id": "habermas1996",
+     "dir": "pt-network",
+     "label": "Habermas 1996",
+     "title": "Between Facts and Norms: Contributions to a Discourse Theory of Law and Democracy",
+     "authors": "Jürgen Habermas",
+     "year": 1996,
+     "journal": "MIT Press (book, English translation)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "forst2012",
+     "dir": "pt-network",
+     "label": "Forst 2012",
+     "title": "The Right to Justification: Elements of a Constructivist Theory of Justice",
+     "authors": "Rainer Forst",
+     "year": 2012,
+     "journal": "Columbia University Press (book, English translation)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "jaeggi2018",
+     "dir": "pt-network",
+     "label": "Jaeggi 2018",
+     "title": "Critique of Forms of Life",
+     "authors": "Rahel Jaeggi",
+     "year": 2018,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/IG2L94VR"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "recognition",
+   "label": "Recognition theory",
+   "family": "critical",
+   "year": 1992,
+   "origin": "Taylor; Honneth; Fraser",
+   "core": "Misrecognition is an injustice alongside maldistribution.",
+   "works": [
+    {
+     "id": "taylor1992",
+     "dir": "pt-network",
+     "label": "Taylor 1992",
+     "title": "The Politics of Recognition",
+     "authors": "Charles Taylor",
+     "year": 1992,
+     "journal": "Princeton University Press (essay)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/H336EQUN"
+    },
+    {
+     "id": "honneth1995",
+     "dir": "pt-network",
+     "label": "Honneth 1995",
+     "title": "The Struggle for Recognition: The Moral Grammar of Social Conflicts",
+     "authors": "Axel Honneth",
+     "year": 1995,
+     "journal": "Polity Press (book, English translation)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "fraser1995",
+     "dir": "pt-network",
+     "label": "Fraser 1995",
+     "title": "From Redistribution to Recognition? Dilemmas of Justice in a \"Post-Socialist\" Age",
+     "authors": "Nancy Fraser",
+     "year": 1995,
+     "journal": "New Left Review",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/8VF3QVIQ"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "multicultural",
+   "label": "Liberal multiculturalism",
+   "family": "critical",
+   "year": 1995,
+   "origin": "Kymlicka",
+   "core": "Liberal autonomy supports group-differentiated rights.",
+   "works": [
+    {
+     "id": "kymlicka1995",
+     "dir": "pt-network",
+     "label": "Kymlicka 1995",
+     "title": "Multicultural Citizenship: A Liberal Theory of Minority Rights",
+     "authors": "Will Kymlicka",
+     "year": 1995,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "feminist",
+   "label": "Feminist political theory",
+   "family": "critical",
+   "year": 1988,
+   "origin": "Pateman; Okin; Young",
+   "core": "The social contract and family hide gender domination.",
+   "works": [
+    {
+     "id": "pateman1988",
+     "dir": "pt-network",
+     "label": "Pateman 1988",
+     "title": "The Sexual Contract",
+     "authors": "Carole Pateman",
+     "year": 1988,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "okin1989",
+     "dir": "pt-network",
+     "label": "Okin 1989",
+     "title": "Justice, Gender, and the Family",
+     "authors": "Susan Moller Okin",
+     "year": 1989,
+     "journal": "Basic Books (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "young1990",
+     "dir": "pt-network",
+     "label": "Young 1990",
+     "title": "Justice and the Politics of Difference",
+     "authors": "Iris Marion Young",
+     "year": 1990,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "intersectionality",
+   "label": "Intersectionality",
+   "family": "critical",
+   "year": 1991,
+   "origin": "Crenshaw; Collins",
+   "core": "Race, gender and class interlock in domination.",
+   "works": [
+    {
+     "id": "crenshaw1991",
+     "dir": "pt-network",
+     "label": "Crenshaw 1991",
+     "title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+     "authors": "Kimberlé Crenshaw",
+     "year": 1991,
+     "journal": "Stanford Law Review",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/HRF4GKQR"
+    },
+    {
+     "id": "collins1990",
+     "dir": "pt-network",
+     "label": "Collins 1990",
+     "title": "Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment",
+     "authors": "Patricia Hill Collins",
+     "year": 1990,
+     "journal": "Unwin Hyman (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "racialcontract",
+   "label": "Racial contract & critical race theory",
+   "family": "critical",
+   "year": 1997,
+   "origin": "Mills",
+   "core": "Liberal contract theory has been a racial contract.",
+   "works": [
+    {
+     "id": "mills1997",
+     "dir": "pt-network",
+     "label": "Mills 1997",
+     "title": "The Racial Contract",
+     "authors": "Charles W. Mills",
+     "year": 1997,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mills2017",
+     "dir": "pt-network",
+     "label": "Mills 2017",
+     "title": "Black rights/white wrongs: the critique of racial liberalism",
+     "authors": "Charles W. Mills",
+     "year": 2017,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/IHU3FJQJ"
+    },
+    {
+     "id": "shelby2016",
+     "dir": "pt-network",
+     "label": "Shelby 2016",
+     "title": "Dark Ghettos: Injustice, Dissent, and Reform",
+     "authors": "Tommie Shelby",
+     "year": 2016,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/4MKWH4HY"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "epinjustice",
+   "label": "Epistemic injustice",
+   "family": "critical",
+   "year": 2007,
+   "origin": "Fricker",
+   "core": "People can be wronged as knowers.",
+   "works": [
+    {
+     "id": "fricker2007",
+     "dir": "pt-network",
+     "label": "Fricker 2007",
+     "title": "Epistemic Injustice",
+     "authors": "Miranda Fricker",
+     "year": 2007,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/JQG8CWQ2"
+    },
+    {
+     "id": "dotson2011",
+     "dir": "pt-network",
+     "label": "Dotson 2011",
+     "title": "Tracking Epistemic Violence, Tracking Practices of Silencing",
+     "authors": "Kristie Dotson",
+     "year": 2011,
+     "journal": "Hypatia",
+     "doi": "10.1111/j.1527-2001.2011.01177.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "power",
+   "label": "Theories of power (three faces, discipline)",
+   "family": "critical",
+   "year": 1974,
+   "origin": "Lukes; Foucault",
+   "core": "Power shapes preferences and operates through discipline.",
+   "works": [
+    {
+     "id": "lukes1974",
+     "dir": "pt-network",
+     "label": "Lukes 1974",
+     "title": "Power: A Radical View",
+     "authors": "Steven Lukes",
+     "year": 1974,
+     "journal": "Macmillan (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "foucault1977",
+     "dir": "pt-network",
+     "label": "Foucault 1977",
+     "title": "Discipline and Punish: The Birth of the Prison",
+     "authors": "Michel Foucault",
+     "year": 1977,
+     "journal": "Pantheon (book, English translation)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cosmopolitan",
+   "label": "Cosmopolitanism",
+   "family": "global",
+   "year": 1979,
+   "origin": "Beitz; Pogge",
+   "core": "Principles of justice apply globally.",
+   "works": [
+    {
+     "id": "beitz1979",
+     "dir": "pt-network",
+     "label": "Beitz 1979",
+     "title": "Political Theory and International Relations",
+     "authors": "Charles R. Beitz",
+     "year": 1979,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "pogge2002",
+     "dir": "pt-network",
+     "label": "Pogge 2002",
+     "title": "World Poverty and Human Rights",
+     "authors": "Thomas W. Pogge",
+     "year": 2002,
+     "journal": "Polity Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "caney2005",
+     "dir": "pt-network",
+     "label": "Caney 2005",
+     "title": "Justice Beyond Borders: A Global Political Theory",
+     "authors": "Simon Caney",
+     "year": 2005,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "statism",
+   "label": "Statism (political conception of justice)",
+   "family": "global",
+   "year": 2005,
+   "origin": "Nagel; Rawls",
+   "core": "Distributive justice applies within coercive states.",
+   "works": [
+    {
+     "id": "nagel2005",
+     "dir": "pt-network",
+     "label": "Nagel 2005",
+     "title": "The Problem of Global Justice",
+     "authors": "Thomas Nagel",
+     "year": 2005,
+     "journal": "Philosophy & Public Affairs",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "rawls1999",
+     "dir": "pt-network",
+     "label": "Rawls 1999",
+     "title": "The Law of Peoples",
+     "authors": "John Rawls",
+     "year": 1999,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "sangiovanni2008",
+     "dir": "pt-network",
+     "label": "Sangiovanni 2007",
+     "title": "Justice and the Priority of Politics to Morality",
+     "authors": "Andrea Sangiovanni",
+     "year": 2007,
+     "journal": "Journal of Political Philosophy",
+     "doi": "10.1111/j.1467-9760.2007.00291.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "nationalism",
+   "label": "Liberal nationalism",
+   "family": "global",
+   "year": 1995,
+   "origin": "Miller",
+   "core": "National communities ground special duties and self-determination.",
+   "works": [
+    {
+     "id": "miller1995",
+     "dir": "pt-network",
+     "label": "Miller 1995",
+     "title": "On Nationality",
+     "authors": "David Miller",
+     "year": 1995,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "miller2007",
+     "dir": "pt-network",
+     "label": "Miller 2007",
+     "title": "National Responsibility and Global Justice",
+     "authors": "David Miller",
+     "year": 2007,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "openborders",
+   "label": "Open borders",
+   "family": "global",
+   "year": 1987,
+   "origin": "Carens",
+   "core": "Liberal principles imply free movement.",
+   "works": [
+    {
+     "id": "carens1987",
+     "dir": "pt-network",
+     "label": "Carens 1987",
+     "title": "Aliens and Citizens: The Case for Open Borders",
+     "authors": "Joseph H. Carens",
+     "year": 1987,
+     "journal": "The Review of Politics",
+     "doi": "10.1017/s0034670500033817",
+     "zotero": null
+    },
+    {
+     "id": "carens2013",
+     "dir": "pt-network",
+     "label": "Carens 2013",
+     "title": "The Ethics of Immigration",
+     "authors": "Joseph H. Carens",
+     "year": 2013,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "populism",
+   "label": "Theories of populism",
+   "family": "democracy",
+   "year": 2005,
+   "origin": "Laclau; Muller; Urbinati",
+   "core": "Populism as political logic, antipluralism or disfigured representation.",
+   "works": [
+    {
+     "id": "laclau2005",
+     "dir": "pt-network",
+     "label": "Laclau 2005",
+     "title": "On Populist Reason",
+     "authors": "Ernesto Laclau",
+     "year": 2005,
+     "journal": "Verso (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "muller2016",
+     "dir": "pt-network",
+     "label": "Müller 2016",
+     "title": "What Is Populism?",
+     "authors": "Jan-Werner Müller",
+     "year": 2016,
+     "journal": "University of Pennsylvania Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "urbinati2019book",
+     "dir": "pt-network",
+     "label": "Urbinati 2019",
+     "title": "Me the People: How Populism Transforms Democracy",
+     "authors": "Nadia Urbinati",
+     "year": 2019,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "libertarian",
+   "target": "jaf",
+   "type": "rivals",
+   "why": "Entitlement versus patterned justice."
+  },
+  {
+   "source": "lucke",
+   "target": "jaf",
+   "type": "extends",
+   "why": "Ambition-sensitive egalitarianism."
+  },
+  {
+   "source": "relational",
+   "target": "lucke",
+   "type": "rivals",
+   "why": "Relating as equals versus compensating luck."
+  },
+  {
+   "source": "capabilities",
+   "target": "jaf",
+   "type": "rivals",
+   "why": "Capabilities instead of primary goods."
+  },
+  {
+   "source": "sufficiency",
+   "target": "lucke",
+   "type": "rivals",
+   "why": "Enough, not equal."
+  },
+  {
+   "source": "polliberal",
+   "target": "jaf",
+   "type": "extends",
+   "why": "Justice as fairness made political."
+  },
+  {
+   "source": "perfectionism",
+   "target": "polliberal",
+   "type": "rivals",
+   "why": "State may promote the good."
+  },
+  {
+   "source": "communitarian",
+   "target": "jaf",
+   "type": "rivals",
+   "why": "Critique of the unencumbered self."
+  },
+  {
+   "source": "republican",
+   "target": "polliberal",
+   "type": "rivals",
+   "why": "Non-domination versus non-interference."
+  },
+  {
+   "source": "realism",
+   "target": "polliberal",
+   "type": "rivals",
+   "why": "Legitimacy before justice."
+  },
+  {
+   "source": "nonideal",
+   "target": "jaf",
+   "type": "rivals",
+   "why": "Against ideal theory."
+  },
+  {
+   "source": "nonideal",
+   "target": "racialcontract",
+   "type": "complements",
+   "why": "Starting from racial injustice."
+  },
+  {
+   "source": "deliberative",
+   "target": "polliberal",
+   "type": "complements",
+   "why": "Public reason in democratic practice."
+  },
+  {
+   "source": "systemic",
+   "target": "deliberative",
+   "type": "extends",
+   "why": "System-level deliberation."
+  },
+  {
+   "source": "agonism",
+   "target": "deliberative",
+   "type": "rivals",
+   "why": "Conflict versus consensus."
+  },
+  {
+   "source": "epistemic",
+   "target": "deliberative",
+   "type": "extends",
+   "why": "Deliberation improves decisions."
+  },
+  {
+   "source": "epistocracy",
+   "target": "epistemic",
+   "type": "rivals",
+   "why": "Knowledge-based rule."
+  },
+  {
+   "source": "sortition",
+   "target": "epistemic",
+   "type": "applies",
+   "why": "Random selection for good decisions."
+  },
+  {
+   "source": "representation",
+   "target": "deliberative",
+   "type": "complements",
+   "why": "Representation beyond elections."
+  },
+  {
+   "source": "relational",
+   "target": "republican",
+   "type": "complements",
+   "why": "Equality and non-domination converge."
+  },
+  {
+   "source": "criticaltheory",
+   "target": "deliberative",
+   "type": "extends",
+   "why": "Discourse theory underpins deliberation."
+  },
+  {
+   "source": "recognition",
+   "target": "criticaltheory",
+   "type": "extends",
+   "why": "Recognition as the core of critique."
+  },
+  {
+   "source": "recognition",
+   "target": "communitarian",
+   "type": "extends",
+   "why": "Identity needs recognition."
+  },
+  {
+   "source": "multicultural",
+   "target": "recognition",
+   "type": "applies",
+   "why": "Recognition in liberal rights."
+  },
+  {
+   "source": "feminist",
+   "target": "jaf",
+   "type": "rivals",
+   "why": "The family as a site of justice."
+  },
+  {
+   "source": "intersectionality",
+   "target": "feminist",
+   "type": "extends",
+   "why": "Multiple axes of domination."
+  },
+  {
+   "source": "racialcontract",
+   "target": "jaf",
+   "type": "rivals",
+   "why": "Contract theory masks racial domination."
+  },
+  {
+   "source": "epinjustice",
+   "target": "feminist",
+   "type": "extends",
+   "why": "Injustice to knowers."
+  },
+  {
+   "source": "power",
+   "target": "criticaltheory",
+   "type": "complements",
+   "why": "Power beyond consent."
+  },
+  {
+   "source": "cosmopolitan",
+   "target": "jaf",
+   "type": "applies",
+   "why": "Rawls applied globally."
+  },
+  {
+   "source": "statism",
+   "target": "cosmopolitan",
+   "type": "rivals",
+   "why": "Justice limited to states."
+  },
+  {
+   "source": "nationalism",
+   "target": "cosmopolitan",
+   "type": "rivals",
+   "why": "Special duties to compatriots."
+  },
+  {
+   "source": "openborders",
+   "target": "nationalism",
+   "type": "rivals",
+   "why": "Free movement versus closure."
+  },
+  {
+   "source": "populism",
+   "target": "agonism",
+   "type": "complements",
+   "why": "Laclau's populism builds on agonism."
+  }
+ ]
+}

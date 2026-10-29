@@ -1,0 +1,776 @@
+{
+ "meta": {
+  "field": "Chinese Politics",
+  "built": "2026-10-28",
+  "theories": 21,
+  "relations": 23,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "elite",
+   "label": "Elites & cadres",
+   "color": "#be123c"
+  },
+  {
+   "id": "centrallocal",
+   "label": "Central-local relations & policy",
+   "color": "#2563eb"
+  },
+  {
+   "id": "resilience",
+   "label": "Resilience & responsiveness",
+   "color": "#0d9488"
+  },
+  {
+   "id": "control",
+   "label": "Information control & repression",
+   "color": "#c026d3"
+  },
+  {
+   "id": "economy",
+   "label": "Political economy",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "society",
+   "label": "Society & contention",
+   "color": "#ea580c"
+  }
+ ],
+ "theories": [
+  {
+   "id": "fragmented",
+   "label": "Fragmented authoritarianism",
+   "family": "centrallocal",
+   "year": 1988,
+   "origin": "Lieberthal & Oksenberg",
+   "core": "Bargaining among equal-ranked bureaucracies makes policy slow and negotiated.",
+   "works": [
+    {
+     "id": "lieberthal1988",
+     "dir": "cn-network",
+     "label": "Lieberthal 1988",
+     "title": "Policy Making in China: Leaders, Structures, and Processes",
+     "authors": "Kenneth Lieberthal & Michel Oksenberg",
+     "year": 1988,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.2307/2760584",
+     "zotero": null
+    },
+    {
+     "id": "mertha2009",
+     "dir": "cn-network",
+     "label": "Mertha 2009",
+     "title": "“Fragmented Authoritarianism 2.0”: Political Pluralization in the Chinese Policy Process",
+     "authors": "Andrew Mertha",
+     "year": 2009,
+     "journal": "The China Quarterly",
+     "doi": "10.1017/s0305741009990592",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "resilience",
+   "label": "Authoritarian resilience",
+   "family": "resilience",
+   "year": 2003,
+   "origin": "Nathan",
+   "core": "Institutionalization of succession and meritocracy sustains the party-state.",
+   "works": [
+    {
+     "id": "nathan2003",
+     "dir": "cn-network",
+     "label": "Nathan 2003",
+     "title": "China's Changing of the Guard: Authoritarian Resilience",
+     "authors": "Andrew J. Nathan",
+     "year": 2003,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2003.0019",
+     "zotero": "https://www.zotero.org/georgeyean/items/2HH9R4HS"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "tournament",
+   "label": "Promotion tournament",
+   "family": "elite",
+   "year": 2005,
+   "origin": "Li & Zhou",
+   "core": "Local leaders compete for promotion on growth performance.",
+   "works": [
+    {
+     "id": "lizhou2005",
+     "dir": "cn-network",
+     "label": "Li 2005",
+     "title": "Political Turnover and Economic Performance: The Incentive Role of Personnel Control in China",
+     "authors": "Hongbin Li & Li-An Zhou",
+     "year": 2005,
+     "journal": "Journal of Public Economics",
+     "doi": "10.1016/j.jpubeco.2004.06.009",
+     "zotero": null
+    },
+    {
+     "id": "landry2017",
+     "dir": "cn-network",
+     "label": "Landry 2017",
+     "title": "Does Performance Matter? Evaluating Political Selection Along the Chinese Administrative Ladder",
+     "authors": "Pierre F. Landry, Xiaobo Lü & Haiyan Duan",
+     "year": 2017,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414017730078",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "factions",
+   "label": "Factional & patronage politics",
+   "family": "elite",
+   "year": 2008,
+   "origin": "Shih",
+   "core": "Patronage ties, not performance, drive elite careers and credit.",
+   "works": [
+    {
+     "id": "shih2008",
+     "dir": "cn-network",
+     "label": "Shih 2008",
+     "title": "Factions and Finance in China: Elite Conflict and Inflation",
+     "authors": "Victor C. Shih",
+     "year": 2008,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511790591",
+     "zotero": null
+    },
+    {
+     "id": "shih2012",
+     "dir": "cn-network",
+     "label": "Shih 2012",
+     "title": "Getting Ahead in the Communist Party: Explaining the Advancement of Central Committee Members in China",
+     "authors": "Victor Shih, Christopher Adolph & Mingxing Liu",
+     "year": 2012,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055411000566",
+     "zotero": null
+    },
+    {
+     "id": "jiang2018",
+     "dir": "cn-network",
+     "label": "Jiang 2018",
+     "title": "Making Bureaucracy Work: Patronage Networks, Performance Incentives, and Economic Development in China",
+     "authors": "Junyan Jiang",
+     "year": 2018,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12394",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mpf",
+   "label": "Market-preserving federalism (Chinese style)",
+   "family": "centrallocal",
+   "year": 1995,
+   "origin": "Montinola, Qian & Weingast",
+   "core": "Decentralization with hard budget constraints protected markets.",
+   "works": [
+    {
+     "id": "montinola1995",
+     "dir": "cn-network",
+     "label": "Montinola 1995",
+     "title": "Federalism, Chinese Style: The Political Basis for Economic Success in China",
+     "authors": "Gabriella Montinola, Yingyi Qian & Barry R. Weingast",
+     "year": 1995,
+     "journal": "World Politics",
+     "doi": "10.1353/wp.1995.0003",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "lsc",
+   "label": "Local state corporatism",
+   "family": "economy",
+   "year": 1992,
+   "origin": "Oi",
+   "core": "Fiscal reform turned local governments into entrepreneurial corporations.",
+   "works": [
+    {
+     "id": "oi1992",
+     "dir": "cn-network",
+     "label": "Oi 1992",
+     "title": "Fiscal Reform and the Economic Foundations of Local State Corporatism in China",
+     "authors": "Jean C. Oi",
+     "year": 1992,
+     "journal": "World Politics",
+     "doi": "10.2307/2010520",
+     "zotero": null
+    },
+    {
+     "id": "oi1999",
+     "dir": "cn-network",
+     "label": "Oi 1999",
+     "title": "Rural China Takes Off",
+     "authors": "Jean C. Oi",
+     "year": 1999,
+     "journal": "University of California Press (book)",
+     "doi": "10.1525/9780520922402",
+     "zotero": "https://www.zotero.org/georgeyean/items/9FRWCYES"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rda",
+   "label": "Regionally decentralized authoritarianism",
+   "family": "centrallocal",
+   "year": 2011,
+   "origin": "Xu",
+   "core": "Political centralization plus economic decentralization drove reform.",
+   "works": [
+    {
+     "id": "xu2011",
+     "dir": "cn-network",
+     "label": "Xu 2011",
+     "title": "The Fundamental Institutions of China's Reforms and Development",
+     "authors": "Chenggang Xu",
+     "year": 2011,
+     "journal": "Journal of Economic Literature",
+     "doi": "10.1257/jel.49.4.1076",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "experimentation",
+   "label": "Policy experimentation & adaptive governance",
+   "family": "centrallocal",
+   "year": 2008,
+   "origin": "Heilmann",
+   "core": "Local experiments under hierarchy produce national policy.",
+   "works": [
+    {
+     "id": "heilmann2008cj",
+     "dir": "cn-network",
+     "label": "Heilmann 2008",
+     "title": "From Local Experiments to National Policy: The Origins of China's Distinctive Policy Process",
+     "authors": "Sebastian Heilmann",
+     "year": 2008,
+     "journal": "The China Journal",
+     "doi": "10.1086/tcj.59.20066378",
+     "zotero": null
+    },
+    {
+     "id": "heilmannperry2011",
+     "dir": "cn-network",
+     "label": "Heilmann 2011",
+     "title": "Mao's Invisible Hand: The Political Foundations of Adaptive Governance in China",
+     "authors": "Sebastian Heilmann & Elizabeth J. Perry (eds.)",
+     "year": 2011,
+     "journal": "Harvard University Asia Center (edited volume)",
+     "doi": "10.1353/tcc.2013.0029",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "collusion",
+   "label": "Collusion among local governments",
+   "family": "centrallocal",
+   "year": 2010,
+   "origin": "Zhou",
+   "core": "Incentive design leads local levels to collude against mandates.",
+   "works": [
+    {
+     "id": "zhou2010",
+     "dir": "cn-network",
+     "label": "Zhou 2009",
+     "title": "The Institutional Logic of Collusion among Local Governments in China",
+     "authors": "Xueguang Zhou",
+     "year": 2009,
+     "journal": "Modern China",
+     "doi": "10.1177/0097700409347970",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "consultative",
+   "label": "Consultative authoritarianism",
+   "family": "resilience",
+   "year": 2013,
+   "origin": "Teets; He & Warren",
+   "core": "The state consults society through NGOs and deliberation while keeping control.",
+   "works": [
+    {
+     "id": "teets2013",
+     "dir": "cn-network",
+     "label": "Teets 2013",
+     "title": "Let Many Civil Societies Bloom: The Rise of Consultative Authoritarianism in China",
+     "authors": "Jessica C. Teets",
+     "year": 2013,
+     "journal": "The China Quarterly",
+     "doi": "10.1017/s0305741012001269",
+     "zotero": null
+    },
+    {
+     "id": "hewarren2011",
+     "dir": "pt-network",
+     "label": "He 2011",
+     "title": "Authoritarian Deliberation: The Deliberative Turn in Chinese Political Development",
+     "authors": "Baogang He & Mark E. Warren",
+     "year": 2011,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592711000892",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "responsive",
+   "label": "Authoritarian responsiveness",
+   "family": "resilience",
+   "year": 2016,
+   "origin": "Chen, Pan & Xu; Distelhorst & Hou",
+   "core": "Officials respond to citizen demands, especially under threat of collective action.",
+   "works": [
+    {
+     "id": "chenpanxu2016",
+     "dir": "cn-network",
+     "label": "Chen 2015",
+     "title": "Sources of Authoritarian Responsiveness: A Field Experiment in China",
+     "authors": "Jidong Chen, Jennifer Pan & Yiqing Xu",
+     "year": 2015,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12207",
+     "zotero": null
+    },
+    {
+     "id": "distelhorst2017",
+     "dir": "cn-network",
+     "label": "Distelhorst 2017",
+     "title": "Constituency Service under Nondemocratic Rule: Evidence from China",
+     "authors": "Greg Distelhorst & Yue Hou",
+     "year": 2017,
+     "journal": "JOP",
+     "doi": "10.1086/690948",
+     "zotero": null
+    },
+    {
+     "id": "truex2014",
+     "dir": "cn-network",
+     "label": "Truex 2014",
+     "title": "The Returns to Office in a “Rubber Stamp” Parliament",
+     "authors": "Rory Truex",
+     "year": 2014,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055414000112",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "censorship",
+   "label": "Strategic censorship",
+   "family": "control",
+   "year": 2013,
+   "origin": "King, Pan & Roberts; Lorentzen",
+   "core": "Censors remove collective-action potential while tolerating criticism.",
+   "works": [
+    {
+     "id": "kingpanroberts2013",
+     "dir": "cn-network",
+     "label": "King 2013",
+     "title": "How Censorship in China Allows Government Criticism but Silences Collective Expression",
+     "authors": "Gary King, Jennifer Pan & Margaret E. Roberts",
+     "year": 2013,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/KXNQ3GAM"
+    },
+    {
+     "id": "lorentzen2014",
+     "dir": "cn-network",
+     "label": "Lorentzen 2013",
+     "title": "China's Strategic Censorship",
+     "authors": "Peter Lorentzen",
+     "year": 2013,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12065",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "porous",
+   "label": "Porous censorship (friction, fear, flooding)",
+   "family": "control",
+   "year": 2018,
+   "origin": "Roberts",
+   "core": "Censorship works mainly through friction and flooding.",
+   "works": [
+    {
+     "id": "roberts2018",
+     "dir": "cn-network",
+     "label": "Roberts 2018",
+     "title": "Censored: Distraction and Diversion Inside China's Great Firewall",
+     "authors": "Margaret E. Roberts",
+     "year": 2018,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.23943/9781400890057",
+     "zotero": null
+    },
+    {
+     "id": "king2017",
+     "dir": "cn-network",
+     "label": "King 2017",
+     "title": "How the Chinese Government Fabricates Social Media Posts for Strategic Distraction, Not Engaged Argument",
+     "authors": "Gary King, Jennifer Pan & Margaret E. Roberts",
+     "year": 2017,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055417000144",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "propaganda",
+   "label": "Propaganda & thought work",
+   "family": "control",
+   "year": 2008,
+   "origin": "Brady; Huang",
+   "core": "Propaganda signals power as much as it persuades.",
+   "works": [
+    {
+     "id": "brady2008",
+     "dir": "cn-network",
+     "label": "Brady 2008",
+     "title": "Marketing Dictatorship: Propaganda and Thought Work in Contemporary China",
+     "authors": "Anne-Marie Brady",
+     "year": 2008,
+     "journal": "Rowman & Littlefield (book)",
+     "doi": "10.5771/9780742567900",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Huang 2015"
+   ]
+  },
+  {
+   "id": "rightful",
+   "label": "Rightful resistance",
+   "family": "society",
+   "year": 2006,
+   "origin": "O'Brien & Li",
+   "core": "Protesters use the state's own laws and commitments to challenge local officials.",
+   "works": [
+    {
+     "id": "obrienli2006",
+     "dir": "cn-network",
+     "label": "O'Brien 2006",
+     "title": "Rightful Resistance in Rural China",
+     "authors": "Kevin J. O'Brien & Lianjiang Li",
+     "year": 2006,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511791086.002",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "regularized",
+   "label": "Regularized protest",
+   "family": "society",
+   "year": 2013,
+   "origin": "Lorentzen",
+   "core": "The regime permits some protest to gather information about local problems.",
+   "works": [
+    {
+     "id": "lorentzen2013",
+     "dir": "cn-network",
+     "label": "Lorentzen 2013",
+     "title": "Regularizing Rioting: Permitting Public Protest in an Authoritarian Regime",
+     "authors": "Peter L. Lorentzen",
+     "year": 2013,
+     "journal": "Quarterly Journal of Political Science",
+     "doi": "10.2139/ssrn.995330",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "repression",
+   "label": "Stability maintenance & repression",
+   "family": "control",
+   "year": 2015,
+   "origin": "Wang & Minzner; Greitens",
+   "core": "A coercive apparatus manages unrest preventively.",
+   "works": [
+    {
+     "id": "wangminzner2015",
+     "dir": "cn-network",
+     "label": "Wang 2015",
+     "title": "The Rise of the Chinese Security State",
+     "authors": "Yuhua Wang & Carl Minzner",
+     "year": 2015,
+     "journal": "The China Quarterly",
+     "doi": "10.1017/s0305741015000430",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "nationalism",
+   "label": "Nationalism & patriotic education",
+   "family": "society",
+   "year": 2008,
+   "origin": "Wang; Weiss",
+   "core": "The party cultivates nationalism and manages it in foreign crises.",
+   "works": [
+    {
+     "id": "weiss2014",
+     "dir": "cn-network",
+     "label": "Weiss 2014",
+     "title": "Powerful Patriots: Nationalist Protest in China's Foreign Relations",
+     "authors": "Jessica Chen Weiss",
+     "year": 2014,
+     "journal": "Oxford University Press (book)",
+     "doi": "10.1111/1468-2346.12437",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Wang 2008"
+   ]
+  },
+  {
+   "id": "performance",
+   "label": "Performance legitimacy",
+   "family": "resilience",
+   "year": 2013,
+   "origin": "Zhu; Shue",
+   "core": "Legitimacy rests on delivering growth and order.",
+   "works": [
+    {
+     "id": "zhu2011",
+     "dir": "cn-network",
+     "label": "Zhu 2011",
+     "title": "“Performance Legitimacy” and China’s Political Adaptation Strategy",
+     "authors": "Yuchao Zhu",
+     "year": 2011,
+     "journal": "Journal of Chinese Political Science",
+     "doi": "10.1007/s11366-011-9140-8",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "statecapitalism",
+   "label": "Party-state capitalism",
+   "family": "economy",
+   "year": 2022,
+   "origin": "Pearson, Rithmire & Tsai",
+   "core": "The party increasingly embeds itself in firms and markets.",
+   "works": [
+    {
+     "id": "pearson2022",
+     "dir": "cn-network",
+     "label": "Pearson 2022",
+     "title": "China's Party-State Capitalism and International Backlash: From Interdependence to Security Dilemma Dynamics",
+     "authors": "Margaret M. Pearson, Meg Rithmire & Kellee S. Tsai",
+     "year": 2022,
+     "journal": "International Security",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/PB2VVIWQ"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "decentralization_critique",
+   "label": "Centralized reform thesis",
+   "family": "centrallocal",
+   "year": 2006,
+   "origin": "Cai & Treisman",
+   "core": "Decentralization did not cause growth; central reforms did.",
+   "works": [
+    {
+     "id": "caitreisman2006",
+     "dir": "cn-network",
+     "label": "Cai 2006",
+     "title": "Did Government Decentralization Cause China's Economic Miracle?",
+     "authors": "Hongbin Cai & Daniel Treisman",
+     "year": 2006,
+     "journal": "World Politics",
+     "doi": "10.1353/wp.2007.0005",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "resilience",
+   "target": "fragmented",
+   "type": "rivals",
+   "why": "Institutionalized party versus fragmented bargaining."
+  },
+  {
+   "source": "tournament",
+   "target": "resilience",
+   "type": "extends",
+   "why": "Meritocratic promotion sustains the regime."
+  },
+  {
+   "source": "factions",
+   "target": "tournament",
+   "type": "rivals",
+   "why": "Connections versus performance."
+  },
+  {
+   "source": "mpf",
+   "target": "lsc",
+   "type": "complements",
+   "why": "Fiscal decentralization and local entrepreneurship."
+  },
+  {
+   "source": "rda",
+   "target": "mpf",
+   "type": "extends",
+   "why": "Adds political centralization via personnel."
+  },
+  {
+   "source": "rda",
+   "target": "tournament",
+   "type": "synthesizes",
+   "why": "Personnel control plus local competition."
+  },
+  {
+   "source": "decentralization_critique",
+   "target": "mpf",
+   "type": "rivals",
+   "why": "Central reforms, not decentralization."
+  },
+  {
+   "source": "experimentation",
+   "target": "fragmented",
+   "type": "extends",
+   "why": "Fragmentation enables local trials."
+  },
+  {
+   "source": "collusion",
+   "target": "tournament",
+   "type": "rivals",
+   "why": "Incentives produce collusion, not just competition."
+  },
+  {
+   "source": "consultative",
+   "target": "fragmented",
+   "type": "extends",
+   "why": "Pluralized policy process."
+  },
+  {
+   "source": "responsive",
+   "target": "consultative",
+   "type": "complements",
+   "why": "Responsiveness without democracy."
+  },
+  {
+   "source": "responsive",
+   "target": "resilience",
+   "type": "extends",
+   "why": "Responsiveness as a resilience mechanism."
+  },
+  {
+   "source": "censorship",
+   "target": "responsive",
+   "type": "complements",
+   "why": "Criticism tolerated as information."
+  },
+  {
+   "source": "porous",
+   "target": "censorship",
+   "type": "extends",
+   "why": "Mechanisms of censorship."
+  },
+  {
+   "source": "propaganda",
+   "target": "porous",
+   "type": "complements",
+   "why": "Flooding and signaling."
+  },
+  {
+   "source": "rightful",
+   "target": "regularized",
+   "type": "complements",
+   "why": "Protest within official commitments."
+  },
+  {
+   "source": "regularized",
+   "target": "responsive",
+   "type": "applies",
+   "why": "Protest as an information channel."
+  },
+  {
+   "source": "repression",
+   "target": "regularized",
+   "type": "rivals",
+   "why": "Preventive repression versus tolerated protest."
+  },
+  {
+   "source": "nationalism",
+   "target": "performance",
+   "type": "complements",
+   "why": "Alternative legitimacy sources."
+  },
+  {
+   "source": "performance",
+   "target": "resilience",
+   "type": "extends",
+   "why": "Legitimacy through delivery."
+  },
+  {
+   "source": "statecapitalism",
+   "target": "lsc",
+   "type": "extends",
+   "why": "From local corporatism to party-state capitalism."
+  },
+  {
+   "source": "statecapitalism",
+   "target": "rda",
+   "type": "rivals",
+   "why": "Recentralized party control of the economy."
+  },
+  {
+   "source": "repression",
+   "target": "resilience",
+   "type": "complements",
+   "why": "Coercion behind resilience."
+  }
+ ]
+}

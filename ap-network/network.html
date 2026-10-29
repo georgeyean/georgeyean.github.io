@@ -7,6 +7,7 @@
 <meta name="description" content="Interactive map of key works and debates in American politics, c. 1957-2026, with a timeline view, theme and decade filters, and click-to-see details.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:400,800&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="../litnet/reading-list.js"></script>
 <style>
 :root{
   --bg:#f4f4f4; --panel:#ffffff; --ink:#3c3b3b; --text:#555555; --muted:#8a8a8a; --line:rgba(160,160,160,.3);
@@ -153,10 +154,26 @@ input[type=checkbox]{accent-color:var(--accent)}
 
 /* ===================== Phones: no side panel; tap a dot or line for a bottom card ===================== */
 @media (max-width: 700px){
-  #detail,#detailToggle{display:none !important}
+  #detailToggle{display:none !important}
+  .navlinks{flex-wrap:wrap;gap:10px 18px}
+  #detail{z-index:50;width:92vw;padding:16px 18px}
+  #detailClose{display:inline-block !important}
+  #edgeTip.pop{cursor:pointer}
+  #edgeTip.pop .more{color:var(--accent);font-weight:600;margin-top:8px}
   #edgeTip.pop{position:fixed;left:12px !important;right:12px;top:auto !important;bottom:12px;max-width:none;max-height:45vh;overflow:auto;pointer-events:auto;z-index:40;padding:12px 34px 12px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
   #edgeTip .tipx{position:absolute;top:6px;right:6px;width:26px;height:26px;padding:0;border:0;background:none;font-size:18px;line-height:26px;color:var(--muted);cursor:pointer}
 }
+
+/* ===================== My Reading List ===================== */
+.navlinks{margin-left:auto;display:flex;gap:18px;align-items:center}
+.navlinks .home{margin-left:0}
+a.mylist{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap}
+a.mylist:hover{color:var(--accent)}
+.rl-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0 4px}
+.rl-btn.on{color:#8a6d0b;box-shadow:inset 0 0 0 1px #d4a017;background:#fdf8ea}
+#edgeTip .rl-pop{margin-top:8px;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;padding:6px 10px;border:1px solid var(--line);border-radius:2px;background:var(--panel);color:var(--ink);cursor:pointer}
+#edgeTip .rl-pop.on{color:#8a6d0b;border-color:#d4a017;background:#fdf8ea}
+#detailClose{display:none;float:right;height:26px;line-height:26px;padding:0 9px;margin-top:-4px;font:400 18px/26px "Source Sans Pro",Helvetica,sans-serif;letter-spacing:0;text-transform:none;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -203,9 +220,10 @@ input[type=checkbox]{accent-color:var(--accent)}
         <option value="mechanism_tested_by">mechanism tested by</option>
       </select></label>
     <label><input type="checkbox" id="showThemes" checked> theme hubs</label>
+    <label><input type="checkbox" id="onlyList"> my list only</label>
     <input type="search" id="q" placeholder="search author, title, claim…">
   </div>
-  <a class="home" href="../index.html">← George Yean</a>
+  <nav class="navlinks"><a class="mylist" href="theories.html">Theory map</a><a class="mylist" href="../litnet/index.html">All fields</a><a class="mylist" href="../litnet/reading-list.html">My Reading List (<span id="rlCount">0</span>)</a><a class="home" href="../index.html">← George Yean</a></nav>
 </header>
 <div id="layout">
   <aside id="themes">
@@ -235,7 +253,7 @@ input[type=checkbox]{accent-color:var(--accent)}
   </main>
   <button id="detailToggle" title="Show details" aria-label="Show details panel">‹</button>
   <aside id="detail" aria-hidden="true">
-    <h2>Details</h2>
+    <h2>Details <button type="button" id="detailClose" aria-label="Close details">×</button></h2>
     <div id="detailBody"><p style="color:var(--muted)">Select a work or theme node.</p></div>
   </aside>
 </div>
@@ -248,6 +266,39 @@ input[type=checkbox]{accent-color:var(--accent)}
   const works = data.nodes.filter(n => n.type === 'work');
   const nodeById = Object.fromEntries(data.nodes.map(n => [n.id, n]));
   const relEdges = data.edges.filter(e => e.type !== 'belongs_to');
+
+  // ---------- My Reading List (shared across all LitNet pages; stored in this browser)
+  const RL = window.ReadingList;
+  const FIELD = { dir: location.pathname.split('/').slice(-2)[0], label: document.getElementById('fieldBtn').textContent.replace('\u25be', '').trim() };
+  let rlSet = RL.ids();
+  const rlItem = n => ({ id: n.id, label: n.label, title: n.title, authors: n.authors, year: n.year, journal: n.journal,
+                         doi: n.crossref_doi || null, zotero: n.zotero || null, fields: [FIELD] });
+  function rlControls(body, n){
+    const inList = rlSet.has(n.id);
+    // a saved work opened in another field's map also records this field
+    if (inList && !((RL.get(n.id) || {}).fields || []).some(f => f.dir === FIELD.dir)) RL.add(rlItem(n));
+    const row = body.append('div').attr('class', 'rl-row');
+    row.append('button').attr('class', 'rl-btn' + (inList ? ' on' : '')).text(inList ? '\u2605 In My Reading List' : '\u2606 Add to My Reading List')
+      .on('click', () => RL.toggle(rlItem(n)));
+    if (inList){
+      const sel = row.append('select').attr('aria-label', 'Reading status').on('change', function(){ RL.setStatus(n.id, this.value); });
+      RL.STATUSES.forEach(s => sel.append('option').attr('value', s).property('selected', (RL.get(n.id) || {}).status === s).text(s));
+    }
+  }
+  const rlPopHtml = n => `<button type="button" class="rl-pop${rlSet.has(n.id) ? ' on' : ''}" data-rl="${n.id}">${rlSet.has(n.id) ? '\u2605 In my list' : '\u2606 Add to my list'}</button>`;
+  function rlRefresh(){
+    rlSet = RL.ids();
+    document.getElementById('rlCount').textContent = rlSet.size;
+    if (state.onlyList) update();
+    else {
+      gNodes.selectAll('circle').attr('stroke', d => d.type === 'theme' ? d.color : (rlSet.has(d.id) ? '#d4a017' : 'var(--bg)'))
+        .attr('stroke-width', d => d.type === 'theme' ? (state.focusTheme === d.id ? 4 : 3) : (rlSet.has(d.id) ? 2.6 : 1.2));
+      if (state.selected && document.getElementById('detail').classList.contains('open')) showDetail(state.selected);
+    }
+    const b = document.querySelector('#edgeTip .rl-pop');
+    if (b) { const on = rlSet.has(b.dataset.rl); b.classList.toggle('on', on); b.textContent = on ? '\u2605 In my list' : '\u2606 Add to my list'; }
+  }
+  RL.onChange(rlRefresh);
   const memEdges = data.edges.filter(e => e.type === 'belongs_to');
 
   // header and sidebar counts; show 'x of y' only when filters hide something
@@ -262,7 +313,7 @@ input[type=checkbox]{accent-color:var(--accent)}
   // ---------- state
   const state = {
     view: 'net', decade: 'all', etype: 'all', showThemes: true, q: '',
-    themesOn: new Set(themes.map(t => t.id)), selected: null, focusTheme: null,
+    themesOn: new Set(themes.map(t => t.id)), selected: null, focusTheme: null, onlyList: false,
   };
   // Every load starts fresh (all themes on, network view). Clear state saved by earlier versions.
   try { localStorage.removeItem('ap-net-state'); } catch (e) {}
@@ -311,7 +362,7 @@ input[type=checkbox]{accent-color:var(--accent)}
     return [n.authors, n.title, n.claim, n.journal, n.label].join(' ').toLowerCase().includes(q);
   }
   function visibleWorks(){
-    return works.filter(n => n.themes.some(t => state.themesOn.has(t)) && decadeOk(n.year) && matchQ(n));
+    return works.filter(n => n.themes.some(t => state.themesOn.has(t)) && decadeOk(n.year) && matchQ(n) && (!state.onlyList || rlSet.has(n.id)));
   }
 
   // ---------- svg scaffolding
@@ -397,7 +448,7 @@ input[type=checkbox]{accent-color:var(--accent)}
       .on('mouseenter', (ev, d) => { if (!isMobile()) showEdgeTip(ev, d); })
       .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
       .on('mouseleave', () => { if (!isMobile()) hideTip(); })
-      .on('click', (ev, d) => { if (isMobile()) { highlight(null); showEdgeTip(ev, d); popTip(); return; } if (d.type !== 'belongs_to') { state.selected = d.source.id; showDetail(d.source.id); highlight(d.source.id); openDetail(); } });
+      .on('click', (ev, d) => { if (isMobile()) { highlight(null); showEdgeTip(ev, d); popFor = { edge: d }; popTip(); return; } if (d.type !== 'belongs_to') { state.selected = d.source.id; showDetail(d.source.id); highlight(d.source.id); openDetail(); } });
 
     const nd = gNodes.selectAll('circle').data(curNodes, d => d.id);
     nd.exit().remove();
@@ -413,8 +464,8 @@ input[type=checkbox]{accent-color:var(--accent)}
       .attr('r', d => radius(d))
       .attr('fill', d => d.type === 'theme' ? (state.focusTheme === d.id ? d.color : 'var(--theme-node)') : nodeColor(d))
       .attr('fill-opacity', d => d.type === 'theme' && state.focusTheme === d.id ? 0.25 : 1)
-      .attr('stroke', d => d.type === 'theme' ? d.color : 'var(--bg)')
-      .attr('stroke-width', d => d.type === 'theme' ? (state.focusTheme === d.id ? 4 : 3) : 1.2);
+      .attr('stroke', d => d.type === 'theme' ? d.color : (rlSet.has(d.id) ? '#d4a017' : 'var(--bg)'))
+      .attr('stroke-width', d => d.type === 'theme' ? (state.focusTheme === d.id ? 4 : 3) : (rlSet.has(d.id) ? 2.6 : 1.2));
 
     const lb = gLabels.selectAll('text').data(curNodes, d => d.id);
     lb.exit().remove();
@@ -539,18 +590,26 @@ input[type=checkbox]{accent-color:var(--accent)}
   // phones: no side panel; taps open a bottom card with basic info
   const mobileMQ = window.matchMedia('(max-width: 700px)');
   function isMobile(){ return mobileMQ.matches; }
-  if (isMobile()) document.getElementById('hint').textContent = 'Tap a dot or a line for details. Arrow: later work → work it relates to.';
-  function popTip(){ tip.insertAdjacentHTML('beforeend', '<button class="tipx" type="button" aria-label="Close">×</button>'); tip.classList.add('pop'); tip.style.display = 'block'; tip.setAttribute('role', 'dialog'); }
+  if (isMobile()) document.getElementById('hint').textContent = 'Tap a dot or a line for basic info, then tap the card for full details. Arrow: later work → work it relates to.';
+  function popTip(){ tip.insertAdjacentHTML('beforeend', '<div class="tg more">Tap this card for full details ›</div><button class="tipx" type="button" aria-label="Close">×</button>'); tip.classList.add('pop'); tip.style.display = 'block'; tip.setAttribute('role', 'dialog'); }
   function closePop(){ tip.classList.remove('pop'); tip.setAttribute('role', 'tooltip'); tip.style.display = 'none'; }
   tip.addEventListener('click', e => { if (e.target.closest('.tipx')) { e.stopPropagation(); closePop(); state.selected = null; highlight(null); } });
+  let popFor = null;
+  // tapping the card itself (not its buttons or links) slides in the full details panel
+  tip.addEventListener('click', e => {
+    if (!tip.classList.contains('pop') || !popFor || e.target.closest('.tipx, .rl-pop, a, select')) return;
+    const id = popFor.node ? popFor.node.id : popFor.edge.source.id;
+    closePop(); state.selected = id; highlight(id); showDetail(id); openDetail();
+  });
   function showNodePop(d){
+    popFor = { node: d };
     if (d.type === 'theme') {
       const n = works.filter(w => w.themes.includes(d.id)).length;
       tip.innerHTML = `<b>${d.label}</b><div class="tg">Theme · ${n} works${state.focusTheme === d.id ? ' · map focused on this theme' : ''}</div>`;
     } else {
       const nrel = relEdges.filter(e => (e.source.id || e.source) === d.id || (e.target.id || e.target) === d.id).length;
       tip.innerHTML = `<div class="tt">${d.title}</div><div class="tg">${d.authors} · ${d.year} · ${d.journal}</div>` +
-        `<div class="tw">${d.claim}</div><div class="tg" style="margin-top:6px">${nrel} relation${nrel === 1 ? '' : 's'} · tap a line for what it means</div>`;
+        `<div class="tw">${d.claim}</div><div class="tg" style="margin-top:6px">${nrel} relation${nrel === 1 ? '' : 's'} · tap a line for what it means</div>` + rlPopHtml(d);
     }
     popTip();
   }
@@ -593,6 +652,7 @@ input[type=checkbox]{accent-color:var(--accent)}
     }
     body.append('p').attr('class', 'title').text(n.title);
     body.append('p').attr('class', 'meta').text(`${n.authors} · ${n.year} · ${n.journal}`);
+    rlControls(body, n);
     const chips = body.append('div');
     n.themes.forEach(t => chips.append('span').attr('class', 'chip').style('border-left', `3px solid ${themeById[t].color}`).text(themeById[t].label.split(':')[0].split(',')[0]));
     body.append('div').attr('class', 'lbl').text('Core claim / finding');
@@ -633,6 +693,7 @@ input[type=checkbox]{accent-color:var(--accent)}
   document.getElementById('etype').onchange = e => { state.etype = e.target.value; update(); };
   document.getElementById('showThemes').onchange = e => { state.showThemes = e.target.checked; update(); };
   document.getElementById('q').oninput = e => { state.q = e.target.value.trim(); update(); };
+  document.getElementById('onlyList').onchange = e => { state.onlyList = e.target.checked; update(); };
   window.addEventListener('resize', () => { W = stage.clientWidth; H = stage.clientHeight; sim.force('center', d3.forceCenter(W / 2, H / 2)); update(); });
   svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; highlight(null); closeDetail(); } });
   // ---------- slide-in details panel (hidden by default)
@@ -647,10 +708,21 @@ input[type=checkbox]{accent-color:var(--accent)}
   function openDetail(){ setDetail(true); }
   function closeDetail(){ setDetail(false); tip.style.display = 'none'; tip.classList.remove('pop'); }
   detailBtn.onclick = () => setDetail(!detailEl.classList.contains('open'));
+  document.getElementById('detailClose').onclick = () => setDetail(false);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
   document.getElementById('legendToggle').onclick = e => { const l = document.getElementById('legend'); l.classList.toggle('collapsed'); e.target.textContent = l.classList.contains('collapsed') ? '+' : '−'; };
 
   setView(state.view);
+  document.getElementById('rlCount').textContent = rlSet.size;
+  tip.addEventListener('click', e => { const b = e.target.closest('.rl-pop'); if (b) { e.stopPropagation(); RL.toggle(rlItem(nodeById[b.dataset.rl])); } });
+  // open a given work or theme from a link: network.html?work=<id> or ?theme=<id>
+  const params = new URLSearchParams(location.search);
+  const wantWork = params.get('work'), wantTheme = params.get('theme');
+  if (wantWork && nodeById[wantWork]) {
+    setTimeout(() => { state.selected = wantWork; highlight(wantWork); if (isMobile()) showNodePop(nodeById[wantWork]); else { showDetail(wantWork); openDetail(); } }, 300);
+  } else if (wantTheme && themeById[wantTheme]) {
+    setTimeout(() => { focusTheme(wantTheme); if (!isMobile()) openDetail(); }, 300);
+  }
 })();
 </script>
 </body>

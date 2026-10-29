@@ -1,0 +1,931 @@
+{
+ "meta": {
+  "field": "International Relations",
+  "built": "2026-10-28",
+  "theories": 28,
+  "relations": 33,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "realism",
+   "label": "Realism",
+   "color": "#be123c"
+  },
+  {
+   "id": "liberal",
+   "label": "Liberalism & institutionalism",
+   "color": "#2563eb"
+  },
+  {
+   "id": "construct",
+   "label": "Constructivism & English School",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "rational",
+   "label": "Rationalist bargaining & domestic politics",
+   "color": "#0d9488"
+  },
+  {
+   "id": "order",
+   "label": "Order, hierarchy & interdependence",
+   "color": "#ca8a04"
+  }
+ ],
+ "theories": [
+  {
+   "id": "classical",
+   "label": "Classical realism",
+   "family": "realism",
+   "year": 1948,
+   "origin": "Morgenthau",
+   "core": "States pursue power rooted in human nature; prudent statecraft manages the balance of power.",
+   "works": [],
+   "cites": [
+    "Morgenthau 1948",
+    "Carr 1939"
+   ]
+  },
+  {
+   "id": "neorealism",
+   "label": "Structural realism (neorealism)",
+   "family": "realism",
+   "year": 1979,
+   "origin": "Waltz",
+   "core": "Anarchy and the distribution of capabilities make states balance; bipolarity is stable.",
+   "works": [
+    {
+     "id": "waltz1979",
+     "dir": "ir-network",
+     "label": "Waltz 1979",
+     "title": "Theory of International Politics",
+     "authors": "Kenneth N. Waltz",
+     "year": 1979,
+     "journal": "Addison-Wesley (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "defensive",
+   "label": "Defensive realism",
+   "family": "realism",
+   "year": 1978,
+   "origin": "Jervis; Van Evera",
+   "core": "States seek security, not maximal power; the security dilemma and offense-defense balance shape conflict.",
+   "works": [
+    {
+     "id": "jervis1978",
+     "dir": "security-network",
+     "label": "Jervis 1978",
+     "title": "Cooperation under the Security Dilemma",
+     "authors": "Robert Jervis",
+     "year": 1978,
+     "journal": "World Politics",
+     "doi": "10.2307/2009958",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Glaser 1997"
+   ]
+  },
+  {
+   "id": "offensive",
+   "label": "Offensive realism",
+   "family": "realism",
+   "year": 2001,
+   "origin": "Mearsheimer",
+   "core": "Anarchy pushes great powers to maximize relative power and seek regional hegemony.",
+   "works": [
+    {
+     "id": "mearsheimer2001",
+     "dir": "security-network",
+     "label": "Mearsheimer 2001",
+     "title": "The Tragedy of Great Power Politics",
+     "authors": "John J. Mearsheimer",
+     "year": 2001,
+     "journal": "W. W. Norton (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "threat",
+   "label": "Balance of threat",
+   "family": "realism",
+   "year": 1987,
+   "origin": "Walt",
+   "core": "States balance against threats (power, proximity, offensive capability, intentions), not power alone.",
+   "works": [
+    {
+     "id": "walt1987",
+     "dir": "security-network",
+     "label": "Walt 1987",
+     "title": "The Origins of Alliances",
+     "authors": "Stephen M. Walt",
+     "year": 1987,
+     "journal": "Cornell University Press (book)",
+     "doi": "10.7591/9780801469992",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "neoclassical",
+   "label": "Neoclassical realism",
+   "family": "realism",
+   "year": 1998,
+   "origin": "Rose; Schweller",
+   "core": "Systemic pressures are filtered through domestic perceptions and state capacity.",
+   "works": [],
+   "cites": [
+    "Rose 1998"
+   ]
+  },
+  {
+   "id": "powertransition",
+   "label": "Power transition & hegemonic war",
+   "family": "order",
+   "year": 1981,
+   "origin": "Organski; Gilpin",
+   "core": "War is most likely when a dissatisfied rising power approaches parity with the dominant state.",
+   "works": [
+    {
+     "id": "gilpin1981",
+     "dir": "security-network",
+     "label": "Gilpin 1981",
+     "title": "War and Change in World Politics",
+     "authors": "Robert Gilpin",
+     "year": 1981,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511664267",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "hst",
+   "label": "Hegemonic stability theory",
+   "family": "order",
+   "year": 1981,
+   "origin": "Kindleberger; Gilpin",
+   "core": "An open, stable order needs a hegemon to supply public goods.",
+   "works": [
+    {
+     "id": "gilpin1981",
+     "dir": "security-network",
+     "label": "Gilpin 1981",
+     "title": "War and Change in World Politics",
+     "authors": "Robert Gilpin",
+     "year": 1981,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511664267",
+     "zotero": null
+    },
+    {
+     "id": "keohane1984",
+     "dir": "ir-network",
+     "label": "Keohane 1984",
+     "title": "After Hegemony: Cooperation and Discord in the World Political Economy",
+     "authors": "Robert O. Keohane",
+     "year": 1984,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.2307/20042201",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "neolib",
+   "label": "Neoliberal institutionalism",
+   "family": "liberal",
+   "year": 1984,
+   "origin": "Keohane",
+   "core": "Institutions enable cooperation under anarchy by reducing transaction costs and providing information.",
+   "works": [
+    {
+     "id": "keohane1984",
+     "dir": "ir-network",
+     "label": "Keohane 1984",
+     "title": "After Hegemony: Cooperation and Discord in the World Political Economy",
+     "authors": "Robert O. Keohane",
+     "year": 1984,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.2307/20042201",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Keohane 1995"
+   ]
+  },
+  {
+   "id": "interdep",
+   "label": "Complex interdependence",
+   "family": "liberal",
+   "year": 1977,
+   "origin": "Keohane & Nye",
+   "core": "Multiple channels, no issue hierarchy and the low utility of force change world politics.",
+   "works": [
+    {
+     "id": "keohanenye1977",
+     "dir": "ir-network",
+     "label": "Keohane 1977",
+     "title": "Power and Interdependence: World Politics in Transition",
+     "authors": "Robert O. Keohane & Joseph S. Nye",
+     "year": 1977,
+     "journal": "Little, Brown (book)",
+     "doi": "10.2307/2149069",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "regimes",
+   "label": "Regime theory",
+   "family": "liberal",
+   "year": 1982,
+   "origin": "Krasner; Ruggie",
+   "core": "Principles, norms, rules and procedures converge expectations in issue areas.",
+   "works": [
+    {
+     "id": "krasner1982a",
+     "dir": "ir-network",
+     "label": "Krasner 1982",
+     "title": "Structural Causes and Regime Consequences: Regimes as Intervening Variables",
+     "authors": "Stephen D. Krasner",
+     "year": 1982,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/DLT9KALQ"
+    },
+    {
+     "id": "ruggie1982",
+     "dir": "ir-network",
+     "label": "Ruggie 1982",
+     "title": "International Regimes, Transactions, and Change: Embedded Liberalism in the Postwar Economic Order",
+     "authors": "John Gerard Ruggie",
+     "year": 1982,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/2N5SET2G"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ratdesign",
+   "label": "Rational design of institutions",
+   "family": "liberal",
+   "year": 2001,
+   "origin": "Koremenos, Lipson & Snidal",
+   "core": "Institutional features such as membership, scope and flexibility are rational responses to cooperation problems.",
+   "works": [
+    {
+     "id": "koremenos2001",
+     "dir": "ir-network",
+     "label": "Koremenos 2001",
+     "title": "The Rational Design of International Institutions",
+     "authors": "Barbara Koremenos, Charles Lipson & Duncan Snidal",
+     "year": 2001,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/DJIRBMWS"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "pa",
+   "label": "Principal-agent theory of IOs",
+   "family": "liberal",
+   "year": 2006,
+   "origin": "Hawkins et al.",
+   "core": "States delegate to IOs as principals; agency slack explains IO autonomy.",
+   "works": [
+    {
+     "id": "hawkins2006",
+     "dir": "ir-network",
+     "label": "Hawkins 2006",
+     "title": "Delegation and Agency in International Organizations",
+     "authors": "Darren G. Hawkins, David A. Lake, Daniel L. Nielson & Michael J. Tierney (eds.)",
+     "year": 2006,
+     "journal": "Cambridge University Press (edited volume)",
+     "doi": "10.1017/cbo9780511491368.002",
+     "zotero": null
+    },
+    {
+     "id": "nielson2003",
+     "dir": "ir-network",
+     "label": "Nielson 2003",
+     "title": "Delegation to International Organizations: Agency Theory and World Bank Environmental Reform",
+     "authors": "Daniel L. Nielson & Michael J. Tierney",
+     "year": 2003,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/S3MHRZDI"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "compliance",
+   "label": "Compliance & screening",
+   "family": "liberal",
+   "year": 2005,
+   "origin": "Chayes; Downs, Rocke & Barsoom; von Stein",
+   "core": "Treaties may change behavior or merely screen states already inclined to comply.",
+   "works": [
+    {
+     "id": "vonstein2005",
+     "dir": "ir-network",
+     "label": "von Stein 2005",
+     "title": "Do Treaties Constrain or Screen? Selection Bias and Treaty Compliance",
+     "authors": "Jana von Stein",
+     "year": 2005,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/8UJWFEN3"
+    },
+    {
+     "id": "simmons2009",
+     "dir": "ir-network",
+     "label": "Simmons 2009",
+     "title": "Mobilizing for Human Rights: International Law in Domestic Politics",
+     "authors": "Beth A. Simmons",
+     "year": 2009,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511811340",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "liberalpref",
+   "label": "Liberal theory (preferences first)",
+   "family": "liberal",
+   "year": 1997,
+   "origin": "Moravcsik",
+   "core": "State preferences, shaped by domestic society, drive world politics.",
+   "works": [
+    {
+     "id": "moravcsik1997",
+     "dir": "ir-network",
+     "label": "Moravcsik 1997",
+     "title": "Taking Preferences Seriously: A Liberal Theory of International Politics",
+     "authors": "Andrew Moravcsik",
+     "year": 1997,
+     "journal": "IO",
+     "doi": "10.1162/002081897550447",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "dempeace",
+   "label": "Democratic peace",
+   "family": "liberal",
+   "year": 1986,
+   "origin": "Doyle; Russett",
+   "core": "Democracies rarely fight each other, through norms, institutions or information.",
+   "works": [
+    {
+     "id": "tomzweeks2013",
+     "dir": "security-network",
+     "label": "Tomz 2013",
+     "title": "Public Opinion and the Democratic Peace",
+     "authors": "Michael R. Tomz & Jessica L. P. Weeks",
+     "year": 2013,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/9XXYS6XB"
+    }
+   ],
+   "cites": [
+    "Doyle 1986",
+    "Russett 1993"
+   ]
+  },
+  {
+   "id": "commercial",
+   "label": "Commercial & capitalist peace",
+   "family": "liberal",
+   "year": 2007,
+   "origin": "Oneal & Russett; Gartzke",
+   "core": "Trade, capital integration and development reduce conflict.",
+   "works": [
+    {
+     "id": "gartzke2007",
+     "dir": "ipe-network",
+     "label": "Gartzke 2007",
+     "title": "The Capitalist Peace",
+     "authors": "Erik Gartzke",
+     "year": 2007,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2007.00244.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "twolevel",
+   "label": "Two-level games",
+   "family": "rational",
+   "year": 1988,
+   "origin": "Putnam",
+   "core": "Negotiators bargain simultaneously with foreign counterparts and domestic ratifiers.",
+   "works": [
+    {
+     "id": "putnam1988",
+     "dir": "ir-network",
+     "label": "Putnam 1988",
+     "title": "Diplomacy and Domestic Politics: The Logic of Two-Level Games",
+     "authors": "Robert D. Putnam",
+     "year": 1988,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/MDDHSBSW"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "bargaining",
+   "label": "Bargaining model of war",
+   "family": "rational",
+   "year": 1995,
+   "origin": "Fearon; Powell",
+   "core": "War is costly, so it requires private information, commitment problems or indivisibility.",
+   "works": [
+    {
+     "id": "fearon1995",
+     "dir": "security-network",
+     "label": "Fearon 1995",
+     "title": "Rationalist Explanations for War",
+     "authors": "James D. Fearon",
+     "year": 1995,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/KT8UMYSX"
+    },
+    {
+     "id": "powell2006",
+     "dir": "security-network",
+     "label": "Powell 2006",
+     "title": "War as a Commitment Problem",
+     "authors": "Robert Powell",
+     "year": 2006,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/CAI5D3IH"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "audience",
+   "label": "Audience costs",
+   "family": "rational",
+   "year": 1994,
+   "origin": "Fearon",
+   "core": "Leaders who back down from public threats pay domestic costs, which makes threats credible.",
+   "works": [
+    {
+     "id": "fearon1994",
+     "dir": "security-network",
+     "label": "Fearon 1994",
+     "title": "Domestic Political Audiences and the Escalation of International Disputes",
+     "authors": "James D. Fearon",
+     "year": 1994,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/C6JKP379"
+    },
+    {
+     "id": "tomz2007",
+     "dir": "ipe-network",
+     "label": "Tomz 2007",
+     "title": "Reputation and International Cooperation: Sovereign Debt across Three Centuries",
+     "authors": "Michael Tomz",
+     "year": 2007,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.1515/9781400842926",
+     "zotero": null
+    },
+    {
+     "id": "weeks2008",
+     "dir": "security-network",
+     "label": "Weeks 2008",
+     "title": "Autocratic Audience Costs: Regime Type and Signaling Resolve",
+     "authors": "Jessica L. Weeks",
+     "year": 2008,
+     "journal": "IO",
+     "doi": "10.1017/s0020818308080028",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "construct",
+   "label": "Constructivism",
+   "family": "construct",
+   "year": 1992,
+   "origin": "Wendt; Onuf; Katzenstein",
+   "core": "Anarchy is what states make of it: identities and interests are socially constructed.",
+   "works": [
+    {
+     "id": "wendt1992",
+     "dir": "ir-network",
+     "label": "Wendt 1992",
+     "title": "Anarchy is what States Make of it: The Social Construction of Power Politics",
+     "authors": "Alexander Wendt",
+     "year": 1992,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/Y646CTQD"
+    },
+    {
+     "id": "wendt1999",
+     "dir": "ir-network",
+     "label": "Wendt 1999",
+     "title": "Social Theory of International Politics",
+     "authors": "Alexander Wendt",
+     "year": 1999,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511612183",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "norms",
+   "label": "Norm life cycle",
+   "family": "construct",
+   "year": 1998,
+   "origin": "Finnemore & Sikkink",
+   "core": "Norms emerge through entrepreneurs, cascade and are internalized.",
+   "works": [
+    {
+     "id": "finnemore1998",
+     "dir": "ir-network",
+     "label": "Finnemore 1998",
+     "title": "International Norm Dynamics and Political Change",
+     "authors": "Martha Finnemore & Kathryn Sikkink",
+     "year": 1998,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/TQMTAD63"
+    },
+    {
+     "id": "keck1998",
+     "dir": "ir-network",
+     "label": "Keck 1998",
+     "title": "Activists beyond Borders: Advocacy Networks in International Politics",
+     "authors": "Margaret E. Keck & Kathryn Sikkink",
+     "year": 1998,
+     "journal": "Cornell University Press (book)",
+     "doi": "10.2307/20048985",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "socialization",
+   "label": "Socialization & persuasion",
+   "family": "construct",
+   "year": 2001,
+   "origin": "Johnston; Checkel",
+   "core": "IOs socialize states through persuasion, social influence and mimicry.",
+   "works": [
+    {
+     "id": "johnston2001",
+     "dir": "ir-network",
+     "label": "Johnston 2001",
+     "title": "Treating International Institutions as Social Environments",
+     "authors": "Alastair Iain Johnston",
+     "year": 2001,
+     "journal": "ISQ",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/8KZM9FAS"
+    }
+   ],
+   "cites": [
+    "Checkel 2005"
+   ]
+  },
+  {
+   "id": "securitization",
+   "label": "Securitization",
+   "family": "construct",
+   "year": 1998,
+   "origin": "Buzan, Waever & de Wilde",
+   "core": "Issues become security issues through speech acts accepted by audiences.",
+   "works": [],
+   "cites": [
+    "Buzan 1998"
+   ]
+  },
+  {
+   "id": "englishschool",
+   "label": "English School (international society)",
+   "family": "construct",
+   "year": 1977,
+   "origin": "Bull",
+   "core": "States form an international society with shared rules and institutions.",
+   "works": [],
+   "cites": [
+    "Bull 1977"
+   ]
+  },
+  {
+   "id": "lio",
+   "label": "Liberal international order",
+   "family": "order",
+   "year": 2001,
+   "origin": "Ikenberry",
+   "core": "Post-1945 U.S. hegemony built a rules-based order through strategic restraint and institutions.",
+   "works": [
+    {
+     "id": "ikenberry2001",
+     "dir": "ir-network",
+     "label": "Ikenberry 2001",
+     "title": "After Victory: Institutions, Strategic Restraint, and the Rebuilding of Order after Major Wars",
+     "authors": "G. John Ikenberry",
+     "year": 2001,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.23943/princeton/9780691169217.001.0001",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Ikenberry 2011"
+   ]
+  },
+  {
+   "id": "hierarchy",
+   "label": "Hierarchy in IR",
+   "family": "order",
+   "year": 2009,
+   "origin": "Lake",
+   "core": "Relations among states are often hierarchical authority, not pure anarchy.",
+   "works": [
+    {
+     "id": "lake2009book",
+     "dir": "ir-network",
+     "label": "Lake 2009",
+     "title": "Hierarchy in International Relations",
+     "authors": "David A. Lake",
+     "year": 2009,
+     "journal": "Cornell University Press (book)",
+     "doi": "10.7591/9780801458934",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "weaponized",
+   "label": "Weaponized interdependence",
+   "family": "order",
+   "year": 2019,
+   "origin": "Farrell & Newman",
+   "core": "States controlling network hubs can exploit panopticon and chokepoint effects.",
+   "works": [
+    {
+     "id": "farrell2019",
+     "dir": "ipe-network",
+     "label": "Farrell 2019",
+     "title": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion",
+     "authors": "Henry Farrell & Abraham L. Newman",
+     "year": 2019,
+     "journal": "International Security",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/855MI2G8"
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "neorealism",
+   "target": "classical",
+   "type": "extends",
+   "why": "Moves realism from human nature to system structure."
+  },
+  {
+   "source": "defensive",
+   "target": "neorealism",
+   "type": "extends",
+   "why": "Security-seeking variant of structural realism."
+  },
+  {
+   "source": "offensive",
+   "target": "neorealism",
+   "type": "extends",
+   "why": "Power-maximizing variant of structural realism."
+  },
+  {
+   "source": "offensive",
+   "target": "defensive",
+   "type": "rivals",
+   "why": "Disagree on how much power states seek."
+  },
+  {
+   "source": "threat",
+   "target": "neorealism",
+   "type": "extends",
+   "why": "Balancing against threats rather than power."
+  },
+  {
+   "source": "neoclassical",
+   "target": "neorealism",
+   "type": "extends",
+   "why": "Adds domestic intervening variables to structural pressure."
+  },
+  {
+   "source": "powertransition",
+   "target": "neorealism",
+   "type": "rivals",
+   "why": "Preponderance, not balance, brings peace."
+  },
+  {
+   "source": "hst",
+   "target": "powertransition",
+   "type": "complements",
+   "why": "Both center hegemonic power in order and war."
+  },
+  {
+   "source": "neolib",
+   "target": "neorealism",
+   "type": "rivals",
+   "why": "Cooperation is possible under anarchy through institutions."
+  },
+  {
+   "source": "neolib",
+   "target": "hst",
+   "type": "extends",
+   "why": "Cooperation can persist after hegemony."
+  },
+  {
+   "source": "neolib",
+   "target": "interdep",
+   "type": "extends",
+   "why": "Rationalist theory of institutions under interdependence."
+  },
+  {
+   "source": "regimes",
+   "target": "neolib",
+   "type": "complements",
+   "why": "Regimes as the object neoliberals explain."
+  },
+  {
+   "source": "ratdesign",
+   "target": "neolib",
+   "type": "extends",
+   "why": "Explains specific institutional design features."
+  },
+  {
+   "source": "pa",
+   "target": "ratdesign",
+   "type": "extends",
+   "why": "Delegation and agency slack in IOs."
+  },
+  {
+   "source": "compliance",
+   "target": "neolib",
+   "type": "extends",
+   "why": "Tests whether institutions change behavior."
+  },
+  {
+   "source": "liberalpref",
+   "target": "neolib",
+   "type": "rivals",
+   "why": "Preferences, not institutions or power, drive outcomes."
+  },
+  {
+   "source": "dempeace",
+   "target": "liberalpref",
+   "type": "complements",
+   "why": "Regime type as a domestic preference source."
+  },
+  {
+   "source": "commercial",
+   "target": "dempeace",
+   "type": "rivals",
+   "why": "Capitalism, not democracy, explains peace."
+  },
+  {
+   "source": "twolevel",
+   "target": "liberalpref",
+   "type": "complements",
+   "why": "Domestic ratification shapes international bargaining."
+  },
+  {
+   "source": "bargaining",
+   "target": "neorealism",
+   "type": "extends",
+   "why": "Rationalist account of war under anarchy."
+  },
+  {
+   "source": "audience",
+   "target": "bargaining",
+   "type": "applies",
+   "why": "Credible signaling to solve information problems."
+  },
+  {
+   "source": "audience",
+   "target": "dempeace",
+   "type": "complements",
+   "why": "Democratic institutions generate credible signals."
+  },
+  {
+   "source": "construct",
+   "target": "neorealism",
+   "type": "rivals",
+   "why": "Anarchy is socially constructed, not given."
+  },
+  {
+   "source": "construct",
+   "target": "englishschool",
+   "type": "extends",
+   "why": "Shared ideas constitute international society."
+  },
+  {
+   "source": "norms",
+   "target": "construct",
+   "type": "extends",
+   "why": "How norms emerge and spread."
+  },
+  {
+   "source": "socialization",
+   "target": "norms",
+   "type": "extends",
+   "why": "Micro-processes of internalization."
+  },
+  {
+   "source": "socialization",
+   "target": "neolib",
+   "type": "rivals",
+   "why": "Institutions change identities, not just incentives."
+  },
+  {
+   "source": "securitization",
+   "target": "construct",
+   "type": "applies",
+   "why": "Constructivism applied to security."
+  },
+  {
+   "source": "lio",
+   "target": "hst",
+   "type": "extends",
+   "why": "Hegemony through institutions and restraint."
+  },
+  {
+   "source": "lio",
+   "target": "neolib",
+   "type": "synthesizes",
+   "why": "Combines power and institutions in order building."
+  },
+  {
+   "source": "hierarchy",
+   "target": "neorealism",
+   "type": "rivals",
+   "why": "Authority relations, not pure anarchy."
+  },
+  {
+   "source": "weaponized",
+   "target": "interdep",
+   "type": "extends",
+   "why": "Interdependence as a source of coercive power."
+  },
+  {
+   "source": "weaponized",
+   "target": "lio",
+   "type": "rivals",
+   "why": "The liberal order's networks enable coercion."
+  }
+ ]
+}

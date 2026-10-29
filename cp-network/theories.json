@@ -1,0 +1,996 @@
+{
+ "meta": {
+  "field": "Comparative Politics",
+  "built": "2026-10-28",
+  "theories": 28,
+  "relations": 29,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "regimes",
+   "label": "Regimes & democratization",
+   "color": "#be123c"
+  },
+  {
+   "id": "institutions",
+   "label": "Institutions & parties",
+   "color": "#2563eb"
+  },
+  {
+   "id": "pe",
+   "label": "Political economy",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "identity",
+   "label": "Identity, conflict & culture",
+   "color": "#ea580c"
+  },
+  {
+   "id": "state",
+   "label": "State & historical development",
+   "color": "#16a34a"
+  }
+ ],
+ "theories": [
+  {
+   "id": "modernization",
+   "label": "Modernization theory",
+   "family": "regimes",
+   "year": 1959,
+   "origin": "Lipset",
+   "core": "Economic development produces and sustains democracy.",
+   "works": [
+    {
+     "id": "lipset1959",
+     "dir": "cp-network",
+     "label": "Lipset 1959",
+     "title": "Some Social Requisites of Democracy: Economic Development and Political Legitimacy",
+     "authors": "Seymour Martin Lipset",
+     "year": 1959,
+     "journal": "APSR",
+     "doi": "10.2307/1951731",
+     "zotero": null
+    },
+    {
+     "id": "boix2003",
+     "dir": "cp-network",
+     "label": "Boix 2003",
+     "title": "Democracy and Redistribution",
+     "authors": "Carles Boix",
+     "year": 2003,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511804960",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "redistributive",
+   "label": "Redistributive model of democratization",
+   "family": "regimes",
+   "year": 2003,
+   "origin": "Boix; Acemoglu & Robinson",
+   "core": "Democratization reflects elite-mass conflict over redistribution under inequality.",
+   "works": [
+    {
+     "id": "boix2003",
+     "dir": "cp-network",
+     "label": "Boix 2003",
+     "title": "Democracy and Redistribution",
+     "authors": "Carles Boix",
+     "year": 2003,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511804960",
+     "zotero": null
+    },
+    {
+     "id": "acemoglurobinson2006",
+     "dir": "cp-network",
+     "label": "Acemoglu 2006",
+     "title": "Economic Origins of Dictatorship and Democracy",
+     "authors": "Daron Acemoglu & James A. Robinson",
+     "year": 2006,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511510809",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "classcoalition",
+   "label": "Class coalitions & historical paths",
+   "family": "regimes",
+   "year": 1966,
+   "origin": "Moore",
+   "core": "Lord-peasant relations and bourgeois strength set paths to democracy or dictatorship.",
+   "works": [
+    {
+     "id": "moore1966",
+     "dir": "cp-network",
+     "label": "Moore 1966",
+     "title": "Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World",
+     "authors": "Barrington Moore Jr.",
+     "year": 1966,
+     "journal": "Beacon Press (book)",
+     "doi": "10.33458/uidergisi.513200",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "transitology",
+   "label": "Elite pacts (transitology)",
+   "family": "regimes",
+   "year": 1986,
+   "origin": "O'Donnell & Schmitter",
+   "core": "Transitions turn on splits and pacts within regime elites.",
+   "works": [
+    {
+     "id": "odonnell1986",
+     "dir": "cp-network",
+     "label": "O'Donnell 1986",
+     "title": "Transitions from Authoritarian Rule: Tentative Conclusions about Uncertain Democracies",
+     "authors": "Guillermo O'Donnell & Philippe C. Schmitter",
+     "year": 1986,
+     "journal": "Johns Hopkins University Press (book)",
+     "doi": "10.1007/978-3-531-90400-9_90",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "compauth",
+   "label": "Competitive authoritarianism",
+   "family": "regimes",
+   "year": 2010,
+   "origin": "Levitsky & Way",
+   "core": "Hybrid regimes hold real but unfair elections; linkage and leverage shape outcomes.",
+   "works": [
+    {
+     "id": "levitskyway2010",
+     "dir": "cp-network",
+     "label": "Levitsky 2010",
+     "title": "Competitive Authoritarianism: Hybrid Regimes after the Cold War",
+     "authors": "Steven Levitsky & Lucan A. Way",
+     "year": 2010,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511781353",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "authinst",
+   "label": "Authoritarian institutions (cooptation)",
+   "family": "regimes",
+   "year": 2007,
+   "origin": "Gandhi & Przeworski; Magaloni",
+   "core": "Parties and legislatures help dictators coopt and commit to elites.",
+   "works": [
+    {
+     "id": "gandhiprzeworski2007",
+     "dir": "cp-network",
+     "label": "Gandhi 2007",
+     "title": "Authoritarian Institutions and the Survival of Autocrats",
+     "authors": "Jennifer Gandhi & Adam Przeworski",
+     "year": 2007,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414007305817",
+     "zotero": null
+    },
+    {
+     "id": "gandhi2008",
+     "dir": "cp-network",
+     "label": "Gandhi 2008",
+     "title": "Political Institutions under Dictatorship",
+     "authors": "Jennifer Gandhi",
+     "year": 2008,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511510090",
+     "zotero": null
+    },
+    {
+     "id": "magaloni2006",
+     "dir": "cp-network",
+     "label": "Magaloni 2006",
+     "title": "Voting for Autocracy: Hegemonic Party Survival and Its Demise in Mexico",
+     "authors": "Beatriz Magaloni",
+     "year": 2006,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511510274",
+     "zotero": null
+    },
+    {
+     "id": "boixsvolik2013",
+     "dir": "cp-network",
+     "label": "Boix 2013",
+     "title": "The Foundations of Limited Authoritarian Government: Institutions, Commitment, and Power-Sharing in Dictatorships",
+     "authors": "Carles Boix & Milan W. Svolik",
+     "year": 2013,
+     "journal": "JOP",
+     "doi": "10.1017/s0022381613000029",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "selectorate",
+   "label": "Selectorate theory",
+   "family": "regimes",
+   "year": 2003,
+   "origin": "Bueno de Mesquita et al.",
+   "core": "Coalition size determines public versus private goods and leader survival.",
+   "works": [
+    {
+     "id": "bdm2003",
+     "dir": "pe-network",
+     "label": "Bueno de Mesquita 2003",
+     "title": "The Logic of Political Survival",
+     "authors": "Bruce Bueno de Mesquita, Alastair Smith, Randolph M. Siverson & James D. Morrow",
+     "year": 2003,
+     "journal": "MIT Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "backsliding",
+   "label": "Democratic backsliding",
+   "family": "regimes",
+   "year": 2016,
+   "origin": "Bermeo; Levitsky & Ziblatt",
+   "core": "Democracies now erode through elected executives' incremental aggrandizement.",
+   "works": [
+    {
+     "id": "bermeo2016",
+     "dir": "cp-network",
+     "label": "Bermeo 2016",
+     "title": "On Democratic Backsliding",
+     "authors": "Nancy Bermeo",
+     "year": 2016,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2016.0012",
+     "zotero": null
+    },
+    {
+     "id": "levitskyziblatt2018",
+     "dir": "cp-network",
+     "label": "Levitsky 2018",
+     "title": "How Democracies Die",
+     "authors": "Steven Levitsky & Daniel Ziblatt",
+     "year": 2018,
+     "journal": "Crown (book)",
+     "doi": "10.15517/aciep.v0i9.38468",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rentier",
+   "label": "Resource curse (rentier state)",
+   "family": "pe",
+   "year": 2001,
+   "origin": "Ross",
+   "core": "Oil revenue sustains autocracy through spending, repression and low taxation.",
+   "works": [
+    {
+     "id": "ross2001",
+     "dir": "cp-network",
+     "label": "Ross 2001",
+     "title": "Does Oil Hinder Democracy?",
+     "authors": "Michael L. Ross",
+     "year": 2001,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/NLNZE785"
+    },
+    {
+     "id": "habermenaldo2011",
+     "dir": "cp-network",
+     "label": "Haber 2011",
+     "title": "Do Natural Resources Fuel Authoritarianism? A Reappraisal of the Resource Curse",
+     "authors": "Stephen Haber & Victor Menaldo",
+     "year": 2011,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/BMAQ8XGH"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "vetoplayers",
+   "label": "Veto players",
+   "family": "institutions",
+   "year": 1995,
+   "origin": "Tsebelis",
+   "core": "Policy stability rises with the number and distance of veto players.",
+   "works": [
+    {
+     "id": "tsebelis1995",
+     "dir": "cp-network",
+     "label": "Tsebelis 1995",
+     "title": "Decision Making in Political Systems: Veto Players in Presidentialism, Parliamentarism, Multicameralism and Multipartyism",
+     "authors": "George Tsebelis",
+     "year": 1995,
+     "journal": "BJPS",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/K2998JH2"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "consociational",
+   "label": "Consociationalism",
+   "family": "institutions",
+   "year": 1977,
+   "origin": "Lijphart",
+   "core": "Power sharing stabilizes divided societies.",
+   "works": [
+    {
+     "id": "lijphart1999",
+     "dir": "cp-network",
+     "label": "Lijphart 1999",
+     "title": "Patterns of Democracy: Government Forms and Performance in Thirty-Six Countries",
+     "authors": "Arend Lijphart",
+     "year": 1999,
+     "journal": "Yale University Press (book)",
+     "doi": "10.2307/3331092",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Lijphart 1977"
+   ]
+  },
+  {
+   "id": "duverger",
+   "label": "Electoral system effects",
+   "family": "institutions",
+   "year": 1997,
+   "origin": "Duverger; Cox",
+   "core": "District magnitude and rules shape party numbers and strategic coordination.",
+   "works": [
+    {
+     "id": "cox1997",
+     "dir": "cp-network",
+     "label": "Cox 1997",
+     "title": "Making Votes Count: Strategic Coordination in the World's Electoral Systems",
+     "authors": "Gary W. Cox",
+     "year": 1997,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9781139174954",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cleavage",
+   "label": "Cleavage theory",
+   "family": "institutions",
+   "year": 1967,
+   "origin": "Lipset & Rokkan",
+   "core": "Party systems freeze around historical social cleavages.",
+   "works": [],
+   "cites": [
+    "Lipset 1967"
+   ]
+  },
+  {
+   "id": "cartelparty",
+   "label": "Cartel party thesis",
+   "family": "institutions",
+   "year": 1995,
+   "origin": "Katz & Mair",
+   "core": "Parties fuse with the state and collude to limit competition.",
+   "works": [],
+   "cites": [
+    "Katz 1995"
+   ]
+  },
+  {
+   "id": "populism",
+   "label": "Ideational approach to populism",
+   "family": "institutions",
+   "year": 2004,
+   "origin": "Mudde",
+   "core": "Populism is a thin ideology pitting a pure people against a corrupt elite.",
+   "works": [
+    {
+     "id": "mudde2004",
+     "dir": "cp-network",
+     "label": "Mudde 2004",
+     "title": "The Populist Zeitgeist",
+     "authors": "Cas Mudde",
+     "year": 2004,
+     "journal": "Government and Opposition",
+     "doi": "10.1111/j.1477-7053.2004.00135.x",
+     "zotero": null
+    },
+    {
+     "id": "mudde2018",
+     "dir": "cp-network",
+     "label": "Mudde 2018",
+     "title": "Studying Populism in Comparative Perspective: Reflections on the Contemporary and Future Research Agenda",
+     "authors": "Cas Mudde & Cristóbal Rovira Kaltwasser",
+     "year": 2018,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414018789490",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "clientelism",
+   "label": "Clientelism & machine politics",
+   "family": "pe",
+   "year": 2005,
+   "origin": "Stokes; Kitschelt & Wilkinson",
+   "core": "Parties exchange targeted benefits for votes, monitored by brokers.",
+   "works": [
+    {
+     "id": "stokes2005",
+     "dir": "cp-network",
+     "label": "Stokes 2005",
+     "title": "Perverse Accountability: A Formal Model of Machine Politics with Evidence from Argentina",
+     "authors": "Susan C. Stokes",
+     "year": 2005,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055405051683",
+     "zotero": null
+    },
+    {
+     "id": "kitschelt2007",
+     "dir": "cp-network",
+     "label": "Kitschelt 2007",
+     "title": "Patrons, Clients, and Policies: Patterns of Democratic Accountability and Political Competition",
+     "authors": "Herbert Kitschelt & Steven I. Wilkinson (eds.)",
+     "year": 2007,
+     "journal": "Cambridge University Press (edited volume)",
+     "doi": "10.1017/cbo9780511585869",
+     "zotero": null
+    },
+    {
+     "id": "nichter2008",
+     "dir": "cp-network",
+     "label": "Nichter 2008",
+     "title": "Vote Buying or Turnout Buying? Machine Politics and the Secret Ballot",
+     "authors": "Simeon Nichter",
+     "year": 2008,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055408080106",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "histinst",
+   "label": "Historical institutionalism",
+   "family": "state",
+   "year": 1999,
+   "origin": "Thelen; Pierson",
+   "core": "Institutions are path-dependent and change gradually.",
+   "works": [
+    {
+     "id": "thelen1999",
+     "dir": "cp-network",
+     "label": "Thelen 1999",
+     "title": "Historical Institutionalism in Comparative Politics",
+     "authors": "Kathleen Thelen",
+     "year": 1999,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.2.1.369",
+     "zotero": null
+    },
+    {
+     "id": "mahoneythelen2010",
+     "dir": "cp-network",
+     "label": "Mahoney 2010",
+     "title": "Explaining Institutional Change: Ambiguity, Agency, and Power",
+     "authors": "James Mahoney & Kathleen Thelen (eds.)",
+     "year": 2010,
+     "journal": "Cambridge University Press (edited volume)",
+     "doi": "10.1017/cbo9780511806414",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "criticaljunctures",
+   "label": "Critical junctures",
+   "family": "state",
+   "year": 2007,
+   "origin": "Collier & Collier; Capoccia & Kelemen",
+   "core": "Brief periods of contingency set long-lasting institutional paths.",
+   "works": [
+    {
+     "id": "capoccia2007",
+     "dir": "cp-network",
+     "label": "Capoccia 2007",
+     "title": "The Study of Critical Junctures: Theory, Narrative, and Counterfactuals in Historical Institutionalism",
+     "authors": "Giovanni Capoccia & R. Daniel Kelemen",
+     "year": 2007,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887100020852",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "voc",
+   "label": "Varieties of capitalism",
+   "family": "pe",
+   "year": 2001,
+   "origin": "Hall & Soskice",
+   "core": "Coordinated and liberal market economies rest on complementary institutions.",
+   "works": [
+    {
+     "id": "hallsoskice2001",
+     "dir": "cp-network",
+     "label": "Hall 2001",
+     "title": "Varieties of Capitalism: The Institutional Foundations of Comparative Advantage",
+     "authors": "Peter A. Hall & David Soskice (eds.)",
+     "year": 2001,
+     "journal": "Oxford University Press (edited volume)",
+     "doi": "10.1093/0199247757.001.0001",
+     "zotero": null
+    },
+    {
+     "id": "hallgingerich2009",
+     "dir": "cp-network",
+     "label": "Hall 2009",
+     "title": "Varieties of Capitalism and Institutional Complementarities in the Political Economy: An Empirical Analysis",
+     "authors": "Peter A. Hall & Daniel W. Gingerich",
+     "year": 2009,
+     "journal": "BJPS",
+     "doi": "10.1017/s0007123409000672",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "powerresources",
+   "label": "Power resources theory",
+   "family": "pe",
+   "year": 1990,
+   "origin": "Korpi; Esping-Andersen",
+   "core": "Labor and left-party strength build welfare states.",
+   "works": [
+    {
+     "id": "espingandersen1990",
+     "dir": "cp-network",
+     "label": "Esping-Andersen 1990",
+     "title": "The Three Worlds of Welfare Capitalism",
+     "authors": "Gøsta Esping-Andersen",
+     "year": 1990,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.2307/2073705",
+     "zotero": null
+    },
+    {
+     "id": "korpi2006",
+     "dir": "cp-network",
+     "label": "Korpi 2006",
+     "title": "Power Resources and Employer-Centered Approaches in Explanations of Welfare States and Varieties of Capitalism: Protagonists, Consenters, and Antagonists",
+     "authors": "Walter Korpi",
+     "year": 2006,
+     "journal": "World Politics",
+     "doi": "10.1353/wp.2006.0026",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "insideroutsider",
+   "label": "Insider-outsider politics",
+   "family": "pe",
+   "year": 2005,
+   "origin": "Rueda",
+   "core": "Social democrats represent protected insiders over precarious outsiders.",
+   "works": [
+    {
+     "id": "rueda2006",
+     "dir": "cp-network",
+     "label": "Rueda 2006",
+     "title": "Social Democracy and Active Labour-Market Policies: Insiders, Outsiders and the Politics of Employment Promotion",
+     "authors": "David Rueda",
+     "year": 2006,
+     "journal": "BJPS",
+     "doi": "10.1017/s0007123406000214",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "instrumentalism",
+   "label": "Constructivist/instrumental ethnic politics",
+   "family": "identity",
+   "year": 2004,
+   "origin": "Posner; Chandra",
+   "core": "Ethnic identities become politically salient through institutions and strategic choice.",
+   "works": [
+    {
+     "id": "posner2004",
+     "dir": "cp-network",
+     "label": "Posner 2004",
+     "title": "The Political Salience of Cultural Difference: Why Chewas and Tumbukas Are Allies in Zambia and Adversaries in Malawi",
+     "authors": "Daniel N. Posner",
+     "year": 2004,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/YD73RHCQ"
+    },
+    {
+     "id": "chandra2006",
+     "dir": "cp-network",
+     "label": "Chandra 2006",
+     "title": "WHAT IS ETHNIC IDENTITY AND DOES IT MATTER?",
+     "authors": "Kanchan Chandra",
+     "year": 2006,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.9.062404.170715",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "opportunity",
+   "label": "Opportunity (state weakness) theory of civil war",
+   "family": "identity",
+   "year": 2003,
+   "origin": "Fearon & Laitin; Collier & Hoeffler",
+   "core": "Weak states and rough terrain, not grievance, explain insurgency.",
+   "works": [
+    {
+     "id": "fearonlaitin2003",
+     "dir": "cp-network",
+     "label": "Fearon 2003",
+     "title": "Ethnicity, Insurgency, and Civil War",
+     "authors": "James D. Fearon & David D. Laitin",
+     "year": 2003,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/ANPFUUHA"
+    },
+    {
+     "id": "collier2004",
+     "dir": "cp-network",
+     "label": "Collier 2004",
+     "title": "Greed and Grievance in Civil War",
+     "authors": "Paul Collier & Anke Hoeffler",
+     "year": 2004,
+     "journal": "Oxford Economic Papers",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "grievance",
+   "label": "Horizontal inequalities & exclusion",
+   "family": "identity",
+   "year": 2011,
+   "origin": "Stewart; Cederman et al.",
+   "core": "Political exclusion and group inequality cause ethnic conflict.",
+   "works": [
+    {
+     "id": "cederman2011",
+     "dir": "security-network",
+     "label": "Cederman 2011",
+     "title": "Horizontal Inequalities and Ethnonationalist Civil War: A Global Comparison",
+     "authors": "Lars-Erik Cederman, Nils B. Weidmann & Kristian Skrede Gleditsch",
+     "year": 2011,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055411000207",
+     "zotero": null
+    },
+    {
+     "id": "cederman2010",
+     "dir": "cp-network",
+     "label": "Cederman 2009",
+     "title": "Why Do Ethnic Groups Rebel? New Data and Analysis",
+     "authors": "Lars-Erik Cederman, Andreas Wimmer & Brian Min",
+     "year": 2009,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887109990219",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "statemaking",
+   "label": "War makes states",
+   "family": "state",
+   "year": 1990,
+   "origin": "Tilly",
+   "core": "Interstate war drove extraction and state building in Europe.",
+   "works": [
+    {
+     "id": "tilly1990",
+     "dir": "cp-network",
+     "label": "Tilly 1990",
+     "title": "Coercion, Capital, and European States, AD 990-1990",
+     "authors": "Charles Tilly",
+     "year": 1990,
+     "journal": "Basil Blackwell (book)",
+     "doi": "10.4324/9781315205021-9",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "colonial",
+   "label": "Colonial origins of institutions",
+   "family": "state",
+   "year": 2001,
+   "origin": "Acemoglu, Johnson & Robinson",
+   "core": "Settler mortality shaped extractive or inclusive institutions with lasting effects.",
+   "works": [
+    {
+     "id": "ajr2001",
+     "dir": "cp-network",
+     "label": "Acemoglu 2001",
+     "title": "The Colonial Origins of Comparative Development: An Empirical Investigation",
+     "authors": "Daron Acemoglu, Simon Johnson & James A. Robinson",
+     "year": 2001,
+     "journal": "American Economic Review",
+     "doi": "10.3386/w7771",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "socialcapital",
+   "label": "Social capital & civic culture",
+   "family": "identity",
+   "year": 1993,
+   "origin": "Putnam",
+   "core": "Civic traditions and networks of trust make democracy work.",
+   "works": [
+    {
+     "id": "putnam1993",
+     "dir": "cp-network",
+     "label": "Putnam 1993",
+     "title": "Making Democracy Work: Civic Traditions in Modern Italy",
+     "authors": "Robert D. Putnam",
+     "year": 1993,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.2307/20045657",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "valuechange",
+   "label": "Postmaterialist value change",
+   "family": "identity",
+   "year": 1977,
+   "origin": "Inglehart",
+   "core": "Security in rich societies shifts values toward self-expression.",
+   "works": [
+    {
+     "id": "norris2019",
+     "dir": "cp-network",
+     "label": "Norris 2019",
+     "title": "Cultural Backlash: Trump, Brexit, and Authoritarian Populism",
+     "authors": "Pippa Norris & Ronald Inglehart",
+     "year": 2019,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/9781108595841",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Inglehart 2005"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "source": "redistributive",
+   "target": "modernization",
+   "type": "rivals",
+   "why": "Inequality and conflict, not income, drive transitions."
+  },
+  {
+   "source": "classcoalition",
+   "target": "modernization",
+   "type": "rivals",
+   "why": "Historical class paths, not development level."
+  },
+  {
+   "source": "redistributive",
+   "target": "classcoalition",
+   "type": "extends",
+   "why": "Formalizes class conflict over regimes."
+  },
+  {
+   "source": "transitology",
+   "target": "modernization",
+   "type": "rivals",
+   "why": "Elite agency, not structure."
+  },
+  {
+   "source": "compauth",
+   "target": "transitology",
+   "type": "rivals",
+   "why": "Many transitions end in hybrid regimes."
+  },
+  {
+   "source": "authinst",
+   "target": "selectorate",
+   "type": "extends",
+   "why": "Institutions manage the winning coalition."
+  },
+  {
+   "source": "backsliding",
+   "target": "compauth",
+   "type": "extends",
+   "why": "Elected leaders erode democracy into hybrids."
+  },
+  {
+   "source": "rentier",
+   "target": "redistributive",
+   "type": "applies",
+   "why": "Resource rents change redistributive stakes."
+  },
+  {
+   "source": "rentier",
+   "target": "authinst",
+   "type": "complements",
+   "why": "Rents fund cooptation."
+  },
+  {
+   "source": "consociational",
+   "target": "duverger",
+   "type": "complements",
+   "why": "Electoral design for divided societies."
+  },
+  {
+   "source": "vetoplayers",
+   "target": "consociational",
+   "type": "synthesizes",
+   "why": "Generalizes institutional power sharing."
+  },
+  {
+   "source": "cartelparty",
+   "target": "cleavage",
+   "type": "rivals",
+   "why": "Parties detach from social bases."
+  },
+  {
+   "source": "populism",
+   "target": "cartelparty",
+   "type": "extends",
+   "why": "Populists attack the party cartel."
+  },
+  {
+   "source": "duverger",
+   "target": "cleavage",
+   "type": "complements",
+   "why": "Institutions and cleavages jointly shape party systems."
+  },
+  {
+   "source": "clientelism",
+   "target": "selectorate",
+   "type": "applies",
+   "why": "Private goods to small coalitions in democracies."
+  },
+  {
+   "source": "criticaljunctures",
+   "target": "histinst",
+   "type": "extends",
+   "why": "Moments of path setting."
+  },
+  {
+   "source": "colonial",
+   "target": "criticaljunctures",
+   "type": "applies",
+   "why": "Colonization as a critical juncture."
+  },
+  {
+   "source": "statemaking",
+   "target": "histinst",
+   "type": "applies",
+   "why": "Historical war shapes state paths."
+  },
+  {
+   "source": "colonial",
+   "target": "statemaking",
+   "type": "rivals",
+   "why": "Colonial settlement versus war as the origin of institutions."
+  },
+  {
+   "source": "voc",
+   "target": "histinst",
+   "type": "applies",
+   "why": "Institutional complementarities in capitalism."
+  },
+  {
+   "source": "powerresources",
+   "target": "voc",
+   "type": "rivals",
+   "why": "Labor power versus employer coordination."
+  },
+  {
+   "source": "insideroutsider",
+   "target": "powerresources",
+   "type": "rivals",
+   "why": "Labor is divided between insiders and outsiders."
+  },
+  {
+   "source": "instrumentalism",
+   "target": "duverger",
+   "type": "applies",
+   "why": "Institutions make some identities salient."
+  },
+  {
+   "source": "opportunity",
+   "target": "grievance",
+   "type": "rivals",
+   "why": "State weakness versus grievance."
+  },
+  {
+   "source": "grievance",
+   "target": "instrumentalism",
+   "type": "complements",
+   "why": "Exclusion of politically relevant groups."
+  },
+  {
+   "source": "socialcapital",
+   "target": "modernization",
+   "type": "complements",
+   "why": "Culture as a requisite of democracy."
+  },
+  {
+   "source": "valuechange",
+   "target": "modernization",
+   "type": "extends",
+   "why": "Development changes values, which support democracy."
+  },
+  {
+   "source": "populism",
+   "target": "valuechange",
+   "type": "applies",
+   "why": "Cultural backlash fuels populism."
+  },
+  {
+   "source": "backsliding",
+   "target": "populism",
+   "type": "complements",
+   "why": "Populists in power drive backsliding."
+  }
+ ]
+}

@@ -1,0 +1,1266 @@
+{
+ "meta": {
+  "field": "Technology and AI Politics",
+  "built": "2026-10-28",
+  "theories": 30,
+  "relations": 31,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "power",
+   "label": "Power & political economy of tech",
+   "color": "#b45309"
+  },
+  {
+   "id": "democracy",
+   "label": "Democracy & the public sphere",
+   "color": "#be123c"
+  },
+  {
+   "id": "ethics",
+   "label": "Ethics, fairness & accountability",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "governance",
+   "label": "Governance, regulation & the state",
+   "color": "#16a34a"
+  },
+  {
+   "id": "security",
+   "label": "Security & geopolitics",
+   "color": "#ea580c"
+  }
+ ],
+ "theories": [
+  {
+   "id": "artifacts",
+   "label": "Technological politics (\"artifacts have politics\")",
+   "family": "power",
+   "year": 1980,
+   "origin": "Winner",
+   "core": "Technologies embody arrangements of power and authority.",
+   "works": [
+    {
+     "id": "winner1980",
+     "dir": "tech-network",
+     "label": "Winner 1980",
+     "title": "Do Artifacts Have Politics?",
+     "authors": "Langdon Winner",
+     "year": 1980,
+     "journal": "Daedalus",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "codeislaw",
+   "label": "Code is law",
+   "family": "governance",
+   "year": 1999,
+   "origin": "Lessig",
+   "core": "Software architecture regulates behavior alongside law, norms and markets.",
+   "works": [
+    {
+     "id": "lessig1999",
+     "dir": "tech-network",
+     "label": "Lessig 1999",
+     "title": "Code and Other Laws of Cyberspace",
+     "authors": "Lawrence Lessig",
+     "year": 1999,
+     "journal": "Basic Books (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "networked",
+   "label": "Networked public sphere",
+   "family": "democracy",
+   "year": 2006,
+   "origin": "Benkler",
+   "core": "Networked peer production decentralizes the public sphere.",
+   "works": [
+    {
+     "id": "benkler2006",
+     "dir": "tech-network",
+     "label": "Benkler 2006",
+     "title": "The Wealth of Networks: How Social Production Transforms Markets and Freedom",
+     "authors": "Yochai Benkler",
+     "year": 2006,
+     "journal": "Yale University Press (book)",
+     "doi": "10.2307/20455766",
+     "zotero": null
+    },
+    {
+     "id": "castells2009",
+     "dir": "tech-network",
+     "label": "Castells 2009",
+     "title": "Communication Power",
+     "authors": "Manuel Castells",
+     "year": 2009,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "echo",
+   "label": "Echo chambers & filter bubbles",
+   "family": "democracy",
+   "year": 2001,
+   "origin": "Sunstein; Pariser",
+   "core": "Personalization isolates people in like-minded information.",
+   "works": [
+    {
+     "id": "sunstein2001",
+     "dir": "tech-network",
+     "label": "Sunstein 2001",
+     "title": "Republic.com",
+     "authors": "Cass R. Sunstein",
+     "year": 2001,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "pariser2011",
+     "dir": "tech-network",
+     "label": "Pariser 2011",
+     "title": "The Filter Bubble: What the Internet Is Hiding from You",
+     "authors": "Eli Pariser",
+     "year": 2011,
+     "journal": "Penguin Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "diet",
+   "label": "Moderate media diets (minimal segregation)",
+   "family": "democracy",
+   "year": 2011,
+   "origin": "Gentzkow & Shapiro; Guess",
+   "core": "Most people have mixed, moderate online diets.",
+   "works": [
+    {
+     "id": "gentzkowshapiro2011",
+     "dir": "tech-network",
+     "label": "Gentzkow 2011",
+     "title": "Ideological Segregation Online and Offline",
+     "authors": "Matthew Gentzkow & Jesse M. Shapiro",
+     "year": 2011,
+     "journal": "Quarterly Journal of Economics",
+     "doi": "10.1093/qje/qjr044",
+     "zotero": null
+    },
+    {
+     "id": "flaxman2016",
+     "dir": "tech-network",
+     "label": "Flaxman 2016",
+     "title": "Filter Bubbles, Echo Chambers, and Online News Consumption",
+     "authors": "Seth Flaxman, Sharad Goel & Justin M. Rao",
+     "year": 2016,
+     "journal": "Public Opinion Quarterly",
+     "doi": "10.1093/poq/nfw006",
+     "zotero": null
+    },
+    {
+     "id": "guess2021",
+     "dir": "tech-network",
+     "label": "Guess 2021",
+     "title": "(Almost) Everything in Moderation: New Evidence on Americans' Online Media Diets",
+     "authors": "Andrew M. Guess",
+     "year": 2021,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12589",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "liberation",
+   "label": "Liberation technology",
+   "family": "democracy",
+   "year": 2010,
+   "origin": "Diamond; Shirky",
+   "core": "Digital tools empower citizens against autocrats.",
+   "works": [
+    {
+     "id": "diamond2010",
+     "dir": "tech-network",
+     "label": "Diamond 2010",
+     "title": "Liberation Technology",
+     "authors": "Larry Diamond",
+     "year": 2010,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.0.0190",
+     "zotero": null
+    },
+    {
+     "id": "shirky2011",
+     "dir": "tech-network",
+     "label": "Shirky 2011",
+     "title": "The Political Power of Social Media",
+     "authors": "Clay Shirky",
+     "year": 2011,
+     "journal": "Foreign Affairs",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "netdelusion",
+   "label": "Net delusion / networked authoritarianism",
+   "family": "democracy",
+   "year": 2011,
+   "origin": "Morozov; MacKinnon",
+   "core": "Autocrats adapt the internet for control.",
+   "works": [
+    {
+     "id": "morozov2011",
+     "dir": "tech-network",
+     "label": "Morozov 2011",
+     "title": "The Net Delusion: The Dark Side of Internet Freedom",
+     "authors": "Evgeny Morozov",
+     "year": 2011,
+     "journal": "PublicAffairs (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mackinnon2011",
+     "dir": "tech-network",
+     "label": "MacKinnon 2011",
+     "title": "Liberation Technology: China's \"Networked Authoritarianism\"",
+     "authors": "Rebecca MacKinnon",
+     "year": 2011,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2011.0033",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "connective",
+   "label": "Connective action",
+   "family": "democracy",
+   "year": 2012,
+   "origin": "Bennett & Segerberg",
+   "core": "Personalized sharing replaces collective identity in digital mobilization.",
+   "works": [
+    {
+     "id": "bennettsegerberg2012",
+     "dir": "tech-network",
+     "label": "Bennett 2012",
+     "title": "The Logic of Connective Action: Digital Media and the Personalization of Contentious Politics",
+     "authors": "W. Lance Bennett & Alexandra Segerberg",
+     "year": 2012,
+     "journal": "Information, Communication & Society",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/NNIV77KM"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "fragile",
+   "label": "Networked protest fragility",
+   "family": "democracy",
+   "year": 2017,
+   "origin": "Tufekci",
+   "core": "Easy digital scaling skips capacity building.",
+   "works": [
+    {
+     "id": "tufekci2017",
+     "dir": "tech-network",
+     "label": "Tufekci 2017",
+     "title": "Twitter and Tear Gas: The Power and Fragility of Networked Protest",
+     "authors": "Zeynep Tufekci",
+     "year": 2017,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "infoauto",
+   "label": "Informational autocracy",
+   "family": "security",
+   "year": 2019,
+   "origin": "Guriev & Treisman",
+   "core": "Modern autocrats rule by manipulating information.",
+   "works": [
+    {
+     "id": "guriev2019",
+     "dir": "tech-network",
+     "label": "Guriev 2019",
+     "title": "Informational Autocrats",
+     "authors": "Sergei Guriev & Daniel Treisman",
+     "year": 2019,
+     "journal": "Journal of Economic Perspectives",
+     "doi": "10.2139/ssrn.3208523",
+     "zotero": null
+    },
+    {
+     "id": "gunitsky2015",
+     "dir": "tech-network",
+     "label": "Gunitsky 2015",
+     "title": "Corrupting the Cyber-Commons: Social Media as a Tool of Autocratic Stability",
+     "authors": "Seva Gunitsky",
+     "year": 2015,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592714003120",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "censorship",
+   "label": "Strategic censorship & flooding",
+   "family": "security",
+   "year": 2013,
+   "origin": "King, Pan & Roberts; Roberts",
+   "core": "Censors target collective action and flood channels.",
+   "works": [
+    {
+     "id": "kingpanroberts2013",
+     "dir": "tech-network",
+     "label": "King 2013",
+     "title": "How Censorship in China Allows Government Criticism but Silences Collective Expression",
+     "authors": "Gary King, Jennifer Pan & Margaret E. Roberts",
+     "year": 2013,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/KXNQ3GAM"
+    },
+    {
+     "id": "roberts2018",
+     "dir": "tech-network",
+     "label": "Roberts 2018",
+     "title": "Censored: Distraction and Diversion Inside China's Great Firewall",
+     "authors": "Margaret E. Roberts",
+     "year": 2018,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.23943/9781400890057",
+     "zotero": null
+    },
+    {
+     "id": "king2017",
+     "dir": "tech-network",
+     "label": "King 2017",
+     "title": "How the Chinese Government Fabricates Social Media Posts for Strategic Distraction, Not Engaged Argument",
+     "authors": "Gary King, Jennifer Pan & Margaret E. Roberts",
+     "year": 2017,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055417000144",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "surveillancecap",
+   "label": "Surveillance capitalism",
+   "family": "power",
+   "year": 2019,
+   "origin": "Zuboff",
+   "core": "Firms extract behavioral data to predict and shape behavior.",
+   "works": [
+    {
+     "id": "zuboff2019",
+     "dir": "tech-network",
+     "label": "Zuboff 2019",
+     "title": "The Age of Surveillance Capitalism",
+     "authors": "Shoshana Zuboff",
+     "year": 2019,
+     "journal": "PublicAffairs (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "datacolonial",
+   "label": "Data colonialism",
+   "family": "power",
+   "year": 2019,
+   "origin": "Couldry & Mejias",
+   "core": "Data extraction appropriates human life like historical colonialism.",
+   "works": [
+    {
+     "id": "couldrymejias2019",
+     "dir": "tech-network",
+     "label": "Couldry 2019",
+     "title": "The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism",
+     "authors": "Nick Couldry & Ulises A. Mejias",
+     "year": 2019,
+     "journal": "Stanford University Press (book)",
+     "doi": "10.1093/sf/soz172",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "platformcap",
+   "label": "Platform capitalism",
+   "family": "power",
+   "year": 2017,
+   "origin": "Srnicek; Rahman & Thelen",
+   "core": "Platforms are a business model built on data, network effects and patient capital.",
+   "works": [
+    {
+     "id": "srnicek2017",
+     "dir": "tech-network",
+     "label": "Srnicek 2017",
+     "title": "Platform Capitalism",
+     "authors": "Nick Srnicek",
+     "year": 2017,
+     "journal": "Polity Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "rahmanthelen2019",
+     "dir": "tech-network",
+     "label": "Rahman 2019",
+     "title": "The Rise of the Platform Business Model and the Transformation of Twenty-First-Century Capitalism",
+     "authors": "K. Sabeel Rahman & Kathleen Thelen",
+     "year": 2019,
+     "journal": "Politics & Society",
+     "doi": "10.1177/0032329219838932",
+     "zotero": null
+    },
+    {
+     "id": "culpepperthelen2020",
+     "dir": "tech-network",
+     "label": "Culpepper 2019",
+     "title": "Are We All Amazon Primed? Consumers and the Politics of Platform Power",
+     "authors": "Pepper D. Culpepper & Kathleen Thelen",
+     "year": 2019,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414019852687",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "custodians",
+   "label": "Platforms as governors",
+   "family": "governance",
+   "year": 2018,
+   "origin": "Gillespie; Klonick",
+   "core": "Content moderation makes platforms private governors of speech.",
+   "works": [
+    {
+     "id": "gillespie2018",
+     "dir": "tech-network",
+     "label": "Gillespie 2018",
+     "title": "Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media",
+     "authors": "Tarleton Gillespie",
+     "year": 2018,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "klonick2018",
+     "dir": "tech-network",
+     "label": "Klonick 2018",
+     "title": "The New Governors: The People, Rules, and Processes Governing Online Speech",
+     "authors": "Kate Klonick",
+     "year": 2018,
+     "journal": "Harvard Law Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gorwa2019",
+     "dir": "tech-network",
+     "label": "Gorwa 2019",
+     "title": "What is platform governance?",
+     "authors": "Robert Gorwa",
+     "year": 2019,
+     "journal": "Information, Communication & Society",
+     "doi": "10.1080/1369118x.2019.1573914",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "blackbox",
+   "label": "Algorithmic accountability",
+   "family": "ethics",
+   "year": 2015,
+   "origin": "Pasquale; Diakopoulos",
+   "core": "Opaque algorithms must be made accountable.",
+   "works": [
+    {
+     "id": "pasquale2015",
+     "dir": "tech-network",
+     "label": "Pasquale 2015",
+     "title": "The Black Box Society: The Secret Algorithms That Control Money and Information",
+     "authors": "Frank Pasquale",
+     "year": 2015,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "diakopoulos2015",
+     "dir": "tech-network",
+     "label": "Diakopoulos 2015",
+     "title": "Algorithmic Accountability: Journalistic Investigation of Computational Power Structures",
+     "authors": "Nicholas Diakopoulos",
+     "year": 2015,
+     "journal": "Digital Journalism",
+     "doi": "10.1080/21670811.2014.976411",
+     "zotero": null
+    },
+    {
+     "id": "burrell2016",
+     "dir": "tech-network",
+     "label": "Burrell 2016",
+     "title": "How the machine ‘thinks’: Understanding opacity in machine learning algorithms",
+     "authors": "Jenna Burrell",
+     "year": 2016,
+     "journal": "Big Data & Society",
+     "doi": "10.1177/2053951715622512",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "contextual",
+   "label": "Contextual integrity",
+   "family": "ethics",
+   "year": 2010,
+   "origin": "Nissenbaum",
+   "core": "Privacy means information flows that match context norms.",
+   "works": [
+    {
+     "id": "nissenbaum2010",
+     "dir": "tech-network",
+     "label": "Nissenbaum 2010",
+     "title": "Privacy in Context: Technology, Policy, and the Integrity of Social Life",
+     "authors": "Helen Nissenbaum",
+     "year": 2010,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "impossibility",
+   "label": "Fairness impossibility results",
+   "family": "ethics",
+   "year": 2017,
+   "origin": "Kleinberg et al.; Chouldechova",
+   "core": "Common fairness criteria cannot all hold at once.",
+   "works": [
+    {
+     "id": "kleinberg2017",
+     "dir": "tech-network",
+     "label": "Kleinberg 2017",
+     "title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
+     "authors": "Jon Kleinberg, Sendhil Mullainathan & Manish Raghavan",
+     "year": 2017,
+     "journal": "Proceedings of ITCS",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "chouldechova2017",
+     "dir": "tech-network",
+     "label": "Chouldechova 2017",
+     "title": "Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments",
+     "authors": "Alexandra Chouldechova",
+     "year": 2017,
+     "journal": "Big Data",
+     "doi": "10.1089/big.2016.0047",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "oppression",
+   "label": "Algorithmic oppression",
+   "family": "ethics",
+   "year": 2018,
+   "origin": "Noble; Benjamin; Eubanks",
+   "core": "Technology encodes racial and class hierarchies.",
+   "works": [
+    {
+     "id": "noble2018",
+     "dir": "tech-network",
+     "label": "Noble 2018",
+     "title": "Algorithms of Oppression: How Search Engines Reinforce Racism",
+     "authors": "Safiya Umoja Noble",
+     "year": 2018,
+     "journal": "NYU Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "benjamin2019",
+     "dir": "tech-network",
+     "label": "Benjamin 2019",
+     "title": "Race After Technology: Abolitionist Tools for the New Jim Code",
+     "authors": "Ruha Benjamin",
+     "year": 2019,
+     "journal": "Polity Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "eubanks2018",
+     "dir": "tech-network",
+     "label": "Eubanks 2018",
+     "title": "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor",
+     "authors": "Virginia Eubanks",
+     "year": 2018,
+     "journal": "St. Martin's Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "principlism",
+   "label": "Principle-based AI ethics",
+   "family": "ethics",
+   "year": 2018,
+   "origin": "Floridi et al.; Jobin et al.",
+   "core": "Converging principles should guide AI.",
+   "works": [
+    {
+     "id": "floridi2018",
+     "dir": "tech-network",
+     "label": "Floridi 2018",
+     "title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations",
+     "authors": "Luciano Floridi, Josh Cowls, Monica Beltrametti et al.",
+     "year": 2018,
+     "journal": "Minds and Machines",
+     "doi": "10.1007/s11023-018-9482-5",
+     "zotero": null
+    },
+    {
+     "id": "jobin2019",
+     "dir": "tech-network",
+     "label": "Jobin 2019",
+     "title": "The global landscape of AI ethics guidelines",
+     "authors": "Anna Jobin, Marcello Ienca & Effy Vayena",
+     "year": 2019,
+     "journal": "Nature Machine Intelligence",
+     "doi": "10.1038/s42256-019-0088-2",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "principlescritique",
+   "label": "Critique of AI principlism",
+   "family": "ethics",
+   "year": 2019,
+   "origin": "Mittelstadt; Hagendorff",
+   "core": "Principles without enforcement are ineffective.",
+   "works": [
+    {
+     "id": "mittelstadt2019",
+     "dir": "tech-network",
+     "label": "Mittelstadt 2019",
+     "title": "Principles alone cannot guarantee ethical AI",
+     "authors": "Brent Mittelstadt",
+     "year": 2019,
+     "journal": "Nature Machine Intelligence",
+     "doi": "10.1038/s42256-019-0114-4",
+     "zotero": null
+    },
+    {
+     "id": "hagendorff2020",
+     "dir": "tech-network",
+     "label": "Hagendorff 2020",
+     "title": "The Ethics of AI Ethics: An Evaluation of Guidelines",
+     "authors": "Thilo Hagendorff",
+     "year": 2020,
+     "journal": "Minds and Machines",
+     "doi": "10.1007/s11023-020-09517-8",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "alignment",
+   "label": "Value alignment",
+   "family": "ethics",
+   "year": 2019,
+   "origin": "Russell; Gabriel",
+   "core": "AI should be designed to pursue human values under uncertainty.",
+   "works": [
+    {
+     "id": "russell2019",
+     "dir": "tech-network",
+     "label": "Russell 2019",
+     "title": "Human Compatible: Artificial Intelligence and the Problem of Control",
+     "authors": "Stuart Russell",
+     "year": 2019,
+     "journal": "Viking (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gabriel2020",
+     "dir": "tech-network",
+     "label": "Gabriel 2020",
+     "title": "Artificial Intelligence, Values, and Alignment",
+     "authors": "Iason Gabriel",
+     "year": 2020,
+     "journal": "Minds and Machines",
+     "doi": "10.1007/s11023-020-09539-2",
+     "zotero": null
+    },
+    {
+     "id": "bostrom2014",
+     "dir": "tech-network",
+     "label": "Bostrom 2014",
+     "title": "Superintelligence: Paths, Dangers, Strategies",
+     "authors": "Nick Bostrom",
+     "year": 2014,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "taskmodel",
+   "label": "Task-based model of automation",
+   "family": "power",
+   "year": 2015,
+   "origin": "Autor; Acemoglu & Restrepo",
+   "core": "Automation displaces some tasks and complements others.",
+   "works": [
+    {
+     "id": "autor2015",
+     "dir": "tech-network",
+     "label": "Autor 2015",
+     "title": "Why Are There Still So Many Jobs? The History and Future of Workplace Automation",
+     "authors": "David H. Autor",
+     "year": 2015,
+     "journal": "Journal of Economic Perspectives",
+     "doi": "10.1257/jep.29.3.3",
+     "zotero": null
+    },
+    {
+     "id": "acemoglurestrepo2020",
+     "dir": "tech-network",
+     "label": "Acemoglu 2020",
+     "title": "Robots and Jobs: Evidence from US Labor Markets",
+     "authors": "Daron Acemoglu & Pascual Restrepo",
+     "year": 2020,
+     "journal": "Journal of Political Economy",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "automationbacklash",
+   "label": "Automation and political backlash",
+   "family": "power",
+   "year": 2019,
+   "origin": "Anelli et al.; Kurer; Thewissen & Rueda",
+   "core": "Workers exposed to automation shift preferences and votes.",
+   "works": [
+    {
+     "id": "anelli2021",
+     "dir": "tech-network",
+     "label": "Anelli 2021",
+     "title": "Individual Vulnerability to Industrial Robot Adoption Increases Support for the Radical Right",
+     "authors": "Massimo Anelli, Italo Colantone & Piero Stanig",
+     "year": 2021,
+     "journal": "PNAS",
+     "doi": "10.1073/pnas.2111611118",
+     "zotero": null
+    },
+    {
+     "id": "kurer2020",
+     "dir": "tech-network",
+     "label": "Kurer 2020",
+     "title": "The Declining Middle: Occupational Change, Social Status, and the Populist Right",
+     "authors": "Thomas Kurer",
+     "year": 2020,
+     "journal": "Comparative Political Studies",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "thewissenrueda2019",
+     "dir": "tech-network",
+     "label": "Thewissen 2019",
+     "title": "Automation and the Welfare State: Technological Change as a Determinant of Redistribution Preferences",
+     "authors": "Stefan Thewissen & David Rueda",
+     "year": 2019,
+     "journal": "Comparative Political Studies",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "systemlevel",
+   "label": "System-level bureaucracy & digital-era governance",
+   "family": "governance",
+   "year": 2002,
+   "origin": "Bovens & Zouridis; Dunleavy",
+   "core": "ICT moves discretion from street-level workers to system designers.",
+   "works": [
+    {
+     "id": "bovenszouridis2002",
+     "dir": "tech-network",
+     "label": "Bovens 2002",
+     "title": "From Street-Level to System-Level Bureaucracies: How Information and Communication Technology Is Transforming Administrative Discretion and Constitutional Control",
+     "authors": "Mark Bovens & Stavros Zouridis",
+     "year": 2002,
+     "journal": "Public Administration Review",
+     "doi": "10.1111/0033-3352.00168",
+     "zotero": null
+    },
+    {
+     "id": "dunleavy2006",
+     "dir": "tech-network",
+     "label": "Dunleavy 2006",
+     "title": "New Public Management Is Dead—Long Live Digital-Era Governance",
+     "authors": "Patrick Dunleavy, Helen Margetts, Simon Bastow & Jane Tinkler",
+     "year": 2006,
+     "journal": "Journal of Public Administration Research and Theory",
+     "doi": "10.1093/jopart/mui057",
+     "zotero": null
+    },
+    {
+     "id": "youngbullock2019",
+     "dir": "tech-network",
+     "label": "Young 2019",
+     "title": "Artificial Discretion as a Tool of Governance: A Framework for Understanding the Impact of Artificial Intelligence on Public Administration",
+     "authors": "Matthew M. Young, Justin B. Bullock & Jesse D. Lecy",
+     "year": 2019,
+     "journal": "Perspectives on Public Management and Governance",
+     "doi": "10.1093/ppmgov/gvz014",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "brussels",
+   "label": "Brussels effect & digital empires",
+   "family": "governance",
+   "year": 2020,
+   "origin": "Bradford",
+   "core": "EU rules spread globally; three regulatory models compete.",
+   "works": [
+    {
+     "id": "bradford2020",
+     "dir": "tech-network",
+     "label": "Bradford 2020",
+     "title": "The Brussels Effect: How the European Union Rules the World",
+     "authors": "Anu Bradford",
+     "year": 2020,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bradford2023",
+     "dir": "tech-network",
+     "label": "Bradford 2023",
+     "title": "Digital Empires: The Global Battle to Regulate Technology",
+     "authors": "Anu Bradford",
+     "year": 2023,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cyberrev",
+   "label": "Cyber revolution vs. cyber skepticism",
+   "family": "security",
+   "year": 2012,
+   "origin": "Kello; Rid; Gartzke",
+   "core": "Debate over whether cyber transforms conflict.",
+   "works": [
+    {
+     "id": "kello2013",
+     "dir": "tech-network",
+     "label": "Kello 2013",
+     "title": "The Meaning of the Cyber Revolution: Perils to Theory and Statecraft",
+     "authors": "Lucas Kello",
+     "year": 2013,
+     "journal": "International Security",
+     "doi": "10.1162/isec_a_00138",
+     "zotero": null
+    },
+    {
+     "id": "rid2012",
+     "dir": "tech-network",
+     "label": "Rid 2012",
+     "title": "Cyber War Will Not Take Place",
+     "authors": "Thomas Rid",
+     "year": 2012,
+     "journal": "Journal of Strategic Studies",
+     "doi": "10.1080/01402390.2011.608939",
+     "zotero": null
+    },
+    {
+     "id": "gartzke2013",
+     "dir": "tech-network",
+     "label": "Gartzke 2013",
+     "title": "The Myth of Cyberwar: Bringing War in Cyberspace Back Down to Earth",
+     "authors": "Erik Gartzke",
+     "year": 2013,
+     "journal": "International Security",
+     "doi": "10.1162/isec_a_00136",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "diffusion",
+   "label": "General-purpose technology diffusion",
+   "family": "security",
+   "year": 2024,
+   "origin": "Ding",
+   "core": "Great powers rise by diffusing technologies, not just inventing them.",
+   "works": [
+    {
+     "id": "ding2024",
+     "dir": "tech-network",
+     "label": "Ding 2024",
+     "title": "Technology and the Rise of Great Powers: How Diffusion Shapes Economic Competition",
+     "authors": "Jeffrey Ding",
+     "year": 2024,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "horowitz2018",
+     "dir": "tech-network",
+     "label": "Horowitz 2018",
+     "title": "Artificial Intelligence, International Competition, and the Balance of Power",
+     "authors": "Michael C. Horowitz",
+     "year": 2018,
+     "journal": "Texas National Security Review",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "divide",
+   "label": "Digital divides",
+   "family": "democracy",
+   "year": 2001,
+   "origin": "Norris; van Dijk; Hargittai",
+   "core": "Inequality moves from access to skills and use.",
+   "works": [
+    {
+     "id": "norris2001",
+     "dir": "tech-network",
+     "label": "Norris 2001",
+     "title": "Digital Divide: Civic Engagement, Information Poverty, and the Internet Worldwide",
+     "authors": "Pippa Norris",
+     "year": 2001,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hargittai2002",
+     "dir": "tech-network",
+     "label": "Hargittai 2002",
+     "title": "Second-Level Digital Divide: Differences in People’s Online Skills",
+     "authors": "Eszter Hargittai",
+     "year": 2002,
+     "journal": "First Monday",
+     "doi": "10.5210/fm.v7i4.942",
+     "zotero": null
+    },
+    {
+     "id": "vandijk2005",
+     "dir": "tech-network",
+     "label": "van Dijk 2005",
+     "title": "The Deepening Divide: Inequality in the Information Society",
+     "authors": "Jan A. G. M. van Dijk",
+     "year": 2005,
+     "journal": "Sage (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "compprop",
+   "label": "Computational propaganda",
+   "family": "democracy",
+   "year": 2018,
+   "origin": "Woolley & Howard; Benkler et al.",
+   "core": "Bots and algorithms manipulate opinion; media ecosystems matter.",
+   "works": [
+    {
+     "id": "woolleyhoward2018",
+     "dir": "tech-network",
+     "label": "Woolley 2018",
+     "title": "Computational Propaganda: Political Parties, Politicians, and Political Manipulation on Social Media",
+     "authors": "Samuel C. Woolley & Philip N. Howard (eds.)",
+     "year": 2018,
+     "journal": "Oxford University Press (edited volume)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "benkler2018",
+     "dir": "tech-network",
+     "label": "Benkler 2018",
+     "title": "Network Propaganda: Manipulation, Disinformation, and Radicalization in American Politics",
+     "authors": "Yochai Benkler, Robert Faris & Hal Roberts",
+     "year": 2018,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "codeislaw",
+   "target": "artifacts",
+   "type": "extends",
+   "why": "Architecture as regulation."
+  },
+  {
+   "source": "networked",
+   "target": "codeislaw",
+   "type": "complements",
+   "why": "Architecture shapes the public sphere."
+  },
+  {
+   "source": "echo",
+   "target": "networked",
+   "type": "rivals",
+   "why": "Fragmentation versus a richer public sphere."
+  },
+  {
+   "source": "diet",
+   "target": "echo",
+   "type": "rivals",
+   "why": "Little evidence of mass echo chambers."
+  },
+  {
+   "source": "liberation",
+   "target": "networked",
+   "type": "applies",
+   "why": "Networked empowerment against autocracy."
+  },
+  {
+   "source": "netdelusion",
+   "target": "liberation",
+   "type": "rivals",
+   "why": "Autocrats co-opt technology."
+  },
+  {
+   "source": "connective",
+   "target": "networked",
+   "type": "extends",
+   "why": "Personalized mobilization."
+  },
+  {
+   "source": "fragile",
+   "target": "connective",
+   "type": "extends",
+   "why": "Limits of networked movements."
+  },
+  {
+   "source": "infoauto",
+   "target": "netdelusion",
+   "type": "extends",
+   "why": "Information manipulation as autocratic strategy."
+  },
+  {
+   "source": "censorship",
+   "target": "infoauto",
+   "type": "complements",
+   "why": "Mechanisms of informational control."
+  },
+  {
+   "source": "surveillancecap",
+   "target": "platformcap",
+   "type": "complements",
+   "why": "Data extraction as platform model."
+  },
+  {
+   "source": "datacolonial",
+   "target": "surveillancecap",
+   "type": "extends",
+   "why": "Extraction as colonial relation."
+  },
+  {
+   "source": "custodians",
+   "target": "platformcap",
+   "type": "extends",
+   "why": "Platforms govern as well as profit."
+  },
+  {
+   "source": "custodians",
+   "target": "codeislaw",
+   "type": "applies",
+   "why": "Private rule through code and policy."
+  },
+  {
+   "source": "blackbox",
+   "target": "artifacts",
+   "type": "applies",
+   "why": "Opaque algorithmic power."
+  },
+  {
+   "source": "contextual",
+   "target": "surveillancecap",
+   "type": "rivals",
+   "why": "Normative standard against extraction."
+  },
+  {
+   "source": "impossibility",
+   "target": "blackbox",
+   "type": "complements",
+   "why": "Formal limits of fairness."
+  },
+  {
+   "source": "oppression",
+   "target": "impossibility",
+   "type": "rivals",
+   "why": "Structural injustice, not statistical criteria."
+  },
+  {
+   "source": "principlism",
+   "target": "blackbox",
+   "type": "extends",
+   "why": "Principles for accountable AI."
+  },
+  {
+   "source": "principlescritique",
+   "target": "principlism",
+   "type": "rivals",
+   "why": "Principles alone fail."
+  },
+  {
+   "source": "alignment",
+   "target": "principlism",
+   "type": "complements",
+   "why": "Values built into systems."
+  },
+  {
+   "source": "taskmodel",
+   "target": "artifacts",
+   "type": "applies",
+   "why": "Technology reshapes labor."
+  },
+  {
+   "source": "automationbacklash",
+   "target": "taskmodel",
+   "type": "extends",
+   "why": "Political consequences of automation."
+  },
+  {
+   "source": "systemlevel",
+   "target": "codeislaw",
+   "type": "applies",
+   "why": "Code governs bureaucratic discretion."
+  },
+  {
+   "source": "systemlevel",
+   "target": "oppression",
+   "type": "complements",
+   "why": "Automated welfare harms the poor."
+  },
+  {
+   "source": "brussels",
+   "target": "custodians",
+   "type": "rivals",
+   "why": "Public regulation over private governance."
+  },
+  {
+   "source": "cyberrev",
+   "target": "artifacts",
+   "type": "applies",
+   "why": "Technology and military power."
+  },
+  {
+   "source": "diffusion",
+   "target": "cyberrev",
+   "type": "synthesizes",
+   "why": "Technology and great-power competition."
+  },
+  {
+   "source": "divide",
+   "target": "networked",
+   "type": "rivals",
+   "why": "Unequal access and skills."
+  },
+  {
+   "source": "compprop",
+   "target": "echo",
+   "type": "extends",
+   "why": "Manipulation exploits fragmentation."
+  },
+  {
+   "source": "compprop",
+   "target": "infoauto",
+   "type": "complements",
+   "why": "Manipulation in democracies and autocracies."
+  }
+ ]
+}

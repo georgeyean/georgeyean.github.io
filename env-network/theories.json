@@ -1,0 +1,1094 @@
+{
+ "meta": {
+  "field": "Environmental Politics",
+  "built": "2026-10-28",
+  "theories": 27,
+  "relations": 28,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "collective",
+   "label": "Collective action & institutions",
+   "color": "#2563eb"
+  },
+  {
+   "id": "interests",
+   "label": "Interests & political economy",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "ideas",
+   "label": "Ideas, discourse & science",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "justice",
+   "label": "Justice & conflict",
+   "color": "#db2777"
+  },
+  {
+   "id": "governance",
+   "label": "Governance & the state",
+   "color": "#16a34a"
+  }
+ ],
+ "theories": [
+  {
+   "id": "tragedy",
+   "label": "Tragedy of the commons",
+   "family": "collective",
+   "year": 1968,
+   "origin": "Hardin",
+   "core": "Open-access resources are overused without property or coercion.",
+   "works": [
+    {
+     "id": "hardin1968",
+     "dir": "env-network",
+     "label": "Hardin 1968",
+     "title": "The Tragedy of the Commons",
+     "authors": "Garrett Hardin",
+     "year": 1968,
+     "journal": "Science",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ostrom",
+   "label": "Commons governance & polycentricity",
+   "family": "collective",
+   "year": 1990,
+   "origin": "Ostrom",
+   "core": "Communities and polycentric systems can govern commons.",
+   "works": [
+    {
+     "id": "ostrom1990",
+     "dir": "env-network",
+     "label": "Ostrom 1990",
+     "title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+     "authors": "Elinor Ostrom",
+     "year": 1990,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "ostrom2010",
+     "dir": "env-network",
+     "label": "Ostrom 2010",
+     "title": "Polycentric systems for coping with collective action and global environmental change",
+     "authors": "Elinor Ostrom",
+     "year": 2010,
+     "journal": "Global Environmental Change",
+     "doi": "10.1016/j.gloenvcha.2010.07.004",
+     "zotero": null
+    },
+    {
+     "id": "dietz2003",
+     "dir": "env-network",
+     "label": "Dietz 2003",
+     "title": "The Struggle to Govern the Commons",
+     "authors": "Thomas Dietz, Elinor Ostrom & Paul C. Stern",
+     "year": 2003,
+     "journal": "Science",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "publicgoods",
+   "label": "Global public goods & free riding",
+   "family": "collective",
+   "year": 2003,
+   "origin": "Barrett",
+   "core": "Climate is a global public good; self-enforcing treaties are hard.",
+   "works": [
+    {
+     "id": "barrett2003",
+     "dir": "env-network",
+     "label": "Barrett 2003",
+     "title": "Environment and Statecraft: The Strategy of Environmental Treaty-Making",
+     "authors": "Scott Barrett",
+     "year": 2003,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/92RLPXCM"
+    },
+    {
+     "id": "victor2011",
+     "dir": "env-network",
+     "label": "Victor 2011",
+     "title": "Global Warming Gridlock: Creating More Effective Strategies for Protecting the Planet",
+     "authors": "David G. Victor",
+     "year": 2011,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "clubs",
+   "label": "Climate clubs",
+   "family": "collective",
+   "year": 2015,
+   "origin": "Nordhaus",
+   "core": "Clubs with penalties on outsiders can overcome free riding.",
+   "works": [
+    {
+     "id": "nordhaus2015",
+     "dir": "env-network",
+     "label": "Nordhaus 2015",
+     "title": "Climate Clubs: Overcoming Free-Riding in International Climate Policy",
+     "authors": "William Nordhaus",
+     "year": 2015,
+     "journal": "American Economic Review",
+     "doi": "10.1257/aer.15000001",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "regimecomplex",
+   "label": "Regime complexes & fragmentation",
+   "family": "governance",
+   "year": 2011,
+   "origin": "Keohane & Victor; Biermann",
+   "core": "Climate governance is a loosely coupled complex of institutions.",
+   "works": [
+    {
+     "id": "keohanevictor2011",
+     "dir": "env-network",
+     "label": "Keohane 2011",
+     "title": "The Regime Complex for Climate Change",
+     "authors": "Robert O. Keohane & David G. Victor",
+     "year": 2011,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592710004068",
+     "zotero": null
+    },
+    {
+     "id": "biermann2009",
+     "dir": "env-network",
+     "label": "Biermann 2009",
+     "title": "The Fragmentation of Global Governance Architectures: A Framework for Analysis",
+     "authors": "Frank Biermann, Philipp Pattberg, Harro van Asselt & Fariborz Zelli",
+     "year": 2009,
+     "journal": "Global Environmental Politics",
+     "doi": "10.1162/glep.2009.9.4.14",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "orchestration",
+   "label": "Orchestration & transnational governance",
+   "family": "governance",
+   "year": 2009,
+   "origin": "Abbott; Hale & Roger; Andonova",
+   "core": "IOs and states steer nonstate actors to govern indirectly.",
+   "works": [
+    {
+     "id": "abbott2015",
+     "dir": "env-network",
+     "label": "Abbott 2015",
+     "title": "International Organizations as Orchestrators",
+     "authors": "Kenneth W. Abbott, Philipp Genschel, Duncan Snidal & Bernhard Zangl (eds.)",
+     "year": 2015,
+     "journal": "Cambridge University Press (edited volume)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "haleroger2014",
+     "dir": "env-network",
+     "label": "Hale 2013",
+     "title": "Orchestration and transnational climate governance",
+     "authors": "Thomas Hale & Charles Roger",
+     "year": 2013,
+     "journal": "Review of International Organizations",
+     "doi": "10.1007/s11558-013-9174-0",
+     "zotero": null
+    },
+    {
+     "id": "andonova2009",
+     "dir": "env-network",
+     "label": "Andonova 2009",
+     "title": "Transnational Climate Governance",
+     "authors": "Liliana B. Andonova, Michele M. Betsill & Harriet Bulkeley",
+     "year": 2009,
+     "journal": "Global Environmental Politics",
+     "doi": "10.1162/glep.2009.9.2.52",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "private",
+   "label": "Private & market-driven governance",
+   "family": "governance",
+   "year": 2002,
+   "origin": "Cashore; Green",
+   "core": "Certification and private rules gain authority through markets.",
+   "works": [
+    {
+     "id": "cashore2002",
+     "dir": "env-network",
+     "label": "Cashore 2002",
+     "title": "Legitimacy and the Privatization of Environmental Governance: How Non-State Market-Driven (NSMD) Governance Systems Gain Rule-Making Authority",
+     "authors": "Benjamin Cashore",
+     "year": 2002,
+     "journal": "Governance",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "green2014",
+     "dir": "env-network",
+     "label": "Green 2014",
+     "title": "Rethinking Private Authority: Agents and Entrepreneurs in Global Environmental Governance",
+     "authors": "Jessica F. Green",
+     "year": 2014,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/M5T89NYV"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "epistemic",
+   "label": "Epistemic communities",
+   "family": "ideas",
+   "year": 1989,
+   "origin": "Haas",
+   "core": "Expert networks shape state preferences and cooperation.",
+   "works": [
+    {
+     "id": "haas1989",
+     "dir": "env-network",
+     "label": "Haas 1989",
+     "title": "Do Regimes Matter? Epistemic Communities and Mediterranean Pollution Control",
+     "authors": "Peter M. Haas",
+     "year": 1989,
+     "journal": "International Organization",
+     "doi": "10.1017/s0020818300032975",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "distributive",
+   "label": "Distributive conflict model",
+   "family": "interests",
+   "year": 2020,
+   "origin": "Aklin & Mildenberger; Colgan, Green & Hale",
+   "core": "Domestic winners and losers, not free riding, drive climate politics.",
+   "works": [
+    {
+     "id": "aklinmildenberger2020",
+     "dir": "env-network",
+     "label": "Aklin 2020",
+     "title": "Prisoners of the Wrong Dilemma: Why Distributive Conflict, Not Collective Action, Characterizes the Politics of Climate Change",
+     "authors": "Michaël Aklin & Matto Mildenberger",
+     "year": 2020,
+     "journal": "Global Environmental Politics",
+     "doi": "10.1162/glep_a_00578",
+     "zotero": null
+    },
+    {
+     "id": "colgan2021",
+     "dir": "env-network",
+     "label": "Colgan 2021",
+     "title": "Asset Revaluation and the Existential Politics of Climate Change",
+     "authors": "Jeff D. Colgan, Jessica F. Green & Thomas N. Hale",
+     "year": 2021,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/PGPKBT8J"
+    },
+    {
+     "id": "mildenberger2020",
+     "dir": "env-network",
+     "label": "Mildenberger 2020",
+     "title": "Carbon Captured: How Business and Labor Control Climate Politics",
+     "authors": "Matto Mildenberger",
+     "year": 2020,
+     "journal": "MIT Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "coalitions",
+   "label": "Green industrial policy & coalition building",
+   "family": "interests",
+   "year": 2015,
+   "origin": "Meckling et al.",
+   "core": "Industrial policy creates green constituencies that support later regulation.",
+   "works": [
+    {
+     "id": "meckling2015",
+     "dir": "env-network",
+     "label": "Meckling 2015",
+     "title": "Winning Coalitions for Climate Policy",
+     "authors": "Jonas Meckling, Nina Kelsey, Eric Biber & John Zysman",
+     "year": 2015,
+     "journal": "Science",
+     "doi": "10.1126/science.aab1336",
+     "zotero": null
+    },
+    {
+     "id": "allan2021",
+     "dir": "env-network",
+     "label": "Allan 2021",
+     "title": "Green Industrial Policy and the Global Transformation of Climate Politics",
+     "authors": "Bentley Allan, Joanna I. Lewis & Thomas Oatley",
+     "year": 2021,
+     "journal": "Global Environmental Politics",
+     "doi": "10.1162/glep_a_00640",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "retrenchment",
+   "label": "Policy feedback & retrenchment",
+   "family": "interests",
+   "year": 2020,
+   "origin": "Stokes",
+   "core": "Incumbent interests mobilize to roll back clean-energy policy.",
+   "works": [
+    {
+     "id": "stokes2020",
+     "dir": "env-network",
+     "label": "Stokes 2020",
+     "title": "Short Circuiting Policy: Interest Groups and the Battle over Clean Energy and Climate Policy in the American States",
+     "authors": "Leah Cardamore Stokes",
+     "year": 2020,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "stokes2016",
+     "dir": "env-network",
+     "label": "Stokes 2015",
+     "title": "Electoral Backlash against Climate Policy: A Natural Experiment on Retrospective Voting and Local Resistance to Public Policy",
+     "authors": "Leah C. Stokes",
+     "year": 2015,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12220",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "lockin",
+   "label": "Carbon lock-in",
+   "family": "interests",
+   "year": 2000,
+   "origin": "Unruh",
+   "core": "Fossil systems persist through increasing returns.",
+   "works": [
+    {
+     "id": "unruh2000",
+     "dir": "env-network",
+     "label": "Unruh 2000",
+     "title": "Understanding Carbon Lock-In",
+     "authors": "Gregory C. Unruh",
+     "year": 2000,
+     "journal": "Energy Policy",
+     "doi": "10.1016/s0301-4215(00)00070-7",
+     "zotero": null
+    },
+    {
+     "id": "seto2016",
+     "dir": "env-network",
+     "label": "Seto 2016",
+     "title": "Carbon Lock-In: Types, Causes, and Policy Implications",
+     "authors": "Karen C. Seto, Steven J. Davis, Ronald B. Mitchell et al.",
+     "year": 2016,
+     "journal": "Annual Review of Environment and Resources",
+     "doi": "10.1146/annurev-environ-110615-085934",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mlp",
+   "label": "Multi-level perspective on transitions",
+   "family": "interests",
+   "year": 2002,
+   "origin": "Geels",
+   "core": "Niches, regimes and landscapes interact in sociotechnical transitions.",
+   "works": [
+    {
+     "id": "geels2002",
+     "dir": "env-network",
+     "label": "Geels 2002",
+     "title": "Technological Transitions as Evolutionary Reconfiguration Processes: A Multi-Level Perspective and a Case-Study",
+     "authors": "Frank W. Geels",
+     "year": 2002,
+     "journal": "Research Policy",
+     "doi": "10.1016/s0048-7333(02)00062-8",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ekc",
+   "label": "Environmental Kuznets curve",
+   "family": "interests",
+   "year": 1995,
+   "origin": "Grossman & Krueger",
+   "core": "Pollution rises then falls with income.",
+   "works": [
+    {
+     "id": "grossmankrueger1995",
+     "dir": "env-network",
+     "label": "Grossman 1995",
+     "title": "Economic Growth and the Environment",
+     "authors": "Gene M. Grossman & Alan B. Krueger",
+     "year": 1995,
+     "journal": "Quarterly Journal of Economics",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "racetobottom",
+   "label": "Race to the bottom vs. trading up",
+   "family": "interests",
+   "year": 1995,
+   "origin": "Vogel; Konisky",
+   "core": "Trade may lower or ratchet up environmental standards.",
+   "works": [
+    {
+     "id": "vogel1995",
+     "dir": "env-network",
+     "label": "Vogel 1995",
+     "title": "Trading Up: Consumer and Environmental Regulation in a Global Economy",
+     "authors": "David Vogel",
+     "year": 1995,
+     "journal": "Harvard University Press (book)",
+     "doi": "10.2307/20047393",
+     "zotero": null
+    },
+    {
+     "id": "konisky2007",
+     "dir": "env-network",
+     "label": "Konisky 2007",
+     "title": "Regulatory Competition and Environmental Enforcement: Is There a Race to the Bottom?",
+     "authors": "David M. Konisky",
+     "year": 2007,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2007.00285.x",
+     "zotero": null
+    },
+    {
+     "id": "caoprakash2012",
+     "dir": "env-network",
+     "label": "Cao 2012",
+     "title": "Trade Competition and Environmental Regulations: Domestic Political Constraints and Issue Visibility",
+     "authors": "Xun Cao & Aseem Prakash",
+     "year": 2012,
+     "journal": "The Journal of Politics",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/4EUTHX9K"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "resourcecurse",
+   "label": "Resource curse",
+   "family": "interests",
+   "year": 2012,
+   "origin": "Ross; Karl",
+   "core": "Resource rents distort politics and development.",
+   "works": [
+    {
+     "id": "ross2012",
+     "dir": "env-network",
+     "label": "Ross 2012",
+     "title": "The Oil Curse: How Petroleum Wealth Shapes the Development of Nations",
+     "authors": "Michael L. Ross",
+     "year": 2012,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "karl1997",
+     "dir": "env-network",
+     "label": "Karl 1997",
+     "title": "The Paradox of Plenty: Oil Booms and Petro-States",
+     "authors": "Terry Lynn Karl",
+     "year": 1997,
+     "journal": "University of California Press (book)",
+     "doi": "10.2307/20048806",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ecomod",
+   "label": "Ecological modernization",
+   "family": "ideas",
+   "year": 1997,
+   "origin": "Mol; Dryzek",
+   "core": "Growth and environmental protection can be reconciled through innovation.",
+   "works": [
+    {
+     "id": "dryzek1997",
+     "dir": "env-network",
+     "label": "Dryzek 1997",
+     "title": "The Politics of the Earth: Environmental Discourses",
+     "authors": "John S. Dryzek",
+     "year": 1997,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "risk",
+   "label": "Risk society",
+   "family": "ideas",
+   "year": 1992,
+   "origin": "Beck",
+   "core": "Modernity produces manufactured risks that reshape politics.",
+   "works": [
+    {
+     "id": "beck1992",
+     "dir": "env-network",
+     "label": "Beck 1992",
+     "title": "Risk Society: Towards a New Modernity",
+     "authors": "Ulrich Beck",
+     "year": 1992,
+     "journal": "Sage (book, English translation)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "boundaries",
+   "label": "Planetary boundaries & earth system governance",
+   "family": "ideas",
+   "year": 2009,
+   "origin": "Rockstrom; Biermann",
+   "core": "Safe planetary limits require new governance.",
+   "works": [
+    {
+     "id": "rockstrom2009",
+     "dir": "env-network",
+     "label": "Rockström 2009",
+     "title": "A Safe Operating Space for Humanity",
+     "authors": "Johan Rockström et al.",
+     "year": 2009,
+     "journal": "Nature",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "steffen2015",
+     "dir": "env-network",
+     "label": "Steffen 2015",
+     "title": "Planetary Boundaries: Guiding Human Development on a Changing Planet",
+     "authors": "Will Steffen et al.",
+     "year": 2015,
+     "journal": "Science",
+     "doi": "10.1126/science.1259855",
+     "zotero": null
+    },
+    {
+     "id": "biermann2007",
+     "dir": "env-network",
+     "label": "Biermann 2007",
+     "title": "‘Earth system governance’ as a crosscutting theme of global change research",
+     "authors": "Frank Biermann",
+     "year": 2007,
+     "journal": "Global Environmental Change",
+     "doi": "10.1016/j.gloenvcha.2006.11.010",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "denial",
+   "label": "Organized denial & the countermovement",
+   "family": "ideas",
+   "year": 2010,
+   "origin": "Oreskes & Conway; Brulle",
+   "core": "Industry and ideology manufactured doubt.",
+   "works": [
+    {
+     "id": "oreskesconway2010",
+     "dir": "env-network",
+     "label": "Oreskes 2010",
+     "title": "Merchants of Doubt",
+     "authors": "Naomi Oreskes & Erik M. Conway",
+     "year": 2010,
+     "journal": "Bloomsbury (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "brulle2014",
+     "dir": "env-network",
+     "label": "Brulle 2014",
+     "title": "Institutionalizing Delay: Foundation Funding and the Creation of U.S. Climate Change Counter-Movement Organizations",
+     "authors": "Robert J. Brulle",
+     "year": 2014,
+     "journal": "Climatic Change",
+     "doi": "10.1007/s10584-013-1018-7",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ej",
+   "label": "Environmental justice",
+   "family": "justice",
+   "year": 1990,
+   "origin": "Bullard; Schlosberg",
+   "core": "Environmental harms fall on marginalized groups; justice includes recognition.",
+   "works": [
+    {
+     "id": "bullard1990",
+     "dir": "env-network",
+     "label": "Bullard 1990",
+     "title": "Dumping in Dixie: Race, Class, and Environmental Quality",
+     "authors": "Robert D. Bullard",
+     "year": 1990,
+     "journal": "Westview Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "schlosberg2007",
+     "dir": "env-network",
+     "label": "Schlosberg 2007",
+     "title": "Defining Environmental Justice: Theories, Movements, and Nature",
+     "authors": "David Schlosberg",
+     "year": 2007,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "energyjustice",
+   "label": "Energy justice & just transitions",
+   "family": "justice",
+   "year": 2016,
+   "origin": "Jenkins; Wang & Lo",
+   "core": "Transitions must be distributionally, procedurally and recognitionally just.",
+   "works": [
+    {
+     "id": "jenkinsenergy2016",
+     "dir": "env-network",
+     "label": "Jenkins 2016",
+     "title": "Energy justice: A conceptual review",
+     "authors": "Kirsten Jenkins, Darren McCauley, Raphael Heffron et al.",
+     "year": 2016,
+     "journal": "Energy Research & Social Science",
+     "doi": "10.1016/j.erss.2015.10.004",
+     "zotero": null
+    },
+    {
+     "id": "wanglo2021",
+     "dir": "env-network",
+     "label": "Wang 2021",
+     "title": "Just transition: A conceptual review",
+     "authors": "Xinxin Wang & Kevin Lo",
+     "year": 2021,
+     "journal": "Energy Research & Social Science",
+     "doi": "10.1016/j.erss.2021.102291",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "scarcity",
+   "label": "Environmental scarcity & conflict",
+   "family": "justice",
+   "year": 1999,
+   "origin": "Homer-Dixon",
+   "core": "Scarcity can contribute to violent conflict.",
+   "works": [
+    {
+     "id": "homerdixon1999",
+     "dir": "env-network",
+     "label": "Homer-Dixon 1999",
+     "title": "Environment, Scarcity, and Violence",
+     "authors": "Thomas F. Homer-Dixon",
+     "year": 1999,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "climateconflict",
+   "label": "Climate-conflict link",
+   "family": "justice",
+   "year": 2013,
+   "origin": "Hsiang, Burke & Miguel",
+   "core": "Climate shocks raise conflict risk (contested).",
+   "works": [
+    {
+     "id": "hsiang2013",
+     "dir": "env-network",
+     "label": "Hsiang 2013",
+     "title": "Quantifying the Influence of Climate on Human Conflict",
+     "authors": "Solomon M. Hsiang, Marshall Burke & Edward Miguel",
+     "year": 2013,
+     "journal": "Science",
+     "doi": "10.1126/science.1235367",
+     "zotero": null
+    },
+    {
+     "id": "burke2009",
+     "dir": "env-network",
+     "label": "Burke 2009",
+     "title": "Warming Increases the Risk of Civil War in Africa",
+     "authors": "Marshall B. Burke et al.",
+     "year": 2009,
+     "journal": "PNAS",
+     "doi": "10.1073/pnas.0907998106",
+     "zotero": null
+    },
+    {
+     "id": "buhaug2010",
+     "dir": "env-network",
+     "label": "Buhaug 2010",
+     "title": "Climate Not to Blame for African Civil Wars",
+     "authors": "Halvard Buhaug",
+     "year": 2010,
+     "journal": "PNAS",
+     "doi": "10.1073/pnas.1005739107",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "authenv",
+   "label": "Authoritarian environmentalism",
+   "family": "governance",
+   "year": 2012,
+   "origin": "Gilley; Beeson",
+   "core": "Authoritarian states may act faster on environmental problems.",
+   "works": [
+    {
+     "id": "gilley2012",
+     "dir": "env-network",
+     "label": "Gilley 2012",
+     "title": "Authoritarian environmentalism and China's response to climate change",
+     "authors": "Bruce Gilley",
+     "year": 2012,
+     "journal": "Environmental Politics",
+     "doi": "10.1080/09644016.2012.651904",
+     "zotero": null
+    },
+    {
+     "id": "beeson2010",
+     "dir": "env-network",
+     "label": "Beeson 2010",
+     "title": "The coming of environmental authoritarianism",
+     "authors": "Mark Beeson",
+     "year": 2010,
+     "journal": "Environmental Politics",
+     "doi": "10.1080/09644010903576918",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "envstate",
+   "label": "Environmental state",
+   "family": "governance",
+   "year": 2016,
+   "origin": "Duit et al.",
+   "core": "States institutionalize environmental protection, with limits.",
+   "works": [
+    {
+     "id": "duit2016",
+     "dir": "env-network",
+     "label": "Duit 2015",
+     "title": "Greening Leviathan: the rise of the environmental state?",
+     "authors": "Andreas Duit, Peter H. Feindt & James Meadowcroft",
+     "year": 2015,
+     "journal": "Environmental Politics",
+     "doi": "10.1080/09644016.2015.1085218",
+     "zotero": null
+    },
+    {
+     "id": "hausknost2020",
+     "dir": "env-network",
+     "label": "Hausknost 2019",
+     "title": "The environmental state and the glass ceiling of transformation",
+     "authors": "Daniel Hausknost",
+     "year": 2019,
+     "journal": "Environmental Politics",
+     "doi": "10.1080/09644016.2019.1680062",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "adaptation",
+   "label": "Resilience & transformational adaptation",
+   "family": "governance",
+   "year": 2007,
+   "origin": "Nelson; Pelling",
+   "core": "Adaptation ranges from resilience to transformation and is political.",
+   "works": [
+    {
+     "id": "nelson2007",
+     "dir": "env-network",
+     "label": "Nelson 2007",
+     "title": "Adaptation to Environmental Change: Contributions of a Resilience Framework",
+     "authors": "Donald R. Nelson, W. Neil Adger & Katrina Brown",
+     "year": 2007,
+     "journal": "Annual Review of Environment and Resources",
+     "doi": "10.1146/annurev.energy.32.051807.090348",
+     "zotero": null
+    },
+    {
+     "id": "pelling2011",
+     "dir": "env-network",
+     "label": "Pelling 2011",
+     "title": "Adaptation to Climate Change: From Resilience to Transformation",
+     "authors": "Mark Pelling",
+     "year": 2011,
+     "journal": "Routledge (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "eriksen2015",
+     "dir": "env-network",
+     "label": "Eriksen 2015",
+     "title": "Reframing adaptation: The political nature of climate change adaptation",
+     "authors": "Siri H. Eriksen, Andrea J. Nightingale & Hallie Eakin",
+     "year": 2015,
+     "journal": "Global Environmental Change",
+     "doi": "10.1016/j.gloenvcha.2015.09.014",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "ostrom",
+   "target": "tragedy",
+   "type": "rivals",
+   "why": "Communities can avoid the tragedy."
+  },
+  {
+   "source": "publicgoods",
+   "target": "tragedy",
+   "type": "applies",
+   "why": "The commons problem at global scale."
+  },
+  {
+   "source": "clubs",
+   "target": "publicgoods",
+   "type": "extends",
+   "why": "Clubs as a solution to free riding."
+  },
+  {
+   "source": "distributive",
+   "target": "publicgoods",
+   "type": "rivals",
+   "why": "Domestic conflict, not free riding."
+  },
+  {
+   "source": "regimecomplex",
+   "target": "publicgoods",
+   "type": "extends",
+   "why": "Fragmented institutions as a response."
+  },
+  {
+   "source": "regimecomplex",
+   "target": "ostrom",
+   "type": "complements",
+   "why": "Polycentric governance at the global level."
+  },
+  {
+   "source": "orchestration",
+   "target": "regimecomplex",
+   "type": "extends",
+   "why": "Steering within fragmented governance."
+  },
+  {
+   "source": "private",
+   "target": "orchestration",
+   "type": "complements",
+   "why": "Private rules within transnational governance."
+  },
+  {
+   "source": "epistemic",
+   "target": "publicgoods",
+   "type": "complements",
+   "why": "Knowledge enables cooperation."
+  },
+  {
+   "source": "coalitions",
+   "target": "distributive",
+   "type": "extends",
+   "why": "Building winning coalitions."
+  },
+  {
+   "source": "retrenchment",
+   "target": "coalitions",
+   "type": "rivals",
+   "why": "Coalitions can be reversed by incumbents."
+  },
+  {
+   "source": "lockin",
+   "target": "distributive",
+   "type": "complements",
+   "why": "Incumbent interests are locked in."
+  },
+  {
+   "source": "mlp",
+   "target": "lockin",
+   "type": "extends",
+   "why": "How regimes break."
+  },
+  {
+   "source": "ekc",
+   "target": "ecomod",
+   "type": "complements",
+   "why": "Growth eventually reduces pollution."
+  },
+  {
+   "source": "racetobottom",
+   "target": "ekc",
+   "type": "rivals",
+   "why": "Trade may worsen standards."
+  },
+  {
+   "source": "resourcecurse",
+   "target": "distributive",
+   "type": "complements",
+   "why": "Resource interests in politics."
+  },
+  {
+   "source": "risk",
+   "target": "ecomod",
+   "type": "rivals",
+   "why": "Modernity as source of risk."
+  },
+  {
+   "source": "boundaries",
+   "target": "risk",
+   "type": "extends",
+   "why": "Planetary limits."
+  },
+  {
+   "source": "boundaries",
+   "target": "regimecomplex",
+   "type": "rivals",
+   "why": "Need for integrated earth system governance."
+  },
+  {
+   "source": "denial",
+   "target": "distributive",
+   "type": "applies",
+   "why": "Losers fund doubt."
+  },
+  {
+   "source": "ej",
+   "target": "ecomod",
+   "type": "rivals",
+   "why": "Unequal burdens of modernization."
+  },
+  {
+   "source": "energyjustice",
+   "target": "ej",
+   "type": "applies",
+   "why": "Justice in energy transitions."
+  },
+  {
+   "source": "energyjustice",
+   "target": "mlp",
+   "type": "complements",
+   "why": "Justice in sociotechnical change."
+  },
+  {
+   "source": "climateconflict",
+   "target": "scarcity",
+   "type": "extends",
+   "why": "Quantified climate effects on conflict."
+  },
+  {
+   "source": "scarcity",
+   "target": "resourcecurse",
+   "type": "rivals",
+   "why": "Scarcity versus abundance as conflict driver."
+  },
+  {
+   "source": "authenv",
+   "target": "envstate",
+   "type": "rivals",
+   "why": "Authoritarian versus democratic environmental capacity."
+  },
+  {
+   "source": "adaptation",
+   "target": "ostrom",
+   "type": "applies",
+   "why": "Adaptive governance of social-ecological systems."
+  },
+  {
+   "source": "adaptation",
+   "target": "ej",
+   "type": "complements",
+   "why": "Justice in adaptation."
+  }
+ ]
+}

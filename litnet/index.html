@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LitNet All Fields</title>
+<meta name="description" content="Overview of the ten LitNet literature maps, linked through the works they share.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:400,800&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="reading-list.js"></script>
+<style>
+:root{--bg:#f4f4f4;--panel:#fff;--ink:#3c3b3b;--text:#555;--muted:#8a8a8a;--line:rgba(160,160,160,.3);--accent:#2ebaae;--chip:#f4f4f4;--gold:#d4a017}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font:15px/1.5 "Source Sans Pro",Helvetica,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;padding:12px 20px;background:var(--panel);border-bottom:1px solid var(--line)}
+.brand-title{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:13px;letter-spacing:.25em;text-transform:uppercase;color:var(--ink)}
+.brand-sub{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-top:4px}
+.sub{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.controls{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+button,select,input[type=search]{font:inherit;font-size:12px;padding:5px 10px;border:1px solid var(--line);border-radius:2px;background:var(--panel);color:var(--ink)}
+button{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;cursor:pointer}
+button:hover{color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+button.active{color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:rgba(46,186,174,.08)}
+input[type=search]{min-width:200px}
+input[type=search]:focus,select:focus{outline:none;border-color:var(--accent)}
+.navlinks{margin-left:auto;display:flex;gap:18px;align-items:center}
+.navlinks a{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap}
+.navlinks a:hover{color:var(--accent)}
+#layout{display:grid;grid-template-columns:250px 1fr;height:calc(100vh - 78px)}
+#fields{overflow:auto;background:var(--panel);border-right:1px solid var(--line);padding:16px 14px}
+#fields h2,#panel h2{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10.5px;letter-spacing:.25em;text-transform:uppercase;color:var(--ink);margin:2px 0 12px}
+.frow{display:flex;align-items:center;gap:9px;padding:6px 4px;border-radius:2px;cursor:pointer;font-size:14px}
+.frow:hover{background:var(--chip)}
+.frow.on{background:rgba(46,186,174,.07);box-shadow:inset 3px 0 0 var(--accent);font-weight:600}
+.dot{width:11px;height:11px;border-radius:50%;flex:none}
+.frow .n{margin-left:auto;font-size:12px;color:var(--muted)}
+.note{font-size:12.5px;color:var(--muted);line-height:1.55;margin-top:14px}
+#stage{position:relative;overflow:hidden}
+svg{width:100%;height:100%;display:block}
+.hub-label{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.12em;text-transform:uppercase;fill:var(--ink);pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:4px}
+.w-label{font-size:10px;fill:var(--ink);pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:3px}
+#matrix{position:absolute;inset:0;overflow:auto;padding:24px;display:none;background:var(--bg)}
+#matrix table{border-collapse:collapse;margin:0 auto;background:var(--panel)}
+#matrix th,#matrix td{border:1px solid var(--line);padding:0;text-align:center;font-size:12px}
+#matrix th{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);padding:6px 8px;background:var(--panel)}
+#matrix th.col{writing-mode:vertical-rl;transform:rotate(180deg);height:150px;white-space:nowrap}
+#matrix td button{width:46px;height:38px;border:0;border-radius:0;padding:0;font:600 13px "Source Sans Pro";letter-spacing:0;text-transform:none;color:var(--ink);box-shadow:none}
+#matrix td button:hover{outline:2px solid var(--accent);outline-offset:-2px}
+#matrix td.diag{background:#fafafa;color:var(--muted);font-size:11px}
+#matrix .cap{text-align:center;color:var(--muted);font-size:13px;margin:14px auto 0;max-width:640px}
+#tip{position:absolute;display:none;pointer-events:none;z-index:5;max-width:320px;background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:8px 10px;font-size:13px;box-shadow:0 4px 14px rgba(0,0,0,.1)}
+#tip .tg{color:var(--muted);font-size:12px;margin-top:2px}
+#panel{position:absolute;top:0;right:0;bottom:0;width:380px;max-width:94vw;background:var(--panel);border-left:1px solid var(--line);box-shadow:-4px 0 14px rgba(0,0,0,.06);padding:20px 22px;overflow:auto;transform:translateX(100%);transition:transform .25s ease;z-index:6}
+#panel.open{transform:none}
+#panel .x{position:absolute;top:10px;right:10px;width:28px;height:28px;padding:0;font-size:18px;letter-spacing:0;border:0;box-shadow:none;color:var(--muted)}
+#panel .title{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:16px;line-height:1.4;color:var(--ink);margin:0 0 4px}
+#panel .meta{font-size:13px;color:var(--muted);margin:0 0 10px}
+#panel .lbl{font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-top:16px}
+#panel p{line-height:1.6}
+.flink{display:flex;align-items:flex-start;gap:8px;margin:7px 0;font-size:13.5px}
+.flink a{color:var(--accent);text-decoration:none;font-weight:600}
+.flink .th{color:var(--muted);font-size:12px}
+.wl{margin:6px 0;font-size:13.5px}
+.wl a{color:var(--accent);cursor:pointer;text-decoration:none;font-weight:600}
+.wl .span{color:var(--muted);font-size:12px}
+.rl-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0 4px}
+.rl-btn.on{color:#8a6d0b;box-shadow:inset 0 0 0 1px var(--gold);background:#fdf8ea}
+.open-btn{display:inline-block;margin:12px 8px 0 0;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:#fff;background:var(--accent);padding:8px 12px;text-decoration:none;border-radius:2px}
+@media (max-width:760px){
+  #layout{grid-template-columns:1fr;grid-template-rows:auto 70vh;height:auto}
+  #fields{border-right:0;border-bottom:1px solid var(--line);max-height:34vh}
+  #panel{position:fixed;top:auto;left:8px;right:8px;bottom:8px;width:auto;max-height:55vh;transform:translateY(110%);border:1px solid var(--line);border-radius:4px}
+  #panel.open{transform:none}
+  .navlinks{margin-left:0}
+  input[type=search]{min-width:0;width:100%}
+}
+.open-btn.alt{background:transparent;color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="brand-title">LitNet: Literature Network</div>
+    <div class="brand-sub">All fields</div>
+  </div>
+  <span class="sub" id="counts"></span>
+  <div class="controls">
+    <button id="viewNet" class="active">Network</button>
+    <button id="viewMatrix">Overlap matrix</button>
+    <label class="sub"><input type="checkbox" id="showPairs" checked> field links</label>
+    <input type="search" id="q" placeholder="search shared works…">
+  </div>
+  <nav class="navlinks">
+    <a href="reading-list.html">My Reading List (<span id="rlCount">0</span>)</a>
+    <a href="../index.html">← George Yean</a>
+  </nav>
+</header>
+<div id="layout">
+  <aside id="fields">
+    <h2>Fields (10)</h2>
+    <div id="fieldList"></div>
+    <p class="note"><b>How to read this map.</b> Each large circle is a field map. Each small dot is a work that appears in two or more fields, linked to every field it belongs to. Gray lines between fields grow with the number of works they share. Click a field to see its links, or open its map. Click a dot to see where the work sits in each field.</p>
+  </aside>
+  <main id="stage">
+    <svg id="svg"></svg>
+    <div id="matrix"></div>
+    <div id="tip"></div>
+    <aside id="panel" aria-hidden="true"><button class="x" id="closePanel" aria-label="Close">×</button><div id="panelBody"></div></aside>
+  </main>
+</div>
+<script>
+(async function () {
+  const data = await fetch('overview.json').then(r => r.json());
+  const F = data.fields, fById = Object.fromEntries(F.map(f => [f.id, f]));
+  const RL = window.ReadingList;
+  const state = { q: '', field: null, pair: null, showPairs: true, view: 'net', selected: null };
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const mapUrl = (fid, wid) => `../${fById[fid].dir}/network.html${wid ? '?work=' + encodeURIComponent(wid) : ''}`;
+  const pairN = (a, b) => (data.pairs.find(p => (p.a === a && p.b === b) || (p.a === b && p.b === a)) || {}).n || 0;
+
+  // ---------- reading list count
+  const setCount = () => { document.getElementById('rlCount').textContent = RL.all().length; };
+  RL.onChange(() => { setCount(); if (state.selected) showWork(state.selected); paintRings(); });
+  setCount();
+
+  // ---------- field list (left)
+  const fl = d3.select('#fieldList');
+  F.forEach(f => {
+    const shared = data.shared.filter(w => w.fields[f.id]).length;
+    const row = fl.append('div').attr('class', 'frow').attr('data-id', f.id).on('click', () => selectField(f.id));
+    row.append('span').attr('class', 'dot').style('background', f.color);
+    row.append('span').text(f.label);
+    row.append('span').attr('class', 'n').attr('title', 'works shared with other fields').text(shared);
+  });
+
+  // ---------- network
+  const svg = d3.select('#svg'), stage = document.getElementById('stage');
+  let W = stage.clientWidth, H = stage.clientHeight;
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.4, 4]).on('zoom', ev => g.attr('transform', ev.transform)));
+  const gPairs = g.append('g'), gLinks = g.append('g'), gWorks = g.append('g'), gHubs = g.append('g'), gLabels = g.append('g');
+  const maxWorks = d3.max(F, f => f.works), maxPair = d3.max(data.pairs, p => p.n);
+  const hubR = f => 18 + 16 * Math.sqrt(f.works / maxWorks);
+
+  const hubs = F.map((f, i) => Object.assign({ kind: 'hub' }, f));
+  const wnodes = data.shared.map(w => Object.assign({ kind: 'work' }, w));
+  const nodes = hubs.concat(wnodes);
+  const links = [];
+  wnodes.forEach(w => Object.keys(w.fields).forEach(fid => links.push({ source: w, target: hubs.find(h => h.id === fid) })));
+  // order fields around the circle so heavily overlapping fields sit next to each other (greedy chain)
+  const order = (() => {
+    const best = data.pairs.slice().sort((a, b) => b.n - a.n)[0];
+    const chain = [best.a, best.b], left = new Set(F.map(f => f.id).filter(id => !chain.includes(id)));
+    while (left.size) {
+      let pick = null, end = null, score = -1;
+      left.forEach(id => [[chain[0], 'head'], [chain[chain.length - 1], 'tail']].forEach(([e, side]) => {
+        const s = pairN(id, e); if (s > score) { score = s; pick = id; end = side; }
+      }));
+      if (end === 'head') chain.unshift(pick); else chain.push(pick);
+      left.delete(pick);
+    }
+    return chain;
+  })();
+  function placeHubs() {
+    const R = Math.min(W, H) * 0.38;
+    hubs.forEach(h => { const i = order.indexOf(h.id), a = -Math.PI / 2 + i * 2 * Math.PI / hubs.length; h.fx = W / 2 + R * Math.cos(a); h.fy = H / 2 + R * Math.sin(a); });
+  }
+  placeHubs();
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).distance(40).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(d => d.kind === 'hub' ? -200 : -14))
+    .force('collide', d3.forceCollide(d => d.kind === 'hub' ? hubR(d) + 6 : 4.5))
+    .alphaDecay(0.03).on('tick', tick);
+
+  const pairEls = gPairs.selectAll('line').data(data.pairs).join('line')
+    .attr('stroke', '#b9b9b9').attr('stroke-linecap', 'round')
+    .attr('stroke-width', p => 1 + 13 * p.n / maxPair).attr('opacity', 0.45)
+    .style('cursor', 'pointer')
+    .on('mouseenter', (ev, p) => showTip(ev, `<b>${esc(fById[p.a].label)} × ${esc(fById[p.b].label)}</b><div class="tg">${p.n} shared works · click to list them</div>`))
+    .on('mousemove', moveTip).on('mouseleave', hideTip)
+    .on('click', (ev, p) => { ev.stopPropagation(); selectPair(p.a, p.b); });
+  const linkEls = gLinks.selectAll('line').data(links).join('line').attr('stroke', d => d.target.color).attr('stroke-width', 0.6).attr('opacity', 0.28);
+  const workEls = gWorks.selectAll('circle').data(wnodes).join('circle')
+    .attr('r', d => 3 + Math.min(5, d.degree * 0.35) + (d.span - 2) * 1.5)
+    .attr('fill', d => d.span > 2 ? '#3c3b3b' : '#6f6f6f').attr('stroke', '#fff').attr('stroke-width', 1)
+    .style('cursor', 'pointer')
+    .on('mouseenter', (ev, d) => showTip(ev, `<b>${esc(d.title)}</b><div class="tg">${esc(d.authors)} · ${d.year}</div><div class="tg">In ${Object.keys(d.fields).map(f => esc(fById[f].label)).join(', ')}</div>`))
+    .on('mousemove', moveTip).on('mouseleave', hideTip)
+    .on('click', (ev, d) => { ev.stopPropagation(); hideTip(); showWork(d.id); });
+  const hubEls = gHubs.selectAll('circle').data(hubs).join('circle')
+    .attr('r', hubR).attr('fill', d => d.color).attr('fill-opacity', 0.16).attr('stroke', d => d.color).attr('stroke-width', 3)
+    .style('cursor', 'pointer')
+    .on('mouseenter', (ev, d) => showTip(ev, `<b>${esc(d.label)}</b><div class="tg">${d.works} works · ${d.themes} themes · ${d.relations} relations</div><div class="tg">Click for its links; double-click to open the map</div>`))
+    .on('mousemove', moveTip).on('mouseleave', hideTip)
+    .on('click', (ev, d) => { ev.stopPropagation(); selectField(d.id); })
+    .on('dblclick', (ev, d) => { location.href = mapUrl(d.id); });
+  const hubLabels = gLabels.selectAll('text.hub-label').data(hubs).join('text').attr('class', 'hub-label').attr('text-anchor', 'middle').text(d => d.label);
+  const workLabels = gLabels.selectAll('text.w-label').data(wnodes.filter(w => w.span > 2)).join('text').attr('class', 'w-label').attr('dx', 8).attr('dy', 3).text(d => d.label);
+
+  function tick() {
+    pairEls.attr('x1', p => hubs.find(h => h.id === p.a).x).attr('y1', p => hubs.find(h => h.id === p.a).y)
+      .attr('x2', p => hubs.find(h => h.id === p.b).x).attr('y2', p => hubs.find(h => h.id === p.b).y);
+    linkEls.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    workEls.attr('cx', d => d.x).attr('cy', d => d.y);
+    hubEls.attr('cx', d => d.x).attr('cy', d => d.y);
+    hubLabels.attr('x', d => d.x).attr('y', d => d.y + (d.y > H / 2 ? hubR(d) + 16 : -hubR(d) - 8));
+    workLabels.attr('x', d => d.x).attr('y', d => d.y);
+  }
+
+  // ---------- highlighting
+  const matchQ = w => !state.q || [w.title, w.authors, w.label, w.journal].join(' ').toLowerCase().includes(state.q);
+  function inScope(w) {
+    if (state.pair) return w.fields[state.pair[0]] && w.fields[state.pair[1]];
+    if (state.field) return !!w.fields[state.field];
+    return true;
+  }
+  function paint() {
+    const on = w => inScope(w) && matchQ(w) && (!state.selected || w.id === state.selected);
+    workEls.attr('opacity', w => on(w) ? 1 : 0.1);
+    linkEls.attr('opacity', l => on(l.source) ? (state.field || state.pair || state.selected ? 0.75 : 0.28) : 0.04);
+    workLabels.attr('opacity', w => on(w) ? 1 : 0.1);
+    const fOn = f => !state.field && !state.pair || f.id === state.field || (state.pair && state.pair.includes(f.id)) || (state.field && pairN(state.field, f.id) > 0);
+    hubEls.attr('opacity', f => fOn(f) ? 1 : 0.3);
+    pairEls.attr('display', state.showPairs ? null : 'none')
+      .attr('opacity', p => (state.pair ? (state.pair.includes(p.a) && state.pair.includes(p.b)) : state.field ? (p.a === state.field || p.b === state.field) : true) ? 0.55 : 0.08);
+    d3.selectAll('.frow').classed('on', function () { return this.dataset.id === state.field || (state.pair && state.pair.includes(this.dataset.id)); });
+    paintRings();
+    const n = data.shared.filter(w => inScope(w) && matchQ(w)).length;
+    document.getElementById('counts').textContent = `Fields (10) · Unique works (${data.total_unique_works}) · Shared works (${n === data.shared.length ? n : n + ' of ' + data.shared.length})`;
+  }
+  function paintRings() {
+    const ids = RL.ids();
+    workEls.attr('stroke', w => ids.has(w.id) ? '#d4a017' : '#fff').attr('stroke-width', w => ids.has(w.id) ? 2.4 : 1);
+  }
+
+  // ---------- panel
+  const panel = document.getElementById('panel'), body = d3.select('#panelBody');
+  const openPanel = () => { panel.classList.add('open'); panel.setAttribute('aria-hidden', 'false'); };
+  const closePanel = () => { panel.classList.remove('open'); panel.setAttribute('aria-hidden', 'true'); };
+  document.getElementById('closePanel').onclick = () => { closePanel(); state.selected = null; state.field = null; state.pair = null; paint(); };
+  function workList(ws) {
+    const box = body.append('div');
+    ws.slice(0, 200).forEach(w => box.append('div').attr('class', 'wl')
+      .html(`<a data-id="${esc(w.id)}">${esc(w.label)}</a> <span class="span">· ${w.span} fields</span><br><span class="span">${esc(w.title)}</span>`));
+    box.selectAll('a[data-id]').on('click', function () { showWork(this.dataset.id); });
+  }
+  function selectField(fid) {
+    state.field = state.field === fid ? null : fid; state.pair = null; state.selected = null; paint();
+    if (!state.field) { closePanel(); return; }
+    const f = fById[fid];
+    body.html('');
+    body.append('p').attr('class', 'title').text(f.label);
+    body.append('p').attr('class', 'meta').text(`${f.works} works · ${f.themes} themes · ${f.relations} relations`);
+    body.append('a').attr('class', 'open-btn').attr('href', mapUrl(fid)).text('Open this map');
+    body.append('a').attr('class', 'open-btn alt').attr('href', `../${f.dir}/theories.html`).text('Theory map');
+    body.append('div').attr('class', 'lbl').text('Shared works by field');
+    F.filter(o => o.id !== fid).map(o => ({ o, n: pairN(fid, o.id) })).filter(x => x.n).sort((a, b) => b.n - a.n).forEach(({ o, n }) =>
+      body.append('div').attr('class', 'flink').html(`<span class="dot" style="background:${o.color};margin-top:5px"></span><span><a href="#" data-pair="${o.id}">${esc(o.label)}</a> <span class="th">· ${n} shared</span></span>`));
+    body.selectAll('a[data-pair]').on('click', function (ev) { ev.preventDefault(); selectPair(fid, this.dataset.pair); });
+    body.append('div').attr('class', 'lbl').text('Its works that appear elsewhere');
+    workList(data.shared.filter(w => w.fields[fid]));
+    openPanel();
+  }
+  function selectPair(a, b) {
+    state.pair = [a, b]; state.field = null; state.selected = null; paint();
+    const ws = data.shared.filter(w => w.fields[a] && w.fields[b]);
+    body.html('');
+    body.append('p').attr('class', 'title').text(`${fById[a].label} × ${fById[b].label}`);
+    body.append('p').attr('class', 'meta').text(`${ws.length} works appear in both maps`);
+    workList(ws);
+    openPanel();
+  }
+  function itemFor(w) {
+    return { id: w.id, label: w.label, title: w.title, authors: w.authors, year: w.year, journal: w.journal, doi: w.doi || null, zotero: w.zotero || null,
+             fields: Object.keys(w.fields).map(fid => ({ dir: fById[fid].dir, label: fById[fid].label })) };
+  }
+  function showWork(id) {
+    const w = data.shared.find(x => x.id === id); if (!w) return;
+    state.selected = id; paint();
+    body.html('');
+    body.append('p').attr('class', 'title').text(w.title);
+    body.append('p').attr('class', 'meta').text(`${w.authors} · ${w.year} · ${w.journal}`);
+    const inList = RL.has(w.id);
+    const row = body.append('div').attr('class', 'rl-row');
+    row.append('button').attr('class', 'rl-btn' + (inList ? ' on' : '')).text(inList ? '★ In My Reading List' : '☆ Add to My Reading List')
+      .on('click', () => RL.toggle(itemFor(w)));
+    if (inList) {
+      const sel = row.append('select').attr('aria-label', 'Reading status').on('change', function () { RL.setStatus(w.id, this.value); });
+      RL.STATUSES.forEach(s => sel.append('option').attr('value', s).property('selected', RL.get(w.id).status === s).text(s));
+    }
+    if (w.claim) { body.append('div').attr('class', 'lbl').text('Core claim / finding'); body.append('p').text(w.claim); }
+    body.append('div').attr('class', 'lbl').text(`Appears in ${w.span} field maps`);
+    Object.entries(w.fields).forEach(([fid, info]) =>
+      body.append('div').attr('class', 'flink').html(`<span class="dot" style="background:${fById[fid].color};margin-top:5px"></span><span><a href="${mapUrl(fid, w.id)}">${esc(fById[fid].label)}</a> <span class="th">· ${esc(info.themes.join(', '))} · ${info.degree} links</span></span>`));
+    openPanel();
+  }
+
+  // ---------- tooltip
+  const tip = document.getElementById('tip');
+  function showTip(ev, html) { if (window.matchMedia('(max-width:760px)').matches) return; tip.innerHTML = html; tip.style.display = 'block'; moveTip(ev); }
+  function moveTip(ev) { const r = stage.getBoundingClientRect(); let x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 14; if (x + tip.offsetWidth > r.width - 8) x -= tip.offsetWidth + 28; if (y + tip.offsetHeight > r.height - 8) y -= tip.offsetHeight + 28; tip.style.left = Math.max(6, x) + 'px'; tip.style.top = Math.max(6, y) + 'px'; }
+  function hideTip() { tip.style.display = 'none'; }
+
+  // ---------- matrix view
+  function renderMatrix() {
+    const m = d3.select('#matrix').html('');
+    const t = m.append('table');
+    const hr = t.append('tr'); hr.append('th');
+    F.forEach(f => hr.append('th').attr('class', 'col').text(f.label));
+    const color = d3.scaleSequential(d3.interpolate('#ffffff', '#2ebaae')).domain([0, maxPair]);
+    F.forEach(a => {
+      const tr = t.append('tr');
+      tr.append('th').style('text-align', 'right').text(a.label);
+      F.forEach(b => {
+        if (a.id === b.id) { tr.append('td').attr('class', 'diag').text(`${data.shared.filter(w => w.fields[a.id]).length}`).attr('title', 'works this field shares with any other'); return; }
+        const n = pairN(a.id, b.id);
+        tr.append('td').append('button').style('background', color(n)).style('color', n > maxPair * 0.55 ? '#fff' : 'var(--ink)').text(n || '')
+          .attr('title', `${a.label} × ${b.label}: ${n} shared works`).on('click', () => { if (n) selectPair(a.id, b.id); });
+      });
+    });
+    m.append('p').attr('class', 'cap').text('Each cell counts the works that appear in both field maps. The diagonal counts each field\'s works that appear in any other map. Click a cell to list the shared works.');
+  }
+  function setView(v) {
+    state.view = v;
+    document.getElementById('viewNet').classList.toggle('active', v === 'net');
+    document.getElementById('viewMatrix').classList.toggle('active', v === 'matrix');
+    document.getElementById('matrix').style.display = v === 'matrix' ? 'block' : 'none';
+    if (v === 'matrix') renderMatrix();
+  }
+
+  // ---------- controls
+  document.getElementById('viewNet').onclick = () => setView('net');
+  document.getElementById('viewMatrix').onclick = () => setView('matrix');
+  document.getElementById('showPairs').onchange = e => { state.showPairs = e.target.checked; paint(); };
+  document.getElementById('q').oninput = e => { state.q = e.target.value.trim().toLowerCase(); paint(); };
+  svg.on('click', ev => { if (ev.target === svg.node()) { state.selected = null; state.field = null; state.pair = null; closePanel(); paint(); } });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closePanel(); state.selected = null; paint(); } });
+  window.addEventListener('resize', () => { W = stage.clientWidth; H = stage.clientHeight; placeHubs(); sim.alpha(0.5).restart(); });
+  paint();
+})();
+</script>
+</body>
+</html>
