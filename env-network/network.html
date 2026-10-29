@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:400,800&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="../litnet/reading-list.js"></script>
+<script src="../litnet/paper-info.js"></script>
 <style>
 :root{
   --bg:#f4f4f4; --panel:#ffffff; --ink:#3c3b3b; --text:#555555; --muted:#8a8a8a; --line:rgba(160,160,160,.3);
@@ -174,6 +175,12 @@ a.mylist:hover{color:var(--accent)}
 #edgeTip .rl-pop{margin-top:8px;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;padding:6px 10px;border:1px solid var(--line);border-radius:2px;background:var(--panel);color:var(--ink);cursor:pointer}
 #edgeTip .rl-pop.on{color:#8a6d0b;border-color:#d4a017;background:#fdf8ea}
 #detailClose{display:none;float:right;height:26px;line-height:26px;padding:0 9px;margin-top:-4px;font:400 18px/26px "Source Sans Pro",Helvetica,sans-serif;letter-spacing:0;text-transform:none;color:var(--muted)}
+/* header buttons: Theory map / Literature map / All fields / My Reading List */
+.navlinks{gap:10px 12px}
+a.navbtn{display:inline-block;height:32px;line-height:32px;padding:0 14px;border-radius:2px;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;white-space:nowrap;color:#1d8a81;background:rgba(46,186,174,.1);box-shadow:inset 0 0 0 1.5px var(--accent);transition:background-color .2s ease,color .2s ease}
+a.navbtn:hover,a.navbtn:focus-visible{background:var(--accent);color:#fff;outline:none}
+a.navbtn.rl{color:#8a6d0b;background:#fdf6e3;box-shadow:inset 0 0 0 1.5px #d4a017}
+a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#d4a017;color:#fff}
 </style>
 </head>
 <body>
@@ -223,7 +230,7 @@ a.mylist:hover{color:var(--accent)}
     <label><input type="checkbox" id="onlyList"> my list only</label>
     <input type="search" id="q" placeholder="search author, title, claim…">
   </div>
-  <nav class="navlinks"><a class="mylist" href="theories.html">Theory map</a><a class="mylist" href="../litnet/index.html">All fields</a><a class="mylist" href="../litnet/reading-list.html">My Reading List (<span id="rlCount">0</span>)</a><a class="home" href="../index.html">← George Yean</a></nav>
+  <nav class="navlinks"><a class="navbtn" href="theories.html">Theory map</a><a class="navbtn" href="../litnet/index.html">All fields</a><a class="navbtn rl" href="../litnet/reading-list.html">★ My Reading List (<span id="rlCount">0</span>)</a><a class="home" href="../index.html">← George Yean</a></nav>
 </header>
 <div id="layout">
   <aside id="themes">
@@ -650,11 +657,15 @@ a.mylist:hover{color:var(--accent)}
       body.selectAll('a[data-id]').on('click', function(){ const i = this.dataset.id; state.selected = i; showDetail(i); highlight(i); });
       return;
     }
-    body.append('p').attr('class', 'title').text(n.title);
+    // title links to the official page; the abstract fills in once abstracts.json has loaded
+    const ttl = body.append('div');
+    PaperInfo.title(ttl, n, null);
     body.append('p').attr('class', 'meta').text(`${n.authors} · ${n.year} · ${n.journal}`);
     rlControls(body, n);
     const chips = body.append('div');
     n.themes.forEach(t => chips.append('span').attr('class', 'chip').style('border-left', `3px solid ${themeById[t].color}`).text(themeById[t].label.split(':')[0].split(',')[0]));
+    const abs = body.append('div');
+    PaperInfo.load('.').then(a => { PaperInfo.title(ttl, n, a[n.id]); PaperInfo.abstract(abs, a[n.id]); });
     body.append('div').attr('class', 'lbl').text('Core claim / finding');
     body.append('p').text(n.claim);
     body.append('div').attr('class', 'lbl').text('Method');

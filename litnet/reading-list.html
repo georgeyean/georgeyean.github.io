@@ -42,6 +42,12 @@ textarea:focus{outline:none;border-color:var(--accent)}
 .foot{font-size:12.5px;color:var(--muted);margin-top:22px;line-height:1.6}
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:8px 14px;border-radius:3px;font-size:13px;display:none}
 @media (max-width:640px){.item{grid-template-columns:1fr}.side{flex-direction:row;align-items:center;justify-content:flex-start}.navlinks{margin-left:0}}
+/* header buttons: Theory map / Literature map / All fields / My Reading List */
+.navlinks{gap:10px 12px}
+a.navbtn{display:inline-block;height:32px;line-height:32px;padding:0 14px;border-radius:2px;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;white-space:nowrap;color:#1d8a81;background:rgba(46,186,174,.1);box-shadow:inset 0 0 0 1.5px var(--accent);transition:background-color .2s ease,color .2s ease}
+a.navbtn:hover,a.navbtn:focus-visible{background:var(--accent);color:#fff;outline:none}
+a.navbtn.rl{color:#8a6d0b;background:#fdf6e3;box-shadow:inset 0 0 0 1.5px #d4a017}
+a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#d4a017;color:#fff}
 </style>
 </head>
 <body>
@@ -51,7 +57,7 @@ textarea:focus{outline:none;border-color:var(--accent)}
     <div class="brand-sub">My Reading List</div>
   </div>
   <nav class="navlinks">
-    <a href="index.html">All fields</a>
+    <a class="navbtn" href="index.html">All fields</a>
     <a href="../index.html">← George Yean</a>
   </nav>
 </header>

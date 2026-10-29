@@ -109,6 +109,12 @@ svg{width:100%;height:100%;display:block}
   #edgeTip .pw{margin-top:4px;font-size:12.5px}
 }
 #detailClose{display:none;float:right;height:26px;line-height:26px;padding:0 9px;margin-top:-4px;font:400 18px/26px "Source Sans Pro",Helvetica,sans-serif;letter-spacing:0;text-transform:none;color:var(--muted)}
+/* header buttons: Theory map / Literature map / All fields / My Reading List */
+.navlinks{gap:10px 12px}
+a.navbtn{display:inline-block;height:32px;line-height:32px;padding:0 14px;border-radius:2px;font-family:"Raleway",Helvetica,sans-serif;font-weight:800;font-size:10px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;white-space:nowrap;color:#1d8a81;background:rgba(46,186,174,.1);box-shadow:inset 0 0 0 1.5px var(--accent);transition:background-color .2s ease,color .2s ease}
+a.navbtn:hover,a.navbtn:focus-visible{background:var(--accent);color:#fff;outline:none}
+a.navbtn.rl{color:#8a6d0b;background:#fdf6e3;box-shadow:inset 0 0 0 1.5px #d4a017}
+a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#d4a017;color:#fff}
 </style>
 </head>
 <body>
@@ -147,7 +153,7 @@ svg{width:100%;height:100%;display:block}
       </select></label>
     <input type="search" id="q" placeholder="search theory, scholar, claim…">
   </div>
-  <nav class="navlinks"><a href="network.html">Literature map</a><a href="../litnet/index.html">All fields</a><a href="../litnet/reading-list.html">My Reading List (<span id="rlCount">0</span>)</a><a href="../index.html">← George Yean</a></nav>
+  <nav class="navlinks"><a class="navbtn" href="network.html">Literature map</a><a class="navbtn" href="../litnet/index.html">All fields</a><a class="navbtn rl" href="../litnet/reading-list.html">★ My Reading List (<span id="rlCount">0</span>)</a><a href="../index.html">← George Yean</a></nav>
 </header>
 <div id="layout">
   <aside id="families">
