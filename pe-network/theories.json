@@ -1011,9 +1011,9 @@
  ],
  "relations": [
   {
-   "source": "commitment",
-   "target": "nie",
-   "type": "extends",
+   "source": "nie",
+   "target": "commitment",
+   "type": "complements",
    "why": "Credible constraints as key institutions."
   },
   {
@@ -1035,8 +1035,8 @@
    "why": "Culture versus formal institutions."
   },
   {
-   "source": "legalorigins",
-   "target": "colonialorigins",
+   "source": "colonialorigins",
+   "target": "legalorigins",
    "type": "rivals",
    "why": "Legal tradition versus colonial settlement."
   },
@@ -1059,8 +1059,8 @@
    "why": "Formal model of influence."
   },
   {
-   "source": "constitutional",
-   "target": "collectiveaction",
+   "source": "collectiveaction",
+   "target": "constitutional",
    "type": "complements",
    "why": "Choosing rules under collective action problems."
   },
@@ -1095,8 +1095,8 @@
    "why": "Demand-side growth models."
   },
   {
-   "source": "voc",
-   "target": "insurance",
+   "source": "insurance",
+   "target": "voc",
    "type": "complements",
    "why": "Skill specificity drives insurance demand."
   },
@@ -1107,9 +1107,9 @@
    "why": "Opportunism within accountability."
   },
   {
-   "source": "cbi",
-   "target": "commitment",
-   "type": "applies",
+   "source": "commitment",
+   "target": "cbi",
+   "type": "complements",
    "why": "Commitment in monetary policy."
   },
   {
@@ -1143,8 +1143,8 @@
    "why": "Coalitions shape autocratic goods."
   },
   {
-   "source": "statecapacity",
-   "target": "stationary",
+   "source": "stationary",
+   "target": "statecapacity",
    "type": "complements",
    "why": "Building the extractive state."
   },

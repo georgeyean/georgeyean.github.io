@@ -18,7 +18,7 @@
    "seed_from_papers_json": 10,
    "crossref_top_cited": 187,
    "anchors_supplement": 55,
-   "relation_edges": 251,
+   "relation_edges": 244,
    "membership_edges": 371
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -850,7 +850,7 @@
   {
    "id": "wced1987",
    "type": "work",
-   "label": "Development 1987",
+   "label": "WCED 1987",
    "authors": "World Commission on Environment and Development",
    "year": 1987,
    "journal": "Oxford University Press (report)",
@@ -4070,7 +4070,7 @@
   {
    "id": "luongweinthal2006",
    "type": "work",
-   "label": "Luong 2006",
+   "label": "Jones Luong 2006",
    "authors": "Pauline Jones Luong & Erika Weinthal",
    "year": 2006,
    "journal": "Annual Review of Political Science",
@@ -4919,9 +4919,9 @@
   },
   {
    "source": "vanhala2016",
-   "target": "falkner2016",
-   "type": "synthesizes",
-   "why": "Loss and damage framing."
+   "target": "ciplet2013",
+   "type": "builds_on",
+   "why": "Traces how vulnerable states framed loss and damage in UNFCCC talks, extending debates over justice in international adaptation finance."
   },
   {
    "source": "gupta2010",
@@ -5200,16 +5200,10 @@
    "why": "Discourses from survivalism onward."
   },
   {
-   "source": "beck1992",
-   "target": "meadows1972",
-   "type": "synthesizes",
-   "why": "Risk society (thematic link)."
-  },
-  {
    "source": "mannwainwright2018",
-   "target": "beck1992",
+   "target": "beeson2010",
    "type": "synthesizes",
-   "why": "Planetary sovereignty scenarios."
+   "why": "Places environmental authoritarianism within a typology of planetary sovereignty scenarios, from Climate Leviathan to Climate Mao."
   },
   {
    "source": "wced1987",
@@ -5228,12 +5222,6 @@
    "target": "harrisonsundstrom2007",
    "type": "builds_on",
    "why": "Comparative politics of climate change."
-  },
-  {
-   "source": "meckling2011",
-   "target": "harrisonsundstrom2010",
-   "type": "synthesizes",
-   "why": "Business coalitions and emissions trading."
   },
   {
    "source": "meckling2015",
@@ -5339,9 +5327,9 @@
   },
   {
    "source": "leiserowitz2006",
-   "target": "dryzek1997",
-   "type": "synthesizes",
-   "why": "Sustainability values review."
+   "target": "wced1987",
+   "type": "builds_on",
+   "why": "Reviews global survey evidence on public support for the sustainable development values set out in the Brundtland report."
   },
   {
    "source": "lorenzoni2007",
@@ -5488,12 +5476,6 @@
    "why": "Party cues and backlash."
   },
   {
-   "source": "carter2013",
-   "target": "dryzek1997",
-   "type": "synthesizes",
-   "why": "Party competition on the environment."
-  },
-  {
    "source": "abouchadi2016",
    "target": "carter2013",
    "type": "builds_on",
@@ -5522,12 +5504,6 @@
    "target": "mccrightdunlap2011",
    "type": "extends_to_new_case",
    "why": "Partisanship among Australian politicians."
-  },
-  {
-   "source": "stern2007",
-   "target": "meadows1972",
-   "type": "synthesizes",
-   "why": "Economics of climate change."
   },
   {
    "source": "narassimhan2018",
@@ -5834,12 +5810,6 @@
    "target": "karl1997",
    "type": "builds_on",
    "why": "Property rights and the resource curse."
-  },
-  {
-   "source": "smitwandel2006",
-   "target": "wced1987",
-   "type": "synthesizes",
-   "why": "Adaptation concepts."
   },
   {
    "source": "nelson2007",
@@ -6157,7 +6127,7 @@
    "source": "molcarter2006",
    "target": "dryzek1997",
    "type": "extends_to_new_case",
-   "why": "China's environmental governance."
+   "why": "Applies the ecological modernization discourse to China's shifting environmental governance."
   },
   {
    "source": "steinhardtwu2016",
@@ -6200,12 +6170,6 @@
    "target": "vogel1995",
    "type": "builds_on",
    "why": "U.S. and EU traded places."
-  },
-  {
-   "source": "duit2016",
-   "target": "thompson2010",
-   "type": "synthesizes",
-   "why": "Presentism of democracy (thematic link, earlier)."
   },
   {
    "source": "grossmankrueger1995",
@@ -6275,9 +6239,9 @@
   },
   {
    "source": "dauvergne2022",
-   "target": "dauvergne2018",
-   "type": "builds_on",
-   "why": "AI and supply chains."
+   "target": "ponte2020",
+   "type": "synthesizes",
+   "why": "Like Ponte, shows how corporate claims of greening global supply chains hide environmental costs, here for artificial intelligence."
   },
   {
    "source": "ponte2020",
@@ -6326,12 +6290,6 @@
    "target": "brownspiegel2019",
    "type": "synthesizes",
    "why": "Coal and climate justice (earlier)."
-  },
-  {
-   "source": "clappswanston2009",
-   "target": "cashore2002",
-   "type": "synthesizes",
-   "why": "Plastic bag norms."
   },
   {
    "source": "ariasblair2024",

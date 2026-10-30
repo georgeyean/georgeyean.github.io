@@ -18,7 +18,7 @@
    "seed_from_papers_json": 15,
    "crossref_top_cited": 165,
    "anchors_supplement": 127,
-   "relation_edges": 317,
+   "relation_edges": 304,
    "membership_edges": 439
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -34,7 +34,7 @@
    "source": "north1990",
    "target": "northweingast1989",
    "type": "synthesizes",
-   "why": "Credible commitment after the Glorious Revolution (contemporaneous)."
+   "why": "Generalizes the credible-commitment account of England's Glorious Revolution into a theory of institutions."
   },
   {
    "source": "weingast1995",
@@ -63,8 +63,8 @@
   {
    "source": "ajr2001",
    "target": "sokoloffengerman2000",
-   "type": "synthesizes",
-   "why": "Colonial origins of institutions."
+   "type": "builds_on",
+   "why": "Like Engerman and Sokoloff, traces modern development to the institutions colonizers set up."
   },
   {
    "source": "rodrik2004",
@@ -111,8 +111,8 @@
   {
    "source": "greif2006",
    "target": "greiflaitin2004",
-   "type": "synthesizes",
-   "why": "Endogenous institutional change (contemporaneous)."
+   "type": "builds_on",
+   "why": "Develops the self-reinforcing institutions framework of Greif and Laitin into a book-length account of medieval trade."
   },
   {
    "source": "haggard2008",
@@ -190,7 +190,7 @@
    "source": "jensen2008",
    "target": "bussehefeker2007",
    "type": "synthesizes",
-   "why": "Institutions and FDI (earlier)."
+   "why": "Adds to evidence that political risk and institutions shape FDI, stressing democratic constraints on expropriation."
   },
   {
    "source": "putnam1993",
@@ -319,12 +319,6 @@
    "why": "War makes states."
   },
   {
-   "source": "scott1998",
-   "target": "tilly1990",
-   "type": "builds_on",
-   "why": "Legibility and state simplification."
-  },
-  {
    "source": "evans1995",
    "target": "bates1981",
    "type": "qualifies",
@@ -406,7 +400,7 @@
    "source": "afonso2010",
    "target": "barro1996",
    "type": "synthesizes",
-   "why": "Government size and growth."
+   "why": "Extends Barro-style cross-country growth regressions to government size and spending volatility."
   },
   {
    "source": "acemoglurobinson2001",
@@ -487,12 +481,6 @@
    "why": "Polarization and inequality."
   },
   {
-   "source": "piketty2014",
-   "target": "meltzerrichard1981",
-   "type": "synthesizes",
-   "why": "Long-run inequality dynamics."
-  },
-  {
    "source": "saezzucman2016",
    "target": "piketty2014",
    "type": "builds_on",
@@ -514,7 +502,7 @@
    "source": "chetty2014",
    "target": "piketty2014",
    "type": "synthesizes",
-   "why": "Mobility and place."
+   "why": "Shifts the inequality debate from top-income shares to intergenerational mobility across U.S. places."
   },
   {
    "source": "alesina2018",
@@ -980,12 +968,6 @@
   },
   {
    "source": "frieden2017",
-   "target": "alesinasummers1993",
-   "type": "synthesizes",
-   "why": "Eurozone crisis politics."
-  },
-  {
-   "source": "frieden2017",
    "target": "jones2016",
    "type": "synthesizes",
    "why": "Failing forward (earlier)."
@@ -995,12 +977,6 @@
    "target": "nordhaus1975",
    "type": "challenges",
    "why": "Equilibrium cycles with rational voters."
-  },
-  {
-   "source": "fiorina1981",
-   "target": "nordhaus1975",
-   "type": "synthesizes",
-   "why": "Retrospective voting."
   },
   {
    "source": "brenderdrazen2005",
@@ -1016,9 +992,9 @@
   },
   {
    "source": "altlassen2006",
-   "target": "shisvensson2006",
-   "type": "synthesizes",
-   "why": "Transparency and polarization (contemporaneous)."
+   "target": "rogoff1990",
+   "type": "qualifies",
+   "why": "Shows rational political budget cycles are larger where fiscal transparency is low and polarization high."
   },
   {
    "source": "veiga2007",
@@ -1406,9 +1382,9 @@
   },
   {
    "source": "morris2010",
-   "target": "treisman2007",
+   "target": "rothsteinstolle2008",
    "type": "builds_on",
-   "why": "Corruption and trust."
+   "why": "Tests in Mexico the institutional argument that corruption erodes generalized and political trust."
   },
   {
    "source": "donchev2014",
@@ -1421,18 +1397,6 @@
    "target": "roseackerman1999",
    "type": "synthesizes",
    "why": "Impartial institutions and trust."
-  },
-  {
-   "source": "laporta1998",
-   "target": "olson1982",
-   "type": "synthesizes",
-   "why": "Law, finance and growth (thematic link)."
-  },
-  {
-   "source": "reinhartrogoff2009",
-   "target": "laporta1998",
-   "type": "synthesizes",
-   "why": "Recurring crises."
   },
   {
    "source": "miansufi2009",
@@ -1453,16 +1417,10 @@
    "why": "Political economy of the mortgage crisis."
   },
   {
-   "source": "krippner2011",
-   "target": "reinhartrogoff2009",
-   "type": "qualifies",
-   "why": "Political origins of financialization."
-  },
-  {
    "source": "calomirishaber2014",
    "target": "laporta1998",
-   "type": "builds_on",
-   "why": "Political bargains in banking."
+   "type": "challenges",
+   "why": "Argues banking systems reflect political bargains among coalitions rather than inherited legal origins."
   },
   {
    "source": "funke2016",
@@ -1519,28 +1477,16 @@
    "why": "Debt and democratic capitalism."
   },
   {
-   "source": "schultz2003",
-   "target": "laporta1998",
-   "type": "synthesizes",
-   "why": "Institutions and financial power (thematic link)."
-  },
-  {
    "source": "western1997",
    "target": "freemanmedoff1984",
    "type": "builds_on",
    "why": "Institutions and unionization."
   },
   {
-   "source": "freemanmedoff1984",
-   "target": "korpi1983",
-   "type": "synthesizes",
-   "why": "Union voice and power."
-  },
-  {
    "source": "card2013",
    "target": "freemanmedoff1984",
    "type": "builds_on",
-   "why": "Wage inequality and workplaces."
+   "why": "Traces rising German wage inequality to growing pay differences across workplaces as collective bargaining weakened."
   },
   {
    "source": "farber2021",
@@ -1556,15 +1502,9 @@
   },
   {
    "source": "acemoglurestrepo2020",
-   "target": "autor2015",
+   "target": "autor2013",
    "type": "builds_on",
-   "why": "Robots and jobs."
-  },
-  {
-   "source": "autor2013",
-   "target": "freemanmedoff1984",
-   "type": "synthesizes",
-   "why": "Trade shocks and local labor markets (thematic link)."
+   "why": "Applies the commuting-zone exposure design of the China-shock study to industrial robots."
   },
   {
    "source": "mosleyuno2007",
@@ -1645,12 +1585,6 @@
    "why": "Distributive politics review."
   },
   {
-   "source": "wantchekon2003",
-   "target": "bates1981",
-   "type": "synthesizes",
-   "why": "Clientelism experiment."
-  },
-  {
    "source": "kitschelt2007",
    "target": "wantchekon2003",
    "type": "synthesizes",
@@ -1694,15 +1628,9 @@
   },
   {
    "source": "banerjeeduflo2009",
-   "target": "bates1981",
+   "target": "olken2007",
    "type": "synthesizes",
-   "why": "Experimental development economics."
-  },
-  {
-   "source": "mares2009",
-   "target": "bates1981",
-   "type": "synthesizes",
-   "why": "Social policy in development."
+   "why": "Reviews randomized field experiments in development economics, including Olken's audit experiment on corruption."
   },
   {
    "source": "xu2011",
@@ -1767,8 +1695,8 @@
   {
    "source": "wright2008",
    "target": "gandhi2008",
-   "type": "synthesizes",
-   "why": "Legislatures and growth (contemporaneous)."
+   "type": "mechanism_tested_by",
+   "why": "Tests whether the authoritarian legislatures Gandhi theorizes constrain rulers and raise growth and investment."
   },
   {
    "source": "boixsvolik2013",
@@ -1831,12 +1759,6 @@
    "why": "Social orders and coalitions."
   },
   {
-   "source": "bodea2015io",
-   "target": "przeworski2000",
-   "type": "synthesizes",
-   "why": "CBI under democracy."
-  },
-  {
    "source": "morrison2009",
    "target": "bdm2003",
    "type": "builds_on",
@@ -1851,8 +1773,8 @@
   {
    "source": "stromberg2004",
    "target": "besleyburgess2002",
-   "type": "synthesizes",
-   "why": "Radio and spending (contemporaneous)."
+   "type": "builds_on",
+   "why": "Shows radio access made New Deal spending more responsive to informed voters, paralleling Besley-Burgess on media and responsiveness."
   },
   {
    "source": "gentzkowshapiro2006",

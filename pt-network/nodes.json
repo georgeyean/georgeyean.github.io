@@ -18,7 +18,7 @@
    "seed_from_papers_json": 41,
    "crossref_top_cited": 268,
    "anchors_supplement": 98,
-   "relation_edges": 449,
+   "relation_edges": 437,
    "membership_edges": 661
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other six maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."

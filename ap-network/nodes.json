@@ -18,7 +18,7 @@
    "seed_from_papers_json": 9,
    "crossref_top_cited": 287,
    "anchors_supplement": 89,
-   "relation_edges": 415,
+   "relation_edges": 405,
    "membership_edges": 641
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other five maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -5639,7 +5639,7 @@
   {
    "id": "miquelsnyder2006",
    "type": "work",
-   "label": "Miquel 2006",
+   "label": "Padró i Miquel 2006",
    "authors": "Gerard PADRÓ I Miquel & James M. Snyder",
    "year": 2006,
    "journal": "Legislative Studies Quarterly",

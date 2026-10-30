@@ -740,10 +740,10 @@
  ],
  "relations": [
   {
-   "source": "factor",
-   "target": "oep",
-   "type": "applies",
-   "why": "Classic preference source in OEP."
+   "source": "oep",
+   "target": "factor",
+   "type": "extends",
+   "why": "OEP builds on classic factor-based preferences."
   },
   {
    "source": "sector",
@@ -764,8 +764,8 @@
    "why": "New trade theory in OEP."
   },
   {
-   "source": "pfs",
-   "target": "oep",
+   "source": "oep",
+   "target": "pfs",
    "type": "complements",
    "why": "Aggregation through lobbying."
   },
@@ -806,8 +806,8 @@
    "why": "Culture and status, not economics."
   },
   {
-   "source": "hst",
-   "target": "structural",
+   "source": "structural",
+   "target": "hst",
    "type": "rivals",
    "why": "Hegemonic decline versus enduring structural power."
   },
@@ -824,8 +824,8 @@
    "why": "Modern economic statecraft through networks."
   },
   {
-   "source": "geoeconomics",
-   "target": "hst",
+   "source": "hst",
+   "target": "geoeconomics",
    "type": "complements",
    "why": "Economic power and order."
   },
@@ -860,14 +860,14 @@
    "why": "Hegemonic power inside institutions."
   },
   {
-   "source": "aid",
-   "target": "ioinfluence",
+   "source": "ioinfluence",
+   "target": "aid",
    "type": "complements",
    "why": "Donor interest in aid."
   },
   {
-   "source": "dependency",
-   "target": "oep",
+   "source": "oep",
+   "target": "dependency",
    "type": "rivals",
    "why": "Structure of world capitalism versus domestic interests."
   },
@@ -896,16 +896,16 @@
    "why": "State-led capitalism at scale."
   },
   {
-   "source": "statecap",
-   "target": "contest",
+   "source": "contest",
+   "target": "statecap",
    "type": "complements",
    "why": "China as a challenge to the order."
   },
   {
-   "source": "efficiency",
-   "target": "oep",
-   "type": "applies",
-   "why": "Capital mobility changes domestic bargains."
+   "source": "oep",
+   "target": "efficiency",
+   "type": "synthesizes",
+   "why": "Capital mobility within the open-economy framework."
   }
  ]
 }

@@ -18,7 +18,7 @@
    "seed_from_papers_json": 9,
    "crossref_top_cited": 287,
    "anchors_supplement": 89,
-   "relation_edges": 415,
+   "relation_edges": 405,
    "membership_edges": 641
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other five maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -5639,7 +5639,7 @@
   {
    "id": "miquelsnyder2006",
    "type": "work",
-   "label": "Miquel 2006",
+   "label": "Padró i Miquel 2006",
    "authors": "Gerard PADRÓ I Miquel & James M. Snyder",
    "year": 2006,
    "journal": "Legislative Studies Quarterly",
@@ -7405,10 +7405,10 @@
    "why": "Party as a legislative cartel serving members."
   },
   {
-   "source": "krehbiel1998",
-   "target": "coxmccubbins2005",
+   "source": "coxmccubbins2005",
+   "target": "krehbiel1998",
    "type": "challenges",
-   "why": "Pivots, not parties, explain lawmaking (contemporaneous debate)."
+   "why": "Majority-party agenda control, not pivots, explains lawmaking."
   },
   {
    "source": "poolerosenthal1997",
@@ -7507,16 +7507,16 @@
    "why": "Executive order data test unilateral power."
   },
   {
-   "source": "epsteinknight1998",
-   "target": "segalspaeth2002",
+   "source": "segalspaeth2002",
+   "target": "epsteinknight1998",
    "type": "challenges",
-   "why": "Strategic versus attitudinal models of justices (earlier edition, 1993)."
+   "why": "Justices vote their attitudes rather than strategically."
   },
   {
-   "source": "rosenberg1991",
-   "target": "epsteinknight1998",
-   "type": "synthesizes",
-   "why": "Courts constrained by other branches (thematic link)."
+   "source": "epsteinknight1998",
+   "target": "rosenberg1991",
+   "type": "builds_on",
+   "why": "Justices act strategically because other branches constrain courts."
   },
   {
    "source": "marcus2000",
@@ -7531,12 +7531,6 @@
    "why": "Attitudes partly heritable, not only socialized."
   },
   {
-   "source": "sunstein2001",
-   "target": "zaller1992",
-   "type": "extends_to_new_case",
-   "why": "Elite-message model applied to personalized media."
-  },
-  {
    "source": "binder2003",
    "target": "krehbiel1998",
    "type": "qualifies",
@@ -7547,12 +7541,6 @@
    "target": "poolerosenthal1997",
    "type": "qualifies",
    "why": "Elites polarized, public sorted."
-  },
-  {
-   "source": "segalspaeth2002",
-   "target": "rosenberg1991",
-   "type": "synthesizes",
-   "why": "Policy-driven courts and their limits."
   },
   {
    "source": "mccarty2006",
@@ -7671,8 +7659,8 @@
   {
    "source": "levenduskymalhotra2016",
    "target": "ahler2014",
-   "type": "synthesizes",
-   "why": "Misperceptions of mass polarization."
+   "type": "builds_on",
+   "why": "Shows that Americans overestimate mass polarization and that this misperception has consequences."
   },
   {
    "source": "thomsen2014",
@@ -7687,10 +7675,10 @@
    "why": "Donor ideology and legislative polarization."
   },
   {
-   "source": "lee2015",
-   "target": "lee2016",
-   "type": "synthesizes",
-   "why": "Governance effects of competition and polarization."
+   "source": "lee2016",
+   "target": "lee2015",
+   "type": "builds_on",
+   "why": "Book-length account of how close party competition shapes governance."
   },
   {
    "source": "leesenate2009",
@@ -8030,15 +8018,15 @@
   },
   {
    "source": "broockmankalla2016",
-   "target": "kindersanders1996",
-   "type": "qualifies",
-   "why": "Prejudice can be reduced durably."
+   "target": "gerbergreen2000",
+   "type": "extends_to_new_case",
+   "why": "Carries door-to-door canvassing field experiments from turnout to durable attitude change."
   },
   {
    "source": "enos2014",
-   "target": "kindersanders1996",
-   "type": "extends_to_new_case",
-   "why": "Group threat in a field experiment."
+   "target": "hopkins2010",
+   "type": "mechanism_tested_by",
+   "why": "Randomized exposure to Spanish speakers tests whether local demographic change provokes exclusionary immigration attitudes."
   },
   {
    "source": "ballardrosa2024",
@@ -8221,10 +8209,10 @@
    "why": "Self-reported exposure is inflated."
   },
   {
-   "source": "baumgroeling2008",
-   "target": "gentzkowshapiro2010",
-   "type": "synthesizes",
-   "why": "Partisan story selection in new media."
+   "source": "gentzkowshapiro2010",
+   "target": "baumgroeling2008",
+   "type": "qualifies",
+   "why": "Slant follows reader demand, not only partisan story selection."
   },
   {
    "source": "arceneaux2012",
@@ -8281,10 +8269,10 @@
    "why": "Homophily in online networks."
   },
   {
-   "source": "baumgartnermorris2006",
-   "target": "prior2007",
+   "source": "prior2007",
+   "target": "baumgartnermorris2006",
    "type": "synthesizes",
-   "why": "Soft news and political attitudes."
+   "why": "Soft-news effects within a broader theory of media choice."
   },
   {
    "source": "bondmessing2015",
@@ -8305,10 +8293,10 @@
    "why": "Going public via social media."
   },
   {
-   "source": "kim2018",
-   "target": "fowler2021",
-   "type": "synthesizes",
-   "why": "Online political advertising."
+   "source": "fowler2021",
+   "target": "kim2018",
+   "type": "builds_on",
+   "why": "Who advertises online and whom they target."
   },
   {
    "source": "fowler2021",
@@ -8475,8 +8463,8 @@
   {
    "source": "jennings2009",
    "target": "verba1995",
-   "type": "synthesizes",
-   "why": "Family transmission of engagement."
+   "type": "builds_on",
+   "why": "Traces how parental engagement is transmitted to children, a socialization path to participation."
   },
   {
    "source": "hersh2015",
@@ -8542,7 +8530,7 @@
    "source": "lau2007",
    "target": "mendelberg2001",
    "type": "synthesizes",
-   "why": "Effects of negative campaigning."
+   "why": "Meta-analysis of attack-ad effects, the genre of campaign messaging that Mendelberg's racial-appeal cases belong to."
   },
   {
    "source": "jacobson2015",
@@ -8569,10 +8557,10 @@
    "why": "Valence alongside spatial position."
   },
   {
-   "source": "huberarceneaux2007",
-   "target": "gerber2011",
-   "type": "synthesizes",
-   "why": "Natural experiment on presidential ads."
+   "source": "gerber2011",
+   "target": "huberarceneaux2007",
+   "type": "builds_on",
+   "why": "Randomized test of TV ad effects and their fast decay."
   },
   {
    "source": "jessee2009",
@@ -8593,10 +8581,10 @@
    "why": "Voters respond to roll calls."
   },
   {
-   "source": "hershschaffner2013",
-   "target": "hersh2015",
-   "type": "synthesizes",
-   "why": "Targeted appeals."
+   "source": "hersh2015",
+   "target": "hershschaffner2013",
+   "type": "builds_on",
+   "why": "Campaign data shape which voters receive targeted appeals."
   },
   {
    "source": "vavreck2009",
@@ -8641,10 +8629,10 @@
    "why": "Deindustrialization and white backlash."
   },
   {
-   "source": "mutz2018",
-   "target": "autor2020",
+   "source": "autor2020",
+   "target": "mutz2018",
    "type": "challenges",
-   "why": "Status threat, not economic hardship."
+   "why": "Trade shocks did move votes, so economic hardship matters."
   },
   {
    "source": "reny2019",
@@ -8655,14 +8643,14 @@
   {
    "source": "gomez2007",
    "target": "rosenstonehansen1993",
-   "type": "synthesizes",
-   "why": "Turnout costs and outcomes."
+   "type": "builds_on",
+   "why": "Uses rainfall as a cost shock to show turnout and partisan outcomes depend on participation costs."
   },
   {
-   "source": "hopkins2010",
-   "target": "hainmueller2014",
+   "source": "hainmueller2014",
+   "target": "hopkins2010",
    "type": "synthesizes",
-   "why": "Local context and immigration attitudes."
+   "why": "Reviews local-context accounts of immigration attitudes."
   },
   {
    "source": "brader2008",
@@ -8767,22 +8755,16 @@
    "why": "Group consciousness among Latinos."
   },
   {
-   "source": "wasow2020",
-   "target": "kindersanders1996",
-   "type": "builds_on",
-   "why": "Protest effects on racial politics."
-  },
-  {
    "source": "renynewman2021",
    "target": "wasow2020",
    "type": "builds_on",
    "why": "Protest moves opinion."
   },
   {
-   "source": "enos2019",
-   "target": "wasow2020",
+   "source": "wasow2020",
+   "target": "enos2019",
    "type": "qualifies",
-   "why": "Riots can increase support for spending."
+   "why": "Violent protest can cost allies at the polls even if it raises policy support."
   },
   {
    "source": "lee2008",
@@ -8839,10 +8821,10 @@
    "why": "Racialized partisanship in 2016."
   },
   {
-   "source": "lawlesspearson2008",
-   "target": "lawlessfox2010",
-   "type": "synthesizes",
-   "why": "Primaries and women candidates."
+   "source": "lawlessfox2010",
+   "target": "lawlesspearson2008",
+   "type": "builds_on",
+   "why": "The ambition gap behind women's underrepresentation."
   },
   {
    "source": "foxlawless2010",
@@ -8889,8 +8871,8 @@
   {
    "source": "cassesebarnes2019",
    "target": "valentino2018poq",
-   "type": "synthesizes",
-   "why": "Sexism and 2016 vote choice."
+   "type": "builds_on",
+   "why": "Shows hostile sexism shaped white women's support for Trump in 2016."
   },
   {
    "source": "lawless2015",
@@ -8913,8 +8895,8 @@
   {
    "source": "schwarzcoppock2022",
    "target": "teele2018",
-   "type": "challenges",
-   "why": "Voters slightly prefer women on average."
+   "type": "synthesizes",
+   "why": "Meta-analysis of candidate-choice conjoints, including Teele et al., finds voters slightly favor women."
   },
   {
    "source": "lowande2019",
@@ -9073,22 +9055,10 @@
    "why": "Voter bias against working-class candidates tested."
   },
   {
-   "source": "solt2008",
-   "target": "bartels2008",
-   "type": "synthesizes",
-   "why": "Inequality and political voice."
-  },
-  {
    "source": "canes2006",
    "target": "stimson1995",
    "type": "builds_on",
    "why": "Presidential responsiveness to opinion."
-  },
-  {
-   "source": "ansolabeherejones2010",
-   "target": "bafumiherron2010",
-   "type": "synthesizes",
-   "why": "Voters and legislators on roll calls."
   },
   {
    "source": "finocchiarorohde2008",
@@ -9111,8 +9081,8 @@
   {
    "source": "grimmer2013",
    "target": "grimmer2013book",
-   "type": "synthesizes",
-   "why": "Representational style and electoral incentives."
+   "type": "builds_on",
+   "why": "Applies the representational-style framework to show electoral incentives push members toward appropriations credit claiming."
   },
   {
    "source": "grimmer2013book",
@@ -9157,12 +9127,6 @@
    "why": "Legislators respond to local trade shocks."
   },
   {
-   "source": "nyhanreifler2015",
-   "target": "grimmer2012",
-   "type": "synthesizes",
-   "why": "Legislators respond to reputational threats."
-  },
-  {
    "source": "anziaberry2011",
    "target": "mayhew1974",
    "type": "extends_to_new_case",
@@ -9175,10 +9139,10 @@
    "why": "Politicization of the administrative state."
   },
   {
-   "source": "lewis2007",
-   "target": "lewis2008",
-   "type": "synthesizes",
-   "why": "Appointees and performance."
+   "source": "lewis2008",
+   "target": "lewis2007",
+   "type": "builds_on",
+   "why": "Book-length theory of politicized appointments and performance."
   },
   {
    "source": "gailmardpatty2007",
@@ -9187,10 +9151,10 @@
    "why": "Why civil service attracts expertise."
   },
   {
-   "source": "krause2006",
-   "target": "lewis2008",
-   "type": "synthesizes",
-   "why": "Balancing appointees and careerists."
+   "source": "lewis2008",
+   "target": "krause2006",
+   "type": "builds_on",
+   "why": "Balancing appointees and careerists in agencies."
   },
   {
    "source": "berry2010",
@@ -9199,10 +9163,10 @@
    "why": "Presidential particularism in spending."
   },
   {
-   "source": "larcinese2006",
-   "target": "berry2010",
-   "type": "synthesizes",
-   "why": "Presidents and federal allocations."
+   "source": "berry2010",
+   "target": "larcinese2006",
+   "type": "builds_on",
+   "why": "Presidents steer federal spending toward favored constituencies."
   },
   {
    "source": "reeves2011",
@@ -9271,16 +9235,16 @@
    "why": "Regulatory state building."
   },
   {
-   "source": "kernell1986",
-   "target": "canes2006",
-   "type": "synthesizes",
-   "why": "Going public and responsiveness (thematic link)."
+   "source": "canes2006",
+   "target": "kernell1986",
+   "type": "builds_on",
+   "why": "Going public and when presidents respond to opinion."
   },
   {
-   "source": "krehbiel1998",
-   "target": "howell2003",
-   "type": "synthesizes",
-   "why": "Pivots and veto bargaining frame unilateral action (thematic link)."
+   "source": "howell2003",
+   "target": "krehbiel1998",
+   "type": "builds_on",
+   "why": "Unilateral action analyzed within pivotal politics."
   },
   {
    "source": "bartelsjohnston2013",
@@ -9297,8 +9261,8 @@
   {
    "source": "gibsoncaldeira2009",
    "target": "rosenberg1991",
-   "type": "qualifies",
-   "why": "Public knowledge of the Court."
+   "type": "challenges",
+   "why": "Finds the public knows more about the Court than assumed, contesting the premise that rulings go unnoticed."
   },
   {
    "source": "christensonglick2015",
@@ -9363,8 +9327,8 @@
   {
    "source": "richter2009",
    "target": "halldeardorff2006",
-   "type": "synthesizes",
-   "why": "Returns to lobbying."
+   "type": "builds_on",
+   "why": "Estimates the tax-policy payoff to corporate lobbying that theories of lobbying influence assume."
   },
   {
    "source": "defigueiredorichter2014",
@@ -9441,8 +9405,8 @@
   {
    "source": "kim2018",
    "target": "hersh2015",
-   "type": "synthesizes",
-   "why": "Data-driven targeting by outside groups."
+   "type": "builds_on",
+   "why": "Shows outside groups use data-driven targeting to deliver divisive issue ads on Facebook."
   },
   {
    "source": "gilenspage2014",
@@ -9481,12 +9445,6 @@
    "why": "Ideology filters learning."
   },
   {
-   "source": "squire2007",
-   "target": "erikson1993",
-   "type": "synthesizes",
-   "why": "Measures for state politics research."
-  },
-  {
    "source": "berry2010sppq",
    "target": "erikson1993",
    "type": "builds_on",
@@ -9505,10 +9463,10 @@
    "why": "Partisan effects on state policy."
   },
   {
-   "source": "gerberhopkins2011",
-   "target": "tausanovitchwarshaw2014",
-   "type": "synthesizes",
-   "why": "Do local partisans change policy?"
+   "source": "tausanovitchwarshaw2014",
+   "target": "gerberhopkins2011",
+   "type": "qualifies",
+   "why": "City policy tracks local opinion more than the mayor's party."
   },
   {
    "source": "debenedictis2016",
@@ -9536,9 +9494,9 @@
   },
   {
    "source": "berry2008",
-   "target": "erikson1993",
-   "type": "extends_to_new_case",
-   "why": "Fiscal politics of overlapping governments."
+   "target": "schattschneider1960",
+   "type": "builds_on",
+   "why": "Low-visibility overlapping local governments let narrow interests drive up spending, a scope-of-conflict logic."
   },
   {
    "source": "biggershanmer2017",
@@ -9547,22 +9505,16 @@
    "why": "Voter ID adoption."
   },
   {
-   "source": "bowlerdonovan2016",
-   "target": "biggershanmer2017",
-   "type": "synthesizes",
-   "why": "Partisan electoral reform."
+   "source": "biggershanmer2017",
+   "target": "bowlerdonovan2016",
+   "type": "builds_on",
+   "why": "Partisan control drives voter ID adoption."
   },
   {
    "source": "jansa2019",
    "target": "hertelfernandez2014",
    "type": "builds_on",
    "why": "Policy reinvention through text reuse."
-  },
-  {
-   "source": "shormccarty2011",
-   "target": "squire2007",
-   "type": "synthesizes",
-   "why": "Legislative ideology and capacity."
   },
   {
    "source": "soss2008",
@@ -9631,16 +9583,10 @@
    "why": "Policy drift."
   },
   {
-   "source": "feinsteinschickler2008",
-   "target": "kindersanders1996",
-   "type": "synthesizes",
-   "why": "Civil rights realignment."
-  },
-  {
    "source": "schicklercaughey2011",
    "target": "feinsteinschickler2008",
-   "type": "synthesizes",
-   "why": "Limits of New Deal liberalism."
+   "type": "builds_on",
+   "why": "Uses early opinion data to trace the limits of New Deal liberalism behind the civil rights realignment."
   },
   {
    "source": "hacker2013",
@@ -9657,8 +9603,8 @@
   {
    "source": "acharya2016",
    "target": "feinsteinschickler2008",
-   "type": "synthesizes",
-   "why": "Historical roots of southern politics."
+   "type": "builds_on",
+   "why": "Roots southern white conservatism in slavery's legacy, adding deep history to accounts of realignment."
   },
   {
    "source": "wasow2020",
@@ -9693,8 +9639,8 @@
   {
    "source": "bartels2020",
    "target": "grahamsvolik2020",
-   "type": "synthesizes",
-   "why": "Republican commitment to democracy."
+   "type": "builds_on",
+   "why": "Finds ethnic antagonism drives Republicans' weak commitment to democratic norms."
   },
   {
    "source": "kalmoemason2022",
@@ -9703,22 +9649,16 @@
    "why": "Partisan hostility and democracy."
   },
   {
-   "source": "inglehartnorris2017",
-   "target": "mutz2018",
-   "type": "synthesizes",
-   "why": "Cultural backlash in 2016."
-  },
-  {
-   "source": "williamson2011",
-   "target": "skocpolwilliamson2012",
-   "type": "synthesizes",
-   "why": "Tea Party and Republican conservatism."
+   "source": "mutz2018",
+   "target": "inglehartnorris2017",
+   "type": "builds_on",
+   "why": "Status threat as the cultural backlash behind the 2016 vote."
   },
   {
    "source": "skocpolwilliamson2012",
-   "target": "mason2018",
-   "type": "synthesizes",
-   "why": "Movement conservatism and identity (thematic link)."
+   "target": "williamson2011",
+   "type": "builds_on",
+   "why": "Book-length account of the Tea Party and Republican conservatism."
   },
   {
    "source": "waldnerlust2018",
@@ -9733,10 +9673,10 @@
    "why": "Public support sustains democracy."
   },
   {
-   "source": "citrinstoker2018",
-   "target": "iyengar2019",
+   "source": "iyengar2019",
+   "target": "citrinstoker2018",
    "type": "synthesizes",
-   "why": "Partisan trust in a cynical age."
+   "why": "Partisan distrust as part of affective polarization."
   },
   {
    "source": "howellmoe2023",
@@ -9771,8 +9711,8 @@
   {
    "source": "carney2008",
    "target": "alford2005",
-   "type": "synthesizes",
-   "why": "Personality differences by ideology."
+   "type": "builds_on",
+   "why": "Personality differences between liberals and conservatives add to evidence that ideology has dispositional roots."
   },
   {
    "source": "feldmanjohnston2014",
@@ -9793,10 +9733,10 @@
    "why": "Threat and authoritarian responses."
   },
   {
-   "source": "smith2017",
-   "target": "jost2017",
+   "source": "jost2017",
+   "target": "smith2017",
    "type": "challenges",
-   "why": "Ideology causes moral foundations, not the reverse."
+   "why": "Psychological dispositions shape ideology, rather than ideology shaping moral intuitions."
   },
   {
    "source": "valentino2008",
@@ -9812,9 +9752,9 @@
   },
   {
    "source": "ryan2017",
-   "target": "taberlodge2006",
-   "type": "extends_to_new_case",
-   "why": "Moral conviction and compromise."
+   "target": "harbridgemalhotra2011",
+   "type": "qualifies",
+   "why": "Moralized attitudes lead citizens to punish compromise, limiting the public appetite for bipartisanship."
   },
   {
    "source": "huddy2015",

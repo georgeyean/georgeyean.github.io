@@ -18,7 +18,7 @@
    "seed_from_papers_json": 83,
    "crossref_top_cited": 150,
    "anchors_supplement": 29,
-   "relation_edges": 283,
+   "relation_edges": 277,
    "membership_edges": 424
   },
   "verification": "Repo works come from the user's Zotero library. The 150 Crossref-selected works take title, authors, year, venue and DOI from Crossref records. The 29 anchors were looked up in Crossref: 28 confirmed (books often via reviews or reprint DOIs); Waltz 1979 has no Crossref record. Repo entries with missing titles or authors were corrected from Crossref. All one-line claims for non-repo works are my summaries."
@@ -461,7 +461,7 @@
   {
    "id": "matthews1996",
    "type": "work",
-   "label": "III 1996",
+   "label": "Matthews 1996",
    "authors": "John C. Matthews III",
    "year": 1996,
    "journal": "International Security",
@@ -1658,7 +1658,7 @@
   {
    "id": "wu2022",
    "type": "work",
-   "label": "Riqiang 2022",
+   "label": "Wu 2022",
    "authors": "Wu Riqiang",
    "year": 2022,
    "journal": "International Security",

@@ -1,11 +1,11 @@
 # Race, ethnicity and politics, c. 1903–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 361 work nodes, 20 theme nodes and 402 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[dawson1994]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 360 work nodes, 20 theme nodes and 393 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[dawson1994]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Shared works:** 88 works already in the American politics, political theory, comparative politics, IPE, security and IR maps are reused, including the race theme of the American politics map (Kinder & Sanders, Mendelberg, Tesler, Jardina, Hajnal & Lee) and the race theme of the political theory map (Mills, Shelby, Crenshaw, Collins).
 - **Library seeds:** four works from your `papers.json`: Horowitz, Rosenberg, Bratsberg et al. and Búzás 2013.
-- **Top-cited articles:** 162 come from the 400 most-cited 2006–2026 articles in REP journals (*Journal of Race, Ethnicity, and Politics*, *Politics, Groups, and Identities*, *Du Bois Review*, *Ethnic and Racial Studies*, *Nationalism and Ethnic Politics*, *JEMS*, *International Migration Review*) and race-related articles in APSR, AJPS, JOP, BJPS, *Political Behavior*, POQ, PRQ, APR, *Political Psychology*, *Perspectives on Politics*, ARPS, LSQ, SAPD, QJPS and CPS.
+- **Top-cited articles:** 161 come from the 400 most-cited 2006–2026 articles in REP journals (*Journal of Race, Ethnicity, and Politics*, *Politics, Groups, and Identities*, *Du Bois Review*, *Ethnic and Racial Studies*, *Nationalism and Ethnic Politics*, *JEMS*, *International Migration Review*) and race-related articles in APSR, AJPS, JOP, BJPS, *Political Behavior*, POQ, PRQ, APR, *Political Psychology*, *Perspectives on Politics*, ARPS, LSQ, SAPD, QJPS and CPS.
 - **Anchors:** 107 books and classic articles, from Du Bois, Myrdal, Key and Allport to Dawson, Mendelberg, Masuoka & Junn, Fraga and Vitalis.
 
 Every anchor and library seed was checked in Crossref. 87 matched directly; 24 books exist in Crossref only through reviews of them. One-line claims for non-library works are my summaries, not re-read this session.

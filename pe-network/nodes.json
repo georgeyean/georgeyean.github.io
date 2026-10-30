@@ -18,7 +18,7 @@
    "seed_from_papers_json": 15,
    "crossref_top_cited": 165,
    "anchors_supplement": 127,
-   "relation_edges": 317,
+   "relation_edges": 304,
    "membership_edges": 439
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -1555,7 +1555,7 @@
   {
    "id": "hicken2011",
    "type": "work",
-   "label": "Allen Hicken 2011",
+   "label": "Hicken 2011",
    "authors": "Allen Hicken",
    "year": 2011,
    "journal": "Annual Review of Political Science",

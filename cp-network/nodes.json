@@ -18,7 +18,7 @@
    "seed_from_papers_json": 53,
    "crossref_top_cited": 154,
    "anchors_supplement": 52,
-   "relation_edges": 251,
+   "relation_edges": 247,
    "membership_edges": 411
   },
   "verification": "Repo works come from the user's Zotero library. Works shared with the IPE, security and IR maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref (books often via reviews, chapters or reprint DOIs). One-line claims for non-repo works are my summaries."
@@ -3845,7 +3845,7 @@
   {
    "id": "hicken2011",
    "type": "work",
-   "label": "Allen Hicken 2011",
+   "label": "Hicken 2011",
    "authors": "Allen Hicken",
    "year": 2011,
    "journal": "Annual Review of Political Science",
@@ -4615,7 +4615,7 @@
   {
    "id": "tripp2008",
    "type": "work",
-   "label": "Aili Mari Tripp 2007",
+   "label": "Tripp 2007",
    "authors": "Aili Mari Tripp & Alice Kang",
    "year": 2007,
    "journal": "Comparative Political Studies",

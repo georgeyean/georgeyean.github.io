@@ -18,7 +18,7 @@
    "seed_from_papers_json": 102,
    "crossref_top_cited": 92,
    "anchors_supplement": 24,
-   "relation_edges": 237,
+   "relation_edges": 233,
    "membership_edges": 373
   },
   "verification": "Repo works come from the user's Zotero library. Works shared with the IPE and security maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref (books often via reviews, chapters or reprint DOIs). One-line claims for non-repo works are my summaries."
@@ -1105,7 +1105,7 @@
   {
    "id": "mitchellhensel2007",
    "type": "work",
-   "label": "McLaughlin Mitchell 2007",
+   "label": "Mitchell 2007",
    "authors": "Sara McLaughlin Mitchell & Paul R. Hensel",
    "year": 2007,
    "journal": "AJPS",
@@ -3348,7 +3348,7 @@
   {
    "id": "mattern2016",
    "type": "work",
-   "label": "Mattern 2016",
+   "label": "Bially Mattern 2016",
    "authors": "Janice Bially Mattern & Ayşe Zarakol",
    "year": 2016,
    "journal": "IO",
@@ -4275,10 +4275,10 @@
    "why": "Both recover voices excluded from the IR canon."
   },
   {
-   "source": "maliniak2013",
-   "target": "owens2018",
-   "type": "synthesizes",
-   "why": "Gender gaps in IR's citations and canon (Maliniak predates)."
+   "source": "owens2018",
+   "target": "maliniak2013",
+   "type": "builds_on",
+   "why": "Gender and the IR canon."
   },
   {
    "source": "hbnetwork2009",
@@ -4299,10 +4299,10 @@
    "why": "Behavioral findings as foundations of strategic models."
   },
   {
-   "source": "drezner2020",
-   "target": "lake2021",
+   "source": "lake2021",
+   "target": "drezner2020",
    "type": "synthesizes",
-   "why": "COVID and the order's existing trends."
+   "why": "Places the argument that COVID-19 reinforced existing trends within the broader challenges facing the liberal order."
   },
   {
    "source": "mercer2005",
@@ -4474,9 +4474,9 @@
   },
   {
    "source": "vaubel2006",
-   "target": "hawkins2006",
-   "type": "synthesizes",
-   "why": "Agency slack in IO bureaucracies (Vaubel predates)."
+   "target": "nielson2003",
+   "type": "challenges",
+   "why": "A public-choice account in which IO bureaucracies' agency slack is pervasive and hard for principals to curb, against the view that principals can rein in IO agents."
   },
   {
    "source": "downs1996",
@@ -4611,10 +4611,10 @@
    "why": "Shaming works with local INGO presence."
   },
   {
-   "source": "lebovicvoeten2006",
-   "target": "hb2008",
-   "type": "synthesizes",
-   "why": "Politics of UN shaming (Lebovic-Voeten predates)."
+   "source": "hb2008",
+   "target": "lebovicvoeten2006",
+   "type": "builds_on",
+   "why": "The effects of UN naming and shaming."
   },
   {
    "source": "powellstaton2009",
@@ -4703,8 +4703,8 @@
   {
    "source": "goodliffe2009",
    "target": "kelley2007",
-   "type": "synthesizes",
-   "why": "Dependence networks shape ICC positions."
+   "type": "qualifies",
+   "why": "Dependence networks and allies' positions, not only states' regard for their commitments, shape stances on the ICC."
   },
   {
    "source": "simmonsdanner2010",
@@ -4899,16 +4899,10 @@
    "why": "Enforced transparency improves performance."
   },
   {
-   "source": "lebovicvoeten2006",
-   "target": "stone2008",
-   "type": "synthesizes",
-   "why": "Power politics inside UN human rights bodies."
-  },
-  {
    "source": "termanbyun2022",
    "target": "stone2008",
-   "type": "synthesizes",
-   "why": "Geopolitics in peer review."
+   "type": "builds_on",
+   "why": "Geopolitical alignment shapes who is punished in UN peer review, much as powerful states' interests shape IO decisions."
   },
   {
    "source": "zurn2018",
@@ -4953,10 +4947,10 @@
    "why": "Multilateralism erodes representation."
   },
   {
-   "source": "bernstein2011",
-   "target": "tallbergzurn2019",
-   "type": "synthesizes",
-   "why": "Legitimacy beyond intergovernmental settings (Bernstein predates)."
+   "source": "tallbergzurn2019",
+   "target": "bernstein2011",
+   "type": "builds_on",
+   "why": "The legitimacy of international and transnational governance."
   },
   {
    "source": "tallberg2016",
@@ -4971,16 +4965,16 @@
    "why": "States assess Council legitimacy procedurally."
   },
   {
-   "source": "voeten2005",
-   "target": "thompson2006",
-   "type": "synthesizes",
-   "why": "Security Council approval as information (contemporaneous)."
+   "source": "thompson2006",
+   "target": "voeten2005",
+   "type": "builds_on",
+   "why": "Security Council approval as information."
   },
   {
-   "source": "thompson2006",
-   "target": "fang2008",
-   "type": "synthesizes",
-   "why": "IO approval informs publics (contemporaneous)."
+   "source": "fang2008",
+   "target": "thompson2006",
+   "type": "builds_on",
+   "why": "IO approval informs publics."
   },
   {
    "source": "grieco2011",
@@ -5091,10 +5085,10 @@
    "why": "Fragmentation of IGO networks is overstated."
   },
   {
-   "source": "vabulas2013",
-   "target": "morsekeohane2014",
-   "type": "synthesizes",
-   "why": "Informal bodies as alternatives (Vabulas predates)."
+   "source": "morsekeohane2014",
+   "target": "vabulas2013",
+   "type": "builds_on",
+   "why": "Informal bodies as tools of contested multilateralism."
   },
   {
    "source": "abbott2016",
@@ -5127,10 +5121,10 @@
    "why": "Costs of withdrawal for cooperation."
   },
   {
-   "source": "schmidt2023",
-   "target": "schmidt2025",
-   "type": "synthesizes",
-   "why": "Withdrawal sparks and spillovers (same research program)."
+   "source": "schmidt2025",
+   "target": "schmidt2023",
+   "type": "builds_on",
+   "why": "Withdrawal from IOs and its spillovers."
   },
   {
    "source": "allee2012",
@@ -5397,10 +5391,10 @@
    "why": "Order seen from regional worlds."
   },
   {
-   "source": "hooghe2019",
-   "target": "borzel2021",
+   "source": "borzel2021",
+   "target": "hooghe2019",
    "type": "synthesizes",
-   "why": "Contestation as a function of authority (Hooghe predates)."
+   "why": "Contestation as a function of international authority."
   },
   {
    "source": "kertzerzeitzoff2017",
@@ -5415,10 +5409,10 @@
    "why": "Elite cues and their limits."
   },
   {
-   "source": "kertzer2014moral",
-   "target": "rathbun2016",
-   "type": "synthesizes",
-   "why": "Values and morals as foundations of FP attitudes (Kertzer predates)."
+   "source": "rathbun2016",
+   "target": "kertzer2014moral",
+   "type": "builds_on",
+   "why": "Values and morals as foundations of foreign-policy attitudes."
   },
   {
    "source": "baumpotter2019",
@@ -5439,28 +5433,16 @@
    "why": "Public diplomacy shapes foreign opinion."
   },
   {
-   "source": "kupchan2007",
-   "target": "rathbun2016",
-   "type": "synthesizes",
-   "why": "Partisanship in internationalism."
+   "source": "rathbun2016",
+   "target": "kupchan2007",
+   "type": "qualifies",
+   "why": "Partisan internationalism grounded in values."
   },
   {
-   "source": "dellmuth2022",
-   "target": "guisinger2017",
-   "type": "synthesizes",
-   "why": "Elite-citizen differences in views on IOs."
-  },
-  {
-   "source": "wallace2013",
-   "target": "chaudoin2014",
-   "type": "synthesizes",
+   "source": "chaudoin2014",
+   "target": "wallace2013",
+   "type": "builds_on",
    "why": "International law cues and public attitudes."
-  },
-  {
-   "source": "keohanevictor2011",
-   "target": "battig2009",
-   "type": "synthesizes",
-   "why": "Institutional fragmentation and national commitments."
   },
   {
    "source": "vonstein2008",
@@ -5469,9 +5451,9 @@
    "why": "Flexibility raises climate commitments."
   },
   {
-   "source": "haleroger2014",
-   "target": "abbott2016",
-   "type": "synthesizes",
+   "source": "abbott2016",
+   "target": "haleroger2014",
+   "type": "builds_on",
    "why": "Orchestration of transnational regulators."
   },
   {
@@ -5499,10 +5481,10 @@
    "why": "Compensation builds climate coalitions."
   },
   {
-   "source": "bechtel2019",
-   "target": "gaikwad2022",
-   "type": "synthesizes",
-   "why": "Interests and norms in climate support (Bechtel predates)."
+   "source": "gaikwad2022",
+   "target": "bechtel2019",
+   "type": "builds_on",
+   "why": "Interests and norms in public support for climate policy."
   },
   {
    "source": "mildenberger2019",
@@ -5512,15 +5494,9 @@
   },
   {
    "source": "battig2009",
-   "target": "pevehouse2002",
+   "target": "mmr2002",
    "type": "extends_to_new_case",
-   "why": "Regime type and international commitments in climate."
-  },
-  {
-   "source": "nielson2003",
-   "target": "mitchell1994",
-   "type": "synthesizes",
-   "why": "Environmental governance through institutional reform."
+   "why": "Tests whether democracies' greater propensity to cooperate internationally extends to climate change policy."
   },
   {
    "source": "keohane2000",
@@ -5561,8 +5537,8 @@
   {
    "source": "pelc2014",
    "target": "lupuvoeten2012",
-   "type": "synthesizes",
-   "why": "Precedent networks in international adjudication."
+   "type": "builds_on",
+   "why": "Applies network analysis of case citations, developed for the ECtHR, to precedent in WTO adjudication."
   },
   {
    "source": "alleehuth2006",
@@ -5589,10 +5565,10 @@
    "why": "Network channels of diffusion."
   },
   {
-   "source": "newman2008",
-   "target": "bach2010",
-   "type": "synthesizes",
-   "why": "Transgovernmental entrepreneurs (Newman predates)."
+   "source": "bach2010",
+   "target": "newman2008",
+   "type": "builds_on",
+   "why": "Transgovernmental networks and entrepreneurs."
   },
   {
    "source": "gleditschward2006",

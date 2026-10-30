@@ -1089,8 +1089,8 @@
    "why": "Architecture shapes the public sphere."
   },
   {
-   "source": "echo",
-   "target": "networked",
+   "source": "networked",
+   "target": "echo",
    "type": "rivals",
    "why": "Fragmentation versus a richer public sphere."
   },
@@ -1131,8 +1131,8 @@
    "why": "Information manipulation as autocratic strategy."
   },
   {
-   "source": "censorship",
-   "target": "infoauto",
+   "source": "infoauto",
+   "target": "censorship",
    "type": "complements",
    "why": "Mechanisms of informational control."
   },
@@ -1167,8 +1167,8 @@
    "why": "Opaque algorithmic power."
   },
   {
-   "source": "contextual",
-   "target": "surveillancecap",
+   "source": "surveillancecap",
+   "target": "contextual",
    "type": "rivals",
    "why": "Normative standard against extraction."
   },
@@ -1221,8 +1221,8 @@
    "why": "Code governs bureaucratic discretion."
   },
   {
-   "source": "systemlevel",
-   "target": "oppression",
+   "source": "oppression",
+   "target": "systemlevel",
    "type": "complements",
    "why": "Automated welfare harms the poor."
   },
@@ -1245,8 +1245,8 @@
    "why": "Technology and great-power competition."
   },
   {
-   "source": "divide",
-   "target": "networked",
+   "source": "networked",
+   "target": "divide",
    "type": "rivals",
    "why": "Unequal access and skills."
   },
@@ -1257,8 +1257,8 @@
    "why": "Manipulation exploits fragmentation."
   },
   {
-   "source": "compprop",
-   "target": "infoauto",
+   "source": "infoauto",
+   "target": "compprop",
    "type": "complements",
    "why": "Manipulation in democracies and autocracies."
   }

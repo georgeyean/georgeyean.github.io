@@ -18,7 +18,7 @@
    "seed_from_papers_json": 41,
    "crossref_top_cited": 268,
    "anchors_supplement": 98,
-   "relation_edges": 449,
+   "relation_edges": 437,
    "membership_edges": 661
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other six maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -7809,12 +7809,6 @@
   },
   {
    "source": "otsukavoorhoeve2009",
-   "target": "frankfurt1987",
-   "type": "synthesizes",
-   "why": "Priority and the worse off."
-  },
-  {
-   "source": "otsukavoorhoeve2009",
    "target": "brighouseswift2006",
    "type": "synthesizes",
    "why": "Positional goods and priority."
@@ -7828,8 +7822,8 @@
   {
    "source": "satz2007",
    "target": "anderson2007",
-   "type": "synthesizes",
-   "why": "Educational adequacy for citizenship."
+   "type": "builds_on",
+   "why": "Develops a citizenship-based adequacy standard for education parallel to Anderson's democratic-equality view."
   },
   {
    "source": "robeyns2022",
@@ -7863,9 +7857,9 @@
   },
   {
    "source": "mankiw2013",
-   "target": "cohen1992",
+   "target": "rawls1971",
    "type": "challenges",
-   "why": "Just deserts for top earners."
+   "why": "Defends high top incomes on just-deserts grounds against Rawlsian redistributive egalitarianism."
   },
   {
    "source": "vallentyne2008",
@@ -8074,8 +8068,8 @@
   {
    "source": "connolly1974",
    "target": "macintyre1971",
-   "type": "synthesizes",
-   "why": "Meanings constitute political concepts (thematic link)."
+   "type": "builds_on",
+   "why": "Draws on MacIntyre's argument that political concepts carry contested, culturally embedded meanings that defeat a neutral science of politics."
   },
   {
    "source": "connolly1974",
@@ -8648,22 +8642,10 @@
    "why": "Representing discourses."
   },
   {
-   "source": "waldron1999",
-   "target": "pitkin1967",
-   "type": "builds_on",
-   "why": "Dignity of legislation."
-  },
-  {
    "source": "achenbartels2016",
    "target": "pitkin1967",
    "type": "challenges",
    "why": "Elections do not deliver representation."
-  },
-  {
-   "source": "hirschman1970",
-   "target": "pitkin1967",
-   "type": "synthesizes",
-   "why": "Voice and exit as representation (thematic link)."
   },
   {
    "source": "dahl1985",
@@ -8741,7 +8723,7 @@
    "source": "estlund2008",
    "target": "peter2007",
    "type": "synthesizes",
-   "why": "Proceduralist social epistemology (contemporaneous)."
+   "why": "Estlund's epistemic proceduralism and Peter's proceduralist social epistemology are rival accounts of how democratic procedures earn legitimacy."
   },
   {
    "source": "landemorepage2015",
@@ -8824,14 +8806,8 @@
   {
    "source": "sunsteinvermeule2009",
    "target": "anderson2006",
-   "type": "synthesizes",
-   "why": "Crippled epistemologies (thematic link)."
-  },
-  {
-   "source": "brennan2016",
-   "target": "bickertonaccetti2017",
-   "type": "synthesizes",
-   "why": "Technocracy and populism."
+   "type": "qualifies",
+   "why": "Shows how informationally isolated groups form conspiracy beliefs, a limit on optimism about democracy's collective epistemic powers."
   },
   {
    "source": "pettit1997",
@@ -9422,12 +9398,6 @@
    "why": "Red Skin, White Masks."
   },
   {
-   "source": "mehta1999",
-   "target": "pocock1975",
-   "type": "challenges",
-   "why": "Liberalism and empire."
-  },
-  {
    "source": "pitts2005",
    "target": "mehta1999",
    "type": "builds_on",
@@ -9531,9 +9501,9 @@
   },
   {
    "source": "mantena2012",
-   "target": "mehta1999",
-   "type": "synthesizes",
-   "why": "Gandhi's critique of the state."
+   "target": "mehta2010",
+   "type": "builds_on",
+   "why": "Extends recent readings of Gandhi as a political thinker by reconstructing his critique of the modern state."
   },
   {
    "source": "pateman1988",
@@ -9627,9 +9597,9 @@
   },
   {
    "source": "dougherty2015",
-   "target": "okin1989",
+   "target": "kukla2014",
    "type": "synthesizes",
-   "why": "Consent as communication (thematic link)."
+   "why": "Treats sexual consent as a communicative act, connecting to Kukla's account of how social position shapes the uptake of speech acts."
   },
   {
    "source": "woodly2021",
@@ -9704,12 +9674,6 @@
    "why": "Communitarian critique (contemporaneous)."
   },
   {
-   "source": "renan1882",
-   "target": "rousseau1755",
-   "type": "synthesizes",
-   "why": "Nation as voluntary community (thematic link)."
-  },
-  {
    "source": "miller1995",
    "target": "renan1882",
    "type": "builds_on",
@@ -9779,7 +9743,7 @@
    "source": "bejan2016",
    "target": "jones2006",
    "type": "synthesizes",
-   "why": "Hobbes on toleration (thematic link)."
+   "why": "Recovers Hobbes's account of toleration as indifference to difference, complicating contemporary contrasts between toleration and recognition."
   },
   {
    "source": "donaldsonkymlicka2011",
@@ -9800,12 +9764,6 @@
    "why": "Contextualist history of republicanism."
   },
   {
-   "source": "arendt1958",
-   "target": "rousseau1755",
-   "type": "challenges",
-   "why": "Politics as action, not social question."
-  },
-  {
    "source": "berlin1958",
    "target": "rousseau1755",
    "type": "challenges",
@@ -9813,9 +9771,9 @@
   },
   {
    "source": "jacobsohn2006",
-   "target": "skinner1969",
-   "type": "synthesizes",
-   "why": "Constitutional identity in context (thematic link)."
+   "target": "habermas1996",
+   "type": "qualifies",
+   "why": "Treats constitutional identity as emerging from a constitution's dialogue with inherited commitments, qualifying a purely procedural constitutional patriotism."
   },
   {
    "source": "finlayson2010",
@@ -9878,24 +9836,6 @@
    "why": "African moral theory."
   },
   {
-   "source": "getachew2019",
-   "target": "march2009",
-   "type": "synthesizes",
-   "why": "Global intellectual history of anticolonialism."
-  },
-  {
-   "source": "muller2006",
-   "target": "skinner1969",
-   "type": "synthesizes",
-   "why": "Intellectual history of constitutional patriotism."
-  },
-  {
-   "source": "hewarren2011",
-   "target": "march2009",
-   "type": "synthesizes",
-   "why": "Deliberation in Chinese politics."
-  },
-  {
    "source": "bell2014",
    "target": "skinner1969",
    "type": "builds_on",
@@ -9904,8 +9844,8 @@
   {
    "source": "lukes1974",
    "target": "arendt1958",
-   "type": "synthesizes",
-   "why": "Power reconsidered (thematic link)."
+   "type": "challenges",
+   "why": "Sets its conflictual, interest-based view of power against Arendt's consensual conception of power as acting in concert."
   },
   {
    "source": "gaventa1980",
@@ -10005,15 +9945,9 @@
   },
   {
    "source": "raekstad2018",
-   "target": "mouffe2000",
-   "type": "synthesizes",
-   "why": "Prefigurative politics."
-  },
-  {
-   "source": "raekstad2018",
    "target": "vandesande2013",
-   "type": "synthesizes",
-   "why": "Tahrir as prefiguration (thematic link)."
+   "type": "builds_on",
+   "why": "Clarifies and defends the concept of prefigurative politics that van de Sande applied to Tahrir Square."
   },
   {
    "source": "washick2015",
@@ -10038,12 +9972,6 @@
    "target": "lukes1974",
    "type": "builds_on",
    "why": "Ideology and the third face of power."
-  },
-  {
-   "source": "mackinnon1982",
-   "target": "lukes1974",
-   "type": "synthesizes",
-   "why": "Consciousness and power (thematic link)."
   },
   {
    "source": "connolly1974",
@@ -10217,7 +10145,7 @@
    "source": "ciepley2013",
    "target": "pettit2007",
    "type": "synthesizes",
-   "why": "Corporate responsibility (earlier, thematic)."
+   "why": "Treats the corporation as a political entity, connecting to Pettit's account of corporate agents as bearers of responsibility."
   },
   {
    "source": "muldoonraekstad2023",
@@ -10317,9 +10245,9 @@
   },
   {
    "source": "schlosbergcoles2016",
-   "target": "young2011",
-   "type": "synthesizes",
-   "why": "Everyday environmentalism."
+   "target": "washick2015",
+   "type": "builds_on",
+   "why": "Applies new materialist thinking about matter and material flows to everyday sustainability movements."
   },
   {
    "source": "celermajer2021",

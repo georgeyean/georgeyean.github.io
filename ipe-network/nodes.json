@@ -17,7 +17,7 @@
    "theme_nodes": 19,
    "seed_from_papers_json": 98,
    "supplement": 165,
-   "relation_edges": 367,
+   "relation_edges": 359,
    "membership_edges": 410,
    "added_by_coverage_audit": 70
   },
@@ -2726,7 +2726,7 @@
   {
    "id": "bauerle2023",
    "type": "work",
-   "label": "Danzman 2023",
+   "label": "Bauerle Danzman 2023",
    "authors": "Sarah Bauerle Danzman & Sophie Meunier",
    "year": 2023,
    "journal": "Global Policy",

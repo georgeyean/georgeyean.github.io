@@ -18,10 +18,10 @@
    "seed_from_papers_json": 83,
    "crossref_top_cited": 150,
    "anchors_supplement": 29,
-   "relation_edges": 283,
+   "relation_edges": 277,
    "membership_edges": 424
   },
-  "verification": "Repo works come from the user's Zotero library. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors were checked in Crossref separately; see each node's `verified` field. All one-line claims for non-repo works are my summaries."
+  "verification": "Repo works come from the user's Zotero library. The 150 Crossref-selected works take title, authors, year, venue and DOI from Crossref records. The 29 anchors were looked up in Crossref: 28 confirmed (books often via reviews or reprint DOIs); Waltz 1979 has no Crossref record. Repo entries with missing titles or authors were corrected from Crossref. All one-line claims for non-repo works are my summaries."
  },
  "edges": [
   {
@@ -79,10 +79,10 @@
    "why": "Two-sided misperception documented in the US-Iraq relationship."
   },
   {
-   "source": "lake2010",
-   "target": "duelfer2011",
+   "source": "duelfer2011",
+   "target": "lake2010",
    "type": "synthesizes",
-   "why": "Both read Iraq through misperception rather than pure bargaining (contemporaneous)."
+   "why": "Misperception in the Iraq war."
   },
   {
    "source": "toft2006",
@@ -223,10 +223,10 @@
    "why": "Autocratic audience costs measured among Chinese citizens."
   },
   {
-   "source": "quek2018",
-   "target": "weissdafoe2019",
+   "source": "weissdafoe2019",
+   "target": "quek2018",
    "type": "builds_on",
-   "why": "Face-saving tactics let Chinese leaders back down despite nationalist publics."
+   "why": "Face-saving rhetoric lets leaders back down despite nationalist audiences."
   },
   {
    "source": "downes2012",
@@ -277,10 +277,10 @@
    "why": "Gender gap in support for force as a democratic-peace mechanism."
   },
   {
-   "source": "gartzke2007",
-   "target": "tomzweeks2013",
+   "source": "tomzweeks2013",
+   "target": "gartzke2007",
    "type": "challenges",
-   "why": "Capitalism, not democracy, explains liberal peace (Gartzke predates)."
+   "why": "Survey experiments show a democratic peace beyond capitalism."
   },
   {
    "source": "dafoe2011",
@@ -289,10 +289,10 @@
    "why": "The democratic peace survives statistical critiques including the capitalist-peace challenge."
   },
   {
-   "source": "gibler2007",
-   "target": "dafoe2011",
+   "source": "dafoe2011",
+   "target": "gibler2007",
    "type": "challenges",
-   "why": "Settled borders produce both democracy and peace (Gibler predates)."
+   "why": "The democratic peace survives statistical critiques, including territorial-peace controls."
   },
   {
    "source": "weeks2012",
@@ -301,10 +301,10 @@
    "why": "Autocratic subtypes differ in conflict initiation, not just signaling."
   },
   {
-   "source": "debsgoemans2010",
-   "target": "weeks2012",
-   "type": "synthesizes",
-   "why": "Leader fates by regime type shape war choices (Debs-Goemans predates)."
+   "source": "weeks2012",
+   "target": "debsgoemans2010",
+   "type": "builds_on",
+   "why": "Leader fates by regime type shape war choices."
   },
   {
    "source": "colgan2013wp",
@@ -403,10 +403,10 @@
    "why": "Coercion logic applied to cyber, with revealing-capability problems."
   },
   {
-   "source": "walter2006",
-   "target": "crescenzi2007",
-   "type": "extends_to_new_case",
-   "why": "Reputation building applied to governments facing separatists."
+   "source": "crescenzi2007",
+   "target": "walter2006",
+   "type": "builds_on",
+   "why": "Reputation dynamics in conflict."
   },
   {
    "source": "sagan1996",
@@ -615,8 +615,8 @@
   {
    "source": "alley2021",
    "target": "beckley2015",
-   "type": "synthesizes",
-   "why": "Costs of US alliances smaller than critics claim."
+   "type": "builds_on",
+   "why": "Adds evidence that U.S. alliances cost less than critics claim, extending Beckley's case against the entanglement critique."
   },
   {
    "source": "rathbun2011",
@@ -685,10 +685,10 @@
    "why": "Hegemonic orders as dynamic and contested."
   },
   {
-   "source": "allan2018",
-   "target": "ikenberrynexon2019",
+   "source": "ikenberrynexon2019",
+   "target": "allan2018",
    "type": "synthesizes",
-   "why": "Identity distribution shapes hegemonic prospects (Allan predates)."
+   "why": "Identity and the prospects of hegemonic order."
   },
   {
    "source": "brooks2013",
@@ -715,10 +715,10 @@
    "why": "Primacy persists from establishment habit, not strategic merit."
   },
   {
-   "source": "silove2018",
-   "target": "porter2018",
-   "type": "synthesizes",
-   "why": "Clarifies what grand strategy means in such debates."
+   "source": "porter2018",
+   "target": "silove2018",
+   "type": "builds_on",
+   "why": "What grand strategy means."
   },
   {
    "source": "mearsheimer2019",
@@ -835,22 +835,10 @@
    "why": "Technological complexity sustains the US military lead."
   },
   {
-   "source": "weissdafoe2019",
-   "target": "fravel2008",
-   "type": "synthesizes",
-   "why": "Domestic audiences and Chinese crisis behavior."
-  },
-  {
    "source": "lin2024",
    "target": "larson2010",
    "type": "builds_on",
    "why": "Chinese status seeking traced in official statements."
-  },
-  {
-   "source": "greitens2020",
-   "target": "pearson2022",
-   "type": "synthesizes",
-   "why": "Securitization of governance at home and in the economy (contemporaneous)."
   },
   {
    "source": "pearson2022",
@@ -898,7 +886,7 @@
    "source": "avey2022",
    "target": "schub2022",
    "type": "synthesizes",
-   "why": "How officials use expertise and information (contemporaneous program)."
+   "why": "Both study how expert information reaches policymakers; Avey et al. survey whether national-security officials use academic research."
   },
   {
    "source": "mercer2005",
@@ -913,16 +901,10 @@
    "why": "Leader insecurity drives territorial diversion."
   },
   {
-   "source": "koch2011",
-   "target": "horowitzstam2014",
-   "type": "synthesizes",
-   "why": "Leader characteristics and defense policy (Koch predates)."
-  },
-  {
-   "source": "gelpi2006",
-   "target": "karol2007",
-   "type": "synthesizes",
-   "why": "Casualty sensitivity conditional on success and its electoral cost (contemporaneous)."
+   "source": "karol2007",
+   "target": "gelpi2006",
+   "type": "builds_on",
+   "why": "The electoral cost of casualties."
   },
   {
    "source": "berinsky2007",
@@ -1009,10 +991,10 @@
    "why": "Border fortification as state-building."
   },
   {
-   "source": "fearonlaitin2003",
-   "target": "collier2004",
+   "source": "collier2004",
+   "target": "fearonlaitin2003",
    "type": "synthesizes",
-   "why": "Both stress opportunity over grievance (contemporaneous)."
+   "why": "Opportunity over grievance in civil war onset."
   },
   {
    "source": "hegresambanis2006",
@@ -1117,10 +1099,10 @@
    "why": "Organization vs control as explanations of violence (contemporaneous)."
   },
   {
-   "source": "humphreysweinstein2006",
-   "target": "weinstein2007",
-   "type": "mechanism_tested_by",
-   "why": "Organization and recruitment shape abuse."
+   "source": "weinstein2007",
+   "target": "humphreysweinstein2006",
+   "type": "builds_on",
+   "why": "Organization and recruitment shape rebel abuse."
   },
   {
    "source": "humphreysweinstein2008",
@@ -1227,8 +1209,8 @@
   {
    "source": "zhukov2023",
    "target": "lyall2009",
-   "type": "synthesizes",
-   "why": "Repression has non-monotonic effects on rebellion."
+   "type": "qualifies",
+   "why": "Shows indiscriminate repression suppresses rebellion only at extreme intensity and backfires in moderation."
   },
   {
    "source": "cohen2013apsr",
@@ -1387,12 +1369,6 @@
    "why": "Outbidding under democratic competition."
   },
   {
-   "source": "johnston2012",
-   "target": "jordan2014",
-   "type": "challenges",
-   "why": "Decapitation helps counterinsurgency campaigns (Johnston predates)."
-  },
-  {
    "source": "jordan2014",
    "target": "johnston2012",
    "type": "challenges",
@@ -1507,16 +1483,16 @@
    "why": "ICC involvement can prolong wars."
   },
   {
-   "source": "kimsikkink2010",
-   "target": "josimmons2016",
-   "type": "synthesizes",
-   "why": "Prosecutions deter abuses (Kim-Sikkink predates)."
+   "source": "josimmons2016",
+   "target": "kimsikkink2010",
+   "type": "builds_on",
+   "why": "Prosecutions deter abuses."
   },
   {
    "source": "carpenter2011",
    "target": "morrow2007",
    "type": "builds_on",
-   "why": "Advocacy networks shape weapons norms."
+   "why": "Moves from when states comply with the laws of war to which new weapons norms advocacy networks choose to promote."
   },
   {
    "source": "mearsheimer1994",
@@ -1539,8 +1515,8 @@
   {
    "source": "colgan2013",
    "target": "collier2004",
-   "type": "builds_on",
-   "why": "Oil's many pathways to international conflict."
+   "type": "extends_to_new_case",
+   "why": "Carries the resource-conflict argument from civil war onset to international conflict through oil."
   },
   {
    "source": "glaser2013",
@@ -1561,10 +1537,10 @@
    "why": "Petro-alignment between great powers and oil states."
   },
   {
-   "source": "brooks1999",
-   "target": "mearsheimer2001",
+   "source": "mearsheimer2001",
+   "target": "brooks1999",
    "type": "challenges",
-   "why": "Globalized production lowers the benefits of conquest."
+   "why": "Great powers still seek hegemony despite economic interdependence."
   },
   {
    "source": "hegre2010",
@@ -1573,10 +1549,10 @@
    "why": "Trade promotes peace in simultaneous estimates."
   },
   {
-   "source": "maoz2009",
-   "target": "hegre2010",
-   "type": "synthesizes",
-   "why": "Network interdependence and conflict (Maoz predates)."
+   "source": "hegre2010",
+   "target": "maoz2009",
+   "type": "builds_on",
+   "why": "Network interdependence and conflict."
   },
   {
    "source": "farrellnewman2019",
@@ -1591,22 +1567,16 @@
    "why": "Weaponization fears drive economic security dilemmas."
   },
   {
-   "source": "casler2021",
-   "target": "farrellnewman2019",
-   "type": "synthesizes",
-   "why": "Trade coercion has domestic political limits (contemporaneous)."
-  },
-  {
    "source": "nordhaus2012",
    "target": "jervis1978",
    "type": "mechanism_tested_by",
    "why": "Spending responds to threat environments."
   },
   {
-   "source": "caverley2007",
-   "target": "brooks2013",
-   "type": "synthesizes",
-   "why": "Defense-industrial hegemony underpins US primacy (Caverley predates)."
+   "source": "brooks2013",
+   "target": "caverley2007",
+   "type": "builds_on",
+   "why": "The defense-industrial base behind US primacy."
   },
   {
    "source": "allen2013",
@@ -1621,22 +1591,22 @@
    "why": "Cumulative gains explain where cooperation fails."
   },
   {
-   "source": "hudson2009",
-   "target": "barnhart2020",
-   "type": "synthesizes",
-   "why": "Women's security and state peacefulness (Hudson predates)."
-  },
-  {
-   "source": "koch2011",
-   "target": "barnhart2020",
-   "type": "challenges",
-   "why": "Women executives raise, not lower, conflict behavior (Koch predates)."
-  },
-  {
-   "source": "plumper2006",
+   "source": "barnhart2020",
    "target": "hudson2009",
-   "type": "synthesizes",
-   "why": "Gendered costs of war."
+   "type": "builds_on",
+   "why": "Women's status and state peacefulness."
+  },
+  {
+   "source": "barnhart2020",
+   "target": "koch2011",
+   "type": "qualifies",
+   "why": "Women's suffrage, rather than women executives, shapes peacefulness."
+  },
+  {
+   "source": "hudson2009",
+   "target": "plumper2006",
+   "type": "builds_on",
+   "why": "The gendered costs of war."
   },
   {
    "source": "svolik2012",
@@ -1681,22 +1651,16 @@
    "why": "Preventive repression in Xinjiang."
   },
   {
-   "source": "kimsikkink2010",
-   "target": "hilljones2014",
+   "source": "hilljones2014",
+   "target": "kimsikkink2010",
    "type": "synthesizes",
-   "why": "Legal accountability and repression."
+   "why": "Legal accountability among the causes of repression."
   },
   {
    "source": "wendt1992",
    "target": "waltz1979",
    "type": "challenges",
    "why": "Anarchy is what states make of it."
-  },
-  {
-   "source": "jervis1978",
-   "target": "waltz1979",
-   "type": "qualifies",
-   "why": "Offense-defense balance shapes security dilemma severity."
   },
   {
    "source": "lipson1984",

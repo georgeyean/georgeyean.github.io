@@ -1,6 +1,6 @@
 {
 "built": "2026-10-28",
-"total_unique_works": 2723,
+"total_unique_works": 2722,
 "fields": [
 {
 "id": "ap",
@@ -9,7 +9,7 @@
 "color": "#2563eb",
 "works": 385,
 "themes": 18,
-"relations": 415
+"relations": 405
 },
 {
 "id": "cn",
@@ -18,7 +18,7 @@
 "color": "#dc2626",
 "works": 183,
 "themes": 16,
-"relations": 183
+"relations": 178
 },
 {
 "id": "cp",
@@ -27,7 +27,7 @@
 "color": "#7c3aed",
 "works": 259,
 "themes": 18,
-"relations": 251
+"relations": 247
 },
 {
 "id": "env",
@@ -36,7 +36,7 @@
 "color": "#16a34a",
 "works": 252,
 "themes": 17,
-"relations": 251
+"relations": 244
 },
 {
 "id": "ipe",
@@ -45,7 +45,7 @@
 "color": "#ca8a04",
 "works": 263,
 "themes": 19,
-"relations": 367
+"relations": 359
 },
 {
 "id": "ir",
@@ -54,7 +54,7 @@
 "color": "#0891b2",
 "works": 218,
 "themes": 17,
-"relations": 237
+"relations": 233
 },
 {
 "id": "sec",
@@ -63,7 +63,7 @@
 "color": "#78716c",
 "works": 262,
 "themes": 21,
-"relations": 283
+"relations": 277
 },
 {
 "id": "pe",
@@ -72,7 +72,7 @@
 "color": "#b45309",
 "works": 307,
 "themes": 16,
-"relations": 317
+"relations": 304
 },
 {
 "id": "pt",
@@ -81,16 +81,16 @@
 "color": "#db2777",
 "works": 407,
 "themes": 17,
-"relations": 449
+"relations": 437
 },
 {
 "id": "rep",
 "dir": "rep-network",
 "label": "Race, Ethnicity and Politics",
 "color": "#ea580c",
-"works": 361,
+"works": 360,
 "themes": 20,
-"relations": 402
+"relations": 393
 },
 {
 "id": "tech",
@@ -99,7 +99,7 @@
 "color": "#4f46e5",
 "works": 269,
 "themes": 17,
-"relations": 275
+"relations": 261
 }
 ],
 "pairs": [
@@ -530,18 +530,18 @@
 "Industrial policy, economic security & geoeconomics",
 "China's rise & contestation of the liberal order"
 ],
-"degree": 10
+"degree": 9
 },
 "sec": {
 "themes": [
 "Economics of security",
 "US–China rivalry & the Western Pacific balance"
 ],
-"degree": 3
+"degree": 2
 }
 },
 "span": 3,
-"degree": 15
+"degree": 13
 },
 {
 "id": "hainmueller2010",
@@ -784,41 +784,6 @@
 "degree": 7
 },
 {
-"id": "colgan2021",
-"label": "Colgan 2021",
-"title": "Asset Revaluation and the Existential Politics of Climate Change",
-"authors": "Jeff D. Colgan, Jessica F. Green & Thomas N. Hale",
-"year": 2021,
-"journal": "IO",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/PGPKBT8J",
-"claim": "Climate politics is a distributional contest between holders of climate-forcing and climate-vulnerable assets; uneven decarbonization will push trade restrictions that strain the open order.",
-"fields": {
-"env": {
-"themes": [
-"Political economy of climate policy",
-"Natural resources, the resource curse & extractivism"
-],
-"degree": 2
-},
-"ipe": {
-"themes": [
-"Industrial policy, economic security & geoeconomics",
-"IPE's self-critique"
-],
-"degree": 3
-},
-"ir": {
-"themes": [
-"Climate & environmental cooperation"
-],
-"degree": 2
-}
-},
-"span": 3,
-"degree": 7
-},
-{
 "id": "fearonlaitin1996",
 "label": "Fearon 1996",
 "title": "Explaining Interethnic Cooperation",
@@ -1024,35 +989,35 @@
 "degree": 6
 },
 {
-"id": "broz2020china",
-"label": "Broz 2020",
-"title": "Explaining Foreign Support for China's Global Economic Leadership",
-"authors": "J. Lawrence Broz, Zhiwen Zhang & Gaoyang Wang",
-"year": 2020,
+"id": "colgan2021",
+"label": "Colgan 2021",
+"title": "Asset Revaluation and the Existential Politics of Climate Change",
+"authors": "Jeff D. Colgan, Jessica F. Green & Thomas N. Hale",
+"year": 2021,
 "journal": "IO",
 "doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/MGJNY9CI",
-"claim": "Grievances with the US-led order, especially financial instability under capital mobility and IMF voice gaps, push leaders toward China's economic leadership.",
+"zotero": "https://www.zotero.org/georgeyean/items/PGPKBT8J",
+"claim": "Climate politics is a distributional contest between holders of climate-forcing and climate-vulnerable assets; uneven decarbonization will push trade restrictions that strain the open order.",
 "fields": {
-"cn": {
+"env": {
 "themes": [
-"China in the world"
+"Political economy of climate policy",
+"Natural resources, the resource curse & extractivism"
 ],
 "degree": 2
 },
 "ipe": {
 "themes": [
-"China's rise & contestation of the liberal order",
-"IMF, World Bank & informal governance"
+"Industrial policy, economic security & geoeconomics",
+"IPE's self-critique"
 ],
-"degree": 3
+"degree": 2
 },
 "ir": {
 "themes": [
-"International order, hierarchy & contestation",
-"Legitimacy, politicization & accountability of global governance"
+"Climate & environmental cooperation"
 ],
-"degree": 1
+"degree": 2
 }
 },
 "span": 3,
@@ -1126,39 +1091,6 @@
 "degree": 5
 },
 {
-"id": "ashworth2012",
-"label": "Ashworth 2012",
-"title": "Electoral Accountability: Recent Theoretical and Empirical Work",
-"authors": "Scott Ashworth",
-"year": 2012,
-"journal": "Annual Review of Political Science",
-"doi": "10.1146/annurev-polisci-031710-103823",
-"zotero": null,
-"claim": "Electoral accountability involves both selection and sanctioning, which empirical work often conflates.",
-"fields": {
-"ap": {
-"themes": [
-"Campaigns, elections & accountability"
-],
-"degree": 2
-},
-"cp": {
-"themes": [
-"Clientelism, distributive politics & accountability"
-],
-"degree": 2
-},
-"pe": {
-"themes": [
-"Political agency, accountability & selection"
-],
-"degree": 1
-}
-},
-"span": 3,
-"degree": 5
-},
-{
 "id": "achenbartels2016",
 "label": "Achen 2016",
 "title": "Democracy for Realists: Why Elections Do Not Produce Responsive Government",
@@ -1195,36 +1127,35 @@
 "degree": 5
 },
 {
-"id": "greitens2020",
-"label": "Greitens 2020",
-"title": "Counterterrorism and Preventive Repression: China's Changing Strategy in Xinjiang",
-"authors": "Sheena Chestnut Greitens, Myunghee Lee & Emir Yazici",
+"id": "broz2020china",
+"label": "Broz 2020",
+"title": "Explaining Foreign Support for China's Global Economic Leadership",
+"authors": "J. Lawrence Broz, Zhiwen Zhang & Gaoyang Wang",
 "year": 2020,
-"journal": "International Security",
-"doi": "10.1162/isec_a_00368",
-"zotero": null,
-"claim": "China's Xinjiang repression shifted to preventive mass detention after it perceived transnational jihadist threats.",
+"journal": "IO",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/MGJNY9CI",
+"claim": "Grievances with the US-led order, especially financial instability under capital mobility and IMF voice gaps, push leaders toward China's economic leadership.",
 "fields": {
 "cn": {
 "themes": [
-"Repression, surveillance & the security state",
-"Hong Kong, Taiwan, Xinjiang & ethnic politics"
-],
-"degree": 2
-},
-"cp": {
-"themes": [
-"Chinese politics",
-"Authoritarian institutions & regime survival"
+"China in the world"
 ],
 "degree": 1
 },
-"sec": {
+"ipe": {
 "themes": [
-"US–China rivalry & the Western Pacific balance",
-"Coups, repression & internal security"
+"China's rise & contestation of the liberal order",
+"IMF, World Bank & informal governance"
 ],
-"degree": 2
+"degree": 3
+},
+"ir": {
+"themes": [
+"International order, hierarchy & contestation",
+"Legitimacy, politicization & accountability of global governance"
+],
+"degree": 1
 }
 },
 "span": 3,
@@ -1264,32 +1195,31 @@
 "degree": 5
 },
 {
-"id": "funke2016",
-"label": "Funke 2016",
-"title": "Going to Extremes: Politics after Financial Crises, 1870-2014",
-"authors": "Manuel Funke, Moritz Schularick & Christoph Trebesch",
-"year": 2016,
-"journal": "European Economic Review",
-"doi": "10.2139/ssrn.2688897",
+"id": "ashworth2012",
+"label": "Ashworth 2012",
+"title": "Electoral Accountability: Recent Theoretical and Empirical Work",
+"authors": "Scott Ashworth",
+"year": 2012,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev-polisci-031710-103823",
 "zotero": null,
-"claim": "Financial crises, unlike ordinary recessions, raise far-right vote shares by about 30 percent and fragment legislatures for roughly five years.",
+"claim": "Electoral accountability involves both selection and sanctioning, which empirical work often conflates.",
 "fields": {
-"cp": {
+"ap": {
 "themes": [
-"Populism & the radical right"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"Exchange rates, sovereign debt & financial crises",
-"Globalization backlash, China shock & populism"
+"Campaigns, elections & accountability"
 ],
 "degree": 2
 },
+"cp": {
+"themes": [
+"Clientelism, distributive politics & accountability"
+],
+"degree": 1
+},
 "pe": {
 "themes": [
-"Finance, crises & financialization"
+"Political agency, accountability & selection"
 ],
 "degree": 1
 }
@@ -1333,41 +1263,6 @@
 "degree": 4
 },
 {
-"id": "lipscy2018",
-"label": "Lipscy 2018",
-"title": "Democracy and Financial Crisis",
-"authors": "Phillip Y. Lipscy",
-"year": 2018,
-"journal": "IO",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/XJTNLH7Y",
-"claim": "Democracies are more prone to banking crises because veto players, electoral horizons, civil liberties and openness favor liberalization and slow intervention; masked only in the capital-control era.",
-"fields": {
-"cp": {
-"themes": [
-"Political economy of development"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"Exchange rates, sovereign debt & financial crises",
-"Regime type, autocracies & the global economy"
-],
-"degree": 2
-},
-"pe": {
-"themes": [
-"Finance, crises & financialization",
-"Regimes & economic performance"
-],
-"degree": 1
-}
-},
-"span": 3,
-"degree": 4
-},
-{
 "id": "gilli2019",
 "label": "Gilli 2019",
 "title": "Why China Has Not Caught Up Yet: Military-Technological Superiority and the Limits of Imitation, Reverse Engineering, and Cyber Espionage",
@@ -1394,6 +1289,42 @@
 "tech": {
 "themes": [
 "Tech geopolitics, US-China rivalry & digital sovereignty"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 4
+},
+{
+"id": "greitens2020",
+"label": "Greitens 2020",
+"title": "Counterterrorism and Preventive Repression: China's Changing Strategy in Xinjiang",
+"authors": "Sheena Chestnut Greitens, Myunghee Lee & Emir Yazici",
+"year": 2020,
+"journal": "International Security",
+"doi": "10.1162/isec_a_00368",
+"zotero": null,
+"claim": "China's Xinjiang repression shifted to preventive mass detention after it perceived transnational jihadist threats.",
+"fields": {
+"cn": {
+"themes": [
+"Repression, surveillance & the security state",
+"Hong Kong, Taiwan, Xinjiang & ethnic politics"
+],
+"degree": 2
+},
+"cp": {
+"themes": [
+"Chinese politics",
+"Authoritarian institutions & regime survival"
+],
+"degree": 1
+},
+"sec": {
+"themes": [
+"US–China rivalry & the Western Pacific balance",
+"Coups, repression & internal security"
 ],
 "degree": 1
 }
@@ -1542,6 +1473,75 @@
 "degree": 3
 },
 {
+"id": "funke2016",
+"label": "Funke 2016",
+"title": "Going to Extremes: Politics after Financial Crises, 1870-2014",
+"authors": "Manuel Funke, Moritz Schularick & Christoph Trebesch",
+"year": 2016,
+"journal": "European Economic Review",
+"doi": "10.2139/ssrn.2688897",
+"zotero": null,
+"claim": "Financial crises, unlike ordinary recessions, raise far-right vote shares by about 30 percent and fragment legislatures for roughly five years.",
+"fields": {
+"cp": {
+"themes": [
+"Populism & the radical right"
+],
+"degree": 1
+},
+"ipe": {
+"themes": [
+"Exchange rates, sovereign debt & financial crises",
+"Globalization backlash, China shock & populism"
+],
+"degree": 1
+},
+"pe": {
+"themes": [
+"Finance, crises & financialization"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 3
+},
+{
+"id": "lipscy2018",
+"label": "Lipscy 2018",
+"title": "Democracy and Financial Crisis",
+"authors": "Phillip Y. Lipscy",
+"year": 2018,
+"journal": "IO",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/XJTNLH7Y",
+"claim": "Democracies are more prone to banking crises because veto players, electoral horizons, civil liberties and openness favor liberalization and slow intervention; masked only in the capital-control era.",
+"fields": {
+"cp": {
+"themes": [
+"Political economy of development"
+],
+"degree": 1
+},
+"ipe": {
+"themes": [
+"Exchange rates, sovereign debt & financial crises",
+"Regime type, autocracies & the global economy"
+],
+"degree": 1
+},
+"pe": {
+"themes": [
+"Finance, crises & financialization",
+"Regimes & economic performance"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 3
+},
+{
 "id": "barbera2019",
 "label": "Barberá 2019",
 "title": "Who Leads? Who Follows? Measuring Issue Attention and Agenda Setting by Legislators and the Mass Public Using Social Media Data",
@@ -1592,7 +1592,7 @@
 "Race, ethnicity & immigration",
 "Opinion formation"
 ],
-"degree": 13
+"degree": 9
 },
 "rep": {
 "themes": [
@@ -1602,7 +1602,7 @@
 }
 },
 "span": 2,
-"degree": 35
+"degree": 31
 },
 {
 "id": "meltzerrichard1981",
@@ -1625,11 +1625,11 @@
 "themes": [
 "Inequality & the politics of redistribution"
 ],
-"degree": 16
+"degree": 15
 }
 },
 "span": 2,
-"degree": 23
+"degree": 22
 },
 {
 "id": "hallsoskice2001",
@@ -1680,39 +1680,11 @@
 "Group consciousness, linked fate & racial identity",
 "Black politics, protest & the civil rights movement"
 ],
-"degree": 13
+"degree": 12
 }
 },
 "span": 2,
-"degree": 20
-},
-{
-"id": "stone2008",
-"label": "Stone 2008",
-"title": "The Scope of IMF Conditionality",
-"authors": "Randall W. Stone",
-"year": 2008,
-"journal": "IO",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/SACTPPVY",
-"claim": "IOs run on formal rules plus informal US control exercised sparingly: conditionality reflects technical priorities except when strategically important borrowers need help, when US intervention reduces it.",
-"fields": {
-"ipe": {
-"themes": [
-"IMF, World Bank & informal governance",
-"US hegemony, the dollar & systemic power"
-],
-"degree": 10
-},
-"ir": {
-"themes": [
-"Power, informal governance & bureaucracy in IOs"
-],
-"degree": 8
-}
-},
-"span": 2,
-"degree": 18
+"degree": 19
 },
 {
 "id": "mills1997",
@@ -1798,33 +1770,32 @@
 "degree": 16
 },
 {
-"id": "fiorina1981",
-"label": "Fiorina 1981",
-"title": "Retrospective Voting in American National Elections",
-"authors": "Morris P. Fiorina",
-"year": 1981,
-"journal": "Yale University Press (book)",
+"id": "stone2008",
+"label": "Stone 2008",
+"title": "The Scope of IMF Conditionality",
+"authors": "Randall W. Stone",
+"year": 2008,
+"journal": "IO",
 "doi": null,
-"zotero": null,
-"claim": "Voters judge incumbents on past performance, and party identification is a running tally of retrospective evaluations.",
+"zotero": "https://www.zotero.org/georgeyean/items/SACTPPVY",
+"claim": "IOs run on formal rules plus informal US control exercised sparingly: conditionality reflects technical priorities except when strategically important borrowers need help, when US intervention reduces it.",
 "fields": {
-"ap": {
+"ipe": {
 "themes": [
-"Campaigns, elections & accountability",
-"Partisan identity & affective polarization"
+"IMF, World Bank & informal governance",
+"US hegemony, the dollar & systemic power"
 ],
-"degree": 10
+"degree": 9
 },
-"pe": {
+"ir": {
 "themes": [
-"Political business cycles & economic voting",
-"Political agency, accountability & selection"
+"Power, informal governance & bureaucracy in IOs"
 ],
-"degree": 4
+"degree": 7
 }
 },
 "span": 2,
-"degree": 14
+"degree": 16
 },
 {
 "id": "ajr2001",
@@ -1884,28 +1855,29 @@
 "degree": 14
 },
 {
-"id": "waltz1979",
-"label": "Waltz 1979",
-"title": "Theory of International Politics",
-"authors": "Kenneth N. Waltz",
-"year": 1979,
-"journal": "Addison-Wesley (book)",
+"id": "fiorina1981",
+"label": "Fiorina 1981",
+"title": "Retrospective Voting in American National Elections",
+"authors": "Morris P. Fiorina",
+"year": 1981,
+"journal": "Yale University Press (book)",
 "doi": null,
 "zotero": null,
-"claim": "Anarchy and the distribution of capabilities produce balancing and make bipolar systems more stable than multipolar ones.",
+"claim": "Voters judge incumbents on past performance, and party identification is a running tally of retrospective evaluations.",
 "fields": {
-"ir": {
+"ap": {
 "themes": [
-"IR theory, power & the discipline"
+"Campaigns, elections & accountability",
+"Partisan identity & affective polarization"
 ],
-"degree": 4
+"degree": 10
 },
-"sec": {
+"pe": {
 "themes": [
-"IR theory",
-"Great-power competition, status & hierarchy"
+"Political business cycles & economic voting",
+"Political agency, accountability & selection"
 ],
-"degree": 9
+"degree": 3
 }
 },
 "span": 2,
@@ -1940,32 +1912,32 @@
 "degree": 13
 },
 {
-"id": "johnston2003",
-"label": "Johnston 2003",
-"title": "Is China a Status Quo Power?",
-"authors": "Alastair Iain Johnston",
-"year": 2003,
-"journal": "International Security",
-"doi": "10.1162/016228803321951081",
+"id": "waltz1979",
+"label": "Waltz 1979",
+"title": "Theory of International Politics",
+"authors": "Kenneth N. Waltz",
+"year": 1979,
+"journal": "Addison-Wesley (book)",
+"doi": null,
 "zotero": null,
-"claim": "China was more status quo than revisionist in the 1990s, participating in and largely complying with international institutions.",
+"claim": "Anarchy and the distribution of capabilities produce balancing and make bipolar systems more stable than multipolar ones.",
 "fields": {
-"cn": {
+"ir": {
 "themes": [
-"China in the world"
+"IR theory, power & the discipline"
 ],
-"degree": 9
+"degree": 4
 },
 "sec": {
 "themes": [
-"US–China rivalry & the Western Pacific balance",
+"IR theory",
 "Great-power competition, status & hierarchy"
 ],
-"degree": 4
+"degree": 8
 }
 },
 "span": 2,
-"degree": 13
+"degree": 12
 },
 {
 "id": "ruggie1982",
@@ -2082,31 +2054,32 @@
 "degree": 12
 },
 {
-"id": "tilly1990",
-"label": "Tilly 1990",
-"title": "Coercion, Capital, and European States, AD 990-1990",
-"authors": "Charles Tilly",
-"year": 1990,
-"journal": "Basil Blackwell (book)",
-"doi": "10.4324/9781315205021-9",
+"id": "johnston2003",
+"label": "Johnston 2003",
+"title": "Is China a Status Quo Power?",
+"authors": "Alastair Iain Johnston",
+"year": 2003,
+"journal": "International Security",
+"doi": "10.1162/016228803321951081",
 "zotero": null,
-"claim": "War made states: interstate competition forced rulers to extract resources, building administrative states along coercion- or capital-intensive paths.",
+"claim": "China was more status quo than revisionist in the 1990s, participating in and largely complying with international institutions.",
 "fields": {
-"cp": {
+"cn": {
 "themes": [
-"State capacity, state building & historical legacies"
+"China in the world"
 ],
-"degree": 6
+"degree": 8
 },
-"pe": {
+"sec": {
 "themes": [
-"State capacity, taxation & fiscal contracts"
+"US–China rivalry & the Western Pacific balance",
+"Great-power competition, status & hierarchy"
 ],
-"degree": 5
+"degree": 4
 }
 },
 "span": 2,
-"degree": 11
+"degree": 12
 },
 {
 "id": "putnam1993",
@@ -2193,6 +2166,33 @@
 "degree": 11
 },
 {
+"id": "tilly1990",
+"label": "Tilly 1990",
+"title": "Coercion, Capital, and European States, AD 990-1990",
+"authors": "Charles Tilly",
+"year": 1990,
+"journal": "Basil Blackwell (book)",
+"doi": "10.4324/9781315205021-9",
+"zotero": null,
+"claim": "War made states: interstate competition forced rulers to extract resources, building administrative states along coercion- or capital-intensive paths.",
+"fields": {
+"cp": {
+"themes": [
+"State capacity, state building & historical legacies"
+],
+"degree": 6
+},
+"pe": {
+"themes": [
+"State capacity, taxation & fiscal contracts"
+],
+"degree": 4
+}
+},
+"span": 2,
+"degree": 10
+},
+{
 "id": "autor2013",
 "label": "Autor 2013",
 "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
@@ -2242,33 +2242,6 @@
 "Misinformation, bots, deepfakes & computational propaganda"
 ],
 "degree": 6
-}
-},
-"span": 2,
-"degree": 10
-},
-{
-"id": "colantone2018",
-"label": "Colantone 2018",
-"title": "The Trade Origins of Economic Nationalism: Import Competition and Voting Behavior in Western Europe",
-"authors": "Italo Colantone & Piero Stanig",
-"year": 2018,
-"journal": "AJPS",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/7XIV6LJQ",
-"claim": "Regions more exposed to Chinese imports shifted toward nationalist, isolationist and radical-right parties as the embedded-liberalism promise of compensation lost credibility.",
-"fields": {
-"cp": {
-"themes": [
-"Populism & the radical right"
-],
-"degree": 3
-},
-"ipe": {
-"themes": [
-"Globalization backlash, China shock & populism"
-],
-"degree": 7
 }
 },
 "span": 2,
@@ -2417,27 +2390,27 @@
 "degree": 9
 },
 {
-"id": "bartels2008",
-"label": "Bartels 2008",
-"title": "Unequal Democracy: The Political Economy of the New Gilded Age",
-"authors": "Larry M. Bartels",
-"year": 2008,
-"journal": "Princeton University Press (book)",
+"id": "colantone2018",
+"label": "Colantone 2018",
+"title": "The Trade Origins of Economic Nationalism: Import Competition and Voting Behavior in Western Europe",
+"authors": "Italo Colantone & Piero Stanig",
+"year": 2018,
+"journal": "AJPS",
 "doi": null,
-"zotero": null,
-"claim": "Senators respond to affluent constituents and barely to the poor; partisan control shapes inequality.",
+"zotero": "https://www.zotero.org/georgeyean/items/7XIV6LJQ",
+"claim": "Regions more exposed to Chinese imports shifted toward nationalist, isolationist and radical-right parties as the embedded-liberalism promise of compensation lost credibility.",
 "fields": {
-"ap": {
+"cp": {
 "themes": [
-"Representation, responsiveness & inequality"
-],
-"degree": 6
-},
-"pe": {
-"themes": [
-"Inequality & the politics of redistribution"
+"Populism & the radical right"
 ],
 "degree": 3
+},
+"ipe": {
+"themes": [
+"Globalization backlash, China shock & populism"
+],
+"degree": 6
 }
 },
 "span": 2,
@@ -2516,13 +2489,13 @@
 "News media, selective exposure & social media",
 "Elite & mass polarization"
 ],
-"degree": 4
+"degree": 3
 },
 "tech": {
 "themes": [
 "Social media, polarization & the public sphere"
 ],
-"degree": 4
+"degree": 5
 }
 },
 "span": 2,
@@ -2669,33 +2642,6 @@
 "degree": 8
 },
 {
-"id": "treisman2007",
-"label": "Treisman 2007",
-"title": "What Have We Learned About the Causes of Corruption from Ten Years of Cross-National Empirical Research?",
-"authors": "Daniel Treisman",
-"year": 2007,
-"journal": "Annual Review of Political Science",
-"doi": "10.1146/annurev.polisci.10.081205.095418",
-"zotero": null,
-"claim": "Corruption perceptions correlate with development, democracy and press freedom, but experience-based measures tell a different story.",
-"fields": {
-"cp": {
-"themes": [
-"Corruption, bureaucracy & courts"
-],
-"degree": 3
-},
-"pe": {
-"themes": [
-"Corruption & governance"
-],
-"degree": 5
-}
-},
-"span": 2,
-"degree": 8
-},
-{
 "id": "tomz2007",
 "label": "Tomz 2007",
 "title": "Reputation and International Cooperation: Sovereign Debt across Three Centuries",
@@ -2718,6 +2664,33 @@
 "Public opinion, casualties & the use of force"
 ],
 "degree": 7
+}
+},
+"span": 2,
+"degree": 8
+},
+{
+"id": "bartels2008",
+"label": "Bartels 2008",
+"title": "Unequal Democracy: The Political Economy of the New Gilded Age",
+"authors": "Larry M. Bartels",
+"year": 2008,
+"journal": "Princeton University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Senators respond to affluent constituents and barely to the poor; partisan control shapes inequality.",
+"fields": {
+"ap": {
+"themes": [
+"Representation, responsiveness & inequality"
+],
+"degree": 5
+},
+"pe": {
+"themes": [
+"Inequality & the politics of redistribution"
+],
+"degree": 3
 }
 },
 "span": 2,
@@ -2836,33 +2809,6 @@
 "degree": 8
 },
 {
-"id": "bermeo2016",
-"label": "Bermeo 2016",
-"title": "On Democratic Backsliding",
-"authors": "Nancy Bermeo",
-"year": 2016,
-"journal": "Journal of Democracy",
-"doi": "10.1353/jod.2016.0012",
-"zotero": null,
-"claim": "Democratic backsliding now proceeds through executive aggrandizement and strategic election manipulation rather than coups.",
-"fields": {
-"ap": {
-"themes": [
-"Democratic norms, populism & backsliding"
-],
-"degree": 2
-},
-"cp": {
-"themes": [
-"Democratic backsliding, polarization & support for democracy"
-],
-"degree": 6
-}
-},
-"span": 2,
-"degree": 8
-},
-{
 "id": "zurn2018",
 "label": "Zürn 2018",
 "title": "A Theory of Global Governance: Authority, Legitimacy, and Contestation",
@@ -2972,6 +2918,35 @@
 "degree": 7
 },
 {
+"id": "mmr2002",
+"label": "Mansfield 2002",
+"title": "Why Democracies Cooperate More: Electoral Control and International Trade Agreements",
+"authors": "Edward D. Mansfield, Helen V. Milner & B. Peter Rosendorff",
+"year": 2002,
+"journal": "IO",
+"doi": "10.4324/9781315254166-10",
+"zotero": null,
+"claim": "Democratic leaders sign trade agreements to signal to voters that they are not protectionist rent-seekers, so democracies form more PTAs.",
+"fields": {
+"ipe": {
+"themes": [
+"GATT/WTO, PTAs & institutional design",
+"Regime type, autocracies & the global economy"
+],
+"degree": 5
+},
+"ir": {
+"themes": [
+"Domestic politics & international commitments",
+"Institutional design, legalization & delegation"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 7
+},
+{
 "id": "stokes2005",
 "label": "Stokes 2005",
 "title": "Perverse Accountability: A Formal Model of Machine Politics with Evidence from Argentina",
@@ -3058,35 +3033,6 @@
 "degree": 7
 },
 {
-"id": "keohanevictor2011",
-"label": "Keohane 2011",
-"title": "The Regime Complex for Climate Change",
-"authors": "Robert O. Keohane & David G. Victor",
-"year": 2011,
-"journal": "Perspectives on Politics",
-"doi": "10.1017/s1537592710004068",
-"zotero": null,
-"claim": "Climate governance is a loosely coupled regime complex rather than a single regime, which brings flexibility at the cost of coherence.",
-"fields": {
-"env": {
-"themes": [
-"International climate regime & negotiations",
-"Governance architecture, fragmentation & earth system governance"
-],
-"degree": 4
-},
-"ir": {
-"themes": [
-"Regime complexes, overlap & institutional change",
-"Climate & environmental cooperation"
-],
-"degree": 3
-}
-},
-"span": 2,
-"degree": 7
-},
-{
 "id": "shih2012",
 "label": "Shih 2012",
 "title": "Getting Ahead in the Communist Party: Explaining the Advancement of Central Committee Members in China",
@@ -3136,6 +3082,33 @@
 "Cyber conflict, security & military AI"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 7
+},
+{
+"id": "bermeo2016",
+"label": "Bermeo 2016",
+"title": "On Democratic Backsliding",
+"authors": "Nancy Bermeo",
+"year": 2016,
+"journal": "Journal of Democracy",
+"doi": "10.1353/jod.2016.0012",
+"zotero": null,
+"claim": "Democratic backsliding now proceeds through executive aggrandizement and strategic election manipulation rather than coups.",
+"fields": {
+"ap": {
+"themes": [
+"Democratic norms, populism & backsliding"
+],
+"degree": 2
+},
+"cp": {
+"themes": [
+"Democratic backsliding, polarization & support for democracy"
+],
+"degree": 5
 }
 },
 "span": 2,
@@ -3220,35 +3193,6 @@
 "Regimes & economic performance"
 ],
 "degree": 3
-}
-},
-"span": 2,
-"degree": 6
-},
-{
-"id": "mmr2002",
-"label": "Mansfield 2002",
-"title": "Why Democracies Cooperate More: Electoral Control and International Trade Agreements",
-"authors": "Edward D. Mansfield, Helen V. Milner & B. Peter Rosendorff",
-"year": 2002,
-"journal": "IO",
-"doi": "10.4324/9781315254166-10",
-"zotero": null,
-"claim": "Democratic leaders sign trade agreements to signal to voters that they are not protectionist rent-seekers, so democracies form more PTAs.",
-"fields": {
-"ipe": {
-"themes": [
-"GATT/WTO, PTAs & institutional design",
-"Regime type, autocracies & the global economy"
-],
-"degree": 5
-},
-"ir": {
-"themes": [
-"Domestic politics & international commitments",
-"Institutional design, legalization & delegation"
-],
-"degree": 1
 }
 },
 "span": 2,
@@ -3397,6 +3341,33 @@
 "degree": 6
 },
 {
+"id": "treisman2007",
+"label": "Treisman 2007",
+"title": "What Have We Learned About the Causes of Corruption from Ten Years of Cross-National Empirical Research?",
+"authors": "Daniel Treisman",
+"year": 2007,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev.polisci.10.081205.095418",
+"zotero": null,
+"claim": "Corruption perceptions correlate with development, democracy and press freedom, but experience-based measures tell a different story.",
+"fields": {
+"cp": {
+"themes": [
+"Corruption, bureaucracy & courts"
+],
+"degree": 2
+},
+"pe": {
+"themes": [
+"Corruption & governance"
+],
+"degree": 4
+}
+},
+"span": 2,
+"degree": 6
+},
+{
 "id": "goldstein2007",
 "label": "Goldstein 2007",
 "title": "Institutions in International Relations: Understanding the Effects of the GATT and the WTO on World Trade",
@@ -3419,6 +3390,35 @@
 "Cooperation theory & international regimes"
 ],
 "degree": 1
+}
+},
+"span": 2,
+"degree": 6
+},
+{
+"id": "rothsteinstolle2008",
+"label": "Rothstein 2008",
+"title": "The State and Social Capital: An Institutional Theory of Generalized Trust",
+"authors": "Bo Rothstein & Dietlind Stolle",
+"year": 2008,
+"journal": "Comparative Politics",
+"doi": "10.5129/001041508x12911362383354",
+"zotero": null,
+"claim": "Impartial state institutions generate generalized trust, not the reverse.",
+"fields": {
+"cp": {
+"themes": [
+"Protest, civil society & contentious politics",
+"Corruption, bureaucracy & courts"
+],
+"degree": 3
+},
+"pe": {
+"themes": [
+"History, culture & persistence",
+"Corruption & governance"
+],
+"degree": 3
 }
 },
 "span": 2,
@@ -3454,35 +3454,6 @@
 "degree": 6
 },
 {
-"id": "diamond2010",
-"label": "Diamond 2010",
-"title": "Liberation Technology",
-"authors": "Larry Diamond",
-"year": 2010,
-"journal": "Journal of Democracy",
-"doi": "10.1353/jod.0.0190",
-"zotero": null,
-"claim": "Digital technology can empower citizens against autocrats, though regimes also adapt it for control.",
-"fields": {
-"cp": {
-"themes": [
-"Censorship, propaganda & information in autocracies",
-"Protest, civil society & contentious politics"
-],
-"degree": 1
-},
-"tech": {
-"themes": [
-"Digital activism, connective action & participation",
-"Digital authoritarianism, censorship & propaganda"
-],
-"degree": 5
-}
-},
-"span": 2,
-"degree": 6
-},
-{
 "id": "margalit2011",
 "label": "Margalit 2011",
 "title": "Costly Jobs: Trade-Related Layoffs, Government Compensation, and Voting in U.S. Elections",
@@ -3505,6 +3476,35 @@
 "Globalization backlash, China shock & populism"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 6
+},
+{
+"id": "keohanevictor2011",
+"label": "Keohane 2011",
+"title": "The Regime Complex for Climate Change",
+"authors": "Robert O. Keohane & David G. Victor",
+"year": 2011,
+"journal": "Perspectives on Politics",
+"doi": "10.1017/s1537592710004068",
+"zotero": null,
+"claim": "Climate governance is a loosely coupled regime complex rather than a single regime, which brings flexibility at the cost of coherence.",
+"fields": {
+"env": {
+"themes": [
+"International climate regime & negotiations",
+"Governance architecture, fragmentation & earth system governance"
+],
+"degree": 4
+},
+"ir": {
+"themes": [
+"Regime complexes, overlap & institutional change",
+"Climate & environmental cooperation"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -3681,27 +3681,29 @@
 "degree": 6
 },
 {
-"id": "autor2015",
-"label": "Autor 2015",
-"title": "Why Are There Still So Many Jobs? The History and Future of Workplace Automation",
-"authors": "David H. Autor",
-"year": 2015,
-"journal": "Journal of Economic Perspectives",
-"doi": "10.1257/jep.29.3.3",
+"id": "norris2016",
+"label": "Norris 2016",
+"title": "Chinese Economic Statecraft: Commercial Actors, Grand Strategy, and State Control",
+"authors": "William J. Norris",
+"year": 2016,
+"journal": "Cornell University Press (book)",
+"doi": "10.7591/cornell/9780801454493.001.0001",
 "zotero": null,
-"claim": "Automation complements as well as substitutes labor, polarizing employment.",
+"claim": "China can use commerce strategically only when the state can control the commercial actors involved; control varies with state unity, actor concentration and reporting relationships.",
 "fields": {
-"pe": {
+"cn": {
 "themes": [
-"Labor, unions & labor markets"
+"China in the world",
+"Political economy"
 ],
-"degree": 2
+"degree": 3
 },
-"tech": {
+"ipe": {
 "themes": [
-"Automation, work & the political economy of AI"
+"Industrial policy, economic security & geoeconomics",
+"Weaponized interdependence, sanctions & economic statecraft"
 ],
-"degree": 4
+"degree": 3
 }
 },
 "span": 2,
@@ -3786,34 +3788,6 @@
 "China's rise & contestation of the liberal order"
 ],
 "degree": 3
-}
-},
-"span": 2,
-"degree": 6
-},
-{
-"id": "arias2018",
-"label": "Arias 2018",
-"title": "Cooperative Autocracies: Leader Survival, Creditworthiness, and Bilateral Investment Treaties",
-"authors": "Eric Arias, James R. Hollyer & B. Peter Rosendorff",
-"year": 2018,
-"journal": "AJPS",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/M8CNHWML",
-"claim": "BITs let autocrats import property-rights protection; they improve autocracies' investment climate more than democracies' and prolong autocratic leaders' tenure.",
-"fields": {
-"cp": {
-"themes": [
-"Authoritarian institutions & regime survival"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"FDI, MNCs & investment regimes",
-"Regime type, autocracies & the global economy"
-],
-"degree": 5
 }
 },
 "span": 2,
@@ -4042,35 +4016,6 @@
 "degree": 5
 },
 {
-"id": "schultz2003",
-"label": "Schultz 2003",
-"title": "The Democratic Advantage: Institutional Foundations of Financial Power in International Competition",
-"authors": "Kenneth A. Schultz & Barry R. Weingast",
-"year": 2003,
-"journal": "IO",
-"doi": "10.1017/s0020818303571065",
-"zotero": null,
-"claim": "Representative institutions let democracies borrow more cheaply and mobilize more credit in long rivalries, a financial advantage underpinning their geopolitical success.",
-"fields": {
-"ipe": {
-"themes": [
-"Exchange rates, sovereign debt & financial crises",
-"Regime type, autocracies & the global economy"
-],
-"degree": 3
-},
-"pe": {
-"themes": [
-"Finance, crises & financialization",
-"Regimes & economic performance"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 5
-},
-{
 "id": "shelby2005",
 "label": "Shelby 2005",
 "title": "We Who Are Dark: The Philosophical Foundations of Black Solidarity",
@@ -4121,35 +4066,6 @@
 "Group consciousness, linked fate & racial identity"
 ],
 "degree": 4
-}
-},
-"span": 2,
-"degree": 5
-},
-{
-"id": "iversensoskice2006",
-"label": "Iversen 2006",
-"title": "Electoral Institutions and the Politics of Coalitions: Why Some Democracies Redistribute More Than Others",
-"authors": "Torben Iversen & David Soskice",
-"year": 2006,
-"journal": "APSR",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/YG2M56BF",
-"claim": "PR systems produce center-left governments that redistribute more; majoritarian systems produce center-right ones.",
-"fields": {
-"cp": {
-"themes": [
-"Redistribution, inequality & welfare states",
-"Parties, party systems & electoral institutions"
-],
-"degree": 3
-},
-"pe": {
-"themes": [
-"Inequality & the politics of redistribution",
-"Welfare states & social policy"
-],
-"degree": 2
 }
 },
 "span": 2,
@@ -4239,36 +4155,6 @@
 "degree": 5
 },
 {
-"id": "feinsteinschickler2008",
-"label": "Feinstein 2008",
-"title": "Platforms and Partners: The Civil Rights Realignment Reconsidered",
-"authors": "Brian D. Feinstein & Eric Schickler",
-"year": 2008,
-"journal": "Studies in American Political Development",
-"doi": "10.1017/s0898588x08000011",
-"zotero": null,
-"claim": "State parties realigned on civil rights before the national parties did.",
-"fields": {
-"ap": {
-"themes": [
-"Policy feedback & American political development",
-"Race, ethnicity & immigration",
-"Partisan identity & affective polarization"
-],
-"degree": 3
-},
-"rep": {
-"themes": [
-"Race, partisanship & realignment",
-"Race, the state & American political development"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 5
-},
-{
 "id": "doucouliagos2008",
 "label": "Doucouliagos 2008",
 "title": "Democracy and Economic Growth: a Literature Review",
@@ -4291,35 +4177,6 @@
 "Regimes & economic performance"
 ],
 "degree": 1
-}
-},
-"span": 2,
-"degree": 5
-},
-{
-"id": "rothsteinstolle2008",
-"label": "Rothstein 2008",
-"title": "The State and Social Capital: An Institutional Theory of Generalized Trust",
-"authors": "Bo Rothstein & Dietlind Stolle",
-"year": 2008,
-"journal": "Comparative Politics",
-"doi": "10.5129/001041508x12911362383354",
-"zotero": null,
-"claim": "Impartial state institutions generate generalized trust, not the reverse.",
-"fields": {
-"cp": {
-"themes": [
-"Protest, civil society & contentious politics",
-"Corruption, bureaucracy & courts"
-],
-"degree": 3
-},
-"pe": {
-"themes": [
-"History, culture & persistence",
-"Corruption & governance"
-],
-"degree": 2
 }
 },
 "span": 2,
@@ -4413,26 +4270,27 @@
 "degree": 5
 },
 {
-"id": "piston2010",
-"label": "Piston 2010",
-"title": "How Explicit Racial Prejudice Hurt Obama in the 2008 Election",
-"authors": "Spencer Piston",
+"id": "diamond2010",
+"label": "Diamond 2010",
+"title": "Liberation Technology",
+"authors": "Larry Diamond",
 "year": 2010,
-"journal": "Political Behavior",
-"doi": "10.1007/s11109-010-9108-y",
+"journal": "Journal of Democracy",
+"doi": "10.1353/jod.0.0190",
 "zotero": null,
-"claim": "Explicit prejudice cost Obama white votes in 2008.",
+"claim": "Digital technology can empower citizens against autocrats, though regimes also adapt it for control.",
 "fields": {
-"ap": {
+"cp": {
 "themes": [
-"Race, ethnicity & immigration",
-"Campaigns, elections & accountability"
+"Censorship, propaganda & information in autocracies",
+"Protest, civil society & contentious politics"
 ],
 "degree": 1
 },
-"rep": {
+"tech": {
 "themes": [
-"Racial attitudes"
+"Digital activism, connective action & participation",
+"Digital authoritarianism, censorship & propaganda"
 ],
 "degree": 4
 }
@@ -4609,29 +4467,27 @@
 "degree": 5
 },
 {
-"id": "norris2016",
-"label": "Norris 2016",
-"title": "Chinese Economic Statecraft: Commercial Actors, Grand Strategy, and State Control",
-"authors": "William J. Norris",
-"year": 2016,
-"journal": "Cornell University Press (book)",
-"doi": "10.7591/cornell/9780801454493.001.0001",
+"id": "autor2015",
+"label": "Autor 2015",
+"title": "Why Are There Still So Many Jobs? The History and Future of Workplace Automation",
+"authors": "David H. Autor",
+"year": 2015,
+"journal": "Journal of Economic Perspectives",
+"doi": "10.1257/jep.29.3.3",
 "zotero": null,
-"claim": "China can use commerce strategically only when the state can control the commercial actors involved; control varies with state unity, actor concentration and reporting relationships.",
+"claim": "Automation complements as well as substitutes labor, polarizing employment.",
 "fields": {
-"cn": {
+"pe": {
 "themes": [
-"China in the world",
-"Political economy"
+"Labor, unions & labor markets"
 ],
-"degree": 2
+"degree": 1
 },
-"ipe": {
+"tech": {
 "themes": [
-"Industrial policy, economic security & geoeconomics",
-"Weaponized interdependence, sanctions & economic statecraft"
+"Automation, work & the political economy of AI"
 ],
-"degree": 3
+"degree": 4
 }
 },
 "span": 2,
@@ -4779,29 +4635,28 @@
 "degree": 5
 },
 {
-"id": "wasow2020",
-"label": "Wasow 2020",
-"title": "Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting",
-"authors": "Omar Wasow",
-"year": 2020,
-"journal": "APSR",
-"doi": "10.1017/s000305542000009x",
-"zotero": null,
-"claim": "Nonviolent Black protest in the 1960s moved opinion toward civil rights; violent protest moved it toward social control.",
+"id": "arias2018",
+"label": "Arias 2018",
+"title": "Cooperative Autocracies: Leader Survival, Creditworthiness, and Bilateral Investment Treaties",
+"authors": "Eric Arias, James R. Hollyer & B. Peter Rosendorff",
+"year": 2018,
+"journal": "AJPS",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/M8CNHWML",
+"claim": "BITs let autocrats import property-rights protection; they improve autocracies' investment climate more than democracies' and prolong autocratic leaders' tenure.",
 "fields": {
-"ap": {
+"cp": {
 "themes": [
-"Race, ethnicity & immigration",
-"Policy feedback & American political development",
-"Campaigns, elections & accountability"
-],
-"degree": 4
-},
-"rep": {
-"themes": [
-"Black politics, protest & the civil rights movement"
+"Authoritarian institutions & regime survival"
 ],
 "degree": 1
+},
+"ipe": {
+"themes": [
+"FDI, MNCs & investment regimes",
+"Regime type, autocracies & the global economy"
+],
+"degree": 4
 }
 },
 "span": 2,
@@ -5007,35 +4862,6 @@
 "degree": 4
 },
 {
-"id": "mitchell1994",
-"label": "Mitchell 1994",
-"title": "Regime design matters: intentional oil pollution and treaty compliance",
-"authors": "Ronald B. Mitchell",
-"year": 1994,
-"journal": "IO",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/5FUBU25Q",
-"claim": "Compliance depends on regime design: transparent equipment standards curbed oil pollution where discharge limits failed.",
-"fields": {
-"env": {
-"themes": [
-"International climate regime & negotiations"
-],
-"degree": 2
-},
-"ir": {
-"themes": [
-"Institutional design, legalization & delegation",
-"Treaty commitment, compliance & selection",
-"Climate & environmental cooperation"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 4
-},
-{
 "id": "rosendorff2001",
 "label": "Rosendorff 2001",
 "title": "The Optimal Design of International Trade Institutions: Uncertainty and Escape",
@@ -5063,28 +4889,29 @@
 "degree": 4
 },
 {
-"id": "wantchekon2003",
-"label": "Wantchekon 2003",
-"title": "Clientelism and Voting Behavior: Evidence from a Field Experiment in Benin",
-"authors": "Leonard Wantchekon",
+"id": "schultz2003",
+"label": "Schultz 2003",
+"title": "The Democratic Advantage: Institutional Foundations of Financial Power in International Competition",
+"authors": "Kenneth A. Schultz & Barry R. Weingast",
 "year": 2003,
-"journal": "World Politics",
-"doi": "10.1353/wp.2003.0018",
+"journal": "IO",
+"doi": "10.1017/s0020818303571065",
 "zotero": null,
-"claim": "Clientelist messages outperform public-policy messages in Benin's elections, especially for incumbents.",
+"claim": "Representative institutions let democracies borrow more cheaply and mobilize more credit in long rivalries, a financial advantage underpinning their geopolitical success.",
 "fields": {
-"cp": {
+"ipe": {
 "themes": [
-"Clientelism, distributive politics & accountability",
-"Ethnic politics & identity"
+"Exchange rates, sovereign debt & financial crises",
+"Regime type, autocracies & the global economy"
 ],
-"degree": 1
+"degree": 3
 },
 "pe": {
 "themes": [
-"Development, public goods & distributive politics"
+"Finance, crises & financialization",
+"Regimes & economic performance"
 ],
-"degree": 3
+"degree": 1
 }
 },
 "span": 2,
@@ -5140,6 +4967,35 @@
 "themes": [
 "Leaders, psychology & elite decision-making",
 "IR theory"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "iversensoskice2006",
+"label": "Iversen 2006",
+"title": "Electoral Institutions and the Politics of Coalitions: Why Some Democracies Redistribute More Than Others",
+"authors": "Torben Iversen & David Soskice",
+"year": 2006,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/YG2M56BF",
+"claim": "PR systems produce center-left governments that redistribute more; majoritarian systems produce center-right ones.",
+"fields": {
+"cp": {
+"themes": [
+"Redistribution, inequality & welfare states",
+"Parties, party systems & electoral institutions"
+],
+"degree": 2
+},
+"pe": {
+"themes": [
+"Inequality & the politics of redistribution",
+"Welfare states & social policy"
 ],
 "degree": 2
 }
@@ -5345,27 +5201,28 @@
 "degree": 4
 },
 {
-"id": "fravel2008",
-"label": "Fravel 2008",
-"title": "Strong Borders, Secure Nation: Cooperation and Conflict in China's Territorial Disputes",
-"authors": "M. Taylor Fravel",
+"id": "feinsteinschickler2008",
+"label": "Feinstein 2008",
+"title": "Platforms and Partners: The Civil Rights Realignment Reconsidered",
+"authors": "Brian D. Feinstein & Eric Schickler",
 "year": 2008,
-"journal": "Princeton University Press (book)",
-"doi": "10.1515/9781400828876",
+"journal": "Studies in American Political Development",
+"doi": "10.1017/s0898588x08000011",
 "zotero": null,
-"claim": "China has compromised in most territorial disputes when facing internal threats and used force when its bargaining position declined.",
+"claim": "State parties realigned on civil rights before the national parties did.",
 "fields": {
-"cn": {
+"ap": {
 "themes": [
-"China in the world",
-"Hong Kong, Taiwan, Xinjiang & ethnic politics"
+"Policy feedback & American political development",
+"Race, ethnicity & immigration",
+"Partisan identity & affective polarization"
 ],
 "degree": 2
 },
-"sec": {
+"rep": {
 "themes": [
-"US–China rivalry & the Western Pacific balance",
-"Territory, borders & indivisibility"
+"Race, partisanship & realignment",
+"Race, the state & American political development"
 ],
 "degree": 2
 }
@@ -5395,6 +5252,35 @@
 "Regimes & economic performance"
 ],
 "degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "rydgren2008",
+"label": "Rydgren 2008",
+"title": "Immigration sceptics, xenophobes or racists? Radical right‐wing voting in six West European countries",
+"authors": "Jens Rydgren",
+"year": 2008,
+"journal": "European Journal of Political Research",
+"doi": "10.1111/j.1475-6765.2008.00784.x",
+"zotero": null,
+"claim": "Radical right voters are motivated by ethnic nationalism and concerns about immigrants' cultural effects.",
+"fields": {
+"cp": {
+"themes": [
+"Populism & the radical right",
+"Ethnic politics & identity"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement",
+"Comparative ethnic politics & ethnic voting"
+],
+"degree": 3
 }
 },
 "span": 2,
@@ -5457,64 +5343,6 @@
 "degree": 4
 },
 {
-"id": "mares2009",
-"label": "Mares 2009",
-"title": "Social Policy in Developing Countries",
-"authors": "Isabela Mares & Matthew E. Carnes",
-"year": 2009,
-"journal": "Annual Review of Political Science",
-"doi": "10.1146/annurev.polisci.12.071207.093504",
-"zotero": null,
-"claim": "Social policy in developing countries is shaped by informality, political competition and fiscal capacity.",
-"fields": {
-"cp": {
-"themes": [
-"Redistribution, inequality & welfare states",
-"Political economy of development"
-],
-"degree": 2
-},
-"pe": {
-"themes": [
-"Welfare states & social policy",
-"Development, public goods & distributive politics"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 4
-},
-{
-"id": "battig2009",
-"label": "Bättig 2009",
-"title": "National Institutions and Global Public Goods: Are Democracies More Cooperative in Climate Change Policy?",
-"authors": "Michèle B. Bättig & Thomas Bernauer",
-"year": 2009,
-"journal": "IO",
-"doi": "10.1017/s0020818309090092",
-"zotero": null,
-"claim": "Democracies make stronger climate policy commitments, but this does not translate into lower emissions.",
-"fields": {
-"env": {
-"themes": [
-"The environmental state, democracy & authoritarian environmentalism",
-"International climate regime & negotiations"
-],
-"degree": 2
-},
-"ir": {
-"themes": [
-"Climate & environmental cooperation",
-"Domestic politics & international commitments"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 4
-},
-{
 "id": "keohane2009",
 "label": "Keohane 2009",
 "title": "Democracy-Enhancing Multilateralism",
@@ -5565,35 +5393,6 @@
 "History, culture & persistence"
 ],
 "degree": 1
-}
-},
-"span": 2,
-"degree": 4
-},
-{
-"id": "thompson2010",
-"label": "Thompson 2010",
-"title": "Representing future generations: political presentism and democratic trusteeship",
-"authors": "Dennis F. Thompson",
-"year": 2010,
-"journal": "Critical Review of International Social and Political Philosophy",
-"doi": "10.1080/13698230903326232",
-"zotero": null,
-"claim": "Democracies are presentist; trusteeship institutions could represent future generations.",
-"fields": {
-"env": {
-"themes": [
-"Environmental & climate justice",
-"The environmental state, democracy & authoritarian environmentalism"
-],
-"degree": 2
-},
-"pt": {
-"themes": [
-"Representation & democratic theory",
-"Climate, future generations & nonhuman justice"
-],
-"degree": 2
 }
 },
 "span": 2,
@@ -6131,34 +5930,6 @@
 "degree": 4
 },
 {
-"id": "frieden2017",
-"label": "Frieden 2017",
-"title": "Understanding the Political Economy of the Eurozone Crisis",
-"authors": "Jeffry Frieden & Stefanie Walter",
-"year": 2017,
-"journal": "Annual Review of Political Science",
-"doi": "10.1146/annurev-polisci-051215-023101",
-"zotero": null,
-"claim": "The euro crisis was a distributional fight over adjustment between and within debtor and creditor states, shaped by vulnerability profiles and bargaining power.",
-"fields": {
-"ipe": {
-"themes": [
-"Exchange rates, sovereign debt & financial crises"
-],
-"degree": 2
-},
-"pe": {
-"themes": [
-"Finance, crises & financialization",
-"Central banks, monetary & fiscal institutions"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 4
-},
-{
 "id": "daviswilf2017",
 "label": "Davis 2017",
 "title": "Joining the Club: Accession to the GATT/WTO",
@@ -6188,6 +5959,34 @@
 "degree": 4
 },
 {
+"id": "valentino2018",
+"label": "Valentino 2018",
+"title": "The Changing Norms of Racial Political Rhetoric and the End of Racial Priming",
+"authors": "Nicholas A. Valentino, Fabian G. Neuner & L. Matthew Vandenbroek",
+"year": 2018,
+"journal": "JOP",
+"doi": "10.1086/694845",
+"zotero": null,
+"claim": "Explicit racial rhetoric no longer triggers backlash, so implicit and explicit appeals now work alike.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Campaigns, elections & accountability"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial priming, cues & campaign appeals"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "roberts2018",
 "label": "Roberts 2018",
 "title": "Censored: Distraction and Diversion Inside China's Great Firewall",
@@ -6209,35 +6008,6 @@
 "Digital authoritarianism, censorship & propaganda"
 ],
 "degree": 2
-}
-},
-"span": 2,
-"degree": 4
-},
-{
-"id": "kim2018media",
-"label": "Kim 2018",
-"title": "Media Bias against Foreign Firms as a Veiled Trade Barrier: Evidence from Chinese Newspapers",
-"authors": "Sung Eun Kim",
-"year": 2018,
-"journal": "APSR",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/HIW8QYKR",
-"claim": "State newspapers cover foreign firms' product failures more and more negatively, a veiled protectionist tool where formal barriers are constrained by trade rules.",
-"fields": {
-"cn": {
-"themes": [
-"Political economy",
-"Censorship, propaganda & digital control"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"GATT/WTO, PTAs & institutional design",
-"China's rise & contestation of the liberal order"
-],
-"degree": 3
 }
 },
 "span": 2,
@@ -6302,34 +6072,6 @@
 "degree": 4
 },
 {
-"id": "weissdafoe2019",
-"label": "Weiss 2019",
-"title": "Authoritarian Audiences, Rhetoric, and Propaganda in International Crises: Evidence from China",
-"authors": "Jessica Chen Weiss & Allan Dafoe",
-"year": 2019,
-"journal": "ISQ",
-"doi": "10.1093/isq/sqz059",
-"zotero": null,
-"claim": "Chinese citizens punish leaders for backing down, but official rhetoric and propaganda can reduce those costs.",
-"fields": {
-"cn": {
-"themes": [
-"Nationalism & foreign-policy opinion"
-],
-"degree": 1
-},
-"sec": {
-"themes": [
-"Audience costs, signaling & crisis diplomacy",
-"US–China rivalry & the Western Pacific balance"
-],
-"degree": 3
-}
-},
-"span": 2,
-"degree": 4
-},
-{
 "id": "rozenaszhukov2019",
 "label": "Rozenas 2019",
 "title": "Mass Repression and Political Loyalty: Evidence from Stalin’s ‘Terror by Hunger’",
@@ -6378,6 +6120,35 @@
 "themes": [
 "Great-power competition, status & hierarchy",
 "IR theory"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "wasow2020",
+"label": "Wasow 2020",
+"title": "Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting",
+"authors": "Omar Wasow",
+"year": 2020,
+"journal": "APSR",
+"doi": "10.1017/s000305542000009x",
+"zotero": null,
+"claim": "Nonviolent Black protest in the 1960s moved opinion toward civil rights; violent protest moved it toward social control.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Policy feedback & American political development",
+"Campaigns, elections & accountability"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Black politics, protest & the civil rights movement"
 ],
 "degree": 1
 }
@@ -6586,6 +6357,35 @@
 "degree": 4
 },
 {
+"id": "mitchell1994",
+"label": "Mitchell 1994",
+"title": "Regime design matters: intentional oil pollution and treaty compliance",
+"authors": "Ronald B. Mitchell",
+"year": 1994,
+"journal": "IO",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/5FUBU25Q",
+"claim": "Compliance depends on regime design: transparent equipment standards curbed oil pollution where discharge limits failed.",
+"fields": {
+"env": {
+"themes": [
+"International climate regime & negotiations"
+],
+"degree": 2
+},
+"ir": {
+"themes": [
+"Institutional design, legalization & delegation",
+"Treaty commitment, compliance & selection",
+"Climate & environmental cooperation"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "acemoglurobinson2001",
 "label": "Acemoglu 2001",
 "title": "Inefficient Redistribution",
@@ -6727,6 +6527,34 @@
 "degree": 3
 },
 {
+"id": "wantchekon2003",
+"label": "Wantchekon 2003",
+"title": "Clientelism and Voting Behavior: Evidence from a Field Experiment in Benin",
+"authors": "Leonard Wantchekon",
+"year": 2003,
+"journal": "World Politics",
+"doi": "10.1353/wp.2003.0018",
+"zotero": null,
+"claim": "Clientelist messages outperform public-policy messages in Benin's elections, especially for incumbents.",
+"fields": {
+"cp": {
+"themes": [
+"Clientelism, distributive politics & accountability",
+"Ethnic politics & identity"
+],
+"degree": 1
+},
+"pe": {
+"themes": [
+"Development, public goods & distributive politics"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "rueda2006",
 "label": "Rueda 2006",
 "title": "Social Democracy and Active Labour-Market Policies: Insiders, Outsiders and the Politics of Employment Promotion",
@@ -6840,26 +6668,27 @@
 "degree": 3
 },
 {
-"id": "solt2008",
-"label": "Solt 2008",
-"title": "Economic Inequality and Democratic Political Engagement",
-"authors": "Frederick Solt",
+"id": "fravel2008",
+"label": "Fravel 2008",
+"title": "Strong Borders, Secure Nation: Cooperation and Conflict in China's Territorial Disputes",
+"authors": "M. Taylor Fravel",
 "year": 2008,
-"journal": "AJPS",
-"doi": "10.1111/j.1540-5907.2007.00298.x",
+"journal": "Princeton University Press (book)",
+"doi": "10.1515/9781400828876",
 "zotero": null,
-"claim": "Higher inequality depresses political engagement among all but the most affluent.",
+"claim": "China has compromised in most territorial disputes when facing internal threats and used force when its bargaining position declined.",
 "fields": {
-"ap": {
+"cn": {
 "themes": [
-"Turnout, mobilization & participation",
-"Representation, responsiveness & inequality"
+"China in the world",
+"Hong Kong, Taiwan, Xinjiang & ethnic politics"
 ],
 "degree": 2
 },
-"pe": {
+"sec": {
 "themes": [
-"Inequality & the politics of redistribution"
+"US–China rivalry & the Western Pacific balance",
+"Territory, borders & indivisibility"
 ],
 "degree": 1
 }
@@ -6890,64 +6719,6 @@
 "Regimes & economic performance"
 ],
 "degree": 1
-}
-},
-"span": 2,
-"degree": 3
-},
-{
-"id": "malesky2008",
-"label": "Malesky 2008",
-"title": "Straight Ahead on Red: How Foreign Direct Investment Empowers Subnational Leaders",
-"authors": "Edmund J. Malesky",
-"year": 2008,
-"journal": "JOP",
-"doi": "10.1017/s0022381607080085",
-"zotero": null,
-"claim": "In Vietnam, provinces that attracted more FDI gained leverage over the center and pushed economic reforms ahead of national policy.",
-"fields": {
-"cp": {
-"themes": [
-"Political economy of development",
-"Authoritarian institutions & regime survival"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"FDI, MNCs & investment regimes",
-"Regime type, autocracies & the global economy"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 3
-},
-{
-"id": "rydgren2008",
-"label": "Rydgren 2008",
-"title": "Immigration sceptics, xenophobes or racists? Radical right‐wing voting in six West European countries",
-"authors": "Jens Rydgren",
-"year": 2008,
-"journal": "European Journal of Political Research",
-"doi": "10.1111/j.1475-6765.2008.00784.x",
-"zotero": null,
-"claim": "Radical right voters are motivated by ethnic nationalism and concerns about immigrants' cultural effects.",
-"fields": {
-"cp": {
-"themes": [
-"Populism & the radical right",
-"Ethnic politics & identity"
-],
-"degree": 1
-},
-"rep": {
-"themes": [
-"Immigration attitudes, nativism & enforcement",
-"Comparative ethnic politics & ethnic voting"
-],
-"degree": 2
 }
 },
 "span": 2,
@@ -7094,25 +6865,111 @@
 "degree": 3
 },
 {
-"id": "glasgow2009",
-"label": "Glasgow 2009",
-"title": "Racism as Disrespect",
-"authors": "Joshua Glasgow",
+"id": "mares2009",
+"label": "Mares 2009",
+"title": "Social Policy in Developing Countries",
+"authors": "Isabela Mares & Matthew E. Carnes",
 "year": 2009,
-"journal": "Ethics",
-"doi": "10.1086/648588",
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev.polisci.12.071207.093504",
 "zotero": null,
-"claim": "Racism is disrespect for members of racialized groups.",
+"claim": "Social policy in developing countries is shaped by informality, political competition and fiscal capacity.",
 "fields": {
-"pt": {
+"cp": {
 "themes": [
-"Race, colonialism & racial justice"
+"Redistribution, inequality & welfare states",
+"Political economy of development"
+],
+"degree": 2
+},
+"pe": {
+"themes": [
+"Welfare states & social policy",
+"Development, public goods & distributive politics"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "battig2009",
+"label": "Bättig 2009",
+"title": "National Institutions and Global Public Goods: Are Democracies More Cooperative in Climate Change Policy?",
+"authors": "Michèle B. Bättig & Thomas Bernauer",
+"year": 2009,
+"journal": "IO",
+"doi": "10.1017/s0020818309090092",
+"zotero": null,
+"claim": "Democracies make stronger climate policy commitments, but this does not translate into lower emissions.",
+"fields": {
+"env": {
+"themes": [
+"The environmental state, democracy & authoritarian environmentalism",
+"International climate regime & negotiations"
+],
+"degree": 2
+},
+"ir": {
+"themes": [
+"Climate & environmental cooperation",
+"Domestic politics & international commitments"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "hopkins2010",
+"label": "Hopkins 2010",
+"title": "Politicized Places: Explaining Where and When Immigrants Provoke Local Opposition",
+"authors": "Daniel J. Hopkins",
+"year": 2010,
+"journal": "APSR",
+"doi": "10.1017/s0003055409990360",
+"zotero": null,
+"claim": "Sudden immigrant influx provokes local opposition when national rhetoric makes immigration salient.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement",
+"Context, contact, threat & segregation"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "piston2010",
+"label": "Piston 2010",
+"title": "How Explicit Racial Prejudice Hurt Obama in the 2008 Election",
+"authors": "Spencer Piston",
+"year": 2010,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-010-9108-y",
+"zotero": null,
+"claim": "Explicit prejudice cost Obama white votes in 2008.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Campaigns, elections & accountability"
 ],
 "degree": 1
 },
 "rep": {
 "themes": [
-"Race in political theory",
 "Racial attitudes"
 ],
 "degree": 2
@@ -7262,6 +7119,35 @@
 "degree": 3
 },
 {
+"id": "thompson2010",
+"label": "Thompson 2010",
+"title": "Representing future generations: political presentism and democratic trusteeship",
+"authors": "Dennis F. Thompson",
+"year": 2010,
+"journal": "Critical Review of International Social and Political Philosophy",
+"doi": "10.1080/13698230903326232",
+"zotero": null,
+"claim": "Democracies are presentist; trusteeship institutions could represent future generations.",
+"fields": {
+"env": {
+"themes": [
+"Environmental & climate justice",
+"The environmental state, democracy & authoritarian environmentalism"
+],
+"degree": 1
+},
+"pt": {
+"themes": [
+"Representation & democratic theory",
+"Climate, future generations & nonhuman justice"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "kimsikkink2010",
 "label": "Kim 2010",
 "title": "Explaining the Deterrence Effect of Human Rights Prosecutions for Transitional Countries1",
@@ -7348,7 +7234,7 @@
 },
 {
 "id": "hicken2011",
-"label": "Allen Hicken 2011",
+"label": "Hicken 2011",
 "title": "Clientelism",
 "authors": "Allen Hicken",
 "year": 2011,
@@ -7393,34 +7279,6 @@
 "pt": {
 "themes": [
 "Climate, future generations & nonhuman justice"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 3
-},
-{
-"id": "freeman2012",
-"label": "Freeman 2012",
-"title": "The Economic Origins of Democracy Reconsidered",
-"authors": "John R. Freeman & Dennis P. Quinn",
-"year": 2012,
-"journal": "APSR",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/YCZNWRXM",
-"claim": "Financial openness lets elites diversify abroad, lowering their stake in resisting democracy, so unequal but financially open autocracies democratize more.",
-"fields": {
-"cp": {
-"themes": [
-"Democratization & regime change"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"Regime type, autocracies & the global economy",
-"Exchange rates, sovereign debt & financial crises"
 ],
 "degree": 2
 }
@@ -7851,35 +7709,6 @@
 "degree": 3
 },
 {
-"id": "bodea2015io",
-"label": "Bodea 2014",
-"title": "Price Stability and Central Bank Independence: Discipline, Credibility, and Democratic Institutions",
-"authors": "Cristina Bodea & Raymond Hicks",
-"year": 2014,
-"journal": "IO",
-"doi": "10.1017/s0020818314000277",
-"zotero": null,
-"claim": "Central bank independence lowers inflation, and does so more where democratic institutions make independence credible.",
-"fields": {
-"ipe": {
-"themes": [
-"Exchange rates, sovereign debt & financial crises",
-"Regime type, autocracies & the global economy"
-],
-"degree": 1
-},
-"pe": {
-"themes": [
-"Central banks, monetary & fiscal institutions",
-"Regimes & economic performance"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 3
-},
-{
 "id": "ridbuchanan2015",
 "label": "Rid 2014",
 "title": "Attributing Cyber Attacks",
@@ -8134,6 +7963,34 @@
 "degree": 3
 },
 {
+"id": "frieden2017",
+"label": "Frieden 2017",
+"title": "Understanding the Political Economy of the Eurozone Crisis",
+"authors": "Jeffry Frieden & Stefanie Walter",
+"year": 2017,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev-polisci-051215-023101",
+"zotero": null,
+"claim": "The euro crisis was a distributional fight over adjustment between and within debtor and creditor states, shaped by vulnerability profiles and bargaining power.",
+"fields": {
+"ipe": {
+"themes": [
+"Exchange rates, sovereign debt & financial crises"
+],
+"degree": 2
+},
+"pe": {
+"themes": [
+"Finance, crises & financialization",
+"Central banks, monetary & fiscal institutions"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "prorok2017",
 "label": "Prorok 2017",
 "title": "09-The (In)compatibility of Peace and Justice? The International Criminal Court and Civil Conflict Termination",
@@ -8276,34 +8133,6 @@
 "degree": 3
 },
 {
-"id": "vosoughi2018",
-"label": "Vosoughi 2018",
-"title": "The Spread of True and False News Online",
-"authors": "Soroush Vosoughi, Deb Roy & Sinan Aral",
-"year": 2018,
-"journal": "Science",
-"doi": "10.1126/science.aap9559",
-"zotero": null,
-"claim": "False news spreads farther and faster than true news on Twitter, driven by people rather than bots.",
-"fields": {
-"ap": {
-"themes": [
-"Misinformation, conspiracy beliefs & fact-checking",
-"News media, selective exposure & social media"
-],
-"degree": 1
-},
-"tech": {
-"themes": [
-"Misinformation, bots, deepfakes & computational propaganda"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 3
-},
-{
 "id": "kim2018",
 "label": "Kim 2018",
 "title": "The Stealth Media? Groups and Targets behind Divisive Issue Campaigns on Facebook",
@@ -8327,34 +8156,6 @@
 "Platform power, platform governance & content moderation"
 ],
 "degree": 1
-}
-},
-"span": 2,
-"degree": 3
-},
-{
-"id": "valentino2018",
-"label": "Valentino 2018",
-"title": "The Changing Norms of Racial Political Rhetoric and the End of Racial Priming",
-"authors": "Nicholas A. Valentino, Fabian G. Neuner & L. Matthew Vandenbroek",
-"year": 2018,
-"journal": "JOP",
-"doi": "10.1086/694845",
-"zotero": null,
-"claim": "Explicit racial rhetoric no longer triggers backlash, so implicit and explicit appeals now work alike.",
-"fields": {
-"ap": {
-"themes": [
-"Race, ethnicity & immigration",
-"Campaigns, elections & accountability"
-],
-"degree": 1
-},
-"rep": {
-"themes": [
-"Racial priming, cues & campaign appeals"
-],
-"degree": 2
 }
 },
 "span": 2,
@@ -8420,28 +8221,27 @@
 "degree": 3
 },
 {
-"id": "panchen2018",
-"label": "Pan 2018",
-"title": "Concealing Corruption: How Chinese Officials Distort Upward Reporting of Online Grievances",
-"authors": "Jennifer Pan & Kaiping Chen",
+"id": "kim2018media",
+"label": "Kim 2018",
+"title": "Media Bias against Foreign Firms as a Veiled Trade Barrier: Evidence from Chinese Newspapers",
+"authors": "Sung Eun Kim",
 "year": 2018,
 "journal": "APSR",
 "doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/U6TA3F2U",
-"claim": "Chinese officials conceal complaints implicating themselves when they are ambitious and their superiors' oversight is weak.",
+"zotero": "https://www.zotero.org/georgeyean/items/HIW8QYKR",
+"claim": "State newspapers cover foreign firms' product failures more and more negatively, a veiled protectionist tool where formal barriers are constrained by trade rules.",
 "fields": {
 "cn": {
 "themes": [
-"Censorship, propaganda & digital control",
-"Corruption, anti-corruption & law"
+"Political economy",
+"Censorship, propaganda & digital control"
 ],
 "degree": 1
 },
-"cp": {
+"ipe": {
 "themes": [
-"Chinese politics",
-"Censorship, propaganda & information in autocracies",
-"Corruption, bureaucracy & courts"
+"GATT/WTO, PTAs & institutional design",
+"China's rise & contestation of the liberal order"
 ],
 "degree": 2
 }
@@ -8477,27 +8277,26 @@
 "degree": 3
 },
 {
-"id": "enos2019",
-"label": "Enos 2019",
-"title": "Can Violent Protest Change Local Policy Support? Evidence from the Aftermath of the 1992 Los Angeles Riot",
-"authors": "Ryan D. Enos, Aaron R. Kaufman & Melissa L. Sands",
+"id": "weissdafoe2019",
+"label": "Weiss 2019",
+"title": "Authoritarian Audiences, Rhetoric, and Propaganda in International Crises: Evidence from China",
+"authors": "Jessica Chen Weiss & Allan Dafoe",
 "year": 2019,
-"journal": "APSR",
-"doi": "10.1017/s0003055419000340",
+"journal": "ISQ",
+"doi": "10.1093/isq/sqz059",
 "zotero": null,
-"claim": "The 1992 Los Angeles riot increased support for public spending among Black and white voters.",
+"claim": "Chinese citizens punish leaders for backing down, but official rhetoric and propaganda can reduce those costs.",
 "fields": {
-"ap": {
+"cn": {
 "themes": [
-"Race, ethnicity & immigration",
-"Opinion formation"
+"Nationalism & foreign-policy opinion"
 ],
 "degree": 1
 },
-"rep": {
+"sec": {
 "themes": [
-"Black politics, protest & the civil rights movement",
-"Race, welfare & public policy"
+"Audience costs, signaling & crisis diplomacy",
+"US–China rivalry & the Western Pacific balance"
 ],
 "degree": 2
 }
@@ -8526,34 +8325,6 @@
 "pe": {
 "themes": [
 "Regimes & economic performance"
-],
-"degree": 1
-}
-},
-"span": 2,
-"degree": 3
-},
-{
-"id": "chwieroth2019",
-"label": "Chwieroth 2019",
-"title": "The Wealth Effect: How the Great Expectations of the Middle Class Have Changed the Politics of Banking Crises",
-"authors": "Jeffrey M. Chwieroth & Andrew Walter",
-"year": 2019,
-"journal": "Cambridge University Press (book)",
-"doi": "10.1017/9781316649992",
-"zotero": null,
-"claim": "Mass wealth-holding created expectations of bailouts, so governments now rescue finance generously yet are punished electorally anyway: crises became more costly for incumbents.",
-"fields": {
-"ipe": {
-"themes": [
-"Exchange rates, sovereign debt & financial crises",
-"Globalization backlash, China shock & populism"
-],
-"degree": 2
-},
-"pe": {
-"themes": [
-"Finance, crises & financialization"
 ],
 "degree": 1
 }
@@ -8897,34 +8668,6 @@
 "degree": 3
 },
 {
-"id": "dellmuth2022",
-"label": "Dellmuth 2022",
-"title": "The Elite-Citizen Gap in International Organization Legitimacy",
-"authors": "Lisa Dellmuth, Jan Aart Scholte, Jonas Tallberg & Soetkin Verhaegen",
-"year": 2022,
-"journal": "APSR",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/AUCSHWWM",
-"claim": "Elites see IOs as more legitimate than citizens do because of status, liberal values, global identity and institutional trust; the gap varies by IO and country.",
-"fields": {
-"ipe": {
-"themes": [
-"Politicization & legitimacy of international cooperation"
-],
-"degree": 1
-},
-"ir": {
-"themes": [
-"Legitimacy, politicization & accountability of global governance",
-"Public opinion & foreign policy attitudes"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 3
-},
-{
 "id": "qian2023",
 "label": "Qian 2023",
 "title": "The Impact of China's AIIB on the World Bank",
@@ -9005,34 +8748,6 @@
 "Regime complexes, overlap & institutional change"
 ],
 "degree": 1
-}
-},
-"span": 2,
-"degree": 3
-},
-{
-"id": "greenriley2023",
-"label": "Green-Riley 2023",
-"title": "Whose War is it Anyway? Explaining the Black-White Gap in Support for the Use of Force Abroad",
-"authors": "Naima Green-Riley & Andrew Leber",
-"year": 2023,
-"journal": "Security Studies",
-"doi": "10.1080/09636412.2023.2230881",
-"zotero": "https://www.zotero.org/georgeyean/items/DQVVWWXX",
-"claim": "Black Americans are less supportive of using force abroad than white Americans, reflecting distinct views of whose war it is.",
-"fields": {
-"sec": {
-"themes": [
-"Public opinion, casualties & the use of force"
-],
-"degree": 1
-},
-"rep": {
-"themes": [
-"Race in international politics",
-"Racial attitudes"
-],
-"degree": 2
 }
 },
 "span": 2,
@@ -9377,6 +9092,34 @@
 "degree": 2
 },
 {
+"id": "solt2008",
+"label": "Solt 2008",
+"title": "Economic Inequality and Democratic Political Engagement",
+"authors": "Frederick Solt",
+"year": 2008,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2007.00298.x",
+"zotero": null,
+"claim": "Higher inequality depresses political engagement among all but the most affluent.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Representation, responsiveness & inequality"
+],
+"degree": 1
+},
+"pe": {
+"themes": [
+"Inequality & the politics of redistribution"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "lee2008",
 "label": "Lee 2008",
 "title": "Race, Immigration, and the Identity-to-Politics Link",
@@ -9425,6 +9168,35 @@
 "pe": {
 "themes": [
 "Institutions, property rights & long-run development"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "malesky2008",
+"label": "Malesky 2008",
+"title": "Straight Ahead on Red: How Foreign Direct Investment Empowers Subnational Leaders",
+"authors": "Edmund J. Malesky",
+"year": 2008,
+"journal": "JOP",
+"doi": "10.1017/s0022381607080085",
+"zotero": null,
+"claim": "In Vietnam, provinces that attracted more FDI gained leverage over the center and pushed economic reforms ahead of national policy.",
+"fields": {
+"cp": {
+"themes": [
+"Political economy of development",
+"Authoritarian institutions & regime survival"
+],
+"degree": 1
+},
+"ipe": {
+"themes": [
+"FDI, MNCs & investment regimes",
+"Regime type, autocracies & the global economy"
 ],
 "degree": 1
 }
@@ -9713,6 +9485,34 @@
 "degree": 2
 },
 {
+"id": "glasgow2009",
+"label": "Glasgow 2009",
+"title": "Racism as Disrespect",
+"authors": "Joshua Glasgow",
+"year": 2009,
+"journal": "Ethics",
+"doi": "10.1086/648588",
+"zotero": null,
+"claim": "Racism is disrespect for members of racialized groups.",
+"fields": {
+"pt": {
+"themes": [
+"Race, colonialism & racial justice"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Race in political theory",
+"Racial attitudes"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "schlozman2010",
 "label": "Schlozman 2010",
 "title": "Weapon of the Strong? Participatory Inequality and the Internet",
@@ -9734,34 +9534,6 @@
 "themes": [
 "Digital divides & inequality",
 "Digital activism, connective action & participation"
-],
-"degree": 1
-}
-},
-"span": 2,
-"degree": 2
-},
-{
-"id": "hopkins2010",
-"label": "Hopkins 2010",
-"title": "Politicized Places: Explaining Where and When Immigrants Provoke Local Opposition",
-"authors": "Daniel J. Hopkins",
-"year": 2010,
-"journal": "APSR",
-"doi": "10.1017/s0003055409990360",
-"zotero": null,
-"claim": "Sudden immigrant influx provokes local opposition when national rhetoric makes immigration salient.",
-"fields": {
-"ap": {
-"themes": [
-"Race, ethnicity & immigration"
-],
-"degree": 1
-},
-"rep": {
-"themes": [
-"Immigration attitudes, nativism & enforcement",
-"Context, contact, threat & segregation"
 ],
 "degree": 1
 }
@@ -10163,6 +9935,34 @@
 "degree": 2
 },
 {
+"id": "freeman2012",
+"label": "Freeman 2012",
+"title": "The Economic Origins of Democracy Reconsidered",
+"authors": "John R. Freeman & Dennis P. Quinn",
+"year": 2012,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/YCZNWRXM",
+"claim": "Financial openness lets elites diversify abroad, lowering their stake in resisting democracy, so unequal but financially open autocracies democratize more.",
+"fields": {
+"cp": {
+"themes": [
+"Democratization & regime change"
+],
+"degree": 1
+},
+"ipe": {
+"themes": [
+"Regime type, autocracies & the global economy",
+"Exchange rates, sovereign debt & financial crises"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "svolik2012",
 "label": "Svolik 2012",
 "title": "Contracting on Violence",
@@ -10548,6 +10348,35 @@
 "Inequality & the politics of redistribution",
 "Welfare states & social policy",
 "Finance, crises & financialization"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "bodea2015io",
+"label": "Bodea 2014",
+"title": "Price Stability and Central Bank Independence: Discipline, Credibility, and Democratic Institutions",
+"authors": "Cristina Bodea & Raymond Hicks",
+"year": 2014,
+"journal": "IO",
+"doi": "10.1017/s0020818314000277",
+"zotero": null,
+"claim": "Central bank independence lowers inflation, and does so more where democratic institutions make independence credible.",
+"fields": {
+"ipe": {
+"themes": [
+"Exchange rates, sovereign debt & financial crises",
+"Regime type, autocracies & the global economy"
+],
+"degree": 1
+},
+"pe": {
+"themes": [
+"Central banks, monetary & fiscal institutions",
+"Regimes & economic performance"
 ],
 "degree": 1
 }
@@ -11033,6 +10862,34 @@
 "degree": 2
 },
 {
+"id": "vosoughi2018",
+"label": "Vosoughi 2018",
+"title": "The Spread of True and False News Online",
+"authors": "Soroush Vosoughi, Deb Roy & Sinan Aral",
+"year": 2018,
+"journal": "Science",
+"doi": "10.1126/science.aap9559",
+"zotero": null,
+"claim": "False news spreads farther and faster than true news on Twitter, driven by people rather than bots.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"News media, selective exposure & social media"
+],
+"degree": 1
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "bail2018",
 "label": "Bail 2018",
 "title": "Exposure to Opposing Views on Social Media Can Increase Political Polarization",
@@ -11108,6 +10965,36 @@
 "cp": {
 "themes": [
 "Democratic backsliding, polarization & support for democracy"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "panchen2018",
+"label": "Pan 2018",
+"title": "Concealing Corruption: How Chinese Officials Distort Upward Reporting of Online Grievances",
+"authors": "Jennifer Pan & Kaiping Chen",
+"year": 2018,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/U6TA3F2U",
+"claim": "Chinese officials conceal complaints implicating themselves when they are ambitious and their superiors' oversight is weak.",
+"fields": {
+"cn": {
+"themes": [
+"Censorship, propaganda & digital control",
+"Corruption, anti-corruption & law"
+],
+"degree": 1
+},
+"cp": {
+"themes": [
+"Chinese politics",
+"Censorship, propaganda & information in autocracies",
+"Corruption, bureaucracy & courts"
 ],
 "degree": 1
 }
@@ -11311,6 +11198,35 @@
 "degree": 2
 },
 {
+"id": "enos2019",
+"label": "Enos 2019",
+"title": "Can Violent Protest Change Local Policy Support? Evidence from the Aftermath of the 1992 Los Angeles Riot",
+"authors": "Ryan D. Enos, Aaron R. Kaufman & Melissa L. Sands",
+"year": 2019,
+"journal": "APSR",
+"doi": "10.1017/s0003055419000340",
+"zotero": null,
+"claim": "The 1992 Los Angeles riot increased support for public spending among Black and white voters.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Black politics, protest & the civil rights movement",
+"Race, welfare & public policy"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "lowande2019",
 "label": "Lowande 2019",
 "title": "Descriptive and Substantive Representation in Congress: Evidence from 80,000 Congressional Inquiries",
@@ -11444,6 +11360,34 @@
 "pt": {
 "themes": [
 "Deliberative democracy & democratic innovations"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "chwieroth2019",
+"label": "Chwieroth 2019",
+"title": "The Wealth Effect: How the Great Expectations of the Middle Class Have Changed the Politics of Banking Crises",
+"authors": "Jeffrey M. Chwieroth & Andrew Walter",
+"year": 2019,
+"journal": "Cambridge University Press (book)",
+"doi": "10.1017/9781316649992",
+"zotero": null,
+"claim": "Mass wealth-holding created expectations of bailouts, so governments now rescue finance generously yet are punished electorally anyway: crises became more costly for incumbents.",
+"fields": {
+"ipe": {
+"themes": [
+"Exchange rates, sovereign debt & financial crises",
+"Globalization backlash, China shock & populism"
+],
+"degree": 1
+},
+"pe": {
+"themes": [
+"Finance, crises & financialization"
 ],
 "degree": 1
 }
@@ -11792,6 +11736,34 @@
 "degree": 2
 },
 {
+"id": "dellmuth2022",
+"label": "Dellmuth 2022",
+"title": "The Elite-Citizen Gap in International Organization Legitimacy",
+"authors": "Lisa Dellmuth, Jan Aart Scholte, Jonas Tallberg & Soetkin Verhaegen",
+"year": 2022,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/AUCSHWWM",
+"claim": "Elites see IOs as more legitimate than citizens do because of status, liberal values, global identity and institutional trust; the gap varies by IO and country.",
+"fields": {
+"ipe": {
+"themes": [
+"Politicization & legitimacy of international cooperation"
+],
+"degree": 1
+},
+"ir": {
+"themes": [
+"Legitimacy, politicization & accountability of global governance",
+"Public opinion & foreign policy attitudes"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "goldfarb2022",
 "label": "Goldfarb 2022",
 "title": "Prediction and Judgment: Why Artificial Intelligence Increases the Importance of Humans in War",
@@ -11870,6 +11842,34 @@
 "themes": [
 "Institutions, property rights & long-run development",
 "Development, public goods & distributive politics"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "greenriley2023",
+"label": "Green-Riley 2023",
+"title": "Whose War is it Anyway? Explaining the Black-White Gap in Support for the Use of Force Abroad",
+"authors": "Naima Green-Riley & Andrew Leber",
+"year": 2023,
+"journal": "Security Studies",
+"doi": "10.1080/09636412.2023.2230881",
+"zotero": "https://www.zotero.org/georgeyean/items/DQVVWWXX",
+"claim": "Black Americans are less supportive of using force abroad than white Americans, reflecting distinct views of whose war it is.",
+"fields": {
+"sec": {
+"themes": [
+"Public opinion, casualties & the use of force"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Race in international politics",
+"Racial attitudes"
 ],
 "degree": 1
 }

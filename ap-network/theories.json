@@ -1121,8 +1121,8 @@
  ],
  "relations": [
   {
-   "source": "spatial",
-   "target": "michigan",
+   "source": "michigan",
+   "target": "spatial",
    "type": "rivals",
    "why": "Issue proximity versus partisan attachment."
   },
@@ -1187,8 +1187,8 @@
    "why": "Identity motivates biased reasoning."
   },
   {
-   "source": "sorting",
-   "target": "masspolar",
+   "source": "masspolar",
+   "target": "sorting",
    "type": "rivals",
    "why": "Sorting versus genuine mass divergence."
   },
@@ -1217,8 +1217,8 @@
    "why": "Parties solve members' collective problems."
   },
   {
-   "source": "pivotal",
-   "target": "cartel",
+   "source": "cartel",
+   "target": "pivotal",
    "type": "rivals",
    "why": "Pivots versus parties."
   },
@@ -1247,8 +1247,8 @@
    "why": "Unilateral action within veto constraints."
   },
   {
-   "source": "strategic",
-   "target": "attitudinal",
+   "source": "attitudinal",
+   "target": "strategic",
    "type": "rivals",
    "why": "Strategic versus sincere voting."
   },
@@ -1259,8 +1259,8 @@
    "why": "Administrative tools of presidential control."
   },
   {
-   "source": "subsidy",
-   "target": "ucla",
+   "source": "ucla",
+   "target": "subsidy",
    "type": "complements",
    "why": "Groups influence through allies."
   },
@@ -1283,38 +1283,38 @@
    "why": "Aggregate mood drives policy."
   },
   {
-   "source": "feedback",
-   "target": "civic",
-   "type": "extends",
+   "source": "civic",
+   "target": "feedback",
+   "type": "complements",
    "why": "Policies create participatory resources."
   },
   {
-   "source": "mobilization",
-   "target": "civic",
+   "source": "civic",
+   "target": "mobilization",
    "type": "complements",
    "why": "Recruitment as a participation input."
   },
   {
-   "source": "resentment",
-   "target": "motivated",
+   "source": "motivated",
+   "target": "resentment",
    "type": "complements",
    "why": "Group affect shapes opinion processing."
   },
   {
-   "source": "threat",
-   "target": "resentment",
+   "source": "resentment",
+   "target": "threat",
    "type": "rivals",
    "why": "Contextual threat versus learned predisposition."
   },
   {
-   "source": "linkedfate",
-   "target": "socialid",
-   "type": "applies",
-   "why": "Group identity in Black politics."
+   "source": "socialid",
+   "target": "linkedfate",
+   "type": "complements",
+   "why": "Group identity in partisanship and in Black politics."
   },
   {
-   "source": "affint",
-   "target": "motivated",
+   "source": "motivated",
+   "target": "affint",
    "type": "rivals",
    "why": "Emotion can trigger reconsideration, not only defense."
   },

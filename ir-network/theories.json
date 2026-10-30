@@ -736,10 +736,10 @@
    "why": "Moves realism from human nature to system structure."
   },
   {
-   "source": "defensive",
-   "target": "neorealism",
-   "type": "extends",
-   "why": "Security-seeking variant of structural realism."
+   "source": "neorealism",
+   "target": "defensive",
+   "type": "complements",
+   "why": "Security-seeking and structural realism."
   },
   {
    "source": "offensive",
@@ -796,8 +796,8 @@
    "why": "Rationalist theory of institutions under interdependence."
   },
   {
-   "source": "regimes",
-   "target": "neolib",
+   "source": "neolib",
+   "target": "regimes",
    "type": "complements",
    "why": "Regimes as the object neoliberals explain."
   },
@@ -826,8 +826,8 @@
    "why": "Preferences, not institutions or power, drive outcomes."
   },
   {
-   "source": "dempeace",
-   "target": "liberalpref",
+   "source": "liberalpref",
+   "target": "dempeace",
    "type": "complements",
    "why": "Regime type as a domestic preference source."
   },
@@ -838,8 +838,8 @@
    "why": "Capitalism, not democracy, explains peace."
   },
   {
-   "source": "twolevel",
-   "target": "liberalpref",
+   "source": "liberalpref",
+   "target": "twolevel",
    "type": "complements",
    "why": "Domestic ratification shapes international bargaining."
   },
@@ -850,10 +850,10 @@
    "why": "Rationalist account of war under anarchy."
   },
   {
-   "source": "audience",
-   "target": "bargaining",
-   "type": "applies",
-   "why": "Credible signaling to solve information problems."
+   "source": "bargaining",
+   "target": "audience",
+   "type": "complements",
+   "why": "Credible signaling within the bargaining model."
   },
   {
    "source": "audience",

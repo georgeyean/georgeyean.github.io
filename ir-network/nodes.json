@@ -18,7 +18,7 @@
    "seed_from_papers_json": 102,
    "crossref_top_cited": 92,
    "anchors_supplement": 24,
-   "relation_edges": 237,
+   "relation_edges": 233,
    "membership_edges": 373
   },
   "verification": "Repo works come from the user's Zotero library. Works shared with the IPE and security maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref (books often via reviews, chapters or reprint DOIs). One-line claims for non-repo works are my summaries."
@@ -1105,7 +1105,7 @@
   {
    "id": "mitchellhensel2007",
    "type": "work",
-   "label": "McLaughlin Mitchell 2007",
+   "label": "Mitchell 2007",
    "authors": "Sara McLaughlin Mitchell & Paul R. Hensel",
    "year": 2007,
    "journal": "AJPS",
@@ -3348,7 +3348,7 @@
   {
    "id": "mattern2016",
    "type": "work",
-   "label": "Mattern 2016",
+   "label": "Bially Mattern 2016",
    "authors": "Janice Bially Mattern & Ayşe Zarakol",
    "year": 2016,
    "journal": "IO",

@@ -18,17 +18,17 @@
    "seed_from_papers_json": 35,
    "crossref_top_cited": 108,
    "anchors_supplement": 40,
-   "relation_edges": 183,
+   "relation_edges": 178,
    "membership_edges": 297
   },
-  "verification": "Repo works come from the user's Zotero library. Works imported from the other four maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+  "verification": "Repo works come from the user's Zotero library. Works shared with the other four maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref, books mostly via published reviews or chapter records. One-line claims for non-repo works are my summaries."
  },
  "edges": [
   {
    "source": "lieberthal1988",
    "target": "walder1986",
    "type": "synthesizes",
-   "why": "Institutional foundations of Chinese politics (contemporaneous)."
+   "why": "Both show how Leninist institutions structure behavior, Walder in the factory and Lieberthal and Oksenberg in bureaucratic policymaking."
   },
   {
    "source": "shirk1993",
@@ -67,10 +67,10 @@
    "why": "Experimentation under hierarchy, not just bargaining."
   },
   {
-   "source": "heilmann2008",
-   "target": "heilmann2008cj",
-   "type": "synthesizes",
-   "why": "Policy experimentation (companion articles)."
+   "source": "heilmann2008cj",
+   "target": "heilmann2008",
+   "type": "builds_on",
+   "why": "Policy experimentation under hierarchy."
   },
   {
    "source": "heilmannperry2011",
@@ -122,9 +122,9 @@
   },
   {
    "source": "tan2020",
-   "target": "zhou2010",
+   "target": "lieberthal1988",
    "type": "builds_on",
-   "why": "Divergent central and local responses to WTO entry."
+   "why": "Disaggregates the party-state to show central and local agencies pursued different aims around WTO entry, in the fragmented authoritarianism tradition."
   },
   {
    "source": "ang2016",
@@ -139,16 +139,16 @@
    "why": "Development in China and Vietnam."
   },
   {
-   "source": "lin1992",
-   "target": "oi1999",
-   "type": "synthesizes",
-   "why": "Rural reform and growth (Lin predates)."
+   "source": "oi1999",
+   "target": "lin1992",
+   "type": "qualifies",
+   "why": "Local state corporatism, not only household reform, drove rural growth."
   },
   {
-   "source": "lizhou2005",
-   "target": "landry2008",
-   "type": "synthesizes",
-   "why": "Promotion incentives (Li-Zhou predates)."
+   "source": "landry2008",
+   "target": "lizhou2005",
+   "type": "builds_on",
+   "why": "Promotion incentives for local cadres."
   },
   {
    "source": "shih2008",
@@ -267,8 +267,8 @@
   {
    "source": "truex2016",
    "target": "truex2016book",
-   "type": "synthesizes",
-   "why": "Consultative authoritarianism (same author)."
+   "type": "builds_on",
+   "why": "Uses an experiment to probe the limits of the consultative responsiveness described in his book."
   },
   {
    "source": "teets2013",
@@ -355,10 +355,10 @@
    "why": "Commercial media sustain rule."
   },
   {
-   "source": "mackinnon2011",
-   "target": "kingpanroberts2013",
-   "type": "synthesizes",
-   "why": "Networked authoritarianism (MacKinnon predates)."
+   "source": "kingpanroberts2013",
+   "target": "mackinnon2011",
+   "type": "builds_on",
+   "why": "Censorship targets collective action within networked authoritarianism."
   },
   {
    "source": "creemers2016",
@@ -373,10 +373,10 @@
    "why": "Participatory persuasion."
   },
   {
-   "source": "han2015",
-   "target": "king2017",
-   "type": "synthesizes",
-   "why": "Voluntary and paid online commentators."
+   "source": "king2017",
+   "target": "han2015",
+   "type": "builds_on",
+   "why": "Government-paid posts distract rather than argue."
   },
   {
    "source": "tai2014",
@@ -419,12 +419,6 @@
    "target": "brady2008",
    "type": "extends_to_new_case",
    "why": "Propaganda aimed at global audiences."
-  },
-  {
-   "source": "obrienli2006",
-   "target": "walder1986",
-   "type": "builds_on",
-   "why": "Rightful resistance using regime commitments."
   },
   {
    "source": "lee2007",
@@ -493,10 +487,10 @@
    "why": "Relational repression."
   },
   {
-   "source": "wangminzner2015",
-   "target": "greitens2016",
+   "source": "greitens2016",
+   "target": "wangminzner2015",
    "type": "synthesizes",
-   "why": "Security state expansion (contemporaneous)."
+   "why": "Theorizes how threat perceptions shape coercive institutions, a framework for the security state Wang and Minzner document."
   },
   {
    "source": "greitens2020",
@@ -505,16 +499,16 @@
    "why": "Preventive repression in Xinjiang."
   },
   {
-   "source": "leibold2019",
-   "target": "greitens2020",
-   "type": "synthesizes",
-   "why": "Surveillance in Xinjiang (contemporaneous)."
+   "source": "greitens2020",
+   "target": "leibold2019",
+   "type": "builds_on",
+   "why": "Preventive repression and surveillance in Xinjiang."
   },
   {
-   "source": "kanghan2008",
-   "target": "teets2013",
-   "type": "synthesizes",
-   "why": "Graduated controls on organizations (Kang-Han predates)."
+   "source": "teets2013",
+   "target": "kanghan2008",
+   "type": "builds_on",
+   "why": "From graduated control to consultative authoritarianism."
   },
   {
    "source": "rithmire2023",
@@ -553,10 +547,10 @@
    "why": "Revolutionary legacies in governance."
   },
   {
-   "source": "kennedy2010",
-   "target": "mcnally2012",
+   "source": "mcnally2012",
+   "target": "kennedy2010",
    "type": "synthesizes",
-   "why": "Is there a China model? (Kennedy predates)."
+   "why": "Sino-capitalism as an alternative economic model."
   },
   {
    "source": "panxu2018",
@@ -607,10 +601,10 @@
    "why": "Little evidence of rising nationalism."
   },
   {
-   "source": "gries2011",
-   "target": "wang2012",
+   "source": "wang2012",
+   "target": "gries2011",
    "type": "qualifies",
-   "why": "Nationalism versus patriotism."
+   "why": "Historical memory education shapes Chinese nationalism."
   },
   {
    "source": "weiss2019jcc",
@@ -646,7 +640,7 @@
    "source": "christensen2006",
    "target": "johnston2003",
    "type": "synthesizes",
-   "why": "Trend analysis of Beijing's use of force (contemporaneous)."
+   "why": "Explains Beijing's use of force through its reading of power trends, adding to debates on whether China is a status quo power."
   },
   {
    "source": "naughton2007",
@@ -709,16 +703,16 @@
    "why": "Multinational rents and corruption."
   },
   {
-   "source": "stone2021",
-   "target": "pearson2022",
+   "source": "pearson2022",
+   "target": "stone2021",
    "type": "synthesizes",
-   "why": "SOEs and state power abroad (contemporaneous)."
+   "why": "Party-state capitalism at home and state-owned firms abroad."
   },
   {
-   "source": "pearson2022",
-   "target": "rithmire2023",
-   "type": "synthesizes",
-   "why": "Party-state capitalism (contemporaneous)."
+   "source": "rithmire2023",
+   "target": "pearson2022",
+   "type": "builds_on",
+   "why": "Party-state capitalism and precarious business-state ties."
   },
   {
    "source": "ong2014",
@@ -751,10 +745,10 @@
    "why": "Crony capitalism and regime decay."
   },
   {
-   "source": "manion2004",
-   "target": "wedeman2012",
-   "type": "synthesizes",
-   "why": "Breaking corruption equilibria (Manion predates)."
+   "source": "wedeman2012",
+   "target": "manion2004",
+   "type": "builds_on",
+   "why": "Anticorruption campaigns and growth amid corruption."
   },
   {
    "source": "li2010",
@@ -769,22 +763,16 @@
    "why": "Anticorruption as factional weapon."
   },
   {
-   "source": "sng2014",
-   "target": "manion2004",
-   "type": "extends_to_new_case",
-   "why": "Imperial principal-agent problems."
-  },
-  {
    "source": "hsuhasmath2014",
    "target": "teets2013",
    "type": "builds_on",
    "why": "Local corporatism and NGOs."
   },
   {
-   "source": "shieh2011",
-   "target": "teets2013",
-   "type": "synthesizes",
-   "why": "Earthquake and civil society (Shieh-Deng predates)."
+   "source": "teets2013",
+   "target": "shieh2011",
+   "type": "builds_on",
+   "why": "Civil society growth after the 2008 earthquake."
   },
   {
    "source": "hildebrandt2011",
@@ -829,10 +817,10 @@
    "why": "The sovereign's dilemma across dynasties."
   },
   {
-   "source": "sng2014",
-   "target": "wang2022book",
-   "type": "synthesizes",
-   "why": "Imperial state weakness (Sng predates)."
+   "source": "wang2022book",
+   "target": "sng2014",
+   "type": "builds_on",
+   "why": "The weakness of the imperial state."
   },
   {
    "source": "veg2017",
@@ -850,13 +838,7 @@
    "source": "cheng2016",
    "target": "obrienli2006",
    "type": "extends_to_new_case",
-   "why": "Street politics in Hong Kong."
-  },
-  {
-   "source": "manion2004",
-   "target": "cheng2016",
-   "type": "synthesizes",
-   "why": "Hong Kong governance (Manion predates)."
+   "why": "Brings the study of popular contention to semi-democratic Hong Kong, where activism spreads through street politics rather than rightful claims."
   },
   {
    "source": "fravel2008",
@@ -883,12 +865,6 @@
    "why": "Domestic channels of internationalization."
   },
   {
-   "source": "johnston2003",
-   "target": "zweig2002",
-   "type": "synthesizes",
-   "why": "China's integration into institutions."
-  },
-  {
    "source": "kastner2016ss",
    "target": "johnston2003",
    "type": "builds_on",
@@ -913,16 +889,16 @@
    "why": "Domestic sources of China's order engagement."
   },
   {
-   "source": "weiss2019ssrn",
-   "target": "weiss2021",
-   "type": "synthesizes",
-   "why": "China defends autocracy without exporting it."
+   "source": "weiss2021",
+   "target": "weiss2019ssrn",
+   "type": "builds_on",
+   "why": "Domestic politics behind China's strategy toward the order."
   },
   {
-   "source": "bader2014",
-   "target": "weiss2019ssrn",
-   "type": "synthesizes",
-   "why": "Little systematic autocratic patronage (Bader predates)."
+   "source": "weiss2019ssrn",
+   "target": "bader2014",
+   "type": "builds_on",
+   "why": "China defends autocracy without systematically promoting it."
   },
   {
    "source": "kastnerpearson2021",
@@ -946,7 +922,7 @@
    "source": "fuchs2013",
    "target": "floresmacias2013",
    "type": "synthesizes",
-   "why": "Trade punishment and alignment."
+   "why": "Both link trade with China to political alignment; Fuchs and Klann show exports fall after leaders meet the Dalai Lama."
   },
   {
    "source": "lim2022",
@@ -961,10 +937,10 @@
    "why": "Import refusals as retribution."
   },
   {
-   "source": "norris2016",
-   "target": "kastnerpearson2021",
-   "type": "synthesizes",
-   "why": "State control of commercial actors (Norris predates)."
+   "source": "kastnerpearson2021",
+   "target": "norris2016",
+   "type": "builds_on",
+   "why": "State control of commercial actors in economic statecraft."
   },
   {
    "source": "yu2016",
@@ -992,9 +968,9 @@
   },
   {
    "source": "qian2023",
-   "target": "broz2020china",
-   "type": "synthesizes",
-   "why": "Chinese institutions as outside options."
+   "target": "kaplan2016",
+   "type": "builds_on",
+   "why": "Shows the AIIB works as an outside option that pushes the World Bank to loosen its lending terms, building on the idea of Chinese finance as a no-strings alternative."
   },
   {
    "source": "broz2020china",
@@ -1009,10 +985,10 @@
    "why": "Renminbi internationalization."
   },
   {
-   "source": "kaplan2016",
-   "target": "dreher2018",
-   "type": "synthesizes",
-   "why": "Conditionality-free Chinese lending (Kaplan predates)."
+   "source": "dreher2018",
+   "target": "kaplan2016",
+   "type": "builds_on",
+   "why": "Chinese lending without conditionality."
   },
   {
    "source": "hartig2011",
@@ -1070,15 +1046,15 @@
   },
   {
    "source": "lindpress2018",
-   "target": "yu2016",
-   "type": "synthesizes",
-   "why": "Energy security and China's outward strategy."
+   "target": "norris2016",
+   "type": "qualifies",
+   "why": "Finds China secures energy mostly through markets rather than state-directed mercantilism, limiting how far commercial actors serve state strategy."
   },
   {
-   "source": "gilli2019",
-   "target": "malkin2020",
-   "type": "synthesizes",
-   "why": "Limits of technological catch-up."
+   "source": "malkin2020",
+   "target": "gilli2019",
+   "type": "qualifies",
+   "why": "Argues China's industrial policy and IP strategy still erode US structural power even where military-technological imitation has limits."
   },
   {
    "source": "tan2020",
@@ -1114,13 +1090,7 @@
    "source": "wingchan2008",
    "target": "hsing2006",
    "type": "synthesizes",
-   "why": "Hukou and urbanization."
-  },
-  {
-   "source": "obrienli2006",
-   "target": "kennedy2007",
-   "type": "synthesizes",
-   "why": "Rural grievances and governance."
+   "why": "Shows hukou reforms left core barriers to migrants in place, a people-side counterpart to Hsing's land-driven account of urbanization."
   },
   {
    "source": "walder1986",

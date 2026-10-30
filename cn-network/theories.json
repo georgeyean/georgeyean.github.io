@@ -707,8 +707,8 @@
    "why": "Responsiveness as a resilience mechanism."
   },
   {
-   "source": "censorship",
-   "target": "responsive",
+   "source": "responsive",
+   "target": "censorship",
    "type": "complements",
    "why": "Criticism tolerated as information."
   },
@@ -719,22 +719,22 @@
    "why": "Mechanisms of censorship."
   },
   {
-   "source": "propaganda",
-   "target": "porous",
+   "source": "porous",
+   "target": "propaganda",
    "type": "complements",
    "why": "Flooding and signaling."
   },
   {
-   "source": "rightful",
-   "target": "regularized",
+   "source": "regularized",
+   "target": "rightful",
    "type": "complements",
    "why": "Protest within official commitments."
   },
   {
-   "source": "regularized",
-   "target": "responsive",
-   "type": "applies",
-   "why": "Protest as an information channel."
+   "source": "responsive",
+   "target": "regularized",
+   "type": "extends",
+   "why": "Treats tolerated protest as an information channel."
   },
   {
    "source": "repression",
@@ -743,8 +743,8 @@
    "why": "Preventive repression versus tolerated protest."
   },
   {
-   "source": "nationalism",
-   "target": "performance",
+   "source": "performance",
+   "target": "nationalism",
    "type": "complements",
    "why": "Alternative legitimacy sources."
   },

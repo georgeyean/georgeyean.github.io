@@ -18,7 +18,7 @@
    "seed_from_papers_json": 10,
    "crossref_top_cited": 187,
    "anchors_supplement": 55,
-   "relation_edges": 251,
+   "relation_edges": 244,
    "membership_edges": 371
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -850,7 +850,7 @@
   {
    "id": "wced1987",
    "type": "work",
-   "label": "Development 1987",
+   "label": "WCED 1987",
    "authors": "World Commission on Environment and Development",
    "year": 1987,
    "journal": "Oxford University Press (report)",
@@ -4070,7 +4070,7 @@
   {
    "id": "luongweinthal2006",
    "type": "work",
-   "label": "Luong 2006",
+   "label": "Jones Luong 2006",
    "authors": "Pauline Jones Luong & Erika Weinthal",
    "year": 2006,
    "journal": "Annual Review of Political Science",

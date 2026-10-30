@@ -13,13 +13,13 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 361,
+   "work_nodes": 360,
    "theme_nodes": 20,
    "seed_from_papers_json": 20,
-   "crossref_top_cited": 213,
+   "crossref_top_cited": 212,
    "anchors_supplement": 128,
-   "relation_edges": 402,
-   "membership_edges": 594
+   "relation_edges": 393,
+   "membership_edges": 593
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -163,12 +163,6 @@
    "why": "Civil rights realignment began in state parties before 1964."
   },
   {
-   "source": "dawson1994",
-   "target": "dubois1903",
-   "type": "builds_on",
-   "why": "Black political thought and group interest."
-  },
-  {
    "source": "blumer1958",
    "target": "allport1954",
    "type": "challenges",
@@ -278,9 +272,9 @@
   },
   {
    "source": "valentinobrader2011",
-   "target": "piston2010",
-   "type": "extends_to_new_case",
-   "why": "Obama era shifts in perceived discrimination."
+   "target": "kindersanders1996",
+   "type": "qualifies",
+   "why": "Perceived discrimination, not only resentment, shapes racial policy opinion."
   },
   {
    "source": "tesler2012",
@@ -368,27 +362,15 @@
   },
   {
    "source": "hopkinswashington2020",
-   "target": "piston2010",
+   "target": "valentino2018",
    "type": "qualifies",
-   "why": "Expressed prejudice fell during the Trump era."
-  },
-  {
-   "source": "glasgow2009",
-   "target": "blumer1958",
-   "type": "synthesizes",
-   "why": "Racism as disrespect, a normative account of prejudice."
+   "why": "Expressed prejudice fell even as norms against racial rhetoric weakened."
   },
   {
    "source": "perez2010",
    "target": "kinderkam2009",
    "type": "builds_on",
    "why": "Implicit attitudes toward Latinos and immigration."
-  },
-  {
-   "source": "greenriley2023",
-   "target": "kindersanders1996",
-   "type": "extends_to_new_case",
-   "why": "Race and the gap in support for using force abroad."
   },
   {
    "source": "mendelberg2001",
@@ -632,9 +614,9 @@
   },
   {
    "source": "virdee2017",
-   "target": "parkerbarreto2013",
+   "target": "rydgren2008",
    "type": "extends_to_new_case",
-   "why": "Racialized reaction to crisis in Brexit Britain."
+   "why": "Racialized nationalism behind Brexit."
   },
   {
    "source": "frymergrumbach2020",
@@ -907,12 +889,6 @@
    "why": "Obama and Black turnout."
   },
   {
-   "source": "hochschild1995",
-   "target": "tate1993",
-   "type": "synthesizes",
-   "why": "Black and white views of the American dream."
-  },
-  {
    "source": "nteta2012",
    "target": "gay2006",
    "type": "builds_on",
@@ -1016,9 +992,9 @@
   },
   {
    "source": "griffinnewman2007",
-   "target": "desipio1996",
+   "target": "swain1993",
    "type": "extends_to_new_case",
-   "why": "Latino representation in Congress."
+   "why": "The question of unequal representation, applied to Latinos."
   },
   {
    "source": "kim1999",
@@ -1207,12 +1183,6 @@
    "why": "Group empathy as counterweight to ethnocentrism."
   },
   {
-   "source": "degenova2013",
-   "target": "smith1997",
-   "type": "synthesizes",
-   "why": "Illegality as a produced exclusion."
-  },
-  {
    "source": "vertovec2007",
    "target": "brubaker2004",
    "type": "builds_on",
@@ -1229,12 +1199,6 @@
    "target": "bloemraad2007",
    "type": "challenges",
    "why": "Multiculturalism plus generous welfare produces poorer integration."
-  },
-  {
-   "source": "koopmans2010",
-   "target": "vertovec2007",
-   "type": "qualifies",
-   "why": "Welfare-state settings shape integration outcomes."
   },
   {
    "source": "hainmuellerhangartner2013",
@@ -1647,8 +1611,8 @@
   {
    "source": "krupnikovpiston2014",
    "target": "gay2001",
-   "type": "synthesizes",
-   "why": "White turnout responses to Black candidates."
+   "type": "builds_on",
+   "why": "Prejudice explains why white turnout falls with Black candidates."
   },
   {
    "source": "michener2018",
@@ -1963,22 +1927,10 @@
    "why": "Racialization spills into health policy."
   },
   {
-   "source": "enos2019",
-   "target": "gilens1999",
-   "type": "qualifies",
-   "why": "Riots raised support for public spending."
-  },
-  {
    "source": "allport1954",
    "target": "key1949",
    "type": "qualifies",
    "why": "Contact under equal status can offset the hostility that group size provokes."
-  },
-  {
-   "source": "masseydenton1993",
-   "target": "key1949",
-   "type": "synthesizes",
-   "why": "Segregation as the structure behind racial threat and poverty."
   },
   {
    "source": "oliver2010",
@@ -2120,9 +2072,9 @@
   },
   {
    "source": "brown2014",
-   "target": "philpotwalton2007",
-   "type": "builds_on",
-   "why": "Black women legislators."
+   "target": "hancock2007",
+   "type": "extends_to_new_case",
+   "why": "Intersectionality applied to Black women legislators."
   },
   {
    "source": "holmanschneider2016",
@@ -2363,12 +2315,6 @@
    "target": "horowitz1985",
    "type": "challenges",
    "why": "Ethnic parties do not necessarily fuel conflict."
-  },
-  {
-   "source": "marx1998",
-   "target": "horowitz1985",
-   "type": "synthesizes",
-   "why": "State-made race and nation in comparison."
   },
   {
    "source": "henderson2013",
@@ -3710,12 +3656,6 @@
   },
   {
    "source": "brubaker2017",
-   "target": "immigration",
-   "type": "belongs_to",
-   "why": "theme membership"
-  },
-  {
-   "source": "degenova2013",
    "target": "immigration",
    "type": "belongs_to",
    "why": "theme membership"

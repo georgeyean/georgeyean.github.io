@@ -611,7 +611,7 @@
     {
      "id": "espiritu1992",
      "dir": "rep-network",
-     "label": "Le Espiritu 1992",
+     "label": "Espiritu 1992",
      "title": "Asian American Panethnicity: Bridging Institutions and Identities",
      "authors": "Yen Le Espiritu",
      "year": 1992,
@@ -1449,14 +1449,14 @@
    "why": "National and cultural concerns over personal economics."
   },
   {
-   "source": "sociotropic",
-   "target": "ethnocentrism",
+   "source": "ethnocentrism",
+   "target": "sociotropic",
    "type": "complements",
    "why": "Group attitudes shape immigration views."
   },
   {
-   "source": "racialthreat",
-   "target": "groupposition",
+   "source": "groupposition",
+   "target": "racialthreat",
    "type": "complements",
    "why": "Group size triggers the defense of position."
   },
@@ -1479,15 +1479,15 @@
    "why": "Segregation limits the contact that reduces prejudice."
   },
   {
-   "source": "empowerment",
-   "target": "linkedfate",
+   "source": "linkedfate",
+   "target": "empowerment",
    "type": "complements",
    "why": "Group consciousness and empowerment both drive participation."
   },
   {
-   "source": "panethnicity",
-   "target": "linkedfate",
-   "type": "extends",
+   "source": "linkedfate",
+   "target": "panethnicity",
+   "type": "complements",
    "why": "Group consciousness across national origins."
   },
   {
@@ -1527,8 +1527,8 @@
    "why": "Crime policy as a racial order."
   },
   {
-   "source": "welfarerace",
-   "target": "carceral",
+   "source": "carceral",
+   "target": "welfarerace",
    "type": "complements",
    "why": "Welfare and punishment govern the poor by race."
   },
@@ -1539,15 +1539,15 @@
    "why": "Racialized deservingness drives welfare opposition."
   },
   {
-   "source": "vrd",
-   "target": "descriptive",
-   "type": "applies",
+   "source": "descriptive",
+   "target": "vrd",
+   "type": "complements",
    "why": "Districting to secure descriptive representation."
   },
   {
-   "source": "empowerment",
-   "target": "descriptive",
-   "type": "extends",
+   "source": "descriptive",
+   "target": "empowerment",
+   "type": "complements",
    "why": "Representation raises participation and trust."
   },
   {
@@ -1557,9 +1557,9 @@
    "why": "Coethnic candidates mobilize voters."
   },
   {
-   "source": "intersectionality",
-   "target": "linkedfate",
-   "type": "extends",
+   "source": "linkedfate",
+   "target": "intersectionality",
+   "type": "complements",
    "why": "Group consciousness along intersecting axes."
   },
   {
@@ -1569,8 +1569,8 @@
    "why": "Liberal principle masks racial domination."
   },
   {
-   "source": "racialcontract",
-   "target": "racialorders",
+   "source": "racialorders",
+   "target": "racialcontract",
    "type": "complements",
    "why": "White supremacy as a political system."
   },
@@ -1587,10 +1587,10 @@
    "why": "The post-civil-rights racial ideology."
   },
   {
-   "source": "globalcolorline",
-   "target": "racialcontract",
-   "type": "applies",
-   "why": "White supremacy at world scale."
+   "source": "racialcontract",
+   "target": "globalcolorline",
+   "type": "extends",
+   "why": "Mills generalizes Du Bois's global color line into a theory of the racial contract."
   },
   {
    "source": "instrumental",
@@ -1599,8 +1599,8 @@
    "why": "Which constructed identity is activated depends on payoffs."
   },
   {
-   "source": "consociational",
-   "target": "constructivist",
+   "source": "constructivist",
+   "target": "consociational",
    "type": "rivals",
    "why": "Fixed segments versus fluid categories."
   },

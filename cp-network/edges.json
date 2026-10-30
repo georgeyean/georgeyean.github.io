@@ -18,10 +18,10 @@
    "seed_from_papers_json": 53,
    "crossref_top_cited": 154,
    "anchors_supplement": 52,
-   "relation_edges": 251,
+   "relation_edges": 247,
    "membership_edges": 411
   },
-  "verification": "Repo works come from the user's Zotero library. Works imported from the IPE, security and IR maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+  "verification": "Repo works come from the user's Zotero library. Works shared with the IPE, security and IR maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref (books often via reviews, chapters or reprint DOIs). One-line claims for non-repo works are my summaries."
  },
  "edges": [
   {
@@ -117,8 +117,8 @@
   {
    "source": "freeman2012",
    "target": "boix2003",
-   "type": "builds_on",
-   "why": "Financial openness reduces elite resistance."
+   "type": "qualifies",
+   "why": "Finds the effect of inequality on democratization depends on financial openness, which lowers elite resistance."
   },
   {
    "source": "rudra2005",
@@ -193,10 +193,10 @@
    "why": "Reviews theories of backsliding."
   },
   {
-   "source": "svolik2019",
-   "target": "grahamsvolik2020",
-   "type": "synthesizes",
-   "why": "Polarization weakens the democratic check (same research program)."
+   "source": "grahamsvolik2020",
+   "target": "svolik2019",
+   "type": "mechanism_tested_by",
+   "why": "Experimental test that partisans trade democracy for policy."
   },
   {
    "source": "grahamsvolik2020",
@@ -217,16 +217,16 @@
    "why": "Norm erosion and failed gatekeeping."
   },
   {
-   "source": "armingeon2014",
-   "target": "foamounk2016",
+   "source": "foamounk2016",
+   "target": "armingeon2014",
    "type": "synthesizes",
-   "why": "Economic crisis and democratic support (Armingeon predates)."
+   "why": "Declining democratic support after the crisis."
   },
   {
    "source": "reiljan2020",
    "target": "svolik2019",
-   "type": "synthesizes",
-   "why": "Affective polarization in Europe (contemporaneous)."
+   "type": "extends_to_new_case",
+   "why": "Measures affective polarization across European party systems, the condition Svolik argues weakens voters' defense of democracy."
   },
   {
    "source": "weyland2013",
@@ -242,9 +242,9 @@
   },
   {
    "source": "krook2017",
-   "target": "bermeo2016",
-   "type": "extends_to_new_case",
-   "why": "Gendered violence as a threat to democracy."
+   "target": "tripp2008",
+   "type": "builds_on",
+   "why": "Argues that women's growing presence in politics, spurred by quotas, has provoked violence meant to push them out."
   },
   {
    "source": "gwf2014",
@@ -309,14 +309,14 @@
   {
    "source": "howardroessler2006",
    "target": "levitskyway2006",
-   "type": "synthesizes",
-   "why": "Liberalizing outcomes in hybrid regimes (same year)."
+   "type": "qualifies",
+   "why": "Finds opposition coalitions and mobilization, more than international pressure, drive liberalizing outcomes in competitive authoritarian regimes."
   },
   {
-   "source": "brownlee2009",
-   "target": "levitskyway2010",
-   "type": "challenges",
-   "why": "Hybrid regimes are not less stable, though breakdowns more often democratize (Brownlee predates)."
+   "source": "levitskyway2010",
+   "target": "brownlee2009",
+   "type": "qualifies",
+   "why": "Linkage and organizational power explain which hybrid regimes survive."
   },
   {
    "source": "brownlee2007",
@@ -424,7 +424,7 @@
    "source": "kingpanroberts2013",
    "target": "lorentzen2014",
    "type": "synthesizes",
-   "why": "Censorship targets collective action (contemporaneous)."
+   "why": "Both find the regime tolerates some criticism; King, Pan and Roberts show censorship targets posts with collective-action potential."
   },
   {
    "source": "king2017",
@@ -439,10 +439,10 @@
    "why": "Strategic tolerance of information for monitoring."
   },
   {
-   "source": "stockmann2011",
-   "target": "kingpanroberts2013",
+   "source": "kingpanroberts2013",
+   "target": "stockmann2011",
    "type": "synthesizes",
-   "why": "Market media sustain authoritarian rule (Stockmann predates)."
+   "why": "Censorship and market media as tools of authoritarian control."
   },
   {
    "source": "egorov2009",
@@ -459,8 +459,8 @@
   {
    "source": "rozenasstukal2019",
    "target": "king2017",
-   "type": "synthesizes",
-   "why": "Manipulation through framing rather than censorship."
+   "type": "qualifies",
+   "why": "Shows state television manipulates mainly by shifting blame for bad economic news rather than by distraction or censorship."
   },
   {
    "source": "mattingly2025",
@@ -568,7 +568,7 @@
    "source": "panxu2018",
    "target": "kingpanroberts2013",
    "type": "synthesizes",
-   "why": "Measuring opinion in China."
+   "why": "Uses large-scale online data, as in King, Pan and Roberts, to map the ideological divisions of Chinese citizens."
   },
   {
    "source": "lorentzen2014jop",
@@ -883,12 +883,6 @@
    "why": "Openness enlarges government only in democracies."
   },
   {
-   "source": "claytonzetterberg2018",
-   "target": "iversensoskice2006",
-   "type": "extends_to_new_case",
-   "why": "Representation shapes spending priorities."
-  },
-  {
    "source": "hallsoskice2001",
    "target": "espingandersen1990",
    "type": "builds_on",
@@ -949,10 +943,10 @@
    "why": "Class voting in a tripolar space."
   },
   {
-   "source": "cox1997",
-   "target": "lijphart1999",
+   "source": "lijphart1999",
+   "target": "cox1997",
    "type": "synthesizes",
-   "why": "Electoral systems and party systems (Cox predates)."
+   "why": "Electoral and party systems within patterns of democracy."
   },
   {
    "source": "golderstramski2009",
@@ -973,10 +967,10 @@
    "why": "Polarization matters more than fragmentation."
   },
   {
-   "source": "tsebelis1995",
-   "target": "lijphart1999",
+   "source": "lijphart1999",
+   "target": "tsebelis1995",
    "type": "challenges",
-   "why": "Veto players, not regime labels, explain policy stability."
+   "why": "Consensus versus majoritarian patterns, not veto-player counts, explain performance."
   },
   {
    "source": "iversensoskice2006",
@@ -985,28 +979,22 @@
    "why": "Electoral systems shape coalitions."
   },
   {
-   "source": "adams2006",
-   "target": "dalton2008",
-   "type": "synthesizes",
-   "why": "Niche party strategy (Adams predates)."
+   "source": "dalton2008",
+   "target": "adams2006",
+   "type": "builds_on",
+   "why": "Party-system polarization and niche parties."
   },
   {
    "source": "powelltucker2013",
    "target": "vanbiezen2012",
    "type": "synthesizes",
-   "why": "Party system instability."
+   "why": "Shows post-communist party systems stay highly volatile, mostly through party entry and exit, complementing evidence of weak party anchoring in Europe."
   },
   {
    "source": "eriksen2026",
    "target": "barbera2019",
    "type": "builds_on",
    "why": "Parties as agenda setters."
-  },
-  {
-   "source": "kriesi2006",
-   "target": "hooghemarks2009",
-   "type": "synthesizes",
-   "why": "New cultural cleavage (Kriesi predates)."
   },
   {
    "source": "hooghemarks2009",
@@ -1063,10 +1051,10 @@
    "why": "Contextual drivers of extreme right voting."
   },
   {
-   "source": "mudde2013",
-   "target": "golder2016",
+   "source": "golder2016",
+   "target": "mudde2013",
    "type": "synthesizes",
-   "why": "Limited policy effects of the radical right (Mudde predates)."
+   "why": "Reviews far-right parties, including their limited policy effects."
   },
   {
    "source": "abouchadikrause2020",
@@ -1093,10 +1081,10 @@
    "why": "Cultural backlash as the driver of populism."
   },
   {
-   "source": "colantone2018",
-   "target": "norris2019",
+   "source": "norris2019",
+   "target": "colantone2018",
    "type": "challenges",
-   "why": "Economic shocks drive nationalist voting."
+   "why": "Cultural backlash, not economic shocks, drives populist voting."
   },
   {
    "source": "rodrik2018",
@@ -1123,10 +1111,10 @@
    "why": "Reviews the backlash literature."
   },
   {
-   "source": "mutz2018",
-   "target": "norris2019",
+   "source": "norris2019",
+   "target": "mutz2018",
    "type": "builds_on",
-   "why": "Status threat drives populist voting."
+   "why": "Status threat within cultural backlash."
   },
   {
    "source": "funke2016",
@@ -1147,10 +1135,10 @@
    "why": "Populist left in Latin America."
   },
   {
-   "source": "stokes2005",
-   "target": "magaloni2006",
-   "type": "synthesizes",
-   "why": "Monitoring and punishment in machine politics (contemporaneous)."
+   "source": "magaloni2006",
+   "target": "stokes2005",
+   "type": "builds_on",
+   "why": "Punishment regimes in hegemonic-party clientelism."
   },
   {
    "source": "nichter2008",
@@ -1201,16 +1189,10 @@
    "why": "Participation and local public goods."
   },
   {
-   "source": "wantchekon2003",
-   "target": "kitschelt2007",
+   "source": "kitschelt2007",
+   "target": "wantchekon2003",
    "type": "synthesizes",
-   "why": "Experimental evidence on clientelist appeals (Wantchekon predates)."
-  },
-  {
-   "source": "treisman2011",
-   "target": "ashworth2012",
-   "type": "synthesizes",
-   "why": "Economic accountability in hybrid regimes."
+   "why": "Experimental evidence within the patrons-and-clients framework."
   },
   {
    "source": "chandra2006",
@@ -1219,10 +1201,10 @@
    "why": "What ethnic identity is."
   },
   {
-   "source": "posner2004",
-   "target": "chandra2006",
+   "source": "chandra2006",
+   "target": "posner2004",
    "type": "synthesizes",
-   "why": "Constructed salience of ethnic cleavages (Posner predates)."
+   "why": "Constructed salience of ethnic cleavages."
   },
   {
    "source": "habyarimana2007",
@@ -1341,8 +1323,8 @@
   {
    "source": "davenport2007",
    "target": "davenport2007arps",
-   "type": "synthesizes",
-   "why": "Democracy and the tyrannical peace (same author, same year)."
+   "type": "builds_on",
+   "why": "Tests how regime type shapes repression, drawing on the repression-dissent framework surveyed in his review."
   },
   {
    "source": "hilljones2014",
@@ -1363,10 +1345,10 @@
    "why": "Descriptive representation in deliberation."
   },
   {
-   "source": "treisman2007",
-   "target": "rothsteinstolle2008",
-   "type": "synthesizes",
-   "why": "Causes of corruption (Treisman predates)."
+   "source": "rothsteinstolle2008",
+   "target": "treisman2007",
+   "type": "qualifies",
+   "why": "Impartiality, not a list of causes, is the core of quality of government."
   },
   {
    "source": "morris2010",
@@ -1385,12 +1367,6 @@
    "target": "treisman2007",
    "type": "builds_on",
    "why": "Voters and corruption information."
-  },
-  {
-   "source": "panchen2018",
-   "target": "treisman2007",
-   "type": "extends_to_new_case",
-   "why": "Concealment of corruption in China."
   },
   {
    "source": "htunweldon2012",
@@ -1435,16 +1411,16 @@
    "why": "Quotas change spending."
   },
   {
-   "source": "ross2008",
-   "target": "paxton2010",
-   "type": "synthesizes",
-   "why": "Oil as a barrier to women's representation (Ross predates)."
+   "source": "paxton2010",
+   "target": "ross2008",
+   "type": "qualifies",
+   "why": "Growth in women's representation depends on more than oil."
   },
   {
-   "source": "thelen1999",
-   "target": "pierson2000",
+   "source": "pierson2000",
+   "target": "thelen1999",
    "type": "synthesizes",
-   "why": "Historical institutionalism (Thelen predates)."
+   "why": "Path dependence within historical institutionalism."
   },
   {
    "source": "pierson2000",
@@ -1498,7 +1474,7 @@
    "source": "abadie2015",
    "target": "slaterziblatt2013",
    "type": "synthesizes",
-   "why": "Synthetic control for comparative cases (Abadie predates)."
+   "why": "Offers a data-driven way to choose comparison units, a formal counterpart to the controlled case comparison."
   },
   {
    "source": "schmidt2008",
@@ -1507,10 +1483,10 @@
    "why": "Ideas and discourse as sources of change."
   },
   {
-   "source": "levitskymurillo2009",
-   "target": "mahoneythelen2010",
-   "type": "synthesizes",
-   "why": "Institutional weakness and change."
+   "source": "mahoneythelen2010",
+   "target": "levitskymurillo2009",
+   "type": "builds_on",
+   "why": "Gradual institutional change, including in weak institutions."
   },
   {
    "source": "hankla2013",

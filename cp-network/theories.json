@@ -346,6 +346,17 @@
    "core": "Power sharing stabilizes divided societies.",
    "works": [
     {
+     "id": "lijphart1977",
+     "dir": "rep-network",
+     "label": "Lijphart 1977",
+     "title": "Democracy in Plural Societies: A Comparative Exploration",
+     "authors": "Arend Lijphart",
+     "year": 1977,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
      "id": "lijphart1999",
      "dir": "cp-network",
      "label": "Lijphart 1999",
@@ -357,9 +368,7 @@
      "zotero": null
     }
    ],
-   "cites": [
-    "Lijphart 1977"
-   ]
+   "cites": []
   },
   {
    "id": "duverger",
@@ -861,20 +870,20 @@
    "why": "Elected leaders erode democracy into hybrids."
   },
   {
-   "source": "rentier",
-   "target": "redistributive",
-   "type": "applies",
+   "source": "redistributive",
+   "target": "rentier",
+   "type": "complements",
    "why": "Resource rents change redistributive stakes."
   },
   {
-   "source": "rentier",
-   "target": "authinst",
+   "source": "authinst",
+   "target": "rentier",
    "type": "complements",
    "why": "Rents fund cooptation."
   },
   {
-   "source": "consociational",
-   "target": "duverger",
+   "source": "duverger",
+   "target": "consociational",
    "type": "complements",
    "why": "Electoral design for divided societies."
   },
@@ -915,15 +924,15 @@
    "why": "Moments of path setting."
   },
   {
-   "source": "colonial",
-   "target": "criticaljunctures",
-   "type": "applies",
-   "why": "Colonization as a critical juncture."
+   "source": "criticaljunctures",
+   "target": "colonial",
+   "type": "complements",
+   "why": "Colonization read as a critical juncture."
   },
   {
-   "source": "statemaking",
-   "target": "histinst",
-   "type": "applies",
+   "source": "histinst",
+   "target": "statemaking",
+   "type": "complements",
    "why": "Historical war shapes state paths."
   },
   {
@@ -939,8 +948,8 @@
    "why": "Institutional complementarities in capitalism."
   },
   {
-   "source": "powerresources",
-   "target": "voc",
+   "source": "voc",
+   "target": "powerresources",
    "type": "rivals",
    "why": "Labor power versus employer coordination."
   },
@@ -957,8 +966,8 @@
    "why": "Institutions make some identities salient."
   },
   {
-   "source": "opportunity",
-   "target": "grievance",
+   "source": "grievance",
+   "target": "opportunity",
    "type": "rivals",
    "why": "State weakness versus grievance."
   },

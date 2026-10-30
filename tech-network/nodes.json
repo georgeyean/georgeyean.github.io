@@ -18,7 +18,7 @@
    "seed_from_papers_json": 12,
    "crossref_top_cited": 172,
    "anchors_supplement": 85,
-   "relation_edges": 275,
+   "relation_edges": 261,
    "membership_edges": 388
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -4189,7 +4189,7 @@
   {
    "id": "garrett2006",
    "type": "work",
-   "label": "Kelly Garrett 2006",
+   "label": "Garrett 2006",
    "authors": "R. Kelly Garrett",
    "year": 2006,
    "journal": "Information, Communication & Society",

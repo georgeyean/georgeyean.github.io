@@ -1278,8 +1278,8 @@
    "why": "Justice as fairness made political."
   },
   {
-   "source": "perfectionism",
-   "target": "polliberal",
+   "source": "polliberal",
+   "target": "perfectionism",
    "type": "rivals",
    "why": "State may promote the good."
   },
@@ -1314,8 +1314,8 @@
    "why": "Starting from racial injustice."
   },
   {
-   "source": "deliberative",
-   "target": "polliberal",
+   "source": "polliberal",
+   "target": "deliberative",
    "type": "complements",
    "why": "Public reason in democratic practice."
   },
@@ -1368,10 +1368,10 @@
    "why": "Discourse theory underpins deliberation."
   },
   {
-   "source": "recognition",
-   "target": "criticaltheory",
-   "type": "extends",
-   "why": "Recognition as the core of critique."
+   "source": "criticaltheory",
+   "target": "recognition",
+   "type": "complements",
+   "why": "Recognition as a core strand of critique."
   },
   {
    "source": "recognition",
@@ -1410,8 +1410,8 @@
    "why": "Injustice to knowers."
   },
   {
-   "source": "power",
-   "target": "criticaltheory",
+   "source": "criticaltheory",
+   "target": "power",
    "type": "complements",
    "why": "Power beyond consent."
   },
@@ -1434,8 +1434,8 @@
    "why": "Special duties to compatriots."
   },
   {
-   "source": "openborders",
-   "target": "nationalism",
+   "source": "nationalism",
+   "target": "openborders",
    "type": "rivals",
    "why": "Free movement versus closure."
   },

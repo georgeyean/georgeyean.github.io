@@ -691,14 +691,14 @@
    "why": "Commitment problems as a cause of war."
   },
   {
-   "source": "audience",
-   "target": "bargaining",
-   "type": "applies",
-   "why": "Costly signals solve information problems."
+   "source": "bargaining",
+   "target": "audience",
+   "type": "complements",
+   "why": "Credible signaling within the bargaining model."
   },
   {
-   "source": "dempeace",
-   "target": "audience",
+   "source": "audience",
+   "target": "dempeace",
    "type": "complements",
    "why": "Democratic institutions make signals credible."
   },
@@ -709,14 +709,14 @@
    "why": "Offense dominance intensifies the dilemma."
   },
   {
-   "source": "powertransition",
-   "target": "commitment",
+   "source": "commitment",
+   "target": "powertransition",
    "type": "complements",
    "why": "Shifting power as cause of war."
   },
   {
-   "source": "diversion",
-   "target": "audience",
+   "source": "audience",
+   "target": "diversion",
    "type": "rivals",
    "why": "Domestic politics causes rather than restrains war."
   },
@@ -745,16 +745,16 @@
    "why": "Threat perception drives alignment."
   },
   {
-   "source": "allydilemma",
-   "target": "balancethreat",
-   "type": "extends",
+   "source": "balancethreat",
+   "target": "allydilemma",
+   "type": "complements",
    "why": "Dynamics within alliances."
   },
   {
-   "source": "coercion",
-   "target": "deterrence",
-   "type": "synthesizes",
-   "why": "General theory of threats."
+   "source": "deterrence",
+   "target": "coercion",
+   "type": "extends",
+   "why": "Deterrence theory built on the logic of coercion."
   },
   {
    "source": "reputation",
@@ -799,9 +799,9 @@
    "why": "Bargaining logic for nonstate violence."
   },
   {
-   "source": "peacekeeping",
-   "target": "commitment",
-   "type": "applies",
+   "source": "commitment",
+   "target": "peacekeeping",
+   "type": "complements",
    "why": "Third parties fix commitment problems."
   },
   {
@@ -817,8 +817,8 @@
    "why": "Coercion through air campaigns."
   },
   {
-   "source": "cmr",
-   "target": "organizational",
+   "source": "organizational",
+   "target": "cmr",
    "type": "complements",
    "why": "Military organizations and civilian control."
   },
@@ -835,8 +835,8 @@
    "why": "Coercion in cyberspace."
   },
   {
-   "source": "dempeace",
-   "target": "bargaining",
+   "source": "bargaining",
+   "target": "dempeace",
    "type": "complements",
    "why": "Regime type and information."
   }

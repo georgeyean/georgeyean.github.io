@@ -17,7 +17,7 @@
    "theme_nodes": 19,
    "seed_from_papers_json": 98,
    "supplement": 165,
-   "relation_edges": 367,
+   "relation_edges": 359,
    "membership_edges": 410,
    "added_by_coverage_audit": 70
   },
@@ -2726,7 +2726,7 @@
   {
    "id": "bauerle2023",
    "type": "work",
-   "label": "Danzman 2023",
+   "label": "Bauerle Danzman 2023",
    "authors": "Sarah Bauerle Danzman & Sophie Meunier",
    "year": 2023,
    "journal": "Global Policy",
@@ -5166,16 +5166,16 @@
    "why": "Status threat and out-group anxiety as the engine of trade-related voting."
   },
   {
-   "source": "mutz2018",
-   "target": "autor2020",
+   "source": "autor2020",
+   "target": "mutz2018",
    "type": "challenges",
-   "why": "Argues the 2016 vote tracked group-status threat, not economic hardship from trade."
+   "why": "Trade shocks did move votes, so economic hardship matters."
   },
   {
    "source": "ballardrosa2024",
    "target": "mansfield2009",
    "type": "builds_on",
-   "why": "Elite 'trade is unfair' rhetoric activates fairness beliefs, a non-material route to declining trade support."
+   "why": "Declining belief in the American Dream, a non-material attitude, drives falling support for globalization."
   },
   {
    "source": "carnegie2022",
@@ -5346,12 +5346,6 @@
    "why": "Diagnoses the order's crisis as the dismantling of embedded liberalism by captured elites."
   },
   {
-   "source": "colgan2017",
-   "target": "colantone2018",
-   "type": "synthesizes",
-   "why": "Reads the China-shock voting evidence as proof that uncompensated losers abandon the order."
-  },
-  {
    "source": "autor2020",
    "target": "autor2013",
    "type": "builds_on",
@@ -5400,22 +5394,22 @@
    "why": "Shows 'cultural' authoritarian values have economic origins."
   },
   {
-   "source": "mutz2018",
-   "target": "norris2019",
+   "source": "norris2019",
+   "target": "mutz2018",
    "type": "builds_on",
-   "why": "Status threat as the cultural mechanism behind the 2016 vote."
+   "why": "Status threat within cultural backlash."
   },
   {
-   "source": "margalit2019",
-   "target": "autor2020",
+   "source": "autor2020",
+   "target": "margalit2019",
    "type": "challenges",
-   "why": "Trade shocks are outcome-significant but explain little of populist support's variance."
+   "why": "Trade shocks have sizable electoral effects."
   },
   {
-   "source": "rodrik2018",
-   "target": "autor2020",
-   "type": "synthesizes",
-   "why": "Integrates China-shock evidence into a theory of left versus right populism."
+   "source": "autor2020",
+   "target": "rodrik2018",
+   "type": "mechanism_tested_by",
+   "why": "Tests trade-driven political polarization."
   },
   {
    "source": "rodrik2018",
@@ -5484,12 +5478,6 @@
    "why": "Confirms retaliation exposure cost Republicans House seats in 2018 and protection gained little."
   },
   {
-   "source": "funke2016",
-   "target": "chwieroth2019",
-   "type": "builds_on",
-   "why": "Chwieroth and Walter extend the crisis-to-extremes finding with a wealth-effect mechanism (edge direction reflects later work building on earlier)."
-  },
-  {
    "source": "milner2021",
    "target": "autor2020",
    "type": "synthesizes",
@@ -5545,9 +5533,9 @@
   },
   {
    "source": "blanchard2016",
-   "target": "melitz2003",
+   "target": "jensen2015",
    "type": "builds_on",
-   "why": "GVC value-added linkages discipline tariffs, extending firm-level logic to policy outcomes."
+   "why": "Like supply-chain ties that dampen firms' demands for trade remedies, value-added linkages lower the tariffs governments set."
   },
   {
    "source": "baccini2017",
@@ -5646,10 +5634,10 @@
    "why": "Disaggregates PTA design to isolate the credibility channel."
   },
   {
-   "source": "buthe2014",
-   "target": "kim2019firms",
-   "type": "qualifies",
-   "why": "Firms' stated priority on investment protection matches the FDI-attracting design features."
+   "source": "kim2019firms",
+   "target": "buthe2014",
+   "type": "builds_on",
+   "why": "Firms value investment protection provisions."
   },
   {
    "source": "wellhausen2015",
@@ -5838,10 +5826,10 @@
    "why": "Political allocation of official finance examined for China's overseas lending."
   },
   {
-   "source": "dreher2022",
-   "target": "qian2023",
-   "type": "synthesizes",
-   "why": "China's finance as an outside option with commercial rather than aid logic."
+   "source": "qian2023",
+   "target": "dreher2022",
+   "type": "builds_on",
+   "why": "Chinese finance as an outside option."
   },
   {
    "source": "cottiero2026",
@@ -6198,16 +6186,10 @@
    "why": "Systemic, network-level modeling as the alternative to reductionism."
   },
   {
-   "source": "farrell2019",
-   "target": "winecoff2020",
-   "type": "synthesizes",
-   "why": "Network centrality and coercive capacity converge on the same hubs (contemporaneous work)."
-  },
-  {
-   "source": "juhasz2024",
-   "target": "helleiner2021",
-   "type": "synthesizes",
-   "why": "Economic rehabilitation of industrial policy alongside the intellectual revival of neomercantilism."
+   "source": "winecoff2020",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "Network centrality of the dollar system as coercive capacity."
   },
   {
    "source": "meunier2019",
@@ -6216,10 +6198,10 @@
    "why": "EU policy geopoliticized in response to weaponized interdependence by the US and China."
   },
   {
-   "source": "meunier2019",
-   "target": "pearson2022",
-   "type": "builds_on",
-   "why": "China's party-state capitalism as the trigger for EU screening and reciprocity."
+   "source": "pearson2022",
+   "target": "meunier2019",
+   "type": "synthesizes",
+   "why": "Party-state capitalism and the Western investment-screening backlash."
   },
   {
    "source": "gholz2021",
@@ -6232,12 +6214,6 @@
    "target": "frieden1991",
    "type": "builds_on",
    "why": "Asset-based interests extended to climate-forcing versus climate-vulnerable assets."
-  },
-  {
-   "source": "colgan2021",
-   "target": "bown2024",
-   "type": "synthesizes",
-   "why": "Decarbonization-driven trade restrictions as a strain on WTO discipline (contemporaneous)."
   },
   {
    "source": "kastner2016",
@@ -6312,10 +6288,10 @@
    "why": "Issue-specific Chinese engagement explained by regime centrality and domestic heterogeneity."
   },
   {
-   "source": "weiss2021",
-   "target": "pearson2022",
+   "source": "pearson2022",
+   "target": "weiss2021",
    "type": "synthesizes",
-   "why": "Domestic regime security as the driver of China's external economic behavior (contemporaneous)."
+   "why": "Regime security as a driver of China's external economic behavior."
   },
   {
    "source": "goddard2018",
@@ -6348,16 +6324,16 @@
    "why": "Self-undermining feedback in the information order as one source of internal fragility."
   },
   {
-   "source": "colgan2017",
-   "target": "ikenberry2018",
-   "type": "qualifies",
-   "why": "Reform requires rebuilding domestic compensation, not just international authority."
+   "source": "ikenberry2018",
+   "target": "colgan2017",
+   "type": "synthesizes",
+   "why": "Crisis of the liberal order and its domestic roots."
   },
   {
-   "source": "ginsburg2020",
-   "target": "debre2021",
-   "type": "synthesizes",
-   "why": "Authoritarian regional organizations as part of an emerging authoritarian international law."
+   "source": "debre2021",
+   "target": "ginsburg2020",
+   "type": "builds_on",
+   "why": "Authoritarian regional organizations."
   },
   {
    "source": "debre2021",
@@ -6373,33 +6349,15 @@
   },
   {
    "source": "hollyer2018",
-   "target": "arias2018",
+   "target": "kono2006",
    "type": "builds_on",
-   "why": "Autocrats' selective engagement with international economic institutions (transparency, treaties) as survival strategy (contemporaneous)."
-  },
-  {
-   "source": "kim2018media",
-   "target": "pearson2022",
-   "type": "builds_on",
-   "why": "Party-controlled media as an instrument of economic statecraft (edge reflects conceptual kinship; Kim predates)."
+   "why": "Treats governments' disclosure of economic information as a strategic choice shaped by regime type, as Kono did for the transparency of trade barriers."
   },
   {
    "source": "ikenberry2018",
    "target": "ruggie1982",
    "type": "builds_on",
    "why": "Liberal order as an institutional bargain whose legitimacy, not logic, is in crisis."
-  },
-  {
-   "source": "lipscy2018",
-   "target": "mmr2000",
-   "type": "challenges",
-   "why": "Democratic openness has a financial downside: more banking crises."
-  },
-  {
-   "source": "freeman2012",
-   "target": "jensen2003",
-   "type": "builds_on",
-   "why": "Financial openness alters elites' domestic stakes, a political consequence of investment flows."
   },
   {
    "source": "arias2018",
@@ -6594,10 +6552,10 @@
    "why": "Negative trade expectations drive China's self-reliance and OECD restrictions."
   },
   {
-   "source": "davis2011",
-   "target": "copeland2015",
+   "source": "copeland2015",
+   "target": "davis2011",
    "type": "qualifies",
-   "why": "Firms keep trading through political tension, so expectations must shift sharply to disrupt flows."
+   "why": "Expectations of future trade, not current flows, shape conflict."
   },
   {
    "source": "rogowski1987",
@@ -8364,10 +8322,10 @@
    "why": "BIT credibility depends on the host's arbitration record."
   },
   {
-   "source": "allee2011",
-   "target": "wellhausen2015",
-   "type": "synthesizes",
-   "why": "Both show investor confidence rests on observed breach and its consequences."
+   "source": "wellhausen2015",
+   "target": "allee2011",
+   "type": "builds_on",
+   "why": "Investor responses to observed treaty breach."
   },
   {
    "source": "simmons2014",
@@ -8395,15 +8353,9 @@
   },
   {
    "source": "leblang2010",
-   "target": "pandya2010",
+   "target": "jensen2003",
    "type": "qualifies",
-   "why": "Network ties, not only labor-market effects, shape investment flows."
-  },
-  {
-   "source": "malesky2008",
-   "target": "pandya2014",
-   "type": "extends_to_new_case",
-   "why": "FDI's political effects inside an autocracy: subnational empowerment."
+   "why": "Shows that migrant diaspora networks, not only host political institutions, shape where cross-border investment flows."
   },
   {
    "source": "kim2025fdi",
@@ -8442,10 +8394,10 @@
    "why": "Much FDI is now state-directed, so host politics cannot treat investors as market actors."
   },
   {
-   "source": "chan2021",
-   "target": "bauerle2023",
+   "source": "bauerle2023",
+   "target": "chan2021",
    "type": "builds_on",
-   "why": "Explains member-state support for the EU-level mechanism that the national screens fed into."
+   "why": "Member-state support for EU-level investment screening."
   },
   {
    "source": "chan2021",
@@ -8460,10 +8412,10 @@
    "why": "The PTA design literature Baccini reviews rests on the DESTA dataset."
   },
   {
-   "source": "dur2014",
-   "target": "buthe2014",
+   "source": "buthe2014",
+   "target": "dur2014",
    "type": "builds_on",
-   "why": "Generalizes design coding from investment provisions to full agreement depth."
+   "why": "Coding the design of trade agreements."
   },
   {
    "source": "dur2014",
@@ -8478,10 +8430,10 @@
    "why": "Precedent-seeking extends the strategic-forum logic of WTO litigation."
   },
   {
-   "source": "busch2007",
-   "target": "davis2012",
+   "source": "davis2012",
+   "target": "busch2007",
    "type": "builds_on",
-   "why": "Litigation choices shaped by institutional overlap as well as domestic demand."
+   "why": "Forum choice and WTO litigation."
   },
   {
    "source": "johns2014",
@@ -8490,8 +8442,8 @@
    "why": "Litigants manipulate participation because third parties hinder settlement."
   },
   {
-   "source": "davisbermeo2009",
-   "target": "davis2012",
+   "source": "davis2012",
+   "target": "davisbermeo2009",
    "type": "builds_on",
    "why": "Legal capacity and experience as preconditions for using the WTO."
   },
@@ -8502,10 +8454,10 @@
    "why": "Institutions affect trade's volatility, not only its level."
   },
   {
-   "source": "hopewell2014",
-   "target": "lipscy2017",
-   "type": "extends_to_new_case",
-   "why": "How rising powers renegotiated influence inside the WTO."
+   "source": "lipscy2017",
+   "target": "hopewell2014",
+   "type": "builds_on",
+   "why": "Rising powers renegotiate influence in international institutions."
   },
   {
    "source": "hopewell2014",
@@ -8658,10 +8610,10 @@
    "why": "Firm survey evidence for heterogeneous-firm trade preferences."
   },
   {
-   "source": "osgood2017jop",
-   "target": "kim2019firms",
-   "type": "synthesizes",
-   "why": "Companion firm-survey evidence from the same research program."
+   "source": "kim2019firms",
+   "target": "osgood2017jop",
+   "type": "builds_on",
+   "why": "Firm-level trade preferences from the same research program."
   },
   {
    "source": "osgood2018",
@@ -8676,10 +8628,10 @@
    "why": "Exchange-rate misalignment shifts sectoral demand for trade protection."
   },
   {
-   "source": "meckling2017",
-   "target": "osgood2018",
-   "type": "extends_to_new_case",
-   "why": "GVC position predicts protection preferences in clean-energy trade."
+   "source": "osgood2018",
+   "target": "meckling2017",
+   "type": "builds_on",
+   "why": "Value-chain position and protection preferences in clean energy."
   },
   {
    "source": "malhotra2013",
@@ -8688,10 +8640,10 @@
    "why": "Labor-market threat is real for directly competing workers, even if average effects look small."
   },
   {
-   "source": "dancygier2013",
-   "target": "hainmueller2014",
-   "type": "qualifies",
-   "why": "Sectoral economic context conditions immigration attitudes."
+   "source": "hainmueller2014",
+   "target": "dancygier2013",
+   "type": "synthesizes",
+   "why": "Reviews sectoral and sociotropic accounts of immigration attitudes."
   },
   {
    "source": "dancygier2013",
@@ -8935,9 +8887,9 @@
   },
   {
    "source": "dietrich2013",
-   "target": "stone2008",
-   "type": "extends_to_new_case",
-   "why": "Donors adapt delivery to recipient governance, not only conditions."
+   "target": "bdm2009",
+   "type": "qualifies",
+   "why": "Donors choose how to deliver aid, bypassing or engaging recipient governments, in response to governance quality, not only whom to give it to."
   },
   {
    "source": "bermeo2017",
@@ -8970,10 +8922,10 @@
    "why": "Chinese finance does not automatically buy publics' favor."
   },
   {
-   "source": "kilby2006",
-   "target": "stone2008",
-   "type": "extends_to_new_case",
-   "why": "Informal great-power influence in a regional development bank."
+   "source": "stone2008",
+   "target": "kilby2006",
+   "type": "builds_on",
+   "why": "Informal great-power influence in international organizations."
   },
   {
    "source": "milnertingley2011",
@@ -9008,8 +8960,8 @@
   {
    "source": "mattingly2025",
    "target": "blair2021",
-   "type": "synthesizes",
-   "why": "Chinese soft power through media versus through finance."
+   "type": "builds_on",
+   "why": "Tests whether China's state media, rather than its finance, wins foreign publics' favor."
   },
   {
    "source": "helleiner2024",
@@ -9024,10 +8976,10 @@
    "why": "Interacting crises as the context for globalization's strains on democracy."
   },
   {
-   "source": "carter2019",
-   "target": "simmons2021",
-   "type": "mechanism_tested_by",
-   "why": "Re-bordering has measurable economic costs."
+   "source": "simmons2021",
+   "target": "carter2019",
+   "type": "builds_on",
+   "why": "The economic costs of re-bordering."
   },
   {
    "source": "carter2019",

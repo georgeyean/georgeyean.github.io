@@ -18,7 +18,7 @@
    "seed_from_papers_json": 12,
    "crossref_top_cited": 172,
    "anchors_supplement": 85,
-   "relation_edges": 275,
+   "relation_edges": 261,
    "membership_edges": 388
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
@@ -4189,7 +4189,7 @@
   {
    "id": "garrett2006",
    "type": "work",
-   "label": "Kelly Garrett 2006",
+   "label": "Garrett 2006",
    "authors": "R. Kelly Garrett",
    "year": 2006,
    "journal": "Information, Communication & Society",
@@ -5238,9 +5238,9 @@
   },
   {
    "source": "kim2018",
-   "target": "gillespie2010",
-   "type": "extends_to_new_case",
-   "why": "Stealth issue ads on Facebook."
+   "target": "kreiss2016",
+   "type": "builds_on",
+   "why": "Documents data-driven microtargeting of divisive Facebook ads by anonymous groups, extending work on technology-intensive campaigning."
   },
   {
    "source": "pasquale2015",
@@ -5329,8 +5329,8 @@
   {
    "source": "christin2017",
    "target": "seaver2017",
-   "type": "synthesizes",
-   "why": "Algorithms in practice."
+   "type": "builds_on",
+   "why": "Ethnographic comparison of how algorithms are used in newsrooms and courts, studying algorithms as practice."
   },
   {
    "source": "danaher2017",
@@ -5385,12 +5385,6 @@
    "target": "pariser2011",
    "type": "challenges",
    "why": "Recommenders need not reduce diversity."
-  },
-  {
-   "source": "bostrom2014",
-   "target": "winner1980",
-   "type": "synthesizes",
-   "why": "Existential risk from AI (thematic link)."
   },
   {
    "source": "russell2019",
@@ -5460,15 +5454,15 @@
   },
   {
    "source": "cavedihal2020",
-   "target": "mohamed2020",
-   "type": "synthesizes",
-   "why": "Whiteness of AI."
+   "target": "benjamin2019",
+   "type": "builds_on",
+   "why": "Extends critical race analysis of technology to the racialized imagery of AI."
   },
   {
    "source": "santonidesio2021",
-   "target": "binns2018",
-   "type": "synthesizes",
-   "why": "Responsibility gaps."
+   "target": "wagner2019",
+   "type": "builds_on",
+   "why": "Develops concern about humans held liable without real control into a typology of four AI responsibility gaps."
   },
   {
    "source": "novelli2023",
@@ -5507,12 +5501,6 @@
    "why": "Moral deskilling."
   },
   {
-   "source": "scharre2018",
-   "target": "bostrom2014",
-   "type": "synthesizes",
-   "why": "Autonomous weapons and control."
-  },
-  {
    "source": "barocasselbst2016",
    "target": "dwork2012",
    "type": "builds_on",
@@ -5526,9 +5514,9 @@
   },
   {
    "source": "kleinberg2017",
-   "target": "chouldechova2017",
-   "type": "synthesizes",
-   "why": "Incompatible fairness criteria (contemporaneous)."
+   "target": "dwork2012",
+   "type": "builds_on",
+   "why": "Proves that calibration and balance conditions for fair risk scores cannot all hold at once."
   },
   {
    "source": "kleinberg2018",
@@ -5589,12 +5577,6 @@
    "target": "barocasselbst2016",
    "type": "builds_on",
    "why": "Fairness without sensitive data."
-  },
-  {
-   "source": "lee2018",
-   "target": "chouldechova2017",
-   "type": "synthesizes",
-   "why": "Perceived fairness of algorithms."
   },
   {
    "source": "starke2022",
@@ -5820,9 +5802,9 @@
   },
   {
    "source": "stanley2015",
-   "target": "morozov2011",
-   "type": "synthesizes",
-   "why": "Propaganda and democracy (thematic link)."
+   "target": "habermas2006",
+   "type": "builds_on",
+   "why": "Treats propaganda as speech that undermines the reasonable deliberation democratic legitimacy depends on."
   },
   {
    "source": "woolleyhoward2018",
@@ -5849,12 +5831,6 @@
    "why": "Media ecosystem, not technology alone."
   },
   {
-   "source": "allcottgentzkow2017",
-   "target": "pariser2011",
-   "type": "qualifies",
-   "why": "Fake news exposure was limited."
-  },
-  {
    "source": "vosoughi2018",
    "target": "allcottgentzkow2017",
    "type": "builds_on",
@@ -5868,9 +5844,9 @@
   },
   {
    "source": "pennycookrand2019",
-   "target": "vosoughi2018",
-   "type": "synthesizes",
-   "why": "Inattention behind susceptibility."
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "Tests why people believe the partisan fake news seen in 2016, pointing to lack of reasoning rather than motivated reasoning."
   },
   {
    "source": "osmundsen2021",
@@ -5934,9 +5910,9 @@
   },
   {
    "source": "habermas2006",
-   "target": "papacharissi2002",
-   "type": "synthesizes",
-   "why": "Mediated deliberation."
+   "target": "sunstein2001",
+   "type": "builds_on",
+   "why": "Warns that online communication fragments the public into isolated issue publics."
   },
   {
    "source": "benkler2006",
@@ -6150,9 +6126,9 @@
   },
   {
    "source": "boulianne2009",
-   "target": "papacharissi2002",
-   "type": "mechanism_tested_by",
-   "why": "Internet use and engagement."
+   "target": "norris2001",
+   "type": "synthesizes",
+   "why": "Meta-analysis of whether internet use boosts civic engagement, the question at the center of Norris's digital-divide debate."
   },
   {
    "source": "boulianne2015",
@@ -6171,12 +6147,6 @@
    "target": "castells2009",
    "type": "synthesizes",
    "why": "Networking democracy."
-  },
-  {
-   "source": "diamond2010",
-   "target": "castells2009",
-   "type": "synthesizes",
-   "why": "Liberation technology."
   },
   {
    "source": "schlozman2010",
@@ -6205,8 +6175,8 @@
   {
    "source": "bimber2014",
    "target": "chadwick2013",
-   "type": "synthesizes",
-   "why": "Personalized campaigns."
+   "type": "builds_on",
+   "why": "Obama campaigns adapted to a hybrid, personalized communication environment."
   },
   {
    "source": "jungherr2016",
@@ -6305,12 +6275,6 @@
    "why": "Algorithm awareness divide."
   },
   {
-   "source": "brynjolfssonmcafee2014",
-   "target": "winner1980",
-   "type": "synthesizes",
-   "why": "Second machine age (thematic link)."
-  },
-  {
    "source": "autor2015",
    "target": "brynjolfssonmcafee2014",
    "type": "qualifies",
@@ -6343,8 +6307,8 @@
   {
    "source": "kurer2020",
    "target": "thewissenrueda2019",
-   "type": "synthesizes",
-   "why": "Declining middle and populist right."
+   "type": "builds_on",
+   "why": "Links automation-driven occupational decline to status loss and support for the populist right."
   },
   {
    "source": "gallegokurer2022",
@@ -6375,12 +6339,6 @@
    "target": "srnicek2017",
    "type": "builds_on",
    "why": "Cloud infrastructure and Big AI."
-  },
-  {
-   "source": "rosenblat2017",
-   "target": "vandoorn2017",
-   "type": "synthesizes",
-   "why": "Platform labor and ratings (earlier)."
   },
   {
    "source": "sadowski2019",
@@ -6473,18 +6431,6 @@
    "why": "Algorithmic judgment in public decisions (earlier)."
   },
   {
-   "source": "barocasselbst2016",
-   "target": "lessig1999",
-   "type": "synthesizes",
-   "why": "Law and code (thematic link)."
-  },
-  {
-   "source": "bradford2020",
-   "target": "lessig1999",
-   "type": "synthesizes",
-   "why": "Global reach of EU rules."
-  },
-  {
    "source": "bradford2023",
    "target": "bradford2020",
    "type": "builds_on",
@@ -6516,27 +6462,15 @@
   },
   {
    "source": "obarwildman2015",
-   "target": "lessig1999",
+   "target": "gillespie2010",
    "type": "builds_on",
-   "why": "Defining social media for governance."
+   "why": "Defines social media services as a basis for governing them, extending debate over what platforms are."
   },
   {
    "source": "jobin2019",
    "target": "floridi2018ptech",
    "type": "synthesizes",
    "why": "Guidelines as soft governance."
-  },
-  {
-   "source": "klonick2018",
-   "target": "persily2017",
-   "type": "synthesizes",
-   "why": "Platform regulation and democracy (earlier)."
-  },
-  {
-   "source": "hansennissenbaum2009",
-   "target": "winner1980",
-   "type": "synthesizes",
-   "why": "Securitization of cyberspace (thematic link)."
   },
   {
    "source": "rid2012",
@@ -6553,8 +6487,8 @@
   {
    "source": "lindsay2013",
    "target": "rid2012",
-   "type": "synthesizes",
-   "why": "Stuxnet limits."
+   "type": "builds_on",
+   "why": "Uses Stuxnet to show the practical limits of cyber weapons."
   },
   {
    "source": "kello2013",
@@ -6623,12 +6557,6 @@
    "why": "Prediction versus judgment in military AI."
   },
   {
-   "source": "kennedylim2018",
-   "target": "horowitz2018",
-   "type": "synthesizes",
-   "why": "Innovation imperative (contemporaneous)."
-  },
-  {
    "source": "gilli2019",
    "target": "kennedylim2018",
    "type": "qualifies",
@@ -6638,7 +6566,7 @@
    "source": "farrell2019",
    "target": "kennedylim2018",
    "type": "synthesizes",
-   "why": "Weaponized network interdependence."
+   "why": "Both treat control over technology and economic networks as a source of coercive leverage in great-power rivalry."
   },
   {
    "source": "floridi2020",
@@ -6659,22 +6587,10 @@
    "why": "Diffusion, not innovation, decides rivalry."
   },
   {
-   "source": "beraja2023",
-   "target": "roberts2021",
-   "type": "synthesizes",
-   "why": "State data and Chinese AI."
-  },
-  {
    "source": "bradford2023",
    "target": "roberts2021",
    "type": "synthesizes",
    "why": "Competing regulatory models."
-  },
-  {
-   "source": "lazer2009",
-   "target": "benkler2006",
-   "type": "synthesizes",
-   "why": "Computational social science (thematic link)."
   },
   {
    "source": "boydcrawford2012",
@@ -6738,9 +6654,9 @@
   },
   {
    "source": "argyle2023",
-   "target": "gilardi2023",
-   "type": "synthesizes",
-   "why": "Simulating samples with LLMs."
+   "target": "bender2021",
+   "type": "qualifies",
+   "why": "Treats the demographic biases critics flag in language models as a usable reflection of subgroup opinion."
   },
   {
    "source": "egami2025",

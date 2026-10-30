@@ -959,27 +959,27 @@
    "why": "Polycentric governance at the global level."
   },
   {
-   "source": "orchestration",
-   "target": "regimecomplex",
-   "type": "extends",
+   "source": "regimecomplex",
+   "target": "orchestration",
+   "type": "complements",
    "why": "Steering within fragmented governance."
   },
   {
-   "source": "private",
-   "target": "orchestration",
+   "source": "orchestration",
+   "target": "private",
    "type": "complements",
    "why": "Private rules within transnational governance."
   },
   {
-   "source": "epistemic",
-   "target": "publicgoods",
+   "source": "publicgoods",
+   "target": "epistemic",
    "type": "complements",
    "why": "Knowledge enables cooperation."
   },
   {
-   "source": "coalitions",
-   "target": "distributive",
-   "type": "extends",
+   "source": "distributive",
+   "target": "coalitions",
+   "type": "complements",
    "why": "Building winning coalitions."
   },
   {
@@ -989,8 +989,8 @@
    "why": "Coalitions can be reversed by incumbents."
   },
   {
-   "source": "lockin",
-   "target": "distributive",
+   "source": "distributive",
+   "target": "lockin",
    "type": "complements",
    "why": "Incumbent interests are locked in."
   },
@@ -1001,8 +1001,8 @@
    "why": "How regimes break."
   },
   {
-   "source": "ekc",
-   "target": "ecomod",
+   "source": "ecomod",
+   "target": "ekc",
    "type": "complements",
    "why": "Growth eventually reduces pollution."
   },
@@ -1013,14 +1013,14 @@
    "why": "Trade may worsen standards."
   },
   {
-   "source": "resourcecurse",
-   "target": "distributive",
+   "source": "distributive",
+   "target": "resourcecurse",
    "type": "complements",
    "why": "Resource interests in politics."
   },
   {
-   "source": "risk",
-   "target": "ecomod",
+   "source": "ecomod",
+   "target": "risk",
    "type": "rivals",
    "why": "Modernity as source of risk."
   },
@@ -1031,20 +1031,20 @@
    "why": "Planetary limits."
   },
   {
-   "source": "boundaries",
-   "target": "regimecomplex",
+   "source": "regimecomplex",
+   "target": "boundaries",
    "type": "rivals",
    "why": "Need for integrated earth system governance."
   },
   {
-   "source": "denial",
-   "target": "distributive",
-   "type": "applies",
+   "source": "distributive",
+   "target": "denial",
+   "type": "complements",
    "why": "Losers fund doubt."
   },
   {
-   "source": "ej",
-   "target": "ecomod",
+   "source": "ecomod",
+   "target": "ej",
    "type": "rivals",
    "why": "Unequal burdens of modernization."
   },
@@ -1067,14 +1067,14 @@
    "why": "Quantified climate effects on conflict."
   },
   {
-   "source": "scarcity",
-   "target": "resourcecurse",
+   "source": "resourcecurse",
+   "target": "scarcity",
    "type": "rivals",
    "why": "Scarcity versus abundance as conflict driver."
   },
   {
-   "source": "authenv",
-   "target": "envstate",
+   "source": "envstate",
+   "target": "authenv",
    "type": "rivals",
    "why": "Authoritarian versus democratic environmental capacity."
   },
