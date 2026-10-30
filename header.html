@@ -59,6 +59,19 @@
 							white-space: nowrap;
 						}
 						#header .links .submenu ul li a:hover { color: #2ebaae; background: rgba(160, 160, 160, 0.08); }
+						/* "New" marker: a small red badge dot overlapping the top-right corner of the Literature Network label. */
+						.new-wrap { position: relative; }
+						.new-dot {
+							position: absolute;
+							top: -2px;
+							right: -4px;
+							width: 7px;
+							height: 7px;
+							border-radius: 50%;
+							background: #e5484d;
+							box-shadow: 0 0 0 1.5px #fff;
+							pointer-events: none;
+						}
 					</style>
 					<header id="header">
 						<h1><a href="index.html">George Yean</a></h1>
@@ -71,7 +84,7 @@
 								<li><a href="policy.html">Policy Writing</a></li>
 								<li><a href="agent.html">AI Agent</a></li>
 								<li class="has-sub">
-									<a href="ap-network/network.html" aria-haspopup="true">Literature Network (LitNet)</a>
+									<a href="ap-network/network.html" aria-haspopup="true"><span class="new-wrap">Literature Network (LitNet)<span class="new-dot" role="img" aria-label="new" title="New"></span></span></a>
 									<div class="submenu">
 										<ul>
 											<li><a href="ap-network/network.html">American Politics</a></li>
@@ -150,7 +163,7 @@
 									</li>
 									<li>
 										<a href="ap-network/network.html">
-											<h3>Literature Network (LitNet)</h3>
+											<h3><span class="new-wrap">Literature Network (LitNet)<span class="new-dot" role="img" aria-label="new" title="New"></span></span></h3>
 										</a>
 									</li>
 								</ul>
