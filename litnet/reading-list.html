@@ -48,6 +48,11 @@ a.navbtn{display:inline-block;height:34px;line-height:34px;padding:0 16px;border
 a.navbtn:hover,a.navbtn:focus-visible{background:#249a90;color:#fff;outline:none;transform:translateY(-1px);box-shadow:0 4px 10px rgba(46,186,174,.45)}
 a.navbtn.rl{color:#fff;background:#d4a017;box-shadow:0 2px 6px rgba(212,160,23,.4)}
 a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-shadow:0 4px 10px rgba(212,160,23,.5)}
+/* computers: "← George Yean" sits in the header's top-right corner */
+@media (min-width: 701px){
+  header{position:relative}
+  header .navlinks > a:not(.navbtn){position:absolute;top:12px;right:20px;line-height:1.2}
+}
 </style>
 </head>
 <body>

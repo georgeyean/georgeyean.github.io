@@ -141,6 +141,11 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
 }
 /* the works / themes / relations counts are not shown (the script still fills the hidden element) */
 #counts{display:none}
+/* computers: "← George Yean" sits in the header's top-right corner */
+@media (min-width: 701px){
+  header{position:relative}
+  header .navlinks > a:not(.navbtn){position:absolute;top:12px;right:20px;line-height:1.2}
+}
 </style>
 </head>
 <body>
