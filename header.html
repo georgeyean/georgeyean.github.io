@@ -59,19 +59,23 @@
 							white-space: nowrap;
 						}
 						#header .links .submenu ul li a:hover { color: #2ebaae; background: rgba(160, 160, 160, 0.08); }
-						/* "New" marker: a small red badge dot overlapping the top-right corner of the Literature Network label. */
+						/* "New" marker: an unread-style red badge. In the header bar it sits on the top-right of the dropdown arrow;
+						   in the slide-out menu it sits just past the top-right of the label. */
 						.new-wrap { position: relative; }
 						.new-dot {
 							position: absolute;
-							top: -2px;
-							right: -4px;
-							width: 7px;
-							height: 7px;
+							top: -3px;
+							right: -11px;
+							width: 8px;
+							height: 8px;
 							border-radius: 50%;
-							background: #e5484d;
-							box-shadow: 0 0 0 1.5px #fff;
+							background: #ff3b30;
+							box-shadow: 0 0 0 2px #fff;
 							pointer-events: none;
 						}
+						#header .links li.has-sub > a { position: relative; }
+						#header .links li.has-sub > a .new-wrap { position: static; }
+						#header .links li.has-sub > a .new-dot { top: -3px; right: -6px; }
 					</style>
 					<header id="header">
 						<h1><a href="index.html">George Yean</a></h1>
