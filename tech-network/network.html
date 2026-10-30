@@ -265,7 +265,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
     <h2 id="themesHead">Themes</h2>
     <div id="themeList"></div>
     <div class="small-links"><button id="allOn">show all</button><button id="allOff">hide all</button><button id="clearFocus">clear focus</button></div>
-    <p style="font-size:11px;color:var(--muted);margin-top:12px"><b>Click a theme name</b> to focus it: its hub moves to the center and grows, its works stay bright and the rest dim. Click again (or "clear focus") to release. <b>Click the color dot</b> to show or hide a theme. Node color = first theme tag. Click a work for its claim, method and typed links. Drag to rearrange; scroll to zoom.</p>
+    <p style="font-size:11px;color:var(--muted);margin-top:12px"><b>Click a theme name</b> to focus it: its hub moves to the center and grows, its works stay bright and the rest dim. Click again (or "clear focus") to release. <b>Click the color dot</b> to show or hide a theme. Node color = first theme tag. Click a work for its claim, method and typed links. Drag a dot to move it; it stays where you drop it (double-click to release). Scroll to zoom.</p>
   </aside>
   <main id="stage">
     <svg id="svg"></svg>
@@ -490,7 +490,8 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
     nd.enter().append('circle').attr('cursor', 'pointer')
       .call(d3.drag().on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
         .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
-        .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.fx = null; d.fy = null; } }))
+        .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.pinX = d.fx; d.pinY = d.fy; } }))
+      .on('dblclick', (ev, d) => { ev.stopPropagation(); if (state.view !== 'net') return; d.pinX = d.pinY = d.fx = d.fy = null; sim.alpha(0.3).restart(); })
       .on('click', (ev, d) => { if (isMobile()) { if (d.type === 'theme') focusTheme(d.id); else { state.selected = d.id; highlight(d.id); } showNodePop(d); return; } if (d.type === 'theme') { focusTheme(d.id); if (state.focusTheme) openDetail(); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); openDetail(); })
       .on('mouseenter', (ev, d) => { if (!isMobile()) showNodeTip(ev, d); })
       .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
@@ -529,7 +530,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
   // ---------- network layout
   function layoutNetwork(){
     gAxes.selectAll('*').remove();
-    simNodes.forEach(n => { n.fx = null; n.fy = null; });
+    simNodes.forEach(n => { n.fx = n.pinX ?? null; n.fy = n.pinY ?? null; });  // dots the reader dragged stay put
     const hub = state.focusTheme && state.showThemes ? simById[state.focusTheme] : null;
     if (hub) { hub.fx = W / 2; hub.fy = H / 2; }
     sim.nodes(curNodes);

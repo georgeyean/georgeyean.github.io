@@ -188,7 +188,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
     <h2>Theory families</h2>
     <div id="famList"></div>
     <div class="small-links"><button id="allOn">show all</button><button id="clearFocus">clear focus</button></div>
-    <p>Each dot is a <b>theory</b>, not a paper. Lines show how theories relate. <b>Click a family name</b> to focus it; <b>click its dot</b> to show or hide it. Click a theory for its core claim, its relations with reasons and its key works, which open in the literature map. Drag to rearrange; scroll to zoom.</p>
+    <p>Each dot is a <b>theory</b>, not a paper. Lines show how theories relate. <b>Click a family name</b> to focus it; <b>click its dot</b> to show or hide it. Click a theory for its core claim, its relations with reasons and its key works, which open in the literature map. Drag a dot to move it; it stays where you drop it (double-click to release). Scroll to zoom.</p>
   </aside>
   <main id="stage">
     <svg id="svg"></svg>
@@ -313,7 +313,8 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
     const ne = ns.enter().append('g').attr('class', 't').style('cursor', 'pointer')
       .call(d3.drag().on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
         .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
-        .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.fx = null; d.fy = null; } }))
+        .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.pinX = d.fx; d.pinY = d.fy; } }))
+      .on('dblclick', (ev, d) => { ev.stopPropagation(); if (state.view !== 'net') return; d.pinX = d.pinY = d.fx = d.fy = null; sim.alpha(0.3).restart(); })
       .on('mouseenter', (ev, d) => { if (!isMobile()) { nodeTip(d); moveTip(ev); highlight(d.id); } })
       .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
       .on('mouseleave', () => { if (!isMobile()) { tip.style.display = 'none'; highlight(state.selected); } })
@@ -334,6 +335,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
       lanes.enter().append('text').attr('class', 'lane-label').attr('x', 10).merge(lanes).attr('y', f => laneY(f.id)).text(f => f.label.length > 22 ? f.label.slice(0, 21) + '…' : f.label);
     } else {
       gAxis.selectAll('*').remove(); gLanes.selectAll('*').remove();
+      vn.forEach(n => { n.fx = n.pinX ?? null; n.fy = n.pinY ?? null; });  // dots the reader dragged stay put
       // focused family pulls to the center; others drift around it
       sim.force('x', d3.forceX(W / 2).strength(d => state.focus && d.family === state.focus ? 0.12 : 0.04))
         .force('y', d3.forceY(H / 2).strength(d => state.focus && d.family === state.focus ? 0.12 : 0.05))
