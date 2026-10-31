@@ -1,6 +1,6 @@
 {
 "built": "2026-10-28",
-"total_unique_works": 2722,
+"total_unique_works": 2920,
 "fields": [
 {
 "id": "ap",
@@ -75,6 +75,15 @@
 "relations": 304
 },
 {
+"id": "psy",
+"dir": "psy-network",
+"label": "Political Psychology",
+"color": "#0d9488",
+"works": 326,
+"themes": 18,
+"relations": 337
+},
+{
 "id": "pt",
 "dir": "pt-network",
 "label": "Political Theory",
@@ -122,6 +131,11 @@
 "a": "ap",
 "b": "pe",
 "n": 20
+},
+{
+"a": "ap",
+"b": "psy",
+"n": 97
 },
 {
 "a": "ap",
@@ -200,6 +214,11 @@
 },
 {
 "a": "cp",
+"b": "psy",
+"n": 4
+},
+{
+"a": "cp",
 "b": "pt",
 "n": 6
 },
@@ -230,6 +249,11 @@
 },
 {
 "a": "env",
+"b": "psy",
+"n": 1
+},
+{
+"a": "env",
 "b": "pt",
 "n": 5
 },
@@ -250,6 +274,11 @@
 },
 {
 "a": "ipe",
+"b": "psy",
+"n": 2
+},
+{
+"a": "ipe",
 "b": "rep",
 "n": 9
 },
@@ -265,6 +294,11 @@
 },
 {
 "a": "ir",
+"b": "psy",
+"n": 4
+},
+{
+"a": "ir",
 "b": "pt",
 "n": 1
 },
@@ -277,6 +311,11 @@
 "a": "ir",
 "b": "tech",
 "n": 1
+},
+{
+"a": "sec",
+"b": "psy",
+"n": 7
 },
 {
 "a": "sec",
@@ -290,6 +329,11 @@
 },
 {
 "a": "pe",
+"b": "psy",
+"n": 3
+},
+{
+"a": "pe",
 "b": "pt",
 "n": 1
 },
@@ -302,6 +346,21 @@
 "a": "pe",
 "b": "tech",
 "n": 2
+},
+{
+"a": "psy",
+"b": "pt",
+"n": 3
+},
+{
+"a": "psy",
+"b": "rep",
+"n": 15
+},
+{
+"a": "psy",
+"b": "tech",
+"n": 9
 },
 {
 "a": "pt",
@@ -355,6 +414,49 @@
 },
 "span": 4,
 "degree": 11
+},
+{
+"id": "achenbartels2016",
+"label": "Achen 2016",
+"title": "Democracy for Realists: Why Elections Do Not Produce Responsive Government",
+"authors": "Christopher H. Achen & Larry M. Bartels",
+"year": 2016,
+"journal": "Princeton University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Voting reflects group identities and myopic retrospection, so elections do not deliver the folk theory of democracy.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Campaigns, elections & accountability",
+"Representation, responsiveness & inequality"
+],
+"degree": 2
+},
+"pe": {
+"themes": [
+"Political agency, accountability & selection"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity",
+"Belief systems, sophistication & political knowledge"
+],
+"degree": 2
+},
+"pt": {
+"themes": [
+"Representation & democratic theory",
+"Epistemic democracy, expertise & epistemic injustice"
+],
+"degree": 2
+}
+},
+"span": 4,
+"degree": 7
 },
 {
 "id": "acharya2016",
@@ -440,6 +542,40 @@
 "degree": 5
 },
 {
+"id": "kindersanders1996",
+"label": "Kinder 1996",
+"title": "Divided by Color: Racial Politics and Democratic Ideals",
+"authors": "Donald R. Kinder & Lynn M. Sanders",
+"year": 1996,
+"journal": "University of Chicago Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Racial resentment, not self-interest, structures white opinion on race policy, and framing shapes it.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Opinion formation"
+],
+"degree": 9
+},
+"psy": {
+"themes": [
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Racial attitudes"
+],
+"degree": 22
+}
+},
+"span": 3,
+"degree": 34
+},
+{
 "id": "fearonlaitin2003",
 "label": "Fearon 2003",
 "title": "Ethnicity, Insurgency, and Civil War",
@@ -506,6 +642,75 @@
 },
 "span": 3,
 "degree": 15
+},
+{
+"id": "mendelberg2001",
+"label": "Mendelberg 2001",
+"title": "The Race Card: Campaign Strategy, Implicit Messages, and the Norm of Equality",
+"authors": "Tali Mendelberg",
+"year": 2001,
+"journal": "Princeton University Press (book)",
+"doi": "10.2307/3089114",
+"zotero": null,
+"claim": "Implicit racial appeals activate resentment; making them explicit defuses them because of the norm of equality.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Campaigns, elections & accountability"
+],
+"degree": 4
+},
+"psy": {
+"themes": [
+"Framing, priming & persuasion",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial priming, cues & campaign appeals"
+],
+"degree": 9
+}
+},
+"span": 3,
+"degree": 14
+},
+{
+"id": "allcottgentzkow2017",
+"label": "Allcott 2017",
+"title": "Social Media and Fake News in the 2016 Election",
+"authors": "Hunt Allcott & Matthew Gentzkow",
+"year": 2017,
+"journal": "Journal of Economic Perspectives",
+"doi": null,
+"zotero": null,
+"claim": "Fake news was widely shared in 2016, but the average voter saw and remembered few stories.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"News media, selective exposure & social media"
+],
+"degree": 4
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 4
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
+],
+"degree": 6
+}
+},
+"span": 3,
+"degree": 14
 },
 {
 "id": "pearson2022",
@@ -614,6 +819,42 @@
 "degree": 10
 },
 {
+"id": "brader2008",
+"label": "Brader 2008",
+"title": "What Triggers Public Opposition to Immigration? Anxiety, Group Cues, and Immigration Threat",
+"authors": "Ted Brader, Nicholas A. Valentino & Elizabeth Suhay",
+"year": 2008,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2008.00353.x",
+"zotero": null,
+"claim": "Anxiety triggered by group cues drives opposition to immigration.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration",
+"Personality, emotion, values & genes"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Emotion & affective intelligence",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Immigration attitudes, nativism & enforcement",
+"Racial priming, cues & campaign appeals"
+],
+"degree": 5
+}
+},
+"span": 3,
+"degree": 10
+},
+{
 "id": "hainmueller2014",
 "label": "Hainmueller 2014",
 "title": "Public Attitudes toward Immigration",
@@ -680,6 +921,178 @@
 },
 "span": 3,
 "degree": 9
+},
+{
+"id": "prior2007",
+"label": "Prior 2007",
+"title": "Post-Broadcast Democracy: How Media Choice Increases Inequality in Political Involvement and Polarizes Elections",
+"authors": "Markus Prior",
+"year": 2007,
+"journal": "Cambridge University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Cable and the internet let entertainment fans opt out of news, widening knowledge gaps and polarizing the electorate.",
+"fields": {
+"ap": {
+"themes": [
+"News media, selective exposure & social media",
+"Elite & mass polarization",
+"Turnout, mobilization & participation"
+],
+"degree": 5
+},
+"psy": {
+"themes": [
+"Belief systems, sophistication & political knowledge"
+],
+"degree": 1
+},
+"tech": {
+"themes": [
+"Social media, polarization & the public sphere"
+],
+"degree": 3
+}
+},
+"span": 3,
+"degree": 9
+},
+{
+"id": "jardina2019",
+"label": "Jardina 2019",
+"title": "White Identity Politics",
+"authors": "Ashley Jardina",
+"year": 2019,
+"journal": "Cambridge University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "White identity has become politically salient, shaping opinion on immigration and candidate choice.",
+"fields": {
+"ap": {
+"themes": [
+"Race, ethnicity & immigration"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash"
+],
+"degree": 6
+}
+},
+"span": 3,
+"degree": 9
+},
+{
+"id": "norris2019",
+"label": "Norris 2019",
+"title": "Cultural Backlash: Trump, Brexit, and Authoritarian Populism",
+"authors": "Pippa Norris & Ronald Inglehart",
+"year": 2019,
+"journal": "Cambridge University Press (book)",
+"doi": "10.1017/9781108595841",
+"zotero": null,
+"claim": "Authoritarian populism is a reaction by older, less educated cohorts to generational value change toward post-materialism; economics matters mainly as an accelerant.",
+"fields": {
+"cp": {
+"themes": [
+"Populism & the radical right"
+],
+"degree": 4
+},
+"ipe": {
+"themes": [
+"Globalization backlash, China shock & populism"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Authoritarianism, threat & dominance",
+"Ideology & the psychology of left and right"
+],
+"degree": 2
+}
+},
+"span": 3,
+"degree": 9
+},
+{
+"id": "grahamsvolik2020",
+"label": "Graham 2020",
+"title": "Democracy in America? Partisanship, Polarization, and the Robustness of Support for Democracy in the United States",
+"authors": "Matthew H. Graham & Milan W. Svolik",
+"year": 2020,
+"journal": "APSR",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/J99APNRV",
+"claim": "Only a small share of Americans punish undemocratic co-partisans; polarization weakens the democratic check.",
+"fields": {
+"ap": {
+"themes": [
+"Democratic norms, populism & backsliding",
+"Partisan identity & affective polarization"
+],
+"degree": 4
+},
+"cp": {
+"themes": [
+"Democratic backsliding, polarization & support for democracy"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Trust, tolerance & democratic attitudes",
+"Affective polarization & out-party animus"
+],
+"degree": 3
+}
+},
+"span": 3,
+"degree": 9
+},
+{
+"id": "pennycookrand2019",
+"label": "Pennycook 2019",
+"title": "Lazy, Not Biased: Susceptibility to Partisan Fake News Is Better Explained by Lack of Reasoning Than by Motivated Reasoning",
+"authors": "Gordon Pennycook & David G. Rand",
+"year": 2019,
+"journal": "Cognition",
+"doi": null,
+"zotero": null,
+"claim": "Belief in fake news reflects a lack of analytic thinking more than partisan motivation.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"Personality, emotion, values & genes"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 2
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
+],
+"degree": 4
+}
+},
+"span": 3,
+"degree": 8
 },
 {
 "id": "tsai2007",
@@ -809,6 +1222,40 @@
 "rep": {
 "themes": [
 "Comparative ethnic politics & ethnic voting"
+],
+"degree": 2
+}
+},
+"span": 3,
+"degree": 6
+},
+{
+"id": "mercer2005",
+"label": "Mercer 2005",
+"title": "Rationality and Psychology in International Politics",
+"authors": "Jonathan Mercer",
+"year": 2005,
+"journal": "IO",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/PXMVN23C",
+"claim": "Psychology is not only a source of error: rational models of trust, reputation and credibility rest on psychological assumptions.",
+"fields": {
+"ir": {
+"themes": [
+"IR theory, power & the discipline"
+],
+"degree": 2
+},
+"sec": {
+"themes": [
+"Leaders, psychology & elite decision-making",
+"IR theory"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics"
 ],
 "degree": 2
 }
@@ -1091,42 +1538,6 @@
 "degree": 5
 },
 {
-"id": "achenbartels2016",
-"label": "Achen 2016",
-"title": "Democracy for Realists: Why Elections Do Not Produce Responsive Government",
-"authors": "Christopher H. Achen & Larry M. Bartels",
-"year": 2016,
-"journal": "Princeton University Press (book)",
-"doi": null,
-"zotero": null,
-"claim": "Voting reflects group identities and myopic retrospection, so elections do not deliver the folk theory of democracy.",
-"fields": {
-"ap": {
-"themes": [
-"Partisan identity & affective polarization",
-"Campaigns, elections & accountability",
-"Representation, responsiveness & inequality"
-],
-"degree": 2
-},
-"pe": {
-"themes": [
-"Political agency, accountability & selection"
-],
-"degree": 1
-},
-"pt": {
-"themes": [
-"Representation & democratic theory",
-"Epistemic democracy, expertise & epistemic injustice"
-],
-"degree": 2
-}
-},
-"span": 3,
-"degree": 5
-},
-{
 "id": "broz2020china",
 "label": "Broz 2020",
 "title": "Explaining Foreign Support for China's Global Economic Leadership",
@@ -1228,6 +1639,40 @@
 "degree": 4
 },
 {
+"id": "vosoughi2018",
+"label": "Vosoughi 2018",
+"title": "The Spread of True and False News Online",
+"authors": "Soroush Vosoughi, Deb Roy & Sinan Aral",
+"year": 2018,
+"journal": "Science",
+"doi": "10.1126/science.aap9559",
+"zotero": null,
+"claim": "False news spreads farther and faster than true news on Twitter, driven by people rather than bots.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"News media, selective exposure & social media"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 2
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 4
+},
+{
 "id": "hollyer2018",
 "label": "Hollyer 2018",
 "title": "Information, Democracy, and Autocracy: Economic Transparency and Political (In)Stability",
@@ -1255,6 +1700,40 @@
 "themes": [
 "Media, information & political economy",
 "Regimes & economic performance"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 4
+},
+{
+"id": "guess2019",
+"label": "Guess 2019",
+"title": "Less Than You Think: Prevalence and Predictors of Fake News Dissemination on Facebook",
+"authors": "Andrew Guess, Jonathan Nagler & Joshua Tucker",
+"year": 2019,
+"journal": "Science Advances",
+"doi": "10.1126/sciadv.aau4586",
+"zotero": null,
+"claim": "Sharing fake news was rare and concentrated among older, conservative users.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"News media, selective exposure & social media"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 2
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
 ],
 "degree": 1
 }
@@ -1367,6 +1846,74 @@
 "degree": 4
 },
 {
+"id": "osmundsen2021",
+"label": "Osmundsen 2021",
+"title": "Partisan Polarization Is the Primary Psychological Motivation behind Political Fake News Sharing on Twitter",
+"authors": "Mathias Osmundsen, Alexander Bor, Peter Bjerregaard Vahlstrup et al.",
+"year": 2021,
+"journal": "APSR",
+"doi": "10.1017/s0003055421000290",
+"zotero": null,
+"claim": "Partisan hostility, not ignorance, motivates sharing fake news on Twitter.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"Partisan identity & affective polarization"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction",
+"Affective polarization & out-party animus"
+],
+"degree": 1
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 4
+},
+{
+"id": "ballardrosa2021",
+"label": "Ballard-Rosa 2021",
+"title": "The Economic Origins of Authoritarian Values: Evidence from Local Trade Shocks in the United Kingdom",
+"authors": "Cameron Ballard-Rosa, Mashail Malik, Stephanie Rickard & Kenneth Scheve",
+"year": 2021,
+"journal": "Comparative Political Studies",
+"doi": "10.1177/00104140211024296",
+"zotero": null,
+"claim": "Import-competition shocks raise authoritarian values among exposed individuals, a psychological mechanism linking economic shock to cultural backlash.",
+"fields": {
+"cp": {
+"themes": [
+"Populism & the radical right"
+],
+"degree": 1
+},
+"ipe": {
+"themes": [
+"Globalization backlash, China shock & populism"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Authoritarianism, threat & dominance"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 4
+},
+{
 "id": "rithmire2023",
 "label": "Rithmire 2023",
 "title": "Precarious Ties: Business and the State in Authoritarian Asia",
@@ -1437,6 +1984,40 @@
 },
 "span": 3,
 "degree": 4
+},
+{
+"id": "shayo2009",
+"label": "Shayo 2009",
+"title": "A Model of Social Identity with an Application to Political Economy: Nation, Class, and Redistribution",
+"authors": "Moses Shayo",
+"year": 2009,
+"journal": "APSR",
+"doi": "10.1017/s0003055409090194",
+"zotero": null,
+"claim": "National identity among the poor lowers support for redistribution, explaining why poor democracies redistribute less.",
+"fields": {
+"cp": {
+"themes": [
+"Redistribution, inequality & welfare states",
+"Ethnic politics & identity"
+],
+"degree": 1
+},
+"pe": {
+"themes": [
+"Inequality & the politics of redistribution"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity"
+],
+"degree": 1
+}
+},
+"span": 3,
+"degree": 3
 },
 {
 "id": "malhotra2013",
@@ -1577,34 +2158,6 @@
 "degree": 3
 },
 {
-"id": "kindersanders1996",
-"label": "Kinder 1996",
-"title": "Divided by Color: Racial Politics and Democratic Ideals",
-"authors": "Donald R. Kinder & Lynn M. Sanders",
-"year": 1996,
-"journal": "University of Chicago Press (book)",
-"doi": null,
-"zotero": null,
-"claim": "Racial resentment, not self-interest, structures white opinion on race policy, and framing shapes it.",
-"fields": {
-"ap": {
-"themes": [
-"Race, ethnicity & immigration",
-"Opinion formation"
-],
-"degree": 9
-},
-"rep": {
-"themes": [
-"Racial attitudes"
-],
-"degree": 22
-}
-},
-"span": 2,
-"degree": 31
-},
-{
 "id": "meltzerrichard1981",
 "label": "Meltzer 1981",
 "title": "A Rational Theory of the Size of Government",
@@ -1659,6 +2212,34 @@
 "degree": 21
 },
 {
+"id": "iyengar2012",
+"label": "Iyengar 2012",
+"title": "Affect, Not Ideology",
+"authors": "Shanto Iyengar, Gaurav Sood & Yphtach Lelkes",
+"year": 2012,
+"journal": "Public Opinion Quarterly",
+"doi": "10.1093/poq/nfs038",
+"zotero": null,
+"claim": "Partisans increasingly dislike the other party: polarization as social identity, not ideology.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Elite & mass polarization"
+],
+"degree": 9
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
+],
+"degree": 11
+}
+},
+"span": 2,
+"degree": 20
+},
+{
 "id": "dawson1994",
 "label": "Dawson 1994",
 "title": "Behind the Mule: Race and Class in African-American Politics",
@@ -1685,6 +2266,63 @@
 },
 "span": 2,
 "degree": 19
+},
+{
+"id": "taberlodge2006",
+"label": "Taber 2006",
+"title": "Motivated Skepticism in the Evaluation of Political Beliefs",
+"authors": "Charles S. Taber & Milton Lodge",
+"year": 2006,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2006.00214.x",
+"zotero": null,
+"claim": "People accept congenial evidence and attack uncongenial evidence: motivated skepticism.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Personality, emotion, values & genes"
+],
+"degree": 7
+},
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias"
+],
+"degree": 12
+}
+},
+"span": 2,
+"degree": 19
+},
+{
+"id": "converse1964",
+"label": "Converse 1964",
+"title": "The Nature of Belief Systems in Mass Publics",
+"authors": "Philip E. Converse",
+"year": 1964,
+"journal": "Ideology and Discontent, Free Press (chapter)",
+"doi": null,
+"zotero": null,
+"claim": "Most citizens lack coherent ideological belief systems; constraint is concentrated among elites.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Elite & mass polarization"
+],
+"degree": 8
+},
+"psy": {
+"themes": [
+"Belief systems, sophistication & political knowledge",
+"Ideology & the psychology of left and right"
+],
+"degree": 10
+}
+},
+"span": 2,
+"degree": 18
 },
 {
 "id": "mills1997",
@@ -1740,6 +2378,35 @@
 },
 "span": 2,
 "degree": 17
+},
+{
+"id": "zaller1992",
+"label": "Zaller 1992",
+"title": "The Nature and Origins of Mass Opinion",
+"authors": "John R. Zaller",
+"year": 1992,
+"journal": "Cambridge University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Opinion results from receiving and accepting elite messages and sampling considerations at the moment of the survey.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"News media, selective exposure & social media"
+],
+"degree": 11
+},
+"psy": {
+"themes": [
+"Belief systems, sophistication & political knowledge",
+"Heuristics, cues & elite influence"
+],
+"degree": 5
+}
+},
+"span": 2,
+"degree": 16
 },
 {
 "id": "verba1995",
@@ -1798,6 +2465,34 @@
 "degree": 16
 },
 {
+"id": "marcus2000",
+"label": "Marcus 2000",
+"title": "Affective Intelligence and Political Judgment",
+"authors": "George E. Marcus, W. Russell Neuman & Michael MacKuen",
+"year": 2000,
+"journal": "University of Chicago Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Anxiety interrupts habit and prompts information seeking and reconsideration.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes",
+"Opinion formation"
+],
+"degree": 6
+},
+"psy": {
+"themes": [
+"Emotion & affective intelligence"
+],
+"degree": 9
+}
+},
+"span": 2,
+"degree": 15
+},
+{
 "id": "ajr2001",
 "label": "Acemoglu 2001",
 "title": "The Colonial Origins of Comparative Development: An Empirical Investigation",
@@ -1821,6 +2516,33 @@
 "History, culture & persistence"
 ],
 "degree": 9
+}
+},
+"span": 2,
+"degree": 14
+},
+{
+"id": "greenpalmquist2002",
+"label": "Green 2002",
+"title": "Partisan Hearts and Minds: Political Parties and the Social Identities of Voters",
+"authors": "Donald Green, Bradley Palmquist & Eric Schickler",
+"year": 2002,
+"journal": "Yale University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Party identification is a durable social identity, not a running tally of evaluations.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 6
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity"
+],
+"degree": 8
 }
 },
 "span": 2,
@@ -1855,6 +2577,34 @@
 "degree": 14
 },
 {
+"id": "jervis1976",
+"label": "Jervis 1976",
+"title": "Perception and Misperception in International Politics",
+"authors": "Robert Jervis",
+"year": 1976,
+"journal": "Princeton University Press (book)",
+"doi": "10.1515/9781400885114",
+"zotero": null,
+"claim": "Decision makers fit incoming information to existing beliefs, use historical analogies and misread others' intentions, so misperception is a systematic cause of conflict.",
+"fields": {
+"sec": {
+"themes": [
+"Leaders, psychology & elite decision-making",
+"IR theory"
+],
+"degree": 4
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics"
+],
+"degree": 9
+}
+},
+"span": 2,
+"degree": 13
+},
+{
 "id": "fiorina1981",
 "label": "Fiorina 1981",
 "title": "Retrospective Voting in American National Elections",
@@ -1884,32 +2634,87 @@
 "degree": 13
 },
 {
-"id": "mendelberg2001",
-"label": "Mendelberg 2001",
-"title": "The Race Card: Campaign Strategy, Implicit Messages, and the Norm of Equality",
-"authors": "Tali Mendelberg",
-"year": 2001,
-"journal": "Princeton University Press (book)",
-"doi": "10.2307/3089114",
+"id": "alford2005",
+"label": "Alford 2005",
+"title": "Are Political Orientations Genetically Transmitted?",
+"authors": "John R. Alford, Carolyn L. Funk & John R. Hibbing",
+"year": 2005,
+"journal": "APSR",
+"doi": "10.1017/s0003055405051579",
 "zotero": null,
-"claim": "Implicit racial appeals activate resentment; making them explicit defuses them because of the norm of equality.",
+"claim": "Twin studies suggest political attitudes are partly heritable.",
 "fields": {
 "ap": {
 "themes": [
-"Race, ethnicity & immigration",
-"Campaigns, elections & accountability"
+"Personality, emotion, values & genes"
 ],
-"degree": 4
+"degree": 5
 },
-"rep": {
+"psy": {
 "themes": [
-"Racial priming, cues & campaign appeals"
+"Biology, genetics & evolutionary psychology"
 ],
-"degree": 9
+"degree": 8
 }
 },
 "span": 2,
 "degree": 13
+},
+{
+"id": "nyhanreifler2010",
+"label": "Nyhan 2010",
+"title": "When Corrections Fail: The Persistence of Political Misperceptions",
+"authors": "Brendan Nyhan & Jason Reifler",
+"year": 2010,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-010-9112-2",
+"zotero": null,
+"claim": "Corrections can fail and sometimes backfire among those predisposed to the misperception.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking"
+],
+"degree": 5
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction",
+"Motivated reasoning & partisan bias"
+],
+"degree": 8
+}
+},
+"span": 2,
+"degree": 13
+},
+{
+"id": "campbell1960",
+"label": "Campbell 1960",
+"title": "The American Voter",
+"authors": "Angus Campbell, Philip E. Converse, Warren E. Miller & Donald E. Stokes",
+"year": 1960,
+"journal": "Wiley (book)",
+"doi": null,
+"zotero": null,
+"claim": "Party identification is a stable, early-learned attachment that colors how voters see candidates and issues.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Opinion formation"
+],
+"degree": 9
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 12
 },
 {
 "id": "waltz1979",
@@ -2082,6 +2887,62 @@
 "degree": 12
 },
 {
+"id": "iyengar2019",
+"label": "Iyengar 2019",
+"title": "The Origins and Consequences of Affective Polarization in the United States",
+"authors": "Shanto Iyengar, Yphtach Lelkes, Matthew Levendusky et al.",
+"year": 2019,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev-polisci-051117-073034",
+"zotero": null,
+"claim": "Affective polarization has grown, rooted in identity and media, with consequences beyond politics.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Elite & mass polarization"
+],
+"degree": 5
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
+],
+"degree": 7
+}
+},
+"span": 2,
+"degree": 12
+},
+{
+"id": "allport1954",
+"label": "Allport 1954",
+"title": "The Nature of Prejudice",
+"authors": "Gordon W. Allport",
+"year": 1954,
+"journal": "Addison-Wesley (book)",
+"doi": null,
+"zotero": null,
+"claim": "Prejudice is a faulty generalization; equal-status contact under supportive conditions reduces it.",
+"fields": {
+"psy": {
+"themes": [
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 4
+},
+"rep": {
+"themes": [
+"Racial attitudes",
+"Context, contact, threat & segregation"
+],
+"degree": 7
+}
+},
+"span": 2,
+"degree": 11
+},
+{
 "id": "putnam1993",
 "label": "Putnam 1993",
 "title": "Making Democracy Work: Civic Traditions in Modern Italy",
@@ -2166,6 +3027,33 @@
 "degree": 11
 },
 {
+"id": "gerber2010",
+"label": "Gerber 2010",
+"title": "Personality and Political Attitudes: Relationships across Issue Domains and Political Contexts",
+"authors": "Alan S. Gerber, Gregory A. Huber, David Doherty et al.",
+"year": 2010,
+"journal": "APSR",
+"doi": "10.1017/s0003055410000031",
+"zotero": null,
+"claim": "Big Five traits relate to political attitudes as strongly as income or education.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Personality, values & predispositions"
+],
+"degree": 8
+}
+},
+"span": 2,
+"degree": 11
+},
+{
 "id": "tilly1990",
 "label": "Tilly 1990",
 "title": "Coercion, Capital, and European States, AD 990-1990",
@@ -2220,28 +3108,27 @@
 "degree": 10
 },
 {
-"id": "allcottgentzkow2017",
-"label": "Allcott 2017",
-"title": "Social Media and Fake News in the 2016 Election",
-"authors": "Hunt Allcott & Matthew Gentzkow",
-"year": 2017,
-"journal": "Journal of Economic Perspectives",
-"doi": null,
+"id": "iyengarwestwood2015",
+"label": "Iyengar 2014",
+"title": "Fear and Loathing across Party Lines: New Evidence on Group Polarization",
+"authors": "Shanto Iyengar & Sean J. Westwood",
+"year": 2014,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12152",
 "zotero": null,
-"claim": "Fake news was widely shared in 2016, but the average voter saw and remembered few stories.",
+"claim": "Partisan animus exceeds racial animus and shapes nonpolitical judgments.",
 "fields": {
 "ap": {
 "themes": [
-"Misinformation, conspiracy beliefs & fact-checking",
-"News media, selective exposure & social media"
+"Partisan identity & affective polarization"
 ],
-"degree": 4
+"degree": 5
 },
-"tech": {
+"psy": {
 "themes": [
-"Misinformation, bots, deepfakes & computational propaganda"
+"Affective polarization & out-party animus"
 ],
-"degree": 6
+"degree": 5
 }
 },
 "span": 2,
@@ -2270,6 +3157,33 @@
 "IR theory"
 ],
 "degree": 4
+}
+},
+"span": 2,
+"degree": 9
+},
+{
+"id": "kindersears1981",
+"label": "Kinder 1981",
+"title": "Prejudice and Politics: Symbolic Racism versus Racial Threats to the Good Life",
+"authors": "Donald R. Kinder & David O. Sears",
+"year": 1981,
+"journal": "Journal of Personality and Social Psychology",
+"doi": "10.1037/0022-3514.40.3.414",
+"zotero": null,
+"claim": "Symbolic racism, a blend of anti-Black affect and traditional values, predicts white voting better than direct racial threat.",
+"fields": {
+"psy": {
+"themes": [
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Racial attitudes"
+],
+"degree": 6
 }
 },
 "span": 2,
@@ -2390,6 +3304,35 @@
 "degree": 9
 },
 {
+"id": "mason2015",
+"label": "Mason 2014",
+"title": "“I Disrespectfully Agree”: The Differential Effects of Partisan Sorting on Social and Issue Polarization",
+"authors": "Lilliana Mason",
+"year": 2014,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12089",
+"zotero": null,
+"claim": "Partisan-ideological sorting raises bias, activism and anger even without issue extremity.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Elite & mass polarization"
+],
+"degree": 5
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity",
+"Affective polarization & out-party animus"
+],
+"degree": 4
+}
+},
+"span": 2,
+"degree": 9
+},
+{
 "id": "colantone2018",
 "label": "Colantone 2018",
 "title": "The Trade Origins of Economic Nationalism: Import Competition and Voting Behavior in Western Europe",
@@ -2443,6 +3386,34 @@
 },
 "span": 2,
 "degree": 9
+},
+{
+"id": "blumer1958",
+"label": "Blumer 1958",
+"title": "Race Prejudice as a Sense of Group Position",
+"authors": "Herbert Blumer",
+"year": 1958,
+"journal": "Pacific Sociological Review",
+"doi": null,
+"zotero": null,
+"claim": "Prejudice is a collective sense of group position, defended when dominant groups feel their status challenged.",
+"fields": {
+"psy": {
+"themes": [
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 2
+},
+"rep": {
+"themes": [
+"Racial attitudes",
+"Context, contact, threat & segregation"
+],
+"degree": 6
+}
+},
+"span": 2,
+"degree": 8
 },
 {
 "id": "montinola1995",
@@ -2586,29 +3557,28 @@
 "degree": 8
 },
 {
-"id": "prior2007",
-"label": "Prior 2007",
-"title": "Post-Broadcast Democracy: How Media Choice Increases Inequality in Political Involvement and Polarizes Elections",
-"authors": "Markus Prior",
+"id": "gaines2007",
+"label": "Gaines 2007",
+"title": "Same Facts, Different Interpretations: Partisan Motivation and Opinion on Iraq",
+"authors": "Brian J. Gaines, James H. Kuklinski, Paul J. Quirk et al.",
 "year": 2007,
-"journal": "Cambridge University Press (book)",
-"doi": null,
+"journal": "JOP",
+"doi": "10.1111/j.1468-2508.2007.00601.x",
 "zotero": null,
-"claim": "Cable and the internet let entertainment fans opt out of news, widening knowledge gaps and polarizing the electorate.",
+"claim": "Partisans agree on facts about the Iraq War but interpret them to fit their party.",
 "fields": {
 "ap": {
 "themes": [
-"News media, selective exposure & social media",
-"Elite & mass polarization",
-"Turnout, mobilization & participation"
+"Opinion formation",
+"Partisan identity & affective polarization"
 ],
-"degree": 5
+"degree": 2
 },
-"tech": {
+"psy": {
 "themes": [
-"Social media, polarization & the public sphere"
+"Motivated reasoning & partisan bias"
 ],
-"degree": 3
+"degree": 6
 }
 },
 "span": 2,
@@ -2697,35 +3667,6 @@
 "degree": 8
 },
 {
-"id": "brader2008",
-"label": "Brader 2008",
-"title": "What Triggers Public Opposition to Immigration? Anxiety, Group Cues, and Immigration Threat",
-"authors": "Ted Brader, Nicholas A. Valentino & Elizabeth Suhay",
-"year": 2008,
-"journal": "AJPS",
-"doi": "10.1111/j.1540-5907.2008.00353.x",
-"zotero": null,
-"claim": "Anxiety triggered by group cues drives opposition to immigration.",
-"fields": {
-"ap": {
-"themes": [
-"Race, ethnicity & immigration",
-"Personality, emotion, values & genes"
-],
-"degree": 3
-},
-"rep": {
-"themes": [
-"Immigration attitudes, nativism & enforcement",
-"Racial priming, cues & campaign appeals"
-],
-"degree": 5
-}
-},
-"span": 2,
-"degree": 8
-},
-{
 "id": "rehm2009",
 "label": "Rehm 2009",
 "title": "Risks and Redistribution",
@@ -2745,6 +3686,35 @@
 "pe": {
 "themes": [
 "Welfare states & social policy"
+],
+"degree": 4
+}
+},
+"span": 2,
+"degree": 8
+},
+{
+"id": "kahan2012",
+"label": "Kahan 2012",
+"title": "The polarizing impact of science literacy and numeracy on perceived climate change risks",
+"authors": "Dan M. Kahan, Ellen Peters, Maggie Wittlin et al.",
+"year": 2012,
+"journal": "Nature Climate Change",
+"doi": "10.1038/nclimate1547",
+"zotero": null,
+"claim": "Science literacy increases polarization on climate risk.",
+"fields": {
+"env": {
+"themes": [
+"Public opinion & climate attitudes",
+"Denial, skepticism & the climate countermovement"
+],
+"degree": 4
+},
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias",
+"Belief systems, sophistication & political knowledge"
 ],
 "degree": 4
 }
@@ -2830,33 +3800,6 @@
 "Legitimacy, politicization & accountability of global governance"
 ],
 "degree": 5
-}
-},
-"span": 2,
-"degree": 8
-},
-{
-"id": "jardina2019",
-"label": "Jardina 2019",
-"title": "White Identity Politics",
-"authors": "Ashley Jardina",
-"year": 2019,
-"journal": "Cambridge University Press (book)",
-"doi": null,
-"zotero": null,
-"claim": "White identity has become politically salient, shaping opinion on immigration and candidate choice.",
-"fields": {
-"ap": {
-"themes": [
-"Race, ethnicity & immigration"
-],
-"degree": 2
-},
-"rep": {
-"themes": [
-"White identity, status threat & racial backlash"
-],
-"degree": 6
 }
 },
 "span": 2,
@@ -2969,6 +3912,34 @@
 "Political agency, accountability & selection"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 7
+},
+{
+"id": "kinderkam2009",
+"label": "Kinder 2009",
+"title": "Us Against Them: Ethnocentric Foundations of American Opinion",
+"authors": "Donald R. Kinder & Cindy D. Kam",
+"year": 2009,
+"journal": "University of Chicago Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "General ethnocentrism shapes opinion on immigration, war, welfare and other policies.",
+"fields": {
+"psy": {
+"themes": [
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 3
+},
+"rep": {
+"themes": [
+"Racial attitudes",
+"Immigration attitudes, nativism & enforcement"
+],
+"degree": 4
 }
 },
 "span": 2,
@@ -3088,6 +4059,34 @@
 "degree": 7
 },
 {
+"id": "oliverwood2014",
+"label": "Oliver 2014",
+"title": "Conspiracy Theories and the Paranoid Style(s) of Mass Opinion",
+"authors": "J. Eric Oliver & Thomas J. Wood",
+"year": 2014,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12084",
+"zotero": null,
+"claim": "Half of Americans endorse at least one conspiracy theory, driven by magical thinking and Manichean views.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"Personality, emotion, values & genes"
+],
+"degree": 4
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 7
+},
+{
 "id": "bermeo2016",
 "label": "Bermeo 2016",
 "title": "On Democratic Backsliding",
@@ -3109,33 +4108,6 @@
 "Democratic backsliding, polarization & support for democracy"
 ],
 "degree": 5
-}
-},
-"span": 2,
-"degree": 7
-},
-{
-"id": "norris2019",
-"label": "Norris 2019",
-"title": "Cultural Backlash: Trump, Brexit, and Authoritarian Populism",
-"authors": "Pippa Norris & Ronald Inglehart",
-"year": 2019,
-"journal": "Cambridge University Press (book)",
-"doi": "10.1017/9781108595841",
-"zotero": null,
-"claim": "Authoritarian populism is a reaction by older, less educated cohorts to generational value change toward post-materialism; economics matters mainly as an accelerant.",
-"fields": {
-"cp": {
-"themes": [
-"Populism & the radical right"
-],
-"degree": 4
-},
-"ipe": {
-"themes": [
-"Globalization backlash, China shock & populism"
-],
-"degree": 3
 }
 },
 "span": 2,
@@ -3193,6 +4165,34 @@
 "Regimes & economic performance"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 6
+},
+{
+"id": "sidaniuspratto1999",
+"label": "Sidanius 1999",
+"title": "Social Dominance: An Intergroup Theory of Social Hierarchy and Oppression",
+"authors": "Jim Sidanius & Felicia Pratto",
+"year": 1999,
+"journal": "Cambridge University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Societies sustain group-based hierarchies through legitimizing myths and individual social dominance orientation.",
+"fields": {
+"psy": {
+"themes": [
+"Authoritarianism, threat & dominance",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 4
+},
+"rep": {
+"themes": [
+"Racial attitudes"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -3511,6 +4511,33 @@
 "degree": 6
 },
 {
+"id": "saunders2011",
+"label": "Saunders 2011",
+"title": "Leaders at War: How Presidents Shape Military Interventions",
+"authors": "Elizabeth N. Saunders",
+"year": 2011,
+"journal": "Cornell University Press (book)",
+"doi": "10.7591/cornell/9780801449222.001.0001",
+"zotero": null,
+"claim": "Leaders' threat perceptions (internally vs externally focused) shape whether interventions try to transform target states.",
+"fields": {
+"sec": {
+"themes": [
+"Leaders, psychology & elite decision-making"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 6
+},
+{
 "id": "tesler2012",
 "label": "Tesler 2012",
 "title": "The Spillover of Racialization into Health Care: How President Obama Polarized Public Opinion by Racial Attitudes and Race",
@@ -3590,6 +4617,35 @@
 "Platform power, platform governance & content moderation"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 6
+},
+{
+"id": "huddy2015",
+"label": "Huddy 2015",
+"title": "Expressive Partisanship: Campaign Involvement, Political Emotion, and Partisan Identity",
+"authors": "Leonie Huddy, Lilliana Mason & Lene AARØE",
+"year": 2015,
+"journal": "APSR",
+"doi": "10.1017/s0003055414000604",
+"zotero": null,
+"claim": "Partisan identity, more than issues, drives campaign activity and emotional reactions.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Personality, emotion, values & genes"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity",
+"Emotion & affective intelligence"
+],
+"degree": 4
 }
 },
 "span": 2,
@@ -3766,6 +4822,62 @@
 "degree": 6
 },
 {
+"id": "mason2018",
+"label": "Mason 2018",
+"title": "Uncivil Agreement: How Politics Became Our Identity",
+"authors": "Lilliana Mason",
+"year": 2018,
+"journal": "University of Chicago Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Partisan, ideological, racial and religious identities have aligned into mega-identities that intensify anger without issue disagreement.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Elite & mass polarization"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity",
+"Affective polarization & out-party animus"
+],
+"degree": 4
+}
+},
+"span": 2,
+"degree": 6
+},
+{
+"id": "woodporter2019",
+"label": "Wood 2018",
+"title": "The Elusive Backfire Effect: Mass Attitudes’ Steadfast Factual Adherence",
+"authors": "Thomas Wood & Ethan Porter",
+"year": 2018,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-018-9443-y",
+"zotero": null,
+"claim": "Backfire effects are rare; corrections generally move factual beliefs toward accuracy.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 6
+},
+{
 "id": "dreher2018",
 "label": "Dreher 2018",
 "title": "Apples and Dragon Fruits: The Determinants of Aid and Other Forms of State Financing from China to Africa",
@@ -3821,34 +4933,6 @@
 "degree": 6
 },
 {
-"id": "pennycookrand2019",
-"label": "Pennycook 2019",
-"title": "Lazy, Not Biased: Susceptibility to Partisan Fake News Is Better Explained by Lack of Reasoning Than by Motivated Reasoning",
-"authors": "Gordon Pennycook & David G. Rand",
-"year": 2019,
-"journal": "Cognition",
-"doi": null,
-"zotero": null,
-"claim": "Belief in fake news reflects a lack of analytic thinking more than partisan motivation.",
-"fields": {
-"ap": {
-"themes": [
-"Misinformation, conspiracy beliefs & fact-checking",
-"Personality, emotion, values & genes"
-],
-"degree": 2
-},
-"tech": {
-"themes": [
-"Misinformation, bots, deepfakes & computational propaganda"
-],
-"degree": 4
-}
-},
-"span": 2,
-"degree": 6
-},
-{
 "id": "margalit2019",
 "label": "Margalit 2019",
 "title": "Economic Insecurity and the Causes of Populism, Reconsidered",
@@ -3870,34 +4954,6 @@
 "Globalization backlash, China shock & populism"
 ],
 "degree": 4
-}
-},
-"span": 2,
-"degree": 6
-},
-{
-"id": "grahamsvolik2020",
-"label": "Graham 2020",
-"title": "Democracy in America? Partisanship, Polarization, and the Robustness of Support for Democracy in the United States",
-"authors": "Matthew H. Graham & Milan W. Svolik",
-"year": 2020,
-"journal": "APSR",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/J99APNRV",
-"claim": "Only a small share of Americans punish undemocratic co-partisans; polarization weakens the democratic check.",
-"fields": {
-"ap": {
-"themes": [
-"Democratic norms, populism & backsliding",
-"Partisan identity & affective polarization"
-],
-"degree": 4
-},
-"cp": {
-"themes": [
-"Democratic backsliding, polarization & support for democracy"
-],
-"degree": 2
 }
 },
 "span": 2,
@@ -4100,6 +5156,61 @@
 "degree": 5
 },
 {
+"id": "chongdruckman2007arps",
+"label": "Chong 2007",
+"title": "Framing Theory",
+"authors": "Dennis Chong & James N. Druckman",
+"year": 2007,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev.polisci.10.072805.103054",
+"zotero": null,
+"claim": "Framing effects depend on frame strength, accessibility and competition among frames.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"News media, selective exposure & social media"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Framing, priming & persuasion"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "chongdruckman2007",
+"label": "Chong 2007",
+"title": "Framing Public Opinion in Competitive Democracies",
+"authors": "Dennis Chong & James N. Druckman",
+"year": 2007,
+"journal": "APSR",
+"doi": "10.1017/s0003055407070554",
+"zotero": null,
+"claim": "Competing frames can cancel each other; stronger frames win.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Framing, priming & persuasion"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 5
+},
+{
 "id": "kitschelt2007",
 "label": "Kitschelt 2007",
 "title": "Patrons, Clients, and Policies: Patterns of Democratic Accountability and Political Competition",
@@ -4234,6 +5345,33 @@
 "Interest groups, lobbying & rent seeking"
 ],
 "degree": 1
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "chongdruckman2010",
+"label": "Chong 2010",
+"title": "Dynamic Public Opinion: Communication Effects over Time",
+"authors": "Dennis Chong & James N. Druckman",
+"year": 2010,
+"journal": "APSR",
+"doi": "10.1017/s0003055410000493",
+"zotero": null,
+"claim": "Framing effects decay over time and depend on the timing of exposure.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Framing, priming & persuasion"
+],
+"degree": 3
 }
 },
 "span": 2,
@@ -4403,6 +5541,34 @@
 "pe": {
 "themes": [
 "Inequality & the politics of redistribution"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "levendusky2013",
+"label": "Levendusky 2013",
+"title": "Why Do Partisan Media Polarize Viewers?",
+"authors": "Matthew S. Levendusky",
+"year": 2013,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12008",
+"zotero": null,
+"claim": "Partisan media polarize mainly viewers who are already extreme.",
+"fields": {
+"ap": {
+"themes": [
+"News media, selective exposure & social media",
+"Elite & mass polarization"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
 ],
 "degree": 2
 }
@@ -4607,6 +5773,34 @@
 "degree": 5
 },
 {
+"id": "flynn2017",
+"label": "Flynn 2017",
+"title": "The Nature and Origins of Misperceptions: Understanding False and Unsupported Beliefs About Politics",
+"authors": "D.J. Flynn, Brendan Nyhan & Jason Reifler",
+"year": 2017,
+"journal": "Political Psychology",
+"doi": "10.1111/pops.12394",
+"zotero": null,
+"claim": "Misperceptions arise from directional motivated reasoning and are hard to correct.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"Opinion formation"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 5
+},
+{
 "id": "sossweaver2017",
 "label": "Soss 2017",
 "title": "Police Are Our Government: Politics, Political Science, and the Policing of Race–Class Subjugated Communities",
@@ -4657,6 +5851,34 @@
 "Regime type, autocracies & the global economy"
 ],
 "degree": 4
+}
+},
+"span": 2,
+"degree": 5
+},
+{
+"id": "druckmanlevendusky2019",
+"label": "Druckman 2019",
+"title": "What Do We Measure When We Measure Affective Polarization?",
+"authors": "James N Druckman & Matthew S Levendusky",
+"year": 2019,
+"journal": "Public Opinion Quarterly",
+"doi": "10.1093/poq/nfz003",
+"zotero": null,
+"claim": "Affective polarization measures conflate dislike of party elites with dislike of ordinary voters.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus",
+"Experiments & measurement"
+],
+"degree": 3
 }
 },
 "span": 2,
@@ -4889,6 +6111,34 @@
 "degree": 4
 },
 {
+"id": "valentino2002",
+"label": "Valentino 2002",
+"title": "Cues That Matter: How Political Ads Prime Racial Attitudes during Campaigns",
+"authors": "Nicholas A. Valentino, Vincent L. Hutchings & Ismail K. White",
+"year": 2002,
+"journal": "APSR",
+"doi": "10.1017/s0003055402004240",
+"zotero": null,
+"claim": "Subtle racial cues in campaign ads prime racial attitudes in policy judgments.",
+"fields": {
+"psy": {
+"themes": [
+"Framing, priming & persuasion",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial priming, cues & campaign appeals"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "schultz2003",
 "label": "Schultz 2003",
 "title": "The Democratic Advantage: Institutional Foundations of Financial Power in International Competition",
@@ -4941,34 +6191,6 @@
 "Embedded liberalism & compensation"
 ],
 "degree": 3
-}
-},
-"span": 2,
-"degree": 4
-},
-{
-"id": "mercer2005",
-"label": "Mercer 2005",
-"title": "Rationality and Psychology in International Politics",
-"authors": "Jonathan Mercer",
-"year": 2005,
-"journal": "IO",
-"doi": null,
-"zotero": "https://www.zotero.org/georgeyean/items/PXMVN23C",
-"claim": "Psychology is not only a source of error: rational models of trust, reputation and credibility rest on psychological assumptions.",
-"fields": {
-"ir": {
-"themes": [
-"IR theory, power & the discipline"
-],
-"degree": 2
-},
-"sec": {
-"themes": [
-"Leaders, psychology & elite decision-making",
-"IR theory"
-],
-"degree": 2
 }
 },
 "span": 2,
@@ -5058,6 +6280,33 @@
 "degree": 4
 },
 {
+"id": "benabou2006",
+"label": "Benabou 2006",
+"title": "Belief in a Just World and Redistributive Politics",
+"authors": "R. Benabou & J. Tirole",
+"year": 2006,
+"journal": "Quarterly Journal of Economics",
+"doi": "10.1162/qjec.2006.121.2.699",
+"zotero": null,
+"claim": "Belief in a just world sustains low redistribution equilibria.",
+"fields": {
+"pe": {
+"themes": [
+"Inequality & the politics of redistribution"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Ideology & the psychology of left and right"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "barreto2007",
 "label": "Barreto 2007",
 "title": "¡Sí Se Puede! Latino Candidates and the Mobilization of Latino Voters",
@@ -5137,6 +6386,34 @@
 "Institutions, laws of war & international courts"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "fowler2008",
+"label": "Fowler 2008",
+"title": "Genetic Variation in Political Participation",
+"authors": "James H. Fowler, Laura A. Baker & Christopher T. Dawes",
+"year": 2008,
+"journal": "APSR",
+"doi": "10.1017/s0003055408080209",
+"zotero": null,
+"claim": "Turnout has a substantial heritable component.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Personality, emotion, values & genes"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Biology, genetics & evolutionary psychology"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -5231,6 +6508,34 @@
 "degree": 4
 },
 {
+"id": "carney2008",
+"label": "Carney 2008",
+"title": "The Secret Lives of Liberals and Conservatives: Personality Profiles, Interaction Styles, and the Things They Leave Behind",
+"authors": "Dana R. Carney, John T. Jost, Samuel D. Gosling & Jeff Potter",
+"year": 2008,
+"journal": "Political Psychology",
+"doi": "10.1111/j.1467-9221.2008.00668.x",
+"zotero": null,
+"claim": "Liberals are more open to experience; conservatives are more conscientious.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Personality, values & predispositions",
+"Ideology & the psychology of left and right"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "gandhi2008",
 "label": "Gandhi 2008",
 "title": "Political Institutions under Dictatorship",
@@ -5314,6 +6619,90 @@
 "degree": 4
 },
 {
+"id": "jennings2009",
+"label": "Jennings 2009",
+"title": "Politics across Generations: Family Transmission Reexamined",
+"authors": "M. Kent Jennings, Laura Stoker & Jake Bowers",
+"year": 2009,
+"journal": "JOP",
+"doi": "10.1017/s0022381609090719",
+"zotero": null,
+"claim": "Parents pass on partisanship and engagement, especially when their own views are consistent and salient.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Turnout, mobilization & participation"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Political socialization & development"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "lenz2009",
+"label": "Lenz 2009",
+"title": "Learning and Opinion Change, Not Priming: Reconsidering the Priming Hypothesis",
+"authors": "Gabriel S. Lenz",
+"year": 2009,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2009.00403.x",
+"zotero": null,
+"claim": "Apparent priming effects often reflect learning candidates' positions and changing opinions.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Campaigns, elections & accountability"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Framing, priming & persuasion"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "hatemi2009",
+"label": "Hatemi 2009",
+"title": "Genetic and Environmental Transmission of Political Attitudes Over a Life Time",
+"authors": "Peter K. Hatemi, Carolyn L. Funk, Sarah E. Medland et al.",
+"year": 2009,
+"journal": "JOP",
+"doi": "10.1017/s0022381609090938",
+"zotero": null,
+"claim": "Genetic influence on political attitudes emerges in adulthood.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Biology, genetics & evolutionary psychology",
+"Political socialization & development"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "morrison2009",
 "label": "Morrison 2009",
 "title": "Oil, Nontax Revenue, and the Redistributional Foundations of Regime Stability",
@@ -5371,6 +6760,33 @@
 "degree": 4
 },
 {
+"id": "sunsteinvermeule2009",
+"label": "Sunstein 2009",
+"title": "Conspiracy Theories: Causes and Cures",
+"authors": "Cass R. Sunstein & Adrian Vermeule",
+"year": 2009,
+"journal": "Journal of Political Philosophy",
+"doi": "10.1111/j.1467-9760.2008.00325.x",
+"zotero": null,
+"claim": "Conspiracy theories arise from crippled epistemologies; governments may cognitively infiltrate them.",
+"fields": {
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 3
+},
+"pt": {
+"themes": [
+"Epistemic democracy, expertise & epistemic injustice"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "dell2010",
 "label": "Dell 2010",
 "title": "The Persistent Effects of Peru's Mining Mita",
@@ -5393,6 +6809,34 @@
 "History, culture & persistence"
 ],
 "degree": 1
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "valentino2011",
+"label": "Valentino 2011",
+"title": "Election Night’s Alright for Fighting: The Role of Emotions in Political Participation",
+"authors": "Nicholas A. Valentino, Ted Brader, Eric W. Groenendyk et al.",
+"year": 2011,
+"journal": "JOP",
+"doi": "10.1017/s0022381610000939",
+"zotero": null,
+"claim": "Anger mobilizes participation more than anxiety does.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Personality, emotion, values & genes"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Emotion & affective intelligence"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -5791,6 +7235,62 @@
 "degree": 4
 },
 {
+"id": "yarhimilo2014",
+"label": "Yarhi-Milo 2014",
+"title": "Knowing the Adversary: Leaders, Intelligence, and Assessment of Intentions",
+"authors": "Keren Yarhi-Milo",
+"year": 2014,
+"journal": "Princeton University Press (book)",
+"doi": "10.23943/princeton/9780691159157.001.0001",
+"zotero": null,
+"claim": "Leaders read adversaries' intentions from vivid personal impressions, while intelligence organizations rely on capabilities.",
+"fields": {
+"sec": {
+"themes": [
+"Leaders, psychology & elite decision-making",
+"Reputation, credibility & coercion"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "craigricheson2014",
+"label": "Craig 2014",
+"title": "On the Precipice of a 'Majority-Minority' America: Perceived Status Threat from the Racial Demographic Shift Affects White Americans' Political Ideology",
+"authors": "Maureen A. Craig & Jennifer A. Richeson",
+"year": 2014,
+"journal": "Psychological Science",
+"doi": "10.1177/0956797614527113",
+"zotero": null,
+"claim": "Learning that whites will become a minority shifts white Americans toward conservatism.",
+"fields": {
+"psy": {
+"themes": [
+"Prejudice, nationalism & intergroup attitudes",
+"Social identity & partisanship as identity"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"White identity, status threat & racial backlash"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "feigenbaum2015",
 "label": "Feigenbaum 2015",
 "title": "How Legislators Respond to Localized Economic Shocks: Evidence from Chinese Import Competition",
@@ -5819,6 +7319,33 @@
 "degree": 4
 },
 {
+"id": "rogowskisutherland2016",
+"label": "Rogowski 2015",
+"title": "How Ideology Fuels Affective Polarization",
+"authors": "Jon C. Rogowski & Joseph L. Sutherland",
+"year": 2015,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-015-9323-7",
+"zotero": null,
+"claim": "Greater ideological distance between candidates raises affective polarization.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
+],
+"degree": 3
+}
+},
+"span": 2,
+"degree": 4
+},
+{
 "id": "gartzkelindsay2015",
 "label": "Gartzke 2015",
 "title": "Weaving Tangled Webs: Offense, Defense, and Deception in Cyberspace",
@@ -5838,6 +7365,33 @@
 "tech": {
 "themes": [
 "Cyber conflict, security & military AI"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "uscinski2016",
+"label": "Uscinski 2016",
+"title": "What Drives Conspiratorial Beliefs? The Role of Informational Cues and Predispositions",
+"authors": "Joseph E. Uscinski, Casey Klofstad & Matthew D. Atkinson",
+"year": 2016,
+"journal": "Political Research Quarterly",
+"doi": "10.1177/1065912915621621",
+"zotero": null,
+"claim": "Conspiratorial predispositions and partisan cues jointly drive conspiracy beliefs.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
 ],
 "degree": 2
 }
@@ -5896,6 +7450,33 @@
 "Voting rights, redistricting & election administration"
 ],
 "degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "jost2017",
+"label": "Jost 2017",
+"title": "Ideological Asymmetries and the Essence of Political Psychology",
+"authors": "John T. Jost",
+"year": 2017,
+"journal": "Political Psychology",
+"doi": "10.1111/pops.12407",
+"zotero": null,
+"claim": "Liberals and conservatives differ in psychological needs.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes"
+],
+"degree": 3
+},
+"psy": {
+"themes": [
+"Ideology & the psychology of left and right"
+],
+"degree": 1
 }
 },
 "span": 2,
@@ -5981,6 +7562,36 @@
 "Racial priming, cues & campaign appeals"
 ],
 "degree": 3
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "valentino2018poq",
+"label": "Valentino 2018",
+"title": "Mobilizing Sexism: The Interaction of Emotion and Gender Attitudes in the 2016 US Presidential Election",
+"authors": "Nicholas A Valentino, Carly Wayne & Marzia Oceno",
+"year": 2018,
+"journal": "Public Opinion Quarterly",
+"doi": "10.1093/poq/nfy003",
+"zotero": null,
+"claim": "Anger activated sexism's effect on 2016 vote choice.",
+"fields": {
+"ap": {
+"themes": [
+"Gender & political representation",
+"Campaigns, elections & accountability",
+"Personality, emotion, values & genes"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Emotion & affective intelligence",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -6179,6 +7790,35 @@
 "Industrial policy, economic security & geoeconomics",
 "US hegemony, the dollar & systemic power",
 "China's rise & contestation of the liberal order"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 4
+},
+{
+"id": "kingzette2021",
+"label": "Kingzette 2021",
+"title": "How Affective Polarization Undermines Support for Democratic Norms",
+"authors": "Jon Kingzette, James N Druckman, Samara Klar et al.",
+"year": 2021,
+"journal": "Public Opinion Quarterly",
+"doi": "10.1093/poq/nfab029",
+"zotero": null,
+"claim": "Affective polarization undermines support for democratic norms, especially when one's party is out of power.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Democratic norms, populism & backsliding"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus",
+"Trust, tolerance & democratic attitudes"
 ],
 "degree": 2
 }
@@ -6640,6 +8280,35 @@
 "degree": 3
 },
 {
+"id": "searssavalei2006",
+"label": "Sears 2006",
+"title": "The Political Color Line in America: Many “Peoples of Color” or Black Exceptionalism?",
+"authors": "David O. Sears & Victoria Savalei",
+"year": 2006,
+"journal": "Political Psychology",
+"doi": "10.1111/j.1467-9221.2006.00542.x",
+"zotero": null,
+"claim": "Black exceptionalism, not a common people-of-color identity, structures American racial politics.",
+"fields": {
+"psy": {
+"themes": [
+"Prejudice, nationalism & intergroup attitudes",
+"Social identity & partisanship as identity"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Group consciousness, linked fate & racial identity",
+"Racial attitudes"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "heilmann2008",
 "label": "Heilmann 2007",
 "title": "Policy Experimentation in China’s Economic Rise",
@@ -6660,6 +8329,34 @@
 "themes": [
 "Chinese politics",
 "Political economy of development"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "valentino2008",
+"label": "Valentino 2008",
+"title": "Is a Worried Citizen a Good Citizen? Emotions, Political Information Seeking, and Learning via the Internet",
+"authors": "Nicholas A. Valentino, Vincent L. Hutchings, Antoine J. Banks & Anne K. Davis",
+"year": 2008,
+"journal": "Political Psychology",
+"doi": "10.1111/j.1467-9221.2008.00625.x",
+"zotero": null,
+"claim": "Anxiety boosts information seeking.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes",
+"Opinion formation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Emotion & affective intelligence"
 ],
 "degree": 2
 }
@@ -6837,6 +8534,62 @@
 "degree": 3
 },
 {
+"id": "levendusky2010",
+"label": "Levendusky 2009",
+"title": "Clearer Cues, More Consistent Voters: A Benefit of Elite Polarization",
+"authors": "Matthew S. Levendusky",
+"year": 2009,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-009-9094-0",
+"zotero": null,
+"claim": "Clearer elite cues produce more ideologically consistent voters, a benefit of elite polarization.",
+"fields": {
+"ap": {
+"themes": [
+"Elite & mass polarization",
+"Opinion formation"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Heuristics, cues & elite influence"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "goren2009",
+"label": "Goren 2009",
+"title": "Source Cues, Partisan Identities, and Political Value Expression",
+"authors": "Paul Goren, Christopher M. Federico & Miki Caul Kittilson",
+"year": 2009,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2009.00402.x",
+"zotero": null,
+"claim": "Party cues can change the expression of core political values.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Partisan identity & affective polarization"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Heuristics, cues & elite influence"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "levitskymurillo2009",
 "label": "Levitsky 2009",
 "title": "Variation in Institutional Strength",
@@ -6973,6 +8726,34 @@
 "Racial attitudes"
 ],
 "degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "mondak2010",
+"label": "Mondak 2010",
+"title": "Personality and Civic Engagement: An Integrative Framework for the Study of Trait Effects on Political Behavior",
+"authors": "Jeffery J. Mondak, Matthew V. Hibbing, Damarys Canache et al.",
+"year": 2010,
+"journal": "APSR",
+"doi": "10.1017/s0003055409990359",
+"zotero": null,
+"claim": "Personality traits shape civic engagement.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes",
+"Turnout, mobilization & participation"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Personality, values & predispositions"
+],
+"degree": 1
 }
 },
 "span": 2,
@@ -7177,6 +8958,34 @@
 "degree": 3
 },
 {
+"id": "bullock2011",
+"label": "Bullock 2011",
+"title": "Elite Influence on Public Opinion in an Informed Electorate",
+"authors": "John G. Bullock",
+"year": 2011,
+"journal": "APSR",
+"doi": "10.1017/s0003055411000165",
+"zotero": null,
+"claim": "Policy information can matter as much as party cues, even for informed partisans.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Heuristics, cues & elite influence",
+"Motivated reasoning & partisan bias"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "kastnersaunders2012",
 "label": "Kastner 2011",
 "title": "Is China a Status Quo or Revisionist State? Leadership Travel as an Empirical Indicator of Foreign Policy Priorities1",
@@ -7365,6 +9174,90 @@
 "themes": [
 "Civil war onset",
 "Economics of security"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "banksvalentino2012",
+"label": "Banks 2012",
+"title": "Emotional Substrates of White Racial Attitudes",
+"authors": "Antoine J. Banks & Nicholas A. Valentino",
+"year": 2012,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2011.00561.x",
+"zotero": null,
+"claim": "Anger, not fear, underlies white racial attitudes.",
+"fields": {
+"psy": {
+"themes": [
+"Emotion & affective intelligence",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial attitudes"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "lodgetaber2013",
+"label": "Lodge 2013",
+"title": "The Rationalizing Voter",
+"authors": "Milton Lodge & Charles S. Taber",
+"year": 2013,
+"journal": "Cambridge University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Affect attached to concepts drives automatic, motivated processing that rationalizes prior attitudes.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Personality, emotion, values & genes"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "bolsen2014",
+"label": "Bolsen 2013",
+"title": "The Influence of Partisan Motivated Reasoning on Public Opinion",
+"authors": "Toby Bolsen, James N. Druckman & Fay Lomax Cook",
+"year": 2013,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-013-9238-0",
+"zotero": null,
+"claim": "Party endorsements trigger motivated reasoning on energy policy; accuracy motivation reduces it.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias"
 ],
 "degree": 2
 }
@@ -7849,6 +9742,35 @@
 "degree": 3
 },
 {
+"id": "broockmankalla2016",
+"label": "Broockman 2016",
+"title": "Durably Reducing Transphobia: A Field Experiment on Door-to-Door Canvassing",
+"authors": "David Broockman & Joshua Kalla",
+"year": 2016,
+"journal": "Science",
+"doi": "10.1126/science.aad9713",
+"zotero": null,
+"claim": "Brief perspective-taking conversations durably reduced prejudice.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Turnout, mobilization & participation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Framing, priming & persuasion",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "kuo2017",
 "label": "Kuo 2017",
 "title": "Social Exclusion and Political Identity: The Case of Asian American Partisanship",
@@ -8020,6 +9942,34 @@
 "degree": 3
 },
 {
+"id": "guisinger2017",
+"label": "Guisinger 2017",
+"title": "Mapping the Boundaries of Elite Cues: How Elites Shape Mass Opinion across International Issues",
+"authors": "Alexandra Guisinger & Elizabeth N. Saunders",
+"year": 2017,
+"journal": "ISQ",
+"doi": "10.1093/isq/sqx022",
+"zotero": null,
+"claim": "Elite cues shape opinion more on low-information foreign policy issues.",
+"fields": {
+"ir": {
+"themes": [
+"Public opinion & foreign policy attitudes"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics",
+"Heuristics, cues & elite influence"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "slayton2017",
 "label": "Slayton 2017",
 "title": "What Is the Cyber Offense-Defense Balance? Conceptions, Causes, and Assessment",
@@ -8127,6 +10077,61 @@
 "Race, partisanship & realignment"
 ],
 "degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "abramowitzwebster2018",
+"label": "Abramowitz 2018",
+"title": "Negative Partisanship: Why Americans Dislike Parties But Behave Like Rabid Partisans",
+"authors": "Alan I. Abramowitz & Steven W. Webster",
+"year": 2018,
+"journal": "Political Psychology",
+"doi": "10.1111/pops.12479",
+"zotero": null,
+"claim": "Voters are bound to their party mainly by dislike of the other side.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "levendusky2018",
+"label": "Levendusky 2018",
+"title": "Americans, Not Partisans: Can Priming American National Identity Reduce Affective Polarization?",
+"authors": "Matthew S. Levendusky",
+"year": 2018,
+"journal": "JOP",
+"doi": "10.1086/693987",
+"zotero": null,
+"claim": "Priming American national identity reduces affective polarization.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus",
+"Social identity & partisanship as identity"
+],
+"degree": 2
 }
 },
 "span": 2,
@@ -8269,6 +10274,34 @@
 "ir": {
 "themes": [
 "International order, hierarchy & contestation"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "douglas2019",
+"label": "Douglas 2019",
+"title": "Understanding Conspiracy Theories",
+"authors": "Karen M. Douglas, Joseph E. Uscinski, Robbie M. Sutton et al.",
+"year": 2019,
+"journal": "Political Psychology",
+"doi": "10.1111/pops.12568",
+"zotero": null,
+"claim": "Conspiracy beliefs have epistemic, existential and social motives and political consequences.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"Personality, emotion, values & genes"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
 ],
 "degree": 1
 }
@@ -8501,6 +10534,33 @@
 "degree": 3
 },
 {
+"id": "vaccarichadwick2020",
+"label": "Vaccari 2020",
+"title": "Deepfakes and Disinformation: Exploring the Impact of Synthetic Political Video on Deception, Uncertainty, and Trust in News",
+"authors": "Cristian Vaccari & Andrew Chadwick",
+"year": 2020,
+"journal": "Social Media + Society",
+"doi": "10.1177/2056305120903408",
+"zotero": null,
+"claim": "Deepfakes create uncertainty that reduces trust in news.",
+"fields": {
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 1
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
+],
+"degree": 2
+}
+},
+"span": 2,
+"degree": 3
+},
+{
 "id": "feola2021",
 "label": "Feola 2020",
 "title": "“You Will Not Replace Us”: The Melancholic Nationalism of Whiteness",
@@ -8530,34 +10590,6 @@
 "degree": 3
 },
 {
-"id": "osmundsen2021",
-"label": "Osmundsen 2021",
-"title": "Partisan Polarization Is the Primary Psychological Motivation behind Political Fake News Sharing on Twitter",
-"authors": "Mathias Osmundsen, Alexander Bor, Peter Bjerregaard Vahlstrup et al.",
-"year": 2021,
-"journal": "APSR",
-"doi": "10.1017/s0003055421000290",
-"zotero": null,
-"claim": "Partisan hostility, not ignorance, motivates sharing fake news on Twitter.",
-"fields": {
-"ap": {
-"themes": [
-"Misinformation, conspiracy beliefs & fact-checking",
-"Partisan identity & affective polarization"
-],
-"degree": 2
-},
-"tech": {
-"themes": [
-"Misinformation, bots, deepfakes & computational propaganda"
-],
-"degree": 1
-}
-},
-"span": 2,
-"degree": 3
-},
-{
 "id": "broz2021",
 "label": "Broz 2021",
 "title": "Populism in Place: The Economic Geography of the Globalization Backlash",
@@ -8567,33 +10599,6 @@
 "doi": null,
 "zotero": "https://www.zotero.org/georgeyean/items/G9Z63M7X",
 "claim": "Backlash is rooted in place: trade, offshoring and automation hollowed manufacturing towns whose decline spilled into property, services and health, while superstar cities thrived.",
-"fields": {
-"cp": {
-"themes": [
-"Populism & the radical right"
-],
-"degree": 1
-},
-"ipe": {
-"themes": [
-"Globalization backlash, China shock & populism"
-],
-"degree": 2
-}
-},
-"span": 2,
-"degree": 3
-},
-{
-"id": "ballardrosa2021",
-"label": "Ballard-Rosa 2021",
-"title": "The Economic Origins of Authoritarian Values: Evidence from Local Trade Shocks in the United Kingdom",
-"authors": "Cameron Ballard-Rosa, Mashail Malik, Stephanie Rickard & Kenneth Scheve",
-"year": 2021,
-"journal": "Comparative Political Studies",
-"doi": "10.1177/00104140211024296",
-"zotero": null,
-"claim": "Import-competition shocks raise authoritarian values among exposed individuals, a psychological mechanism linking economic shock to cultural backlash.",
 "fields": {
 "cp": {
 "themes": [
@@ -8660,6 +10665,34 @@
 "ir": {
 "themes": [
 "Regime complexes, overlap & institutional change"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 3
+},
+{
+"id": "kalmoemason2022",
+"label": "Kalmoe 2022",
+"title": "Radical American Partisanship: Mapping Violent Hostility, Its Causes, and the Consequences for Democracy",
+"authors": "Nathan P. Kalmoe & Lilliana Mason",
+"year": 2022,
+"journal": "University of Chicago Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "A sizable minority of partisans endorse moral disengagement and violence against the other side.",
+"fields": {
+"ap": {
+"themes": [
+"Democratic norms, populism & backsliding",
+"Partisan identity & affective polarization"
+],
+"degree": 2
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
 ],
 "degree": 1
 }
@@ -8895,6 +10928,33 @@
 "degree": 2
 },
 {
+"id": "henrysears2002",
+"label": "Henry 2002",
+"title": "The Symbolic Racism 2000 Scale",
+"authors": "P. J. Henry & David O. Sears",
+"year": 2002,
+"journal": "Political Psychology",
+"doi": "10.1111/0162-895x.00281",
+"zotero": null,
+"claim": "A refined symbolic racism scale is reliable and predicts racial policy attitudes.",
+"fields": {
+"psy": {
+"themes": [
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial attitudes"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "greiflaitin2004",
 "label": "Greif 2004",
 "title": "A Theory of Endogenous Institutional Change",
@@ -8950,6 +11010,34 @@
 "degree": 2
 },
 {
+"id": "mutz2006",
+"label": "Mutz 2006",
+"title": "Hearing the Other Side: Deliberative versus Participatory Democracy",
+"authors": "Diana C. Mutz",
+"year": 2006,
+"journal": "Cambridge University Press (book)",
+"doi": null,
+"zotero": null,
+"claim": "Exposure to cross-cutting views fosters tolerance but depresses participation.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"News media, selective exposure & social media"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Trust, tolerance & democratic attitudes"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "ross2006",
 "label": "Ross 2006",
 "title": "Is Democracy Good for the Poor?",
@@ -8971,6 +11059,34 @@
 "themes": [
 "US–China rivalry & the Western Pacific balance",
 "Alliances, reassurance & extended deterrence"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "fowlerkam2007",
+"label": "Fowler 2007",
+"title": "Beyond the Self: Social Identity, Altruism, and Political Participation",
+"authors": "James H. Fowler & Cindy D. Kam",
+"year": 2007,
+"journal": "JOP",
+"doi": "10.1111/j.1468-2508.2007.00577.x",
+"zotero": null,
+"claim": "Altruism and social identity predict participation.",
+"fields": {
+"ap": {
+"themes": [
+"Turnout, mobilization & participation",
+"Personality, emotion, values & genes"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity"
 ],
 "degree": 1
 }
@@ -9027,6 +11143,35 @@
 "themes": [
 "Racial priming, cues & campaign appeals",
 "Black politics, protest & the civil rights movement"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "huddykhatib2007",
+"label": "Huddy 2007",
+"title": "American Patriotism, National Identity, and Political Involvement",
+"authors": "Leonie Huddy & Nadia Khatib",
+"year": 2007,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2007.00237.x",
+"zotero": null,
+"claim": "National identity, more than patriotism, predicts political involvement.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes",
+"Turnout, mobilization & participation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity",
+"Prejudice, nationalism & intergroup attitudes"
 ],
 "degree": 1
 }
@@ -9140,6 +11285,34 @@
 "themes": [
 "Group consciousness, linked fate & racial identity",
 "Immigration attitudes, nativism & enforcement"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "fowlerdawes2008",
+"label": "Fowler 2008",
+"title": "Two Genes Predict Voter Turnout",
+"authors": "James H. Fowler & Christopher T. Dawes",
+"year": 2008,
+"journal": "JOP",
+"doi": "10.1017/s0022381608080638",
+"zotero": null,
+"claim": "Two genes predict voter turnout.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes",
+"Turnout, mobilization & participation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Biology, genetics & evolutionary psychology"
 ],
 "degree": 1
 }
@@ -9320,6 +11493,34 @@
 "degree": 2
 },
 {
+"id": "gerberhuber2009",
+"label": "Gerber 2009",
+"title": "Partisanship and Economic Behavior: Do Partisan Differences in Economic Forecasts Predict Real Economic Behavior?",
+"authors": "Alan S. Gerber & Gregory A. Huber",
+"year": 2009,
+"journal": "APSR",
+"doi": "10.1017/s0003055409990098",
+"zotero": null,
+"claim": "Partisan economic expectations after elections translate into real changes in consumption.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Campaigns, elections & accountability"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "mcclain2009",
 "label": "McClain 2009",
 "title": "Group Membership, Group Identity, and Group Consciousness: Measures of Racial Identity in American Politics?",
@@ -9403,34 +11604,6 @@
 "degree": 2
 },
 {
-"id": "shayo2009",
-"label": "Shayo 2009",
-"title": "A Model of Social Identity with an Application to Political Economy: Nation, Class, and Redistribution",
-"authors": "Moses Shayo",
-"year": 2009,
-"journal": "APSR",
-"doi": "10.1017/s0003055409090194",
-"zotero": null,
-"claim": "National identity among the poor lowers support for redistribution, explaining why poor democracies redistribute less.",
-"fields": {
-"cp": {
-"themes": [
-"Redistribution, inequality & welfare states",
-"Ethnic politics & identity"
-],
-"degree": 1
-},
-"pe": {
-"themes": [
-"Inequality & the politics of redistribution"
-],
-"degree": 1
-}
-},
-"span": 2,
-"degree": 2
-},
-{
 "id": "hallgingerich2009",
 "label": "Hall 2009",
 "title": "Varieties of Capitalism and Institutional Complementarities in the Political Economy: An Empirical Analysis",
@@ -9505,6 +11678,34 @@
 "themes": [
 "Race in political theory",
 "Racial attitudes"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "slothuusdevreese2010",
+"label": "Slothuus 2010",
+"title": "Political Parties, Motivated Reasoning, and Issue Framing Effects",
+"authors": "Rune Slothuus & Claes H. de Vreese",
+"year": 2010,
+"journal": "JOP",
+"doi": "10.1017/s002238161000006x",
+"zotero": null,
+"claim": "Partisans respond more to frames sponsored by their own party.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Heuristics, cues & elite influence",
+"Motivated reasoning & partisan bias"
 ],
 "degree": 1
 }
@@ -9655,6 +11856,34 @@
 "degree": 2
 },
 {
+"id": "mcfarland2010",
+"label": "McFarland 2010",
+"title": "Authoritarianism, Social Dominance, and Other Roots of Generalized Prejudice",
+"authors": "Sam McFarland",
+"year": 2010,
+"journal": "Political Psychology",
+"doi": "10.1111/j.1467-9221.2010.00765.x",
+"zotero": null,
+"claim": "Authoritarianism and social dominance orientation underlie generalized prejudice.",
+"fields": {
+"psy": {
+"themes": [
+"Authoritarianism, threat & dominance",
+"Prejudice, nationalism & intergroup attitudes"
+],
+"degree": 1
+},
+"rep": {
+"themes": [
+"Racial attitudes"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "mettler2011",
 "label": "Mettler 2011",
 "title": "The Submerged State: How Invisible Government Policies Undermine American Democracy",
@@ -9674,6 +11903,88 @@
 "pe": {
 "themes": [
 "Welfare states & social policy"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "nicholson2012",
+"label": "Nicholson 2011",
+"title": "Polarizing Cues",
+"authors": "Stephen P. Nicholson",
+"year": 2011,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2011.00541.x",
+"zotero": null,
+"claim": "Out-party leader cues polarize opinion more than in-party cues.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Heuristics, cues & elite influence"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "gerber2011arps",
+"label": "Gerber 2011",
+"title": "The Big Five Personality Traits in the Political Arena",
+"authors": "Alan S. Gerber, Gregory A. Huber, David Doherty & Conor M. Dowling",
+"year": 2011,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev-polisci-051010-111659",
+"zotero": null,
+"claim": "Reviews how Big Five personality traits shape political behavior.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Personality, values & predispositions"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "hetheringtonsuhay2011",
+"label": "Hetherington 2011",
+"title": "Authoritarianism, Threat, and Americans’ Support for the War on Terror",
+"authors": "Marc Hetherington & Elizabeth Suhay",
+"year": 2011,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2011.00514.x",
+"zotero": null,
+"claim": "Threat makes nonauthoritarians behave like authoritarians on the War on Terror.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Authoritarianism, threat & dominance"
 ],
 "degree": 1
 }
@@ -9841,6 +12152,62 @@
 "themes": [
 "Public opinion, casualties & the use of force",
 "Institutions, laws of war & international courts"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "jeritbarabas2012",
+"label": "Jerit 2012",
+"title": "Partisan Perceptual Bias and the Information Environment",
+"authors": "Jennifer Jerit & Jason Barabas",
+"year": 2012,
+"journal": "JOP",
+"doi": "10.1017/s0022381612000187",
+"zotero": null,
+"claim": "Partisan perceptual bias depends on how much media coverage a fact receives.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias",
+"Belief systems, sophistication & political knowledge"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "druckmanleeper2012",
+"label": "Druckman 2012",
+"title": "Learning More from Political Communication Experiments: Pretreatment and Its Effects",
+"authors": "James N. Druckman & Thomas J. Leeper",
+"year": 2012,
+"journal": "AJPS",
+"doi": "10.1111/j.1540-5907.2012.00582.x",
+"zotero": null,
+"claim": "Prior real-world exposure to messages can mute experimental framing effects.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Framing, priming & persuasion"
 ],
 "degree": 1
 }
@@ -10104,6 +12471,118 @@
 "degree": 2
 },
 {
+"id": "mercierlandemore2012",
+"label": "Mercier 2012",
+"title": "Reasoning Is for Arguing: Understanding the Successes and Failures of Deliberation",
+"authors": "Hugo Mercier & Hélène Landemore",
+"year": 2012,
+"journal": "Political Psychology",
+"doi": "10.1111/j.1467-9221.2012.00873.x",
+"zotero": null,
+"claim": "Reasoning evolved for argumentation, which explains deliberation's successes and failures.",
+"fields": {
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias"
+],
+"degree": 1
+},
+"pt": {
+"themes": [
+"Deliberative democracy & democratic innovations",
+"Epistemic democracy, expertise & epistemic injustice"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "druckman2013",
+"label": "Druckman 2013",
+"title": "How Elite Partisan Polarization Affects Public Opinion Formation",
+"authors": "James N. Druckman, Erik Peterson & Rune Slothuus",
+"year": 2013,
+"journal": "APSR",
+"doi": "10.1017/s0003055412000500",
+"zotero": null,
+"claim": "Elite polarization makes partisans follow party endorsements over argument strength.",
+"fields": {
+"ap": {
+"themes": [
+"Elite & mass polarization",
+"Opinion formation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias",
+"Framing, priming & persuasion"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "boudreaumackenzie2014",
+"label": "Boudreau 2013",
+"title": "Informing the Electorate? How Party Cues and Policy Information Affect Public Opinion about Initiatives",
+"authors": "Cheryl Boudreau & Scott A. MacKenzie",
+"year": 2013,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12054",
+"zotero": null,
+"claim": "Clear policy information can override party cues on ballot measures.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Heuristics, cues & elite influence"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "feldmanjohnston2014",
+"label": "Feldman 2013",
+"title": "Understanding the Determinants of Political Ideology: Implications of Structural Complexity",
+"authors": "Stanley Feldman & Christopher Johnston",
+"year": 2013,
+"journal": "Political Psychology",
+"doi": "10.1111/pops.12055",
+"zotero": null,
+"claim": "Ideology is multidimensional, with distinct psychological roots for social and economic views.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes",
+"Elite & mass polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Ideology & the psychology of left and right"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "boixsvolik2013",
 "label": "Boix 2013",
 "title": "The Foundations of Limited Authoritarian Government: Institutions, Commitment, and Power-Sharing in Dictatorships",
@@ -10206,6 +12685,89 @@
 "tech": {
 "themes": [
 "Cyber conflict, security & military AI"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "leeperslothuus2014",
+"label": "Leeper 2014",
+"title": "Political Parties, Motivated Reasoning, and Public Opinion Formation",
+"authors": "Thomas J. Leeper & Rune Slothuus",
+"year": 2014,
+"journal": "Political Psychology",
+"doi": "10.1111/pops.12164",
+"zotero": null,
+"claim": "Parties shape opinion through motivated reasoning that also has accuracy goals.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation",
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Motivated reasoning & partisan bias"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "tesler2015",
+"label": "Tesler 2014",
+"title": "Priming Predispositions and Changing Policy Positions: An Account of When Mass Opinion Is Primed or Changed",
+"authors": "Michael Tesler",
+"year": 2014,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12157",
+"zotero": null,
+"claim": "Campaigns prime crystallized attitudes and change uncrystallized ones.",
+"fields": {
+"ap": {
+"themes": [
+"Opinion formation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Framing, priming & persuasion"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "nyhanreifler2015",
+"label": "Nyhan 2014",
+"title": "The Effect of Fact‐Checking on Elites: A Field Experiment on U.S. State Legislators",
+"authors": "Brendan Nyhan & Jason Reifler",
+"year": 2014,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12162",
+"zotero": null,
+"claim": "Reminding state legislators of fact-checkers reduced their inaccurate statements.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"Congress, parties & legislative behavior"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
 ],
 "degree": 1
 }
@@ -10385,6 +12947,118 @@
 "degree": 2
 },
 {
+"id": "kertzer2014moral",
+"label": "Kertzer 2014",
+"title": "Moral Support: How Moral Values Shape Foreign Policy Attitudes",
+"authors": "Joshua D. Kertzer, Kathleen E. Powers, Brian C. Rathbun & Ravi Iyer",
+"year": 2014,
+"journal": "JOP",
+"doi": "10.1017/s0022381614000073",
+"zotero": null,
+"claim": "Moral foundations (care, fairness, loyalty, authority) shape foreign policy attitudes.",
+"fields": {
+"ir": {
+"themes": [
+"Public opinion & foreign policy attitudes",
+"Norms, socialization & constructivism"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics",
+"Moral foundations & moral conviction"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "horowitzstam2014",
+"label": "Horowitz 2014",
+"title": "How Prior Military Experience Influences the Future Militarized Behavior of Leaders",
+"authors": "Michael C. Horowitz & Allan C. Stam",
+"year": 2014,
+"journal": "IO",
+"doi": "10.1017/s0020818314000046",
+"zotero": null,
+"claim": "Leaders with military but no combat experience are the most likely to initiate militarized disputes.",
+"fields": {
+"sec": {
+"themes": [
+"Leaders, psychology & elite decision-making"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "thorson2016",
+"label": "Thorson 2015",
+"title": "Belief Echoes: The Persistent Effects of Corrected Misinformation",
+"authors": "Emily Thorson",
+"year": 2015,
+"journal": "Political Communication",
+"doi": "10.1080/10584609.2015.1102187",
+"zotero": null,
+"claim": "Corrected misinformation still leaves attitudinal belief echoes.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "miller2016",
+"label": "Miller 2015",
+"title": "Conspiracy Endorsement as Motivated Reasoning: The Moderating Roles of Political Knowledge and Trust",
+"authors": "Joanne M. Miller, Kyle L. Saunders & Christina E. Farhart",
+"year": 2015,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12234",
+"zotero": null,
+"claim": "Conspiracy endorsement is motivated reasoning, strongest among knowledgeable, low-trust conservatives.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction",
+"Motivated reasoning & partisan bias"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "han2015",
 "label": "Han 2015",
 "title": "Defending the Authoritarian Regime Online: China's “Voluntary Fifty-cent Army”",
@@ -10496,6 +13170,61 @@
 "degree": 2
 },
 {
+"id": "lelkes2016",
+"label": "Lelkes 2016",
+"title": "Mass Polarization: Manifestations and Measurements",
+"authors": "Yphtach Lelkes",
+"year": 2016,
+"journal": "Public Opinion Quarterly",
+"doi": "10.1093/poq/nfw005",
+"zotero": null,
+"claim": "Mass polarization shows up as sorting, ideological consistency and affect, depending on the measure.",
+"fields": {
+"ap": {
+"themes": [
+"Elite & mass polarization",
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "mason2016",
+"label": "Mason 2016",
+"title": "A Cross-Cutting Calm",
+"authors": "Lilliana Mason",
+"year": 2016,
+"journal": "Public Opinion Quarterly",
+"doi": "10.1093/poq/nfw001",
+"zotero": null,
+"claim": "Cross-cutting social identities dampen partisan anger and bias.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "boutylinewiller2017",
 "label": "Boutyline 2016",
 "title": "The Social Structure of Political Echo Chambers: Variation in Ideological Homophily in Online Networks",
@@ -10544,6 +13273,63 @@
 "rep": {
 "themes": [
 "Voting rights, redistricting & election administration"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "smith2017",
+"label": "Smith 2016",
+"title": "Intuitive Ethics and Political Orientations: Testing Moral Foundations as a Theory of Political Ideology",
+"authors": "Kevin B. Smith, John R. Alford, John R. Hibbing et al.",
+"year": 2016,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12255",
+"zotero": null,
+"claim": "Ideology shapes moral foundations rather than the reverse.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Moral foundations & moral conviction",
+"Ideology & the psychology of left and right"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "ryan2017",
+"label": "Ryan 2016",
+"title": "No Compromise: Political Consequences of Moralized Attitudes",
+"authors": "Timothy J. Ryan",
+"year": 2016,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12248",
+"zotero": null,
+"claim": "Moralized attitudes make people reject compromise and punish politicians who compromise.",
+"fields": {
+"ap": {
+"themes": [
+"Personality, emotion, values & genes",
+"Elite & mass polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Moral foundations & moral conviction",
+"Affective polarization & out-party animus"
 ],
 "degree": 1
 }
@@ -10722,6 +13508,89 @@
 "degree": 2
 },
 {
+"id": "websterabramowitz2017",
+"label": "Webster 2017",
+"title": "The Ideological Foundations of Affective Polarization in the U.S. Electorate",
+"authors": "Steven W. Webster & Alan I. Abramowitz",
+"year": 2017,
+"journal": "American Politics Research",
+"doi": "10.1177/1532673x17703132",
+"zotero": null,
+"claim": "Affective polarization has ideological roots in policy disagreement.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Elite & mass polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus",
+"Ideology & the psychology of left and right"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "lelkeswestwood2017",
+"label": "Lelkes 2017",
+"title": "The Limits of Partisan Prejudice",
+"authors": "Yphtach Lelkes & Sean J. Westwood",
+"year": 2017,
+"journal": "JOP",
+"doi": "10.1086/688223",
+"zotero": null,
+"claim": "Partisan prejudice shows in discrimination but stops short of harming the other side.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "mcconnell2018",
+"label": "McConnell 2017",
+"title": "The Economic Consequences of Partisanship in a Polarized Era",
+"authors": "Christopher McConnell, Yotam Margalit, Neil Malhotra & Matthew Levendusky",
+"year": 2017,
+"journal": "AJPS",
+"doi": "10.1111/ajps.12330",
+"zotero": null,
+"claim": "Partisanship shapes economic behavior, such as accepting lower pay to work with copartisans.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "landry2017",
 "label": "Landry 2017",
 "title": "Does Performance Matter? Evaluating Political Selection Along the Chinese Administrative Ladder",
@@ -10806,6 +13675,34 @@
 "degree": 2
 },
 {
+"id": "hb2017behavioral",
+"label": "Hafner-Burton 2017",
+"title": "The Behavioral Revolution and International Relations",
+"authors": "Emilie M. Hafner-Burton, Stephan Haggard, David A. Lake & David G. Victor",
+"year": 2017,
+"journal": "IO",
+"doi": "10.1017/s0020818316000400",
+"zotero": null,
+"claim": "Behavioral findings about elite decision making (biases, heuristics, experience) should be built into IR models of strategic choice.",
+"fields": {
+"ir": {
+"themes": [
+"IR theory, power & the discipline",
+"Domestic politics & international commitments"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "nye2017",
 "label": "Nye 2017",
 "title": "Deterrence and Dissuasion in Cyberspace",
@@ -10862,34 +13759,6 @@
 "degree": 2
 },
 {
-"id": "vosoughi2018",
-"label": "Vosoughi 2018",
-"title": "The Spread of True and False News Online",
-"authors": "Soroush Vosoughi, Deb Roy & Sinan Aral",
-"year": 2018,
-"journal": "Science",
-"doi": "10.1126/science.aap9559",
-"zotero": null,
-"claim": "False news spreads farther and faster than true news on Twitter, driven by people rather than bots.",
-"fields": {
-"ap": {
-"themes": [
-"Misinformation, conspiracy beliefs & fact-checking",
-"News media, selective exposure & social media"
-],
-"degree": 1
-},
-"tech": {
-"themes": [
-"Misinformation, bots, deepfakes & computational propaganda"
-],
-"degree": 1
-}
-},
-"span": 2,
-"degree": 2
-},
-{
 "id": "bail2018",
 "label": "Bail 2018",
 "title": "Exposure to Opposing Views on Social Media Can Increase Political Polarization",
@@ -10910,6 +13779,62 @@
 "tech": {
 "themes": [
 "Social media, polarization & the public sphere"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "mason2018poq",
+"label": "Mason 2018",
+"title": "Ideologues without Issues: The Polarizing Consequences of Ideological Identities",
+"authors": "Lilliana Mason",
+"year": 2018,
+"journal": "Public Opinion Quarterly",
+"doi": "10.1093/poq/nfy005",
+"zotero": null,
+"claim": "Ideological identity polarizes affect independently of issue positions.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Elite & mass polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity",
+"Ideology & the psychology of left and right"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "ahlersood2018",
+"label": "Ahler 2018",
+"title": "The Parties in Our Heads: Misperceptions about Party Composition and Their Consequences",
+"authors": "Douglas J. Ahler & Gaurav Sood",
+"year": 2018,
+"journal": "JOP",
+"doi": "10.1086/697253",
+"zotero": null,
+"claim": "People overestimate how much each party consists of stereotypical groups, which fuels hostility.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
 ],
 "degree": 1
 }
@@ -10965,6 +13890,34 @@
 "cp": {
 "themes": [
 "Democratic backsliding, polarization & support for democracy"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "citrinstoker2018",
+"label": "Citrin 2018",
+"title": "Political Trust in a Cynical Age",
+"authors": "Jack Citrin & Laura Stoker",
+"year": 2018,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev-polisci-050316-092550",
+"zotero": null,
+"claim": "Political trust has declined and become partisan.",
+"fields": {
+"ap": {
+"themes": [
+"Democratic norms, populism & backsliding",
+"Opinion formation"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Trust, tolerance & democratic attitudes"
 ],
 "degree": 1
 }
@@ -11113,6 +14066,35 @@
 "degree": 2
 },
 {
+"id": "yarhimilo2018",
+"label": "Yarhi-Milo 2018",
+"title": "Tying Hands, Sinking Costs, and Leader Attributes",
+"authors": "Keren Yarhi-Milo, Joshua D. Kertzer & Jonathan Renshon",
+"year": 2018,
+"journal": "Journal of Conflict Resolution",
+"doi": "10.1177/0022002718785693",
+"zotero": "https://www.zotero.org/georgeyean/items/PMPK6RW9",
+"claim": "How costly signals are perceived depends on leader attributes: observers weigh tied hands and sunk costs differently depending on who sends them.",
+"fields": {
+"sec": {
+"themes": [
+"Audience costs, signaling & crisis diplomacy",
+"Leaders, psychology & elite decision-making"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics",
+"Personality, values & predispositions"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "myers2019",
 "label": "Myers 2018",
 "title": "Beyond the Psychological Wage: Du Bois on White Dominion",
@@ -11142,34 +14124,6 @@
 "degree": 2
 },
 {
-"id": "guess2019",
-"label": "Guess 2019",
-"title": "Less Than You Think: Prevalence and Predictors of Fake News Dissemination on Facebook",
-"authors": "Andrew Guess, Jonathan Nagler & Joshua Tucker",
-"year": 2019,
-"journal": "Science Advances",
-"doi": "10.1126/sciadv.aau4586",
-"zotero": null,
-"claim": "Sharing fake news was rare and concentrated among older, conservative users.",
-"fields": {
-"ap": {
-"themes": [
-"Misinformation, conspiracy beliefs & fact-checking",
-"News media, selective exposure & social media"
-],
-"degree": 1
-},
-"tech": {
-"themes": [
-"Misinformation, bots, deepfakes & computational propaganda"
-],
-"degree": 1
-}
-},
-"span": 2,
-"degree": 2
-},
-{
 "id": "hopkins2019",
 "label": "Hopkins 2019",
 "title": "The Muted Consequences of Correct Information about Immigration",
@@ -11190,6 +14144,89 @@
 "rep": {
 "themes": [
 "Immigration attitudes, nativism & enforcement"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "walter2020",
+"label": "Walter 2019",
+"title": "Fact-Checking: A Meta-Analysis of What Works and for Whom",
+"authors": "Nathan Walter, Jonathan Cohen, R. Lance Holbert & Yasmin Morag",
+"year": 2019,
+"journal": "Political Communication",
+"doi": "10.1080/10584609.2019.1668894",
+"zotero": null,
+"claim": "Fact-checking modestly reduces belief in misinformation, less so among partisans.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "clayton2020",
+"label": "Clayton 2019",
+"title": "Real Solutions for Fake News? Measuring the Effectiveness of General Warnings and Fact-Check Tags in Reducing Belief in False Stories on Social Media",
+"authors": "Katherine Clayton, Spencer Blair, Jonathan A. Busam et al.",
+"year": 2019,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-019-09533-0",
+"zotero": null,
+"claim": "Specific fact-check tags reduce belief in false headlines more than general warnings.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"News media, selective exposure & social media"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "nyhan2020",
+"label": "Nyhan 2019",
+"title": "Taking Fact-Checks Literally But Not Seriously? The Effects of Journalistic Fact-Checking on Factual Beliefs and Candidate Favorability",
+"authors": "Brendan Nyhan, Ethan Porter, Jason Reifler & Thomas J. Wood",
+"year": 2019,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-019-09528-x",
+"zotero": null,
+"claim": "Fact-checks corrected beliefs about Trump's claims without changing support for him.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"Campaigns, elections & accountability"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
 ],
 "degree": 1
 }
@@ -11425,6 +14462,117 @@
 "degree": 2
 },
 {
+"id": "westiyengar2022",
+"label": "West 2020",
+"title": "Partisanship as a Social Identity: Implications for Polarization",
+"authors": "Emily A. West & Shanto Iyengar",
+"year": 2020,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-020-09637-y",
+"zotero": null,
+"claim": "Partisanship works as a social identity, now rivaling race or religion.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "wojcieszakwarner2020",
+"label": "Wojcieszak 2020",
+"title": "Can Interparty Contact Reduce Affective Polarization? A Systematic Test of Different Forms of Intergroup Contact",
+"authors": "Magdalena Wojcieszak & Benjamin R. Warner",
+"year": 2020,
+"journal": "Political Communication",
+"doi": "10.1080/10584609.2020.1760406",
+"zotero": null,
+"claim": "Positive interparty contact, even imagined or vicarious, reduces affective polarization.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"News media, selective exposure & social media"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "bankert2021",
+"label": "Bankert 2020",
+"title": "Negative and Positive Partisanship in the 2016 U.S. Presidential Elections",
+"authors": "Alexa Bankert",
+"year": 2020,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-020-09599-1",
+"zotero": null,
+"claim": "Negative and positive partisanship had distinct effects on vote choice in 2016.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization",
+"Campaigns, elections & accountability"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Social identity & partisanship as identity",
+"Affective polarization & out-party animus"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "jeritzhao2020",
+"label": "Jerit 2020",
+"title": "Political Misinformation",
+"authors": "Jennifer Jerit & Yangzi Zhao",
+"year": 2020,
+"journal": "Annual Review of Political Science",
+"doi": "10.1146/annurev-polisci-050718-032814",
+"zotero": null,
+"claim": "Misinformation research needs clearer definitions and attention to how misperceptions persist.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
 "id": "knox2020",
 "label": "Knox 2020",
 "title": "Administrative Records Mask Racially Biased Policing",
@@ -11501,6 +14649,34 @@
 "rep": {
 "themes": [
 "Voting rights, redistricting & election administration"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "enders2021",
+"label": "Enders 2021",
+"title": "The Relationship Between Social Media Use and Beliefs in Conspiracy Theories and Misinformation",
+"authors": "Adam M. Enders, Joseph E. Uscinski, Michelle I. Seelig et al.",
+"year": 2021,
+"journal": "Political Behavior",
+"doi": "10.1007/s11109-021-09734-6",
+"zotero": null,
+"claim": "Social media use predicts conspiracy and misinformation beliefs mainly among people already conspiracy-minded.",
+"fields": {
+"ap": {
+"themes": [
+"Misinformation, conspiracy beliefs & fact-checking",
+"News media, selective exposure & social media"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
 ],
 "degree": 1
 }
@@ -11670,6 +14846,88 @@
 "rep": {
 "themes": [
 "Race in international politics"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "mcmanus2021",
+"label": "McManus 2021",
+"title": "Crazy Like a Fox? Are Leaders with Reputations for Madness More Successful at International Coercion?",
+"authors": "Roseanne W. McManus",
+"year": 2021,
+"journal": "BJPS",
+"doi": null,
+"zotero": "https://www.zotero.org/georgeyean/items/AS5LI7LM",
+"claim": "A reputation for madness can help deterrence but undermines compellence because a madman cannot credibly promise restraint after compliance.",
+"fields": {
+"sec": {
+"themes": [
+"Reputation, credibility & coercion",
+"Leaders, psychology & elite decision-making"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Leaders, perception & international politics"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "basol2021",
+"label": "Basol 2021",
+"title": "Towards psychological herd immunity: Cross-cultural evidence for two prebunking interventions against COVID-19 misinformation",
+"authors": "Melisa Basol, Jon Roozenbeek, Manon Berriche et al.",
+"year": 2021,
+"journal": "Big Data & Society",
+"doi": "10.1177/20539517211013868",
+"zotero": null,
+"claim": "Prebunking games build resistance across cultures.",
+"fields": {
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 1
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "druckman2022",
+"label": "Druckman 2022",
+"title": "(Mis)estimating Affective Polarization",
+"authors": "James N. Druckman, Samara Klar, Yanna Krupnikov et al.",
+"year": 2022,
+"journal": "JOP",
+"doi": "10.1086/715603",
+"zotero": null,
+"claim": "Affective polarization is overestimated because respondents picture extreme partisans.",
+"fields": {
+"ap": {
+"themes": [
+"Partisan identity & affective polarization"
+],
+"degree": 1
+},
+"psy": {
+"themes": [
+"Affective polarization & out-party animus"
 ],
 "degree": 1
 }
@@ -11870,6 +15128,33 @@
 "themes": [
 "Race in international politics",
 "Racial attitudes"
+],
+"degree": 1
+}
+},
+"span": 2,
+"degree": 2
+},
+{
+"id": "altay2023",
+"label": "Altay 2023",
+"title": "Misinformation on Misinformation: Conceptual and Methodological Challenges",
+"authors": "Sacha Altay, Manon Berriche & Alberto Acerbi",
+"year": 2023,
+"journal": "Social Media + Society",
+"doi": "10.1177/20563051221150412",
+"zotero": null,
+"claim": "Alarmism about misinformation is itself misinformation.",
+"fields": {
+"psy": {
+"themes": [
+"Misinformation, conspiracy beliefs & correction"
+],
+"degree": 1
+},
+"tech": {
+"themes": [
+"Misinformation, bots, deepfakes & computational propaganda"
 ],
 "degree": 1
 }

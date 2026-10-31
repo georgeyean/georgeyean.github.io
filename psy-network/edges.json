@@ -1,0 +1,4768 @@
+{
+ "meta": {
+  "title": "Political psychology knowledge network, c. 1950-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in political psychology: belief systems and political knowledge, motivated reasoning, emotion and affective intelligence, personality and values, authoritarianism and threat, social and partisan identity, affective polarization, framing and persuasion, heuristics and elite cues, misinformation and conspiracy beliefs, moral foundations, the psychology of left and right, biology and genetics, trust and tolerance, socialization, leaders and perception in international politics, intergroup attitudes, and experimental methods. Works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (political psychology and political science journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 326,
+   "theme_nodes": 18,
+   "seed_from_papers_json": 4,
+   "crossref_top_cited": 237,
+   "anchors_supplement": 85,
+   "relation_edges": 337,
+   "membership_edges": 453
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "converse1964",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Mass belief systems lack the ideological constraint the American Voter found among elites."
+  },
+  {
+   "source": "zaller1992",
+   "target": "converse1964",
+   "type": "builds_on",
+   "why": "Opinion as sampling from considerations, conditioned by political awareness."
+  },
+  {
+   "source": "dellicarpini1996",
+   "target": "converse1964",
+   "type": "qualifies",
+   "why": "Knowledge is low but structured and consequential for citizenship."
+  },
+  {
+   "source": "jerit2006",
+   "target": "dellicarpini1996",
+   "type": "qualifies",
+   "why": "The information environment shapes who learns."
+  },
+  {
+   "source": "prior2007",
+   "target": "zaller1992",
+   "type": "qualifies",
+   "why": "Media choice widens knowledge gaps by motivation, not just ability."
+  },
+  {
+   "source": "priorlupia2008",
+   "target": "dellicarpini1996",
+   "type": "challenges",
+   "why": "Incentives and time reveal more knowledge than quick-recall questions show."
+  },
+  {
+   "source": "luskinbullock2011",
+   "target": "priorlupia2008",
+   "type": "challenges",
+   "why": "'Don't know' answers mostly reflect real ignorance."
+  },
+  {
+   "source": "barabas2014",
+   "target": "dellicarpini1996",
+   "type": "qualifies",
+   "why": "Knowledge varies by topic and time, not one general trait."
+  },
+  {
+   "source": "fernbach2013",
+   "target": "converse1964",
+   "type": "extends_to_new_case",
+   "why": "Shallow understanding sustains extreme positions."
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "converse1964",
+   "type": "builds_on",
+   "why": "Low information makes voters follow group identities, not policy."
+  },
+  {
+   "source": "kalmoe2020",
+   "target": "converse1964",
+   "type": "builds_on",
+   "why": "Most citizens still lack coherent ideology."
+  },
+  {
+   "source": "treierhillygus2009",
+   "target": "converse1964",
+   "type": "qualifies",
+   "why": "Ideology is multidimensional, leaving many voters cross-pressured."
+  },
+  {
+   "source": "kahan2012",
+   "target": "kunda1990",
+   "type": "extends_to_new_case",
+   "why": "Greater science literacy increases, not decreases, polarization on climate."
+  },
+  {
+   "source": "kunda1990",
+   "target": "festinger1957",
+   "type": "builds_on",
+   "why": "Directional goals bias reasoning, as dissonance theory implied."
+  },
+  {
+   "source": "lodge1995",
+   "target": "kunda1990",
+   "type": "synthesizes",
+   "why": "Online affect tallies make evaluation persist after details fade."
+  },
+  {
+   "source": "taberlodge2006",
+   "target": "kunda1990",
+   "type": "mechanism_tested_by",
+   "why": "Tests disconfirmation and confirmation biases in political arguments."
+  },
+  {
+   "source": "taberlodge2006",
+   "target": "lodge1995",
+   "type": "builds_on",
+   "why": "Hot cognition in political evaluation."
+  },
+  {
+   "source": "taber2008",
+   "target": "taberlodge2006",
+   "type": "builds_on",
+   "why": "Motivated processing of political arguments."
+  },
+  {
+   "source": "gaines2007",
+   "target": "taberlodge2006",
+   "type": "extends_to_new_case",
+   "why": "Partisans interpret the same war facts differently."
+  },
+  {
+   "source": "lebocassino2007",
+   "target": "taberlodge2006",
+   "type": "extends_to_new_case",
+   "why": "Motivated reasoning in aggregate approval."
+  },
+  {
+   "source": "cohen2007",
+   "target": "kunda1990",
+   "type": "mechanism_tested_by",
+   "why": "Self-affirmation reduces defensive processing."
+  },
+  {
+   "source": "gerberhuber2009",
+   "target": "gaines2007",
+   "type": "builds_on",
+   "why": "Partisan economic perceptions carry over into real spending behavior."
+  },
+  {
+   "source": "bullock2009",
+   "target": "kunda1990",
+   "type": "challenges",
+   "why": "Bayesian updating can produce persistent partisan disagreement without bias."
+  },
+  {
+   "source": "redlawsk2010",
+   "target": "taberlodge2006",
+   "type": "qualifies",
+   "why": "Motivated reasoners update past an affective tipping point."
+  },
+  {
+   "source": "tilleyhobolt2011",
+   "target": "gaines2007",
+   "type": "builds_on",
+   "why": "Partisanship shapes perceptions and blame attribution."
+  },
+  {
+   "source": "nir2011",
+   "target": "kunda1990",
+   "type": "extends_to_new_case",
+   "why": "Motivated perceptions of public opinion."
+  },
+  {
+   "source": "jeritbarabas2012",
+   "target": "gaines2007",
+   "type": "builds_on",
+   "why": "Partisan perceptual bias in factual knowledge."
+  },
+  {
+   "source": "mercierlandemore2012",
+   "target": "kunda1990",
+   "type": "qualifies",
+   "why": "Reasoning evolved for arguing, which helps in deliberation."
+  },
+  {
+   "source": "petersen2012pb",
+   "target": "taberlodge2006",
+   "type": "qualifies",
+   "why": "Party cues increase effortful processing."
+  },
+  {
+   "source": "lodgetaber2013",
+   "target": "taberlodge2006",
+   "type": "synthesizes",
+   "why": "Book-length theory of the rationalizing voter."
+  },
+  {
+   "source": "bolsen2014",
+   "target": "taberlodge2006",
+   "type": "mechanism_tested_by",
+   "why": "Tests partisan motivated reasoning with accuracy incentives."
+  },
+  {
+   "source": "druckman2013",
+   "target": "bolsen2014",
+   "type": "builds_on",
+   "why": "Elite polarization intensifies motivated reasoning."
+  },
+  {
+   "source": "leeperslothuus2014",
+   "target": "lodgetaber2013",
+   "type": "synthesizes",
+   "why": "Integrates parties into motivated reasoning theory."
+  },
+  {
+   "source": "campbellkay2014",
+   "target": "kunda1990",
+   "type": "extends_to_new_case",
+   "why": "Solution aversion: people deny problems with unwelcome solutions."
+  },
+  {
+   "source": "kahan2015",
+   "target": "kahan2012",
+   "type": "builds_on",
+   "why": "Climate beliefs measure identity, not knowledge."
+  },
+  {
+   "source": "bisgaard2015",
+   "target": "gaines2007",
+   "type": "builds_on",
+   "why": "Partisans agree on facts but bias attributions."
+  },
+  {
+   "source": "baekgaard2017",
+   "target": "taberlodge2006",
+   "type": "extends_to_new_case",
+   "why": "Politicians reason in motivated ways too."
+  },
+  {
+   "source": "bullocklenz2019",
+   "target": "bullock2009",
+   "type": "synthesizes",
+   "why": "Reviews sincere versus expressive partisan survey bias."
+  },
+  {
+   "source": "petersoniyengar2020",
+   "target": "bullocklenz2019",
+   "type": "challenges",
+   "why": "Partisan gaps are mostly sincere beliefs, not cheerleading."
+  },
+  {
+   "source": "schaffnerluks2018",
+   "target": "gaines2007",
+   "type": "challenges",
+   "why": "Some partisan misperceptions are expressive answers."
+  },
+  {
+   "source": "marcusmackuen1993",
+   "target": "campbell1960",
+   "type": "challenges",
+   "why": "Emotions, not only partisanship, drive campaign learning and involvement."
+  },
+  {
+   "source": "marcus2000",
+   "target": "marcusmackuen1993",
+   "type": "builds_on",
+   "why": "Affective intelligence theory: anxiety disrupts habit."
+  },
+  {
+   "source": "lernerkeltner2001",
+   "target": "marcusmackuen1993",
+   "type": "qualifies",
+   "why": "Discrete emotions differ: fear and anger move risk in opposite directions."
+  },
+  {
+   "source": "huddy2005",
+   "target": "lernerkeltner2001",
+   "type": "extends_to_new_case",
+   "why": "Threat versus anxiety in antiterrorism opinion."
+  },
+  {
+   "source": "brader2006",
+   "target": "marcus2000",
+   "type": "mechanism_tested_by",
+   "why": "Tests emotional cues in campaign ads."
+  },
+  {
+   "source": "brader2008",
+   "target": "brader2006",
+   "type": "builds_on",
+   "why": "Anxiety and group cues in immigration opinion."
+  },
+  {
+   "source": "valentino2008",
+   "target": "marcus2000",
+   "type": "mechanism_tested_by",
+   "why": "Anxiety and information seeking online."
+  },
+  {
+   "source": "smalllerner2008",
+   "target": "lernerkeltner2001",
+   "type": "extends_to_new_case",
+   "why": "Sadness and anger in welfare judgments."
+  },
+  {
+   "source": "druckmanmcdermott2008",
+   "target": "tverskykahneman1981",
+   "type": "qualifies",
+   "why": "Emotions moderate framing in risky choice."
+  },
+  {
+   "source": "valentino2008pb",
+   "target": "marcus2000",
+   "type": "qualifies",
+   "why": "Anger with efficacy drives participation."
+  },
+  {
+   "source": "valentino2009",
+   "target": "valentino2008",
+   "type": "builds_on",
+   "why": "Anxiety and selective exposure online."
+  },
+  {
+   "source": "mackuen2010",
+   "target": "marcus2000",
+   "type": "builds_on",
+   "why": "Anxiety prompts deliberation, anger reinforces partisanship."
+  },
+  {
+   "source": "gadarian2010",
+   "target": "huddy2005",
+   "type": "builds_on",
+   "why": "Threatening news raises hawkishness."
+  },
+  {
+   "source": "valentino2011",
+   "target": "valentino2008pb",
+   "type": "builds_on",
+   "why": "Anger mobilizes participation."
+  },
+  {
+   "source": "banksvalentino2012",
+   "target": "lernerkeltner2001",
+   "type": "extends_to_new_case",
+   "why": "Anger underlies white racial attitudes."
+  },
+  {
+   "source": "halperin2012",
+   "target": "lernerkeltner2001",
+   "type": "extends_to_new_case",
+   "why": "Emotion regulation in intractable conflict."
+  },
+  {
+   "source": "gadarianalbertson2013",
+   "target": "valentino2009",
+   "type": "builds_on",
+   "why": "Anxiety biases information search on immigration."
+  },
+  {
+   "source": "groenendykbanks2013",
+   "target": "marcus2000",
+   "type": "qualifies",
+   "why": "Emotions help partisans overcome collective action problems."
+  },
+  {
+   "source": "pearlman2013",
+   "target": "marcus2000",
+   "type": "extends_to_new_case",
+   "why": "Emotions in the Arab uprisings."
+  },
+  {
+   "source": "valentino2018poq",
+   "target": "valentino2011",
+   "type": "builds_on",
+   "why": "Anger mobilizes sexism in 2016."
+  },
+  {
+   "source": "vasilopoulos2018",
+   "target": "huddy2005",
+   "type": "builds_on",
+   "why": "Anger after terror attacks raises far-right voting."
+  },
+  {
+   "source": "suhayerisen2018",
+   "target": "taberlodge2006",
+   "type": "builds_on",
+   "why": "Anger intensifies biased assimilation."
+  },
+  {
+   "source": "young2018",
+   "target": "lernerkeltner2001",
+   "type": "extends_to_new_case",
+   "why": "Fear and dissent under repression."
+  },
+  {
+   "source": "marcus2019",
+   "target": "marcus2000",
+   "type": "extends_to_new_case",
+   "why": "Affective intelligence and authoritarian parties."
+  },
+  {
+   "source": "webster2022",
+   "target": "marcus2000",
+   "type": "synthesizes",
+   "why": "Reviews emotion in public opinion."
+  },
+  {
+   "source": "schwartz1992",
+   "target": "feldman1988",
+   "type": "synthesizes",
+   "why": "A universal structure of values that core political values draw on."
+  },
+  {
+   "source": "caprara2006",
+   "target": "schwartz1992",
+   "type": "builds_on",
+   "why": "Values matter more than traits for vote choice."
+  },
+  {
+   "source": "schoen2007",
+   "target": "caprara2006",
+   "type": "extends_to_new_case",
+   "why": "Personality and voting in Germany."
+  },
+  {
+   "source": "carney2008",
+   "target": "jost2003",
+   "type": "mechanism_tested_by",
+   "why": "Personality profiles of liberals and conservatives."
+  },
+  {
+   "source": "mondakhalperin2008",
+   "target": "carney2008",
+   "type": "synthesizes",
+   "why": "A framework for personality and political behavior."
+  },
+  {
+   "source": "gerber2010",
+   "target": "mondakhalperin2008",
+   "type": "builds_on",
+   "why": "Big Five traits and political attitudes."
+  },
+  {
+   "source": "mondak2010",
+   "target": "mondakhalperin2008",
+   "type": "builds_on",
+   "why": "Book-length theory of personality and engagement."
+  },
+  {
+   "source": "schwartz2010",
+   "target": "schwartz1992",
+   "type": "builds_on",
+   "why": "Basic values shape core political values and votes."
+  },
+  {
+   "source": "gerber2011arps",
+   "target": "gerber2010",
+   "type": "synthesizes",
+   "why": "Reviews the Big Five in politics."
+  },
+  {
+   "source": "piurko2011",
+   "target": "schwartz1992",
+   "type": "extends_to_new_case",
+   "why": "Values and left-right meaning across 20 countries."
+  },
+  {
+   "source": "verhulst2011",
+   "target": "gerber2010",
+   "type": "challenges",
+   "why": "Personality and ideology share genes rather than cause each other."
+  },
+  {
+   "source": "gerber2011jop",
+   "target": "gerber2010",
+   "type": "builds_on",
+   "why": "Traits predict participation."
+  },
+  {
+   "source": "gerber2011pb",
+   "target": "gerber2010",
+   "type": "builds_on",
+   "why": "Traits predict partisanship."
+  },
+  {
+   "source": "lilienfeld2012",
+   "target": "mondakhalperin2008",
+   "type": "extends_to_new_case",
+   "why": "Personality and presidential performance."
+  },
+  {
+   "source": "rentfrow2013",
+   "target": "gerber2010",
+   "type": "extends_to_new_case",
+   "why": "Regional personality and politics."
+  },
+  {
+   "source": "schwartz2013",
+   "target": "schwartz2010",
+   "type": "builds_on",
+   "why": "Values underlie political values across 15 countries."
+  },
+  {
+   "source": "fatke2016",
+   "target": "gerber2010",
+   "type": "extends_to_new_case",
+   "why": "Personality and ideology worldwide."
+  },
+  {
+   "source": "erisen2021",
+   "target": "gerber2010",
+   "type": "extends_to_new_case",
+   "why": "Psychological correlates of populism."
+  },
+  {
+   "source": "altemeyer1981",
+   "target": "adorno1950",
+   "type": "challenges",
+   "why": "Authoritarianism is a learned attitude cluster, not a Freudian personality type."
+  },
+  {
+   "source": "feldmanstenner1997",
+   "target": "altemeyer1981",
+   "type": "qualifies",
+   "why": "Threat activates authoritarian predispositions."
+  },
+  {
+   "source": "sidaniuspratto1999",
+   "target": "altemeyer1981",
+   "type": "synthesizes",
+   "why": "Social dominance orientation as a second, distinct root of prejudice."
+  },
+  {
+   "source": "feldman2003",
+   "target": "altemeyer1981",
+   "type": "challenges",
+   "why": "Authoritarianism is a conformity-autonomy value conflict, not the RWA syndrome."
+  },
+  {
+   "source": "stenner2005",
+   "target": "feldmanstenner1997",
+   "type": "builds_on",
+   "why": "The authoritarian dynamic: threat triggers intolerance."
+  },
+  {
+   "source": "sibley2007",
+   "target": "sidaniuspratto1999",
+   "type": "builds_on",
+   "why": "Dangerous and competitive worldviews drive RWA and SDO."
+  },
+  {
+   "source": "hetheringtonweiler2009",
+   "target": "stenner2005",
+   "type": "builds_on",
+   "why": "Authoritarianism sorts American partisans."
+  },
+  {
+   "source": "mcfarland2010",
+   "target": "sidaniuspratto1999",
+   "type": "synthesizes",
+   "why": "Authoritarianism and social dominance as roots of generalized prejudice."
+  },
+  {
+   "source": "hetheringtonsuhay2011",
+   "target": "hetheringtonweiler2009",
+   "type": "builds_on",
+   "why": "Threat and support for the war on terror among non-authoritarians."
+  },
+  {
+   "source": "burke2013",
+   "target": "jost2003",
+   "type": "mechanism_tested_by",
+   "why": "Meta-analysis of mortality salience effects."
+  },
+  {
+   "source": "duckittbizumic2013",
+   "target": "altemeyer1981",
+   "type": "qualifies",
+   "why": "RWA has three distinct dimensions."
+  },
+  {
+   "source": "conway2017",
+   "target": "altemeyer1981",
+   "type": "extends_to_new_case",
+   "why": "Authoritarianism on the left."
+  },
+  {
+   "source": "norris2019",
+   "target": "stenner2005",
+   "type": "builds_on",
+   "why": "Cultural backlash and authoritarian populism."
+  },
+  {
+   "source": "malka2020",
+   "target": "norris2019",
+   "type": "qualifies",
+   "why": "Openness to authoritarian governance concentrates on the cultural right."
+  },
+  {
+   "source": "ballardrosa2021",
+   "target": "stenner2005",
+   "type": "extends_to_new_case",
+   "why": "Economic decline activates authoritarian values."
+  },
+  {
+   "source": "thorisdottirjost2011",
+   "target": "jost2003",
+   "type": "mechanism_tested_by",
+   "why": "Threat raises conservatism via closed-mindedness."
+  },
+  {
+   "source": "tajfelturner1979",
+   "target": "allport1954",
+   "type": "builds_on",
+   "why": "Group membership alone produces in-group favoritism."
+  },
+  {
+   "source": "huddy2001",
+   "target": "tajfelturner1979",
+   "type": "qualifies",
+   "why": "Social identity theory needs attention to identity strength and choice."
+  },
+  {
+   "source": "greenpalmquist2002",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Partisanship as a stable social identity."
+  },
+  {
+   "source": "greenpalmquist2002",
+   "target": "tajfelturner1979",
+   "type": "extends_to_new_case",
+   "why": "Social identity applied to party identification."
+  },
+  {
+   "source": "cohen2003",
+   "target": "tajfelturner1979",
+   "type": "mechanism_tested_by",
+   "why": "Group influence overrides policy content."
+  },
+  {
+   "source": "fowlerkam2007",
+   "target": "tajfelturner1979",
+   "type": "extends_to_new_case",
+   "why": "Social identity and altruism drive participation."
+  },
+  {
+   "source": "huddykhatib2007",
+   "target": "huddy2001",
+   "type": "builds_on",
+   "why": "National identity as a social identity."
+  },
+  {
+   "source": "shayo2009",
+   "target": "tajfelturner1979",
+   "type": "extends_to_new_case",
+   "why": "Social identity in a political economy model."
+  },
+  {
+   "source": "gerber2010apsr",
+   "target": "greenpalmquist2002",
+   "type": "mechanism_tested_by",
+   "why": "Field experiment on how party affiliation strengthens partisanship."
+  },
+  {
+   "source": "mason2015",
+   "target": "greenpalmquist2002",
+   "type": "builds_on",
+   "why": "Partisan identity drives behavior apart from issues."
+  },
+  {
+   "source": "devine2014",
+   "target": "tajfelturner1979",
+   "type": "extends_to_new_case",
+   "why": "Ideological labels as social identities."
+  },
+  {
+   "source": "huddy2015",
+   "target": "greenpalmquist2002",
+   "type": "builds_on",
+   "why": "Expressive partisanship."
+  },
+  {
+   "source": "mason2016",
+   "target": "mason2015",
+   "type": "builds_on",
+   "why": "Cross-cutting identities calm partisan conflict."
+  },
+  {
+   "source": "bankert2016",
+   "target": "huddy2015",
+   "type": "builds_on",
+   "why": "Partisan identity scale for multiparty systems."
+  },
+  {
+   "source": "mason2018",
+   "target": "mason2015",
+   "type": "synthesizes",
+   "why": "Book-length theory of social sorting."
+  },
+  {
+   "source": "mason2018poq",
+   "target": "mason2015",
+   "type": "builds_on",
+   "why": "Ideological identity polarizes without issues."
+  },
+  {
+   "source": "masonwronski2018",
+   "target": "mason2018",
+   "type": "builds_on",
+   "why": "Aligned group attachments strengthen partisanship."
+  },
+  {
+   "source": "huddy2018",
+   "target": "huddy2015",
+   "type": "extends_to_new_case",
+   "why": "Expressive partisanship in European multiparty systems."
+  },
+  {
+   "source": "kalinsambanis2018",
+   "target": "huddy2001",
+   "type": "synthesizes",
+   "why": "How political science should use social identity."
+  },
+  {
+   "source": "jardina2019",
+   "target": "tajfelturner1979",
+   "type": "extends_to_new_case",
+   "why": "White identity as a political identity."
+  },
+  {
+   "source": "egan2019",
+   "target": "greenpalmquist2002",
+   "type": "challenges",
+   "why": "People change identities to fit their politics."
+  },
+  {
+   "source": "westiyengar2022",
+   "target": "iyengarwestwood2015",
+   "type": "builds_on",
+   "why": "Partisanship as a social identity shaping nonpolitical choices."
+  },
+  {
+   "source": "bankert2021",
+   "target": "huddy2015",
+   "type": "builds_on",
+   "why": "Negative and positive partisanship in multiparty systems."
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "greenpalmquist2002",
+   "type": "builds_on",
+   "why": "Group identities, not policy, drive votes."
+  },
+  {
+   "source": "craigricheson2014",
+   "target": "tajfelturner1979",
+   "type": "extends_to_new_case",
+   "why": "Status threat to the white in-group."
+  },
+  {
+   "source": "searssavalei2006",
+   "target": "tajfelturner1979",
+   "type": "extends_to_new_case",
+   "why": "Group identity and the color line."
+  },
+  {
+   "source": "iyengar2012",
+   "target": "greenpalmquist2002",
+   "type": "builds_on",
+   "why": "Partisan identity drives affect, not ideology."
+  },
+  {
+   "source": "vanboven2012",
+   "target": "kunda1990",
+   "type": "extends_to_new_case",
+   "why": "People project their extremity onto perceived polarization."
+  },
+  {
+   "source": "levendusky2013",
+   "target": "iyengar2012",
+   "type": "builds_on",
+   "why": "Partisan media polarize viewers."
+  },
+  {
+   "source": "iyengarwestwood2015",
+   "target": "iyengar2012",
+   "type": "builds_on",
+   "why": "Behavioral partisan discrimination exceeds racial bias."
+  },
+  {
+   "source": "rogowskisutherland2016",
+   "target": "iyengar2012",
+   "type": "challenges",
+   "why": "Ideology still fuels affective polarization."
+  },
+  {
+   "source": "levenduskymalhotra2015",
+   "target": "levendusky2013",
+   "type": "builds_on",
+   "why": "Coverage of polarization increases it."
+  },
+  {
+   "source": "lelkes2016",
+   "target": "iyengar2012",
+   "type": "synthesizes",
+   "why": "Reviews manifestations of mass polarization."
+  },
+  {
+   "source": "websterabramowitz2017",
+   "target": "rogowskisutherland2016",
+   "type": "builds_on",
+   "why": "Ideological foundations of affective polarization."
+  },
+  {
+   "source": "lelkeswestwood2017",
+   "target": "iyengarwestwood2015",
+   "type": "qualifies",
+   "why": "Partisan prejudice has limits."
+  },
+  {
+   "source": "mcconnell2018",
+   "target": "iyengarwestwood2015",
+   "type": "extends_to_new_case",
+   "why": "Partisan discrimination in economic exchange."
+  },
+  {
+   "source": "abramowitzwebster2018",
+   "target": "iyengar2012",
+   "type": "builds_on",
+   "why": "Negative partisanship drives loyalty."
+  },
+  {
+   "source": "levendusky2018",
+   "target": "tajfelturner1979",
+   "type": "mechanism_tested_by",
+   "why": "A shared national identity lowers partisan animus."
+  },
+  {
+   "source": "ahlersood2018",
+   "target": "iyengar2012",
+   "type": "qualifies",
+   "why": "Misperceptions of party composition feed animus."
+  },
+  {
+   "source": "iyengarkrupenkin2018",
+   "target": "iyengar2012",
+   "type": "builds_on",
+   "why": "Out-party animus now outweighs in-party warmth."
+  },
+  {
+   "source": "klar2018",
+   "target": "iyengar2012",
+   "type": "challenges",
+   "why": "Much measured animus is dislike of partisanship itself."
+  },
+  {
+   "source": "iyengar2019",
+   "target": "iyengar2012",
+   "type": "synthesizes",
+   "why": "Reviews origins and consequences of affective polarization."
+  },
+  {
+   "source": "druckmanlevendusky2019",
+   "target": "iyengar2012",
+   "type": "qualifies",
+   "why": "Measures of affective polarization capture different targets."
+  },
+  {
+   "source": "martherus2019",
+   "target": "iyengarwestwood2015",
+   "type": "extends_to_new_case",
+   "why": "Partisans dehumanize the out-party."
+  },
+  {
+   "source": "wojcieszakwarner2020",
+   "target": "allport1954",
+   "type": "extends_to_new_case",
+   "why": "Interparty contact reduces animus."
+  },
+  {
+   "source": "huddyyair2020",
+   "target": "levendusky2018",
+   "type": "builds_on",
+   "why": "Warm group relations beat policy compromise."
+  },
+  {
+   "source": "druckman2020jeps",
+   "target": "iyengar2019",
+   "type": "builds_on",
+   "why": "Affective polarization shaped COVID beliefs."
+  },
+  {
+   "source": "hobolt2020",
+   "target": "mason2018",
+   "type": "extends_to_new_case",
+   "why": "Opinion-based identities after Brexit."
+  },
+  {
+   "source": "kingzette2021",
+   "target": "iyengar2019",
+   "type": "builds_on",
+   "why": "Animus undermines democratic norms."
+  },
+  {
+   "source": "fishkin2021",
+   "target": "iyengar2019",
+   "type": "challenges",
+   "why": "Deliberation reduces polarization."
+  },
+  {
+   "source": "diaslelkes2021",
+   "target": "rogowskisutherland2016",
+   "type": "synthesizes",
+   "why": "Disentangles identity from policy disagreement."
+  },
+  {
+   "source": "druckman2022",
+   "target": "druckmanlevendusky2019",
+   "type": "builds_on",
+   "why": "Affective polarization is often mismeasured."
+  },
+  {
+   "source": "kalmoemason2022",
+   "target": "mason2018",
+   "type": "builds_on",
+   "why": "Radical partisanship and support for violence."
+  },
+  {
+   "source": "broockman2022",
+   "target": "kingzette2021",
+   "type": "challenges",
+   "why": "Reducing animus does not change democratic norms."
+  },
+  {
+   "source": "gidron2022",
+   "target": "iyengar2019",
+   "type": "extends_to_new_case",
+   "why": "Affective polarization between party pairs abroad."
+  },
+  {
+   "source": "garzia2023",
+   "target": "iyengar2019",
+   "type": "extends_to_new_case",
+   "why": "Affective polarization across democracies over time."
+  },
+  {
+   "source": "grahamsvolik2020",
+   "target": "iyengar2019",
+   "type": "builds_on",
+   "why": "Partisans trade democracy for party advantage."
+  },
+  {
+   "source": "simonovits2022",
+   "target": "grahamsvolik2020",
+   "type": "builds_on",
+   "why": "Out-group threat explains democratic hypocrisy."
+  },
+  {
+   "source": "krishnarajan2022",
+   "target": "grahamsvolik2020",
+   "type": "qualifies",
+   "why": "Citizens rationalize undemocratic acts as democratic."
+  },
+  {
+   "source": "pettycacioppo1986",
+   "target": "hovland1953",
+   "type": "builds_on",
+   "why": "Two routes to persuasion."
+  },
+  {
+   "source": "tverskykahneman1981",
+   "target": "kahnemantversky1979",
+   "type": "builds_on",
+   "why": "Framing of choices reverses preferences."
+  },
+  {
+   "source": "iyengarkinder1987",
+   "target": "hovland1953",
+   "type": "extends_to_new_case",
+   "why": "TV news sets the agenda and primes evaluations."
+  },
+  {
+   "source": "krosnickkinder1990",
+   "target": "iyengarkinder1987",
+   "type": "mechanism_tested_by",
+   "why": "Priming in evaluations of Reagan."
+  },
+  {
+   "source": "iyengar1991",
+   "target": "iyengarkinder1987",
+   "type": "builds_on",
+   "why": "Episodic and thematic frames shape responsibility."
+  },
+  {
+   "source": "nelson1997",
+   "target": "tverskykahneman1981",
+   "type": "extends_to_new_case",
+   "why": "Issue framing changes the weight of considerations."
+  },
+  {
+   "source": "druckman2001",
+   "target": "nelson1997",
+   "type": "qualifies",
+   "why": "Only credible sources can frame."
+  },
+  {
+   "source": "valentino2002",
+   "target": "iyengarkinder1987",
+   "type": "builds_on",
+   "why": "Racial priming in ads."
+  },
+  {
+   "source": "mendelberg2001",
+   "target": "iyengarkinder1987",
+   "type": "builds_on",
+   "why": "Implicit racial priming in campaigns."
+  },
+  {
+   "source": "chongdruckman2007arps",
+   "target": "nelson1997",
+   "type": "synthesizes",
+   "why": "Reviews framing theory."
+  },
+  {
+   "source": "chongdruckman2007",
+   "target": "druckman2001",
+   "type": "builds_on",
+   "why": "Framing in competitive environments."
+  },
+  {
+   "source": "gross2008",
+   "target": "iyengar1991",
+   "type": "qualifies",
+   "why": "Episodic frames work through emotion."
+  },
+  {
+   "source": "slothuus2008",
+   "target": "nelson1997",
+   "type": "qualifies",
+   "why": "Framing changes belief content too, not just importance."
+  },
+  {
+   "source": "lenz2009",
+   "target": "krosnickkinder1990",
+   "type": "challenges",
+   "why": "Apparent priming often reflects learning and opinion change."
+  },
+  {
+   "source": "chongdruckman2010",
+   "target": "chongdruckman2007",
+   "type": "builds_on",
+   "why": "Framing effects over time."
+  },
+  {
+   "source": "aaroe2011",
+   "target": "gross2008",
+   "type": "builds_on",
+   "why": "Frame strength depends on emotion."
+  },
+  {
+   "source": "druckmanleeper2012",
+   "target": "chongdruckman2010",
+   "type": "builds_on",
+   "why": "Pretreatment exposure affects framing studies."
+  },
+  {
+   "source": "druckman2012",
+   "target": "chongdruckman2010",
+   "type": "builds_on",
+   "why": "Framing exposure biases later information search."
+  },
+  {
+   "source": "chongdruckman2013",
+   "target": "chongdruckman2007",
+   "type": "builds_on",
+   "why": "Counterframing effects depend on timing."
+  },
+  {
+   "source": "hill2013",
+   "target": "iyengarkinder1987",
+   "type": "qualifies",
+   "why": "Persuasion from mass communication decays quickly."
+  },
+  {
+   "source": "tesler2015",
+   "target": "lenz2009",
+   "type": "qualifies",
+   "why": "Campaigns prime predispositions but change policy positions."
+  },
+  {
+   "source": "broockmankalla2016",
+   "target": "pettycacioppo1986",
+   "type": "extends_to_new_case",
+   "why": "Deep canvassing durably reduces prejudice."
+  },
+  {
+   "source": "kallabroockman2020",
+   "target": "broockmankalla2016",
+   "type": "builds_on",
+   "why": "Narrative exchange reduces exclusionary attitudes."
+  },
+  {
+   "source": "druckman2022arps",
+   "target": "chongdruckman2007arps",
+   "type": "synthesizes",
+   "why": "A framework for persuasion research."
+  },
+  {
+   "source": "popkin1991",
+   "target": "converse1964",
+   "type": "challenges",
+   "why": "Low-information rationality lets voters reason well without ideology."
+  },
+  {
+   "source": "sniderman1991",
+   "target": "converse1964",
+   "type": "qualifies",
+   "why": "Citizens reason with heuristics that vary by sophistication."
+  },
+  {
+   "source": "lupia1994",
+   "target": "popkin1991",
+   "type": "mechanism_tested_by",
+   "why": "Endorsement cues let uninformed voters mimic informed ones."
+  },
+  {
+   "source": "lauredlawsk2001",
+   "target": "lupia1994",
+   "type": "qualifies",
+   "why": "Heuristics help the sophisticated but mislead others."
+  },
+  {
+   "source": "cohen2003",
+   "target": "lupia1994",
+   "type": "challenges",
+   "why": "Party cues can override policy content rather than inform it."
+  },
+  {
+   "source": "goren2009",
+   "target": "cohen2003",
+   "type": "builds_on",
+   "why": "Source cues and partisan identities shape opinion."
+  },
+  {
+   "source": "levendusky2010",
+   "target": "zaller1992",
+   "type": "builds_on",
+   "why": "Clearer elite cues produce more consistent voters."
+  },
+  {
+   "source": "berinsky2009",
+   "target": "zaller1992",
+   "type": "extends_to_new_case",
+   "why": "Elite cues, not casualties, drive war support."
+  },
+  {
+   "source": "slothuusdevreese2010",
+   "target": "cohen2003",
+   "type": "builds_on",
+   "why": "Party cues and motivated reasoning in issue framing."
+  },
+  {
+   "source": "bullock2011",
+   "target": "cohen2003",
+   "type": "qualifies",
+   "why": "Policy information matters alongside party cues."
+  },
+  {
+   "source": "nicholson2012",
+   "target": "cohen2003",
+   "type": "builds_on",
+   "why": "Out-party cues polarize opinion."
+  },
+  {
+   "source": "boudreaumackenzie2014",
+   "target": "lupia1994",
+   "type": "builds_on",
+   "why": "Party cues and policy information in direct democracy."
+  },
+  {
+   "source": "broockmanbutler2015",
+   "target": "zaller1992",
+   "type": "mechanism_tested_by",
+   "why": "Field experiments show elites move constituent opinion."
+  },
+  {
+   "source": "guisinger2017",
+   "target": "berinsky2009",
+   "type": "qualifies",
+   "why": "Elite cues shape foreign policy opinion within limits."
+  },
+  {
+   "source": "kuklinski2000",
+   "target": "dellicarpini1996",
+   "type": "qualifies",
+   "why": "Many citizens are misinformed, not just uninformed."
+  },
+  {
+   "source": "sunsteinvermeule2009",
+   "target": "kuklinski2000",
+   "type": "extends_to_new_case",
+   "why": "Conspiracy theories and how to counter them."
+  },
+  {
+   "source": "nyhanreifler2010",
+   "target": "kuklinski2000",
+   "type": "builds_on",
+   "why": "Corrections can fail and even backfire."
+  },
+  {
+   "source": "lewandowsky2012",
+   "target": "nyhanreifler2010",
+   "type": "synthesizes",
+   "why": "Reviews continued influence and debiasing."
+  },
+  {
+   "source": "oliverwood2014",
+   "target": "sunsteinvermeule2009",
+   "type": "builds_on",
+   "why": "Conspiracy beliefs are widespread and predispositional."
+  },
+  {
+   "source": "nyhanreifler2015",
+   "target": "nyhanreifler2010",
+   "type": "extends_to_new_case",
+   "why": "Fact-checking deters elites."
+  },
+  {
+   "source": "einsteinglick2014",
+   "target": "oliverwood2014",
+   "type": "extends_to_new_case",
+   "why": "Conspiracy beliefs about statistics lower trust."
+  },
+  {
+   "source": "uscinskiparent2014",
+   "target": "sunsteinvermeule2009",
+   "type": "challenges",
+   "why": "Conspiracy theories are tools for political losers."
+  },
+  {
+   "source": "thorson2016",
+   "target": "nyhanreifler2010",
+   "type": "builds_on",
+   "why": "Corrected misinformation leaves belief echoes."
+  },
+  {
+   "source": "miller2016",
+   "target": "taberlodge2006",
+   "type": "extends_to_new_case",
+   "why": "Conspiracy endorsement as motivated reasoning."
+  },
+  {
+   "source": "nyhanreifler2015jeps",
+   "target": "lewandowsky2012",
+   "type": "mechanism_tested_by",
+   "why": "Causal alternatives displace misinformation."
+  },
+  {
+   "source": "berinsky2015",
+   "target": "nyhanreifler2010",
+   "type": "qualifies",
+   "why": "Corrections from unlikely sources work."
+  },
+  {
+   "source": "uscinski2016",
+   "target": "uscinskiparent2014",
+   "type": "builds_on",
+   "why": "Predispositions and partisanship drive conspiracy beliefs."
+  },
+  {
+   "source": "flynn2017",
+   "target": "kuklinski2000",
+   "type": "synthesizes",
+   "why": "Reviews the nature and origins of misperceptions."
+  },
+  {
+   "source": "allcottgentzkow2017",
+   "target": "kuklinski2000",
+   "type": "extends_to_new_case",
+   "why": "Fake news exposure in 2016."
+  },
+  {
+   "source": "vosoughi2018",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "False news spreads faster than true news."
+  },
+  {
+   "source": "woodporter2019",
+   "target": "nyhanreifler2010",
+   "type": "challenges",
+   "why": "The backfire effect is rare."
+  },
+  {
+   "source": "eckerang2018",
+   "target": "lewandowsky2012",
+   "type": "builds_on",
+   "why": "Worldview shapes processing of corrections."
+  },
+  {
+   "source": "schaffnerluks2018",
+   "target": "kuklinski2000",
+   "type": "qualifies",
+   "why": "Some misperceptions are expressive responding."
+  },
+  {
+   "source": "pennycookrand2019",
+   "target": "kahan2012",
+   "type": "challenges",
+   "why": "Lazy thinking, not motivated reasoning, drives belief in fake news."
+  },
+  {
+   "source": "douglas2019",
+   "target": "uscinskiparent2014",
+   "type": "synthesizes",
+   "why": "Reviews the psychology of conspiracy theories."
+  },
+  {
+   "source": "guess2019",
+   "target": "allcottgentzkow2017",
+   "type": "qualifies",
+   "why": "Fake news sharing is rare and concentrated among older conservatives."
+  },
+  {
+   "source": "walter2020",
+   "target": "nyhanreifler2010",
+   "type": "synthesizes",
+   "why": "Meta-analysis of fact-checking effects."
+  },
+  {
+   "source": "clayton2020",
+   "target": "woodporter2019",
+   "type": "builds_on",
+   "why": "Warnings reduce belief in fake news headlines."
+  },
+  {
+   "source": "nyhan2020",
+   "target": "woodporter2019",
+   "type": "qualifies",
+   "why": "Fact-checks correct beliefs but not candidate support."
+  },
+  {
+   "source": "jeritzhao2020",
+   "target": "flynn2017",
+   "type": "synthesizes",
+   "why": "Reviews political misinformation research."
+  },
+  {
+   "source": "vaccarichadwick2020",
+   "target": "allcottgentzkow2017",
+   "type": "extends_to_new_case",
+   "why": "Deepfakes create uncertainty rather than outright deception."
+  },
+  {
+   "source": "vanderlinden2020",
+   "target": "oliverwood2014",
+   "type": "qualifies",
+   "why": "Conspiratorial thinking is somewhat asymmetric by ideology."
+  },
+  {
+   "source": "kreps2020",
+   "target": "vosoughi2018",
+   "type": "extends_to_new_case",
+   "why": "AI-generated text as a misinformation tool."
+  },
+  {
+   "source": "merkley2020",
+   "target": "kahan2012",
+   "type": "qualifies",
+   "why": "Anti-intellectualism drives resistance to expert consensus."
+  },
+  {
+   "source": "vragabode2020",
+   "target": "flynn2017",
+   "type": "synthesizes",
+   "why": "Defines misinformation against expert evidence."
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "pennycookrand2019",
+   "type": "challenges",
+   "why": "Partisan polarization, not ignorance, drives fake news sharing."
+  },
+  {
+   "source": "enders2021",
+   "target": "uscinski2016",
+   "type": "builds_on",
+   "why": "Social media use and conspiracy beliefs."
+  },
+  {
+   "source": "basol2021",
+   "target": "lewandowsky2012",
+   "type": "extends_to_new_case",
+   "why": "Prebunking games build resistance to misinformation."
+  },
+  {
+   "source": "berlinski2021",
+   "target": "nyhanreifler2010",
+   "type": "extends_to_new_case",
+   "why": "Fraud claims and corrections about elections."
+  },
+  {
+   "source": "altay2023",
+   "target": "guess2019",
+   "type": "builds_on",
+   "why": "Misinformation about misinformation overstates its prevalence."
+  },
+  {
+   "source": "skitkabauman2008",
+   "target": "kunda1990",
+   "type": "extends_to_new_case",
+   "why": "Moral conviction motivates political engagement."
+  },
+  {
+   "source": "graham2009",
+   "target": "schwartz1992",
+   "type": "builds_on",
+   "why": "Liberals and conservatives draw on different moral foundations."
+  },
+  {
+   "source": "helzerpizarro2011",
+   "target": "graham2009",
+   "type": "mechanism_tested_by",
+   "why": "Cleanliness cues shift moral and political judgment."
+  },
+  {
+   "source": "haidt2012",
+   "target": "graham2009",
+   "type": "synthesizes",
+   "why": "Intuitions first, reasoning second, divides left and right."
+  },
+  {
+   "source": "federico2013",
+   "target": "graham2009",
+   "type": "qualifies",
+   "why": "Morality maps onto multiple sociopolitical orientations."
+  },
+  {
+   "source": "cliffordjerit2013",
+   "target": "graham2009",
+   "type": "extends_to_new_case",
+   "why": "Moral framing of stem cell research."
+  },
+  {
+   "source": "skitkamorgan2014",
+   "target": "skitkabauman2008",
+   "type": "synthesizes",
+   "why": "Reviews political effects of moral conviction."
+  },
+  {
+   "source": "smith2017",
+   "target": "graham2009",
+   "type": "challenges",
+   "why": "Ideology causes moral intuitions, not the reverse."
+  },
+  {
+   "source": "ryan2017",
+   "target": "skitkabauman2008",
+   "type": "builds_on",
+   "why": "Moralized issues breed opposition to compromise."
+  },
+  {
+   "source": "garrettbankert2018",
+   "target": "skitkabauman2008",
+   "type": "builds_on",
+   "why": "Moral conviction heightens affective polarization."
+  },
+  {
+   "source": "kertzer2014moral",
+   "target": "graham2009",
+   "type": "extends_to_new_case",
+   "why": "Moral foundations shape foreign policy attitudes."
+  },
+  {
+   "source": "aaroe2017",
+   "target": "helzerpizarro2011",
+   "type": "builds_on",
+   "why": "Disgust sensitivity predicts social conservatism."
+  },
+  {
+   "source": "jost2003",
+   "target": "adorno1950",
+   "type": "builds_on",
+   "why": "Conservatism as motivated social cognition, reviving the rigidity hypothesis."
+  },
+  {
+   "source": "jost2006",
+   "target": "converse1964",
+   "type": "challenges",
+   "why": "Ideology is psychologically meaningful after all."
+  },
+  {
+   "source": "benabou2006",
+   "target": "jost2003",
+   "type": "extends_to_new_case",
+   "why": "Belief in a just world sustains low redistribution."
+  },
+  {
+   "source": "thorisdottir2007",
+   "target": "jost2003",
+   "type": "extends_to_new_case",
+   "why": "Psychological needs and left-right across Europe."
+  },
+  {
+   "source": "treierhillygus2009",
+   "target": "jost2006",
+   "type": "qualifies",
+   "why": "Many voters hold multidimensional, cross-pressured views."
+  },
+  {
+   "source": "toner2013",
+   "target": "jost2003",
+   "type": "qualifies",
+   "why": "Belief superiority rises with extremity on both sides."
+  },
+  {
+   "source": "feldmanjohnston2014",
+   "target": "jost2003",
+   "type": "qualifies",
+   "why": "Ideology has separate social and economic dimensions."
+  },
+  {
+   "source": "vandertoorn2014",
+   "target": "jost2006",
+   "type": "builds_on",
+   "why": "Powerlessness fosters system justification."
+  },
+  {
+   "source": "carminesdamico2015",
+   "target": "jost2006",
+   "type": "synthesizes",
+   "why": "Reviews the new look in ideology research."
+  },
+  {
+   "source": "bauer2016",
+   "target": "treierhillygus2009",
+   "type": "builds_on",
+   "why": "Left-right self-placement means different things to different people."
+  },
+  {
+   "source": "jost2017",
+   "target": "jost2003",
+   "type": "synthesizes",
+   "why": "Ideological asymmetries as the essence of political psychology."
+  },
+  {
+   "source": "crawford2017",
+   "target": "crawfordpilanski2012",
+   "type": "builds_on",
+   "why": "Ideology predicts prejudice against specific targets."
+  },
+  {
+   "source": "crawfordpilanski2012",
+   "target": "jost2003",
+   "type": "challenges",
+   "why": "Liberals are also intolerant of disliked groups."
+  },
+  {
+   "source": "federicomalka2018",
+   "target": "jost2003",
+   "type": "qualifies",
+   "why": "Needs predict conservatism only in some contexts."
+  },
+  {
+   "source": "kalmoe2020",
+   "target": "jost2006",
+   "type": "challenges",
+   "why": "Ideology is often misused for nonideological citizens."
+  },
+  {
+   "source": "piurko2011",
+   "target": "jost2003",
+   "type": "qualifies",
+   "why": "Value-ideology links depend on national context."
+  },
+  {
+   "source": "alford2005",
+   "target": "jenningsniemi1968",
+   "type": "challenges",
+   "why": "Political orientations are partly genetic, not only learned from parents."
+  },
+  {
+   "source": "oxley2008",
+   "target": "alford2005",
+   "type": "builds_on",
+   "why": "Physiological threat sensitivity predicts policy views."
+  },
+  {
+   "source": "fowler2008",
+   "target": "alford2005",
+   "type": "extends_to_new_case",
+   "why": "Genetic variation in participation."
+  },
+  {
+   "source": "fowlerdawes2008",
+   "target": "fowler2008",
+   "type": "builds_on",
+   "why": "Two genes predict turnout."
+  },
+  {
+   "source": "charney2008",
+   "target": "alford2005",
+   "type": "challenges",
+   "why": "Twin-study assumptions behind genetic claims are contestable."
+  },
+  {
+   "source": "mcdermott2008",
+   "target": "kahnemantversky1979",
+   "type": "builds_on",
+   "why": "Evolutionary origins of prospect theory preferences."
+  },
+  {
+   "source": "hatemi2009",
+   "target": "alford2005",
+   "type": "builds_on",
+   "why": "Genetic and environmental transmission of party identification."
+  },
+  {
+   "source": "smith2011pp",
+   "target": "alford2005",
+   "type": "builds_on",
+   "why": "Genes shape broad dispositions, not issue positions."
+  },
+  {
+   "source": "petersen2011",
+   "target": "cohen2003",
+   "type": "challenges",
+   "why": "An evolved deservingness heuristic lets people judge welfare without cues."
+  },
+  {
+   "source": "petersen2012pp",
+   "target": "petersen2011",
+   "type": "builds_on",
+   "why": "Social emotions behind deservingness judgments."
+  },
+  {
+   "source": "kandler2012",
+   "target": "alford2005",
+   "type": "qualifies",
+   "why": "Genes, cultural transmission and assortative mating all matter."
+  },
+  {
+   "source": "petersen2013psci",
+   "target": "petersen2011",
+   "type": "synthesizes",
+   "why": "Evolved coalitional psychology in modern politics."
+  },
+  {
+   "source": "jost2014neuro",
+   "target": "jost2003",
+   "type": "extends_to_new_case",
+   "why": "Neuroscience of political orientation."
+  },
+  {
+   "source": "hibbing2014",
+   "target": "oxley2008",
+   "type": "synthesizes",
+   "why": "Negativity bias underlies ideological differences."
+  },
+  {
+   "source": "hatemimcdermott2016",
+   "target": "hatemi2009",
+   "type": "synthesizes",
+   "why": "Reviews genetic and biological bases of attitudes."
+  },
+  {
+   "source": "laustsenpetersen2017",
+   "target": "petersen2013psci",
+   "type": "builds_on",
+   "why": "Conflict raises preference for dominant leaders."
+  },
+  {
+   "source": "verhulst2011",
+   "target": "alford2005",
+   "type": "builds_on",
+   "why": "Shared genes link personality and ideology."
+  },
+  {
+   "source": "mcclosky1964",
+   "target": "stouffer1955",
+   "type": "builds_on",
+   "why": "Elites, not the public, uphold democratic norms."
+  },
+  {
+   "source": "sullivan1982",
+   "target": "stouffer1955",
+   "type": "challenges",
+   "why": "Content-controlled measures show intolerance persists toward each person's least-liked group."
+  },
+  {
+   "source": "hetherington1998",
+   "target": "mcclosky1964",
+   "type": "extends_to_new_case",
+   "why": "Declining trust has political consequences."
+  },
+  {
+   "source": "hetherington2005",
+   "target": "hetherington1998",
+   "type": "builds_on",
+   "why": "Low trust undermines support for liberal policy."
+  },
+  {
+   "source": "mutz2006",
+   "target": "sullivan1982",
+   "type": "builds_on",
+   "why": "Cross-cutting exposure raises tolerance but lowers participation."
+  },
+  {
+   "source": "gibson2006",
+   "target": "sullivan1982",
+   "type": "synthesizes",
+   "why": "Reviews intolerance fifty years after Stouffer."
+  },
+  {
+   "source": "hetheringtonrudolph2008",
+   "target": "hetherington2005",
+   "type": "builds_on",
+   "why": "Priming shapes which performance drives trust."
+  },
+  {
+   "source": "nannestad2008",
+   "target": "hetherington1998",
+   "type": "synthesizes",
+   "why": "Reviews generalized trust."
+  },
+  {
+   "source": "hetheringtonhusser2011",
+   "target": "hetherington2005",
+   "type": "qualifies",
+   "why": "Trust matters when issues are salient."
+  },
+  {
+   "source": "citrinstoker2018",
+   "target": "hetherington2005",
+   "type": "synthesizes",
+   "why": "Political trust in a cynical age."
+  },
+  {
+   "source": "nelson1997",
+   "target": "sullivan1982",
+   "type": "qualifies",
+   "why": "Framing changes tolerance judgments."
+  },
+  {
+   "source": "searsvalentino1997",
+   "target": "jenningsniemi1968",
+   "type": "qualifies",
+   "why": "Political events catalyze preadult socialization."
+  },
+  {
+   "source": "jennings2009",
+   "target": "jenningsniemi1968",
+   "type": "builds_on",
+   "why": "Family transmission across generations."
+  },
+  {
+   "source": "vandeth2010",
+   "target": "jenningsniemi1968",
+   "type": "extends_to_new_case",
+   "why": "Political orientations among young children."
+  },
+  {
+   "source": "fraley2012",
+   "target": "jenningsniemi1968",
+   "type": "qualifies",
+   "why": "Temperament and parenting predict adult ideology."
+  },
+  {
+   "source": "dinas2013",
+   "target": "jennings2009",
+   "type": "qualifies",
+   "why": "Politicized homes produce later divergence from parents."
+  },
+  {
+   "source": "hatemi2009",
+   "target": "jenningsniemi1968",
+   "type": "qualifies",
+   "why": "Genes as well as parents transmit party identification."
+  },
+  {
+   "source": "levy1997",
+   "target": "kahnemantversky1979",
+   "type": "extends_to_new_case",
+   "why": "Prospect theory in international relations."
+  },
+  {
+   "source": "levy1997",
+   "target": "jervis1976",
+   "type": "builds_on",
+   "why": "Psychological limits on rational choice in foreign policy."
+  },
+  {
+   "source": "mcdermott1998",
+   "target": "levy1997",
+   "type": "mechanism_tested_by",
+   "why": "Presidents take risks in the domain of losses."
+  },
+  {
+   "source": "mercer2005",
+   "target": "jervis1976",
+   "type": "builds_on",
+   "why": "Psychology is needed to explain rationality in IR."
+  },
+  {
+   "source": "tetlock2005",
+   "target": "jervis1976",
+   "type": "extends_to_new_case",
+   "why": "Expert political forecasting and cognitive style."
+  },
+  {
+   "source": "schaferwalker2006",
+   "target": "jervis1976",
+   "type": "extends_to_new_case",
+   "why": "Leaders' operational codes and the democratic peace."
+  },
+  {
+   "source": "mercer2010",
+   "target": "mercer2005",
+   "type": "builds_on",
+   "why": "Emotion makes beliefs in world politics credible."
+  },
+  {
+   "source": "saunders2011",
+   "target": "jervis1976",
+   "type": "builds_on",
+   "why": "Leaders' beliefs about threats shape interventions."
+  },
+  {
+   "source": "hallyarhimilo2012",
+   "target": "jervis1976",
+   "type": "builds_on",
+   "why": "Personal impressions in assessing sincerity."
+  },
+  {
+   "source": "hafnerburton2013",
+   "target": "jervis1976",
+   "type": "synthesizes",
+   "why": "The cognitive revolution in elite decision making."
+  },
+  {
+   "source": "yarhimilo2014",
+   "target": "jervis1976",
+   "type": "builds_on",
+   "why": "Leaders' selective attention in assessing adversaries."
+  },
+  {
+   "source": "horowitzstam2014",
+   "target": "saunders2011",
+   "type": "builds_on",
+   "why": "Leaders' military experience shapes their militarism."
+  },
+  {
+   "source": "renshon2015",
+   "target": "kahnemantversky1979",
+   "type": "extends_to_new_case",
+   "why": "Leaders fall prey to sunk costs and face-saving."
+  },
+  {
+   "source": "hb2017behavioral",
+   "target": "hafnerburton2013",
+   "type": "builds_on",
+   "why": "The behavioral revolution in IR."
+  },
+  {
+   "source": "herrmann2017",
+   "target": "kunda1990",
+   "type": "extends_to_new_case",
+   "why": "National attachment drives motivated reasoning about the world."
+  },
+  {
+   "source": "stein2017",
+   "target": "hafnerburton2013",
+   "type": "synthesizes",
+   "why": "Psychology and behavioral economics as IR microfoundations."
+  },
+  {
+   "source": "yarhimilo2018",
+   "target": "yarhimilo2014",
+   "type": "builds_on",
+   "why": "Leader attributes shape costly signaling."
+  },
+  {
+   "source": "kertzertingley2018",
+   "target": "hafnerburton2013",
+   "type": "synthesizes",
+   "why": "Political psychology in IR beyond the paradigms."
+  },
+  {
+   "source": "kertzer2019",
+   "target": "kertzertingley2018",
+   "type": "builds_on",
+   "why": "Motivated reasoning shapes reading of costly signals."
+  },
+  {
+   "source": "mcmanus2021",
+   "target": "jervis1976",
+   "type": "qualifies",
+   "why": "Reputations for madness do not reliably bring bargaining success."
+  },
+  {
+   "source": "gustafssonhall2021",
+   "target": "mercer2010",
+   "type": "qualifies",
+   "why": "Power shapes whose emotions count in IR."
+  },
+  {
+   "source": "kertzerrenshon2022",
+   "target": "hafnerburton2013",
+   "type": "challenges",
+   "why": "Experiments find elites often reason like the public."
+  },
+  {
+   "source": "gadarian2010",
+   "target": "berinsky2009",
+   "type": "qualifies",
+   "why": "Emotional imagery in threat news shapes foreign policy views."
+  },
+  {
+   "source": "lilienfeld2012",
+   "target": "saunders2011",
+   "type": "synthesizes",
+   "why": "Leader personality and performance."
+  },
+  {
+   "source": "blumer1958",
+   "target": "allport1954",
+   "type": "challenges",
+   "why": "Prejudice as defense of group position."
+  },
+  {
+   "source": "kindersears1981",
+   "target": "allport1954",
+   "type": "qualifies",
+   "why": "Symbolic racism rather than realistic threat."
+  },
+  {
+   "source": "kindersanders1996",
+   "target": "kindersears1981",
+   "type": "builds_on",
+   "why": "Racial resentment."
+  },
+  {
+   "source": "henrysears2002",
+   "target": "kindersears1981",
+   "type": "builds_on",
+   "why": "Symbolic racism scale."
+  },
+  {
+   "source": "kinderkam2009",
+   "target": "kindersanders1996",
+   "type": "builds_on",
+   "why": "General ethnocentrism."
+  },
+  {
+   "source": "mansfieldmutz2009",
+   "target": "kinderkam2009",
+   "type": "extends_to_new_case",
+   "why": "Out-group anxiety drives trade attitudes."
+  },
+  {
+   "source": "hodsonbusseri2012",
+   "target": "jost2003",
+   "type": "builds_on",
+   "why": "Cognitive ability, conservatism and prejudice."
+  },
+  {
+   "source": "kruglanski2014",
+   "target": "tajfelturner1979",
+   "type": "builds_on",
+   "why": "Significance quest and group identity in radicalization."
+  },
+  {
+   "source": "golecdezavala2019",
+   "target": "tajfelturner1979",
+   "type": "builds_on",
+   "why": "Collective narcissism as defensive in-group identity."
+  },
+  {
+   "source": "sidaniuspratto1999",
+   "target": "blumer1958",
+   "type": "synthesizes",
+   "why": "Group hierarchy maintained by dominance orientation."
+  },
+  {
+   "source": "kinderkam2009",
+   "target": "brader2008",
+   "type": "qualifies",
+   "why": "General ethnocentrism, more than issue-specific group cues, underlies immigration opinion."
+  },
+  {
+   "source": "valentino2018poq",
+   "target": "kindersanders1996",
+   "type": "extends_to_new_case",
+   "why": "Sexism mobilized by emotion."
+  },
+  {
+   "source": "druckman2006",
+   "target": "iyengarkinder1987",
+   "type": "synthesizes",
+   "why": "Experiments spread through political science."
+  },
+  {
+   "source": "cliffordjerit2014",
+   "target": "druckman2006",
+   "type": "builds_on",
+   "why": "Data quality of online versus lab samples."
+  },
+  {
+   "source": "mullinix2015",
+   "target": "druckman2006",
+   "type": "builds_on",
+   "why": "Survey experiments generalize across samples."
+  },
+  {
+   "source": "druckmanlevendusky2019",
+   "target": "mullinix2015",
+   "type": "synthesizes",
+   "why": "Measurement of affective polarization."
+  },
+  {
+   "source": "bankert2016",
+   "target": "mullinix2015",
+   "type": "synthesizes",
+   "why": "Measurement of partisan identity."
+  },
+  {
+   "source": "luskinbullock2011",
+   "target": "priorlupia2008",
+   "type": "synthesizes",
+   "why": "Measurement of political knowledge."
+  },
+  {
+   "source": "kertzerrenshon2022",
+   "target": "mullinix2015",
+   "type": "extends_to_new_case",
+   "why": "Experiments on elite samples."
+  },
+  {
+   "source": "marcus2000",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alford2005",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lodgetaber2013",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pennycookrand2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddy2015",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddy2015",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taberlodge2006",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oliverwood2014",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "douglas2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2008",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowlerkam2007",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2011",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2008",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2008",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2018poq",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2018poq",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2010",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2011arps",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mondak2010",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carney2008",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carney2008",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldmanjohnston2014",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jost2017",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonsuhay2011",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddykhatib2007",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddykhatib2007",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2017",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2017",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2008",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowlerdawes2008",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hatemi2009",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hatemi2009",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ryan2017",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ryan2017",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbell1960",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "converse1964",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "converse1964",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zaller1992",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zaller1992",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chongdruckman2007arps",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chongdruckman2007",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chongdruckman2010",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullock2011",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullock2011",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lenz2009",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slothuusdevreese2010",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slothuusdevreese2010",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leeperslothuus2014",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bolsen2014",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaines2007",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jeritbarabas2012",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jeritbarabas2012",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goren2009",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nicholson2012",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2013",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2013",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2010",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesler2015",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boudreaumackenzie2014",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanleeper2012",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "flynn2017",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockmankalla2016",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockmankalla2016",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "citrinstoker2018",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "prior2007",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2006",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2013",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allcottgentzkow2017",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vosoughi2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guess2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhanreifler2010",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhanreifler2010",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woodporter2019",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thorson2016",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clayton2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhan2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "osmundsen2021",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "uscinski2016",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2016",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2016",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhanreifler2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "enders2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jeritzhao2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenpalmquist2002",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2018",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2015",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2015",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2016",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2018poq",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mason2018poq",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengar2012",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengarwestwood2015",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengar2019",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abramowitzwebster2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "websterabramowitz2017",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "websterabramowitz2017",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rogowskisutherland2016",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "westiyengar2022",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lelkeswestwood2017",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levendusky2018",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahlersood2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanlevendusky2019",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanlevendusky2019",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingzette2021",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingzette2021",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcconnell2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerberhuber2009",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wojcieszakwarner2020",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bankert2021",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bankert2021",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2022",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jennings2009",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalmoemason2022",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grahamsvolik2020",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grahamsvolik2020",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lelkes2016",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kindersears1981",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blumer1958",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allport1954",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidaniuspratto1999",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidaniuspratto1999",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "henrysears2002",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinderkam2009",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "craigricheson2014",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "craigricheson2014",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2002",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2002",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcfarland2010",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcfarland2010",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "searssavalei2006",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "searssavalei2006",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "banksvalentino2012",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "banksvalentino2012",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jardina2019",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jardina2019",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kindersanders1996",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mendelberg2001",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mendelberg2001",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jervis1976",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yarhimilo2014",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yarhimilo2018",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yarhimilo2018",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "saunders2011",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitzstam2014",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcmanus2021",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer2005",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzer2014moral",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzer2014moral",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guisinger2017",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guisinger2017",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hb2017behavioral",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "basol2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vaccarichadwick2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altay2023",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benabou2006",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sunsteinvermeule2009",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercierlandemore2012",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2019",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2021",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shayo2009",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kahan2012",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kahan2012",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kruglanski2014",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kruglanski2014",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caprara2006",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kahan2015",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kahan2015",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwartz2010",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gross2008",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gross2008",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "redlawsk2010",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengarkrupenkin2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piurko2011",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piurko2011",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masonwronski2018",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vasilopoulos2018",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vasilopoulos2018",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanderlinden2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanderlinden2020",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skitkabauman2008",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lebocassino2007",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandeth2010",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schoen2007",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2009",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smalllerner2008",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "conway2017",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "conway2017",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gadarianalbertson2013",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gadarianalbertson2013",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandertoorn2014",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandertoorn2014",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersen2012pp",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersen2012pp",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thorisdottirjost2011",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thorisdottirjost2011",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crawfordpilanski2012",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crawfordpilanski2012",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "golecdezavala2019",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burke2013",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burke2013",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sibley2007",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "federicomalka2018",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "federicomalka2018",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skitkamorgan2014",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddy2018",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slothuus2008",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "federico2013",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "federico2013",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marcus2019",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marcus2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eckerang2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eckerang2018",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duckittbizumic2013",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalmoe2020",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalmoe2020",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jost2014neuro",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2011pp",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2011pp",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fatke2016",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "groenendykbanks2013",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "groenendykbanks2013",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "suhayerisen2018",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "suhayerisen2018",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddyyair2020",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laustsenpetersen2017",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laustsenpetersen2017",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "erisen2021",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mullinix2015",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreps2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berlinski2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berlinski2021",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2020jeps",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhanreifler2015jeps",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cliffordjerit2014",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2003",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2003",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbellkay2014",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "campbellkay2014",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2007",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kandler2012",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lilienfeld2012",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lilienfeld2012",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rentfrow2013",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanboven2012",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crawford2017",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crawford2017",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fernbach2013",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fernbach2013",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halperin2012",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halperin2012",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hodsonbusseri2012",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hodsonbusseri2012",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helzerpizarro2011",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "helzerpizarro2011",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersen2013psci",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "toner2013",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraley2012",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraley2012",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barabas2014",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2020",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2020",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aaroe2017",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aaroe2017",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young2018",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2012",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2012",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2010apsr",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krishnarajan2022",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krishnarajan2022",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fishkin2021",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mackuen2010",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jerit2006",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersen2011",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersen2011",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonhusser2011",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diaslelkes2021",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockmanbutler2015",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "priorlupia2008",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "verhulst2011",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "verhulst2011",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersoniyengar2020",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egan2019",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2022",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2022",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisgaard2015",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2011jop",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gadarian2010",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gadarian2010",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcdermott2008",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcdermott2008",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chongdruckman2013",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullock2009",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cliffordjerit2013",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cliffordjerit2013",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luskinbullock2011",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luskinbullock2011",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonrudolph2008",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonrudolph2008",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simonovits2022",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simonovits2022",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tilleyhobolt2011",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mondakhalperin2008",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinsky2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2020",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2020",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baekgaard2017",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrettbankert2018",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrettbankert2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gidron2022",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dinas2013",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taber2008",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanmcdermott2008",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanmcdermott2008",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2008pb",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauer2016",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauer2016",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersen2012pb",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersen2012pb",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bankert2016",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bankert2016",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwartz2013",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwartz2013",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martherus2019",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devine2014",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devine2014",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2011pb",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2011pb",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "einsteinglick2014",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "einsteinglick2014",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treierhillygus2009",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treierhillygus2009",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thorisdottir2007",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thorisdottir2007",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "merkley2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klar2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaffnerluks2018",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaffnerluks2018",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nir2011",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garzia2023",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vragabode2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levenduskymalhotra2015",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aaroe2011",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aaroe2011",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2013",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzertingley2018",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2022arps",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "webster2022",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalinsambanis2018",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullocklenz2019",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullocklenz2019",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hatemimcdermott2016",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzerrenshon2022",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzerrenshon2022",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carminesdamico2015",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nannestad2008",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallyarhimilo2012",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaferwalker2006",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schaferwalker2006",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gustafssonhall2021",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gustafssonhall2021",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansfieldmutz2009",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer2010",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer2010",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "renshon2015",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herrmann2017",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herrmann2017",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herrmann2017",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzer2019",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzer2019",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stein2017",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearlman2013",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibson2006",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hafnerburton2013",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "charney2008",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malka2020",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malka2020",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adorno1950",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adorno1950",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hovland1953",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stouffer1955",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "festinger1957",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcclosky1964",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcclosky1964",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jenningsniemi1968",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kahnemantversky1979",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kahnemantversky1979",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tajfelturner1979",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tajfelturner1979",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altemeyer1981",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tverskykahneman1981",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sullivan1982",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettycacioppo1986",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettycacioppo1986",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengarkinder1987",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldman1988",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldman1988",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krosnickkinder1990",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kunda1990",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengar1991",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "popkin1991",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sniderman1991",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwartz1992",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marcusmackuen1993",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupia1994",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupia1994",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lodge1995",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lodge1995",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellicarpini1996",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nelson1997",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nelson1997",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldmanstenner1997",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "searsvalentino1997",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levy1997",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetherington1998",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcdermott1998",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuklinski2000",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuklinski2000",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2001",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2001",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lauredlawsk2001",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddy2001",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lernerkeltner2001",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jost2003",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "feldman2003",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddy2005",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huddy2005",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stenner2005",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetherington2005",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tetlock2005",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tetlock2005",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jost2006",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2006",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2006",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2006",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oxley2008",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "graham2009",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "graham2009",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonweiler2009",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonweiler2009",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinsky2009",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinsky2009",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haidt2012",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lewandowsky2012",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "uscinskiparent2014",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hibbing2014",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hibbing2014",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

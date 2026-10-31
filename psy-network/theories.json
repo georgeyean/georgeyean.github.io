@@ -1,0 +1,1682 @@
+{
+ "meta": {
+  "field": "Political Psychology",
+  "built": "2026-10-28",
+  "theories": 35,
+  "relations": 36,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "cognition",
+   "label": "Information processing & reasoning",
+   "color": "#2563eb"
+  },
+  {
+   "id": "affect",
+   "label": "Emotion & affect",
+   "color": "#ea580c"
+  },
+  {
+   "id": "dispositions",
+   "label": "Personality, values & predispositions",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "identity",
+   "label": "Identity & intergroup relations",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "communication",
+   "label": "Communication & persuasion",
+   "color": "#0891b2"
+  },
+  {
+   "id": "ideology",
+   "label": "Ideology & morality",
+   "color": "#16a34a"
+  },
+  {
+   "id": "ir",
+   "label": "Psychology of international politics",
+   "color": "#334155"
+  }
+ ],
+ "theories": [
+  {
+   "id": "beliefsystems",
+   "label": "Belief systems & ideological innocence",
+   "family": "cognition",
+   "year": 1964,
+   "origin": "Converse",
+   "core": "Most citizens lack constrained, ideological belief systems.",
+   "works": [
+    {
+     "id": "converse1964",
+     "dir": "psy-network",
+     "label": "Converse 1964",
+     "title": "The Nature of Belief Systems in Mass Publics",
+     "authors": "Philip E. Converse",
+     "year": 1964,
+     "journal": "Ideology and Discontent, Free Press (chapter)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "dellicarpini1996",
+     "dir": "psy-network",
+     "label": "Delli Carpini 1996",
+     "title": "What Americans Know about Politics and Why It Matters",
+     "authors": "Michael X. Delli Carpini & Scott Keeter",
+     "year": 1996,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kalmoe2020",
+     "dir": "psy-network",
+     "label": "Kalmoe 2020",
+     "title": "Uses and Abuses of Ideology in Political Psychology",
+     "authors": "Nathan P. Kalmoe",
+     "year": 2020,
+     "journal": "Political Psychology",
+     "doi": "10.1111/pops.12650",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rae",
+   "label": "Receive-accept-sample model",
+   "family": "communication",
+   "year": 1992,
+   "origin": "Zaller",
+   "core": "Opinions are samples of considerations; awareness governs receiving and resisting elite messages.",
+   "works": [
+    {
+     "id": "zaller1992",
+     "dir": "psy-network",
+     "label": "Zaller 1992",
+     "title": "The Nature and Origins of Mass Opinion",
+     "authors": "John R. Zaller",
+     "year": 1992,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lenz2009",
+     "dir": "psy-network",
+     "label": "Lenz 2009",
+     "title": "Learning and Opinion Change, Not Priming: Reconsidering the Priming Hypothesis",
+     "authors": "Gabriel S. Lenz",
+     "year": 2009,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2009.00403.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "lowinfo",
+   "label": "Low-information rationality & heuristics",
+   "family": "cognition",
+   "year": 1991,
+   "origin": "Popkin; Lupia; Sniderman et al.",
+   "core": "Shortcuts let citizens reason well with little information.",
+   "works": [
+    {
+     "id": "popkin1991",
+     "dir": "psy-network",
+     "label": "Popkin 1991",
+     "title": "The Reasoning Voter: Communication and Persuasion in Presidential Campaigns",
+     "authors": "Samuel L. Popkin",
+     "year": 1991,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lupia1994",
+     "dir": "psy-network",
+     "label": "Lupia 1994",
+     "title": "Shortcuts versus Encyclopedias: Information and Voting Behavior in California Insurance Reform Elections",
+     "authors": "Arthur Lupia",
+     "year": 1994,
+     "journal": "APSR",
+     "doi": "10.2307/2944882",
+     "zotero": null
+    },
+    {
+     "id": "lauredlawsk2001",
+     "dir": "psy-network",
+     "label": "Lau 2001",
+     "title": "Advantages and Disadvantages of Cognitive Heuristics in Political Decision Making",
+     "authors": "Richard R. Lau & David P. Redlawsk",
+     "year": 2001,
+     "journal": "AJPS",
+     "doi": "10.2307/2669334",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "online",
+   "label": "Online processing & hot cognition",
+   "family": "cognition",
+   "year": 1995,
+   "origin": "Lodge & Taber",
+   "core": "People keep a running affective tally and forget the details.",
+   "works": [
+    {
+     "id": "lodge1995",
+     "dir": "psy-network",
+     "label": "Lodge 1995",
+     "title": "The Responsive Voter: Campaign Information and the Dynamics of Candidate Evaluation",
+     "authors": "Milton Lodge, Marco R. Steenbergen & Shawn Brau",
+     "year": 1995,
+     "journal": "APSR",
+     "doi": "10.2307/2082427",
+     "zotero": null
+    },
+    {
+     "id": "lodgetaber2013",
+     "dir": "psy-network",
+     "label": "Lodge 2013",
+     "title": "The Rationalizing Voter",
+     "authors": "Milton Lodge & Charles S. Taber",
+     "year": 2013,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "motivated",
+   "label": "Motivated reasoning",
+   "family": "cognition",
+   "year": 1990,
+   "origin": "Kunda; Taber & Lodge",
+   "core": "Directional goals bias how people seek and evaluate information.",
+   "works": [
+    {
+     "id": "kunda1990",
+     "dir": "psy-network",
+     "label": "Kunda 1990",
+     "title": "The Case for Motivated Reasoning",
+     "authors": "Ziva Kunda",
+     "year": 1990,
+     "journal": "Psychological Bulletin",
+     "doi": "10.1037/0033-2909.108.3.480",
+     "zotero": null
+    },
+    {
+     "id": "taberlodge2006",
+     "dir": "psy-network",
+     "label": "Taber 2006",
+     "title": "Motivated Skepticism in the Evaluation of Political Beliefs",
+     "authors": "Charles S. Taber & Milton Lodge",
+     "year": 2006,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2006.00214.x",
+     "zotero": null
+    },
+    {
+     "id": "bolsen2014",
+     "dir": "psy-network",
+     "label": "Bolsen 2013",
+     "title": "The Influence of Partisan Motivated Reasoning on Public Opinion",
+     "authors": "Toby Bolsen, James N. Druckman & Fay Lomax Cook",
+     "year": 2013,
+     "journal": "Political Behavior",
+     "doi": "10.1007/s11109-013-9238-0",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "identityprotective",
+   "label": "Identity-protective cognition",
+   "family": "cognition",
+   "year": 2012,
+   "origin": "Kahan",
+   "core": "People process contested facts to protect standing in their cultural group.",
+   "works": [
+    {
+     "id": "kahan2012",
+     "dir": "psy-network",
+     "label": "Kahan 2012",
+     "title": "The polarizing impact of science literacy and numeracy on perceived climate change risks",
+     "authors": "Dan M. Kahan, Ellen Peters, Maggie Wittlin et al.",
+     "year": 2012,
+     "journal": "Nature Climate Change",
+     "doi": "10.1038/nclimate1547",
+     "zotero": null
+    },
+    {
+     "id": "kahan2015",
+     "dir": "psy-network",
+     "label": "Kahan 2015",
+     "title": "Climate‐Science Communication and the Measurement Problem",
+     "authors": "Dan M. Kahan",
+     "year": 2015,
+     "journal": "Political Psychology",
+     "doi": "10.1111/pops.12244",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "bayesian",
+   "label": "Bayesian updating & expressive responding",
+   "family": "cognition",
+   "year": 2009,
+   "origin": "Bullock; Bullock & Lenz",
+   "core": "Partisan gaps can arise from rational updating or expressive answers, not biased reasoning.",
+   "works": [
+    {
+     "id": "bullock2009",
+     "dir": "psy-network",
+     "label": "Bullock 2009",
+     "title": "Partisan Bias and the Bayesian Ideal in the Study of Public Opinion",
+     "authors": "John G. Bullock",
+     "year": 2009,
+     "journal": "JOP",
+     "doi": "10.1017/s0022381609090914",
+     "zotero": null
+    },
+    {
+     "id": "bullocklenz2019",
+     "dir": "psy-network",
+     "label": "Bullock 2019",
+     "title": "Partisan Bias in Surveys",
+     "authors": "John G. Bullock & Gabriel Lenz",
+     "year": 2019,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-051117-050904",
+     "zotero": null
+    },
+    {
+     "id": "schaffnerluks2018",
+     "dir": "psy-network",
+     "label": "Schaffner 2018",
+     "title": "Misinformation or Expressive Responding?",
+     "authors": "Brian F Schaffner & Samantha Luks",
+     "year": 2018,
+     "journal": "Public Opinion Quarterly",
+     "doi": "10.1093/poq/nfx042",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "misinfo",
+   "label": "Continued influence & correction of misinformation",
+   "family": "cognition",
+   "year": 2000,
+   "origin": "Kuklinski; Nyhan & Reifler; Lewandowsky",
+   "core": "False beliefs persist after correction unless replaced by better explanations.",
+   "works": [
+    {
+     "id": "kuklinski2000",
+     "dir": "psy-network",
+     "label": "Kuklinski 2000",
+     "title": "Misinformation and the Currency of Democratic Citizenship",
+     "authors": "James H. Kuklinski et al.",
+     "year": 2000,
+     "journal": "JOP",
+     "doi": "10.1111/0022-3816.00033",
+     "zotero": null
+    },
+    {
+     "id": "nyhanreifler2010",
+     "dir": "psy-network",
+     "label": "Nyhan 2010",
+     "title": "When Corrections Fail: The Persistence of Political Misperceptions",
+     "authors": "Brendan Nyhan & Jason Reifler",
+     "year": 2010,
+     "journal": "Political Behavior",
+     "doi": "10.1007/s11109-010-9112-2",
+     "zotero": null
+    },
+    {
+     "id": "lewandowsky2012",
+     "dir": "psy-network",
+     "label": "Lewandowsky 2012",
+     "title": "Misinformation and Its Correction: Continued Influence and Successful Debiasing",
+     "authors": "Stephan Lewandowsky et al.",
+     "year": 2012,
+     "journal": "Psychological Science in the Public Interest",
+     "doi": "10.1177/1529100612451018",
+     "zotero": null
+    },
+    {
+     "id": "woodporter2019",
+     "dir": "psy-network",
+     "label": "Wood 2018",
+     "title": "The Elusive Backfire Effect: Mass Attitudes’ Steadfast Factual Adherence",
+     "authors": "Thomas Wood & Ethan Porter",
+     "year": 2018,
+     "journal": "Political Behavior",
+     "doi": "10.1007/s11109-018-9443-y",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "conspiracy",
+   "label": "Conspiratorial predispositions",
+   "family": "cognition",
+   "year": 2014,
+   "origin": "Uscinski; Oliver & Wood",
+   "core": "Belief in conspiracies reflects a stable predisposition activated by politics.",
+   "works": [
+    {
+     "id": "uscinskiparent2014",
+     "dir": "psy-network",
+     "label": "Uscinski 2014",
+     "title": "American Conspiracy Theories",
+     "authors": "Joseph E. Uscinski & Joseph M. Parent",
+     "year": 2014,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "oliverwood2014",
+     "dir": "psy-network",
+     "label": "Oliver 2014",
+     "title": "Conspiracy Theories and the Paranoid Style(s) of Mass Opinion",
+     "authors": "J. Eric Oliver & Thomas J. Wood",
+     "year": 2014,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12084",
+     "zotero": null
+    },
+    {
+     "id": "douglas2019",
+     "dir": "psy-network",
+     "label": "Douglas 2019",
+     "title": "Understanding Conspiracy Theories",
+     "authors": "Karen M. Douglas, Joseph E. Uscinski, Robbie M. Sutton et al.",
+     "year": 2019,
+     "journal": "Political Psychology",
+     "doi": "10.1111/pops.12568",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "affectiveintelligence",
+   "label": "Affective intelligence",
+   "family": "affect",
+   "year": 1993,
+   "origin": "Marcus & MacKuen",
+   "core": "Anxiety interrupts habit and prompts attention and learning; enthusiasm reinforces habit.",
+   "works": [
+    {
+     "id": "marcusmackuen1993",
+     "dir": "psy-network",
+     "label": "Marcus 1993",
+     "title": "Anxiety, Enthusiasm, and the Vote: The Emotional Underpinnings of Learning and Involvement during Presidential Campaigns",
+     "authors": "George E. Marcus & Michael B. MacKuen",
+     "year": 1993,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "marcus2000",
+     "dir": "psy-network",
+     "label": "Marcus 2000",
+     "title": "Affective Intelligence and Political Judgment",
+     "authors": "George E. Marcus, W. Russell Neuman & Michael MacKuen",
+     "year": 2000,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mackuen2010",
+     "dir": "psy-network",
+     "label": "MacKuen 2010",
+     "title": "Civic Engagements: Resolute Partisanship or Reflective Deliberation",
+     "authors": "Michael MacKuen, Jennifer Wolak, Luke Keele & George E. Marcus",
+     "year": 2010,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2010.00440.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "appraisal",
+   "label": "Appraisal tendency theory",
+   "family": "affect",
+   "year": 2001,
+   "origin": "Lerner & Keltner",
+   "core": "Discrete emotions such as fear and anger have distinct effects on judgment.",
+   "works": [
+    {
+     "id": "lernerkeltner2001",
+     "dir": "psy-network",
+     "label": "Lerner 2001",
+     "title": "Fear, Anger, and Risk",
+     "authors": "Jennifer S. Lerner & Dacher Keltner",
+     "year": 2001,
+     "journal": "Journal of Personality and Social Psychology",
+     "doi": "10.1037/0022-3514.81.1.146",
+     "zotero": null
+    },
+    {
+     "id": "huddy2005",
+     "dir": "psy-network",
+     "label": "Huddy 2005",
+     "title": "Threat, Anxiety, and Support of Antiterrorism Policies",
+     "authors": "Leonie Huddy, Stanley Feldman, Charles Taber & Gallya Lahav",
+     "year": 2005,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2005.00144.x",
+     "zotero": null
+    },
+    {
+     "id": "valentino2011",
+     "dir": "psy-network",
+     "label": "Valentino 2011",
+     "title": "Election Night’s Alright for Fighting: The Role of Emotions in Political Participation",
+     "authors": "Nicholas A. Valentino, Ted Brader, Eric W. Groenendyk et al.",
+     "year": 2011,
+     "journal": "JOP",
+     "doi": "10.1017/s0022381610000939",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "bigfive",
+   "label": "Big Five personality & politics",
+   "family": "dispositions",
+   "year": 2008,
+   "origin": "Mondak; Gerber et al.",
+   "core": "Broad personality traits shape attitudes and participation.",
+   "works": [
+    {
+     "id": "mondakhalperin2008",
+     "dir": "psy-network",
+     "label": "Mondak 2008",
+     "title": "A Framework for the Study of Personality and Political Behaviour",
+     "authors": "Jeffery J Mondak & Karen D Halperin",
+     "year": 2008,
+     "journal": "BJPS",
+     "doi": "10.1017/s0007123408000173",
+     "zotero": null
+    },
+    {
+     "id": "gerber2010",
+     "dir": "psy-network",
+     "label": "Gerber 2010",
+     "title": "Personality and Political Attitudes: Relationships across Issue Domains and Political Contexts",
+     "authors": "Alan S. Gerber, Gregory A. Huber, David Doherty et al.",
+     "year": 2010,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055410000031",
+     "zotero": null
+    },
+    {
+     "id": "mondak2010",
+     "dir": "psy-network",
+     "label": "Mondak 2010",
+     "title": "Personality and Civic Engagement: An Integrative Framework for the Study of Trait Effects on Political Behavior",
+     "authors": "Jeffery J. Mondak, Matthew V. Hibbing, Damarys Canache et al.",
+     "year": 2010,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055409990359",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "values",
+   "label": "Basic human values",
+   "family": "dispositions",
+   "year": 1992,
+   "origin": "Schwartz",
+   "core": "A universal structure of values underlies political values and choices.",
+   "works": [
+    {
+     "id": "schwartz1992",
+     "dir": "psy-network",
+     "label": "Schwartz 1992",
+     "title": "Universals in the Content and Structure of Values: Theoretical Advances and Empirical Tests in 20 Countries",
+     "authors": "Shalom H. Schwartz",
+     "year": 1992,
+     "journal": "Advances in Experimental Social Psychology",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "schwartz2010",
+     "dir": "psy-network",
+     "label": "Schwartz 2010",
+     "title": "Basic Personal Values, Core Political Values, and Voting: A Longitudinal Analysis",
+     "authors": "Shalom H. Schwartz, Gian Vittorio Caprara & Michele Vecchione",
+     "year": 2010,
+     "journal": "Political Psychology",
+     "doi": "10.1111/j.1467-9221.2010.00764.x",
+     "zotero": null
+    },
+    {
+     "id": "caprara2006",
+     "dir": "psy-network",
+     "label": "Caprara 2006",
+     "title": "Personality and Politics: Values, Traits, and Political Choice",
+     "authors": "Gian Vittorio Caprara, Shalom Schwartz, Cristina Capanna et al.",
+     "year": 2006,
+     "journal": "Political Psychology",
+     "doi": "10.1111/j.1467-9221.2006.00447.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "authoritarianism",
+   "label": "Authoritarianism",
+   "family": "dispositions",
+   "year": 1950,
+   "origin": "Adorno; Altemeyer; Feldman; Stenner",
+   "core": "A predisposition favoring conformity and order turns intolerant under threat.",
+   "works": [
+    {
+     "id": "adorno1950",
+     "dir": "psy-network",
+     "label": "Adorno 1950",
+     "title": "The Authoritarian Personality",
+     "authors": "Theodor W. Adorno, Else Frenkel-Brunswik, Daniel J. Levinson & R. Nevitt Sanford",
+     "year": 1950,
+     "journal": "Harper & Brothers (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "altemeyer1981",
+     "dir": "psy-network",
+     "label": "Altemeyer 1981",
+     "title": "Right-Wing Authoritarianism",
+     "authors": "Bob Altemeyer",
+     "year": 1981,
+     "journal": "University of Manitoba Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "feldman2003",
+     "dir": "psy-network",
+     "label": "Feldman 2003",
+     "title": "Enforcing Social Conformity: A Theory of Authoritarianism",
+     "authors": "Stanley Feldman",
+     "year": 2003,
+     "journal": "Political Psychology",
+     "doi": "10.1111/0162-895x.00316",
+     "zotero": null
+    },
+    {
+     "id": "stenner2005",
+     "dir": "psy-network",
+     "label": "Stenner 2005",
+     "title": "The Authoritarian Dynamic",
+     "authors": "Karen Stenner",
+     "year": 2005,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "sdo",
+   "label": "Social dominance theory",
+   "family": "dispositions",
+   "year": 1999,
+   "origin": "Sidanius & Pratto",
+   "core": "Preference for group hierarchy is a distinct root of prejudice.",
+   "works": [
+    {
+     "id": "sidaniuspratto1999",
+     "dir": "psy-network",
+     "label": "Sidanius 1999",
+     "title": "Social Dominance: An Intergroup Theory of Social Hierarchy and Oppression",
+     "authors": "Jim Sidanius & Felicia Pratto",
+     "year": 1999,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "genopolitics",
+   "label": "Genopolitics & biopolitics",
+   "family": "dispositions",
+   "year": 2005,
+   "origin": "Alford, Funk & Hibbing",
+   "core": "Political orientations are partly heritable and linked to physiology.",
+   "works": [
+    {
+     "id": "alford2005",
+     "dir": "psy-network",
+     "label": "Alford 2005",
+     "title": "Are Political Orientations Genetically Transmitted?",
+     "authors": "John R. Alford, Carolyn L. Funk & John R. Hibbing",
+     "year": 2005,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055405051579",
+     "zotero": null
+    },
+    {
+     "id": "oxley2008",
+     "dir": "psy-network",
+     "label": "Oxley 2008",
+     "title": "Political Attitudes Vary with Physiological Traits",
+     "authors": "Douglas R. Oxley et al.",
+     "year": 2008,
+     "journal": "Science",
+     "doi": "10.1126/science.1157627",
+     "zotero": null
+    },
+    {
+     "id": "hibbing2014",
+     "dir": "psy-network",
+     "label": "Hibbing 2014",
+     "title": "Differences in Negativity Bias Underlie Variations in Political Ideology",
+     "authors": "John R. Hibbing, Kevin B. Smith & John R. Alford",
+     "year": 2014,
+     "journal": "Behavioral and Brain Sciences",
+     "doi": "10.1017/s0140525x13001192",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "evolutionary",
+   "label": "Evolutionary political psychology",
+   "family": "dispositions",
+   "year": 2011,
+   "origin": "Petersen",
+   "core": "Evolved mechanisms for small-group life shape modern political judgment.",
+   "works": [
+    {
+     "id": "petersen2011",
+     "dir": "psy-network",
+     "label": "Petersen 2011",
+     "title": "Social Welfare as Small‐Scale Help: Evolutionary Psychology and the Deservingness Heuristic",
+     "authors": "Michael Bang Petersen",
+     "year": 2011,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2011.00545.x",
+     "zotero": null
+    },
+    {
+     "id": "petersen2013psci",
+     "dir": "psy-network",
+     "label": "Petersen 2013",
+     "title": "The Ancestral Logic of Politics",
+     "authors": "Michael Bang Petersen, Daniel Sznycer, Aaron Sell et al.",
+     "year": 2013,
+     "journal": "Psychological Science",
+     "doi": "10.1177/0956797612466415",
+     "zotero": null
+    },
+    {
+     "id": "aaroe2017",
+     "dir": "psy-network",
+     "label": "Aarøe 2017",
+     "title": "The Behavioral Immune System Shapes Political Intuitions: Why and How Individual Differences in Disgust Sensitivity Underlie Opposition to Immigration",
+     "authors": "Lene AARØE, Michael Bang Petersen & Kevin Arceneaux",
+     "year": 2017,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055416000770",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "socialidentity",
+   "label": "Social identity theory",
+   "family": "identity",
+   "year": 1979,
+   "origin": "Tajfel & Turner",
+   "core": "Group membership alone produces in-group favoritism.",
+   "works": [
+    {
+     "id": "tajfelturner1979",
+     "dir": "psy-network",
+     "label": "Tajfel 1979",
+     "title": "An Integrative Theory of Intergroup Conflict",
+     "authors": "Henri Tajfel & John C. Turner",
+     "year": 1979,
+     "journal": "The Social Psychology of Intergroup Relations (chapter)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "huddy2001",
+     "dir": "psy-network",
+     "label": "Huddy 2001",
+     "title": "From Social to Political Identity: A Critical Examination of Social Identity Theory",
+     "authors": "Leonie Huddy",
+     "year": 2001,
+     "journal": "Political Psychology",
+     "doi": "10.1111/0162-895x.00230",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "partisanidentity",
+   "label": "Partisanship as social identity",
+   "family": "identity",
+   "year": 2002,
+   "origin": "Green, Palmquist & Schickler; Huddy; Mason",
+   "core": "Party is a social identity that drives behavior apart from issues.",
+   "works": [
+    {
+     "id": "greenpalmquist2002",
+     "dir": "psy-network",
+     "label": "Green 2002",
+     "title": "Partisan Hearts and Minds: Political Parties and the Social Identities of Voters",
+     "authors": "Donald Green, Bradley Palmquist & Eric Schickler",
+     "year": 2002,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "huddy2015",
+     "dir": "psy-network",
+     "label": "Huddy 2015",
+     "title": "Expressive Partisanship: Campaign Involvement, Political Emotion, and Partisan Identity",
+     "authors": "Leonie Huddy, Lilliana Mason & Lene AARØE",
+     "year": 2015,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055414000604",
+     "zotero": null
+    },
+    {
+     "id": "mason2018",
+     "dir": "psy-network",
+     "label": "Mason 2018",
+     "title": "Uncivil Agreement: How Politics Became Our Identity",
+     "authors": "Lilliana Mason",
+     "year": 2018,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "affectivepolarization",
+   "label": "Affective polarization",
+   "family": "identity",
+   "year": 2012,
+   "origin": "Iyengar et al.",
+   "core": "Partisans increasingly dislike and distrust the other party.",
+   "works": [
+    {
+     "id": "iyengar2012",
+     "dir": "psy-network",
+     "label": "Iyengar 2012",
+     "title": "Affect, Not Ideology",
+     "authors": "Shanto Iyengar, Gaurav Sood & Yphtach Lelkes",
+     "year": 2012,
+     "journal": "Public Opinion Quarterly",
+     "doi": "10.1093/poq/nfs038",
+     "zotero": null
+    },
+    {
+     "id": "iyengarwestwood2015",
+     "dir": "psy-network",
+     "label": "Iyengar 2014",
+     "title": "Fear and Loathing across Party Lines: New Evidence on Group Polarization",
+     "authors": "Shanto Iyengar & Sean J. Westwood",
+     "year": 2014,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12152",
+     "zotero": null
+    },
+    {
+     "id": "iyengar2019",
+     "dir": "psy-network",
+     "label": "Iyengar 2019",
+     "title": "The Origins and Consequences of Affective Polarization in the United States",
+     "authors": "Shanto Iyengar, Yphtach Lelkes, Matthew Levendusky et al.",
+     "year": 2019,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-051117-073034",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "contact",
+   "label": "Intergroup contact",
+   "family": "identity",
+   "year": 1954,
+   "origin": "Allport",
+   "core": "Equal-status contact reduces prejudice.",
+   "works": [
+    {
+     "id": "allport1954",
+     "dir": "psy-network",
+     "label": "Allport 1954",
+     "title": "The Nature of Prejudice",
+     "authors": "Gordon W. Allport",
+     "year": 1954,
+     "journal": "Addison-Wesley (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "broockmankalla2016",
+     "dir": "psy-network",
+     "label": "Broockman 2016",
+     "title": "Durably Reducing Transphobia: A Field Experiment on Door-to-Door Canvassing",
+     "authors": "David Broockman & Joshua Kalla",
+     "year": 2016,
+     "journal": "Science",
+     "doi": "10.1126/science.aad9713",
+     "zotero": null
+    },
+    {
+     "id": "wojcieszakwarner2020",
+     "dir": "psy-network",
+     "label": "Wojcieszak 2020",
+     "title": "Can Interparty Contact Reduce Affective Polarization? A Systematic Test of Different Forms of Intergroup Contact",
+     "authors": "Magdalena Wojcieszak & Benjamin R. Warner",
+     "year": 2020,
+     "journal": "Political Communication",
+     "doi": "10.1080/10584609.2020.1760406",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "symbolicpolitics",
+   "label": "Symbolic politics & group attitudes",
+   "family": "identity",
+   "year": 1981,
+   "origin": "Sears; Kinder",
+   "core": "Early-learned affect toward groups and symbols drives opinion more than self-interest.",
+   "works": [
+    {
+     "id": "kindersears1981",
+     "dir": "psy-network",
+     "label": "Kinder 1981",
+     "title": "Prejudice and Politics: Symbolic Racism versus Racial Threats to the Good Life",
+     "authors": "Donald R. Kinder & David O. Sears",
+     "year": 1981,
+     "journal": "Journal of Personality and Social Psychology",
+     "doi": "10.1037/0022-3514.40.3.414",
+     "zotero": null
+    },
+    {
+     "id": "kindersanders1996",
+     "dir": "psy-network",
+     "label": "Kinder 1996",
+     "title": "Divided by Color: Racial Politics and Democratic Ideals",
+     "authors": "Donald R. Kinder & Lynn M. Sanders",
+     "year": 1996,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kinderkam2009",
+     "dir": "psy-network",
+     "label": "Kinder 2009",
+     "title": "Us Against Them: Ethnocentric Foundations of American Opinion",
+     "authors": "Donald R. Kinder & Cindy D. Kam",
+     "year": 2009,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "framing",
+   "label": "Framing theory",
+   "family": "communication",
+   "year": 1981,
+   "origin": "Tversky & Kahneman; Nelson et al.; Chong & Druckman",
+   "core": "How an issue is described changes which considerations matter.",
+   "works": [
+    {
+     "id": "tverskykahneman1981",
+     "dir": "psy-network",
+     "label": "Tversky 1981",
+     "title": "The Framing of Decisions and the Psychology of Choice",
+     "authors": "Amos Tversky & Daniel Kahneman",
+     "year": 1981,
+     "journal": "Science",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "nelson1997",
+     "dir": "psy-network",
+     "label": "Nelson 1997",
+     "title": "Media Framing of a Civil Liberties Conflict and Its Effect on Tolerance",
+     "authors": "Thomas E. Nelson, Rosalee A. Clawson & Zoe M. Oxley",
+     "year": 1997,
+     "journal": "APSR",
+     "doi": "10.2307/2952075",
+     "zotero": null
+    },
+    {
+     "id": "chongdruckman2007",
+     "dir": "psy-network",
+     "label": "Chong 2007",
+     "title": "Framing Public Opinion in Competitive Democracies",
+     "authors": "Dennis Chong & James N. Druckman",
+     "year": 2007,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055407070554",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "priming",
+   "label": "Agenda setting & priming",
+   "family": "communication",
+   "year": 1987,
+   "origin": "Iyengar & Kinder",
+   "core": "Media coverage shapes what people think about and the standards they use.",
+   "works": [
+    {
+     "id": "iyengarkinder1987",
+     "dir": "psy-network",
+     "label": "Iyengar 1987",
+     "title": "News That Matters: Television and American Opinion",
+     "authors": "Shanto Iyengar & Donald R. Kinder",
+     "year": 1987,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "krosnickkinder1990",
+     "dir": "psy-network",
+     "label": "Krosnick 1990",
+     "title": "Altering the Foundations of Support for the President through Priming",
+     "authors": "Jon A. Krosnick & Donald R. Kinder",
+     "year": 1990,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "elm",
+   "label": "Dual-process persuasion",
+   "family": "communication",
+   "year": 1986,
+   "origin": "Petty & Cacioppo",
+   "core": "Persuasion runs through argument quality or peripheral cues, depending on motivation.",
+   "works": [
+    {
+     "id": "pettycacioppo1986",
+     "dir": "psy-network",
+     "label": "Petty 1986",
+     "title": "Communication and Persuasion: Central and Peripheral Routes to Attitude Change",
+     "authors": "Richard E. Petty & John T. Cacioppo",
+     "year": 1986,
+     "journal": "Springer (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hovland1953",
+     "dir": "psy-network",
+     "label": "Hovland 1953",
+     "title": "Communication and Persuasion: Psychological Studies of Opinion Change",
+     "authors": "Carl I. Hovland, Irving L. Janis & Harold H. Kelley",
+     "year": 1953,
+     "journal": "Yale University Press (book)",
+     "doi": "10.2307/2087772",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "elitecues",
+   "label": "Elite & party cues",
+   "family": "communication",
+   "year": 2003,
+   "origin": "Cohen; Zaller",
+   "core": "Citizens follow trusted elites and parties in forming opinions.",
+   "works": [
+    {
+     "id": "cohen2003",
+     "dir": "psy-network",
+     "label": "Cohen 2003",
+     "title": "Party Over Policy: The Dominating Impact of Group Influence on Political Beliefs.",
+     "authors": "Geoffrey L. Cohen",
+     "year": 2003,
+     "journal": "Journal of Personality and Social Psychology",
+     "doi": "10.1037/0022-3514.85.5.808",
+     "zotero": null
+    },
+    {
+     "id": "bullock2011",
+     "dir": "psy-network",
+     "label": "Bullock 2011",
+     "title": "Elite Influence on Public Opinion in an Informed Electorate",
+     "authors": "John G. Bullock",
+     "year": 2011,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055411000165",
+     "zotero": null
+    },
+    {
+     "id": "broockmanbutler2015",
+     "dir": "psy-network",
+     "label": "Broockman 2015",
+     "title": "The Causal Effects of Elite Position‐Taking on Voter Attitudes: Field Experiments with Elite Communication",
+     "authors": "David E. Broockman & Daniel M. Butler",
+     "year": 2015,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12243",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mfd",
+   "label": "Moral foundations theory",
+   "family": "ideology",
+   "year": 2009,
+   "origin": "Haidt; Graham et al.",
+   "core": "Liberals and conservatives rely on different moral intuitions.",
+   "works": [
+    {
+     "id": "graham2009",
+     "dir": "psy-network",
+     "label": "Graham 2009",
+     "title": "Liberals and Conservatives Rely on Different Sets of Moral Foundations",
+     "authors": "Jesse Graham, Jonathan Haidt & Brian A. Nosek",
+     "year": 2009,
+     "journal": "Journal of Personality and Social Psychology",
+     "doi": "10.1037/a0015141",
+     "zotero": null
+    },
+    {
+     "id": "haidt2012",
+     "dir": "psy-network",
+     "label": "Haidt 2012",
+     "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+     "authors": "Jonathan Haidt",
+     "year": 2012,
+     "journal": "Pantheon (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "moralconviction",
+   "label": "Moral conviction",
+   "family": "ideology",
+   "year": 2008,
+   "origin": "Skitka",
+   "core": "Moralized attitudes resist compromise and motivate action.",
+   "works": [
+    {
+     "id": "skitkabauman2008",
+     "dir": "psy-network",
+     "label": "Skitka 2008",
+     "title": "Moral Conviction and Political Engagement",
+     "authors": "Linda J. Skitka & Christopher W. Bauman",
+     "year": 2008,
+     "journal": "Political Psychology",
+     "doi": "10.1111/j.1467-9221.2007.00611.x",
+     "zotero": null
+    },
+    {
+     "id": "skitkamorgan2014",
+     "dir": "psy-network",
+     "label": "Skitka 2014",
+     "title": "The Social and Political Implications of Moral Conviction",
+     "authors": "Linda J. Skitka & G. Scott Morgan",
+     "year": 2014,
+     "journal": "Political Psychology",
+     "doi": "10.1111/pops.12166",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "msc",
+   "label": "Conservatism as motivated social cognition",
+   "family": "ideology",
+   "year": 2003,
+   "origin": "Jost et al.",
+   "core": "Conservatism serves needs to manage uncertainty and threat.",
+   "works": [
+    {
+     "id": "jost2003",
+     "dir": "psy-network",
+     "label": "Jost 2003",
+     "title": "Political Conservatism as Motivated Social Cognition",
+     "authors": "John T. Jost, Jack Glaser, Arie W. Kruglanski & Frank J. Sulloway",
+     "year": 2003,
+     "journal": "Psychological Bulletin",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "jost2006",
+     "dir": "psy-network",
+     "label": "Jost 2006",
+     "title": "The End of the End of Ideology",
+     "authors": "John T. Jost",
+     "year": 2006,
+     "journal": "American Psychologist",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "jost2017",
+     "dir": "psy-network",
+     "label": "Jost 2017",
+     "title": "Ideological Asymmetries and the Essence of Political Psychology",
+     "authors": "John T. Jost",
+     "year": 2017,
+     "journal": "Political Psychology",
+     "doi": "10.1111/pops.12407",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "systemjustification",
+   "label": "System justification",
+   "family": "ideology",
+   "year": 2004,
+   "origin": "Jost, Banaji & Nosek",
+   "core": "People are motivated to see the existing social system as fair and legitimate.",
+   "works": [
+    {
+     "id": "vandertoorn2014",
+     "dir": "psy-network",
+     "label": "van der Toorn 2014",
+     "title": "A Sense of Powerlessness Fosters System Justification: Implications for the Legitimation of Authority, Hierarchy, and Government",
+     "authors": "Jojanneke van der Toorn, Matthew Feinberg, John T. Jost et al.",
+     "year": 2014,
+     "journal": "Political Psychology",
+     "doi": "10.1111/pops.12183",
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Jost 2004"
+   ]
+  },
+  {
+   "id": "prospect",
+   "label": "Prospect theory",
+   "family": "ir",
+   "year": 1979,
+   "origin": "Kahneman & Tversky; Levy; McDermott",
+   "core": "Loss aversion and reference dependence shape risky choices, including in foreign policy.",
+   "works": [
+    {
+     "id": "kahnemantversky1979",
+     "dir": "psy-network",
+     "label": "Kahneman 1979",
+     "title": "Prospect Theory: An Analysis of Decision under Risk",
+     "authors": "Daniel Kahneman & Amos Tversky",
+     "year": 1979,
+     "journal": "Econometrica",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "levy1997",
+     "dir": "psy-network",
+     "label": "Levy 1997",
+     "title": "Prospect Theory, Rational Choice, and International Relations",
+     "authors": "Jack S. Levy",
+     "year": 1997,
+     "journal": "ISQ",
+     "doi": "10.1111/0020-8833.00034",
+     "zotero": null
+    },
+    {
+     "id": "mcdermott1998",
+     "dir": "psy-network",
+     "label": "McDermott 1998",
+     "title": "Risk-Taking in International Politics: Prospect Theory in American Foreign Policy",
+     "authors": "Rose McDermott",
+     "year": 1998,
+     "journal": "University of Michigan Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "perception",
+   "label": "Perception & misperception",
+   "family": "ir",
+   "year": 1976,
+   "origin": "Jervis",
+   "core": "Decision makers' beliefs and cognitive biases distort how they read others.",
+   "works": [
+    {
+     "id": "jervis1976",
+     "dir": "psy-network",
+     "label": "Jervis 1976",
+     "title": "Perception and Misperception in International Politics",
+     "authors": "Robert Jervis",
+     "year": 1976,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.1515/9781400885114",
+     "zotero": null
+    },
+    {
+     "id": "yarhimilo2014",
+     "dir": "psy-network",
+     "label": "Yarhi-Milo 2014",
+     "title": "Knowing the Adversary: Leaders, Intelligence, and Assessment of Intentions",
+     "authors": "Keren Yarhi-Milo",
+     "year": 2014,
+     "journal": "Princeton University Press (book)",
+     "doi": "10.23943/princeton/9780691159157.001.0001",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "leadertraits",
+   "label": "Leader traits & beliefs",
+   "family": "ir",
+   "year": 2006,
+   "origin": "Saunders; Horowitz; Schafer & Walker",
+   "core": "Individual leaders' beliefs, experience and traits shape foreign policy.",
+   "works": [
+    {
+     "id": "saunders2011",
+     "dir": "psy-network",
+     "label": "Saunders 2011",
+     "title": "Leaders at War: How Presidents Shape Military Interventions",
+     "authors": "Elizabeth N. Saunders",
+     "year": 2011,
+     "journal": "Cornell University Press (book)",
+     "doi": "10.7591/cornell/9780801449222.001.0001",
+     "zotero": null
+    },
+    {
+     "id": "horowitzstam2014",
+     "dir": "psy-network",
+     "label": "Horowitz 2014",
+     "title": "How Prior Military Experience Influences the Future Militarized Behavior of Leaders",
+     "authors": "Michael C. Horowitz & Allan C. Stam",
+     "year": 2014,
+     "journal": "IO",
+     "doi": "10.1017/s0020818314000046",
+     "zotero": null
+    },
+    {
+     "id": "schaferwalker2006",
+     "dir": "psy-network",
+     "label": "Schafer 2006",
+     "title": "Democratic Leaders and the Democratic Peace: The Operational Codes of Tony Blair and Bill Clinton",
+     "authors": "Mark Schafer & Stephen G. Walker",
+     "year": 2006,
+     "journal": "ISQ",
+     "doi": "10.1111/j.1468-2478.2006.00414.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "emotionir",
+   "label": "Emotions in world politics",
+   "family": "ir",
+   "year": 2005,
+   "origin": "Mercer",
+   "core": "Emotions are part of rationality and make beliefs about others credible.",
+   "works": [
+    {
+     "id": "mercer2005",
+     "dir": "psy-network",
+     "label": "Mercer 2005",
+     "title": "Rationality and Psychology in International Politics",
+     "authors": "Jonathan Mercer",
+     "year": 2005,
+     "journal": "IO",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/PXMVN23C"
+    },
+    {
+     "id": "mercer2010",
+     "dir": "psy-network",
+     "label": "Mercer 2010",
+     "title": "Emotional Beliefs",
+     "authors": "Jonathan Mercer",
+     "year": 2010,
+     "journal": "IO",
+     "doi": "10.1017/s0020818309990221",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "behavioralir",
+   "label": "Behavioral revolution in IR",
+   "family": "ir",
+   "year": 2013,
+   "origin": "Hafner-Burton et al.; Kertzer & Tingley",
+   "core": "Psychology supplies microfoundations for IR theory.",
+   "works": [
+    {
+     "id": "hafnerburton2013",
+     "dir": "psy-network",
+     "label": "Hafner-Burton 2013",
+     "title": "The Cognitive Revolution and the Political Psychology of Elite Decision Making",
+     "authors": "Emilie M. Hafner-Burton, D. Alex Hughes & David G. Victor",
+     "year": 2013,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592713001084",
+     "zotero": null
+    },
+    {
+     "id": "hb2017behavioral",
+     "dir": "psy-network",
+     "label": "Hafner-Burton 2017",
+     "title": "The Behavioral Revolution and International Relations",
+     "authors": "Emilie M. Hafner-Burton, Stephan Haggard, David A. Lake & David G. Victor",
+     "year": 2017,
+     "journal": "IO",
+     "doi": "10.1017/s0020818316000400",
+     "zotero": null
+    },
+    {
+     "id": "kertzertingley2018",
+     "dir": "psy-network",
+     "label": "Kertzer 2018",
+     "title": "Political Psychology in International Relations: Beyond the Paradigms",
+     "authors": "Joshua D. Kertzer & Dustin Tingley",
+     "year": 2018,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-041916-020042",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "rae",
+   "target": "beliefsystems",
+   "type": "extends",
+   "why": "Opinion as sampling of considerations, conditioned by awareness."
+  },
+  {
+   "source": "lowinfo",
+   "target": "beliefsystems",
+   "type": "rivals",
+   "why": "Heuristics let citizens reason without ideology."
+  },
+  {
+   "source": "online",
+   "target": "lowinfo",
+   "type": "complements",
+   "why": "Running tallies summarize information voters forget."
+  },
+  {
+   "source": "online",
+   "target": "motivated",
+   "type": "extends",
+   "why": "Online tallies carry directional affect."
+  },
+  {
+   "source": "online",
+   "target": "affectiveintelligence",
+   "type": "rivals",
+   "why": "Affect as a running tally versus emotion as a trigger for deliberation."
+  },
+  {
+   "source": "identityprotective",
+   "target": "motivated",
+   "type": "extends",
+   "why": "Identity protection as the goal behind motivated reasoning."
+  },
+  {
+   "source": "identityprotective",
+   "target": "misinfo",
+   "type": "complements",
+   "why": "Identity protection explains resistance to correction."
+  },
+  {
+   "source": "bayesian",
+   "target": "motivated",
+   "type": "rivals",
+   "why": "Partisan gaps without biased reasoning."
+  },
+  {
+   "source": "misinfo",
+   "target": "beliefsystems",
+   "type": "extends",
+   "why": "Citizens are misinformed, not merely uninformed."
+  },
+  {
+   "source": "misinfo",
+   "target": "motivated",
+   "type": "applies",
+   "why": "Corrections fail when they threaten prior beliefs."
+  },
+  {
+   "source": "conspiracy",
+   "target": "misinfo",
+   "type": "extends",
+   "why": "Conspiracy beliefs as stable predispositions."
+  },
+  {
+   "source": "appraisal",
+   "target": "affectiveintelligence",
+   "type": "extends",
+   "why": "Discrete emotions such as anger and fear differ in effects."
+  },
+  {
+   "source": "bigfive",
+   "target": "values",
+   "type": "complements",
+   "why": "Traits and values as distinct predispositions."
+  },
+  {
+   "source": "bigfive",
+   "target": "genopolitics",
+   "type": "complements",
+   "why": "Heritable traits underlie both personality and politics."
+  },
+  {
+   "source": "sdo",
+   "target": "authoritarianism",
+   "type": "complements",
+   "why": "Two distinct roots of prejudice."
+  },
+  {
+   "source": "evolutionary",
+   "target": "genopolitics",
+   "type": "complements",
+   "why": "Evolved mechanisms rather than single genes."
+  },
+  {
+   "source": "evolutionary",
+   "target": "lowinfo",
+   "type": "rivals",
+   "why": "Evolved intuitions, not learned shortcuts, drive judgments like deservingness."
+  },
+  {
+   "source": "partisanidentity",
+   "target": "socialidentity",
+   "type": "applies",
+   "why": "Social identity applied to party."
+  },
+  {
+   "source": "affectivepolarization",
+   "target": "partisanidentity",
+   "type": "extends",
+   "why": "Party identity produces out-party animus."
+  },
+  {
+   "source": "affectivepolarization",
+   "target": "contact",
+   "type": "complements",
+   "why": "Interparty contact as a remedy for animus."
+  },
+  {
+   "source": "socialidentity",
+   "target": "contact",
+   "type": "rivals",
+   "why": "Mere categorization breeds bias even without conflict."
+  },
+  {
+   "source": "symbolicpolitics",
+   "target": "socialidentity",
+   "type": "complements",
+   "why": "Group attachments and early-learned affect."
+  },
+  {
+   "source": "framing",
+   "target": "prospect",
+   "type": "applies",
+   "why": "Prospect theory applied to issue framing."
+  },
+  {
+   "source": "priming",
+   "target": "framing",
+   "type": "complements",
+   "why": "Agenda setting, priming and framing as media effects."
+  },
+  {
+   "source": "elm",
+   "target": "framing",
+   "type": "complements",
+   "why": "Dual processes explain when frames persuade."
+  },
+  {
+   "source": "elitecues",
+   "target": "rae",
+   "type": "extends",
+   "why": "Party cues as the core of elite influence."
+  },
+  {
+   "source": "elitecues",
+   "target": "lowinfo",
+   "type": "extends",
+   "why": "Party cues as heuristics, or substitutes for policy content."
+  },
+  {
+   "source": "mfd",
+   "target": "moralconviction",
+   "type": "complements",
+   "why": "Moral intuitions and moral conviction."
+  },
+  {
+   "source": "msc",
+   "target": "authoritarianism",
+   "type": "extends",
+   "why": "Conservatism as motivated cognition revives the rigidity thesis."
+  },
+  {
+   "source": "mfd",
+   "target": "msc",
+   "type": "rivals",
+   "why": "Moral pluralism versus threat-and-uncertainty accounts of conservatism."
+  },
+  {
+   "source": "systemjustification",
+   "target": "msc",
+   "type": "complements",
+   "why": "Motivations to legitimate the status quo."
+  },
+  {
+   "source": "prospect",
+   "target": "perception",
+   "type": "complements",
+   "why": "Cognitive limits on rational choice."
+  },
+  {
+   "source": "leadertraits",
+   "target": "perception",
+   "type": "extends",
+   "why": "Individual leaders' beliefs and traits shape policy."
+  },
+  {
+   "source": "emotionir",
+   "target": "perception",
+   "type": "extends",
+   "why": "Emotion shapes beliefs about others."
+  },
+  {
+   "source": "behavioralir",
+   "target": "prospect",
+   "type": "synthesizes",
+   "why": "Behavioral microfoundations of IR."
+  },
+  {
+   "source": "behavioralir",
+   "target": "leadertraits",
+   "type": "synthesizes",
+   "why": "Leader psychology within the behavioral turn."
+  }
+ ]
+}

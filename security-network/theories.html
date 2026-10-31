@@ -164,6 +164,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
           <li role="option" aria-selected="false"><a href="../ir-network/theories.html">International Relations</a></li>
           <li role="option" aria-selected="true"><a href="../security-network/theories.html" class="current">International Security</a></li>
           <li role="option" aria-selected="false"><a href="../pe-network/theories.html">Political Economy</a></li>
+          <li role="option" aria-selected="false"><a href="../psy-network/theories.html">Political Psychology</a></li>
           <li role="option" aria-selected="false"><a href="../pt-network/theories.html">Political Theory</a></li>
           <li role="option" aria-selected="false"><a href="../rep-network/theories.html">Race, Ethnicity and Politics</a></li>
           <li role="option" aria-selected="false"><a href="../tech-network/theories.html">Technology and AI Politics</a></li>
@@ -219,7 +220,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
 
 <script>
 (async function(){
-  const FIELDS = {"ap-network": "American Politics", "cn-network": "Chinese Politics", "cp-network": "Comparative Politics", "env-network": "Environmental Politics", "ipe-network": "International Political Economy", "ir-network": "International Relations", "security-network": "International Security", "pe-network": "Political Economy", "pt-network": "Political Theory", "rep-network": "Race, Ethnicity and Politics", "tech-network": "Technology and AI Politics"};
+  const FIELDS = {"ap-network": "American Politics", "cn-network": "Chinese Politics", "cp-network": "Comparative Politics", "env-network": "Environmental Politics", "ipe-network": "International Political Economy", "ir-network": "International Relations", "security-network": "International Security", "pe-network": "Political Economy", "psy-network": "Political Psychology", "pt-network": "Political Theory", "rep-network": "Race, Ethnicity and Politics", "tech-network": "Technology and AI Politics"};
   const DIR = location.pathname.split('/').slice(-2)[0];
   const data = await fetch('theories.json').then(r => r.json());
   const fams = data.families, famById = Object.fromEntries(fams.map(f => [f.id, f]));
