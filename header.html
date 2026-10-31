@@ -1,18 +1,19 @@
 				<!-- Header -->
+					<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" />
 					<style>
 						/* Header 17% larger than the theme (was 30%, then reduced 10%). The theme sizes the bar, padding, name, links and icons in em,
 						   so one font-size change scales all of it; body padding matches the taller bar (3.5em x 1.17). */
 						#header { font-size: 117%; }
 						body { padding-top: 4.095em; }
-						/* Same link look on every page (custom.css only loads on some), with tighter gaps. */
-						#header .links ul li a { font-weight: 800; letter-spacing: 0.12em; }
-						/* Normal capitalization in the header (the theme forces uppercase), with tighter tracking for mixed case. */
-						#header h1, #header h1 a, #header .links ul li a, #menu .links h3 { text-transform: none; }
-						#header .links ul li a { letter-spacing: 0.04em; font-size: 0.78em; }
-						#header h1 a { letter-spacing: 0.04em; }
-						#menu .links h3 { letter-spacing: 0.03em; }
-						#header .links ul li { margin-left: 0.75em; padding-left: 0.75em; }
-						#header .links ul li:first-child { margin-left: 0; padding-left: 0; }
+						/* Classic small capitals: Raleway semibold, uppercase, widely tracked, with plain spacing instead of divider lines.
+						   Set on every page here because custom.css only loads on some. */
+						#header h1, #header h1 a, #header .links ul li a, #menu .links h3 { text-transform: uppercase; font-weight: 600; }
+						#header h1 a { letter-spacing: 0.22em; }
+						#header .links ul li a { font-size: 0.62em; letter-spacing: 0.18em; color: #555; }
+						#header .links ul li a:hover { color: #2ebaae; }
+						#menu .links h3 { letter-spacing: 0.16em; }
+						#header .links ul li { margin-left: 1.55em; padding-left: 0; border-left: 0; }
+						#header .links ul li:first-child { margin-left: 0; }
 						/* Laptops and desktops: no hamburger; the full link row is always visible.
 						   Tiers sized from measured row widths (130% needed ~1190px, 120% ~1100px), now 10% smaller. */
 						@media screen and (min-width: 981px) {
@@ -76,6 +77,9 @@
 						#header .links li.has-sub > a { position: relative; }
 						#header .links li.has-sub > a .new-wrap { position: static; }
 						#header .links li.has-sub > a .new-dot { top: -3px; right: -6px; }
+						/* slide-out menu: the label can wrap, so the dot follows the last word inline instead of being pinned to a corner */
+						#menu .new-wrap { position: static; }
+						#menu .new-dot { position: relative; display: inline-block; vertical-align: baseline; top: -0.45em; right: auto; margin-left: 5px; }
 					</style>
 					<header id="header">
 						<h1><a href="index.html">George Yean</a></h1>
