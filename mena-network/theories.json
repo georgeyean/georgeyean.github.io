@@ -1,0 +1,1787 @@
+{
+ "meta": {
+  "field": "Middle Eastern Politics",
+  "built": "2026-10-28",
+  "theories": 35,
+  "relations": 37,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "regimes",
+   "label": "Authoritarian durability & institutions",
+   "color": "#475569"
+  },
+  {
+   "id": "rents",
+   "label": "Rents & political economy",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "contention",
+   "label": "Contention, revolution & the military",
+   "color": "#dc2626"
+  },
+  {
+   "id": "religion",
+   "label": "Religion, Islamism & sect",
+   "color": "#16a34a"
+  },
+  {
+   "id": "conflict",
+   "label": "Violence & the Israeli-Palestinian conflict",
+   "color": "#0891b2"
+  },
+  {
+   "id": "international",
+   "label": "State formation & regional order",
+   "color": "#334155"
+  },
+  {
+   "id": "society",
+   "label": "Gender & public opinion",
+   "color": "#db2777"
+  }
+ ],
+ "theories": [
+  {
+   "id": "rentier",
+   "label": "Rentier state theory",
+   "family": "rents",
+   "year": 1970,
+   "origin": "Mahdavy; Beblawi & Luciani",
+   "core": "States living on external rents need not tax, so they buy acquiescence instead of granting representation.",
+   "works": [
+    {
+     "id": "mahdavy1970",
+     "dir": "mena-network",
+     "label": "Mahdavy 1970",
+     "title": "The Patterns and Problems of Economic Development in Rentier States: The Case of Iran",
+     "authors": "Hossein Mahdavy",
+     "year": 1970,
+     "journal": "Studies in the Economic History of the Middle East (chapter)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "beblawiluciani1987",
+     "dir": "mena-network",
+     "label": "Beblawi 1987",
+     "title": "The Rentier State",
+     "authors": "Hazem Beblawi & Giacomo Luciani (eds.)",
+     "year": 1987,
+     "journal": "Croom Helm (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "crystal1990",
+     "dir": "mena-network",
+     "label": "Crystal 1990",
+     "title": "Oil and Politics in the Gulf: Rulers and Merchants in Kuwait and Qatar",
+     "authors": "Jill Crystal",
+     "year": 1990,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "skocpol1982",
+     "dir": "mena-network",
+     "label": "Skocpol 1982",
+     "title": "Rentier State and Shi'a Islam in the Iranian Revolution",
+     "authors": "Theda Skocpol",
+     "year": 1982,
+     "journal": "Theory and Society",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "oilcurse",
+   "label": "Political resource curse",
+   "family": "rents",
+   "year": 2001,
+   "origin": "Ross; Smith",
+   "core": "Oil wealth entrenches autocracy through spending, repression and blocked modernization.",
+   "works": [
+    {
+     "id": "ross2001",
+     "dir": "mena-network",
+     "label": "Ross 2001",
+     "title": "Does Oil Hinder Democracy?",
+     "authors": "Michael L. Ross",
+     "year": 2001,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/NLNZE785"
+    },
+    {
+     "id": "smith2004",
+     "dir": "mena-network",
+     "label": "Smith 2004",
+     "title": "Oil Wealth and Regime Survival in the Developing World, 1960-1999",
+     "authors": "Benjamin Smith",
+     "year": 2004,
+     "journal": "American Journal of Political Science",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "ross2012",
+     "dir": "mena-network",
+     "label": "Ross 2012",
+     "title": "The Oil Curse: How Petroleum Wealth Shapes the Development of Nations",
+     "authors": "Michael L. Ross",
+     "year": 2012,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "wrightfrantzgeddes2013",
+     "dir": "mena-network",
+     "label": "Wright 2013",
+     "title": "Oil and Autocratic Regime Survival",
+     "authors": "Joseph Wright, Erica Frantz & Barbara Geddes",
+     "year": 2013,
+     "journal": "BJPS",
+     "doi": "10.1017/s0007123413000252",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "resourceskeptic",
+   "label": "Resource-curse skepticism",
+   "family": "rents",
+   "year": 2011,
+   "origin": "Haber & Menaldo; Herb",
+   "core": "Once income and timing are accounted for, oil has no general anti-democratic effect.",
+   "works": [
+    {
+     "id": "habermenaldo2011",
+     "dir": "mena-network",
+     "label": "Haber 2011",
+     "title": "Do Natural Resources Fuel Authoritarianism? A Reappraisal of the Resource Curse",
+     "authors": "Stephen Haber & Victor Menaldo",
+     "year": 2011,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/BMAQ8XGH"
+    },
+    {
+     "id": "herb2005",
+     "dir": "mena-network",
+     "label": "Herb 2005",
+     "title": "No Representation without Taxation? Rents, Development, and Democracy",
+     "authors": "Michael Herb",
+     "year": 2005,
+     "journal": "Comparative Politics",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "latestrentier",
+   "label": "Segmented and late rentierism",
+   "family": "rents",
+   "year": 2010,
+   "origin": "Hertog; Gengler",
+   "core": "Rents are distributed through segmented institutions and group lines, and ruling bargains are renegotiated as rents shrink.",
+   "works": [
+    {
+     "id": "hertog2010book",
+     "dir": "mena-network",
+     "label": "Hertog 2010",
+     "title": "Princes, Brokers, and Bureaucrats: Oil and the State in Saudi Arabia",
+     "authors": "Steffen Hertog",
+     "year": 2010,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hertog2020",
+     "dir": "mena-network",
+     "label": "Hertog 2020",
+     "title": "The ‘rentier mentality’, 30 years on: evidence from survey data",
+     "authors": "Steffen Hertog",
+     "year": 2020,
+     "journal": "British Journal of Middle Eastern Studies",
+     "doi": "10.1080/13530194.2020.1714870",
+     "zotero": null
+    },
+    {
+     "id": "gengler2016",
+     "dir": "mena-network",
+     "label": "Gengler 2016",
+     "title": "Renegotiating the Ruling Bargain: Selling Fiscal Reform in the GCC",
+     "authors": "Justin Gengler & Laurent A. Lambert",
+     "year": 2016,
+     "journal": "Middle East Journal",
+     "doi": "10.3751/70.2.21",
+     "zotero": null
+    },
+    {
+     "id": "gengler2015",
+     "dir": "mena-network",
+     "label": "Gengler 2015",
+     "title": "Group Conflict and Political Mobilization in Bahrain and the Arab Gulf: Rethinking the Rentier State",
+     "authors": "Justin Gengler",
+     "year": 2015,
+     "journal": "Indiana University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "crony",
+   "label": "Networks of privilege & crony capitalism",
+   "family": "rents",
+   "year": 2004,
+   "origin": "Heydemann; Bellin; Diwan et al.",
+   "core": "Economic reform is captured by regime-connected business networks, and state-dependent capital stays a contingent democrat.",
+   "works": [
+    {
+     "id": "heydemann2004",
+     "dir": "mena-network",
+     "label": "Heydemann 2004",
+     "title": "Networks of Privilege in the Middle East: The Politics of Economic Reform Revisited",
+     "authors": "Steven Heydemann (ed.)",
+     "year": 2004,
+     "journal": "Palgrave Macmillan (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bellin2002",
+     "dir": "mena-network",
+     "label": "Bellin 2002",
+     "title": "Stalled Democracy: Capital, Labor, and the Paradox of State-Sponsored Development",
+     "authors": "Eva Bellin",
+     "year": 2002,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "rijkers2017",
+     "dir": "mena-network",
+     "label": "Rijkers 2017",
+     "title": "All in the Family: State Capture in Tunisia",
+     "authors": "Bob Rijkers, Caroline Freund & Antonio Nucifora",
+     "year": 2017,
+     "journal": "Journal of Development Economics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "diwan2019",
+     "dir": "mena-network",
+     "label": "Diwan 2019",
+     "title": "Crony Capitalism in the Middle East: Business and Politics from Liberalization to the Arab Spring",
+     "authors": "Ishac Diwan, Adeel Malik & Izak Atiyas (eds.)",
+     "year": 2019,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "refugeerentier",
+   "label": "Refugee rentier state",
+   "family": "rents",
+   "year": 2019,
+   "origin": "Tsourapas",
+   "core": "Host states extract external aid by leveraging the refugees they host.",
+   "works": [
+    {
+     "id": "tsourapas2019",
+     "dir": "mena-network",
+     "label": "Tsourapas 2019",
+     "title": "The Syrian Refugee Crisis and Foreign Policy Decision-Making in Jordan, Lebanon, and Turkey",
+     "authors": "Gerasimos Tsourapas",
+     "year": 2019,
+     "journal": "Journal of Global Security Studies",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "turner2015",
+     "dir": "mena-network",
+     "label": "Turner 2015",
+     "title": "Explaining the (Non-)Encampment of Syrian Refugees: Security, Class and the Labour Market in Lebanon and Jordan",
+     "authors": "Lewis Turner",
+     "year": 2015,
+     "journal": "Mediterranean Politics",
+     "doi": "10.1080/13629395.2015.1078125",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "upgrading",
+   "label": "Liberalized autocracy & authoritarian upgrading",
+   "family": "regimes",
+   "year": 2002,
+   "origin": "Brumberg; Heydemann; King",
+   "core": "Regimes survive through controlled liberalization, managed civil society and new coalitions.",
+   "works": [
+    {
+     "id": "brumberg2002",
+     "dir": "mena-network",
+     "label": "Brumberg 2002",
+     "title": "The Trap of Liberalized Autocracy",
+     "authors": "Daniel Brumberg",
+     "year": 2002,
+     "journal": "Journal of Democracy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "heydemann2007",
+     "dir": "mena-network",
+     "label": "Heydemann 2007",
+     "title": "Upgrading Authoritarianism in the Arab World",
+     "authors": "Steven Heydemann",
+     "year": 2007,
+     "journal": "Saban Center at Brookings (analysis paper)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "king2009",
+     "dir": "mena-network",
+     "label": "King 2009",
+     "title": "The New Authoritarianism in the Middle East and North Africa",
+     "authors": "Stephen J. King",
+     "year": 2009,
+     "journal": "Indiana University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "coercive",
+   "label": "Robust coercive apparatus",
+   "family": "regimes",
+   "year": 2004,
+   "origin": "Bellin",
+   "core": "Authoritarianism persists where the security forces have both the capacity and the will to repress.",
+   "works": [
+    {
+     "id": "bellin2004",
+     "dir": "mena-network",
+     "label": "Bellin 2004",
+     "title": "The Robustness of Authoritarianism in the Middle East: Exceptionalism in Comparative Perspective",
+     "authors": "Eva Bellin",
+     "year": 2004,
+     "journal": "Comparative Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bellin2012",
+     "dir": "mena-network",
+     "label": "Bellin 2012",
+     "title": "Reconsidering the Robustness of Authoritarianism in the Middle East: Lessons from the Arab Spring",
+     "authors": "Eva Bellin",
+     "year": 2012,
+     "journal": "Comparative Politics",
+     "doi": "10.5129/001041512798838021",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rulingparty",
+   "label": "Ruling parties & elite cohesion",
+   "family": "regimes",
+   "year": 2007,
+   "origin": "Brownlee; Geddes",
+   "core": "Parties that bind elites together make autocracies durable through crises and elections.",
+   "works": [
+    {
+     "id": "brownlee2007book",
+     "dir": "mena-network",
+     "label": "Brownlee 2007",
+     "title": "Authoritarianism in an Age of Democratization",
+     "authors": "Jason Brownlee",
+     "year": 2007,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "geddes1999",
+     "dir": "mena-network",
+     "label": "Geddes 1999",
+     "title": "What Do We Know about Democratization after Twenty Years?",
+     "authors": "Barbara Geddes",
+     "year": 1999,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.2.1.115",
+     "zotero": null
+    },
+    {
+     "id": "gandhiprzeworski2007",
+     "dir": "mena-network",
+     "label": "Gandhi 2007",
+     "title": "Authoritarian Institutions and the Survival of Autocrats",
+     "authors": "Jennifer Gandhi & Adam Przeworski",
+     "year": 2007,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414007305817",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "clientelism",
+   "label": "Competitive clientelism & divided opposition",
+   "family": "regimes",
+   "year": 2005,
+   "origin": "Lust-Okar; Blaydes",
+   "core": "Authoritarian elections are contests over patronage, and rulers structure opposition to keep it divided.",
+   "works": [
+    {
+     "id": "lustokar2005",
+     "dir": "mena-network",
+     "label": "Lust-Okar 2005",
+     "title": "Structuring Conflict in the Arab World: Incumbents, Opponents, and Institutions",
+     "authors": "Ellen Lust-Okar",
+     "year": 2005,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lustokar2006",
+     "dir": "mena-network",
+     "label": "Lust-Okar 2006",
+     "title": "Elections under authoritarianism: Preliminary lessons from Jordan",
+     "authors": "Ellen Lust-Okar",
+     "year": 2006,
+     "journal": "Democratization",
+     "doi": "10.1080/13510340600579359",
+     "zotero": null
+    },
+    {
+     "id": "lust2009",
+     "dir": "mena-network",
+     "label": "Lust 2009",
+     "title": "Democratization by Elections? Competitive Clientelism in the Middle East",
+     "authors": "Ellen Lust",
+     "year": 2009,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.0.0099",
+     "zotero": null
+    },
+    {
+     "id": "blaydes2011",
+     "dir": "mena-network",
+     "label": "Blaydes 2011",
+     "title": "Elections and Distributive Politics in Mubarak's Egypt",
+     "authors": "Lisa Blaydes",
+     "year": 2011,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "competitiveauth",
+   "label": "Competitive authoritarianism & backsliding",
+   "family": "regimes",
+   "year": 2010,
+   "origin": "Levitsky & Way; Esen & Gümüşçü",
+   "core": "Incumbents keep elections but tilt the field, as in AKP-era Turkey.",
+   "works": [
+    {
+     "id": "levitskyway2010",
+     "dir": "mena-network",
+     "label": "Levitsky 2010",
+     "title": "Competitive Authoritarianism: Hybrid Regimes after the Cold War",
+     "authors": "Steven Levitsky & Lucan A. Way",
+     "year": 2010,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511781353",
+     "zotero": null
+    },
+    {
+     "id": "esengumuscu2016",
+     "dir": "mena-network",
+     "label": "Esen 2016",
+     "title": "Rising Competitive Authoritarianism in Turkey",
+     "authors": "Berk Esen & Şebnem Gümüşçü",
+     "year": 2016,
+     "journal": "Third World Quarterly",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "svolik2019",
+     "dir": "mena-network",
+     "label": "Svolik 2019",
+     "title": "Polarization versus Democracy",
+     "authors": "Milan W. Svolik",
+     "year": 2019,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2019.0039",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "dynasticmonarchy",
+   "label": "Dynastic monarchy",
+   "family": "regimes",
+   "year": 1999,
+   "origin": "Herb; Anderson; Lucas",
+   "core": "Monarchies where the ruling family shares top posts are cohesive and survive.",
+   "works": [
+    {
+     "id": "herb1999",
+     "dir": "mena-network",
+     "label": "Herb 1999",
+     "title": "All in the Family: Absolutism, Revolution, and Democracy in the Middle Eastern Monarchies",
+     "authors": "Michael Herb",
+     "year": 1999,
+     "journal": "SUNY Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "anderson1991",
+     "dir": "mena-network",
+     "label": "Anderson 1991",
+     "title": "Absolutism and the Resilience of Monarchy in the Middle East",
+     "authors": "Lisa Anderson",
+     "year": 1991,
+     "journal": "Political Science Quarterly",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lucas2004",
+     "dir": "mena-network",
+     "label": "Lucas 2004",
+     "title": "Monarchical Authoritarianism: Survival and Political Liberalization in a Middle Eastern Regime Type",
+     "authors": "Russell E. Lucas",
+     "year": 2004,
+     "journal": "International Journal of Middle East Studies",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "monarchcoalitions",
+   "label": "Coalitions, rents & patrons",
+   "family": "regimes",
+   "year": 2012,
+   "origin": "Yom & Gause",
+   "core": "Monarchies survive through broad coalitions, rents and foreign patrons rather than dynastic form or culture.",
+   "works": [
+    {
+     "id": "yomgause2012",
+     "dir": "mena-network",
+     "label": "Yom 2012",
+     "title": "Resilient Royals: How Arab Monarchies Hang On",
+     "authors": "Sean L. Yom & F. Gregory Gause",
+     "year": 2012,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2012.0062",
+     "zotero": null
+    },
+    {
+     "id": "yom2016",
+     "dir": "mena-network",
+     "label": "Yom 2016",
+     "title": "From Resilience to Revolution: How Foreign Interventions Destabilize the Middle East",
+     "authors": "Sean L. Yom",
+     "year": 2016,
+     "journal": "Columbia University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bank2013",
+     "dir": "mena-network",
+     "label": "Bank 2013",
+     "title": "Long-term monarchical survival in the Middle East: a configurational comparison, 1945–2012",
+     "authors": "André Bank, Thomas Richter & Anna Sunik",
+     "year": 2013,
+     "journal": "Democratization",
+     "doi": "10.1080/13510347.2013.845555",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "coupproof",
+   "label": "Coup-proofing",
+   "family": "contention",
+   "year": 1999,
+   "origin": "Quinlivan; Talmadge",
+   "core": "Rulers protect themselves with kin-based units and parallel forces at the cost of military effectiveness.",
+   "works": [
+    {
+     "id": "quinlivan1999",
+     "dir": "mena-network",
+     "label": "Quinlivan 1999",
+     "title": "Coup-Proofing: Its Practice and Consequences in the Middle East",
+     "authors": "James T. Quinlivan",
+     "year": 1999,
+     "journal": "International Security",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "talmadge2015",
+     "dir": "mena-network",
+     "label": "Talmadge 2015",
+     "title": "The Dictator's Army: Battlefield Effectiveness in Authoritarian Regimes",
+     "authors": "Caitlin Talmadge",
+     "year": 2015,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "makara2013",
+     "dir": "mena-network",
+     "label": "Makara 2013",
+     "title": "Coup-Proofing, Military Defection, and the Arab Spring",
+     "authors": "Michael Makara",
+     "year": 2013,
+     "journal": "Democracy and Security",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "armydefection",
+   "label": "Military defection & revolutionary outcomes",
+   "family": "contention",
+   "year": 2011,
+   "origin": "Barany; Bellin",
+   "core": "The army's decision to defend or abandon the ruler decides uprisings.",
+   "works": [
+    {
+     "id": "barany2011",
+     "dir": "mena-network",
+     "label": "Barany 2011",
+     "title": "Comparing the Arab Revolts: The Role of the Military",
+     "authors": "Zoltan Barany",
+     "year": 2011,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2011.0069",
+     "zotero": null
+    },
+    {
+     "id": "nepstad2013",
+     "dir": "mena-network",
+     "label": "Nepstad 2013",
+     "title": "Mutiny and nonviolence in the Arab Spring",
+     "authors": "Sharon Erickson Nepstad",
+     "year": 2013,
+     "journal": "Journal of Peace Research",
+     "doi": "10.1177/0022343313476529",
+     "zotero": null
+    },
+    {
+     "id": "bounassif2015",
+     "dir": "mena-network",
+     "label": "Bou Nassif 2015",
+     "title": "A Military Besieged: the Armed Forces, the Police, and the Party in Bin ʿali’s Tunisia, 1987–2011",
+     "authors": "Hicham Bou Nassif",
+     "year": 2015,
+     "journal": "International Journal of Middle East Studies",
+     "doi": "10.1017/s0020743814001457",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cascades",
+   "label": "Preference falsification & revolutionary cascades",
+   "family": "contention",
+   "year": 1991,
+   "origin": "Kuran; Weyland",
+   "core": "Hidden dissent and emulation produce sudden cascades of protest across countries.",
+   "works": [
+    {
+     "id": "kuran1991",
+     "dir": "mena-network",
+     "label": "Kuran 1991",
+     "title": "Now Out of Never: The Element of Surprise in the East European Revolution of 1989",
+     "authors": "Timur Kuran",
+     "year": 1991,
+     "journal": "World Politics",
+     "doi": "10.2307/2010422",
+     "zotero": null
+    },
+    {
+     "id": "weyland2012",
+     "dir": "mena-network",
+     "label": "Weyland 2012",
+     "title": "The Arab Spring: Why the Surprising Similarities with the Revolutionary Wave of 1848?",
+     "authors": "Kurt Weyland",
+     "year": 2012,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592712002873",
+     "zotero": null
+    },
+    {
+     "id": "hale2013",
+     "dir": "mena-network",
+     "label": "Hale 2013",
+     "title": "Regime Change Cascades: What We Have Learned from the 1848 Revolutions to the 2011 Arab Uprisings",
+     "authors": "Henry E. Hale",
+     "year": 2013,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-032211-212204",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "digitalmobilization",
+   "label": "Digital media & mobilization",
+   "family": "contention",
+   "year": 2011,
+   "origin": "Howard & Hussain; Lynch",
+   "core": "New media lower coordination costs and spread protest, within limits.",
+   "works": [
+    {
+     "id": "howardhussain2011",
+     "dir": "mena-network",
+     "label": "Howard 2011",
+     "title": "The Upheavals in Egypt and Tunisia: The Role of Digital Media",
+     "authors": "Philip N. Howard & Muzammil M. Hussain",
+     "year": 2011,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2011.0041",
+     "zotero": null
+    },
+    {
+     "id": "lynch2011",
+     "dir": "mena-network",
+     "label": "Lynch 2011",
+     "title": "After Egypt: The Limits and Promise of Online Challenges to the Authoritarian Arab State",
+     "authors": "Marc Lynch",
+     "year": 2011,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592711000910",
+     "zotero": null
+    },
+    {
+     "id": "steinertthrelkeld2017",
+     "dir": "mena-network",
+     "label": "Steinert-Threlkeld 2017",
+     "title": "Spontaneous Collective Action: Peripheral Mobilization During the Arab Spring",
+     "authors": "Zachary C. Steinert-Threlkeld",
+     "year": 2017,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055416000769",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "inclusionmoderation",
+   "label": "Inclusion-moderation",
+   "family": "religion",
+   "year": 2006,
+   "origin": "Schwedler; Clark",
+   "core": "Participation in pluralist politics moderates Islamists, selectively and through internal justification.",
+   "works": [
+    {
+     "id": "schwedler2006",
+     "dir": "mena-network",
+     "label": "Schwedler 2006",
+     "title": "Faith in Moderation: Islamist Parties in Jordan and Yemen",
+     "authors": "Jillian Schwedler",
+     "year": 2006,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "schwedler2011",
+     "dir": "mena-network",
+     "label": "Schwedler 2011",
+     "title": "Can Islamists Become Moderates? Rethinking the Inclusion-Moderation Hypothesis",
+     "authors": "Jillian Schwedler",
+     "year": 2011,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887111000050",
+     "zotero": null
+    },
+    {
+     "id": "clark2006",
+     "dir": "mena-network",
+     "label": "Clark 2006",
+     "title": "The Conditions of Islamist Moderation: Unpacking Cross-ideological Cooperation in Jordan",
+     "authors": "Janine A. Clark",
+     "year": 2006,
+     "journal": "International Journal of Middle East Studies",
+     "doi": "10.1017/s0020743806412460",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "exclusionmoderation",
+   "label": "Moderation through exclusion",
+   "family": "religion",
+   "year": 2013,
+   "origin": "Cavatorta & Merone; Hamid",
+   "core": "Repression and exclusion, not inclusion, moderate Islamists.",
+   "works": [
+    {
+     "id": "cavatortamerone2013",
+     "dir": "mena-network",
+     "label": "Cavatorta 2013",
+     "title": "Moderation through exclusion? The journey of the Tunisian Ennahda from fundamentalist to conservative party",
+     "authors": "Francesco Cavatorta & Fabio Merone",
+     "year": 2013,
+     "journal": "Democratization",
+     "doi": "10.1080/13510347.2013.801255",
+     "zotero": null
+    },
+    {
+     "id": "hamid2014",
+     "dir": "mena-network",
+     "label": "Hamid 2014",
+     "title": "Temptations of Power: Islamists and Illiberal Democracy in a New Middle East",
+     "authors": "Shadi Hamid",
+     "year": 2014,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "wegnerpellicer2009",
+     "dir": "mena-network",
+     "label": "Wegner 2009",
+     "title": "Islamist moderation without democratization: the coming of age of the Moroccan Party of Justice and Development?",
+     "authors": "Eva Wegner & Miquel Pellicer",
+     "year": 2009,
+     "journal": "Democratization",
+     "doi": "10.1080/13510340802575890",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "islamistadvantage",
+   "label": "Islamist organizational advantage",
+   "family": "religion",
+   "year": 2014,
+   "origin": "Cammett & Luong; Masoud; Brooke",
+   "core": "Islamists win votes through organization, networks and service provision, not mass religiosity.",
+   "works": [
+    {
+     "id": "cammettluong2014",
+     "dir": "mena-network",
+     "label": "Cammett 2014",
+     "title": "Is There an Islamist Political Advantage?",
+     "authors": "Melani Cammett & Pauline Jones Luong",
+     "year": 2014,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-071112-221207",
+     "zotero": null
+    },
+    {
+     "id": "masoud2014",
+     "dir": "mena-network",
+     "label": "Masoud 2014",
+     "title": "Counting Islam: Religion, Class, and Elections in Egypt",
+     "authors": "Tarek Masoud",
+     "year": 2014,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "brooke2019",
+     "dir": "mena-network",
+     "label": "Brooke 2019",
+     "title": "Winning Hearts and Votes: Social Services and the Islamist Political Advantage",
+     "authors": "Steven Brooke",
+     "year": 2019,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "twintolerations",
+   "label": "Twin tolerations",
+   "family": "religion",
+   "year": 2000,
+   "origin": "Stepan",
+   "core": "Democracy requires mutual autonomy of religious and elected authorities, not strict secularism.",
+   "works": [
+    {
+     "id": "stepan2000",
+     "dir": "mena-network",
+     "label": "Stepan 2000",
+     "title": "Religion, Democracy, and the \"Twin Tolerations\"",
+     "authors": "Alfred Stepan",
+     "year": 2000,
+     "journal": "Journal of Democracy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "stepan2012",
+     "dir": "mena-network",
+     "label": "Stepan 2012",
+     "title": "Tunisia's Transition and the Twin Tolerations",
+     "authors": "Alfred Stepan",
+     "year": 2012,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2012.0034",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "islamculture",
+   "label": "Islam & democratic deficit",
+   "family": "religion",
+   "year": 2002,
+   "origin": "Fish; Huntington",
+   "core": "Muslim-majority countries are less democratic, largely through gender relations or culture.",
+   "works": [
+    {
+     "id": "fish2002",
+     "dir": "mena-network",
+     "label": "Fish 2002",
+     "title": "Islam and Authoritarianism",
+     "authors": "M. Steven Fish",
+     "year": 2002,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "donnorussett2004",
+     "dir": "mena-network",
+     "label": "Donno 2004",
+     "title": "Islam, Authoritarianism, and Female Empowerment: What Are the Linkages?",
+     "authors": "Daniela Donno & Bruce Russett",
+     "year": 2004,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": [
+    "Huntington 1996"
+   ]
+  },
+  {
+   "id": "divergence",
+   "label": "Institutional divergence of the Middle East",
+   "family": "religion",
+   "year": 2011,
+   "origin": "Kuran; Blaydes & Chaney; Kuru",
+   "core": "Medieval legal, military and religious institutions explain the region's long-run political and economic path.",
+   "works": [
+    {
+     "id": "kuran2011",
+     "dir": "mena-network",
+     "label": "Kuran 2011",
+     "title": "The Long Divergence: How Islamic Law Held Back the Middle East",
+     "authors": "Timur Kuran",
+     "year": 2011,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "blaydeschaney2013",
+     "dir": "mena-network",
+     "label": "Blaydes 2013",
+     "title": "The Feudal Revolution and Europe's Rise: Political Divergence of the Christian West and the Muslim World before 1500 CE",
+     "authors": "Lisa Blaydes & Eric Chaney",
+     "year": 2013,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055412000561",
+     "zotero": null
+    },
+    {
+     "id": "chaney2013",
+     "dir": "mena-network",
+     "label": "Chaney 2013",
+     "title": "Revolt on the Nile: Economic Shocks, Religion, and Political Power",
+     "authors": "Eric Chaney",
+     "year": 2013,
+     "journal": "Econometrica",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kuru2019",
+     "dir": "mena-network",
+     "label": "Kuru 2019",
+     "title": "Islam, Authoritarianism, and Underdevelopment: A Global and Historical Comparison",
+     "authors": "Ahmet T. Kuru",
+     "year": 2019,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "sectarianization",
+   "label": "Sectarianization",
+   "family": "religion",
+   "year": 2017,
+   "origin": "Makdisi; Hashemi & Postel; Gause",
+   "core": "Sectarian conflict is produced by regimes and regional rivals, not inherited.",
+   "works": [
+    {
+     "id": "makdisi2000",
+     "dir": "mena-network",
+     "label": "Makdisi 2000",
+     "title": "The Culture of Sectarianism: Community, History, and Violence in Nineteenth-Century Ottoman Lebanon",
+     "authors": "Ussama Makdisi",
+     "year": 2000,
+     "journal": "University of California Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hashemipostel2017",
+     "dir": "mena-network",
+     "label": "Hashemi 2017",
+     "title": "Sectarianization: Mapping the New Politics of the Middle East",
+     "authors": "Nader Hashemi & Danny Postel (eds.)",
+     "year": 2017,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gause2014",
+     "dir": "mena-network",
+     "label": "Gause 2014",
+     "title": "Beyond Sectarianism: The New Middle East Cold War",
+     "authors": "F. Gregory Gause III",
+     "year": 2014,
+     "journal": "Brookings Doha Center (analysis paper)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "haddad2017",
+     "dir": "mena-network",
+     "label": "Haddad 2017",
+     "title": "'Sectarianism' and Its Discontents in the Study of the Middle East",
+     "authors": "Fanar Haddad",
+     "year": 2017,
+     "journal": "Middle East Journal",
+     "doi": "10.3751/71.3.12",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "shiarevival",
+   "label": "Sunni-Shi'a revival thesis",
+   "family": "religion",
+   "year": 2006,
+   "origin": "Nasr",
+   "core": "Sectarian identity is a deep driver of regional realignment after Iraq.",
+   "works": [
+    {
+     "id": "nasr2006",
+     "dir": "mena-network",
+     "label": "Nasr 2006",
+     "title": "The Shia Revival: How Conflicts within Islam Will Shape the Future",
+     "authors": "Vali Nasr",
+     "year": 2006,
+     "journal": "W. W. Norton (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "sectarianwelfare",
+   "label": "Sectarian clientelism",
+   "family": "religion",
+   "year": 2010,
+   "origin": "Cammett; Corstange",
+   "core": "Sectarian parties allocate welfare and buy votes strategically within communal systems.",
+   "works": [
+    {
+     "id": "cammettissar2010",
+     "dir": "mena-network",
+     "label": "Cammett 2010",
+     "title": "Bricks and Mortar Clientelism: Sectarianism and the Logics of Welfare Allocation in Lebanon",
+     "authors": "Melani Cammett & Sukriti Issar",
+     "year": 2010,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887110000080",
+     "zotero": null
+    },
+    {
+     "id": "cammett2014",
+     "dir": "mena-network",
+     "label": "Cammett 2014",
+     "title": "Compassionate Communalism: Welfare and Sectarianism in Lebanon",
+     "authors": "Melani Cammett",
+     "year": 2014,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "corstange2016",
+     "dir": "mena-network",
+     "label": "Corstange 2016",
+     "title": "The Price of a Vote in the Middle East: Clientelism and Communal Politics in Lebanon and Yemen",
+     "authors": "Daniel Corstange",
+     "year": 2016,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "exclusionradicalization",
+   "label": "Exclusion & radicalization",
+   "family": "conflict",
+   "year": 2003,
+   "origin": "Hafez",
+   "core": "Islamists turn violent when exclusion is combined with indiscriminate repression.",
+   "works": [
+    {
+     "id": "hafez2003",
+     "dir": "mena-network",
+     "label": "Hafez 2003",
+     "title": "Why Muslims Rebel: Repression and Resistance in the Islamic World",
+     "authors": "Mohammed M. Hafez",
+     "year": 2003,
+     "journal": "Lynne Rienner (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "walter2017",
+     "dir": "mena-network",
+     "label": "Walter 2017",
+     "title": "The Extremist's Advantage in Civil Wars",
+     "authors": "Barbara F. Walter",
+     "year": 2017,
+     "journal": "International Security",
+     "doi": "10.1162/isec_a_00292",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "spoiling",
+   "label": "Spoiling & outbidding",
+   "family": "conflict",
+   "year": 2002,
+   "origin": "Kydd & Walter; Bloom",
+   "core": "Militants use violence to derail peace and to outbid rival factions.",
+   "works": [
+    {
+     "id": "kyddwalter2002",
+     "dir": "mena-network",
+     "label": "Kydd 2002",
+     "title": "Sabotaging the Peace: The Politics of Extremist Violence",
+     "authors": "Andrew Kydd & Barbara F. Walter",
+     "year": 2002,
+     "journal": "International Organization",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bloom2004",
+     "dir": "mena-network",
+     "label": "Bloom 2004",
+     "title": "Palestinian Suicide Bombing: Public Support, Market Share, and Outbidding",
+     "authors": "Mia M. Bloom",
+     "year": 2004,
+     "journal": "Political Science Quarterly",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "pearlman2009",
+     "dir": "mena-network",
+     "label": "Pearlman 2009",
+     "title": "Spoiling Inside and Out: Internal Political Contestation and the Middle East Peace Process",
+     "authors": "Wendy Pearlman",
+     "year": 2009,
+     "journal": "International Security",
+     "doi": "10.1162/isec.2009.33.3.79",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ethnicdemocracy",
+   "label": "Ethnic democracy",
+   "family": "conflict",
+   "year": 1997,
+   "origin": "Smooha",
+   "core": "Israel combines democratic institutions with the dominance of one ethnic nation.",
+   "works": [
+    {
+     "id": "smooha1997",
+     "dir": "mena-network",
+     "label": "Smooha 1997",
+     "title": "Ethnic Democracy: Israel as an Archetype",
+     "authors": "Sammy Smooha",
+     "year": 1997,
+     "journal": "Israel Studies",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ethnocracy",
+   "label": "Ethnocracy & settler colonialism",
+   "family": "conflict",
+   "year": 2006,
+   "origin": "Yiftachel; Shafir",
+   "core": "Israel/Palestine is governed as an ethnocracy organized around land control.",
+   "works": [
+    {
+     "id": "yiftachel2006",
+     "dir": "mena-network",
+     "label": "Yiftachel 2006",
+     "title": "Ethnocracy: Land and Identity Politics in Israel/Palestine",
+     "authors": "Oren Yiftachel",
+     "year": 2006,
+     "journal": "University of Pennsylvania Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "shafir1989",
+     "dir": "mena-network",
+     "label": "Shafir 1989",
+     "title": "Land, Labor and the Origins of the Israeli-Palestinian Conflict, 1882-1914",
+     "authors": "Gershon Shafir",
+     "year": 1989,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "stateformation",
+   "label": "State formation & colonial legacy",
+   "family": "international",
+   "year": 1987,
+   "origin": "Anderson; Owen; Lustick",
+   "core": "Middle Eastern regimes reflect how their states were formed under empire, colonialism and external intervention.",
+   "works": [
+    {
+     "id": "anderson1986",
+     "dir": "mena-network",
+     "label": "Anderson 1986",
+     "title": "The State and Social Transformation in Tunisia and Libya, 1830-1980",
+     "authors": "Lisa Anderson",
+     "year": 1986,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "anderson1987",
+     "dir": "mena-network",
+     "label": "Anderson 1987",
+     "title": "The State in the Middle East and North Africa",
+     "authors": "Lisa Anderson",
+     "year": 1987,
+     "journal": "Comparative Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "owen1992",
+     "dir": "mena-network",
+     "label": "Owen 1992",
+     "title": "State, Power and Politics in the Making of the Modern Middle East",
+     "authors": "Roger Owen",
+     "year": 1992,
+     "journal": "Routledge (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lustick1997",
+     "dir": "mena-network",
+     "label": "Lustick 1997",
+     "title": "The Absence of Middle Eastern Great Powers: Political \"Backwardness\" in Historical Perspective",
+     "authors": "Ian S. Lustick",
+     "year": 1997,
+     "journal": "International Organization",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "omnibalancing",
+   "label": "Omnibalancing & regime security",
+   "family": "international",
+   "year": 1991,
+   "origin": "David; Gause; Hinnebusch",
+   "core": "Rulers align abroad to counter internal as well as external threats.",
+   "works": [
+    {
+     "id": "david1991",
+     "dir": "mena-network",
+     "label": "David 1991",
+     "title": "Explaining Third World Alignment",
+     "authors": "Steven R. David",
+     "year": 1991,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gause2010",
+     "dir": "mena-network",
+     "label": "Gause 2010",
+     "title": "The International Relations of the Persian Gulf",
+     "authors": "F. Gregory Gause III",
+     "year": 2010,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hinnebusch2003",
+     "dir": "mena-network",
+     "label": "Hinnebusch 2003",
+     "title": "The International Politics of the Middle East",
+     "authors": "Raymond Hinnebusch",
+     "year": 2003,
+     "journal": "Manchester University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "arabcoldwar",
+   "label": "Arab cold war & identity politics of order",
+   "family": "international",
+   "year": 1971,
+   "origin": "Kerr; Barnett; Valbjørn & Bank",
+   "core": "Regional rivalry is a contest over transnational identity and legitimacy.",
+   "works": [
+    {
+     "id": "kerr1971",
+     "dir": "mena-network",
+     "label": "Kerr 1971",
+     "title": "The Arab Cold War: Gamal 'Abd al-Nasir and His Rivals, 1958-1970",
+     "authors": "Malcolm H. Kerr",
+     "year": 1971,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "barnett1998",
+     "dir": "mena-network",
+     "label": "Barnett 1998",
+     "title": "Dialogues in Arab Politics: Negotiations in Regional Order",
+     "authors": "Michael N. Barnett",
+     "year": 1998,
+     "journal": "Columbia University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "valbjornbank2012",
+     "dir": "mena-network",
+     "label": "Valbjørn 2012",
+     "title": "The New Arab Cold War: Rediscovering the Arab Dimension of Middle East Regional Politics",
+     "authors": "Morten Valbjørn & André Bank",
+     "year": 2012,
+     "journal": "Review of International Studies",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "oilpatriarchy",
+   "label": "Oil & patriarchy",
+   "family": "society",
+   "year": 2008,
+   "origin": "Ross; Kandiyoti; Charrad",
+   "core": "Oil economies and state-kin bargains, rather than Islam, keep women out of work and politics.",
+   "works": [
+    {
+     "id": "ross2008",
+     "dir": "mena-network",
+     "label": "Ross 2008",
+     "title": "Oil, Islam, and Women",
+     "authors": "Michael L. Ross",
+     "year": 2008,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055408080040",
+     "zotero": null
+    },
+    {
+     "id": "kandiyoti1988",
+     "dir": "mena-network",
+     "label": "Kandiyoti 1988",
+     "title": "Bargaining with Patriarchy",
+     "authors": "Deniz Kandiyoti",
+     "year": 1988,
+     "journal": "Gender & Society",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "charrad2001",
+     "dir": "mena-network",
+     "label": "Charrad 2001",
+     "title": "States and Women's Rights: The Making of Postcolonial Tunisia, Algeria, and Morocco",
+     "authors": "Mounira M. Charrad",
+     "year": 2001,
+     "journal": "University of California Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "arabopinion",
+   "label": "Arab democratic support",
+   "family": "society",
+   "year": 2002,
+   "origin": "Tessler; Jamal",
+   "core": "Arabs broadly support democracy; doubts reflect performance and geopolitics, not religiosity.",
+   "works": [
+    {
+     "id": "tessler2002",
+     "dir": "mena-network",
+     "label": "Tessler 2002",
+     "title": "Islam and Democracy in the Middle East: The Impact of Religious Orientations on Attitudes toward Democracy in Four Arab Countries",
+     "authors": "Mark Tessler",
+     "year": 2002,
+     "journal": "Comparative Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "jamaltessler2008",
+     "dir": "mena-network",
+     "label": "Jamal 2008",
+     "title": "The Democracy Barometers (Part II): Attitudes in the Arab World",
+     "authors": "Amaney Jamal & Mark Tessler",
+     "year": 2008,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2008.0004",
+     "zotero": null
+    },
+    {
+     "id": "jamal2012",
+     "dir": "mena-network",
+     "label": "Jamal 2012",
+     "title": "Of Empires and Citizens: Pro-American Democracy or No Democracy at All?",
+     "authors": "Amaney A. Jamal",
+     "year": 2012,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "oilcurse",
+   "target": "rentier",
+   "type": "extends",
+   "why": "Tests and generalizes the rentier mechanism cross-nationally."
+  },
+  {
+   "source": "resourceskeptic",
+   "target": "oilcurse",
+   "type": "rivals",
+   "why": "Disputes that oil causes autocracy."
+  },
+  {
+   "source": "latestrentier",
+   "target": "rentier",
+   "type": "extends",
+   "why": "Rents flow through segmented institutions and group lines."
+  },
+  {
+   "source": "crony",
+   "target": "upgrading",
+   "type": "complements",
+   "why": "Crony networks are a pillar of upgraded authoritarianism."
+  },
+  {
+   "source": "refugeerentier",
+   "target": "rentier",
+   "type": "applies",
+   "why": "Applies rent extraction to refugee hosting."
+  },
+  {
+   "source": "coercive",
+   "target": "upgrading",
+   "type": "complements",
+   "why": "Coercion and controlled liberalization together sustain regimes."
+  },
+  {
+   "source": "coercive",
+   "target": "coupproof",
+   "type": "extends",
+   "why": "Patrimonial, coup-proofed forces have the will to repress."
+  },
+  {
+   "source": "rulingparty",
+   "target": "coercive",
+   "type": "rivals",
+   "why": "Party institutions rather than coercion explain durability."
+  },
+  {
+   "source": "clientelism",
+   "target": "upgrading",
+   "type": "extends",
+   "why": "Elections and divided oppositions as liberalized autocracy at work."
+  },
+  {
+   "source": "competitiveauth",
+   "target": "rulingparty",
+   "type": "extends",
+   "why": "Party and state organization shape competitive-authoritarian outcomes."
+  },
+  {
+   "source": "competitiveauth",
+   "target": "clientelism",
+   "type": "complements",
+   "why": "Patronage helps tilt the electoral field."
+  },
+  {
+   "source": "dynasticmonarchy",
+   "target": "stateformation",
+   "type": "extends",
+   "why": "Monarchies as modern state-building regimes."
+  },
+  {
+   "source": "monarchcoalitions",
+   "target": "dynasticmonarchy",
+   "type": "rivals",
+   "why": "Coalitions and patrons, not dynastic form, explain survival."
+  },
+  {
+   "source": "monarchcoalitions",
+   "target": "rentier",
+   "type": "synthesizes",
+   "why": "Combines rents with coalitions and patrons."
+  },
+  {
+   "source": "armydefection",
+   "target": "coupproof",
+   "type": "extends",
+   "why": "How coup-proofing shapes defection in uprisings."
+  },
+  {
+   "source": "armydefection",
+   "target": "coercive",
+   "type": "extends",
+   "why": "The will to repress decides 2011 outcomes."
+  },
+  {
+   "source": "armydefection",
+   "target": "cascades",
+   "type": "complements",
+   "why": "Defection and cascades jointly decide revolutionary success."
+  },
+  {
+   "source": "digitalmobilization",
+   "target": "cascades",
+   "type": "extends",
+   "why": "New media accelerate cascades."
+  },
+  {
+   "source": "inclusionmoderation",
+   "target": "clientelism",
+   "type": "complements",
+   "why": "Participation in managed elections is the arena for moderation."
+  },
+  {
+   "source": "inclusionmoderation",
+   "target": "exclusionradicalization",
+   "type": "complements",
+   "why": "The mirror image: inclusion moderates, exclusion radicalizes."
+  },
+  {
+   "source": "exclusionmoderation",
+   "target": "inclusionmoderation",
+   "type": "rivals",
+   "why": "Exclusion rather than inclusion produced moderation."
+  },
+  {
+   "source": "exclusionmoderation",
+   "target": "exclusionradicalization",
+   "type": "rivals",
+   "why": "Repression can moderate rather than radicalize."
+  },
+  {
+   "source": "islamistadvantage",
+   "target": "clientelism",
+   "type": "complements",
+   "why": "Welfare and organization pay off in patronage-driven elections."
+  },
+  {
+   "source": "islamculture",
+   "target": "twintolerations",
+   "type": "rivals",
+   "why": "Religion as an obstacle versus mutual autonomy as compatible with democracy."
+  },
+  {
+   "source": "arabopinion",
+   "target": "islamculture",
+   "type": "rivals",
+   "why": "Religiosity does not reduce support for democracy."
+  },
+  {
+   "source": "oilpatriarchy",
+   "target": "islamculture",
+   "type": "rivals",
+   "why": "Oil, not Islam, explains women's status."
+  },
+  {
+   "source": "oilpatriarchy",
+   "target": "oilcurse",
+   "type": "applies",
+   "why": "Extends the oil curse to gender."
+  },
+  {
+   "source": "divergence",
+   "target": "islamculture",
+   "type": "rivals",
+   "why": "Long-run institutions, not religious culture, explain divergence."
+  },
+  {
+   "source": "divergence",
+   "target": "stateformation",
+   "type": "extends",
+   "why": "Pushes state-formation analysis back to medieval institutions."
+  },
+  {
+   "source": "sectarianization",
+   "target": "shiarevival",
+   "type": "rivals",
+   "why": "Sectarianism as made by politics versus a deep identity driver."
+  },
+  {
+   "source": "sectarianization",
+   "target": "sectarianwelfare",
+   "type": "complements",
+   "why": "Elite strategies and communal clientelism."
+  },
+  {
+   "source": "sectarianization",
+   "target": "arabcoldwar",
+   "type": "extends",
+   "why": "Regional rivalry now uses sectarian identity."
+  },
+  {
+   "source": "sectarianwelfare",
+   "target": "clientelism",
+   "type": "extends",
+   "why": "Clientelism organized through sects."
+  },
+  {
+   "source": "exclusionradicalization",
+   "target": "spoiling",
+   "type": "complements",
+   "why": "Strategic and political roots of militant violence."
+  },
+  {
+   "source": "ethnocracy",
+   "target": "ethnicdemocracy",
+   "type": "rivals",
+   "why": "Ethnocracy denies the democratic label."
+  },
+  {
+   "source": "stateformation",
+   "target": "rentier",
+   "type": "complements",
+   "why": "Rents shape how states formed."
+  },
+  {
+   "source": "omnibalancing",
+   "target": "arabcoldwar",
+   "type": "complements",
+   "why": "Regime security and identity contests in regional alignment."
+  }
+ ]
+}

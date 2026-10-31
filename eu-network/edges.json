@@ -1,0 +1,5062 @@
+{
+ "meta": {
+  "title": "European politics knowledge network, c. 1950-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in European politics: theories of European integration (neofunctionalism, liberal intergovernmentalism, multilevel governance, postfunctionalism, new intergovernmentalism), EU institutions and legislative politics, the Court of Justice and legal integration, Europeanization and compliance, the democratic deficit and legitimacy, Euroscepticism and public opinion, politicization, European Parliament elections, EMU and the eurozone crisis, enlargement and conditionality, democratic backsliding and the rule of law, cleavages and party-system realignment, the populist radical right, welfare states and social Europe, migration and the asylum crisis, Brexit, EU foreign policy and normative power, the regulatory state and governance, and differentiated integration. Works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (European politics and political science journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 311,
+   "theme_nodes": 19,
+   "seed_from_papers_json": 3,
+   "crossref_top_cited": 198,
+   "anchors_supplement": 110,
+   "relation_edges": 363,
+   "membership_edges": 476
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "hoffmann1966",
+   "target": "haas1958",
+   "type": "challenges",
+   "why": "Nation-states resist spillover in high politics, contrary to neofunctionalist expectations."
+  },
+  {
+   "source": "milward1992",
+   "target": "haas1958",
+   "type": "challenges",
+   "why": "Integration strengthened rather than superseded nation-states."
+  },
+  {
+   "source": "moravcsik1993",
+   "target": "hoffmann1966",
+   "type": "builds_on",
+   "why": "Recasts state-centric skepticism as a liberal theory of preferences and bargaining."
+  },
+  {
+   "source": "moravcsik1993",
+   "target": "haas1958",
+   "type": "challenges",
+   "why": "Treaty outcomes reflect national preferences and bargaining power, not spillover."
+  },
+  {
+   "source": "moravcsik1997",
+   "target": "moravcsik1993",
+   "type": "builds_on",
+   "why": "Generalizes the preference-formation step into a liberal theory of international politics."
+  },
+  {
+   "source": "moravcsik1998",
+   "target": "moravcsik1993",
+   "type": "mechanism_tested_by",
+   "why": "Tests the three-stage liberal intergovernmentalist model on five grand bargains."
+  },
+  {
+   "source": "moravcsik1998",
+   "target": "milward1992",
+   "type": "builds_on",
+   "why": "Integration serves national economic purposes, as Milward argued."
+  },
+  {
+   "source": "pierson1996path",
+   "target": "moravcsik1993",
+   "type": "challenges",
+   "why": "Unintended consequences and sunk costs let states lose control over integration."
+  },
+  {
+   "source": "marks1996",
+   "target": "moravcsik1993",
+   "type": "challenges",
+   "why": "Authority is dispersed across levels rather than monopolized by states."
+  },
+  {
+   "source": "sandholtzstonesweet1998",
+   "target": "haas1958",
+   "type": "builds_on",
+   "why": "Revives neofunctionalism: transnational exchange drives supranational rule-making."
+  },
+  {
+   "source": "sandholtzstonesweet1998",
+   "target": "moravcsik1993",
+   "type": "challenges",
+   "why": "Supranational governance develops beyond intergovernmental bargains."
+  },
+  {
+   "source": "hooghemarks2001",
+   "target": "marks1996",
+   "type": "builds_on",
+   "why": "Develops multilevel governance into a full account of the EU polity."
+  },
+  {
+   "source": "pollack1997",
+   "target": "pierson1996path",
+   "type": "qualifies",
+   "why": "Agent autonomy is real but bounded by principals' control mechanisms."
+  },
+  {
+   "source": "tsebelisgarrett2001",
+   "target": "pollack1997",
+   "type": "builds_on",
+   "why": "Links supranational autonomy to the EU's decision rules."
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "haas1958",
+   "type": "challenges",
+   "why": "Mass politicization of identity, not elite spillover, now constrains integration."
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "moravcsik1998",
+   "type": "challenges",
+   "why": "Domestic identity politics, not producer interests, shape preferences on Europe."
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "hooghemarks2005",
+   "type": "builds_on",
+   "why": "Exclusive national identity and cues from public opinion become the core of postfunctionalism."
+  },
+  {
+   "source": "puetter2012",
+   "target": "moravcsik1998",
+   "type": "qualifies",
+   "why": "Post-Maastricht integration relies on deliberative consensus among governments rather than hard bargains."
+  },
+  {
+   "source": "bickerton2014",
+   "target": "puetter2012",
+   "type": "builds_on",
+   "why": "Deliberative intergovernmentalism is one pillar of the new intergovernmentalism."
+  },
+  {
+   "source": "bickerton2014",
+   "target": "haas1958",
+   "type": "challenges",
+   "why": "Integration since Maastricht happens without supranational transfers."
+  },
+  {
+   "source": "schimmelfennig2015jcms",
+   "target": "bickerton2014",
+   "type": "challenges",
+   "why": "Most claims of new intergovernmentalism are already covered by existing theories."
+  },
+  {
+   "source": "schimmelfennig2014jei",
+   "target": "hooghemarks2009",
+   "type": "challenges",
+   "why": "Euro-crisis deepening shows that politicization did not block integration."
+  },
+  {
+   "source": "schimmelfennig2015li",
+   "target": "moravcsik1998",
+   "type": "extends_to_new_case",
+   "why": "Applies liberal intergovernmentalism to euro-crisis bargaining."
+  },
+  {
+   "source": "niemannioannou2015",
+   "target": "haas1958",
+   "type": "extends_to_new_case",
+   "why": "Finds functional spillover behind euro-crisis integration."
+  },
+  {
+   "source": "jones2016",
+   "target": "moravcsik1998",
+   "type": "builds_on",
+   "why": "Intergovernmental lowest-common-denominator bargains produce incomplete institutions."
+  },
+  {
+   "source": "jones2016",
+   "target": "haas1958",
+   "type": "synthesizes",
+   "why": "Combines intergovernmental bargaining with neofunctionalist spillover into failing forward."
+  },
+  {
+   "source": "jones2021",
+   "target": "jones2016",
+   "type": "extends_to_new_case",
+   "why": "Shows failing forward across policy areas beyond the euro."
+  },
+  {
+   "source": "genschel2018",
+   "target": "hooghemarks2009",
+   "type": "qualifies",
+   "why": "Politicization constrains core-state-power integration only when capacity is also lacking."
+  },
+  {
+   "source": "genschel2018",
+   "target": "schimmelfennig2015li",
+   "type": "qualifies",
+   "why": "Contrasts the euro and refugee crises to set scope conditions for integration under crisis."
+  },
+  {
+   "source": "borzelrisse2018",
+   "target": "hooghemarks2009",
+   "type": "mechanism_tested_by",
+   "why": "Identity politics explains why the Schengen crisis did not produce integration."
+  },
+  {
+   "source": "schimmelfennig2018",
+   "target": "schimmelfennig2015li",
+   "type": "builds_on",
+   "why": "Extends the crisis analysis to Schengen with interdependence and politicization."
+  },
+  {
+   "source": "schimmelfennig2018",
+   "target": "borzelrisse2018",
+   "type": "qualifies",
+   "why": "Weighs interdependence and supranational capacity alongside identity in comparing crises."
+  },
+  {
+   "source": "moravcsik2018",
+   "target": "moravcsik1998",
+   "type": "builds_on",
+   "why": "Restates liberal intergovernmentalism for twenty-first-century crises."
+  },
+  {
+   "source": "hooghemarks2019",
+   "target": "hooghemarks2009",
+   "type": "synthesizes",
+   "why": "Integrates postfunctionalism with neofunctionalism and intergovernmentalism."
+  },
+  {
+   "source": "hooghemarks2019",
+   "target": "bickerton2014",
+   "type": "synthesizes",
+   "why": "Places new intergovernmentalism among the grand theories."
+  },
+  {
+   "source": "ferrarakriesi2022",
+   "target": "schimmelfennig2018",
+   "type": "qualifies",
+   "why": "Symmetry of crisis pressure conditions whether integration follows."
+  },
+  {
+   "source": "kelemenmcnamara2022",
+   "target": "moravcsik1998",
+   "type": "challenges",
+   "why": "Bellicist state-building explains what market-driven bargains left out."
+  },
+  {
+   "source": "vollaard2014",
+   "target": "bartolini2005",
+   "type": "builds_on",
+   "why": "Uses exit and bounding to explain disintegration."
+  },
+  {
+   "source": "leuffen2013",
+   "target": "hooghemarks2009",
+   "type": "synthesizes",
+   "why": "Explains differentiation with interdependence and politicization."
+  },
+  {
+   "source": "leuffen2013",
+   "target": "moravcsik1998",
+   "type": "synthesizes",
+   "why": "Integrates intergovernmental preferences into a theory of differentiated integration."
+  },
+  {
+   "source": "tsebelis1994",
+   "target": "scharpf1988",
+   "type": "builds_on",
+   "why": "Institutional rules determine agenda power in EU legislation."
+  },
+  {
+   "source": "tsebelis1995",
+   "target": "tsebelis1994",
+   "type": "builds_on",
+   "why": "Generalizes agenda-setting into veto player theory."
+  },
+  {
+   "source": "tsebelisgarrett2001",
+   "target": "tsebelis1994",
+   "type": "builds_on",
+   "why": "Applies spatial models across EU procedures."
+  },
+  {
+   "source": "hix2006",
+   "target": "tsebelisgarrett2001",
+   "type": "builds_on",
+   "why": "Parliament's empowered role makes its internal party politics consequential."
+  },
+  {
+   "source": "hix2007",
+   "target": "hix2006",
+   "type": "builds_on",
+   "why": "Develops the left-right structure into a full account of EP party politics."
+  },
+  {
+   "source": "proksch2009",
+   "target": "hix2007",
+   "type": "qualifies",
+   "why": "Speeches reveal national positions that votes along party lines hide."
+  },
+  {
+   "source": "hayesrenshaw2006",
+   "target": "tsebelisgarrett2001",
+   "type": "qualifies",
+   "why": "Formal voting rules matter less because the Council decides by consensus."
+  },
+  {
+   "source": "tallberg2008",
+   "target": "moravcsik1998",
+   "type": "qualifies",
+   "why": "Bargaining power also flows from leaders and the presidency, not only state size."
+  },
+  {
+   "source": "hixhoyland2013",
+   "target": "rittberger2005",
+   "type": "builds_on",
+   "why": "Parliament's empowerment followed legitimacy concerns."
+  },
+  {
+   "source": "hixhoyland2013",
+   "target": "hix2007",
+   "type": "synthesizes",
+   "why": "Reviews EP empowerment and its effect on legislative politics."
+  },
+  {
+   "source": "hagemann2016",
+   "target": "hayesrenshaw2006",
+   "type": "builds_on",
+   "why": "Uses Council voting records to show responsiveness to domestic opinion."
+  },
+  {
+   "source": "hagemann2016",
+   "target": "hooghemarks2009",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether domestic Euroscepticism constrains governments in Brussels."
+  },
+  {
+   "source": "bauerbecker2014",
+   "target": "bickerton2014",
+   "type": "challenges",
+   "why": "The Commission gained power in economic governance contrary to its sidelining."
+  },
+  {
+   "source": "burleymattli1993",
+   "target": "weiler1991",
+   "type": "builds_on",
+   "why": "Explains the legal transformation Weiler described with a neofunctionalist logic."
+  },
+  {
+   "source": "burleymattli1993",
+   "target": "haas1958",
+   "type": "extends_to_new_case",
+   "why": "Applies neofunctionalism to the Court of Justice."
+  },
+  {
+   "source": "garrett1995",
+   "target": "burleymattli1993",
+   "type": "challenges",
+   "why": "The Court follows the interests of powerful governments rather than escaping them."
+  },
+  {
+   "source": "stonesweetbrunell1998",
+   "target": "burleymattli1993",
+   "type": "builds_on",
+   "why": "Transnational litigation feeds legal integration."
+  },
+  {
+   "source": "stonesweetbrunell1998",
+   "target": "garrett1995",
+   "type": "challenges",
+   "why": "References track transnational exchange, not government preferences."
+  },
+  {
+   "source": "alter2001",
+   "target": "weiler1991",
+   "type": "builds_on",
+   "why": "Explains how national courts came to accept supremacy."
+  },
+  {
+   "source": "alter2001",
+   "target": "garrett1995",
+   "type": "challenges",
+   "why": "Judicial competition, not government acquiescence, established supremacy."
+  },
+  {
+   "source": "stonesweet2004",
+   "target": "stonesweetbrunell1998",
+   "type": "builds_on",
+   "why": "Book-length account of the judicial construction of Europe."
+  },
+  {
+   "source": "carrubba2008",
+   "target": "garrett1995",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether override and noncompliance threats shape Court rulings."
+  },
+  {
+   "source": "carrubba2008",
+   "target": "stonesweet2004",
+   "type": "challenges",
+   "why": "Government observations predict outcomes, contrary to a fully autonomous Court."
+  },
+  {
+   "source": "alterhelfer2010",
+   "target": "stonesweet2004",
+   "type": "qualifies",
+   "why": "Legal context and supportive interlocutors explain activism; the design of the court alone does not."
+  },
+  {
+   "source": "kelemen2011",
+   "target": "stonesweet2004",
+   "type": "extends_to_new_case",
+   "why": "Legal integration spreads adversarial legalism into regulation."
+  },
+  {
+   "source": "larssonnaurin2016",
+   "target": "carrubba2008",
+   "type": "builds_on",
+   "why": "The Court adjusts its rulings to the risk of legislative override."
+  },
+  {
+   "source": "hoepnerschaefer2012",
+   "target": "scharpf2010",
+   "type": "builds_on",
+   "why": "Court-driven liberalization erodes national social models."
+  },
+  {
+   "source": "caporaso2009",
+   "target": "scharpf1999",
+   "type": "challenges",
+   "why": "Supranational institutions re-embed markets rather than only liberalize them."
+  },
+  {
+   "source": "hoepnerschaefer2012",
+   "target": "caporaso2009",
+   "type": "challenges",
+   "why": "Rulings like Viking and Laval disembed rather than re-embed markets."
+  },
+  {
+   "source": "blaubergerkelemen2017",
+   "target": "stonesweet2004",
+   "type": "extends_to_new_case",
+   "why": "Asks whether judicial power can defend democracy in member states."
+  },
+  {
+   "source": "cowles2001",
+   "target": "borzelrisse2000",
+   "type": "builds_on",
+   "why": "Goodness of fit and mediating institutions frame the edited case studies."
+  },
+  {
+   "source": "mair2000",
+   "target": "borzelrisse2000",
+   "type": "qualifies",
+   "why": "Europe has little direct effect on party systems."
+  },
+  {
+   "source": "falkner2005",
+   "target": "cowles2001",
+   "type": "challenges",
+   "why": "Compliance follows domestic political culture more than goodness of fit."
+  },
+  {
+   "source": "mastenbroek2006",
+   "target": "borzelrisse2000",
+   "type": "challenges",
+   "why": "Domestic preferences, not misfit, explain implementation."
+  },
+  {
+   "source": "falkner2007",
+   "target": "falkner2005",
+   "type": "builds_on",
+   "why": "Develops worlds of compliance as a typology."
+  },
+  {
+   "source": "falknertreib2008",
+   "target": "falkner2007",
+   "type": "extends_to_new_case",
+   "why": "Adds a fourth world of dead letters for new member states."
+  },
+  {
+   "source": "borzel2010",
+   "target": "falkner2007",
+   "type": "challenges",
+   "why": "Power and capacity, not cultures, explain noncompliance."
+  },
+  {
+   "source": "borzelrisse2012",
+   "target": "borzelrisse2000",
+   "type": "builds_on",
+   "why": "Recasts Europeanization as diffusion."
+  },
+  {
+   "source": "schimmelfennigsedelmeier2004",
+   "target": "borzelrisse2000",
+   "type": "extends_to_new_case",
+   "why": "Applies Europeanization to candidate countries via conditionality."
+  },
+  {
+   "source": "majone1998",
+   "target": "majone1996",
+   "type": "builds_on",
+   "why": "Output legitimacy of a regulatory state is the right standard."
+  },
+  {
+   "source": "scharpf1999",
+   "target": "scharpf1988",
+   "type": "builds_on",
+   "why": "Joint-decision problems limit the EU's output legitimacy."
+  },
+  {
+   "source": "moravcsik2002",
+   "target": "majone1998",
+   "type": "builds_on",
+   "why": "Defends EU legitimacy using existing democratic standards."
+  },
+  {
+   "source": "follesdalhix2006",
+   "target": "moravcsik2002",
+   "type": "challenges",
+   "why": "A real democratic deficit exists because there is no contest for power."
+  },
+  {
+   "source": "follesdalhix2006",
+   "target": "majone1998",
+   "type": "challenges",
+   "why": "Regulatory output does not substitute for electoral contestation."
+  },
+  {
+   "source": "follesdal2006",
+   "target": "follesdalhix2006",
+   "type": "synthesizes",
+   "why": "Surveys the legitimacy deficits in normative theory."
+  },
+  {
+   "source": "rittberger2005",
+   "target": "moravcsik1998",
+   "type": "qualifies",
+   "why": "Treaty bargains also responded to legitimacy concerns, not only interests."
+  },
+  {
+   "source": "mair2007",
+   "target": "follesdalhix2006",
+   "type": "builds_on",
+   "why": "Absent opposition within the EU yields opposition to it."
+  },
+  {
+   "source": "nicolaidis2012",
+   "target": "follesdalhix2006",
+   "type": "challenges",
+   "why": "The EU should be judged as a demoicracy, not a would-be state democracy."
+  },
+  {
+   "source": "schmidt2013",
+   "target": "scharpf1999",
+   "type": "builds_on",
+   "why": "Adds throughput to Scharpf's input and output legitimacy."
+  },
+  {
+   "source": "crum2013",
+   "target": "schmidt2013",
+   "type": "extends_to_new_case",
+   "why": "Crisis governance undermines input and throughput legitimacy."
+  },
+  {
+   "source": "mair2013",
+   "target": "katzmair1995",
+   "type": "builds_on",
+   "why": "Cartelized parties withdraw from society, hollowing democracy."
+  },
+  {
+   "source": "mair2013",
+   "target": "mair2007",
+   "type": "builds_on",
+   "why": "EU depoliticization deepens the void."
+  },
+  {
+   "source": "hobolt2012jcms",
+   "target": "follesdalhix2006",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether representation shapes satisfaction with EU democracy."
+  },
+  {
+   "source": "sanchezcuenca2017",
+   "target": "follesdalhix2006",
+   "type": "builds_on",
+   "why": "Post-crisis debate moved from deficit to technocracy."
+  },
+  {
+   "source": "sanchezcuenca2017",
+   "target": "streeck2014",
+   "type": "synthesizes",
+   "why": "Reviews claims that crisis governance removed policy from democratic contest."
+  },
+  {
+   "source": "caramani2017",
+   "target": "mair2013",
+   "type": "builds_on",
+   "why": "Populism and technocracy both reject party-based representation."
+  },
+  {
+   "source": "streeck2014",
+   "target": "scharpf1999",
+   "type": "builds_on",
+   "why": "Monetary union shifts power from democratic states to markets."
+  },
+  {
+   "source": "gabel1998",
+   "target": "inglehart1970",
+   "type": "challenges",
+   "why": "Utilitarian benefits outperform cognitive mobilization in explaining support."
+  },
+  {
+   "source": "mclaren2002",
+   "target": "gabel1998",
+   "type": "challenges",
+   "why": "Cultural threat matters beyond cost-benefit calculation."
+  },
+  {
+   "source": "hooghemarks2005",
+   "target": "gabel1998",
+   "type": "qualifies",
+   "why": "Identity and cues add to calculation."
+  },
+  {
+   "source": "hooghemarks2005",
+   "target": "mclaren2002",
+   "type": "builds_on",
+   "why": "Exclusive national identity explains opposition."
+  },
+  {
+   "source": "kopeckymudde2002",
+   "target": "taggart1998",
+   "type": "challenges",
+   "why": "Hard/soft distinctions miss support for integration ideas versus the EU."
+  },
+  {
+   "source": "steenbergen2007",
+   "target": "hooghemarks2005",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether party cues shape voter Euroscepticism."
+  },
+  {
+   "source": "fligstein2008",
+   "target": "inglehart1970",
+   "type": "qualifies",
+   "why": "European identity is concentrated among mobile, educated elites."
+  },
+  {
+   "source": "risse2010",
+   "target": "fligstein2008",
+   "type": "qualifies",
+   "why": "Nested identities and Europeanized public spheres are more widespread."
+  },
+  {
+   "source": "devriesedwards2009",
+   "target": "steenbergen2007",
+   "type": "builds_on",
+   "why": "Extreme parties cue Euroscepticism."
+  },
+  {
+   "source": "boomgaarden2011",
+   "target": "hooghemarks2005",
+   "type": "qualifies",
+   "why": "EU attitudes have several dimensions rather than one."
+  },
+  {
+   "source": "vasilopoulou2011",
+   "target": "kopeckymudde2002",
+   "type": "builds_on",
+   "why": "Develops a typology of radical right opposition."
+  },
+  {
+   "source": "werts2012",
+   "target": "mclaren2002",
+   "type": "extends_to_new_case",
+   "why": "Euroscepticism carries into radical right voting."
+  },
+  {
+   "source": "hakhverdian2013",
+   "target": "gabel1998",
+   "type": "builds_on",
+   "why": "Education gap reflects skill-based gains from integration."
+  },
+  {
+   "source": "serricchio2013",
+   "target": "hooghemarks2005",
+   "type": "mechanism_tested_by",
+   "why": "Identity and distrust drove crisis-era Euroscepticism."
+  },
+  {
+   "source": "kuhnstoeckel2014",
+   "target": "hooghemarks2009",
+   "type": "mechanism_tested_by",
+   "why": "Identity divides support for costly crisis governance."
+  },
+  {
+   "source": "hoboltwratil2015",
+   "target": "gabel1998",
+   "type": "builds_on",
+   "why": "Cost-benefit calculation sustained support for the euro."
+  },
+  {
+   "source": "hoboltdevries2016",
+   "target": "hooghemarks2005",
+   "type": "synthesizes",
+   "why": "Reviews utilitarian, identity and cue explanations."
+  },
+  {
+   "source": "vanelsas2016",
+   "target": "devriesedwards2009",
+   "type": "builds_on",
+   "why": "Left and right Euroscepticism have distinct sources."
+  },
+  {
+   "source": "devries2018",
+   "target": "hoboltdevries2016",
+   "type": "builds_on",
+   "why": "Benchmarks EU against national performance."
+  },
+  {
+   "source": "armingeon2015",
+   "target": "armingeon2014",
+   "type": "builds_on",
+   "why": "Links adjustment pain to declining democratic support."
+  },
+  {
+   "source": "mclaren2007",
+   "target": "mclaren2002",
+   "type": "extends_to_new_case",
+   "why": "Cultural threat explains opposition to Turkish membership."
+  },
+  {
+   "source": "vandereijkfranklin2004",
+   "target": "vandereijkfranklin1996",
+   "type": "builds_on",
+   "why": "The EU dimension is latent in national elections."
+  },
+  {
+   "source": "devries2007",
+   "target": "vandereijkfranklin2004",
+   "type": "mechanism_tested_by",
+   "why": "Tests when the sleeping giant of EU issue voting awakens."
+  },
+  {
+   "source": "kriesi2008",
+   "target": "kriesi2006",
+   "type": "builds_on",
+   "why": "Develops the integration-demarcation cleavage into a full study."
+  },
+  {
+   "source": "dewilde2011",
+   "target": "hooghemarks2009",
+   "type": "builds_on",
+   "why": "Specifies politicization as salience, polarization and mobilization."
+  },
+  {
+   "source": "dewildezurn2012",
+   "target": "dewilde2011",
+   "type": "builds_on",
+   "why": "Politicization follows authority transfer and is irreversible."
+  },
+  {
+   "source": "greenpedersen2012",
+   "target": "vandereijkfranklin2004",
+   "type": "qualifies",
+   "why": "Mainstream parties keep the giant asleep."
+  },
+  {
+   "source": "devrieshobolt2012",
+   "target": "devries2007",
+   "type": "builds_on",
+   "why": "Issue entrepreneurs mobilize the EU dimension."
+  },
+  {
+   "source": "devrieshobolt2012",
+   "target": "greenpedersen2012",
+   "type": "builds_on",
+   "why": "Losing parties have incentives to politicize what divides mainstream parties."
+  },
+  {
+   "source": "huttergrande2014",
+   "target": "kriesi2008",
+   "type": "extends_to_new_case",
+   "why": "Traces politicization of Europe in national campaigns."
+  },
+  {
+   "source": "huttergrande2014",
+   "target": "dewildezurn2012",
+   "type": "qualifies",
+   "why": "Politicization is punctuated and driven by the radical right, not steady."
+  },
+  {
+   "source": "hoboltdevries2015",
+   "target": "devrieshobolt2012",
+   "type": "builds_on",
+   "why": "Generalizes issue entrepreneurship to multiparty competition."
+  },
+  {
+   "source": "hutter2016",
+   "target": "huttergrande2014",
+   "type": "builds_on",
+   "why": "Book-length comparative study of politicizing Europe."
+  },
+  {
+   "source": "kriesi2016",
+   "target": "hutter2016",
+   "type": "synthesizes",
+   "why": "Reviews the politicization findings."
+  },
+  {
+   "source": "hutterkriesi2019",
+   "target": "hutter2016",
+   "type": "extends_to_new_case",
+   "why": "Extends the analysis to the euro crisis."
+  },
+  {
+   "source": "zurn2019",
+   "target": "dewildezurn2012",
+   "type": "builds_on",
+   "why": "Compares politicization across levels of governance."
+  },
+  {
+   "source": "devrieshobolt2020",
+   "target": "hoboltdevries2015",
+   "type": "builds_on",
+   "why": "Challenger parties rise through issue entrepreneurship."
+  },
+  {
+   "source": "devries2021",
+   "target": "hooghemarks2009",
+   "type": "extends_to_new_case",
+   "why": "Politicization of international cooperation beyond the EU."
+  },
+  {
+   "source": "mair2007",
+   "target": "mair2000",
+   "type": "builds_on",
+   "why": "Europe depoliticizes national competition."
+  },
+  {
+   "source": "steenbergen2007",
+   "target": "vandereijkfranklin2004",
+   "type": "builds_on",
+   "why": "Party cues determine how latent EU attitudes are mobilized."
+  },
+  {
+   "source": "vandereijkfranklin1996",
+   "target": "reifschmitt1980",
+   "type": "builds_on",
+   "why": "EP elections are fought on national issues."
+  },
+  {
+   "source": "hixmarsh2007",
+   "target": "reifschmitt1980",
+   "type": "mechanism_tested_by",
+   "why": "Tests punishment versus protest explanations."
+  },
+  {
+   "source": "hobolt2009bjps",
+   "target": "reifschmitt1980",
+   "type": "qualifies",
+   "why": "EU attitudes cause defection, not only second-order dynamics."
+  },
+  {
+   "source": "hixmarsh2011",
+   "target": "hixmarsh2007",
+   "type": "builds_on",
+   "why": "Adds pan-European swings to second-order effects."
+  },
+  {
+   "source": "hoboltspoon2012",
+   "target": "hobolt2009bjps",
+   "type": "builds_on",
+   "why": "Campaign context conditions EU voting."
+  },
+  {
+   "source": "hobolt2014jepp",
+   "target": "hixmarsh2011",
+   "type": "qualifies",
+   "why": "Lead candidates did little to Europeanize EP elections."
+  },
+  {
+   "source": "hoboltdevries2016elst",
+   "target": "hobolt2009bjps",
+   "type": "extends_to_new_case",
+   "why": "Eurosceptic voting rose in the crisis elections."
+  },
+  {
+   "source": "hobolt2007ejpr",
+   "target": "steenbergen2007",
+   "type": "builds_on",
+   "why": "Party cues guide referendum voting."
+  },
+  {
+   "source": "hobolt2009europe",
+   "target": "hobolt2007ejpr",
+   "type": "builds_on",
+   "why": "Referendums are decided by EU attitudes when campaigns inform."
+  },
+  {
+   "source": "hobolt2009europe",
+   "target": "reifschmitt1980",
+   "type": "challenges",
+   "why": "EU referendums are not merely second-order votes on governments."
+  },
+  {
+   "source": "mcnamara1998",
+   "target": "mundell1961",
+   "type": "challenges",
+   "why": "Monetary union followed ideas, not optimum currency area logic."
+  },
+  {
+   "source": "degrauwe2013",
+   "target": "mundell1961",
+   "type": "builds_on",
+   "why": "Eurozone lacks adjustment mechanisms of an optimum area."
+  },
+  {
+   "source": "hall2014",
+   "target": "hallsoskice2001",
+   "type": "extends_to_new_case",
+   "why": "Applies varieties of capitalism to EMU."
+  },
+  {
+   "source": "copelovitch2016",
+   "target": "degrauwe2013",
+   "type": "builds_on",
+   "why": "Balance-of-payments imbalances and distributional politics explain the crisis."
+  },
+  {
+   "source": "frieden2017",
+   "target": "copelovitch2016",
+   "type": "synthesizes",
+   "why": "Reviews the political economy of the eurozone crisis."
+  },
+  {
+   "source": "matthijsmcnamara2015",
+   "target": "mcnamara1998",
+   "type": "builds_on",
+   "why": "Ideas shaped crisis responses as they shaped EMU."
+  },
+  {
+   "source": "blyth2013",
+   "target": "mcnamara1998",
+   "type": "builds_on",
+   "why": "Ideas about austerity drove policy."
+  },
+  {
+   "source": "jones2016",
+   "target": "mcnamara1998",
+   "type": "builds_on",
+   "why": "Initial EMU design was incomplete."
+  },
+  {
+   "source": "hernandezkriesi2016",
+   "target": "kriesi2008",
+   "type": "extends_to_new_case",
+   "why": "Crisis punishment reshaped party systems."
+  },
+  {
+   "source": "hernandezkriesi2016",
+   "target": "funke2016",
+   "type": "builds_on",
+   "why": "Financial crises lead to electoral punishment and fragmentation."
+  },
+  {
+   "source": "hobolttilley2016",
+   "target": "hernandezkriesi2016",
+   "type": "builds_on",
+   "why": "Crisis drove voters to challenger parties."
+  },
+  {
+   "source": "armingeon2014",
+   "target": "scharpf1999",
+   "type": "extends_to_new_case",
+   "why": "EU-imposed austerity reduced support for national democracy."
+  },
+  {
+   "source": "zeitlinvanhercke2018",
+   "target": "scharpf2010",
+   "type": "challenges",
+   "why": "Social goals gained ground within the Semester."
+  },
+  {
+   "source": "hallsoskice2001",
+   "target": "espingandersen1990",
+   "type": "builds_on",
+   "why": "Institutional complementarities in capitalism mirror welfare regimes."
+  },
+  {
+   "source": "fetzer2019",
+   "target": "blyth2013",
+   "type": "mechanism_tested_by",
+   "why": "Tests the political consequences of austerity."
+  },
+  {
+   "source": "mcnamara2023",
+   "target": "kelemenmcnamara2022",
+   "type": "builds_on",
+   "why": "Industrial policy expands EU capacity beyond market-making."
+  },
+  {
+   "source": "bechtel2014",
+   "target": "gabel1998",
+   "type": "challenges",
+   "why": "Bailout preferences reflect cosmopolitanism and altruism more than pocketbook interest."
+  },
+  {
+   "source": "bauerbecker2014",
+   "target": "pollack1997",
+   "type": "builds_on",
+   "why": "Delegation to the Commission expanded in crisis economic governance."
+  },
+  {
+   "source": "schimmelfennigsedelmeier2004",
+   "target": "schimmelfennig2001",
+   "type": "builds_on",
+   "why": "From rhetorical entrapment to an external incentives model of rule transfer."
+  },
+  {
+   "source": "schimmelfennigsedelmeier2005",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "mechanism_tested_by",
+   "why": "Tests the external incentives model across candidates and policies."
+  },
+  {
+   "source": "vachudova2005",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "builds_on",
+   "why": "Active leverage works through credible membership incentives."
+  },
+  {
+   "source": "levitskyway2006",
+   "target": "vachudova2005",
+   "type": "extends_to_new_case",
+   "why": "Western leverage and linkage shape regime outcomes worldwide."
+  },
+  {
+   "source": "kelley2006",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "qualifies",
+   "why": "Without membership incentives, conditionality loses force in the neighbourhood."
+  },
+  {
+   "source": "schimmelfennig2008",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "extends_to_new_case",
+   "why": "Applies the model to post-2004 candidates."
+  },
+  {
+   "source": "schimmelfennigscholtz2008",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "mechanism_tested_by",
+   "why": "Tests membership incentives versus aid in the neighbourhood."
+  },
+  {
+   "source": "sedelmeier2008",
+   "target": "falkner2007",
+   "type": "challenges",
+   "why": "New members comply as well as old ones after accession."
+  },
+  {
+   "source": "sedelmeier2008",
+   "target": "schimmelfennigsedelmeier2005",
+   "type": "builds_on",
+   "why": "Pre-accession conditionality left lasting compliance."
+  },
+  {
+   "source": "falknertreib2008",
+   "target": "sedelmeier2008",
+   "type": "challenges",
+   "why": "Transposition is fine but application lags in new members."
+  },
+  {
+   "source": "lavenexschimmelfennig2009",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "extends_to_new_case",
+   "why": "External governance beyond the membership perspective."
+  },
+  {
+   "source": "noutcheva2009",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "qualifies",
+   "why": "Contested sovereignty yields fake or partial compliance in the Balkans."
+  },
+  {
+   "source": "gray2009",
+   "target": "vachudova2005",
+   "type": "extends_to_new_case",
+   "why": "Accession works as a seal of approval for investors."
+  },
+  {
+   "source": "vachudovahooghe2009",
+   "target": "vachudova2005",
+   "type": "builds_on",
+   "why": "Accession structured post-communist party competition."
+  },
+  {
+   "source": "vachudovahooghe2009",
+   "target": "marks2006",
+   "type": "builds_on",
+   "why": "East-West differences in party positions on Europe."
+  },
+  {
+   "source": "nolke2009",
+   "target": "hallsoskice2001",
+   "type": "extends_to_new_case",
+   "why": "A dependent market economy as a new variety in East Central Europe."
+  },
+  {
+   "source": "bohlegreskovits2007",
+   "target": "hallsoskice2001",
+   "type": "challenges",
+   "why": "Post-communist capitalisms do not fit the liberal-coordinated dichotomy."
+  },
+  {
+   "source": "bohlegreskovits2012",
+   "target": "bohlegreskovits2007",
+   "type": "builds_on",
+   "why": "Develops the typology of peripheral capitalisms."
+  },
+  {
+   "source": "grzymalabusse2007",
+   "target": "vachudova2005",
+   "type": "qualifies",
+   "why": "Domestic party competition, not EU leverage alone, limited state exploitation."
+  },
+  {
+   "source": "innes2014",
+   "target": "grzymalabusse2007",
+   "type": "builds_on",
+   "why": "State capture as a weakness of post-communist party competition."
+  },
+  {
+   "source": "schimmelfennigsedelmeier2020",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "synthesizes",
+   "why": "Reviews the external incentives model two decades later."
+  },
+  {
+   "source": "richter2019",
+   "target": "noutcheva2009",
+   "type": "builds_on",
+   "why": "Conditionality can feed state capture in the Western Balkans."
+  },
+  {
+   "source": "bankuti2012",
+   "target": "grzymalabusse2007",
+   "type": "extends_to_new_case",
+   "why": "Hungary shows unchecked capture of the state by a dominant party."
+  },
+  {
+   "source": "sedelmeier2014",
+   "target": "schimmelfennigsedelmeier2004",
+   "type": "qualifies",
+   "why": "Post-accession leverage against backsliding is weak."
+  },
+  {
+   "source": "sedelmeier2017",
+   "target": "sedelmeier2014",
+   "type": "builds_on",
+   "why": "Material sanctions face party-political limits."
+  },
+  {
+   "source": "bermeo2016",
+   "target": "bankuti2012",
+   "type": "synthesizes",
+   "why": "Executive aggrandizement, as in Hungary, is the dominant form of backsliding."
+  },
+  {
+   "source": "blaubergerkelemen2017",
+   "target": "sedelmeier2014",
+   "type": "builds_on",
+   "why": "Asks whether courts can supply leverage the political process lacks."
+  },
+  {
+   "source": "schlipphaktreib2017",
+   "target": "sedelmeier2014",
+   "type": "qualifies",
+   "why": "EU interventions can backfire through blame games."
+  },
+  {
+   "source": "kelemen2017",
+   "target": "follesdalhix2006",
+   "type": "extends_to_new_case",
+   "why": "The EU's other deficit is national authoritarianism inside it."
+  },
+  {
+   "source": "kelemen2017",
+   "target": "bankuti2012",
+   "type": "builds_on",
+   "why": "Hungary illustrates authoritarian enclaves in the EU."
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "bermeo2016",
+   "type": "builds_on",
+   "why": "Elected leaders erode norms incrementally."
+  },
+  {
+   "source": "waldnerlust2018",
+   "target": "bermeo2016",
+   "type": "synthesizes",
+   "why": "Reviews theories of backsliding."
+  },
+  {
+   "source": "scheppele2018",
+   "target": "bankuti2012",
+   "type": "builds_on",
+   "why": "Autocratic legalism generalizes Hungary's constitutional capture."
+  },
+  {
+   "source": "kelemen2020",
+   "target": "kelemen2017",
+   "type": "builds_on",
+   "why": "Party politics and funds sustain an authoritarian equilibrium."
+  },
+  {
+   "source": "bakkesitter2022",
+   "target": "kelemen2017",
+   "type": "builds_on",
+   "why": "Central European backsliders exploit weak EU tools."
+  },
+  {
+   "source": "haggardkaufman2021",
+   "target": "levitskyziblatt2018",
+   "type": "builds_on",
+   "why": "Polarization and executive aggrandizement drive backsliding."
+  },
+  {
+   "source": "cianettihanley2021",
+   "target": "bermeo2016",
+   "type": "challenges",
+   "why": "The backsliding paradigm overstates prior democratic quality."
+  },
+  {
+   "source": "pirrostanley2022",
+   "target": "scheppele2018",
+   "type": "builds_on",
+   "why": "Hungary and Poland share an illiberal playbook of legalistic change."
+  },
+  {
+   "source": "vachudova2021",
+   "target": "vachudova2005",
+   "type": "qualifies",
+   "why": "EU leverage did not prevent populist state capture after accession."
+  },
+  {
+   "source": "vachudova2021",
+   "target": "bermeo2016",
+   "type": "extends_to_new_case",
+   "why": "Ties backsliding to populist party-system change in Europe."
+  },
+  {
+   "source": "scheiring2022",
+   "target": "bohlegreskovits2012",
+   "type": "builds_on",
+   "why": "Dependent capitalism shapes Hungarian national-populism."
+  },
+  {
+   "source": "kelemen2019",
+   "target": "kelemen2017",
+   "type": "builds_on",
+   "why": "Differentiation cannot apply to rule of law."
+  },
+  {
+   "source": "orenstein2017",
+   "target": "hill1993",
+   "type": "builds_on",
+   "why": "Member governments sympathetic to Russia widen the gap between EU ambitions and capabilities."
+  },
+  {
+   "source": "inglehart1977",
+   "target": "lipsetrokkan1967",
+   "type": "challenges",
+   "why": "Value change, not frozen cleavages, increasingly structures politics."
+  },
+  {
+   "source": "bartolinimair1990",
+   "target": "lipsetrokkan1967",
+   "type": "mechanism_tested_by",
+   "why": "Tests the freezing hypothesis with a century of volatility data."
+  },
+  {
+   "source": "kitschelt1994",
+   "target": "inglehart1977",
+   "type": "builds_on",
+   "why": "The libertarian-authoritarian axis reshapes social democratic strategy."
+  },
+  {
+   "source": "katzmair1995",
+   "target": "bartolinimair1990",
+   "type": "builds_on",
+   "why": "Parties respond to weakening social anchoring by cartelizing."
+  },
+  {
+   "source": "taggart1998",
+   "target": "katzmair1995",
+   "type": "builds_on",
+   "why": "Euroscepticism serves as dissent against cartelized mainstream parties."
+  },
+  {
+   "source": "bartolini2005",
+   "target": "lipsetrokkan1967",
+   "type": "extends_to_new_case",
+   "why": "Applies Rokkan's boundary theory to European integration."
+  },
+  {
+   "source": "meguid2005",
+   "target": "kitschelt1995",
+   "type": "qualifies",
+   "why": "Mainstream party strategy shapes niche party success beyond voter demand."
+  },
+  {
+   "source": "kriesi2006",
+   "target": "bartolini2005",
+   "type": "builds_on",
+   "why": "Globalization and denationalization create a new structural conflict."
+  },
+  {
+   "source": "kriesi2006",
+   "target": "kitschelt1994",
+   "type": "builds_on",
+   "why": "The cultural dimension transforms the national political space."
+  },
+  {
+   "source": "adams2006",
+   "target": "meguid2005",
+   "type": "builds_on",
+   "why": "Niche parties differ from mainstream parties in how they respond to opinion."
+  },
+  {
+   "source": "marks2006",
+   "target": "hooghemarks2005",
+   "type": "extends_to_new_case",
+   "why": "Party positions on Europe reflect ideology in East and West."
+  },
+  {
+   "source": "mair2008",
+   "target": "katzmair1995",
+   "type": "builds_on",
+   "why": "Responsiveness and responsibility diverge for party government."
+  },
+  {
+   "source": "vanderbrug2009",
+   "target": "kriesi2006",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether immigration and Europe load on one cultural dimension."
+  },
+  {
+   "source": "kriesi2010",
+   "target": "kriesi2008",
+   "type": "builds_on",
+   "why": "Value-based new cleavage between winners and losers."
+  },
+  {
+   "source": "bornschier2010",
+   "target": "kriesi2008",
+   "type": "builds_on",
+   "why": "Libertarian-universalistic versus traditionalist-communitarian divide."
+  },
+  {
+   "source": "bornschier2010",
+   "target": "lipsetrokkan1967",
+   "type": "builds_on",
+   "why": "The new divide is a cleavage in the Lipset-Rokkan sense."
+  },
+  {
+   "source": "bakker2015",
+   "target": "marks2006",
+   "type": "builds_on",
+   "why": "Chapel Hill data measure party positions on Europe and new dimensions."
+  },
+  {
+   "source": "rovny2013",
+   "target": "meguid2005",
+   "type": "builds_on",
+   "why": "Parties choose which dimensions to emphasize and which to blur."
+  },
+  {
+   "source": "gingrichhausermann2015",
+   "target": "kitschelt1994",
+   "type": "builds_on",
+   "why": "The middle-class turn of the left reconfigures welfare coalitions."
+  },
+  {
+   "source": "hoogemarks2018",
+   "target": "lipsetrokkan1967",
+   "type": "extends_to_new_case",
+   "why": "Europe's crises crystallize a new transnational cleavage."
+  },
+  {
+   "source": "hoogemarks2018",
+   "target": "kriesi2008",
+   "type": "builds_on",
+   "why": "Integration-demarcation politics becomes a transnational cleavage."
+  },
+  {
+   "source": "devries2018jepp",
+   "target": "kriesi2008",
+   "type": "builds_on",
+   "why": "The cosmopolitan-parochial divide reshapes competition."
+  },
+  {
+   "source": "oeschrennwald2018",
+   "target": "kitschelt1994",
+   "type": "builds_on",
+   "why": "Class voting realigns in a tripolar political space."
+  },
+  {
+   "source": "spoonkluver2019",
+   "target": "adams2006",
+   "type": "builds_on",
+   "why": "Mainstream convergence costs votes."
+  },
+  {
+   "source": "reiljan2020",
+   "target": "oeschrennwald2018",
+   "type": "extends_to_new_case",
+   "why": "Affective polarization grows in European multiparty systems."
+  },
+  {
+   "source": "fordjennings2020",
+   "target": "hoogemarks2018",
+   "type": "synthesizes",
+   "why": "Reviews demographic drivers of new cleavages."
+  },
+  {
+   "source": "gethin2022",
+   "target": "kitschelt1994",
+   "type": "mechanism_tested_by",
+   "why": "Long-run data show educated voters moving left as Kitschelt expected."
+  },
+  {
+   "source": "gethin2022",
+   "target": "inglehart1977",
+   "type": "builds_on",
+   "why": "Value change produces a Brahmin left."
+  },
+  {
+   "source": "hobolttilley2016",
+   "target": "mair2013",
+   "type": "builds_on",
+   "why": "Challenger parties exploit mainstream unresponsiveness."
+  },
+  {
+   "source": "hakhverdian2013",
+   "target": "kriesi2006",
+   "type": "builds_on",
+   "why": "The education divide on Europe fits the winners-losers cleavage."
+  },
+  {
+   "source": "kitschelt1995",
+   "target": "betz1994",
+   "type": "builds_on",
+   "why": "Adds a winning formula of authoritarian and market appeals."
+  },
+  {
+   "source": "golder2003",
+   "target": "kitschelt1995",
+   "type": "mechanism_tested_by",
+   "why": "Tests economic and immigration grievances in election data."
+  },
+  {
+   "source": "mudde2004",
+   "target": "betz1994",
+   "type": "builds_on",
+   "why": "Populist rhetoric becomes mainstream across Europe."
+  },
+  {
+   "source": "mudde2007",
+   "target": "mudde2004",
+   "type": "builds_on",
+   "why": "Defines the populist radical right as nativism, authoritarianism and populism."
+  },
+  {
+   "source": "mudde2007",
+   "target": "kitschelt1995",
+   "type": "challenges",
+   "why": "Nativism, not neoliberalism, is the core of the family."
+  },
+  {
+   "source": "ivarsflaten2008",
+   "target": "mudde2007",
+   "type": "mechanism_tested_by",
+   "why": "Immigration grievances unite successful radical right parties."
+  },
+  {
+   "source": "rydgren2008",
+   "target": "ivarsflaten2008",
+   "type": "qualifies",
+   "why": "Immigration scepticism rather than racism drives the vote."
+  },
+  {
+   "source": "arzheimer2009",
+   "target": "golder2003",
+   "type": "builds_on",
+   "why": "Contextual factors condition the extreme right vote."
+  },
+  {
+   "source": "mudde2010",
+   "target": "mudde2007",
+   "type": "builds_on",
+   "why": "Radical right values radicalize mainstream attitudes."
+  },
+  {
+   "source": "vanspanje2010",
+   "target": "meguid2005",
+   "type": "mechanism_tested_by",
+   "why": "Tests contagion from anti-immigration parties to mainstream positions."
+  },
+  {
+   "source": "lucassenlubbers2012",
+   "target": "sidescitrin2007",
+   "type": "builds_on",
+   "why": "Cultural threat outweighs economic threat."
+  },
+  {
+   "source": "muddekaltwasser2013",
+   "target": "mudde2004",
+   "type": "builds_on",
+   "why": "Ideational populism compared across regions."
+  },
+  {
+   "source": "mudde2013",
+   "target": "mudde2007",
+   "type": "qualifies",
+   "why": "Radical right effects on policy and democracy are modest."
+  },
+  {
+   "source": "kriesi2014",
+   "target": "kriesi2008",
+   "type": "builds_on",
+   "why": "Losers of globalization mobilized by populists."
+  },
+  {
+   "source": "schumacher2016",
+   "target": "vanspanje2010",
+   "type": "extends_to_new_case",
+   "why": "Mainstream adaptation to welfare chauvinism."
+  },
+  {
+   "source": "fordgoodwin2014",
+   "target": "kitschelt1995",
+   "type": "extends_to_new_case",
+   "why": "Explains the radical right in Britain."
+  },
+  {
+   "source": "golder2016",
+   "target": "mudde2007",
+   "type": "synthesizes",
+   "why": "Reviews research on far-right parties."
+  },
+  {
+   "source": "inglehartnorris2017",
+   "target": "inglehart1977",
+   "type": "builds_on",
+   "why": "Cultural backlash reverses the silent revolution."
+  },
+  {
+   "source": "gidronhall2017",
+   "target": "kriesi2008",
+   "type": "synthesizes",
+   "why": "Status decline links economic and cultural explanations."
+  },
+  {
+   "source": "gest2018",
+   "target": "gidronhall2017",
+   "type": "builds_on",
+   "why": "Nostalgic deprivation measures perceived status loss."
+  },
+  {
+   "source": "abouchadikrause2020",
+   "target": "meguid2005",
+   "type": "mechanism_tested_by",
+   "why": "Causal test of radical right success on mainstream positions."
+  },
+  {
+   "source": "colantone2018",
+   "target": "kriesi2006",
+   "type": "mechanism_tested_by",
+   "why": "Import shocks raise nationalist voting, as the globalization cleavage implies."
+  },
+  {
+   "source": "hopkinblyth2019",
+   "target": "hall2014",
+   "type": "builds_on",
+   "why": "Growth regimes shape populist outcomes."
+  },
+  {
+   "source": "norris2019",
+   "target": "inglehartnorris2017",
+   "type": "builds_on",
+   "why": "Book-length cultural backlash thesis."
+  },
+  {
+   "source": "gidronhall2020",
+   "target": "gidronhall2017",
+   "type": "builds_on",
+   "why": "Social integration underlies status-based populism."
+  },
+  {
+   "source": "bermansnegovaya2019",
+   "target": "kitschelt1994",
+   "type": "builds_on",
+   "why": "Social democrats' strategic choices opened space for populists."
+  },
+  {
+   "source": "kurer2020",
+   "target": "gidronhall2017",
+   "type": "mechanism_tested_by",
+   "why": "Tests occupational decline and status as a driver of populist right support."
+  },
+  {
+   "source": "berman2021",
+   "target": "norris2019",
+   "type": "synthesizes",
+   "why": "Reviews demand and supply explanations of populism."
+  },
+  {
+   "source": "vasilopoulou2011",
+   "target": "mudde2007",
+   "type": "builds_on",
+   "why": "Radical right opposition to Europe varies in form."
+  },
+  {
+   "source": "caramani2017",
+   "target": "muddekaltwasser2013",
+   "type": "builds_on",
+   "why": "Populism as a form of representation opposed to technocracy."
+  },
+  {
+   "source": "funke2016",
+   "target": "golder2003",
+   "type": "extends_to_new_case",
+   "why": "Financial crises boost far-right voting over 140 years."
+  },
+  {
+   "source": "bale2008",
+   "target": "meguid2005",
+   "type": "qualifies",
+   "why": "Centre-right parties lead restrictive immigration policy themselves."
+  },
+  {
+   "source": "ford2012",
+   "target": "ivarsflaten2008",
+   "type": "extends_to_new_case",
+   "why": "UKIP combines Euroscepticism with immigration hostility."
+  },
+  {
+   "source": "leibfriedpierson1995",
+   "target": "espingandersen1990",
+   "type": "builds_on",
+   "why": "National welfare regimes become embedded in a multitiered European system."
+  },
+  {
+   "source": "pierson1996",
+   "target": "espingandersen1990",
+   "type": "qualifies",
+   "why": "Retrenchment follows a new politics of blame avoidance rather than power resources."
+  },
+  {
+   "source": "scharpf1999",
+   "target": "leibfriedpierson1995",
+   "type": "builds_on",
+   "why": "Negative integration constrains national social policy."
+  },
+  {
+   "source": "scharpf2002",
+   "target": "scharpf1999",
+   "type": "builds_on",
+   "why": "Diversity of welfare regimes blocks a uniform European social model."
+  },
+  {
+   "source": "ferrera2005",
+   "target": "leibfriedpierson1995",
+   "type": "builds_on",
+   "why": "Integration redraws the boundaries of social protection."
+  },
+  {
+   "source": "sapir2006",
+   "target": "espingandersen1990",
+   "type": "builds_on",
+   "why": "Classifies European social models by efficiency and equity."
+  },
+  {
+   "source": "vanoorschot2006",
+   "target": "espingandersen1990",
+   "type": "extends_to_new_case",
+   "why": "Deservingness perceptions vary across welfare regimes."
+  },
+  {
+   "source": "scharpf2010",
+   "target": "scharpf2002",
+   "type": "builds_on",
+   "why": "Asymmetry between market and social integration prevents a social market economy."
+  },
+  {
+   "source": "mauburkhardt2009",
+   "target": "vanoorschot2006",
+   "type": "builds_on",
+   "why": "Immigration effects on solidarity across regimes."
+  },
+  {
+   "source": "hausermann2013",
+   "target": "kitschelt1994",
+   "type": "synthesizes",
+   "why": "Reviews new party politics of welfare state reform."
+  },
+  {
+   "source": "emmenegger2012",
+   "target": "pierson1996",
+   "type": "builds_on",
+   "why": "Welfare reform produces dualization rather than uniform retrenchment."
+  },
+  {
+   "source": "crespymenz2015",
+   "target": "scharpf2010",
+   "type": "builds_on",
+   "why": "Commission entrepreneurship subordinated social Europe."
+  },
+  {
+   "source": "hemerijck2018",
+   "target": "emmenegger2012",
+   "type": "challenges",
+   "why": "Social investment offers an alternative to dualizing reform."
+  },
+  {
+   "source": "falkner2005",
+   "target": "leibfriedpierson1995",
+   "type": "mechanism_tested_by",
+   "why": "Tests implementation of EU social directives."
+  },
+  {
+   "source": "caporaso2009",
+   "target": "leibfriedpierson1995",
+   "type": "builds_on",
+   "why": "Social re-embedding happens at the supranational level."
+  },
+  {
+   "source": "guiraudon2000",
+   "target": "pollack1997",
+   "type": "qualifies",
+   "why": "Officials delegate to the EU to escape domestic constraints, not only to cut transaction costs."
+  },
+  {
+   "source": "lavenex2006",
+   "target": "guiraudon2000",
+   "type": "builds_on",
+   "why": "Migration control shifts up to the EU and out to third countries."
+  },
+  {
+   "source": "sidescitrin2007",
+   "target": "mclaren2002",
+   "type": "builds_on",
+   "why": "Identity and cultural concerns outweigh economic interest in immigration attitudes."
+  },
+  {
+   "source": "hainmuellerhiscox2007",
+   "target": "sidescitrin2007",
+   "type": "builds_on",
+   "why": "Education effects reflect values rather than labour-market competition."
+  },
+  {
+   "source": "dancygier2010",
+   "target": "golder2003",
+   "type": "qualifies",
+   "why": "Local scarcity and immigrant electoral power condition conflict."
+  },
+  {
+   "source": "ford2011",
+   "target": "sidescitrin2007",
+   "type": "extends_to_new_case",
+   "why": "British opposition depends on the origin and race of immigrants."
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "hainmuellerhiscox2007",
+   "type": "synthesizes",
+   "why": "Reviews sociotropic and cultural explanations."
+  },
+  {
+   "source": "dancygierlaitin2014",
+   "target": "dancygier2010",
+   "type": "synthesizes",
+   "why": "Reviews immigration and its political consequences in Europe."
+  },
+  {
+   "source": "bansak2016",
+   "target": "hainmueller2014",
+   "type": "extends_to_new_case",
+   "why": "Applies the attitudes framework to asylum seekers."
+  },
+  {
+   "source": "halla2017",
+   "target": "golder2003",
+   "type": "mechanism_tested_by",
+   "why": "Tests the local immigration-to-far-right link with instruments."
+  },
+  {
+   "source": "zaun2018",
+   "target": "lavenex2006",
+   "type": "builds_on",
+   "why": "Strong asylum states shape EU asylum rules."
+  },
+  {
+   "source": "thielemann2018",
+   "target": "guiraudon2000",
+   "type": "builds_on",
+   "why": "Collective-action problems weaken EU asylum cooperation."
+  },
+  {
+   "source": "greenpedersenotjes2019",
+   "target": "greenpedersen2012",
+   "type": "extends_to_new_case",
+   "why": "Party incentives also govern immigration agenda-setting."
+  },
+  {
+   "source": "harteveld2018",
+   "target": "serricchio2013",
+   "type": "extends_to_new_case",
+   "why": "The refugee crisis lowered EU trust as the euro crisis had."
+  },
+  {
+   "source": "hangartner2019",
+   "target": "hainmueller2014",
+   "type": "mechanism_tested_by",
+   "why": "Natural experiment on exposure to refugees."
+  },
+  {
+   "source": "lavenex2018",
+   "target": "jones2016",
+   "type": "extends_to_new_case",
+   "why": "Failing forward in asylum produces organized hypocrisy."
+  },
+  {
+   "source": "grande2019",
+   "target": "huttergrande2014",
+   "type": "extends_to_new_case",
+   "why": "Immigration is politicized like Europe, mostly by the radical right."
+  },
+  {
+   "source": "dinas2019",
+   "target": "hangartner2019",
+   "type": "builds_on",
+   "why": "Same refugee exposure also raised extreme-right votes."
+  },
+  {
+   "source": "dustmann2019",
+   "target": "halla2017",
+   "type": "extends_to_new_case",
+   "why": "Refugee allocation in Denmark raised anti-immigration votes."
+  },
+  {
+   "source": "hutterkriesi2022",
+   "target": "grande2019",
+   "type": "builds_on",
+   "why": "Refugee crisis politicization across countries."
+  },
+  {
+   "source": "genschel2018",
+   "target": "thielemann2018",
+   "type": "builds_on",
+   "why": "Refugee burden-sharing fails for lack of EU capacity."
+  },
+  {
+   "source": "vanderbrug2009",
+   "target": "mclaren2002",
+   "type": "builds_on",
+   "why": "Cultural threat links immigration and Europe attitudes."
+  },
+  {
+   "source": "lucassenlubbers2012",
+   "target": "ivarsflaten2008",
+   "type": "builds_on",
+   "why": "Cultural threat drives far-right preference."
+  },
+  {
+   "source": "koopmans2010",
+   "target": "joppke2007",
+   "type": "challenges",
+   "why": "National integration models still differ and interact with welfare regimes, against claims of convergence on civic integration."
+  },
+  {
+   "source": "fordgoodwin2014",
+   "target": "ford2011",
+   "type": "builds_on",
+   "why": "Immigration hostility underpins UKIP support."
+  },
+  {
+   "source": "hobolt2016",
+   "target": "fordgoodwin2014",
+   "type": "builds_on",
+   "why": "Left-behind voters and immigration concern drove Leave."
+  },
+  {
+   "source": "hobolt2016",
+   "target": "hooghemarks2009",
+   "type": "mechanism_tested_by",
+   "why": "Identity-based Euroscepticism decided the referendum."
+  },
+  {
+   "source": "goodwinheath2016",
+   "target": "fordgoodwin2014",
+   "type": "builds_on",
+   "why": "Leave was strongest in left-behind areas."
+  },
+  {
+   "source": "becker2017",
+   "target": "goodwinheath2016",
+   "type": "qualifies",
+   "why": "Education and economic deprivation matter more than immigration levels."
+  },
+  {
+   "source": "curtice2017",
+   "target": "hobolt2016",
+   "type": "builds_on",
+   "why": "Immigration and sovereignty outweighed economic warnings."
+  },
+  {
+   "source": "clarke2017",
+   "target": "hobolt2016",
+   "type": "builds_on",
+   "why": "Immigration, sovereignty and cost-benefit judgments explain Leave."
+  },
+  {
+   "source": "colantone2018brexit",
+   "target": "colantone2018",
+   "type": "extends_to_new_case",
+   "why": "Import competition raised the Leave vote."
+  },
+  {
+   "source": "carl2019",
+   "target": "hooghemarks2005",
+   "type": "mechanism_tested_by",
+   "why": "Weak European identity predicts the Leave vote."
+  },
+  {
+   "source": "carreras2019",
+   "target": "colantone2018brexit",
+   "type": "qualifies",
+   "why": "Long-run economic distress worked through cultural backlash."
+  },
+  {
+   "source": "fetzer2019",
+   "target": "becker2017",
+   "type": "builds_on",
+   "why": "Austerity exposure explains part of the Leave vote."
+  },
+  {
+   "source": "hobolt2020",
+   "target": "hobolt2016",
+   "type": "builds_on",
+   "why": "Leave and Remain became affective political identities."
+  },
+  {
+   "source": "sobolewskaford2020",
+   "target": "hobolt2020",
+   "type": "builds_on",
+   "why": "Identity divides predate and outlast the referendum."
+  },
+  {
+   "source": "sobolewskaford2020",
+   "target": "fordjennings2020",
+   "type": "builds_on",
+   "why": "Educational expansion and diversity reshape cleavages."
+  },
+  {
+   "source": "devries2017",
+   "target": "hoboltdevries2016",
+   "type": "builds_on",
+   "why": "Brexit becomes a benchmark for EU support elsewhere."
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "devries2017",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether Brexit deterred exit support in other members."
+  },
+  {
+   "source": "schimmelfennig2018brexit",
+   "target": "schimmelfennig2015di",
+   "type": "extends_to_new_case",
+   "why": "Brexit as differentiated disintegration."
+  },
+  {
+   "source": "schimmelfennig2018brexit",
+   "target": "vollaard2014",
+   "type": "builds_on",
+   "why": "Explains disintegration as differentiated exit."
+  },
+  {
+   "source": "ford2012",
+   "target": "kopeckymudde2002",
+   "type": "builds_on",
+   "why": "Hard Euroscepticism mixes with xenophobia in UKIP support."
+  },
+  {
+   "source": "bull1982",
+   "target": "duchene1972",
+   "type": "challenges",
+   "why": "Civilian power is a contradiction without military power."
+  },
+  {
+   "source": "hill1993",
+   "target": "bull1982",
+   "type": "builds_on",
+   "why": "A capability-expectations gap limits EU international action."
+  },
+  {
+   "source": "manners2002",
+   "target": "duchene1972",
+   "type": "builds_on",
+   "why": "Recasts civilian power as normative power."
+  },
+  {
+   "source": "manners2002",
+   "target": "bull1982",
+   "type": "challenges",
+   "why": "Normative power operates without military means."
+  },
+  {
+   "source": "manners2006",
+   "target": "manners2002",
+   "type": "builds_on",
+   "why": "Militarization threatens normative power."
+  },
+  {
+   "source": "hydeprice2006",
+   "target": "manners2002",
+   "type": "challenges",
+   "why": "The EU serves its strongest states' interests."
+  },
+  {
+   "source": "meunier2006",
+   "target": "manners2002",
+   "type": "qualifies",
+   "why": "Trade power, not norms, is the EU's main lever."
+  },
+  {
+   "source": "diez2006",
+   "target": "manners2002",
+   "type": "extends_to_new_case",
+   "why": "Transformative power of integration in border conflicts."
+  },
+  {
+   "source": "kelemenvogel2010",
+   "target": "majone1994",
+   "type": "builds_on",
+   "why": "The EU regulatory state projects its standards in environmental diplomacy."
+  },
+  {
+   "source": "damro2012",
+   "target": "manners2002",
+   "type": "challenges",
+   "why": "The EU's power is market power, not normative power."
+  },
+  {
+   "source": "damro2012",
+   "target": "majone1996",
+   "type": "builds_on",
+   "why": "Regulatory capacity underlies external market power."
+  },
+  {
+   "source": "meunier2019",
+   "target": "meunier2006",
+   "type": "builds_on",
+   "why": "Trade power is becoming geopolitical."
+  },
+  {
+   "source": "haroche2019",
+   "target": "haas1958",
+   "type": "extends_to_new_case",
+   "why": "Neofunctionalist spillover reaches defence."
+  },
+  {
+   "source": "schimmelfennig2021",
+   "target": "bartolini2005",
+   "type": "builds_on",
+   "why": "Crises drive external bounding of the EU."
+  },
+  {
+   "source": "bradford2020",
+   "target": "damro2012",
+   "type": "builds_on",
+   "why": "Market size and regulatory capacity create a Brussels effect."
+  },
+  {
+   "source": "kelemenmcnamara2022",
+   "target": "haroche2019",
+   "type": "qualifies",
+   "why": "Defence steps fall short of war-driven state-building."
+  },
+  {
+   "source": "mcnamara2023",
+   "target": "meunier2019",
+   "type": "builds_on",
+   "why": "Geopoliticization extends to industrial policy."
+  },
+  {
+   "source": "majone1994",
+   "target": "scharpf1988",
+   "type": "qualifies",
+   "why": "Regulation escapes the joint-decision trap via delegation."
+  },
+  {
+   "source": "majone1996",
+   "target": "majone1994",
+   "type": "builds_on",
+   "why": "Develops the regulatory state thesis for the EU."
+  },
+  {
+   "source": "hooghemarks2003",
+   "target": "hooghemarks2001",
+   "type": "builds_on",
+   "why": "Distinguishes two types of multilevel governance."
+  },
+  {
+   "source": "scharpf2006",
+   "target": "scharpf1988",
+   "type": "builds_on",
+   "why": "Revisits the joint-decision trap after enlargement."
+  },
+  {
+   "source": "borzel2010jcms",
+   "target": "scharpf2006",
+   "type": "builds_on",
+   "why": "Governance in the shadow of hierarchy escapes the trap."
+  },
+  {
+   "source": "wonkarittberger2010",
+   "target": "majone1996",
+   "type": "mechanism_tested_by",
+   "why": "Tests the credibility logic of agency independence."
+  },
+  {
+   "source": "levifaur2011",
+   "target": "majone1996",
+   "type": "builds_on",
+   "why": "Agencies and networks form a European regulatory space."
+  },
+  {
+   "source": "durbernhagen2015",
+   "target": "dur2008",
+   "type": "builds_on",
+   "why": "Applies preference attainment to measure interest group success."
+  },
+  {
+   "source": "dur2008",
+   "target": "marks1996",
+   "type": "builds_on",
+   "why": "Multilevel access opens EU policymaking to interest groups."
+  },
+  {
+   "source": "bradford2020",
+   "target": "majone1996",
+   "type": "builds_on",
+   "why": "The regulatory state reaches global markets."
+  },
+  {
+   "source": "holzingerschimmelfennig2012",
+   "target": "stubb1996",
+   "type": "synthesizes",
+   "why": "Reviews concepts of differentiated integration."
+  },
+  {
+   "source": "leuffen2013",
+   "target": "stubb1996",
+   "type": "builds_on",
+   "why": "Explains the variation that typologies describe."
+  },
+  {
+   "source": "schimmelfennigwinzen2014",
+   "target": "leuffen2013",
+   "type": "builds_on",
+   "why": "Distinguishes instrumental from constitutional differentiation."
+  },
+  {
+   "source": "schimmelfennig2015di",
+   "target": "leuffen2013",
+   "type": "builds_on",
+   "why": "Interdependence and politicization drive differentiation."
+  },
+  {
+   "source": "lavenex2011",
+   "target": "lavenexschimmelfennig2009",
+   "type": "builds_on",
+   "why": "External governance forms concentric circles."
+  },
+  {
+   "source": "schimmelfennig2023",
+   "target": "schimmelfennig2015di",
+   "type": "synthesizes",
+   "why": "Reviews effects and public opinion on differentiation."
+  },
+  {
+   "source": "kelemen2019",
+   "target": "schimmelfennig2015di",
+   "type": "qualifies",
+   "why": "Rule of law is a limit to differentiation."
+  },
+  {
+   "source": "kriesi2006",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2006",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2004",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2013",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ivarsflaten2008",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ivarsflaten2008",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rydgren2008",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rydgren2008",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arzheimer2009",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "golder2016",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adams2006",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abouchadikrause2020",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abouchadikrause2020",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oeschrennwald2018",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2019",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "norris2019",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "armingeon2014",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "armingeon2014",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reiljan2020",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "espingandersen1990",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallsoskice2001",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallsoskice2001",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bermeo2016",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggardkaufman2021",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldnerlust2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2006",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausermann2013",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hausermann2013",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2018",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caramani2017",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caramani2017",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "funke2016",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "funke2016",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsebelis1995",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nolke2009",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nolke2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierson1996",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf2010",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf2010",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2016",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2016",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hernandezkriesi2016",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hernandezkriesi2016",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "streeck2014",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "streeck2014",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frieden2017",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2018brexit",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2021",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meunier2019",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik1997",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larssonnaurin2016",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gray2009",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2020",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2020",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidescitrin2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidescitrin2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dancygierlaitin2014",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ford2011",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koopmans2010",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koopmans2010",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "inglehartnorris2017",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "inglehartnorris2017",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradford2020",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradford2020",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurer2020",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurer2020",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemenvogel2010",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemenvogel2010",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "follesdal2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bickerton2014",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2015jcms",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2015li",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2015li",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2014jei",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2014jei",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "niemannioannou2015",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "niemannioannou2015",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2021",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "genschel2018",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "genschel2018",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzelrisse2018",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzelrisse2018",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2018",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2018",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2019",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik2018",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrarakriesi2022",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrarakriesi2022",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemenmcnamara2022",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemenmcnamara2022",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "puetter2012",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "puetter2012",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hix2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hayesrenshaw2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2008",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hixhoyland2013",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hixhoyland2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "proksch2009",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hagemann2016",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hagemann2016",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauerbecker2014",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauerbecker2014",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carrubba2008",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alterhelfer2010",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falkner2007",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falknertreib2008",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falknertreib2008",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mastenbroek2006",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzel2010",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzelrisse2012",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "follesdalhix2006",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mair2007",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mair2007",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nicolaidis2012",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crum2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crum2013",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchezcuenca2017",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanchezcuenca2017",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2012jcms",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2012jcms",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boomgaarden2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steenbergen2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steenbergen2007",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltdevries2016",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hakhverdian2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hakhverdian2013",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "serricchio2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "serricchio2013",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuhnstoeckel2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuhnstoeckel2014",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltwratil2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltwratil2015",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanelsas2016",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanelsas2016",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vasilopoulou2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vasilopoulou2011",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "werts2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "werts2012",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devriesedwards2009",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devriesedwards2009",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marks2006",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marks2006",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakker2015",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakker2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dewilde2011",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dewildezurn2012",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huttergrande2014",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutterkriesi2019",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutterkriesi2019",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2016",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zurn2019",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zurn2019",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2007",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devrieshobolt2012",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devrieshobolt2012",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltdevries2015",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltdevries2015",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hixmarsh2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hixmarsh2011",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2009bjps",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2009bjps",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltspoon2012",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltspoon2012",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2014jepp",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2014jepp",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltdevries2016elst",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltdevries2016elst",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2007ejpr",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2007ejpr",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "copelovitch2016",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hall2014",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hall2014",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matthijsmcnamara2015",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "degrauwe2013",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bechtel2014",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bechtel2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolttilley2016",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolttilley2016",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "armingeon2015",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "armingeon2015",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zeitlinvanhercke2018",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zeitlinvanhercke2018",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoepnerschaefer2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoepnerschaefer2012",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caporaso2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caporaso2009",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2006",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2006",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2008",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigscholtz2008",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigscholtz2008",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sedelmeier2008",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sedelmeier2008",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavenexschimmelfennig2009",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavenexschimmelfennig2009",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "noutcheva2009",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigsedelmeier2020",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "richter2019",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "richter2019",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mclaren2007",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mclaren2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bohlegreskovits2007",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bohlegreskovits2007",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vachudovahooghe2009",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vachudovahooghe2009",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "innes2014",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "innes2014",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2017",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2017",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sedelmeier2014",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sedelmeier2017",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaubergerkelemen2017",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaubergerkelemen2017",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bankuti2012",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cianettihanley2021",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pirrostanley2022",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakkesitter2022",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vachudova2021",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vachudova2021",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlipphaktreib2017",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlipphaktreib2017",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheiring2022",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheiring2022",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2010",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bornschier2010",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanderbrug2009",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanderbrug2009",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoogemarks2018",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoogemarks2018",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2018jepp",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fordjennings2020",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gingrichhausermann2015",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gingrichhausermann2015",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rovny2013",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rovny2013",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "spoonkluver2019",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mair2008",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mair2008",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gethin2022",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gidronhall2020",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gidronhall2020",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2010",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muddekaltwasser2013",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lucassenlubbers2012",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lucassenlubbers2012",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanspanje2010",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanspanje2010",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2014",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2014",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gest2018",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gest2018",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schumacher2016",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schumacher2016",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berman2021",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bermansnegovaya2019",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bermansnegovaya2019",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkinblyth2019",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkinblyth2019",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bale2008",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bale2008",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sapir2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanoorschot2006",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanoorschot2006",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hemerijck2018",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crespymenz2015",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crespymenz2015",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mauburkhardt2009",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mauburkhardt2009",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhiscox2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hangartner2019",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "joppke2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavenex2006",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavenex2006",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zaun2018",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thielemann2018",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavenex2018",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grande2019",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grande2019",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutterkriesi2022",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutterkriesi2022",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenpedersenotjes2019",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenpedersenotjes2019",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harteveld2018",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harteveld2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ford2012",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ford2012",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2016",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "curtice2017",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carreras2019",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carl2019",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carl2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2017",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2017",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2018brexit",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2018brexit",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vollaard2014",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vollaard2014",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manners2006",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hydeprice2006",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "damro2012",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "damro2012",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meunier2006",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "orenstein2017",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "orenstein2017",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haroche2019",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haroche2019",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcnamara2023",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcnamara2023",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diez2006",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diez2006",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2021",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2021",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf2006",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzel2010jcms",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levifaur2011",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wonkarittberger2010",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wonkarittberger2010",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dur2008",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "durbernhagen2015",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holzingerschimmelfennig2012",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2015di",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigwinzen2014",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigwinzen2014",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavenex2011",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavenex2011",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2019",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2019",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2023",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2023",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haas1958",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoffmann1966",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milward1992",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milward1992",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik1993",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik1998",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierson1996path",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marks1996",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marks1996",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sandholtzstonesweet1998",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sandholtzstonesweet1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2001",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2001",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsebelis1994",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pollack1997",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pollack1997",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsebelisgarrett2001",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsebelisgarrett2001",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hix2007",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiler1991",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiler1991",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burleymattli1993",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burleymattli1993",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrett1995",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stonesweetbrunell1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alter2001",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stonesweet2004",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2011",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2011",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mair2000",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mair2000",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzelrisse2000",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cowles2001",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falkner2005",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falkner2005",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "majone1998",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "majone1998",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf1999",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf1999",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik2002",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rittberger2005",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rittberger2005",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mair2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mair2013",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "inglehart1970",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gabel1998",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taggart1998",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "taggart1998",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kopeckymudde2002",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kopeckymudde2002",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mclaren2002",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mclaren2002",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2005",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fligstein2008",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "risse2010",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "risse2010",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devries2018",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenpedersen2012",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutter2016",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devrieshobolt2020",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devrieshobolt2020",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reifschmitt1980",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandereijkfranklin1996",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandereijkfranklin2004",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vandereijkfranklin2004",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2009europe",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2009europe",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mundell1961",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcnamara1998",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blyth2013",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennig2001",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigsedelmeier2004",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigsedelmeier2004",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigsedelmeier2005",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigsedelmeier2005",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vachudova2005",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grzymalabusse2007",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grzymalabusse2007",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bohlegreskovits2012",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bohlegreskovits2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scheppele2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipsetrokkan1967",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "inglehart1977",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartolinimair1990",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt1994",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt1994",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "katzmair1995",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "katzmair1995",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartolini2005",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartolini2005",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meguid2005",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meguid2005",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2008",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kriesi2008",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gidronhall2017",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gidronhall2017",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "betz1994",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt1995",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "golder2003",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "golder2003",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mudde2007",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fordgoodwin2014",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fordgoodwin2014",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leibfriedpierson1995",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf2002",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrera2005",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "emmenegger2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guiraudon2000",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guiraudon2000",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dancygier2010",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bansak2016",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halla2017",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halla2017",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dinas2019",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dinas2019",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dustmann2019",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dustmann2019",
+   "target": "radicalright",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodwinheath2016",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "becker2017",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarke2017",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fetzer2019",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fetzer2019",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sobolewskaford2020",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sobolewskaford2020",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duchene1972",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bull1982",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill1993",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manners2002",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf1988",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scharpf1988",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "majone1994",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "majone1996",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "majone1996",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarks2003",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stubb1996",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leuffen2013",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leuffen2013",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

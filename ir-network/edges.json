@@ -703,7 +703,7 @@
    "why": "Geopolitics in GATT accession."
   },
   {
-   "source": "clarkdolan_cottiero",
+   "source": "cottiero2026",
    "target": "stone2008",
    "type": "extends_to_new_case",
    "why": "Autocratic powers in autocratic IFIs."
@@ -1075,7 +1075,7 @@
    "why": "Multilateralism can enhance democracy."
   },
   {
-   "source": "clarkdolan_cottiero",
+   "source": "cottiero2026",
    "target": "pevehouse2002",
    "type": "challenges",
    "why": "Autocratic IOs defend autocracy."
@@ -2623,13 +2623,13 @@
    "why": "theme membership"
   },
   {
-   "source": "clarkdolan_cottiero",
+   "source": "cottiero2026",
    "target": "io-power",
    "type": "belongs_to",
    "why": "theme membership"
   },
   {
-   "source": "clarkdolan_cottiero",
+   "source": "cottiero2026",
    "target": "democracy-io",
    "type": "belongs_to",
    "why": "theme membership"

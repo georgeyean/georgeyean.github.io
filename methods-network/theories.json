@@ -1,0 +1,2079 @@
+{
+ "meta": {
+  "field": "Political Methodology",
+  "built": "2026-10-28",
+  "theories": 35,
+  "relations": 42,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "causal",
+   "label": "Causal inference frameworks",
+   "color": "#1d4ed8"
+  },
+  {
+   "id": "design",
+   "label": "Observational research designs",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "experiments",
+   "label": "Experimental methods",
+   "color": "#16a34a"
+  },
+  {
+   "id": "measurement",
+   "label": "Measurement & scaling",
+   "color": "#ea580c"
+  },
+  {
+   "id": "computation",
+   "label": "Text, machine learning & AI",
+   "color": "#db2777"
+  },
+  {
+   "id": "qualitative",
+   "label": "Qualitative & multi-method inference",
+   "color": "#a16207"
+  },
+  {
+   "id": "practice",
+   "label": "Modeling, theory & research practice",
+   "color": "#334155"
+  }
+ ],
+ "theories": [
+  {
+   "id": "randomization",
+   "label": "Randomization-based inference",
+   "family": "experiments",
+   "year": 1935,
+   "origin": "Fisher",
+   "core": "Random assignment justifies causal inference and exact tests.",
+   "works": [
+    {
+     "id": "fisher1935",
+     "dir": "methods-network",
+     "label": "Fisher 1935",
+     "title": "The Design of Experiments",
+     "authors": "Ronald A. Fisher",
+     "year": 1935,
+     "journal": "Oliver & Boyd (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gerbergreen2012",
+     "dir": "methods-network",
+     "label": "Gerber 2012",
+     "title": "Field Experiments: Design, Analysis, and Interpretation",
+     "authors": "Alan S. Gerber & Donald P. Green",
+     "year": 2012,
+     "journal": "W. W. Norton (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "aronow2019",
+     "dir": "methods-network",
+     "label": "Aronow 2019",
+     "title": "A Note on Dropping Experimental Subjects who Fail a Manipulation Check",
+     "authors": "Peter M. Aronow, Jonathon Baron & Lauren Pinson",
+     "year": 2019,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2019.5",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "potentialoutcomes",
+   "label": "Potential outcomes (Rubin causal model)",
+   "family": "causal",
+   "year": 1974,
+   "origin": "Neyman; Rubin; Holland",
+   "core": "Causal effects are contrasts of potential outcomes, only one of which is observed.",
+   "works": [
+    {
+     "id": "rubin1974",
+     "dir": "methods-network",
+     "label": "Rubin 1974",
+     "title": "Estimating Causal Effects of Treatments in Randomized and Nonrandomized Studies",
+     "authors": "Donald B. Rubin",
+     "year": 1974,
+     "journal": "Journal of Educational Psychology",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "holland1986",
+     "dir": "methods-network",
+     "label": "Holland 1986",
+     "title": "Statistics and Causal Inference",
+     "authors": "Paul W. Holland",
+     "year": 1986,
+     "journal": "JASA",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "imbensrubin2015",
+     "dir": "methods-network",
+     "label": "Imbens 2015",
+     "title": "Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction",
+     "authors": "Guido W. Imbens & Donald B. Rubin",
+     "year": 2015,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "dags",
+   "label": "Structural causal models & DAGs",
+   "family": "causal",
+   "year": 1995,
+   "origin": "Pearl",
+   "core": "Causal graphs determine which adjustments identify an effect.",
+   "works": [
+    {
+     "id": "pearl2009",
+     "dir": "methods-network",
+     "label": "Pearl 2009",
+     "title": "Causality: Models, Reasoning, and Inference",
+     "authors": "Judea Pearl",
+     "year": 2009,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "cinelli2022",
+     "dir": "methods-network",
+     "label": "Cinelli 2022",
+     "title": "A Crash Course in Good and Bad Controls",
+     "authors": "Carlos Cinelli, Andrew Forney & Judea Pearl",
+     "year": 2022,
+     "journal": "Sociological Methods & Research",
+     "doi": "10.1177/00491241221099552",
+     "zotero": null
+    },
+    {
+     "id": "keele2019psrm",
+     "dir": "methods-network",
+     "label": "Keele 2019",
+     "title": "The causal interpretation of estimated associations in regression models",
+     "authors": "Luke Keele, Randolph T. Stevenson & Felix Elwert",
+     "year": 2019,
+     "journal": "Political Science Research and Methods",
+     "doi": "10.1017/psrm.2019.31",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "propensity",
+   "label": "Selection on observables & matching",
+   "family": "causal",
+   "year": 1983,
+   "origin": "Rosenbaum & Rubin; Ho, Imai, King & Stuart",
+   "core": "Adjusting for observed confounders by balancing them identifies effects under ignorability.",
+   "works": [
+    {
+     "id": "rosenbaumrubin1983",
+     "dir": "methods-network",
+     "label": "Rosenbaum 1983",
+     "title": "The Central Role of the Propensity Score in Observational Studies for Causal Effects",
+     "authors": "Paul R. Rosenbaum & Donald B. Rubin",
+     "year": 1983,
+     "journal": "Biometrika",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hoimaiking2007",
+     "dir": "methods-network",
+     "label": "Ho 2007",
+     "title": "Matching as Nonparametric Preprocessing for Reducing Model Dependence in Parametric Causal Inference",
+     "authors": "Daniel E. Ho, Kosuke Imai, Gary King & Elizabeth A. Stuart",
+     "year": 2007,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mpl013",
+     "zotero": null
+    },
+    {
+     "id": "iacus2012",
+     "dir": "methods-network",
+     "label": "Iacus 2012",
+     "title": "Causal Inference without Balance Checking: Coarsened Exact Matching",
+     "authors": "Stefano M. Iacus, Gary King & Giuseppe Porro",
+     "year": 2012,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mpr013",
+     "zotero": null
+    },
+    {
+     "id": "kingnielsen2019",
+     "dir": "methods-network",
+     "label": "King 2019",
+     "title": "Why Propensity Scores Should Not Be Used for Matching",
+     "authors": "Gary King & Richard Nielsen",
+     "year": 2019,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2019.11",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "sensitivity",
+   "label": "Sensitivity analysis & model dependence",
+   "family": "causal",
+   "year": 1983,
+   "origin": "Leamer; Rosenbaum; Cinelli & Hazlett",
+   "core": "Report how much hidden bias or specification change would overturn a result.",
+   "works": [
+    {
+     "id": "leamer1983",
+     "dir": "methods-network",
+     "label": "Leamer 1983",
+     "title": "Let's Take the Con Out of Econometrics",
+     "authors": "Edward E. Leamer",
+     "year": 1983,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "rosenbaum2002",
+     "dir": "methods-network",
+     "label": "Rosenbaum 2002",
+     "title": "Observational Studies",
+     "authors": "Paul R. Rosenbaum",
+     "year": 2002,
+     "journal": "Springer (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "cinellihazlett2020",
+     "dir": "methods-network",
+     "label": "Cinelli 2020",
+     "title": "Making Sense of Sensitivity: Extending Omitted Variable Bias",
+     "authors": "Carlos Cinelli & Chad Hazlett",
+     "year": 2020,
+     "journal": "Journal of the Royal Statistical Society: Series B",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kingzeng2006",
+     "dir": "methods-network",
+     "label": "King 2006",
+     "title": "The Dangers of Extreme Counterfactuals",
+     "authors": "Gary King & Langche Zeng",
+     "year": 2006,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mpj004",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mediation",
+   "label": "Causal mediation & sequential ignorability",
+   "family": "causal",
+   "year": 2010,
+   "origin": "Imai, Keele, Tingley & Yamamoto",
+   "core": "Indirect effects are identified only under sequential ignorability and need sensitivity analysis.",
+   "works": [
+    {
+     "id": "imaikeeleyamamoto2010",
+     "dir": "methods-network",
+     "label": "Imai 2010",
+     "title": "Identification, Inference and Sensitivity Analysis for Causal Mediation Effects",
+     "authors": "Kosuke Imai, Luke Keele & Teppei Yamamoto",
+     "year": 2010,
+     "journal": "Statistical Science",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "imaikeeletingley2011",
+     "dir": "methods-network",
+     "label": "Imai 2011",
+     "title": "Unpacking the Black Box of Causality: Learning about Causal Mechanisms from Experimental and Observational Studies",
+     "authors": "Kosuke Imai, Luke Keele, Dustin Tingley & Teppei Yamamoto",
+     "year": 2011,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055411000414",
+     "zotero": null
+    },
+    {
+     "id": "acharyablackwellsen2016",
+     "dir": "methods-network",
+     "label": "Acharya 2016",
+     "title": "Explaining Causal Findings Without Bias: Detecting and Assessing Direct Effects",
+     "authors": "Avidit Acharya, Matthew Blackwell & Maya Sen",
+     "year": 2016,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055416000216",
+     "zotero": null
+    },
+    {
+     "id": "baronkenny1986",
+     "dir": "methods-network",
+     "label": "Baron 1986",
+     "title": "The Moderator-Mediator Variable Distinction in Social Psychological Research: Conceptual, Strategic, and Statistical Considerations",
+     "authors": "Reuben M. Baron & David A. Kenny",
+     "year": 1986,
+     "journal": "Journal of Personality and Social Psychology",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "late",
+   "label": "Instrumental variables & the LATE",
+   "family": "design",
+   "year": 1994,
+   "origin": "Imbens & Angrist; Angrist, Imbens & Rubin",
+   "core": "IV identifies the average effect for compliers under exclusion and monotonicity.",
+   "works": [
+    {
+     "id": "imbensangrist1994",
+     "dir": "methods-network",
+     "label": "Imbens 1994",
+     "title": "Identification and Estimation of Local Average Treatment Effects",
+     "authors": "Guido W. Imbens & Joshua D. Angrist",
+     "year": 1994,
+     "journal": "Econometrica",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "angristimbensrubin1996",
+     "dir": "methods-network",
+     "label": "Angrist 1996",
+     "title": "Identification of Causal Effects Using Instrumental Variables",
+     "authors": "Joshua D. Angrist, Guido W. Imbens & Donald B. Rubin",
+     "year": 1996,
+     "journal": "JASA",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "soveygreen2011",
+     "dir": "methods-network",
+     "label": "Sovey 2010",
+     "title": "Instrumental Variables Estimation in Political Science: A Readers’ Guide",
+     "authors": "Allison J. Sovey & Donald P. Green",
+     "year": 2010,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2010.00477.x",
+     "zotero": null
+    },
+    {
+     "id": "lal2024",
+     "dir": "methods-network",
+     "label": "Lal 2024",
+     "title": "How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on 67 Replicated Studies",
+     "authors": "Apoorva Lal, Mackenzie Lockhart, Yiqing Xu & Ziwen Zu",
+     "year": 2024,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2024.2",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rd",
+   "label": "Regression discontinuity",
+   "family": "design",
+   "year": 1960,
+   "origin": "Thistlethwaite & Campbell; Hahn, Todd & Van der Klaauw",
+   "core": "Units just either side of an assignment cutoff are comparable, identifying a local effect.",
+   "works": [
+    {
+     "id": "thistlethwaitecampbell1960",
+     "dir": "methods-network",
+     "label": "Thistlethwaite 1960",
+     "title": "Regression-Discontinuity Analysis: An Alternative to the Ex Post Facto Experiment",
+     "authors": "Donald L. Thistlethwaite & Donald T. Campbell",
+     "year": 1960,
+     "journal": "Journal of Educational Psychology",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hahn2001",
+     "dir": "methods-network",
+     "label": "Hahn 2001",
+     "title": "Identification and Estimation of Treatment Effects with a Regression-Discontinuity Design",
+     "authors": "Jinyong Hahn, Petra Todd & Wilbert Van der Klaauw",
+     "year": 2001,
+     "journal": "Econometrica",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lee2008rd",
+     "dir": "methods-network",
+     "label": "Lee 2008",
+     "title": "Randomized Experiments from Non-random Selection in U.S. House Elections",
+     "authors": "David S. Lee",
+     "year": 2008,
+     "journal": "Journal of Econometrics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "calonico2014",
+     "dir": "methods-network",
+     "label": "Calonico 2014",
+     "title": "Robust Nonparametric Confidence Intervals for Regression-Discontinuity Designs",
+     "authors": "Sebastian Calonico, Matias D. Cattaneo & Rocío Titiunik",
+     "year": 2014,
+     "journal": "Econometrica",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "naturalexp",
+   "label": "Design-based natural experiments",
+   "family": "design",
+   "year": 2012,
+   "origin": "Dunning; Freedman; Sekhon & Titiunik",
+   "core": "As-if random assignment, simple analysis and substantive relevance define a strong natural experiment.",
+   "works": [
+    {
+     "id": "dunning2012",
+     "dir": "methods-network",
+     "label": "Dunning 2012",
+     "title": "Natural Experiments in the Social Sciences: A Design-Based Approach",
+     "authors": "Thad Dunning",
+     "year": 2012,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "sekhontitiunik2012",
+     "dir": "methods-network",
+     "label": "Sekhon 2012",
+     "title": "When Natural Experiments Are Neither Natural nor Experiments",
+     "authors": "Jasjeet S. Sekhon & ROCÍO Titiunik",
+     "year": 2012,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055411000542",
+     "zotero": null
+    },
+    {
+     "id": "freedman1991",
+     "dir": "methods-network",
+     "label": "Freedman 1991",
+     "title": "Statistical Models and Shoe Leather",
+     "authors": "David A. Freedman",
+     "year": 1991,
+     "journal": "Sociological Methodology",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "did",
+   "label": "Difference-in-differences & parallel trends",
+   "family": "design",
+   "year": 1994,
+   "origin": "Card & Krueger",
+   "core": "Changes in a comparison group stand in for the counterfactual trend of the treated.",
+   "works": [
+    {
+     "id": "cardkrueger1994",
+     "dir": "methods-network",
+     "label": "Card 1994",
+     "title": "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+     "authors": "David Card & Alan B. Krueger",
+     "year": 1994,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bertrand2004did",
+     "dir": "methods-network",
+     "label": "Bertrand 2004",
+     "title": "How Much Should We Trust Differences-in-Differences Estimates?",
+     "authors": "Marianne Bertrand, Esther Duflo & Sendhil Mullainathan",
+     "year": 2004,
+     "journal": "Quarterly Journal of Economics",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "hetdid",
+   "label": "Heterogeneity-robust DiD & the TWFE critique",
+   "family": "design",
+   "year": 2020,
+   "origin": "de Chaisemartin & D'Haultfœuille; Goodman-Bacon; Imai & Kim",
+   "core": "Two-way fixed effects mis-weight heterogeneous effects; new estimators fix this.",
+   "works": [
+    {
+     "id": "dechaisemartin2020",
+     "dir": "methods-network",
+     "label": "de Chaisemartin 2020",
+     "title": "Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects",
+     "authors": "Clément de Chaisemartin & Xavier D'Haultfœuille",
+     "year": 2020,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "goodmanbacon2021",
+     "dir": "methods-network",
+     "label": "Goodman-Bacon 2021",
+     "title": "Difference-in-Differences with Variation in Treatment Timing",
+     "authors": "Andrew Goodman-Bacon",
+     "year": 2021,
+     "journal": "Journal of Econometrics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "callawaysantanna2021",
+     "dir": "methods-network",
+     "label": "Callaway 2021",
+     "title": "Difference-in-Differences with Multiple Time Periods",
+     "authors": "Brantly Callaway & Pedro H. C. Sant'Anna",
+     "year": 2021,
+     "journal": "Journal of Econometrics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "imaikim2020",
+     "dir": "methods-network",
+     "label": "Imai 2020",
+     "title": "On the Use of Two-Way Fixed Effects Regression Models for Causal Inference with Panel Data",
+     "authors": "Kosuke Imai & In Song Kim",
+     "year": 2020,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2020.33",
+     "zotero": null
+    },
+    {
+     "id": "liuwangxu2022",
+     "dir": "methods-network",
+     "label": "Liu 2022",
+     "title": "A Practical Guide to Counterfactual Estimators for Causal Inference with Time‐Series Cross‐Sectional Data",
+     "authors": "Licheng Liu, Ye Wang & Yiqing Xu",
+     "year": 2022,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12723",
+     "zotero": null
+    },
+    {
+     "id": "roth2023",
+     "dir": "methods-network",
+     "label": "Roth 2023",
+     "title": "What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature",
+     "authors": "Jonathan Roth, Pedro H. C. Sant'Anna, Alyssa Bilinski & John Poe",
+     "year": 2023,
+     "journal": "Journal of Econometrics",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "synth",
+   "label": "Synthetic control",
+   "family": "design",
+   "year": 2003,
+   "origin": "Abadie & Gardeazabal; Abadie, Diamond & Hainmueller",
+   "core": "A weighted combination of untreated units approximates the treated unit’s counterfactual.",
+   "works": [
+    {
+     "id": "abadiegardeazabal2003",
+     "dir": "methods-network",
+     "label": "Abadie 2003",
+     "title": "The Economic Costs of Conflict: A Case Study of the Basque Country",
+     "authors": "Alberto Abadie & Javier Gardeazabal",
+     "year": 2003,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "abadie2010",
+     "dir": "methods-network",
+     "label": "Abadie 2010",
+     "title": "Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program",
+     "authors": "Alberto Abadie, Alexis Diamond & Jens Hainmueller",
+     "year": 2010,
+     "journal": "Journal of the American Statistical Association",
+     "doi": "10.1198/jasa.2009.ap08746",
+     "zotero": null
+    },
+    {
+     "id": "xu2017",
+     "dir": "methods-network",
+     "label": "Xu 2017",
+     "title": "Generalized Synthetic Control Method: Causal Inference with Interactive Fixed Effects Models",
+     "authors": "Yiqing Xu",
+     "year": 2017,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2016.2",
+     "zotero": null
+    },
+    {
+     "id": "benmichael2021",
+     "dir": "methods-network",
+     "label": "Ben-Michael 2021",
+     "title": "The Augmented Synthetic Control Method",
+     "authors": "Eli Ben-Michael, Avi Feller & Jesse Rothstein",
+     "year": 2021,
+     "journal": "Journal of the American Statistical Association",
+     "doi": "10.1080/01621459.2021.1929245",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "fieldexp",
+   "label": "Field experiments in political science",
+   "family": "experiments",
+   "year": 2000,
+   "origin": "Gerber & Green",
+   "core": "Randomized interventions in real settings estimate effects with high internal and ecological validity.",
+   "works": [
+    {
+     "id": "gerbergreen2000",
+     "dir": "methods-network",
+     "label": "Gerber 2000",
+     "title": "The Effects of Canvassing, Telephone Calls, and Direct Mail on Voter Turnout: A Field Experiment",
+     "authors": "Alan S. Gerber & Donald P. Green",
+     "year": 2000,
+     "journal": "APSR",
+     "doi": "10.2307/2585837",
+     "zotero": null
+    },
+    {
+     "id": "gerber2008",
+     "dir": "methods-network",
+     "label": "Gerber 2008",
+     "title": "Social Pressure and Voter Turnout: Evidence from a Large-Scale Field Experiment",
+     "authors": "Alan S. Gerber, Donald P. Green & Christopher W. Larimer",
+     "year": 2008,
+     "journal": "APSR",
+     "doi": "10.1017/s000305540808009x",
+     "zotero": null
+    },
+    {
+     "id": "gerbergreen2012",
+     "dir": "methods-network",
+     "label": "Gerber 2012",
+     "title": "Field Experiments: Design, Analysis, and Interpretation",
+     "authors": "Alan S. Gerber & Donald P. Green",
+     "year": 2012,
+     "journal": "W. W. Norton (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kallabroockman2018",
+     "dir": "methods-network",
+     "label": "Kalla 2017",
+     "title": "The Minimal Persuasive Effects of Campaign Contact in General Elections: Evidence from 49 Field Experiments",
+     "authors": "Joshua L. Kalla & David E. Broockman",
+     "year": 2017,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055417000363",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "surveyexp",
+   "label": "Survey experiments & generalizability",
+   "family": "experiments",
+   "year": 2006,
+   "origin": "Sniderman; Mutz; Druckman et al.",
+   "core": "Randomizing within surveys combines internal validity with sample generalizability, if effects travel.",
+   "works": [
+    {
+     "id": "mutz2011",
+     "dir": "methods-network",
+     "label": "Mutz 2011",
+     "title": "Population-Based Survey Experiments",
+     "authors": "Diana C. Mutz",
+     "year": 2011,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gaineskuklinski2007",
+     "dir": "methods-network",
+     "label": "Gaines 2007",
+     "title": "The Logic of the Survey Experiment Reexamined",
+     "authors": "Brian J. Gaines, James H. Kuklinski & Paul J. Quirk",
+     "year": 2007,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mpl008",
+     "zotero": null
+    },
+    {
+     "id": "mullinix2015",
+     "dir": "methods-network",
+     "label": "Mullinix 2015",
+     "title": "The Generalizability of Survey Experiments",
+     "authors": "Kevin J. Mullinix, Thomas J. Leeper, James N. Druckman & Jeremy Freese",
+     "year": 2015,
+     "journal": "Journal of Experimental Political Science",
+     "doi": "10.1017/xps.2015.19",
+     "zotero": null
+    },
+    {
+     "id": "egamihartman2023",
+     "dir": "methods-network",
+     "label": "Egami 2022",
+     "title": "Elements of External Validity: Framework, Design, and Analysis",
+     "authors": "Naoki Egami & Erin Hartman",
+     "year": 2022,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055422000880",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "conjoint",
+   "label": "Conjoint analysis & the AMCE",
+   "family": "experiments",
+   "year": 2014,
+   "origin": "Hainmueller, Hopkins & Yamamoto",
+   "core": "Randomizing many attributes identifies average marginal component effects.",
+   "works": [
+    {
+     "id": "hhy2014",
+     "dir": "methods-network",
+     "label": "Hainmueller 2014",
+     "title": "Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments",
+     "authors": "Jens Hainmueller, Daniel J. Hopkins & Teppei Yamamoto",
+     "year": 2014,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mpt024",
+     "zotero": null
+    },
+    {
+     "id": "leeper2020",
+     "dir": "methods-network",
+     "label": "Leeper 2019",
+     "title": "Measuring Subgroup Preferences in Conjoint Experiments",
+     "authors": "Thomas J. Leeper, Sara B. Hobolt & James Tilley",
+     "year": 2019,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2019.30",
+     "zotero": null
+    },
+    {
+     "id": "abramson2022",
+     "dir": "methods-network",
+     "label": "Abramson 2022",
+     "title": "What Do We Learn about Voter Preferences from Conjoint Experiments?",
+     "authors": "Scott F. Abramson, Korhan Kocak & Asya Magazinnik",
+     "year": 2022,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12714",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "spatialvoting",
+   "label": "Spatial models of roll-call voting",
+   "family": "measurement",
+   "year": 1985,
+   "origin": "Poole & Rosenthal",
+   "core": "Votes reveal low-dimensional ideal points recoverable by probabilistic scaling.",
+   "works": [
+    {
+     "id": "poolerosenthal1985",
+     "dir": "methods-network",
+     "label": "Poole 1985",
+     "title": "A Spatial Model for Legislative Roll Call Analysis",
+     "authors": "Keith T. Poole & Howard Rosenthal",
+     "year": 1985,
+     "journal": "AJPS",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "poolerosenthal1997",
+     "dir": "methods-network",
+     "label": "Poole 1997",
+     "title": "Congress: A Political-Economic History of Roll Call Voting",
+     "authors": "Keith T. Poole & Howard Rosenthal",
+     "year": 1997,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "aldrichmckelvey1977",
+     "dir": "methods-network",
+     "label": "Aldrich 1977",
+     "title": "A Method of Scaling with Applications to the 1968 and 1972 Presidential Elections",
+     "authors": "John H. Aldrich & Richard D. McKelvey",
+     "year": 1977,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "bayesianirt",
+   "label": "Bayesian IRT ideal points",
+   "family": "measurement",
+   "year": 2002,
+   "origin": "Martin & Quinn; Clinton, Jackman & Rivers",
+   "core": "Ideal points are latent traits in an item-response model with full uncertainty.",
+   "works": [
+    {
+     "id": "martinquinn2002",
+     "dir": "methods-network",
+     "label": "Martin 2002",
+     "title": "Dynamic Ideal Point Estimation via Markov Chain Monte Carlo for the U.S. Supreme Court, 1953-1999",
+     "authors": "Andrew D. Martin & Kevin M. Quinn",
+     "year": 2002,
+     "journal": "Political Analysis",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "clinton2004",
+     "dir": "methods-network",
+     "label": "Clinton 2004",
+     "title": "The Statistical Analysis of Roll Call Data",
+     "authors": "Joshua Clinton, Simon Jackman & Douglas Rivers",
+     "year": 2004,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "imai2016",
+     "dir": "methods-network",
+     "label": "Imai 2016",
+     "title": "Fast Estimation of Ideal Points with Massive Data",
+     "authors": "Kosuke Imai, James Lo & Jonathan Olmsted",
+     "year": 2016,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "barbera2015",
+     "dir": "methods-network",
+     "label": "Barberá 2015",
+     "title": "Birds of the Same Feather Tweet Together: Bayesian Ideal Point Estimation Using Twitter Data",
+     "authors": "Pablo Barberá",
+     "year": 2015,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mpu011",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "latentvariable",
+   "label": "Latent-variable measurement of concepts",
+   "family": "measurement",
+   "year": 2008,
+   "origin": "Treier & Jackman; Pemstein et al.; Fariss",
+   "core": "Indicators of democracy or rights are noisy reflections of a latent concept.",
+   "works": [
+    {
+     "id": "treierjackman2008",
+     "dir": "methods-network",
+     "label": "Treier 2008",
+     "title": "Democracy as a Latent Variable",
+     "authors": "Shawn Treier & Simon Jackman",
+     "year": 2008,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2007.00308.x",
+     "zotero": null
+    },
+    {
+     "id": "pemstein2010",
+     "dir": "methods-network",
+     "label": "Pemstein 2010",
+     "title": "Democratic Compromise: A Latent Variable Analysis of Ten Measures of Regime Type",
+     "authors": "Daniel Pemstein, Stephen A. Meserve & James Melton",
+     "year": 2010,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mpq020",
+     "zotero": null
+    },
+    {
+     "id": "fariss2014",
+     "dir": "methods-network",
+     "label": "Fariss 2014",
+     "title": "Respect for Human Rights has Improved Over Time: Modeling the Changing Standard of Accountability",
+     "authors": "Christopher J. Fariss",
+     "year": 2014,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055414000070",
+     "zotero": null
+    },
+    {
+     "id": "adcockcollier2001",
+     "dir": "methods-network",
+     "label": "Adcock 2001",
+     "title": "Measurement Validity: A Shared Standard for Qualitative and Quantitative Research",
+     "authors": "Robert Adcock & David Collier",
+     "year": 2001,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mrp",
+   "label": "Multilevel regression & poststratification",
+   "family": "measurement",
+   "year": 2004,
+   "origin": "Park, Gelman & Bafumi",
+   "core": "Partial pooling plus poststratification estimates opinion for small areas and groups.",
+   "works": [
+    {
+     "id": "park2004",
+     "dir": "methods-network",
+     "label": "Park 2004",
+     "title": "Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls",
+     "authors": "David K. Park, Andrew Gelman & Joseph Bafumi",
+     "year": 2004,
+     "journal": "Political Analysis",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "laxphillips2009ajps",
+     "dir": "methods-network",
+     "label": "Lax 2008",
+     "title": "How Should We Estimate Public Opinion in The States?",
+     "authors": "Jeffrey R. Lax & Justin H. Phillips",
+     "year": 2008,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2008.00360.x",
+     "zotero": null
+    },
+    {
+     "id": "wang2015",
+     "dir": "methods-network",
+     "label": "Wang 2015",
+     "title": "Forecasting Elections with Non-representative Polls",
+     "authors": "Wei Wang, David Rothschild, Sharad Goel & Andrew Gelman",
+     "year": 2015,
+     "journal": "International Journal of Forecasting",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "textscaling",
+   "label": "Text scaling",
+   "family": "computation",
+   "year": 2003,
+   "origin": "Laver, Benoit & Garry; Slapin & Proksch",
+   "core": "Word frequencies place texts on latent policy dimensions.",
+   "works": [
+    {
+     "id": "laver2003",
+     "dir": "methods-network",
+     "label": "Laver 2003",
+     "title": "Extracting Policy Positions from Political Texts Using Words as Data",
+     "authors": "Michael Laver, Kenneth Benoit & John Garry",
+     "year": 2003,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "slapinproksch2008",
+     "dir": "methods-network",
+     "label": "Slapin 2008",
+     "title": "A Scaling Model for Estimating Time‐Series Party Positions from Texts",
+     "authors": "Jonathan B. Slapin & Sven‐Oliver Proksch",
+     "year": 2008,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2008.00338.x",
+     "zotero": null
+    },
+    {
+     "id": "rheaultcochrane2019",
+     "dir": "methods-network",
+     "label": "Rheault 2019",
+     "title": "Word Embeddings for the Analysis of Ideological Placement in Parliamentary Corpora",
+     "authors": "Ludovic Rheault & Christopher Cochrane",
+     "year": 2019,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2019.26",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "topicmodels",
+   "label": "Topic models & structural topic models",
+   "family": "computation",
+   "year": 2003,
+   "origin": "Blei, Ng & Jordan; Quinn et al.; Roberts et al.",
+   "core": "Documents are mixtures of latent topics whose prevalence can depend on covariates.",
+   "works": [
+    {
+     "id": "blei2003",
+     "dir": "methods-network",
+     "label": "Blei 2003",
+     "title": "Latent Dirichlet Allocation",
+     "authors": "David M. Blei, Andrew Y. Ng & Michael I. Jordan",
+     "year": 2003,
+     "journal": "Journal of Machine Learning Research",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "quinn2010",
+     "dir": "methods-network",
+     "label": "Quinn 2009",
+     "title": "How to Analyze Political Attention with Minimal Assumptions and Costs",
+     "authors": "Kevin M. Quinn, Burt L. Monroe, Michael Colaresi et al.",
+     "year": 2009,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2009.00427.x",
+     "zotero": null
+    },
+    {
+     "id": "robertsstm2014",
+     "dir": "methods-network",
+     "label": "Roberts 2014",
+     "title": "Structural Topic Models for Open‐Ended Survey Responses",
+     "authors": "Margaret E. Roberts, Brandon M. Stewart, Dustin Tingley et al.",
+     "year": 2014,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12103",
+     "zotero": null
+    },
+    {
+     "id": "roberts2016",
+     "dir": "methods-network",
+     "label": "Roberts 2016",
+     "title": "A Model of Text for Experimentation in the Social Sciences",
+     "authors": "Margaret E. Roberts, Brandon M. Stewart & Edoardo M. Airoldi",
+     "year": 2016,
+     "journal": "Journal of the American Statistical Association",
+     "doi": "10.1080/01621459.2016.1141684",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "agnostictext",
+   "label": "Agnostic, validation-first text as data",
+   "family": "computation",
+   "year": 2013,
+   "origin": "Grimmer & Stewart",
+   "core": "Text models are useful but wrong; validate measures for each task.",
+   "works": [
+    {
+     "id": "grimmerstewart2013",
+     "dir": "methods-network",
+     "label": "Grimmer 2013",
+     "title": "Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts",
+     "authors": "Justin Grimmer & Brandon M. Stewart",
+     "year": 2013,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mps028",
+     "zotero": null
+    },
+    {
+     "id": "grimmer2022",
+     "dir": "methods-network",
+     "label": "Grimmer 2022",
+     "title": "Text as Data: A New Framework for Machine Learning and the Social Sciences",
+     "authors": "Justin Grimmer, Margaret E. Roberts & Brandon M. Stewart",
+     "year": 2022,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "egami2022",
+     "dir": "methods-network",
+     "label": "Egami 2022",
+     "title": "How to Make Causal Inferences Using Texts",
+     "authors": "Naoki Egami, Christian J. Fong, Justin Grimmer, Margaret E. Roberts & Brandon M. Stewart",
+     "year": 2022,
+     "journal": "Science Advances",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cate",
+   "label": "Machine learning for heterogeneous effects",
+   "family": "computation",
+   "year": 2011,
+   "origin": "Hill; Green & Kern; Wager & Athey; Chernozhukov et al.",
+   "core": "Flexible learners estimate conditional effects and nuisance functions with valid inference.",
+   "works": [
+    {
+     "id": "hill2011",
+     "dir": "methods-network",
+     "label": "Hill 2011",
+     "title": "Bayesian Nonparametric Modeling for Causal Inference",
+     "authors": "Jennifer L. Hill",
+     "year": 2011,
+     "journal": "Journal of Computational and Graphical Statistics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "wagerathey2018",
+     "dir": "methods-network",
+     "label": "Wager 2018",
+     "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+     "authors": "Stefan Wager & Susan Athey",
+     "year": 2018,
+     "journal": "Journal of the American Statistical Association",
+     "doi": "10.1080/01621459.2017.1319839",
+     "zotero": null
+    },
+    {
+     "id": "kunzel2019",
+     "dir": "methods-network",
+     "label": "Künzel 2019",
+     "title": "Metalearners for Estimating Heterogeneous Treatment Effects Using Machine Learning",
+     "authors": "Sören R. Künzel, Jasjeet S. Sekhon, Peter J. Bickel & Bin Yu",
+     "year": 2019,
+     "journal": "PNAS",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "chernozhukov2018",
+     "dir": "methods-network",
+     "label": "Chernozhukov 2018",
+     "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
+     "authors": "Victor Chernozhukov, Denis Chetverikov, Mert Demirer, Esther Duflo, Christian Hansen, Whitney Newey & James Robins",
+     "year": 2018,
+     "journal": "The Econometrics Journal",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "llmannotation",
+   "label": "LLM annotation with bias correction",
+   "family": "computation",
+   "year": 2023,
+   "origin": "Gilardi et al.; Törnberg; Egami et al.",
+   "core": "LLMs can label text at scale, but downstream inference needs a validated gold-standard subsample.",
+   "works": [
+    {
+     "id": "gilardi2023",
+     "dir": "methods-network",
+     "label": "Gilardi 2023",
+     "title": "ChatGPT Outperforms Crowd Workers for Text-Annotation Tasks",
+     "authors": "Fabrizio Gilardi, Meysam Alizadeh & Maël Kubli",
+     "year": 2023,
+     "journal": "PNAS",
+     "doi": "10.1073/pnas.2305016120",
+     "zotero": null
+    },
+    {
+     "id": "tornberg2024",
+     "dir": "methods-network",
+     "label": "Törnberg 2024",
+     "title": "Large Language Models Outperform Expert Coders and Supervised Classifiers at Annotating Political Social Media Messages",
+     "authors": "Petter Törnberg",
+     "year": 2024,
+     "journal": "Social Science Computer Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "egami2025",
+     "dir": "methods-network",
+     "label": "Egami 2025",
+     "title": "Using Large Language Model Annotations for the Social Sciences: A General Framework of Using Predicted Variables in Downstream Analyses",
+     "authors": "Naoki Egami et al.",
+     "year": 2025,
+     "journal": "AJPS",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/3MQ852Q4"
+    },
+    {
+     "id": "halterman2025",
+     "dir": "methods-network",
+     "label": "Halterman 2025",
+     "title": "Codebook LLMs: Evaluating LLMs as Measurement Tools for Political Science Concepts",
+     "authors": "Andrew Halterman & Katherine A. Keith",
+     "year": 2025,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2025.10017",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "siliconsamples",
+   "label": "Silicon samples (LLM-simulated respondents)",
+   "family": "computation",
+   "year": 2023,
+   "origin": "Argyle et al.",
+   "core": "Conditioned LLMs can mimic subgroup survey responses, within limits.",
+   "works": [
+    {
+     "id": "argyle2023",
+     "dir": "methods-network",
+     "label": "Argyle 2023",
+     "title": "Out of One, Many: Using Language Models to Simulate Human Samples",
+     "authors": "Lisa P. Argyle et al.",
+     "year": 2023,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2023.2",
+     "zotero": null
+    },
+    {
+     "id": "bisbee2024",
+     "dir": "methods-network",
+     "label": "Bisbee 2024",
+     "title": "Synthetic Replacements for Human Survey Data? The Perils of Large Language Models",
+     "authors": "James Bisbee, Joshua D. Clinton, Cassy Dorff et al.",
+     "year": 2024,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2024.5",
+     "zotero": null
+    },
+    {
+     "id": "dillion2023",
+     "dir": "methods-network",
+     "label": "Dillion 2023",
+     "title": "Can AI Language Models Replace Human Participants?",
+     "authors": "Danica Dillion, Niket Tandon, Yuling Gu & Kurt Gray",
+     "year": 2023,
+     "journal": "Trends in Cognitive Sciences",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "kkv",
+   "label": "Unified logic of inference (KKV)",
+   "family": "qualitative",
+   "year": 1994,
+   "origin": "King, Keohane & Verba",
+   "core": "Qualitative and quantitative research share one logic of descriptive and causal inference.",
+   "works": [
+    {
+     "id": "king1994",
+     "dir": "methods-network",
+     "label": "King 1994",
+     "title": "Designing Social Inquiry: Scientific Inference in Qualitative Research",
+     "authors": "Gary King, Robert O. Keohane & Sidney Verba",
+     "year": 1994,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "geddes1990",
+     "dir": "methods-network",
+     "label": "Geddes 1990",
+     "title": "How the Cases You Choose Affect the Answers You Get: Selection Bias in Comparative Politics",
+     "authors": "Barbara Geddes",
+     "year": 1990,
+     "journal": "Political Analysis",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "causalprocess",
+   "label": "Causal-process observations & process tracing",
+   "family": "qualitative",
+   "year": 2004,
+   "origin": "Brady & Collier; George & Bennett; Van Evera",
+   "core": "Within-case diagnostic evidence tests causal claims via hoop and smoking-gun tests.",
+   "works": [
+    {
+     "id": "bradycollier2004",
+     "dir": "methods-network",
+     "label": "Brady 2004",
+     "title": "Rethinking Social Inquiry: Diverse Tools, Shared Standards",
+     "authors": "Henry E. Brady & David Collier (eds.)",
+     "year": 2004,
+     "journal": "Rowman & Littlefield (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "georgebennett2005",
+     "dir": "methods-network",
+     "label": "George 2005",
+     "title": "Case Studies and Theory Development in the Social Sciences",
+     "authors": "Alexander L. George & Andrew Bennett",
+     "year": 2005,
+     "journal": "MIT Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "collier2011",
+     "dir": "methods-network",
+     "label": "Collier 2011",
+     "title": "Understanding Process Tracing",
+     "authors": "David Collier",
+     "year": 2011,
+     "journal": "PS: Political Science & Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bennettcheckel2015",
+     "dir": "methods-network",
+     "label": "Bennett 2015",
+     "title": "Process Tracing: From Metaphor to Analytic Tool",
+     "authors": "Andrew Bennett & Jeffrey T. Checkel (eds.)",
+     "year": 2015,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "bayesianpt",
+   "label": "Bayesian process tracing & integrated inference",
+   "family": "qualitative",
+   "year": 2015,
+   "origin": "Humphreys & Jacobs; Fairfield & Charman",
+   "core": "Qualitative evidence updates beliefs by explicit likelihood ratios within causal models.",
+   "works": [
+    {
+     "id": "humphreysjacobs2015",
+     "dir": "methods-network",
+     "label": "Humphreys 2015",
+     "title": "Mixing Methods: A Bayesian Approach",
+     "authors": "Macartan Humphreys & Alan M. Jacobs",
+     "year": 2015,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055415000453",
+     "zotero": null
+    },
+    {
+     "id": "fairfieldcharman2017",
+     "dir": "methods-network",
+     "label": "Fairfield 2017",
+     "title": "Explicit Bayesian Analysis for Process Tracing: Guidelines, Opportunities, and Caveats",
+     "authors": "Tasha Fairfield & Andrew E. Charman",
+     "year": 2017,
+     "journal": "Political Analysis",
+     "doi": "10.1017/pan.2017.14",
+     "zotero": null
+    },
+    {
+     "id": "humphreysjacobs2023",
+     "dir": "methods-network",
+     "label": "Humphreys 2023",
+     "title": "Integrated Inferences: Causal Models for Qualitative and Mixed-Method Research",
+     "authors": "Macartan Humphreys & Alan M. Jacobs",
+     "year": 2023,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "qca",
+   "label": "Set-theoretic methods & QCA",
+   "family": "qualitative",
+   "year": 1987,
+   "origin": "Ragin; Goertz & Mahoney",
+   "core": "Causation is often conjunctural and asymmetric, best modeled with sets.",
+   "works": [
+    {
+     "id": "ragin1987",
+     "dir": "methods-network",
+     "label": "Ragin 1987",
+     "title": "The Comparative Method: Moving Beyond Qualitative and Quantitative Strategies",
+     "authors": "Charles C. Ragin",
+     "year": 1987,
+     "journal": "University of California Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "ragin2008",
+     "dir": "methods-network",
+     "label": "Ragin 2008",
+     "title": "Redesigning Social Inquiry: Fuzzy Sets and Beyond",
+     "authors": "Charles C. Ragin",
+     "year": 2008,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mahoneygoertz2006",
+     "dir": "methods-network",
+     "label": "Mahoney 2006",
+     "title": "A Tale of Two Cultures: Contrasting Quantitative and Qualitative Research",
+     "authors": "James Mahoney & Gary Goertz",
+     "year": 2006,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mpj017",
+     "zotero": null
+    },
+    {
+     "id": "goertzmahoney2012",
+     "dir": "methods-network",
+     "label": "Goertz 2012",
+     "title": "A Tale of Two Cultures: Qualitative and Quantitative Research in the Social Sciences",
+     "authors": "Gary Goertz & James Mahoney",
+     "year": 2012,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "eitm",
+   "label": "Empirical implications of theoretical models",
+   "family": "practice",
+   "year": 2004,
+   "origin": "Granato & Scioli; Morton; Signorino",
+   "core": "Formal models and statistical tests should be built together.",
+   "works": [
+    {
+     "id": "granato2004",
+     "dir": "methods-network",
+     "label": "Granato 2004",
+     "title": "Puzzles, Proverbs, and Omega Matrices: The Scientific and Social Significance of Empirical Implications of Theoretical Models (EITM)",
+     "authors": "Jim Granato & Frank Scioli",
+     "year": 2004,
+     "journal": "Perspectives on Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "morton1999",
+     "dir": "methods-network",
+     "label": "Morton 1999",
+     "title": "Methods and Models: A Guide to the Empirical Analysis of Formal Models in Political Science",
+     "authors": "Rebecca B. Morton",
+     "year": 1999,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "signorino1999",
+     "dir": "methods-network",
+     "label": "Signorino 1999",
+     "title": "Strategic Interaction and the Statistical Analysis of International Conflict",
+     "authors": "Curtis S. Signorino",
+     "year": 1999,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "achen2002",
+     "dir": "methods-network",
+     "label": "Achen 2002",
+     "title": "Toward a New Political Methodology: Microfoundations and ART",
+     "authors": "Christopher H. Achen",
+     "year": 2002,
+     "journal": "Annual Review of Political Science",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "theorycredibility",
+   "label": "Theory and credibility",
+   "family": "practice",
+   "year": 2020,
+   "origin": "Bueno de Mesquita & Tyson; Ashworth, Berry & Bueno de Mesquita",
+   "core": "Credibly identified estimates need theory to say what they mean.",
+   "works": [
+    {
+     "id": "bdmtyson2020",
+     "dir": "methods-network",
+     "label": "Bueno de Mesquita 2020",
+     "title": "The Commensurability Problem: Conceptual Difficulties in Estimating the Effect of Behavior on Behavior",
+     "authors": "Ethan Bueno de Mesquita & Scott A. Tyson",
+     "year": 2020,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "ashworth2021",
+     "dir": "methods-network",
+     "label": "Ashworth 2021",
+     "title": "Theory and Credibility: Integrating Theoretical and Empirical Social Science",
+     "authors": "Scott Ashworth, Christopher R. Berry & Ethan Bueno de Mesquita",
+     "year": 2021,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "samii2016",
+     "dir": "methods-network",
+     "label": "Samii 2016",
+     "title": "Causal Empiricism in Quantitative Research",
+     "authors": "Cyrus Samii",
+     "year": 2016,
+     "journal": "JOP",
+     "doi": "10.1086/686690",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "tscs",
+   "label": "TSCS modeling & dynamics",
+   "family": "practice",
+   "year": 1995,
+   "origin": "Beck & Katz; De Boef & Keele",
+   "core": "Pooled time-series data need panel-corrected errors and explicit dynamics.",
+   "works": [
+    {
+     "id": "beckkatz1995",
+     "dir": "methods-network",
+     "label": "Beck 1995",
+     "title": "What to Do (and Not to Do) with Time-Series Cross-Section Data",
+     "authors": "Nathaniel Beck & Jonathan N. Katz",
+     "year": 1995,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "beckkatztucker1998",
+     "dir": "methods-network",
+     "label": "Beck 1998",
+     "title": "Taking Time Seriously: Time-Series-Cross-Section Analysis with a Binary Dependent Variable",
+     "authors": "Nathaniel Beck, Jonathan N. Katz & Richard Tucker",
+     "year": 1998,
+     "journal": "AJPS",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "deboefkeele2008",
+     "dir": "methods-network",
+     "label": "De Boef 2008",
+     "title": "Taking Time Seriously",
+     "authors": "Suzanna De Boef & Luke Keele",
+     "year": 2008,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2007.00307.x",
+     "zotero": null
+    },
+    {
+     "id": "beckkatz2011",
+     "dir": "methods-network",
+     "label": "Beck 2011",
+     "title": "Modeling Dynamics in Time-Series–Cross-Section Political Economy Data",
+     "authors": "Nathaniel Beck & Jonathan N. Katz",
+     "year": 2011,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-071510-103222",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mi",
+   "label": "Multiple imputation",
+   "family": "practice",
+   "year": 1987,
+   "origin": "Rubin; King, Honaker et al.",
+   "core": "Impute missing values several times and combine estimates to propagate uncertainty.",
+   "works": [
+    {
+     "id": "rubin1987",
+     "dir": "methods-network",
+     "label": "Rubin 1987",
+     "title": "Multiple Imputation for Nonresponse in Surveys",
+     "authors": "Donald B. Rubin",
+     "year": 1987,
+     "journal": "Wiley (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "king2001",
+     "dir": "methods-network",
+     "label": "King 2001",
+     "title": "Analyzing Incomplete Political Science Data: An Alternative Algorithm for Multiple Imputation",
+     "authors": "Gary King, James Honaker, Anne Joseph & Kenneth Scheve",
+     "year": 2001,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "honakerking2010",
+     "dir": "methods-network",
+     "label": "Honaker 2010",
+     "title": "What to Do about Missing Values in Time‐Series Cross‐Section Data",
+     "authors": "James Honaker & Gary King",
+     "year": 2010,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2010.00447.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "preregistration",
+   "label": "Transparency & preregistration",
+   "family": "practice",
+   "year": 2011,
+   "origin": "Simmons et al.; Humphreys et al.; Lupia & Elman; Nosek",
+   "core": "Publication bias and forking paths call for preregistration, data access and replication.",
+   "works": [
+    {
+     "id": "simmons2011",
+     "dir": "methods-network",
+     "label": "Simmons 2011",
+     "title": "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant",
+     "authors": "Joseph P. Simmons, Leif D. Nelson & Uri Simonsohn",
+     "year": 2011,
+     "journal": "Psychological Science",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "humphreys2013",
+     "dir": "methods-network",
+     "label": "Humphreys 2013",
+     "title": "Fishing, Commitment, and Communication: A Proposal for Comprehensive Nonbinding Research Registration",
+     "authors": "Macartan Humphreys, Raul Sanchez de la Sierra & Peter van der Windt",
+     "year": 2013,
+     "journal": "Political Analysis",
+     "doi": "10.1093/pan/mps021",
+     "zotero": null
+    },
+    {
+     "id": "lupiaelman2014",
+     "dir": "methods-network",
+     "label": "Lupia 2014",
+     "title": "Openness in Political Science: Data Access and Research Transparency",
+     "authors": "Arthur Lupia & Colin Elman",
+     "year": 2014,
+     "journal": "PS: Political Science & Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "nosek2018",
+     "dir": "methods-network",
+     "label": "Nosek 2018",
+     "title": "The Preregistration Revolution",
+     "authors": "Brian A. Nosek, Charles R. Ebersole, Alexander C. DeHaven & David T. Mellor",
+     "year": 2018,
+     "journal": "PNAS",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gerbermalhotra2008qjps",
+     "dir": "methods-network",
+     "label": "Gerber 2008",
+     "title": "Do Statistical Reporting Standards Affect What Is Published? Publication Bias in Two Leading Political Science Journals",
+     "authors": "Alan Gerber & Neil Malhotra",
+     "year": 2008,
+     "journal": "Quarterly Journal of Political Science",
+     "doi": "10.1561/100.00008024",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "networkdependence",
+   "label": "Network & spatial interdependence",
+   "family": "practice",
+   "year": 1993,
+   "origin": "Manski; Beck, Gleditsch & Beardsley; Hoff & Ward",
+   "core": "Connected units influence each other, so independence assumptions fail.",
+   "works": [
+    {
+     "id": "manski1993",
+     "dir": "methods-network",
+     "label": "Manski 1993",
+     "title": "Identification of Endogenous Social Effects: The Reflection Problem",
+     "authors": "Charles F. Manski",
+     "year": 1993,
+     "journal": "Review of Economic Studies",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "beck2006isq",
+     "dir": "methods-network",
+     "label": "Beck 2006",
+     "title": "Space Is More than Geography: Using Spatial Econometrics in the Study of Political Economy",
+     "authors": "Nathaniel Beck, Kristian Skrede Gleditsch & Kyle Beardsley",
+     "year": 2006,
+     "journal": "ISQ",
+     "doi": "10.1111/j.1468-2478.2006.00391.x",
+     "zotero": null
+    },
+    {
+     "id": "hoffward2004",
+     "dir": "methods-network",
+     "label": "Hoff 2004",
+     "title": "Modeling Dependencies in International Relations Networks",
+     "authors": "Peter D. Hoff & Michael D. Ward",
+     "year": 2004,
+     "journal": "Political Analysis",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "shalizithomas2011",
+     "dir": "methods-network",
+     "label": "Shalizi 2011",
+     "title": "Homophily and Contagion Are Generically Confounded in Observational Social Network Studies",
+     "authors": "Cosma Rohilla Shalizi & Andrew C. Thomas",
+     "year": 2011,
+     "journal": "Sociological Methods & Research",
+     "doi": "10.1177/0049124111404820",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "potentialoutcomes",
+   "target": "randomization",
+   "type": "extends",
+   "why": "Generalizes randomization-based reasoning to define effects in nonrandomized studies."
+  },
+  {
+   "source": "dags",
+   "target": "potentialoutcomes",
+   "type": "rivals",
+   "why": "Offers graphs and do-calculus as an alternative causal language."
+  },
+  {
+   "source": "propensity",
+   "target": "potentialoutcomes",
+   "type": "extends",
+   "why": "Adds the propensity score to identify effects under ignorability."
+  },
+  {
+   "source": "sensitivity",
+   "target": "propensity",
+   "type": "complements",
+   "why": "Selection-on-observables designs need sensitivity analysis for hidden bias."
+  },
+  {
+   "source": "sensitivity",
+   "target": "potentialoutcomes",
+   "type": "extends",
+   "why": "Asks how far identifying assumptions can fail before conclusions change."
+  },
+  {
+   "source": "mediation",
+   "target": "potentialoutcomes",
+   "type": "extends",
+   "why": "Defines indirect effects with nested potential outcomes."
+  },
+  {
+   "source": "mediation",
+   "target": "sensitivity",
+   "type": "applies",
+   "why": "Sequential ignorability is untestable, so mediation relies on sensitivity analysis."
+  },
+  {
+   "source": "late",
+   "target": "potentialoutcomes",
+   "type": "extends",
+   "why": "States IV assumptions in potential-outcomes terms."
+  },
+  {
+   "source": "rd",
+   "target": "randomization",
+   "type": "applies",
+   "why": "Treats units near the cutoff as locally randomized."
+  },
+  {
+   "source": "naturalexp",
+   "target": "late",
+   "type": "synthesizes",
+   "why": "Integrates IV into a design-based account of natural experiments."
+  },
+  {
+   "source": "naturalexp",
+   "target": "rd",
+   "type": "synthesizes",
+   "why": "Integrates RD into a design-based account of natural experiments."
+  },
+  {
+   "source": "did",
+   "target": "potentialoutcomes",
+   "type": "applies",
+   "why": "Parallel trends identify the treated group’s untreated potential outcome."
+  },
+  {
+   "source": "hetdid",
+   "target": "did",
+   "type": "extends",
+   "why": "Repairs DiD estimation under staggered timing and heterogeneous effects."
+  },
+  {
+   "source": "hetdid",
+   "target": "tscs",
+   "type": "rivals",
+   "why": "Replaces model-based TSCS regression with design-based estimators."
+  },
+  {
+   "source": "synth",
+   "target": "did",
+   "type": "complements",
+   "why": "Builds a weighted counterfactual when no single comparison group satisfies parallel trends."
+  },
+  {
+   "source": "fieldexp",
+   "target": "randomization",
+   "type": "applies",
+   "why": "Carries randomized design into real-world political settings."
+  },
+  {
+   "source": "surveyexp",
+   "target": "fieldexp",
+   "type": "complements",
+   "why": "Survey experiments trade realism for control and representative samples."
+  },
+  {
+   "source": "conjoint",
+   "target": "surveyexp",
+   "type": "extends",
+   "why": "Randomizes many attributes at once within survey experiments."
+  },
+  {
+   "source": "conjoint",
+   "target": "potentialoutcomes",
+   "type": "applies",
+   "why": "Defines the AMCE as a potential-outcomes estimand."
+  },
+  {
+   "source": "bayesianirt",
+   "target": "spatialvoting",
+   "type": "rivals",
+   "why": "Replaces NOMINATE’s estimation with Bayesian IRT and uncertainty."
+  },
+  {
+   "source": "latentvariable",
+   "target": "bayesianirt",
+   "type": "applies",
+   "why": "Carries IRT from roll calls to measuring regimes and rights."
+  },
+  {
+   "source": "mrp",
+   "target": "bayesianirt",
+   "type": "complements",
+   "why": "Hierarchical Bayesian models are combined with IRT to estimate group opinion."
+  },
+  {
+   "source": "textscaling",
+   "target": "spatialvoting",
+   "type": "applies",
+   "why": "Applies spatial scaling logic to word counts instead of votes."
+  },
+  {
+   "source": "topicmodels",
+   "target": "textscaling",
+   "type": "complements",
+   "why": "Topic models measure attention where scaling measures position."
+  },
+  {
+   "source": "agnostictext",
+   "target": "topicmodels",
+   "type": "synthesizes",
+   "why": "Integrates topic models into a validation-first framework."
+  },
+  {
+   "source": "agnostictext",
+   "target": "textscaling",
+   "type": "synthesizes",
+   "why": "Integrates scaling into a validation-first framework."
+  },
+  {
+   "source": "cate",
+   "target": "potentialoutcomes",
+   "type": "applies",
+   "why": "Uses flexible learners to estimate conditional potential-outcome contrasts."
+  },
+  {
+   "source": "cate",
+   "target": "propensity",
+   "type": "extends",
+   "why": "Estimates propensity and outcome nuisance functions with machine learning."
+  },
+  {
+   "source": "llmannotation",
+   "target": "agnostictext",
+   "type": "extends",
+   "why": "Uses LLMs as annotators while keeping validation central."
+  },
+  {
+   "source": "llmannotation",
+   "target": "cate",
+   "type": "applies",
+   "why": "Debiases LLM labels with doubly robust estimators from causal machine learning."
+  },
+  {
+   "source": "siliconsamples",
+   "target": "surveyexp",
+   "type": "rivals",
+   "why": "Proposes simulated respondents in place of human survey samples."
+  },
+  {
+   "source": "siliconsamples",
+   "target": "llmannotation",
+   "type": "complements",
+   "why": "Both treat LLMs as measurement instruments needing validation."
+  },
+  {
+   "source": "kkv",
+   "target": "potentialoutcomes",
+   "type": "applies",
+   "why": "Applies the counterfactual definition of causality to qualitative research."
+  },
+  {
+   "source": "kkv",
+   "target": "qca",
+   "type": "rivals",
+   "why": "Treats qualitative work as following statistical logic rather than set-theoretic logic."
+  },
+  {
+   "source": "causalprocess",
+   "target": "kkv",
+   "type": "rivals",
+   "why": "Holds that within-case process evidence has its own inferential logic."
+  },
+  {
+   "source": "bayesianpt",
+   "target": "causalprocess",
+   "type": "extends",
+   "why": "Formalizes process-tracing tests as Bayesian updating."
+  },
+  {
+   "source": "theorycredibility",
+   "target": "eitm",
+   "type": "extends",
+   "why": "Links formal theory to design-based rather than model-based estimates."
+  },
+  {
+   "source": "theorycredibility",
+   "target": "potentialoutcomes",
+   "type": "synthesizes",
+   "why": "Integrates identified estimands with theoretical quantities."
+  },
+  {
+   "source": "mi",
+   "target": "potentialoutcomes",
+   "type": "complements",
+   "why": "Both treat unobserved quantities as missing data to be imputed."
+  },
+  {
+   "source": "preregistration",
+   "target": "fieldexp",
+   "type": "complements",
+   "why": "Pre-analysis plans grew out of experimental practice."
+  },
+  {
+   "source": "networkdependence",
+   "target": "potentialoutcomes",
+   "type": "complements",
+   "why": "Interference among connected units requires estimands beyond no-interference."
+  },
+  {
+   "source": "eitm",
+   "target": "tscs",
+   "type": "complements",
+   "why": "Calls for statistical models, including dynamic ones, derived from theory."
+  }
+ ]
+}

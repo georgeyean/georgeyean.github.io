@@ -8,7 +8,7 @@ A narrative companion to `graph.json` and `network.html` in this folder. The gra
 - **Top-cited articles:** 161 come from the 400 most-cited 2006–2026 articles in REP journals (*Journal of Race, Ethnicity, and Politics*, *Politics, Groups, and Identities*, *Du Bois Review*, *Ethnic and Racial Studies*, *Nationalism and Ethnic Politics*, *JEMS*, *International Migration Review*) and race-related articles in APSR, AJPS, JOP, BJPS, *Political Behavior*, POQ, PRQ, APR, *Political Psychology*, *Perspectives on Politics*, ARPS, LSQ, SAPD, QJPS and CPS.
 - **Anchors:** 107 books and classic articles, from Du Bois, Myrdal, Key and Allport to Dawson, Mendelberg, Masuoka & Junn, Fraga and Vitalis.
 
-Every anchor and library seed was checked in Crossref. 87 matched directly; 24 books exist in Crossref only through reviews of them. One-line claims for non-library works are my summaries, not re-read this session.
+Every anchor and library seed was checked in Crossref. 87 matched directly; 21 books exist in Crossref only through reviews of them, and 3 were not found as their own record (Allport 1954, Trounstine 2018, Anievas et al. 2015). One-line claims for non-library works are my summaries, not re-read this session.
 
 ---
 
@@ -80,4 +80,4 @@ Every anchor and library seed was checked in Crossref. 87 matched directly; 24 b
 - **Order contestation.** The racial foundations of liberal order `[buzas2021]`, `[goodman2021]` connect to your IR work.
 
 ## What I could not verify (flagged)
-Twenty-four books exist in Crossref only through reviews: Key 1949, Allport 1954, Marx 1998, Klinkner & Smith 1999, Katznelson 2005, Cohen 1999, Barreto 2010, Beltrán 2010, Fraga et al. 2010, Wong et al. 2011, Masuoka & Junn 2013, Lublin 1997, Canon 1999, Tate 2003, Grose 2011, Manza & Uggen 2006, Western 2006, Burch 2013, Lerman & Weaver 2014, Murakawa 2014, Trounstine 2018, Lake & Reynolds 2008, Vitalis 2015 and Anievas et al. 2015. Their metadata comes from memory.
+Twenty-one books exist in Crossref only through reviews: Key 1949, Marx 1998, Klinkner & Smith 1999, Katznelson 2005, Cohen 1999, Barreto 2010, Beltrán 2010, Fraga et al. 2010, Wong et al. 2011, Masuoka & Junn 2013, Lublin 1997, Canon 1999, Tate 2003, Grose 2011, Manza & Uggen 2006, Western 2006, Burch 2013, Lerman & Weaver 2014, Murakawa 2014, Lake & Reynolds 2008 and Vitalis 2015. Three were not found as their own Crossref record, so their metadata comes from memory: Allport 1954, Trounstine 2018 and Anievas et al. 2015.

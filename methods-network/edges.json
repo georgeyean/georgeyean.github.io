@@ -1,0 +1,4648 @@
+{
+ "meta": {
+  "title": "Political methodology knowledge network, c. 1935-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in political methodology: the potential-outcomes framework and causal mechanisms, regression and matching, difference-in-differences, fixed effects and synthetic control, natural experiments, instrumental variables and regression discontinuity, field experiments, survey experiments, conjoint and list experiments, ideal-point scaling, measurement and latent variables, text as data, machine learning and heterogeneous effects, large language models for annotation and measurement, Bayesian and multilevel models, time-series cross-section data, missing data, survey methodology, qualitative and multi-method research, formal models and EITM, replication and transparency, and networks and spatial interdependence. Works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (Political Analysis, PSRM, Sociological Methods & Research, JASA and methods articles in general political science journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 315,
+   "theme_nodes": 20,
+   "seed_from_papers_json": 7,
+   "crossref_top_cited": 171,
+   "anchors_supplement": 137,
+   "relation_edges": 353,
+   "membership_edges": 417
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "rubin1974",
+   "target": "fisher1935",
+   "type": "builds_on",
+   "why": "Extends randomization-based reasoning to define causal effects as potential-outcome contrasts in nonrandomized studies."
+  },
+  {
+   "source": "holland1986",
+   "target": "rubin1974",
+   "type": "synthesizes",
+   "why": "Codifies Rubin's model and names the fundamental problem of causal inference."
+  },
+  {
+   "source": "freedman1991",
+   "target": "holland1986",
+   "type": "qualifies",
+   "why": "Argues formal causal models do little without design and shoe-leather evidence."
+  },
+  {
+   "source": "angristimbensrubin1996",
+   "target": "rubin1974",
+   "type": "builds_on",
+   "why": "Recasts instrumental variables in potential-outcomes terms."
+  },
+  {
+   "source": "angristimbensrubin1996",
+   "target": "imbensangrist1994",
+   "type": "builds_on",
+   "why": "States the LATE assumptions in the potential-outcomes framework."
+  },
+  {
+   "source": "pearl2009",
+   "target": "holland1986",
+   "type": "challenges",
+   "why": "Offers causal graphs and do-calculus as an alternative language to potential outcomes."
+  },
+  {
+   "source": "angristpischke2009",
+   "target": "rubin1974",
+   "type": "builds_on",
+   "why": "Organizes applied econometrics around the potential-outcomes experimental ideal."
+  },
+  {
+   "source": "angristpischke2010",
+   "target": "leamer1983",
+   "type": "challenges",
+   "why": "Replies that research design, not sensitivity analysis, took the con out of econometrics."
+  },
+  {
+   "source": "angristpischke2010",
+   "target": "angristpischke2009",
+   "type": "builds_on",
+   "why": "Presents the credibility revolution argued in the textbook."
+  },
+  {
+   "source": "imbensrubin2015",
+   "target": "rubin1974",
+   "type": "synthesizes",
+   "why": "Textbook synthesis of the Rubin causal model for experiments and observational studies."
+  },
+  {
+   "source": "imbensrubin2015",
+   "target": "rosenbaumrubin1983",
+   "type": "synthesizes",
+   "why": "Integrates propensity-score design into a unified treatment."
+  },
+  {
+   "source": "keele2015",
+   "target": "holland1986",
+   "type": "synthesizes",
+   "why": "Reviews how political methodology adopted the potential-outcomes framework."
+  },
+  {
+   "source": "keele2015",
+   "target": "angristpischke2009",
+   "type": "synthesizes",
+   "why": "Places political methodology within the identification-first turn."
+  },
+  {
+   "source": "samii2016",
+   "target": "keele2015",
+   "type": "qualifies",
+   "why": "Warns that causal empiricism must stay tied to theory."
+  },
+  {
+   "source": "baronkenny1986",
+   "target": "fisher1935",
+   "type": "builds_on",
+   "why": "Proposes regression steps to probe how a randomized cause works."
+  },
+  {
+   "source": "imaikeeleyamamoto2010",
+   "target": "baronkenny1986",
+   "type": "challenges",
+   "why": "Shows the product-of-coefficients approach lacks a causal justification without sequential ignorability."
+  },
+  {
+   "source": "imaikeeletingley2011",
+   "target": "imaikeeleyamamoto2010",
+   "type": "builds_on",
+   "why": "Brings the mediation framework and sensitivity analysis to political science."
+  },
+  {
+   "source": "imaikeeletingley2011",
+   "target": "baronkenny1986",
+   "type": "challenges",
+   "why": "Argues regression-based mediation conflates association with mechanism."
+  },
+  {
+   "source": "imaiyamamoto2013",
+   "target": "imaikeeletingley2011",
+   "type": "builds_on",
+   "why": "Extends mediation analysis to multiple causally related mechanisms."
+  },
+  {
+   "source": "acharyablackwellsen2016",
+   "target": "imaikeeletingley2011",
+   "type": "qualifies",
+   "why": "Targets the controlled direct effect, which needs weaker assumptions than indirect effects."
+  },
+  {
+   "source": "senwasow2016",
+   "target": "holland1986",
+   "type": "challenges",
+   "why": "Rejects \"no causation without manipulation\" for immutable characteristics like race by treating them as bundles."
+  },
+  {
+   "source": "cinellihazlett2020",
+   "target": "rosenbaum2002",
+   "type": "builds_on",
+   "why": "Develops omitted-variable-bias sensitivity analysis in the spirit of Rosenbaum bounds."
+  },
+  {
+   "source": "cinellihazlett2020",
+   "target": "leamer1983",
+   "type": "builds_on",
+   "why": "Gives a principled way to report how fragile estimates are to unobserved confounding."
+  },
+  {
+   "source": "keele2019psrm",
+   "target": "pearl2009",
+   "type": "builds_on",
+   "why": "Uses causal graphs to show why control coefficients lack causal meaning."
+  },
+  {
+   "source": "cinelli2022",
+   "target": "pearl2009",
+   "type": "builds_on",
+   "why": "Applies the back-door criterion to classify good and bad controls."
+  },
+  {
+   "source": "cinelli2022",
+   "target": "keele2019psrm",
+   "type": "synthesizes",
+   "why": "Extends the Table 2 fallacy into a general guide to control selection."
+  },
+  {
+   "source": "eggerstunon2023",
+   "target": "rosenbaum2002",
+   "type": "builds_on",
+   "why": "Formalizes placebo tests, which Rosenbaum used as checks for hidden bias."
+  },
+  {
+   "source": "eggerstunon2023",
+   "target": "keele2015",
+   "type": "builds_on",
+   "why": "Systematizes a diagnostic widely used in design-based political science."
+  },
+  {
+   "source": "heckman1979",
+   "target": "rubin1976",
+   "type": "extends_to_new_case",
+   "why": "Treats sample selection as a missing-data problem in regression."
+  },
+  {
+   "source": "leamer1983",
+   "target": "heckman1979",
+   "type": "challenges",
+   "why": "Argues that model-based corrections hide fragile specification choices."
+  },
+  {
+   "source": "rosenbaumrubin1983",
+   "target": "rubin1974",
+   "type": "builds_on",
+   "why": "Shows the propensity score is enough to adjust for observed confounders under ignorability."
+  },
+  {
+   "source": "lalonde1986",
+   "target": "heckman1979",
+   "type": "challenges",
+   "why": "Selection-correction estimators fail to recover experimental benchmarks."
+  },
+  {
+   "source": "rosenbaum2002",
+   "target": "rosenbaumrubin1983",
+   "type": "builds_on",
+   "why": "Develops design-based observational studies with sensitivity analysis."
+  },
+  {
+   "source": "vonstein2005",
+   "target": "heckman1979",
+   "type": "extends_to_new_case",
+   "why": "Applies selection models to treaty ratification and compliance."
+  },
+  {
+   "source": "simmonshopkins2005",
+   "target": "vonstein2005",
+   "type": "challenges",
+   "why": "Defends the treaty-compliance finding with alternative selection-correction methods."
+  },
+  {
+   "source": "achen2005",
+   "target": "leamer1983",
+   "type": "builds_on",
+   "why": "Attacks kitchen-sink regressions whose results depend on arbitrary controls."
+  },
+  {
+   "source": "hegresambanis2006",
+   "target": "leamer1983",
+   "type": "extends_to_new_case",
+   "why": "Applies extreme-bounds sensitivity analysis to civil-war onset models."
+  },
+  {
+   "source": "brambor2006",
+   "target": "achen2005",
+   "type": "qualifies",
+   "why": "Shows that how interaction terms are specified matters as much as which controls are included."
+  },
+  {
+   "source": "kingzeng2006",
+   "target": "leamer1983",
+   "type": "builds_on",
+   "why": "Model dependence is worst for counterfactuals outside the data."
+  },
+  {
+   "source": "hoimaiking2007",
+   "target": "rosenbaumrubin1983",
+   "type": "builds_on",
+   "why": "Uses matching as preprocessing to reduce dependence on parametric models."
+  },
+  {
+   "source": "hoimaiking2007",
+   "target": "kingzeng2006",
+   "type": "builds_on",
+   "why": "Pruning to common support reduces the model dependence diagnosed earlier."
+  },
+  {
+   "source": "arceneaux2006",
+   "target": "lalonde1986",
+   "type": "extends_to_new_case",
+   "why": "Repeats the LaLonde benchmark test for matching with a voter-mobilization experiment."
+  },
+  {
+   "source": "sekhon2009",
+   "target": "hoimaiking2007",
+   "type": "qualifies",
+   "why": "Matching aids design but cannot solve selection on unobservables."
+  },
+  {
+   "source": "sekhon2009",
+   "target": "arceneaux2006",
+   "type": "synthesizes",
+   "why": "Uses benchmark failures to argue matching is no substitute for design."
+  },
+  {
+   "source": "iacus2012",
+   "target": "hoimaiking2007",
+   "type": "builds_on",
+   "why": "Offers coarsened exact matching as a monotonic-imbalance-bounding method."
+  },
+  {
+   "source": "hainmueller2012",
+   "target": "rosenbaumrubin1983",
+   "type": "challenges",
+   "why": "Reweights directly for balance instead of estimating propensity scores."
+  },
+  {
+   "source": "aronowsamii2016",
+   "target": "angristpischke2009",
+   "type": "qualifies",
+   "why": "Regression estimates weight units unevenly, so they are not representative ATEs."
+  },
+  {
+   "source": "hainmuellermummoloxu2019",
+   "target": "brambor2006",
+   "type": "builds_on",
+   "why": "Adds diagnostics for linearity and common support in interaction models."
+  },
+  {
+   "source": "kingnielsen2019",
+   "target": "rosenbaumrubin1983",
+   "type": "challenges",
+   "why": "Argues propensity-score matching can increase imbalance and model dependence."
+  },
+  {
+   "source": "kingnielsen2019",
+   "target": "iacus2012",
+   "type": "builds_on",
+   "why": "Recommends matching methods that approximate full blocking like CEM."
+  },
+  {
+   "source": "cardkrueger1994",
+   "target": "lalonde1986",
+   "type": "builds_on",
+   "why": "Answers the unreliability of model-based nonexperimental estimates with a simple natural comparison group."
+  },
+  {
+   "source": "abadiegardeazabal2003",
+   "target": "cardkrueger1994",
+   "type": "builds_on",
+   "why": "Constructs a weighted control region where no single comparison unit fits."
+  },
+  {
+   "source": "bertrand2004did",
+   "target": "cardkrueger1994",
+   "type": "qualifies",
+   "why": "Shows DiD standard errors are badly understated with serial correlation."
+  },
+  {
+   "source": "abadie2010",
+   "target": "abadiegardeazabal2003",
+   "type": "builds_on",
+   "why": "Formalizes synthetic control with inference by placebo permutations."
+  },
+  {
+   "source": "abadie2015",
+   "target": "abadie2010",
+   "type": "extends_to_new_case",
+   "why": "Brings synthetic control to comparative politics with German reunification."
+  },
+  {
+   "source": "xu2017",
+   "target": "abadie2010",
+   "type": "builds_on",
+   "why": "Generalizes synthetic control to many treated units using interactive fixed effects."
+  },
+  {
+   "source": "blackwellglynn2018",
+   "target": "imaikeeleyamamoto2010",
+   "type": "builds_on",
+   "why": "Extends sequential-ignorability reasoning to treatment histories in TSCS data."
+  },
+  {
+   "source": "blackwellglynn2018",
+   "target": "beckkatz2011",
+   "type": "challenges",
+   "why": "Shows standard dynamic TSCS models can induce post-treatment bias in causal estimates."
+  },
+  {
+   "source": "imaikim2019",
+   "target": "blackwellglynn2018",
+   "type": "builds_on",
+   "why": "Uses causal graphs to state what unit fixed effects assume about dynamics."
+  },
+  {
+   "source": "imaikim2020",
+   "target": "imaikim2019",
+   "type": "builds_on",
+   "why": "Extends the analysis from unit fixed effects to two-way fixed effects."
+  },
+  {
+   "source": "imaikim2020",
+   "target": "bertrand2004did",
+   "type": "qualifies",
+   "why": "TWFE equals DiD only in special cases, so widespread TWFE practice needs reexamination."
+  },
+  {
+   "source": "dechaisemartin2020",
+   "target": "cardkrueger1994",
+   "type": "challenges",
+   "why": "TWFE generalizations of DiD can carry negative weights under heterogeneous effects."
+  },
+  {
+   "source": "goodmanbacon2021",
+   "target": "dechaisemartin2020",
+   "type": "builds_on",
+   "why": "Decomposes staggered TWFE into all 2x2 comparisons to show the source of bias."
+  },
+  {
+   "source": "callawaysantanna2021",
+   "target": "goodmanbacon2021",
+   "type": "builds_on",
+   "why": "Proposes group-time effects that avoid forbidden comparisons."
+  },
+  {
+   "source": "benmichael2021",
+   "target": "abadie2010",
+   "type": "builds_on",
+   "why": "Adds outcome-model bias correction when synthetic control fits poorly."
+  },
+  {
+   "source": "imaikimwang2021",
+   "target": "imaikim2019",
+   "type": "builds_on",
+   "why": "Proposes matching on treatment histories as an alternative to fixed effects."
+  },
+  {
+   "source": "abadie2021",
+   "target": "abadie2010",
+   "type": "synthesizes",
+   "why": "Reviews the conditions under which synthetic control is credible."
+  },
+  {
+   "source": "liuwangxu2022",
+   "target": "xu2017",
+   "type": "builds_on",
+   "why": "Generalizes interactive fixed-effects imputation into counterfactual estimators."
+  },
+  {
+   "source": "liuwangxu2022",
+   "target": "goodmanbacon2021",
+   "type": "builds_on",
+   "why": "Responds to TWFE bias under heterogeneous effects with imputation estimators."
+  },
+  {
+   "source": "roth2023",
+   "target": "callawaysantanna2021",
+   "type": "synthesizes",
+   "why": "Reviews heterogeneity-robust DiD estimators."
+  },
+  {
+   "source": "roth2023",
+   "target": "dechaisemartin2020",
+   "type": "synthesizes",
+   "why": "Integrates the negative-weights critique into practical guidance."
+  },
+  {
+   "source": "imbensangrist1994",
+   "target": "rubin1974",
+   "type": "builds_on",
+   "why": "Defines the complier average effect within the potential-outcomes model."
+  },
+  {
+   "source": "boundjaegerbaker1995",
+   "target": "imbensangrist1994",
+   "type": "qualifies",
+   "why": "Weak instruments make IV estimates biased and fragile."
+  },
+  {
+   "source": "hahn2001",
+   "target": "thistlethwaitecampbell1960",
+   "type": "builds_on",
+   "why": "Gives formal identification and local-linear estimation for RD."
+  },
+  {
+   "source": "lee2008rd",
+   "target": "hahn2001",
+   "type": "extends_to_new_case",
+   "why": "Applies RD to close elections to estimate incumbency advantage."
+  },
+  {
+   "source": "mccrary2008",
+   "target": "hahn2001",
+   "type": "qualifies",
+   "why": "Adds a density test for sorting around the cutoff."
+  },
+  {
+   "source": "deaton2010",
+   "target": "imbensangrist1994",
+   "type": "challenges",
+   "why": "LATE answers narrow questions and is no substitute for structural understanding."
+  },
+  {
+   "source": "imbens2010",
+   "target": "deaton2010",
+   "type": "challenges",
+   "why": "Defends local but credible estimates against Deaton."
+  },
+  {
+   "source": "soveygreen2011",
+   "target": "angristimbensrubin1996",
+   "type": "extends_to_new_case",
+   "why": "Translates IV assumptions into a checklist for political scientists."
+  },
+  {
+   "source": "caugheysekhon2011",
+   "target": "lee2008rd",
+   "type": "challenges",
+   "why": "Close US House races are not as-if random."
+  },
+  {
+   "source": "sekhontitiunik2012",
+   "target": "dunning2012",
+   "type": "qualifies",
+   "why": "Natural experiments can fail to be either natural or experiments."
+  },
+  {
+   "source": "dunning2012",
+   "target": "freedman1991",
+   "type": "builds_on",
+   "why": "Develops a design-based approach that favors simple analyses over models."
+  },
+  {
+   "source": "dunning2012",
+   "target": "thistlethwaitecampbell1960",
+   "type": "synthesizes",
+   "why": "Integrates RD, IV and standard natural experiments into one framework."
+  },
+  {
+   "source": "hainmuellerhangartner2013",
+   "target": "dunning2012",
+   "type": "extends_to_new_case",
+   "why": "Uses Swiss naturalization referendums as a natural experiment on discrimination."
+  },
+  {
+   "source": "calonico2014",
+   "target": "hahn2001",
+   "type": "builds_on",
+   "why": "Corrects bias in local-polynomial RD inference."
+  },
+  {
+   "source": "eggers2015",
+   "target": "caugheysekhon2011",
+   "type": "challenges",
+   "why": "Imbalance in close races is specific to the postwar US House, not general."
+  },
+  {
+   "source": "keeletitiunik2015",
+   "target": "hahn2001",
+   "type": "extends_to_new_case",
+   "why": "Extends RD to geographic boundaries with two-dimensional running variables."
+  },
+  {
+   "source": "acharya2016",
+   "target": "angristpischke2009",
+   "type": "extends_to_new_case",
+   "why": "Uses IV and sensitivity checks to trace slavery effects on present attitudes."
+  },
+  {
+   "source": "delacuestaimai2016",
+   "target": "lee2008rd",
+   "type": "qualifies",
+   "why": "Close-election RD identifies only a local effect at the threshold."
+  },
+  {
+   "source": "kochermonteiro2016",
+   "target": "dunning2012",
+   "type": "qualifies",
+   "why": "Historical knowledge is needed to verify as-if random assignment."
+  },
+  {
+   "source": "lal2024",
+   "target": "boundjaegerbaker1995",
+   "type": "mechanism_tested_by",
+   "why": "Finds weak instruments and inflated estimates across 67 political-science IV designs."
+  },
+  {
+   "source": "lal2024",
+   "target": "soveygreen2011",
+   "type": "builds_on",
+   "why": "Audits how far IV practice follows earlier guidance."
+  },
+  {
+   "source": "gerbergreen2000",
+   "target": "fisher1935",
+   "type": "extends_to_new_case",
+   "why": "Revives randomized field experiments for voter mobilization."
+  },
+  {
+   "source": "gerber2008",
+   "target": "gerbergreen2000",
+   "type": "builds_on",
+   "why": "Tests social-pressure mailings in a large GOTV field experiment."
+  },
+  {
+   "source": "arceneauxnickerson2009",
+   "target": "gerbergreen2000",
+   "type": "builds_on",
+   "why": "Pools 11 GOTV experiments to study who is mobilized."
+  },
+  {
+   "source": "banerjeeduflo2009",
+   "target": "fisher1935",
+   "type": "extends_to_new_case",
+   "why": "Argues for randomized evaluation in development economics."
+  },
+  {
+   "source": "humphreysweinstein2009",
+   "target": "banerjeeduflo2009",
+   "type": "extends_to_new_case",
+   "why": "Brings the experimental approach to the political economy of development."
+  },
+  {
+   "source": "humphreysweinstein2009",
+   "target": "olken2007",
+   "type": "synthesizes",
+   "why": "Reviews governance field experiments including corruption audits."
+  },
+  {
+   "source": "deaton2010",
+   "target": "banerjeeduflo2009",
+   "type": "challenges",
+   "why": "Randomized trials in development lack external validity and theory."
+  },
+  {
+   "source": "butlerbroockman2011",
+   "target": "gerbergreen2000",
+   "type": "extends_to_new_case",
+   "why": "Uses randomized audit emails to test discrimination by legislators."
+  },
+  {
+   "source": "gerbergreen2012",
+   "target": "gerbergreen2000",
+   "type": "synthesizes",
+   "why": "Textbook synthesis of field-experimental practice."
+  },
+  {
+   "source": "gerbergreen2012",
+   "target": "rubin1974",
+   "type": "builds_on",
+   "why": "Grounds field experiments in potential outcomes and randomization inference."
+  },
+  {
+   "source": "bond2012",
+   "target": "gerber2008",
+   "type": "builds_on",
+   "why": "Tests social-pressure mobilization at massive scale on Facebook."
+  },
+  {
+   "source": "bowers2013",
+   "target": "gerbergreen2012",
+   "type": "qualifies",
+   "why": "Shows how to test models of interference that standard experimental analysis assumes away."
+  },
+  {
+   "source": "broockmankalla2016",
+   "target": "gerbergreen2012",
+   "type": "extends_to_new_case",
+   "why": "Measures durable persuasion with a canvassing experiment and panel survey outcomes."
+  },
+  {
+   "source": "kallabroockman2018",
+   "target": "gerbergreen2000",
+   "type": "builds_on",
+   "why": "Meta-analysis of campaign-contact experiments finds near-zero persuasion in general elections."
+  },
+  {
+   "source": "aronowsamii2017",
+   "target": "bowers2013",
+   "type": "builds_on",
+   "why": "Provides design-based estimators under general interference."
+  },
+  {
+   "source": "aronowsamii2017",
+   "target": "manski1993",
+   "type": "qualifies",
+   "why": "Randomization identifies spillovers that observational peer-effect data cannot."
+  },
+  {
+   "source": "findley2021",
+   "target": "deaton2010",
+   "type": "synthesizes",
+   "why": "Integrates critiques of external validity into a framework for design."
+  },
+  {
+   "source": "dunning2016",
+   "target": "humphreysweinstein2009",
+   "type": "builds_on",
+   "why": "Proposes coordinated multi-site field experiments for cumulative learning."
+  },
+  {
+   "source": "druckman2006",
+   "target": "gerbergreen2000",
+   "type": "synthesizes",
+   "why": "Documents the rise of experiments, field and survey, in the APSR."
+  },
+  {
+   "source": "gaineskuklinski2007",
+   "target": "druckman2006",
+   "type": "qualifies",
+   "why": "Survey experiments carry hidden pretreatment and spillover problems."
+  },
+  {
+   "source": "barabasjerit2010",
+   "target": "gaineskuklinski2007",
+   "type": "mechanism_tested_by",
+   "why": "Compares survey-experimental effects with natural experiments to test external validity."
+  },
+  {
+   "source": "mutz2011",
+   "target": "druckman2006",
+   "type": "builds_on",
+   "why": "Develops population-based survey experiments as a distinct design."
+  },
+  {
+   "source": "druckmanleeper2012",
+   "target": "gaineskuklinski2007",
+   "type": "builds_on",
+   "why": "Shows pretreatment exposure shapes experimental effects."
+  },
+  {
+   "source": "krupnikovlevine2014",
+   "target": "mutz2011",
+   "type": "qualifies",
+   "why": "Convenience and national samples sometimes diverge in experimental results."
+  },
+  {
+   "source": "berinsky2012",
+   "target": "druckman2006",
+   "type": "builds_on",
+   "why": "Validates MTurk as a cheap source of experimental subjects."
+  },
+  {
+   "source": "mullinix2015",
+   "target": "berinsky2012",
+   "type": "builds_on",
+   "why": "Finds treatment effects on convenience samples mostly match population samples."
+  },
+  {
+   "source": "mullinix2015",
+   "target": "krupnikovlevine2014",
+   "type": "challenges",
+   "why": "Finds broad cross-sample agreement in experimental effects."
+  },
+  {
+   "source": "coppock2018",
+   "target": "mullinix2015",
+   "type": "builds_on",
+   "why": "Replicates more experiments to show MTurk results generalize."
+  },
+  {
+   "source": "dafoe2018",
+   "target": "gaineskuklinski2007",
+   "type": "builds_on",
+   "why": "Identifies information equivalence as a further threat to survey experiments."
+  },
+  {
+   "source": "mummolopeterson2019",
+   "target": "gaineskuklinski2007",
+   "type": "challenges",
+   "why": "Finds demand effects are minimal in online survey experiments."
+  },
+  {
+   "source": "aronow2019",
+   "target": "gerbergreen2012",
+   "type": "builds_on",
+   "why": "Shows conditioning on post-treatment manipulation checks breaks randomization."
+  },
+  {
+   "source": "kertzerrenshon2022",
+   "target": "mutz2011",
+   "type": "extends_to_new_case",
+   "why": "Reviews survey experiments run on elites rather than mass publics."
+  },
+  {
+   "source": "egamihartman2023",
+   "target": "findley2021",
+   "type": "builds_on",
+   "why": "Formalizes external validity and offers estimators for generalization."
+  },
+  {
+   "source": "egamihartman2023",
+   "target": "mullinix2015",
+   "type": "synthesizes",
+   "why": "Incorporates sample-comparison evidence into a framework for external validity."
+  },
+  {
+   "source": "kuklinski1997",
+   "target": "warner1965",
+   "type": "builds_on",
+   "why": "Uses the list experiment as an indirect question to elicit sensitive attitudes."
+  },
+  {
+   "source": "blairimai2012",
+   "target": "kuklinski1997",
+   "type": "builds_on",
+   "why": "Develops multivariate estimators and tests for list experiments."
+  },
+  {
+   "source": "lyall2013",
+   "target": "blairimai2012",
+   "type": "extends_to_new_case",
+   "why": "Combines list and endorsement experiments to measure wartime support in Afghanistan."
+  },
+  {
+   "source": "rosenfeld2016",
+   "target": "blairimai2012",
+   "type": "mechanism_tested_by",
+   "why": "Validates list experiments and randomized response against real referendum results."
+  },
+  {
+   "source": "rosenfeld2016",
+   "target": "warner1965",
+   "type": "mechanism_tested_by",
+   "why": "Finds randomized response performs well against a known benchmark."
+  },
+  {
+   "source": "blaircoppockmoor2020",
+   "target": "kuklinski1997",
+   "type": "qualifies",
+   "why": "Meta-analysis finds sensitivity bias is usually smaller than assumed."
+  },
+  {
+   "source": "hhy2014",
+   "target": "rubin1974",
+   "type": "builds_on",
+   "why": "Defines the AMCE in potential-outcomes terms for randomized conjoint designs."
+  },
+  {
+   "source": "hainmuellerhopkins2015",
+   "target": "hhy2014",
+   "type": "extends_to_new_case",
+   "why": "Applies conjoint analysis to immigrant admission preferences."
+  },
+  {
+   "source": "leeper2020",
+   "target": "hhy2014",
+   "type": "qualifies",
+   "why": "AMCE differences do not measure subgroup preference differences."
+  },
+  {
+   "source": "delacuesta2021",
+   "target": "hhy2014",
+   "type": "qualifies",
+   "why": "The AMCE depends on the chosen profile distribution."
+  },
+  {
+   "source": "schwarzcoppock2022",
+   "target": "hhy2014",
+   "type": "extends_to_new_case",
+   "why": "Meta-analyzes candidate-choice conjoints on gender."
+  },
+  {
+   "source": "abramson2022",
+   "target": "hhy2014",
+   "type": "challenges",
+   "why": "AMCEs do not reveal majority preferences over attributes."
+  },
+  {
+   "source": "zaller1992",
+   "target": "zallerfeldman1992",
+   "type": "builds_on",
+   "why": "Generalizes the survey-response model into the RAS model of opinion."
+  },
+  {
+   "source": "groveslyberg2010",
+   "target": "groves2006",
+   "type": "synthesizes",
+   "why": "Integrates nonresponse and measurement error into the total survey error paradigm."
+  },
+  {
+   "source": "ansolabeherehersh2012",
+   "target": "groves2006",
+   "type": "builds_on",
+   "why": "Validates turnout against voter files to separate misreporting from nonresponse bias."
+  },
+  {
+   "source": "cliffordjerit2014",
+   "target": "berinsky2012",
+   "type": "builds_on",
+   "why": "Compares data quality in lab and online samples."
+  },
+  {
+   "source": "ansolabehereschaffner2014",
+   "target": "groveslyberg2010",
+   "type": "extends_to_new_case",
+   "why": "Tests mode effects across online, phone and mail surveys."
+  },
+  {
+   "source": "macinnis2018",
+   "target": "ansolabehereschaffner2014",
+   "type": "challenges",
+   "why": "Finds nonprobability online samples less accurate than probability samples."
+  },
+  {
+   "source": "kennedy2018",
+   "target": "groveslyberg2010",
+   "type": "extends_to_new_case",
+   "why": "Diagnoses 2016 polling error through total-survey-error components."
+  },
+  {
+   "source": "bullocklenz2019",
+   "target": "zallerfeldman1992",
+   "type": "qualifies",
+   "why": "Partisan gaps in surveys partly reflect expressive responding, not sincere belief."
+  },
+  {
+   "source": "kennedy2020",
+   "target": "berinsky2012",
+   "type": "qualifies",
+   "why": "MTurk data quality later collapsed because of fraudulent respondents."
+  },
+  {
+   "source": "wang2015",
+   "target": "park2004",
+   "type": "extends_to_new_case",
+   "why": "Applies MRP to an unrepresentative opt-in Xbox panel."
+  },
+  {
+   "source": "wang2015",
+   "target": "groveslyberg2010",
+   "type": "qualifies",
+   "why": "Model-based adjustment can rescue nonprobability samples that design-based survey theory treats as unusable."
+  },
+  {
+   "source": "rubin1987",
+   "target": "rubin1976",
+   "type": "builds_on",
+   "why": "Develops multiple imputation for missing data under ignorability."
+  },
+  {
+   "source": "king2001",
+   "target": "rubin1987",
+   "type": "builds_on",
+   "why": "Makes multiple imputation practical for political scientists with EMis."
+  },
+  {
+   "source": "honakerking2010",
+   "target": "king2001",
+   "type": "builds_on",
+   "why": "Extends multiple imputation to TSCS data with time and space smoothing."
+  },
+  {
+   "source": "blackwellhonakerking2017",
+   "target": "honakerking2010",
+   "type": "builds_on",
+   "why": "Treats measurement error as partially missing data in the same imputation framework."
+  },
+  {
+   "source": "lall2016",
+   "target": "king2001",
+   "type": "mechanism_tested_by",
+   "why": "Replications show listwise deletion changes published results, as King et al. predicted."
+  },
+  {
+   "source": "pepinsky2018",
+   "target": "king2001",
+   "type": "qualifies",
+   "why": "Listwise deletion can beat multiple imputation under some missingness patterns."
+  },
+  {
+   "source": "lallrobinson2021",
+   "target": "honakerking2010",
+   "type": "builds_on",
+   "why": "Replaces Amelia-style EM imputation with deep-learning autoencoders for scale."
+  },
+  {
+   "source": "poolerosenthal1985",
+   "target": "aldrichmckelvey1977",
+   "type": "builds_on",
+   "why": "Develops probabilistic spatial scaling, here for roll calls rather than survey placements."
+  },
+  {
+   "source": "poolerosenthal1997",
+   "target": "poolerosenthal1985",
+   "type": "builds_on",
+   "why": "Applies NOMINATE to the whole history of congressional roll calls."
+  },
+  {
+   "source": "martinquinn2002",
+   "target": "poolerosenthal1985",
+   "type": "builds_on",
+   "why": "Estimates dynamic ideal points for justices with Bayesian MCMC."
+  },
+  {
+   "source": "clinton2004",
+   "target": "poolerosenthal1985",
+   "type": "challenges",
+   "why": "Recasts roll-call scaling as Bayesian IRT, with uncertainty and easy extensions."
+  },
+  {
+   "source": "clinton2004",
+   "target": "martinquinn2002",
+   "type": "builds_on",
+   "why": "Shares the Bayesian IRT approach to ideal points."
+  },
+  {
+   "source": "bailey2007",
+   "target": "clinton2004",
+   "type": "builds_on",
+   "why": "Uses bridging observations to put Court, Congress and president on one scale."
+  },
+  {
+   "source": "shormccarty2011",
+   "target": "bailey2007",
+   "type": "builds_on",
+   "why": "Bridges state legislators to Congress using a common survey."
+  },
+  {
+   "source": "tausanovitchwarshaw2013",
+   "target": "clinton2004",
+   "type": "extends_to_new_case",
+   "why": "Scales citizens from survey items with IRT to measure constituent preferences."
+  },
+  {
+   "source": "bonica2014",
+   "target": "poolerosenthal1997",
+   "type": "extends_to_new_case",
+   "why": "Scales candidates and donors from campaign contributions."
+  },
+  {
+   "source": "laver2014",
+   "target": "poolerosenthal1997",
+   "type": "synthesizes",
+   "why": "Compares roll-call, expert, manifesto and text approaches to positions."
+  },
+  {
+   "source": "laver2014",
+   "target": "laver2003",
+   "type": "synthesizes",
+   "why": "Places text scaling within the wider measurement of policy positions."
+  },
+  {
+   "source": "bondmessing2015",
+   "target": "bonica2014",
+   "type": "extends_to_new_case",
+   "why": "Scales users from Facebook page likes as revealed preferences."
+  },
+  {
+   "source": "barbera2015",
+   "target": "clinton2004",
+   "type": "extends_to_new_case",
+   "why": "Estimates Bayesian ideal points from Twitter follow networks."
+  },
+  {
+   "source": "bailey2017",
+   "target": "bailey2007",
+   "type": "extends_to_new_case",
+   "why": "Applies bridged dynamic ideal points to UN General Assembly votes."
+  },
+  {
+   "source": "imai2016",
+   "target": "clinton2004",
+   "type": "builds_on",
+   "why": "Speeds up Bayesian ideal-point estimation with EM for massive data."
+  },
+  {
+   "source": "collierlevitsky1997",
+   "target": "sartori1970",
+   "type": "builds_on",
+   "why": "Uses diminished subtypes to avoid conceptual stretching."
+  },
+  {
+   "source": "adcockcollier2001",
+   "target": "sartori1970",
+   "type": "builds_on",
+   "why": "Links concept formation to measurement validity."
+  },
+  {
+   "source": "munckverkuilen2002",
+   "target": "adcockcollier2001",
+   "type": "extends_to_new_case",
+   "why": "Evaluates democracy indices on conceptualization, measurement and aggregation."
+  },
+  {
+   "source": "treierjackman2008",
+   "target": "munckverkuilen2002",
+   "type": "builds_on",
+   "why": "Treats democracy as a latent variable with explicit measurement uncertainty."
+  },
+  {
+   "source": "treierjackman2008",
+   "target": "clinton2004",
+   "type": "extends_to_new_case",
+   "why": "Applies Bayesian IRT from roll calls to regime indicators."
+  },
+  {
+   "source": "pemstein2010",
+   "target": "treierjackman2008",
+   "type": "builds_on",
+   "why": "Combines many democracy indices in one latent-variable model."
+  },
+  {
+   "source": "coppedge2011",
+   "target": "munckverkuilen2002",
+   "type": "builds_on",
+   "why": "Proposes disaggregated measurement of multiple conceptions of democracy."
+  },
+  {
+   "source": "fariss2014",
+   "target": "treierjackman2008",
+   "type": "extends_to_new_case",
+   "why": "Uses a dynamic latent-variable model to correct changing standards in human-rights data."
+  },
+  {
+   "source": "caugheywarshaw2016",
+   "target": "caugheywarshaw2015",
+   "type": "builds_on",
+   "why": "Applies dynamic latent-variable modeling to state policy liberalism."
+  },
+  {
+   "source": "bauer2016",
+   "target": "adcockcollier2001",
+   "type": "mechanism_tested_by",
+   "why": "Tests the validity of the left-right self-placement measure."
+  },
+  {
+   "source": "druckmanlevendusky2019",
+   "target": "adcockcollier2001",
+   "type": "extends_to_new_case",
+   "why": "Evaluates the validity of competing measures of affective polarization."
+  },
+  {
+   "source": "laver2003",
+   "target": "budge2001",
+   "type": "challenges",
+   "why": "Replaces hand coding of manifestos with computerized word scoring."
+  },
+  {
+   "source": "benoitlaver2009",
+   "target": "budge2001",
+   "type": "qualifies",
+   "why": "Manifesto codes contain estimable stochastic error."
+  },
+  {
+   "source": "slapinproksch2008",
+   "target": "laver2003",
+   "type": "builds_on",
+   "why": "Scales texts without reference texts using a Poisson word model."
+  },
+  {
+   "source": "monroe2008",
+   "target": "laver2003",
+   "type": "builds_on",
+   "why": "Selects partisan words with regularized log-odds rather than reference scores."
+  },
+  {
+   "source": "quinn2010",
+   "target": "blei2003",
+   "type": "builds_on",
+   "why": "Adapts topic models to measure Senate attention over time."
+  },
+  {
+   "source": "hopkinsking2010",
+   "target": "budge2001",
+   "type": "challenges",
+   "why": "Automated estimation of category proportions replaces costly hand coding of documents."
+  },
+  {
+   "source": "grimmer2010",
+   "target": "blei2003",
+   "type": "builds_on",
+   "why": "Builds a hierarchical topic model of senators’ expressed agendas."
+  },
+  {
+   "source": "grimmerstewart2013",
+   "target": "laver2003",
+   "type": "synthesizes",
+   "why": "Reviews scaling, classification and topic methods for political texts."
+  },
+  {
+   "source": "grimmerstewart2013",
+   "target": "quinn2010",
+   "type": "synthesizes",
+   "why": "Includes topic models in its map of text-as-data methods."
+  },
+  {
+   "source": "grimmerstewart2013",
+   "target": "hopkinsking2010",
+   "type": "synthesizes",
+   "why": "Integrates proportion estimation into a general guide to text methods."
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "hopkinsking2010",
+   "type": "extends_to_new_case",
+   "why": "Uses automated text analysis to study Chinese censorship at scale."
+  },
+  {
+   "source": "robertsstm2014",
+   "target": "blei2003",
+   "type": "builds_on",
+   "why": "Adds covariates to topic models for open-ended survey responses."
+  },
+  {
+   "source": "roberts2016",
+   "target": "robertsstm2014",
+   "type": "builds_on",
+   "why": "Formalizes the structural topic model and its estimation."
+  },
+  {
+   "source": "lucas2015",
+   "target": "robertsstm2014",
+   "type": "extends_to_new_case",
+   "why": "Uses translation and STM for multilingual comparative texts."
+  },
+  {
+   "source": "benoit2016",
+   "target": "budge2001",
+   "type": "challenges",
+   "why": "Crowdsourced coding can replace expert manifesto coders."
+  },
+  {
+   "source": "wilkersoncasas2017",
+   "target": "grimmerstewart2013",
+   "type": "synthesizes",
+   "why": "Reviews the expansion of computerized text analysis."
+  },
+  {
+   "source": "dennyspirling2018",
+   "target": "grimmerstewart2013",
+   "type": "qualifies",
+   "why": "Preprocessing choices can alter unsupervised results."
+  },
+  {
+   "source": "rheaultcochrane2019",
+   "target": "mikolov2013",
+   "type": "extends_to_new_case",
+   "why": "Uses word embeddings to scale parliamentary parties."
+  },
+  {
+   "source": "rheaultcochrane2019",
+   "target": "slapinproksch2008",
+   "type": "challenges",
+   "why": "Embeddings offer an alternative to count-based text scaling."
+  },
+  {
+   "source": "gentzkow2019",
+   "target": "grimmerstewart2013",
+   "type": "synthesizes",
+   "why": "Reviews text as data for economics alongside political science."
+  },
+  {
+   "source": "barbera2019",
+   "target": "robertsstm2014",
+   "type": "extends_to_new_case",
+   "why": "Uses topic models of tweets to measure issue attention and agenda setting."
+  },
+  {
+   "source": "rodriguezspirling2022",
+   "target": "mikolov2013",
+   "type": "qualifies",
+   "why": "Tests when pretrained embeddings suffice for social-science tasks."
+  },
+  {
+   "source": "egami2022",
+   "target": "robertsstm2014",
+   "type": "builds_on",
+   "why": "Shows discovering text measures and estimating effects on the same data biases inference."
+  },
+  {
+   "source": "grimmer2022",
+   "target": "grimmerstewart2013",
+   "type": "builds_on",
+   "why": "Develops the agnostic framework into a full textbook."
+  },
+  {
+   "source": "eshima2023",
+   "target": "robertsstm2014",
+   "type": "builds_on",
+   "why": "Adds keyword seeding to improve topic measurement."
+  },
+  {
+   "source": "devlin2019",
+   "target": "mikolov2013",
+   "type": "builds_on",
+   "why": "Moves from static to contextual, pretrained language representations."
+  },
+  {
+   "source": "laurer2023",
+   "target": "devlin2019",
+   "type": "extends_to_new_case",
+   "why": "Adapts transformer NLI models for low-resource political text classification."
+  },
+  {
+   "source": "wardgreenhill2010",
+   "target": "breiman2001",
+   "type": "builds_on",
+   "why": "Evaluates civil-war models by out-of-sample prediction."
+  },
+  {
+   "source": "hill2011",
+   "target": "breiman2001",
+   "type": "builds_on",
+   "why": "Uses tree ensembles to model response surfaces for causal effects."
+  },
+  {
+   "source": "greenkern2012",
+   "target": "hill2011",
+   "type": "extends_to_new_case",
+   "why": "Applies BART to heterogeneous effects in survey experiments."
+  },
+  {
+   "source": "muchlinski2016",
+   "target": "wardgreenhill2010",
+   "type": "builds_on",
+   "why": "Shows random forests improve prediction of rare civil-war onsets."
+  },
+  {
+   "source": "grimmermessingwestwood2017",
+   "target": "greenkern2012",
+   "type": "builds_on",
+   "why": "Combines many learners for heterogeneous effects."
+  },
+  {
+   "source": "mullainathanspiess2017",
+   "target": "breiman2001",
+   "type": "synthesizes",
+   "why": "Explains the prediction-versus-estimation divide for econometricians."
+  },
+  {
+   "source": "kleinberg2018",
+   "target": "mullainathanspiess2017",
+   "type": "extends_to_new_case",
+   "why": "Uses machine prediction to evaluate judges’ bail decisions."
+  },
+  {
+   "source": "wagerathey2018",
+   "target": "hill2011",
+   "type": "builds_on",
+   "why": "Develops causal forests with valid inference for heterogeneous effects."
+  },
+  {
+   "source": "chernozhukov2018",
+   "target": "rosenbaumrubin1983",
+   "type": "builds_on",
+   "why": "Uses ML to estimate propensity and outcome nuisance functions for causal parameters."
+  },
+  {
+   "source": "atheyimbens2019",
+   "target": "wagerathey2018",
+   "type": "synthesizes",
+   "why": "Reviews ML methods for causal inference in economics."
+  },
+  {
+   "source": "atheyimbens2019",
+   "target": "chernozhukov2018",
+   "type": "synthesizes",
+   "why": "Includes double machine learning among essential tools."
+  },
+  {
+   "source": "kunzel2019",
+   "target": "wagerathey2018",
+   "type": "builds_on",
+   "why": "Proposes metalearners as alternatives to causal forests."
+  },
+  {
+   "source": "grimmer2021",
+   "target": "grimmerstewart2013",
+   "type": "builds_on",
+   "why": "Generalizes the agnostic text-analysis approach to ML in social science."
+  },
+  {
+   "source": "grimmer2021",
+   "target": "lazer2009",
+   "type": "synthesizes",
+   "why": "Places political science ML within computational social science."
+  },
+  {
+   "source": "knox2022",
+   "target": "grimmer2021",
+   "type": "qualifies",
+   "why": "ML-learned proxies can bias causal tests without validation."
+  },
+  {
+   "source": "brown2020",
+   "target": "devlin2019",
+   "type": "builds_on",
+   "why": "Scales pretrained transformers until few-shot learning without fine-tuning emerges."
+  },
+  {
+   "source": "bender2021",
+   "target": "brown2020",
+   "type": "challenges",
+   "why": "Warns large language models encode bias and only mimic understanding."
+  },
+  {
+   "source": "gilardi2023",
+   "target": "benoit2016",
+   "type": "challenges",
+   "why": "ChatGPT annotates text more accurately and cheaply than crowd workers."
+  },
+  {
+   "source": "gilardi2023",
+   "target": "brown2020",
+   "type": "extends_to_new_case",
+   "why": "Applies zero-shot LLM prompting to annotation tasks."
+  },
+  {
+   "source": "argyle2023",
+   "target": "brown2020",
+   "type": "extends_to_new_case",
+   "why": "Conditions GPT-3 on demographics to simulate survey subpopulations."
+  },
+  {
+   "source": "grossmann2023",
+   "target": "argyle2023",
+   "type": "synthesizes",
+   "why": "Assesses LLMs as simulated participants and research tools."
+  },
+  {
+   "source": "dillion2023",
+   "target": "argyle2023",
+   "type": "qualifies",
+   "why": "LLM judgments track humans but cannot simply replace participants."
+  },
+  {
+   "source": "spirling2023",
+   "target": "gilardi2023",
+   "type": "qualifies",
+   "why": "Closed models used for annotation threaten reproducibility."
+  },
+  {
+   "source": "bisbee2024",
+   "target": "argyle2023",
+   "type": "challenges",
+   "why": "Synthetic LLM respondents understate variance and are unstable across prompts and versions."
+  },
+  {
+   "source": "ziems2024",
+   "target": "gilardi2023",
+   "type": "builds_on",
+   "why": "Benchmarks zero-shot LLMs across many computational social-science tasks."
+  },
+  {
+   "source": "tornberg2024",
+   "target": "gilardi2023",
+   "type": "builds_on",
+   "why": "Finds GPT-4 beats expert coders on political tweets."
+  },
+  {
+   "source": "rathje2024",
+   "target": "gilardi2023",
+   "type": "extends_to_new_case",
+   "why": "Extends LLM annotation to multilingual psychological constructs."
+  },
+  {
+   "source": "egami2025",
+   "target": "gilardi2023",
+   "type": "qualifies",
+   "why": "LLM labels need bias correction with a gold-standard subsample before downstream inference."
+  },
+  {
+   "source": "egami2025",
+   "target": "knox2022",
+   "type": "builds_on",
+   "why": "Treats LLM annotations as imperfect proxies for validated measures."
+  },
+  {
+   "source": "halterman2025",
+   "target": "ziems2024",
+   "type": "qualifies",
+   "why": "LLMs often fail to follow detailed codebook definitions."
+  },
+  {
+   "source": "lemens2025",
+   "target": "slapinproksch2008",
+   "type": "extends_to_new_case",
+   "why": "Uses LLM queries to position texts on scales usually estimated by text scaling."
+  },
+  {
+   "source": "ornstein2025",
+   "target": "grimmerstewart2013",
+   "type": "extends_to_new_case",
+   "why": "Shows LLMs perform text-analysis tasks with little training data."
+  },
+  {
+   "source": "than2025",
+   "target": "gilardi2023",
+   "type": "extends_to_new_case",
+   "why": "Applies generative LLM coding to qualitative interview data."
+  },
+  {
+   "source": "benoit2026",
+   "target": "laver2003",
+   "type": "builds_on",
+   "why": "Uses LLM summaries to place political texts on policy dimensions."
+  },
+  {
+   "source": "benoit2026",
+   "target": "gilardi2023",
+   "type": "builds_on",
+   "why": "Builds on LLM annotation to scale political texts."
+  },
+  {
+   "source": "park2004",
+   "target": "steenbergenjones2002",
+   "type": "builds_on",
+   "why": "Uses multilevel models with poststratification to estimate state opinion."
+  },
+  {
+   "source": "gelmanhill2007",
+   "target": "park2004",
+   "type": "synthesizes",
+   "why": "Teaches multilevel modeling and MRP as general tools."
+  },
+  {
+   "source": "laxphillips2009ajps",
+   "target": "park2004",
+   "type": "mechanism_tested_by",
+   "why": "Validates MRP against disaggregation for state opinion."
+  },
+  {
+   "source": "stegmueller2013",
+   "target": "steenbergenjones2002",
+   "type": "qualifies",
+   "why": "Multilevel models with few countries give biased frequentist estimates."
+  },
+  {
+   "source": "ghitzagelman2013",
+   "target": "park2004",
+   "type": "builds_on",
+   "why": "Adds deep interactions to MRP for small subgroups."
+  },
+  {
+   "source": "caugheywarshaw2015",
+   "target": "park2004",
+   "type": "builds_on",
+   "why": "Combines MRP with dynamic group-level IRT."
+  },
+  {
+   "source": "tausanovitchwarshaw2013",
+   "target": "park2004",
+   "type": "builds_on",
+   "why": "Uses MRP to estimate district and city preferences."
+  },
+  {
+   "source": "belljones2014",
+   "target": "steenbergenjones2002",
+   "type": "builds_on",
+   "why": "Recommends within-between random-effects models for TSCS and panel data."
+  },
+  {
+   "source": "fairfieldcharman2017",
+   "target": "humphreysjacobs2015",
+   "type": "builds_on",
+   "why": "Develops explicit Bayesian reasoning for process tracing."
+  },
+  {
+   "source": "beckkatztucker1998",
+   "target": "beckkatz1995",
+   "type": "builds_on",
+   "why": "Extends TSCS guidance to binary dependent variables as duration data."
+  },
+  {
+   "source": "greenkimyoon2001",
+   "target": "beckkatz1995",
+   "type": "challenges",
+   "why": "Pooled dyadic models without fixed effects mislead on trade and war."
+  },
+  {
+   "source": "kingzeng2001",
+   "target": "beckkatztucker1998",
+   "type": "qualifies",
+   "why": "Rare binary events in TSCS data also need small-sample bias corrections."
+  },
+  {
+   "source": "keelekelly2006",
+   "target": "nickell1981",
+   "type": "qualifies",
+   "why": "Lagged dependent variables are fine when theory implies dynamics and errors are uncorrelated."
+  },
+  {
+   "source": "deboefkeele2008",
+   "target": "keelekelly2006",
+   "type": "builds_on",
+   "why": "Recommends general ADL and error-correction models as the starting point."
+  },
+  {
+   "source": "cartersignorino2010",
+   "target": "beckkatztucker1998",
+   "type": "builds_on",
+   "why": "Replaces splines with a simple cubic polynomial of time."
+  },
+  {
+   "source": "dafoe2011",
+   "target": "beckkatztucker1998",
+   "type": "extends_to_new_case",
+   "why": "Shows democratic-peace results are sensitive to temporal and dyadic modeling choices."
+  },
+  {
+   "source": "dafoe2011",
+   "target": "greenkimyoon2001",
+   "type": "builds_on",
+   "why": "Revisits fixed-effects critiques of dyadic democratic-peace models."
+  },
+  {
+   "source": "beckkatz2011",
+   "target": "beckkatz1995",
+   "type": "builds_on",
+   "why": "Updates TSCS guidance to model dynamics explicitly."
+  },
+  {
+   "source": "belljones2014",
+   "target": "greenkimyoon2001",
+   "type": "challenges",
+   "why": "Fixed effects discard between-unit variation that random-effects models can keep."
+  },
+  {
+   "source": "bellemare2017",
+   "target": "keelekelly2006",
+   "type": "qualifies",
+   "why": "Lagging regressors does not solve endogeneity, a separate issue from dynamics."
+  },
+  {
+   "source": "lijphart1971",
+   "target": "przeworskiteune1970",
+   "type": "builds_on",
+   "why": "Treats the comparative method as a small-N version of statistical control."
+  },
+  {
+   "source": "ragin1987",
+   "target": "lijphart1971",
+   "type": "challenges",
+   "why": "Boolean configurational comparison replaces variable-based small-N statistics."
+  },
+  {
+   "source": "geddes1990",
+   "target": "lijphart1971",
+   "type": "qualifies",
+   "why": "Selecting cases on the outcome undermines comparative inference."
+  },
+  {
+   "source": "fearon1991",
+   "target": "lijphart1971",
+   "type": "builds_on",
+   "why": "Small-N comparisons rely on counterfactuals that should be stated."
+  },
+  {
+   "source": "king1994",
+   "target": "holland1986",
+   "type": "builds_on",
+   "why": "Applies the logic of causal inference to qualitative research."
+  },
+  {
+   "source": "king1994",
+   "target": "geddes1990",
+   "type": "builds_on",
+   "why": "Treats selection on the dependent variable as a central threat to qualitative inference."
+  },
+  {
+   "source": "vanevera1997",
+   "target": "king1994",
+   "type": "qualifies",
+   "why": "Offers case-study tests that do not reduce to KKV-style variable counting."
+  },
+  {
+   "source": "bradycollier2004",
+   "target": "king1994",
+   "type": "challenges",
+   "why": "Causal-process observations give qualitative work leverage KKV missed."
+  },
+  {
+   "source": "gerring2004",
+   "target": "king1994",
+   "type": "qualifies",
+   "why": "Defines the case study and its comparative advantages within a unified logic."
+  },
+  {
+   "source": "georgebennett2005",
+   "target": "vanevera1997",
+   "type": "builds_on",
+   "why": "Develops process tracing and typological theory for case studies."
+  },
+  {
+   "source": "georgebennett2005",
+   "target": "king1994",
+   "type": "challenges",
+   "why": "Case studies have distinct strengths that a quantitative template undervalues."
+  },
+  {
+   "source": "lieberman2005",
+   "target": "king1994",
+   "type": "builds_on",
+   "why": "Combines regression and case studies in one nested design."
+  },
+  {
+   "source": "mahoneygoertz2006",
+   "target": "king1994",
+   "type": "challenges",
+   "why": "Qualitative research is a separate culture, not a weaker version of quantitative work."
+  },
+  {
+   "source": "bennettelman2006arps",
+   "target": "georgebennett2005",
+   "type": "synthesizes",
+   "why": "Reviews the new generation of case-study methods."
+  },
+  {
+   "source": "ragin2006",
+   "target": "ragin1987",
+   "type": "builds_on",
+   "why": "Adds consistency and coverage measures to set-theoretic analysis."
+  },
+  {
+   "source": "ragin2008",
+   "target": "ragin2006",
+   "type": "builds_on",
+   "why": "Develops fuzzy-set QCA and its evaluation."
+  },
+  {
+   "source": "seawrightgerring2008",
+   "target": "gerring2004",
+   "type": "builds_on",
+   "why": "Lays out techniques for choosing cases."
+  },
+  {
+   "source": "seawrightgerring2008",
+   "target": "lieberman2005",
+   "type": "builds_on",
+   "why": "Uses regression residuals to select typical and deviant cases."
+  },
+  {
+   "source": "mahoney2010",
+   "target": "bradycollier2004",
+   "type": "synthesizes",
+   "why": "Reviews the post-KKV qualitative methodology."
+  },
+  {
+   "source": "falleti2009",
+   "target": "georgebennett2005",
+   "type": "qualifies",
+   "why": "Mechanisms work differently across contexts."
+  },
+  {
+   "source": "gerring2010",
+   "target": "georgebennett2005",
+   "type": "challenges",
+   "why": "Insisting on mechanisms for causal claims is often too demanding."
+  },
+  {
+   "source": "collier2011",
+   "target": "vanevera1997",
+   "type": "builds_on",
+   "why": "Codifies the four process-tracing tests."
+  },
+  {
+   "source": "mahoney2012",
+   "target": "collier2011",
+   "type": "builds_on",
+   "why": "Interprets process-tracing tests as set-theoretic necessity and sufficiency."
+  },
+  {
+   "source": "goertzmahoney2012",
+   "target": "mahoneygoertz2006",
+   "type": "builds_on",
+   "why": "Expands the two-cultures argument into a book."
+  },
+  {
+   "source": "humphreysjacobs2015",
+   "target": "lieberman2005",
+   "type": "builds_on",
+   "why": "Formalizes mixed-method inference with a Bayesian model."
+  },
+  {
+   "source": "bennettcheckel2015",
+   "target": "georgebennett2005",
+   "type": "builds_on",
+   "why": "Sets out best practices for process tracing."
+  },
+  {
+   "source": "gerringcojocaru2016",
+   "target": "seawrightgerring2008",
+   "type": "builds_on",
+   "why": "Ties case-selection strategies to research goals."
+  },
+  {
+   "source": "seawright2016",
+   "target": "lieberman2005",
+   "type": "qualifies",
+   "why": "Case studies are best used to test the assumptions of quantitative designs."
+  },
+  {
+   "source": "fairfieldcharman2017",
+   "target": "bennettcheckel2015",
+   "type": "builds_on",
+   "why": "Makes the Bayesian logic of process tracing explicit."
+  },
+  {
+   "source": "humphreysjacobs2023",
+   "target": "humphreysjacobs2015",
+   "type": "builds_on",
+   "why": "Generalizes Bayesian mixed-method inference into causal models."
+  },
+  {
+   "source": "humphreysjacobs2023",
+   "target": "pearl2009",
+   "type": "builds_on",
+   "why": "Uses causal graphs to integrate qualitative and quantitative evidence."
+  },
+  {
+   "source": "morton1999",
+   "target": "greenshapiro1994",
+   "type": "challenges",
+   "why": "Shows how formal models can be tested empirically."
+  },
+  {
+   "source": "signorino1999",
+   "target": "greenshapiro1994",
+   "type": "challenges",
+   "why": "Embeds game-theoretic structure in statistical models of conflict."
+  },
+  {
+   "source": "achen2002",
+   "target": "signorino1999",
+   "type": "builds_on",
+   "why": "Calls for statistical models with formal microfoundations."
+  },
+  {
+   "source": "achen2005",
+   "target": "achen2002",
+   "type": "builds_on",
+   "why": "Applies the microfoundations argument against kitchen-sink regressions."
+  },
+  {
+   "source": "granato2004",
+   "target": "morton1999",
+   "type": "builds_on",
+   "why": "Launches the EITM program to unite formal and empirical work."
+  },
+  {
+   "source": "mortonwilliams2010",
+   "target": "morton1999",
+   "type": "builds_on",
+   "why": "Uses experiments to test formal theories causally."
+  },
+  {
+   "source": "clarkeprimo2012",
+   "target": "granato2004",
+   "type": "challenges",
+   "why": "Models are representations, not hypotheses to be tested."
+  },
+  {
+   "source": "bdmtyson2020",
+   "target": "keele2015",
+   "type": "qualifies",
+   "why": "Identified estimates may not match the quantities theories predict."
+  },
+  {
+   "source": "ashworth2021",
+   "target": "bdmtyson2020",
+   "type": "synthesizes",
+   "why": "Integrates formal theory with credible design-based estimation."
+  },
+  {
+   "source": "ashworth2021",
+   "target": "angristpischke2010",
+   "type": "qualifies",
+   "why": "Credible designs need theory to interpret what they estimate."
+  },
+  {
+   "source": "przeworski2022",
+   "target": "gehlbach2016",
+   "type": "challenges",
+   "why": "Formal models of authoritarianism often obscure how dictatorships work."
+  },
+  {
+   "source": "king1995",
+   "target": "king1994",
+   "type": "builds_on",
+   "why": "Calls for replication datasets to support the inferential standards of KKV."
+  },
+  {
+   "source": "gerbermalhotra2008qjps",
+   "target": "ioannidis2005",
+   "type": "mechanism_tested_by",
+   "why": "Finds publication bias in political science journals as predicted."
+  },
+  {
+   "source": "simmons2011",
+   "target": "ioannidis2005",
+   "type": "builds_on",
+   "why": "Shows how researcher flexibility produces false positives."
+  },
+  {
+   "source": "humphreys2013",
+   "target": "simmons2011",
+   "type": "builds_on",
+   "why": "Proposes registration to limit fishing."
+  },
+  {
+   "source": "franco2014",
+   "target": "gerbermalhotra2008qjps",
+   "type": "builds_on",
+   "why": "Traces publication bias to unwritten null results."
+  },
+  {
+   "source": "gelmanloken2014",
+   "target": "simmons2011",
+   "type": "qualifies",
+   "why": "Forking paths produce false findings even without deliberate p-hacking."
+  },
+  {
+   "source": "lupiaelman2014",
+   "target": "king1995",
+   "type": "builds_on",
+   "why": "Codifies data access and research transparency norms."
+  },
+  {
+   "source": "moravcsik2014",
+   "target": "lupiaelman2014",
+   "type": "extends_to_new_case",
+   "why": "Brings transparency standards to qualitative research via active citation."
+  },
+  {
+   "source": "osc2015",
+   "target": "ioannidis2005",
+   "type": "mechanism_tested_by",
+   "why": "Replicates 100 psychology studies, finding low reproducibility."
+  },
+  {
+   "source": "dunning2016",
+   "target": "humphreys2013",
+   "type": "builds_on",
+   "why": "Argues registration must be paired with multi-site replication."
+  },
+  {
+   "source": "elman2018",
+   "target": "lupiaelman2014",
+   "type": "synthesizes",
+   "why": "Reviews transparency debates across traditions."
+  },
+  {
+   "source": "monroe2018",
+   "target": "lupiaelman2014",
+   "type": "challenges",
+   "why": "DA-RT threatens qualitative and interpretive research."
+  },
+  {
+   "source": "christensenmiguel2018",
+   "target": "osc2015",
+   "type": "synthesizes",
+   "why": "Reviews the replication crisis and remedies for economics."
+  },
+  {
+   "source": "nosek2018",
+   "target": "simmons2011",
+   "type": "builds_on",
+   "why": "Advocates preregistration to separate prediction from postdiction."
+  },
+  {
+   "source": "blair2019",
+   "target": "humphreys2013",
+   "type": "builds_on",
+   "why": "Declares designs in full to support preregistration and diagnosis."
+  },
+  {
+   "source": "lenzsahn2020",
+   "target": "simmons2011",
+   "type": "extends_to_new_case",
+   "why": "Finds undisclosed control choices create significance in political science."
+  },
+  {
+   "source": "jacobs2021",
+   "target": "monroe2018",
+   "type": "synthesizes",
+   "why": "Reports community deliberations on qualitative transparency after DA-RT."
+  },
+  {
+   "source": "jacobs2021",
+   "target": "moravcsik2014",
+   "type": "qualifies",
+   "why": "Transparency practices must fit diverse qualitative traditions."
+  },
+  {
+   "source": "hoffward2004",
+   "target": "hoff2002",
+   "type": "extends_to_new_case",
+   "why": "Applies latent-space network models to IR dyads."
+  },
+  {
+   "source": "beck2006isq",
+   "target": "beckkatz1995",
+   "type": "builds_on",
+   "why": "Adds spatial interdependence to TSCS political-economy models."
+  },
+  {
+   "source": "gleditschward2006",
+   "target": "beck2006isq",
+   "type": "extends_to_new_case",
+   "why": "Models spatial diffusion of democratization."
+  },
+  {
+   "source": "franzesehays2007",
+   "target": "beck2006isq",
+   "type": "builds_on",
+   "why": "Develops spatial-lag estimation for TSCS data."
+  },
+  {
+   "source": "hbnetwork2009",
+   "target": "hoffward2004",
+   "type": "synthesizes",
+   "why": "Introduces network analysis to IR."
+  },
+  {
+   "source": "cranmerdesmarais2011",
+   "target": "hoffward2004",
+   "type": "builds_on",
+   "why": "Uses ERGMs to model network dependence in political data."
+  },
+  {
+   "source": "shalizithomas2011",
+   "target": "christakisfowler2007",
+   "type": "challenges",
+   "why": "Homophily and contagion cannot be separated in observational network data."
+  },
+  {
+   "source": "wardstovelsacks2011",
+   "target": "hbnetwork2009",
+   "type": "synthesizes",
+   "why": "Reviews network analysis across political science."
+  },
+  {
+   "source": "lupuvoeten2012",
+   "target": "fowler2006",
+   "type": "extends_to_new_case",
+   "why": "Applies citation-network analysis to the European Court of Human Rights."
+  },
+  {
+   "source": "bond2012",
+   "target": "christakisfowler2007",
+   "type": "builds_on",
+   "why": "Tests social contagion experimentally rather than observationally."
+  },
+  {
+   "source": "bennettelman2006arps",
+   "target": "pierson2000",
+   "type": "synthesizes",
+   "why": "Treats path dependence as a complex causal form suited to case-study methods."
+  },
+  {
+   "source": "shalizithomas2011",
+   "target": "manski1993",
+   "type": "builds_on",
+   "why": "Extends the reflection problem to show contagion and homophily are confounded in networks."
+  },
+  {
+   "source": "knox2020",
+   "target": "heckman1979",
+   "type": "extends_to_new_case",
+   "why": "Shows police administrative records are a selected sample that biases discrimination estimates."
+  },
+  {
+   "source": "bullocklenz2019",
+   "target": "luskinbullock2011",
+   "type": "synthesizes",
+   "why": "Reviews survey artifacts, including how knowledge items and don't-know answers are interpreted."
+  },
+  {
+   "source": "kreuter2008",
+   "target": "warner1965",
+   "type": "qualifies",
+   "why": "Self-administered modes reduce social desirability bias without indirect questioning techniques."
+  },
+  {
+   "source": "cliffordjerit2014",
+   "target": "krosnick1991",
+   "type": "mechanism_tested_by",
+   "why": "Compares inattention and satisficing across lab and online samples."
+  },
+  {
+   "source": "caugheysekhon2011",
+   "target": "mccrary2008",
+   "type": "builds_on",
+   "why": "Applies sorting and covariate-balance diagnostics to close House elections."
+  },
+  {
+   "source": "kingzeng2006",
+   "target": "fearon1991",
+   "type": "builds_on",
+   "why": "Formalizes the risks of counterfactual claims that lie far from the observed data."
+  },
+  {
+   "source": "grimmer2010",
+   "target": "quinn2010",
+   "type": "builds_on",
+   "why": "Models attention with a hierarchical topic structure, here at the level of the author."
+  },
+  {
+   "source": "pepinsky2018",
+   "target": "lall2016",
+   "type": "qualifies",
+   "why": "Multiple imputation is not always better than listwise deletion, contrary to replication-based advocacy."
+  },
+  {
+   "source": "coppock2018",
+   "target": "krupnikovlevine2014",
+   "type": "challenges",
+   "why": "Finds online convenience samples generalize better than cross-sample worries suggested."
+  },
+  {
+   "source": "ornstein2025",
+   "target": "gilardi2023",
+   "type": "builds_on",
+   "why": "Extends LLM annotation into a general workflow for political texts."
+  },
+  {
+   "source": "mahoney2012",
+   "target": "vanevera1997",
+   "type": "builds_on",
+   "why": "Formalizes Van Evera's test types in set-theoretic terms."
+  },
+  {
+   "source": "goertzmahoney2012",
+   "target": "ragin2008",
+   "type": "builds_on",
+   "why": "Grounds the qualitative culture in set-theoretic logic."
+  },
+  {
+   "source": "seawright2016",
+   "target": "seawrightgerring2008",
+   "type": "builds_on",
+   "why": "Develops case-selection rules within an integrated multi-method design."
+  },
+  {
+   "source": "christensenmiguel2018",
+   "target": "simmons2011",
+   "type": "synthesizes",
+   "why": "Reviews specification searching as a source of false positives."
+  },
+  {
+   "source": "nosek2018",
+   "target": "osc2015",
+   "type": "builds_on",
+   "why": "Responds to low reproducibility by advocating preregistration."
+  },
+  {
+   "source": "lenzsahn2020",
+   "target": "leamer1983",
+   "type": "builds_on",
+   "why": "Shows specification searching over controls drives significance, as Leamer warned."
+  },
+  {
+   "source": "hainmuellermummoloxu2019",
+   "target": "kingzeng2006",
+   "type": "builds_on",
+   "why": "Interaction estimates often extrapolate beyond common support, a form of extreme counterfactual."
+  },
+  {
+   "source": "grimmerstewart2013",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2021",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2021",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wilkersoncasas2017",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egami2025",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilardi2023",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "argyle2023",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "argyle2023",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benoit2026",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benoit2026",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "atheyimbens2019",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lazer2009",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lazer2009",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2019",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bender2021",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kleinberg2018",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2006",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2006",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mullinix2015",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cliffordjerit2014",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kertzerrenshon2022",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullocklenz2019",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luskinbullock2011",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauer2016",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanlevendusky2019",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abadie2015",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahoney2010",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treierjackman2008",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treierjackman2008",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierson2000",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierson2000",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "poolerosenthal1997",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerbergreen2000",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerber2008",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kallabroockman2018",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laxphillips2009ajps",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhopkins2015",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tausanovitchwarshaw2013",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tausanovitchwarshaw2013",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2007",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bondmessing2015",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bonica2014",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shormccarty2011",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheywarshaw2016",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheywarshaw2016",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arceneauxnickerson2009",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckmanleeper2012",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwarzcoppock2022",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockmankalla2016",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "butlerbroockman2011",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knox2020",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zaller1992",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2016",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hegresambanis2006",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dafoe2011",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lyall2013",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hbnetwork2009",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bailey2017",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vonstein2005",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupuvoeten2012",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fariss2014",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fariss2014",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gleditschward2006",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmonshopkins2005",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "senwasow2016",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhangartner2013",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingpanroberts2013",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "banerjeeduflo2009",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2007",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmueller2012",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brambor2006",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoimaiking2007",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinsky2012",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinsky2012",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iacus2012",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hhy2014",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ragin2006",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingnielsen2019",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cartersignorino2010",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2017",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellermummoloxu2019",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leeper2020",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keelekelly2006",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2015",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2015",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imaikim2020",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahoneygoertz2006",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blairimai2012",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansolabehereschaffner2014",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaineskuklinski2007",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fowler2006",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingzeng2006",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2010",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2010",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dennyspirling2018",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lucas2015",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "monroe2008",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cranmerdesmarais2011",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imaiyamamoto2013",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imaiyamamoto2013",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keeletitiunik2015",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franzesehays2007",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franzesehays2007",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pemstein2010",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pemstein2010",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansolabeherehersh2012",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dafoe2018",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheysekhon2011",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aronow2019",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisbee2024",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisbee2024",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laurer2023",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laurer2023",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2018",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lall2016",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "humphreys2013",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "delacuesta2021",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rheaultcochrane2019",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rheaultcochrane2019",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keele2015",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "muchlinski2016",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fairfieldcharman2017",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fairfieldcharman2017",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lenzsahn2020",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lenzsahn2020",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmermessingwestwood2017",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arceneaux2006",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arceneaux2006",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lal2024",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lallrobinson2021",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lallrobinson2021",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheywarshaw2015",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caugheywarshaw2015",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halterman2025",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halterman2025",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lemens2025",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lemens2025",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bowers2013",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bowers2013",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "belljones2014",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "belljones2014",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coppock2018",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedy2020",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keele2019psrm",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keele2019psrm",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ornstein2025",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ornstein2025",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shalizithomas2011",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cinelli2022",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cinelli2022",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahoney2012",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerringcojocaru2016",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blackwellhonakerking2017",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blackwellhonakerking2017",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "than2025",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "than2025",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abadie2010",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wagerathey2018",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roberts2016",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benmichael2021",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imaikeeletingley2011",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharyablackwellsen2016",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mummolopeterson2019",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barabasjerit2010",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaircoppockmoor2020",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benoit2016",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benoit2016",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sekhontitiunik2012",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "humphreysjacobs2015",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "humphreysjacobs2015",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blackwellglynn2018",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blackwellglynn2018",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egamihartman2023",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egamihartman2023",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robertsstm2014",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robertsstm2014",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "honakerking2010",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "honakerking2010",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stegmueller2013",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slapinproksch2008",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slapinproksch2008",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liuwangxu2022",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eggers2015",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imaikim2019",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "soveygreen2011",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imaikimwang2021",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imaikimwang2021",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benoitlaver2009",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benoitlaver2009",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eggerstunon2023",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenfeld2016",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenfeld2016",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ghitzagelman2013",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abramson2022",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aronowsamii2016",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eshima2023",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quinn2010",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hopkinsking2010",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deboefkeele2008",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellemare2017",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellemare2017",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodriguezspirling2022",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "samii2016",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beckkatz2011",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bennettelman2006arps",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sekhon2009",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wardstovelsacks2011",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "findley2021",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "findley2021",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "delacuestaimai2016",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laver2014",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laver2014",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "elman2018",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knox2022",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knox2022",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2016",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2016",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gehlbach2016",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "humphreysweinstein2009",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreuter2008",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenkern2012",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenkern2012",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "macinnis2018",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "groves2006",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "groveslyberg2010",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedy2018",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krupnikovlevine2014",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "coppedge2011",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacobs2021",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacobs2021",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "monroe2018",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "monroe2018",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kochermonteiro2016",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kochermonteiro2016",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "przeworski2022",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerbermalhotra2008qjps",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "falleti2009",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerring2010",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerring2010",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beck2006isq",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beck2006isq",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wardgreenhill2010",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seawrightgerring2008",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fisher1935",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fisher1935",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thistlethwaitecampbell1960",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rubin1974",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heckman1979",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heckman1979",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leamer1983",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenbaumrubin1983",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "holland1986",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lalonde1986",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lalonde1986",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baronkenny1986",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freedman1991",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "freedman1991",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manski1993",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imbensangrist1994",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boundjaegerbaker1995",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "angristimbensrubin1996",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "angristimbensrubin1996",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hahn2001",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenbaum2002",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosenbaum2002",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abadiegardeazabal2003",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertrand2004did",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cardkrueger1994",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lee2008rd",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccrary2008",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "angristpischke2009",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "angristpischke2009",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearl2009",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "angristpischke2010",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deaton2010",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deaton2010",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imbens2010",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imbens2010",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imaikeeleyamamoto2010",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2012",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2012",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "calonico2014",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imbensrubin2015",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blair2019",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blair2019",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cinellihazlett2020",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nickell1981",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nickell1981",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dechaisemartin2020",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goodmanbacon2021",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "callawaysantanna2021",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abadie2021",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roth2023",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "warner1965",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "warner1965",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuklinski1997",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2011",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerbergreen2012",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bond2012",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bond2012",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aronowsamii2017",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aronowsamii2017",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mortonwilliams2010",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mortonwilliams2010",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sartori1970",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sartori1970",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aldrichmckelvey1977",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "poolerosenthal1985",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collierlevitsky1997",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collierlevitsky1997",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adcockcollier2001",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adcockcollier2001",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "munckverkuilen2002",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martinquinn2002",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "martinquinn2002",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clinton2004",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clinton2004",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imai2016",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "imai2016",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steenbergenjones2002",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "park2004",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gelmanhill2007",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gelmanhill2007",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2015",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2015",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2011",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2011",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beckkatz1995",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beckkatztucker1998",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenkimyoon2001",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenkimyoon2001",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingzeng2001",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingzeng2001",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achen2005",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achen2005",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rubin1976",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rubin1987",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king2001",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krosnick1991",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zallerfeldman1992",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "budge2001",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "budge2001",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "breiman2001",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laver2003",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laver2003",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blei2003",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mikolov2013",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mullainathanspiess2017",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chernozhukov2018",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chernozhukov2018",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gentzkow2019",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gentzkow2019",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kunzel2019",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devlin2019",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devlin2019",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2020",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egami2022",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "egami2022",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2022",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grimmer2022",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grossmann2023",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dillion2023",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dillion2023",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "spirling2023",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "spirling2023",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziems2024",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziems2024",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tornberg2024",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rathje2024",
+   "target": "llm",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rathje2024",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "przeworskiteune1970",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1971",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ragin1987",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geddes1990",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearon1991",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearon1991",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king1994",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king1994",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanevera1997",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradycollier2004",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerring2004",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "georgebennett2005",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberman2005",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ragin2008",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "collier2011",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goertzmahoney2012",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bennettcheckel2015",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seawright2016",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "humphreysjacobs2023",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "humphreysjacobs2023",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greenshapiro1994",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morton1999",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "signorino1999",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achen2002",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achen2002",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "granato2004",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarkeprimo2012",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdmtyson2020",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdmtyson2020",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ashworth2021",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ashworth2021",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king1995",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ioannidis2005",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franco2014",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gelmanloken2014",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lupiaelman2014",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik2014",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik2014",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "osc2015",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensenmiguel2018",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nosek2018",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2011",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoff2002",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoffward2004",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoffward2004",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christakisfowler2007",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

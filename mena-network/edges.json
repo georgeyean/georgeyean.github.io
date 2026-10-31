@@ -1,0 +1,5194 @@
+{
+ "meta": {
+  "title": "Middle Eastern politics knowledge network, c. 1950-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in Middle Eastern politics: authoritarian resilience and the coercive apparatus, monarchies and ruling bargains, rentier states and oil, elections and clientelism under authoritarianism, the Arab uprisings and their aftermath, Islamist movements and the inclusion-moderation debate, religion and politics, civil-military relations and coups, sectarianism and identity, civil wars and intervention, the Israeli-Palestinian conflict, Iran, Turkey and democratic backsliding, state formation and colonial legacies, Arab public opinion, gender, migration and refugees, great powers and regional order, and crony capitalism and economic reform. Works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (Middle East studies and political science journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 300,
+   "theme_nodes": 19,
+   "seed_from_papers_json": 7,
+   "crossref_top_cited": 156,
+   "anchors_supplement": 137,
+   "relation_edges": 345,
+   "membership_edges": 516
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "beblawiluciani1987",
+   "target": "mahdavy1970",
+   "type": "builds_on",
+   "why": "Generalizes Mahdavy's rentier-state concept into a theory of allocation states."
+  },
+  {
+   "source": "skocpol1982",
+   "target": "mahdavy1970",
+   "type": "extends_to_new_case",
+   "why": "Uses rentier autonomy to explain the fragility of the Shah's state in 1979."
+  },
+  {
+   "source": "crystal1990",
+   "target": "beblawiluciani1987",
+   "type": "extends_to_new_case",
+   "why": "Shows how oil rents let Gulf rulers buy out merchant opposition in Kuwait and Qatar."
+  },
+  {
+   "source": "chaudhry1997",
+   "target": "beblawiluciani1987",
+   "type": "qualifies",
+   "why": "Rentier and remittance economies weaken extractive institutions, which matters most when booms end."
+  },
+  {
+   "source": "karl1997",
+   "target": "beblawiluciani1987",
+   "type": "builds_on",
+   "why": "Petro-states develop institutions shaped by rents that lock in bad policy."
+  },
+  {
+   "source": "ross2001",
+   "target": "beblawiluciani1987",
+   "type": "mechanism_tested_by",
+   "why": "Tests the rentier, repression and modernization effects of oil cross-nationally."
+  },
+  {
+   "source": "smith2004",
+   "target": "ross2001",
+   "type": "builds_on",
+   "why": "Adds that oil makes regimes more durable and less prone to protest."
+  },
+  {
+   "source": "herb2005",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "Controlling for rents' effect on income, the rentier effect on democracy is weak."
+  },
+  {
+   "source": "vitalis2007",
+   "target": "crystal1990",
+   "type": "challenges",
+   "why": "Rejects the idea of a distinct Saudi rentier exceptionalism in favor of US-made hierarchy."
+  },
+  {
+   "source": "morrison2009",
+   "target": "ross2001",
+   "type": "mechanism_tested_by",
+   "why": "Nontax revenue stabilizes regimes through redistribution, testing the rentier mechanism."
+  },
+  {
+   "source": "herb2009",
+   "target": "crystal1990",
+   "type": "builds_on",
+   "why": "Parliamentary participation in Kuwait shapes how rents are distributed."
+  },
+  {
+   "source": "basedaulay2009",
+   "target": "ross2001",
+   "type": "qualifies",
+   "why": "Very high oil wealth per capita buys peace, unlike oil dependence."
+  },
+  {
+   "source": "hertog2010",
+   "target": "karl1997",
+   "type": "qualifies",
+   "why": "Some rentier states build efficient state-owned enterprises."
+  },
+  {
+   "source": "hertog2010book",
+   "target": "chaudhry1997",
+   "type": "builds_on",
+   "why": "Traces how oil-era Saudi state-building produced fragmented institutions."
+  },
+  {
+   "source": "hertog2010book",
+   "target": "hertog2010",
+   "type": "builds_on",
+   "why": "The book develops the segmented-state argument behind efficient pockets."
+  },
+  {
+   "source": "colgan2010",
+   "target": "ross2001",
+   "type": "extends_to_new_case",
+   "why": "Applies oil's political effects to international aggression by revolutionary petro-states."
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "Long time series show no oil curse on democracy."
+  },
+  {
+   "source": "mitchell2011",
+   "target": "beblawiluciani1987",
+   "type": "challenges",
+   "why": "Locates oil's anti-democratic effect in its material flows, not fiscal rents."
+  },
+  {
+   "source": "ross2012",
+   "target": "ross2001",
+   "type": "synthesizes",
+   "why": "Book-length synthesis of oil's effects on democracy, gender and conflict."
+  },
+  {
+   "source": "ross2012",
+   "target": "habermenaldo2011",
+   "type": "challenges",
+   "why": "Defends the oil curse as arising after the 1970s nationalizations."
+  },
+  {
+   "source": "ahmed2012",
+   "target": "morrison2009",
+   "type": "builds_on",
+   "why": "Extends unearned-income logic to aid and remittances, which also prolong autocracy."
+  },
+  {
+   "source": "colgan2013",
+   "target": "colgan2010",
+   "type": "builds_on",
+   "why": "Lays out several pathways from oil to war."
+  },
+  {
+   "source": "wrightfrantzgeddes2013",
+   "target": "smith2004",
+   "type": "builds_on",
+   "why": "Oil prolongs autocratic regime survival mainly by preventing breakdown."
+  },
+  {
+   "source": "wrightfrantzgeddes2013",
+   "target": "habermenaldo2011",
+   "type": "challenges",
+   "why": "Finds oil still stabilizes autocracies."
+  },
+  {
+   "source": "andersenross2013",
+   "target": "habermenaldo2011",
+   "type": "challenges",
+   "why": "The oil curse appears only after host governments took control of rents."
+  },
+  {
+   "source": "herb2014",
+   "target": "herb2009",
+   "type": "builds_on",
+   "why": "Book-length version of the Kuwait-UAE comparison."
+  },
+  {
+   "source": "ross2015",
+   "target": "ross2012",
+   "type": "synthesizes",
+   "why": "Reviews the resource-curse literature."
+  },
+  {
+   "source": "gengler2015",
+   "target": "crystal1990",
+   "type": "challenges",
+   "why": "Rents are allocated along group lines, so identity, not just rents, drives mobilization."
+  },
+  {
+   "source": "paine2016",
+   "target": "basedaulay2009",
+   "type": "qualifies",
+   "why": "Oil deters center-seeking civil wars while encouraging separatist ones."
+  },
+  {
+   "source": "hertog2020",
+   "target": "beblawiluciani1987",
+   "type": "mechanism_tested_by",
+   "why": "Tests the rentier mentality with Gulf survey data."
+  },
+  {
+   "source": "gengler2016",
+   "target": "gause1994",
+   "type": "builds_on",
+   "why": "Falling prices force renegotiation of the Gulf ruling bargain."
+  },
+  {
+   "source": "gengler2021",
+   "target": "gengler2016",
+   "type": "builds_on",
+   "why": "Survey experiment on citizen preferences toward fiscal reform."
+  },
+  {
+   "source": "gengler2021",
+   "target": "hertog2020",
+   "type": "qualifies",
+   "why": "Rentier attitudes toward reform depend on welfare and inequality framing."
+  },
+  {
+   "source": "kim2019petro",
+   "target": "colgan2013",
+   "type": "builds_on",
+   "why": "Great powers align with oil states to secure supply."
+  },
+  {
+   "source": "diamond2010jod",
+   "target": "ross2001",
+   "type": "builds_on",
+   "why": "Oil rents are a main reason there are no Arab democracies."
+  },
+  {
+   "source": "bellin2004",
+   "target": "anderson1987",
+   "type": "builds_on",
+   "why": "Explains authoritarian robustness through the state's coercive apparatus."
+  },
+  {
+   "source": "bellin2004",
+   "target": "quinlivan1999",
+   "type": "builds_on",
+   "why": "Patrimonial, coup-proofed militaries have the will to repress."
+  },
+  {
+   "source": "brumberg2002",
+   "target": "anderson1987",
+   "type": "builds_on",
+   "why": "Liberalized autocracy as a survival strategy of Arab states."
+  },
+  {
+   "source": "posusneyangrist2005",
+   "target": "bellin2004",
+   "type": "synthesizes",
+   "why": "Brings institutional, coercive and economic accounts of durability together."
+  },
+  {
+   "source": "hinnebusch2006",
+   "target": "posusneyangrist2005",
+   "type": "synthesizes",
+   "why": "Reviews why democratization theory fails for the Middle East."
+  },
+  {
+   "source": "anderson2006arps",
+   "target": "anderson1987",
+   "type": "builds_on",
+   "why": "Criticizes the transitions lens and calls for studying states on their own terms."
+  },
+  {
+   "source": "brownlee2007book",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Ruling parties make autocracies durable, as Geddes found."
+  },
+  {
+   "source": "brownlee2007book",
+   "target": "brumberg2002",
+   "type": "challenges",
+   "why": "Elections and liberalization do not by themselves destabilize autocracies."
+  },
+  {
+   "source": "brownlee2007",
+   "target": "brownlee2007book",
+   "type": "builds_on",
+   "why": "Hereditary succession reflects how institutionalized ruling coalitions are."
+  },
+  {
+   "source": "heydemann2007",
+   "target": "brumberg2002",
+   "type": "builds_on",
+   "why": "Authoritarian upgrading generalizes liberalized autocracy."
+  },
+  {
+   "source": "king2009",
+   "target": "heydemann2007",
+   "type": "builds_on",
+   "why": "New authoritarian coalitions built around privatization and rural notables."
+  },
+  {
+   "source": "brownlee2009",
+   "target": "brownlee2007book",
+   "type": "builds_on",
+   "why": "Hybrid regimes raise later chances of democracy."
+  },
+  {
+   "source": "gandhiprzeworski2007",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Institutions such as legislatures co-opt opposition and prolong rule."
+  },
+  {
+   "source": "levitskyway2010",
+   "target": "brownlee2007book",
+   "type": "qualifies",
+   "why": "Organizational power and Western linkage shape competitive-authoritarian outcomes."
+  },
+  {
+   "source": "pierretselvik2009",
+   "target": "heydemann2007",
+   "type": "qualifies",
+   "why": "Upgrading through Islamic charities has limits in Syria."
+  },
+  {
+   "source": "bellin2012",
+   "target": "bellin2004",
+   "type": "builds_on",
+   "why": "Revisits the coercive-apparatus thesis after 2011."
+  },
+  {
+   "source": "svolik2012book",
+   "target": "gandhiprzeworski2007",
+   "type": "synthesizes",
+   "why": "Integrates power-sharing and control problems of authoritarian rule."
+  },
+  {
+   "source": "heydemann2013",
+   "target": "heydemann2007",
+   "type": "builds_on",
+   "why": "Syria's war shows authoritarian upgrading and adaptation."
+  },
+  {
+   "source": "rutherford2018",
+   "target": "kandil2012",
+   "type": "builds_on",
+   "why": "Sisi's regime recentralized power in the military and security agencies."
+  },
+  {
+   "source": "blaydes2018iraq",
+   "target": "wedeen1999",
+   "type": "qualifies",
+   "why": "Compliance under Saddam varied with state monitoring capacity, not symbolic politics alone."
+  },
+  {
+   "source": "blaydes2020",
+   "target": "blaydes2018iraq",
+   "type": "builds_on",
+   "why": "Party and tribes as tools of control after 1991."
+  },
+  {
+   "source": "pansiegel2019",
+   "target": "kuran1991",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether repression of leaders deters followers' dissent online."
+  },
+  {
+   "source": "wedeen2019",
+   "target": "wedeen1999",
+   "type": "builds_on",
+   "why": "Revisits authoritarian domination in wartime Syria."
+  },
+  {
+   "source": "stepanrobertson2003",
+   "target": "fish2002",
+   "type": "challenges",
+   "why": "The deficit is Arab, not Muslim."
+  },
+  {
+   "source": "diamond2010jod",
+   "target": "stepanrobertson2003",
+   "type": "builds_on",
+   "why": "Takes the Arab rather than Muslim deficit as the puzzle."
+  },
+  {
+   "source": "owen1992",
+   "target": "anderson1987",
+   "type": "synthesizes",
+   "why": "Synthesizes the formation of states and regimes in the modern Middle East."
+  },
+  {
+   "source": "ayubi1995",
+   "target": "owen1992",
+   "type": "challenges",
+   "why": "Arab states are fierce but weak, not strong."
+  },
+  {
+   "source": "anderson1991",
+   "target": "anderson1987",
+   "type": "extends_to_new_case",
+   "why": "Applies state-formation analysis to monarchies as modern regimes."
+  },
+  {
+   "source": "gause1994",
+   "target": "crystal1990",
+   "type": "builds_on",
+   "why": "Oil monarchies combine rents with family rule and face new strains."
+  },
+  {
+   "source": "herb1999",
+   "target": "anderson1991",
+   "type": "builds_on",
+   "why": "Dynastic family rule explains monarchical survival."
+  },
+  {
+   "source": "lucas2004",
+   "target": "herb1999",
+   "type": "qualifies",
+   "why": "Monarchs survive also by standing above parties and managing liberalization."
+  },
+  {
+   "source": "kamrava2009",
+   "target": "herb1999",
+   "type": "extends_to_new_case",
+   "why": "Intra-family consolidation drives Qatari liberalization."
+  },
+  {
+   "source": "yomgause2012",
+   "target": "herb1999",
+   "type": "qualifies",
+   "why": "Coalitions, rents and patrons, not dynasty alone, saved monarchies in 2011."
+  },
+  {
+   "source": "menaldo2012",
+   "target": "yomgause2012",
+   "type": "challenges",
+   "why": "Monarchy's political culture, not just rents, solves elite commitment problems."
+  },
+  {
+   "source": "bank2013",
+   "target": "yomgause2012",
+   "type": "synthesizes",
+   "why": "Configurational test combining rents, family rule and external support."
+  },
+  {
+   "source": "yom2014",
+   "target": "yomgause2012",
+   "type": "qualifies",
+   "why": "Shrinking patronage turned Jordan's tribal base into a source of protest."
+  },
+  {
+   "source": "yom2016",
+   "target": "yomgause2012",
+   "type": "builds_on",
+   "why": "Foreign patronage at founding moments explains coalition breadth and fragility."
+  },
+  {
+   "source": "matthiesen2013",
+   "target": "gause1994",
+   "type": "extends_to_new_case",
+   "why": "Gulf monarchies sectarianized dissent in 2011."
+  },
+  {
+   "source": "pansiegel2019",
+   "target": "yomgause2012",
+   "type": "extends_to_new_case",
+   "why": "Looks at Saudi repression of online dissent after the uprisings."
+  },
+  {
+   "source": "lustokar2005",
+   "target": "brumberg2002",
+   "type": "builds_on",
+   "why": "Divided opposition structures explain how liberalized autocracies survive crises."
+  },
+  {
+   "source": "albrecht2005",
+   "target": "brumberg2002",
+   "type": "builds_on",
+   "why": "Tolerated opposition stabilizes Egypt's liberalized autocracy."
+  },
+  {
+   "source": "lustokar2006",
+   "target": "lustokar2005",
+   "type": "builds_on",
+   "why": "Jordanian elections as competitions over patronage."
+  },
+  {
+   "source": "gandhilust2009",
+   "target": "lustokar2006",
+   "type": "synthesizes",
+   "why": "Reviews research on elections under authoritarianism."
+  },
+  {
+   "source": "lust2009",
+   "target": "lustokar2006",
+   "type": "builds_on",
+   "why": "Competitive clientelism generalizes the Jordanian pattern."
+  },
+  {
+   "source": "blaydes2011",
+   "target": "lust2009",
+   "type": "builds_on",
+   "why": "Elections distribute rents and information in Mubarak's Egypt."
+  },
+  {
+   "source": "blaydes2011",
+   "target": "gandhiprzeworski2007",
+   "type": "mechanism_tested_by",
+   "why": "Tests how authoritarian institutions co-opt elites in Egypt."
+  },
+  {
+   "source": "corstange2012",
+   "target": "lust2009",
+   "type": "extends_to_new_case",
+   "why": "Competitive clientelism in Lebanon's sectarian system."
+  },
+  {
+   "source": "demiguel2015",
+   "target": "lust2009",
+   "type": "mechanism_tested_by",
+   "why": "Survey evidence that Arab voters reward service delivery."
+  },
+  {
+   "source": "corstange2016",
+   "target": "corstange2012",
+   "type": "builds_on",
+   "why": "Vote prices depend on whether communities are monopolized or competitive."
+  },
+  {
+   "source": "brownlee2009",
+   "target": "gandhilust2009",
+   "type": "qualifies",
+   "why": "Competitive elections under autocracy matter for later transitions."
+  },
+  {
+   "source": "gause2011",
+   "target": "bellin2004",
+   "type": "challenges",
+   "why": "Scholars mistook stability for durability."
+  },
+  {
+   "source": "howardhussain2011",
+   "target": "kuran1991",
+   "type": "mechanism_tested_by",
+   "why": "Digital media lowered barriers to revealing dissent."
+  },
+  {
+   "source": "lynch2011",
+   "target": "lynch2006",
+   "type": "builds_on",
+   "why": "The new Arab public sphere spread protest across countries."
+  },
+  {
+   "source": "lynch2011",
+   "target": "howardhussain2011",
+   "type": "qualifies",
+   "why": "Online challenges cannot overthrow regimes by themselves."
+  },
+  {
+   "source": "leendersheydemann2012",
+   "target": "kuran1991",
+   "type": "qualifies",
+   "why": "Local networks, not just preference revelation, spread Syria's uprising."
+  },
+  {
+   "source": "weyland2012",
+   "target": "kuran1991",
+   "type": "builds_on",
+   "why": "Cascades through heuristic emulation, as in 1848."
+  },
+  {
+   "source": "lynch2012",
+   "target": "lynch2011",
+   "type": "builds_on",
+   "why": "Narrative of the uprisings as a regional event."
+  },
+  {
+   "source": "pearlman2013",
+   "target": "kuran1991",
+   "type": "qualifies",
+   "why": "Emotions such as anger and pride, not only expectations, drove participation."
+  },
+  {
+   "source": "hale2013",
+   "target": "weyland2012",
+   "type": "synthesizes",
+   "why": "Integrates diffusion accounts of revolutionary cascades."
+  },
+  {
+   "source": "stepanlinz2013",
+   "target": "stepan2000",
+   "type": "builds_on",
+   "why": "Twin tolerations and sultanism in Arab transitions."
+  },
+  {
+   "source": "breuer2014",
+   "target": "howardhussain2011",
+   "type": "mechanism_tested_by",
+   "why": "Survey evidence on social media and mobilization in Tunisia."
+  },
+  {
+   "source": "clarke2014",
+   "target": "kuran1991",
+   "type": "qualifies",
+   "why": "Contingent brokers made mass protest possible in Egypt."
+  },
+  {
+   "source": "hoffmanjamal2014",
+   "target": "tessler2002",
+   "type": "builds_on",
+   "why": "Religiosity and protest in Arab Barometer data."
+  },
+  {
+   "source": "beissinger2015",
+   "target": "pearlman2013",
+   "type": "builds_on",
+   "why": "Survey evidence on who joined revolutionary coalitions."
+  },
+  {
+   "source": "brownlee2015",
+   "target": "bellin2012",
+   "type": "builds_on",
+   "why": "Hereditary succession and oil explain which rulers fell."
+  },
+  {
+   "source": "brownlee2015",
+   "target": "brownlee2007",
+   "type": "builds_on",
+   "why": "Hereditary succession as a sign of regime type predicts military loyalty."
+  },
+  {
+   "source": "lawrence2016",
+   "target": "kuran1991",
+   "type": "mechanism_tested_by",
+   "why": "Who protests first in Morocco."
+  },
+  {
+   "source": "pearlman2016",
+   "target": "pearlman2013",
+   "type": "builds_on",
+   "why": "Moral identity explains high-risk participation in Syria."
+  },
+  {
+   "source": "steinertthrelkeld2017",
+   "target": "clarke2014",
+   "type": "challenges",
+   "why": "Peripheral users, not elites, drove mobilization online."
+  },
+  {
+   "source": "bayat2017",
+   "target": "weyland2012",
+   "type": "qualifies",
+   "why": "Movements lacked a revolutionary ideology, so they sought regime reform."
+  },
+  {
+   "source": "ketchley2017",
+   "target": "clarke2014",
+   "type": "builds_on",
+   "why": "Protest event data on repertoires in Egypt's revolution."
+  },
+  {
+   "source": "clarkekocak2018",
+   "target": "howardhussain2011",
+   "type": "builds_on",
+   "why": "Facebook solved coordination for the first day of protest."
+  },
+  {
+   "source": "clarkekocak2018",
+   "target": "steinertthrelkeld2017",
+   "type": "qualifies",
+   "why": "Organizers still mattered for launching protest."
+  },
+  {
+   "source": "josuaedel2021",
+   "target": "heydemann2013",
+   "type": "builds_on",
+   "why": "Regimes returned to repression after 2011."
+  },
+  {
+   "source": "grewalmonroe2019",
+   "target": "stepanlinz2013",
+   "type": "qualifies",
+   "why": "Founding-election losers become disillusioned, weakening consolidation."
+  },
+  {
+   "source": "springborg2011",
+   "target": "heydemann2004",
+   "type": "builds_on",
+   "why": "Crony capitalism underlay the uprisings."
+  },
+  {
+   "source": "malikawadallah2013",
+   "target": "springborg2011",
+   "type": "builds_on",
+   "why": "Economic model blocked a private sector and drove grievances."
+  },
+  {
+   "source": "kurzman2004",
+   "target": "skocpol1982",
+   "type": "challenges",
+   "why": "Structural accounts cannot explain why Iranians expected the revolution to succeed."
+  },
+  {
+   "source": "stephanchenoweth2008",
+   "target": "kurzman2004",
+   "type": "builds_on",
+   "why": "Nonviolent resistance succeeds by mass participation and defections, as in Iran 1979."
+  },
+  {
+   "source": "nepstad2013",
+   "target": "stephanchenoweth2008",
+   "type": "qualifies",
+   "why": "Military defection depends on army interests, not nonviolent discipline alone."
+  },
+  {
+   "source": "roy1994",
+   "target": "mitchell1969",
+   "type": "challenges",
+   "why": "Political Islam failed to produce a state model."
+  },
+  {
+   "source": "kalyvas2000",
+   "target": "mitchell1969",
+   "type": "builds_on",
+   "why": "Religious party organization shapes commitment to democracy."
+  },
+  {
+   "source": "wickham2002",
+   "target": "mitchell1969",
+   "type": "builds_on",
+   "why": "How the Brotherhood's successors recruited educated youth."
+  },
+  {
+   "source": "hafez2003",
+   "target": "wickham2002",
+   "type": "builds_on",
+   "why": "Exclusion plus indiscriminate repression produces rebellion."
+  },
+  {
+   "source": "clark2004",
+   "target": "wickham2002",
+   "type": "qualifies",
+   "why": "Islamist welfare institutions serve middle-class networks."
+  },
+  {
+   "source": "clark2006",
+   "target": "schwedler2006",
+   "type": "qualifies",
+   "why": "Cross-ideological cooperation moderates Islamists only selectively."
+  },
+  {
+   "source": "schwedler2006",
+   "target": "kalyvas2000",
+   "type": "builds_on",
+   "why": "Inclusion moderates Islamists through internal justification, not just organization."
+  },
+  {
+   "source": "wegnerpellicer2009",
+   "target": "schwedler2006",
+   "type": "qualifies",
+   "why": "Moderation can occur without democratization."
+  },
+  {
+   "source": "gumuscu2010",
+   "target": "schwedler2006",
+   "type": "qualifies",
+   "why": "Class base explains divergent moderation in Turkey and Egypt."
+  },
+  {
+   "source": "kurzmannaqvi2010",
+   "target": "roy1994",
+   "type": "builds_on",
+   "why": "Islamist parties tend to do poorly in free elections."
+  },
+  {
+   "source": "hegghammer2010",
+   "target": "roy1994",
+   "type": "extends_to_new_case",
+   "why": "Pan-Islamism, not local grievances, spread foreign fighting."
+  },
+  {
+   "source": "schwedler2011",
+   "target": "schwedler2006",
+   "type": "synthesizes",
+   "why": "Reviews and rethinks the inclusion-moderation hypothesis."
+  },
+  {
+   "source": "brown2012",
+   "target": "schwedler2006",
+   "type": "builds_on",
+   "why": "Islamists participate cautiously when victory is impossible."
+  },
+  {
+   "source": "cavatortamerone2013",
+   "target": "schwedler2011",
+   "type": "challenges",
+   "why": "Ennahda moderated through exclusion, not inclusion."
+  },
+  {
+   "source": "wickham2013",
+   "target": "wickham2002",
+   "type": "builds_on",
+   "why": "Follows the Brotherhood's partial moderation over decades."
+  },
+  {
+   "source": "cammettluong2014",
+   "target": "clark2004",
+   "type": "synthesizes",
+   "why": "Reviews the sources of Islamist electoral advantage."
+  },
+  {
+   "source": "masoud2014",
+   "target": "kurzmannaqvi2010",
+   "type": "builds_on",
+   "why": "Islamist wins reflect organization, not religiosity."
+  },
+  {
+   "source": "hamid2014",
+   "target": "schwedler2011",
+   "type": "challenges",
+   "why": "Repression, not inclusion, moderated Islamists."
+  },
+  {
+   "source": "brooke2019",
+   "target": "cammettluong2014",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether Islamist services win votes via competence signals."
+  },
+  {
+   "source": "brooke2019",
+   "target": "clark2004",
+   "type": "builds_on",
+   "why": "Islamist clinics serve the middle class."
+  },
+  {
+   "source": "somer2016",
+   "target": "schwedler2011",
+   "type": "qualifies",
+   "why": "Islamists may seek to conquer rather than democratize the state."
+  },
+  {
+   "source": "bashirov2018",
+   "target": "schwedler2011",
+   "type": "challenges",
+   "why": "The AKP's moderation reversed once it held power."
+  },
+  {
+   "source": "fish2002",
+   "target": "stepan2000",
+   "type": "challenges",
+   "why": "Islam is linked to authoritarianism through women's status."
+  },
+  {
+   "source": "tessler2002",
+   "target": "fish2002",
+   "type": "challenges",
+   "why": "Personal religiosity does not reduce Arab support for democracy."
+  },
+  {
+   "source": "donnorussett2004",
+   "target": "fish2002",
+   "type": "qualifies",
+   "why": "The gender link holds mainly in Arab countries."
+  },
+  {
+   "source": "kuru2009",
+   "target": "stepan2000",
+   "type": "builds_on",
+   "why": "Varieties of secularism reflect founding conflicts."
+  },
+  {
+   "source": "clingingsmith2009",
+   "target": "tessler2002",
+   "type": "mechanism_tested_by",
+   "why": "Religious participation increases tolerance."
+  },
+  {
+   "source": "stepan2012",
+   "target": "stepan2000",
+   "type": "extends_to_new_case",
+   "why": "Twin tolerations built in Tunisia."
+  },
+  {
+   "source": "chaney2013",
+   "target": "kuran2011",
+   "type": "builds_on",
+   "why": "Religious authorities gain power when rulers need legitimacy."
+  },
+  {
+   "source": "blaydeschaney2013",
+   "target": "chaney2013",
+   "type": "builds_on",
+   "why": "Reliance on slave soldiers rather than feudal elites slowed Muslim institutional development."
+  },
+  {
+   "source": "kuru2019",
+   "target": "kuran2011",
+   "type": "challenges",
+   "why": "An ulema-state alliance, not Islamic law, explains divergence."
+  },
+  {
+   "source": "kuru2019",
+   "target": "blaydeschaney2013",
+   "type": "builds_on",
+   "why": "The military-state legacy of medieval Muslim polities."
+  },
+  {
+   "source": "blaydes2018",
+   "target": "blaydeschaney2013",
+   "type": "builds_on",
+   "why": "Advice literature reveals elite governance and executive constraints."
+  },
+  {
+   "source": "mahmood2005",
+   "target": "abulughod2002",
+   "type": "builds_on",
+   "why": "Piety movements show agency outside liberal-feminist frames."
+  },
+  {
+   "source": "stepanrobertson2003",
+   "target": "stepan2000",
+   "type": "builds_on",
+   "why": "Electoral competitiveness in non-Arab Muslim countries."
+  },
+  {
+   "source": "ciftci2010",
+   "target": "tessler2002",
+   "type": "builds_on",
+   "why": "Gender views and economic evaluations, not religiosity, predict support for democracy."
+  },
+  {
+   "source": "ciftci2010",
+   "target": "fish2002",
+   "type": "mechanism_tested_by",
+   "why": "Tests the gender link at the individual level."
+  },
+  {
+   "source": "masoud2016",
+   "target": "blaydeslinzer2008",
+   "type": "builds_on",
+   "why": "Religious framing can increase support for women's leadership."
+  },
+  {
+   "source": "quinlivan1999",
+   "target": "batatu1978",
+   "type": "builds_on",
+   "why": "Coup-proofing relies on communal and kin loyalties of the kind Batatu documented."
+  },
+  {
+   "source": "brooks2006",
+   "target": "quinlivan1999",
+   "type": "qualifies",
+   "why": "Military effectiveness rose when Egypt relaxed political control between 1967 and 1973."
+  },
+  {
+   "source": "cook2007",
+   "target": "bellin2004",
+   "type": "builds_on",
+   "why": "Militaries rule behind civilian facades in Egypt, Algeria and Turkey."
+  },
+  {
+   "source": "barany2011",
+   "target": "bellin2004",
+   "type": "builds_on",
+   "why": "The army's choice decided each revolt."
+  },
+  {
+   "source": "kandil2012",
+   "target": "cook2007",
+   "type": "qualifies",
+   "why": "Egypt's military was sidelined by the security services before 2011."
+  },
+  {
+   "source": "bounassif2013",
+   "target": "cook2007",
+   "type": "builds_on",
+   "why": "Officers' loyalty bought with post-retirement careers."
+  },
+  {
+   "source": "talmadge2013",
+   "target": "quinlivan1999",
+   "type": "mechanism_tested_by",
+   "why": "Coup-proofing lowered Iraqi battlefield effectiveness."
+  },
+  {
+   "source": "makara2013",
+   "target": "quinlivan1999",
+   "type": "mechanism_tested_by",
+   "why": "Communal coup-proofing predicts loyalty in 2011."
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "powellthyne2011",
+   "type": "builds_on",
+   "why": "Protest signals help elites coordinate on coups."
+  },
+  {
+   "source": "albrecht2014",
+   "target": "makara2013",
+   "type": "qualifies",
+   "why": "Coup-proofing shaped but did not determine military responses."
+  },
+  {
+   "source": "bounassif2015",
+   "target": "barany2011",
+   "type": "builds_on",
+   "why": "Tunisia's marginalized army refused to save Ben Ali."
+  },
+  {
+   "source": "talmadge2015",
+   "target": "talmadge2013",
+   "type": "builds_on",
+   "why": "Book-length theory of coup-proofing and effectiveness."
+  },
+  {
+   "source": "esengumuscu2017jod",
+   "target": "powellthyne2011",
+   "type": "extends_to_new_case",
+   "why": "The failed 2016 coup in Turkey."
+  },
+  {
+   "source": "rutherford2018",
+   "target": "cook2007",
+   "type": "qualifies",
+   "why": "After 2013 the military ruled more directly."
+  },
+  {
+   "source": "forozan2017",
+   "target": "bounassif2013",
+   "type": "extends_to_new_case",
+   "why": "Military business empires in Iran's Revolutionary Guards."
+  },
+  {
+   "source": "ketchley2017",
+   "target": "barany2011",
+   "type": "qualifies",
+   "why": "Fraternization repertoires shaped the army's stance in Egypt."
+  },
+  {
+   "source": "makdisi2000",
+   "target": "batatu1978",
+   "type": "builds_on",
+   "why": "Communal identity as historically produced, not primordial."
+  },
+  {
+   "source": "nasr2006",
+   "target": "makdisi2000",
+   "type": "challenges",
+   "why": "Treats Sunni-Shi'a identity as a deep driver of regional politics."
+  },
+  {
+   "source": "haddad2013",
+   "target": "nasr2006",
+   "type": "challenges",
+   "why": "Iraq's sectarian war stemmed from contested national visions, not ancient hatreds."
+  },
+  {
+   "source": "matthiesen2013",
+   "target": "nasr2006",
+   "type": "challenges",
+   "why": "Rulers sectarianized protests for political ends."
+  },
+  {
+   "source": "clarksalloukh2013",
+   "target": "makdisi2000",
+   "type": "builds_on",
+   "why": "Postwar elites reproduce sectarian identities through power-sharing."
+  },
+  {
+   "source": "cammett2014",
+   "target": "cammettissar2010",
+   "type": "builds_on",
+   "why": "Book-length account of sectarian welfare."
+  },
+  {
+   "source": "corstange2012",
+   "target": "cammettissar2010",
+   "type": "builds_on",
+   "why": "Sectarian brokers also buy votes."
+  },
+  {
+   "source": "gause2014",
+   "target": "nasr2006",
+   "type": "challenges",
+   "why": "Sectarianism is the instrument, not the cause, of the Saudi-Iranian contest."
+  },
+  {
+   "source": "haddad2017",
+   "target": "nasr2006",
+   "type": "challenges",
+   "why": "Rejects sectarianism as a catch-all explanation."
+  },
+  {
+   "source": "hashemipostel2017",
+   "target": "makdisi2000",
+   "type": "builds_on",
+   "why": "Sectarianization is a political process driven by regimes."
+  },
+  {
+   "source": "hashemipostel2017",
+   "target": "gause2014",
+   "type": "builds_on",
+   "why": "Regional rivalry drives sectarianization."
+  },
+  {
+   "source": "tezcurgurses2017",
+   "target": "tezcur2010",
+   "type": "builds_on",
+   "why": "Ethnic exclusion drove PKK recruitment."
+  },
+  {
+   "source": "siegelbadaan2020",
+   "target": "haddad2017",
+   "type": "mechanism_tested_by",
+   "why": "Elite religious cues can reduce online sectarian hate."
+  },
+  {
+   "source": "gengler2015",
+   "target": "nasr2006",
+   "type": "qualifies",
+   "why": "Group identity shapes mobilization because rents are distributed by group."
+  },
+  {
+   "source": "wyrtzen2011",
+   "target": "makdisi2000",
+   "type": "extends_to_new_case",
+   "why": "Colonial state-building hardened the Arab-Berber divide in Morocco."
+  },
+  {
+   "source": "kalyvas2006",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Violence follows territorial control, not only state weakness."
+  },
+  {
+   "source": "kuperman2008",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Expected intervention encourages rebellion."
+  },
+  {
+   "source": "berman2011hearts",
+   "target": "kalyvas2006",
+   "type": "mechanism_tested_by",
+   "why": "Service provision buys information from civilians in Iraq."
+  },
+  {
+   "source": "berman2011",
+   "target": "fearonlaitin2003",
+   "type": "challenges",
+   "why": "Unemployment does not drive insurgent violence."
+  },
+  {
+   "source": "biddle2012",
+   "target": "berman2011hearts",
+   "type": "qualifies",
+   "why": "The surge worked with the Sunni Awakening, not alone."
+  },
+  {
+   "source": "kuperman2013",
+   "target": "kuperman2008",
+   "type": "extends_to_new_case",
+   "why": "NATO's Libya intervention prolonged war."
+  },
+  {
+   "source": "dechatel2014",
+   "target": "leendersheydemann2012",
+   "type": "builds_on",
+   "why": "Rural grievances from regime policy fed the uprising."
+  },
+  {
+   "source": "kelley2015",
+   "target": "dechatel2014",
+   "type": "challenges",
+   "why": "Climate-driven drought contributed to Syrian unrest."
+  },
+  {
+   "source": "dejuanbank2015",
+   "target": "kalyvas2006",
+   "type": "mechanism_tested_by",
+   "why": "Selective service cuts shape where violence occurs."
+  },
+  {
+   "source": "lynch2016",
+   "target": "lynch2012",
+   "type": "builds_on",
+   "why": "Regional intervention turned uprisings into wars."
+  },
+  {
+   "source": "phillips2016",
+   "target": "gause2014",
+   "type": "builds_on",
+   "why": "Regional rivalry prolonged Syria's war."
+  },
+  {
+   "source": "walter2017",
+   "target": "hegghammer2010",
+   "type": "builds_on",
+   "why": "Extremist groups gain advantages in civil wars like Syria."
+  },
+  {
+   "source": "mclauchlin2017",
+   "target": "quinlivan1999",
+   "type": "builds_on",
+   "why": "Ethnic stacking of the army creates loyalty traps that prolong war."
+  },
+  {
+   "source": "selby2017",
+   "target": "kelley2015",
+   "type": "challenges",
+   "why": "No sound evidence that drought caused the Syrian war."
+  },
+  {
+   "source": "ashobradovich2019",
+   "target": "kelley2015",
+   "type": "mechanism_tested_by",
+   "why": "Tests drought migration and protest onset."
+  },
+  {
+   "source": "ashobradovich2019",
+   "target": "selby2017",
+   "type": "challenges",
+   "why": "Finds a link between climatic stress and protest."
+  },
+  {
+   "source": "revkin2020",
+   "target": "kalyvas2006",
+   "type": "builds_on",
+   "why": "Rebel governance and taxation under the Islamic State."
+  },
+  {
+   "source": "heydemann2013",
+   "target": "leendersheydemann2012",
+   "type": "builds_on",
+   "why": "From protest to authoritarian survival through war."
+  },
+  {
+   "source": "salehyan2006",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Refugee flows spread civil war across borders."
+  },
+  {
+   "source": "wedeen2019",
+   "target": "heydemann2013",
+   "type": "qualifies",
+   "why": "Regime support in wartime Syria rested on ideology and fear of chaos."
+  },
+  {
+   "source": "dodge2003",
+   "target": "batatu1978",
+   "type": "builds_on",
+   "why": "British mandate state-building in Iraq."
+  },
+  {
+   "source": "shafir1989",
+   "target": "lustick1980",
+   "type": "builds_on",
+   "why": "Settler-colonial labor dynamics behind Israeli control."
+  },
+  {
+   "source": "khalidi1997",
+   "target": "morris1987",
+   "type": "builds_on",
+   "why": "The 1948 catastrophe in the making of Palestinian identity."
+  },
+  {
+   "source": "smooha1997",
+   "target": "lustick1980",
+   "type": "challenges",
+   "why": "Israel is an ethnic democracy rather than a control regime."
+  },
+  {
+   "source": "yiftachel2006",
+   "target": "smooha1997",
+   "type": "challenges",
+   "why": "Israel is an ethnocracy, not a democracy of any kind."
+  },
+  {
+   "source": "yiftachel2006",
+   "target": "shafir1989",
+   "type": "builds_on",
+   "why": "Land control as the core of the conflict."
+  },
+  {
+   "source": "bloom2004",
+   "target": "kyddwalter2002",
+   "type": "qualifies",
+   "why": "Suicide attacks also serve outbidding among factions."
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "kyddwalter2002",
+   "type": "builds_on",
+   "why": "Spoiling is one of several terrorist strategies."
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "bloom2004",
+   "type": "synthesizes",
+   "why": "Outbidding as another terrorist strategy."
+  },
+  {
+   "source": "berrebi2008",
+   "target": "kyddwalter2002",
+   "type": "mechanism_tested_by",
+   "why": "Terror attacks shift Israeli votes rightward."
+  },
+  {
+   "source": "jaegerpaserman2008",
+   "target": "kyddwalter2002",
+   "type": "mechanism_tested_by",
+   "why": "Tests reciprocal violence in the second intifada."
+  },
+  {
+   "source": "halperin2008",
+   "target": "kyddwalter2002",
+   "type": "builds_on",
+   "why": "Emotional barriers to compromise among Israelis."
+  },
+  {
+   "source": "pearlman2009",
+   "target": "kyddwalter2002",
+   "type": "qualifies",
+   "why": "Spoiling reflects internal factional contests."
+  },
+  {
+   "source": "pearlman2011",
+   "target": "pearlman2009",
+   "type": "builds_on",
+   "why": "Movement cohesion explains violent versus nonviolent tactics."
+  },
+  {
+   "source": "pearlman2011",
+   "target": "bloom2004",
+   "type": "qualifies",
+   "why": "Fragmentation, not outbidding alone, drives violence."
+  },
+  {
+   "source": "maoz2011",
+   "target": "halperin2008",
+   "type": "qualifies",
+   "why": "Contact has limited effects in asymmetric conflict."
+  },
+  {
+   "source": "getmansky2014",
+   "target": "berrebi2008",
+   "type": "builds_on",
+   "why": "Rocket threat shifts votes rightward."
+  },
+  {
+   "source": "grossman2015",
+   "target": "getmansky2014",
+   "type": "builds_on",
+   "why": "Combat exposure hardens Israeli attitudes."
+  },
+  {
+   "source": "durante2018",
+   "target": "jaegerpaserman2008",
+   "type": "builds_on",
+   "why": "Strategic timing of Israeli attacks to US news cycles."
+  },
+  {
+   "source": "gidron2023",
+   "target": "smooha1997",
+   "type": "builds_on",
+   "why": "Israel's democratic crisis reflects tensions in an ethnic democracy."
+  },
+  {
+   "source": "gidron2023",
+   "target": "svolik2019",
+   "type": "extends_to_new_case",
+   "why": "Polarization and executive aggrandizement in Israel."
+  },
+  {
+   "source": "mearsheimerwalt2007",
+   "target": "walt1987",
+   "type": "builds_on",
+   "why": "Realist case that US support for Israel is not balancing logic."
+  },
+  {
+   "source": "abrahamian1982",
+   "target": "mahdavy1970",
+   "type": "builds_on",
+   "why": "Pahlavi development and its social strains."
+  },
+  {
+   "source": "skocpol1982",
+   "target": "abrahamian1982",
+   "type": "builds_on",
+   "why": "Shi'a networks and rentier state autonomy."
+  },
+  {
+   "source": "arjomand1988",
+   "target": "skocpol1982",
+   "type": "qualifies",
+   "why": "Clerical hierocracy, not only rentier autonomy, made the revolution."
+  },
+  {
+   "source": "kurzman2004",
+   "target": "arjomand1988",
+   "type": "challenges",
+   "why": "Participants' perceptions, not organization, decided the revolution."
+  },
+  {
+   "source": "keshavarzian2007",
+   "target": "abrahamian1982",
+   "type": "builds_on",
+   "why": "State-bazaar relations across the two regimes."
+  },
+  {
+   "source": "harris2013",
+   "target": "keshavarzian2007",
+   "type": "builds_on",
+   "why": "Privatization reshaped Iran's state-business ties."
+  },
+  {
+   "source": "abdolmohammadi2015",
+   "target": "brownlee2007book",
+   "type": "qualifies",
+   "why": "Iran is a hybrid of elected and clerical institutions."
+  },
+  {
+   "source": "mahdavi2015",
+   "target": "morrison2009",
+   "type": "mechanism_tested_by",
+   "why": "Oil spending helps Iranian incumbents win reelection."
+  },
+  {
+   "source": "harris2017",
+   "target": "harris2013",
+   "type": "builds_on",
+   "why": "Welfare state formation in the Islamic Republic."
+  },
+  {
+   "source": "ostovar2018",
+   "target": "gause2014",
+   "type": "builds_on",
+   "why": "Militant clients in Iran's regional competition."
+  },
+  {
+   "source": "kadivar2020",
+   "target": "brownlee2007book",
+   "type": "qualifies",
+   "why": "Elections can be used by reformists to push change in Iran."
+  },
+  {
+   "source": "forozan2017",
+   "target": "abdolmohammadi2015",
+   "type": "builds_on",
+   "why": "The Guards' economic power in the hybrid regime."
+  },
+  {
+   "source": "yavuz2003",
+   "target": "mardin1973",
+   "type": "builds_on",
+   "why": "Islamic identity emerges from the periphery."
+  },
+  {
+   "source": "kuru2009",
+   "target": "mardin1973",
+   "type": "builds_on",
+   "why": "Assertive secularism of the Kemalist center."
+  },
+  {
+   "source": "murinson2006",
+   "target": "yavuz2003",
+   "type": "builds_on",
+   "why": "Neo-Ottoman foreign policy rests on new identity."
+  },
+  {
+   "source": "gumuscusert2009",
+   "target": "yavuz2003",
+   "type": "builds_on",
+   "why": "The devout bourgeoisie as the AKP base."
+  },
+  {
+   "source": "yegen2009",
+   "target": "mardin1973",
+   "type": "extends_to_new_case",
+   "why": "The Kurdish question within Turkish nationalism."
+  },
+  {
+   "source": "tezcur2010",
+   "target": "yegen2009",
+   "type": "builds_on",
+   "why": "State policy toward Kurds and movement radicalization."
+  },
+  {
+   "source": "kibris2010",
+   "target": "berrebi2008",
+   "type": "extends_to_new_case",
+   "why": "Terrorism and voting in Turkey."
+  },
+  {
+   "source": "akturk2011",
+   "target": "yegen2009",
+   "type": "builds_on",
+   "why": "Changing regimes of ethnicity in Turkey."
+  },
+  {
+   "source": "onis2014",
+   "target": "murinson2006",
+   "type": "qualifies",
+   "why": "Strategic depth overreached during the Arab revolutions."
+  },
+  {
+   "source": "aytaconis2014",
+   "target": "levitskyway2010",
+   "type": "builds_on",
+   "why": "Populism eroding competition in Turkey."
+  },
+  {
+   "source": "esengumuscu2016",
+   "target": "levitskyway2010",
+   "type": "extends_to_new_case",
+   "why": "Turkey became competitive authoritarian."
+  },
+  {
+   "source": "bermeo2016",
+   "target": "levitskyway2010",
+   "type": "builds_on",
+   "why": "Backsliding through executive aggrandizement."
+  },
+  {
+   "source": "somer2016",
+   "target": "gumuscu2010",
+   "type": "builds_on",
+   "why": "Islamist strategies toward the state in Turkey and Tunisia."
+  },
+  {
+   "source": "tas2017",
+   "target": "yavuz2003",
+   "type": "builds_on",
+   "why": "Islamist factions fought over the state."
+  },
+  {
+   "source": "esengumuscu2017jod",
+   "target": "esengumuscu2016",
+   "type": "builds_on",
+   "why": "The failed coup and deepening authoritarianism."
+  },
+  {
+   "source": "aytac2017",
+   "target": "pearlman2013",
+   "type": "builds_on",
+   "why": "Moral outrage over repression drove Gezi participation."
+  },
+  {
+   "source": "bashirov2018",
+   "target": "somer2016",
+   "type": "builds_on",
+   "why": "The AKP radicalized in power."
+  },
+  {
+   "source": "svolik2019",
+   "target": "bermeo2016",
+   "type": "builds_on",
+   "why": "Polarization makes voters tolerate backsliding."
+  },
+  {
+   "source": "yilmazturner2019",
+   "target": "esengumuscu2016",
+   "type": "builds_on",
+   "why": "From competitive to fuller authoritarianism."
+  },
+  {
+   "source": "levitskyway2020",
+   "target": "esengumuscu2016",
+   "type": "synthesizes",
+   "why": "Turkey among the new competitive authoritarian regimes."
+  },
+  {
+   "source": "selcuk2020",
+   "target": "esengumuscu2016",
+   "type": "qualifies",
+   "why": "Opposition coordination can win under competitive authoritarianism."
+  },
+  {
+   "source": "laebensozturk2020",
+   "target": "svolik2019",
+   "type": "mechanism_tested_by",
+   "why": "Partisan identities in Turkey make supporters tolerate autocratization."
+  },
+  {
+   "source": "anderson1986",
+   "target": "batatu1978",
+   "type": "builds_on",
+   "why": "Class and state formation in North Africa."
+  },
+  {
+   "source": "anderson1987",
+   "target": "anderson1986",
+   "type": "builds_on",
+   "why": "Generalizes state-formation analysis to the region."
+  },
+  {
+   "source": "mitchell1988",
+   "target": "anderson1987",
+   "type": "challenges",
+   "why": "Colonial power as discipline, not just state capacity."
+  },
+  {
+   "source": "lustick1997",
+   "target": "anderson1987",
+   "type": "builds_on",
+   "why": "External intervention blocked war-made states."
+  },
+  {
+   "source": "waldner1999",
+   "target": "anderson1987",
+   "type": "builds_on",
+   "why": "Elite conflict and mass incorporation shaped state-building in Syria and Turkey."
+  },
+  {
+   "source": "thompson2000",
+   "target": "mitchell1988",
+   "type": "builds_on",
+   "why": "Colonial citizenship and gender order in the mandates."
+  },
+  {
+   "source": "barkey2008",
+   "target": "mardin1973",
+   "type": "builds_on",
+   "why": "Ottoman rule through brokerage and negotiated center-periphery ties."
+  },
+  {
+   "source": "kuran2011",
+   "target": "barkey2008",
+   "type": "challenges",
+   "why": "Islamic law, not imperial brokerage, explains economic stagnation."
+  },
+  {
+   "source": "belge2011",
+   "target": "barkey2008",
+   "type": "builds_on",
+   "why": "Kinship networks limited state reach in the Turkish Republic."
+  },
+  {
+   "source": "blaydes2017",
+   "target": "anderson1987",
+   "type": "synthesizes",
+   "why": "Reviews state building in the region."
+  },
+  {
+   "source": "blaydes2017",
+   "target": "lustick1997",
+   "type": "synthesizes",
+   "why": "Integrates external and historical accounts of state weakness."
+  },
+  {
+   "source": "hinnebusch2014",
+   "target": "anderson1986",
+   "type": "builds_on",
+   "why": "State formation paths shape uprising outcomes in North Africa."
+  },
+  {
+   "source": "hinnebusch2003",
+   "target": "lustick1997",
+   "type": "builds_on",
+   "why": "An externally imposed state system shapes regional conflict."
+  },
+  {
+   "source": "alshehabi2019",
+   "target": "thompson2000",
+   "type": "builds_on",
+   "why": "Colonial origins of Gulf labor regimes."
+  },
+  {
+   "source": "tessler2002",
+   "target": "stepan2000",
+   "type": "builds_on",
+   "why": "Survey test of whether Islam undermines democratic support."
+  },
+  {
+   "source": "moaddel2006",
+   "target": "tessler2002",
+   "type": "extends_to_new_case",
+   "why": "Saudi values and attitudes toward religion in politics."
+  },
+  {
+   "source": "furialucas2006",
+   "target": "tessler2002",
+   "type": "builds_on",
+   "why": "Arab foreign-policy attitudes reflect policies, not civilization."
+  },
+  {
+   "source": "tesslerrobbins2007",
+   "target": "furialucas2006",
+   "type": "builds_on",
+   "why": "Approval of anti-US terrorism reflects policy judgments."
+  },
+  {
+   "source": "jamal2007",
+   "target": "tessler2002",
+   "type": "qualifies",
+   "why": "Associational life under clientelism does not build democratic values."
+  },
+  {
+   "source": "jamaltessler2008",
+   "target": "tessler2002",
+   "type": "builds_on",
+   "why": "Arab Barometer shows high abstract support for democracy."
+  },
+  {
+   "source": "blaydeslinzer2012",
+   "target": "furialucas2006",
+   "type": "qualifies",
+   "why": "Elite competition drives anti-Americanism."
+  },
+  {
+   "source": "tessler2012",
+   "target": "jamaltessler2008",
+   "type": "builds_on",
+   "why": "Support for democracy after 2011."
+  },
+  {
+   "source": "jamal2012",
+   "target": "jamal2007",
+   "type": "builds_on",
+   "why": "US hegemony shapes democratic support."
+  },
+  {
+   "source": "jamal2012",
+   "target": "tesslerrobbins2007",
+   "type": "builds_on",
+   "why": "Attitudes toward the US shape views of democracy."
+  },
+  {
+   "source": "benstead2014",
+   "target": "jamaltessler2008",
+   "type": "qualifies",
+   "why": "Many doubt democracy's suitability because of performance concerns."
+  },
+  {
+   "source": "demiguel2015",
+   "target": "jamaltessler2008",
+   "type": "builds_on",
+   "why": "Arab Barometer analysis of voting behavior."
+  },
+  {
+   "source": "hertog2020",
+   "target": "jamaltessler2008",
+   "type": "builds_on",
+   "why": "Survey research applied to rentier attitudes."
+  },
+  {
+   "source": "alrababah2020",
+   "target": "jamaltessler2008",
+   "type": "extends_to_new_case",
+   "why": "Public opinion toward refugees in Jordan."
+  },
+  {
+   "source": "charrad2001",
+   "target": "kandiyoti1988",
+   "type": "builds_on",
+   "why": "State-kin relations shape women's rights."
+  },
+  {
+   "source": "abulughod2002",
+   "target": "kandiyoti1988",
+   "type": "builds_on",
+   "why": "Contextual analysis of patriarchy against rescue narratives."
+  },
+  {
+   "source": "ross2008",
+   "target": "fish2002",
+   "type": "challenges",
+   "why": "Oil, not Islam, keeps women out of the labor force and politics."
+  },
+  {
+   "source": "ross2008",
+   "target": "donnorussett2004",
+   "type": "challenges",
+   "why": "Oil explains the Arab gender gap that Islam was thought to explain."
+  },
+  {
+   "source": "blaydeslinzer2008",
+   "target": "fish2002",
+   "type": "qualifies",
+   "why": "Women's support for fundamentalism depends on labor-market prospects."
+  },
+  {
+   "source": "clarkyoung2008",
+   "target": "charrad2001",
+   "type": "builds_on",
+   "why": "Family law reform politics in Morocco and Jordan."
+  },
+  {
+   "source": "benstead2015",
+   "target": "blaydeslinzer2008",
+   "type": "builds_on",
+   "why": "Gender and religiosity shape candidate evaluation."
+  },
+  {
+   "source": "bushgao2017",
+   "target": "lustokar2006",
+   "type": "builds_on",
+   "why": "Quotas fit Jordan's tribal patronage elections."
+  },
+  {
+   "source": "tripp2019",
+   "target": "charrad2001",
+   "type": "builds_on",
+   "why": "Autocrats adopt women's rights for legitimacy."
+  },
+  {
+   "source": "tripp2019",
+   "target": "bushgao2017",
+   "type": "qualifies",
+   "why": "Women's rights reforms are not just strategic tools."
+  },
+  {
+   "source": "thompson2000",
+   "target": "kandiyoti1988",
+   "type": "builds_on",
+   "why": "Paternal privilege in colonial citizenship."
+  },
+  {
+   "source": "jamal2015",
+   "target": "chalcraft2009",
+   "type": "builds_on",
+   "why": "Hierarchies of migrant rights in the Gulf."
+  },
+  {
+   "source": "naidu2016",
+   "target": "jamal2015",
+   "type": "mechanism_tested_by",
+   "why": "Kafala restrictions give employers monopsony power."
+  },
+  {
+   "source": "alshehabi2019",
+   "target": "naidu2016",
+   "type": "builds_on",
+   "why": "Origins of the kafala system documented in imperial archives."
+  },
+  {
+   "source": "turner2015",
+   "target": "chalcraft2009",
+   "type": "builds_on",
+   "why": "Labor-market interests shaped encampment policy for Syrians."
+  },
+  {
+   "source": "fakhoury2017",
+   "target": "turner2015",
+   "type": "builds_on",
+   "why": "Lebanese governance of Syrian displacement."
+  },
+  {
+   "source": "tsourapas2018",
+   "target": "chalcraft2009",
+   "type": "builds_on",
+   "why": "Emigration states use diaspora policy for regime goals."
+  },
+  {
+   "source": "tsourapas2019",
+   "target": "turner2015",
+   "type": "builds_on",
+   "why": "Host states treat refugees as a source of rent."
+  },
+  {
+   "source": "tsourapas2019",
+   "target": "beblawiluciani1987",
+   "type": "extends_to_new_case",
+   "why": "Refugee rentier states."
+  },
+  {
+   "source": "schon2018",
+   "target": "salehyan2006",
+   "type": "builds_on",
+   "why": "When conflict produces migration."
+  },
+  {
+   "source": "alrababah2020",
+   "target": "turner2015",
+   "type": "builds_on",
+   "why": "Host attitudes toward Syrians in Jordan."
+  },
+  {
+   "source": "altindag2020",
+   "target": "alrababah2020",
+   "type": "builds_on",
+   "why": "Refugee inflows and host politics in Turkey."
+  },
+  {
+   "source": "alrababah2023",
+   "target": "schon2018",
+   "type": "builds_on",
+   "why": "Return intentions of Syrian refugees."
+  },
+  {
+   "source": "gaikwad2025",
+   "target": "naidu2016",
+   "type": "builds_on",
+   "why": "Gulf labor migration has political effects at home."
+  },
+  {
+   "source": "walt1987",
+   "target": "kerr1971",
+   "type": "builds_on",
+   "why": "Balance-of-threat theory built on inter-Arab alignment history."
+  },
+  {
+   "source": "david1991",
+   "target": "walt1987",
+   "type": "qualifies",
+   "why": "Leaders omnibalance against internal as well as external threats."
+  },
+  {
+   "source": "barnett1998",
+   "target": "kerr1971",
+   "type": "builds_on",
+   "why": "Inter-Arab rivalry as symbolic contest over Arabism."
+  },
+  {
+   "source": "barnett1998",
+   "target": "walt1987",
+   "type": "challenges",
+   "why": "Arab alignments reflect identity norms, not just threats."
+  },
+  {
+   "source": "hinnebusch2003",
+   "target": "david1991",
+   "type": "builds_on",
+   "why": "Regimes balance internal and external threats."
+  },
+  {
+   "source": "miller2006",
+   "target": "walt1987",
+   "type": "qualifies",
+   "why": "State-to-nation imbalance drives Middle East war-proneness."
+  },
+  {
+   "source": "solingen2008",
+   "target": "barnett1998",
+   "type": "qualifies",
+   "why": "Ruling coalition strategies explain weak regional institutions."
+  },
+  {
+   "source": "gause2010",
+   "target": "david1991",
+   "type": "builds_on",
+   "why": "Gulf states balance threats to regime security."
+  },
+  {
+   "source": "lake2010",
+   "target": "mearsheimerwalt2007",
+   "type": "qualifies",
+   "why": "The Iraq war reflects bargaining failures more than lobby pressure."
+  },
+  {
+   "source": "brownlee2012",
+   "target": "bellin2004",
+   "type": "builds_on",
+   "why": "International support sustained Egyptian authoritarianism."
+  },
+  {
+   "source": "valbjornbank2012",
+   "target": "kerr1971",
+   "type": "builds_on",
+   "why": "A new Arab cold war echoes the Nasser-era contest."
+  },
+  {
+   "source": "gause2014",
+   "target": "valbjornbank2012",
+   "type": "builds_on",
+   "why": "The new Middle East cold war fought through weak states."
+  },
+  {
+   "source": "gause2014",
+   "target": "gause2010",
+   "type": "builds_on",
+   "why": "Saudi-Iranian rivalry in regional politics."
+  },
+  {
+   "source": "yom2016",
+   "target": "david1991",
+   "type": "builds_on",
+   "why": "External patrons shape domestic coalitions."
+  },
+  {
+   "source": "lynch2006",
+   "target": "barnett1998",
+   "type": "builds_on",
+   "why": "Satellite TV revives an Arab public sphere."
+  },
+  {
+   "source": "vitalis2007",
+   "target": "walt1987",
+   "type": "challenges",
+   "why": "US-Saudi ties rest on hierarchy and myth, not balancing."
+  },
+  {
+   "source": "kim2019petro",
+   "target": "walt1987",
+   "type": "qualifies",
+   "why": "Oil interests drive great-power alignment with oil states."
+  },
+  {
+   "source": "richardswaterbury1990",
+   "target": "waterbury1983",
+   "type": "synthesizes",
+   "why": "Regional political economy of state-led development."
+  },
+  {
+   "source": "bellin2002",
+   "target": "richardswaterbury1990",
+   "type": "builds_on",
+   "why": "State-sponsored capital and labor become contingent democrats."
+  },
+  {
+   "source": "heydemann2004",
+   "target": "bellin2002",
+   "type": "builds_on",
+   "why": "Networks of privilege captured economic reform."
+  },
+  {
+   "source": "haddad2012",
+   "target": "heydemann2004",
+   "type": "extends_to_new_case",
+   "why": "State-business networks in Syria."
+  },
+  {
+   "source": "deelvira2014",
+   "target": "haddad2012",
+   "type": "builds_on",
+   "why": "Liberalization ended the Ba'thist social contract."
+  },
+  {
+   "source": "rijkers2017",
+   "target": "heydemann2004",
+   "type": "mechanism_tested_by",
+   "why": "Firm data show state capture by the Ben Ali family."
+  },
+  {
+   "source": "diwan2019",
+   "target": "rijkers2017",
+   "type": "synthesizes",
+   "why": "Regional evidence on connected firms."
+  },
+  {
+   "source": "hertog2020ser",
+   "target": "hertog2010book",
+   "type": "builds_on",
+   "why": "Insider-outsider segmentation in Arab economies."
+  },
+  {
+   "source": "hertog2020ser",
+   "target": "diwan2019",
+   "type": "builds_on",
+   "why": "Crony capitalism and segmented labor markets."
+  },
+  {
+   "source": "king2009",
+   "target": "bellin2002",
+   "type": "builds_on",
+   "why": "Economic liberalization rebuilt authoritarian coalitions."
+  },
+  {
+   "source": "waldner1999",
+   "target": "waterbury1983",
+   "type": "builds_on",
+   "why": "Precocious Keynesian states and development failure."
+  },
+  {
+   "source": "kuran2011",
+   "target": "richardswaterbury1990",
+   "type": "challenges",
+   "why": "Long-run legal institutions, not modern state policy, explain lagging development."
+  },
+  {
+   "source": "bounassif2013",
+   "target": "heydemann2004",
+   "type": "extends_to_new_case",
+   "why": "Military officers in networks of privilege."
+  },
+  {
+   "source": "harris2013",
+   "target": "heydemann2004",
+   "type": "extends_to_new_case",
+   "why": "Pseudo-privatization in Iran."
+  },
+  {
+   "source": "springborg2011",
+   "target": "king2009",
+   "type": "builds_on",
+   "why": "Crony capitalism as a cause of revolt."
+  },
+  {
+   "source": "chaudhry1997",
+   "target": "waterbury1983",
+   "type": "builds_on",
+   "why": "Booms and busts reshape state institutions."
+  },
+  {
+   "source": "bellin2012",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellin2012",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellin2012",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2007",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2009",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2009",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhiprzeworski2007",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhiprzeworski2007",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhilust2009",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2012book",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geddes1999",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2010",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2010",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2020",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bermeo2016",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2019",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuran1991",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stephanchenoweth2008",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellthyne2011",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caspertyson2014",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2018",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2018",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeschaney2013",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeschaney2013",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearlman2013",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "howardhussain2011",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinertthrelkeld2017",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2001",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2008",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2008",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2012",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2015",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrison2009",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karl1997",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2010",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2010",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahmed2012",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahmed2012",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2013",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2013",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2019petro",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kim2019petro",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walt1987",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvas2006",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2017",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2017",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuperman2008",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "salehyan2006",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "salehyan2006",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake2010",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2015",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berrebi2008",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "getmansky2014",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gaikwad2025",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2006",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herb2009",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herb2009",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harris2013",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harris2013",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "corstange2012",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "corstange2012",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarksalloukh2013",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierretselvik2009",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierretselvik2009",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moaddel2006",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moaddel2006",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fakhoury2017",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fakhoury2017",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bounassif2015",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bounassif2015",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deelvira2014",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deelvira2014",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wyrtzen2011",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wyrtzen2011",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "belge2011",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "belge2011",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "belge2011",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yegen2009",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yegen2009",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kamrava2009",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haddad2017",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rutherford2018",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rutherford2018",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yom2014",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yom2014",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bounassif2013",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bounassif2013",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forozan2017",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forozan2017",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "forozan2017",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gengler2016",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gengler2016",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "turner2015",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leendersheydemann2012",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leendersheydemann2012",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "onis2014",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "onis2014",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tas2017",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tas2017",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "josuaedel2021",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "josuaedel2021",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "albrecht2014",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "albrecht2014",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsourapas2018",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsourapas2018",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarkyoung2008",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarkyoung2008",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "springborg2011",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "springborg2011",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yilmazturner2019",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alshehabi2019",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alshehabi2019",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2020",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2020",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinnebusch2014",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinnebusch2014",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abdolmohammadi2015",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abdolmohammadi2015",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haddad2013",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haddad2013",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dechatel2014",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "murinson2006",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "murinson2006",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gumuscusert2009",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gumuscusert2009",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gumuscusert2009",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lustokar2006",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lustokar2006",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinnebusch2006",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "breuer2014",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cavatortamerone2013",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "selcuk2020",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "selcuk2020",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "somer2016",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "somer2016",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wegnerpellicer2009",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wegnerpellicer2009",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bank2013",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benstead2014",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bashirov2018",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bashirov2018",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beissinger2015",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beissinger2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarke2014",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aytaconis2014",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bushgao2017",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bushgao2017",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tezcurgurses2017",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tezcurgurses2017",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tezcurgurses2017",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gengler2021",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gengler2021",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grewalmonroe2019",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grewalmonroe2019",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kadivar2020",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kadivar2020",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2020",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2020",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwedler2011",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cammettissar2010",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cammettissar2010",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeslinzer2008",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeslinzer2008",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahdavi2015",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahdavi2015",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahdavi2015",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "akturk2011",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "akturk2011",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pansiegel2019",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pansiegel2019",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeslinzer2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeslinzer2012",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydeslinzer2012",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "siegelbadaan2020",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "revkin2020",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "revkin2020",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoffmanjamal2014",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoffmanjamal2014",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lawrence2016",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lawrence2016",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarkekocak2018",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearlman2016",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearlman2016",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wrightfrantzgeddes2013",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wrightfrantzgeddes2013",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alrababah2023",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andersenross2013",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alrababah2020",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alrababah2020",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciftci2010",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ciftci2010",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gumuscu2010",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gumuscu2010",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laebensozturk2020",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "laebensozturk2020",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "demiguel2015",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "demiguel2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masoud2016",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masoud2016",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson2006arps",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cammettluong2014",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cammettluong2014",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2017",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hale2013",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lynch2011",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lynch2011",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weyland2012",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benstead2015",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benstead2015",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lust2009",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jamaltessler2008",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yomgause2012",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yomgause2012",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepanlinz2013",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepanlinz2013",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barany2011",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barany2011",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diamond2010jod",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diamond2010jod",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepan2012",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepan2012",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "esengumuscu2017jod",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "esengumuscu2017jod",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tessler2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heydemann2013",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heydemann2013",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurzmannaqvi2010",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurzmannaqvi2010",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gidron2023",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesslerrobbins2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tesslerrobbins2007",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "halperin2008",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berman2011",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kibris2010",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kibris2010",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aytac2017",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aytac2017",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ashobradovich2019",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ashobradovich2019",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nepstad2013",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nepstad2013",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maoz2011",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "basedaulay2009",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "basedaulay2009",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tezcur2010",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tezcur2010",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tezcur2010",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dejuanbank2015",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dejuanbank2015",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schon2018",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schon2018",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2010",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2010",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grossman2015",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paine2016",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paine2016",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "furialucas2006",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "furialucas2006",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "solingen2008",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hegghammer2010",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hegghammer2010",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuperman2013",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuperman2013",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearlman2009",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biddle2012",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "biddle2012",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "talmadge2013",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "talmadge2013",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brooks2006",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ostovar2018",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ostovar2018",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2006",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller2006",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mclauchlin2017",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mclauchlin2017",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berman2011hearts",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "durante2018",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "naidu2016",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "naidu2016",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clingingsmith2009",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altindag2020",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altindag2020",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2020ser",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2020ser",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jamal2015",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jamal2015",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahdavy1970",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahdavy1970",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beblawiluciani1987",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skocpol1982",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "skocpol1982",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crystal1990",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crystal1990",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaudhry1997",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaudhry1997",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2004",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith2004",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herb2005",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vitalis2007",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vitalis2007",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2010book",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2010book",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hertog2010book",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell2011",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell2011",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herb2014",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herb2014",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gengler2015",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gengler2015",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gengler2015",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson1987",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson1987",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson1986",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellin2004",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellin2004",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brumberg2002",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brumberg2002",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "posusneyangrist2005",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2007book",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2007book",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heydemann2007",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heydemann2007",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wedeen1999",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2011",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2011",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king2009",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "king2009",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wedeen2019",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wedeen2019",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2018iraq",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blaydes2018iraq",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson1991",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gause1994",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gause1994",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herb1999",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lucas2004",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lucas2004",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "menaldo2012",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yom2016",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yom2016",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matthiesen2013",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matthiesen2013",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matthiesen2013",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lustokar2005",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lustokar2005",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "albrecht2005",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "albrecht2005",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "corstange2016",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "corstange2016",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gause2011",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gause2011",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lynch2012",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lynch2012",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2015",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2015",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2015",
+   "target": "rentier",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bayat2017",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ketchley2017",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ketchley2017",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malikawadallah2013",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malikawadallah2013",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell1969",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roy1994",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roy1994",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvas2000",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvas2000",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wickham2002",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hafez2003",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hafez2003",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clark2004",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwedler2006",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schwedler2006",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wickham2013",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2012",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brown2012",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masoud2014",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "masoud2014",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hamid2014",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brooke2019",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brooke2019",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepan2000",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fish2002",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fish2002",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tessler2002",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tessler2002",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepanrobertson2003",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepanrobertson2003",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "donnorussett2004",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "donnorussett2004",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuru2009",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuru2009",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuran2011",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuran2011",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuran2011",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaney2013",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chaney2013",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuru2019",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuru2019",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quinlivan1999",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quinlivan1999",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cook2007",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cook2007",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kandil2012",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kandil2012",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "makara2013",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "makara2013",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "talmadge2015",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "makdisi2000",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "makdisi2000",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasr2006",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasr2006",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gause2014",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gause2014",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hashemipostel2017",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cammett2014",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cammett2014",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lynch2016",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lynch2016",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "phillips2016",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "phillips2016",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "selby2017",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dodge2003",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dodge2003",
+   "target": "civilwar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lustick1980",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lustick1980",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morris1987",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morris1987",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shafir1989",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shafir1989",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "khalidi1997",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "khalidi1997",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smooha1997",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kyddwalter2002",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bloom2004",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bloom2004",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yiftachel2006",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearlman2011",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearlman2011",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaegerpaserman2008",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abrahamian1982",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arjomand1988",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arjomand1988",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurzman2004",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kurzman2004",
+   "target": "uprisings",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keshavarzian2007",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keshavarzian2007",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harris2017",
+   "target": "iran",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harris2017",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mardin1973",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mardin1973",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yavuz2003",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yavuz2003",
+   "target": "islamist",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "esengumuscu2016",
+   "target": "turkey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "esengumuscu2016",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "batatu1978",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "batatu1978",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "owen1992",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "owen1992",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ayubi1995",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ayubi1995",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lustick1997",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lustick1997",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell1988",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldner1999",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldner1999",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barkey2008",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2000",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2000",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jamal2007",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jamal2007",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jamal2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jamal2012",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lynch2006",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lynch2006",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kandiyoti1988",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "charrad2001",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "charrad2001",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abulughod2002",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abulughod2002",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahmood2005",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahmood2005",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tripp2019",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tripp2019",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chalcraft2009",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsourapas2019",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsourapas2019",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kerr1971",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "david1991",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "david1991",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barnett1998",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinnebusch2003",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hinnebusch2003",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimerwalt2007",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimerwalt2007",
+   "target": "israelpal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gause2010",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gause2010",
+   "target": "monarchy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2012",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2012",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valbjornbank2012",
+   "target": "regional",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valbjornbank2012",
+   "target": "sectarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waterbury1983",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waterbury1983",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "richardswaterbury1990",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "richardswaterbury1990",
+   "target": "stateformation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellin2002",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bellin2002",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heydemann2004",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haddad2012",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haddad2012",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rijkers2017",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rijkers2017",
+   "target": "auth",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "diwan2019",
+   "target": "cronyism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

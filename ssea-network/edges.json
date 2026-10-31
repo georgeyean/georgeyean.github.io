@@ -1,0 +1,5200 @@
+{
+ "meta": {
+  "title": "South and Southeast Asian politics knowledge network, c. 1964-2026",
+  "built": "2026-10-28",
+  "description": "Key works and debates in the politics of South and Southeast Asia: Indian democracy and the party system, Hindu nationalism and the BJP, caste, ethnicity and quotas, communal violence, clientelism and vote buying, federalism and decentralization, military rule and civil-military relations in Pakistan, Bangladesh and beyond, insurgency and civil conflict, developmental states and the political economy of growth, authoritarian durability in Malaysia, Singapore, Vietnam and Cambodia, Indonesian democratization, bossism, oligarchy and populism in the Philippines, monarchy and coups in Thailand, Myanmar's military and transition, religion and Islam, corruption and bureaucratic accountability, democratic backsliding, and ASEAN and great-power competition. Works shared with the other maps are imported from them; others are top-cited 2006-2026 articles selected via Crossref (area-studies and political science journals) and anchoring books and classics. Direction: source (later or dependent work) -> target (earlier or anchoring work).",
+  "edge_types": {
+   "builds_on": "source extends or relies on target's argument or evidence",
+   "challenges": "source contests target's claim, mechanism or evidence",
+   "qualifies": "source adds a scope condition or moderating factor to target",
+   "extends_to_new_case": "source applies target's logic to a new population, period or domain",
+   "synthesizes": "source integrates target with other work",
+   "mechanism_tested_by": "source tests a mechanism implied by target",
+   "belongs_to": "work -> theme membership"
+  },
+  "counts": {
+   "work_nodes": 306,
+   "theme_nodes": 18,
+   "seed_from_papers_json": 6,
+   "crossref_top_cited": 175,
+   "anchors_supplement": 125,
+   "relation_edges": 362,
+   "membership_edges": 500
+  },
+  "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
+ },
+ "edges": [
+  {
+   "source": "weiner1967",
+   "target": "kothari1964",
+   "type": "builds_on",
+   "why": "Explains how Congress's organization sustained the one-party dominant 'system'."
+  },
+  {
+   "source": "weiner1967",
+   "target": "moore1966",
+   "type": "qualifies",
+   "why": "Party building, not just agrarian class structure, explains India's democratic survival."
+  },
+  {
+   "source": "rudolphrudolph1987",
+   "target": "kothari1964",
+   "type": "builds_on",
+   "why": "Centrist politics of the Congress system rest on a demand polity and bullock capitalists."
+  },
+  {
+   "source": "kohli1990",
+   "target": "weiner1967",
+   "type": "challenges",
+   "why": "The Congress organization Weiner described had decayed, producing a crisis of governability."
+  },
+  {
+   "source": "kohli1990",
+   "target": "huntington1968",
+   "type": "extends_to_new_case",
+   "why": "Mobilization outpacing weakened institutions creates disorder in Indian states."
+  },
+  {
+   "source": "lijphart1996",
+   "target": "kothari1964",
+   "type": "builds_on",
+   "why": "Reads the Congress system as a consociational grand coalition."
+  },
+  {
+   "source": "lijphart1996",
+   "target": "moore1966",
+   "type": "challenges",
+   "why": "Explains Indian democracy by power-sharing institutions rather than class structure."
+  },
+  {
+   "source": "yadav1999",
+   "target": "kothari1964",
+   "type": "builds_on",
+   "why": "Periodizes the decline of the Congress system into a third electoral system."
+  },
+  {
+   "source": "chhibber1999",
+   "target": "kohli1990",
+   "type": "builds_on",
+   "why": "Party decay and the weakness of associations shape how Indian parties mobilize cleavages."
+  },
+  {
+   "source": "heller2000",
+   "target": "kohli1990",
+   "type": "qualifies",
+   "why": "Democratic depth varies by state; Kerala shows institutions can deepen democracy."
+  },
+  {
+   "source": "chhibberkollman2004",
+   "target": "chhibber1999",
+   "type": "builds_on",
+   "why": "Links party-system fragmentation to the centralization of authority."
+  },
+  {
+   "source": "hicken2009",
+   "target": "chhibberkollman2004",
+   "type": "builds_on",
+   "why": "Party aggregation depends on the vertical concentration of power, tested in Asian cases."
+  },
+  {
+   "source": "ziegfeld2012",
+   "target": "chhibberkollman2004",
+   "type": "qualifies",
+   "why": "Coalition government at the center, not only decentralization, raised regional parties."
+  },
+  {
+   "source": "ziegfeld2016",
+   "target": "ziegfeld2012",
+   "type": "builds_on",
+   "why": "Book-length account of how clientelism favors regional parties."
+  },
+  {
+   "source": "ziegfeld2016",
+   "target": "chhibberkollman2004",
+   "type": "challenges",
+   "why": "Clientelist party building, not federal centralization, drives regional party success."
+  },
+  {
+   "source": "ahujachhibber2012",
+   "target": "yadav1999",
+   "type": "builds_on",
+   "why": "Explains the 'democratic upsurge' of poor voters through how they relate to the state."
+  },
+  {
+   "source": "tudor2013",
+   "target": "moore1966",
+   "type": "qualifies",
+   "why": "Class coalitions matter, but through the strength of the independence party."
+  },
+  {
+   "source": "tudor2013book",
+   "target": "tudor2013",
+   "type": "builds_on",
+   "why": "Book-length version of the India-Pakistan comparison."
+  },
+  {
+   "source": "tudor2013book",
+   "target": "jalal1990",
+   "type": "challenges",
+   "why": "Pakistan's autocracy reflects its weak founding party more than early security fears."
+  },
+  {
+   "source": "chandra2016",
+   "target": "chhibber1999",
+   "type": "builds_on",
+   "why": "Weakly organized parties make dynastic succession common."
+  },
+  {
+   "source": "tudorziegfeld2019",
+   "target": "kothari1964",
+   "type": "builds_on",
+   "why": "Explains the end of the Congress system through cleavages and organization."
+  },
+  {
+   "source": "tudorziegfeld2019",
+   "target": "tudor2013book",
+   "type": "builds_on",
+   "why": "Extends the focus on party organization to the end of dominance."
+  },
+  {
+   "source": "chhibberverma2019",
+   "target": "yadav1999",
+   "type": "challenges",
+   "why": "The fragmented third electoral system gave way to a second dominant-party system."
+  },
+  {
+   "source": "ziegfeld2020",
+   "target": "chhibberverma2019",
+   "type": "qualifies",
+   "why": "BJP dominance rests on opposition fragmentation more than a deep social coalition."
+  },
+  {
+   "source": "tudorslater2020",
+   "target": "tudor2013book",
+   "type": "synthesizes",
+   "why": "Generalizes the India-Pakistan argument about nationalist movements across Asia."
+  },
+  {
+   "source": "tudorslater2020",
+   "target": "slater2010",
+   "type": "synthesizes",
+   "why": "Combines nationalism with the contentious-politics origins of strong states."
+  },
+  {
+   "source": "auerbach2021",
+   "target": "chandra2004",
+   "type": "synthesizes",
+   "why": "Reviews how ethnicity, patronage and programs combine in Indian elections."
+  },
+  {
+   "source": "auerbach2021",
+   "target": "kitschelt2007",
+   "type": "qualifies",
+   "why": "Indian evidence complicates a sharp clientelist-programmatic dichotomy."
+  },
+  {
+   "source": "jaffrelot1996",
+   "target": "kohli1990",
+   "type": "builds_on",
+   "why": "Hindu nationalism exploited the decay of Congress and secular institutions."
+  },
+  {
+   "source": "hansen1999",
+   "target": "jaffrelot1996",
+   "type": "builds_on",
+   "why": "Adds middle-class anxieties and the plebeianization of democracy as drivers."
+  },
+  {
+   "source": "ruparelia2006",
+   "target": "jaffrelot1996",
+   "type": "qualifies",
+   "why": "Coalitions moderated the BJP only tactically, as Jaffrelot's strategic-moderation pattern predicts."
+  },
+  {
+   "source": "thachil2011",
+   "target": "jaffrelot1996",
+   "type": "builds_on",
+   "why": "RSS affiliates' service work helps an upper-caste party reach poor voters."
+  },
+  {
+   "source": "thachil2014",
+   "target": "thachil2011",
+   "type": "builds_on",
+   "why": "Book-length test of service-based mobilization."
+  },
+  {
+   "source": "thachil2014",
+   "target": "chandra2004",
+   "type": "challenges",
+   "why": "Poor voters can back an elite party without coethnic patronage."
+  },
+  {
+   "source": "jaffrelot2017jod",
+   "target": "hansen1999",
+   "type": "builds_on",
+   "why": "The saffron wave in power moves toward a de facto Hindu state."
+  },
+  {
+   "source": "mcdonnellcabrera2018",
+   "target": "jaffrelot1996",
+   "type": "extends_to_new_case",
+   "why": "Places the BJP within comparative populist radical right research."
+  },
+  {
+   "source": "chacko2018",
+   "target": "hansen1999",
+   "type": "builds_on",
+   "why": "Links the BJP's authoritarian populism to neoliberal restructuring."
+  },
+  {
+   "source": "jaffrelot2019sip",
+   "target": "thachil2014",
+   "type": "builds_on",
+   "why": "Welfare and nationalism draw poor and lower-caste voters to the BJP."
+  },
+  {
+   "source": "chhibberverma2019",
+   "target": "thachil2014",
+   "type": "builds_on",
+   "why": "Documents the BJP's broadened cross-caste coalition."
+  },
+  {
+   "source": "varshney2021scid",
+   "target": "mcdonnellcabrera2018",
+   "type": "qualifies",
+   "why": "Modi's appeal is populist and Hindu nationalist at once, not populism alone."
+  },
+  {
+   "source": "jaffrelot2021",
+   "target": "jaffrelot2017jod",
+   "type": "builds_on",
+   "why": "Book-length account of India's turn to ethnic democracy."
+  },
+  {
+   "source": "varshney2022",
+   "target": "varshney2002",
+   "type": "builds_on",
+   "why": "Ties majoritarian targeting of Muslims to the erosion of democracy."
+  },
+  {
+   "source": "sircar2022",
+   "target": "chandra2004",
+   "type": "challenges",
+   "why": "Religion now works like ethnicity, overriding caste head counts."
+  },
+  {
+   "source": "sircar2022",
+   "target": "jaffrelot2019sip",
+   "type": "builds_on",
+   "why": "A consolidated Hindu vote across castes."
+  },
+  {
+   "source": "aiyartillin2020",
+   "target": "stepan2011",
+   "type": "challenges",
+   "why": "The BJP's 'one nation' centralization strains the state-nation model."
+  },
+  {
+   "source": "jaffrelot2003",
+   "target": "yadav1999",
+   "type": "builds_on",
+   "why": "Lower-caste parties drove the post-1989 electoral system."
+  },
+  {
+   "source": "chandra2004",
+   "target": "horowitz1985",
+   "type": "builds_on",
+   "why": "Ethnic parties succeed where patronage and ethnic head counts align."
+  },
+  {
+   "source": "chandra2004",
+   "target": "jaffrelot2003",
+   "type": "qualifies",
+   "why": "Lower-caste parties win only where they offer elites representation and voters a winning head count."
+  },
+  {
+   "source": "chandra2005",
+   "target": "chandra2004",
+   "type": "builds_on",
+   "why": "Ethnic parties can stabilize democracy when identities are fluid."
+  },
+  {
+   "source": "chandra2005",
+   "target": "horowitz1985",
+   "type": "challenges",
+   "why": "Ethnic parties need not cause outbidding and breakdown."
+  },
+  {
+   "source": "chandra2006",
+   "target": "chandra2005",
+   "type": "builds_on",
+   "why": "Defines ethnic identity to support the constructivist view."
+  },
+  {
+   "source": "chandrawilkinson2008",
+   "target": "chandra2006",
+   "type": "builds_on",
+   "why": "Measures the ethnic categories that constructivism implies."
+  },
+  {
+   "source": "jaffrelot2006",
+   "target": "jaffrelot2003",
+   "type": "builds_on",
+   "why": "Reservations empowered lower castes politically more than economically."
+  },
+  {
+   "source": "chattopadhyayduflo2004",
+   "target": "pande2003",
+   "type": "builds_on",
+   "why": "Mandated representation of women shifts local spending."
+  },
+  {
+   "source": "bhavnani2009",
+   "target": "chattopadhyayduflo2004",
+   "type": "builds_on",
+   "why": "Quotas for women have lasting effects after they end."
+  },
+  {
+   "source": "bertrand2010",
+   "target": "jaffrelot2006",
+   "type": "mechanism_tested_by",
+   "why": "Tests who gains from caste quotas in education."
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "pande2003",
+   "type": "challenges",
+   "why": "Caste quotas in village councils do little to shift distribution because parties dominate."
+  },
+  {
+   "source": "chauchard2017",
+   "target": "chattopadhyayduflo2004",
+   "type": "builds_on",
+   "why": "Quotas work through changed perceptions, not only policy."
+  },
+  {
+   "source": "chauchard2017",
+   "target": "dunningnilekani2013",
+   "type": "qualifies",
+   "why": "Quotas matter symbolically even without redistribution."
+  },
+  {
+   "source": "lijphart1996",
+   "target": "horowitz1985",
+   "type": "challenges",
+   "why": "Consociation rather than centripetal design explains India."
+  },
+  {
+   "source": "adeney2017",
+   "target": "stepan2011",
+   "type": "qualifies",
+   "why": "Indian ethnofederalism works because units are cross-cut, a scope condition on state-nations."
+  },
+  {
+   "source": "singh2015",
+   "target": "heller2000",
+   "type": "builds_on",
+   "why": "Explains Kerala's social development through subnational solidarity."
+  },
+  {
+   "source": "varshney2001",
+   "target": "horowitz1985",
+   "type": "builds_on",
+   "why": "Explains variation in ethnic conflict across cities by civic ties."
+  },
+  {
+   "source": "varshney2002",
+   "target": "varshney2001",
+   "type": "builds_on",
+   "why": "Full matched-city study of Hindu-Muslim riots."
+  },
+  {
+   "source": "brass2003",
+   "target": "varshney2002",
+   "type": "challenges",
+   "why": "Riots are produced by institutionalized riot systems rather than missing civic links."
+  },
+  {
+   "source": "brass2003",
+   "target": "jaffrelot1996",
+   "type": "builds_on",
+   "why": "Hindu nationalist organizations are central to riot production."
+  },
+  {
+   "source": "wilkinson2004",
+   "target": "varshney2002",
+   "type": "challenges",
+   "why": "State electoral incentives, not civic ties, decide whether riots are stopped."
+  },
+  {
+   "source": "wilkinson2004",
+   "target": "brass2003",
+   "type": "builds_on",
+   "why": "Riots are politically produced, and states decide whether to protect minorities."
+  },
+  {
+   "source": "bohlkensergenti2010",
+   "target": "wilkinson2004",
+   "type": "qualifies",
+   "why": "Economic growth also reduces riots beyond electoral incentives."
+  },
+  {
+   "source": "mitraray2014",
+   "target": "wilkinson2004",
+   "type": "challenges",
+   "why": "Economic competition, not only electoral politics, drives Hindu-Muslim violence."
+  },
+  {
+   "source": "jha2013",
+   "target": "varshney2002",
+   "type": "builds_on",
+   "why": "Traces interethnic complementarity and civic ties to medieval trade."
+  },
+  {
+   "source": "jhawilkinson2012",
+   "target": "brass2003",
+   "type": "qualifies",
+   "why": "Organizational skill from combat made Partition violence more deadly."
+  },
+  {
+   "source": "bhavnanilacina2015",
+   "target": "wilkinson2004",
+   "type": "builds_on",
+   "why": "Political accommodation of migrants shapes riot risk."
+  },
+  {
+   "source": "nellis2016",
+   "target": "wilkinson2004",
+   "type": "mechanism_tested_by",
+   "why": "Close elections test whether governing parties prevent riots."
+  },
+  {
+   "source": "tajima2014",
+   "target": "varshney2002",
+   "type": "extends_to_new_case",
+   "why": "Explains communal violence in Indonesia through informal security institutions."
+  },
+  {
+   "source": "vanklinken2007",
+   "target": "brass2003",
+   "type": "extends_to_new_case",
+   "why": "Elite competition produces communal war in Indonesian provincial towns."
+  },
+  {
+   "source": "tajima2014",
+   "target": "vanklinken2007",
+   "type": "challenges",
+   "why": "Security vacuums from military retreat, not only elite competition, explain violence."
+  },
+  {
+   "source": "sidel1999",
+   "target": "scott1972",
+   "type": "challenges",
+   "why": "Philippine bosses rule through state resources and coercion, not reciprocal patron-client ties."
+  },
+  {
+   "source": "stokes2005",
+   "target": "scott1972",
+   "type": "builds_on",
+   "why": "Formalizes how machines monitor and reward clients."
+  },
+  {
+   "source": "wantchekon2003",
+   "target": "scott1972",
+   "type": "mechanism_tested_by",
+   "why": "Field experiment on clientelist versus programmatic appeals."
+  },
+  {
+   "source": "kitschelt2007",
+   "target": "scott1972",
+   "type": "synthesizes",
+   "why": "Integrates patron-client research into a theory of linkages."
+  },
+  {
+   "source": "keefer2007",
+   "target": "kitschelt2007",
+   "type": "builds_on",
+   "why": "Young democracies rely on clientelism because politicians cannot make credible promises."
+  },
+  {
+   "source": "hicken2011",
+   "target": "kitschelt2007",
+   "type": "synthesizes",
+   "why": "Reviews definitions and causes of clientelism."
+  },
+  {
+   "source": "mares2016",
+   "target": "stokes2005",
+   "type": "synthesizes",
+   "why": "Reviews vote buying, coercion and fraud."
+  },
+  {
+   "source": "chandra2004",
+   "target": "scott1972",
+   "type": "builds_on",
+   "why": "Patronage democracy makes ethnic head counts decisive."
+  },
+  {
+   "source": "ahujachhibber2012",
+   "target": "chandra2004",
+   "type": "qualifies",
+   "why": "Poor voters participate to assert citizenship, not only for patronage."
+  },
+  {
+   "source": "shin2015",
+   "target": "stokes2005",
+   "type": "qualifies",
+   "why": "Voters demand patronage, so clientelism is not only top-down."
+  },
+  {
+   "source": "aspinall2017jeas",
+   "target": "stokes2005",
+   "type": "qualifies",
+   "why": "Indonesian brokers are disloyal and monitoring weak, so vote buying is wasteful."
+  },
+  {
+   "source": "aspinallrohman2017",
+   "target": "aspinall2017jeas",
+   "type": "extends_to_new_case",
+   "why": "Money politics in village head elections."
+  },
+  {
+   "source": "heathtillin2017",
+   "target": "keefer2007",
+   "type": "builds_on",
+   "why": "Vote buying flourishes where institutions perform badly."
+  },
+  {
+   "source": "auerbachthachil2018",
+   "target": "stokes2005",
+   "type": "challenges",
+   "why": "Clients choose brokers, so brokers face accountability from below."
+  },
+  {
+   "source": "auerbach2020",
+   "target": "auerbachthachil2018",
+   "type": "builds_on",
+   "why": "Book-length account of the slum party-worker networks whose brokers clients choose."
+  },
+  {
+   "source": "auerbach2020",
+   "target": "chandra2004",
+   "type": "qualifies",
+   "why": "Party networks, not only coethnicity, shape public goods."
+  },
+  {
+   "source": "berenschot2018",
+   "target": "kitschelt2007",
+   "type": "extends_to_new_case",
+   "why": "State control of the economy explains district variation in Indonesian clientelism."
+  },
+  {
+   "source": "chauchard2018",
+   "target": "stokes2005",
+   "type": "challenges",
+   "why": "Handouts signal viability rather than buying monitored votes."
+  },
+  {
+   "source": "aspinallhicken2019",
+   "target": "hicken2011",
+   "type": "qualifies",
+   "why": "Clientelism can be organized beyond parties, through personal networks and machines."
+  },
+  {
+   "source": "aspinallhicken2019",
+   "target": "sidel1999",
+   "type": "builds_on",
+   "why": "Philippine local machines compared with Indonesian success teams."
+  },
+  {
+   "source": "pierskallasacks2019",
+   "target": "keefer2007",
+   "type": "mechanism_tested_by",
+   "why": "Public hiring before elections as patronage."
+  },
+  {
+   "source": "vaishnav2017",
+   "target": "chandra2004",
+   "type": "builds_on",
+   "why": "Criminal candidates use coethnic credibility to promise delivery."
+  },
+  {
+   "source": "bussell2019",
+   "target": "stokes2005",
+   "type": "challenges",
+   "why": "Many citizens contact high-level politicians directly rather than through brokers."
+  },
+  {
+   "source": "aspinallberenschot2019",
+   "target": "aspinall2017jeas",
+   "type": "builds_on",
+   "why": "Book-length analysis of Indonesian clientelism."
+  },
+  {
+   "source": "aspinallberenschot2019",
+   "target": "berenschot2018",
+   "type": "builds_on",
+   "why": "State resource dependence drives clientelism."
+  },
+  {
+   "source": "auerbach2021",
+   "target": "bussell2019",
+   "type": "synthesizes",
+   "why": "Integrates new Indian evidence on brokers and responsiveness."
+  },
+  {
+   "source": "querubin2016",
+   "target": "mccoy1993",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether holding office entrenches Philippine political families."
+  },
+  {
+   "source": "chandra2016",
+   "target": "querubin2016",
+   "type": "extends_to_new_case",
+   "why": "Dynastic politics in India parallels Philippine family persistence."
+  },
+  {
+   "source": "bardhan2002",
+   "target": "weingast1995",
+   "type": "qualifies",
+   "why": "Decentralization helps only where elite capture and weak accountability are limited."
+  },
+  {
+   "source": "sinha2005",
+   "target": "rudolphrudolph1987",
+   "type": "builds_on",
+   "why": "India's state is divided; regional elites shape development."
+  },
+  {
+   "source": "jenkins1999",
+   "target": "rudolphrudolph1987",
+   "type": "builds_on",
+   "why": "Federal arenas let reformers manage interest groups in a demand polity."
+  },
+  {
+   "source": "sinha2005",
+   "target": "jenkins1999",
+   "type": "builds_on",
+   "why": "Subnational politics shapes the course of reform."
+  },
+  {
+   "source": "stepan2011",
+   "target": "lijphart1996",
+   "type": "builds_on",
+   "why": "Accommodating multiple identities through federal design."
+  },
+  {
+   "source": "tillin2013",
+   "target": "chhibberkollman2004",
+   "type": "builds_on",
+   "why": "Party competition explains the creation of new states."
+  },
+  {
+   "source": "chattopadhyayduflo2004",
+   "target": "bardhan2002",
+   "type": "mechanism_tested_by",
+   "why": "Who holds local office shapes decentralized spending."
+  },
+  {
+   "source": "parthasarathy2019",
+   "target": "chattopadhyayduflo2004",
+   "type": "builds_on",
+   "why": "Studies deliberation in reserved and unreserved village assemblies."
+  },
+  {
+   "source": "kruks2018",
+   "target": "heller2000",
+   "type": "builds_on",
+   "why": "Citizens claim the state where social exposure is broad."
+  },
+  {
+   "source": "pierskalla2016",
+   "target": "bardhan2002",
+   "type": "extends_to_new_case",
+   "why": "Elites capture decentralization by creating new districts."
+  },
+  {
+   "source": "pepinskywihardja2011",
+   "target": "weingast1995",
+   "type": "challenges",
+   "why": "Indonesia's decentralization did not produce market-preserving growth."
+  },
+  {
+   "source": "shairrosenfield2014",
+   "target": "bardhan2002",
+   "type": "builds_on",
+   "why": "Measures decentralization across Southeast Asia."
+  },
+  {
+   "source": "maleskynguyentran2014",
+   "target": "bardhan2002",
+   "type": "challenges",
+   "why": "Recentralizing elected councils improved some services in Vietnam."
+  },
+  {
+   "source": "fan2009",
+   "target": "bardhan2002",
+   "type": "mechanism_tested_by",
+   "why": "Cross-national test of decentralization and corruption."
+  },
+  {
+   "source": "dasgupta2017",
+   "target": "berman2011",
+   "type": "qualifies",
+   "why": "Employment programs reduce insurgent violence when well implemented, despite weak unemployment-violence links."
+  },
+  {
+   "source": "aiyartillin2020",
+   "target": "tillin2013",
+   "type": "builds_on",
+   "why": "Federal bargains face BJP centralization."
+  },
+  {
+   "source": "crouch1978",
+   "target": "huntington1968",
+   "type": "extends_to_new_case",
+   "why": "Indonesia's army as a political institution filling an institutional vacuum."
+  },
+  {
+   "source": "jalal1990",
+   "target": "huntington1968",
+   "type": "qualifies",
+   "why": "Pakistan's military dominance came from security fears and external patronage, not only weak institutions."
+  },
+  {
+   "source": "cohen2004",
+   "target": "jalal1990",
+   "type": "builds_on",
+   "why": "Army dominance shapes Pakistan's contested national identity."
+  },
+  {
+   "source": "siddiqa2007",
+   "target": "jalal1990",
+   "type": "builds_on",
+   "why": "The military's economic empire entrenches its political role."
+  },
+  {
+   "source": "staniland2008",
+   "target": "jalal1990",
+   "type": "synthesizes",
+   "why": "Combines legitimacy and threat to explain divergent India-Pakistan civil-military paths."
+  },
+  {
+   "source": "mietzner2009",
+   "target": "crouch1978",
+   "type": "builds_on",
+   "why": "Traces the army's withdrawal from the politics Crouch described."
+  },
+  {
+   "source": "geddes1999",
+   "target": "huntington1968",
+   "type": "qualifies",
+   "why": "Military regimes break down more easily than party regimes because officers value unity."
+  },
+  {
+   "source": "svolik2012book",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Authoritarian power sharing and military control as core problems of dictatorship."
+  },
+  {
+   "source": "shah2014",
+   "target": "staniland2008",
+   "type": "builds_on",
+   "why": "The army's guardian beliefs explain its interventions in Pakistan."
+  },
+  {
+   "source": "fair2014",
+   "target": "cohen2004",
+   "type": "builds_on",
+   "why": "The Pakistan army's ideology makes it a revisionist actor."
+  },
+  {
+   "source": "wilkinson2015",
+   "target": "staniland2008",
+   "type": "builds_on",
+   "why": "India coup-proofed its army through ethnic balancing and civilian control."
+  },
+  {
+   "source": "wilkinson2015",
+   "target": "tudor2013book",
+   "type": "qualifies",
+   "why": "Military design, not only party strength, kept Indian democracy safe."
+  },
+  {
+   "source": "adeney2015",
+   "target": "levitskyway2010",
+   "type": "qualifies",
+   "why": "Pakistan's hybrid regime needs a multidimensional concept including military tutelage."
+  },
+  {
+   "source": "adeney2015",
+   "target": "shah2014",
+   "type": "builds_on",
+   "why": "Military tutelage alongside elected governments."
+  },
+  {
+   "source": "greitens2016",
+   "target": "svolik2012book",
+   "type": "builds_on",
+   "why": "Coercive institutions are designed around coup and mass threats, as in the Philippines under Marcos."
+  },
+  {
+   "source": "chamberswaitoolkiat2016",
+   "target": "riggs1966",
+   "type": "builds_on",
+   "why": "Thailand's military remains a political actor, now fused with the monarchy."
+  },
+  {
+   "source": "chamberswaitoolkiat2016",
+   "target": "mccargo2005",
+   "type": "builds_on",
+   "why": "The military is a pillar of network monarchy."
+  },
+  {
+   "source": "callahan2012",
+   "target": "callahan2003",
+   "type": "builds_on",
+   "why": "The generals' opening keeps the military-state Callahan described."
+  },
+  {
+   "source": "riaz2020",
+   "target": "levitskyway2010",
+   "type": "extends_to_new_case",
+   "why": "Bangladesh slid into competitive authoritarianism."
+  },
+  {
+   "source": "tambiah1986",
+   "target": "horowitz1985",
+   "type": "builds_on",
+   "why": "Majoritarian ethnic politics dismantles Sri Lanka's democracy."
+  },
+  {
+   "source": "devotta2004",
+   "target": "tambiah1986",
+   "type": "builds_on",
+   "why": "Linguistic nationalism and outbidding decayed institutions and caused war."
+  },
+  {
+   "source": "devotta2004",
+   "target": "horowitz1985",
+   "type": "extends_to_new_case",
+   "why": "Ethnic outbidding explains Sri Lankan conflict."
+  },
+  {
+   "source": "devotta2009",
+   "target": "devotta2004",
+   "type": "builds_on",
+   "why": "Explains the LTTE's defeat after the conflict DeVotta traced."
+  },
+  {
+   "source": "croninfurman2019",
+   "target": "devotta2009",
+   "type": "builds_on",
+   "why": "Postwar accountability after the LTTE defeat."
+  },
+  {
+   "source": "mckenna1998",
+   "target": "scott1976",
+   "type": "qualifies",
+   "why": "Ordinary Muslims supported rebellion for everyday political reasons, not only moral economy."
+  },
+  {
+   "source": "bose2003",
+   "target": "tambiah1986",
+   "type": "extends_to_new_case",
+   "why": "Denial of democratic self-rule drives insurgency in Kashmir."
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "scott1976",
+   "type": "challenges",
+   "why": "Insurgency follows state weakness and terrain, not grievances of subsistence."
+  },
+  {
+   "source": "kalyvas2006",
+   "target": "scott1976",
+   "type": "challenges",
+   "why": "Violence follows territorial control rather than peasant grievance."
+  },
+  {
+   "source": "kalyvaskocher2007",
+   "target": "kalyvas2006",
+   "type": "builds_on",
+   "why": "Free riding is costly when violence is selective, with Vietnam evidence."
+  },
+  {
+   "source": "weinstein2007",
+   "target": "scott1976",
+   "type": "qualifies",
+   "why": "Rebel resource endowments shape behavior beyond grievances."
+  },
+  {
+   "source": "kocher2011",
+   "target": "kalyvas2006",
+   "type": "mechanism_tested_by",
+   "why": "Tests indiscriminate violence and control using Vietnam bombing."
+  },
+  {
+   "source": "kocher2011",
+   "target": "kalyvaskocher2007",
+   "type": "builds_on",
+   "why": "Uses Vietnam hamlet data on control and violence."
+  },
+  {
+   "source": "doiyer2010",
+   "target": "fearonlaitin2003",
+   "type": "extends_to_new_case",
+   "why": "Poverty and terrain explain the intensity of Nepal's insurgency."
+  },
+  {
+   "source": "gilligan2013",
+   "target": "doiyer2010",
+   "type": "builds_on",
+   "why": "Studies social effects of Nepal's civil war."
+  },
+  {
+   "source": "dejuanpierskalla2014",
+   "target": "gilligan2013",
+   "type": "qualifies",
+   "why": "War violence lowers trust in government even as it may raise local cohesion."
+  },
+  {
+   "source": "berman2011",
+   "target": "fearonlaitin2003",
+   "type": "challenges",
+   "why": "Unemployment does not raise insurgent violence, contrary to opportunity-cost views."
+  },
+  {
+   "source": "staniland2012",
+   "target": "weinstein2007",
+   "type": "challenges",
+   "why": "Social networks, not resources, explain insurgent cohesion."
+  },
+  {
+   "source": "staniland2014",
+   "target": "staniland2012",
+   "type": "builds_on",
+   "why": "Book-length typology of insurgent organization."
+  },
+  {
+   "source": "staniland2014",
+   "target": "weinstein2007",
+   "type": "challenges",
+   "why": "Prewar social bases rather than endowments shape rebel organization."
+  },
+  {
+   "source": "naseemullah2014",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Order in Pakistan's northwest depends on historical modes of governance, not just state weakness."
+  },
+  {
+   "source": "kapurganguly2012",
+   "target": "cohen2004",
+   "type": "builds_on",
+   "why": "Pakistan's use of militants follows from army doctrine."
+  },
+  {
+   "source": "shapirofair2010",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Poverty does not predict support for militancy in Pakistan."
+  },
+  {
+   "source": "blair2012",
+   "target": "shapirofair2010",
+   "type": "builds_on",
+   "why": "Poor Pakistanis dislike militants more than rich ones."
+  },
+  {
+   "source": "fair2012",
+   "target": "shapirofair2010",
+   "type": "builds_on",
+   "why": "Views of Islamic law, not piety, predict support for militancy."
+  },
+  {
+   "source": "johnstonsarbahi2016",
+   "target": "kapurganguly2012",
+   "type": "extends_to_new_case",
+   "why": "Drone strikes reduced militant attacks in Pakistan."
+  },
+  {
+   "source": "lacina2009",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Local ethnic autocracies tolerated by the center explain northeast Indian conflict."
+  },
+  {
+   "source": "dasgupta2017",
+   "target": "fearonlaitin2003",
+   "type": "mechanism_tested_by",
+   "why": "State capacity to deliver welfare reduces Maoist violence."
+  },
+  {
+   "source": "chandragarciaponce2019",
+   "target": "chandra2004",
+   "type": "builds_on",
+   "why": "Ethnic subaltern-led parties absorb constituencies insurgents would mobilize."
+  },
+  {
+   "source": "nairsambanis2019",
+   "target": "chandra2006",
+   "type": "mechanism_tested_by",
+   "why": "Violence exposure shifts which identity people adopt."
+  },
+  {
+   "source": "nairsambanis2019",
+   "target": "bose2003",
+   "type": "extends_to_new_case",
+   "why": "Violence in Kashmir strengthens Kashmiri identification."
+  },
+  {
+   "source": "rubin2019",
+   "target": "kalyvas2006",
+   "type": "builds_on",
+   "why": "Rebel control shapes civilian collective action in the Philippines."
+  },
+  {
+   "source": "aspinall2009",
+   "target": "bertrand2004",
+   "type": "builds_on",
+   "why": "Aceh's rebellion within Indonesia's contested national model."
+  },
+  {
+   "source": "bertrand2008",
+   "target": "bertrand2004",
+   "type": "builds_on",
+   "why": "Critical junctures time ethnic violence."
+  },
+  {
+   "source": "barron2016",
+   "target": "bertrand2008",
+   "type": "qualifies",
+   "why": "Everyday violence persisted after the large conflicts ended."
+  },
+  {
+   "source": "mccargo2008",
+   "target": "mckenna1998",
+   "type": "extends_to_new_case",
+   "why": "Legitimacy crises drive Malay Muslim insurgency in southern Thailand."
+  },
+  {
+   "source": "amsden1989",
+   "target": "johnson1982",
+   "type": "builds_on",
+   "why": "Korea as a developmental state that disciplined business."
+  },
+  {
+   "source": "wade1990",
+   "target": "johnson1982",
+   "type": "builds_on",
+   "why": "Governed markets in Taiwan."
+  },
+  {
+   "source": "haggard1990",
+   "target": "johnson1982",
+   "type": "builds_on",
+   "why": "Politics of export-led growth in East Asian NICs."
+  },
+  {
+   "source": "evans1995",
+   "target": "amsden1989",
+   "type": "synthesizes",
+   "why": "Embedded autonomy unites bureaucratic insulation and business ties, comparing Korea and India."
+  },
+  {
+   "source": "evans1995",
+   "target": "rudolphrudolph1987",
+   "type": "builds_on",
+   "why": "India's state lacked the embeddedness that Korea's had."
+  },
+  {
+   "source": "kang2002",
+   "target": "evans1995",
+   "type": "qualifies",
+   "why": "Development can coexist with corruption when state and business are mutual hostages."
+  },
+  {
+   "source": "kang2002",
+   "target": "hutchcroft1998",
+   "type": "builds_on",
+   "why": "Philippine booty capitalism contrasted with Korean cronyism."
+  },
+  {
+   "source": "kohli2004",
+   "target": "evans1995",
+   "type": "builds_on",
+   "why": "Cohesive-capitalist states industrialize fastest."
+  },
+  {
+   "source": "kohli2004",
+   "target": "rudolphrudolph1987",
+   "type": "challenges",
+   "why": "India's weak growth reflects a fragmented-multiclass state."
+  },
+  {
+   "source": "doner2005",
+   "target": "haggard1990",
+   "type": "challenges",
+   "why": "Systemic vulnerability, not insulation alone, explains developmental states."
+  },
+  {
+   "source": "doner2005",
+   "target": "evans1995",
+   "type": "qualifies",
+   "why": "Embedded autonomy arises only under systemic vulnerability."
+  },
+  {
+   "source": "vu2007",
+   "target": "doner2005",
+   "type": "qualifies",
+   "why": "State formation and elite unity explain developmental states."
+  },
+  {
+   "source": "vu2010",
+   "target": "vu2007",
+   "type": "builds_on",
+   "why": "Book-length comparison of developmental paths."
+  },
+  {
+   "source": "kohli2007scid",
+   "target": "kohli2004",
+   "type": "builds_on",
+   "why": "India's growth followed a pro-business state turn."
+  },
+  {
+   "source": "jenkins1999",
+   "target": "kohli1990",
+   "type": "qualifies",
+   "why": "Indian democracy proved able to carry out economic reform."
+  },
+  {
+   "source": "banerjeeiyer2005",
+   "target": "moore1966",
+   "type": "mechanism_tested_by",
+   "why": "Colonial landlord power has lasting effects on development."
+  },
+  {
+   "source": "iyer2010",
+   "target": "banerjeeiyer2005",
+   "type": "builds_on",
+   "why": "Direct versus indirect colonial rule shapes public goods."
+  },
+  {
+   "source": "stubbs2009",
+   "target": "johnson1982",
+   "type": "synthesizes",
+   "why": "Reviews the developmental state debate after globalization."
+  },
+  {
+   "source": "doner2009",
+   "target": "doner2005",
+   "type": "builds_on",
+   "why": "Thailand lacked systemic vulnerability and upgraded little."
+  },
+  {
+   "source": "kuhonta2011",
+   "target": "slater2010",
+   "type": "builds_on",
+   "why": "Strong parties and states produce equitable development."
+  },
+  {
+   "source": "kuhonta2011",
+   "target": "kang2002",
+   "type": "qualifies",
+   "why": "Institutional strength, not cronyism, decides equity in Southeast Asia."
+  },
+  {
+   "source": "rosser2007",
+   "target": "doner2005",
+   "type": "extends_to_new_case",
+   "why": "Indonesia's escape from the resource curse depended on coalitions and geopolitics."
+  },
+  {
+   "source": "pepinsky2008",
+   "target": "haggard1990",
+   "type": "builds_on",
+   "why": "Coalitions shape adjustment policy in authoritarian regimes."
+  },
+  {
+   "source": "pepinsky2009book",
+   "target": "pepinsky2008",
+   "type": "builds_on",
+   "why": "Book-length comparison of Indonesia and Malaysia in the crisis."
+  },
+  {
+   "source": "beresford2008",
+   "target": "kerkvliet2005",
+   "type": "builds_on",
+   "why": "Reviews the market socialism that peasant pressure helped bring."
+  },
+  {
+   "source": "london2009",
+   "target": "beresford2008",
+   "type": "builds_on",
+   "why": "Vietnam's market-Leninist regime."
+  },
+  {
+   "source": "malesky2014",
+   "target": "london2009",
+   "type": "synthesizes",
+   "why": "Reviews political economy of development in China and Vietnam."
+  },
+  {
+   "source": "rithmire2023",
+   "target": "kang2002",
+   "type": "builds_on",
+   "why": "State-business relations in authoritarian Asia shift between alignment and mutual endangerment."
+  },
+  {
+   "source": "selway2011",
+   "target": "hicken2009",
+   "type": "builds_on",
+   "why": "Electoral reform created national programmatic incentives in Thailand."
+  },
+  {
+   "source": "rudolphrudolph1987",
+   "target": "moore1966",
+   "type": "qualifies",
+   "why": "India's agrarian class structure produced bullock capitalists, not a landlord-led path."
+  },
+  {
+   "source": "slater2003",
+   "target": "crouch1996",
+   "type": "builds_on",
+   "why": "Mahathir personalized Malaysia's mixed regime."
+  },
+  {
+   "source": "weiss2006",
+   "target": "crouch1996",
+   "type": "builds_on",
+   "why": "Civil society and coalitions in a repressive-responsive regime."
+  },
+  {
+   "source": "rodan2004",
+   "target": "crouch1996",
+   "type": "extends_to_new_case",
+   "why": "Information control in Singapore and Malaysia."
+  },
+  {
+   "source": "brownlee2007book",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Ruling parties make authoritarian regimes durable."
+  },
+  {
+   "source": "brownlee2007book",
+   "target": "slater2003",
+   "type": "qualifies",
+   "why": "Malaysia's ruling party survived personalization."
+  },
+  {
+   "source": "brownlee2008jeas",
+   "target": "brownlee2007book",
+   "type": "builds_on",
+   "why": "Malaysia-Philippines comparison of party institutions."
+  },
+  {
+   "source": "gandhi2008",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Institutions such as legislatures help dictators survive."
+  },
+  {
+   "source": "pepinsky2007",
+   "target": "crouch1996",
+   "type": "builds_on",
+   "why": "Malaysia's mixed regime uses elections and fiscal spending to keep support."
+  },
+  {
+   "source": "george2007",
+   "target": "rodan2004",
+   "type": "builds_on",
+   "why": "Calibrated coercion in Singapore."
+  },
+  {
+   "source": "jayasuriyarodan2007",
+   "target": "rodan2004",
+   "type": "builds_on",
+   "why": "Participation without contestation in Southeast Asia."
+  },
+  {
+   "source": "jayasuriyarodan2007",
+   "target": "crouch1996",
+   "type": "qualifies",
+   "why": "Southeast Asian regimes add consultative participation while limiting contestation, beyond a repressive-responsive mix."
+  },
+  {
+   "source": "slater2010",
+   "target": "brownlee2007book",
+   "type": "qualifies",
+   "why": "Strong parties themselves arise from elite protection pacts under contentious politics."
+  },
+  {
+   "source": "slater2010",
+   "target": "doner2005",
+   "type": "builds_on",
+   "why": "Threat perceptions drive state and regime building in Southeast Asia."
+  },
+  {
+   "source": "levitskyway2010",
+   "target": "geddes1999",
+   "type": "builds_on",
+   "why": "Competitive authoritarian regimes differ by organizational power, including Malaysia."
+  },
+  {
+   "source": "malesky2008",
+   "target": "weingast1995",
+   "type": "extends_to_new_case",
+   "why": "FDI empowers Vietnamese provinces to push reform."
+  },
+  {
+   "source": "pepinsky2009",
+   "target": "pepinsky2008",
+   "type": "builds_on",
+   "why": "Malaysia's coalition politics and the 2008 election."
+  },
+  {
+   "source": "ortmann2011",
+   "target": "rodan2004",
+   "type": "qualifies",
+   "why": "Singapore became more competitive despite controls."
+  },
+  {
+   "source": "malesky2011cpol",
+   "target": "gandhi2008",
+   "type": "extends_to_new_case",
+   "why": "Inclusive single-party institutions reduce inequality in Vietnam."
+  },
+  {
+   "source": "hiep2012",
+   "target": "london2009",
+   "type": "builds_on",
+   "why": "Performance legitimacy of Vietnam's party."
+  },
+  {
+   "source": "slater2012jod",
+   "target": "slater2010",
+   "type": "builds_on",
+   "why": "Strong states make democratization from strength possible."
+  },
+  {
+   "source": "morgenbesser2016",
+   "target": "gandhi2008",
+   "type": "extends_to_new_case",
+   "why": "Elections legitimate Singapore's regime."
+  },
+  {
+   "source": "morgenbesser2017",
+   "target": "hughes2003",
+   "type": "challenges",
+   "why": "Cambodia is personalist rather than a party regime."
+  },
+  {
+   "source": "morgenbesser2019",
+   "target": "morgenbesser2017",
+   "type": "builds_on",
+   "why": "Hun Sen moves from competitive to hegemonic authoritarianism."
+  },
+  {
+   "source": "oliverostwald2018",
+   "target": "morgenbesser2016",
+   "type": "qualifies",
+   "why": "Valence voting also explains PAP dominance."
+  },
+  {
+   "source": "maleskyschuler2020",
+   "target": "malesky2011cpol",
+   "type": "builds_on",
+   "why": "Incumbency advantage under Vietnam's single party."
+  },
+  {
+   "source": "kerkvliet2005",
+   "target": "scott1976",
+   "type": "builds_on",
+   "why": "Everyday peasant politics transforms national policy in Vietnam."
+  },
+  {
+   "source": "hughes2003",
+   "target": "scott1972",
+   "type": "builds_on",
+   "why": "Patronage consolidates Cambodia's ruling party."
+  },
+  {
+   "source": "gupta1995",
+   "target": "wade1982",
+   "type": "builds_on",
+   "why": "Corruption is a system and a discourse through which citizens meet the state."
+  },
+  {
+   "source": "besleyburgess2002",
+   "target": "wade1982",
+   "type": "qualifies",
+   "why": "Informed voters and media make Indian state governments more responsive."
+  },
+  {
+   "source": "olken2006",
+   "target": "wade1982",
+   "type": "extends_to_new_case",
+   "why": "Leakage in Indonesian rice subsidies."
+  },
+  {
+   "source": "olken2007",
+   "target": "olken2006",
+   "type": "builds_on",
+   "why": "Field experiment on auditing village road projects."
+  },
+  {
+   "source": "bertrand2007",
+   "target": "wade1982",
+   "type": "mechanism_tested_by",
+   "why": "Experiment shows how bribes buy driver's licenses in Delhi."
+  },
+  {
+   "source": "treisman2007",
+   "target": "wade1982",
+   "type": "synthesizes",
+   "why": "Reviews cross-national causes of corruption."
+  },
+  {
+   "source": "changchu2006",
+   "target": "gupta1995",
+   "type": "qualifies",
+   "why": "Corruption lowers trust in Asian democracies, contrary to cultural exceptionalism."
+  },
+  {
+   "source": "kristiansenramli2006",
+   "target": "wade1982",
+   "type": "extends_to_new_case",
+   "why": "Indonesian civil service posts are bought, as in Indian irrigation."
+  },
+  {
+   "source": "maleskysamphantharak2008",
+   "target": "kang2002",
+   "type": "builds_on",
+   "why": "Predictable corruption is less harmful to investment."
+  },
+  {
+   "source": "pande2011",
+   "target": "besleyburgess2002",
+   "type": "synthesizes",
+   "why": "Reviews informed voting and governance in low-income democracies."
+  },
+  {
+   "source": "olkenpande2012",
+   "target": "olken2007",
+   "type": "synthesizes",
+   "why": "Reviews corruption measurement and control."
+  },
+  {
+   "source": "malesky2014ajps",
+   "target": "maleskysamphantharak2008",
+   "type": "builds_on",
+   "why": "Bribery by foreign firms in Vietnam."
+  },
+  {
+   "source": "gulzarpasquale2016",
+   "target": "besleyburgess2002",
+   "type": "builds_on",
+   "why": "Political oversight improves bureaucratic delivery in India."
+  },
+  {
+   "source": "bhavnanilee2018",
+   "target": "gulzarpasquale2016",
+   "type": "builds_on",
+   "why": "Bureaucrat embeddedness and accountability shape performance."
+  },
+  {
+   "source": "dasguptakapur2020",
+   "target": "gulzarpasquale2016",
+   "type": "qualifies",
+   "why": "Bureaucratic overload limits what political oversight can achieve."
+  },
+  {
+   "source": "vaishnav2017",
+   "target": "besleyburgess2002",
+   "type": "qualifies",
+   "why": "Informed voters may still choose criminal candidates."
+  },
+  {
+   "source": "heathtillin2017",
+   "target": "besleyburgess2002",
+   "type": "builds_on",
+   "why": "State institutional performance shapes vote buying."
+  },
+  {
+   "source": "mietzner2007",
+   "target": "slater2004",
+   "type": "builds_on",
+   "why": "Party finance feeds the cartel and corruption."
+  },
+  {
+   "source": "robisonhadiz2004",
+   "target": "crouch1978",
+   "type": "builds_on",
+   "why": "New Order power rested on a military-bureaucratic state that oligarchs later captured."
+  },
+  {
+   "source": "slater2004",
+   "target": "robisonhadiz2004",
+   "type": "qualifies",
+   "why": "Party cartels, not only oligarchy, block accountability after transition."
+  },
+  {
+   "source": "aspinall2005",
+   "target": "crouch1978",
+   "type": "builds_on",
+   "why": "Semi-opposition under the army-backed New Order shaped regime change."
+  },
+  {
+   "source": "hadiz2010",
+   "target": "robisonhadiz2004",
+   "type": "builds_on",
+   "why": "Oligarchic interests captured decentralized local power."
+  },
+  {
+   "source": "hadiz2010",
+   "target": "bardhan2002",
+   "type": "extends_to_new_case",
+   "why": "Elite capture of decentralization in Indonesia."
+  },
+  {
+   "source": "liddlemujani2007",
+   "target": "hefner2000",
+   "type": "qualifies",
+   "why": "Religion matters less than leaders and party identity in Indonesian voting."
+  },
+  {
+   "source": "aspinall2010",
+   "target": "robisonhadiz2004",
+   "type": "qualifies",
+   "why": "Accommodating old elites is why democracy survived, not only oligarchic capture."
+  },
+  {
+   "source": "aspinall2011",
+   "target": "bertrand2004",
+   "type": "builds_on",
+   "why": "Ethnic politics was domesticated into local patronage after the violent phase."
+  },
+  {
+   "source": "winters2011",
+   "target": "robisonhadiz2004",
+   "type": "builds_on",
+   "why": "Oligarchy theorized as wealth defense, with Indonesia and the Philippines as cases."
+  },
+  {
+   "source": "winters2011",
+   "target": "anderson1988",
+   "type": "builds_on",
+   "why": "Philippine cacique democracy as electoral oligarchy."
+  },
+  {
+   "source": "mietzner2012",
+   "target": "aspinall2010",
+   "type": "builds_on",
+   "why": "Anti-reform elites stall democracy, while civil society resists."
+  },
+  {
+   "source": "mietzner2015",
+   "target": "mietzner2012",
+   "type": "builds_on",
+   "why": "Jokowi's technocratic populism against Prabowo's authoritarian populism."
+  },
+  {
+   "source": "slater2018",
+   "target": "slater2004",
+   "type": "builds_on",
+   "why": "Presidential power sharing revives party cartelization."
+  },
+  {
+   "source": "warburton2018",
+   "target": "mietzner2012",
+   "type": "builds_on",
+   "why": "Elite agency drives regression in a permissive structure."
+  },
+  {
+   "source": "aspinall2019demz",
+   "target": "warburton2018",
+   "type": "builds_on",
+   "why": "Elites are less democratic than masses."
+  },
+  {
+   "source": "mietzner2019",
+   "target": "mietzner2015",
+   "type": "challenges",
+   "why": "Jokowi turned to executive illiberalism, not inclusive populism."
+  },
+  {
+   "source": "olken2010",
+   "target": "bardhan2002",
+   "type": "mechanism_tested_by",
+   "why": "Direct democracy in villages changes satisfaction more than project choice."
+  },
+  {
+   "source": "pierskalla2016",
+   "target": "hadiz2010",
+   "type": "builds_on",
+   "why": "Local elites created districts to capture resources."
+  },
+  {
+   "source": "pepinskywihardja2011",
+   "target": "hadiz2010",
+   "type": "qualifies",
+   "why": "Decentralization had small measurable economic effects."
+  },
+  {
+   "source": "pepinsky2009book",
+   "target": "robisonhadiz2004",
+   "type": "qualifies",
+   "why": "Coalitional splits, not oligarchic structure alone, toppled Suharto."
+  },
+  {
+   "source": "mccoy1993",
+   "target": "anderson1988",
+   "type": "builds_on",
+   "why": "Elite families are the units of cacique democracy."
+  },
+  {
+   "source": "hutchcroft1998",
+   "target": "anderson1988",
+   "type": "builds_on",
+   "why": "Oligarchic plunder of a weak state produces booty capitalism."
+  },
+  {
+   "source": "sidel1999",
+   "target": "mccoy1993",
+   "type": "challenges",
+   "why": "Bossism rests on state resources and coercion more than family networks."
+  },
+  {
+   "source": "hutchcroftrocamora2003",
+   "target": "hutchcroft1998",
+   "type": "builds_on",
+   "why": "Weak patronage parties create a democratic deficit."
+  },
+  {
+   "source": "sidel2008",
+   "target": "moore1966",
+   "type": "extends_to_new_case",
+   "why": "Moore's social-origins question applied to colonial states and Chinese capital in Southeast Asia."
+  },
+  {
+   "source": "sidel2008",
+   "target": "sidel1999",
+   "type": "builds_on",
+   "why": "Colonial state structures shaped Southeast Asian regimes."
+  },
+  {
+   "source": "brownlee2008jeas",
+   "target": "hutchcroft1998",
+   "type": "builds_on",
+   "why": "Marcos's personalism lacked a party to hold elites."
+  },
+  {
+   "source": "thompson2010jod",
+   "target": "hutchcroftrocamora2003",
+   "type": "builds_on",
+   "why": "Reformist and populist narratives answer the democratic deficit."
+  },
+  {
+   "source": "curato2016",
+   "target": "hutchcroftrocamora2003",
+   "type": "builds_on",
+   "why": "Duterte drew on grievances from failed liberal reform."
+  },
+  {
+   "source": "curato2016",
+   "target": "thompson2010jod",
+   "type": "builds_on",
+   "why": "Duterte as the latest turn of populism against reformism."
+  },
+  {
+   "source": "kennyholmes2020",
+   "target": "curato2016",
+   "type": "mechanism_tested_by",
+   "why": "Surveys test public support for penal populism."
+  },
+  {
+   "source": "sinpeng2020",
+   "target": "curato2016",
+   "type": "builds_on",
+   "why": "Social media fan networks carried Duterte's populism."
+  },
+  {
+   "source": "thompson2020demz",
+   "target": "thompson2010jod",
+   "type": "builds_on",
+   "why": "Executive aggrandizement under Duterte."
+  },
+  {
+   "source": "thompson2021jca",
+   "target": "thompson2020demz",
+   "type": "builds_on",
+   "why": "Violent populism as the basis of Duterte's legitimacy."
+  },
+  {
+   "source": "dulay2022",
+   "target": "kennyholmes2020",
+   "type": "qualifies",
+   "why": "Regional ethnolinguistic identity sustains Duterte support."
+  },
+  {
+   "source": "dulay2023",
+   "target": "dulay2022",
+   "type": "builds_on",
+   "why": "Continuity and identity explain the Marcos victory."
+  },
+  {
+   "source": "querubin2016",
+   "target": "sidel1999",
+   "type": "qualifies",
+   "why": "Incumbency, not only coercion, entrenches political families."
+  },
+  {
+   "source": "phongpaichitbaker2004",
+   "target": "riggs1966",
+   "type": "challenges",
+   "why": "Big business and elections replaced the bureaucratic polity."
+  },
+  {
+   "source": "mccargo2005",
+   "target": "riggs1966",
+   "type": "challenges",
+   "why": "Palace networks, not the bureaucracy alone, run Thai politics."
+  },
+  {
+   "source": "handley2006",
+   "target": "mccargo2005",
+   "type": "builds_on",
+   "why": "The monarchy as the dominant political institution."
+  },
+  {
+   "source": "hicken2006",
+   "target": "phongpaichitbaker2004",
+   "type": "builds_on",
+   "why": "Constitutional reform enabled Thaksin's Thai Rak Thai."
+  },
+  {
+   "source": "kuhonta2008",
+   "target": "hicken2006",
+   "type": "builds_on",
+   "why": "The 1997 constitution's design enabled Thaksin's dominance."
+  },
+  {
+   "source": "phongpaichitbaker2008",
+   "target": "phongpaichitbaker2004",
+   "type": "builds_on",
+   "why": "Thaksin's turn to populism."
+  },
+  {
+   "source": "winichakul2008",
+   "target": "mccargo2005",
+   "type": "builds_on",
+   "why": "Royalist ideology legitimized the 2006 coup."
+  },
+  {
+   "source": "dressel2010",
+   "target": "mccargo2005",
+   "type": "builds_on",
+   "why": "Courts became tools of the network monarchy against Thaksin."
+  },
+  {
+   "source": "selway2011",
+   "target": "hicken2006",
+   "type": "builds_on",
+   "why": "The same reform made national health policy attractive."
+  },
+  {
+   "source": "merieau2016",
+   "target": "dressel2010",
+   "type": "builds_on",
+   "why": "The Constitutional Court as part of the royalist deep state."
+  },
+  {
+   "source": "ricks2019",
+   "target": "chamberswaitoolkiat2016",
+   "type": "builds_on",
+   "why": "Junta-designed elections preserve military power."
+  },
+  {
+   "source": "thompson2020demz",
+   "target": "merieau2016",
+   "type": "builds_on",
+   "why": "Thailand's military-monarchy rule contrasted with Philippine aggrandizement."
+  },
+  {
+   "source": "callahan2003",
+   "target": "smith1991",
+   "type": "builds_on",
+   "why": "War against ethnic insurgents built Burma's military-state."
+  },
+  {
+   "source": "walton2008",
+   "target": "smith1991",
+   "type": "builds_on",
+   "why": "Contested myths of Panglong underlie ethnic conflict."
+  },
+  {
+   "source": "meehan2011",
+   "target": "smith1991",
+   "type": "builds_on",
+   "why": "Drug economies shape state-building in insurgent areas."
+  },
+  {
+   "source": "woods2011",
+   "target": "callahan2003",
+   "type": "builds_on",
+   "why": "Ceasefires extend military-state building into borderlands."
+  },
+  {
+   "source": "walton2013",
+   "target": "walton2008",
+   "type": "builds_on",
+   "why": "Burman privilege is built into Myanmar's state."
+  },
+  {
+   "source": "jones2013jca",
+   "target": "woods2011",
+   "type": "builds_on",
+   "why": "Capitalist elites from ceasefire economies shaped the transition."
+  },
+  {
+   "source": "jones2014demz",
+   "target": "callahan2003",
+   "type": "builds_on",
+   "why": "The military's peripheral pacification enabled the transition."
+  },
+  {
+   "source": "jones2014demz",
+   "target": "jones2013jca",
+   "type": "builds_on",
+   "why": "Political economy and peripheral pacification."
+  },
+  {
+   "source": "callahan2012",
+   "target": "svolik2012book",
+   "type": "extends_to_new_case",
+   "why": "A military regime opened on terms that protect its prerogatives."
+  },
+  {
+   "source": "cheesman2017",
+   "target": "walton2013",
+   "type": "builds_on",
+   "why": "'National races' doctrine institutionalizes ethnic hierarchy."
+  },
+  {
+   "source": "south2017",
+   "target": "meehan2011",
+   "type": "builds_on",
+   "why": "Ethnic armed groups govern their areas."
+  },
+  {
+   "source": "vanklinkenaung2017",
+   "target": "cheesman2017",
+   "type": "builds_on",
+   "why": "Anti-Muslim scapegoating during the transition."
+  },
+  {
+   "source": "christensen2019",
+   "target": "kalyvas2006",
+   "type": "extends_to_new_case",
+   "why": "Strategic violence during Myanmar's democratization."
+  },
+  {
+   "source": "nasr2001",
+   "target": "jalal1990",
+   "type": "builds_on",
+   "why": "Pakistani rulers used Islamization to build state power."
+  },
+  {
+   "source": "mujaniliddle2009",
+   "target": "liddlemujani2007",
+   "type": "builds_on",
+   "why": "Muslim Indonesians support secular democracy."
+  },
+  {
+   "source": "mujaniliddle2009",
+   "target": "hefner2000",
+   "type": "builds_on",
+   "why": "Civil Islam sustains secular democracy."
+  },
+  {
+   "source": "liow2009",
+   "target": "nasr2001",
+   "type": "builds_on",
+   "why": "UMNO-PAS competition Islamized Malaysian politics."
+  },
+  {
+   "source": "mohamad2010",
+   "target": "nasr2001",
+   "type": "builds_on",
+   "why": "Bureaucratic Islam extends state control over religion in Malaysia."
+  },
+  {
+   "source": "chen2010",
+   "target": "hefner2000",
+   "type": "qualifies",
+   "why": "Religious intensity rose as Islamic groups provided insurance during crisis."
+  },
+  {
+   "source": "lerner2013",
+   "target": "stepan2011",
+   "type": "builds_on",
+   "why": "Permissive constitutions handle religious divisions in India and Indonesia."
+  },
+  {
+   "source": "buehler2013",
+   "target": "liddlemujani2007",
+   "type": "challenges",
+   "why": "Secular party politicians, not Islamist parties, enacted sharia bylaws."
+  },
+  {
+   "source": "buehler2016",
+   "target": "buehler2013",
+   "type": "builds_on",
+   "why": "Islamist activists co-opt local elites to adopt sharia."
+  },
+  {
+   "source": "menchik2016",
+   "target": "hefner2000",
+   "type": "challenges",
+   "why": "Indonesian Muslim organizations are tolerant without being liberal."
+  },
+  {
+   "source": "mietzner2018",
+   "target": "menchik2016",
+   "type": "builds_on",
+   "why": "Islamist populism and illiberal state responses."
+  },
+  {
+   "source": "hadiz2018",
+   "target": "robisonhadiz2004",
+   "type": "builds_on",
+   "why": "Islamic populism serves oligarchic interests."
+  },
+  {
+   "source": "hadiz2018",
+   "target": "menchik2016",
+   "type": "qualifies",
+   "why": "Islamic mobilization is driven by political economy more than doctrine."
+  },
+  {
+   "source": "grzymalabusseslater2018",
+   "target": "lerner2013",
+   "type": "qualifies",
+   "why": "Church power depends on fusion with nationalism."
+  },
+  {
+   "source": "mietzner2020",
+   "target": "menchik2016",
+   "type": "builds_on",
+   "why": "NU members' intolerance confirms tolerance without liberalism."
+  },
+  {
+   "source": "sumaktoyo2021",
+   "target": "mietzner2018",
+   "type": "builds_on",
+   "why": "Religious sentiment drove the anti-Ahok vote."
+  },
+  {
+   "source": "fair2012",
+   "target": "nasr2001",
+   "type": "qualifies",
+   "why": "Doctrinal views, not general religiosity, drive militancy."
+  },
+  {
+   "source": "mccargo2008",
+   "target": "nasr2001",
+   "type": "qualifies",
+   "why": "Southern Thai unrest stems from state legitimacy, not Islamization."
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "levitskyway2010",
+   "type": "builds_on",
+   "why": "Elected leaders erode democracy from within."
+  },
+  {
+   "source": "pepinsky2017jod",
+   "target": "curato2016",
+   "type": "synthesizes",
+   "why": "Southeast Asian voters back strongmen promising order."
+  },
+  {
+   "source": "curatofossati2020",
+   "target": "mietzner2019",
+   "type": "synthesizes",
+   "why": "Authoritarian innovations across Southeast Asia."
+  },
+  {
+   "source": "haggardkaufman2021",
+   "target": "levitskyziblatt2018",
+   "type": "builds_on",
+   "why": "Polarization and executive aggrandizement drive backsliding."
+  },
+  {
+   "source": "tudor2023",
+   "target": "varshney2022",
+   "type": "builds_on",
+   "why": "Indian democracy in decline under the BJP."
+  },
+  {
+   "source": "tudor2023",
+   "target": "tudor2013book",
+   "type": "builds_on",
+   "why": "Founding party strength no longer protects Indian democracy."
+  },
+  {
+   "source": "varshney2022",
+   "target": "levitskyziblatt2018",
+   "type": "extends_to_new_case",
+   "why": "Indian democratic erosion through elected majoritarians."
+  },
+  {
+   "source": "jaffrelot2021",
+   "target": "levitskyziblatt2018",
+   "type": "extends_to_new_case",
+   "why": "Modi's India as backsliding within an ethnic democracy."
+  },
+  {
+   "source": "aspinall2019demz",
+   "target": "levitskyziblatt2018",
+   "type": "qualifies",
+   "why": "Elites rather than voters erode democracy in Indonesia."
+  },
+  {
+   "source": "morgenbesser2019",
+   "target": "levitskyway2010",
+   "type": "builds_on",
+   "why": "Cambodia moves out of competitive authoritarianism."
+  },
+  {
+   "source": "acharya2001",
+   "target": "leifer1989",
+   "type": "challenges",
+   "why": "ASEAN norms build a security community, not only a balance of power."
+  },
+  {
+   "source": "hemmer2002",
+   "target": "acharya2001",
+   "type": "builds_on",
+   "why": "Collective identity explains Asian bilateralism rather than NATO-style multilateralism."
+  },
+  {
+   "source": "acharya2004",
+   "target": "acharya2001",
+   "type": "builds_on",
+   "why": "Norm localization explains ASEAN institutional change."
+  },
+  {
+   "source": "katzenstein2005",
+   "target": "hemmer2002",
+   "type": "builds_on",
+   "why": "Porous regions within the American imperium."
+  },
+  {
+   "source": "ba2006",
+   "target": "acharya2001",
+   "type": "extends_to_new_case",
+   "why": "Socialization between ASEAN and China."
+  },
+  {
+   "source": "eatonstubbs2006",
+   "target": "acharya2001",
+   "type": "synthesizes",
+   "why": "Compares realist and constructivist views of ASEAN power."
+  },
+  {
+   "source": "eatonstubbs2006",
+   "target": "leifer1989",
+   "type": "synthesizes",
+   "why": "Realist view of ASEAN weighed against constructivism."
+  },
+  {
+   "source": "jonessmith2007",
+   "target": "acharya2001",
+   "type": "challenges",
+   "why": "ASEAN processes do not produce real security cooperation."
+  },
+  {
+   "source": "goh2008",
+   "target": "acharya2001",
+   "type": "builds_on",
+   "why": "Southeast Asian states enmesh great powers in regional order."
+  },
+  {
+   "source": "kuik2008",
+   "target": "goh2008",
+   "type": "builds_on",
+   "why": "Hedging as the core strategy toward a rising China."
+  },
+  {
+   "source": "jetschkeruland2009",
+   "target": "acharya2004",
+   "type": "challenges",
+   "why": "ASEAN rhetoric decouples from practice rather than localizing norms."
+  },
+  {
+   "source": "ba2009",
+   "target": "acharya2001",
+   "type": "builds_on",
+   "why": "Regionalism constructed through argument among members."
+  },
+  {
+   "source": "jones2010pr",
+   "target": "acharya2001",
+   "type": "challenges",
+   "why": "ASEAN often violated non-interference."
+  },
+  {
+   "source": "acharya2011",
+   "target": "acharya2004",
+   "type": "builds_on",
+   "why": "Norm subsidiarity complements localization."
+  },
+  {
+   "source": "fravel2011",
+   "target": "goh2008",
+   "type": "extends_to_new_case",
+   "why": "China's South China Sea strategy challenges regional order."
+  },
+  {
+   "source": "hiep2013",
+   "target": "kuik2008",
+   "type": "extends_to_new_case",
+   "why": "Vietnam's hedging toward China."
+  },
+  {
+   "source": "caballeroanthony2014",
+   "target": "acharya2001",
+   "type": "builds_on",
+   "why": "ASEAN centrality rests on network position."
+  },
+  {
+   "source": "caballeroanthony2014",
+   "target": "jonessmith2007",
+   "type": "challenges",
+   "why": "ASEAN is central as a regional hub despite weak output."
+  },
+  {
+   "source": "kuik2016",
+   "target": "kuik2008",
+   "type": "builds_on",
+   "why": "Unpacks how weaker states hedge."
+  },
+  {
+   "source": "shambaugh2018",
+   "target": "goh2008",
+   "type": "builds_on",
+   "why": "US-China competition in Southeast Asia."
+  },
+  {
+   "source": "fangli2022",
+   "target": "kuik2016",
+   "type": "mechanism_tested_by",
+   "why": "Public opinion on hedging in the Philippines."
+  },
+  {
+   "source": "slater2010",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2010",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2008",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2008",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2010",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2010",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunningnilekani2013",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2001",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2006",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "parthasarathy2019",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt2007",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hicken2011",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mares2016",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wantchekon2003",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2005",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keefer2007",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2010",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geddes1999",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "geddes1999",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2012book",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2012book",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gandhi2008",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huntington1968",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huntington1968",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moore1966",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearonlaitin2003",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treisman2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz1985",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz1985",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2004",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2004",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wilkinson2004",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wilkinson2004",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandrawilkinson2008",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "evans1995",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2007",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olkenpande2012",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleyburgess2002",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "besleyburgess2002",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pande2011",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pande2011",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weingast1995",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fan2009",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fan2009",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kocher2011",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvaskocher2007",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvas2006",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weinstein2007",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnstonsarbahi2016",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnstonsarbahi2016",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goh2008",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shambaugh2018",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2011",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hemmer2002",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuik2016",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2014",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2014",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rithmire2023",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2016",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greitens2016",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggardkaufman2021",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziegfeld2012",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziegfeld2012",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tudor2013",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tudor2013",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tudorziegfeld2019",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibberverma2019",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibberverma2019",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziegfeld2020",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziegfeld2020",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahujachhibber2012",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahujachhibber2012",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbach2021",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbach2021",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tudorslater2020",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tudorslater2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2017jod",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2017jod",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2022",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2022",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tudor2023",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcdonnellcabrera2018",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mcdonnellcabrera2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2021scid",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2021scid",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chacko2018",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chacko2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aiyartillin2020",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aiyartillin2020",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ruparelia2006",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sircar2022",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sircar2022",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2019sip",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2019sip",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thachil2011",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thachil2011",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2006",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bhavnani2009",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bhavnani2009",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertrand2010",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "singh2015",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "singh2015",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adeney2017",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adeney2017",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2009",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2009",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2011",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2011",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jha2013",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jha2013",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jhawilkinson2012",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jhawilkinson2012",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bhavnanilacina2015",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nellis2016",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nellis2016",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bohlkensergenti2010",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bohlkensergenti2010",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitraray2014",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nairsambanis2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nairsambanis2019",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbachthachil2018",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berenschot2018",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berenschot2018",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2017jeas",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2017jeas",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinallrohman2017",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinallrohman2017",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinallhicken2019",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinallhicken2019",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shin2015",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shin2015",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chauchard2018",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heathtillin2017",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heathtillin2017",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierskallasacks2019",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierskallasacks2019",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "querubin2016",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "querubin2016",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskynguyentran2014",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskynguyentran2014",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinskywihardja2011",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinskywihardja2011",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierskalla2016",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierskalla2016",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shairrosenfield2014",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gulzarpasquale2016",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gulzarpasquale2016",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dasguptakapur2020",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dasguptakapur2020",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bhavnanilee2018",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dasgupta2017",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dasgupta2017",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "staniland2008",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adeney2015",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adeney2015",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "riaz2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "riaz2020",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chamberswaitoolkiat2016",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chamberswaitoolkiat2016",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "callahan2012",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "callahan2012",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "staniland2012",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "naseemullah2014",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "naseemullah2014",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kapurganguly2012",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kapurganguly2012",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kapurganguly2012",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blair2012",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blair2012",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shapirofair2010",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shapirofair2010",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fair2012",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fair2012",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "doiyer2010",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilligan2013",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dejuanpierskalla2014",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berman2011",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berman2011",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandragarciaponce2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandragarciaponce2019",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "croninfurman2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen2019",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devotta2009",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lacina2009",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lacina2009",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barron2016",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barron2016",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertrand2008",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertrand2008",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rubin2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rubin2019",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stubbs2009",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vu2007",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vu2007",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kohli2007scid",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2008",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2008",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2007",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beresford2008",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beresford2008",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "london2009",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "london2009",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hiep2012",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosser2007",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rosser2007",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "selway2011",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "selway2011",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2008jeas",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2008jeas",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2012jod",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ortmann2011",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "george2007",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morgenbesser2016",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morgenbesser2017",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morgenbesser2019",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morgenbesser2019",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jayasuriyarodan2007",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oliverostwald2018",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskyschuler2020",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2011cpol",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2011cpol",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskysamphantharak2008",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskysamphantharak2008",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2014ajps",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2014ajps",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liddlemujani2007",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liddlemujani2007",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mujaniliddle2009",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mujaniliddle2009",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2010",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2012",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2007",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2018",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "warburton2018",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "warburton2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2019demz",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2019demz",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2019",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2019",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2018",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2018",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hadiz2018",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hadiz2018",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hadiz2018",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2020",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2020",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sumaktoyo2021",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sumaktoyo2021",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buehler2013",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buehler2013",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buehler2013",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chen2010",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chen2010",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "olken2006",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kristiansenramli2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kristiansenramli2006",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2010jod",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2010jod",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidel2008",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidel2008",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "curato2016",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "curato2016",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2021jca",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2021jca",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennyholmes2020",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennyholmes2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sinpeng2020",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dulay2022",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dulay2022",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dulay2023",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2020demz",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2020demz",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson2020demz",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grzymalabusseslater2018",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grzymalabusseslater2018",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fangli2022",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fangli2022",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "phongpaichitbaker2008",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "phongpaichitbaker2008",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winichakul2008",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "merieau2016",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "merieau2016",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuhonta2008",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hicken2006",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hicken2006",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dressel2010",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ricks2019",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ricks2019",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walton2008",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walton2008",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walton2013",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walton2013",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cheesman2017",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cheesman2017",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cheesman2017",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2013jca",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2013jca",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2014demz",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2014demz",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meehan2011",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meehan2011",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "south2017",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "south2017",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanklinkenaung2017",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanklinkenaung2017",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mohamad2010",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mohamad2010",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lerner2013",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "changchu2006",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertrand2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuik2008",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jonessmith2007",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ba2006",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caballeroanthony2014",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jones2010pr",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jetschkeruland2009",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eatonstubbs2006",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravel2011",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hiep2013",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "curatofossati2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2017jod",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kothari1964",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiner1967",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiner1967",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudolphrudolph1987",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rudolphrudolph1987",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kohli1990",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1996",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1996",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yadav1999",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "yadav1999",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibber1999",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibber1999",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heller2000",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "heller2000",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibberkollman2004",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibberkollman2004",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepan2011",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stepan2011",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tudor2013book",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tudor2013book",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziegfeld2016",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziegfeld2016",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2016",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2016",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot1996",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hansen1999",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2021",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2021",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2003",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jaffrelot2003",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chandra2005",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pande2003",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chattopadhyayduflo2004",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chattopadhyayduflo2004",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chauchard2017",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chauchard2017",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2002",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brass2003",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brass2003",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tajima2014",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tajima2014",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanklinken2007",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanklinken2007",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanklinken2007",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scott1972",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vaishnav2017",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vaishnav2017",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thachil2014",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thachil2014",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bussell2019",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bussell2019",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbach2020",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbach2020",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinallberenschot2019",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinallberenschot2019",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hicken2009",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hicken2009",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hicken2009",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bardhan2002",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sinha2005",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sinha2005",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tillin2013",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kruks2018",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kruks2018",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hadiz2010",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hadiz2010",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyer2010",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyer2010",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jalal1990",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2004",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen2004",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "siddiqa2007",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "siddiqa2007",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shah2014",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fair2014",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fair2014",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wilkinson2015",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wilkinson2015",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crouch1978",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crouch1978",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2009",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2009",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "callahan2003",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "callahan2003",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "scott1976",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tambiah1986",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devotta2004",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "devotta2004",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bose2003",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mckenna1998",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mckenna1998",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mckenna1998",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertrand2004",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bertrand2004",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2009",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2009",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2009",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccargo2008",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccargo2008",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccargo2008",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "staniland2014",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith1991",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "smith1991",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woods2011",
+   "target": "myanmar",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woods2011",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnson1982",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "amsden1989",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wade1990",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haggard1990",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kohli2004",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "doner2005",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jenkins1999",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jenkins1999",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "banerjeeiyer2005",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "doner2009",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "doner2009",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kang2002",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kang2002",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kang2002",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vu2010",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuhonta2011",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuhonta2011",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crouch1996",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2003",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hughes2003",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodan2004",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodan2004",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weiss2006",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brownlee2007book",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kerkvliet2005",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kerkvliet2005",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2009book",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2009book",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robisonhadiz2004",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2004",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aspinall2005",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winters2011",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "winters2011",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2015",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mietzner2015",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "anderson1988",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccoy1993",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccoy1993",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchcroft1998",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchcroft1998",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchcroft1998",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidel1999",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sidel1999",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchcroftrocamora2003",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "riggs1966",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "riggs1966",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccargo2005",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "phongpaichitbaker2004",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "handley2006",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasr2001",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasr2001",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hefner2000",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hefner2000",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liow2009",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liow2009",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "menchik2016",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "menchik2016",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buehler2016",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buehler2016",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wade1982",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gupta1995",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leifer1989",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2001",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2004",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "katzenstein2005",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ba2009",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  }
+ ]
+}

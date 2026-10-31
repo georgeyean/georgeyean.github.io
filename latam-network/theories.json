@@ -1,0 +1,1805 @@
+{
+ "meta": {
+  "field": "Latin American Politics",
+  "built": "2026-10-28",
+  "theories": 35,
+  "relations": 43,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "regimes",
+   "label": "Regimes, transitions & erosion",
+   "color": "#2563eb"
+  },
+  {
+   "id": "institutions",
+   "label": "Presidentialism, parties & courts",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "economy",
+   "label": "Development & political economy",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "linkages",
+   "label": "Clientelism, populism & voter linkages",
+   "color": "#ea580c"
+  },
+  {
+   "id": "state",
+   "label": "State capacity, violence & subnational politics",
+   "color": "#334155"
+  },
+  {
+   "id": "society",
+   "label": "Movements, identity & international influence",
+   "color": "#16a34a"
+  }
+ ],
+ "theories": [
+  {
+   "id": "structuralism",
+   "label": "ECLA structuralism & import substitution",
+   "family": "economy",
+   "year": 1950,
+   "origin": "Prebisch; Hirschman",
+   "core": "Declining terms of trade justify state-led industrialization, whose limits later become political.",
+   "works": [
+    {
+     "id": "prebisch1950",
+     "dir": "latam-network",
+     "label": "Prebisch 1950",
+     "title": "The Economic Development of Latin America and Its Principal Problems",
+     "authors": "Raúl Prebisch",
+     "year": 1950,
+     "journal": "United Nations, Economic Commission for Latin America (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hirschman1968",
+     "dir": "latam-network",
+     "label": "Hirschman 1968",
+     "title": "The Political Economy of Import-Substituting Industrialization in Latin America",
+     "authors": "Albert O. Hirschman",
+     "year": 1968,
+     "journal": "Quarterly Journal of Economics",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "dependency",
+   "label": "Dependency & dependent development",
+   "family": "economy",
+   "year": 1967,
+   "origin": "Frank; Cardoso & Faletto; Evans",
+   "core": "The periphery's place in world capitalism, mediated by domestic alliances, shapes development.",
+   "works": [
+    {
+     "id": "frank1967",
+     "dir": "latam-network",
+     "label": "Frank 1967",
+     "title": "Capitalism and Underdevelopment in Latin America: Historical Studies of Chile and Brazil",
+     "authors": "Andre Gunder Frank",
+     "year": 1967,
+     "journal": "Monthly Review Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "cardosofaletto1979",
+     "dir": "latam-network",
+     "label": "Cardoso 1979",
+     "title": "Dependency and Development in Latin America",
+     "authors": "Fernando Henrique Cardoso & Enzo Faletto",
+     "year": 1979,
+     "journal": "University of California Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "evans1979",
+     "dir": "latam-network",
+     "label": "Evans 1979",
+     "title": "Dependent Development: The Alliance of Multinational, State, and Local Capital in Brazil",
+     "authors": "Peter Evans",
+     "year": 1979,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ba",
+   "label": "Bureaucratic authoritarianism",
+   "family": "regimes",
+   "year": 1973,
+   "origin": "O'Donnell",
+   "core": "The exhaustion of easy import substitution led technocrats and militaries to authoritarian rule.",
+   "works": [
+    {
+     "id": "odonnell1973",
+     "dir": "latam-network",
+     "label": "O'Donnell 1973",
+     "title": "Modernization and Bureaucratic-Authoritarianism: Studies in South American Politics",
+     "authors": "Guillermo O'Donnell",
+     "year": 1973,
+     "journal": "Institute of International Studies, University of California, Berkeley (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "collier1979",
+     "dir": "latam-network",
+     "label": "Collier 1979",
+     "title": "The New Authoritarianism in Latin America",
+     "authors": "David Collier (ed.)",
+     "year": 1979,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "transitology",
+   "label": "Elite-centered transitions & pacts",
+   "family": "regimes",
+   "year": 1986,
+   "origin": "O'Donnell & Schmitter; Karl; Linz & Stepan",
+   "core": "Elite choices and pacts, under uncertainty, shape how dictatorships end and what democracy follows.",
+   "works": [
+    {
+     "id": "odonnell1986",
+     "dir": "latam-network",
+     "label": "O'Donnell 1986",
+     "title": "Transitions from Authoritarian Rule: Tentative Conclusions about Uncertain Democracies",
+     "authors": "Guillermo O'Donnell & Philippe C. Schmitter",
+     "year": 1986,
+     "journal": "Johns Hopkins University Press (book)",
+     "doi": "10.1007/978-3-531-90400-9_90",
+     "zotero": null
+    },
+    {
+     "id": "karl1990",
+     "dir": "latam-network",
+     "label": "Karl 1990",
+     "title": "Dilemmas of Democratization in Latin America",
+     "authors": "Terry Lynn Karl",
+     "year": 1990,
+     "journal": "Comparative Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "linzstepan1996",
+     "dir": "latam-network",
+     "label": "Linz 1996",
+     "title": "Problems of Democratic Transition and Consolidation: Southern Europe, South America, and Post-Communist Europe",
+     "authors": "Juan J. Linz & Alfred Stepan",
+     "year": 1996,
+     "journal": "Johns Hopkins University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "criticaljunctures",
+   "label": "Labor incorporation & critical junctures",
+   "family": "institutions",
+   "year": 1991,
+   "origin": "Collier & Collier",
+   "core": "How states incorporated labor set long-lasting party and regime trajectories.",
+   "works": [
+    {
+     "id": "colliercollier1991",
+     "dir": "latam-network",
+     "label": "Collier 1991",
+     "title": "Shaping the Political Arena: Critical Junctures, the Labor Movement, and Regime Dynamics in Latin America",
+     "authors": "Ruth Berins Collier & David Collier",
+     "year": 1991,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "capoccia2007",
+     "dir": "latam-network",
+     "label": "Capoccia 2007",
+     "title": "The Study of Critical Junctures: Theory, Narrative, and Counterfactuals in Historical Institutionalism",
+     "authors": "Giovanni Capoccia & R. Daniel Kelemen",
+     "year": 2007,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887100020852",
+     "zotero": null
+    },
+    {
+     "id": "soifer2012",
+     "dir": "latam-network",
+     "label": "Soifer 2012",
+     "title": "The Causal Logic of Critical Junctures",
+     "authors": "Hillel David Soifer",
+     "year": 2012,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414012463902",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "classpower",
+   "label": "Class power & democracy",
+   "family": "regimes",
+   "year": 1992,
+   "origin": "Rueschemeyer, Stephens & Stephens",
+   "core": "Capitalist development fosters democracy by empowering labor and weakening landlords.",
+   "works": [
+    {
+     "id": "rueschemeyer1992",
+     "dir": "latam-network",
+     "label": "Rueschemeyer 1992",
+     "title": "Capitalist Development and Democracy",
+     "authors": "Dietrich Rueschemeyer, Evelyne Huber Stephens & John D. Stephens",
+     "year": 1992,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "madrid2019",
+     "dir": "latam-network",
+     "label": "Madrid 2019",
+     "title": "Opposition Parties and the Origins of Democracy in Latin America",
+     "authors": "Raúl L. Madrid",
+     "year": 2019,
+     "journal": "Comparative Politics",
+     "doi": "10.5129/001041519x15647434969803",
+     "zotero": null
+    },
+    {
+     "id": "albertus2017",
+     "dir": "latam-network",
+     "label": "Albertus 2017",
+     "title": "Landowners and Democracy",
+     "authors": "Michael Albertus",
+     "year": 2017,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887116000277",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "perils",
+   "label": "Perils of presidentialism",
+   "family": "institutions",
+   "year": 1990,
+   "origin": "Linz; Mainwaring",
+   "core": "Fixed terms and dual legitimacy, especially with multipartism, make presidential democracies fragile.",
+   "works": [
+    {
+     "id": "linz1990",
+     "dir": "latam-network",
+     "label": "Linz 1990",
+     "title": "The Perils of Presidentialism",
+     "authors": "Juan J. Linz",
+     "year": 1990,
+     "journal": "Journal of Democracy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mainwaring1993",
+     "dir": "latam-network",
+     "label": "Mainwaring 1993",
+     "title": "Presidentialism, Multipartism, and Democracy: The Difficult Combination",
+     "authors": "Scott Mainwaring",
+     "year": 1993,
+     "journal": "Comparative Political Studies",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "coalitional",
+   "label": "Presidential powers & coalitional presidentialism",
+   "family": "institutions",
+   "year": 1992,
+   "origin": "Shugart & Carey; Figueiredo & Limongi; Cheibub",
+   "core": "Presidential powers and coalition tools make presidential systems workable.",
+   "works": [
+    {
+     "id": "shugartcarey1992",
+     "dir": "latam-network",
+     "label": "Shugart 1992",
+     "title": "Presidents and Assemblies: Constitutional Design and Electoral Dynamics",
+     "authors": "Matthew Soberg Shugart & John M. Carey",
+     "year": 1992,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "figueiredolimongi2000",
+     "dir": "latam-network",
+     "label": "Figueiredo 2000",
+     "title": "Presidential Power, Legislative Organization, and Party Behavior in Brazil",
+     "authors": "Argelina Cheibub Figueiredo & Fernando Limongi",
+     "year": 2000,
+     "journal": "Comparative Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "cheibub2004",
+     "dir": "latam-network",
+     "label": "Cheibub 2004",
+     "title": "Government Coalitions and Legislative Success Under Presidentialism and Parliamentarism",
+     "authors": "José Antonio Cheibub, Adam Przeworski & Sebastian M. Saiegh",
+     "year": 2004,
+     "journal": "British Journal of Political Science",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "pereiramelo2012",
+     "dir": "latam-network",
+     "label": "Pereira 2012",
+     "title": "The Surprising Success of Multiparty Presidentialism",
+     "authors": "Carlos Pereira & Marcus André Melo",
+     "year": 2012,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2012.0041",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "delegative",
+   "label": "Delegative democracy",
+   "family": "regimes",
+   "year": 1994,
+   "origin": "O'Donnell",
+   "core": "Elected presidents govern unchecked when horizontal accountability is weak.",
+   "works": [
+    {
+     "id": "odonnell1994",
+     "dir": "latam-network",
+     "label": "O'Donnell 1994",
+     "title": "Delegative Democracy",
+     "authors": "Guillermo O'Donnell",
+     "year": 1994,
+     "journal": "Journal of Democracy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "corralespenfold2014",
+     "dir": "latam-network",
+     "label": "Corrales 2014",
+     "title": "Manipulating Term Limits in Latin America",
+     "authors": "Javier Corrales & Michael Penfold",
+     "year": 2014,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2014.0066",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "newinstability",
+   "label": "Presidential falls without breakdown",
+   "family": "institutions",
+   "year": 2006,
+   "origin": "Hochstetler; Pérez-Liñán",
+   "core": "Impeachment and protest replace coups, so presidents fall while democracy survives.",
+   "works": [
+    {
+     "id": "hochstetler2006",
+     "dir": "latam-network",
+     "label": "Hochstetler 2006",
+     "title": "Rethinking Presidentialism: Challenges and Presidential Falls in South America",
+     "authors": "Kathryn Hochstetler",
+     "year": 2006,
+     "journal": "Comparative Politics",
+     "doi": "10.2307/20434009",
+     "zotero": null
+    },
+    {
+     "id": "perezlinan2007",
+     "dir": "latam-network",
+     "label": "Pérez-Liñán 2007",
+     "title": "Presidential Impeachment and the New Political Instability in Latin America",
+     "authors": "Aníbal Pérez-Liñán",
+     "year": 2007,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "marsteintredet2008",
+     "dir": "latam-network",
+     "label": "Marsteintredet 2008",
+     "title": "Reducing the Perils of Presidentialism in Latin America through Presidential Interruptions",
+     "authors": "Leiv Marsteintredet & Einar Berntzen",
+     "year": 2008,
+     "journal": "Comparative Politics",
+     "doi": "10.5129/001041508x12911362383714",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "psi",
+   "label": "Party-system institutionalization",
+   "family": "institutions",
+   "year": 1995,
+   "origin": "Mainwaring & Scully",
+   "core": "Party systems vary in stability, rootedness, legitimacy and organization.",
+   "works": [
+    {
+     "id": "mainwaringscully1995",
+     "dir": "latam-network",
+     "label": "Mainwaring 1995",
+     "title": "Building Democratic Institutions: Party Systems in Latin America",
+     "authors": "Scott Mainwaring & Timothy R. Scully (eds.)",
+     "year": 1995,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lunaaltman2011",
+     "dir": "latam-network",
+     "label": "Luna 2011",
+     "title": "Uprooted but Stable: Chilean Parties and the Concept of Party System Institutionalization",
+     "authors": "Juan Pablo Luna & David Altman",
+     "year": 2011,
+     "journal": "Latin American Politics and Society",
+     "doi": "10.1111/j.1548-2456.2011.00115.x",
+     "zotero": null
+    },
+    {
+     "id": "mainwaring2018",
+     "dir": "latam-network",
+     "label": "Mainwaring 2018",
+     "title": "Party Systems in Latin America: Institutionalization, Decay, and Collapse",
+     "authors": "Scott Mainwaring (ed.)",
+     "year": 2018,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "structuration",
+   "label": "Programmatic structuration",
+   "family": "linkages",
+   "year": 2007,
+   "origin": "Kitschelt et al.",
+   "core": "Party systems differ in programmatic versus clientelist linkages, rooted in development and state capacity.",
+   "works": [
+    {
+     "id": "kitschelt2007",
+     "dir": "latam-network",
+     "label": "Kitschelt 2007",
+     "title": "Patrons, Clients, and Policies: Patterns of Democratic Accountability and Political Competition",
+     "authors": "Herbert Kitschelt & Steven I. Wilkinson (eds.)",
+     "year": 2007,
+     "journal": "Cambridge University Press (edited volume)",
+     "doi": "10.1017/cbo9780511585869",
+     "zotero": null
+    },
+    {
+     "id": "kitschelt2010",
+     "dir": "latam-network",
+     "label": "Kitschelt 2010",
+     "title": "Latin American Party Systems",
+     "authors": "Herbert Kitschelt, Kirk A. Hawkins, Juan Pablo Luna, Guillermo Rosas & Elizabeth J. Zechmeister",
+     "year": 2010,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "branddilution",
+   "label": "Brand dilution & party collapse",
+   "family": "institutions",
+   "year": 2014,
+   "origin": "Lupu; Roberts",
+   "core": "Policy switches by parties during market reform dilute brands and cause collapse.",
+   "works": [
+    {
+     "id": "lupu2014",
+     "dir": "latam-network",
+     "label": "Lupu 2014",
+     "title": "Brand Dilution and the Breakdown of Political Parties in Latin America",
+     "authors": "Noam Lupu",
+     "year": 2014,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887114000197",
+     "zotero": null
+    },
+    {
+     "id": "roberts2014",
+     "dir": "latam-network",
+     "label": "Roberts 2014",
+     "title": "Changing Course in Latin America: Party Systems in the Neoliberal Era",
+     "authors": "Kenneth M. Roberts",
+     "year": 2014,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "lupu2016",
+     "dir": "latam-network",
+     "label": "Lupu 2016",
+     "title": "Party Brands in Crisis: Partisanship, Brand Dilution, and the Breakdown of Political Parties in Latin America",
+     "authors": "Noam Lupu",
+     "year": 2016,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "popstrategy",
+   "label": "Populism as political strategy",
+   "family": "linkages",
+   "year": 2001,
+   "origin": "Weyland; Roberts",
+   "core": "Personalistic leaders seek direct, unmediated support from mass followers, compatible with any economics.",
+   "works": [
+    {
+     "id": "weyland2001",
+     "dir": "latam-network",
+     "label": "Weyland 2001",
+     "title": "Clarifying a Contested Concept: Populism in the Study of Latin American Politics",
+     "authors": "Kurt Weyland",
+     "year": 2001,
+     "journal": "Comparative Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "roberts1995",
+     "dir": "latam-network",
+     "label": "Roberts 1995",
+     "title": "Neoliberalism and the Transformation of Populism in Latin America: The Peruvian Case",
+     "authors": "Kenneth M. Roberts",
+     "year": 1995,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ideational",
+   "label": "Ideational approach to populism",
+   "family": "linkages",
+   "year": 2004,
+   "origin": "Mudde; Hawkins; Rovira Kaltwasser",
+   "core": "Populism is a set of ideas opposing a virtuous people to a corrupt elite.",
+   "works": [
+    {
+     "id": "mudde2004",
+     "dir": "latam-network",
+     "label": "Mudde 2004",
+     "title": "The Populist Zeitgeist",
+     "authors": "Cas Mudde",
+     "year": 2004,
+     "journal": "Government and Opposition",
+     "doi": "10.1111/j.1477-7053.2004.00135.x",
+     "zotero": null
+    },
+    {
+     "id": "hawkins2009",
+     "dir": "latam-network",
+     "label": "Hawkins 2009",
+     "title": "Is Chávez Populist?",
+     "authors": "Kirk A. Hawkins",
+     "year": 2009,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414009331721",
+     "zotero": null
+    },
+    {
+     "id": "hawkinsrovira2017",
+     "dir": "latam-network",
+     "label": "Hawkins 2017",
+     "title": "The Ideational Approach to Populism",
+     "authors": "Kirk A. Hawkins & Cristóbal Rovira Kaltwasser",
+     "year": 2017,
+     "journal": "Latin American Research Review",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "twolefts",
+   "label": "Two lefts & rentier populism",
+   "family": "linkages",
+   "year": 2009,
+   "origin": "Weyland; Levitsky & Roberts; Mazzuca",
+   "core": "Party institutionalization and commodity rents divide moderate from radical lefts.",
+   "works": [
+    {
+     "id": "weyland2009",
+     "dir": "latam-network",
+     "label": "Weyland 2009",
+     "title": "The Rise of Latin America's Two Lefts: Insights from Rentier State Theory",
+     "authors": "Kurt Weyland",
+     "year": 2009,
+     "journal": "Comparative Politics",
+     "doi": "10.5129/001041509x12911362971918",
+     "zotero": null
+    },
+    {
+     "id": "levitskyroberts2011",
+     "dir": "latam-network",
+     "label": "Levitsky 2011",
+     "title": "The Resurgence of the Latin American Left",
+     "authors": "Steven Levitsky & Kenneth M. Roberts (eds.)",
+     "year": 2011,
+     "journal": "Johns Hopkins University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mazzuca2013",
+     "dir": "latam-network",
+     "label": "Mazzuca 2013",
+     "title": "Lessons from Latin America: The Rise of Rentier Populism",
+     "authors": "Sebastián L. Mazzuca",
+     "year": 2013,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2013.0034",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "machine",
+   "label": "Machine politics & perverse accountability",
+   "family": "linkages",
+   "year": 2005,
+   "origin": "Stokes; Calvo & Murillo",
+   "core": "Party machines monitor voters through brokers and hold them accountable for their votes.",
+   "works": [
+    {
+     "id": "stokes2005",
+     "dir": "latam-network",
+     "label": "Stokes 2005",
+     "title": "Perverse Accountability: A Formal Model of Machine Politics with Evidence from Argentina",
+     "authors": "Susan C. Stokes",
+     "year": 2005,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055405051683",
+     "zotero": null
+    },
+    {
+     "id": "calvomurillo2004",
+     "dir": "latam-network",
+     "label": "Calvo 2004",
+     "title": "Who Delivers? Partisan Clients in the Argentine Electoral Market",
+     "authors": "Ernesto Calvo & María Victoria Murillo",
+     "year": 2004,
+     "journal": "American Journal of Political Science",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "stokes2013",
+     "dir": "latam-network",
+     "label": "Stokes 2013",
+     "title": "Brokers, Voters, and Clientelism: The Puzzle of Distributive Politics",
+     "authors": "Susan C. Stokes, Thad Dunning, Marcelo Nazareno & Valeria Brusco",
+     "year": 2013,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "turnoutbuying",
+   "label": "Turnout buying & relational clientelism",
+   "family": "linkages",
+   "year": 2008,
+   "origin": "Nichter",
+   "core": "Machines reward supporters for turning out, and citizens demand ongoing help.",
+   "works": [
+    {
+     "id": "nichter2008",
+     "dir": "latam-network",
+     "label": "Nichter 2008",
+     "title": "Vote Buying or Turnout Buying? Machine Politics and the Secret Ballot",
+     "authors": "Simeon Nichter",
+     "year": 2008,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055408080106",
+     "zotero": null
+    },
+    {
+     "id": "gansmorse2014",
+     "dir": "latam-network",
+     "label": "Gans‐Morse 2013",
+     "title": "Varieties of Clientelism: Machine Politics during Elections",
+     "authors": "Jordan Gans‐Morse, Sebastián Mazzuca & Simeon Nichter",
+     "year": 2013,
+     "journal": "AJPS",
+     "doi": "10.1111/ajps.12058",
+     "zotero": null
+    },
+    {
+     "id": "nichter2018",
+     "dir": "latam-network",
+     "label": "Nichter 2018",
+     "title": "Votes for Survival: Relational Clientelism in Latin America",
+     "authors": "Simeon Nichter",
+     "year": 2018,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "reformpolitics",
+   "label": "Politics of neoliberal reform",
+   "family": "economy",
+   "year": 2001,
+   "origin": "Stokes; Weyland; Williamson",
+   "core": "Crises and policy switches explain why fragile democracies adopted market reform.",
+   "works": [
+    {
+     "id": "stokes2001",
+     "dir": "latam-network",
+     "label": "Stokes 2001",
+     "title": "Mandates and Democracy: Neoliberalism by Surprise in Latin America",
+     "authors": "Susan C. Stokes",
+     "year": 2001,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "weyland2002",
+     "dir": "latam-network",
+     "label": "Weyland 2002",
+     "title": "The Politics of Market Reform in Fragile Democracies: Argentina, Brazil, Peru, and Venezuela",
+     "authors": "Kurt Weyland",
+     "year": 2002,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "williamson1990",
+     "dir": "latam-network",
+     "label": "Williamson 1990",
+     "title": "What Washington Means by Policy Reform",
+     "authors": "John Williamson",
+     "year": 1990,
+     "journal": "Latin American Adjustment: How Much Has Happened? (chapter)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "democracyleft",
+   "label": "Democracy, the left & redistribution",
+   "family": "economy",
+   "year": 2012,
+   "origin": "Huber & Stephens",
+   "core": "Long democratic records and left strength expand social policy and cut inequality.",
+   "works": [
+    {
+     "id": "huberstephens2012",
+     "dir": "latam-network",
+     "label": "Huber 2012",
+     "title": "Democracy and the Left: Social Policy and Inequality in Latin America",
+     "authors": "Evelyne Huber & John D. Stephens",
+     "year": 2012,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hubermustillo2008",
+     "dir": "latam-network",
+     "label": "Huber 2008",
+     "title": "Politics and Social Spending in Latin America",
+     "authors": "Evelyne Huber, Thomas Mustillo & John D. Stephens",
+     "year": 2008,
+     "journal": "JOP",
+     "doi": "10.1017/s0022381608080407",
+     "zotero": null
+    },
+    {
+     "id": "pribble2009",
+     "dir": "latam-network",
+     "label": "Pribble 2009",
+     "title": "Politics, Policies, and Poverty in Latin America",
+     "authors": "Jennifer Pribble, Evelyne Huber & John D. Stephens",
+     "year": 2009,
+     "journal": "Comparative Politics",
+     "doi": "10.5129/001041509x12911362972430",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "outsiders",
+   "label": "Social policy for outsiders",
+   "family": "economy",
+   "year": 2013,
+   "origin": "Garay; Carnes & Mares; Holland & Schneider",
+   "core": "Electoral competition for informal workers and mobilization extend benefits beyond insiders.",
+   "works": [
+    {
+     "id": "garay2016",
+     "dir": "latam-network",
+     "label": "Garay 2016",
+     "title": "Social Policy Expansion in Latin America",
+     "authors": "Candelaria Garay",
+     "year": 2016,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "carnesmares2013",
+     "dir": "latam-network",
+     "label": "Carnes 2013",
+     "title": "Coalitional realignment and the adoption of non-contributory social insurance programmes in Latin America",
+     "authors": "M. E. Carnes & I. Mares",
+     "year": 2013,
+     "journal": "Socio-Economic Review",
+     "doi": "10.1093/ser/mwt024",
+     "zotero": null
+    },
+    {
+     "id": "hollandschneider2017",
+     "dir": "latam-network",
+     "label": "Holland 2017",
+     "title": "Easy and Hard Redistribution: The Political Economy of Welfare States in Latin America",
+     "authors": "Alisha C. Holland & Ben Ross Schneider",
+     "year": 2017,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592717002122",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "forbearance",
+   "label": "Forbearance as informal welfare",
+   "family": "economy",
+   "year": 2016,
+   "origin": "Holland",
+   "core": "Politicians deliberately do not enforce laws to redistribute to the poor.",
+   "works": [
+    {
+     "id": "holland2016",
+     "dir": "latam-network",
+     "label": "Holland 2016",
+     "title": "Forbearance",
+     "authors": "Alisha C. Holland",
+     "year": 2016,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055416000083",
+     "zotero": null
+    },
+    {
+     "id": "holland2017",
+     "dir": "latam-network",
+     "label": "Holland 2017",
+     "title": "Forbearance as Redistribution: The Politics of Informal Welfare in Latin America",
+     "authors": "Alisha C. Holland",
+     "year": 2017,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "feierherd2022",
+     "dir": "latam-network",
+     "label": "Feierherd 2022",
+     "title": "Courting Informal Workers: Exclusion, Forbearance, and the Left",
+     "authors": "Germán Feierherd",
+     "year": 2022,
+     "journal": "AJPS",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/MR838T4I"
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "businesspower",
+   "label": "Hierarchical capitalism & business power",
+   "family": "economy",
+   "year": 2009,
+   "origin": "Schneider; Fairfield",
+   "core": "Business groups and structural power constrain taxation and equitable development.",
+   "works": [
+    {
+     "id": "schneider2009",
+     "dir": "latam-network",
+     "label": "Schneider 2009",
+     "title": "Hierarchical Market Economies and Varieties of Capitalism in Latin America",
+     "authors": "Ben Ross Schneider",
+     "year": 2009,
+     "journal": "Journal of Latin American Studies",
+     "doi": "10.1017/s0022216x09990186",
+     "zotero": null
+    },
+    {
+     "id": "fairfield2010",
+     "dir": "latam-network",
+     "label": "Fairfield 2010",
+     "title": "Business Power and Tax Reform: Taxing Income and Profits in Chile and Argentina",
+     "authors": "Tasha Fairfield",
+     "year": 2010,
+     "journal": "Latin American Politics and Society",
+     "doi": "10.1111/j.1548-2456.2010.00081.x",
+     "zotero": null
+    },
+    {
+     "id": "fairfield2015",
+     "dir": "latam-network",
+     "label": "Fairfield 2015",
+     "title": "Private Wealth and Public Revenue in Latin America: Business Power and Tax Politics",
+     "authors": "Tasha Fairfield",
+     "year": 2015,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "browns",
+   "label": "Uneven state reach (\"brown areas\")",
+   "family": "state",
+   "year": 1993,
+   "origin": "O'Donnell",
+   "core": "The state and the rule of law reach unevenly across territory and social groups.",
+   "works": [
+    {
+     "id": "odonnell1993",
+     "dir": "latam-network",
+     "label": "O'Donnell 1993",
+     "title": "On the State, Democratization and Some Conceptual Problems: A Latin American View with Glances at Some Postcommunist Countries",
+     "authors": "Guillermo O'Donnell",
+     "year": 1993,
+     "journal": "World Development",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "soifer2008",
+     "dir": "latam-network",
+     "label": "Soifer 2008",
+     "title": "State Infrastructural Power: Approaches to Conceptualization and Measurement",
+     "authors": "Hillel Soifer",
+     "year": 2008,
+     "journal": "Studies in Comparative International Development",
+     "doi": "10.1007/s12116-008-9028-6",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "weakinst",
+   "label": "Informal & weak institutions",
+   "family": "state",
+   "year": 2004,
+   "origin": "Helmke & Levitsky; Levitsky & Murillo",
+   "core": "Formal rules matter only when enforced and stable; informal institutions fill the gap.",
+   "works": [
+    {
+     "id": "helmkelevitsky2004",
+     "dir": "latam-network",
+     "label": "Helmke 2004",
+     "title": "Informal Institutions and Comparative Politics: A Research Agenda",
+     "authors": "Gretchen Helmke & Steven Levitsky",
+     "year": 2004,
+     "journal": "Perspectives on Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "levitskymurillo2009",
+     "dir": "latam-network",
+     "label": "Levitsky 2009",
+     "title": "Variation in Institutional Strength",
+     "authors": "Steven Levitsky & María Victoria Murillo",
+     "year": 2009,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.11.091106.121756",
+     "zotero": null
+    },
+    {
+     "id": "levitskymurillo2013",
+     "dir": "latam-network",
+     "label": "Levitsky 2013",
+     "title": "Lessons from Latin America: Building Institutions on Weak Foundations",
+     "authors": "Steven Levitsky & María Victoria Murillo",
+     "year": 2013,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2013.0031",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "statebuilding",
+   "label": "State building without war",
+   "family": "state",
+   "year": 2002,
+   "origin": "Centeno; Kurtz; Soifer",
+   "core": "Latin American states were weak because limited wars, social foundations and elite choices did not build capacity.",
+   "works": [
+    {
+     "id": "centeno2002",
+     "dir": "latam-network",
+     "label": "Centeno 2002",
+     "title": "Blood and Debt: War and the Nation-State in Latin America",
+     "authors": "Miguel Angel Centeno",
+     "year": 2002,
+     "journal": "Pennsylvania State University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kurtz2013",
+     "dir": "latam-network",
+     "label": "Kurtz 2013",
+     "title": "Latin American State Building in Comparative Perspective: Social Foundations of Institutional Order",
+     "authors": "Marcus J. Kurtz",
+     "year": 2013,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "soifer2015",
+     "dir": "latam-network",
+     "label": "Soifer 2015",
+     "title": "State Building in Latin America",
+     "authors": "Hillel David Soifer",
+     "year": 2015,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "subnational",
+   "label": "Subnational authoritarianism & boundary control",
+   "family": "state",
+   "year": 2005,
+   "origin": "Gibson; Gervasoni; Giraudy",
+   "core": "Provincial autocrats survive within national democracies by controlling boundaries and fiscal flows.",
+   "works": [
+    {
+     "id": "gibson2005",
+     "dir": "latam-network",
+     "label": "Gibson 2005",
+     "title": "Boundary Control: Subnational Authoritarianism in Democratic Countries",
+     "authors": "Edward L. Gibson",
+     "year": 2005,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "gervasoni2010",
+     "dir": "latam-network",
+     "label": "Gervasoni 2010",
+     "title": "A Rentier Theory of Subnational Regimes: Fiscal Federalism, Democracy, and Authoritarianism in the Argentine Provinces",
+     "authors": "Carlos Gervasoni",
+     "year": 2010,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887110000067",
+     "zotero": null
+    },
+    {
+     "id": "giraudy2010",
+     "dir": "latam-network",
+     "label": "Giraudy 2010",
+     "title": "The Politics of Subnational Undemocratic Regime Reproduction in Argentina and Mexico",
+     "authors": "Agustina Giraudy",
+     "year": 2010,
+     "journal": "Journal of Politics in Latin America",
+     "doi": "10.1177/1866802x1000200203",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "crimgov",
+   "label": "Criminal governance",
+   "family": "state",
+   "year": 2006,
+   "origin": "Arias; Lessing",
+   "core": "Criminal groups impose rules on territories and populations, often in collusion with state actors.",
+   "works": [
+    {
+     "id": "arias2006",
+     "dir": "latam-network",
+     "label": "Arias 2006",
+     "title": "The Dynamics of Criminal Governance: Networks and Social Order in Rio de Janeiro",
+     "authors": "Enrique Desmond Arias",
+     "year": 2006,
+     "journal": "Journal of Latin American Studies",
+     "doi": "10.1017/s0022216x06000721",
+     "zotero": null
+    },
+    {
+     "id": "lessingwillis2019",
+     "dir": "latam-network",
+     "label": "Lessing 2019",
+     "title": "Legitimacy in Criminal Governance: Managing a Drug Empire from Behind Bars",
+     "authors": "Benjamin Lessing & Graham Denyer Willis",
+     "year": 2019,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055418000928",
+     "zotero": null
+    },
+    {
+     "id": "lessing2020",
+     "dir": "latam-network",
+     "label": "Lessing 2020",
+     "title": "Conceptualizing Criminal Governance",
+     "authors": "Benjamin Lessing",
+     "year": 2020,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592720001243",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rackets",
+   "label": "Protection rackets & criminal wars",
+   "family": "state",
+   "year": 2009,
+   "origin": "Snyder & Durán-Martínez; Trejo & Ley; Lessing",
+   "core": "Breakdown of state-sponsored protection and crackdowns trigger cartel violence.",
+   "works": [
+    {
+     "id": "snyderduranmartinez2009",
+     "dir": "latam-network",
+     "label": "Snyder 2009",
+     "title": "Does Illegality Breed Violence? Drug Trafficking and State-Sponsored Protection Rackets",
+     "authors": "Richard Snyder & Angélica Durán-Martínez",
+     "year": 2009,
+     "journal": "Crime, Law and Social Change",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "trejoley2017",
+     "dir": "latam-network",
+     "label": "Trejo 2017",
+     "title": "Why Did Drug Cartels Go to War in Mexico? Subnational Party Alternation, the Breakdown of Criminal Protection, and the Onset of Large-Scale Violence",
+     "authors": "Guillermo Trejo & Sandra Ley",
+     "year": 2017,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414017720703",
+     "zotero": null
+    },
+    {
+     "id": "lessing2017",
+     "dir": "latam-network",
+     "label": "Lessing 2017",
+     "title": "Making Peace in Drug Wars: Crackdowns and Cartels in Latin America",
+     "authors": "Benjamin Lessing",
+     "year": 2017,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "dell2015",
+     "dir": "latam-network",
+     "label": "Dell 2015",
+     "title": "Trafficking Networks and the Mexican Drug War",
+     "authors": "Melissa Dell",
+     "year": 2015,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "defection",
+   "label": "Strategic defection & judicial insurance",
+   "family": "institutions",
+   "year": 2002,
+   "origin": "Helmke; Finkel; Ríos-Figueroa",
+   "core": "Judicial independence depends on power fragmentation and rulers' expectations of losing office.",
+   "works": [
+    {
+     "id": "helmke2002",
+     "dir": "latam-network",
+     "label": "Helmke 2002",
+     "title": "The Logic of Strategic Defection: Court-Executive Relations in Argentina Under Dictatorship and Democracy",
+     "authors": "Gretchen Helmke",
+     "year": 2002,
+     "journal": "American Political Science Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "finkel2008",
+     "dir": "latam-network",
+     "label": "Finkel 2008",
+     "title": "Judicial Reform as Political Insurance: Argentina, Peru, and Mexico in the 1990s",
+     "authors": "Jodi S. Finkel",
+     "year": 2008,
+     "journal": "University of Notre Dame Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "riosfigueroa2007",
+     "dir": "latam-network",
+     "label": "Ríos-Figueroa 2007",
+     "title": "Fragmentation of Power and the Emergence of an Effective Judiciary in Mexico, 1994–2002",
+     "authors": "Julio Ríos-Figueroa",
+     "year": 2007,
+     "journal": "Latin American Politics and Society",
+     "doi": "10.1111/j.1548-2456.2007.tb00373.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "accountability",
+   "label": "Horizontal & societal accountability",
+   "family": "institutions",
+   "year": 1998,
+   "origin": "O'Donnell; Smulovitz & Peruzzotti",
+   "core": "State agencies, civil society and the media check officials where elections do not.",
+   "works": [
+    {
+     "id": "odonnell1998",
+     "dir": "latam-network",
+     "label": "O'Donnell 1998",
+     "title": "Horizontal Accountability in New Democracies",
+     "authors": "Guillermo O'Donnell",
+     "year": 1998,
+     "journal": "Journal of Democracy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "smulovitzperuzzotti2000",
+     "dir": "latam-network",
+     "label": "Smulovitz 2000",
+     "title": "Societal Accountability in Latin America",
+     "authors": "Catalina Smulovitz & Enrique Peruzzotti",
+     "year": 2000,
+     "journal": "Journal of Democracy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "ferrazfinan2008",
+     "dir": "latam-network",
+     "label": "Ferraz 2008",
+     "title": "Exposing Corrupt Politicians: The Effects of Brazil's Publicly Released Audits on Electoral Outcomes",
+     "authors": "Claudio Ferraz & Frederico Finan",
+     "year": 2008,
+     "journal": "Quarterly Journal of Economics",
+     "doi": "10.1162/qjec.2008.123.2.703",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "indigenous",
+   "label": "Indigenous mobilization & citizenship regimes",
+   "family": "society",
+   "year": 1998,
+   "origin": "Yashar; Van Cott; Trejo; Madrid",
+   "core": "Changing citizenship regimes, networks and political openings produced indigenous movements, parties and ethnopopulist appeals.",
+   "works": [
+    {
+     "id": "yashar2005",
+     "dir": "latam-network",
+     "label": "Yashar 2005",
+     "title": "Contesting Citizenship in Latin America: The Rise of Indigenous Movements and the Postliberal Challenge",
+     "authors": "Deborah J. Yashar",
+     "year": 2005,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "vancott2005",
+     "dir": "latam-network",
+     "label": "Van Cott 2005",
+     "title": "From Movements to Parties in Latin America: The Evolution of Ethnic Politics",
+     "authors": "Donna Lee Van Cott",
+     "year": 2005,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "trejo2009",
+     "dir": "latam-network",
+     "label": "Trejo 2009",
+     "title": "Religious Competition and Ethnic Mobilization in Latin America: Why the Catholic Church Promotes Indigenous Movements in Mexico",
+     "authors": "Guillermo Trejo",
+     "year": 2009,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055409990025",
+     "zotero": null
+    },
+    {
+     "id": "madrid2008",
+     "dir": "latam-network",
+     "label": "Madrid 2008",
+     "title": "The Rise of Ethnopopulism in Latin America",
+     "authors": "Raúl L. Madrid",
+     "year": 2008,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887100009060",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "compauth",
+   "label": "Competitive authoritarianism & linkage/leverage",
+   "family": "regimes",
+   "year": 2006,
+   "origin": "Levitsky & Way",
+   "core": "Hybrid regimes hold real but unfair elections; Western linkage and leverage shape outcomes.",
+   "works": [
+    {
+     "id": "levitskyway2006",
+     "dir": "latam-network",
+     "label": "Levitsky 2006",
+     "title": "Linkage versus Leverage. Rethinking the International Dimension of Regime Change",
+     "authors": "Steven Levitsky & Lucan A. Way",
+     "year": 2006,
+     "journal": "Comparative Politics",
+     "doi": "10.2307/20434008",
+     "zotero": null
+    },
+    {
+     "id": "levitskyway2010",
+     "dir": "latam-network",
+     "label": "Levitsky 2010",
+     "title": "Competitive Authoritarianism: Hybrid Regimes after the Cold War",
+     "authors": "Steven Levitsky & Lucan A. Way",
+     "year": 2010,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511781353",
+     "zotero": null
+    },
+    {
+     "id": "mainwaring2012",
+     "dir": "latam-network",
+     "label": "Mainwaring 2012",
+     "title": "From Representative Democracy to Participatory Competitive Authoritarianism: Hugo Chávez and Venezuelan Politics",
+     "authors": "Scott Mainwaring",
+     "year": 2012,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592712002629",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "justicecascade",
+   "label": "Justice cascade",
+   "family": "society",
+   "year": 2007,
+   "origin": "Sikkink",
+   "core": "Human rights prosecutions spread from Latin America and reduce repression.",
+   "works": [
+    {
+     "id": "sikkink2007",
+     "dir": "latam-network",
+     "label": "Sikkink 2007",
+     "title": "The Impact of Human Rights Trials in Latin America",
+     "authors": "Kathryn Sikkink & Carrie Booth Walling",
+     "year": 2007,
+     "journal": "Journal of Peace Research",
+     "doi": "10.1177/0022343307078953",
+     "zotero": null
+    },
+    {
+     "id": "kimsikkink2010",
+     "dir": "latam-network",
+     "label": "Kim 2010",
+     "title": "Explaining the Deterrence Effect of Human Rights Prosecutions for Transitional Countries1",
+     "authors": "Hunjoon Kim & Kathryn Sikkink",
+     "year": 2010,
+     "journal": "ISQ",
+     "doi": "10.1111/j.1468-2478.2010.00621.x",
+     "zotero": null
+    },
+    {
+     "id": "sikkink2011",
+     "dir": "latam-network",
+     "label": "Sikkink 2011",
+     "title": "The Justice Cascade: How Human Rights Prosecutions Are Changing World Politics",
+     "authors": "Kathryn Sikkink",
+     "year": 2011,
+     "journal": "W. W. Norton (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "aggrandizement",
+   "label": "Executive aggrandizement & autocratic legalism",
+   "family": "regimes",
+   "year": 2015,
+   "origin": "Corrales; Bermeo; Weyland",
+   "core": "Elected presidents erode democracy through legal means rather than coups.",
+   "works": [
+    {
+     "id": "corrales2015",
+     "dir": "latam-network",
+     "label": "Corrales 2015",
+     "title": "The Authoritarian Resurgence: Autocratic Legalism in Venezuela",
+     "authors": "Javier Corrales",
+     "year": 2015,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2015.0031",
+     "zotero": null
+    },
+    {
+     "id": "bermeo2016",
+     "dir": "latam-network",
+     "label": "Bermeo 2016",
+     "title": "On Democratic Backsliding",
+     "authors": "Nancy Bermeo",
+     "year": 2016,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2016.0012",
+     "zotero": null
+    },
+    {
+     "id": "weyland2013",
+     "dir": "latam-network",
+     "label": "Weyland 2013",
+     "title": "Latin America’s Authoritarian Drift: The Threat from the Populist Left",
+     "authors": "Kurt Weyland",
+     "year": 2013,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2013.0045",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "dependency",
+   "target": "structuralism",
+   "type": "extends",
+   "why": "Radicalizes the center-periphery view into dependency."
+  },
+  {
+   "source": "ba",
+   "target": "dependency",
+   "type": "extends",
+   "why": "Links dependent industrialization to authoritarian rule."
+  },
+  {
+   "source": "ba",
+   "target": "structuralism",
+   "type": "applies",
+   "why": "The exhaustion of import substitution explains the authoritarian turn."
+  },
+  {
+   "source": "transitology",
+   "target": "ba",
+   "type": "extends",
+   "why": "Divisions within authoritarian regimes open transitions."
+  },
+  {
+   "source": "criticaljunctures",
+   "target": "ba",
+   "type": "extends",
+   "why": "Places authoritarian episodes within labor incorporation trajectories."
+  },
+  {
+   "source": "classpower",
+   "target": "transitology",
+   "type": "rivals",
+   "why": "Class structure versus elite choice in explaining democracy."
+  },
+  {
+   "source": "classpower",
+   "target": "criticaljunctures",
+   "type": "complements",
+   "why": "Labor as a democratizing force."
+  },
+  {
+   "source": "perils",
+   "target": "transitology",
+   "type": "extends",
+   "why": "Institutional design affects democratic consolidation."
+  },
+  {
+   "source": "coalitional",
+   "target": "perils",
+   "type": "rivals",
+   "why": "Presidential powers and coalitions make presidentialism workable."
+  },
+  {
+   "source": "delegative",
+   "target": "perils",
+   "type": "extends",
+   "why": "Unchecked presidents in new democracies."
+  },
+  {
+   "source": "newinstability",
+   "target": "perils",
+   "type": "rivals",
+   "why": "Presidents fall but democracy survives."
+  },
+  {
+   "source": "newinstability",
+   "target": "coalitional",
+   "type": "complements",
+   "why": "Coalition breakdown and presidential crises."
+  },
+  {
+   "source": "psi",
+   "target": "criticaljunctures",
+   "type": "extends",
+   "why": "Historical trajectories produce institutionalized or inchoate party systems."
+  },
+  {
+   "source": "structuration",
+   "target": "psi",
+   "type": "complements",
+   "why": "Linkage type versus institutionalization of party systems."
+  },
+  {
+   "source": "structuration",
+   "target": "machine",
+   "type": "complements",
+   "why": "Clientelist linkages at the party-system level."
+  },
+  {
+   "source": "branddilution",
+   "target": "psi",
+   "type": "extends",
+   "why": "Explains how institutionalized systems collapse."
+  },
+  {
+   "source": "branddilution",
+   "target": "reformpolitics",
+   "type": "applies",
+   "why": "Policy switches during market reform dilute party brands."
+  },
+  {
+   "source": "ideational",
+   "target": "popstrategy",
+   "type": "rivals",
+   "why": "Populism as ideas versus strategy."
+  },
+  {
+   "source": "popstrategy",
+   "target": "reformpolitics",
+   "type": "complements",
+   "why": "Neopopulist leaders carried out market reform."
+  },
+  {
+   "source": "twolefts",
+   "target": "popstrategy",
+   "type": "applies",
+   "why": "Populist versus institutionalized lefts."
+  },
+  {
+   "source": "turnoutbuying",
+   "target": "machine",
+   "type": "rivals",
+   "why": "Machines target loyal supporters, not swing voters."
+  },
+  {
+   "source": "reformpolitics",
+   "target": "structuralism",
+   "type": "rivals",
+   "why": "Market reform repudiates state-led import substitution."
+  },
+  {
+   "source": "democracyleft",
+   "target": "classpower",
+   "type": "extends",
+   "why": "Power resources applied to Latin American social policy."
+  },
+  {
+   "source": "democracyleft",
+   "target": "businesspower",
+   "type": "complements",
+   "why": "Left strength and business power jointly shape redistribution."
+  },
+  {
+   "source": "outsiders",
+   "target": "democracyleft",
+   "type": "rivals",
+   "why": "Competition for outsiders, not only the left, expanded social policy."
+  },
+  {
+   "source": "forbearance",
+   "target": "outsiders",
+   "type": "complements",
+   "why": "Informal welfare where formal programs are truncated."
+  },
+  {
+   "source": "forbearance",
+   "target": "weakinst",
+   "type": "applies",
+   "why": "Deliberate non-enforcement as a political choice."
+  },
+  {
+   "source": "businesspower",
+   "target": "dependency",
+   "type": "extends",
+   "why": "Business groups and multinationals in a hierarchical economy."
+  },
+  {
+   "source": "browns",
+   "target": "transitology",
+   "type": "extends",
+   "why": "New democracies face uneven state reach."
+  },
+  {
+   "source": "weakinst",
+   "target": "browns",
+   "type": "extends",
+   "why": "Weak enforcement and informal rules."
+  },
+  {
+   "source": "statebuilding",
+   "target": "browns",
+   "type": "extends",
+   "why": "Explains the historical origins of weak states."
+  },
+  {
+   "source": "subnational",
+   "target": "browns",
+   "type": "extends",
+   "why": "Brown areas become subnational autocracies."
+  },
+  {
+   "source": "crimgov",
+   "target": "browns",
+   "type": "applies",
+   "why": "Criminal groups govern where the state is absent or complicit."
+  },
+  {
+   "source": "rackets",
+   "target": "crimgov",
+   "type": "complements",
+   "why": "State-criminal arrangements and their breakdown."
+  },
+  {
+   "source": "rackets",
+   "target": "subnational",
+   "type": "applies",
+   "why": "Subnational alternation breaks protection networks."
+  },
+  {
+   "source": "accountability",
+   "target": "delegative",
+   "type": "extends",
+   "why": "Weak horizontal accountability in delegative democracies."
+  },
+  {
+   "source": "defection",
+   "target": "accountability",
+   "type": "applies",
+   "why": "Courts as horizontal accountability agents."
+  },
+  {
+   "source": "indigenous",
+   "target": "transitology",
+   "type": "extends",
+   "why": "Democratization opened space for indigenous movements."
+  },
+  {
+   "source": "compauth",
+   "target": "transitology",
+   "type": "rivals",
+   "why": "International linkage and leverage versus domestic elite choices."
+  },
+  {
+   "source": "justicecascade",
+   "target": "transitology",
+   "type": "rivals",
+   "why": "Trials did not destabilize new democracies, contrary to pact-based caution."
+  },
+  {
+   "source": "aggrandizement",
+   "target": "compauth",
+   "type": "extends",
+   "why": "Incumbents build competitive authoritarianism from within."
+  },
+  {
+   "source": "aggrandizement",
+   "target": "delegative",
+   "type": "extends",
+   "why": "Delegative presidents dismantle checks legally."
+  },
+  {
+   "source": "aggrandizement",
+   "target": "popstrategy",
+   "type": "applies",
+   "why": "Populist leaders drive the authoritarian drift."
+  }
+ ]
+}

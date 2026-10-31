@@ -1,0 +1,1766 @@
+{
+ "meta": {
+  "field": "European Politics",
+  "built": "2026-10-28",
+  "theories": 34,
+  "relations": 42,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "integration",
+   "label": "Grand theories of integration",
+   "color": "#1d4ed8"
+  },
+  {
+   "id": "governance",
+   "label": "Institutions, law & governance",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "legitimacy",
+   "label": "Democracy & legitimacy",
+   "color": "#0d9488"
+  },
+  {
+   "id": "masspolitics",
+   "label": "Mass politics, cleavages & populism",
+   "color": "#db2777"
+  },
+  {
+   "id": "economy",
+   "label": "Political economy of monetary union",
+   "color": "#15803d"
+  },
+  {
+   "id": "external",
+   "label": "Europeanization, enlargement & external power",
+   "color": "#9a3412"
+  }
+ ],
+ "theories": [
+  {
+   "id": "neofunctionalism",
+   "label": "Neofunctionalism",
+   "family": "integration",
+   "year": 1958,
+   "origin": "Haas; Lindberg",
+   "core": "Integration in one sector spills over into others as interest groups and supranational actors push it forward.",
+   "works": [
+    {
+     "id": "haas1958",
+     "dir": "eu-network",
+     "label": "Haas 1958",
+     "title": "The Uniting of Europe: Political, Social, and Economic Forces, 1950-1957",
+     "authors": "Ernst B. Haas",
+     "year": 1958,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "niemannioannou2015",
+     "dir": "eu-network",
+     "label": "Niemann 2015",
+     "title": "European economic integration in times of crisis: a case of neofunctionalism?",
+     "authors": "Arne Niemann & Demosthenes Ioannou",
+     "year": 2015,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2014.994021",
+     "zotero": null
+    },
+    {
+     "id": "haroche2019",
+     "dir": "eu-network",
+     "label": "Haroche 2019",
+     "title": "Supranationalism strikes back: a neofunctionalist account of the European Defence Fund",
+     "authors": "Pierre Haroche",
+     "year": 2019,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2019.1609570",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "li",
+   "label": "Liberal intergovernmentalism",
+   "family": "integration",
+   "year": 1993,
+   "origin": "Moravcsik",
+   "core": "Integration follows national economic preferences, interstate bargaining and delegation to secure credible commitments.",
+   "works": [
+    {
+     "id": "moravcsik1993",
+     "dir": "eu-network",
+     "label": "Moravcsik 1993",
+     "title": "Preferences and Power in the European Community: A Liberal Intergovernmentalist Approach",
+     "authors": "Andrew Moravcsik",
+     "year": 1993,
+     "journal": "Journal of Common Market Studies",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "moravcsik1998",
+     "dir": "eu-network",
+     "label": "Moravcsik 1998",
+     "title": "The Choice for Europe: Social Purpose and State Power from Messina to Maastricht",
+     "authors": "Andrew Moravcsik",
+     "year": 1998,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hoffmann1966",
+     "dir": "eu-network",
+     "label": "Hoffmann 1966",
+     "title": "Obstinate or Obsolete? The Fate of the Nation-State and the Case of Western Europe",
+     "authors": "Stanley Hoffmann",
+     "year": 1966,
+     "journal": "Daedalus",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "schimmelfennig2015li",
+     "dir": "eu-network",
+     "label": "Schimmelfennig 2015",
+     "title": "Liberal intergovernmentalism and the euro area crisis",
+     "authors": "Frank Schimmelfennig",
+     "year": 2015,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2014.994020",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "histinst",
+   "label": "Historical institutionalism of integration",
+   "family": "integration",
+   "year": 1996,
+   "origin": "Pierson",
+   "core": "Unintended consequences, sunk costs and short time horizons let member states lose control of integration.",
+   "works": [
+    {
+     "id": "pierson1996path",
+     "dir": "eu-network",
+     "label": "Pierson 1996",
+     "title": "The Path to European Integration: A Historical Institutionalist Analysis",
+     "authors": "Paul Pierson",
+     "year": 1996,
+     "journal": "Comparative Political Studies",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mlg",
+   "label": "Multilevel governance",
+   "family": "integration",
+   "year": 1996,
+   "origin": "Marks & Hooghe",
+   "core": "Authority is dispersed upward to the EU and downward to regions rather than monopolized by states.",
+   "works": [
+    {
+     "id": "marks1996",
+     "dir": "eu-network",
+     "label": "Marks 1996",
+     "title": "European Integration from the 1980s: State-Centric v. Multi-level Governance",
+     "authors": "Gary Marks, Liesbet Hooghe & Kermit Blank",
+     "year": 1996,
+     "journal": "Journal of Common Market Studies",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hooghemarks2001",
+     "dir": "eu-network",
+     "label": "Hooghe 2001",
+     "title": "Multi-Level Governance and European Integration",
+     "authors": "Liesbet Hooghe & Gary Marks",
+     "year": 2001,
+     "journal": "Rowman & Littlefield (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hooghemarks2003",
+     "dir": "eu-network",
+     "label": "Hooghe 2003",
+     "title": "Unraveling the Central State, but How? Types of Multi-level Governance",
+     "authors": "Liesbet Hooghe & Gary Marks",
+     "year": 2003,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "supranational",
+   "label": "Supranational governance",
+   "family": "integration",
+   "year": 1998,
+   "origin": "Sandholtz & Stone Sweet",
+   "core": "Transnational exchange creates demand for EU rules that supranational organizations supply.",
+   "works": [
+    {
+     "id": "sandholtzstonesweet1998",
+     "dir": "eu-network",
+     "label": "Sandholtz 1998",
+     "title": "European Integration and Supranational Governance",
+     "authors": "Wayne Sandholtz & Alec Stone Sweet (eds.)",
+     "year": 1998,
+     "journal": "Oxford University Press (edited book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "stonesweetbrunell1998",
+     "dir": "eu-network",
+     "label": "Stone Sweet 1998",
+     "title": "Constructing a Supranational Constitution: Dispute Resolution and Governance in the European Community",
+     "authors": "Alec Stone Sweet & Thomas L. Brunell",
+     "year": 1998,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "stonesweet2004",
+     "dir": "eu-network",
+     "label": "Stone Sweet 2004",
+     "title": "The Judicial Construction of Europe",
+     "authors": "Alec Stone Sweet",
+     "year": 2004,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "postfunctionalism",
+   "label": "Postfunctionalism",
+   "family": "integration",
+   "year": 2009,
+   "origin": "Hooghe & Marks",
+   "core": "Mass politicization of identity constrains integration once it leaves the realm of permissive consensus.",
+   "works": [
+    {
+     "id": "hooghemarks2009",
+     "dir": "eu-network",
+     "label": "Hooghe 2009",
+     "title": "A Postfunctionalist Theory of European Integration: From Permissive Consensus to Constraining Dissensus",
+     "authors": "Liesbet Hooghe & Gary Marks",
+     "year": 2009,
+     "journal": "BJPS",
+     "doi": "10.1017/s0007123408000409",
+     "zotero": null
+    },
+    {
+     "id": "hooghemarks2019",
+     "dir": "eu-network",
+     "label": "Hooghe 2019",
+     "title": "Grand theories of European integration in the twenty-first century",
+     "authors": "Liesbet Hooghe & Gary Marks",
+     "year": 2019,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2019.1569711",
+     "zotero": null
+    },
+    {
+     "id": "borzelrisse2018",
+     "dir": "eu-network",
+     "label": "Börzel 2017",
+     "title": "From the euro to the Schengen crises: European integration theories, politicization, and identity politics",
+     "authors": "Tanja A. Börzel & Thomas Risse",
+     "year": 2017,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2017.1310281",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "newintergov",
+   "label": "New intergovernmentalism",
+   "family": "integration",
+   "year": 2014,
+   "origin": "Bickerton, Hodson & Puetter",
+   "core": "Post-Maastricht integration proceeds by deliberative coordination and de novo bodies without supranational transfers.",
+   "works": [
+    {
+     "id": "bickerton2014",
+     "dir": "eu-network",
+     "label": "Bickerton 2014",
+     "title": "The New Intergovernmentalism: E uropean Integration in the Post‐Maastricht Era",
+     "authors": "Christopher J. Bickerton, Dermot Hodson & Uwe Puetter",
+     "year": 2014,
+     "journal": "Journal of Common Market Studies",
+     "doi": "10.1111/jcms.12212",
+     "zotero": null
+    },
+    {
+     "id": "puetter2012",
+     "dir": "eu-network",
+     "label": "Puetter 2012",
+     "title": "Europe's deliberative intergovernmentalism: the role of the Council and European Council in EU economic governance",
+     "authors": "Uwe Puetter",
+     "year": 2012,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2011.609743",
+     "zotero": null
+    },
+    {
+     "id": "schimmelfennig2015jcms",
+     "dir": "eu-network",
+     "label": "Schimmelfennig 2015",
+     "title": "What's the News in ‘New Intergovernmentalism'? A Critique of Bickerton, Hodson and Puetter",
+     "authors": "Frank Schimmelfennig",
+     "year": 2015,
+     "journal": "Journal of Common Market Studies",
+     "doi": "10.1111/jcms.12234",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "failingforward",
+   "label": "Failing forward",
+   "family": "integration",
+   "year": 2015,
+   "origin": "Jones, Kelemen & Meunier",
+   "core": "Lowest-common-denominator bargains create incomplete regimes whose failures prompt further, still incomplete, integration.",
+   "works": [
+    {
+     "id": "jones2016",
+     "dir": "eu-network",
+     "label": "Jones 2015",
+     "title": "Failing Forward? The Euro Crisis and the Incomplete Nature of European Integration",
+     "authors": "Erik Jones, R. Daniel Kelemen & Sophie Meunier",
+     "year": 2015,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414015617966",
+     "zotero": null
+    },
+    {
+     "id": "jones2021",
+     "dir": "eu-network",
+     "label": "Jones 2021",
+     "title": "Failing forward? Crises and patterns of European integration",
+     "authors": "Erik Jones, R. Daniel Kelemen & Sophie Meunier",
+     "year": 2021,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2021.1954068",
+     "zotero": null
+    },
+    {
+     "id": "lavenex2018",
+     "dir": "eu-network",
+     "label": "Lavenex 2018",
+     "title": "‘Failing Forward’ Towards Which Europe? Organized Hypocrisy in the Common European Asylum System",
+     "authors": "Sandra Lavenex",
+     "year": 2018,
+     "journal": "Journal of Common Market Studies",
+     "doi": "10.1111/jcms.12739",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "differentiated",
+   "label": "Differentiated integration",
+   "family": "integration",
+   "year": 2013,
+   "origin": "Stubb; Leuffen, Rittberger & Schimmelfennig",
+   "core": "Interdependence and politicization explain why integration varies across policies and member states.",
+   "works": [
+    {
+     "id": "leuffen2013",
+     "dir": "eu-network",
+     "label": "Leuffen 2013",
+     "title": "Differentiated Integration: Explaining Variation in the European Union",
+     "authors": "Dirk Leuffen, Berthold Rittberger & Frank Schimmelfennig",
+     "year": 2013,
+     "journal": "Palgrave Macmillan (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "stubb1996",
+     "dir": "eu-network",
+     "label": "Stubb 1996",
+     "title": "A Categorization of Differentiated Integration",
+     "authors": "Alexander C-G. Stubb",
+     "year": 1996,
+     "journal": "Journal of Common Market Studies",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "schimmelfennig2015di",
+     "dir": "eu-network",
+     "label": "Schimmelfennig 2015",
+     "title": "The European Union as a system of differentiated integration: interdependence, politicization and differentiation",
+     "authors": "Frank Schimmelfennig, Dirk Leuffen & Berthold Rittberger",
+     "year": 2015,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2015.1020835",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "principalagent",
+   "label": "Principal-agent delegation",
+   "family": "governance",
+   "year": 1997,
+   "origin": "Pollack; Tsebelis & Garrett",
+   "core": "Member states delegate to the Commission and Court to cut transaction costs, and agents gain bounded autonomy.",
+   "works": [
+    {
+     "id": "pollack1997",
+     "dir": "eu-network",
+     "label": "Pollack 1997",
+     "title": "Delegation, Agency, and Agenda Setting in the European Community",
+     "authors": "Mark A. Pollack",
+     "year": 1997,
+     "journal": "IO",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "tsebelisgarrett2001",
+     "dir": "eu-network",
+     "label": "Tsebelis 2001",
+     "title": "The Institutional Foundations of Intergovernmentalism and Supranationalism in the European Union",
+     "authors": "George Tsebelis & Geoffrey Garrett",
+     "year": 2001,
+     "journal": "IO",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bauerbecker2014",
+     "dir": "eu-network",
+     "label": "Bauer 2014",
+     "title": "The Unexpected Winner of the Crisis: The European Commission’s Strengthened Role in Economic Governance",
+     "authors": "Michael W. Bauer & Stefan Becker",
+     "year": 2014,
+     "journal": "Journal of European Integration",
+     "doi": "10.1080/07036337.2014.885750",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "jointdecision",
+   "label": "Joint-decision trap",
+   "family": "governance",
+   "year": 1988,
+   "origin": "Scharpf",
+   "core": "Unanimity among governments traps joint policy at suboptimal levels.",
+   "works": [
+    {
+     "id": "scharpf1988",
+     "dir": "eu-network",
+     "label": "Scharpf 1988",
+     "title": "The Joint-Decision Trap: Lessons from German Federalism and European Integration",
+     "authors": "Fritz W. Scharpf",
+     "year": 1988,
+     "journal": "Public Administration",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "scharpf2006",
+     "dir": "eu-network",
+     "label": "Scharpf 2006",
+     "title": "The Joint-Decision Trap Revisited",
+     "authors": "Fritz W. Scharpf",
+     "year": 2006,
+     "journal": "Journal of Common Market Studies",
+     "doi": "10.1111/j.1468-5965.2006.00665.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "legalintegration",
+   "label": "Legal integration & constitutionalization",
+   "family": "governance",
+   "year": 1991,
+   "origin": "Weiler; Burley & Mattli; Alter",
+   "core": "The Court of Justice, litigants and national judges constitutionalized the treaties and drove integration through law.",
+   "works": [
+    {
+     "id": "weiler1991",
+     "dir": "eu-network",
+     "label": "Weiler 1991",
+     "title": "The Transformation of Europe",
+     "authors": "J. H. H. Weiler",
+     "year": 1991,
+     "journal": "Yale Law Journal",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "burleymattli1993",
+     "dir": "eu-network",
+     "label": "Burley 1993",
+     "title": "Europe Before the Court: A Political Theory of Legal Integration",
+     "authors": "Anne-Marie Burley & Walter Mattli",
+     "year": 1993,
+     "journal": "IO",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "alter2001",
+     "dir": "eu-network",
+     "label": "Alter 2001",
+     "title": "Establishing the Supremacy of European Law: The Making of an International Rule of Law in Europe",
+     "authors": "Karen J. Alter",
+     "year": 2001,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "strategiccourt",
+   "label": "Courts under political constraint",
+   "family": "governance",
+   "year": 1995,
+   "origin": "Garrett; Carrubba et al.",
+   "core": "The Court anticipates override and noncompliance by powerful governments and adjusts its rulings.",
+   "works": [
+    {
+     "id": "garrett1995",
+     "dir": "eu-network",
+     "label": "Garrett 1995",
+     "title": "The Politics of Legal Integration in the European Union",
+     "authors": "Geoffrey Garrett",
+     "year": 1995,
+     "journal": "IO",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "carrubba2008",
+     "dir": "eu-network",
+     "label": "Carrubba 2008",
+     "title": "Judicial Behavior under Political Constraints: Evidence from the European Court of Justice",
+     "authors": "Clifford J. Carrubba, Matthew Gabel & Charles Hankla",
+     "year": 2008,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055408080350",
+     "zotero": null
+    },
+    {
+     "id": "larssonnaurin2016",
+     "dir": "eu-network",
+     "label": "Larsson 2016",
+     "title": "Judicial Independence and Political Uncertainty: How the Risk of Override Affects the Court of Justice of the EU",
+     "authors": "Olof Larsson & Daniel Naurin",
+     "year": 2016,
+     "journal": "IO",
+     "doi": "10.1017/s0020818316000047",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "regulatorystate",
+   "label": "Regulatory state",
+   "family": "governance",
+   "year": 1994,
+   "origin": "Majone",
+   "core": "The EU governs mainly by regulation delegated to independent, expert bodies.",
+   "works": [
+    {
+     "id": "majone1994",
+     "dir": "eu-network",
+     "label": "Majone 1994",
+     "title": "The Rise of the Regulatory State in Europe",
+     "authors": "Giandomenico Majone",
+     "year": 1994,
+     "journal": "West European Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "majone1996",
+     "dir": "eu-network",
+     "label": "Majone 1996",
+     "title": "Regulating Europe",
+     "authors": "Giandomenico Majone",
+     "year": 1996,
+     "journal": "Routledge (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "levifaur2011",
+     "dir": "eu-network",
+     "label": "Levi-Faur 2011",
+     "title": "Regulatory networks and regulatory agencification: towards a Single European Regulatory Space",
+     "authors": "David Levi-Faur",
+     "year": 2011,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2011.593309",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "inputoutput",
+   "label": "Input and output legitimacy",
+   "family": "legitimacy",
+   "year": 1999,
+   "origin": "Scharpf; Schmidt",
+   "core": "The EU lacks input legitimacy and its output legitimacy is limited by the asymmetry of negative and positive integration.",
+   "works": [
+    {
+     "id": "scharpf1999",
+     "dir": "eu-network",
+     "label": "Scharpf 1999",
+     "title": "Governing in Europe: Effective and Democratic?",
+     "authors": "Fritz W. Scharpf",
+     "year": 1999,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "schmidt2013",
+     "dir": "eu-network",
+     "label": "Schmidt 2013",
+     "title": "Democracy and Legitimacy in the European Union Revisited: Input, Output and 'Throughput'",
+     "authors": "Vivien A. Schmidt",
+     "year": 2013,
+     "journal": "Political Studies",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "scharpf2010",
+     "dir": "eu-network",
+     "label": "Scharpf 2009",
+     "title": "The asymmetry of European integration, or why the EU cannot be a 'social market economy'",
+     "authors": "F. W. Scharpf",
+     "year": 2009,
+     "journal": "Socio-Economic Review",
+     "doi": "10.1093/ser/mwp031",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "nodeficit",
+   "label": "No democratic deficit",
+   "family": "legitimacy",
+   "year": 1998,
+   "origin": "Majone; Moravcsik",
+   "core": "Judged as a regulatory polity checked by national governments, the EU is legitimate.",
+   "works": [
+    {
+     "id": "majone1998",
+     "dir": "eu-network",
+     "label": "Majone 1998",
+     "title": "Europe's 'Democratic Deficit': The Question of Standards",
+     "authors": "Giandomenico Majone",
+     "year": 1998,
+     "journal": "European Law Journal",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "moravcsik2002",
+     "dir": "eu-network",
+     "label": "Moravcsik 2002",
+     "title": "In Defence of the 'Democratic Deficit': Reassessing Legitimacy in the European Union",
+     "authors": "Andrew Moravcsik",
+     "year": 2002,
+     "journal": "Journal of Common Market Studies",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "democraticdeficit",
+   "label": "Democratic deficit as missing contestation",
+   "family": "legitimacy",
+   "year": 2006,
+   "origin": "Follesdal & Hix; Mair",
+   "core": "The EU is undemocratic because there is no electoral contest over its leadership and policy direction.",
+   "works": [
+    {
+     "id": "follesdalhix2006",
+     "dir": "eu-network",
+     "label": "Follesdal 2006",
+     "title": "Why There is a Democratic Deficit in the EU: A Response to Majone and Moravcsik",
+     "authors": "Andreas Follesdal & Simon Hix",
+     "year": 2006,
+     "journal": "Journal of Common Market Studies",
+     "doi": "10.1111/j.1468-5965.2006.00650.x",
+     "zotero": null
+    },
+    {
+     "id": "mair2007",
+     "dir": "eu-network",
+     "label": "Mair 2007",
+     "title": "Political Opposition and the European Union",
+     "authors": "Peter Mair",
+     "year": 2007,
+     "journal": "Government and Opposition",
+     "doi": "10.1111/j.1477-7053.2007.00209.x",
+     "zotero": null
+    },
+    {
+     "id": "hobolt2012jcms",
+     "dir": "eu-network",
+     "label": "Hobolt 2012",
+     "title": "Citizen Satisfaction with Democracy in the European Union",
+     "authors": "Sara B. Hobolt",
+     "year": 2012,
+     "journal": "Journal of Common Market Studies",
+     "doi": "10.1111/j.1468-5965.2011.02229.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cleavage",
+   "label": "Cleavage theory",
+   "family": "masspolitics",
+   "year": 1967,
+   "origin": "Lipset & Rokkan; Bartolini",
+   "core": "Historical conflicts over state, church, land and class froze party systems; boundary changes can open new cleavages.",
+   "works": [
+    {
+     "id": "lipsetrokkan1967",
+     "dir": "eu-network",
+     "label": "Lipset 1967",
+     "title": "Cleavage Structures, Party Systems, and Voter Alignments: An Introduction",
+     "authors": "Seymour Martin Lipset & Stein Rokkan",
+     "year": 1967,
+     "journal": "Party Systems and Voter Alignments (chapter)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bartolinimair1990",
+     "dir": "eu-network",
+     "label": "Bartolini 1990",
+     "title": "Identity, Competition, and Electoral Availability: The Stabilisation of European Electorates 1885-1985",
+     "authors": "Stefano Bartolini & Peter Mair",
+     "year": 1990,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bartolini2005",
+     "dir": "eu-network",
+     "label": "Bartolini 2005",
+     "title": "Restructuring Europe: Centre Formation, System Building and Political Structuring between the Nation State and the European Union",
+     "authors": "Stefano Bartolini",
+     "year": 2005,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "postmaterialism",
+   "label": "Postmaterialism & cultural backlash",
+   "family": "masspolitics",
+   "year": 1977,
+   "origin": "Inglehart; Norris & Inglehart",
+   "core": "Postwar value change toward postmaterialism provokes an authoritarian cultural backlash.",
+   "works": [
+    {
+     "id": "inglehart1977",
+     "dir": "eu-network",
+     "label": "Inglehart 1977",
+     "title": "The Silent Revolution: Changing Values and Political Styles Among Western Publics",
+     "authors": "Ronald Inglehart",
+     "year": 1977,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "inglehartnorris2017",
+     "dir": "eu-network",
+     "label": "Inglehart 2017",
+     "title": "Trump and the Populist Authoritarian Parties: The Silent Revolution in Reverse",
+     "authors": "Ronald Inglehart & Pippa Norris",
+     "year": 2017,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s1537592717000111",
+     "zotero": null
+    },
+    {
+     "id": "norris2019",
+     "dir": "eu-network",
+     "label": "Norris 2019",
+     "title": "Cultural Backlash: Trump, Brexit, and Authoritarian Populism",
+     "authors": "Pippa Norris & Ronald Inglehart",
+     "year": 2019,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/9781108595841",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "secondorder",
+   "label": "Second-order elections",
+   "family": "masspolitics",
+   "year": 1980,
+   "origin": "Reif & Schmitt",
+   "core": "European elections are low-stakes national contests that punish governments and favour small parties.",
+   "works": [
+    {
+     "id": "reifschmitt1980",
+     "dir": "eu-network",
+     "label": "Reif 1980",
+     "title": "Nine Second-Order National Elections: A Conceptual Framework for the Analysis of European Election Results",
+     "authors": "Karlheinz Reif & Hermann Schmitt",
+     "year": 1980,
+     "journal": "European Journal of Political Research",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hixmarsh2007",
+     "dir": "eu-network",
+     "label": "Hix 2007",
+     "title": "Punishment or Protest? Understanding European Parliament Elections",
+     "authors": "Simon Hix & Michael Marsh",
+     "year": 2007,
+     "journal": "JOP",
+     "doi": "10.1111/j.1468-2508.2007.00546.x",
+     "zotero": null
+    },
+    {
+     "id": "hixmarsh2011",
+     "dir": "eu-network",
+     "label": "Hix 2011",
+     "title": "Second-order effects plus pan-European political swings: An analysis of European Parliament elections across time",
+     "authors": "Simon Hix & Michael Marsh",
+     "year": 2011,
+     "journal": "Electoral Studies",
+     "doi": "10.1016/j.electstud.2010.09.017",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "utilitarian",
+   "label": "Utilitarian support for integration",
+   "family": "masspolitics",
+   "year": 1998,
+   "origin": "Gabel",
+   "core": "Citizens support integration when they gain from market integration.",
+   "works": [
+    {
+     "id": "gabel1998",
+     "dir": "eu-network",
+     "label": "Gabel 1998",
+     "title": "Public Support for European Integration: An Empirical Test of Five Theories",
+     "authors": "Matthew Gabel",
+     "year": 1998,
+     "journal": "JOP",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hoboltwratil2015",
+     "dir": "eu-network",
+     "label": "Hobolt 2015",
+     "title": "Public opinion and the crisis: the dynamics of support for the euro",
+     "authors": "Sara B. Hobolt & Christopher Wratil",
+     "year": 2015,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2014.994022",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "identitycues",
+   "label": "Identity, cues & Euroscepticism",
+   "family": "masspolitics",
+   "year": 2002,
+   "origin": "McLaren; Hooghe & Marks",
+   "core": "Exclusive national identity and elite cues explain hostility to the EU beyond economic calculation.",
+   "works": [
+    {
+     "id": "mclaren2002",
+     "dir": "eu-network",
+     "label": "McLaren 2002",
+     "title": "Public Support for the European Union: Cost/Benefit Analysis or Perceived Cultural Threat?",
+     "authors": "Lauren M. McLaren",
+     "year": 2002,
+     "journal": "JOP",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hooghemarks2005",
+     "dir": "eu-network",
+     "label": "Hooghe 2005",
+     "title": "Calculation, Community and Cues: Public Opinion on European Integration",
+     "authors": "Liesbet Hooghe & Gary Marks",
+     "year": 2005,
+     "journal": "European Union Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "carl2019",
+     "dir": "eu-network",
+     "label": "Carl 2018",
+     "title": "European but not European enough: An explanation for Brexit",
+     "authors": "Noah Carl, James Dennison & Geoffrey Evans",
+     "year": 2018,
+     "journal": "European Union Politics",
+     "doi": "10.1177/1465116518802361",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "issueentrepreneurship",
+   "label": "EU issue voting & issue entrepreneurship",
+   "family": "masspolitics",
+   "year": 2004,
+   "origin": "van der Eijk & Franklin; De Vries & Hobolt",
+   "core": "A latent EU dimension awakens when challenger parties mobilize issues that divide mainstream parties.",
+   "works": [
+    {
+     "id": "vandereijkfranklin2004",
+     "dir": "eu-network",
+     "label": "van der Eijk 2004",
+     "title": "Potential for Contestation on European Matters at National Elections in Europe",
+     "authors": "Cees van der Eijk & Mark N. Franklin",
+     "year": 2004,
+     "journal": "European Integration and Political Conflict (chapter)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "devries2007",
+     "dir": "eu-network",
+     "label": "De Vries 2007",
+     "title": "Sleeping Giant: Fact or Fairytale?",
+     "authors": "Catherine E. de Vries",
+     "year": 2007,
+     "journal": "European Union Politics",
+     "doi": "10.1177/1465116507079546",
+     "zotero": null
+    },
+    {
+     "id": "hoboltdevries2015",
+     "dir": "eu-network",
+     "label": "Hobolt 2015",
+     "title": "Issue Entrepreneurship and Multiparty Competition",
+     "authors": "Sara B. Hobolt & Catherine E. de Vries",
+     "year": 2015,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414015575030",
+     "zotero": null
+    },
+    {
+     "id": "devrieshobolt2020",
+     "dir": "eu-network",
+     "label": "De Vries 2020",
+     "title": "Political Entrepreneurs: The Rise of Challenger Parties in Europe",
+     "authors": "Catherine E. De Vries & Sara B. Hobolt",
+     "year": 2020,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mainstreamstrategy",
+   "label": "Mainstream strategy & niche parties",
+   "family": "masspolitics",
+   "year": 2005,
+   "origin": "Meguid",
+   "core": "Mainstream parties shape niche party success by accommodating, opposing or ignoring their issues.",
+   "works": [
+    {
+     "id": "meguid2005",
+     "dir": "eu-network",
+     "label": "Meguid 2005",
+     "title": "Competition Between Unequals: The Role of Mainstream Party Strategy in Niche Party Success",
+     "authors": "Bonnie M. Meguid",
+     "year": 2005,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "abouchadikrause2020",
+     "dir": "eu-network",
+     "label": "Abou-Chadi 2018",
+     "title": "The Causal Effect of Radical Right Success on Mainstream Parties’ Policy Positions: A Regression Discontinuity Approach",
+     "authors": "Tarik Abou-Chadi & Werner Krause",
+     "year": 2018,
+     "journal": "BJPS",
+     "doi": "10.1017/s0007123418000029",
+     "zotero": null
+    },
+    {
+     "id": "vanspanje2010",
+     "dir": "eu-network",
+     "label": "van Spanje 2010",
+     "title": "Contagious Parties",
+     "authors": "Joost van Spanje",
+     "year": 2010,
+     "journal": "Party Politics",
+     "doi": "10.1177/1354068809346002",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "integrationdemarcation",
+   "label": "Integration-demarcation cleavage",
+   "family": "masspolitics",
+   "year": 2006,
+   "origin": "Kriesi et al.; Hooghe & Marks",
+   "core": "Globalization creates a new cultural cleavage between its winners and losers, now a transnational cleavage.",
+   "works": [
+    {
+     "id": "kriesi2006",
+     "dir": "eu-network",
+     "label": "Kriesi 2006",
+     "title": "Globalization and the transformation of the national political space: Six European countries compared",
+     "authors": "Hanspeter Kriesi, Edgar Grande, Romain Lachat et al.",
+     "year": 2006,
+     "journal": "European Journal of Political Research",
+     "doi": "10.1111/j.1475-6765.2006.00644.x",
+     "zotero": null
+    },
+    {
+     "id": "kriesi2008",
+     "dir": "eu-network",
+     "label": "Kriesi 2008",
+     "title": "West European Politics in the Age of Globalization",
+     "authors": "Hanspeter Kriesi, Edgar Grande, Romain Lachat, Martin Dolezal, Simon Bornschier & Timotheos Frey",
+     "year": 2008,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "bornschier2010",
+     "dir": "eu-network",
+     "label": "Bornschier 2010",
+     "title": "The New Cultural Divide and the Two-Dimensional Political Space in Western Europe",
+     "authors": "Simon Bornschier",
+     "year": 2010,
+     "journal": "West European Politics",
+     "doi": "10.1080/01402381003654387",
+     "zotero": null
+    },
+    {
+     "id": "hoogemarks2018",
+     "dir": "eu-network",
+     "label": "Hooghe 2017",
+     "title": "Cleavage theory meets Europe’s crises: Lipset, Rokkan, and the transnational cleavage",
+     "authors": "Liesbet Hooghe & Gary Marks",
+     "year": 2017,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2017.1310279",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "prr",
+   "label": "Populist radical right",
+   "family": "masspolitics",
+   "year": 2007,
+   "origin": "Betz; Kitschelt & McGann; Mudde",
+   "core": "A party family combining nativism, authoritarianism and populism mobilizes demand for cultural closure.",
+   "works": [
+    {
+     "id": "mudde2007",
+     "dir": "eu-network",
+     "label": "Mudde 2007",
+     "title": "Populist Radical Right Parties in Europe",
+     "authors": "Cas Mudde",
+     "year": 2007,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kitschelt1995",
+     "dir": "eu-network",
+     "label": "Kitschelt 1995",
+     "title": "The Radical Right in Western Europe: A Comparative Analysis",
+     "authors": "Herbert Kitschelt & Anthony J. McGann",
+     "year": 1995,
+     "journal": "University of Michigan Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "ivarsflaten2008",
+     "dir": "eu-network",
+     "label": "Ivarsflaten 2007",
+     "title": "What Unites Right-Wing Populists in Western Europe?",
+     "authors": "Elisabeth Ivarsflaten",
+     "year": 2007,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414006294168",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "politicization",
+   "label": "Politicization of Europe",
+   "family": "masspolitics",
+   "year": 2011,
+   "origin": "de Wilde; Zürn; Hutter, Grande & Kriesi",
+   "core": "EU authority makes integration salient, polarized and contested in national arenas.",
+   "works": [
+    {
+     "id": "dewilde2011",
+     "dir": "eu-network",
+     "label": "de Wilde 2011",
+     "title": "No Polity for Old Politics? A Framework for Analyzing the Politicization of European Integration",
+     "authors": "Pieter De Wilde",
+     "year": 2011,
+     "journal": "Journal of European Integration",
+     "doi": "10.1080/07036337.2010.546849",
+     "zotero": null
+    },
+    {
+     "id": "hutter2016",
+     "dir": "eu-network",
+     "label": "Hutter 2016",
+     "title": "Politicising Europe: Integration and Mass Politics",
+     "authors": "Swen Hutter, Edgar Grande & Hanspeter Kriesi (eds.)",
+     "year": 2016,
+     "journal": "Cambridge University Press (edited book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "zurn2019",
+     "dir": "eu-network",
+     "label": "Zürn 2019",
+     "title": "Politicization compared: at national, European, and global levels",
+     "authors": "Michael Zürn",
+     "year": 2019,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2019.1619188",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "oca",
+   "label": "Optimum currency areas",
+   "family": "economy",
+   "year": 1961,
+   "origin": "Mundell",
+   "core": "A monetary union needs labour mobility or fiscal transfers to absorb asymmetric shocks.",
+   "works": [
+    {
+     "id": "mundell1961",
+     "dir": "eu-network",
+     "label": "Mundell 1961",
+     "title": "A Theory of Optimum Currency Areas",
+     "authors": "Robert A. Mundell",
+     "year": 1961,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "degrauwe2013",
+     "dir": "eu-network",
+     "label": "De Grauwe 2013",
+     "title": "The Political Economy of the Euro",
+     "authors": "Paul De Grauwe",
+     "year": 2013,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev-polisci-060911-085923",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "voceuro",
+   "label": "Comparative capitalism & the euro crisis",
+   "family": "economy",
+   "year": 2014,
+   "origin": "Hall; Iversen, Soskice & Hope",
+   "core": "Monetary union joined export-led and demand-led growth models whose mismatch produced the crisis.",
+   "works": [
+    {
+     "id": "hall2014",
+     "dir": "eu-network",
+     "label": "Hall 2014",
+     "title": "Varieties of Capitalism and the Euro Crisis",
+     "authors": "Peter A. Hall",
+     "year": 2014,
+     "journal": "West European Politics",
+     "doi": "10.1080/01402382.2014.929352",
+     "zotero": null
+    },
+    {
+     "id": "copelovitch2016",
+     "dir": "eu-network",
+     "label": "Copelovitch 2016",
+     "title": "The Political Economy of the Euro Crisis",
+     "authors": "Mark Copelovitch, Jeffry Frieden & Stefanie Walter",
+     "year": 2016,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414016633227",
+     "zotero": null
+    },
+    {
+     "id": "nolke2009",
+     "dir": "eu-network",
+     "label": "Nölke 2009",
+     "title": "Enlarging the Varieties of Capitalism: The Emergence of Dependent Market Economies in East Central Europe",
+     "authors": "Andreas Nölke & Arjan Vliegenthart",
+     "year": 2009,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887109990098",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "europeanization",
+   "label": "Europeanization & goodness of fit",
+   "family": "external",
+   "year": 2000,
+   "origin": "Börzel & Risse; Cowles, Caporaso & Risse",
+   "core": "Domestic change follows misfit between EU and national rules, mediated by veto points and norm entrepreneurs.",
+   "works": [
+    {
+     "id": "borzelrisse2000",
+     "dir": "eu-network",
+     "label": "Börzel 2000",
+     "title": "When Europe Hits Home: Europeanization and Domestic Change",
+     "authors": "Tanja A. Börzel & Thomas Risse",
+     "year": 2000,
+     "journal": "European Integration online Papers",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "cowles2001",
+     "dir": "eu-network",
+     "label": "Cowles 2001",
+     "title": "Transforming Europe: Europeanization and Domestic Change",
+     "authors": "Maria Green Cowles, James Caporaso & Thomas Risse (eds.)",
+     "year": 2001,
+     "journal": "Cornell University Press (edited book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mastenbroek2006",
+     "dir": "eu-network",
+     "label": "Mastenbroek 2006",
+     "title": "Europeanization Beyond the Goodness of Fit: Domestic Politics in the Forefront",
+     "authors": "Ellen Mastenbroek & Michael Kaeding",
+     "year": 2006,
+     "journal": "Comparative European Politics",
+     "doi": "10.1057/palgrave.cep.6110078",
+     "zotero": null
+    },
+    {
+     "id": "falkner2007",
+     "dir": "eu-network",
+     "label": "Falkner 2007",
+     "title": "Worlds of compliance: Why leading approaches to European Union implementation are only ‘sometimes‐true theories’",
+     "authors": "Gerda Falkner, Miriam Hartlapp & Oliver Treib",
+     "year": 2007,
+     "journal": "European Journal of Political Research",
+     "doi": "10.1111/j.1475-6765.2007.00703.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "externalincentives",
+   "label": "External incentives model",
+   "family": "external",
+   "year": 2004,
+   "origin": "Schimmelfennig & Sedelmeier",
+   "core": "Candidates adopt EU rules when membership rewards are large and credible and domestic costs are low.",
+   "works": [
+    {
+     "id": "schimmelfennigsedelmeier2004",
+     "dir": "eu-network",
+     "label": "Schimmelfennig 2004",
+     "title": "Governance by Conditionality: EU Rule Transfer to the Candidate Countries of Central and Eastern Europe",
+     "authors": "Frank Schimmelfennig & Ulrich Sedelmeier",
+     "year": 2004,
+     "journal": "Journal of European Public Policy",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "schimmelfennigsedelmeier2005",
+     "dir": "eu-network",
+     "label": "Schimmelfennig 2005",
+     "title": "The Europeanization of Central and Eastern Europe",
+     "authors": "Frank Schimmelfennig & Ulrich Sedelmeier (eds.)",
+     "year": 2005,
+     "journal": "Cornell University Press (edited book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "vachudova2005",
+     "dir": "eu-network",
+     "label": "Vachudova 2005",
+     "title": "Europe Undivided: Democracy, Leverage, and Integration After Communism",
+     "authors": "Milada Anna Vachudova",
+     "year": 2005,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "normativepower",
+   "label": "Normative power Europe",
+   "family": "external",
+   "year": 2002,
+   "origin": "Duchêne; Manners",
+   "core": "The EU shapes what counts as normal in world politics through norms rather than force.",
+   "works": [
+    {
+     "id": "manners2002",
+     "dir": "eu-network",
+     "label": "Manners 2002",
+     "title": "Normative Power Europe: A Contradiction in Terms?",
+     "authors": "Ian Manners",
+     "year": 2002,
+     "journal": "Journal of Common Market Studies",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "manners2006",
+     "dir": "eu-network",
+     "label": "Manners 2006",
+     "title": "Normative power Europe reconsidered: beyond the crossroads",
+     "authors": "Ian Manners",
+     "year": 2006,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501760500451600",
+     "zotero": null
+    },
+    {
+     "id": "duchene1972",
+     "dir": "eu-network",
+     "label": "Duchêne 1972",
+     "title": "Europe's Role in World Peace",
+     "authors": "François Duchêne",
+     "year": 1972,
+     "journal": "Europe Tomorrow: Sixteen Europeans Look Ahead (chapter)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "brusselseffect",
+   "label": "Market power Europe & the Brussels effect",
+   "family": "external",
+   "year": 2012,
+   "origin": "Damro; Bradford",
+   "core": "The EU exercises power by externalizing its market regulations to global firms and states.",
+   "works": [
+    {
+     "id": "damro2012",
+     "dir": "eu-network",
+     "label": "Damro 2012",
+     "title": "Market power Europe",
+     "authors": "Chad Damro",
+     "year": 2012,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2011.646779",
+     "zotero": null
+    },
+    {
+     "id": "bradford2020",
+     "dir": "eu-network",
+     "label": "Bradford 2020",
+     "title": "The Brussels Effect: How the European Union Rules the World",
+     "authors": "Anu Bradford",
+     "year": 2020,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "authoritarianequilibrium",
+   "label": "Authoritarian equilibrium",
+   "family": "external",
+   "year": 2017,
+   "origin": "Kelemen",
+   "core": "EU party politics, funds and free movement shelter autocratizing member governments.",
+   "works": [
+    {
+     "id": "kelemen2017",
+     "dir": "eu-network",
+     "label": "Kelemen 2017",
+     "title": "Europe’s Other Democratic Deficit: National Authoritarianism in Europe’s Democratic Union",
+     "authors": "R. Daniel Kelemen",
+     "year": 2017,
+     "journal": "Government and Opposition",
+     "doi": "10.1017/gov.2016.41",
+     "zotero": null
+    },
+    {
+     "id": "kelemen2020",
+     "dir": "eu-network",
+     "label": "Kelemen 2020",
+     "title": "The European Union's authoritarian equilibrium",
+     "authors": "R. Daniel Kelemen",
+     "year": 2020,
+     "journal": "Journal of European Public Policy",
+     "doi": "10.1080/13501763.2020.1712455",
+     "zotero": null
+    },
+    {
+     "id": "bankuti2012",
+     "dir": "eu-network",
+     "label": "Bánkuti 2012",
+     "title": "Hungary’s Illiberal Turn: Disabling the Constitution",
+     "authors": "Miklós Bánkuti, Gábor Halmai & Kim Lane Scheppele",
+     "year": 2012,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2012.0054",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "li",
+   "target": "neofunctionalism",
+   "type": "rivals",
+   "why": "National preferences and bargaining, not spillover, explain treaty outcomes."
+  },
+  {
+   "source": "histinst",
+   "target": "li",
+   "type": "rivals",
+   "why": "States lose control over integration through path dependence."
+  },
+  {
+   "source": "mlg",
+   "target": "li",
+   "type": "rivals",
+   "why": "Authority is dispersed across levels rather than held by states."
+  },
+  {
+   "source": "supranational",
+   "target": "neofunctionalism",
+   "type": "extends",
+   "why": "Revives spillover logic through transnational exchange and supranational rule-making."
+  },
+  {
+   "source": "supranational",
+   "target": "li",
+   "type": "rivals",
+   "why": "Supranational governance develops beyond intergovernmental bargains."
+  },
+  {
+   "source": "principalagent",
+   "target": "li",
+   "type": "extends",
+   "why": "Specifies delegation as a stage of intergovernmental institutional choice."
+  },
+  {
+   "source": "principalagent",
+   "target": "histinst",
+   "type": "complements",
+   "why": "Agency slack is one source of the control gaps historical institutionalism stresses."
+  },
+  {
+   "source": "legalintegration",
+   "target": "neofunctionalism",
+   "type": "applies",
+   "why": "Applies spillover logic to law and the Court of Justice."
+  },
+  {
+   "source": "strategiccourt",
+   "target": "legalintegration",
+   "type": "rivals",
+   "why": "The Court follows powerful governments rather than escaping them."
+  },
+  {
+   "source": "strategiccourt",
+   "target": "li",
+   "type": "applies",
+   "why": "Applies intergovernmental logic to judicial politics."
+  },
+  {
+   "source": "regulatorystate",
+   "target": "jointdecision",
+   "type": "complements",
+   "why": "Regulation by delegation escapes the decision traps of redistributive policy."
+  },
+  {
+   "source": "nodeficit",
+   "target": "regulatorystate",
+   "type": "extends",
+   "why": "A regulatory polity should be judged by output standards."
+  },
+  {
+   "source": "inputoutput",
+   "target": "jointdecision",
+   "type": "extends",
+   "why": "Decision traps limit the output legitimacy of the EU."
+  },
+  {
+   "source": "democraticdeficit",
+   "target": "nodeficit",
+   "type": "rivals",
+   "why": "Without electoral contestation the EU is undemocratic."
+  },
+  {
+   "source": "democraticdeficit",
+   "target": "inputoutput",
+   "type": "extends",
+   "why": "Input legitimacy requires contestation over leadership and policy."
+  },
+  {
+   "source": "postmaterialism",
+   "target": "cleavage",
+   "type": "rivals",
+   "why": "Value change, not frozen cleavages, structures politics."
+  },
+  {
+   "source": "issueentrepreneurship",
+   "target": "secondorder",
+   "type": "rivals",
+   "why": "EU attitudes shape votes when parties mobilize them."
+  },
+  {
+   "source": "identitycues",
+   "target": "utilitarian",
+   "type": "rivals",
+   "why": "Identity and cues explain support beyond economic calculation."
+  },
+  {
+   "source": "integrationdemarcation",
+   "target": "cleavage",
+   "type": "extends",
+   "why": "Globalization creates a new structural cleavage."
+  },
+  {
+   "source": "integrationdemarcation",
+   "target": "postmaterialism",
+   "type": "synthesizes",
+   "why": "Integrates value change with economic winners and losers."
+  },
+  {
+   "source": "prr",
+   "target": "integrationdemarcation",
+   "type": "applies",
+   "why": "The radical right mobilizes the demarcation side of the new cleavage."
+  },
+  {
+   "source": "prr",
+   "target": "mainstreamstrategy",
+   "type": "complements",
+   "why": "Radical right success depends on mainstream party responses."
+  },
+  {
+   "source": "postfunctionalism",
+   "target": "neofunctionalism",
+   "type": "rivals",
+   "why": "Identity politics, not functional spillover, now shapes integration."
+  },
+  {
+   "source": "postfunctionalism",
+   "target": "mlg",
+   "type": "extends",
+   "why": "Explains why multilevel jurisdictions are contested."
+  },
+  {
+   "source": "postfunctionalism",
+   "target": "identitycues",
+   "type": "extends",
+   "why": "Exclusive identity, cued by parties, constrains integration."
+  },
+  {
+   "source": "postfunctionalism",
+   "target": "integrationdemarcation",
+   "type": "complements",
+   "why": "The new cleavage carries identity politics into integration."
+  },
+  {
+   "source": "politicization",
+   "target": "postfunctionalism",
+   "type": "extends",
+   "why": "Specifies when and how integration is politicized."
+  },
+  {
+   "source": "politicization",
+   "target": "issueentrepreneurship",
+   "type": "complements",
+   "why": "Challenger parties drive politicization in national arenas."
+  },
+  {
+   "source": "differentiated",
+   "target": "postfunctionalism",
+   "type": "synthesizes",
+   "why": "Politicization explains opt-outs and differentiation."
+  },
+  {
+   "source": "differentiated",
+   "target": "li",
+   "type": "synthesizes",
+   "why": "Interdependence-driven bargaining explains where integration deepens."
+  },
+  {
+   "source": "newintergov",
+   "target": "supranational",
+   "type": "rivals",
+   "why": "Integration since Maastricht avoids supranational transfers."
+  },
+  {
+   "source": "newintergov",
+   "target": "postfunctionalism",
+   "type": "complements",
+   "why": "Politicization pushes governments toward intergovernmental coordination."
+  },
+  {
+   "source": "voceuro",
+   "target": "oca",
+   "type": "extends",
+   "why": "Asymmetric adjustment reflects diverse national growth models."
+  },
+  {
+   "source": "failingforward",
+   "target": "li",
+   "type": "synthesizes",
+   "why": "Lowest-common-denominator bargains create incomplete regimes."
+  },
+  {
+   "source": "failingforward",
+   "target": "neofunctionalism",
+   "type": "synthesizes",
+   "why": "Policy failures generate spillover pressure for more integration."
+  },
+  {
+   "source": "failingforward",
+   "target": "histinst",
+   "type": "extends",
+   "why": "Incompleteness and crises unfold as path-dependent sequences."
+  },
+  {
+   "source": "failingforward",
+   "target": "voceuro",
+   "type": "complements",
+   "why": "Incomplete EMU design and mismatched growth models together explain the euro crisis."
+  },
+  {
+   "source": "externalincentives",
+   "target": "europeanization",
+   "type": "applies",
+   "why": "Applies Europeanization to candidate states through conditionality."
+  },
+  {
+   "source": "brusselseffect",
+   "target": "normativepower",
+   "type": "rivals",
+   "why": "EU external power rests on market size and regulation rather than norms."
+  },
+  {
+   "source": "brusselseffect",
+   "target": "regulatorystate",
+   "type": "extends",
+   "why": "The regulatory state projects its rules globally."
+  },
+  {
+   "source": "authoritarianequilibrium",
+   "target": "externalincentives",
+   "type": "rivals",
+   "why": "After accession, EU leverage fails and its structures shelter autocrats."
+  },
+  {
+   "source": "authoritarianequilibrium",
+   "target": "democraticdeficit",
+   "type": "extends",
+   "why": "National authoritarianism is the EU's other democratic deficit."
+  }
+ ]
+}

@@ -15,8 +15,8 @@
   "counts": {
    "work_nodes": 326,
    "theme_nodes": 18,
-   "seed_from_papers_json": 4,
-   "crossref_top_cited": 237,
+   "seed_from_papers_json": 5,
+   "crossref_top_cited": 236,
    "anchors_supplement": 85,
    "relation_edges": 337,
    "membership_edges": 453
@@ -5041,22 +5041,21 @@
    "crossref_doi": "10.1093/isq/sqab071"
   },
   {
-   "id": "mansfieldmutz2009",
+   "id": "mansfield2009",
    "type": "work",
    "label": "Mansfield 2009",
    "authors": "Edward D. Mansfield & Diana C. Mutz",
    "year": 2009,
    "journal": "IO",
    "title": "Support for Free Trade: Self-Interest, Sociotropic Politics, and Out-Group Anxiety",
-   "claim": "Trade attitudes reflect sociotropic perceptions and out-group anxiety, not self-interest.",
-   "method": "Survey analysis",
+   "claim": "Trade attitudes are driven less by material self-interest than by sociotropic perceptions of national effects and by out-group anxiety; the education gradient largely reflects isolationism and ethnocentrism.",
+   "method": "Two US national surveys with detailed occupation and industry items",
    "themes": [
     "intergroup"
    ],
-   "source": "crossref-top-cited",
-   "zotero": null,
-   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818309090158); claim is my summary, not re-read this session",
-   "crossref_doi": "10.1017/s0020818309090158"
+   "source": "papers.json:9XFJFSG6",
+   "zotero": "https://www.zotero.org/georgeyean/items/9XFJFSG6",
+   "verified": "repo analysis (full text)"
   },
   {
    "id": "mercer2010",
@@ -5259,7 +5258,7 @@
    ],
    "source": "supplement",
    "zotero": null,
-   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+   "verified": "Not found as its own Crossref record; metadata from memory"
   },
   {
    "id": "hovland1953",

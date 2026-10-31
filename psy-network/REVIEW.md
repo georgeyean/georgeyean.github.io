@@ -5,7 +5,7 @@ A narrative companion to `graph.json` and `network.html` in this folder. The gra
 **How the works were chosen.**
 - **Shared works:** 133 works already in other maps are reused. Most come from the American politics map (opinion, motivated reasoning, emotion, personality, genes, misinformation and partisan identity). Others come from REP (racial attitudes), security and IR (leaders' psychology), technology (misinformation) and comparative politics (authoritarian values).
 - **Top-cited articles:** 141 come from the most-cited 2006–2026 articles in *Political Psychology*, the *Journal of Experimental Political Science*, *JPSP* and *Psychological Science* (political articles only). Psychology-related articles in APSR, AJPS, JOP, BJPS, *Political Behavior*, POQ, *Political Communication*, ARPS, ISQ, IO and *Perspectives on Politics* were added too.
-- **Anchors:** 52 books and classic articles, from Adorno et al. and Festinger to Kunda, Marcus, Jost, Haidt and Lewandowsky. 46 matched Crossref directly; 6 books exist there only through reviews (see the end).
+- **Anchors:** 52 books and classic articles, from Adorno et al. and Festinger to Kunda, Marcus, Jost, Haidt and Lewandowsky. 46 matched Crossref directly; 5 books exist there only through reviews and 1 was not found (see the end).
 
 Relations are judgments of how each work's argument relates to the other's, and every relation runs from the later work to the earlier one. One-line claims for non-library works are my summaries.
 
@@ -72,4 +72,4 @@ Experiments now dominate `[druckman2006]` and generalize across samples `[mullin
 - **LLM annotation of elite rhetoric.** It can measure framing and emotional appeals at scale `[druckman2022arps]`, `[webster2022]`.
 
 ## What I could not verify (flagged)
-Six books exist in Crossref only through reviews: Adorno et al. 1950, Sullivan, Piereson & Marcus 1982, Delli Carpini & Keeter 1996, Brader 2006, Berinsky 2009 and Haidt 2012.
+Five books exist in Crossref only through reviews: Sullivan, Piereson & Marcus 1982, Delli Carpini & Keeter 1996, Brader 2006, Berinsky 2009 and Haidt 2012. Adorno et al. 1950 was not found as its own Crossref record; its metadata comes from memory.

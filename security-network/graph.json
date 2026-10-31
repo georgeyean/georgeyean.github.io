@@ -4723,7 +4723,7 @@
    "crossref_doi": "10.1162/isec_a_00137"
   },
   {
-   "id": "lindpress2018",
+   "id": "lind2018",
    "type": "work",
    "label": "Lind 2018",
    "authors": "Jennifer Lind & Daryl G. Press",
@@ -6572,7 +6572,7 @@
    "why": "Specifies oil mechanisms relevant to US security."
   },
   {
-   "source": "lindpress2018",
+   "source": "lind2018",
    "target": "glaser2013",
    "type": "builds_on",
    "why": "Energy mercantilism as rational security policy."
@@ -9110,13 +9110,13 @@
    "why": "theme membership"
   },
   {
-   "source": "lindpress2018",
+   "source": "lind2018",
    "target": "econ-sec",
    "type": "belongs_to",
    "why": "theme membership"
   },
   {
-   "source": "lindpress2018",
+   "source": "lind2018",
    "target": "us-china",
    "type": "belongs_to",
    "why": "theme membership"

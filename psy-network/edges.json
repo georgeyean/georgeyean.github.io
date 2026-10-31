@@ -15,8 +15,8 @@
   "counts": {
    "work_nodes": 326,
    "theme_nodes": 18,
-   "seed_from_papers_json": 4,
-   "crossref_top_cited": 237,
+   "seed_from_papers_json": 5,
+   "crossref_top_cited": 236,
    "anchors_supplement": 85,
    "relation_edges": 337,
    "membership_edges": 453
@@ -1963,7 +1963,7 @@
    "why": "General ethnocentrism."
   },
   {
-   "source": "mansfieldmutz2009",
+   "source": "mansfield2009",
    "target": "kinderkam2009",
    "type": "extends_to_new_case",
    "why": "Out-group anxiety drives trade attitudes."
@@ -4249,7 +4249,7 @@
    "why": "theme membership"
   },
   {
-   "source": "mansfieldmutz2009",
+   "source": "mansfield2009",
    "target": "intergroup",
    "type": "belongs_to",
    "why": "theme membership"

@@ -1,0 +1,1758 @@
+{
+ "meta": {
+  "field": "South and Southeast Asian Politics",
+  "built": "2026-10-28",
+  "theories": 35,
+  "relations": 37,
+  "relation_types": {
+   "extends": "refines or builds directly on the target theory",
+   "rivals": "offers a competing explanation of the same phenomenon",
+   "complements": "compatible; the two are often combined",
+   "synthesizes": "integrates the target with other theories",
+   "applies": "carries the target's logic to a new domain"
+  }
+ },
+ "families": [
+  {
+   "id": "democracy",
+   "label": "Democracy, parties & representation",
+   "color": "#2563eb"
+  },
+  {
+   "id": "identity",
+   "label": "Ethnicity, religion & violence",
+   "color": "#b91c1c"
+  },
+  {
+   "id": "patronage",
+   "label": "Patronage, clientelism & oligarchy",
+   "color": "#ca8a04"
+  },
+  {
+   "id": "state",
+   "label": "States, development & decentralization",
+   "color": "#16a34a"
+  },
+  {
+   "id": "regime",
+   "label": "Authoritarianism, militaries & populism",
+   "color": "#475569"
+  },
+  {
+   "id": "region",
+   "label": "Regional order & great powers",
+   "color": "#4f46e5"
+  }
+ ],
+ "theories": [
+  {
+   "id": "congresssystem",
+   "label": "One-party dominance & the Congress system",
+   "family": "democracy",
+   "year": 1964,
+   "origin": "Kothari; Weiner",
+   "core": "A dominant party absorbs factions while opposition parties pressure it from the margins.",
+   "works": [
+    {
+     "id": "kothari1964",
+     "dir": "ssea-network",
+     "label": "Kothari 1964",
+     "title": "The Congress 'System' in India",
+     "authors": "Rajni Kothari",
+     "year": 1964,
+     "journal": "Asian Survey",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "weiner1967",
+     "dir": "ssea-network",
+     "label": "Weiner 1967",
+     "title": "Party Building in a New Nation: The Indian National Congress",
+     "authors": "Myron Weiner",
+     "year": 1967,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "chhibberkollman2004",
+     "dir": "ssea-network",
+     "label": "Chhibber 2004",
+     "title": "The Formation of National Party Systems: Federalism and Party Competition in Canada, Great Britain, India, and the United States",
+     "authors": "Pradeep Chhibber & Ken Kollman",
+     "year": 2004,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "chhibberverma2019",
+     "dir": "ssea-network",
+     "label": "Chhibber 2019",
+     "title": "The Rise of the Second Dominant Party System in India: BJP’s New Social Coalition in 2019",
+     "authors": "Pradeep Chhibber & Rahul Verma",
+     "year": 2019,
+     "journal": "Studies in Indian Politics",
+     "doi": "10.1177/2321023019874628",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "consociation",
+   "label": "Consociational democracy in India",
+   "family": "democracy",
+   "year": 1996,
+   "origin": "Lijphart",
+   "core": "India's democracy survives deep diversity through grand coalitions, autonomy and proportionality.",
+   "works": [
+    {
+     "id": "lijphart1996",
+     "dir": "ssea-network",
+     "label": "Lijphart 1996",
+     "title": "The Puzzle of Indian Democracy: A Consociational Interpretation",
+     "authors": "Arend Lijphart",
+     "year": 1996,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "statenation",
+   "label": "State-nations & asymmetric federalism",
+   "family": "democracy",
+   "year": 2011,
+   "origin": "Stepan, Linz & Yadav",
+   "core": "Multinational democracies endure by recognizing multiple identities through asymmetric federalism.",
+   "works": [
+    {
+     "id": "stepan2011",
+     "dir": "ssea-network",
+     "label": "Stepan 2011",
+     "title": "Crafting State-Nations: India and Other Multinational Democracies",
+     "authors": "Alfred Stepan, Juan J. Linz & Yogendra Yadav",
+     "year": 2011,
+     "journal": "Johns Hopkins University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "adeney2017",
+     "dir": "ssea-network",
+     "label": "Adeney 2017",
+     "title": "Does ethnofederalism explain the success of Indian federalism?",
+     "authors": "Katharine Adeney",
+     "year": 2017,
+     "journal": "India Review",
+     "doi": "10.1080/14736489.2017.1279933",
+     "zotero": null
+    },
+    {
+     "id": "aiyartillin2020",
+     "dir": "ssea-network",
+     "label": "Aiyar 2020",
+     "title": "“One nation,” BJP, and the future of Indian federalism",
+     "authors": "Yamini Aiyar & Louise Tillin",
+     "year": 2020,
+     "journal": "India Review",
+     "doi": "10.1080/14736489.2020.1744994",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "foundingparty",
+   "label": "Founding parties & democratic origins",
+   "family": "democracy",
+   "year": 2013,
+   "origin": "Tudor; Tudor & Slater",
+   "core": "Strong, inclusive independence parties set new states on democratic paths.",
+   "works": [
+    {
+     "id": "tudor2013book",
+     "dir": "ssea-network",
+     "label": "Tudor 2013",
+     "title": "The Promise of Power: The Origins of Democracy in India and Autocracy in Pakistan",
+     "authors": "Maya Tudor",
+     "year": 2013,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "tudorslater2020",
+     "dir": "ssea-network",
+     "label": "Tudor 2020",
+     "title": "Nationalism, Authoritarianism, and Democracy: Historical Lessons from South and Southeast Asia",
+     "authors": "Maya Tudor & Dan Slater",
+     "year": 2020,
+     "journal": "Perspectives on Politics",
+     "doi": "10.1017/s153759272000078x",
+     "zotero": null
+    },
+    {
+     "id": "moore1966",
+     "dir": "ssea-network",
+     "label": "Moore 1966",
+     "title": "Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World",
+     "authors": "Barrington Moore Jr.",
+     "year": 1966,
+     "journal": "Beacon Press (book)",
+     "doi": "10.33458/uidergisi.513200",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "mandatedrep",
+   "label": "Mandated representation & quotas",
+   "family": "democracy",
+   "year": 2003,
+   "origin": "Pande; Chattopadhyay & Duflo",
+   "core": "Reserving offices for women and lower castes changes policy and perceptions.",
+   "works": [
+    {
+     "id": "pande2003",
+     "dir": "ssea-network",
+     "label": "Pande 2003",
+     "title": "Can Mandated Political Representation Increase Policy Influence for Disadvantaged Minorities? Theory and Evidence from India",
+     "authors": "Rohini Pande",
+     "year": 2003,
+     "journal": "American Economic Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "chattopadhyayduflo2004",
+     "dir": "ssea-network",
+     "label": "Chattopadhyay 2004",
+     "title": "Women as Policy Makers: Evidence from a Randomized Policy Experiment in India",
+     "authors": "Raghabendra Chattopadhyay & Esther Duflo",
+     "year": 2004,
+     "journal": "Econometrica",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "dunningnilekani2013",
+     "dir": "ssea-network",
+     "label": "Dunning 2013",
+     "title": "Ethnic Quotas and Political Mobilization: Caste, Parties, and Distribution in Indian Village Councils",
+     "authors": "Thad Dunning & Janhavi Nilekani",
+     "year": 2013,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055412000573",
+     "zotero": null
+    },
+    {
+     "id": "chauchard2017",
+     "dir": "ssea-network",
+     "label": "Chauchard 2017",
+     "title": "Why Representation Matters: The Meaning of Ethnic Quotas in Rural India",
+     "authors": "Simon Chauchard",
+     "year": 2017,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "outbidding",
+   "label": "Ethnic outbidding",
+   "family": "identity",
+   "year": 1985,
+   "origin": "Horowitz; Tambiah",
+   "core": "Ethnic parties outbid each other toward extremes, destabilizing democracy.",
+   "works": [
+    {
+     "id": "horowitz1985",
+     "dir": "ssea-network",
+     "label": "Horowitz 1985",
+     "title": "Ethnic Groups in Conflict",
+     "authors": "Donald L. Horowitz",
+     "year": 1985,
+     "journal": "University of California Press (book)",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/3YM2P4BC"
+    },
+    {
+     "id": "tambiah1986",
+     "dir": "ssea-network",
+     "label": "Tambiah 1986",
+     "title": "Sri Lanka: Ethnic Fratricide and the Dismantling of Democracy",
+     "authors": "Stanley J. Tambiah",
+     "year": 1986,
+     "journal": "University of Chicago Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "devotta2004",
+     "dir": "ssea-network",
+     "label": "DeVotta 2004",
+     "title": "Blowback: Linguistic Nationalism, Institutional Decay, and Ethnic Conflict in Sri Lanka",
+     "authors": "Neil DeVotta",
+     "year": 2004,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "ethnicheadcount",
+   "label": "Patronage democracy & ethnic head counts",
+   "family": "patronage",
+   "year": 2004,
+   "origin": "Chandra",
+   "core": "Where the state controls jobs and services, voters back coethnic parties that can win.",
+   "works": [
+    {
+     "id": "chandra2004",
+     "dir": "ssea-network",
+     "label": "Chandra 2004",
+     "title": "Why Ethnic Parties Succeed: Patronage and Ethnic Head Counts in India",
+     "authors": "Kanchan Chandra",
+     "year": 2004,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "chandra2005",
+     "dir": "ssea-network",
+     "label": "Chandra 2005",
+     "title": "Ethnic Parties and Democratic Stability",
+     "authors": "Kanchan Chandra",
+     "year": 2005,
+     "journal": "Perspectives on Politics",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "chandra2016",
+     "dir": "ssea-network",
+     "label": "Chandra 2016",
+     "title": "Democratic Dynasties: State, Party, and Family in Contemporary Indian Politics",
+     "authors": "Kanchan Chandra (ed.)",
+     "year": 2016,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "constructivist",
+   "label": "Constructivist theory of ethnic identity",
+   "family": "identity",
+   "year": 2006,
+   "origin": "Chandra; Wilkinson",
+   "core": "Ethnic identities are multiple and their activation depends on institutions and incentives.",
+   "works": [
+    {
+     "id": "chandra2006",
+     "dir": "ssea-network",
+     "label": "Chandra 2006",
+     "title": "What Is Ethnic Identity and Does It Matter?",
+     "authors": "Kanchan Chandra",
+     "year": 2006,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.9.062404.170715",
+     "zotero": null
+    },
+    {
+     "id": "chandrawilkinson2008",
+     "dir": "ssea-network",
+     "label": "Chandra 2008",
+     "title": "Measuring the Effect of “Ethnicity”",
+     "authors": "Kanchan Chandra & Steven Wilkinson",
+     "year": 2008,
+     "journal": "Comparative Political Studies",
+     "doi": "10.1177/0010414007313240",
+     "zotero": null
+    },
+    {
+     "id": "nairsambanis2019",
+     "dir": "ssea-network",
+     "label": "Nair 2019",
+     "title": "Violence Exposure and Ethnic Identification: Evidence from Kashmir",
+     "authors": "Gautam Nair & Nicholas Sambanis",
+     "year": 2019,
+     "journal": "IO",
+     "doi": "10.1017/s0020818318000498",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "civicties",
+   "label": "Civic engagement & ethnic peace",
+   "family": "identity",
+   "year": 2002,
+   "origin": "Varshney",
+   "core": "Interethnic civic networks prevent riots that strike cities with only intraethnic ties.",
+   "works": [
+    {
+     "id": "varshney2002",
+     "dir": "ssea-network",
+     "label": "Varshney 2002",
+     "title": "Ethnic Conflict and Civic Life: Hindus and Muslims in India",
+     "authors": "Ashutosh Varshney",
+     "year": 2002,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "varshney2001",
+     "dir": "ssea-network",
+     "label": "Varshney 2001",
+     "title": "Ethnic Conflict and Civil Society",
+     "authors": "Ashutosh Varshney",
+     "year": 2001,
+     "journal": "World Politics",
+     "doi": null,
+     "zotero": "https://www.zotero.org/georgeyean/items/XW7R7H25"
+    },
+    {
+     "id": "jha2013",
+     "dir": "ssea-network",
+     "label": "Jha 2013",
+     "title": "Trade, Institutions, and Ethnic Tolerance: Evidence from South Asia",
+     "authors": "Saumitra Jha",
+     "year": 2013,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055413000464",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "electoralriots",
+   "label": "Electoral incentives & riot production",
+   "family": "identity",
+   "year": 2004,
+   "origin": "Wilkinson; Brass",
+   "core": "Politicians produce or stop riots according to electoral incentives.",
+   "works": [
+    {
+     "id": "wilkinson2004",
+     "dir": "ssea-network",
+     "label": "Wilkinson 2004",
+     "title": "Votes and Violence: Electoral Competition and Ethnic Riots in India",
+     "authors": "Steven I. Wilkinson",
+     "year": 2004,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "brass2003",
+     "dir": "ssea-network",
+     "label": "Brass 2003",
+     "title": "The Production of Hindu-Muslim Violence in Contemporary India",
+     "authors": "Paul R. Brass",
+     "year": 2003,
+     "journal": "University of Washington Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "nellis2016",
+     "dir": "ssea-network",
+     "label": "Nellis 2016",
+     "title": "Do Parties Matter for Ethnic Violence? Evidence From India",
+     "authors": "Gareth Nellis, Michael Weaver & Steven C. Rosenzweig",
+     "year": 2016,
+     "journal": "Quarterly Journal of Political Science",
+     "doi": "10.1561/100.00015051",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "hindunationalism",
+   "label": "Hindu nationalism & ethnic democracy",
+   "family": "identity",
+   "year": 1996,
+   "origin": "Jaffrelot; Hansen",
+   "core": "Hindu nationalism combines ethnoreligious mobilization and organization to redefine the nation.",
+   "works": [
+    {
+     "id": "jaffrelot1996",
+     "dir": "ssea-network",
+     "label": "Jaffrelot 1996",
+     "title": "The Hindu Nationalist Movement in India",
+     "authors": "Christophe Jaffrelot",
+     "year": 1996,
+     "journal": "Columbia University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hansen1999",
+     "dir": "ssea-network",
+     "label": "Hansen 1999",
+     "title": "The Saffron Wave: Democracy and Hindu Nationalism in Modern India",
+     "authors": "Thomas Blom Hansen",
+     "year": 1999,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "jaffrelot2021",
+     "dir": "ssea-network",
+     "label": "Jaffrelot 2021",
+     "title": "Modi's India: Hindu Nationalism and the Rise of Ethnic Democracy",
+     "authors": "Christophe Jaffrelot",
+     "year": 2021,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "servicemobilization",
+   "label": "Service-based mobilization",
+   "family": "patronage",
+   "year": 2011,
+   "origin": "Thachil",
+   "core": "Elite parties win poor voters through affiliates that provide social services.",
+   "works": [
+    {
+     "id": "thachil2011",
+     "dir": "ssea-network",
+     "label": "Thachil 2011",
+     "title": "Embedded Mobilization: Nonstate Service Provision as Electoral Strategy in India",
+     "authors": "Tariq Thachil",
+     "year": 2011,
+     "journal": "World Politics",
+     "doi": "10.1017/s0043887111000116",
+     "zotero": null
+    },
+    {
+     "id": "thachil2014",
+     "dir": "ssea-network",
+     "label": "Thachil 2014",
+     "title": "Elite Parties, Poor Voters: How Social Services Win Votes in India",
+     "authors": "Tariq Thachil",
+     "year": 2014,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "patronclient",
+   "label": "Patron-client politics",
+   "family": "patronage",
+   "year": 1972,
+   "origin": "Scott; Kitschelt & Wilkinson",
+   "core": "Personal exchange ties between unequal partners structure politics in developing democracies.",
+   "works": [
+    {
+     "id": "scott1972",
+     "dir": "ssea-network",
+     "label": "Scott 1972",
+     "title": "Patron-Client Politics and Political Change in Southeast Asia",
+     "authors": "James C. Scott",
+     "year": 1972,
+     "journal": "APSR",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kitschelt2007",
+     "dir": "ssea-network",
+     "label": "Kitschelt 2007",
+     "title": "Patrons, Clients, and Policies: Patterns of Democratic Accountability and Political Competition",
+     "authors": "Herbert Kitschelt & Steven I. Wilkinson (eds.)",
+     "year": 2007,
+     "journal": "Cambridge University Press (edited volume)",
+     "doi": "10.1017/cbo9780511585869",
+     "zotero": null
+    },
+    {
+     "id": "hicken2011",
+     "dir": "ssea-network",
+     "label": "Hicken 2011",
+     "title": "Clientelism",
+     "authors": "Allen Hicken",
+     "year": 2011,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.031908.220508",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "brokers",
+   "label": "Brokers & clientelist networks",
+   "family": "patronage",
+   "year": 2005,
+   "origin": "Stokes; Auerbach & Thachil; Aspinall & Berenschot",
+   "core": "Intermediaries link politicians and voters, and their incentives shape clientelism.",
+   "works": [
+    {
+     "id": "stokes2005",
+     "dir": "ssea-network",
+     "label": "Stokes 2005",
+     "title": "Perverse Accountability: A Formal Model of Machine Politics with Evidence from Argentina",
+     "authors": "Susan C. Stokes",
+     "year": 2005,
+     "journal": "APSR",
+     "doi": "10.1017/s0003055405051683",
+     "zotero": null
+    },
+    {
+     "id": "auerbachthachil2018",
+     "dir": "ssea-network",
+     "label": "Auerbach 2018",
+     "title": "How Clients Select Brokers: Competition and Choice in India's Slums",
+     "authors": "Adam Michael Auerbach & Tariq Thachil",
+     "year": 2018,
+     "journal": "APSR",
+     "doi": "10.1017/s000305541800028x",
+     "zotero": null
+    },
+    {
+     "id": "aspinallberenschot2019",
+     "dir": "ssea-network",
+     "label": "Aspinall 2019",
+     "title": "Democracy for Sale: Elections, Clientelism, and the State in Indonesia",
+     "authors": "Edward Aspinall & Ward Berenschot",
+     "year": 2019,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "bossism",
+   "label": "Bossism",
+   "family": "patronage",
+   "year": 1999,
+   "origin": "Sidel",
+   "core": "Local bosses rule through control of state resources and coercion.",
+   "works": [
+    {
+     "id": "sidel1999",
+     "dir": "ssea-network",
+     "label": "Sidel 1999",
+     "title": "Capital, Coercion, and Crime: Bossism in the Philippines",
+     "authors": "John T. Sidel",
+     "year": 1999,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "querubin2016",
+     "dir": "ssea-network",
+     "label": "Querubin 2016",
+     "title": "Family and Politics: Dynastic Persistence in the Philippines",
+     "authors": "Pablo Querubin",
+     "year": 2016,
+     "journal": "Quarterly Journal of Political Science",
+     "doi": "10.1561/100.00014182",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "oligarchy",
+   "label": "Oligarchy theory",
+   "family": "patronage",
+   "year": 2004,
+   "origin": "Robison & Hadiz; Winters; Anderson",
+   "core": "Concentrated wealth captures states and elections, surviving democratization.",
+   "works": [
+    {
+     "id": "robisonhadiz2004",
+     "dir": "ssea-network",
+     "label": "Robison 2004",
+     "title": "Reorganising Power in Indonesia: The Politics of Oligarchy in an Age of Markets",
+     "authors": "Richard Robison & Vedi R. Hadiz",
+     "year": 2004,
+     "journal": "RoutledgeCurzon (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "winters2011",
+     "dir": "ssea-network",
+     "label": "Winters 2011",
+     "title": "Oligarchy",
+     "authors": "Jeffrey A. Winters",
+     "year": 2011,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hadiz2010",
+     "dir": "ssea-network",
+     "label": "Hadiz 2010",
+     "title": "Localising Power in Post-Authoritarian Indonesia: A Southeast Asia Perspective",
+     "authors": "Vedi R. Hadiz",
+     "year": 2010,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "anderson1988",
+     "dir": "ssea-network",
+     "label": "Anderson 1988",
+     "title": "Cacique Democracy in the Philippines: Origins and Dreams",
+     "authors": "Benedict Anderson",
+     "year": 1988,
+     "journal": "New Left Review",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "cartel",
+   "label": "Party cartelization",
+   "family": "democracy",
+   "year": 2004,
+   "origin": "Slater",
+   "core": "Parties share power and patronage in grand coalitions, escaping accountability.",
+   "works": [
+    {
+     "id": "slater2004",
+     "dir": "ssea-network",
+     "label": "Slater 2004",
+     "title": "Indonesia's Accountability Trap: Party Cartels and Presidential Power after Democratic Transition",
+     "authors": "Dan Slater",
+     "year": 2004,
+     "journal": "Indonesia",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "slater2018",
+     "dir": "ssea-network",
+     "label": "Slater 2018",
+     "title": "Party Cartelization, Indonesian-style: Presidential Power-sharing and the Contingency of Democratic Opposition",
+     "authors": "Dan Slater",
+     "year": 2018,
+     "journal": "Journal of East Asian Studies",
+     "doi": "10.1017/jea.2017.26",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "developmentalstate",
+   "label": "Developmental state",
+   "family": "state",
+   "year": 1982,
+   "origin": "Johnson; Amsden; Wade",
+   "core": "Insulated bureaucracies guide markets and discipline business to industrialize.",
+   "works": [
+    {
+     "id": "johnson1982",
+     "dir": "ssea-network",
+     "label": "Johnson 1982",
+     "title": "MITI and the Japanese Miracle: The Growth of Industrial Policy, 1925-1975",
+     "authors": "Chalmers Johnson",
+     "year": 1982,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "amsden1989",
+     "dir": "ssea-network",
+     "label": "Amsden 1989",
+     "title": "Asia's Next Giant: South Korea and Late Industrialization",
+     "authors": "Alice H. Amsden",
+     "year": 1989,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "wade1990",
+     "dir": "ssea-network",
+     "label": "Wade 1990",
+     "title": "Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization",
+     "authors": "Robert Wade",
+     "year": 1990,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "stubbs2009",
+     "dir": "ssea-network",
+     "label": "Stubbs 2009",
+     "title": "What ever happened to the East Asian Developmental State? The unfolding debate",
+     "authors": "Richard Stubbs",
+     "year": 2009,
+     "journal": "The Pacific Review",
+     "doi": "10.1080/09512740802650971",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "embeddedautonomy",
+   "label": "Embedded autonomy & state types",
+   "family": "state",
+   "year": 1995,
+   "origin": "Evans; Kohli",
+   "core": "Cohesive states with ties to business industrialize; fragmented states do not.",
+   "works": [
+    {
+     "id": "evans1995",
+     "dir": "ssea-network",
+     "label": "Evans 1995",
+     "title": "Embedded Autonomy: States and Industrial Transformation",
+     "authors": "Peter Evans",
+     "year": 1995,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kohli2004",
+     "dir": "ssea-network",
+     "label": "Kohli 2004",
+     "title": "State-Directed Development: Political Power and Industrialization in the Global Periphery",
+     "authors": "Atul Kohli",
+     "year": 2004,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "systemicvulnerability",
+   "label": "Systemic vulnerability",
+   "family": "state",
+   "year": 2005,
+   "origin": "Doner, Ritchie & Slater",
+   "core": "Elites build developmental states when external threats, scarce resources and mass pressure coincide.",
+   "works": [
+    {
+     "id": "doner2005",
+     "dir": "ssea-network",
+     "label": "Doner 2005",
+     "title": "Systemic Vulnerability and the Origins of Developmental States: Northeast and Southeast Asia in Comparative Perspective",
+     "authors": "Richard F. Doner, Bryan K. Ritchie & Dan Slater",
+     "year": 2005,
+     "journal": "International Organization",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "doner2009",
+     "dir": "ssea-network",
+     "label": "Doner 2009",
+     "title": "The Politics of Uneven Development: Thailand's Economic Growth in Comparative Perspective",
+     "authors": "Richard F. Doner",
+     "year": 2009,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "vu2010",
+     "dir": "ssea-network",
+     "label": "Vu 2010",
+     "title": "Paths to Development in Asia: South Korea, Vietnam, China, and Indonesia",
+     "authors": "Tuong Vu",
+     "year": 2010,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "decentralization",
+   "label": "Decentralization & elite capture",
+   "family": "state",
+   "year": 2002,
+   "origin": "Bardhan; Hadiz",
+   "core": "Decentralization improves governance only where local elites cannot capture it.",
+   "works": [
+    {
+     "id": "bardhan2002",
+     "dir": "ssea-network",
+     "label": "Bardhan 2002",
+     "title": "Decentralization of Governance and Development",
+     "authors": "Pranab Bardhan",
+     "year": 2002,
+     "journal": "Journal of Economic Perspectives",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "hadiz2010",
+     "dir": "ssea-network",
+     "label": "Hadiz 2010",
+     "title": "Localising Power in Post-Authoritarian Indonesia: A Southeast Asia Perspective",
+     "authors": "Vedi R. Hadiz",
+     "year": 2010,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "pierskalla2016",
+     "dir": "ssea-network",
+     "label": "Pierskalla 2016",
+     "title": "Splitting the Difference? The Politics of District Creation in Indonesia",
+     "authors": "Jan H. Pierskalla",
+     "year": 2016,
+     "journal": "Comparative Politics",
+     "doi": "10.5129/001041516817037754",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "moraleconomy",
+   "label": "Moral economy of the peasant",
+   "family": "identity",
+   "year": 1976,
+   "origin": "Scott; Kerkvliet",
+   "core": "Peasants resist when commercialization or the state violates subsistence norms.",
+   "works": [
+    {
+     "id": "scott1976",
+     "dir": "ssea-network",
+     "label": "Scott 1976",
+     "title": "The Moral Economy of the Peasant: Rebellion and Subsistence in Southeast Asia",
+     "authors": "James C. Scott",
+     "year": 1976,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "kerkvliet2005",
+     "dir": "ssea-network",
+     "label": "Kerkvliet 2005",
+     "title": "The Power of Everyday Politics: How Vietnamese Peasants Transformed National Policy",
+     "authors": "Benedict J. Tria Kerkvliet",
+     "year": 2005,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "controlviolence",
+   "label": "Control & violence in civil war",
+   "family": "identity",
+   "year": 2006,
+   "origin": "Kalyvas; Kocher",
+   "core": "Violence follows patterns of territorial control rather than grievance.",
+   "works": [
+    {
+     "id": "kalyvas2006",
+     "dir": "ssea-network",
+     "label": "Kalyvas 2006",
+     "title": "The Logic of Violence in Civil War",
+     "authors": "Stathis N. Kalyvas",
+     "year": 2006,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511818462",
+     "zotero": null
+    },
+    {
+     "id": "kocher2011",
+     "dir": "ssea-network",
+     "label": "Kocher 2011",
+     "title": "Aerial Bombing and Counterinsurgency in the Vietnam War",
+     "authors": "Matthew Adam Kocher, Thomas B. Pepinsky & Stathis N. Kalyvas",
+     "year": 2011,
+     "journal": "AJPS",
+     "doi": "10.1111/j.1540-5907.2010.00498.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "insurgentnetworks",
+   "label": "Social bases of insurgent organization",
+   "family": "identity",
+   "year": 2012,
+   "origin": "Staniland",
+   "core": "Prewar social networks determine whether insurgent groups are cohesive.",
+   "works": [
+    {
+     "id": "staniland2012",
+     "dir": "ssea-network",
+     "label": "Staniland 2012",
+     "title": "Organizing Insurgency: Networks, Resources, and Rebellion in South Asia",
+     "authors": "Paul Staniland",
+     "year": 2012,
+     "journal": "International Security",
+     "doi": "10.1162/isec_a_00091",
+     "zotero": null
+    },
+    {
+     "id": "staniland2014",
+     "dir": "ssea-network",
+     "label": "Staniland 2014",
+     "title": "Networks of Rebellion: Explaining Insurgent Cohesion and Collapse",
+     "authors": "Paul Staniland",
+     "year": 2014,
+     "journal": "Cornell University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "civilislam",
+   "label": "Civil Islam & Muslim democracy",
+   "family": "identity",
+   "year": 2000,
+   "origin": "Hefner; Menchik",
+   "core": "Muslim mass organizations can sustain democracy and tolerance, though not always liberalism.",
+   "works": [
+    {
+     "id": "hefner2000",
+     "dir": "ssea-network",
+     "label": "Hefner 2000",
+     "title": "Civil Islam: Muslims and Democratization in Indonesia",
+     "authors": "Robert W. Hefner",
+     "year": 2000,
+     "journal": "Princeton University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "menchik2016",
+     "dir": "ssea-network",
+     "label": "Menchik 2016",
+     "title": "Islam and Democracy in Indonesia: Tolerance without Liberalism",
+     "authors": "Jeremy Menchik",
+     "year": 2016,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "mietzner2020",
+     "dir": "ssea-network",
+     "label": "Mietzner 2020",
+     "title": "The Myth of Pluralism: Nahdlatul Ulama and the Politics of Religious Tolerance in Indonesia",
+     "authors": "Marcus Mietzner & Burhanuddin Muhtadi",
+     "year": 2020,
+     "journal": "Contemporary Southeast Asia",
+     "doi": "10.1355/cs42-1c",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "islamization",
+   "label": "State Islamization & religious outbidding",
+   "family": "identity",
+   "year": 2001,
+   "origin": "Nasr; Liow; Buehler",
+   "core": "Rulers and secular politicians adopt Islamization to build power and win support.",
+   "works": [
+    {
+     "id": "nasr2001",
+     "dir": "ssea-network",
+     "label": "Nasr 2001",
+     "title": "Islamic Leviathan: Islam and the Making of State Power",
+     "authors": "Seyyed Vali Reza Nasr",
+     "year": 2001,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "liow2009",
+     "dir": "ssea-network",
+     "label": "Liow 2009",
+     "title": "Piety and Politics: Islamism in Contemporary Malaysia",
+     "authors": "Joseph Chinyong Liow",
+     "year": 2009,
+     "journal": "Oxford University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "buehler2016",
+     "dir": "ssea-network",
+     "label": "Buehler 2016",
+     "title": "The Politics of Shari'a Law: Islamist Activists and the State in Democratizing Indonesia",
+     "authors": "Michael Buehler",
+     "year": 2016,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "praetorian",
+   "label": "Praetorianism & military guardianship",
+   "family": "regime",
+   "year": 1968,
+   "origin": "Huntington; Riggs; Jalal; Shah",
+   "core": "Militaries rule where institutions are weak and they see themselves as guardians of the nation.",
+   "works": [
+    {
+     "id": "huntington1968",
+     "dir": "ssea-network",
+     "label": "Huntington 1968",
+     "title": "Political Order in Changing Societies",
+     "authors": "Samuel P. Huntington",
+     "year": 1968,
+     "journal": "Yale University Press (book)",
+     "doi": "10.2307/2147388",
+     "zotero": null
+    },
+    {
+     "id": "jalal1990",
+     "dir": "ssea-network",
+     "label": "Jalal 1990",
+     "title": "The State of Martial Rule: The Origins of Pakistan's Political Economy of Defence",
+     "authors": "Ayesha Jalal",
+     "year": 1990,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "shah2014",
+     "dir": "ssea-network",
+     "label": "Shah 2014",
+     "title": "The Army and Democracy: Military Politics in Pakistan",
+     "authors": "Aqil Shah",
+     "year": 2014,
+     "journal": "Harvard University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "rulingparty",
+   "label": "Ruling parties & authoritarian durability",
+   "family": "regime",
+   "year": 2007,
+   "origin": "Brownlee; Geddes",
+   "core": "Ruling parties keep elites together and make authoritarian regimes durable.",
+   "works": [
+    {
+     "id": "brownlee2007book",
+     "dir": "ssea-network",
+     "label": "Brownlee 2007",
+     "title": "Authoritarianism in an Age of Democratization",
+     "authors": "Jason Brownlee",
+     "year": 2007,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "geddes1999",
+     "dir": "ssea-network",
+     "label": "Geddes 1999",
+     "title": "What Do We Know about Democratization after Twenty Years?",
+     "authors": "Barbara Geddes",
+     "year": 1999,
+     "journal": "Annual Review of Political Science",
+     "doi": "10.1146/annurev.polisci.2.1.115",
+     "zotero": null
+    },
+    {
+     "id": "pepinsky2009book",
+     "dir": "ssea-network",
+     "label": "Pepinsky 2009",
+     "title": "Economic Crises and the Breakdown of Authoritarian Regimes: Indonesia and Malaysia in Comparative Perspective",
+     "authors": "Thomas B. Pepinsky",
+     "year": 2009,
+     "journal": "Cambridge University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "orderingpower",
+   "label": "Protection pacts & ordering power",
+   "family": "regime",
+   "year": 2010,
+   "origin": "Slater",
+   "core": "Elites facing threatening contention build strong states and durable authoritarian regimes.",
+   "works": [
+    {
+     "id": "slater2010",
+     "dir": "ssea-network",
+     "label": "Slater 2010",
+     "title": "Ordering Power: Contentious Politics and Authoritarian Leviathans in Southeast Asia",
+     "authors": "Dan Slater",
+     "year": 2010,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1355/ae30-2h",
+     "zotero": null
+    },
+    {
+     "id": "slater2012jod",
+     "dir": "ssea-network",
+     "label": "Slater 2012",
+     "title": "Southeast Asia: Strong-state Democratization in Malaysia and Singapore",
+     "authors": "Dan Slater",
+     "year": 2012,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2012.0021",
+     "zotero": null
+    },
+    {
+     "id": "kuhonta2011",
+     "dir": "ssea-network",
+     "label": "Kuhonta 2011",
+     "title": "The Institutional Imperative: The Politics of Equitable Development in Southeast Asia",
+     "authors": "Erik Martinez Kuhonta",
+     "year": 2011,
+     "journal": "Stanford University Press (book)",
+     "doi": null,
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "competitiveauth",
+   "label": "Competitive authoritarianism",
+   "family": "regime",
+   "year": 2010,
+   "origin": "Levitsky & Way",
+   "core": "Regimes hold real but unfair elections, with stability depending on organizational power.",
+   "works": [
+    {
+     "id": "levitskyway2010",
+     "dir": "ssea-network",
+     "label": "Levitsky 2010",
+     "title": "Competitive Authoritarianism: Hybrid Regimes after the Cold War",
+     "authors": "Steven Levitsky & Lucan A. Way",
+     "year": 2010,
+     "journal": "Cambridge University Press (book)",
+     "doi": "10.1017/cbo9780511781353",
+     "zotero": null
+    },
+    {
+     "id": "morgenbesser2019",
+     "dir": "ssea-network",
+     "label": "Morgenbesser 2019",
+     "title": "Cambodia's Transition to Hegemonic Authoritarianism",
+     "authors": "Lee Morgenbesser",
+     "year": 2019,
+     "journal": "Journal of Democracy",
+     "doi": "10.1353/jod.2019.0012",
+     "zotero": null
+    },
+    {
+     "id": "riaz2020",
+     "dir": "ssea-network",
+     "label": "Riaz 2020",
+     "title": "The pathway of democratic backsliding in Bangladesh",
+     "authors": "Ali Riaz",
+     "year": 2020,
+     "journal": "Democratization",
+     "doi": "10.1080/13510347.2020.1818069",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "networkmonarchy",
+   "label": "Network monarchy",
+   "family": "regime",
+   "year": 2005,
+   "origin": "McCargo; Handley",
+   "core": "Thailand is governed by a palace-centered network that overrides elected governments.",
+   "works": [
+    {
+     "id": "mccargo2005",
+     "dir": "ssea-network",
+     "label": "McCargo 2005",
+     "title": "Network Monarchy and Legitimacy Crises in Thailand",
+     "authors": "Duncan McCargo",
+     "year": 2005,
+     "journal": "The Pacific Review",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "handley2006",
+     "dir": "ssea-network",
+     "label": "Handley 2006",
+     "title": "The King Never Smiles: A Biography of Thailand's Bhumibol Adulyadej",
+     "authors": "Paul M. Handley",
+     "year": 2006,
+     "journal": "Yale University Press (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "merieau2016",
+     "dir": "ssea-network",
+     "label": "Mérieau 2016",
+     "title": "Thailand’s Deep State, Royal Power and the Constitutional Court (1997–2015)",
+     "authors": "Eugénie Mérieau",
+     "year": 2016,
+     "journal": "Journal of Contemporary Asia",
+     "doi": "10.1080/00472336.2016.1151917",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "populism",
+   "label": "Populism & executive aggrandizement",
+   "family": "regime",
+   "year": 2008,
+   "origin": "Phongpaichit & Baker; Curato; Levitsky & Ziblatt",
+   "core": "Elected leaders mobilize against elites and erode democratic checks.",
+   "works": [
+    {
+     "id": "phongpaichitbaker2008",
+     "dir": "ssea-network",
+     "label": "Phongpaichit 2008",
+     "title": "Thaksin's populism",
+     "authors": "Pasuk Phongpaichit & Chris Baker",
+     "year": 2008,
+     "journal": "Journal of Contemporary Asia",
+     "doi": "10.1080/00472330701651960",
+     "zotero": null
+    },
+    {
+     "id": "curato2016",
+     "dir": "ssea-network",
+     "label": "Curato 2016",
+     "title": "Flirting with Authoritarian Fantasies? Rodrigo Duterte and the New Terms of Philippine Populism",
+     "authors": "Nicole Curato",
+     "year": 2016,
+     "journal": "Journal of Contemporary Asia",
+     "doi": "10.1080/00472336.2016.1239751",
+     "zotero": null
+    },
+    {
+     "id": "mietzner2015",
+     "dir": "ssea-network",
+     "label": "Mietzner 2015",
+     "title": "Reinventing Asian Populism: Jokowi's Rise, Democracy, and Political Contestation in Indonesia",
+     "authors": "Marcus Mietzner",
+     "year": 2015,
+     "journal": "East-West Center (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "levitskyziblatt2018",
+     "dir": "ssea-network",
+     "label": "Levitsky 2018",
+     "title": "How Democracies Die",
+     "authors": "Steven Levitsky & Daniel Ziblatt",
+     "year": 2018,
+     "journal": "Crown (book)",
+     "doi": "10.15517/aciep.v0i9.38468",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "balanceofpower",
+   "label": "Balance of power in Southeast Asia",
+   "family": "region",
+   "year": 1989,
+   "origin": "Leifer; Jones & Smith",
+   "core": "ASEAN matters mainly as a way of managing great-power balances.",
+   "works": [
+    {
+     "id": "leifer1989",
+     "dir": "ssea-network",
+     "label": "Leifer 1989",
+     "title": "ASEAN and the Security of South-East Asia",
+     "authors": "Michael Leifer",
+     "year": 1989,
+     "journal": "Routledge (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "jonessmith2007",
+     "dir": "ssea-network",
+     "label": "Jones 2007",
+     "title": "Making Process, Not Progress: ASEAN and the Evolving East Asian Regional Order",
+     "authors": "David Martin Jones & Michael L.R. Smith",
+     "year": 2007,
+     "journal": "International Security",
+     "doi": "10.1162/isec.2007.32.1.148",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "normlocalization",
+   "label": "ASEAN way & norm localization",
+   "family": "region",
+   "year": 2001,
+   "origin": "Acharya",
+   "core": "Regional norms of non-interference build a security community and filter global norms.",
+   "works": [
+    {
+     "id": "acharya2001",
+     "dir": "ssea-network",
+     "label": "Acharya 2001",
+     "title": "Constructing a Security Community in Southeast Asia: ASEAN and the Problem of Regional Order",
+     "authors": "Amitav Acharya",
+     "year": 2001,
+     "journal": "Routledge (book)",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "acharya2004",
+     "dir": "ssea-network",
+     "label": "Acharya 2004",
+     "title": "How Ideas Spread: Whose Norms Matter? Norm Localization and Institutional Change in Asian Regionalism",
+     "authors": "Amitav Acharya",
+     "year": 2004,
+     "journal": "International Organization",
+     "doi": null,
+     "zotero": null
+    },
+    {
+     "id": "acharya2011",
+     "dir": "ssea-network",
+     "label": "Acharya 2011",
+     "title": "Norm Subsidiarity and Regional Orders: Sovereignty, Regionalism, and Rule-Making in the Third World1",
+     "authors": "Amitav Acharya",
+     "year": 2011,
+     "journal": "ISQ",
+     "doi": "10.1111/j.1468-2478.2010.00637.x",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  },
+  {
+   "id": "hedging",
+   "label": "Hedging & enmeshment",
+   "family": "region",
+   "year": 2008,
+   "origin": "Goh; Kuik",
+   "core": "Small states hedge between great powers and enmesh them in regional institutions.",
+   "works": [
+    {
+     "id": "kuik2008",
+     "dir": "ssea-network",
+     "label": "Kuik 2008",
+     "title": "The Essence of Hedging: Malaysia and Singapore´ s Response to a Rising China",
+     "authors": "Cheng-Chwee Kuik",
+     "year": 2008,
+     "journal": "Contemporary Southeast Asia",
+     "doi": "10.1355/cs30-2a",
+     "zotero": null
+    },
+    {
+     "id": "kuik2016",
+     "dir": "ssea-network",
+     "label": "Kuik 2016",
+     "title": "How Do Weaker States Hedge? Unpacking ASEAN states’ alignment behavior towards China",
+     "authors": "Cheng-Chwee Kuik",
+     "year": 2016,
+     "journal": "Journal of Contemporary China",
+     "doi": "10.1080/10670564.2015.1132714",
+     "zotero": null
+    },
+    {
+     "id": "goh2008",
+     "dir": "ssea-network",
+     "label": "Goh 2008",
+     "title": "Great Powers and Hierarchical Order in Southeast Asia: Analyzing Regional Security Strategies",
+     "authors": "Evelyn Goh",
+     "year": 2008,
+     "journal": "International Security",
+     "doi": "10.1162/isec.2008.32.3.113",
+     "zotero": null
+    }
+   ],
+   "cites": []
+  }
+ ],
+ "relations": [
+  {
+   "source": "consociation",
+   "target": "congresssystem",
+   "type": "extends",
+   "why": "Reads the Congress system as a consociational grand coalition."
+  },
+  {
+   "source": "consociation",
+   "target": "outbidding",
+   "type": "rivals",
+   "why": "Power sharing rather than centripetal design explains Indian stability."
+  },
+  {
+   "source": "statenation",
+   "target": "consociation",
+   "type": "extends",
+   "why": "Asymmetric federalism as the core of multinational democracy."
+  },
+  {
+   "source": "foundingparty",
+   "target": "congresssystem",
+   "type": "extends",
+   "why": "Explains the Congress party's strength by its independence-era origins."
+  },
+  {
+   "source": "foundingparty",
+   "target": "praetorian",
+   "type": "rivals",
+   "why": "Party weakness, not security threats alone, explains military rule in Pakistan."
+  },
+  {
+   "source": "mandatedrep",
+   "target": "consociation",
+   "type": "complements",
+   "why": "Reserved seats are a group-representation device."
+  },
+  {
+   "source": "ethnicheadcount",
+   "target": "patronclient",
+   "type": "extends",
+   "why": "Patronage democracy channels clientelism through ethnic head counts."
+  },
+  {
+   "source": "ethnicheadcount",
+   "target": "outbidding",
+   "type": "rivals",
+   "why": "Ethnic parties need not outbid toward instability."
+  },
+  {
+   "source": "ethnicheadcount",
+   "target": "mandatedrep",
+   "type": "complements",
+   "why": "Quotas and ethnic parties are both routes to lower-caste representation."
+  },
+  {
+   "source": "constructivist",
+   "target": "ethnicheadcount",
+   "type": "extends",
+   "why": "Generalizes the fluidity of ethnic identity."
+  },
+  {
+   "source": "electoralriots",
+   "target": "civicties",
+   "type": "rivals",
+   "why": "Electoral incentives, not civic ties, decide whether riots happen."
+  },
+  {
+   "source": "electoralriots",
+   "target": "ethnicheadcount",
+   "type": "complements",
+   "why": "Both use electoral logic in ethnically divided democracies."
+  },
+  {
+   "source": "hindunationalism",
+   "target": "consociation",
+   "type": "rivals",
+   "why": "A majoritarian project against power sharing and secularism."
+  },
+  {
+   "source": "servicemobilization",
+   "target": "ethnicheadcount",
+   "type": "rivals",
+   "why": "Elite parties win poor voters without coethnic patronage."
+  },
+  {
+   "source": "servicemobilization",
+   "target": "hindunationalism",
+   "type": "applies",
+   "why": "Hindu nationalist affiliates mobilize poor voters through services."
+  },
+  {
+   "source": "brokers",
+   "target": "patronclient",
+   "type": "extends",
+   "why": "Formalizes the role of intermediaries in patronage."
+  },
+  {
+   "source": "bossism",
+   "target": "patronclient",
+   "type": "rivals",
+   "why": "Coercion and state resources, not reciprocal ties, sustain local power."
+  },
+  {
+   "source": "oligarchy",
+   "target": "bossism",
+   "type": "complements",
+   "why": "Oligarchic wealth and local bosses capture the state together."
+  },
+  {
+   "source": "oligarchy",
+   "target": "decentralization",
+   "type": "applies",
+   "why": "Oligarchs capture decentralized local power."
+  },
+  {
+   "source": "cartel",
+   "target": "oligarchy",
+   "type": "rivals",
+   "why": "Party collusion rather than oligarchic wealth explains weak accountability."
+  },
+  {
+   "source": "embeddedautonomy",
+   "target": "developmentalstate",
+   "type": "extends",
+   "why": "Adds embeddedness and state types to the developmental state."
+  },
+  {
+   "source": "systemicvulnerability",
+   "target": "embeddedautonomy",
+   "type": "extends",
+   "why": "Explains where cohesive developmental states come from."
+  },
+  {
+   "source": "orderingpower",
+   "target": "systemicvulnerability",
+   "type": "extends",
+   "why": "Threats from contention build strong states and regimes."
+  },
+  {
+   "source": "orderingpower",
+   "target": "rulingparty",
+   "type": "rivals",
+   "why": "Ruling parties are products of elite protection pacts, not independent causes."
+  },
+  {
+   "source": "rulingparty",
+   "target": "praetorian",
+   "type": "extends",
+   "why": "Institutionalized parties rather than militaries sustain authoritarian rule."
+  },
+  {
+   "source": "competitiveauth",
+   "target": "rulingparty",
+   "type": "complements",
+   "why": "Organizational power explains competitive authoritarian stability."
+  },
+  {
+   "source": "networkmonarchy",
+   "target": "praetorian",
+   "type": "rivals",
+   "why": "Palace networks, not the bureaucratic-military polity, run Thailand."
+  },
+  {
+   "source": "populism",
+   "target": "networkmonarchy",
+   "type": "rivals",
+   "why": "Electoral populism challenges palace-centered rule."
+  },
+  {
+   "source": "populism",
+   "target": "oligarchy",
+   "type": "complements",
+   "why": "Populist mobilization often serves oligarchic interests."
+  },
+  {
+   "source": "competitiveauth",
+   "target": "populism",
+   "type": "complements",
+   "why": "Elected populists push regimes toward competitive authoritarianism."
+  },
+  {
+   "source": "controlviolence",
+   "target": "moraleconomy",
+   "type": "rivals",
+   "why": "Control, not grievance, explains violence in civil war."
+  },
+  {
+   "source": "insurgentnetworks",
+   "target": "controlviolence",
+   "type": "complements",
+   "why": "Organization and control jointly shape insurgent behavior."
+  },
+  {
+   "source": "islamization",
+   "target": "civilislam",
+   "type": "rivals",
+   "why": "State-led Islamization versus civil Islamic pluralism."
+  },
+  {
+   "source": "islamization",
+   "target": "praetorian",
+   "type": "applies",
+   "why": "Military rulers in Pakistan used Islamization to build state power."
+  },
+  {
+   "source": "normlocalization",
+   "target": "balanceofpower",
+   "type": "rivals",
+   "why": "Norms and identity rather than balancing explain ASEAN."
+  },
+  {
+   "source": "hedging",
+   "target": "balanceofpower",
+   "type": "rivals",
+   "why": "Small states hedge rather than balance."
+  },
+  {
+   "source": "hedging",
+   "target": "normlocalization",
+   "type": "complements",
+   "why": "Hedging works through regional institutions and norms."
+  }
+ ]
+}
