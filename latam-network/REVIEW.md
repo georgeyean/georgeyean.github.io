@@ -1,6 +1,6 @@
 # Latin American politics, c. 1950–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 316 work nodes, 19 theme nodes and 375 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[odonnell1973]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 357 work nodes, 19 theme nodes and 423 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[odonnell1973]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Shared works:** 82 works already in other maps are reused, mostly from comparative politics (democratization, authoritarian institutions, clientelism, state capacity, populism, courts). Others come from political economy (development, corruption audits, welfare), IR (human rights trials, advocacy networks), IPE and the China map (Chinese finance and trade in the region), environmental politics (the resource curse) and REP (race in Brazil).
@@ -69,6 +69,15 @@ Relations are judgments of how each work's argument relates to the other's, and 
 **Claimed.** US policy rests on hierarchy `[schoultz1998]`, `[gleijeses1991]`. **Settled.** US signals shaped coups `[thyne2010]`; linkage and leverage shaped regime outcomes `[levitskyway2006]`. **Contested.** The limits of US influence `[weyland2018]`. **Gaps.** US military aid and guns `[dubenaidu2015]`, `[dube2013]`; China's rise `[floresmacias2013]`, `[kaplan2016]`.
 
 ---
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 41 works (41 new, 0 shared with other maps) and 48 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 41 works, prioritizing thin themes: US-Latin American relations and human rights (Sikkink, Lutz & Sikkink, the Schoultz-Cingranelli aid debate, Friedman & Long), courts (Iaryczower et al., Larkins, Chavez, Navia & Ríos-Figueroa, Staton, Magaloni & Rodríguez), authoritarian rule (Cantú, Barros, Langston), ethnic politics (Madrid 2005, Telles/PERLA, Paschel, Johnson, Magaloni et al.), corruption (Seligson, Arias et al., Berliner & Erlich, Gingerich, Trejo & Nieto-Matiz), erosion (Levitsky & Loxton, Gamboa, Mainwaring & Pérez-Liñán 2023) and subnational politics and state formation (Garman et al., O'Neill, Wibbels, Thies, Schenoni, Mazzuca).
+
+Of the new works, 1 exists in Crossref only through a review (Telles 2014); 1 was not found as its own Crossref record, so its metadata comes from memory (Staton 2010).
 
 ## What I could not verify (flagged)
 Every anchor and library seed (87) was checked in Crossref: 77 matched directly. 10 books exist in Crossref only through reviews or chapters about them: Collier 1979, Dunning 2008, Díaz-Cayeros 2016, Gleijeses 1991, Kurtz 2013, Mainwaring 1997, Mainwaring 2018, O'Donnell 1994, Prebisch 1950, Sikkink 2011. 

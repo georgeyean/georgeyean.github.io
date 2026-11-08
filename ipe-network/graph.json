@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 263,
+   "work_nodes": 307,
    "theme_nodes": 19,
    "seed_from_papers_json": 98,
    "supplement": 165,
-   "relation_edges": 359,
-   "membership_edges": 410,
-   "added_by_coverage_audit": 70
+   "relation_edges": 430,
+   "membership_edges": 481,
+   "added_by_coverage_audit": 70,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works: from the user's Zotero library (papers.json). Supplementary works: each looked up in Crossref on 2026-10-28 by title and first author; result recorded in each node's `verified` field. One work (Colgan & Keohane 2017, Foreign Affairs) could not be confirmed in Crossref. Works added by the coverage audit take title, authors, year, venue and DOI directly from Crossref records; their claims are my summaries."
  },
@@ -5090,6 +5091,823 @@
    "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818319000353); claim is my summary, not re-read this session",
    "crossref_doi": "10.1017/s0020818319000353",
    "added": "coverage audit 2026-10-28"
+  },
+  {
+   "id": "keohane1984",
+   "type": "work",
+   "label": "Keohane 1984",
+   "authors": "Robert O. Keohane",
+   "year": 1984,
+   "journal": "Princeton University Press (book)",
+   "title": "After Hegemony: Cooperation and Discord in the World Political Economy",
+   "claim": "International regimes persist after hegemonic decline because they reduce transaction costs, provide information and make reputations matter, so cooperation is possible among egoists.",
+   "method": "Functional theory of regimes with postwar economic cases",
+   "themes": [
+    "hegemony",
+    "ipe-theory"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Foreign Affairs, 1984; DOI 10.2307/20042201)",
+   "crossref_doi": "10.2307/20042201"
+  },
+  {
+   "id": "hooghe2019",
+   "type": "work",
+   "label": "Hooghe 2018",
+   "authors": "Liesbet Hooghe, Tobias Lenz & Gary Marks",
+   "year": 2018,
+   "journal": "Review of International Organizations",
+   "title": "Contested world order: The delegitimation of international governance",
+   "claim": "Contestation of international governance grows as IO authority grows, driven by domestic politicization.",
+   "method": "Theoretical framework with IO authority data",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11558-018-9334-3); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11558-018-9334-3"
+  },
+  {
+   "id": "tallbergzurn2019",
+   "type": "work",
+   "label": "Tallberg 2019",
+   "authors": "Jonas Tallberg & Michael Zürn",
+   "year": 2019,
+   "journal": "Review of International Organizations",
+   "title": "The legitimacy and legitimation of international organizations: introduction and framework",
+   "claim": "IO legitimacy (beliefs) and legitimation (processes) are distinct, with institutional, social and individual sources.",
+   "method": "Special-issue framework",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11558-018-9330-7); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11558-018-9330-7"
+  },
+  {
+   "id": "walter2021brexit",
+   "type": "work",
+   "label": "Walter 2021",
+   "authors": "Stefanie Walter",
+   "year": 2021,
+   "journal": "Comparative Political Studies",
+   "title": "Brexit Domino? The Political Contagion Effects of Voter-endorsed Withdrawals from International Institutions",
+   "claim": "Brexit's difficult negotiations deterred voters elsewhere from supporting exit.",
+   "method": "Survey data",
+   "themes": [
+    "legitimacy",
+    "backlash"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414021997169); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/0010414021997169"
+  },
+  {
+   "id": "mosleyuno2007",
+   "type": "work",
+   "label": "Mosley 2007",
+   "authors": "Layna Mosley & Saika Uno",
+   "year": 2007,
+   "journal": "Comparative Political Studies",
+   "title": "Racing to the Bottom or Climbing to the Top? Economic Globalization and Collective Labor Rights",
+   "claim": "FDI is associated with better collective labor rights; trade is not.",
+   "method": "Panel analysis",
+   "themes": [
+    "diffusion",
+    "firms-gvc"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414006293442); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/0010414006293442"
+  },
+  {
+   "id": "hainmuellerhiscox2007",
+   "type": "work",
+   "label": "Hainmueller 2007",
+   "authors": "Jens Hainmueller & Michael J. Hiscox",
+   "year": 2007,
+   "journal": "IO",
+   "title": "Educated Preferences: Explaining Attitudes Toward Immigration in Europe",
+   "claim": "Educated Europeans favor immigration because of values, not labour-market interest.",
+   "method": "European Social Survey",
+   "themes": [
+    "migration"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818307070142); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818307070142"
+  },
+  {
+   "id": "morgenthau1962",
+   "type": "work",
+   "label": "Morgenthau 1962",
+   "authors": "Hans Morgenthau",
+   "year": 1962,
+   "journal": "APSR",
+   "title": "A Political Theory of Foreign Aid",
+   "claim": "Most foreign aid is not economic development assistance but a political instrument, often a bribe or prestige payment, that must serve the donor’s national interest.",
+   "method": "Theoretical essay",
+   "themes": [
+    "aid"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1952366",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1952366); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "dunning2004",
+   "type": "work",
+   "label": "Dunning 2004",
+   "authors": "Thad Dunning",
+   "year": 2004,
+   "journal": "IO",
+   "title": "Conditioning the Effects of Aid: Cold War Politics, Donor Credibility, and Democracy in Africa",
+   "claim": "Aid had a positive effect on democracy in Africa only after the Cold War, when donors’ democratic conditionality became credible.",
+   "method": "Panel regression, sub-Saharan Africa 1975-1997",
+   "themes": [
+    "aid",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818304582073",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818304582073); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "knack2004",
+   "type": "work",
+   "label": "Knack 2004",
+   "authors": "Stephen Knack",
+   "year": 2004,
+   "journal": "ISQ",
+   "title": "Does Foreign Aid Promote Democracy?",
+   "claim": "Across recipients from 1975 to 2000, aid intensity shows no positive effect on democratization.",
+   "method": "Cross-national regression with instruments",
+   "themes": [
+    "aid",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.0020-8833.2004.00299.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.0020-8833.2004.00299.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bearcetirone2010",
+   "type": "work",
+   "label": "Bearce 2010",
+   "authors": "David H. Bearce & Daniel C. Tirone",
+   "year": 2010,
+   "journal": "JOP",
+   "title": "Foreign Aid Effectiveness and the Strategic Goals of Donor Governments",
+   "claim": "Aid promotes growth only when donors’ strategic benefits from the recipient are small enough that reform conditionality is credible, as after the Cold War.",
+   "method": "Formal argument and panel regression",
+   "themes": [
+    "aid"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0022381610000204",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381610000204); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "jablonski2014",
+   "type": "work",
+   "label": "Jablonski 2014",
+   "authors": "Ryan S. Jablonski",
+   "year": 2014,
+   "journal": "World Politics",
+   "title": "How Aid Targets Votes: The Impact of Electoral Incentives on Foreign Aid Distribution",
+   "claim": "Incumbent governments steer donor-funded projects toward their electoral strongholds, so aid allocation within countries follows domestic electoral incentives.",
+   "method": "Geocoded aid data, Kenya",
+   "themes": [
+    "aid",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887114000045",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887114000045); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "briggs2016",
+   "type": "work",
+   "label": "Briggs 2016",
+   "authors": "Ryan C. Briggs",
+   "year": 2016,
+   "journal": "IO",
+   "title": "Does Foreign Aid Target the Poorest?",
+   "claim": "Within African countries, aid flows disproportionately to richer areas rather than the poorest, contrary to donors’ stated goals.",
+   "method": "Geocoded aid and subnational poverty data, Africa",
+   "themes": [
+    "aid"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818316000345",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818316000345); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "baker2015",
+   "type": "work",
+   "label": "Baker 2015",
+   "authors": "Andy Baker",
+   "year": 2015,
+   "journal": "APSR",
+   "title": "Race, Paternalism, and Foreign Aid: Evidence from U.S. Public Opinion",
+   "claim": "White Americans’ support for aid rises when recipients are portrayed as Black, reflecting paternalistic racial stereotypes rather than egalitarianism.",
+   "method": "Survey experiments, US",
+   "themes": [
+    "aid"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055414000549",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055414000549); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "goldsteingulotty2021",
+   "type": "work",
+   "label": "Goldstein 2021",
+   "authors": "Judith Goldstein & Robert Gulotty",
+   "year": 2021,
+   "journal": "IO",
+   "title": "America and the Trade Regime: What Went Wrong?",
+   "claim": "The postwar trade regime’s design, built on executive delegation and reciprocal tariff bargaining, could not adapt to China’s rise or sustain domestic support, eroding US commitment.",
+   "method": "Historical institutional analysis",
+   "themes": [
+    "legitimacy",
+    "trade-inst"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s002081832000065x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s002081832000065x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "simmons2001io",
+   "type": "work",
+   "label": "Simmons 2001",
+   "authors": "Beth A. Simmons",
+   "year": 2001,
+   "journal": "IO",
+   "title": "The International Politics of Harmonization: The Case of Capital Market Regulation",
+   "claim": "Harmonization of financial regulation is driven by the dominant financial center, which can shape others’ incentives to emulate or must use pressure when negative externalities exist.",
+   "method": "Theory with cases of capital market regulation",
+   "themes": [
+    "diffusion",
+    "money-finance"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/00208180152507560",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/00208180152507560); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "singer2004",
+   "type": "work",
+   "label": "Singer 2004",
+   "authors": "David Andrew Singer",
+   "year": 2004,
+   "journal": "IO",
+   "title": "Capital Rules: The Domestic Politics of International Regulatory Harmonization",
+   "claim": "Regulators seek international harmonization when domestic shocks threaten both stability and their firms’ competitiveness, putting their autonomy at risk from legislative intervention.",
+   "method": "Formal model with Basel Accord and securities cases",
+   "themes": [
+    "diffusion",
+    "money-finance"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818304583042",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818304583042); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "basingerhallerberg2004",
+   "type": "work",
+   "label": "Basinger 2004",
+   "authors": "Scott J. Basinger & Mark Hallerberg",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "Remodeling the Competition for Capital: How Domestic Politics Erases the Race to the Bottom",
+   "claim": "Tax competition depends on domestic political costs of reform at home and in competitor states, so veto players and partisanship can prevent a race to the bottom.",
+   "method": "Formal model and panel analysis of OECD capital taxation",
+   "themes": [
+    "diffusion",
+    "compensation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055404001133",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055404001133); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "polachek1980",
+   "type": "work",
+   "label": "Polachek 1980",
+   "authors": "Solomon William Polachek",
+   "year": 1980,
+   "journal": "Journal of Conflict Resolution",
+   "title": "Conflict and Trade",
+   "claim": "Because conflict raises the cost of lost trade, dyads with more trade engage in less conflict and more cooperation.",
+   "method": "Expected-utility model with events data",
+   "themes": [
+    "trade-security"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/002200278002400103",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/002200278002400103); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "barbieri1996",
+   "type": "work",
+   "label": "Barbieri 1996",
+   "authors": "Katherine Barbieri",
+   "year": 1996,
+   "journal": "Journal of Peace Research",
+   "title": "Economic Interdependence: A Path to Peace or a Source of Interstate Conflict?",
+   "claim": "Extensive and asymmetric economic ties increase rather than reduce the likelihood of militarized disputes.",
+   "method": "Dyadic analysis, 1870-1938",
+   "themes": [
+    "trade-security"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022343396033001003",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022343396033001003); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "onealrussett1997",
+   "type": "work",
+   "label": "Oneal 1997",
+   "authors": "John R. Oneal & Bruce M. Russet",
+   "year": 1997,
+   "journal": "ISQ",
+   "title": "The Classical Liberals Were Right: Democracy, Interdependence, and Conflict, 1950-1985",
+   "claim": "Higher bilateral trade dependence and joint democracy both independently reduce militarized disputes in politically relevant dyads.",
+   "method": "Dyadic logit analysis, 1950-1985",
+   "themes": [
+    "trade-security",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/1468-2478.00042",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/1468-2478.00042); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "copeland1996",
+   "type": "work",
+   "label": "Copeland 1996",
+   "authors": "Dale C. Copeland",
+   "year": 1996,
+   "journal": "International Security",
+   "title": "Economic Interdependence and War: A Theory of Trade Expectations",
+   "claim": "Interdependence pacifies when leaders expect trade to remain open, but highly dependent states facing pessimistic trade expectations become more likely to start wars.",
+   "method": "Theory with historical cases",
+   "themes": [
+    "trade-security"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec.20.4.5",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.20.4.5); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gartzkeliboehmer2001",
+   "type": "work",
+   "label": "Gartzke 2001",
+   "authors": "Erik Gartzke, Quan Li & Charles Boehmer",
+   "year": 2001,
+   "journal": "IO",
+   "title": "Investing in the Peace: Economic Interdependence and International Conflict",
+   "claim": "Capital interdependence and monetary integration reduce conflict by enabling costly signals of resolve that substitute for fighting, beyond the effect of trade.",
+   "method": "Signaling argument and dyadic regression",
+   "themes": [
+    "trade-security",
+    "money-finance"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/00208180151140612",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/00208180151140612); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "fitzgerald2014",
+   "type": "work",
+   "label": "Fitzgerald 2014",
+   "authors": "Jennifer Fitzgerald, David Leblang & Jessica C. Teets",
+   "year": 2014,
+   "journal": "World Politics",
+   "title": "Defying the Law of Gravity: The Political Economy of International Migration",
+   "claim": "Bilateral migration flows depend not only on economic gravity but on migrant networks and destination politics, such as the strength of anti-immigrant parties.",
+   "method": "Gravity model of bilateral migration",
+   "themes": [
+    "migration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887114000112",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887114000112); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "peters2014wp",
+   "type": "work",
+   "label": "Peters 2014",
+   "authors": "Margaret E. Peters",
+   "year": 2014,
+   "journal": "World Politics",
+   "title": "Open Trade, Closed Borders Immigration in the Era of Globalization",
+   "claim": "Trade openness and firm mobility reduce businesses’ demand for low-skilled immigrants, weakening the pro-immigration coalition and leading to tighter immigration policy.",
+   "method": "Policy dataset across 19 states, 1790s-2010",
+   "themes": [
+    "migration",
+    "firms-gvc"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887114000331",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887114000331); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bermeoleblang2015",
+   "type": "work",
+   "label": "Bermeo 2015",
+   "authors": "Sarah Blodgett Bermeo & David Leblang",
+   "year": 2015,
+   "journal": "IO",
+   "title": "Migration and Foreign Aid",
+   "claim": "Donors give more aid to countries that send them migrants, both because diasporas lobby and because donors use aid to manage migration.",
+   "method": "Dyadic aid allocation analysis",
+   "themes": [
+    "migration",
+    "aid"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818315000119",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818315000119); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "milner1987",
+   "type": "work",
+   "label": "Milner 1987",
+   "authors": "Helen Milner",
+   "year": 1987,
+   "journal": "IO",
+   "title": "Resisting the protectionist temptation: industry and the making of trade policy in France and the United States during the 1970s",
+   "claim": "Firms with multinational operations and export dependence opposed protection in the 1970s, which kept trade policy liberal despite economic distress.",
+   "method": "Comparative industry case studies",
+   "themes": [
+    "firms-gvc",
+    "trade-prefs"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300027636",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300027636); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gilligan1997",
+   "type": "work",
+   "label": "Gilligan 1997",
+   "authors": "Michael J. Gilligan",
+   "year": 1997,
+   "journal": "ISQ",
+   "title": "Lobbying as a Private Good with Intra-Industry Trade",
+   "claim": "With intra-industry trade, gains from reciprocal liberalization accrue to individual firms, turning lobbying for market access into a private good and easing collective action.",
+   "method": "Formal model with industry data",
+   "themes": [
+    "firms-gvc",
+    "trade-prefs"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/0020-8833.00052",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/0020-8833.00052); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "manger2012",
+   "type": "work",
+   "label": "Manger 2012",
+   "authors": "Mark S. Manger",
+   "year": 2012,
+   "journal": "World Politics",
+   "title": "Vertical Trade Specialization and the Formation of North-South PTAs",
+   "claim": "North–South PTAs form where multinationals build vertical production networks and lobby to protect investments and lower input costs.",
+   "method": "Statistical analysis of PTA formation",
+   "themes": [
+    "firms-gvc",
+    "trade-inst"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887112000172",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887112000172); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lirresnick2003",
+   "type": "work",
+   "label": "Li 2003",
+   "authors": "Quan Li & Adam Resnick",
+   "year": 2003,
+   "journal": "IO",
+   "title": "Reversal of Fortunes: Democratic Institutions and Foreign Direct Investment Inflows to Developing Countries",
+   "claim": "Democracy has offsetting effects on FDI: property-rights protection attracts it, but democratic constraints on rents and incentives for foreign firms deter it.",
+   "method": "Panel analysis of 53 developing countries",
+   "themes": [
+    "fdi",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818303571077",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818303571077); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pandya2016",
+   "type": "work",
+   "label": "Pandya 2016",
+   "authors": "Sonal S. Pandya",
+   "year": 2016,
+   "journal": "Annual Review of Political Science",
+   "title": "Political Economy of Foreign Direct Investment: Globalized Production in the Twenty-First Century",
+   "claim": "FDI politics should be studied through firm heterogeneity and global production networks, not only host regime type and political risk.",
+   "method": "Review",
+   "themes": [
+    "fdi",
+    "firms-gvc"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-051214-101237",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-051214-101237); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "snidal1985io",
+   "type": "work",
+   "label": "Snidal 1985",
+   "authors": "Duncan Snidal",
+   "year": 1985,
+   "journal": "IO",
+   "title": "The limits of hegemonic stability theory",
+   "claim": "Hegemony is neither necessary nor sufficient for open orders: small groups can supply collective goods after decline, and hegemons may act coercively.",
+   "method": "Formal collective-action analysis",
+   "themes": [
+    "hegemony",
+    "ipe-theory"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s002081830002703x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s002081830002703x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stein1984",
+   "type": "work",
+   "label": "Stein 1984",
+   "authors": "Arthur A. Stein",
+   "year": 1984,
+   "journal": "IO",
+   "title": "The hegemon's dilemma: Great Britain, the United States, and the international economic order",
+   "claim": "Hegemons did not impose free trade; Britain and the US tolerated others’ protection and discrimination to secure openness, weakening hegemonic stability theory.",
+   "method": "Historical analysis of trade orders",
+   "themes": [
+    "hegemony",
+    "trade-inst"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300026758",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300026758); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "starrs2013",
+   "type": "work",
+   "label": "Starrs 2013",
+   "authors": "Sean Starrs",
+   "year": 2013,
+   "journal": "ISQ",
+   "title": "American Economic Power Hasn't Declined-It Globalized! Summoning the Data and Taking Globalization Seriously",
+   "claim": "Measured by the transnational ownership of leading corporations rather than national GDP, American economic power remains dominant.",
+   "method": "Data on Forbes Global 2000 ownership by sector",
+   "themes": [
+    "hegemony"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/isqu.12053",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/isqu.12053); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kindleberger1973",
+   "type": "work",
+   "label": "Kindleberger 1973",
+   "authors": "Charles P. Kindleberger",
+   "year": 1973,
+   "journal": "University of California Press (book)",
+   "title": "The World in Depression, 1929–1939",
+   "claim": "The interwar depression was so deep and long because Britain could no longer and the United States would not act as stabilizer of the world economy.",
+   "method": "Economic history",
+   "themes": [
+    "hegemony",
+    "money-finance"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 1973, DOI 10.2307/2553338); metadata from memory"
+  },
+  {
+   "id": "katzenstein1976",
+   "type": "work",
+   "label": "Katzenstein 1976",
+   "authors": "Peter J. Katzenstein",
+   "year": 1976,
+   "journal": "IO",
+   "title": "International relations and domestic structures: Foreign economic policies of advanced industrial states",
+   "claim": "Differences in domestic structures, the centralization of state and society, explain why advanced states pursue different foreign economic policies.",
+   "method": "Comparative analysis",
+   "themes": [
+    "ipe-theory"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300003726",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300003726); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "iversencusack2000",
+   "type": "work",
+   "label": "Iversen 2000",
+   "authors": "Torben Iversen & Thomas R. Cusack",
+   "year": 2000,
+   "journal": "World Politics",
+   "title": "The Causes of Welfare State Expansion: Deindustrialization or Globalization?",
+   "claim": "Welfare state expansion was driven by labor-market risks from deindustrialization, not by trade openness and international volatility.",
+   "method": "Pooled time-series analysis, OECD",
+   "themes": [
+    "compensation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887100016567",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887100016567); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "burgoon2001",
+   "type": "work",
+   "label": "Burgoon 2001",
+   "authors": "Brian Burgoon",
+   "year": 2001,
+   "journal": "IO",
+   "title": "Globalization and Welfare Compensation: Disentangling the Ties that Bind",
+   "claim": "Different dimensions of globalization have different welfare effects: trade and FDI exposure raise some compensatory spending while capital mobility pressures other programs.",
+   "method": "Panel analysis, OECD",
+   "themes": [
+    "compensation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/00208180152507542",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/00208180152507542); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "quinn1997",
+   "type": "work",
+   "label": "Quinn 1997",
+   "authors": "Dennis Quinn",
+   "year": 1997,
+   "journal": "APSR",
+   "title": "The Correlates of Change in International Financial Regulation",
+   "claim": "Capital account liberalization is associated with higher growth and does not erode corporate taxation or government spending as feared.",
+   "method": "New openness indices, cross-national regression",
+   "themes": [
+    "money-finance",
+    "diffusion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2952073",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2952073); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "thacker1999",
+   "type": "work",
+   "label": "Thacker 1999",
+   "authors": "Strom C. Thacker",
+   "year": 1999,
+   "journal": "World Politics",
+   "title": "The High Politics of IMF Lending",
+   "claim": "Countries that move closer to the United States in UN voting are more likely to receive IMF loans, showing US political interests shape Fund lending.",
+   "method": "Statistical analysis of IMF lending, 1985-1994",
+   "themes": [
+    "ifi",
+    "hegemony"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887100020025",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887100020025); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stone2004",
+   "type": "work",
+   "label": "Stone 2004",
+   "authors": "Randall W. Stone",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "The Political Economy of IMF Lending in Africa",
+   "claim": "The IMF’s punishment of African program violators is shortened for countries with strong ties to major donors, undermining conditionality’s credibility.",
+   "method": "Statistical analysis of IMF program suspensions",
+   "themes": [
+    "ifi"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000305540404136x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000305540404136x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pape1997",
+   "type": "work",
+   "label": "Pape 1997",
+   "authors": "Robert A. Pape",
+   "year": 1997,
+   "journal": "International Security",
+   "title": "Why Economic Sanctions Do Not Work",
+   "claim": "Economic sanctions rarely achieve major foreign policy goals; most purported successes are coded wrongly or owe to force.",
+   "method": "Reanalysis of the Hufbauer, Schott and Elliott cases",
+   "themes": [
+    "weaponized"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec.22.2.90",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.22.2.90); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "marinov2005",
+   "type": "work",
+   "label": "Marinov 2005",
+   "authors": "Nikolay Marinov",
+   "year": 2005,
+   "journal": "AJPS",
+   "title": "Do Economic Sanctions Destabilize Country Leaders?",
+   "claim": "Sanctions increase the likelihood that targeted leaders lose office, giving them real coercive leverage.",
+   "method": "Leader-level survival analysis",
+   "themes": [
+    "weaponized",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1540-5907.2005.00142.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2005.00142.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "baldwin1985",
+   "type": "work",
+   "label": "Baldwin 1985",
+   "authors": "David A. Baldwin",
+   "year": 1985,
+   "journal": "Princeton University Press (book)",
+   "title": "Economic Statecraft",
+   "claim": "Economic instruments of statecraft are more useful than commonly assumed once their costs, multiple goals and alternatives are assessed properly.",
+   "method": "Conceptual and historical analysis",
+   "themes": [
+    "weaponized",
+    "ipe-theory"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 1986, DOI 10.2307/20042706); metadata from memory"
+  },
+  {
+   "id": "steinberg2002",
+   "type": "work",
+   "label": "Steinberg 2002",
+   "authors": "Richard H. Steinberg",
+   "year": 2002,
+   "journal": "IO",
+   "title": "In the Shadow of Law or Power? Consensus-Based Bargaining and Outcomes in the GATT/WTO",
+   "claim": "Consensus decision-making in the GATT/WTO is organized hypocrisy: law-based procedures at the agenda stage, but outcomes reflect US and EC market power.",
+   "method": "Historical analysis of GATT/WTO rounds",
+   "themes": [
+    "trade-inst",
+    "hegemony"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081802320005504",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081802320005504); claim is my summary, not re-read this session"
   }
  ],
  "edges": [
@@ -6556,6 +7374,1122 @@
    "target": "davis2011",
    "type": "qualifies",
    "why": "Expectations of future trade, not current flows, shape conflict."
+  },
+  {
+   "source": "elkins2006",
+   "target": "simmons2004",
+   "type": "extends_to_new_case",
+   "why": "Competitive diffusion logic applied to investment treaties."
+  },
+  {
+   "source": "jensen2008",
+   "target": "jensen2003",
+   "type": "builds_on",
+   "why": "Specifies executive constraints as the mechanism behind democracies' FDI advantage."
+  },
+  {
+   "source": "kerner2009",
+   "target": "buthe2008",
+   "type": "builds_on",
+   "why": "Separates commitment and signaling channels through which treaties attract FDI."
+  },
+  {
+   "source": "allee2011",
+   "target": "kerner2009",
+   "type": "qualifies",
+   "why": "BIT credibility depends on the host's arbitration record."
+  },
+  {
+   "source": "wellhausen2015",
+   "target": "allee2011",
+   "type": "builds_on",
+   "why": "Investor responses to observed treaty breach."
+  },
+  {
+   "source": "simmons2014",
+   "target": "elkins2006",
+   "type": "builds_on",
+   "why": "Treats the competitive BIT wave as asymmetric bargains with later costs."
+  },
+  {
+   "source": "poulsen2013",
+   "target": "elkins2006",
+   "type": "challenges",
+   "why": "BIT signing reflected bounded rationality, not only rational competition for capital."
+  },
+  {
+   "source": "thompson2019",
+   "target": "poulsen2013",
+   "type": "builds_on",
+   "why": "States that learn from claims redesign treaties, not only stop signing."
+  },
+  {
+   "source": "thompson2019",
+   "target": "simmons2014",
+   "type": "mechanism_tested_by",
+   "why": "Arbitration experience drives contestation through treaty redesign."
+  },
+  {
+   "source": "leblang2010",
+   "target": "jensen2003",
+   "type": "qualifies",
+   "why": "Shows that migrant diaspora networks, not only host political institutions, shape where cross-border investment flows."
+  },
+  {
+   "source": "kim2025fdi",
+   "target": "malesky2008",
+   "type": "builds_on",
+   "why": "FDI creates new domestic political actors in Vietnam, here pro-trade coalitions rather than provincial leaders."
+  },
+  {
+   "source": "biglaiser2011",
+   "target": "drezner2003",
+   "type": "builds_on",
+   "why": "Sanctions impose costs on sender firms, part of why imposed sanctions are costly."
+  },
+  {
+   "source": "barry2015",
+   "target": "early2009",
+   "type": "builds_on",
+   "why": "Firms route around sanctions through FDI in third parties, as they do through trade."
+  },
+  {
+   "source": "barry2015",
+   "target": "biglaiser2011",
+   "type": "builds_on",
+   "why": "Where sender FDI goes when it leaves targets."
+  },
+  {
+   "source": "pearson2022",
+   "target": "babic2019",
+   "type": "builds_on",
+   "why": "The growth of transnational state capital is the backdrop to the economic security dilemma."
+  },
+  {
+   "source": "babic2019",
+   "target": "pandya2014",
+   "type": "challenges",
+   "why": "Much FDI is now state-directed, so host politics cannot treat investors as market actors."
+  },
+  {
+   "source": "bauerle2023",
+   "target": "chan2021",
+   "type": "builds_on",
+   "why": "Member-state support for EU-level investment screening."
+  },
+  {
+   "source": "chan2021",
+   "target": "meunier2019",
+   "type": "mechanism_tested_by",
+   "why": "National positions on screening test the geopoliticization argument."
+  },
+  {
+   "source": "baccini2019",
+   "target": "dur2014",
+   "type": "builds_on",
+   "why": "The PTA design literature Baccini reviews rests on the DESTA dataset."
+  },
+  {
+   "source": "buthe2014",
+   "target": "dur2014",
+   "type": "builds_on",
+   "why": "Coding the design of trade agreements."
+  },
+  {
+   "source": "dur2014",
+   "target": "rose2004",
+   "type": "challenges",
+   "why": "Deep agreements have large trade effects; shallow membership coding hides them."
+  },
+  {
+   "source": "pelc2014",
+   "target": "busch2007",
+   "type": "builds_on",
+   "why": "Precedent-seeking extends the strategic-forum logic of WTO litigation."
+  },
+  {
+   "source": "davis2012",
+   "target": "busch2007",
+   "type": "builds_on",
+   "why": "Forum choice and WTO litigation."
+  },
+  {
+   "source": "johns2014",
+   "target": "busch2006",
+   "type": "builds_on",
+   "why": "Litigants manipulate participation because third parties hinder settlement."
+  },
+  {
+   "source": "davis2012",
+   "target": "davisbermeo2009",
+   "type": "builds_on",
+   "why": "Legal capacity and experience as preconditions for using the WTO."
+  },
+  {
+   "source": "mansfield2008",
+   "target": "goldstein2007",
+   "type": "builds_on",
+   "why": "Institutions affect trade's volatility, not only its level."
+  },
+  {
+   "source": "lipscy2017",
+   "target": "hopewell2014",
+   "type": "builds_on",
+   "why": "Rising powers renegotiate influence in international institutions."
+  },
+  {
+   "source": "hopewell2014",
+   "target": "gowa2005",
+   "type": "challenges",
+   "why": "The major-power club at the core of the GATT was broken open by emerging economies."
+  },
+  {
+   "source": "daviswilf2017",
+   "target": "gowa1993",
+   "type": "builds_on",
+   "why": "Security externalities shape who gets into the trade regime."
+  },
+  {
+   "source": "daviswilf2017",
+   "target": "goldstein2007",
+   "type": "qualifies",
+   "why": "Institutional standing itself is allocated geopolitically."
+  },
+  {
+   "source": "allee2012",
+   "target": "goldstein2007",
+   "type": "qualifies",
+   "why": "Trade gains come from accession commitments, not membership per se."
+  },
+  {
+   "source": "allee2012",
+   "target": "mansfield2006",
+   "type": "builds_on",
+   "why": "Accession as the moment of maximum IO leverage over domestic policy."
+  },
+  {
+   "source": "allee2019",
+   "target": "dur2014",
+   "type": "builds_on",
+   "why": "Uses PTA texts to show design is template-driven."
+  },
+  {
+   "source": "zangl2016",
+   "target": "lipscy2015",
+   "type": "extends_to_new_case",
+   "why": "Institutional adaptation to power shifts compared across the WTO and IMF."
+  },
+  {
+   "source": "weinhardt2019",
+   "target": "johnston2019",
+   "type": "builds_on",
+   "why": "Issue-specific Chinese contestation applied to the trade order."
+  },
+  {
+   "source": "weinhardt2019",
+   "target": "hopewell2014",
+   "type": "builds_on",
+   "why": "China's position inside the WTO after its rise to the inner circle."
+  },
+  {
+   "source": "margalit2012",
+   "target": "mansfield2009",
+   "type": "builds_on",
+   "why": "Perceived exposure and cultural concerns over measured material interest."
+  },
+  {
+   "source": "margalit2019",
+   "target": "margalit2012",
+   "type": "builds_on",
+   "why": "Develops the earlier finding that economics explains part, not most, of discontent."
+  },
+  {
+   "source": "hiscox2006",
+   "target": "scheve2001",
+   "type": "challenges",
+   "why": "Stated trade preferences move with framing, so they are not fixed by skill."
+  },
+  {
+   "source": "hainmueller2006",
+   "target": "hiscox2006",
+   "type": "synthesizes",
+   "why": "Both read the education gradient as information and ideas rather than skill (same year)."
+  },
+  {
+   "source": "milnertingley2011",
+   "target": "mansfield2009",
+   "type": "qualifies",
+   "why": "Material interests matter for some instruments (trade) but not others (aid)."
+  },
+  {
+   "source": "guisinger2009",
+   "target": "mmr2002",
+   "type": "challenges",
+   "why": "Voters rarely know trade votes, weakening the electoral signaling logic."
+  },
+  {
+   "source": "mutzkim2017",
+   "target": "mansfield2009",
+   "type": "builds_on",
+   "why": "In-group favoritism extended to relative gains between nations."
+  },
+  {
+   "source": "brutger2021",
+   "target": "mutzkim2017",
+   "type": "builds_on",
+   "why": "Fairness of the distribution, not only relative position, drives evaluations of trade deals."
+  },
+  {
+   "source": "fordham2012",
+   "target": "scheve2001",
+   "type": "qualifies",
+   "why": "Interests operate through community and household context."
+  },
+  {
+   "source": "fordham2012",
+   "target": "mansfield2009",
+   "type": "challenges",
+   "why": "Sociotropic effects can be interest-based at the group level."
+  },
+  {
+   "source": "feigenbaum2015",
+   "target": "autor2013",
+   "type": "builds_on",
+   "why": "Elite responsiveness to the China shock in roll-call votes."
+  },
+  {
+   "source": "autor2020",
+   "target": "feigenbaum2015",
+   "type": "builds_on",
+   "why": "Moves from legislator behavior to who gets elected."
+  },
+  {
+   "source": "scheiring2024",
+   "target": "autor2020",
+   "type": "synthesizes",
+   "why": "Pools causal estimates of globalization shocks on populist voting."
+  },
+  {
+   "source": "scheiring2024",
+   "target": "colantone2018",
+   "type": "synthesizes",
+   "why": "Includes the European China-shock estimates."
+  },
+  {
+   "source": "scheiring2024",
+   "target": "margalit2019",
+   "type": "qualifies",
+   "why": "Confirms effects are real but modest, matching the outcome-significant reading."
+  },
+  {
+   "source": "osgood2017jop",
+   "target": "melitz2003",
+   "type": "mechanism_tested_by",
+   "why": "Firm survey evidence for heterogeneous-firm trade preferences."
+  },
+  {
+   "source": "kim2019firms",
+   "target": "osgood2017jop",
+   "type": "builds_on",
+   "why": "Firm-level trade preferences from the same research program."
+  },
+  {
+   "source": "osgood2018",
+   "target": "jensen2015",
+   "type": "builds_on",
+   "why": "Supply chains dampen protectionist demands, here shown through firms' positions on FTAs."
+  },
+  {
+   "source": "jensen2015",
+   "target": "frieden1991",
+   "type": "builds_on",
+   "why": "Exchange-rate misalignment shifts sectoral demand for trade protection."
+  },
+  {
+   "source": "osgood2018",
+   "target": "meckling2017",
+   "type": "builds_on",
+   "why": "Value-chain position and protection preferences in clean energy."
+  },
+  {
+   "source": "malhotra2013",
+   "target": "hainmueller2010",
+   "type": "challenges",
+   "why": "Labor-market threat is real for directly competing workers, even if average effects look small."
+  },
+  {
+   "source": "hainmueller2014",
+   "target": "dancygier2013",
+   "type": "synthesizes",
+   "why": "Reviews sectoral and sociotropic accounts of immigration attitudes."
+  },
+  {
+   "source": "dancygier2013",
+   "target": "hiscox2001",
+   "type": "extends_to_new_case",
+   "why": "Sector-specific interests applied to immigration rather than trade."
+  },
+  {
+   "source": "kentikelenis2016",
+   "target": "stone2008",
+   "type": "builds_on",
+   "why": "Systematic conditionality data for testing informal-governance claims."
+  },
+  {
+   "source": "clark2022imf",
+   "target": "kentikelenis2016",
+   "type": "builds_on",
+   "why": "Uses the conditionality dataset to test outside-option effects."
+  },
+  {
+   "source": "nooruddin2006",
+   "target": "rudra2002",
+   "type": "qualifies",
+   "why": "IMF-induced cuts fall less on social spending in democracies."
+  },
+  {
+   "source": "chwieroth2007",
+   "target": "simmons2004",
+   "type": "qualifies",
+   "why": "Liberalization spread through trained policy elites, not only competition."
+  },
+  {
+   "source": "nelson2014",
+   "target": "chwieroth2007",
+   "type": "builds_on",
+   "why": "Shared neoliberal beliefs shape treatment by the IMF, following Chwieroth's ideas-based account."
+  },
+  {
+   "source": "chwieroth2013",
+   "target": "stone2008",
+   "type": "challenges",
+   "why": "Staff, not only powerful shareholders, govern informally."
+  },
+  {
+   "source": "chwieroth2013",
+   "target": "copelovitch2010",
+   "type": "builds_on",
+   "why": "Staff autonomy grows when principals are divided."
+  },
+  {
+   "source": "bodea2015io",
+   "target": "bernhard2002",
+   "type": "builds_on",
+   "why": "Monetary institutions work through domestic political credibility."
+  },
+  {
+   "source": "beaulieu2012",
+   "target": "schultz2003",
+   "type": "qualifies",
+   "why": "The democratic advantage lies in credit access more than in price."
+  },
+  {
+   "source": "ballardrosa2019",
+   "target": "schultz2003",
+   "type": "qualifies",
+   "why": "Democracies' borrowing advantage depends on global liquidity."
+  },
+  {
+   "source": "ballardrosa2019",
+   "target": "mosley2003",
+   "type": "builds_on",
+   "why": "Market scrutiny of governments varies with global capital cycles."
+  },
+  {
+   "source": "singer2010",
+   "target": "frieden1991",
+   "type": "builds_on",
+   "why": "Remittance flows change the costs of fixed exchange rates."
+  },
+  {
+   "source": "nelson2014ik",
+   "target": "oatley2011",
+   "type": "synthesizes",
+   "why": "Both argue OEP's micro-foundations miss systemic dynamics of finance."
+  },
+  {
+   "source": "blyth2017",
+   "target": "nelson2014ik",
+   "type": "builds_on",
+   "why": "Extends the uncertainty critique to IPE's missing macroeconomy."
+  },
+  {
+   "source": "caraway2012",
+   "target": "stone2008",
+   "type": "qualifies",
+   "why": "Borrowers use domestic labor power as bargaining leverage over conditions."
+  },
+  {
+   "source": "caraway2012",
+   "target": "rudra2002",
+   "type": "builds_on",
+   "why": "Uses potential labor power to explain bargaining strength."
+  },
+  {
+   "source": "clark2021pool",
+   "target": "clark2021wb",
+   "type": "builds_on",
+   "why": "Staff anticipation of the leading shareholder extended to inter-IO cooperation."
+  },
+  {
+   "source": "clark2022imf",
+   "target": "clark2021pool",
+   "type": "builds_on",
+   "why": "Whether overlapping IOs compete or pool decides whether outside options give leverage."
+  },
+  {
+   "source": "wilf2016",
+   "target": "bach2010",
+   "type": "builds_on",
+   "why": "Transgovernmental agreements have credible distributional effects."
+  },
+  {
+   "source": "grauvogel2017",
+   "target": "wood2008",
+   "type": "builds_on",
+   "why": "Imposed sanctions provoke repression and rally effects, so protest rises only after threats."
+  },
+  {
+   "source": "mclean2010",
+   "target": "hirschman1945",
+   "type": "mechanism_tested_by",
+   "why": "Trade dependence as the source of coercive leverage."
+  },
+  {
+   "source": "mclean2010",
+   "target": "early2009",
+   "type": "qualifies",
+   "why": "Major trading partners' participation decides whether busting can undercut sanctions."
+  },
+  {
+   "source": "whang2011",
+   "target": "drezner2003",
+   "type": "qualifies",
+   "why": "Sanctions can serve domestic audiences regardless of coercive success."
+  },
+  {
+   "source": "chenevers2023",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "Chokepoint weaponization theorized as a power-transition strategy."
+  },
+  {
+   "source": "chenevers2023",
+   "target": "copeland2015",
+   "type": "builds_on",
+   "why": "Economic statecraft during power transitions shapes trade expectations."
+  },
+  {
+   "source": "drezner2009",
+   "target": "hirschman1945",
+   "type": "qualifies",
+   "why": "Mutual financial dependence limits the creditor's coercive leverage."
+  },
+  {
+   "source": "mcdowell2023",
+   "target": "drezner2009",
+   "type": "builds_on",
+   "why": "Financial leverage and its limits, from creditor power to sanctions backlash."
+  },
+  {
+   "source": "malkin2020",
+   "target": "strange1987",
+   "type": "builds_on",
+   "why": "Structural power over production and knowledge as the arena of US-China rivalry."
+  },
+  {
+   "source": "pearson2022",
+   "target": "malkin2020",
+   "type": "synthesizes",
+   "why": "Industrial policy as both a structural-power contest and a security dilemma."
+  },
+  {
+   "source": "greenhill2009",
+   "target": "mosley2003",
+   "type": "builds_on",
+   "why": "Global markets shape domestic standards through trade ties, not only capital."
+  },
+  {
+   "source": "greenhill2009",
+   "target": "rudra2002",
+   "type": "challenges",
+   "why": "Trade ties can raise labor standards rather than erode them."
+  },
+  {
+   "source": "malesky2018",
+   "target": "greenhill2009",
+   "type": "builds_on",
+   "why": "Firm-level micro-foundations for trading-up of labor standards."
+  },
+  {
+   "source": "guasti2022",
+   "target": "greenhill2009",
+   "type": "synthesizes",
+   "why": "Upward diffusion through export markets coexists with no race to the bottom."
+  },
+  {
+   "source": "prakash2006",
+   "target": "simmons2004",
+   "type": "extends_to_new_case",
+   "why": "Trade-based diffusion applied to private environmental standards."
+  },
+  {
+   "source": "greenhill2009",
+   "target": "prakash2006",
+   "type": "builds_on",
+   "why": "Trade-based trading-up applied from environmental to labor standards."
+  },
+  {
+   "source": "bdm2009",
+   "target": "dreher2009",
+   "type": "synthesizes",
+   "why": "Aid and lending for policy concessions in a common selectorate logic."
+  },
+  {
+   "source": "ahmed2012",
+   "target": "bdm2009",
+   "type": "builds_on",
+   "why": "Unearned income funds the patronage that small-coalition leaders rely on."
+  },
+  {
+   "source": "arias2018",
+   "target": "ahmed2012",
+   "type": "builds_on",
+   "why": "Investment treaties as another external resource that prolongs autocratic survival."
+  },
+  {
+   "source": "wright2009",
+   "target": "rudra2005",
+   "type": "qualifies",
+   "why": "External resources democratize only when the ruler can survive a transition."
+  },
+  {
+   "source": "dietrich2013",
+   "target": "bdm2009",
+   "type": "qualifies",
+   "why": "Donors choose how to deliver aid, bypassing or engaging recipient governments, in response to governance quality, not only whom to give it to."
+  },
+  {
+   "source": "bermeo2017",
+   "target": "bdm2009",
+   "type": "challenges",
+   "why": "Donors increasingly target development where problems spill over, not only buy policy."
+  },
+  {
+   "source": "dreher2018",
+   "target": "dreher2009",
+   "type": "extends_to_new_case",
+   "why": "Politically motivated allocation analyzed for China's aid."
+  },
+  {
+   "source": "dreher2022",
+   "target": "dreher2018",
+   "type": "builds_on",
+   "why": "Global extension of the Chinese finance data."
+  },
+  {
+   "source": "blair2021",
+   "target": "dreher2018",
+   "type": "builds_on",
+   "why": "From allocation of Chinese aid to its effects on public opinion."
+  },
+  {
+   "source": "blair2021",
+   "target": "broz2020china",
+   "type": "qualifies",
+   "why": "Chinese finance does not automatically buy publics' favor."
+  },
+  {
+   "source": "stone2008",
+   "target": "kilby2006",
+   "type": "builds_on",
+   "why": "Informal great-power influence in international organizations."
+  },
+  {
+   "source": "milnertingley2011",
+   "target": "bdm2009",
+   "type": "qualifies",
+   "why": "Domestic ideology also shapes donor aid policy."
+  },
+  {
+   "source": "adlernissen2021",
+   "target": "borzel2021",
+   "type": "challenges",
+   "why": "Contestation stems from status resentment rather than intrusive liberal authority."
+  },
+  {
+   "source": "adlernissen2021",
+   "target": "mutz2018",
+   "type": "builds_on",
+   "why": "Status threat as the core of populist discontent with the order."
+  },
+  {
+   "source": "adlernissen2021",
+   "target": "lake2021",
+   "type": "builds_on",
+   "why": "Status hierarchy as one of the order's blind spots."
+  },
+  {
+   "source": "mattingly2025",
+   "target": "johnston2019",
+   "type": "builds_on",
+   "why": "China actively promotes its governance model abroad."
+  },
+  {
+   "source": "mattingly2025",
+   "target": "blair2021",
+   "type": "builds_on",
+   "why": "Tests whether China's state media, rather than its finance, wins foreign publics' favor."
+  },
+  {
+   "source": "helleiner2024",
+   "target": "helleiner2021",
+   "type": "builds_on",
+   "why": "Neomercantilist revival placed within a broader polycrisis."
+  },
+  {
+   "source": "helleiner2024",
+   "target": "milner2021",
+   "type": "synthesizes",
+   "why": "Interacting crises as the context for globalization's strains on democracy."
+  },
+  {
+   "source": "simmons2021",
+   "target": "carter2019",
+   "type": "builds_on",
+   "why": "The economic costs of re-bordering."
+  },
+  {
+   "source": "carter2019",
+   "target": "gowa1993",
+   "type": "builds_on",
+   "why": "Security choices shape trade flows."
+  },
+  {
+   "source": "keohane1984",
+   "target": "krasner1976",
+   "type": "challenges",
+   "why": "Argues regimes can sustain cooperation after hegemonic decline by reducing transaction costs and uncertainty, contesting hegemonic stability theory."
+  },
+  {
+   "source": "keohane1984",
+   "target": "kindleberger1973",
+   "type": "challenges",
+   "why": "Questions the stabilizer thesis by showing cooperation need not collapse when no single state can provide leadership."
+  },
+  {
+   "source": "hooghe2019",
+   "target": "zurn2018",
+   "type": "builds_on",
+   "why": "Traces the delegitimation of international governance to its growing authority and to nationalist mobilization, extending the authority–politicization link."
+  },
+  {
+   "source": "devries2021",
+   "target": "hooghe2019",
+   "type": "builds_on",
+   "why": "Builds on the contested-world-order argument to explain how political entrepreneurs politicize international cooperation among mass publics."
+  },
+  {
+   "source": "tallbergzurn2019",
+   "target": "zurn2018",
+   "type": "builds_on",
+   "why": "Provides a framework for IO legitimacy and legitimation that operationalizes the authority–legitimacy nexus."
+  },
+  {
+   "source": "dellmuth2022",
+   "target": "tallbergzurn2019",
+   "type": "builds_on",
+   "why": "Applies the legitimacy framework to compare elite and citizen beliefs about international organizations."
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "walter2021",
+   "type": "builds_on",
+   "why": "Examines one consequence of the globalization backlash, voter-endorsed withdrawal, and its contagion to publics in other member states."
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "hooghe2019",
+   "type": "builds_on",
+   "why": "Treats referendum-driven withdrawal as a channel by which delegitimation of international institutions spreads across borders."
+  },
+  {
+   "source": "greenhill2009",
+   "target": "mosleyuno2007",
+   "type": "qualifies",
+   "why": "Shows trade raises labor rights when importing partners have high standards, refining the mixed trade and FDI effects found by Mosley and Uno."
+  },
+  {
+   "source": "mosleyuno2007",
+   "target": "prakash2006",
+   "type": "builds_on",
+   "why": "Extends the race-to-the-bottom debate from environmental standards to collective labor rights, separating FDI from trade effects."
+  },
+  {
+   "source": "hainmuellerhiscox2007",
+   "target": "mayda2006",
+   "type": "challenges",
+   "why": "Shows education’s pro-immigration effect does not depend on migrants’ skill level, contesting a labor-market competition reading of skill effects."
+  },
+  {
+   "source": "hainmueller2010",
+   "target": "hainmuellerhiscox2007",
+   "type": "builds_on",
+   "why": "Uses a survey experiment to confirm that both high- and low-skilled natives prefer high-skilled immigrants, reinforcing the challenge to labor-market accounts."
+  },
+  {
+   "source": "bdm2009",
+   "target": "morgenthau1962",
+   "type": "builds_on",
+   "why": "Formalizes Morgenthau’s view of aid as a political bribe, modeling it as policy concessions bought from small-coalition leaders."
+  },
+  {
+   "source": "wright2009",
+   "target": "dunning2004",
+   "type": "builds_on",
+   "why": "Builds on the finding that aid aided African democratization once conditionality was credible, specifying which dictators respond to aid incentives."
+  },
+  {
+   "source": "wright2009",
+   "target": "knack2004",
+   "type": "qualifies",
+   "why": "Shows aid can foster democratization when an autocrat’s survival under democracy is plausible, a condition on Knack’s null average effect."
+  },
+  {
+   "source": "dunning2004",
+   "target": "morgenthau1962",
+   "type": "qualifies",
+   "why": "Shows the political uses of aid Morgenthau stressed swamped democratic conditionality during the Cold War but not after."
+  },
+  {
+   "source": "bearcetirone2010",
+   "target": "dunning2004",
+   "type": "builds_on",
+   "why": "Generalizes the credibility argument: aid fosters reform and growth only when donors’ strategic stakes in the recipient are low."
+  },
+  {
+   "source": "jablonski2014",
+   "target": "ahmed2012",
+   "type": "builds_on",
+   "why": "Documents electoral targeting of aid inside Kenya, a mechanism by which foreign income can prop up incumbents."
+  },
+  {
+   "source": "briggs2016",
+   "target": "jablonski2014",
+   "type": "builds_on",
+   "why": "Finds aid within African countries favors richer areas, reinforcing evidence that subnational allocation is politicized rather than need-based."
+  },
+  {
+   "source": "baker2015",
+   "target": "milnertingley2011",
+   "type": "builds_on",
+   "why": "Adds racial attitudes to the sources of American support for foreign aid, showing paternalistic stereotypes raise support for aid to Black recipients."
+  },
+  {
+   "source": "goldsteingulotty2021",
+   "target": "goldstein2007",
+   "type": "builds_on",
+   "why": "Revisits the GATT/WTO institutional bargain to explain why it failed to adapt to China and lost US domestic support."
+  },
+  {
+   "source": "goldsteingulotty2021",
+   "target": "colgan2017",
+   "type": "builds_on",
+   "why": "Shares and specifies the diagnosis that the trade regime’s design neglected domestic distributive losers, fueling disengagement."
+  },
+  {
+   "source": "simmons2004",
+   "target": "simmons2001io",
+   "type": "builds_on",
+   "why": "Generalizes the dominant-center logic of capital market harmonization into competitive, coercive and learning mechanisms of liberalization diffusion."
+  },
+  {
+   "source": "bach2010",
+   "target": "simmons2001io",
+   "type": "builds_on",
+   "why": "Extends the study of financial regulatory harmonization to transgovernmental networks of insider-trading regulators."
+  },
+  {
+   "source": "singer2004",
+   "target": "simmons2001io",
+   "type": "qualifies",
+   "why": "Shows regulators seek harmonization only when domestic shocks threaten their autonomy, adding a domestic trigger to the dominant-center model."
+  },
+  {
+   "source": "basingerhallerberg2004",
+   "target": "garrett1998",
+   "type": "builds_on",
+   "why": "Argues domestic political costs of reform can neutralize capital-mobility pressure, supporting the claim that globalization need not force convergence."
+  },
+  {
+   "source": "martin2008",
+   "target": "polachek1980",
+   "type": "qualifies",
+   "why": "Shows bilateral trade deters bilateral conflict while multilateral openness lowers the cost of conflict with any one partner, a scope condition on the opportunity-cost logic."
+  },
+  {
+   "source": "barbieri1996",
+   "target": "polachek1980",
+   "type": "challenges",
+   "why": "Finds extensive and asymmetric interdependence raises the risk of militarized disputes, contesting the liberal claim that trade pacifies."
+  },
+  {
+   "source": "onealrussett1997",
+   "target": "barbieri1996",
+   "type": "challenges",
+   "why": "Finds bilateral trade dependence reduces disputes in politically relevant dyads once democracy is controlled, contrary to Barbieri."
+  },
+  {
+   "source": "copeland1996",
+   "target": "polachek1980",
+   "type": "qualifies",
+   "why": "Argues interdependence pacifies only when leaders expect future trade to stay open; pessimistic expectations make dependent states war-prone."
+  },
+  {
+   "source": "copeland2015",
+   "target": "copeland1996",
+   "type": "builds_on",
+   "why": "Develops trade-expectations theory into a book-length historical test across great-power crises."
+  },
+  {
+   "source": "gartzkeliboehmer2001",
+   "target": "onealrussett1997",
+   "type": "qualifies",
+   "why": "Argues capital and monetary interdependence pacify by enabling costly signals of resolve, a mechanism beyond the trade-dependence effect."
+  },
+  {
+   "source": "gartzke2007",
+   "target": "gartzkeliboehmer2001",
+   "type": "builds_on",
+   "why": "Builds on capital-market signaling to argue that capitalism, not democracy, underlies the liberal peace."
+  },
+  {
+   "source": "fitzgerald2014",
+   "target": "leblang2010",
+   "type": "builds_on",
+   "why": "Extends diaspora-network effects from investment to bilateral migration flows, adding destination-country politics to gravity models."
+  },
+  {
+   "source": "peters2014wp",
+   "target": "peters2014",
+   "type": "builds_on",
+   "why": "Generalizes the argument that trade and firm mobility erode business support for immigration from the US case to cross-national history."
+  },
+  {
+   "source": "peters2017",
+   "target": "peters2014wp",
+   "type": "builds_on",
+   "why": "Expands the trade-openness and firm-mobility explanation of tighter immigration policy into a book-length account."
+  },
+  {
+   "source": "bermeoleblang2015",
+   "target": "leblang2010",
+   "type": "builds_on",
+   "why": "Shows migrant diasporas shape donors’ aid allocation, extending the role of migrant networks from investment to aid."
+  },
+  {
+   "source": "bermeo2017",
+   "target": "bermeoleblang2015",
+   "type": "builds_on",
+   "why": "Extends the idea that donors target aid to manage spillovers such as migration from recipient countries."
+  },
+  {
+   "source": "kim2017",
+   "target": "milner1987",
+   "type": "builds_on",
+   "why": "Extends the insight that internationally integrated firms oppose protection to firm-level lobbying within industries."
+  },
+  {
+   "source": "osgood2018",
+   "target": "milner1987",
+   "type": "builds_on",
+   "why": "Shows firms embedded in global supply chains support trade agreements, updating Milner’s anti-protectionist multinational coalition."
+  },
+  {
+   "source": "kim2017",
+   "target": "gilligan1997",
+   "type": "builds_on",
+   "why": "Builds on the point that intra-industry trade makes market access a firm-specific good, explaining why productive firms lobby alone."
+  },
+  {
+   "source": "osgood2017",
+   "target": "gilligan1997",
+   "type": "builds_on",
+   "why": "Applies the intra-industry trade logic to product differentiation, explaining the breakdown of industry-wide opposition to trade."
+  },
+  {
+   "source": "blanchard2016",
+   "target": "manger2012",
+   "type": "builds_on",
+   "why": "Generalizes the vertical-specialization logic: supply-chain links reduce governments’ incentives to protect."
+  },
+  {
+   "source": "manger2012",
+   "target": "mansfield2012",
+   "type": "builds_on",
+   "why": "Adds multinational investors’ production networks as a driver of PTA formation alongside domestic veto players."
+  },
+  {
+   "source": "lirresnick2003",
+   "target": "jensen2003",
+   "type": "challenges",
+   "why": "Argues democracy’s property-rights benefits for FDI are offset by constraints on rents to foreign firms, contesting a simple democratic advantage."
+  },
+  {
+   "source": "jensen2008",
+   "target": "lirresnick2003",
+   "type": "builds_on",
+   "why": "Refines the democracy–FDI debate by linking democratic institutions to lower political risk as priced by investors."
+  },
+  {
+   "source": "pandya2016",
+   "target": "pandya2014",
+   "type": "builds_on",
+   "why": "Builds on work on FDI regulation to argue that firm heterogeneity and global production should anchor the study of FDI politics."
+  },
+  {
+   "source": "pandya2016",
+   "target": "jensen2003",
+   "type": "synthesizes",
+   "why": "Integrates regime-type and political-risk research on FDI with firm-level and global production perspectives."
+  },
+  {
+   "source": "snidal1985io",
+   "target": "krasner1976",
+   "type": "challenges",
+   "why": "Shows collective action among a few large states can sustain openness without a hegemon, undercutting hegemonic stability theory."
+  },
+  {
+   "source": "snidal1985io",
+   "target": "kindleberger1973",
+   "type": "challenges",
+   "why": "Contests the stabilizer thesis by showing hegemony is neither necessary nor sufficient for the provision of international public goods."
+  },
+  {
+   "source": "stein1984",
+   "target": "krasner1976",
+   "type": "challenges",
+   "why": "Shows Britain and the US tolerated others’ protection to secure openness, so hegemons do not simply impose free trade."
+  },
+  {
+   "source": "starrs2013",
+   "target": "strange1987",
+   "type": "builds_on",
+   "why": "Uses transnational corporate ownership data to argue US power globalized rather than declined, updating Strange’s critique of decline."
+  },
+  {
+   "source": "winecoff2020",
+   "target": "starrs2013",
+   "type": "builds_on",
+   "why": "Extends the structural-power critique of declinism using network measures of the global financial system."
+  },
+  {
+   "source": "krasner1976",
+   "target": "kindleberger1973",
+   "type": "builds_on",
+   "why": "Builds on the stabilizer thesis to explain trade openness by the distribution of state power."
+  },
+  {
+   "source": "gourevitch1978",
+   "target": "katzenstein1976",
+   "type": "builds_on",
+   "why": "Inverts the domestic-structures approach by asking how the international system shapes domestic structures."
+  },
+  {
+   "source": "iversencusack2000",
+   "target": "cameron1978",
+   "type": "challenges",
+   "why": "Argues welfare expansion stemmed from deindustrialization and labor-market risk, not the trade openness Cameron linked to public-economy growth."
+  },
+  {
+   "source": "iversencusack2000",
+   "target": "rodrik1998",
+   "type": "challenges",
+   "why": "Finds external risk does not explain government size once deindustrialization is controlled, contesting the compensation hypothesis."
+  },
+  {
+   "source": "burgoon2001",
+   "target": "garrett1998",
+   "type": "qualifies",
+   "why": "Disaggregates globalization, showing some exposures produce compensation while capital mobility pressures specific welfare programs."
+  },
+  {
+   "source": "simmons2004",
+   "target": "quinn1997",
+   "type": "builds_on",
+   "why": "Uses Quinn’s capital-account openness measures to model the international diffusion of financial liberalization."
+  },
+  {
+   "source": "chwieroth2007",
+   "target": "quinn1997",
+   "type": "builds_on",
+   "why": "Explains the capital-account liberalization that Quinn measured by the rise of neoliberal economists in emerging-market policy teams."
+  },
+  {
+   "source": "stone2008",
+   "target": "thacker1999",
+   "type": "builds_on",
+   "why": "Extends evidence of US influence over IMF loan approval to the scope of conditionality attached to programs."
+  },
+  {
+   "source": "dreher2009",
+   "target": "thacker1999",
+   "type": "builds_on",
+   "why": "Extends the test of political influence on IMF lending from UN voting alignment to temporary Security Council membership."
+  },
+  {
+   "source": "stone2004",
+   "target": "thacker1999",
+   "type": "qualifies",
+   "why": "Shows that donor patronage shapes not only who gets IMF loans but how long violators are punished, undercutting conditionality."
+  },
+  {
+   "source": "stone2008",
+   "target": "stone2004",
+   "type": "builds_on",
+   "why": "Generalizes the finding that donor favoritism weakens IMF enforcement to the design and scope of conditionality."
+  },
+  {
+   "source": "drezner2003",
+   "target": "pape1997",
+   "type": "challenges",
+   "why": "Argues selection bias hides sanctions’ successes, which occur at the threat stage, contesting the conclusion that sanctions rarely work."
+  },
+  {
+   "source": "marinov2005",
+   "target": "pape1997",
+   "type": "challenges",
+   "why": "Shows sanctions destabilize targeted leaders, giving them real coercive leverage despite low headline success rates."
+  },
+  {
+   "source": "grauvogel2017",
+   "target": "marinov2005",
+   "type": "builds_on",
+   "why": "Specifies a mechanism behind sanctions’ destabilizing effect: sanction threats trigger domestic protest in target states."
+  },
+  {
+   "source": "pape1997",
+   "target": "baldwin1985",
+   "type": "challenges",
+   "why": "Rejects the broad view of sanctions’ utility, arguing they seldom achieve major policy goals."
+  },
+  {
+   "source": "drezner2003",
+   "target": "baldwin1985",
+   "type": "builds_on",
+   "why": "Builds on the claim that economic statecraft is undervalued, showing coercion often succeeds before sanctions are imposed."
+  },
+  {
+   "source": "steinberg2002",
+   "target": "krasner1976",
+   "type": "builds_on",
+   "why": "Shows the GATT/WTO’s formal consensus rules mask outcomes driven by the market power of the largest traders."
+  },
+  {
+   "source": "hopewell2014",
+   "target": "steinberg2002",
+   "type": "qualifies",
+   "why": "Shows Brazil, India and China gained power in the WTO, eroding the transatlantic dominance of consensus bargaining."
   },
   {
    "source": "rogowski1987",
@@ -8299,696 +10233,6 @@
   },
   {
    "source": "elkins2006",
-   "target": "simmons2004",
-   "type": "extends_to_new_case",
-   "why": "Competitive diffusion logic applied to investment treaties."
-  },
-  {
-   "source": "jensen2008",
-   "target": "jensen2003",
-   "type": "builds_on",
-   "why": "Specifies executive constraints as the mechanism behind democracies' FDI advantage."
-  },
-  {
-   "source": "kerner2009",
-   "target": "buthe2008",
-   "type": "builds_on",
-   "why": "Separates commitment and signaling channels through which treaties attract FDI."
-  },
-  {
-   "source": "allee2011",
-   "target": "kerner2009",
-   "type": "qualifies",
-   "why": "BIT credibility depends on the host's arbitration record."
-  },
-  {
-   "source": "wellhausen2015",
-   "target": "allee2011",
-   "type": "builds_on",
-   "why": "Investor responses to observed treaty breach."
-  },
-  {
-   "source": "simmons2014",
-   "target": "elkins2006",
-   "type": "builds_on",
-   "why": "Treats the competitive BIT wave as asymmetric bargains with later costs."
-  },
-  {
-   "source": "poulsen2013",
-   "target": "elkins2006",
-   "type": "challenges",
-   "why": "BIT signing reflected bounded rationality, not only rational competition for capital."
-  },
-  {
-   "source": "thompson2019",
-   "target": "poulsen2013",
-   "type": "builds_on",
-   "why": "States that learn from claims redesign treaties, not only stop signing."
-  },
-  {
-   "source": "thompson2019",
-   "target": "simmons2014",
-   "type": "mechanism_tested_by",
-   "why": "Arbitration experience drives contestation through treaty redesign."
-  },
-  {
-   "source": "leblang2010",
-   "target": "jensen2003",
-   "type": "qualifies",
-   "why": "Shows that migrant diaspora networks, not only host political institutions, shape where cross-border investment flows."
-  },
-  {
-   "source": "kim2025fdi",
-   "target": "malesky2008",
-   "type": "builds_on",
-   "why": "FDI creates new domestic political actors in Vietnam, here pro-trade coalitions rather than provincial leaders."
-  },
-  {
-   "source": "biglaiser2011",
-   "target": "drezner2003",
-   "type": "builds_on",
-   "why": "Sanctions impose costs on sender firms, part of why imposed sanctions are costly."
-  },
-  {
-   "source": "barry2015",
-   "target": "early2009",
-   "type": "builds_on",
-   "why": "Firms route around sanctions through FDI in third parties, as they do through trade."
-  },
-  {
-   "source": "barry2015",
-   "target": "biglaiser2011",
-   "type": "builds_on",
-   "why": "Where sender FDI goes when it leaves targets."
-  },
-  {
-   "source": "pearson2022",
-   "target": "babic2019",
-   "type": "builds_on",
-   "why": "The growth of transnational state capital is the backdrop to the economic security dilemma."
-  },
-  {
-   "source": "babic2019",
-   "target": "pandya2014",
-   "type": "challenges",
-   "why": "Much FDI is now state-directed, so host politics cannot treat investors as market actors."
-  },
-  {
-   "source": "bauerle2023",
-   "target": "chan2021",
-   "type": "builds_on",
-   "why": "Member-state support for EU-level investment screening."
-  },
-  {
-   "source": "chan2021",
-   "target": "meunier2019",
-   "type": "mechanism_tested_by",
-   "why": "National positions on screening test the geopoliticization argument."
-  },
-  {
-   "source": "baccini2019",
-   "target": "dur2014",
-   "type": "builds_on",
-   "why": "The PTA design literature Baccini reviews rests on the DESTA dataset."
-  },
-  {
-   "source": "buthe2014",
-   "target": "dur2014",
-   "type": "builds_on",
-   "why": "Coding the design of trade agreements."
-  },
-  {
-   "source": "dur2014",
-   "target": "rose2004",
-   "type": "challenges",
-   "why": "Deep agreements have large trade effects; shallow membership coding hides them."
-  },
-  {
-   "source": "pelc2014",
-   "target": "busch2007",
-   "type": "builds_on",
-   "why": "Precedent-seeking extends the strategic-forum logic of WTO litigation."
-  },
-  {
-   "source": "davis2012",
-   "target": "busch2007",
-   "type": "builds_on",
-   "why": "Forum choice and WTO litigation."
-  },
-  {
-   "source": "johns2014",
-   "target": "busch2006",
-   "type": "builds_on",
-   "why": "Litigants manipulate participation because third parties hinder settlement."
-  },
-  {
-   "source": "davis2012",
-   "target": "davisbermeo2009",
-   "type": "builds_on",
-   "why": "Legal capacity and experience as preconditions for using the WTO."
-  },
-  {
-   "source": "mansfield2008",
-   "target": "goldstein2007",
-   "type": "builds_on",
-   "why": "Institutions affect trade's volatility, not only its level."
-  },
-  {
-   "source": "lipscy2017",
-   "target": "hopewell2014",
-   "type": "builds_on",
-   "why": "Rising powers renegotiate influence in international institutions."
-  },
-  {
-   "source": "hopewell2014",
-   "target": "gowa2005",
-   "type": "challenges",
-   "why": "The major-power club at the core of the GATT was broken open by emerging economies."
-  },
-  {
-   "source": "daviswilf2017",
-   "target": "gowa1993",
-   "type": "builds_on",
-   "why": "Security externalities shape who gets into the trade regime."
-  },
-  {
-   "source": "daviswilf2017",
-   "target": "goldstein2007",
-   "type": "qualifies",
-   "why": "Institutional standing itself is allocated geopolitically."
-  },
-  {
-   "source": "allee2012",
-   "target": "goldstein2007",
-   "type": "qualifies",
-   "why": "Trade gains come from accession commitments, not membership per se."
-  },
-  {
-   "source": "allee2012",
-   "target": "mansfield2006",
-   "type": "builds_on",
-   "why": "Accession as the moment of maximum IO leverage over domestic policy."
-  },
-  {
-   "source": "allee2019",
-   "target": "dur2014",
-   "type": "builds_on",
-   "why": "Uses PTA texts to show design is template-driven."
-  },
-  {
-   "source": "zangl2016",
-   "target": "lipscy2015",
-   "type": "extends_to_new_case",
-   "why": "Institutional adaptation to power shifts compared across the WTO and IMF."
-  },
-  {
-   "source": "weinhardt2019",
-   "target": "johnston2019",
-   "type": "builds_on",
-   "why": "Issue-specific Chinese contestation applied to the trade order."
-  },
-  {
-   "source": "weinhardt2019",
-   "target": "hopewell2014",
-   "type": "builds_on",
-   "why": "China's position inside the WTO after its rise to the inner circle."
-  },
-  {
-   "source": "margalit2012",
-   "target": "mansfield2009",
-   "type": "builds_on",
-   "why": "Perceived exposure and cultural concerns over measured material interest."
-  },
-  {
-   "source": "margalit2019",
-   "target": "margalit2012",
-   "type": "builds_on",
-   "why": "Develops the earlier finding that economics explains part, not most, of discontent."
-  },
-  {
-   "source": "hiscox2006",
-   "target": "scheve2001",
-   "type": "challenges",
-   "why": "Stated trade preferences move with framing, so they are not fixed by skill."
-  },
-  {
-   "source": "hainmueller2006",
-   "target": "hiscox2006",
-   "type": "synthesizes",
-   "why": "Both read the education gradient as information and ideas rather than skill (same year)."
-  },
-  {
-   "source": "milnertingley2011",
-   "target": "mansfield2009",
-   "type": "qualifies",
-   "why": "Material interests matter for some instruments (trade) but not others (aid)."
-  },
-  {
-   "source": "guisinger2009",
-   "target": "mmr2002",
-   "type": "challenges",
-   "why": "Voters rarely know trade votes, weakening the electoral signaling logic."
-  },
-  {
-   "source": "mutzkim2017",
-   "target": "mansfield2009",
-   "type": "builds_on",
-   "why": "In-group favoritism extended to relative gains between nations."
-  },
-  {
-   "source": "brutger2021",
-   "target": "mutzkim2017",
-   "type": "builds_on",
-   "why": "Fairness of the distribution, not only relative position, drives evaluations of trade deals."
-  },
-  {
-   "source": "fordham2012",
-   "target": "scheve2001",
-   "type": "qualifies",
-   "why": "Interests operate through community and household context."
-  },
-  {
-   "source": "fordham2012",
-   "target": "mansfield2009",
-   "type": "challenges",
-   "why": "Sociotropic effects can be interest-based at the group level."
-  },
-  {
-   "source": "feigenbaum2015",
-   "target": "autor2013",
-   "type": "builds_on",
-   "why": "Elite responsiveness to the China shock in roll-call votes."
-  },
-  {
-   "source": "autor2020",
-   "target": "feigenbaum2015",
-   "type": "builds_on",
-   "why": "Moves from legislator behavior to who gets elected."
-  },
-  {
-   "source": "scheiring2024",
-   "target": "autor2020",
-   "type": "synthesizes",
-   "why": "Pools causal estimates of globalization shocks on populist voting."
-  },
-  {
-   "source": "scheiring2024",
-   "target": "colantone2018",
-   "type": "synthesizes",
-   "why": "Includes the European China-shock estimates."
-  },
-  {
-   "source": "scheiring2024",
-   "target": "margalit2019",
-   "type": "qualifies",
-   "why": "Confirms effects are real but modest, matching the outcome-significant reading."
-  },
-  {
-   "source": "osgood2017jop",
-   "target": "melitz2003",
-   "type": "mechanism_tested_by",
-   "why": "Firm survey evidence for heterogeneous-firm trade preferences."
-  },
-  {
-   "source": "kim2019firms",
-   "target": "osgood2017jop",
-   "type": "builds_on",
-   "why": "Firm-level trade preferences from the same research program."
-  },
-  {
-   "source": "osgood2018",
-   "target": "jensen2015",
-   "type": "builds_on",
-   "why": "Supply chains dampen protectionist demands, here shown through firms' positions on FTAs."
-  },
-  {
-   "source": "jensen2015",
-   "target": "frieden1991",
-   "type": "builds_on",
-   "why": "Exchange-rate misalignment shifts sectoral demand for trade protection."
-  },
-  {
-   "source": "osgood2018",
-   "target": "meckling2017",
-   "type": "builds_on",
-   "why": "Value-chain position and protection preferences in clean energy."
-  },
-  {
-   "source": "malhotra2013",
-   "target": "hainmueller2010",
-   "type": "challenges",
-   "why": "Labor-market threat is real for directly competing workers, even if average effects look small."
-  },
-  {
-   "source": "hainmueller2014",
-   "target": "dancygier2013",
-   "type": "synthesizes",
-   "why": "Reviews sectoral and sociotropic accounts of immigration attitudes."
-  },
-  {
-   "source": "dancygier2013",
-   "target": "hiscox2001",
-   "type": "extends_to_new_case",
-   "why": "Sector-specific interests applied to immigration rather than trade."
-  },
-  {
-   "source": "kentikelenis2016",
-   "target": "stone2008",
-   "type": "builds_on",
-   "why": "Systematic conditionality data for testing informal-governance claims."
-  },
-  {
-   "source": "clark2022imf",
-   "target": "kentikelenis2016",
-   "type": "builds_on",
-   "why": "Uses the conditionality dataset to test outside-option effects."
-  },
-  {
-   "source": "nooruddin2006",
-   "target": "rudra2002",
-   "type": "qualifies",
-   "why": "IMF-induced cuts fall less on social spending in democracies."
-  },
-  {
-   "source": "chwieroth2007",
-   "target": "simmons2004",
-   "type": "qualifies",
-   "why": "Liberalization spread through trained policy elites, not only competition."
-  },
-  {
-   "source": "nelson2014",
-   "target": "chwieroth2007",
-   "type": "builds_on",
-   "why": "Shared neoliberal beliefs shape treatment by the IMF, following Chwieroth's ideas-based account."
-  },
-  {
-   "source": "chwieroth2013",
-   "target": "stone2008",
-   "type": "challenges",
-   "why": "Staff, not only powerful shareholders, govern informally."
-  },
-  {
-   "source": "chwieroth2013",
-   "target": "copelovitch2010",
-   "type": "builds_on",
-   "why": "Staff autonomy grows when principals are divided."
-  },
-  {
-   "source": "bodea2015io",
-   "target": "bernhard2002",
-   "type": "builds_on",
-   "why": "Monetary institutions work through domestic political credibility."
-  },
-  {
-   "source": "beaulieu2012",
-   "target": "schultz2003",
-   "type": "qualifies",
-   "why": "The democratic advantage lies in credit access more than in price."
-  },
-  {
-   "source": "ballardrosa2019",
-   "target": "schultz2003",
-   "type": "qualifies",
-   "why": "Democracies' borrowing advantage depends on global liquidity."
-  },
-  {
-   "source": "ballardrosa2019",
-   "target": "mosley2003",
-   "type": "builds_on",
-   "why": "Market scrutiny of governments varies with global capital cycles."
-  },
-  {
-   "source": "singer2010",
-   "target": "frieden1991",
-   "type": "builds_on",
-   "why": "Remittance flows change the costs of fixed exchange rates."
-  },
-  {
-   "source": "nelson2014ik",
-   "target": "oatley2011",
-   "type": "synthesizes",
-   "why": "Both argue OEP's micro-foundations miss systemic dynamics of finance."
-  },
-  {
-   "source": "blyth2017",
-   "target": "nelson2014ik",
-   "type": "builds_on",
-   "why": "Extends the uncertainty critique to IPE's missing macroeconomy."
-  },
-  {
-   "source": "caraway2012",
-   "target": "stone2008",
-   "type": "qualifies",
-   "why": "Borrowers use domestic labor power as bargaining leverage over conditions."
-  },
-  {
-   "source": "caraway2012",
-   "target": "rudra2002",
-   "type": "builds_on",
-   "why": "Uses potential labor power to explain bargaining strength."
-  },
-  {
-   "source": "clark2021pool",
-   "target": "clark2021wb",
-   "type": "builds_on",
-   "why": "Staff anticipation of the leading shareholder extended to inter-IO cooperation."
-  },
-  {
-   "source": "clark2022imf",
-   "target": "clark2021pool",
-   "type": "builds_on",
-   "why": "Whether overlapping IOs compete or pool decides whether outside options give leverage."
-  },
-  {
-   "source": "wilf2016",
-   "target": "bach2010",
-   "type": "builds_on",
-   "why": "Transgovernmental agreements have credible distributional effects."
-  },
-  {
-   "source": "grauvogel2017",
-   "target": "wood2008",
-   "type": "builds_on",
-   "why": "Imposed sanctions provoke repression and rally effects, so protest rises only after threats."
-  },
-  {
-   "source": "mclean2010",
-   "target": "hirschman1945",
-   "type": "mechanism_tested_by",
-   "why": "Trade dependence as the source of coercive leverage."
-  },
-  {
-   "source": "mclean2010",
-   "target": "early2009",
-   "type": "qualifies",
-   "why": "Major trading partners' participation decides whether busting can undercut sanctions."
-  },
-  {
-   "source": "whang2011",
-   "target": "drezner2003",
-   "type": "qualifies",
-   "why": "Sanctions can serve domestic audiences regardless of coercive success."
-  },
-  {
-   "source": "chenevers2023",
-   "target": "farrell2019",
-   "type": "builds_on",
-   "why": "Chokepoint weaponization theorized as a power-transition strategy."
-  },
-  {
-   "source": "chenevers2023",
-   "target": "copeland2015",
-   "type": "builds_on",
-   "why": "Economic statecraft during power transitions shapes trade expectations."
-  },
-  {
-   "source": "drezner2009",
-   "target": "hirschman1945",
-   "type": "qualifies",
-   "why": "Mutual financial dependence limits the creditor's coercive leverage."
-  },
-  {
-   "source": "mcdowell2023",
-   "target": "drezner2009",
-   "type": "builds_on",
-   "why": "Financial leverage and its limits, from creditor power to sanctions backlash."
-  },
-  {
-   "source": "malkin2020",
-   "target": "strange1987",
-   "type": "builds_on",
-   "why": "Structural power over production and knowledge as the arena of US-China rivalry."
-  },
-  {
-   "source": "pearson2022",
-   "target": "malkin2020",
-   "type": "synthesizes",
-   "why": "Industrial policy as both a structural-power contest and a security dilemma."
-  },
-  {
-   "source": "greenhill2009",
-   "target": "mosley2003",
-   "type": "builds_on",
-   "why": "Global markets shape domestic standards through trade ties, not only capital."
-  },
-  {
-   "source": "greenhill2009",
-   "target": "rudra2002",
-   "type": "challenges",
-   "why": "Trade ties can raise labor standards rather than erode them."
-  },
-  {
-   "source": "malesky2018",
-   "target": "greenhill2009",
-   "type": "builds_on",
-   "why": "Firm-level micro-foundations for trading-up of labor standards."
-  },
-  {
-   "source": "guasti2022",
-   "target": "greenhill2009",
-   "type": "synthesizes",
-   "why": "Upward diffusion through export markets coexists with no race to the bottom."
-  },
-  {
-   "source": "prakash2006",
-   "target": "simmons2004",
-   "type": "extends_to_new_case",
-   "why": "Trade-based diffusion applied to private environmental standards."
-  },
-  {
-   "source": "greenhill2009",
-   "target": "prakash2006",
-   "type": "builds_on",
-   "why": "Trade-based trading-up applied from environmental to labor standards."
-  },
-  {
-   "source": "bdm2009",
-   "target": "dreher2009",
-   "type": "synthesizes",
-   "why": "Aid and lending for policy concessions in a common selectorate logic."
-  },
-  {
-   "source": "ahmed2012",
-   "target": "bdm2009",
-   "type": "builds_on",
-   "why": "Unearned income funds the patronage that small-coalition leaders rely on."
-  },
-  {
-   "source": "arias2018",
-   "target": "ahmed2012",
-   "type": "builds_on",
-   "why": "Investment treaties as another external resource that prolongs autocratic survival."
-  },
-  {
-   "source": "wright2009",
-   "target": "rudra2005",
-   "type": "qualifies",
-   "why": "External resources democratize only when the ruler can survive a transition."
-  },
-  {
-   "source": "dietrich2013",
-   "target": "bdm2009",
-   "type": "qualifies",
-   "why": "Donors choose how to deliver aid, bypassing or engaging recipient governments, in response to governance quality, not only whom to give it to."
-  },
-  {
-   "source": "bermeo2017",
-   "target": "bdm2009",
-   "type": "challenges",
-   "why": "Donors increasingly target development where problems spill over, not only buy policy."
-  },
-  {
-   "source": "dreher2018",
-   "target": "dreher2009",
-   "type": "extends_to_new_case",
-   "why": "Politically motivated allocation analyzed for China's aid."
-  },
-  {
-   "source": "dreher2022",
-   "target": "dreher2018",
-   "type": "builds_on",
-   "why": "Global extension of the Chinese finance data."
-  },
-  {
-   "source": "blair2021",
-   "target": "dreher2018",
-   "type": "builds_on",
-   "why": "From allocation of Chinese aid to its effects on public opinion."
-  },
-  {
-   "source": "blair2021",
-   "target": "broz2020china",
-   "type": "qualifies",
-   "why": "Chinese finance does not automatically buy publics' favor."
-  },
-  {
-   "source": "stone2008",
-   "target": "kilby2006",
-   "type": "builds_on",
-   "why": "Informal great-power influence in international organizations."
-  },
-  {
-   "source": "milnertingley2011",
-   "target": "bdm2009",
-   "type": "qualifies",
-   "why": "Domestic ideology also shapes donor aid policy."
-  },
-  {
-   "source": "adlernissen2021",
-   "target": "borzel2021",
-   "type": "challenges",
-   "why": "Contestation stems from status resentment rather than intrusive liberal authority."
-  },
-  {
-   "source": "adlernissen2021",
-   "target": "mutz2018",
-   "type": "builds_on",
-   "why": "Status threat as the core of populist discontent with the order."
-  },
-  {
-   "source": "adlernissen2021",
-   "target": "lake2021",
-   "type": "builds_on",
-   "why": "Status hierarchy as one of the order's blind spots."
-  },
-  {
-   "source": "mattingly2025",
-   "target": "johnston2019",
-   "type": "builds_on",
-   "why": "China actively promotes its governance model abroad."
-  },
-  {
-   "source": "mattingly2025",
-   "target": "blair2021",
-   "type": "builds_on",
-   "why": "Tests whether China's state media, rather than its finance, wins foreign publics' favor."
-  },
-  {
-   "source": "helleiner2024",
-   "target": "helleiner2021",
-   "type": "builds_on",
-   "why": "Neomercantilist revival placed within a broader polycrisis."
-  },
-  {
-   "source": "helleiner2024",
-   "target": "milner2021",
-   "type": "synthesizes",
-   "why": "Interacting crises as the context for globalization's strains on democracy."
-  },
-  {
-   "source": "simmons2021",
-   "target": "carter2019",
-   "type": "builds_on",
-   "why": "The economic costs of re-bordering."
-  },
-  {
-   "source": "carter2019",
-   "target": "gowa1993",
-   "type": "builds_on",
-   "why": "Security choices shape trade flows."
-  },
-  {
-   "source": "elkins2006",
    "target": "fdi",
    "type": "belongs_to",
    "why": "theme membership"
@@ -9704,6 +10948,432 @@
   {
    "source": "carter2019",
    "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane1984",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohane1984",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghe2019",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallbergzurn2019",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "backlash",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mosleyuno2007",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mosleyuno2007",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhiscox2007",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morgenthau1962",
+   "target": "aid",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2004",
+   "target": "aid",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2004",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knack2004",
+   "target": "aid",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knack2004",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bearcetirone2010",
+   "target": "aid",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jablonski2014",
+   "target": "aid",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jablonski2014",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "briggs2016",
+   "target": "aid",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baker2015",
+   "target": "aid",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldsteingulotty2021",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldsteingulotty2021",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2001io",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons2001io",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "singer2004",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "singer2004",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "basingerhallerberg2004",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "basingerhallerberg2004",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "polachek1980",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbieri1996",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "onealrussett1997",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "onealrussett1997",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "copeland1996",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzkeliboehmer2001",
+   "target": "trade-security",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzkeliboehmer2001",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fitzgerald2014",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peters2014wp",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "peters2014wp",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bermeoleblang2015",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bermeoleblang2015",
+   "target": "aid",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milner1987",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milner1987",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilligan1997",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilligan1997",
+   "target": "trade-prefs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manger2012",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manger2012",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lirresnick2003",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lirresnick2003",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pandya2016",
+   "target": "fdi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pandya2016",
+   "target": "firms-gvc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "snidal1985io",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "snidal1985io",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stein1984",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stein1984",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "starrs2013",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kindleberger1973",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kindleberger1973",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "katzenstein1976",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversencusack2000",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burgoon2001",
+   "target": "compensation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quinn1997",
+   "target": "money-finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quinn1997",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thacker1999",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thacker1999",
+   "target": "hegemony",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stone2004",
+   "target": "ifi",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pape1997",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marinov2005",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marinov2005",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baldwin1985",
+   "target": "weaponized",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baldwin1985",
+   "target": "ipe-theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinberg2002",
+   "target": "trade-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "steinberg2002",
+   "target": "hegemony",
    "type": "belongs_to",
    "why": "theme membership"
   }

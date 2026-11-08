@@ -1,6 +1,6 @@
 # Race, ethnicity and politics, c. 1903–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 360 work nodes, 20 theme nodes and 393 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[dawson1994]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 404 work nodes, 20 theme nodes and 470 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[dawson1994]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Shared works:** 88 works already in the American politics, political theory, comparative politics, IPE, security and IR maps are reused, including the race theme of the American politics map (Kinder & Sanders, Mendelberg, Tesler, Jardina, Hajnal & Lee) and the race theme of the political theory map (Mills, Shelby, Crenshaw, Collins).
@@ -78,6 +78,15 @@ Every anchor and library seed was checked in Crossref. 87 matched directly; 21 b
 - **Grievance and backlash.** Your Globalization Grievance Index can test whether trade grievance runs through racial threat. The two sides of that debate are `[baccini2021]` and `[mutz2018]`.
 - **LLM annotation.** It can measure implicit and explicit racial appeals at scale `[stephensdougan2020]`, `[valentino2018]`.
 - **Order contestation.** The racial foundations of liberal order `[buzas2021]`, `[goodman2021]` connect to your IR work.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 44 works (41 new, 3 shared with other maps) and 77 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 41 works (34 top-journal articles, 7 books or field-journal landmarks) and 3 imports. They target the thin themes: context and racial threat (Giles-Buckner versus Voss, Glaser, Oliver-Mendelberg, Oliver-Wong, Kinder-Mendelberg, Dinesen et al.); Asian American politics (Cain et al., Lien-Conway-Wong, Ramakrishnan, Masuoka, Chan et al. 2021); priming (Terkildsen, Hurwitz-Peffley, Winter); race and policy (Gilens 1996, Keiser et al., Hero-Tolbert); and intersectionality (Gay-Tate, Bratton-Haynie, Hawkesworth, Bejarano). Classics such as Sears-Hensler, Shingles and Carmines-Stimson, plus recent APSR work by Keele et al. 2021 and Jefferson 2023, are also included.
+
+Of the new works, 1 was not found as its own Crossref record, so its metadata comes from memory (Lien 2004).
 
 ## What I could not verify (flagged)
 Twenty-one books exist in Crossref only through reviews: Key 1949, Marx 1998, Klinkner & Smith 1999, Katznelson 2005, Cohen 1999, Barreto 2010, Beltrán 2010, Fraga et al. 2010, Wong et al. 2011, Masuoka & Junn 2013, Lublin 1997, Canon 1999, Tate 2003, Grose 2011, Manza & Uggen 2006, Western 2006, Burch 2013, Lerman & Weaver 2014, Murakawa 2014, Lake & Reynolds 2008 and Vitalis 2015. Three were not found as their own Crossref record, so their metadata comes from memory: Allport 1954, Trounstine 2018 and Anievas et al. 2015.

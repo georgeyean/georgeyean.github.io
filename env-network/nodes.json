@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 252,
+   "work_nodes": 298,
    "theme_nodes": 17,
    "seed_from_papers_json": 10,
    "crossref_top_cited": 187,
    "anchors_supplement": 55,
-   "relation_edges": 244,
-   "membership_edges": 371
+   "relation_edges": 328,
+   "membership_edges": 446,
+   "added_coverage_2026_11": 46
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -4824,6 +4825,861 @@
    "zotero": null,
    "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09644010902823717); claim is my summary, not re-read this session",
    "crossref_doi": "10.1080/09644010902823717"
+  },
+  {
+   "id": "healymalhotra2009",
+   "type": "work",
+   "label": "Healy 2009",
+   "authors": "Andrew Healy & Neil Malhotra",
+   "year": 2009,
+   "journal": "APSR",
+   "title": "Myopic Voters and Natural Disaster Policy",
+   "claim": "Voters reward disaster relief but not the more valuable preparedness spending.",
+   "method": "County spending and vote data",
+   "themes": [
+    "adaptation",
+    "opinion"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055409990104); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055409990104"
+  },
+  {
+   "id": "dunning2008",
+   "type": "work",
+   "label": "Dunning 2008",
+   "authors": "Thad Dunning",
+   "year": 2008,
+   "journal": "Cambridge University Press (book)",
+   "title": "Crude Democracy: Natural Resource Wealth and Political Regimes",
+   "claim": "Resource rents can promote democracy where they reduce elite fears of redistribution, as in Venezuela.",
+   "method": "Formal model, cross-national data and cases",
+   "themes": [
+    "resources"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "selby2017",
+   "type": "work",
+   "label": "Selby 2017",
+   "authors": "Jan Selby, Omar S. Dahi, Christiane Fröhlich & Mike Hulme",
+   "year": 2017,
+   "journal": "Political Geography",
+   "title": "Climate Change and the Syrian Civil War Revisited",
+   "claim": "There is no sound evidence that climate-driven drought caused the Syrian civil war.",
+   "method": "Re-examination of evidence",
+   "themes": [
+    "conflict"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Political Geography, 2017; DOI 10.1016/j.polgeo.2017.05.007)",
+   "crossref_doi": "10.1016/j.polgeo.2017.05.007"
+  },
+  {
+   "id": "mitchell2011",
+   "type": "work",
+   "label": "Mitchell 2011",
+   "authors": "Timothy Mitchell",
+   "year": 2011,
+   "journal": "Verso (book)",
+   "title": "Carbon Democracy: Political Power in the Age of Oil",
+   "claim": "Oil's material properties weakened workers' power to disrupt energy flows and thus democratic claims, unlike coal.",
+   "method": "Historical sociotechnical analysis",
+   "themes": [
+    "transitions",
+    "resources"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "colgan2012",
+   "type": "work",
+   "label": "Colgan 2011",
+   "authors": "Jeff D. Colgan, Robert O. Keohane & Thijs Van de Graaf",
+   "year": 2011,
+   "journal": "Review of International Organizations",
+   "title": "Punctuated equilibrium in the energy regime complex",
+   "claim": "The energy regime complex evolved through punctuated equilibrium, with new institutions created after crises.",
+   "method": "Historical analysis of energy institutions",
+   "themes": [
+    "architecture",
+    "transitions"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11558-011-9130-9); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11558-011-9130-9"
+  },
+  {
+   "id": "colantone2023",
+   "type": "work",
+   "label": "Colantone 2023",
+   "authors": "Italo Colantone, Livio Di Lonardo, Yotam Margalit & Marco Percoco",
+   "year": 2023,
+   "journal": "APSR",
+   "title": "The Political Consequences of Green Policies: Evidence from Italy",
+   "claim": "A Milan ban on older diesel cars, which imposed concentrated costs on owners, raised support for the radical-right Lega among affected voters.",
+   "method": "Difference-in-differences using vehicle registration and voting data, Italy",
+   "themes": [
+    "parties",
+    "distributive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055423000308",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055423000308); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bolet2023",
+   "type": "work",
+   "label": "Bolet 2023",
+   "authors": "Diane Bolet, Fergus Green & Mikel González-Eguino",
+   "year": 2023,
+   "journal": "APSR",
+   "title": "How to Get Coal Country to Vote for Climate Policy: The Effect of a “Just Transition Agreement” on Spanish Election Results",
+   "claim": "Spain's just transition agreement, which compensated coal-mining areas for closures, increased the incumbent Socialists' vote in those municipalities.",
+   "method": "Difference-in-differences on municipal election results, Spain",
+   "themes": [
+    "parties",
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055423001235",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055423001235); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "dicksonhobolt2024",
+   "type": "work",
+   "label": "Dickson 2024",
+   "authors": "Zachary P. Dickson & Sara B. Hobolt",
+   "year": 2024,
+   "journal": "Comparative Political Studies",
+   "title": "Going Against the Grain: Climate Change as a Wedge Issue for the Radical Right",
+   "claim": "Radical-right parties increasingly oppose climate action as a wedge issue that splits mainstream-right voters and sets them apart from a pro-climate consensus.",
+   "method": "Text analysis of party communication and survey data, Europe",
+   "themes": [
+    "parties",
+    "denial"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/00104140241271297",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/00104140241271297); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hilbigriaz2024",
+   "type": "work",
+   "label": "Hilbig 2024",
+   "authors": "Hanno Hilbig & Sascha Riaz",
+   "year": 2024,
+   "journal": "JOP",
+   "title": "Natural Disasters and Green Party Support",
+   "claim": "Exposure to severe natural disasters increases local vote shares for Green parties in Germany, with effects that persist over time.",
+   "method": "Difference-in-differences on flood exposure and election results, Germany",
+   "themes": [
+    "parties",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/726917",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/726917); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "rohrschneider1993",
+   "type": "work",
+   "label": "Rohrschneider 1993",
+   "authors": "Robert Rohrschneider",
+   "year": 1993,
+   "journal": "Journal of Politics",
+   "title": "New Party versus Old Left Realignments: Environmental Attitudes, Party Policies, and Partisan Affiliations in Four West European Countries",
+   "claim": "Whether environmental attitudes realign voters toward new Green parties or old-left parties depends on how far established left parties adopt environmental positions.",
+   "method": "Cross-national survey analysis, four West European countries",
+   "themes": [
+    "parties",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.2307/2131994); claim is my summary, not re-read this session",
+   "crossref_doi": "10.2307/2131994"
+  },
+  {
+   "id": "inglehart1995",
+   "type": "work",
+   "label": "Inglehart 1995",
+   "authors": "Ronald Inglehart",
+   "year": 1995,
+   "journal": "PS: Political Science & Politics",
+   "title": "Public Support for Environmental Protection: Objective Problems and Subjective Values in 43 Societies",
+   "claim": "Support for environmental protection reflects both objective local pollution problems and postmaterialist values that spread with affluence.",
+   "method": "World Values Survey, 43 societies",
+   "themes": [
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.2307/420583); claim is my summary, not re-read this session",
+   "crossref_doi": "10.2307/420583"
+  },
+  {
+   "id": "eganmullin2012",
+   "type": "work",
+   "label": "Egan 2012",
+   "authors": "Patrick J. Egan & Megan Mullin",
+   "year": 2012,
+   "journal": "JOP",
+   "title": "Turning Personal Experience into Political Attitudes: The Effect of Local Weather on Americans’ Perceptions about Global Warming",
+   "claim": "Unusually warm local temperatures increase Americans' belief that there is solid evidence of global warming, especially among less engaged citizens.",
+   "method": "Survey data linked to local temperature anomalies, US",
+   "themes": [
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0022381612000448",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381612000448); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mccrightdunlap2011b",
+   "type": "work",
+   "label": "McCright 2011",
+   "authors": "Aaron M. McCright & Riley E. Dunlap",
+   "year": 2011,
+   "journal": "The Sociological Quarterly",
+   "title": "The Politicization of Climate Change and Polarization in the American Public's Views of Global Warming, 2001-2010",
+   "claim": "Between 2001 and 2010 Americans' climate beliefs polarized sharply along party and ideological lines, and education increased concern only among liberals and Democrats.",
+   "method": "Gallup survey trends, US 2001-2010",
+   "themes": [
+    "denial",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/j.1533-8525.2011.01198.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1533-8525.2011.01198.x"
+  },
+  {
+   "id": "gasperreeves2011",
+   "type": "work",
+   "label": "Gasper 2011",
+   "authors": "John T. Gasper & Andrew Reeves",
+   "year": 2011,
+   "journal": "AJPS",
+   "title": "Make It Rain? Retrospection and the Attentive Electorate in the Context of Natural Disasters",
+   "claim": "Voters punish incumbents for weather damage, but they also reward presidents and governors who respond with disaster declarations and aid.",
+   "method": "County-level election and disaster data, US",
+   "themes": [
+    "adaptation",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1540-5907.2010.00503.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2010.00503.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "aldrich2012",
+   "type": "work",
+   "label": "Aldrich 2012",
+   "authors": "Daniel P. Aldrich",
+   "year": 2012,
+   "journal": "University of Chicago Press (book)",
+   "title": "Building Resilience: Social Capital in Post-Disaster Recovery",
+   "claim": "Social capital, the density of community networks, predicts post-disaster recovery better than damage, aid or wealth.",
+   "method": "Comparative cases and quantitative analysis: Tokyo 1923, Kobe 1995, Tamil Nadu 2004, New Orleans 2005",
+   "themes": [
+    "adaptation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.7208/chicago/9780226012896.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.7208/chicago/9780226012896.001.0001"
+  },
+  {
+   "id": "wapner1995",
+   "type": "work",
+   "label": "Wapner 1995",
+   "authors": "Paul Wapner",
+   "year": 1995,
+   "journal": "World Politics",
+   "title": "Politics beyond the State Environmental Activism and World Civic Politics",
+   "claim": "Transnational environmental groups change behavior by working directly on economic, social and cultural practices, a 'world civic politics' that does not pass through states.",
+   "method": "Qualitative case studies of Greenpeace, WWF and Friends of the Earth",
+   "themes": [
+    "movements",
+    "transnational"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887100016415",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887100016415); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "vanhala2017",
+   "type": "work",
+   "label": "Vanhala 2017",
+   "authors": "Lisa Vanhala",
+   "year": 2017,
+   "journal": "Comparative Political Studies",
+   "title": "Is Legal Mobilization for the Birds? Legal Opportunity Structures and Environmental Nongovernmental Organizations in the United Kingdom, France, Finland, and Italy",
+   "claim": "Environmental NGOs' use of litigation depends on how organizations perceive and interpret national legal opportunity structures, not only on the structures themselves.",
+   "method": "Comparative case study of NGOs in four European countries",
+   "themes": [
+    "movements"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414017710257",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414017710257); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "keck1995",
+   "type": "work",
+   "label": "Keck 1995",
+   "authors": "Margaret E. Keck",
+   "year": 1995,
+   "journal": "Comparative Politics",
+   "title": "Social Equity and Environmental Politics in Brazil: Lessons from the Rubber Tappers of Acre",
+   "claim": "Acre's rubber tappers joined livelihood and land claims to forest protection and, through alliances with transnational environmentalists, won extractive reserves.",
+   "method": "Qualitative case study, Brazil",
+   "themes": [
+    "movements",
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422227",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422227); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lubell2002",
+   "type": "work",
+   "label": "Lubell 2002",
+   "authors": "Mark Lubell, Mark Schneider, John T. Scholz & Mihriye Mete",
+   "year": 2002,
+   "journal": "AJPS",
+   "title": "Watershed Partnerships and the Emergence of Collective Action Institutions",
+   "claim": "Watershed partnerships form where problems are severe, potential benefits high and transaction costs of organizing low, so collective-action institutions arise endogenously.",
+   "method": "Cross-sectional analysis of US watersheds",
+   "themes": [
+    "commons"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/3088419",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/3088419); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sanford2021",
+   "type": "work",
+   "label": "Sanford 2021",
+   "authors": "Luke Sanford",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "Democratization, Elections, and Public Goods: The Evidence from Deforestation",
+   "claim": "Democratization increases tropical deforestation, and forest loss spikes around competitive elections as politicians allow clearing in exchange for support.",
+   "method": "Satellite forest-cover panel, cross-national",
+   "themes": [
+    "state",
+    "commons"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12662",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12662); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "harding2023",
+   "type": "work",
+   "label": "Harding 2023",
+   "authors": "Robin Harding, Mounu Prem, Nelson A. Ruiz & David L. Vargas",
+   "year": 2023,
+   "journal": "APSR",
+   "title": "Buying a Blind Eye: Campaign Donations, Regulatory Enforcement, and Deforestation",
+   "claim": "In Brazil, campaign donations from agribusiness and other interests lead elected mayors to weaken environmental enforcement, increasing deforestation.",
+   "method": "Regression discontinuity on close elections, Brazilian municipalities",
+   "themes": [
+    "commons",
+    "economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055423000412",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055423000412); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cashorebernstein2022",
+   "type": "work",
+   "label": "Cashore 2022",
+   "authors": "Benjamin Cashore & Steven Bernstein",
+   "year": 2022,
+   "journal": "Perspectives on Politics",
+   "title": "Bringing the Environment Back In: Overcoming the Tragedy of the Diffusion of the Commons Metaphor",
+   "claim": "The 'tragedy of the commons' metaphor has spread to problems such as climate change that are not commons problems, distorting diagnoses and policy design.",
+   "method": "Conceptual argument and problem typology",
+   "themes": [
+    "commons",
+    "architecture"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592721002553",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592721002553); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "haas1992ozone",
+   "type": "work",
+   "label": "Haas 1992",
+   "authors": "Peter M. Haas",
+   "year": 1992,
+   "journal": "IO",
+   "title": "Banning chlorofluorocarbons: epistemic community efforts to protect stratospheric ozone",
+   "claim": "An epistemic community of atmospheric scientists and officials shaped US and international preferences, producing the CFC ban in the ozone regime.",
+   "method": "Process-tracing case study of the ozone regime",
+   "themes": [
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s002081830000148x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s002081830000148x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "youngoran1989",
+   "type": "work",
+   "label": "Young 1989",
+   "authors": "Oran R. Young",
+   "year": 1989,
+   "journal": "IO",
+   "title": "The politics of international regime formation: managing natural resources and the environment",
+   "claim": "Environmental regimes form through institutional bargaining under a veil of uncertainty, where integrative solutions, salient options and leadership matter more than hegemonic power.",
+   "method": "Theory building from environmental regime cases",
+   "themes": [
+    "regime",
+    "commons"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300032963",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300032963); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sprinzvaahtoranta1994",
+   "type": "work",
+   "label": "Sprinz 1994",
+   "authors": "Detlef Sprinz & Tapani Vaahtoranta",
+   "year": 1994,
+   "journal": "IO",
+   "title": "The interest-based explanation of international environmental policy",
+   "claim": "States' positions on environmental treaties follow their ecological vulnerability and abatement costs, which classify them as pushers, draggers, intermediates or bystanders.",
+   "method": "Comparative analysis of ozone and acid-rain regimes",
+   "themes": [
+    "regime",
+    "distributive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300000825",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300000825); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "meyer1997",
+   "type": "work",
+   "label": "Meyer 1997",
+   "authors": "John W. Meyer, David John Frank, Ann Hironaka et al.",
+   "year": 1997,
+   "journal": "IO",
+   "title": "The Structuring of a World Environmental Regime, 1870–1990",
+   "claim": "The growth of environmental treaties, organizations and ministries reflects the rise of world-society scientific discourse rather than worsening degradation or state interests.",
+   "method": "Event-history analysis of treaties, INGOs and ministries, 1870-1990",
+   "themes": [
+    "architecture",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081897550474",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081897550474); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hovi2017",
+   "type": "work",
+   "label": "Hovi 2017",
+   "authors": "Jon Hovi, Detlef F. Sprinz, Håkon Sælen & Arild Underdal",
+   "year": 2017,
+   "journal": "BJPS",
+   "title": "The Club Approach: A Gateway to Effective Climate Co-operation?",
+   "claim": "Climate clubs could promote cooperation only if they offer large enough exclusive benefits and can expand membership, conditions that are hard to meet.",
+   "method": "Theoretical assessment of club designs",
+   "themes": [
+    "regime",
+    "instruments"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123416000788",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123416000788); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "genovese2019",
+   "type": "work",
+   "label": "Genovese 2019",
+   "authors": "Federica Genovese",
+   "year": 2019,
+   "journal": "ISQ",
+   "title": "Sectors, Pollution, and Trade: How Industrial Interests Shape Domestic Positions on Global Climate Agreements",
+   "claim": "Countries with large, polluting, trade-exposed industries take less ambitious positions in climate negotiations, because sectoral interests shape government bargaining.",
+   "method": "Text analysis of negotiation positions and sectoral data, cross-national",
+   "themes": [
+    "distributive",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/isq/sqz062",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqz062); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kennard2020",
+   "type": "work",
+   "label": "Kennard 2020",
+   "authors": "Amanda Kennard",
+   "year": 2020,
+   "journal": "IO",
+   "title": "The Enemy of My Enemy: When Firms Support Climate Change Regulation",
+   "claim": "Firms with cleaner technologies support climate regulation when it raises rivals' costs more than their own, which can create pro-regulation business coalitions.",
+   "method": "Formal model with firm-level evidence",
+   "themes": [
+    "distributive",
+    "economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818320000107",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818320000107); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "rowan2021",
+   "type": "work",
+   "label": "Rowan 2021",
+   "authors": "Sam S Rowan",
+   "year": 2021,
+   "journal": "ISQ",
+   "title": "Does Institutional Proliferation Undermine Cooperation? Theory and Evidence from Climate Change",
+   "claim": "Theorizes and tests how the proliferation of overlapping climate institutions affects states' cooperative effort, using cross-national membership and policy data.",
+   "method": "Cross-national panel analysis of climate institutions",
+   "themes": [
+    "architecture",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/isq/sqaa092",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqaa092); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mahdavi2022",
+   "type": "work",
+   "label": "Mahdavi 2022",
+   "authors": "Paasha Mahdavi, Cesar B. Martinez-Alvarez & Michael L. Ross",
+   "year": 2022,
+   "journal": "JOP",
+   "title": "Why Do Governments Tax or Subsidize Fossil Fuels?",
+   "claim": "Oil-producing governments and those with weak institutions subsidize fossil fuels while others tax them, so energy pricing reflects petro-politics and state capacity.",
+   "method": "Cross-national panel of fuel taxes and subsidies",
+   "themes": [
+    "instruments",
+    "resources"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/719272",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/719272); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "fairbrother2017",
+   "type": "work",
+   "label": "Fairbrother 2017",
+   "authors": "Malcolm Fairbrother",
+   "year": 2017,
+   "journal": "BJPS",
+   "title": "When Will People Pay to Pollute? Environmental Taxes, Political Trust and Experimental Evidence from Britain",
+   "claim": "Opposition to environmental taxes comes mainly from low political trust, not cost alone, and fades when people trust government to use the revenue well.",
+   "method": "Survey experiment, Britain",
+   "themes": [
+    "instruments",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123416000727",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123416000727); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kupzoknahm2024",
+   "type": "work",
+   "label": "Kupzok 2024",
+   "authors": "Nils Kupzok & Jonas Nahm",
+   "year": 2024,
+   "journal": "Perspectives on Politics",
+   "title": "The Decarbonization Bargain: How the Decarbonizable Sector Shapes Climate Politics",
+   "claim": "Climate policy advances when governments build coalitions with the 'decarbonizable' sector, firms that can profitably switch to low-carbon production.",
+   "method": "Comparative case studies",
+   "themes": [
+    "distributive",
+    "transitions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592724000951",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592724000951); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "allannahm2024",
+   "type": "work",
+   "label": "Allan 2024",
+   "authors": "Bentley B. Allan & Jonas Nahm",
+   "year": 2024,
+   "journal": "APSR",
+   "title": "Strategies of Green Industrial Policy: How States Position Firms in Global Supply Chains",
+   "claim": "States pursue distinct green industrial policy strategies that position domestic firms in different segments of global clean-technology supply chains.",
+   "method": "Comparative case studies and typology",
+   "themes": [
+    "transitions",
+    "economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055424000364",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055424000364); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "potoskiprakash2005",
+   "type": "work",
+   "label": "Potoski 2005",
+   "authors": "Matthew Potoski & Aseem Prakash",
+   "year": 2005,
+   "journal": "AJPS",
+   "title": "Green Clubs and Voluntary Governance: ISO 14001 and Firms' Regulatory Compliance",
+   "claim": "Facilities joining the ISO 14001 'green club' improve their compliance with US environmental regulations, so voluntary programs can change firm behavior.",
+   "method": "Facility-level panel with matching, US",
+   "themes": [
+    "transnational",
+    "economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.0092-5853.2005.00120.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.0092-5853.2005.00120.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "vogel2003",
+   "type": "work",
+   "label": "Vogel 2003",
+   "authors": "David Vogel",
+   "year": 2003,
+   "journal": "BJPS",
+   "title": "The Hare and the Tortoise Revisited: The New Politics of Consumer and Environmental Regulation in Europe",
+   "claim": "Since the 1990s the EU has overtaken the US as the more stringent and precautionary regulator of consumer and environmental risks.",
+   "method": "Comparative policy analysis, EU and US",
+   "themes": [
+    "state",
+    "economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123403000255",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123403000255); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "neumayer2002",
+   "type": "work",
+   "label": "Neumayer 2002",
+   "authors": "Eric Neumayer",
+   "year": 2002,
+   "journal": "Journal of Peace Research",
+   "title": "Do Democracies Exhibit Stronger International Environmental Commitment? A Cross-country Analysis",
+   "claim": "Democracies sign and ratify more environmental treaties, join more environmental IGOs and do more to protect the environment than autocracies.",
+   "method": "Cross-national regression",
+   "themes": [
+    "state",
+    "regime"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022343302039002001",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022343302039002001); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ross1999",
+   "type": "work",
+   "label": "Ross 1999",
+   "authors": "Michael L. Ross",
+   "year": 1999,
+   "journal": "World Politics",
+   "title": "The Political Economy of the Resource Curse",
+   "claim": "Reviews cognitive, societal and statist explanations for why resource wealth harms growth, finding the statist and rent-seeking accounts most promising.",
+   "method": "Literature review",
+   "themes": [
+    "resources"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887100008200",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887100008200); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "brookskurtz2016",
+   "type": "work",
+   "label": "Brooks 2016",
+   "authors": "Sarah M. Brooks & Marcus J. Kurtz",
+   "year": 2016,
+   "journal": "IO",
+   "title": "Oil and Democracy: Endogenous Natural Resources and the Political “Resource Curse”",
+   "claim": "Oil production is endogenous to prior industrialization and human capital; once this is modelled, oil wealth has no negative effect on democracy.",
+   "method": "Panel models with instruments for resource endogeneity",
+   "themes": [
+    "resources"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818316000072",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818316000072); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "homerdixon1994",
+   "type": "work",
+   "label": "Homer-Dixon 1994",
+   "authors": "Thomas F. Homer-Dixon",
+   "year": 1994,
+   "journal": "International Security",
+   "title": "Environmental Scarcities and Violent Conflict: Evidence from Cases",
+   "claim": "Scarcities of renewable resources, through resource capture and ecological marginalization, contribute to chronic subnational violence in developing countries.",
+   "method": "Comparative case studies",
+   "themes": [
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2539147",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2539147); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gleditsch1998",
+   "type": "work",
+   "label": "Gleditsch 1998",
+   "authors": "Nils Petter Gleditsch",
+   "year": 1998,
+   "journal": "Journal of Peace Research",
+   "title": "Armed Conflict and The Environment: A Critique of the Literature",
+   "claim": "Environmental-security research suffers from loose definitions, selection on the dependent variable and neglect of political and economic variables, so its scarcity-conflict claims are unproven.",
+   "method": "Critical literature review",
+   "themes": [
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022343398035003007",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022343398035003007); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "salehyan2008",
+   "type": "work",
+   "label": "Salehyan 2008",
+   "authors": "Idean Salehyan",
+   "year": 2008,
+   "journal": "Journal of Peace Research",
+   "title": "From Climate Change to Conflict? No Consensus Yet",
+   "claim": "Claims that climate change will cause conflict are premature; political institutions and state capacity mediate whether environmental stress turns violent.",
+   "method": "Theoretical review",
+   "themes": [
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022343308088812",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022343308088812); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "schultzmankin2019",
+   "type": "work",
+   "label": "Schultz 2019",
+   "authors": "Kenneth A. Schultz & Justin S. Mankin",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "Is Temperature Exogenous? The Impact of Civil Conflict on the Instrumental Climate Record in Sub‐Saharan Africa",
+   "claim": "Civil conflict reduces weather-station coverage, so temperature data used to estimate climate-conflict effects are not exogenous and can bias estimates.",
+   "method": "Panel analysis of weather-station records and conflict, Africa",
+   "themes": [
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12425",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12425); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mach2019",
+   "type": "work",
+   "label": "Mach 2019",
+   "authors": "Katharine J. Mach, Caroline M. Kraan, W. Neil Adger, Halvard Buhaug, Marshall Burke, James D. Fearon, Christopher B. Field, Cullen S. Hendrix, Jean-Francois Maystadt, John O'Loughlin, Philip Roessler, Jürgen Scheffran, Kenneth A. Schultz & Nina von Uexkull",
+   "year": 2019,
+   "journal": "Nature",
+   "title": "Climate as a Risk Factor for Armed Conflict",
+   "claim": "Experts agree climate has affected organized armed conflict within countries, but they rank its influence below drivers such as low development and weak state capacity.",
+   "method": "Structured expert elicitation",
+   "themes": [
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1038/s41586-019-1300-6); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1038/s41586-019-1300-6"
+  },
+  {
+   "id": "betsillbulkeley2004",
+   "type": "work",
+   "label": "Betsill 2004",
+   "authors": "Michele M. Betsill & Harriet Bulkeley",
+   "year": 2004,
+   "journal": "ISQ",
+   "title": "Transnational Networks and Global Environmental Governance: The Cities for Climate Protection Program",
+   "claim": "The Cities for Climate Protection network governs by giving municipalities information, resources and political legitimacy, making cities sites of global climate governance.",
+   "method": "Case study of a transnational municipal network",
+   "themes": [
+    "transnational"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.0020-8833.2004.00310.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.0020-8833.2004.00310.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gardiner2004",
+   "type": "work",
+   "label": "Gardiner 2004",
+   "authors": "Stephen M. Gardiner",
+   "year": 2004,
+   "journal": "Ethics",
+   "title": "Ethics and Global Climate Change",
+   "claim": "Climate change combines global, intergenerational and theoretical problems that make it a uniquely hard ethical issue and tempt current generations toward moral corruption.",
+   "method": "Survey article and normative argument",
+   "themes": [
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/382247",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/382247); claim is my summary, not re-read this session"
   }
  ]
 }

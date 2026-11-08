@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 262,
+   "work_nodes": 307,
    "theme_nodes": 21,
    "seed_from_papers_json": 83,
    "crossref_top_cited": 150,
    "anchors_supplement": 29,
-   "relation_edges": 277,
-   "membership_edges": 424
+   "relation_edges": 356,
+   "membership_edges": 497,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. The 150 Crossref-selected works take title, authors, year, venue and DOI from Crossref records. The 29 anchors were looked up in Crossref: 28 confirmed (books often via reviews or reprint DOIs); Waltz 1979 has no Crossref record. Repo entries with missing titles or authors were corrected from Crossref. All one-line claims for non-repo works are my summaries."
  },
@@ -1685,6 +1686,480 @@
    "target": "waltz1979",
    "type": "builds_on",
    "why": "Realist skepticism of institutions."
+  },
+  {
+   "source": "kyddwalter2002",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Shows extremists use violence to exploit the commitment problem in peace processes by making moderates appear unable to deliver."
+  },
+  {
+   "source": "kyddwalter2002",
+   "target": "stedman1997",
+   "type": "builds_on",
+   "why": "Formalizes the spoiler problem as extremists signaling that the other side’s moderates cannot be trusted."
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "kyddwalter2002",
+   "type": "builds_on",
+   "why": "Generalizes spoiling, analyzed in the 2002 study, into a typology of five strategies of terrorism."
+  },
+  {
+   "source": "roessler2011",
+   "target": "quinlivan1999",
+   "type": "builds_on",
+   "why": "Builds on coup-proofing logic to show rulers who exclude rivals to avert coups raise the risk of civil war."
+  },
+  {
+   "source": "powell2012",
+   "target": "quinlivan1999",
+   "type": "mechanism_tested_by",
+   "why": "Tests cross-nationally whether coup-proofing measures such as counterbalancing reduce coup attempts and success."
+  },
+  {
+   "source": "christensen2006is",
+   "target": "friedberg2005",
+   "type": "challenges",
+   "why": "Argues US engagement combined with alliance balancing has fostered stability, contesting pessimistic forecasts of US–China conflict."
+  },
+  {
+   "source": "christensen2006is",
+   "target": "christensen1999",
+   "type": "builds_on",
+   "why": "Revisits the East Asian security dilemma, arguing US policy has managed it rather than created a monster."
+  },
+  {
+   "source": "theisen2012",
+   "target": "burke2009",
+   "type": "challenges",
+   "why": "Finds no robust link between drought and conflict in Kenya, contesting Burke et al.’s temperature–civil war estimates."
+  },
+  {
+   "source": "burke2009",
+   "target": "collier2004",
+   "type": "builds_on",
+   "why": "Links warming to civil war through agricultural income shocks, an economic-opportunity channel in the tradition of greed-based accounts."
+  },
+  {
+   "source": "caprioli2005",
+   "target": "fearonlaitin2003",
+   "type": "qualifies",
+   "why": "Adds gender inequality as a structural predictor of civil conflict beyond the state-capacity variables in Fearon and Laitin."
+  },
+  {
+   "source": "hudson2009",
+   "target": "caprioli2005",
+   "type": "builds_on",
+   "why": "Builds on evidence that gender inequality predicts internal conflict to argue women’s security is a determinant of state security."
+  },
+  {
+   "source": "melander2005",
+   "target": "caprioli2005",
+   "type": "builds_on",
+   "why": "Corroborates the gender-equality–peace link using female parliamentary representation and education gaps."
+  },
+  {
+   "source": "thomasbond2015",
+   "target": "cohen2013wp",
+   "type": "builds_on",
+   "why": "Moves from female combatants’ conduct in war to why organizations recruit women at all."
+  },
+  {
+   "source": "thomas2021",
+   "target": "thomasbond2015",
+   "type": "builds_on",
+   "why": "Builds on the strategic logic of women’s recruitment to explain why female attackers are more lethal."
+  },
+  {
+   "source": "hudson2009",
+   "target": "goldstein2001",
+   "type": "builds_on",
+   "why": "Draws on the account of war and gender as mutually constitutive to link women’s status to state behavior."
+  },
+  {
+   "source": "tannenwald1999",
+   "target": "schelling1966",
+   "type": "challenges",
+   "why": "Argues nuclear non-use rests on a normative taboo, not only on the deterrence logic of strategic bargaining."
+  },
+  {
+   "source": "press2013",
+   "target": "tannenwald1999",
+   "type": "challenges",
+   "why": "Finds experimentally that most Americans would support nuclear use when militarily advantageous, questioning how deeply the taboo is held."
+  },
+  {
+   "source": "saganvalentino2017",
+   "target": "tannenwald1999",
+   "type": "challenges",
+   "why": "Shows majorities of Americans would approve a nuclear strike killing millions of Iranian civilians to save US soldiers, undermining the taboo claim."
+  },
+  {
+   "source": "morrow2007",
+   "target": "valentino2006",
+   "type": "qualifies",
+   "why": "Shows treaty ratification matters when it is joint and backed by reciprocity, a condition under which the laws of war constrain states."
+  },
+  {
+   "source": "cartergoemans2011",
+   "target": "zacher2001",
+   "type": "builds_on",
+   "why": "Builds on the territorial integrity norm by showing borders inherited from prior administrative lines reduce later conflict."
+  },
+  {
+   "source": "altman2020",
+   "target": "zacher2001",
+   "type": "qualifies",
+   "why": "Shows conquest persisted after 1945 as small faits accomplis, a limit on the reach of the territorial integrity norm."
+  },
+  {
+   "source": "powell2012",
+   "target": "powellthyne2011",
+   "type": "builds_on",
+   "why": "Uses the Powell–Thyne coup data to model both coup attempts and their outcomes."
+  },
+  {
+   "source": "gohdes2020",
+   "target": "hilljones2014",
+   "type": "builds_on",
+   "why": "Adds the information supplied by internet access as a determinant of the targeting of state repression."
+  },
+  {
+   "source": "wagner2000",
+   "target": "fearon1995",
+   "type": "qualifies",
+   "why": "Treats war as part of bargaining in which fighting reveals information, rather than as a costly breakdown before bargaining."
+  },
+  {
+   "source": "leventoglu2007",
+   "target": "wagner2000",
+   "type": "builds_on",
+   "why": "Builds on war as a bargaining process to explain the timing of wars as punctuated breaks in armed peace."
+  },
+  {
+   "source": "powell2004",
+   "target": "fearon1995",
+   "type": "builds_on",
+   "why": "Develops the commitment-problem mechanism, showing costly conflict can arise with complete information when power shifts."
+  },
+  {
+   "source": "powell2006",
+   "target": "powell2004",
+   "type": "builds_on",
+   "why": "Unifies commitment-problem results, including costly conflict under complete information, around large and rapid shifts in power."
+  },
+  {
+   "source": "reiter2003",
+   "target": "fearon1995",
+   "type": "synthesizes",
+   "why": "Reviews the bargaining model as a framework for war onset, conduct and termination, integrating information and commitment problems."
+  },
+  {
+   "source": "lake2010",
+   "target": "reiter2003",
+   "type": "builds_on",
+   "why": "Assesses the bargaining framework laid out in the literature against the Iraq War and finds it incomplete without behavioral factors."
+  },
+  {
+   "source": "tomzweeks2013",
+   "target": "maozrussett1993",
+   "type": "mechanism_tested_by",
+   "why": "Tests the normative and structural mechanisms of the democratic peace with survey experiments on public support for war."
+  },
+  {
+   "source": "bdm1999",
+   "target": "maozrussett1993",
+   "type": "challenges",
+   "why": "Explains the democratic peace through leaders’ coalition size and war effort rather than shared democratic norms."
+  },
+  {
+   "source": "debsgoemans2010",
+   "target": "bdm1999",
+   "type": "builds_on",
+   "why": "Extends the link between regime institutions and leaders’ fates to explain variation in war initiation."
+  },
+  {
+   "source": "mansfieldsnyder1995",
+   "target": "maozrussett1993",
+   "type": "qualifies",
+   "why": "Argues democratizing states are more war-prone, a scope condition on the pacifying effect of democracy."
+  },
+  {
+   "source": "onealrussett1997",
+   "target": "maozrussett1993",
+   "type": "builds_on",
+   "why": "Adds trade interdependence to democracy in a Kantian model of dyadic peace."
+  },
+  {
+   "source": "hegre2010",
+   "target": "onealrussett1997",
+   "type": "builds_on",
+   "why": "Re-estimates the trade–conflict link with simultaneous equations, confirming the pacifying effect of trade."
+  },
+  {
+   "source": "gartzke2007",
+   "target": "onealrussett1997",
+   "type": "challenges",
+   "why": "Argues market development and capital integration, rather than democracy, account for the liberal peace."
+  },
+  {
+   "source": "debsgoemans2010",
+   "target": "bdmsiverson1995",
+   "type": "builds_on",
+   "why": "Refines the link between war outcomes and leader survival by modeling regime-specific punishment of losing leaders."
+  },
+  {
+   "source": "croco2011",
+   "target": "bdmsiverson1995",
+   "type": "qualifies",
+   "why": "Shows domestic punishment for war outcomes falls on culpable leaders, a condition on the war–tenure link."
+  },
+  {
+   "source": "huthrussett1984",
+   "target": "schelling1966",
+   "type": "mechanism_tested_by",
+   "why": "Tests extended deterrence across 54 cases, finding the local military balance and economic and political ties drive success."
+  },
+  {
+   "source": "press2005",
+   "target": "huthrussett1984",
+   "type": "builds_on",
+   "why": "Builds on evidence that current capabilities and interests, not past behavior, govern credibility in deterrence crises."
+  },
+  {
+   "source": "sartori2002",
+   "target": "fearon1994",
+   "type": "qualifies",
+   "why": "Offers a reputation for honesty as an alternative to audience costs for making diplomatic threats credible."
+  },
+  {
+   "source": "kurizaki2007",
+   "target": "sartori2002",
+   "type": "builds_on",
+   "why": "Extends credible diplomatic communication to private threats that avoid public audience costs."
+  },
+  {
+   "source": "kyddwalter2006",
+   "target": "pape2003",
+   "type": "builds_on",
+   "why": "Generalizes the coercive logic of suicide terrorism into strategies of attrition, intimidation, provocation, spoiling and outbidding."
+  },
+  {
+   "source": "abrahms2006",
+   "target": "pape2003",
+   "type": "challenges",
+   "why": "Finds terrorism rarely achieves its policy objectives, contesting the claim that suicide terrorism coerces democracies effectively."
+  },
+  {
+   "source": "bdmdickson2007",
+   "target": "buenodemesquita2005",
+   "type": "builds_on",
+   "why": "Extends the screening model of terrorist recruitment to the interaction of terrorism, counterterrorism and popular mobilization."
+  },
+  {
+   "source": "horowitz2010io",
+   "target": "pape2003",
+   "type": "qualifies",
+   "why": "Shows suicide terrorism spreads to groups with the organizational capacity to adopt it, so diffusion shapes its use beyond occupation."
+  },
+  {
+   "source": "horowitz2010io",
+   "target": "horowitz2010",
+   "type": "extends_to_new_case",
+   "why": "Applies adoption-capacity theory from state military innovations to nonstate armed groups."
+  },
+  {
+   "source": "vreeland2008",
+   "target": "hegre2001",
+   "type": "challenges",
+   "why": "Shows the inverted-U between regime type and civil war is partly an artifact of Polity components that code political violence."
+  },
+  {
+   "source": "hegresambanis2006",
+   "target": "hegre2001",
+   "type": "builds_on",
+   "why": "Tests the robustness of civil war onset correlates, including regime type and instability."
+  },
+  {
+   "source": "ross2004io",
+   "target": "collier2004",
+   "type": "qualifies",
+   "why": "Uses thirteen cases to show resources shape civil war through looting, separatism and foreign meddling rather than a general greed effect."
+  },
+  {
+   "source": "lujala2010",
+   "target": "ross2004io",
+   "type": "builds_on",
+   "why": "Builds on the mechanisms linking resources to conflict by testing geographic overlap of resources and fighting."
+  },
+  {
+   "source": "lyall2010",
+   "target": "kalyvas2006",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether coethnic counterinsurgents’ informational advantage reduces insurgent violence, as an information-centered logic implies."
+  },
+  {
+   "source": "staniland2012pop",
+   "target": "kalyvas2006",
+   "type": "builds_on",
+   "why": "Extends the study of control in civil war into a typology of wartime orders including collusion and shared sovereignty."
+  },
+  {
+   "source": "arjona2014",
+   "target": "staniland2012pop",
+   "type": "builds_on",
+   "why": "Builds on wartime political orders to explain rebel governance institutions in local communities."
+  },
+  {
+   "source": "doylesambanis2000",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Shows multidimensional UN operations sustain peace, consistent with third-party guarantees easing commitment problems."
+  },
+  {
+   "source": "fortna2004",
+   "target": "doylesambanis2000",
+   "type": "builds_on",
+   "why": "Extends the peacekeeping–peace link while correcting for the selection of peacekeepers into hard cases."
+  },
+  {
+   "source": "hartzellhoddie2003",
+   "target": "walter1997",
+   "type": "builds_on",
+   "why": "Shows settlements institutionalizing power sharing across several dimensions last longer, the kind of guarantees that ease commitment problems."
+  },
+  {
+   "source": "mattes2009",
+   "target": "hartzellhoddie2003",
+   "type": "builds_on",
+   "why": "Builds on power-sharing evidence to show agreement design that addresses commitment problems makes peace more durable."
+  },
+  {
+   "source": "stedman1997",
+   "target": "walter1997",
+   "type": "qualifies",
+   "why": "Identifies spoilers who use violence to derail peace as an obstacle to settlements distinct from the commitment problem."
+  },
+  {
+   "source": "singhway2004",
+   "target": "sagan1996",
+   "type": "mechanism_tested_by",
+   "why": "Tests the security, domestic politics and norms models of proliferation quantitatively, finding security threats and development matter most."
+  },
+  {
+   "source": "jogartzke2007",
+   "target": "singhway2004",
+   "type": "builds_on",
+   "why": "Extends the quantitative study of proliferation by separating opportunity and willingness to acquire nuclear weapons."
+  },
+  {
+   "source": "monteirodebs2014",
+   "target": "debsmonteiro2013",
+   "type": "builds_on",
+   "why": "Applies the preventive-war logic of power shifts to explain when states can acquire nuclear weapons without attack."
+  },
+  {
+   "source": "monteirodebs2014",
+   "target": "sagan1996",
+   "type": "qualifies",
+   "why": "Argues security motives lead to proliferation only when the state can avoid preventive attack, a condition on the security model."
+  },
+  {
+   "source": "christensensnyder1990",
+   "target": "waltz1979",
+   "type": "qualifies",
+   "why": "Shows multipolar alliance behavior depends on perceived offense–defense balance, specifying when chain-ganging or buck-passing occurs."
+  },
+  {
+   "source": "christensensnyder1990",
+   "target": "jervis1978",
+   "type": "builds_on",
+   "why": "Uses the offense–defense variable from the security dilemma to predict alliance patterns."
+  },
+  {
+   "source": "morrow1991",
+   "target": "walt1987",
+   "type": "challenges",
+   "why": "Argues asymmetric alliances trade autonomy for security, an alternative to capability aggregation against threats."
+  },
+  {
+   "source": "yarhimilo2016",
+   "target": "morrow1991",
+   "type": "builds_on",
+   "why": "Builds on the security–autonomy trade-off to explain when patrons transfer arms instead of forming alliances."
+  },
+  {
+   "source": "wohlforth1999",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Argues unipolarity is durable and peaceful, contesting the structural-realist expectation of balancing against preponderance."
+  },
+  {
+   "source": "wohlforth2009",
+   "target": "wohlforth1999",
+   "type": "builds_on",
+   "why": "Extends the unipolar-stability argument by showing status competition makes unipolarity less war-prone than multipolarity."
+  },
+  {
+   "source": "brookswohlforth2016",
+   "target": "wohlforth1999",
+   "type": "builds_on",
+   "why": "Updates the case for durable US primacy by measuring China’s rise against a still-large US lead."
+  },
+  {
+   "source": "gelpi2006",
+   "target": "jentleson1992",
+   "type": "qualifies",
+   "why": "Shows expectations of success, more than the policy objective, condition public tolerance of casualties."
+  },
+  {
+   "source": "berinsky2007",
+   "target": "jentleson1992",
+   "type": "challenges",
+   "why": "Argues public support for war follows elite cues rather than rational assessment of policy objectives."
+  },
+  {
+   "source": "gartner2008",
+   "target": "gartnersegura1998",
+   "type": "builds_on",
+   "why": "Tests experimentally the casualty-trend effects on support for war identified with Vietnam data."
+  },
+  {
+   "source": "lyallwilson2009",
+   "target": "arreguintoft2001",
+   "type": "builds_on",
+   "why": "Extends the puzzle of strong-actor defeat in asymmetric wars, attributing rising counterinsurgency failure to mechanization."
+  },
+  {
+   "source": "copeland1996",
+   "target": "waltz1979",
+   "type": "synthesizes",
+   "why": "Integrates realist fears of dependence with liberal gains from trade, arguing expectations of future trade decide whether interdependence pacifies."
+  },
+  {
+   "source": "gartzkeliboehmer2001",
+   "target": "onealrussett1997",
+   "type": "qualifies",
+   "why": "Argues capital and monetary interdependence pacify by enabling costly signals, a mechanism beyond trade dependence."
+  },
+  {
+   "source": "gartzke2007",
+   "target": "gartzkeliboehmer2001",
+   "type": "builds_on",
+   "why": "Builds on capital-market signaling to argue that capitalism, not democracy, underlies the liberal peace."
+  },
+  {
+   "source": "christensen1999",
+   "target": "jervis1978",
+   "type": "extends_to_new_case",
+   "why": "Applies security-dilemma theory to East Asia, arguing Chinese fears of the US–Japan alliance could fuel spirals."
+  },
+  {
+   "source": "liff2014",
+   "target": "christensen1999",
+   "type": "builds_on",
+   "why": "Updates the East Asian security dilemma analysis to China’s military modernization and Asia-Pacific competition."
   },
   {
    "source": "schelling1966",
@@ -4227,6 +4702,444 @@
   {
    "source": "paine2021",
    "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kyddwalter2002",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kyddwalter2002",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "quinlivan1999",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen2006is",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen2006is",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burke2009",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "burke2009",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caprioli2005",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caprioli2005",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "melander2005",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "melander2005",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomasbond2015",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomasbond2015",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldstein2001",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "goldstein2001",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tannenwald1999",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tannenwald1999",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2006",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentino2006",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zacher2001",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zacher2001",
+   "target": "law-inst",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "altman2020",
+   "target": "territory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powell2012",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gohdes2020",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gohdes2020",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wagner2000",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powell2004",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reiter2003",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "reiter2003",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maozrussett1993",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdm1999",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdm1999",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mansfieldsnyder1995",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "onealrussett1997",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "onealrussett1997",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdmsiverson1995",
+   "target": "leaders",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bdmsiverson1995",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huthrussett1984",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huthrussett1984",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sartori2002",
+   "target": "reputation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sartori2002",
+   "target": "audience",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pape2003",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buenodemesquita2005",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2010io",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2010io",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hegre2001",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hegre2001",
+   "target": "regime-war",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2004io",
+   "target": "cw-onset",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2004io",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lyall2010",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "staniland2012pop",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "doylesambanis2000",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hartzellhoddie2003",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stedman1997",
+   "target": "termination",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stedman1997",
+   "target": "terrorism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "singhway2004",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "monteirodebs2014",
+   "target": "nuclear",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "monteirodebs2014",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensensnyder1990",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensensnyder1990",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "morrow1991",
+   "target": "alliances",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wohlforth1999",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wohlforth1999",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jentleson1992",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartnersegura1998",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arreguintoft2001",
+   "target": "tech",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arreguintoft2001",
+   "target": "cw-dynamics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "copeland1996",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "copeland1996",
+   "target": "great-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzkeliboehmer2001",
+   "target": "econ-sec",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gartzkeliboehmer2001",
+   "target": "bargaining",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen1999",
+   "target": "us-china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensen1999",
+   "target": "alliances",
    "type": "belongs_to",
    "why": "theme membership"
   }

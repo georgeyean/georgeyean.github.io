@@ -1,6 +1,6 @@
 # Environmental politics, c. 1968–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 252 work nodes, 17 theme nodes and 251 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[ostrom1990]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 298 work nodes, 17 theme nodes and 328 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[ostrom1990]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Your library:** six works come from `papers.json`. They are Arias & Blair on hurricane migration, Cao & Prakash on trade and regulation, Roger, Hale & Andonova on transnational governance, Bilal & Rossi-Hansberg, Barrett's *Environment and Statecraft* and Green's *Rethinking Private Authority*.
@@ -69,6 +69,13 @@ One-line claims for non-library works are my summaries, not re-read this session
 1. **Trade, industrial policy and climate.** Green industrial policy, renewable protectionism and critical minerals `[allan2021]`, `[lewis2014]`, `[riofrancos2023]` connect to your IPE and geoeconomics work.
 2. **Distributive politics and backlash.** Compensation and coalition building `[gaikwad2022]`, `[aklinmildenberger2020]` mirror trade-backlash research.
 3. **Text as data.** Pledges, NDCs and negotiation records suit LLM-based measurement.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 46 works (41 new, 5 shared with other maps) and 84 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 41 works and 5 imports, mostly APSR, AJPS, JOP, IO, WP, BJPS, ISQ, CPS and JPR articles. They fill the thin parties, denial, adaptation, movements and commons themes: green-policy backlash and just-transition voting, radical-right climate wedges, local weather and disasters as attitude drivers, NGO litigation, watershed partnerships, and electoral and donor-driven deforestation. They also add regime-formation classics (Young, Haas, Sprinz and Vaahtoranta, Meyer et al.), the resource-curse and climate-conflict debates (Ross 1999, Brooks and Kurtz, Homer-Dixon, Gleditsch, Salehyan, Schultz and Mankin, Mach et al.) and recent work on green industrial policy and business coalitions.
 
 ## What I could not verify (flagged)
 - **Anchors and library seeds:** 58 were checked in Crossref. 44 matched on title and author, and 11 books were found only through reviews or chapters. Three works have no record of their own: the Brundtland report, Bulkeley & Betsill's *Cities and Climate Change* and the *Merchants of Doubt* book.

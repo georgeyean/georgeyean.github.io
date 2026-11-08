@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 360,
+   "work_nodes": 404,
    "theme_nodes": 20,
    "seed_from_papers_json": 20,
    "crossref_top_cited": 212,
    "anchors_supplement": 128,
-   "relation_edges": 393,
-   "membership_edges": 593
+   "relation_edges": 470,
+   "membership_edges": 677,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -6850,6 +6851,837 @@
    "source": "supplement",
    "zotero": null,
    "verified": "Crossref: title and author matched (Princeton University Press, 2020; DOI 10.23943/princeton/9780691194011.001.0001)"
+  },
+  {
+   "id": "kuklinski1997",
+   "type": "work",
+   "label": "Kuklinski 1997",
+   "authors": "James H. Kuklinski, Michael D. Cobb & Martin Gilens",
+   "year": 1997,
+   "journal": "JOP",
+   "title": "Racial Attitudes and the 'New South'",
+   "claim": "A list experiment reveals far more racial anger in the South than direct questions show.",
+   "method": "List experiment",
+   "themes": [
+    "attitudes"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (The Journal of Politics, 1997; DOI 10.2307/2998167)",
+   "crossref_doi": "10.2307/2998167"
+  },
+  {
+   "id": "hainmuellerhiscox2007",
+   "type": "work",
+   "label": "Hainmueller 2007",
+   "authors": "Jens Hainmueller & Michael J. Hiscox",
+   "year": 2007,
+   "journal": "IO",
+   "title": "Educated Preferences: Explaining Attitudes Toward Immigration in Europe",
+   "claim": "Educated Europeans favor immigration because of values, not labour-market interest.",
+   "method": "European Social Survey",
+   "themes": [
+    "immigration",
+    "comparative"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818307070142); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818307070142"
+  },
+  {
+   "id": "kallabroockman2020",
+   "type": "work",
+   "label": "Kalla 2020",
+   "authors": "Joshua L. Kalla & David E. Broockman",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "Reducing Exclusionary Attitudes through Interpersonal Conversation: Evidence from Three Field Experiments",
+   "claim": "Non-judgmental exchange of narratives durably reduces exclusionary attitudes.",
+   "method": "Field experiments",
+   "themes": [
+    "context",
+    "immigration"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055419000923); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055419000923"
+  },
+  {
+   "id": "searshensler1979",
+   "type": "work",
+   "label": "Sears 1979",
+   "authors": "David O. Sears, Carl P. Hensler & Leslie K. Speer",
+   "year": 1979,
+   "journal": "APSR",
+   "title": "Whites' Opposition to “Busing”: Self-interest or Symbolic Politics?",
+   "claim": "White opposition to busing is driven by symbolic racial attitudes and ideology, not by whether whites' own children are affected.",
+   "method": "National survey analysis",
+   "themes": [
+    "attitudes",
+    "policy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1954885",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1954885); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "shingles1981",
+   "type": "work",
+   "label": "Shingles 1981",
+   "authors": "Richard D. Shingles",
+   "year": 1981,
+   "journal": "APSR",
+   "title": "Black Consciousness and Political Participation: The Missing Link",
+   "claim": "Black consciousness combined with political mistrust and internal efficacy explains why Black Americans participate more than their socioeconomic status predicts.",
+   "method": "Survey analysis",
+   "themes": [
+    "consciousness",
+    "participation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1962160",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1962160); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "carminesstimson1982",
+   "type": "work",
+   "label": "Carmines 1982",
+   "authors": "Edward G. Carmines & James A. Stimson",
+   "year": 1982,
+   "journal": "JOP",
+   "title": "Racial Issues and The Structure of Mass Belief Systems",
+   "claim": "Racial attitudes became an 'easy issue' tightly bound to mass partisanship and ideology, structuring belief systems even among less sophisticated citizens.",
+   "method": "NES survey analysis",
+   "themes": [
+    "partisanship",
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2130281",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2130281); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "welch1990",
+   "type": "work",
+   "label": "Welch 1990",
+   "authors": "Susan Welch",
+   "year": 1990,
+   "journal": "JOP",
+   "title": "The Impact of At-Large Elections on the Representation of Blacks and Hispanics",
+   "claim": "At-large city council elections continue to underrepresent Black residents relative to district elections, though less than before, with weaker effects for Hispanics.",
+   "method": "Cross-sectional analysis of US city councils",
+   "themes": [
+    "voting",
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2131682",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2131682); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cain1991",
+   "type": "work",
+   "label": "Cain 1991",
+   "authors": "Bruce E. Cain, D. Roderick Kiewiet & Carole J. Uhlaner",
+   "year": 1991,
+   "journal": "AJPS",
+   "title": "The Acquisition of Partisanship by Latinos and Asian Americans",
+   "claim": "Latino and Asian American immigrants acquire party identification gradually with time in the United States, and Asian Americans lean less Democratic than Latinos.",
+   "method": "California survey of Latinos, Asian Americans and others",
+   "themes": [
+    "asian",
+    "latino"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111368",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111368); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "tate1991",
+   "type": "work",
+   "label": "Tate 1991",
+   "authors": "Katherine Tate",
+   "year": 1991,
+   "journal": "APSR",
+   "title": "Black Political Participation in the 1984 and 1988 Presidential Elections",
+   "claim": "Jesse Jackson's campaigns, church involvement and group consciousness mobilized Black voters beyond what individual resources predict.",
+   "method": "National Black Election Study, 1984-1988",
+   "themes": [
+    "black",
+    "participation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1963940",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1963940); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gilesbuckner1993",
+   "type": "work",
+   "label": "Giles 1993",
+   "authors": "Michael W. Giles & Melanie A. Buckner",
+   "year": 1993,
+   "journal": "JOP",
+   "title": "David Duke and Black Threat: An Old Hypothesis Revisited",
+   "claim": "White registrants' support for David Duke in Louisiana rose with the Black share of parish populations, reviving Key's racial threat hypothesis.",
+   "method": "Parish-level aggregate analysis",
+   "themes": [
+    "context",
+    "whiteness"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2131995",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2131995); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "terkildsen1993",
+   "type": "work",
+   "label": "Terkildsen 1993",
+   "authors": "Nayda Terkildsen",
+   "year": 1993,
+   "journal": "AJPS",
+   "title": "When White Voters Evaluate Black Candidates: The Processing Implications of Candidate Skin Color, Prejudice, and Self-Monitoring",
+   "claim": "Prejudiced white voters rate Black candidates, especially darker-skinned ones, more negatively, and self-monitoring shapes how openly this is expressed.",
+   "method": "Experiment with manipulated candidate photographs",
+   "themes": [
+    "priming",
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111542",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111542); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "glaser1994",
+   "type": "work",
+   "label": "Glaser 1994",
+   "authors": "James M. Glaser",
+   "year": 1994,
+   "journal": "JOP",
+   "title": "Back to the Black Belt: Racial Environment and White Racial Attitudes in the South",
+   "claim": "Southern whites living in counties with large Black populations hold more conservative racial attitudes, consistent with Key's black-belt thesis.",
+   "method": "Survey data merged with county demographics",
+   "themes": [
+    "context",
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2132344",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2132344); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kindermendelberg1995",
+   "type": "work",
+   "label": "Kinder 1995",
+   "authors": "Donald R. Kinder & Tali Mendelberg",
+   "year": 1995,
+   "journal": "JOP",
+   "title": "Cracks in American Apartheid: The Political Impact of Prejudice among Desegregated Whites",
+   "claim": "Prejudice shapes racial policy opinion most strongly among whites who live in racially isolated neighborhoods, so segregation amplifies the political force of prejudice.",
+   "method": "NES survey merged with census tract data",
+   "themes": [
+    "context",
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2960313",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2960313); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gilens1996",
+   "type": "work",
+   "label": "Gilens 1996",
+   "authors": "Martin Gilens",
+   "year": 1996,
+   "journal": "APSR",
+   "title": "“Race Coding” and White Opposition to Welfare",
+   "claim": "White opposition to welfare stems chiefly from the belief that Black recipients are lazy and undeserving, not from self-interest or general individualism.",
+   "method": "Survey experiment and national survey analysis",
+   "themes": [
+    "policy",
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2082611",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2082611); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "herotolbert1996",
+   "type": "work",
+   "label": "Hero 1996",
+   "authors": "Rodney E. Hero & Caroline J. Tolbert",
+   "year": 1996,
+   "journal": "AJPS",
+   "title": "A Racial/Ethnic Diversity Interpretation of Politics and Policy in the States of the U.S.",
+   "claim": "States' racial and ethnic composition, distinguishing homogeneous, bifurcated and heterogeneous states, explains variation in policy outputs and minority outcomes.",
+   "method": "Cross-state analysis",
+   "themes": [
+    "policy",
+    "context"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111798",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111798); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "tolberthero1996",
+   "type": "work",
+   "label": "Tolbert 1996",
+   "authors": "Caroline J. Tolbert & Rodney E. Hero",
+   "year": 1996,
+   "journal": "JOP",
+   "title": "Race/Ethnicity and Direct Democracy: An Analysis of California's Illegal Immigration Initiative",
+   "claim": "County support for Proposition 187 rose with Latino population share and was also high in homogeneous white counties, linking racial context to anti-immigrant direct democracy.",
+   "method": "County-level analysis of Proposition 187 returns",
+   "themes": [
+    "immigration",
+    "latino"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2960447",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2960447); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "calhounbrown1996",
+   "type": "work",
+   "label": "Calhoun-Brown 1996",
+   "authors": "Allison Calhoun-Brown",
+   "year": 1996,
+   "journal": "JOP",
+   "title": "African American Churches and Political Mobilization: The Psychological Impact of Organizational Resources",
+   "claim": "Politicized Black churches raise members' participation mainly by fostering political interest, efficacy and group consciousness rather than by supplying skills.",
+   "method": "National Black Election Study analysis",
+   "themes": [
+    "black",
+    "participation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2960144",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2960144); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "voss1996",
+   "type": "work",
+   "label": "Voss 1996",
+   "authors": "D. Stephen Voss",
+   "year": 1996,
+   "journal": "JOP",
+   "title": "Beyond Racial Threat: Failure of an Old Hypothesis in the New South",
+   "claim": "Reanalysis shows the apparent link between Black population share and white support for David Duke is not robust, questioning racial threat as an explanation in the New South.",
+   "method": "Reanalysis of parish-level data",
+   "themes": [
+    "context"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2960153",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2960153); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hurwitzpeffley1997",
+   "type": "work",
+   "label": "Hurwitz 1997",
+   "authors": "Jon Hurwitz & Mark Peffley",
+   "year": 1997,
+   "journal": "AJPS",
+   "title": "Public Perceptions of Race and Crime: The Role of Racial Stereotypes",
+   "claim": "Whites' stereotypes of Black Americans as violent shape their support for punitive crime policies, especially when the crime context is racialized.",
+   "method": "Survey experiments",
+   "themes": [
+    "carceral",
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111769",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111769); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gaytate1998",
+   "type": "work",
+   "label": "Gay 1998",
+   "authors": "Claudine Gay & Katherine Tate",
+   "year": 1998,
+   "journal": "Political Psychology",
+   "title": "Doubly Bound: The Impact of Gender and Race on the Politics of Black Women",
+   "claim": "For most Black women race and gender identities are intertwined, but racial identification generally weighs more heavily in their political attitudes.",
+   "method": "National Black Election Study survey analysis",
+   "themes": [
+    "intersectionality",
+    "consciousness"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/0162-895x.00098); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/0162-895x.00098"
+  },
+  {
+   "id": "brattonhaynie1999",
+   "type": "work",
+   "label": "Bratton 1999",
+   "authors": "Kathleen A. Bratton & Kerry L. Haynie",
+   "year": 1999,
+   "journal": "JOP",
+   "title": "Agenda Setting and Legislative Success in State Legislatures: The Effects of Gender and Race",
+   "claim": "Black and women legislators introduce more bills on Black and women's interests, but Black legislators' bills are less likely to pass.",
+   "method": "Bill introduction and passage data, six state legislatures",
+   "themes": [
+    "intersectionality",
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2647822",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2647822); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "olivermendelberg2000",
+   "type": "work",
+   "label": "Oliver 2000",
+   "authors": "J. Eric Oliver & Tali Mendelberg",
+   "year": 2000,
+   "journal": "AJPS",
+   "title": "Reconsidering the Environmental Determinants of White Racial Attitudes",
+   "claim": "Whites' racial resentment is driven by the low education level of their local context rather than by the size of the local Black population.",
+   "method": "Survey data merged with zip-code and metropolitan census data",
+   "themes": [
+    "context",
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2669265",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2669265); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kinderwinter2001",
+   "type": "work",
+   "label": "Kinder 2001",
+   "authors": "Donald R. Kinder & Nicholas Winter",
+   "year": 2001,
+   "journal": "AJPS",
+   "title": "Exploring the Racial Divide: Blacks, Whites, and Opinion on National Policy",
+   "claim": "The large Black-white gap in policy opinion owes mostly to differences in group identification, racial resentment and principles, little to class differences.",
+   "method": "NES survey analysis",
+   "themes": [
+    "attitudes",
+    "policy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2669351",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2669351); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "dovi2002",
+   "type": "work",
+   "label": "Dovi 2002",
+   "authors": "Suzanne Dovi",
+   "year": 2002,
+   "journal": "APSR",
+   "title": "Preferable Descriptive Representatives: Will Just Any Woman, Black, or Latino Do?",
+   "claim": "Preferable descriptive representatives are those with strong mutual relationships with dispossessed subgroups of their group, not merely members who share its traits.",
+   "method": "Normative political theory",
+   "themes": [
+    "representation",
+    "theory"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055402000412",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055402000412); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hawkesworth2003",
+   "type": "work",
+   "label": "Hawkesworth 2003",
+   "authors": "Mary Hawkesworth",
+   "year": 2003,
+   "journal": "APSR",
+   "title": "Congressional Enactments of Race–Gender: Toward a Theory of Raced–Gendered Institutions",
+   "claim": "Congressional practices produce raced and gendered hierarchies that marginalize congresswomen of color, so institutions themselves are raced-gendered.",
+   "method": "Interviews and legislative case study, US Congress",
+   "themes": [
+    "intersectionality",
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055403000868",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055403000868); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "oliverwong2003",
+   "type": "work",
+   "label": "Oliver 2003",
+   "authors": "J. Eric Oliver & Janelle Wong",
+   "year": 2003,
+   "journal": "AJPS",
+   "title": "Intergroup Prejudice in Multiethnic Settings",
+   "claim": "Among whites, Blacks, Latinos and Asian Americans, prejudice falls with neighborhood diversity but rises with metropolitan diversity, so contact and threat operate at different scales.",
+   "method": "Multi-city survey merged with census data",
+   "themes": [
+    "context",
+    "asian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/3186119",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/3186119); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "soss2003",
+   "type": "work",
+   "label": "Soss 2003",
+   "authors": "Joe Soss, Laura Langbein & Alan R. Metelko",
+   "year": 2003,
+   "journal": "JOP",
+   "title": "Why Do White Americans Support the Death Penalty?",
+   "claim": "Racial prejudice is among the strongest predictors of white support for the death penalty, and its effect grows in counties with more Black residents.",
+   "method": "Multilevel survey analysis",
+   "themes": [
+    "carceral",
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/1468-2508.t01-2-00006",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/1468-2508.t01-2-00006); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "alvarezbedolla2003",
+   "type": "work",
+   "label": "Alvarez 2003",
+   "authors": "R. Michael Alvarez & Lisa García Bedolla",
+   "year": 2003,
+   "journal": "JOP",
+   "title": "The Foundations of Latino Voter Partisanship: Evidence from the 2000 Election",
+   "claim": "Latino partisanship rests on policy views, economic evaluations and national origin, with Proposition 187-era politics pushing California Latinos toward Democrats.",
+   "method": "Survey of Latino voters, 2000",
+   "themes": [
+    "latino",
+    "partisanship"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/1468-2508.t01-1-00002",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/1468-2508.t01-1-00002); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "keiser2004",
+   "type": "work",
+   "label": "Keiser 2004",
+   "authors": "Lael R. Keiser, Peter R. Mueser & Seung‐Whan Choi",
+   "year": 2004,
+   "journal": "AJPS",
+   "title": "Race, Bureaucratic Discretion, and the Implementation of Welfare Reform",
+   "claim": "Under devolved welfare reform, nonwhite recipients were sanctioned more often, especially in more conservative and whiter localities, showing discretion produces racial disparities.",
+   "method": "Administrative welfare data from Missouri",
+   "themes": [
+    "policy",
+    "carceral"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.0092-5853.2004.00072.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.0092-5853.2004.00072.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "barreto2004",
+   "type": "work",
+   "label": "Barreto 2004",
+   "authors": "Matt A. Barreto, Gary M. Segura & Nathan D. Woods",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "The Mobilizing Effect of Majority–Minority Districts on Latino Turnout",
+   "claim": "Living in overlapping majority-Latino districts increases Latino turnout, while residence in majority-white districts depresses it.",
+   "method": "Validated voter file analysis, southern California",
+   "themes": [
+    "latino",
+    "voting"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055404001005",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055404001005); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "feldmanhuddy2004",
+   "type": "work",
+   "label": "Feldman 2004",
+   "authors": "Stanley Feldman & Leonie Huddy",
+   "year": 2004,
+   "journal": "AJPS",
+   "title": "Racial Resentment and White Opposition to Race‐Conscious Programs: Principles or Prejudice?",
+   "claim": "Racial resentment predicts opposition to race-conscious programs differently for liberals and conservatives, so the scale captures ideology and principles as well as prejudice.",
+   "method": "Survey experiments and survey analysis",
+   "themes": [
+    "attitudes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.0092-5853.2005.00117.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.0092-5853.2005.00117.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bowler2005",
+   "type": "work",
+   "label": "Bowler 2005",
+   "authors": "Shaun Bowler, Stephen P. Nicholson & Gary M. Segura",
+   "year": 2005,
+   "journal": "AJPS",
+   "title": "Earthquakes and Aftershocks: Race, Direct Democracy, and Partisan Change",
+   "claim": "California's racially charged ballot initiatives of the 1990s moved both Latinos and Anglos toward the Democratic Party, producing lasting partisan change.",
+   "method": "Analysis of California Field Polls, 1980s-2000s",
+   "themes": [
+    "partisanship",
+    "latino"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1540-5907.2006.00175.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2006.00175.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hurwitzpeffley2005",
+   "type": "work",
+   "label": "Hurwitz 2005",
+   "authors": "J. Hurwitz & M. Peffley",
+   "year": 2005,
+   "journal": "Public Opinion Quarterly",
+   "title": "Playing the Race Card in the Post-Willie Horton Era: The Impact of Racialized Code Words on Support for Punitive Crime Policy",
+   "claim": "The code phrase 'inner city' activates whites' racial stereotypes when they evaluate crime policy, without any explicit racial reference.",
+   "method": "Survey experiment",
+   "themes": [
+    "priming",
+    "carceral"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/poq/nfi004",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/poq/nfi004); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lienconwaywong2004",
+   "type": "work",
+   "label": "Lien 2004",
+   "authors": "Pei-te Lien, M. Margaret Conway & Janelle Wong",
+   "year": 2004,
+   "journal": "Routledge (book)",
+   "title": "The Politics of Asian Americans: Diversity and Community",
+   "claim": "Despite national-origin diversity, Asian Americans share enough panethnic identification and common experiences of discrimination to form a political community, though participation lags.",
+   "method": "Multi-city, multi-ethnic Pilot National Asian American Political Survey",
+   "themes": [
+    "asian",
+    "consciousness"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "ramakrishnan2005",
+   "type": "work",
+   "label": "Ramakrishnan 2005",
+   "authors": "S. Karthick Ramakrishnan",
+   "year": 2005,
+   "journal": "Stanford University Press (book)",
+   "title": "Democracy in Immigrant America: Changing Demographics and Political Participation",
+   "claim": "Immigrant generation, citizenship and state political context, not resources alone, explain the participation of Asian American and Latino immigrants and their children.",
+   "method": "Current Population Survey and other survey analysis",
+   "themes": [
+    "asian",
+    "participation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1515/9780804767491); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1515/9780804767491"
+  },
+  {
+   "id": "masuoka2006",
+   "type": "work",
+   "label": "Masuoka 2006",
+   "authors": "Natalie Masuoka",
+   "year": 2006,
+   "journal": "Social Science Quarterly",
+   "title": "Together They Become One: Examining the Predictors of Panethnic Group Consciousness among Asian Americans and Latinos",
+   "claim": "Experiences of discrimination and acculturation, rather than national origin alone, predict panethnic group consciousness among Asian Americans and Latinos.",
+   "method": "Pilot National Asian American Political Survey and Latino survey",
+   "themes": [
+    "asian",
+    "consciousness"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/j.1540-6237.2006.00412.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1540-6237.2006.00412.x"
+  },
+  {
+   "id": "winter2008",
+   "type": "work",
+   "label": "Winter 2008",
+   "authors": "Nicholas J. G. Winter",
+   "year": 2008,
+   "journal": "University of Chicago Press (book)",
+   "title": "Dangerous Frames: How Ideas about Race and Gender Shape Public Opinion",
+   "claim": "Policy frames that implicitly match the structure of racial or gender schemas activate those predispositions, racializing or gendering opinion on ostensibly neutral issues.",
+   "method": "Survey experiments and survey analysis",
+   "themes": [
+    "priming",
+    "intersectionality"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.7208/chicago/9780226902388.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.7208/chicago/9780226902388.001.0001"
+  },
+  {
+   "id": "scherercurry2010",
+   "type": "work",
+   "label": "Scherer 2010",
+   "authors": "Nancy Scherer & Brett Curry",
+   "year": 2010,
+   "journal": "JOP",
+   "title": "Does Descriptive Race Representation Enhance Institutional Legitimacy? The Case of the U.S. Courts",
+   "claim": "Black Americans view federal courts as more legitimate when told more Black judges serve on them, while whites' views are unaffected.",
+   "method": "Survey experiment",
+   "themes": [
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0022381609990491",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381609990491); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "newman2012",
+   "type": "work",
+   "label": "Newman 2012",
+   "authors": "Benjamin J. Newman",
+   "year": 2012,
+   "journal": "AJPS",
+   "title": "Acculturating Contexts and Anglo Opposition to Immigration in the United States",
+   "claim": "Anglo opposition to immigration rises where rapid immigrant growth occurs in areas with little prior immigration and linguistic isolation.",
+   "method": "Survey data merged with local demographics",
+   "themes": [
+    "immigration",
+    "context"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1540-5907.2012.00632.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2012.00632.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bejarano2013",
+   "type": "work",
+   "label": "Bejarano 2013",
+   "authors": "Christina E. Bejarano",
+   "year": 2013,
+   "journal": "University of Texas Press (book)",
+   "title": "The Latina Advantage: Gender, Race, and Political Success",
+   "claim": "Latina candidates hold an electoral advantage over Latino men because they can build coalitions across gender and ethnic constituencies and are seen as less threatening.",
+   "method": "Election data and survey analysis",
+   "themes": [
+    "intersectionality",
+    "latino"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.7560/745643); claim is my summary, not re-read this session",
+   "crossref_doi": "10.7560/745643"
+  },
+  {
+   "id": "dinesen2020",
+   "type": "work",
+   "label": "Dinesen 2020",
+   "authors": "Peter Thisted Dinesen, Merlin Schaeffer & Kim Mannemar Sønderskov",
+   "year": 2020,
+   "journal": "Annual Review of Political Science",
+   "title": "Ethnic Diversity and Social Trust: A Narrative and Meta-Analytical Review",
+   "claim": "Across 87 studies ethnic diversity has a modest negative relationship with social trust, strongest for trust in neighbors and at small geographic scales.",
+   "method": "Narrative review and meta-analysis",
+   "themes": [
+    "context",
+    "comparative"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-052918-020708",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-052918-020708); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "chankimleung2021",
+   "type": "work",
+   "label": "Chan 2021",
+   "authors": "Nathan Kar Ming Chan, Jae Yeon Kim & Vivien Leung",
+   "year": 2021,
+   "journal": "Perspectives on Politics",
+   "title": "COVID-19 and Asian Americans: How Elite Messaging and Social Exclusion Shape Partisan Attitudes",
+   "claim": "Elite rhetoric linking COVID-19 to China heightened Asian Americans' sense of exclusion and pushed their partisan attitudes away from Republicans.",
+   "method": "Survey experiment and survey analysis",
+   "themes": [
+    "asian",
+    "partisanship"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592721003091",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592721003091); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "keele2021",
+   "type": "work",
+   "label": "Keele 2021",
+   "authors": "Luke Keele, William Cubbison & Ismail White",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Suppressing Black Votes: A Historical Case Study of Voting Restrictions in Louisiana",
+   "claim": "Literacy tests, registration purges and related restrictions sharply cut Black voter registration in Louisiana, with effects visible at the parish level.",
+   "method": "Historical registration data; difference-in-differences",
+   "themes": [
+    "voting",
+    "apd"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421000034",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421000034); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "jefferson2023",
+   "type": "work",
+   "label": "Jefferson 2023",
+   "authors": "Hakeem Jefferson",
+   "year": 2023,
+   "journal": "APSR",
+   "title": "The Politics of Respectability and Black Americans’ Punitive Attitudes",
+   "claim": "Black Americans who endorse respectability politics are more supportive of punitive criminal justice policies, a source of Black support for punitive measures.",
+   "method": "Original surveys with a new respectability scale",
+   "themes": [
+    "black",
+    "carceral"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055422001289",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055422001289); claim is my summary, not re-read this session"
   }
  ]
 }

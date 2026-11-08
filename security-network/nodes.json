@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 262,
+   "work_nodes": 307,
    "theme_nodes": 21,
    "seed_from_papers_json": 83,
    "crossref_top_cited": 150,
    "anchors_supplement": 29,
-   "relation_edges": 277,
-   "membership_edges": 424
+   "relation_edges": 356,
+   "membership_edges": 497,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. The 150 Crossref-selected works take title, authors, year, venue and DOI from Crossref records. The 29 anchors were looked up in Crossref: 28 confirmed (books often via reviews or reprint DOIs); Waltz 1979 has no Crossref record. Repo entries with missing titles or authors were corrected from Crossref. All one-line claims for non-repo works are my summaries."
  },
@@ -5068,6 +5069,842 @@
    "source": "papers.json:QDEAS94S",
    "zotero": "https://www.zotero.org/georgeyean/items/QDEAS94S",
    "verified": "repo analysis (full text; not an empirical study)"
+  },
+  {
+   "id": "kyddwalter2002",
+   "type": "work",
+   "label": "Kydd 2002",
+   "authors": "Andrew Kydd & Barbara F. Walter",
+   "year": 2002,
+   "journal": "International Organization",
+   "title": "Sabotaging the Peace: The Politics of Extremist Violence",
+   "claim": "Extremists attack during peace processes to make moderates look untrustworthy.",
+   "method": "Formal model with Israeli-Palestinian evidence",
+   "themes": [
+    "terrorism",
+    "termination"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (International Organization, 2002; DOI 10.1162/002081802320005487)",
+   "crossref_doi": "10.1162/002081802320005487"
+  },
+  {
+   "id": "quinlivan1999",
+   "type": "work",
+   "label": "Quinlivan 1999",
+   "authors": "James T. Quinlivan",
+   "year": 1999,
+   "journal": "International Security",
+   "title": "Coup-Proofing: Its Practice and Consequences in the Middle East",
+   "claim": "Middle Eastern rulers coup-proof by relying on kin, parallel militaries and multiple security agencies.",
+   "method": "Comparative case analysis",
+   "themes": [
+    "repression"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (MIT Press, 1999; DOI 10.7249/rp844)"
+  },
+  {
+   "id": "christensen2006is",
+   "type": "work",
+   "label": "Christensen 2006",
+   "authors": "Thomas J. Christensen",
+   "year": 2006,
+   "journal": "International Security",
+   "title": "Fostering Stability or Creating a Monster? The Rise of China and U.S. Policy toward East Asia",
+   "claim": "US policy can foster stability with a rising China through a mix of deterrence and reassurance.",
+   "method": "Policy analysis",
+   "themes": [
+    "us-china",
+    "alliances"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.2006.31.1.81); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec.2006.31.1.81"
+  },
+  {
+   "id": "burke2009",
+   "type": "work",
+   "label": "Burke 2009",
+   "authors": "Marshall B. Burke et al.",
+   "year": 2009,
+   "journal": "PNAS",
+   "title": "Warming Increases the Risk of Civil War in Africa",
+   "claim": "Higher temperatures raise civil war incidence in Africa.",
+   "method": "Panel regression",
+   "themes": [
+    "cw-onset",
+    "econ-sec"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Proceedings of the National Academy of Sciences, 2009; DOI 10.1073/pnas.0907998106)",
+   "crossref_doi": "10.1073/pnas.0907998106"
+  },
+  {
+   "id": "caprioli2005",
+   "type": "work",
+   "label": "Caprioli 2005",
+   "authors": "M. Caprioli",
+   "year": 2005,
+   "journal": "ISQ",
+   "title": "Primed for Violence: The Role of Gender Inequality in Predicting Internal Conflict",
+   "claim": "States with greater gender inequality are more likely to experience intrastate conflict, because structural inequality normalizes violence and hierarchy.",
+   "method": "Cross-national event analysis, 1960-2001",
+   "themes": [
+    "gender",
+    "cw-onset"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.0020-8833.2005.00340.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.0020-8833.2005.00340.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "melander2005",
+   "type": "work",
+   "label": "Melander 2005",
+   "authors": "Erik Melander",
+   "year": 2005,
+   "journal": "ISQ",
+   "title": "Gender Equality and Intrastate Armed Conflict",
+   "claim": "Higher female representation in parliament and smaller gender gaps in education are associated with lower levels of intrastate armed conflict.",
+   "method": "Cross-national panel analysis",
+   "themes": [
+    "gender",
+    "cw-onset"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1468-2478.2005.00384.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1468-2478.2005.00384.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "thomasbond2015",
+   "type": "work",
+   "label": "Thomas 2015",
+   "authors": "Jakana L. Thomas & Kanisha D. Bond",
+   "year": 2015,
+   "journal": "APSR",
+   "title": "Women's Participation in Violent Political Organizations",
+   "claim": "Violent political organizations recruit women when their goals, ideology and need for support make female participation strategically useful.",
+   "method": "Original data on 166 violent organizations in Africa",
+   "themes": [
+    "gender",
+    "cw-dynamics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055415000313",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055415000313); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "goldstein2001",
+   "type": "work",
+   "label": "Goldstein 2001",
+   "authors": "Joshua S. Goldstein",
+   "year": 2001,
+   "journal": "Cambridge University Press (book)",
+   "title": "War and Gender: How Gender Shapes the War System and Vice Versa",
+   "claim": "The near-universal exclusion of women from combat reflects cultural construction of masculinity to make men fight, and war and gender roles shape each other.",
+   "method": "Interdisciplinary synthesis",
+   "themes": [
+    "gender",
+    "theory"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2004, DOI 10.4000/clio.1423); metadata from memory"
+  },
+  {
+   "id": "tannenwald1999",
+   "type": "work",
+   "label": "Tannenwald 1999",
+   "authors": "Nina Tannenwald",
+   "year": 1999,
+   "journal": "IO",
+   "title": "The Nuclear Taboo: The United States and the Normative Basis of Nuclear Non-Use",
+   "claim": "Nuclear non-use since 1945 rests partly on a normative taboo that delegitimized nuclear weapons, not on deterrence alone.",
+   "method": "Process tracing of US decisions",
+   "themes": [
+    "nuclear",
+    "law-inst"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081899550959",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081899550959); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "valentino2006",
+   "type": "work",
+   "label": "Valentino 2006",
+   "authors": "Benjamin Valentino, Paul Huth & Sarah Croco",
+   "year": 2006,
+   "journal": "World Politics",
+   "title": "Covenants Without the Sword International Law and the Protection of Civilians in Times of War",
+   "claim": "Ratifying the laws of war does not reduce states’ targeting of civilians in interstate wars; strategic incentives dominate.",
+   "method": "Statistical analysis of interstate wars, 1900-2003",
+   "themes": [
+    "law-inst",
+    "cw-dynamics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1353/wp.2007.0004",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/wp.2007.0004); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "zacher2001",
+   "type": "work",
+   "label": "Zacher 2001",
+   "authors": "Mark W. Zacher",
+   "year": 2001,
+   "journal": "IO",
+   "title": "The Territorial Integrity Norm: International Boundaries and the Use of Force",
+   "claim": "Since 1945 a norm against forcible border change has taken hold, sharply reducing successful territorial conquest.",
+   "method": "Historical analysis of territorial wars, 1648-2000",
+   "themes": [
+    "territory",
+    "law-inst"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/00208180151140568",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/00208180151140568); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "altman2020",
+   "type": "work",
+   "label": "Altman 2020",
+   "authors": "Dan Altman",
+   "year": 2020,
+   "journal": "IO",
+   "title": "The Evolution of Territorial Conquest After 1945 and the Limits of the Territorial Integrity Norm",
+   "claim": "Conquest did not disappear after 1945 but shifted toward small seizures of territory that avoid triggering the territorial integrity norm.",
+   "method": "Original dataset of conquest attempts, 1918-2018",
+   "themes": [
+    "territory"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818320000119",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818320000119); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "powell2012",
+   "type": "work",
+   "label": "Powell 2012",
+   "authors": "Jonathan Powell",
+   "year": 2012,
+   "journal": "Journal of Conflict Resolution",
+   "title": "Determinants of the Attempting and Outcome of Coups d’état",
+   "claim": "Coup-proofing measures and regime legitimacy shape both the likelihood that coups are attempted and that they succeed.",
+   "method": "Statistical analysis, 1961-2000",
+   "themes": [
+    "repression"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022002712445732",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022002712445732); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gohdes2020",
+   "type": "work",
+   "label": "Gohdes 2020",
+   "authors": "Anita R. Gohdes",
+   "year": 2020,
+   "journal": "AJPS",
+   "title": "Repression Technology: Internet Accessibility and State Violence",
+   "claim": "Where the Syrian regime controlled internet access, its violence was more targeted, because online surveillance supplied information for selective repression.",
+   "method": "Subnational analysis of Syrian killings and internet access",
+   "themes": [
+    "repression",
+    "tech"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12509",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12509); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wagner2000",
+   "type": "work",
+   "label": "Wagner 2000",
+   "authors": "R. Harrison Wagner",
+   "year": 2000,
+   "journal": "AJPS",
+   "title": "Bargaining and War",
+   "claim": "War is part of the bargaining process rather than its breakdown: fighting reveals information and shapes the terms states accept.",
+   "method": "Formal theory",
+   "themes": [
+    "bargaining"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2669259",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2669259); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "powell2004",
+   "type": "work",
+   "label": "Powell 2004",
+   "authors": "Robert Powell",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "The Inefficient Use of Power: Costly Conflict with Complete Information",
+   "claim": "Costly conflict can occur even with complete information when shifting power produces commitment problems over time.",
+   "method": "Formal model",
+   "themes": [
+    "bargaining"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000305540400111x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000305540400111x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "reiter2003",
+   "type": "work",
+   "label": "Reiter 2003",
+   "authors": "Dan Reiter",
+   "year": 2003,
+   "journal": "Perspectives on Politics",
+   "title": "Exploring the Bargaining Model of War",
+   "claim": "The bargaining model, centered on information and commitment problems, offers a unified account of war onset, conduct and termination.",
+   "method": "Review and synthesis",
+   "themes": [
+    "bargaining",
+    "termination"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/s1537592703000033); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s1537592703000033"
+  },
+  {
+   "id": "maozrussett1993",
+   "type": "work",
+   "label": "Maoz 1993",
+   "authors": "Zeev Maoz & Bruce Russett",
+   "year": 1993,
+   "journal": "APSR",
+   "title": "Normative and Structural Causes of Democratic Peace, 1946–1986",
+   "claim": "Democracies rarely fight each other, and both shared norms of peaceful conflict resolution and institutional constraints contribute, with norms somewhat stronger.",
+   "method": "Dyadic statistical analysis, 1946-1986",
+   "themes": [
+    "regime-war"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2938740",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2938740); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bdm1999",
+   "type": "work",
+   "label": "de Mesquita 1999",
+   "authors": "Bruce Bueno de Mesquita, James D. Morrow, Randolph M. Siverson & Alastair Smith",
+   "year": 1999,
+   "journal": "APSR",
+   "title": "An Institutional Explanation of the Democratic Peace",
+   "claim": "Leaders with large winning coalitions must win wars to survive, so democracies fight hard, choose targets carefully and rarely fight each other.",
+   "method": "Formal selectorate model with tests",
+   "themes": [
+    "regime-war",
+    "leaders"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2586113",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2586113); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mansfieldsnyder1995",
+   "type": "work",
+   "label": "Mansfield 1995",
+   "authors": "Edward D. Mansfield & Jack Snyder",
+   "year": 1995,
+   "journal": "International Security",
+   "title": "Democratization and the Danger of War",
+   "claim": "States in transition toward democracy are more war-prone than stable regimes, as elites use nationalist appeals amid weak institutions.",
+   "method": "Statistical analysis and historical cases",
+   "themes": [
+    "regime-war"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2539213",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2539213); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "onealrussett1997",
+   "type": "work",
+   "label": "Oneal 1997",
+   "authors": "John R. Oneal & Bruce M. Russet",
+   "year": 1997,
+   "journal": "ISQ",
+   "title": "The Classical Liberals Were Right: Democracy, Interdependence, and Conflict, 1950-1985",
+   "claim": "Higher bilateral trade dependence and joint democracy both independently reduce militarized disputes in politically relevant dyads.",
+   "method": "Dyadic logit analysis, 1950-1985",
+   "themes": [
+    "regime-war",
+    "econ-sec"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/1468-2478.00042",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/1468-2478.00042); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bdmsiverson1995",
+   "type": "work",
+   "label": "de Mesquita 1995",
+   "authors": "Bruce Bueno de Mesquita & Randolph M. Siverson",
+   "year": 1995,
+   "journal": "APSR",
+   "title": "War and the Survival of Political Leaders: A Comparative Study of Regime Types and Political Accountability",
+   "claim": "Leaders who lose wars are more likely to lose power, and democratic leaders are more selective about wars because of this accountability.",
+   "method": "Survival analysis of leaders, 1816-1975",
+   "themes": [
+    "leaders",
+    "regime-war"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2082512",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2082512); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "huthrussett1984",
+   "type": "work",
+   "label": "Huth 1984",
+   "authors": "Paul Huth & Bruce Russett",
+   "year": 1984,
+   "journal": "World Politics",
+   "title": "What Makes Deterrence Work? Cases from 1900 to 1980",
+   "claim": "Extended deterrence succeeds when the defender has a favorable local military balance and close economic and political ties to the protégé.",
+   "method": "Statistical analysis of 54 cases",
+   "themes": [
+    "reputation",
+    "alliances"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2010184",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2010184); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sartori2002",
+   "type": "work",
+   "label": "Sartori 2002",
+   "authors": "Anne E. Sartori",
+   "year": 2002,
+   "journal": "IO",
+   "title": "The Might of the Pen: A Reputational Theory of Communication in International Disputes",
+   "claim": "States keep diplomatic threats honest to maintain a reputation for honesty, which lets cheap talk be credible in later disputes.",
+   "method": "Formal model with tests",
+   "themes": [
+    "reputation",
+    "audience"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081802753485151",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081802753485151); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pape2003",
+   "type": "work",
+   "label": "Pape 2003",
+   "authors": "Robert A. Pape",
+   "year": 2003,
+   "journal": "APSR",
+   "title": "The Strategic Logic of Suicide Terrorism",
+   "claim": "Suicide terrorism is a strategic campaign used mainly by groups seeking to coerce democracies into withdrawing from territory they consider their homeland.",
+   "method": "Universe of suicide attacks, 1980-2001",
+   "themes": [
+    "terrorism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000305540300073x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000305540300073x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "buenodemesquita2005",
+   "type": "work",
+   "label": "De Mesquita 2005",
+   "authors": "Ethan Bueno De Mesquita",
+   "year": 2005,
+   "journal": "AJPS",
+   "title": "The Quality of Terror",
+   "claim": "Terrorist organizations screen volunteers for ability, so operatives are often educated and economically advantaged even though poor economic conditions raise recruitment.",
+   "method": "Formal model",
+   "themes": [
+    "terrorism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1540-5907.2005.00139.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2005.00139.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "horowitz2010io",
+   "type": "work",
+   "label": "Horowitz 2010",
+   "authors": "Michael C. Horowitz",
+   "year": 2010,
+   "journal": "IO",
+   "title": "Nonstate Actors and the Diffusion of Innovations: The Case of Suicide Terrorism",
+   "claim": "Suicide terrorism spreads to groups with the organizational capacity to adopt it, so adoption depends on group age, ties and resources.",
+   "method": "Statistical analysis of terrorist group adoption",
+   "themes": [
+    "terrorism",
+    "tech"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818309990233",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818309990233); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hegre2001",
+   "type": "work",
+   "label": "Hegre 2001",
+   "authors": "Håvard Hegre",
+   "year": 2001,
+   "journal": "APSR",
+   "title": "Toward a Democratic Civil Peace? Democracy, Political Change, and Civil War, 1816–1992",
+   "claim": "Intermediate regimes and recent regime change are most prone to civil war, while coherent democracies and autocracies are more stable.",
+   "method": "Cross-national event history, 1816-1992",
+   "themes": [
+    "cw-onset",
+    "regime-war"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055401000119",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055401000119); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ross2004io",
+   "type": "work",
+   "label": "Ross 2004",
+   "authors": "Michael L. Ross",
+   "year": 2004,
+   "journal": "IO",
+   "title": "How Do Natural Resources Influence Civil War? Evidence from Thirteen Cases",
+   "claim": "Resources affect civil war through specific mechanisms such as looting, separatism and booty futures, but rarely through rebel greed at onset.",
+   "method": "Thirteen comparative case studies",
+   "themes": [
+    "cw-onset",
+    "econ-sec"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s002081830458102x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s002081830458102x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lyall2010",
+   "type": "work",
+   "label": "Lyall 2010",
+   "authors": "Jason Lyall",
+   "year": 2010,
+   "journal": "APSR",
+   "title": "Are Coethnics More Effective Counterinsurgents? Evidence from the Second Chechen War",
+   "claim": "Sweeps by pro-Russian Chechen forces reduced subsequent insurgent violence more than Russian sweeps, because coethnics had better information.",
+   "method": "Matched village-level data, Chechnya",
+   "themes": [
+    "cw-dynamics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055409990323",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055409990323); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "staniland2012pop",
+   "type": "work",
+   "label": "Staniland 2012",
+   "authors": "Paul Staniland",
+   "year": 2012,
+   "journal": "Perspectives on Politics",
+   "title": "States, Insurgents, and Wartime Political Orders",
+   "claim": "Civil wars feature varied wartime political orders, including collusion and shared sovereignty between states and insurgents, not just contested control.",
+   "method": "Typology with South Asian cases",
+   "themes": [
+    "cw-dynamics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592712000655",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592712000655); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "doylesambanis2000",
+   "type": "work",
+   "label": "Doyle 2000",
+   "authors": "Michael W. Doyle & Nicholas Sambanis",
+   "year": 2000,
+   "journal": "APSR",
+   "title": "International Peacebuilding: A Theoretical and Quantitative Analysis",
+   "claim": "Multidimensional UN peace operations raise the chances of peacebuilding success, conditional on local hostility and capacities.",
+   "method": "Statistical analysis of civil wars, 1944-1997",
+   "themes": [
+    "termination"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2586208",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2586208); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hartzellhoddie2003",
+   "type": "work",
+   "label": "Hartzell 2003",
+   "authors": "Caroline Hartzell & Matthew Hoddie",
+   "year": 2003,
+   "journal": "AJPS",
+   "title": "Institutionalizing Peace: Power Sharing and Post‐Civil War Conflict Management",
+   "claim": "Negotiated settlements that share power along more dimensions (political, military, territorial, economic) are more likely to endure.",
+   "method": "Survival analysis of settlements, 1945-1998",
+   "themes": [
+    "termination"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/1540-5907.00022",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/1540-5907.00022); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stedman1997",
+   "type": "work",
+   "label": "Stedman 1997",
+   "authors": "Stephen John Stedman",
+   "year": 1997,
+   "journal": "International Security",
+   "title": "Spoiler Problems in Peace Processes",
+   "claim": "Peace processes fail when spoilers use violence to undermine them, and custodians must tailor strategies to limited, greedy or total spoilers.",
+   "method": "Comparative case studies",
+   "themes": [
+    "termination",
+    "terrorism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec.22.2.5",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.22.2.5); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "singhway2004",
+   "type": "work",
+   "label": "Singh 2004",
+   "authors": "Sonali Singh & Christopher R. Way",
+   "year": 2004,
+   "journal": "Journal of Conflict Resolution",
+   "title": "The Correlates of Nuclear Proliferation",
+   "claim": "Security threats and economic development, more than domestic or normative factors, drive states to explore and acquire nuclear weapons.",
+   "method": "Hazard analysis of proliferation stages",
+   "themes": [
+    "nuclear"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022002704269655",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022002704269655); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "monteirodebs2014",
+   "type": "work",
+   "label": "Monteiro 2014",
+   "authors": "Nuno P. Monteiro & Alexandre Debs",
+   "year": 2014,
+   "journal": "International Security",
+   "title": "The Strategic Logic of Nuclear Proliferation",
+   "claim": "States proliferate when they have high security motivation and can avoid preventive attack, a combination determined by their relations with allies and adversaries.",
+   "method": "Formal theory with historical cases",
+   "themes": [
+    "nuclear",
+    "alliances"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec_a_00177",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00177); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "christensensnyder1990",
+   "type": "work",
+   "label": "Christensen 1990",
+   "authors": "Thomas J. Christensen & Jack Snyder",
+   "year": 1990,
+   "journal": "IO",
+   "title": "Chain gangs and passed bucks: predicting alliance patterns in multipolarity",
+   "claim": "In multipolarity, states chain-gang when they perceive offense dominance and pass the buck when they perceive defense dominance.",
+   "method": "Theory with pre-1914 and 1930s cases",
+   "themes": [
+    "alliances",
+    "theory"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300035232",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300035232); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "morrow1991",
+   "type": "work",
+   "label": "Morrow 1991",
+   "authors": "James D. Morrow",
+   "year": 1991,
+   "journal": "AJPS",
+   "title": "Alliances and Asymmetry: An Alternative to the Capability Aggregation Model of Alliances",
+   "claim": "Asymmetric alliances trade security for autonomy between major and minor powers and are more durable than symmetric capability-aggregation pacts.",
+   "method": "Formal argument and survival analysis of alliances",
+   "themes": [
+    "alliances"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111499",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111499); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wohlforth1999",
+   "type": "work",
+   "label": "Wohlforth 1999",
+   "authors": "William C. Wohlforth",
+   "year": 1999,
+   "journal": "International Security",
+   "title": "The Stability of a Unipolar World",
+   "claim": "US unipolarity is durable and peaceful because the power gap deters balancing and hegemonic rivalry.",
+   "method": "Theoretical argument with power data",
+   "themes": [
+    "great-power",
+    "theory"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/016228899560031",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/016228899560031); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "jentleson1992",
+   "type": "work",
+   "label": "Jentleson 1992",
+   "authors": "Bruce W. Jentleson",
+   "year": 1992,
+   "journal": "ISQ",
+   "title": "The Pretty Prudent Public: Post Post-Vietnam American Opinion on the Use of Military Force",
+   "claim": "Americans support force for restraining foreign aggression but not for remaking other countries’ internal politics, a prudent rather than erratic pattern.",
+   "method": "Analysis of US polls on post-Vietnam uses of force",
+   "themes": [
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2600916",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2600916); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gartnersegura1998",
+   "type": "work",
+   "label": "Gartner 1998",
+   "authors": "Scott Sigmund Gartner & Gary M. Segura",
+   "year": 1998,
+   "journal": "Journal of Conflict Resolution",
+   "title": "War, Casualties, and Public Opinion",
+   "claim": "Public support for war responds to the trend and local incidence of casualties, not only to cumulative totals.",
+   "method": "Time-series analysis, Vietnam",
+   "themes": [
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022002798042003004",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022002798042003004); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "arreguintoft2001",
+   "type": "work",
+   "label": "Arreguín-Toft 2001",
+   "authors": "Ivan Arreguín-Toft",
+   "year": 2001,
+   "journal": "International Security",
+   "title": "How the Weak Win Wars: A Theory of Asymmetric Conflict",
+   "claim": "Weak actors win asymmetric wars when they adopt an opposite strategic approach (e.g., guerrilla war against conventional attack).",
+   "method": "Statistical analysis and case studies, 1800-1998",
+   "themes": [
+    "tech",
+    "cw-dynamics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/016228801753212868",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/016228801753212868); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "copeland1996",
+   "type": "work",
+   "label": "Copeland 1996",
+   "authors": "Dale C. Copeland",
+   "year": 1996,
+   "journal": "International Security",
+   "title": "Economic Interdependence and War: A Theory of Trade Expectations",
+   "claim": "Interdependence pacifies when leaders expect trade to remain open, but highly dependent states facing pessimistic trade expectations become more likely to start wars.",
+   "method": "Theory with historical cases",
+   "themes": [
+    "econ-sec",
+    "great-power"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec.20.4.5",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.20.4.5); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gartzkeliboehmer2001",
+   "type": "work",
+   "label": "Gartzke 2001",
+   "authors": "Erik Gartzke, Quan Li & Charles Boehmer",
+   "year": 2001,
+   "journal": "IO",
+   "title": "Investing in the Peace: Economic Interdependence and International Conflict",
+   "claim": "Capital interdependence and monetary integration reduce conflict by enabling costly signals of resolve that substitute for fighting, beyond the effect of trade.",
+   "method": "Signaling argument and dyadic regression",
+   "themes": [
+    "econ-sec",
+    "bargaining"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/00208180151140612",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/00208180151140612); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "christensen1999",
+   "type": "work",
+   "label": "Christensen 1999",
+   "authors": "Thomas J. Christensen",
+   "year": 1999,
+   "journal": "International Security",
+   "title": "China, the U.S.-Japan Alliance, and the Security Dilemma in East Asia",
+   "claim": "Chinese fears of a strengthened US–Japan alliance and Japanese remilitarization create an acute security dilemma in East Asia.",
+   "method": "Interviews and security-dilemma analysis",
+   "themes": [
+    "us-china",
+    "alliances"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec.23.4.49",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.23.4.49); claim is my summary, not re-read this session"
   }
  ]
 }

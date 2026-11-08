@@ -1,6 +1,6 @@
 # Political methodology, c. 1935–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 315 work nodes, 20 theme nodes and 353 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[rubin1974]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 360 work nodes, 20 theme nodes and 417 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[rubin1974]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Shared works (59):** Works already in other maps are reused. Most come from the technology map (text as data, machine learning, LLM annotation and silicon samples), the American politics map (field experiments, conjoint, ideal points, MRP) and political psychology (survey experiments and survey measurement). Others come from comparative politics (synthetic control, latent democracy, post-KKV methodology), IR and security (networks, selection bias, sensitivity analysis), REP, China and political economy.
@@ -72,6 +72,15 @@ Relations are judgments of how each work's argument relates to the other's, and 
 **Claimed.** Peer effects are hard to identify `[manski1993]`. **Settled.** Spatial and network dependence must be modeled `[beck2006isq]`, `[franzesehays2007]`, `[hoffward2004]`, `[cranmerdesmarais2011]`. **Contested.** Observational contagion `[christakisfowler2007]` vs `[shalizithomas2011]`. **Gaps.** Experimental designs for spillovers `[bond2012]`, `[aronowsamii2017]`.
 
 ---
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 45 works (41 new, 4 shared with other maps) and 64 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds top-journal methods papers across every theme, emphasizing thin ones: post-treatment bias and equivalence testing, fixed-effects interpretation and the FEVD debate, RD and IV pitfalls (multiple cutoffs, politician characteristics, weather instruments), survey-experiment design, conjoint and list estimators, Bayesian scaling and measurement (Jackman, Hare et al., anchoring vignettes, GGUM, V-Dem IRT), multilevel models with few clusters, event history, missing data, nonprobability samples, external validity, and network latent-factor models, plus imports of V-Dem, CHES and latent state capacity.
+
+Of the new works, 1 exists in Crossref only through a review (Little 2002).
 
 ## What I could not verify (flagged)
 Every anchor and library seed (125) was checked in Crossref: 113 matched directly. 6 books exist in Crossref only through reviews or chapters about them: Brady 2004, Brown 2020, Gerber 2012, Grimmer 2022, Open Science Collaboration 2015, Przeworski 1970. 6 were not found as their own Crossref record, so their metadata comes from memory: Achen 2002, Budge 2001, Fisher 1935, LaLonde 1986, Mikolov 2013, Rosenbaum 2002.

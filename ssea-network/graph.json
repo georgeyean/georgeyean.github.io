@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 306,
+   "work_nodes": 350,
    "theme_nodes": 18,
    "seed_from_papers_json": 6,
    "crossref_top_cited": 175,
    "anchors_supplement": 125,
-   "relation_edges": 362,
-   "membership_edges": 500
+   "relation_edges": 422,
+   "membership_edges": 573,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -5835,6 +5836,824 @@
    "source": "supplement",
    "zotero": null,
    "verified": "Crossref: title and author matched (CONTEMPORARY SOUTHEAST ASIA, 2011; DOI 10.1355/cs33-1h); Crossref date is a reprint, review or chapter"
+  },
+  {
+   "id": "stokes2013",
+   "type": "work",
+   "label": "Stokes 2013",
+   "authors": "Susan C. Stokes, Thad Dunning, Marcelo Nazareno & Valeria Brusco",
+   "year": 2013,
+   "journal": "Cambridge University Press (book)",
+   "title": "Brokers, Voters, and Clientelism: The Puzzle of Distributive Politics",
+   "claim": "Brokers have their own interests and target loyal voters, creating an agency problem for parties.",
+   "method": "Surveys of brokers and voters in four countries",
+   "themes": [
+    "clientelism"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2013; DOI 10.1017/cbo9781107324909)"
+  },
+  {
+   "id": "chhibberkollman1998",
+   "type": "work",
+   "label": "Chhibber 1998",
+   "authors": "Pradeep Chhibber & Ken Kollman",
+   "year": 1998,
+   "journal": "APSR",
+   "title": "Party Aggregation and the Number of Parties in India and the United States",
+   "claim": "Party systems aggregate into national systems when power is centralized in the national government; India's decentralization after 1990 fragmented its party system.",
+   "method": "Electoral data, India and the US over time",
+   "themes": [
+    "indiaparty",
+    "federalism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2585667",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2585667); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "oldenburg1987",
+   "type": "work",
+   "label": "Oldenburg 1987",
+   "authors": "Philip Oldenburg",
+   "year": 1987,
+   "journal": "World Politics",
+   "title": "Middlemen in Third-World Corruption: Implications of an Indian Case",
+   "claim": "In Indian land consolidation, middlemen exaggerate the need to bribe officials, so much perceived corruption is a broker-manufactured market.",
+   "method": "Field study, Uttar Pradesh",
+   "themes": [
+    "corruption",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2010290",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2010290); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hutchcroft1991",
+   "type": "work",
+   "label": "Hutchcroft 1991",
+   "authors": "Paul D. Hutchcroft",
+   "year": 1991,
+   "journal": "World Politics",
+   "title": "Oligarchs and Cronies in the Philippine State the Politics of Patrimonial Plunder",
+   "claim": "The Philippine state is patrimonial-oligarchic: a powerful oligarchy plunders a weak state apparatus, unlike bureaucratic capitalism elsewhere in Asia.",
+   "method": "Historical case analysis",
+   "themes": [
+    "philippines",
+    "corruption"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2010401",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2010401); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "crouch1979",
+   "type": "work",
+   "label": "Crouch 1979",
+   "authors": "Harold Crouch",
+   "year": 1979,
+   "journal": "World Politics",
+   "title": "Patrimonialism and Military Rule in Indonesia",
+   "claim": "Suharto's New Order rested on patrimonial distribution of rents to military officers, which bought elite loyalty but undermined rational administration.",
+   "method": "Case analysis, New Order Indonesia",
+   "themes": [
+    "civmil",
+    "indonesia"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2009910",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2009910); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "macintyre2001",
+   "type": "work",
+   "label": "MacIntyre 2001",
+   "authors": "Andrew MacIntyre",
+   "year": 2001,
+   "journal": "IO",
+   "title": "Institutions and Investors: The Politics of the Economic Crisis in Southeast Asia",
+   "claim": "Investor flight in the 1997 Asian crisis was worst where political institutions produced either too many or too few veto players, causing policy volatility or rigidity.",
+   "method": "Comparative cases, Southeast Asia 1997-98",
+   "themes": [
+    "devstate"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081801551423",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081801551423); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kalyvaskocher2009",
+   "type": "work",
+   "label": "Kalyvas 2009",
+   "authors": "Stathis N Kalyvas & Matthew Adam Kocher",
+   "year": 2009,
+   "journal": "Journal of Peace Research",
+   "title": "The Dynamics of Violence in Vietnam: An Analysis of the Hamlet Evaluation System (HES)",
+   "claim": "Hamlet-level US data from the Vietnam War show violence followed territorial control as the logic of violence in civil war predicts.",
+   "method": "Hamlet Evaluation System data, Vietnam",
+   "themes": [
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022343309102656",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022343309102656); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stubbs1999",
+   "type": "work",
+   "label": "Stubbs 1999",
+   "authors": "Richard Stubbs",
+   "year": 1999,
+   "journal": "Comparative Politics",
+   "title": "War and Economic Development: Export-Oriented Industrialization in East and Southeast Asia",
+   "claim": "War and external threat in East and Southeast Asia built strong states and US aid flows that enabled export-oriented industrialization.",
+   "method": "Comparative historical analysis",
+   "themes": [
+    "devstate"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422343",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422343); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cruzlabonnequerubin2020",
+   "type": "work",
+   "label": "Cruz 2020",
+   "authors": "Cesi Cruz, Julien Labonne & Pablo Querubín",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "Social Network Structures and the Politics of Public Goods Provision: Evidence from the Philippines",
+   "claim": "Philippine politicians who are more central in family networks deliver more public goods, because network position helps them coordinate and claim credit.",
+   "method": "Network data from family names, Philippine municipalities",
+   "themes": [
+    "clientelism",
+    "philippines"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055419000789",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055419000789); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gulzarhaaspasquale2020",
+   "type": "work",
+   "label": "Gulzar 2020",
+   "authors": "Saad Gulzar, Nicholas Haas & Benjamin Pasquale",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "Does Political Affirmative Action Work, and for Whom? Theory and Evidence on India’s Scheduled Areas",
+   "claim": "Reserving local offices for Scheduled Tribes in India's Scheduled Areas raised welfare-program benefits for the group without lowering them for others.",
+   "method": "Regression discontinuity, Indian Scheduled Areas",
+   "themes": [
+    "caste",
+    "federalism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055420000532",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055420000532); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "auerbachthachil2019",
+   "type": "work",
+   "label": "Auerbach 2019",
+   "authors": "Adam Michael Auerbach & Tariq Thachil",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "Cultivating Clients: Reputation, Responsiveness, and Ethnic Indifference in India's Slums",
+   "claim": "Slum residents choose brokers for their responsiveness and capacity, not shared caste or religion, so ethnic ties matter less than reputations.",
+   "method": "Surveys and conjoint experiments, Indian slums",
+   "themes": [
+    "clientelism",
+    "caste"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12468",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12468); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bhavnanilee2019",
+   "type": "work",
+   "label": "Bhavnani 2019",
+   "authors": "Rikhil R. Bhavnani & Alexander Lee",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "Does Affirmative Action Worsen Bureaucratic Performance? Evidence from the Indian Administrative Service",
+   "claim": "Indian Administrative Service officers recruited through caste quotas perform no worse in development outcomes than other officers.",
+   "method": "Administrative data on IAS officers",
+   "themes": [
+    "caste",
+    "corruption"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12497",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12497); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "berenschot2019",
+   "type": "work",
+   "label": "Berenschot 2019",
+   "authors": "Ward Berenschot",
+   "year": 2019,
+   "journal": "Journal of Peace Research",
+   "title": "Patterned pogroms: Patronage networks as infrastructure for electoral violence in India and Indonesia",
+   "claim": "Communal riots in India and Indonesia follow patronage networks that supply the infrastructure for organizing electoral violence.",
+   "method": "Comparative fieldwork, India and Indonesia",
+   "themes": [
+    "communal",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022343319889678",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022343319889678); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "springman2022",
+   "type": "work",
+   "label": "Springman 2022",
+   "authors": "Jeremy Springman, Edmund Malesky, Lucy Right & Erik Wibbels",
+   "year": 2022,
+   "journal": "ISQ",
+   "title": "The Effect of Government Repression on Civil Society: Evidence from Cambodia",
+   "claim": "Cambodia's crackdown on civil society deterred political activity by NGOs and shifted them toward apolitical service provision.",
+   "method": "Panel survey of Cambodian NGOs around the crackdown",
+   "themes": [
+    "authdur"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/isq/sqac028",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqac028); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "chang2022isq",
+   "type": "work",
+   "label": "Chang 2022",
+   "authors": "Jun Yan Chang",
+   "year": 2022,
+   "journal": "ISQ",
+   "title": "Not between the Devil and the Deep Blue Sea: Singapore's Hedging",
+   "claim": "Singapore's hedging is not a midpoint between the US and China but a set of insurance strategies against several risks at once, so hedging needs reconceptualizing.",
+   "method": "Case study, Singapore foreign policy",
+   "themes": [
+    "asean"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/isq/sqac034",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqac034); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "loughlin2025",
+   "type": "work",
+   "label": "Loughlin 2025",
+   "authors": "Neil Loughlin",
+   "year": 2025,
+   "journal": "Comparative Politics",
+   "title": "Is Chinese Investment Driving Authoritarianism? Evidence from the First Decade of the Belt and Road in Southeast Asia",
+   "claim": "Belt and Road investment in Southeast Asia has not itself driven authoritarianism; domestic incumbents decide how Chinese capital is used.",
+   "method": "Comparative analysis of BRI recipients, 2013-2023",
+   "themes": [
+    "authdur",
+    "asean"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041525x17370641227381",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041525x17370641227381); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sombatpoonsiri2023",
+   "type": "work",
+   "label": "Sombatpoonsiri 2023",
+   "authors": "Janjira Sombatpoonsiri",
+   "year": 2023,
+   "journal": "Journal of Peace Research",
+   "title": "‘A lot of people still love and worship the monarchy’: How polarizing frames trigger countermobilization in Thailand",
+   "claim": "Thai royalist countermobilization against the 2020 youth protests was triggered by polarizing frames that cast the movement as a threat to the monarchy.",
+   "method": "Interviews and protest data, Thailand 2020-21",
+   "themes": [
+    "thailand"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/00223433221142932",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/00223433221142932); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pelletier2021",
+   "type": "work",
+   "label": "Pelletier 2021",
+   "authors": "Alexandre Pelletier",
+   "year": 2021,
+   "journal": "Comparative Politics",
+   "title": "Competition for Religious Authority and Islamist Mobilization in Indonesia",
+   "claim": "Islamist mobilization in Indonesia grows from competition for religious authority among Muslim organizations, not from top-down party strategy.",
+   "method": "Fieldwork and case comparison",
+   "themes": [
+    "religion",
+    "indonesia"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041521x15974471626004",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041521x15974471626004); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bullockimaishapiro2011",
+   "type": "work",
+   "label": "Bullock 2011",
+   "authors": "Will Bullock, Kosuke Imai & Jacob N. Shapiro",
+   "year": 2011,
+   "journal": "Political Analysis",
+   "title": "Statistical Analysis of Endorsement Experiments: Measuring Support for Militant Groups in Pakistan",
+   "claim": "Endorsement experiments with a Bayesian model can measure support for militant groups in Pakistan without asking sensitive questions directly.",
+   "method": "Endorsement experiment and statistical method",
+   "themes": [
+    "conflict",
+    "religion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/pan/mpr031",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpr031); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "robison1988",
+   "type": "work",
+   "label": "Robison 1988",
+   "authors": "Richard Robison",
+   "year": 1988,
+   "journal": "World Politics",
+   "title": "Authoritarian States, Capital-Owning Classes, and the Politics of Newly Industrializing Countries: The Case of Indonesia",
+   "claim": "Authoritarian rule in New Order Indonesia fostered a capital-owning class whose growing power began to reshape the state's policy agenda.",
+   "method": "Political economy case analysis",
+   "themes": [
+    "indonesia",
+    "devstate"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2010479",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2010479); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "liddle1991",
+   "type": "work",
+   "label": "Liddle 1991",
+   "authors": "R. William Liddle",
+   "year": 1991,
+   "journal": "ISQ",
+   "title": "The Relative Autonomy of the Third World Politician: Soeharto and Indonesian Economic Development in Comparative Perspective",
+   "claim": "Suharto as a politician had real autonomy from social classes, and his own choices explain Indonesia's shift toward market-oriented policy.",
+   "method": "Case analysis, New Order policy making",
+   "themes": [
+    "indonesia",
+    "devstate"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2600948",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2600948); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "nasr2000",
+   "type": "work",
+   "label": "Nasr 2000",
+   "authors": "Vali R. Nasr",
+   "year": 2000,
+   "journal": "Comparative Politics",
+   "title": "International Politics, Domestic Imperatives, and Identity Mobilization: Sectarianism in Pakistan, 1979-1998",
+   "claim": "Sectarian Sunni-Shia violence in Pakistan after 1979 grew from state Islamization combined with Iranian and Saudi rivalry funding sectarian groups.",
+   "method": "Historical case analysis",
+   "themes": [
+    "religion",
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422396",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422396); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ganguly1996",
+   "type": "work",
+   "label": "Ganguly 1996",
+   "authors": "Šumit Ganguly",
+   "year": 1996,
+   "journal": "International Security",
+   "title": "Explaining the Kashmir Insurgency: Political Mobilization and Institutional Decay",
+   "claim": "The Kashmir insurgency arose when rising political mobilization met decaying democratic institutions that closed off peaceful channels.",
+   "method": "Historical case analysis",
+   "themes": [
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec.21.2.76",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.21.2.76); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pierskalla2020",
+   "type": "work",
+   "label": "Pierskalla 2020",
+   "authors": "Jan H. Pierskalla, Adam Lauretig, Andrew S. Rosenberg & Audrey Sacks",
+   "year": 2020,
+   "journal": "AJPS",
+   "title": "Democratization and Representative Bureaucracy: An Analysis of Promotion Patterns in Indonesia's Civil Service, 1980–2015",
+   "claim": "After Indonesia's democratization, promotion of civil servants began to reflect local religious makeup, producing a more representative bureaucracy.",
+   "method": "Personnel records of Indonesian civil servants",
+   "themes": [
+    "corruption",
+    "indonesia"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12536",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12536); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "auerbachkruks2020",
+   "type": "work",
+   "label": "Auerbach 2020",
+   "authors": "Adam Michael Auerbach & Gabrielle Kruks-Wisner",
+   "year": 2020,
+   "journal": "Perspectives on Politics",
+   "title": "The Geography of Citizenship Practice: How the Poor Engage the State in Rural and Urban India",
+   "claim": "Poor Indians in cities and villages make claims on the state differently: rural residents use more channels and engage more directly than slum dwellers.",
+   "method": "Surveys in rural Rajasthan and urban slums",
+   "themes": [
+    "federalism",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592720000043",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592720000043); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ang2014cp",
+   "type": "work",
+   "label": "Ang 2014",
+   "authors": "Yuen Yuen Ang",
+   "year": 2014,
+   "journal": "Comparative Politics",
+   "title": "Authoritarian Restraints on Online Activism Revisited: Why “I-Paid-A-Bribe” Worked in India but Failed in China",
+   "claim": "India's I-Paid-A-Bribe site thrived while Chinese copies were shut down, because the Chinese state restrains online collective action even when it targets corruption.",
+   "method": "Paired comparison, India and China",
+   "themes": [
+    "corruption"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041514813623100",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041514813623100); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "maleskyschuler2010",
+   "type": "work",
+   "label": "Malesky 2010",
+   "authors": "Edmund Malesky & Paul Schuler",
+   "year": 2010,
+   "journal": "APSR",
+   "title": "Nodding or Needling: Analyzing Delegate Responsiveness in an Authoritarian Parliament",
+   "claim": "Delegates to Vietnam's National Assembly vary in how critically they question ministers depending on their career incentives and electoral context, showing authoritarian legislatures perform real if bounded information and co-optation roles.",
+   "method": "Content analysis of legislative query transcripts, Vietnam",
+   "themes": [
+    "authdur"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055410000250",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055410000250); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "maleskyschulertran2012",
+   "type": "work",
+   "label": "Malesky 2012",
+   "authors": "Edmund Malesky, Paul Schuler & Anh Tran",
+   "year": 2012,
+   "journal": "American Political Science Review",
+   "title": "The Adverse Effects of Sunshine: A Field Experiment on Legislative Transparency in an Authoritarian Assembly",
+   "claim": "Publicizing Vietnamese delegates' performance did not improve it and led exposed delegates to curb critical activity and risk demotion.",
+   "method": "Field experiment, Vietnam National Assembly",
+   "themes": [
+    "authdur",
+    "corruption"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "slaterwong2013",
+   "type": "work",
+   "label": "Slater 2013",
+   "authors": "Dan Slater & Joseph Wong",
+   "year": 2013,
+   "journal": "Perspectives on Politics",
+   "title": "The Strength to Concede: Ruling Parties and Democratization in Developmental Asia",
+   "claim": "Strong ruling parties in developmental Asia democratize from a position of strength when they expect to keep winning, conceding to preempt decline.",
+   "method": "Comparative historical analysis, Taiwan, Korea, Indonesia",
+   "themes": [
+    "authdur",
+    "devstate"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/s1537592713002090); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s1537592713002090"
+  },
+  {
+   "id": "pepinsky2014bjps",
+   "type": "work",
+   "label": "Pepinsky 2014",
+   "authors": "Thomas Pepinsky",
+   "year": 2014,
+   "journal": "British Journal of Political Science",
+   "title": "The Institutional Turn in Comparative Authoritarianism",
+   "claim": "Authoritarian institutions often reflect underlying power and coalitions, so treating parties and legislatures as causes risks confusing endogenous outcomes with explanations.",
+   "method": "Critical review and theory",
+   "themes": [
+    "authdur"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/s0007123413000021); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0007123413000021"
+  },
+  {
+   "id": "slater2009ajs",
+   "type": "work",
+   "label": "Slater 2009",
+   "authors": "Dan Slater",
+   "year": 2009,
+   "journal": "American Journal of Sociology",
+   "title": "Revolutions, Crackdowns, and Quiescence: Communal Elites and Democratic Mobilization in Southeast Asia",
+   "claim": "Mass democratic mobilization succeeds in Southeast Asia when communal elites such as religious leaders lend nationalist and religious legitimacy to protest.",
+   "method": "Comparative historical analysis",
+   "themes": [
+    "authdur",
+    "religion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1086/597796); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1086/597796"
+  },
+  {
+   "id": "thachil2017ajps",
+   "type": "work",
+   "label": "Thachil 2017",
+   "authors": "Tariq Thachil",
+   "year": 2017,
+   "journal": "American Journal of Political Science",
+   "title": "Do Rural Migrants Divide Ethnically in the City? Evidence from an Ethnographic Experiment in India",
+   "claim": "An ethnographic experiment in Delhi day-labor markets finds that caste and religion divide rural migrant workers less than theories of urban ethnic politics expect.",
+   "method": "Ethnographic experiment, Delhi labor markets",
+   "themes": [
+    "caste",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/ajps.12315); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/ajps.12315"
+  },
+  {
+   "id": "ahuja2019",
+   "type": "work",
+   "label": "Ahuja 2019",
+   "authors": "Amit Ahuja",
+   "year": 2019,
+   "journal": "Oxford University Press (book)",
+   "title": "Mobilizing the Marginalized: Ethnic Parties without Ethnic Movements",
+   "claim": "Dalit parties win where Dalit social movements are weak, because strong movements tie Dalits to multiethnic parties that already deliver for them.",
+   "method": "Comparison of Indian states, surveys and fieldwork",
+   "themes": [
+    "caste",
+    "indiaparty"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1093/oso/9780190916428.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/oso/9780190916428.001.0001"
+  },
+  {
+   "id": "chhibberverma2018",
+   "type": "work",
+   "label": "Chhibber 2018",
+   "authors": "Pradeep K. Chhibber & Rahul Verma",
+   "year": 2018,
+   "journal": "Oxford University Press (book)",
+   "title": "Ideology and Identity: The Changing Party Systems of India",
+   "claim": "Indian voters and parties divide on ideology over state redistribution and recognition of group identities, so the party system is not merely patronage or caste arithmetic.",
+   "method": "National election surveys, India",
+   "themes": [
+    "indiaparty",
+    "hindunat"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2019, DOI 10.1080/17153379.2019.12559504); metadata from memory"
+  },
+  {
+   "id": "jensenius2017",
+   "type": "work",
+   "label": "Jensenius 2017",
+   "authors": "Francesca Refsum Jensenius",
+   "year": 2017,
+   "journal": "Oxford University Press (book)",
+   "title": "Social Justice through Inclusion: The Consequences of Electoral Quotas in India",
+   "claim": "Reserved constituencies for Scheduled Castes did not improve SC development outcomes but did normalize Dalit presence in politics.",
+   "method": "Natural experiment from delimitation, Indian states",
+   "themes": [
+    "caste"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1093/oso/9780190646608.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/oso/9780190646608.001.0001"
+  },
+  {
+   "id": "staniland2021",
+   "type": "work",
+   "label": "Staniland 2021",
+   "authors": "Paul Staniland",
+   "year": 2021,
+   "journal": "Cornell University Press (book)",
+   "title": "Ordering Violence: Explaining Armed Group-State Relations from Conflict to Cooperation",
+   "claim": "States in South Asia treat armed groups as allies, rivals or enemies according to ideological fit with leaders' projects, producing collusion as well as war.",
+   "method": "Comparative case data, South Asia",
+   "themes": [
+    "conflict"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.7591/cornell/9781501761102.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.7591/cornell/9781501761102.001.0001"
+  },
+  {
+   "id": "lacina2017",
+   "type": "work",
+   "label": "Lacina 2017",
+   "authors": "Bethany Lacina",
+   "year": 2017,
+   "journal": "University of Michigan Press (book)",
+   "title": "Rival Claims: Ethnic Violence and Territorial Autonomy under Indian Federalism",
+   "claim": "Indian governments grant new states or autonomy depending on rival local groups and their ties to the center, and these decisions drive violent movements.",
+   "method": "Data on Indian autonomy movements",
+   "themes": [
+    "federalism",
+    "communal"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.3998/mpub.8877283); claim is my summary, not re-read this session",
+   "crossref_doi": "10.3998/mpub.8877283"
+  },
+  {
+   "id": "weissm2020",
+   "type": "work",
+   "label": "Weiss 2020",
+   "authors": "Meredith L. Weiss",
+   "year": 2020,
+   "journal": "Cornell University Press (book)",
+   "title": "The Roots of Resilience: Party Machines and Grassroots Politics in Southeast Asia",
+   "claim": "Dominant parties in Malaysia and Singapore endure through grassroots machines that link local service delivery to partisan loyalty.",
+   "method": "Comparative fieldwork, Malaysia and Singapore",
+   "themes": [
+    "authdur",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.7591/cornell/9781501750045.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.7591/cornell/9781501750045.001.0001"
+  },
+  {
+   "id": "sinpeng2021",
+   "type": "work",
+   "label": "Sinpeng 2021",
+   "authors": "Aim Sinpeng",
+   "year": 2021,
+   "journal": "University of Michigan Press (book)",
+   "title": "Opposing Democracy in the Digital Age: The Yellow Shirts in Thailand",
+   "claim": "The royalist Yellow Shirt movement used online and offline mobilization to delegitimize elected governments and invite coups.",
+   "method": "Digital trace data and fieldwork, Thailand",
+   "themes": [
+    "thailand",
+    "backsliding"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.3998/mpub.11666233); claim is my summary, not re-read this session",
+   "crossref_doi": "10.3998/mpub.11666233"
+  },
+  {
+   "id": "schuler2021",
+   "type": "work",
+   "label": "Schuler 2021",
+   "authors": "Paul Schuler",
+   "year": 2021,
+   "journal": "Stanford University Press (book)",
+   "title": "United Front: Projecting Solidarity through Deliberation in Vietnam's Single-Party Legislature",
+   "claim": "Vietnam's legislature mainly signals regime unity, with critical debate allowed only when it does not expose elite divisions.",
+   "method": "Legislative records and text analysis",
+   "themes": [
+    "authdur"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1515/9781503614758); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1515/9781503614758"
+  },
+  {
+   "id": "thachilteitelbaum2015",
+   "type": "work",
+   "label": "Thachil 2015",
+   "authors": "Tariq Thachil & Emmanuel Teitelbaum",
+   "year": 2015,
+   "journal": "Comparative Political Studies",
+   "title": "Ethnic Parties and Public Spending: New Theory and Evidence from the Indian States",
+   "claim": "States where lower-caste parties hold power do not spend less on public goods; ethnic parties can favor broad programs that reach their base.",
+   "method": "Panel data on Indian state budgets",
+   "themes": [
+    "caste"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1177/0010414015576743); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/0010414015576743"
+  },
+  {
+   "id": "basu2015",
+   "type": "work",
+   "label": "Basu 2015",
+   "authors": "Amrita Basu",
+   "year": 2015,
+   "journal": "Cambridge University Press (book)",
+   "title": "Violent Conjunctures in Democratic India",
+   "claim": "Anti-minority violence occurs where Hindu nationalist party, movement and state are aligned at a given moment, and recedes when they diverge.",
+   "method": "Comparative cases of Indian states",
+   "themes": [
+    "hindunat",
+    "communal"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9781316105719); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9781316105719"
+  },
+  {
+   "id": "iyershrivastava2018",
+   "type": "work",
+   "label": "Iyer 2018",
+   "authors": "Sriya Iyer & Anand Shrivastava",
+   "year": 2018,
+   "journal": "Journal of Development Economics",
+   "title": "Religious Riots and Electoral Politics in India",
+   "claim": "Hindu-Muslim riots before state elections raise the vote share of the BJP, showing a direct electoral payoff to communal violence.",
+   "method": "District panel data, Indian state elections",
+   "themes": [
+    "hindunat",
+    "communal"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1016/j.jdeveco.2017.11.003); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1016/j.jdeveco.2017.11.003"
+  },
+  {
+   "id": "varshney2014jod",
+   "type": "work",
+   "label": "Varshney 2014",
+   "authors": "Ashutosh Varshney",
+   "year": 2014,
+   "journal": "Journal of Democracy",
+   "title": "India's Watershed Vote: Hindu Nationalism in Power?",
+   "claim": "The BJP's 2014 majority came from Modi's development appeal more than Hindu nationalism, but put a Hindu nationalist party in sole control for the first time.",
+   "method": "Election analysis",
+   "themes": [
+    "hindunat",
+    "indiaparty"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1353/jod.2014.0071); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/jod.2014.0071"
   }
  ],
  "edges": [
@@ -8009,6 +8828,366 @@
    "target": "kuik2016",
    "type": "mechanism_tested_by",
    "why": "Public opinion on hedging in the Philippines."
+  },
+  {
+   "source": "chhibberkollman2004",
+   "target": "chhibberkollman1998",
+   "type": "builds_on",
+   "why": "Expands the article's centralization account of party aggregation into a four-country theory of national party systems."
+  },
+  {
+   "source": "oldenburg1987",
+   "target": "wade1982",
+   "type": "builds_on",
+   "why": "Recasts the corruption system Wade described by showing middlemen inflate the need for bribes in Indian land administration."
+  },
+  {
+   "source": "hutchcroft1991",
+   "target": "anderson1988",
+   "type": "builds_on",
+   "why": "Gives Anderson's cacique democracy a state-theoretic form: an oligarchy plundering a weak patrimonial state."
+  },
+  {
+   "source": "hutchcroft1998",
+   "target": "hutchcroft1991",
+   "type": "builds_on",
+   "why": "Applies the patrimonial-oligarchic state concept to banking, showing how oligarchs captured Philippine finance."
+  },
+  {
+   "source": "crouch1979",
+   "target": "crouch1978",
+   "type": "builds_on",
+   "why": "Generalizes Crouch's account of the army in politics into a patrimonial model of New Order rule."
+  },
+  {
+   "source": "pepinsky2009book",
+   "target": "macintyre2001",
+   "type": "challenges",
+   "why": "Explains crisis adjustment in Indonesia and Malaysia by coalitions of mobile and fixed capital rather than the veto-player configuration MacIntyre stresses."
+  },
+  {
+   "source": "kalyvaskocher2009",
+   "target": "kalyvas2006",
+   "type": "mechanism_tested_by",
+   "why": "Tests the control-collaboration theory of violence with hamlet-level Vietnam data, finding violence tracks territorial control."
+  },
+  {
+   "source": "kocher2011",
+   "target": "kalyvaskocher2009",
+   "type": "builds_on",
+   "why": "Uses the same HES hamlet data to show US bombing pushed villages toward insurgent control."
+  },
+  {
+   "source": "stubbs1999",
+   "target": "haggard1990",
+   "type": "qualifies",
+   "why": "Adds war, external threat and US aid as preconditions for the export-oriented strategies Haggard explains through domestic coalitions."
+  },
+  {
+   "source": "doner2005",
+   "target": "stubbs1999",
+   "type": "builds_on",
+   "why": "Systemic vulnerability builds on Stubbs's claim that external threat forced Asian elites to build developmental capacity."
+  },
+  {
+   "source": "cruzlabonnequerubin2020",
+   "target": "querubin2016",
+   "type": "builds_on",
+   "why": "Moves from dynastic persistence to the family networks behind it, showing network centrality shapes public-goods provision."
+  },
+  {
+   "source": "gulzarhaaspasquale2020",
+   "target": "pande2003",
+   "type": "builds_on",
+   "why": "Extends Pande's evidence on mandated representation to Scheduled Tribe reservation in local government, finding gains for the target group."
+  },
+  {
+   "source": "auerbachthachil2019",
+   "target": "auerbachthachil2018",
+   "type": "builds_on",
+   "why": "Follows up on how clients choose brokers by showing brokers cultivate reputations for responsiveness across ethnic lines."
+  },
+  {
+   "source": "auerbachthachil2019",
+   "target": "chandra2004",
+   "type": "challenges",
+   "why": "Finds slum residents prefer capable, responsive brokers over coethnics, questioning the ethnic head-count logic of patronage."
+  },
+  {
+   "source": "bhavnanilee2019",
+   "target": "bhavnanilee2018",
+   "type": "builds_on",
+   "why": "Extends the study of IAS performance to quota recruits, finding no loss in development outcomes."
+  },
+  {
+   "source": "berenschot2019",
+   "target": "brass2003",
+   "type": "builds_on",
+   "why": "Shows patronage networks supply the organizational infrastructure of riots that Brass called institutionalized riot systems."
+  },
+  {
+   "source": "berenschot2019",
+   "target": "wilkinson2004",
+   "type": "qualifies",
+   "why": "Adds patronage networks as the organizational channel through which electoral incentives produce riots."
+  },
+  {
+   "source": "springman2022",
+   "target": "morgenbesser2019",
+   "type": "builds_on",
+   "why": "Measures how the repression that marked Cambodia's hegemonic turn depoliticized civil-society organizations."
+  },
+  {
+   "source": "chang2022isq",
+   "target": "kuik2016",
+   "type": "qualifies",
+   "why": "Reconceptualizes Singapore's hedging as insurance against multiple risks rather than equidistance, refining Kuik's account of how weaker states hedge."
+  },
+  {
+   "source": "loughlin2025",
+   "target": "morgenbesser2019",
+   "type": "builds_on",
+   "why": "Asks whether Chinese capital explains authoritarian hardening such as Cambodia's, and points to domestic incumbents' choices instead."
+  },
+  {
+   "source": "sombatpoonsiri2023",
+   "target": "mccargo2005",
+   "type": "builds_on",
+   "why": "Shows how frames of threat to the network monarchy triggered royalist countermobilization in 2020."
+  },
+  {
+   "source": "pelletier2021",
+   "target": "menchik2016",
+   "type": "builds_on",
+   "why": "Explains Islamist mobilization through competition among the mass Muslim organizations whose politics Menchik analyzed."
+  },
+  {
+   "source": "pelletier2021",
+   "target": "mietzner2018",
+   "type": "builds_on",
+   "why": "Traces the organizational roots of the Islamist populist mobilization that Mietzner links to democratic deconsolidation."
+  },
+  {
+   "source": "bullockimaishapiro2011",
+   "target": "shapirofair2010",
+   "type": "builds_on",
+   "why": "Provides the statistical model for the endorsement experiments used to measure support for Pakistani militant groups."
+  },
+  {
+   "source": "robison1988",
+   "target": "crouch1979",
+   "type": "qualifies",
+   "why": "Argues the patrimonial New Order was nurturing a capital-owning class that would constrain the state, adding class dynamics to Crouch's model."
+  },
+  {
+   "source": "robisonhadiz2004",
+   "target": "robison1988",
+   "type": "builds_on",
+   "why": "Develops Robison's class analysis into an account of oligarchic power persisting through Indonesia's democratization."
+  },
+  {
+   "source": "liddle1991",
+   "target": "robison1988",
+   "type": "challenges",
+   "why": "Argues Suharto's own autonomy, not pressure from a capitalist class, explains New Order policy shifts."
+  },
+  {
+   "source": "nasr2001",
+   "target": "nasr2000",
+   "type": "builds_on",
+   "why": "Places the state Islamization that fed sectarian conflict into a broader account of Islam and state building in Pakistan and Malaysia."
+  },
+  {
+   "source": "ganguly1996",
+   "target": "kohli1990",
+   "type": "extends_to_new_case",
+   "why": "Applies Kohli's mobilization-versus-institutional-decay account of India's governability crisis to the Kashmir insurgency."
+  },
+  {
+   "source": "bose2003",
+   "target": "ganguly1996",
+   "type": "builds_on",
+   "why": "Like Ganguly, traces the insurgency to New Delhi's subversion of democratic institutions in Kashmir."
+  },
+  {
+   "source": "pierskalla2020",
+   "target": "pierskallasacks2019",
+   "type": "builds_on",
+   "why": "Extends Pierskalla's study of politicized hiring in Indonesia to promotions, finding democratization made the bureaucracy more representative."
+  },
+  {
+   "source": "auerbachkruks2020",
+   "target": "kruks2018",
+   "type": "builds_on",
+   "why": "Compares the rural claim-making Kruks-Wisner documented with urban slums, finding sharp differences in how the poor engage the state."
+  },
+  {
+   "source": "auerbachkruks2020",
+   "target": "auerbach2020",
+   "type": "builds_on",
+   "why": "Brings Auerbach's slum-level evidence on informal leaders into a rural-urban comparison of citizenship practice."
+  },
+  {
+   "source": "ang2014cp",
+   "target": "bertrand2007",
+   "type": "builds_on",
+   "why": "Studies an online anti-bribery campaign in India, the petty-corruption setting that Bertrand et al. measured experimentally."
+  },
+  {
+   "source": "maleskyschuler2010",
+   "target": "gandhi2008",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether authoritarian legislatures provide a forum for responsiveness, finding Vietnamese delegates do question ministers critically."
+  },
+  {
+   "source": "maleskyschulertran2012",
+   "target": "maleskyschuler2010",
+   "type": "builds_on",
+   "why": "Experimentally publicizes the delegate activity measured earlier and finds transparency chills criticism in an authoritarian assembly."
+  },
+  {
+   "source": "slaterwong2013",
+   "target": "slater2012jod",
+   "type": "builds_on",
+   "why": "Generalizes strong-state democratization into a theory of ruling parties conceding from strength."
+  },
+  {
+   "source": "pepinsky2014bjps",
+   "target": "gandhi2008",
+   "type": "challenges",
+   "why": "Argues authoritarian institutions mostly reflect underlying power and coalitions, questioning causal claims that legislatures and parties sustain dictatorships."
+  },
+  {
+   "source": "slater2009ajs",
+   "target": "aspinall2005",
+   "type": "builds_on",
+   "why": "Explains successful mass opposition such as that against Suharto by the support of communal and religious elites."
+  },
+  {
+   "source": "slater2010",
+   "target": "slater2009ajs",
+   "type": "builds_on",
+   "why": "Extends the role of communal elites in contention into a full theory of contentious politics and authoritarian durability."
+  },
+  {
+   "source": "thachil2017ajps",
+   "target": "chandra2004",
+   "type": "qualifies",
+   "why": "Finds caste divides urban migrant workers less than expected, a scope condition on ethnic head-counting in urban India."
+  },
+  {
+   "source": "ahuja2019",
+   "target": "chandra2004",
+   "type": "challenges",
+   "why": "Argues Dalit parties succeed where Dalit movements are weak, a different account of ethnic-party success from patronage and head counts."
+  },
+  {
+   "source": "ahuja2019",
+   "target": "jaffrelot2003",
+   "type": "builds_on",
+   "why": "Explains variation across states in the lower-caste political rise that Jaffrelot documented in North India."
+  },
+  {
+   "source": "chhibberverma2018",
+   "target": "chhibber1999",
+   "type": "challenges",
+   "why": "Argues ideology over redistribution and group recognition structures Indian party competition, not only cleavages mobilized without associations."
+  },
+  {
+   "source": "chhibberverma2019",
+   "target": "chhibberverma2018",
+   "type": "builds_on",
+   "why": "Applies the ideology-and-identity framework to the BJP's new social coalition in 2019."
+  },
+  {
+   "source": "jensenius2017",
+   "target": "pande2003",
+   "type": "qualifies",
+   "why": "Finds Scheduled Caste reservation did little for SC development outcomes, narrowing Pande's evidence on gains from mandated representation."
+  },
+  {
+   "source": "staniland2021",
+   "target": "staniland2014",
+   "type": "builds_on",
+   "why": "Moves from insurgent organization to the full range of state-armed group relations, from collusion to war."
+  },
+  {
+   "source": "lacina2017",
+   "target": "lacina2009",
+   "type": "builds_on",
+   "why": "Develops Lacina's account of Northeast India into a general theory of how the center grants autonomy among rival claims."
+  },
+  {
+   "source": "lacina2017",
+   "target": "tillin2013",
+   "type": "builds_on",
+   "why": "Explains which new-state demands succeed, extending Tillin's study of state creation to the role of violence and rival groups."
+  },
+  {
+   "source": "weissm2020",
+   "target": "brownlee2008jeas",
+   "type": "builds_on",
+   "why": "Grounds party-based regime durability in Malaysia and Singapore in grassroots party machines."
+  },
+  {
+   "source": "weissm2020",
+   "target": "weiss2006",
+   "type": "builds_on",
+   "why": "Turns from Malaysian opposition coalitions to the ruling-party machines they faced."
+  },
+  {
+   "source": "sinpeng2021",
+   "target": "winichakul2008",
+   "type": "builds_on",
+   "why": "Studies the royalist mobilization that helped topple elected governments in Thailand, through its digital and offline tactics."
+  },
+  {
+   "source": "schuler2021",
+   "target": "maleskyschuler2010",
+   "type": "qualifies",
+   "why": "Argues Vietnam's legislature mainly projects unity, limiting the critical responsiveness found in query sessions."
+  },
+  {
+   "source": "thachilteitelbaum2015",
+   "target": "chandra2004",
+   "type": "qualifies",
+   "why": "Shows ethnic parties in power do not cut public-goods spending, a limit on patronage-based expectations of ethnic parties."
+  },
+  {
+   "source": "basu2015",
+   "target": "brass2003",
+   "type": "builds_on",
+   "why": "Explains when the institutionalized riot systems Brass described produce violence: when Hindu nationalist party, movement and state align."
+  },
+  {
+   "source": "basu2015",
+   "target": "wilkinson2004",
+   "type": "qualifies",
+   "why": "Adds the alignment of Hindu nationalist organizations as a condition on Wilkinson's electoral logic of riots."
+  },
+  {
+   "source": "iyershrivastava2018",
+   "target": "wilkinson2004",
+   "type": "mechanism_tested_by",
+   "why": "Tests the electoral payoff of riots directly, finding pre-election riots raise the BJP's vote share."
+  },
+  {
+   "source": "varshney2014jod",
+   "target": "jaffrelot1996",
+   "type": "builds_on",
+   "why": "Assesses what the Hindu nationalist movement Jaffrelot traced means once it holds a national majority."
+  },
+  {
+   "source": "stokes2013",
+   "target": "stokes2005",
+   "type": "builds_on",
+   "why": "Develops the machine-politics model into a broker-centered theory, with evidence from India among other cases."
+  },
+  {
+   "source": "auerbachthachil2018",
+   "target": "stokes2013",
+   "type": "challenges",
+   "why": "Shows clients choose among competing brokers, contesting the party-down, broker-as-agent model."
   },
   {
    "source": "slater2010",
@@ -11007,6 +12186,444 @@
   {
    "source": "ba2009",
    "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stokes2013",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibberkollman1998",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibberkollman1998",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oldenburg1987",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oldenburg1987",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchcroft1991",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hutchcroft1991",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crouch1979",
+   "target": "civmil",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crouch1979",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "macintyre2001",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kalyvaskocher2009",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stubbs1999",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cruzlabonnequerubin2020",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cruzlabonnequerubin2020",
+   "target": "philippines",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gulzarhaaspasquale2020",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gulzarhaaspasquale2020",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbachthachil2019",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbachthachil2019",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bhavnanilee2019",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bhavnanilee2019",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berenschot2019",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berenschot2019",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "springman2022",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chang2022isq",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "loughlin2025",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "loughlin2025",
+   "target": "asean",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sombatpoonsiri2023",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pelletier2021",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pelletier2021",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullockimaishapiro2011",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullockimaishapiro2011",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robison1988",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robison1988",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liddle1991",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liddle1991",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasr2000",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nasr2000",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ganguly1996",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierskalla2020",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pierskalla2020",
+   "target": "indonesia",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbachkruks2020",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "auerbachkruks2020",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ang2014cp",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskyschuler2010",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskyschulertran2012",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskyschulertran2012",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slaterwong2013",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slaterwong2013",
+   "target": "devstate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pepinsky2014bjps",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2009ajs",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "slater2009ajs",
+   "target": "religion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thachil2017ajps",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thachil2017ajps",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahuja2019",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahuja2019",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibberverma2018",
+   "target": "indiaparty",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chhibberverma2018",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensenius2017",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "staniland2021",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lacina2017",
+   "target": "federalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lacina2017",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weissm2020",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weissm2020",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sinpeng2021",
+   "target": "thailand",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sinpeng2021",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schuler2021",
+   "target": "authdur",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thachilteitelbaum2015",
+   "target": "caste",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "basu2015",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "basu2015",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyershrivastava2018",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyershrivastava2018",
+   "target": "communal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2014jod",
+   "target": "hindunat",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "varshney2014jod",
+   "target": "indiaparty",
    "type": "belongs_to",
    "why": "theme membership"
   }

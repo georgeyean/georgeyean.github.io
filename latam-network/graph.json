@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 316,
+   "work_nodes": 357,
    "theme_nodes": 19,
    "seed_from_papers_json": 8,
    "crossref_top_cited": 187,
    "anchors_supplement": 121,
-   "relation_edges": 375,
-   "membership_edges": 482
+   "relation_edges": 423,
+   "membership_edges": 550,
+   "added_coverage_2026_11": 41
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -6017,6 +6018,769 @@
    "source": "supplement",
    "zotero": null,
    "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "seligson2002",
+   "type": "work",
+   "label": "Seligson 2002",
+   "authors": "Mitchell A. Seligson",
+   "year": 2002,
+   "journal": "JOP",
+   "title": "The Impact of Corruption on Regime Legitimacy: A Comparative Study of Four Latin American Countries",
+   "claim": "Survey data from El Salvador, Nicaragua, Paraguay and Bolivia show that experiencing corruption victimization lowers citizens' belief in the legitimacy of the political system.",
+   "method": "Cross-national survey analysis (LAPOP), four Latin American countries",
+   "themes": [
+    "corruption",
+    "democratization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/1468-2508.00132",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/1468-2508.00132); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "robertswibbels1999",
+   "type": "work",
+   "label": "Roberts 1999",
+   "authors": "Kenneth M. Roberts & Erik Wibbels",
+   "year": 1999,
+   "journal": "APSR",
+   "title": "Party Systems and Electoral Volatility in Latin America: A Test of Economic, Institutional, and Structural Explanations",
+   "claim": "Electoral volatility in Latin America is driven by short-term economic performance, institutional fragmentation and weak class cleavages and party organizations.",
+   "method": "Pooled time-series analysis of legislative and presidential elections, 1980s-1990s",
+   "themes": [
+    "parties",
+    "voters"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2585575",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2585575); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "madrid2005",
+   "type": "work",
+   "label": "Madrid 2005",
+   "authors": "Raúl Madrid",
+   "year": 2005,
+   "journal": "Comparative Politics",
+   "title": "Ethnic Cleavages and Electoral Volatility in Latin America",
+   "claim": "Electoral volatility is higher in Latin American countries with large indigenous populations, because established parties failed to represent indigenous voters.",
+   "method": "Cross-national regression analysis of Latin American elections",
+   "themes": [
+    "ethnic",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/20072910",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/20072910); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "dix1992",
+   "type": "work",
+   "label": "Dix 1992",
+   "authors": "Robert H. Dix",
+   "year": 1992,
+   "journal": "Comparative Political Studies",
+   "title": "Democratization and the Institutionalization of Latin American Political Parties",
+   "claim": "Latin American parties became more institutionalized with the democratic transitions of the 1980s, judged by adaptability, complexity, autonomy and coherence, which favours consolidation.",
+   "method": "Comparative assessment of party institutionalization",
+   "themes": [
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414092024004004",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414092024004004); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sikkink1993",
+   "type": "work",
+   "label": "Sikkink 1993",
+   "authors": "Kathryn Sikkink",
+   "year": 1993,
+   "journal": "IO",
+   "title": "Human rights, principled issue-networks, and sovereignty in Latin America",
+   "claim": "A transnational human-rights issue network of NGOs, foundations and states pressed Argentina and Mexico, eroding the norm that sovereignty shields how governments treat their citizens.",
+   "method": "Comparative case study, Argentina and Mexico",
+   "themes": [
+    "us",
+    "military"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300028010",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300028010); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lutzsikkink2000",
+   "type": "work",
+   "label": "Lutz 2000",
+   "authors": "Ellen L. Lutz & Kathryn Sikkink",
+   "year": 2000,
+   "journal": "IO",
+   "title": "International Human Rights Law and Practice in Latin America",
+   "claim": "International human-rights norms changed Latin American practice on torture, disappearances and democracy unevenly, with change strongest where norms were clear and backed by regional networks.",
+   "method": "Comparative analysis of three human-rights issue areas",
+   "themes": [
+    "us",
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081800551235",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081800551235); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "schoultz1981",
+   "type": "work",
+   "label": "Schoultz 1981",
+   "authors": "Lars Schoultz",
+   "year": 1981,
+   "journal": "Comparative Politics",
+   "title": "U. S. Foreign Policy and Human Rights Violations in Latin America: A Comparative Analysis of Foreign Aid Distributions",
+   "claim": "In the 1970s US foreign aid flowed disproportionately to Latin American governments that violated human rights.",
+   "method": "Correlational analysis of aid allocation and expert human-rights ratings",
+   "themes": [
+    "us"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/421620",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/421620); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cingranelli1985",
+   "type": "work",
+   "label": "Cingranelli 1985",
+   "authors": "David L. Cingranelli & Thomas E. Pasquarello",
+   "year": 1985,
+   "journal": "AJPS",
+   "title": "Human Rights Practices and the Distribution of U.S. Foreign Aid to Latin American Countries",
+   "claim": "Modelling aid as a two-stage decision, finds that human-rights practices did shape whether and how much US aid Latin American countries received in 1979-80.",
+   "method": "Two-stage statistical model of aid allocation",
+   "themes": [
+    "us"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111142",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111142); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "friedmanlong2015",
+   "type": "work",
+   "label": "Friedman 2015",
+   "authors": "Max Paul Friedman & Tom Long",
+   "year": 2015,
+   "journal": "International Security",
+   "title": "Soft Balancing in the Americas: Latin American Opposition to U.S. Intervention, 1898–1936",
+   "claim": "Between 1898 and 1936 Latin American states used soft balancing, through diplomacy, international law and multilateral forums, to raise the costs of US intervention.",
+   "method": "Historical case analysis",
+   "themes": [
+    "us"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec_a_00212",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00212); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "remmer1991",
+   "type": "work",
+   "label": "Remmer 1991",
+   "authors": "Karen L. Remmer",
+   "year": 1991,
+   "journal": "APSR",
+   "title": "The Political Impact of Economic Crisis in Latin America in the 1980s",
+   "claim": "The 1980s economic crisis produced strong anti-incumbent voting in Latin America without destabilizing democratic regimes.",
+   "method": "Analysis of 21 presidential elections, 1982-1990",
+   "themes": [
+    "voters",
+    "democratization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1963850",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1963850); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "garman2001",
+   "type": "work",
+   "label": "Garman 2001",
+   "authors": "Christopher Garman, Stephan Haggard & Eliza Willis",
+   "year": 2001,
+   "journal": "World Politics",
+   "title": "Fiscal Decentralization: A Political Theory with Latin American Cases",
+   "claim": "The degree of fiscal decentralization depends on party structure: where national politicians depend on subnational party leaders, they devolve more fiscal authority.",
+   "method": "Formal argument with Latin American country cases",
+   "themes": [
+    "subnational"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1353/wp.2001.0002",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/wp.2001.0002); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "thies2005",
+   "type": "work",
+   "label": "Thies 2005",
+   "authors": "Cameron G. Thies",
+   "year": 2005,
+   "journal": "AJPS",
+   "title": "War, Rivalry, and State Building in Latin America",
+   "claim": "Interstate rivalry, more than war itself, increased the extractive capacity of Latin American states.",
+   "method": "Time-series cross-section analysis, Latin America 1975-1998",
+   "themes": [
+    "state"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1540-5907.2005.00134.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2005.00134.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "schenoni2020",
+   "type": "work",
+   "label": "Schenoni 2020",
+   "authors": "Luis L. Schenoni",
+   "year": 2020,
+   "journal": "AJPS",
+   "title": "Bringing War Back in: Victory and State Formation in Latin America",
+   "claim": "Victory in Latin America's nineteenth-century wars strengthened state capacity while defeat weakened it, restoring a war-making account of state formation.",
+   "method": "Synthetic control and historical case analysis",
+   "themes": [
+    "state"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12552",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12552); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "iaryczower2002",
+   "type": "work",
+   "label": "Iaryczower 2002",
+   "authors": "Matias Iaryczower, Pablo T. Spiller & Mariano Tommasi",
+   "year": 2002,
+   "journal": "AJPS",
+   "title": "Judicial Independence in Unstable Environments, Argentina 1935-1998",
+   "claim": "Argentine Supreme Court justices ruled against the government more often when the president lacked control of Congress, consistent with strategic judicial behaviour.",
+   "method": "Statistical analysis of Supreme Court decisions, 1935-1998",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/3088428",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/3088428); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "larkins1998",
+   "type": "work",
+   "label": "Larkins 1998",
+   "authors": "Christopher Larkins",
+   "year": 1998,
+   "journal": "Comparative Politics",
+   "title": "The Judiciary and Delegative Democracy in Argentina",
+   "claim": "Menem's court packing and the judiciary's acquiescence to decree rule show how delegative democracy subordinates the courts in Argentina.",
+   "method": "Case study, Argentina 1989-1997",
+   "themes": [
+    "courts",
+    "erosion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422332",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422332); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "chavez2003",
+   "type": "work",
+   "label": "Chavez 2003",
+   "authors": "Rebecca Bill Chavez",
+   "year": 2003,
+   "journal": "Comparative Politics",
+   "title": "The Construction of the Rule of Law in Argentina: A Tale of Two Provinces",
+   "claim": "Judicial independence and the rule of law emerged in the Argentine province with competitive party politics (Mendoza) but not in the one with dominant-party rule (San Luis).",
+   "method": "Subnational comparative case study",
+   "themes": [
+    "courts",
+    "subnational"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/4150188",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/4150188); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "naviariosfigueroa2005",
+   "type": "work",
+   "label": "Navia 2005",
+   "authors": "Patricio Navia & Julio Ríos-Figueroa",
+   "year": 2005,
+   "journal": "Comparative Political Studies",
+   "title": "The Constitutional Adjudication Mosaic of Latin America",
+   "claim": "Latin American countries combine constitutional adjudication models in a mosaic that differs on who may bring cases, which courts decide them and with what effects.",
+   "method": "Comparative institutional mapping of constitutional review",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414004271082",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414004271082); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "amorimnetocox2003",
+   "type": "work",
+   "label": "Neto 2003",
+   "authors": "Octavio Amorim Neto, Gary W. Cox & Mathew D. McCubbins",
+   "year": 2003,
+   "journal": "World Politics",
+   "title": "Agenda Power in Brazil's Câmara Dos Deputados, 1989–98",
+   "claim": "The governing coalition in Brazil's Chamber of Deputies held agenda power, keeping bills it opposed off the floor, so roll rates were low for coalition members.",
+   "method": "Roll-rate analysis of Chamber votes, 1989-1998",
+   "themes": [
+    "presidentialism",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1353/wp.2003.0023",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/wp.2003.0023); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ames1995",
+   "type": "work",
+   "label": "Ames 1995",
+   "authors": "Barry Ames",
+   "year": 1995,
+   "journal": "JOP",
+   "title": "Electoral Rules, Constituency Pressures, and Pork Barrel: Bases of Voting in the Brazilian Congress",
+   "claim": "Brazilian deputies' votes respond to open-list electoral incentives and constituency pork, with party leaders able to deliver votes only in exchange for patronage.",
+   "method": "Roll-call analysis, Brazilian Congress",
+   "themes": [
+    "presidentialism",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2960309",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2960309); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gibson1997",
+   "type": "work",
+   "label": "Gibson 1997",
+   "authors": "Edward L. Gibson",
+   "year": 1997,
+   "journal": "World Politics",
+   "title": "The Populist Road to Market Reform: Policy and Electoral Coalitions in Mexico and Argentina",
+   "claim": "Menem and Salinas used populist parties to pass market reform by separating a metropolitan policy coalition from a peripheral electoral coalition held together by patronage.",
+   "method": "Comparative case study, Argentina and Mexico",
+   "themes": [
+    "populism",
+    "development"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1353/wp.1997.0011",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/wp.1997.0011); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gamboa2017",
+   "type": "work",
+   "label": "Gamboa 2017",
+   "authors": "Laura Gamboa",
+   "year": 2017,
+   "journal": "Comparative Politics",
+   "title": "Opposition at the Margins: Strategies against the Erosion of Democracy in Colombia and Venezuela",
+   "claim": "Oppositions that resist executive aggrandizement through institutional strategies (Colombia under Uribe) slow erosion, while extra-institutional strategies (Venezuela under Chávez) accelerate it.",
+   "method": "Comparative case study, Colombia and Venezuela",
+   "themes": [
+    "erosion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041517821273044",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041517821273044); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cantu2019",
+   "type": "work",
+   "label": "Cantú 2019",
+   "authors": "Francisco Cantú",
+   "year": 2019,
+   "journal": "APSR",
+   "title": "The Fingerprints of Fraud: Evidence from Mexico’s 1988 Presidential Election",
+   "claim": "Digitized tally sheets from Mexico's 1988 presidential election reveal alterations concentrated where the opposition lacked poll watchers, showing how the PRI manufactured its majority.",
+   "method": "Image analysis of polling-station tally sheets",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055419000285",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055419000285); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "arias2019",
+   "type": "work",
+   "label": "Arias 2019",
+   "authors": "Eric Arias, Pablo Balán, Horacio Larreguy et al.",
+   "year": 2019,
+   "journal": "APSR",
+   "title": "Information Provision, Voter Coordination, and Electoral Accountability: Evidence from Mexican Social Networks",
+   "claim": "Publicly disseminated information about Mexican mayors' misspending increased electoral punishment when voters could coordinate around common knowledge.",
+   "method": "Field experiment, Mexican municipal elections",
+   "themes": [
+    "corruption",
+    "voters"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055419000091",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055419000091); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "berlinererlich2015",
+   "type": "work",
+   "label": "Berliner 2015",
+   "authors": "Daniel Berliner & Aaron Erlich",
+   "year": 2015,
+   "journal": "APSR",
+   "title": "Competing for Transparency: Political Competition and Institutional Reform in Mexican States",
+   "claim": "Mexican states adopted stronger access-to-information laws when incumbents faced electoral uncertainty, treating transparency as insurance against future rivals.",
+   "method": "Subnational panel analysis, Mexican states",
+   "themes": [
+    "corruption",
+    "subnational"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055414000616",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055414000616); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "toral2023",
+   "type": "work",
+   "label": "Toral 2023",
+   "authors": "Guillermo Toral",
+   "year": 2023,
+   "journal": "AJPS",
+   "title": "How Patronage Delivers: Political Appointments, Bureaucratic Accountability, and Service Delivery in Brazil",
+   "claim": "Political appointments in Brazilian municipalities can improve service delivery by tightening mayors' control and accountability over bureaucrats.",
+   "method": "Administrative data and interviews, Brazilian municipalities",
+   "themes": [
+    "clientelism",
+    "state"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12758",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12758); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "magaloni2019",
+   "type": "work",
+   "label": "Magaloni 2019",
+   "authors": "Beatriz Magaloni, Alberto Díaz-Cayeros & Alexander Ruiz Euler",
+   "year": 2019,
+   "journal": "Comparative Political Studies",
+   "title": "Public Good Provision and Traditional Governance in Indigenous Communities in Oaxaca, Mexico",
+   "claim": "Oaxacan municipalities governed by indigenous customary institutions (usos y costumbres) provide public goods such as electricity and sewerage at least as well as party-governed ones.",
+   "method": "Matching and panel analysis of Oaxacan municipalities",
+   "themes": [
+    "ethnic",
+    "subnational"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414019857094",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414019857094); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "johnson2019",
+   "type": "work",
+   "label": "Johnson 2019",
+   "authors": "Marcus Johnson",
+   "year": 2019,
+   "journal": "World Politics",
+   "title": "Electoral Discrimination: The Relationship between Skin Color and Vote Buying in Latin America",
+   "claim": "Darker-skinned Latin Americans are more likely to be targeted with vote-buying offers, a form of electoral discrimination.",
+   "method": "Survey analysis with interviewer skin-color ratings, multiple Latin American countries",
+   "themes": [
+    "ethnic",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887119000145",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887119000145); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "magalonirodriguez2020",
+   "type": "work",
+   "label": "Magaloni 2020",
+   "authors": "Beatriz Magaloni & Luis Rodriguez",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "Institutionalized Police Brutality: Torture, the Militarization of Security, and the Reform of Inquisitorial Criminal Justice in Mexico",
+   "claim": "Torture by Mexican security forces became institutionalized with militarized policing, and criminal procedure reform reduced it.",
+   "method": "Survey of Mexican prison inmates with difference-in-differences",
+   "themes": [
+    "violence",
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055420000520",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055420000520); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "trejonietomatiz2022",
+   "type": "work",
+   "label": "Trejo 2022",
+   "authors": "Guillermo Trejo & Camilo Nieto-Matiz",
+   "year": 2022,
+   "journal": "Comparative Political Studies",
+   "title": "Containing Large-Scale Criminal Violence Through Internationalized Prosecution: How the Collaboration Between the CICIG and Guatemala’s Law Enforcement Contributed to a Sustained Reduction in the Murder Rate",
+   "claim": "The UN-backed CICIG's prosecution of state-criminal networks reduced homicides in Guatemala by breaking collusion between officials and criminal groups.",
+   "method": "Synthetic control and subnational analysis, Guatemala",
+   "themes": [
+    "violence",
+    "corruption"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/00104140221139386",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/00104140221139386); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "staton2010",
+   "type": "work",
+   "label": "Staton 2010",
+   "authors": "Jeffrey K. Staton",
+   "year": 2010,
+   "journal": "Cambridge University Press (book)",
+   "title": "Judicial Power in Mexico: Strategic Courts and Public Opinion",
+   "claim": "Mexico's Supreme Court built its power by strategically publicizing rulings to raise public awareness and the costs of noncompliance.",
+   "method": "Formal model with analysis of Supreme Court press releases and rulings",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "barros2002",
+   "type": "work",
+   "label": "Barros 2002",
+   "authors": "Robert Barros",
+   "year": 2002,
+   "journal": "Cambridge University Press (book)",
+   "title": "Constitutionalism and Dictatorship: Pinochet, the Junta, and the 1980 Constitution",
+   "claim": "Collegial rule by Chile's military junta led it to bind itself to constitutional rules, so the dictatorship was limited by its own institutions.",
+   "method": "Historical institutional analysis of junta records",
+   "themes": [
+    "authoritarian",
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9780511606298); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9780511606298"
+  },
+  {
+   "id": "langston2017",
+   "type": "work",
+   "label": "Langston 2017",
+   "authors": "Joy K. Langston",
+   "year": 2017,
+   "journal": "Oxford University Press (book)",
+   "title": "Democratization and Authoritarian Party Survival: Mexico's PRI",
+   "claim": "The PRI survived losing the presidency in 2000 by decentralizing power to governors who controlled resources and candidate selection, allowing its return in 2012.",
+   "method": "Case study with subnational electoral data",
+   "themes": [
+    "authoritarian",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1093/acprof:oso/9780190628512.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/acprof:oso/9780190628512.001.0001"
+  },
+  {
+   "id": "levitskyloxton2013",
+   "type": "work",
+   "label": "Levitsky 2013",
+   "authors": "Steven Levitsky & James Loxton",
+   "year": 2013,
+   "journal": "Democratization",
+   "title": "Populism and Competitive Authoritarianism in the Andes",
+   "claim": "Populist outsiders elected amid party-system collapse in Peru, Venezuela, Ecuador and Bolivia had incentives to assault checks and balances, producing competitive authoritarianism.",
+   "method": "Comparative case study, Andean countries",
+   "themes": [
+    "erosion",
+    "populism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1080/13510347.2013.738864); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/13510347.2013.738864"
+  },
+  {
+   "id": "mainwaringperezlinan2023",
+   "type": "work",
+   "label": "Mainwaring 2023",
+   "authors": "Scott Mainwaring & Aníbal Pérez-Liñán",
+   "year": 2023,
+   "journal": "Journal of Democracy",
+   "title": "Why Latin America's Democracies Are Stuck",
+   "claim": "Latin American democracies are stuck, rarely breaking down but failing to deepen, because of poor governance, crime, weak parties and illiberal actors.",
+   "method": "Regional analysis of V-Dem and survey data",
+   "themes": [
+    "erosion",
+    "democratization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1353/jod.2023.0010); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/jod.2023.0010"
+  },
+  {
+   "id": "telles2014",
+   "type": "work",
+   "label": "Telles 2014",
+   "authors": "Edward Telles & the Project on Ethnicity and Race in Latin America (PERLA)",
+   "year": 2014,
+   "journal": "University of North Carolina Press (book)",
+   "title": "Pigmentocracies: Ethnicity, Race, and Color in Latin America",
+   "claim": "Across Brazil, Colombia, Mexico and Peru, skin color predicts education and occupational status net of self-identified ethnicity and class origin.",
+   "method": "Original surveys with interviewer color ratings, four countries",
+   "themes": [
+    "ethnic",
+    "welfare"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2015, DOI 10.1111/aman.12331); metadata from memory"
+  },
+  {
+   "id": "paschel2016",
+   "type": "work",
+   "label": "Paschel 2016",
+   "authors": "Tianna S. Paschel",
+   "year": 2016,
+   "journal": "Princeton University Press (book)",
+   "title": "Becoming Black Political Subjects: Movements and Ethno-Racial Rights in Colombia and Brazil",
+   "claim": "Afro-descendant movements in Colombia and Brazil won ethno-racial rights by leveraging shifts in global political fields and alignments with state actors.",
+   "method": "Comparative ethnography and archival research",
+   "themes": [
+    "ethnic",
+    "movements"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.23943/princeton/9780691169385.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.23943/princeton/9780691169385.001.0001"
+  },
+  {
+   "id": "oneill2005",
+   "type": "work",
+   "label": "O'Neill 2005",
+   "authors": "Kathleen O'Neill",
+   "year": 2005,
+   "journal": "Cambridge University Press (book)",
+   "title": "Decentralizing the State: Elections, Parties, and Local Power in the Andes",
+   "claim": "Parties decentralize when their national electoral prospects are weak but their subnational support is strong, using decentralization to secure future power.",
+   "method": "Cross-national analysis and Andean case studies",
+   "themes": [
+    "subnational"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9780511610417); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9780511610417"
+  },
+  {
+   "id": "gingerich2013",
+   "type": "work",
+   "label": "Gingerich 2013",
+   "authors": "Daniel W. Gingerich",
+   "year": 2013,
+   "journal": "Cambridge University Press (book)",
+   "title": "Political Institutions and Party-Directed Corruption in South America: Stealing for the Team",
+   "claim": "Electoral rules that strengthen party leaders, such as closed lists, foster party-directed corruption in which bureaucrats raise illicit funds for the party.",
+   "method": "Surveys of public officials in Bolivia, Brazil and Chile",
+   "themes": [
+    "corruption",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9781139628983); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9781139628983"
+  },
+  {
+   "id": "mazzuca2021",
+   "type": "work",
+   "label": "Mazzuca 2021",
+   "authors": "Sebastián L. Mazzuca",
+   "year": 2021,
+   "journal": "Yale University Press (book)",
+   "title": "Latecomer State Formation: Political Geography and Capacity Failure in Latin America",
+   "claim": "Latin American states were formed by trade-led rather than war-led processes, and pacts with peripheral oligarchs embedded lasting capacity failures.",
+   "method": "Comparative-historical analysis",
+   "themes": [
+    "state"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.12987/yale/9780300248951.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.12987/yale/9780300248951.001.0001"
+  },
+  {
+   "id": "luna2014",
+   "type": "work",
+   "label": "Luna 2014",
+   "authors": "Juan Pablo Luna",
+   "year": 2014,
+   "journal": "Oxford University Press (book)",
+   "title": "Segmented Representation: Political Party Strategies in Unequal Democracies",
+   "claim": "In unequal democracies parties combine programmatic appeals to affluent voters with clientelist linkages to poor voters, segmenting representation.",
+   "method": "Comparative case study, Chile and Uruguay",
+   "themes": [
+    "parties",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1093/acprof:oso/9780199642649.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/acprof:oso/9780199642649.001.0001"
+  },
+  {
+   "id": "wibbels2005",
+   "type": "work",
+   "label": "Wibbels 2005",
+   "authors": "Erik Wibbels",
+   "year": 2005,
+   "journal": "Cambridge University Press (book)",
+   "title": "Federalism and the Market: Intergovernmental Conflict and Economic Reform in the Developing World",
+   "claim": "In developing federations, subnational governments with soft budget constraints obstruct macroeconomic reform unless national parties tie them to the center.",
+   "method": "Cross-national statistics with Argentina, Brazil and Mexico cases",
+   "themes": [
+    "subnational",
+    "development"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9780511510441); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9780511510441"
   }
  ],
  "edges": [
@@ -8269,6 +9033,294 @@
    "target": "sikkink2007",
    "type": "builds_on",
    "why": "International shaming and accountability reduce repression."
+  },
+  {
+   "source": "morris2010",
+   "target": "seligson2002",
+   "type": "builds_on",
+   "why": "Builds on evidence that corruption victimization erodes regime legitimacy, modelling corruption and trust as mutually reinforcing in Mexico."
+  },
+  {
+   "source": "robertswibbels1999",
+   "target": "mainwaringscully1995",
+   "type": "builds_on",
+   "why": "Tests explanations of the party-system instability Mainwaring and Scully highlighted, finding volatility driven by economic performance, fragmentation and weak cleavages."
+  },
+  {
+   "source": "madrid2005",
+   "target": "robertswibbels1999",
+   "type": "builds_on",
+   "why": "Adds ethnic composition to the determinants of volatility, showing it is higher where indigenous voters lacked representation in existing parties."
+  },
+  {
+   "source": "dix1992",
+   "target": "huntington1968",
+   "type": "extends_to_new_case",
+   "why": "Applies Huntington's criteria of institutionalization to Latin American parties after the democratic transitions."
+  },
+  {
+   "source": "mainwaringscully1995",
+   "target": "dix1992",
+   "type": "builds_on",
+   "why": "Builds on earlier assessments of Latin American party institutionalization to define four dimensions and classify systems as institutionalized or inchoate."
+  },
+  {
+   "source": "keck1998",
+   "target": "sikkink1993",
+   "type": "builds_on",
+   "why": "Generalizes the human-rights issue network traced in Argentina and Mexico into the boomerang model of transnational advocacy."
+  },
+  {
+   "source": "lutzsikkink2000",
+   "target": "sikkink1993",
+   "type": "builds_on",
+   "why": "Extends the issue-network argument from advocacy to international legal norms on torture, disappearances and democracy."
+  },
+  {
+   "source": "sikkink2011",
+   "target": "lutzsikkink2000",
+   "type": "builds_on",
+   "why": "Develops the account of international law reshaping Latin American practice into the global justice cascade of human-rights prosecutions."
+  },
+  {
+   "source": "schoultz1998",
+   "target": "schoultz1981",
+   "type": "builds_on",
+   "why": "Places the earlier finding that US aid favoured repressive Latin American governments within a long history of US paternalism toward the region."
+  },
+  {
+   "source": "cingranelli1985",
+   "target": "schoultz1981",
+   "type": "challenges",
+   "why": "Reanalyzes US aid allocation with a two-stage model and finds human-rights performance did shape aid, contesting the claim that aid rewarded repression."
+  },
+  {
+   "source": "friedmanlong2015",
+   "target": "schoultz1998",
+   "type": "challenges",
+   "why": "Shows Latin American states constrained US intervention through soft balancing, contesting accounts that treat the region as a passive object of US policy."
+  },
+  {
+   "source": "remmer1991",
+   "target": "linzstepan1978",
+   "type": "qualifies",
+   "why": "Finds the 1980s crisis punished incumbents without breaking down democracies, a scope condition on the expectation that economic crisis destabilizes democratic regimes."
+  },
+  {
+   "source": "campellozucco2016",
+   "target": "remmer1991",
+   "type": "builds_on",
+   "why": "Builds on evidence of strong economic voting in Latin America to show presidential success tracks exogenous international economic conditions."
+  },
+  {
+   "source": "falleti2005",
+   "target": "garman2001",
+   "type": "challenges",
+   "why": "Replaces the party-structure explanation of fiscal decentralization with a sequential theory in which the order of reforms determines governors' power."
+  },
+  {
+   "source": "thies2005",
+   "target": "centeno2002",
+   "type": "qualifies",
+   "why": "Finds interstate rivalry rather than war itself raised Latin American extractive capacity, refining the limited-war account of weak states."
+  },
+  {
+   "source": "schenoni2020",
+   "target": "centeno2002",
+   "type": "challenges",
+   "why": "Argues war outcomes matter: victors built stronger states and losers weaker ones, restoring a war-making account of Latin American state formation."
+  },
+  {
+   "source": "schenoni2020",
+   "target": "thies2005",
+   "type": "builds_on",
+   "why": "Joins the evidence that international conflict shaped Latin American state capacity, shifting attention from rivalry to victory and defeat."
+  },
+  {
+   "source": "iaryczower2002",
+   "target": "helmke2002",
+   "type": "builds_on",
+   "why": "Like Helmke, treats Argentine justices as strategic, showing the Court ruled against the government more when the president lacked congressional support."
+  },
+  {
+   "source": "larkins1998",
+   "target": "odonnell1994",
+   "type": "extends_to_new_case",
+   "why": "Documents the judicial side of delegative democracy through Menem's court packing and the Court's acquiescence to decree rule."
+  },
+  {
+   "source": "chavez2003",
+   "target": "odonnell1993",
+   "type": "builds_on",
+   "why": "Traces O'Donnell's subnational brown areas of the rule of law to two Argentine provinces, finding judicial independence where party competition was strong."
+  },
+  {
+   "source": "kapiszewskitaylor2008",
+   "target": "naviariosfigueroa2005",
+   "type": "synthesizes",
+   "why": "Integrates institutional mapping of Latin America's varied models of constitutional adjudication into a review of judicial politics in the region."
+  },
+  {
+   "source": "amorimnetocox2003",
+   "target": "figueiredolimongi2000",
+   "type": "builds_on",
+   "why": "Formalizes the governing coalition's agenda control in Brazil's Chamber, showing cartel-style gatekeeping kept coalition members from being rolled."
+  },
+  {
+   "source": "figueiredolimongi2000",
+   "target": "ames1995",
+   "type": "challenges",
+   "why": "Shows Brazilian deputies vote along party lines under centralized agenda control, contesting Ames's picture of individualistic, pork-driven legislators."
+  },
+  {
+   "source": "gibson1997",
+   "target": "roberts1995",
+   "type": "builds_on",
+   "why": "Explains how populist parties delivered market reform by separating policy and electoral coalitions, extending the neoliberal-populism argument to Argentina and Mexico."
+  },
+  {
+   "source": "weyland2002",
+   "target": "gibson1997",
+   "type": "builds_on",
+   "why": "Builds on the coalitional account of populist market reform when explaining why fragile democracies adopted drastic neoliberal programs."
+  },
+  {
+   "source": "gamboa2017",
+   "target": "corralespenfold2014",
+   "type": "qualifies",
+   "why": "Explains why Uribe's term-limit extension failed while Chávez's succeeded: opposition strategy, institutional or extra-institutional, conditions executive aggrandizement."
+  },
+  {
+   "source": "cantu2019",
+   "target": "magaloni2010",
+   "type": "mechanism_tested_by",
+   "why": "Provides direct evidence of how a hegemonic party manufactured victory, showing 1988 tally alterations were concentrated where the opposition lacked poll watchers."
+  },
+  {
+   "source": "arias2019",
+   "target": "chong2015",
+   "type": "qualifies",
+   "why": "Shows malfeasance information increases electoral punishment when disseminated publicly so voters can coordinate, a condition absent in null-effect information experiments."
+  },
+  {
+   "source": "berlinererlich2015",
+   "target": "finkel2008",
+   "type": "extends_to_new_case",
+   "why": "Applies the political-insurance logic of judicial reform to transparency laws adopted by Mexican state incumbents facing electoral uncertainty."
+  },
+  {
+   "source": "toral2023",
+   "target": "oliveros2016",
+   "type": "qualifies",
+   "why": "Shows political appointees in Brazilian municipalities can improve service delivery, a condition under which patronage strengthens rather than degrades administration."
+  },
+  {
+   "source": "magaloni2019",
+   "target": "benton2012",
+   "type": "builds_on",
+   "why": "Studies the Oaxacan usos y costumbres municipalities that Benton examined and finds customary indigenous governance improved public-goods provision."
+  },
+  {
+   "source": "johnson2019",
+   "target": "telles2014",
+   "type": "builds_on",
+   "why": "Uses color-rated regional surveys to show darker-skinned citizens are more often targeted for vote buying, extending color stratification to clientelism."
+  },
+  {
+   "source": "magalonirodriguez2020",
+   "target": "floresmaciaszarkin2019",
+   "type": "builds_on",
+   "why": "Provides inmate-survey evidence that militarized policing increased torture in Mexico, a concrete human-rights cost of militarization."
+  },
+  {
+   "source": "trejonietomatiz2022",
+   "target": "trejoley2020",
+   "type": "builds_on",
+   "why": "Extends the collusion-based account of criminal violence by showing CICIG's prosecutions of state-criminal networks reduced homicides in Guatemala."
+  },
+  {
+   "source": "staton2010",
+   "target": "riosfigueroa2007",
+   "type": "builds_on",
+   "why": "Adds a public-opinion mechanism, strategic publicity of rulings, to the fragmentation-based account of the Mexican judiciary's empowerment."
+  },
+  {
+   "source": "barros2002",
+   "target": "odonnell1973",
+   "type": "challenges",
+   "why": "Shows the Pinochet junta was bound by its own constitution because power was shared among service chiefs, contesting views of bureaucratic-authoritarian rule as unconstrained."
+  },
+  {
+   "source": "falleti2010",
+   "target": "barros2002",
+   "type": "builds_on",
+   "why": "Like Barros, shows how the internal organization of military regimes shaped later institutions, here decentralization outcomes."
+  },
+  {
+   "source": "langston2017",
+   "target": "greene2007",
+   "type": "qualifies",
+   "why": "Explains the PRI's survival after losing the presidency through governors' control of resources, a limit on accounts of dominant-party decline."
+  },
+  {
+   "source": "levitskyloxton2013",
+   "target": "levitskyway2010",
+   "type": "extends_to_new_case",
+   "why": "Applies the competitive-authoritarianism framework to the Andes, where populist outsiders in collapsed party systems assaulted checks and balances."
+  },
+  {
+   "source": "cameron2018",
+   "target": "levitskyloxton2013",
+   "type": "builds_on",
+   "why": "Builds on the populism-to-competitive-authoritarianism argument when assessing what the Andean cases teach about the concept."
+  },
+  {
+   "source": "mainwaringperezlinan2023",
+   "target": "mainwaringperezlinan2013",
+   "type": "builds_on",
+   "why": "Updates their regime analysis to argue Latin American democracies are stuck, neither breaking down nor deepening."
+  },
+  {
+   "source": "telles2014",
+   "target": "telles2004",
+   "type": "builds_on",
+   "why": "Extends the analysis of skin-color stratification from Brazil to Mexico, Colombia and Peru with original surveys."
+  },
+  {
+   "source": "paschel2016",
+   "target": "yashar2005",
+   "type": "extends_to_new_case",
+   "why": "Extends the study of ethnic mobilization from indigenous to Afro-descendant movements and their use of global political fields."
+  },
+  {
+   "source": "oneill2005",
+   "target": "garman2001",
+   "type": "qualifies",
+   "why": "Adds parties' electoral expectations to the party-structure account: parties decentralize when national prospects look weak but subnational support is strong."
+  },
+  {
+   "source": "gingerich2013",
+   "target": "gingerich2009",
+   "type": "builds_on",
+   "why": "Expands the Bolivian findings into a comparative argument that party-centred electoral rules foster party-directed corruption."
+  },
+  {
+   "source": "mazzuca2021",
+   "target": "centeno2002",
+   "type": "challenges",
+   "why": "Argues trade-led rather than war-led state formation, with pacts with peripheral oligarchs, explains Latin American capacity failure."
+  },
+  {
+   "source": "luna2014",
+   "target": "luna2010",
+   "type": "builds_on",
+   "why": "Generalizes the UDI case into a theory of segmented party strategies combining programmatic and clientelist linkages."
+  },
+  {
+   "source": "wibbels2005",
+   "target": "weingast1995",
+   "type": "challenges",
+   "why": "Shows subnational governments with soft budget constraints obstruct macroeconomic reform in developing federations, contesting the market-preserving federalism view."
   },
   {
    "source": "lipset1959",
@@ -11159,6 +12211,414 @@
   {
    "source": "gleijeses1991",
    "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seligson2002",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seligson2002",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robertswibbels1999",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "robertswibbels1999",
+   "target": "voters",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "madrid2005",
+   "target": "ethnic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "madrid2005",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dix1992",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sikkink1993",
+   "target": "us",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sikkink1993",
+   "target": "military",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lutzsikkink2000",
+   "target": "us",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lutzsikkink2000",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schoultz1981",
+   "target": "us",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cingranelli1985",
+   "target": "us",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "friedmanlong2015",
+   "target": "us",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "remmer1991",
+   "target": "voters",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "remmer1991",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garman2001",
+   "target": "subnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thies2005",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schenoni2020",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iaryczower2002",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larkins1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larkins1998",
+   "target": "erosion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chavez2003",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chavez2003",
+   "target": "subnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "naviariosfigueroa2005",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "amorimnetocox2003",
+   "target": "presidentialism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "amorimnetocox2003",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ames1995",
+   "target": "presidentialism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ames1995",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibson1997",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gibson1997",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gamboa2017",
+   "target": "erosion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cantu2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arias2019",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arias2019",
+   "target": "voters",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berlinererlich2015",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berlinererlich2015",
+   "target": "subnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "toral2023",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "toral2023",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magaloni2019",
+   "target": "ethnic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magaloni2019",
+   "target": "subnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnson2019",
+   "target": "ethnic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "johnson2019",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magalonirodriguez2020",
+   "target": "violence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "magalonirodriguez2020",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trejonietomatiz2022",
+   "target": "violence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "trejonietomatiz2022",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "staton2010",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barros2002",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barros2002",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "langston2017",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "langston2017",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyloxton2013",
+   "target": "erosion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyloxton2013",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mainwaringperezlinan2023",
+   "target": "erosion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mainwaringperezlinan2023",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "telles2014",
+   "target": "ethnic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "telles2014",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paschel2016",
+   "target": "ethnic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paschel2016",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oneill2005",
+   "target": "subnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gingerich2013",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gingerich2013",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mazzuca2021",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luna2014",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luna2014",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wibbels2005",
+   "target": "subnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wibbels2005",
+   "target": "development",
    "type": "belongs_to",
    "why": "theme membership"
   }

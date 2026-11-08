@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 407,
+   "work_nodes": 453,
    "theme_nodes": 17,
    "seed_from_papers_json": 41,
    "crossref_top_cited": 268,
    "anchors_supplement": 98,
-   "relation_edges": 437,
-   "membership_edges": 661
+   "relation_edges": 526,
+   "membership_edges": 739,
+   "added_coverage_2026_11": 46
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other six maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -7660,6 +7661,863 @@
    "zotero": null,
    "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/13698230.2012.691235); claim is my summary, not re-read this session",
    "crossref_doi": "10.1080/13698230.2012.691235"
+  },
+  {
+   "id": "mittiga2022",
+   "type": "work",
+   "label": "Mittiga 2021",
+   "authors": "Ross Mittiga",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Political Legitimacy, Authoritarianism, and Climate Change",
+   "claim": "Climate change challenges the foundations of political legitimacy.",
+   "method": "Normative theory",
+   "themes": [
+    "legitimacy",
+    "climate"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421001301); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055421001301"
+  },
+  {
+   "id": "schlosberg2007",
+   "type": "work",
+   "label": "Schlosberg 2007",
+   "authors": "David Schlosberg",
+   "year": 2007,
+   "journal": "Oxford University Press (book)",
+   "title": "Defining Environmental Justice: Theories, Movements, and Nature",
+   "claim": "Environmental justice involves distribution, recognition, participation and capabilities.",
+   "method": "Theory and movements",
+   "themes": [
+    "climate",
+    "recognition"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Oxford University PressOxford, 2007; DOI 10.1093/acprof:oso/9780199286294.001.0001)"
+  },
+  {
+   "id": "mutz2006",
+   "type": "work",
+   "label": "Mutz 2006",
+   "authors": "Diana C. Mutz",
+   "year": 2006,
+   "journal": "Cambridge University Press (book)",
+   "title": "Hearing the Other Side: Deliberative versus Participatory Democracy",
+   "claim": "Exposure to cross-cutting views fosters tolerance but depresses participation.",
+   "method": "Surveys",
+   "themes": [
+    "deliberation"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2006; DOI 10.1017/cbo9780511617201)"
+  },
+  {
+   "id": "gilens2012",
+   "type": "work",
+   "label": "Gilens 2012",
+   "authors": "Martin Gilens",
+   "year": 2012,
+   "journal": "Princeton University Press (book)",
+   "title": "Affluence and Influence: Economic Inequality and Political Power in America",
+   "claim": "Policy change tracks the preferences of affluent Americans when they diverge from the middle class and the poor.",
+   "method": "Nearly 2,000 policy questions matched to outcomes",
+   "themes": [
+    "representation",
+    "economy"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Princeton University Press, 2012; DOI 10.2307/j.ctt7s1jn)"
+  },
+  {
+   "id": "weyland2001",
+   "type": "work",
+   "label": "Weyland 2001",
+   "authors": "Kurt Weyland",
+   "year": 2001,
+   "journal": "Comparative Politics",
+   "title": "Clarifying a Contested Concept: Populism in the Study of Latin American Politics",
+   "claim": "Populism is a political strategy of personalistic leaders seeking unmediated support from mass followers.",
+   "method": "Conceptual analysis",
+   "themes": [
+    "populism"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Comparative Politics, 2001; DOI 10.2307/422412)",
+   "crossref_doi": "10.2307/422412"
+  },
+  {
+   "id": "harsanyi1975",
+   "type": "work",
+   "label": "Harsanyi 1975",
+   "authors": "John C. Harsanyi",
+   "year": 1975,
+   "journal": "APSR",
+   "title": "Can the Maximin Principle Serve as a Basis for Morality? A Critique of John Rawls's Theory",
+   "claim": "Rational choosers behind a veil of ignorance would maximize average expected utility rather than follow the maximin rule, so Rawls's difference principle does not follow from the original position.",
+   "method": "Decision-theoretic argument",
+   "themes": [
+    "justice",
+    "method"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1959090",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1959090); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cohen1997",
+   "type": "work",
+   "label": "Cohen 1997",
+   "authors": "G. A. Cohen",
+   "year": 1997,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Where the Action Is: On the Site of Distributive Justice",
+   "claim": "Principles of distributive justice govern individuals' everyday choices, not only the basic structure, so a just society needs an egalitarian ethos as well as just institutions.",
+   "method": "Normative argument",
+   "themes": [
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1088-4963.1997.tb00048.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1088-4963.1997.tb00048.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wolff1998",
+   "type": "work",
+   "label": "Wolff 1998",
+   "authors": "Jonathan Wolff",
+   "year": 1998,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Fairness, Respect, and the Egalitarian Ethos",
+   "claim": "Luck-egalitarian policies require intrusive, demeaning 'shameful revelation' of people's lack of talent, so egalitarians must weigh fairness against respect.",
+   "method": "Normative argument",
+   "themes": [
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1088-4963.1998.tb00063.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1088-4963.1998.tb00063.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "waldron1992",
+   "type": "work",
+   "label": "Waldron 1992",
+   "authors": "Jeremy Waldron",
+   "year": 1992,
+   "journal": "Ethics",
+   "title": "Superseding Historic Injustice",
+   "claim": "Changes in circumstances since an injustice can supersede the original entitlements, so historic wrongs do not by themselves dictate present-day restitution.",
+   "method": "Normative argument",
+   "themes": [
+    "race",
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/293468",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/293468); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "simmons1999",
+   "type": "work",
+   "label": "Simmons 1999",
+   "authors": "A. John Simmons",
+   "year": 1999,
+   "journal": "Ethics",
+   "title": "Justification and Legitimacy",
+   "claim": "A state's moral justification and its legitimacy are distinct; on a Lockean view legitimacy requires actual consent, which almost no state has, so most states are justified at best.",
+   "method": "Normative argument",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/233944",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/233944); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "buchanan2002",
+   "type": "work",
+   "label": "Buchanan 2002",
+   "authors": "Allen Buchanan",
+   "year": 2002,
+   "journal": "Ethics",
+   "title": "Political Legitimacy and Democracy",
+   "claim": "Legitimacy is the moral justification for wielding political power and does not entail a duty to obey; under modern conditions it requires democratic authorization and respect for basic human rights.",
+   "method": "Normative argument",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/340313",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/340313); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "manin1987",
+   "type": "work",
+   "label": "Manin 1987",
+   "authors": "Bernard Manin",
+   "year": 1987,
+   "journal": "Political Theory",
+   "title": "On Legitimacy and Political Deliberation",
+   "claim": "Legitimate decisions come from the deliberation of all rather than the will of all, so legitimacy does not require unanimity, only a process open to everyone's reasoning.",
+   "method": "Conceptual and historical argument",
+   "themes": [
+    "deliberation",
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591787015003005",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591787015003005); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sanders1997",
+   "type": "work",
+   "label": "Sanders 1997",
+   "authors": "Lynn M. Sanders",
+   "year": 1997,
+   "journal": "Political Theory",
+   "title": "Against Deliberation",
+   "claim": "Deliberative norms of calm, reasoned argument favor already privileged speakers and can silence women and racial minorities, so democrats should value testimony alongside deliberation.",
+   "method": "Normative argument drawing on jury and small-group studies",
+   "themes": [
+    "deliberation",
+    "feminism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591797025003002",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591797025003002); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "young2001",
+   "type": "work",
+   "label": "Young 2001",
+   "authors": "Iris Marion Young",
+   "year": 2001,
+   "journal": "Political Theory",
+   "title": "Activist Challenges to Deliberative Democracy",
+   "claim": "An activist's objection that deliberating within structurally unjust institutions co-opts dissent shows that protest and disruption can be legitimate democratic action.",
+   "method": "Dialogic normative argument",
+   "themes": [
+    "deliberation",
+    "critical"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591701029005004",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591701029005004); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "dryzeklist2002",
+   "type": "work",
+   "label": "Dryzek 2002",
+   "authors": "John S. Dryzek & Christian List",
+   "year": 2002,
+   "journal": "BJPS",
+   "title": "Social Choice Theory and Deliberative Democracy: A Reconciliation",
+   "claim": "Deliberation can produce meta-consensus and single-peaked preferences, avoiding the cycling and manipulation that social choice theory says make aggregation meaningless.",
+   "method": "Formal-conceptual argument",
+   "themes": [
+    "deliberation",
+    "epistemic"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123403000012",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123403000012); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "luskin2002",
+   "type": "work",
+   "label": "Luskin 2002",
+   "authors": "Robert C. Luskin, James S. Fishkin & Roger Jowell",
+   "year": 2002,
+   "journal": "BJPS",
+   "title": "Considered Opinions: Deliberative Polling in Britain",
+   "claim": "Participants in a British Deliberative Poll on crime gained knowledge and changed their policy views, showing that deliberation produces more informed and considered opinions.",
+   "method": "Deliberative Poll with control group, UK 1994",
+   "themes": [
+    "deliberation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123402000194",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123402000194); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cohen1986",
+   "type": "work",
+   "label": "Cohen 1986",
+   "authors": "Joshua Cohen",
+   "year": 1986,
+   "journal": "Ethics",
+   "title": "An Epistemic Conception of Democracy",
+   "claim": "Democratic voting is best read as citizens judging what the common good is, so majority outcomes count as evidence about an independent standard of correctness.",
+   "method": "Normative argument",
+   "themes": [
+    "epistemic",
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/292815",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/292815); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "grofmanfeld1988",
+   "type": "work",
+   "label": "Grofman 1988",
+   "authors": "Bernard Grofman & Scott L. Feld",
+   "year": 1988,
+   "journal": "APSR",
+   "title": "Rousseau's General Will: A Condorcetian Perspective",
+   "claim": "Read through the Condorcet jury theorem, Rousseau's general will is a majority judgment that is very likely correct when voters are independent and somewhat competent.",
+   "method": "Formal model and textual interpretation",
+   "themes": [
+    "epistemic",
+    "history"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1957401",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1957401); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "eulau1959",
+   "type": "work",
+   "label": "Eulau 1959",
+   "authors": "Heinz Eulau, John C. Wahlke, William Buchanan & Leroy C. Ferguson",
+   "year": 1959,
+   "journal": "APSR",
+   "title": "The Role of the Representative: Some Empirical Observations on the Theory of Edmund Burke",
+   "claim": "Interviews with state legislators show trustee, delegate and politico role orientations, which vary with district competitiveness, giving Burke's dichotomy an empirical form.",
+   "method": "Interviews with legislators in four US states, 1957",
+   "themes": [
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1951941",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1951941); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "claytonobrien2018",
+   "type": "work",
+   "label": "Clayton 2018",
+   "authors": "Amanda Clayton, Diana Z. O'Brien & Jennifer M. Piscopo",
+   "year": 2018,
+   "journal": "AJPS",
+   "title": "All Male Panels? Representation and Democratic Legitimacy",
+   "claim": "Citizens see decisions made by all-male panels as less legitimate than identical decisions made by gender-balanced panels, especially on women's issues.",
+   "method": "Survey experiments, US",
+   "themes": [
+    "representation",
+    "feminism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12391",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12391); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "thompson1980",
+   "type": "work",
+   "label": "Thompson 1980",
+   "authors": "Dennis F. Thompson",
+   "year": 1980,
+   "journal": "APSR",
+   "title": "Moral Responsibility of Public Officials: The Problem of Many Hands",
+   "claim": "When many officials contribute to a policy outcome, responsibility should not dissolve; individuals can still be held personally responsible through criteria of cause and volition.",
+   "method": "Normative argument",
+   "themes": [
+    "legitimacy",
+    "economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1954312",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1954312); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pettit1996",
+   "type": "work",
+   "label": "Pettit 1996",
+   "authors": "Philip Pettit",
+   "year": 1996,
+   "journal": "Ethics",
+   "title": "Freedom as Antipower",
+   "claim": "Freedom is best understood as antipower, secure protection against others' capacity to interfere at will, a conception distinct from both negative and positive liberty.",
+   "method": "Conceptual argument",
+   "themes": [
+    "republicanism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/233648",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/233648); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mccormick2003",
+   "type": "work",
+   "label": "McCormick 2003",
+   "authors": "John P. McCormick",
+   "year": 2003,
+   "journal": "Political Theory",
+   "title": "Machiavelli Against Republicanism",
+   "claim": "The Cambridge School reads Machiavelli through Guicciardini's elitism; Machiavelli's own republic gives the plebs class-specific institutions to check the grandi.",
+   "method": "Textual interpretation",
+   "themes": [
+    "republicanism",
+    "history",
+    "populism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591703252159",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591703252159); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "blake2001",
+   "type": "work",
+   "label": "Blake 2001",
+   "authors": "Michael Blake",
+   "year": 2001,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Distributive Justice, State Coercion, and Autonomy",
+   "claim": "Egalitarian distributive justice applies only among people who share a coercive state, because state coercion is what must be justified to those subject to it; global duties are limited to sufficiency.",
+   "method": "Normative argument",
+   "themes": [
+    "global",
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1088-4963.2001.00257.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1088-4963.2001.00257.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sen2004",
+   "type": "work",
+   "label": "Sen 2004",
+   "authors": "Amartya Sen",
+   "year": 2004,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Elements of a Theory of Human Rights",
+   "claim": "Human rights are ethical claims about the importance of freedoms, whose standing comes from surviving open public reasoning, not from legislation.",
+   "method": "Normative argument",
+   "themes": [
+    "global"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1088-4963.2004.00017.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1088-4963.2004.00017.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "shacknove1985",
+   "type": "work",
+   "label": "Shacknove 1985",
+   "authors": "Andrew E. Shacknove",
+   "year": 1985,
+   "journal": "Ethics",
+   "title": "Who Is a Refugee?",
+   "claim": "Refugeehood should be defined by the absence of state protection of basic needs, not by persecution alone, which widens the class of people owed international protection.",
+   "method": "Conceptual argument",
+   "themes": [
+    "migration",
+    "global"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/292626",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/292626); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "benhabib2009",
+   "type": "work",
+   "label": "Benhabib 2009",
+   "authors": "Seyla Benhabib",
+   "year": 2009,
+   "journal": "APSR",
+   "title": "Claiming Rights across Borders: International Human Rights and Democratic Sovereignty",
+   "claim": "International human rights norms and democratic self-determination support each other, since peoples reinterpret cosmopolitan norms through 'democratic iterations'.",
+   "method": "Normative argument",
+   "themes": [
+    "global",
+    "migration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055409990244",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055409990244); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "listkoenigarchibugi2010",
+   "type": "work",
+   "label": "List 2010",
+   "authors": "Christian List & Mathias Koenig-Archibugi",
+   "year": 2010,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Can There Be a Global Demos? An Agency-Based Approach",
+   "claim": "A demos is defined by its capacity to act as a group agent, not by shared identity, so a global demos is possible in principle.",
+   "method": "Conceptual argument from group-agency theory",
+   "themes": [
+    "global",
+    "migration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1088-4963.2009.01174.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1088-4963.2009.01174.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "armitage2004",
+   "type": "work",
+   "label": "Armitage 2004",
+   "authors": "David Armitage",
+   "year": 2004,
+   "journal": "Political Theory",
+   "title": "John Locke, Carolina, and the Two Treatises of Government",
+   "claim": "Locke revised the Two Treatises, including the property chapter, while working on the Carolina colony, so his theory is bound up with colonial expansion.",
+   "method": "Archival-contextual history",
+   "themes": [
+    "history",
+    "race"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591704267122",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591704267122); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "valentini2015",
+   "type": "work",
+   "label": "Valentini 2015",
+   "authors": "Laura Valentini",
+   "year": 2015,
+   "journal": "Philosophy & Public Affairs",
+   "title": "On the Distinctive Procedural Wrong of Colonialism",
+   "claim": "Colonialism wrongs people even when it is substantively benign, because it denies them collective self-determination; the wrong is procedural.",
+   "method": "Normative argument",
+   "themes": [
+    "race",
+    "global"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/papa.12057",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/papa.12057); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "nussbaum1995",
+   "type": "work",
+   "label": "Nussbaum 1995",
+   "authors": "Martha C. Nussbaum",
+   "year": 1995,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Objectification",
+   "claim": "Objectification bundles seven distinct notions, such as instrumentality and denial of autonomy; some forms are harmless or even good in context, and the wrong depends on the surrounding relationship.",
+   "method": "Conceptual analysis",
+   "themes": [
+    "feminism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1088-4963.1995.tb00032.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1088-4963.1995.tb00032.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "fraser1994",
+   "type": "work",
+   "label": "Fraser 1994",
+   "authors": "Nancy Fraser",
+   "year": 1994,
+   "journal": "Political Theory",
+   "title": "After The Family Wage",
+   "claim": "Neither the universal-breadwinner nor the caregiver-parity model achieves gender equity; a 'universal caregiver' model that makes men more like women is needed.",
+   "method": "Normative evaluation of welfare-state models",
+   "themes": [
+    "feminism",
+    "economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591794022004003",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591794022004003); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hawkesworth2003",
+   "type": "work",
+   "label": "Hawkesworth 2003",
+   "authors": "Mary Hawkesworth",
+   "year": 2003,
+   "journal": "APSR",
+   "title": "Congressional Enactments of Race–Gender: Toward a Theory of Raced–Gendered Institutions",
+   "claim": "Congressional practices produce raced and gendered hierarchies that marginalize congresswomen of color, so institutions themselves are raced-gendered.",
+   "method": "Interviews and legislative case study, US Congress",
+   "themes": [
+    "feminism",
+    "race"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055403000868",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055403000868); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "young1989",
+   "type": "work",
+   "label": "Young 1989",
+   "authors": "Iris Marion Young",
+   "year": 1989,
+   "journal": "Ethics",
+   "title": "Polity and Group Difference: A Critique of the Ideal of Universal Citizenship",
+   "claim": "Universal citizenship that ignores group difference excludes oppressed groups, so justice requires group-differentiated citizenship, including group representation.",
+   "method": "Normative argument",
+   "themes": [
+    "recognition",
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/293065",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/293065); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kukathas1992",
+   "type": "work",
+   "label": "Kukathas 1992",
+   "authors": "Chandran Kukathas",
+   "year": 1992,
+   "journal": "Political Theory",
+   "title": "Are there any Cultural Rights?",
+   "claim": "Liberalism needs no special cultural group rights; groups are protected through individuals' freedom of association and their right to exit.",
+   "method": "Normative argument",
+   "themes": [
+    "recognition"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591792020001006",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591792020001006); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "herzogzacka2017",
+   "type": "work",
+   "label": "Herzog 2017",
+   "authors": "Lisa Herzog & Bernardo Zacka",
+   "year": 2017,
+   "journal": "BJPS",
+   "title": "Fieldwork in Political Theory: Five Arguments for an Ethnographic Sensibility",
+   "claim": "Ethnographic fieldwork helps political theorists by revealing overlooked phenomena, testing assumptions and exposing the moral texture of practices.",
+   "method": "Methodological argument",
+   "themes": [
+    "method"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123416000703",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123416000703); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "fung2007",
+   "type": "work",
+   "label": "Fung 2007",
+   "authors": "Archon Fung",
+   "year": 2007,
+   "journal": "APSR",
+   "title": "Democratic Theory and Political Science: A Pragmatic Method of Constructive Engagement",
+   "claim": "Democratic theory and empirical political science should meet through a pragmatic method that pairs normative ideals with institutional designs and tests them against outcomes.",
+   "method": "Methodological argument with institutional examples",
+   "themes": [
+    "method",
+    "deliberation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000305540707030x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000305540707030x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cohenga2003",
+   "type": "work",
+   "label": "Cohen 2003",
+   "authors": "G. A. Cohen",
+   "year": 2003,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Facts and Principles",
+   "claim": "Every fact-sensitive principle rests on a more fundamental fact-insensitive principle, so constructivists conflate rules of regulation with principles of justice.",
+   "method": "Metaethical argument",
+   "themes": [
+    "method",
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1088-4963.2003.00211.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1088-4963.2003.00211.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bennett2004",
+   "type": "work",
+   "label": "Bennett 2004",
+   "authors": "Jane Bennett",
+   "year": 2004,
+   "journal": "Political Theory",
+   "title": "The Force of Things",
+   "claim": "Nonhuman matter has 'thing-power', a capacity to act, and recognizing this vital materiality would reorient ethics and politics toward human-nonhuman assemblages.",
+   "method": "Theoretical essay",
+   "themes": [
+    "critical",
+    "climate"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591703260853",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591703260853); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "canovan1999",
+   "type": "work",
+   "label": "Canovan 1999",
+   "authors": "Margaret Canovan",
+   "year": 1999,
+   "journal": "Political Studies",
+   "title": "Trust the People! Populism and the Two Faces of Democracy",
+   "claim": "Populism grows out of the gap between democracy's redemptive face (popular sovereignty) and its pragmatic face (institutions), so it is a shadow cast by democracy itself.",
+   "method": "Theoretical essay",
+   "themes": [
+    "populism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/1467-9248.00184); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/1467-9248.00184"
+  },
+  {
+   "id": "gonzalezricoy2021",
+   "type": "work",
+   "label": "González‐Ricoy 2021",
+   "authors": "Iñigo González‐Ricoy",
+   "year": 2021,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Little Republics: Authority and the Political Nature of the Firm",
+   "claim": "Firms exercise political authority over workers, which must meet the justificatory demands placed on political rule and so supports workplace democracy.",
+   "method": "Normative argument",
+   "themes": [
+    "economy",
+    "republicanism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/papa.12205",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/papa.12205); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gardiner2004",
+   "type": "work",
+   "label": "Gardiner 2004",
+   "authors": "Stephen M. Gardiner",
+   "year": 2004,
+   "journal": "Ethics",
+   "title": "Ethics and Global Climate Change",
+   "claim": "Climate change combines global, intergenerational and theoretical problems that make it a uniquely hard ethical issue and tempt current generations toward moral corruption.",
+   "method": "Survey article and normative argument",
+   "themes": [
+    "climate",
+    "global"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/382247",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/382247); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "krause2019",
+   "type": "work",
+   "label": "Krause 2019",
+   "authors": "Sharon R. Krause",
+   "year": 2019,
+   "journal": "Political Theory",
+   "title": "Environmental Domination",
+   "claim": "Environmental harm can be a form of domination, of vulnerable people and of nature, so non-domination should be extended to environmental relations.",
+   "method": "Normative argument",
+   "themes": [
+    "climate",
+    "republicanism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0090591719890833",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0090591719890833); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lane2016",
+   "type": "work",
+   "label": "Lane 2016",
+   "authors": "Melissa Lane",
+   "year": 2016,
+   "journal": "Annual Review of Political Science",
+   "title": "Political Theory on Climate Change",
+   "claim": "Political theory on climate has centered on distributive justice; it should give more weight to collective agency, institutions and political action.",
+   "method": "Review article",
+   "themes": [
+    "climate"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-042114-015427",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-042114-015427); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "shue1993",
+   "type": "work",
+   "label": "Shue 1993",
+   "authors": "Henry Shue",
+   "year": 1993,
+   "journal": "Law & Policy",
+   "title": "Subsistence Emissions and Luxury Emissions",
+   "claim": "Emissions needed for subsistence should be protected, while luxury emissions in rich countries should bear the burden of cuts.",
+   "method": "Normative argument",
+   "themes": [
+    "climate",
+    "global"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/j.1467-9930.1993.tb00093.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1467-9930.1993.tb00093.x"
+  },
+  {
+   "id": "duusotterstrom2022",
+   "type": "work",
+   "label": "Duus-Otterström 2022",
+   "authors": "Göran Duus-Otterström",
+   "year": 2022,
+   "journal": "BJPS",
+   "title": "Subsistence Emissions and Climate Justice",
+   "claim": "Emissions are exempt from mitigation duties only when needed for a decent minimum, which yields a more demanding account of which emissions are permissible.",
+   "method": "Normative argument",
+   "themes": [
+    "climate",
+    "justice"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123422000485",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123422000485); claim is my summary, not re-read this session"
   }
  ],
  "edges": [
@@ -10284,6 +11142,540 @@
    "target": "thompson2010",
    "type": "synthesizes",
    "why": "Democratic presentism and climate."
+  },
+  {
+   "source": "harsanyi1975",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Argues maximin is irrational under uncertainty and that contractors would maximize average utility, contesting Rawls's derivation of the difference principle."
+  },
+  {
+   "source": "cohen1997",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Argues principles of justice apply to individual choices inside the basic structure, rejecting Rawls's restriction of justice to institutions."
+  },
+  {
+   "source": "cohen1997",
+   "target": "cohen1992",
+   "type": "builds_on",
+   "why": "Generalizes the incentives critique into the claim that the difference principle requires an egalitarian ethos, not just just institutions."
+  },
+  {
+   "source": "wolff1998",
+   "target": "arneson1989",
+   "type": "challenges",
+   "why": "Shows that implementing opportunity for welfare requires demeaning inquiries into people's choices and talents, a respect cost Arneson's view ignores."
+  },
+  {
+   "source": "wolff1998",
+   "target": "cohen1989",
+   "type": "challenges",
+   "why": "Argues Cohen's luck-sensitive currency forces 'shameful revelation', so fairness must be traded off against respect."
+  },
+  {
+   "source": "anderson1999",
+   "target": "wolff1998",
+   "type": "builds_on",
+   "why": "Develops Wolff's respect-based objection to luck egalitarianism into a full relational conception of democratic equality."
+  },
+  {
+   "source": "waldron1992",
+   "target": "nozick1974",
+   "type": "challenges",
+   "why": "Argues changed circumstances can supersede historic entitlements, contesting Nozick's principle that past injustice must be rectified by restoring holdings."
+  },
+  {
+   "source": "lu2011",
+   "target": "waldron1992",
+   "type": "challenges",
+   "why": "Resists the supersession thesis by treating colonial injustice as structural, so its ongoing effects ground present redress."
+  },
+  {
+   "source": "simmons1999",
+   "target": "rawls1993",
+   "type": "challenges",
+   "why": "Argues Kantian liberals like Rawls conflate a state's justification with its legitimacy, which on a Lockean view needs actual consent."
+  },
+  {
+   "source": "buchanan2002",
+   "target": "simmons1999",
+   "type": "challenges",
+   "why": "Rejects consent-based legitimacy, defining legitimacy as justified use of power that needs no duty to obey but does need democracy and basic rights."
+  },
+  {
+   "source": "buchanan2002",
+   "target": "raz1986",
+   "type": "qualifies",
+   "why": "Narrows the service conception by separating a state's legitimacy from any authority to impose content-independent duties."
+  },
+  {
+   "source": "christiano2011",
+   "target": "buchanan2002",
+   "type": "builds_on",
+   "why": "Builds on Buchanan's link between legitimacy and democracy to argue democracy is an international human right."
+  },
+  {
+   "source": "manin1987",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Rejects the unanimity built into Rawls's original position, locating legitimacy in deliberation open to all rather than agreement of all."
+  },
+  {
+   "source": "cohen1989delib",
+   "target": "manin1987",
+   "type": "builds_on",
+   "why": "Shares Manin's grounding of legitimacy in free public deliberation and formalizes it as an ideal deliberative procedure."
+  },
+  {
+   "source": "sanders1997",
+   "target": "cohen1989delib",
+   "type": "challenges",
+   "why": "Argues the ideal procedure's reason-giving norms privilege advantaged speakers and silence women and minorities, so testimony must supplement deliberation."
+  },
+  {
+   "source": "karpowitz2012",
+   "target": "sanders1997",
+   "type": "mechanism_tested_by",
+   "why": "Experimentally confirms Sanders's worry that deliberating groups silence women unless decision rules and gender composition offset status inequality."
+  },
+  {
+   "source": "young2001",
+   "target": "gutmannthompson1996",
+   "type": "challenges",
+   "why": "Voices the activist objection that reciprocal deliberation inside unjust structures co-opts dissent, defending protest against Gutmann and Thompson's ideal."
+  },
+  {
+   "source": "young2001",
+   "target": "young2000",
+   "type": "builds_on",
+   "why": "Extends Inclusion and Democracy's critique of narrow deliberation to defend disruptive activism as democratic."
+  },
+  {
+   "source": "dryzeklist2002",
+   "target": "cohen1989delib",
+   "type": "synthesizes",
+   "why": "Integrates deliberative legitimacy with social choice theory, arguing deliberation can create the preference structures that make aggregation meaningful."
+  },
+  {
+   "source": "list2006",
+   "target": "dryzeklist2002",
+   "type": "builds_on",
+   "why": "Builds on the reconciliation of social choice and deliberation to analyze the discursive dilemma facing public reason."
+  },
+  {
+   "source": "luskin2002",
+   "target": "cohen1989delib",
+   "type": "mechanism_tested_by",
+   "why": "Tests deliberative theory's claim that deliberation yields informed, considered opinion, finding Deliberative Poll participants gained knowledge and shifted views."
+  },
+  {
+   "source": "fishkin2009",
+   "target": "luskin2002",
+   "type": "builds_on",
+   "why": "Uses the British Deliberative Poll evidence to argue random-sample deliberation reveals what an informed public would think."
+  },
+  {
+   "source": "estlund2008",
+   "target": "cohen1986",
+   "type": "builds_on",
+   "why": "Develops Cohen's epistemic conception into epistemic proceduralism, grounding authority in procedures' tendency to reach correct outcomes."
+  },
+  {
+   "source": "peter2007",
+   "target": "cohen1986",
+   "type": "challenges",
+   "why": "Argues democratic legitimacy should rest on fair procedures of social inquiry rather than on tracking a procedure-independent correct outcome, as Cohen's epistemic conception holds."
+  },
+  {
+   "source": "grofmanfeld1988",
+   "target": "cohen1986",
+   "type": "builds_on",
+   "why": "Formalizes the epistemic reading of the general will with the Condorcet jury theorem, supporting Cohen's view of voting as judgment about the common good."
+  },
+  {
+   "source": "landemore2013",
+   "target": "grofmanfeld1988",
+   "type": "builds_on",
+   "why": "Uses the Condorcet-jury account of majority rule's reliability as one pillar of her case for democratic reason."
+  },
+  {
+   "source": "pitkin1967",
+   "target": "eulau1959",
+   "type": "builds_on",
+   "why": "Conceptually reworks the trustee-delegate controversy whose role orientations Eulau and colleagues measured among legislators."
+  },
+  {
+   "source": "rehfeld2009",
+   "target": "eulau1959",
+   "type": "qualifies",
+   "why": "Breaks the Eulau-Wahlke trustee/delegate/politico typology into separate dimensions of aims, source of judgment and responsiveness."
+  },
+  {
+   "source": "claytonobrien2018",
+   "target": "mansbridge1999",
+   "type": "mechanism_tested_by",
+   "why": "Experimentally shows all-male bodies' identical decisions are seen as less legitimate, supporting Mansbridge's claim that descriptive representation boosts legitimacy."
+  },
+  {
+   "source": "herzog2018",
+   "target": "thompson1980",
+   "type": "builds_on",
+   "why": "Takes up Thompson's problem of many hands, arguing individuals in organizations keep a responsibility to reclaim the system."
+  },
+  {
+   "source": "pettit2007",
+   "target": "thompson1980",
+   "type": "qualifies",
+   "why": "Answers the many-hands problem by assigning responsibility to corporate group agents, so responsibility does not vanish when no individual is fully culpable."
+  },
+  {
+   "source": "pettit1996",
+   "target": "berlin1958",
+   "type": "challenges",
+   "why": "Offers freedom as antipower, secure protection against domination, as a third conception that escapes Berlin's negative/positive dichotomy."
+  },
+  {
+   "source": "pettit1997",
+   "target": "pettit1996",
+   "type": "builds_on",
+   "why": "Expands the antipower idea into the full theory of freedom as non-domination."
+  },
+  {
+   "source": "mccormick2003",
+   "target": "pocock1975",
+   "type": "challenges",
+   "why": "Argues the Cambridge School's civic republicanism follows Guicciardini's elitism, not Machiavelli's plebeian, anti-aristocratic republic."
+  },
+  {
+   "source": "mccormick2003",
+   "target": "pettit1997",
+   "type": "challenges",
+   "why": "Faults neo-republicanism for relying on elite-run electoral and judicial institutions instead of class-specific popular checks on the few."
+  },
+  {
+   "source": "vergara2020",
+   "target": "mccormick2003",
+   "type": "builds_on",
+   "why": "Builds on McCormick's plebeian Machiavelli to cast populism as popular empowerment against oligarchic domination."
+  },
+  {
+   "source": "blake2001",
+   "target": "beitz1979",
+   "type": "challenges",
+   "why": "Argues egalitarian justice holds only among those sharing a coercive state, rejecting Beitz's extension of the difference principle to the globe."
+  },
+  {
+   "source": "nagel2005",
+   "target": "blake2001",
+   "type": "builds_on",
+   "why": "Shares Blake's view that coercive state institutions trigger egalitarian justice and sharpens it into a political conception."
+  },
+  {
+   "source": "abizadeh2007",
+   "target": "blake2001",
+   "type": "challenges",
+   "why": "Disputes coercion-based statism like Blake's by separating the scope of distributive justice from its institutional site."
+  },
+  {
+   "source": "sen2004",
+   "target": "sen1980",
+   "type": "builds_on",
+   "why": "Grounds human rights in the importance of freedoms and capabilities, extending Sen's capability approach to rights."
+  },
+  {
+   "source": "beitz2009",
+   "target": "sen2004",
+   "type": "challenges",
+   "why": "Contrasts its practice-based conception with ethics-first accounts such as Sen's that treat human rights as prior moral claims independent of their international role."
+  },
+  {
+   "source": "gibney2015",
+   "target": "shacknove1985",
+   "type": "builds_on",
+   "why": "Builds on Shacknove's needs-based conception of refugeehood, wider than persecution, in allocating responsibilities among states."
+  },
+  {
+   "source": "carens2013",
+   "target": "shacknove1985",
+   "type": "builds_on",
+   "why": "Adopts a broad, need-based understanding of who counts as a refugee, as Shacknove proposed, in setting out states' duties to refugees."
+  },
+  {
+   "source": "benhabib2009",
+   "target": "benhabib2004",
+   "type": "builds_on",
+   "why": "Extends her account of democratic iterations to argue cosmopolitan rights norms and popular sovereignty reinforce each other."
+  },
+  {
+   "source": "benhabib2009",
+   "target": "rawls1999",
+   "type": "challenges",
+   "why": "Criticizes minimalist human-rights lists like the Law of Peoples' for detaching rights from democratic self-determination."
+  },
+  {
+   "source": "listkoenigarchibugi2010",
+   "target": "miller2009",
+   "type": "challenges",
+   "why": "Argues a demos needs capacity for group agency rather than shared national identity, so a global demos is possible, contrary to Miller."
+  },
+  {
+   "source": "listkoenigarchibugi2010",
+   "target": "goodin2007",
+   "type": "qualifies",
+   "why": "Supplies an agency-based criterion for constituting a demos as an alternative to drawing its boundary by all affected interests."
+  },
+  {
+   "source": "armitage2004",
+   "target": "skinner1969",
+   "type": "builds_on",
+   "why": "Applies contextualist method to reconstruct the Two Treatises in light of Locke's colonial administration."
+  },
+  {
+   "source": "hinshelwood2013",
+   "target": "armitage2004",
+   "type": "builds_on",
+   "why": "Builds on Armitage's Carolina context to reread Locke's theory of slavery through his colonial work."
+  },
+  {
+   "source": "farr2008",
+   "target": "armitage2004",
+   "type": "qualifies",
+   "why": "Grants Locke's colonial involvement but argues his natural-law theory of just-war slavery could not justify Atlantic slavery."
+  },
+  {
+   "source": "valentini2015",
+   "target": "ypi2013",
+   "type": "qualifies",
+   "why": "Refines Ypi's account by locating colonialism's distinctive wrong in denied collective self-determination, independent of distributive harm."
+  },
+  {
+   "source": "nussbaum1995",
+   "target": "mackinnon1982",
+   "type": "qualifies",
+   "why": "Splits objectification into seven notions and shows some are benign in context, qualifying MacKinnon's view of objectification as inherently subordinating."
+  },
+  {
+   "source": "fraser1994",
+   "target": "okin1989",
+   "type": "builds_on",
+   "why": "Builds on the critique of the gendered division of labor to propose a universal-caregiver welfare state."
+  },
+  {
+   "source": "woodly2021",
+   "target": "fraser1994",
+   "type": "builds_on",
+   "why": "Extends Fraser's argument that care work must be central to justice into a broader politics of care."
+  },
+  {
+   "source": "hawkesworth2003",
+   "target": "crenshaw1991",
+   "type": "extends_to_new_case",
+   "why": "Carries intersectionality into legislative institutions, showing how Congress produces raced-gendered hierarchies among congresswomen of color."
+  },
+  {
+   "source": "young1990",
+   "target": "young1989",
+   "type": "builds_on",
+   "why": "Develops the critique of universal citizenship into a full theory of oppression and the politics of difference."
+  },
+  {
+   "source": "mansbridge1999",
+   "target": "young1989",
+   "type": "builds_on",
+   "why": "Takes up Young's case for group representation, defending descriptive representation under specific contingencies."
+  },
+  {
+   "source": "kymlicka1995",
+   "target": "kukathas1992",
+   "type": "challenges",
+   "why": "Rebuts Kukathas's view that freedom of association suffices, defending group-differentiated minority rights within liberalism."
+  },
+  {
+   "source": "herzogzacka2017",
+   "target": "zacka2017",
+   "type": "synthesizes",
+   "why": "Generalizes ethnographic theorizing like Zacka's study of street-level bureaucrats into five arguments for fieldwork in political theory."
+  },
+  {
+   "source": "ackerly2021",
+   "target": "herzogzacka2017",
+   "type": "builds_on",
+   "why": "Turns calls for an ethnographic sensibility into a program of grounded normative theory."
+  },
+  {
+   "source": "thompson2008",
+   "target": "fung2007",
+   "type": "synthesizes",
+   "why": "Joins Fung's call for constructive engagement in mapping how empirical research can test and refine deliberative theory."
+  },
+  {
+   "source": "warren2017",
+   "target": "fung2007",
+   "type": "builds_on",
+   "why": "Builds on Fung's pragmatic, problem-oriented linking of democratic ideals and institutional design."
+  },
+  {
+   "source": "cohenga2003",
+   "target": "rawls1971",
+   "type": "challenges",
+   "why": "Argues fundamental principles are fact-insensitive, so Rawls's constructivism mistakes fact-dependent rules of regulation for principles of justice."
+  },
+  {
+   "source": "cohen2008",
+   "target": "cohenga2003",
+   "type": "builds_on",
+   "why": "Makes the facts-and-principles argument the metaethical core of Rescuing Justice and Equality."
+  },
+  {
+   "source": "sangiovanni2008",
+   "target": "cohenga2003",
+   "type": "challenges",
+   "why": "Defends practice-dependent theorizing against Cohen's claim that ultimate principles must be fact-insensitive."
+  },
+  {
+   "source": "washick2015",
+   "target": "bennett2004",
+   "type": "challenges",
+   "why": "Questions whether new-materialist accounts like Bennett's vital materiality can support analysis of power and justice."
+  },
+  {
+   "source": "celermajer2021",
+   "target": "bennett2004",
+   "type": "builds_on",
+   "why": "Draws on Bennett's account of distributed, nonhuman agency to extend justice beyond humans."
+  },
+  {
+   "source": "mudde2004",
+   "target": "canovan1999",
+   "type": "builds_on",
+   "why": "Builds on Canovan's account of populism as an appeal to the people against elites in defining populism as a thin-centred ideology."
+  },
+  {
+   "source": "muller2014",
+   "target": "canovan1999",
+   "type": "qualifies",
+   "why": "Qualifies Canovan's democratic 'redemptive' reading by stressing populism's anti-pluralist claim to be the people's sole voice."
+  },
+  {
+   "source": "gonzalezricoy2021",
+   "target": "anderson2017",
+   "type": "builds_on",
+   "why": "Deepens Anderson's 'private government' critique by arguing firm authority is political and needs the same justification as state rule."
+  },
+  {
+   "source": "gonzalezricoy2021",
+   "target": "landemoreferreras2016",
+   "type": "builds_on",
+   "why": "Supports the case for workplace democracy by grounding it in the political nature of authority within firms."
+  },
+  {
+   "source": "gardiner2004",
+   "target": "parfit1984",
+   "type": "builds_on",
+   "why": "Identifies intergenerational asymmetry and Parfitian non-identity worries as core theoretical obstacles in climate ethics."
+  },
+  {
+   "source": "gardiner2011",
+   "target": "gardiner2004",
+   "type": "builds_on",
+   "why": "Develops the 2004 diagnosis of global, intergenerational and theoretical 'storms' into a book-length argument."
+  },
+  {
+   "source": "krause2019",
+   "target": "pettit1997",
+   "type": "extends_to_new_case",
+   "why": "Extends non-domination to environmental relations, arguing environmental harms dominate vulnerable people and nonhuman nature."
+  },
+  {
+   "source": "krause2019",
+   "target": "schlosberg2007",
+   "type": "builds_on",
+   "why": "Builds on environmental justice theory's attention to vulnerable communities and nature to frame environmental harm as domination."
+  },
+  {
+   "source": "lane2016",
+   "target": "gardiner2011",
+   "type": "synthesizes",
+   "why": "Reviews climate political theory, linking Gardiner's moral storm to questions of institutions, agency and future generations."
+  },
+  {
+   "source": "lane2016",
+   "target": "caney2014",
+   "type": "synthesizes",
+   "why": "Organizes the burden-sharing debate, including Caney's distinction between avoiding harm and sharing burdens."
+  },
+  {
+   "source": "caney2012",
+   "target": "shue1993",
+   "type": "builds_on",
+   "why": "Builds on Shue's distinction between subsistence and luxury emissions in defending a just distribution of emission entitlements."
+  },
+  {
+   "source": "duusotterstrom2022",
+   "target": "shue1993",
+   "type": "builds_on",
+   "why": "Develops Shue's subsistence-emissions idea into a principled account of which emissions are exempt from mitigation duties."
+  },
+  {
+   "source": "duusotterstrom2022",
+   "target": "caney2012",
+   "type": "qualifies",
+   "why": "Limits protected emissions to what a decent minimum requires, qualifying broader egalitarian accounts of just emissions."
+  },
+  {
+   "source": "mittiga2022",
+   "target": "williams2005",
+   "type": "builds_on",
+   "why": "Grounds 'foundational legitimacy' in a state's securing of safety, echoing Williams's first political question, to argue climate emergency may license authoritarian measures."
+  },
+  {
+   "source": "mittiga2022",
+   "target": "gardiner2011",
+   "type": "builds_on",
+   "why": "Takes the severity of the climate moral storm as grounds for revisiting what democratic legitimacy can require."
+  },
+  {
+   "source": "schlosberg2007",
+   "target": "fraser1995",
+   "type": "builds_on",
+   "why": "Applies Fraser's distribution-recognition framework, adding participation and capabilities, to environmental justice movements."
+  },
+  {
+   "source": "schlosberg2007",
+   "target": "young1990",
+   "type": "builds_on",
+   "why": "Draws on Young's politics of difference to theorize recognition as a dimension of environmental justice."
+  },
+  {
+   "source": "mutz2006",
+   "target": "gutmannthompson1996",
+   "type": "mechanism_tested_by",
+   "why": "Tests deliberative democrats' hopes for cross-cutting exposure, finding it builds tolerance but depresses political participation."
+  },
+  {
+   "source": "mutz2008",
+   "target": "mutz2006",
+   "type": "builds_on",
+   "why": "Draws on her evidence of tension between deliberative and participatory democracy to ask whether deliberative theory is falsifiable."
+  },
+  {
+   "source": "gilens2012",
+   "target": "dahl1985",
+   "type": "mechanism_tested_by",
+   "why": "Shows US policy responds mainly to affluent citizens, bearing out Dahl's worry that economic inequality corrupts political equality."
+  },
+  {
+   "source": "scanlon2018",
+   "target": "gilens2012",
+   "type": "builds_on",
+   "why": "Uses evidence of unequal responsiveness to argue that inequality matters because it undermines equal political influence."
+  },
+  {
+   "source": "mudde2004",
+   "target": "weyland2001",
+   "type": "challenges",
+   "why": "Defines populism as a thin ideology, rejecting Weyland's definition of it as a political strategy of personalistic leadership."
   },
   {
    "source": "rawls1971",
@@ -14248,6 +15640,474 @@
   {
    "source": "cochrane2013",
    "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mittiga2022",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mittiga2022",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosberg2007",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schlosberg2007",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2006",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilens2012",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilens2012",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weyland2001",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harsanyi1975",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harsanyi1975",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1997",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wolff1998",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron1992",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "waldron1992",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "simmons1999",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buchanan2002",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manin1987",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manin1987",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanders1997",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanders1997",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young2001",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young2001",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzeklist2002",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dryzeklist2002",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luskin2002",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1986",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohen1986",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grofmanfeld1988",
+   "target": "epistemic",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grofmanfeld1988",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eulau1959",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "claytonobrien2018",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "claytonobrien2018",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson1980",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thompson1980",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pettit1996",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccormick2003",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccormick2003",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccormick2003",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blake2001",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "blake2001",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sen2004",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shacknove1985",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shacknove1985",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benhabib2009",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "benhabib2009",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "listkoenigarchibugi2010",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "listkoenigarchibugi2010",
+   "target": "migration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "armitage2004",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "armitage2004",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentini2015",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valentini2015",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nussbaum1995",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraser1994",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fraser1994",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hawkesworth2003",
+   "target": "feminism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hawkesworth2003",
+   "target": "race",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young1989",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young1989",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kukathas1992",
+   "target": "recognition",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herzogzacka2017",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fung2007",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fung2007",
+   "target": "deliberation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohenga2003",
+   "target": "method",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cohenga2003",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bennett2004",
+   "target": "critical",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bennett2004",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "canovan1999",
+   "target": "populism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gonzalezricoy2021",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gonzalezricoy2021",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gardiner2004",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gardiner2004",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krause2019",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "krause2019",
+   "target": "republicanism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lane2016",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shue1993",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shue1993",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duusotterstrom2022",
+   "target": "climate",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duusotterstrom2022",
+   "target": "justice",
    "type": "belongs_to",
    "why": "theme membership"
   }

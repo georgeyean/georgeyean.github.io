@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 326,
+   "work_nodes": 369,
    "theme_nodes": 18,
    "seed_from_papers_json": 5,
    "crossref_top_cited": 236,
    "anchors_supplement": 85,
-   "relation_edges": 337,
-   "membership_edges": 453
+   "relation_edges": 411,
+   "membership_edges": 521,
+   "added_coverage_2026_11": 43
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -6168,6 +6169,803 @@
    "zotero": null,
    "verified": "Crossref: title and author matched (Behavioral and Brain Sciences, 2014; DOI 10.1017/s0140525x13001192)",
    "crossref_doi": "10.1017/s0140525x13001192"
+  },
+  {
+   "id": "zallerfeldman1992",
+   "type": "work",
+   "label": "Zaller 1992",
+   "authors": "John Zaller & Stanley Feldman",
+   "year": 1992,
+   "journal": "AJPS",
+   "title": "A Simple Theory of the Survey Response: Answering Questions versus Revealing Preferences",
+   "claim": "Survey answers average over considerations made salient at the moment, explaining response instability.",
+   "method": "Theory with open-ended probes",
+   "themes": [
+    "knowledge",
+    "methods"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (American Journal of Political Science, 1992; DOI 10.2307/2111583)",
+   "crossref_doi": "10.2307/2111583"
+  },
+  {
+   "id": "kuklinski1997",
+   "type": "work",
+   "label": "Kuklinski 1997",
+   "authors": "James H. Kuklinski, Michael D. Cobb & Martin Gilens",
+   "year": 1997,
+   "journal": "JOP",
+   "title": "Racial Attitudes and the 'New South'",
+   "claim": "A list experiment reveals far more racial anger in the South than direct questions show.",
+   "method": "List experiment",
+   "themes": [
+    "methods",
+    "intergroup"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (The Journal of Politics, 1997; DOI 10.2307/2998167)",
+   "crossref_doi": "10.2307/2998167"
+  },
+  {
+   "id": "mutz2011",
+   "type": "work",
+   "label": "Mutz 2011",
+   "authors": "Diana C. Mutz",
+   "year": 2011,
+   "journal": "Princeton University Press (book)",
+   "title": "Population-Based Survey Experiments",
+   "claim": "Experiments on representative samples combine internal validity with population generalizability.",
+   "method": "Methodological monograph",
+   "themes": [
+    "methods"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Princeton University Press, 2011; DOI 10.23943/princeton/9780691144511.001.0001)"
+  },
+  {
+   "id": "berinsky2012",
+   "type": "work",
+   "label": "Berinsky 2012",
+   "authors": "Adam J. Berinsky, Gregory A. Huber & Gabriel S. Lenz",
+   "year": 2012,
+   "journal": "Political Analysis",
+   "title": "Evaluating Online Labor Markets for Experimental Research: Amazon.com's Mechanical Turk",
+   "claim": "Mechanical Turk samples are more representative than student samples and reproduce classic experimental results.",
+   "method": "Sample comparisons and replications",
+   "themes": [
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpr057); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/pan/mpr057"
+  },
+  {
+   "id": "miller1974",
+   "type": "work",
+   "label": "Miller 1974",
+   "authors": "Arthur H. Miller",
+   "year": 1974,
+   "journal": "APSR",
+   "title": "Political Issues and Trust in Government: 1964–1970",
+   "claim": "The steep decline in trust in government after 1964 reflects policy dissatisfaction among both left and right cynics, signalling potentially systemic alienation.",
+   "method": "NES survey analysis, 1964-1970",
+   "themes": [
+    "trust"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1959140",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1959140); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "citrin1974",
+   "type": "work",
+   "label": "Citrin 1974",
+   "authors": "Jack Citrin",
+   "year": 1974,
+   "journal": "APSR",
+   "title": "Comment: The Political Relevance of Trust in Government",
+   "claim": "Falling trust measures mostly express cynicism about incumbent officials rather than rejection of the political regime, so they need not signal systemic crisis.",
+   "method": "Reanalysis of NES trust items",
+   "themes": [
+    "trust"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1959141",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1959141); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "nieandersen1974",
+   "type": "work",
+   "label": "Nie 1974",
+   "authors": "Norman H. Nie & Kristi Andersen",
+   "year": 1974,
+   "journal": "JOP",
+   "title": "Mass Belief Systems Revisited: Political Change and Attitude Structure",
+   "claim": "Ideological constraint in mass attitudes rose sharply after 1964 as politics became more ideological, so low constraint in the 1950s reflected political context rather than fixed citizen limits.",
+   "method": "NES survey analysis, 1956-1972",
+   "themes": [
+    "knowledge",
+    "ideology"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2129245",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2129245); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "achen1975",
+   "type": "work",
+   "label": "Achen 1975",
+   "authors": "Christopher H. Achen",
+   "year": 1975,
+   "journal": "APSR",
+   "title": "Mass Political Attitudes and the Survey Response",
+   "claim": "Much of the apparent instability of mass attitudes is measurement error in vague survey questions; corrected for error, underlying opinions are fairly stable.",
+   "method": "Measurement-error model of NES panel data",
+   "themes": [
+    "knowledge",
+    "methods"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1955282",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1955282); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sears1980",
+   "type": "work",
+   "label": "Sears 1980",
+   "authors": "David O. Sears, Richard R. Lau, Tom R. Tyler & Harris M. Allen",
+   "year": 1980,
+   "journal": "APSR",
+   "title": "Self-Interest vs. Symbolic Politics in Policy Attitudes and Presidential Voting",
+   "claim": "Long-standing symbolic predispositions such as ideology, party identification and racial prejudice, not personal self-interest, drive policy attitudes and presidential votes.",
+   "method": "NES survey analysis",
+   "themes": [
+    "personality",
+    "intergroup"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1958149",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1958149); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bradysniderman1985",
+   "type": "work",
+   "label": "Brady 1985",
+   "authors": "Henry E. Brady & Paul M. Sniderman",
+   "year": 1985,
+   "journal": "APSR",
+   "title": "Attitude Attribution: A Group Basis for Political Reasoning",
+   "claim": "Citizens accurately infer groups' issue positions from their feelings toward those groups (the likability heuristic), enabling reasoning about politics with limited information.",
+   "method": "Formal model estimated on NES data",
+   "themes": [
+    "heuristics",
+    "knowledge"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1956248",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1956248); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hurwitzpeffley1987",
+   "type": "work",
+   "label": "Hurwitz 1987",
+   "authors": "Jon Hurwitz & Mark Peffley",
+   "year": 1987,
+   "journal": "APSR",
+   "title": "How are Foreign Policy Attitudes Structured? A Hierarchical Model",
+   "claim": "Foreign policy attitudes are structured vertically, with core values shaping general postures (militarism, anti-communism) that in turn constrain specific policy preferences.",
+   "method": "Survey analysis, structural equation model",
+   "themes": [
+    "ir",
+    "ideology"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1962580",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1962580); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "rahn1993",
+   "type": "work",
+   "label": "Rahn 1993",
+   "authors": "Wendy M. Rahn",
+   "year": 1993,
+   "journal": "AJPS",
+   "title": "The Role of Partisan Stereotypes in Information Processing about Political Candidates",
+   "claim": "When a candidate's party label is available, people rely on partisan stereotypes and neglect inconsistent issue information about the candidate.",
+   "method": "Laboratory experiment",
+   "themes": [
+    "heuristics",
+    "identity"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111381",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111381); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kuklinskihurley1994",
+   "type": "work",
+   "label": "Kuklinski 1994",
+   "authors": "James H. Kuklinski & Norman L. Hurley",
+   "year": 1994,
+   "journal": "JOP",
+   "title": "On Hearing and Interpreting Political Messages: A Cautionary Tale of Citizen Cue-Taking",
+   "claim": "Black Americans' agreement with an identical message depended on whether it was attributed to Clarence Thomas or Jesse Jackson, showing source cues can override message content.",
+   "method": "Survey experiment",
+   "themes": [
+    "heuristics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2132190",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2132190); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lauredlawsk1997",
+   "type": "work",
+   "label": "Lau 1997",
+   "authors": "Richard R. Lau & David P. Redlawsk",
+   "year": 1997,
+   "journal": "APSR",
+   "title": "Voting Correctly",
+   "claim": "About three-quarters of voters choose the candidate they would pick if fully informed, so 'correct voting' is common but far from universal.",
+   "method": "Experiments and NES analysis, 1972-1988",
+   "themes": [
+    "heuristics",
+    "knowledge"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2952076",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2952076); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gerbergreen1998",
+   "type": "work",
+   "label": "Gerber 1998",
+   "authors": "Alan Gerber & Donald P. Green",
+   "year": 1998,
+   "journal": "AJPS",
+   "title": "Rational Learning and Partisan Attitudes",
+   "claim": "Partisans update their evaluations of presidents in parallel in response to events, a pattern consistent with rational Bayesian learning rather than a partisan perceptual screen.",
+   "method": "Time-series analysis of approval by party",
+   "themes": [
+    "motivated",
+    "identity"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2991730",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2991730); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "herrmann1999",
+   "type": "work",
+   "label": "Herrmann 1999",
+   "authors": "Richard K. Herrmann, Philip E. Tetlock & Penny S. Visser",
+   "year": 1999,
+   "journal": "APSR",
+   "title": "Mass Public Decisions on Go to War: A Cognitive-Interactionist Framework",
+   "claim": "Public support for using force depends on interactions between individual dispositions and situational features such as the adversary's image, motives and the stakes.",
+   "method": "Survey experiments",
+   "themes": [
+    "ir"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2585574",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2585574); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "levistoker2000",
+   "type": "work",
+   "label": "Levi 2000",
+   "authors": "Margaret Levi & Laura Stoker",
+   "year": 2000,
+   "journal": "Annual Review of Political Science",
+   "title": "Political Trust and Trustworthiness",
+   "claim": "Political trust is a relational judgment about the trustworthiness of particular actors, and research should separate its causes in performance and values from its consequences for compliance and participation.",
+   "method": "Review essay",
+   "themes": [
+    "trust"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1146/annurev.polisci.3.1.475); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1146/annurev.polisci.3.1.475"
+  },
+  {
+   "id": "gilens2001",
+   "type": "work",
+   "label": "Gilens 2001",
+   "authors": "Martin Gilens",
+   "year": 2001,
+   "journal": "APSR",
+   "title": "Political Ignorance and Collective Policy Preferences",
+   "claim": "Ignorance of specific policy-relevant facts shifts policy preferences, even among the generally knowledgeable, and these errors do not cancel in collective opinion.",
+   "method": "Survey experiments providing policy facts",
+   "themes": [
+    "knowledge"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055401002222",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055401002222); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "redlawsk2002",
+   "type": "work",
+   "label": "Redlawsk 2002",
+   "authors": "David P. Redlawsk",
+   "year": 2002,
+   "journal": "JOP",
+   "title": "Hot Cognition or Cool Consideration? Testing the Effects of Motivated Reasoning on Political Decision Making",
+   "claim": "Voters who encounter negative information about a liked candidate spend more time on it and evaluate the candidate more positively, evidence of affect-driven motivated reasoning.",
+   "method": "Dynamic process-tracing experiments",
+   "themes": [
+    "motivated"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/1468-2508.00161",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/1468-2508.00161); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "druckman2004",
+   "type": "work",
+   "label": "Druckman 2004",
+   "authors": "James N. Druckman",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "Political Preference Formation: Competition, Deliberation, and the (Ir)relevance of Framing Effects",
+   "claim": "Framing effects shrink or vanish when citizens face competing frames, deliberate in heterogeneous groups or have relevant expertise.",
+   "method": "Survey experiments",
+   "themes": [
+    "framing"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055404041413",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055404041413); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mutzreeves2005",
+   "type": "work",
+   "label": "Mutz 2005",
+   "authors": "Diana C. Mutz & Byron Reeves",
+   "year": 2005,
+   "journal": "APSR",
+   "title": "The New Videomalaise: Effects of Televised Incivility on Political Trust",
+   "claim": "Uncivil political exchanges on television arouse viewers and lower their trust in politicians and political institutions, independent of the content of disagreement.",
+   "method": "Laboratory experiments with psychophysiological measures",
+   "themes": [
+    "trust",
+    "emotion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055405051452",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055405051452); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "settle2010",
+   "type": "work",
+   "label": "Settle 2010",
+   "authors": "Jaime E. Settle, Christopher T. Dawes, Nicholas A. Christakis & James H. Fowler",
+   "year": 2010,
+   "journal": "JOP",
+   "title": "Friendships Moderate an Association between a Dopamine Gene Variant and Political Ideology",
+   "claim": "A variant of the DRD4 dopamine receptor gene is associated with liberal ideology only among people with many adolescent friendships, a gene-environment interaction.",
+   "method": "Add Health data; gene-environment interaction models",
+   "themes": [
+    "biology",
+    "ideology"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0022381610000617",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381610000617); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "eriksonstoker2011",
+   "type": "work",
+   "label": "Erikson 2011",
+   "authors": "Robert S. Erikson & Laura Stoker",
+   "year": 2011,
+   "journal": "APSR",
+   "title": "Caught in the Draft: The Effects of Vietnam Draft Lottery Status on Political Attitudes",
+   "claim": "Young men with low draft lottery numbers became more anti-war, more liberal and more Democratic, with effects persisting for decades.",
+   "method": "Natural experiment using the 1969 draft lottery and a long-term panel",
+   "themes": [
+    "socialization",
+    "personality"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055411000141",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055411000141); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "arceneaux2012ajps",
+   "type": "work",
+   "label": "Arceneaux 2012",
+   "authors": "Kevin Arceneaux",
+   "year": 2012,
+   "journal": "AJPS",
+   "title": "Cognitive Biases and the Strength of Political Arguments",
+   "claim": "Arguments that appeal to loss aversion and other cognitive biases are judged stronger and are more persuasive, explaining part of what makes frames strong.",
+   "method": "Survey experiments",
+   "themes": [
+    "framing"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1540-5907.2011.00573.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2011.00573.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ryan2014",
+   "type": "work",
+   "label": "Ryan 2014",
+   "authors": "Timothy J. Ryan",
+   "year": 2014,
+   "journal": "JOP",
+   "title": "Reconsidering Moral Issues in Politics",
+   "claim": "Moralization varies across individuals within issues; economic issues can be held with moral conviction as often as so-called moral issues.",
+   "method": "Surveys with individual-level moral conviction measures",
+   "themes": [
+    "moral"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0022381613001357",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381613001357); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "aaroepetersen2014",
+   "type": "work",
+   "label": "Aarøe 2014",
+   "authors": "Lene Aarøe & Michael Bang Petersen",
+   "year": 2014,
+   "journal": "JOP",
+   "title": "Crowding Out Culture: Scandinavians and Americans Agree on Social Welfare in the Face of Deservingness Cues",
+   "claim": "Clear cues about a recipient's effort eliminate the large cross-national gap in welfare support between Danes and Americans, consistent with a universal deservingness heuristic.",
+   "method": "Cross-national survey experiments",
+   "themes": [
+    "biology",
+    "heuristics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s002238161400019x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s002238161400019x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bullockgerber2015",
+   "type": "work",
+   "label": "Bullock 2015",
+   "authors": "John G. Bullock, Alan S. Gerber, Seth J. Hill & Gregory A. Huber",
+   "year": 2015,
+   "journal": "Quarterly Journal of Political Science",
+   "title": "Partisan Bias in Factual Beliefs about Politics",
+   "claim": "Paying respondents for correct answers sharply reduces partisan gaps in factual beliefs, suggesting much apparent partisan bias is expressive responding.",
+   "method": "Survey experiments with monetary incentives",
+   "themes": [
+    "motivated",
+    "misinfo"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1561/100.00014074",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1561/100.00014074); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "priorsood2015",
+   "type": "work",
+   "label": "Prior 2015",
+   "authors": "Markus Prior, Gaurav Sood & Kabir Khanna",
+   "year": 2015,
+   "journal": "Quarterly Journal of Political Science",
+   "title": "You Cannot be Serious: The Impact of Accuracy Incentives on Partisan Bias in Reports of Economic Perceptions",
+   "claim": "Monetary and non-monetary accuracy incentives roughly halve partisan differences in reported economic perceptions.",
+   "method": "Survey experiments with accuracy incentives",
+   "themes": [
+    "motivated",
+    "methods"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1561/100.00014127",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1561/100.00014127); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "jensenpetersen2016",
+   "type": "work",
+   "label": "Jensen 2016",
+   "authors": "Carsten Jensen & Michael Bang Petersen",
+   "year": 2016,
+   "journal": "AJPS",
+   "title": "The Deservingness Heuristic and the Politics of Health Care",
+   "claim": "Because illness is seen as beyond one's control, sick people trigger an evolved deservingness heuristic, making health care far more popular than other welfare programs across countries.",
+   "method": "Survey experiments and cross-national surveys",
+   "themes": [
+    "biology",
+    "heuristics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12251",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12251); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "grasso2017",
+   "type": "work",
+   "label": "Grasso 2017",
+   "authors": "Maria Teresa Grasso, Stephen Farrall, Emily Gray et al.",
+   "year": 2017,
+   "journal": "BJPS",
+   "title": "Thatcher’s Children, Blair’s Babies, Political Socialization and Trickle-down Value Change: An Age, Period and Cohort Analysis",
+   "claim": "British cohorts who came of age under Thatcher hold more right-authoritarian values than earlier cohorts, showing that the political era of one's formative years leaves lasting imprints.",
+   "method": "Age-period-cohort analysis of British survey data, 1985-2012",
+   "themes": [
+    "socialization",
+    "ideology"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123416000375",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123416000375); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hill2017",
+   "type": "work",
+   "label": "Hill 2017",
+   "authors": "Seth J. Hill",
+   "year": 2017,
+   "journal": "JOP",
+   "title": "Learning Together Slowly: Bayesian Learning about Political Facts",
+   "claim": "Partisans update toward evidence about political facts but more slowly than Bayesian benchmarks, especially when the evidence is uncongenial.",
+   "method": "Experiments estimating belief updating",
+   "themes": [
+    "motivated",
+    "knowledge"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/692739",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/692739); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "iyengarkonitzer2018",
+   "type": "work",
+   "label": "Iyengar 2018",
+   "authors": "Shanto Iyengar, Tobias Konitzer & Kent Tedin",
+   "year": 2018,
+   "journal": "JOP",
+   "title": "The Home as a Political Fortress: Family Agreement in an Era of Polarization",
+   "claim": "Spousal and parent-child partisan agreement has risen with polarization, as partisanship shapes marriage choices and makes families more politically homogeneous.",
+   "method": "Linked voter-file and survey data on families",
+   "themes": [
+    "socialization",
+    "affective"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/698929",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/698929); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kanebarabas2018",
+   "type": "work",
+   "label": "Kane 2018",
+   "authors": "John V. Kane & Jason Barabas",
+   "year": 2018,
+   "journal": "AJPS",
+   "title": "No Harm in Checking: Using Factual Manipulation Checks to Assess Attentiveness in Experiments",
+   "claim": "Factual manipulation checks, which ask about objective features of the treatment, identify attentive respondents without distorting treatment effects.",
+   "method": "Replications of survey experiments with manipulation checks",
+   "themes": [
+    "methods"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12396",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12396); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "montgomerynyhan2018",
+   "type": "work",
+   "label": "Montgomery 2018",
+   "authors": "Jacob M. Montgomery, Brendan Nyhan & Michelle Torres",
+   "year": 2018,
+   "journal": "AJPS",
+   "title": "How Conditioning on Posttreatment Variables Can Ruin Your Experiment and What to Do about It",
+   "claim": "Conditioning on post-treatment variables, by controlling for them, subsetting on them or dropping subjects, biases experimental estimates, and the practice is common in top journals.",
+   "method": "Analytical demonstration and review of published experiments",
+   "themes": [
+    "methods"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12357",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12357); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "guesscoppock2018",
+   "type": "work",
+   "label": "Guess 2018",
+   "authors": "Andrew Guess & Alexander Coppock",
+   "year": 2018,
+   "journal": "BJPS",
+   "title": "Does Counter-Attitudinal Information Cause Backlash? Results from Three Large Survey Experiments",
+   "claim": "People of differing priors update in the same direction when shown evidence, and backlash against counter-attitudinal information is rare.",
+   "method": "Three large survey experiments",
+   "themes": [
+    "motivated"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123418000327",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123418000327); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hatemicrabtree2019",
+   "type": "work",
+   "label": "Hatemi 2019",
+   "authors": "Peter K. Hatemi, Charles Crabtree & Kevin B. Smith",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "Ideology Justifies Morality: Political Beliefs Predict Moral Foundations",
+   "claim": "Panel data show political ideology predicts later moral foundations more than foundations predict ideology, and foundations are unstable over time.",
+   "method": "Panel survey analysis",
+   "themes": [
+    "moral",
+    "ideology"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12448",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12448); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bisgaard2019",
+   "type": "work",
+   "label": "Bisgaard 2019",
+   "authors": "Martin Bisgaard",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "How Getting the Facts Right Can Fuel Partisan‐Motivated Reasoning",
+   "claim": "Partisans who accept the same economic facts reconcile them with their loyalties by attributing responsibility selectively, so factual agreement can coexist with motivated reasoning.",
+   "method": "Survey experiments in the US and Denmark",
+   "themes": [
+    "motivated"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12432",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12432); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "orrhuber2019",
+   "type": "work",
+   "label": "Orr 2019",
+   "authors": "Lilla V. Orr & Gregory A. Huber",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "The Policy Basis of Measured Partisan Animosity in the United States",
+   "claim": "When people evaluate individuals with known policy views, policy disagreement explains much of the animus usually attributed to partisan identity.",
+   "method": "Conjoint survey experiments",
+   "themes": [
+    "affective"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12498",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12498); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bakker2020",
+   "type": "work",
+   "label": "Bakker 2020",
+   "authors": "Bert N. Bakker, Gijs Schumacher, Claire Gothreau & Kevin Arceneaux",
+   "year": 2020,
+   "journal": "Nature Human Behaviour",
+   "title": "Conservatives and liberals have similar physiological responses to threats",
+   "claim": "Preregistered replications in the US and the Netherlands find no relationship between physiological reactivity to threatening images and conservatism.",
+   "method": "Preregistered conceptual and direct replications with skin conductance",
+   "themes": [
+    "biology",
+    "ideology"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "petersonsmith2020",
+   "type": "work",
+   "label": "Peterson 2020",
+   "authors": "Johnathan C. Peterson, Kevin B. Smith & John R. Hibbing",
+   "year": 2020,
+   "journal": "JOP",
+   "title": "Do People Really Become More Conservative as They Age?",
+   "claim": "Long-run panel data show individuals' ideology is largely stable across adulthood, with little evidence of a general shift to the right with age.",
+   "method": "Analysis of multiple long-term panel studies",
+   "themes": [
+    "socialization",
+    "ideology"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/706889",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/706889); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bartels1996",
+   "type": "work",
+   "label": "Bartels 1996",
+   "authors": "Larry M. Bartels",
+   "year": 1996,
+   "journal": "AJPS",
+   "title": "Uninformed Votes: Information Effects in Presidential Elections",
+   "claim": "Uninformed voters do not vote as if fully informed, and the deviations do not cancel in aggregate: information effects shifted presidential vote shares by several points.",
+   "method": "Simulation from NES data, 1972-1992",
+   "themes": [
+    "knowledge",
+    "heuristics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111700",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111700); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "clifford2021",
+   "type": "work",
+   "label": "Clifford 2021",
+   "authors": "Scott Clifford, Geoffrey Sheagley & Spencer Piston",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Increasing Precision without Altering Treatment Effects: Repeated Measures Designs in Survey Experiments",
+   "claim": "Repeated-measures (pre-post) designs in survey experiments greatly increase precision without changing estimated treatment effects.",
+   "method": "Multiple survey experiments comparing designs",
+   "themes": [
+    "methods"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421000241",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421000241); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "uscinski2021",
+   "type": "work",
+   "label": "Uscinski 2021",
+   "authors": "Joseph E. Uscinski, Adam M. Enders, Michelle I. Seelig et al.",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "American Politics in Two Dimensions: Partisan and Ideological Identities versus Anti‐Establishment Orientations",
+   "claim": "Beyond left-right identity, Americans vary on an anti-establishment dimension of conspiracism, populism and Manichean thinking that predicts support for norm-violating politics.",
+   "method": "National surveys",
+   "themes": [
+    "misinfo",
+    "trust"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12616",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12616); claim is my summary, not re-read this session"
   }
  ]
 }

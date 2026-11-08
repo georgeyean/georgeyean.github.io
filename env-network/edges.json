@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 252,
+   "work_nodes": 298,
    "theme_nodes": 17,
    "seed_from_papers_json": 10,
    "crossref_top_cited": 187,
    "anchors_supplement": 55,
-   "relation_edges": 244,
-   "membership_edges": 371
+   "relation_edges": 328,
+   "membership_edges": 446,
+   "added_coverage_2026_11": 46
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -1487,6 +1488,510 @@
    "target": "brownspiegel2019",
    "type": "synthesizes",
    "why": "Coal and climate justice (earlier)."
+  },
+  {
+   "source": "colantone2023",
+   "target": "stokes2016",
+   "type": "extends_to_new_case",
+   "why": "Extends Stokes's retrospective backlash against wind siting to a costly vehicle regulation and to gains for a radical-right party."
+  },
+  {
+   "source": "colantone2023",
+   "target": "lockwood2018",
+   "type": "mechanism_tested_by",
+   "why": "Gives causal evidence for Lockwood's claim that right-wing populists profit from the costs climate policies impose on aggrieved groups."
+  },
+  {
+   "source": "bolet2023",
+   "target": "stokes2016",
+   "type": "qualifies",
+   "why": "Shows that compensating coal regions with a just transition deal can reverse the incumbent punishment Stokes documented."
+  },
+  {
+   "source": "bolet2023",
+   "target": "gaikwad2022",
+   "type": "mechanism_tested_by",
+   "why": "Tests in real elections the survey finding that compensating vulnerable workers builds support for climate policy."
+  },
+  {
+   "source": "dicksonhobolt2024",
+   "target": "lockwood2018",
+   "type": "builds_on",
+   "why": "Specifies the populism-climate link by showing the radical right uses climate opposition as a wedge against the mainstream right."
+  },
+  {
+   "source": "dicksonhobolt2024",
+   "target": "abouchadi2016",
+   "type": "builds_on",
+   "why": "Applies niche-party issue competition to climate, showing radical-right positioning pressures mainstream parties."
+  },
+  {
+   "source": "hilbigriaz2024",
+   "target": "hazlettmildenberger2020",
+   "type": "qualifies",
+   "why": "Finds disasters raise Green vote shares in Germany, showing that in multiparty systems a dedicated green party captures the experience effect that wildfires produced in US ballot voting."
+  },
+  {
+   "source": "hilbigriaz2024",
+   "target": "eganmullin2012",
+   "type": "builds_on",
+   "why": "Carries the finding that local weather experiences shape climate attitudes through to actual party choice."
+  },
+  {
+   "source": "carter2013",
+   "target": "rohrschneider1993",
+   "type": "builds_on",
+   "why": "Builds on evidence that mainstream left parties' environmental positioning decides whether green attitudes flow to new Green parties."
+  },
+  {
+   "source": "franzenvogl2013",
+   "target": "inglehart1995",
+   "type": "mechanism_tested_by",
+   "why": "Re-tests across 33 countries Inglehart's claim that environmental concern rises with affluence and postmaterialist values."
+  },
+  {
+   "source": "kimwolinsky2014",
+   "target": "inglehart1995",
+   "type": "qualifies",
+   "why": "Shows national vulnerability to climate impacts, alongside affluence, shapes concern, qualifying the postmaterialist account of environmental support."
+  },
+  {
+   "source": "bergquistwarshaw2019",
+   "target": "eganmullin2012",
+   "type": "builds_on",
+   "why": "Extends the local-weather finding to long-run state temperature trends, showing warming raises public concern."
+  },
+  {
+   "source": "eganmullin2017",
+   "target": "eganmullin2012",
+   "type": "synthesizes",
+   "why": "Integrates the authors' weather-experience evidence into a review of the partisan and experiential sources of US climate opinion."
+  },
+  {
+   "source": "mccrightdunlap2011b",
+   "target": "jacques2008",
+   "type": "builds_on",
+   "why": "Documents the partisan polarization of US climate beliefs from 2001 to 2010 that the conservative think-tank denial campaign sought to produce."
+  },
+  {
+   "source": "mccrightdunlap2011b",
+   "target": "mccrightdunlap2011",
+   "type": "builds_on",
+   "why": "Generalizes the conservative-white-male finding to decade-long partisan and ideological polarization of the whole public."
+  },
+  {
+   "source": "tesler2018",
+   "target": "mccrightdunlap2011b",
+   "type": "builds_on",
+   "why": "Builds on the documented partisan divide to show elite cues, not scientific literacy, drive Republican doubt about climate change."
+  },
+  {
+   "source": "gasperreeves2011",
+   "target": "healymalhotra2009",
+   "type": "qualifies",
+   "why": "Shows voters reward executives who respond to disasters with declarations and aid, refining Healy and Malhotra's account of myopic disaster voting."
+  },
+  {
+   "source": "javeline2014",
+   "target": "healymalhotra2009",
+   "type": "builds_on",
+   "why": "Uses evidence that voters reward relief but not preparedness to argue political incentives discourage proactive climate adaptation."
+  },
+  {
+   "source": "aldrich2012",
+   "target": "smitwandel2006",
+   "type": "qualifies",
+   "why": "Argues social networks, more than physical or financial resources, determine recovery, adding social capital to the components of adaptive capacity."
+  },
+  {
+   "source": "javeline2014",
+   "target": "aldrich2012",
+   "type": "builds_on",
+   "why": "Draws on political-science evidence about social capital and disaster recovery to argue adaptation is a core political problem."
+  },
+  {
+   "source": "wapner1995",
+   "target": "haas1989",
+   "type": "challenges",
+   "why": "Argues activists govern by reshaping social and economic practices directly, contesting regime accounts that run environmental influence through states and expert networks."
+  },
+  {
+   "source": "newell2008",
+   "target": "wapner1995",
+   "type": "builds_on",
+   "why": "Extends Wapner's world civic politics to campaigns that hold corporations accountable for their climate impacts."
+  },
+  {
+   "source": "setzervanhala2019",
+   "target": "vanhala2017",
+   "type": "builds_on",
+   "why": "Builds its review of climate litigation on Vanhala's account of how legal opportunity structures shape NGOs' turn to courts."
+  },
+  {
+   "source": "vanhala2017",
+   "target": "hadden2015",
+   "type": "qualifies",
+   "why": "Shows NGOs' choice of litigation versus other tactics depends on national legal opportunity structures, a domestic-institutional complement to Hadden's network account of tactics."
+  },
+  {
+   "source": "martinezalier2002",
+   "target": "keck1995",
+   "type": "builds_on",
+   "why": "Treats the Acre rubber tappers as a paradigm case of livelihood-based environmentalism of the poor."
+  },
+  {
+   "source": "keck1995",
+   "target": "bullard1990",
+   "type": "extends_to_new_case",
+   "why": "Carries the linkage of social equity and environmental protection from US environmental justice to forest-dependent workers in the Brazilian Amazon."
+  },
+  {
+   "source": "lubell2002",
+   "target": "ostrom1990",
+   "type": "mechanism_tested_by",
+   "why": "Tests Ostrom's account of self-organized collective action on US watersheds, finding partnerships emerge where benefits are high and organizing costs low."
+  },
+  {
+   "source": "lubell2010",
+   "target": "lubell2002",
+   "type": "builds_on",
+   "why": "Builds on the watershed-partnership findings to model collaborative institutions as an ecology of interacting games."
+  },
+  {
+   "source": "sanford2021",
+   "target": "lireuveny2006",
+   "type": "challenges",
+   "why": "Shows democratization accelerates deforestation through electoral incentives, contesting the view that democracy reduces environmental degradation."
+  },
+  {
+   "source": "sanford2021",
+   "target": "povitkina2018",
+   "type": "builds_on",
+   "why": "Adds an electoral-cycle mechanism to evidence that democracy's environmental benefits are conditional."
+  },
+  {
+   "source": "harding2023",
+   "target": "sanford2021",
+   "type": "builds_on",
+   "why": "Identifies campaign donations as a second political channel, beside electoral incentives, through which local politics drives deforestation."
+  },
+  {
+   "source": "harding2023",
+   "target": "stokes2020",
+   "type": "extends_to_new_case",
+   "why": "Shows organized economic interests buy weaker environmental policy, here via campaign finance and lax enforcement in Brazil rather than US state legislatures."
+  },
+  {
+   "source": "cashorebernstein2022",
+   "target": "hardin1968",
+   "type": "challenges",
+   "why": "Argues Hardin's commons metaphor has been misapplied to non-commons problems such as climate, distorting policy design."
+  },
+  {
+   "source": "cashorebernstein2022",
+   "target": "aklinmildenberger2020",
+   "type": "builds_on",
+   "why": "Joins Aklin and Mildenberger in rejecting the collective-action framing of climate in favor of problem-specific diagnoses."
+  },
+  {
+   "source": "haas1992ozone",
+   "target": "haas1989",
+   "type": "builds_on",
+   "why": "Extends the epistemic-community argument from Mediterranean pollution control to the ozone regime and the CFC ban."
+  },
+  {
+   "source": "sprinzvaahtoranta1994",
+   "target": "haas1992ozone",
+   "type": "challenges",
+   "why": "Explains ozone policy by states' ecological vulnerability and abatement costs, contesting Haas's epistemic-community account."
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "sprinzvaahtoranta1994",
+   "type": "builds_on",
+   "why": "Revives the interest-based approach, locating climate politics' central obstacle in domestic distributive conflict over abatement costs."
+  },
+  {
+   "source": "barrett2003",
+   "target": "youngoran1989",
+   "type": "challenges",
+   "why": "Emphasizes self-enforcement and the strategic limits of treaty participation, against Young's view that institutional bargaining under uncertainty readily produces regimes."
+  },
+  {
+   "source": "youngoran1989",
+   "target": "hardin1968",
+   "type": "qualifies",
+   "why": "Argues states sharing resources can form regimes through institutional bargaining, qualifying Hardin's expectation that commons end in tragedy without coercion."
+  },
+  {
+   "source": "meyer1997",
+   "target": "haas1989",
+   "type": "challenges",
+   "why": "Explains the spread of environmental treaties and ministries by world-society scientific culture rather than functional problem-solving by expert networks."
+  },
+  {
+   "source": "holzinger2008",
+   "target": "meyer1997",
+   "type": "builds_on",
+   "why": "Builds on world-society arguments by testing transnational communication as a driver of environmental policy convergence."
+  },
+  {
+   "source": "hovi2017",
+   "target": "nordhaus2015",
+   "type": "challenges",
+   "why": "Argues climate clubs face participation and expansion hurdles that make them an uncertain route to broad cooperation, tempering Nordhaus's proposal."
+  },
+  {
+   "source": "hovi2017",
+   "target": "falkner2016pop",
+   "type": "builds_on",
+   "why": "Develops the minilateral club logic Falkner assessed, specifying conditions under which clubs could grow."
+  },
+  {
+   "source": "genovese2019",
+   "target": "meckling2015",
+   "type": "extends_to_new_case",
+   "why": "Extends coalitional accounts of climate policy to international bargaining, showing polluting trade-exposed sectors shape negotiation positions."
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "genovese2019",
+   "type": "builds_on",
+   "why": "Uses evidence that industrial interests drive negotiation positions to support a distributive-conflict view of climate politics."
+  },
+  {
+   "source": "kennard2020",
+   "target": "meckling2011",
+   "type": "builds_on",
+   "why": "Formalizes why some firms back climate regulation, to raise rivals' costs, explaining the business coalitions Meckling traced around emissions trading."
+  },
+  {
+   "source": "green2021",
+   "target": "kennard2020",
+   "type": "builds_on",
+   "why": "Builds on firm-level competitive logics of regulatory support in classifying firms as transitioning, hedging or resisting decarbonization."
+  },
+  {
+   "source": "rowan2021",
+   "target": "keohanevictor2011",
+   "type": "mechanism_tested_by",
+   "why": "Empirically tests whether the proliferating, loosely coupled climate regime complex undermines or sustains states' cooperative effort."
+  },
+  {
+   "source": "rowan2021",
+   "target": "biermann2009",
+   "type": "mechanism_tested_by",
+   "why": "Puts to a cross-national test the claim that fragmented governance architectures weaken cooperation."
+  },
+  {
+   "source": "mahdavi2022",
+   "target": "ross2012",
+   "type": "builds_on",
+   "why": "Links petro-state politics to energy pricing, showing oil-producing and low-capacity states subsidize rather than tax fossil fuels."
+  },
+  {
+   "source": "mahdavi2022",
+   "target": "rabe2018",
+   "type": "qualifies",
+   "why": "Adds the politics of fossil-fuel subsidies, in effect a negative carbon price, to explanations of why pricing carbon is hard."
+  },
+  {
+   "source": "fairbrother2017",
+   "target": "drews2016",
+   "type": "mechanism_tested_by",
+   "why": "Experimentally isolates political trust as a cause of opposition to environmental taxes, a determinant highlighted in reviews of policy support."
+  },
+  {
+   "source": "carattini2018",
+   "target": "fairbrother2017",
+   "type": "builds_on",
+   "why": "Draws on evidence that distrust of government drives opposition to carbon taxes in recommending earmarking and revenue recycling."
+  },
+  {
+   "source": "kupzoknahm2024",
+   "target": "breetz2018",
+   "type": "builds_on",
+   "why": "Refines sector-specific political logics by showing climate policy depends on coalitions with firms that can profitably decarbonize."
+  },
+  {
+   "source": "kupzoknahm2024",
+   "target": "colgan2021",
+   "type": "builds_on",
+   "why": "Frames decarbonization as a bargain among asset holders who gain and lose, in line with the asset-revaluation view."
+  },
+  {
+   "source": "allannahm2024",
+   "target": "allan2021",
+   "type": "builds_on",
+   "why": "Develops a typology of the green industrial policy strategies by which states position firms in clean-tech supply chains."
+  },
+  {
+   "source": "potoskiprakash2005",
+   "target": "cashore2002",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether non-state, market-driven programs change behavior, finding ISO 14001 members improve regulatory compliance."
+  },
+  {
+   "source": "prakash2006",
+   "target": "potoskiprakash2005",
+   "type": "builds_on",
+   "why": "Builds on green-club theory to show ISO 14001 spreads through trade ties instead of a race to the bottom."
+  },
+  {
+   "source": "vogel2003",
+   "target": "vogel1995",
+   "type": "builds_on",
+   "why": "Updates Trading Up by showing the EU overtook the US as the more stringent environmental and consumer regulator."
+  },
+  {
+   "source": "kelemenvogel2010",
+   "target": "vogel2003",
+   "type": "builds_on",
+   "why": "Extends the transatlantic regulatory reversal to explain the EU and US switching roles in international environmental treaties."
+  },
+  {
+   "source": "battig2009",
+   "target": "neumayer2002",
+   "type": "builds_on",
+   "why": "Builds on cross-national evidence of democracies' stronger environmental commitment, separating climate commitments from actual effort."
+  },
+  {
+   "source": "povitkina2018",
+   "target": "neumayer2002",
+   "type": "qualifies",
+   "why": "Qualifies the democracy-environment link by showing democracies cut emissions only where corruption is low."
+  },
+  {
+   "source": "ross1999",
+   "target": "karl1997",
+   "type": "synthesizes",
+   "why": "Organizes cognitive, societal and statist explanations of the resource curse, including Karl's account of petro-state institutional decay."
+  },
+  {
+   "source": "ross2001",
+   "target": "ross1999",
+   "type": "builds_on",
+   "why": "Moves from reviewing political explanations of the resource curse to a cross-national test of oil's anti-democratic effect."
+  },
+  {
+   "source": "brookskurtz2016",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "Argues oil is endogenous to prior industrialization and, once modeled, does not hinder democracy, challenging Ross's central finding."
+  },
+  {
+   "source": "brookskurtz2016",
+   "target": "habermenaldo2011",
+   "type": "builds_on",
+   "why": "Joins Haber and Menaldo's revisionist challenge to the political resource curse with an endogeneity argument."
+  },
+  {
+   "source": "homerdixon1999",
+   "target": "homerdixon1994",
+   "type": "builds_on",
+   "why": "Expands the 1994 case evidence into a general theory of resource capture, ecological marginalization and violence."
+  },
+  {
+   "source": "gleditsch1998",
+   "target": "homerdixon1994",
+   "type": "challenges",
+   "why": "Faults scarcity-conflict case research for selecting on the dependent variable and omitting political and economic variables."
+  },
+  {
+   "source": "theisen2012",
+   "target": "gleditsch1998",
+   "type": "builds_on",
+   "why": "Answers Gleditsch's call for systematic tests, finding little support for drought-driven conflict."
+  },
+  {
+   "source": "salehyan2008",
+   "target": "homerdixon1999",
+   "type": "challenges",
+   "why": "Argues environmental stress turns violent only through weak institutions and state capacity, challenging deterministic scarcity-conflict claims."
+  },
+  {
+   "source": "buhaug2010",
+   "target": "salehyan2008",
+   "type": "builds_on",
+   "why": "Supports Salehyan's skepticism by finding climate variability does not robustly predict African civil wars once political factors are modeled."
+  },
+  {
+   "source": "schultzmankin2019",
+   "target": "burke2009",
+   "type": "challenges",
+   "why": "Shows conflict degrades weather-station records, so temperature measures used to link warming to civil war are not exogenous."
+  },
+  {
+   "source": "schultzmankin2019",
+   "target": "hsiang2013",
+   "type": "challenges",
+   "why": "Implies meta-analytic climate-conflict estimates may be biased by conflict-induced measurement error in climate data."
+  },
+  {
+   "source": "mach2019",
+   "target": "hsiang2013",
+   "type": "synthesizes",
+   "why": "Expert elicitation reconciles strong climate-conflict estimates with skeptics, judging climate a real but secondary conflict driver."
+  },
+  {
+   "source": "mach2019",
+   "target": "buhaug2010",
+   "type": "synthesizes",
+   "why": "Incorporates skeptical findings like Buhaug's by ranking climate below development and state capacity as conflict risks."
+  },
+  {
+   "source": "betsillbulkeley2004",
+   "target": "bulkeleybetsill2003",
+   "type": "builds_on",
+   "why": "Develops their urban climate research into an account of how the CCP network governs transnationally by bypassing national states."
+  },
+  {
+   "source": "hakelberg2014",
+   "target": "betsillbulkeley2004",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether membership in transnational municipal networks like CCP spreads local climate policies."
+  },
+  {
+   "source": "gardiner2011",
+   "target": "gardiner2004",
+   "type": "builds_on",
+   "why": "Develops the 2004 diagnosis of global, intergenerational and theoretical 'storms' into a book-length argument."
+  },
+  {
+   "source": "caney2010",
+   "target": "gardiner2004",
+   "type": "builds_on",
+   "why": "Builds on Gardiner's mapping of climate ethics to argue the advantaged bear mitigation duties beyond their causal contribution."
+  },
+  {
+   "source": "dunning2008",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "Argues resource rents can promote democracy in unequal societies by easing elites' fear of redistribution, challenging Ross's oil-impedes-democracy thesis."
+  },
+  {
+   "source": "selby2017",
+   "target": "kelley2015",
+   "type": "challenges",
+   "why": "Re-examines the Syrian case and finds no sound evidence that climate-driven drought contributed to the civil war."
+  },
+  {
+   "source": "mitchell2011",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "Explains oil's anti-democratic effect by how oil production weakened labor's power to disrupt, rather than by rentier fiscal mechanisms."
+  },
+  {
+   "source": "malm2016",
+   "target": "mitchell2011",
+   "type": "builds_on",
+   "why": "Shares Mitchell's materialist account of how energy regimes shape power, tracing coal-fired steam to capital's control over labor."
+  },
+  {
+   "source": "colgan2012",
+   "target": "keohanevictor2011",
+   "type": "extends_to_new_case",
+   "why": "Applies the regime-complex framework to global energy governance, showing it evolved through punctuated equilibrium."
   },
   {
    "source": "ariasblair2024",
@@ -3711,6 +4216,456 @@
   {
    "source": "clappswanston2009",
    "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "healymalhotra2009",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "healymalhotra2009",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2008",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "selby2017",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell2011",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mitchell2011",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2012",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colgan2012",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2023",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2023",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bolet2023",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bolet2023",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dicksonhobolt2024",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dicksonhobolt2024",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hilbigriaz2024",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hilbigriaz2024",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rohrschneider1993",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rohrschneider1993",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "inglehart1995",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eganmullin2012",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccrightdunlap2011b",
+   "target": "denial",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccrightdunlap2011b",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gasperreeves2011",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gasperreeves2011",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aldrich2012",
+   "target": "adaptation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wapner1995",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wapner1995",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanhala2017",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keck1995",
+   "target": "movements",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keck1995",
+   "target": "justice",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lubell2002",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanford2021",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanford2021",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harding2023",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "harding2023",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cashorebernstein2022",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cashorebernstein2022",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haas1992ozone",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "youngoran1989",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "youngoran1989",
+   "target": "commons",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sprinzvaahtoranta1994",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sprinzvaahtoranta1994",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meyer1997",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "meyer1997",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hovi2017",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hovi2017",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "genovese2019",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "genovese2019",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennard2020",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennard2020",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rowan2021",
+   "target": "architecture",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rowan2021",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahdavi2022",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mahdavi2022",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fairbrother2017",
+   "target": "instruments",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fairbrother2017",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kupzoknahm2024",
+   "target": "distributive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kupzoknahm2024",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allannahm2024",
+   "target": "transitions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "allannahm2024",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "potoskiprakash2005",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "potoskiprakash2005",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vogel2003",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vogel2003",
+   "target": "economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "neumayer2002",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "neumayer2002",
+   "target": "regime",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross1999",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brookskurtz2016",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "homerdixon1994",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gleditsch1998",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "salehyan2008",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultzmankin2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mach2019",
+   "target": "conflict",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "betsillbulkeley2004",
+   "target": "transnational",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gardiner2004",
+   "target": "justice",
    "type": "belongs_to",
    "why": "theme membership"
   }

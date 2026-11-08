@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 259,
+   "work_nodes": 304,
    "theme_nodes": 18,
    "seed_from_papers_json": 53,
    "crossref_top_cited": 154,
    "anchors_supplement": 52,
-   "relation_edges": 247,
-   "membership_edges": 411
+   "relation_edges": 315,
+   "membership_edges": 482,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. Works shared with the IPE, security and IR maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref (books often via reviews, chapters or reprint DOIs). One-line claims for non-repo works are my summaries."
  },
@@ -4989,6 +4990,839 @@
    "source": "papers.json:YVIK7G8A",
    "zotero": "https://www.zotero.org/georgeyean/items/YVIK7G8A",
    "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "claassen2020",
+   "type": "work",
+   "label": "Claassen 2019",
+   "authors": "Christopher Claassen",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "Does Public Support Help Democracy Survive?",
+   "claim": "Public support for democracy helps democracies survive.",
+   "method": "Cross-national panel",
+   "themes": [
+    "backsliding"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12452); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/ajps.12452"
+  },
+  {
+   "id": "roberts2018",
+   "type": "work",
+   "label": "Roberts 2018",
+   "authors": "Margaret E. Roberts",
+   "year": 2018,
+   "journal": "Princeton University Press (book)",
+   "title": "Censored: Distraction and Diversion Inside China's Great Firewall",
+   "claim": "Porous censorship works through friction and flooding: small costs divert most citizens without blocking determined ones.",
+   "method": "Experiments and observational data",
+   "themes": [
+    "info-control",
+    "china"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Princeton University Press, 2018; DOI 10.23943/9781400890057)",
+   "crossref_doi": "10.23943/9781400890057"
+  },
+  {
+   "id": "guriev2019",
+   "type": "work",
+   "label": "Guriev 2019",
+   "authors": "Sergei Guriev & Daniel Treisman",
+   "year": 2019,
+   "journal": "Journal of Economic Perspectives",
+   "title": "Informational Autocrats",
+   "claim": "Modern autocrats rely on manipulating information rather than mass repression.",
+   "method": "Theory and evidence",
+   "themes": [
+    "info-control",
+    "authoritarian"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (SSRN Electronic Journal, 2018; DOI 10.2139/ssrn.3208523)",
+   "crossref_doi": "10.2139/ssrn.3208523"
+  },
+  {
+   "id": "karl1997",
+   "type": "work",
+   "label": "Karl 1997",
+   "authors": "Terry Lynn Karl",
+   "year": 1997,
+   "journal": "University of California Press (book)",
+   "title": "The Paradox of Plenty: Oil Booms and Petro-States",
+   "claim": "Oil booms shape petro-states' institutions, producing rent-seeking and fiscal crises.",
+   "method": "Comparative case studies",
+   "themes": [
+    "resources",
+    "state"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Foreign Affairs, 1998; DOI 10.2307/20048806)",
+   "crossref_doi": "10.2307/20048806"
+  },
+  {
+   "id": "dunning2008",
+   "type": "work",
+   "label": "Dunning 2008",
+   "authors": "Thad Dunning",
+   "year": 2008,
+   "journal": "Cambridge University Press (book)",
+   "title": "Crude Democracy: Natural Resource Wealth and Political Regimes",
+   "claim": "Resource rents can promote democracy where they reduce elite fears of redistribution, as in Venezuela.",
+   "method": "Formal model, cross-national data and cases",
+   "themes": [
+    "resources",
+    "democratization"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "ross2012",
+   "type": "work",
+   "label": "Ross 2012",
+   "authors": "Michael L. Ross",
+   "year": 2012,
+   "journal": "Princeton University Press (book)",
+   "title": "The Oil Curse: How Petroleum Wealth Shapes the Development of Nations",
+   "claim": "Oil wealth sustains autocracy, conflict and gender inequality through the size, source and secrecy of revenues.",
+   "method": "Cross-national analysis",
+   "themes": [
+    "resources",
+    "gender"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Princeton University Press, 2012; DOI 10.1515/9781400841929)"
+  },
+  {
+   "id": "chattopadhyayduflo2004",
+   "type": "work",
+   "label": "Chattopadhyay 2004",
+   "authors": "Raghabendra Chattopadhyay & Esther Duflo",
+   "year": 2004,
+   "journal": "Econometrica",
+   "title": "Women as Policy Makers: Evidence from a Randomized Policy Experiment in India",
+   "claim": "Village councils randomly reserved for women leaders invested more in goods women prefer.",
+   "method": "Randomized reservation natural experiment",
+   "themes": [
+    "gender",
+    "development"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Econometrica, 2004; DOI 10.1111/j.1468-0262.2004.00539.x)",
+   "crossref_doi": "10.1111/j.1468-0262.2004.00539.x"
+  },
+  {
+   "id": "ferrazfinan2008",
+   "type": "work",
+   "label": "Ferraz 2008",
+   "authors": "Claudio Ferraz & Frederico Finan",
+   "year": 2008,
+   "journal": "Quarterly Journal of Economics",
+   "title": "Exposing Corrupt Politicians: The Effects of Brazil's Publicly Released Audits on Electoral Outcomes",
+   "claim": "Released audits reduced reelection of corrupt mayors.",
+   "method": "Natural experiment",
+   "themes": [
+    "corruption",
+    "clientelism"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/qjec.2008.123.2.703); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/qjec.2008.123.2.703"
+  },
+  {
+   "id": "baccaropontusson2016",
+   "type": "work",
+   "label": "Baccaro 2016",
+   "authors": "Lucio Baccaro & Jonas Pontusson",
+   "year": 2016,
+   "journal": "Politics & Society",
+   "title": "Rethinking Comparative Political Economy: The Growth Model Perspective",
+   "claim": "Demand-side growth models (export-led, consumption-led) replace supply-side VoC.",
+   "method": "Comparative political economy",
+   "themes": [
+    "cpe"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Politics &amp; Society, 2016; DOI 10.1177/0032329216638053)",
+   "crossref_doi": "10.1177/0032329216638053"
+  },
+  {
+   "id": "rustow1970",
+   "type": "work",
+   "label": "Rustow 1970",
+   "authors": "Dankwart A. Rustow",
+   "year": 1970,
+   "journal": "Comparative Politics",
+   "title": "Transitions to Democracy: Toward a Dynamic Model",
+   "claim": "Separates the genesis of democracy from its maintenance: after national unity is settled, a prolonged inconclusive struggle ends in a deliberate elite decision to adopt democratic rules, which habituation then entrenches.",
+   "method": "Comparative-historical theory building (Sweden, Turkey)",
+   "themes": [
+    "democratization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/421307",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/421307); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ziblatt2017",
+   "type": "work",
+   "label": "Ziblatt 2017",
+   "authors": "Daniel Ziblatt",
+   "year": 2017,
+   "journal": "Cambridge University Press (book)",
+   "title": "Conservative Parties and the Birth of Democracy",
+   "claim": "Democratization in Europe was settled by whether old-regime elites possessed strong conservative parties: where they did (Britain) they could compete electorally and accepted democracy, where they did not (Germany) they undermined it.",
+   "method": "Comparative-historical analysis, Britain and Germany 1830-1933, with subnational data",
+   "themes": [
+    "democratization",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2017, DOI 10.1017/9781139030335); metadata from memory"
+  },
+  {
+   "id": "treisman2020",
+   "type": "work",
+   "label": "Treisman 2020",
+   "authors": "Daniel Treisman",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "Democracy by Mistake: How the Errors of Autocrats Trigger Transitions to Freer Government",
+   "claim": "About two-thirds of democratizations since 1800 resulted from incumbents' mistakes (calling elections they lost, provoking defections, botched repression) rather than deliberate elite choices.",
+   "method": "Qualitative coding of 201 democratization episodes, 1800-2015",
+   "themes": [
+    "democratization",
+    "authoritarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055420000180",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055420000180); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "svolik2014bjps",
+   "type": "work",
+   "label": "Svolik 2014",
+   "authors": "Milan W. Svolik",
+   "year": 2014,
+   "journal": "BJPS",
+   "title": "Which Democracies Will Last? Coups, Incumbent Takeovers, and the Dynamic of Democratic Consolidation",
+   "claim": "Democracies face two distinct threats, military coups and incumbent takeovers; their risk depends on whether a democracy is consolidated, and consolidation is predicted by income and the absence of a military past.",
+   "method": "Mixture cure survival models, democracies 1950s-2000s",
+   "themes": [
+    "backsliding",
+    "democratization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123413000550",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123413000550); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "svolik2020",
+   "type": "work",
+   "label": "Svolik 2020",
+   "authors": "Milan W. Svolik",
+   "year": 2020,
+   "journal": "Quarterly Journal of Political Science",
+   "title": "When Polarization Trumps Civic Virtue: Partisan Conflict and the Subversion of Democracy by Incumbents",
+   "claim": "Polarization raises voters' cost of defecting from their party, so incumbents can subvert democracy while retaining partisan support.",
+   "method": "Formal model",
+   "themes": [
+    "backsliding"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1561/100.00018132",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1561/100.00018132); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "claassen2019mood",
+   "type": "work",
+   "label": "Claassen 2019",
+   "authors": "Christopher Claassen",
+   "year": 2019,
+   "journal": "APSR",
+   "title": "In the Mood for Democracy? Democratic Support as Thermostatic Opinion",
+   "claim": "Public support for democracy moves thermostatically: it falls after democracy expands and rises after democratic backsliding, rather than following a secular decline.",
+   "method": "Bayesian latent-variable estimates of aggregated survey support, 135 countries 1988-2017",
+   "themes": [
+    "backsliding"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055419000558",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055419000558); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "grilloprato2021",
+   "type": "work",
+   "label": "Grillo 2021",
+   "authors": "Edoardo Grillo & Carlo Prato",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "Reference Points and Democratic Backsliding",
+   "claim": "When citizens evaluate incumbents against reference points that adjust to the status quo, each small violation resets expectations, so incumbents can erode democracy gradually without triggering punishment.",
+   "method": "Formal model",
+   "themes": [
+    "backsliding"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12672",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12672); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "luoprzeworski2023",
+   "type": "work",
+   "label": "Luo 2023",
+   "authors": "Zhaotian Luo & Adam Przeworski",
+   "year": 2023,
+   "journal": "Quarterly Journal of Political Science",
+   "title": "Democracy and its Vulnerabilities: Dynamics of Democratic Backsliding",
+   "claim": "An incumbent who advances antidemocratic measures step by step, concealing the endpoint, can dismantle democratic checks even when voters value democracy and would reject the full package.",
+   "method": "Formal model",
+   "themes": [
+    "backsliding"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1561/100.00021112",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1561/100.00021112); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wintrobe1990",
+   "type": "work",
+   "label": "Wintrobe 1990",
+   "authors": "Ronald Wintrobe",
+   "year": 1990,
+   "journal": "APSR",
+   "title": "The Tinpot and the Totalitarian: An Economic Theory of Dictatorship",
+   "claim": "Dictators maximize power or consumption by combining repression with purchased loyalty, distinguishing tinpot dictators who seek only to stay in power from totalitarians who maximize power.",
+   "method": "Formal economic model of dictatorship",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1962769",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1962769); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "myerson2008",
+   "type": "work",
+   "label": "Myerson 2008",
+   "authors": "Roger B. Myerson",
+   "year": 2008,
+   "journal": "APSR",
+   "title": "The Autocrat's Credibility Problem and Foundations of the Constitutional State",
+   "claim": "An autocrat cannot credibly promise to reward supporters without institutions, such as a court or council, that let them collectively punish him, which gives rulers an incentive to create constitutional checks.",
+   "method": "Formal model",
+   "themes": [
+    "authoritarian",
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055408080076",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055408080076); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "levitskyway2012",
+   "type": "work",
+   "label": "Levitsky 2012",
+   "authors": "Steven R. Levitsky & Lucan A. Way",
+   "year": 2012,
+   "journal": "Perspectives on Politics",
+   "title": "Beyond Patronage: Violent Struggle, Ruling Party Cohesion, and Authoritarian Durability",
+   "claim": "Ruling parties born of violent struggle (revolution, liberation war) develop the cohesion that lets authoritarian regimes survive severe crises; patronage-based parties are prone to defection.",
+   "method": "Comparative case analysis (Zimbabwe, Mozambique, Kenya, Zambia and others)",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592712002861",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592712002861); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "maleskyschuler2010",
+   "type": "work",
+   "label": "Malesky 2010",
+   "authors": "Edmund Malesky & Paul Schuler",
+   "year": 2010,
+   "journal": "APSR",
+   "title": "Nodding or Needling: Analyzing Delegate Responsiveness in an Authoritarian Parliament",
+   "claim": "Delegates to Vietnam's National Assembly vary in how critically they question ministers depending on their career incentives and electoral context, showing authoritarian legislatures perform real if bounded information and co-optation roles.",
+   "method": "Content analysis of legislative query transcripts, Vietnam",
+   "themes": [
+    "authoritarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055410000250",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055410000250); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lohmann1994",
+   "type": "work",
+   "label": "Lohmann 1994",
+   "authors": "Susanne Lohmann",
+   "year": 1994,
+   "journal": "World Politics",
+   "title": "The Dynamics of Informational Cascades: The Monday Demonstrations in Leipzig, East Germany, 1989–91",
+   "claim": "Turnout at the Leipzig Monday demonstrations revealed private information about anti-regime sentiment, setting off an informational cascade that brought down the East German regime.",
+   "method": "Formal signalling model with case study of East Germany 1989-91",
+   "themes": [
+    "contention",
+    "info-control"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2950679",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2950679); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kernhainmueller2009",
+   "type": "work",
+   "label": "Kern 2009",
+   "authors": "Holger Lutz Kern & Jens Hainmueller",
+   "year": 2009,
+   "journal": "Political Analysis",
+   "title": "Opium for the Masses: How Foreign Media Can Stabilize Authoritarian Regimes",
+   "claim": "East Germans who could receive West German television were more satisfied with life and the regime and less likely to apply for exit, because foreign media provided entertainment rather than political mobilization.",
+   "method": "Natural experiment using geographic variation in TV reception, East Germany",
+   "themes": [
+    "info-control"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/pan/mpp017",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpp017); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "huang2015cp",
+   "type": "work",
+   "label": "Huang 2015",
+   "authors": "Haifeng Huang",
+   "year": 2015,
+   "journal": "Comparative Politics",
+   "title": "Propaganda as Signaling",
+   "claim": "Propaganda works less by persuading than by signaling the regime's strength and capacity for control, deterring dissent even when citizens disbelieve it.",
+   "method": "Formal model with survey evidence",
+   "themes": [
+    "info-control",
+    "china"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041515816103220",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041515816103220); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "obrienli1999",
+   "type": "work",
+   "label": "O'Brien 1999",
+   "authors": "Kevin J. O'Brien & Lianjiang Li",
+   "year": 1999,
+   "journal": "Comparative Politics",
+   "title": "Selective Policy Implementation in Rural China",
+   "claim": "Township and village cadres implement hard, promotion-linked targets such as tax collection and birth quotas while neglecting popular or unrewarded mandates, so central policy is selectively executed at the grassroots.",
+   "method": "Field interviews and documents, rural China 1990s",
+   "themes": [
+    "china"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422143",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422143); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stasavage2010",
+   "type": "work",
+   "label": "Stasavage 2010",
+   "authors": "David Stasavage",
+   "year": 2010,
+   "journal": "APSR",
+   "title": "When Distance Mattered: Geographic Scale and the Development of European Representative Assemblies",
+   "claim": "Medieval and early modern representative assemblies constrained rulers mainly in geographically compact polities, where representatives could travel, meet often and monitor the executive.",
+   "method": "Cross-polity historical data on European assemblies, 1250-1750",
+   "themes": [
+    "state",
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055410000444",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055410000444); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "abramson2016",
+   "type": "work",
+   "label": "Abramson 2016",
+   "authors": "Scott F Abramson",
+   "year": 2016,
+   "journal": "IO",
+   "title": "The Economic Origins of the Territorial State",
+   "claim": "Territorial states in Europe emerged where economic prosperity let local leaders finance independent rule, and small states were not systematically eliminated by war.",
+   "method": "New dataset of European states, 1100-1790",
+   "themes": [
+    "state"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818316000308",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818316000308); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "weingast1997",
+   "type": "work",
+   "label": "Weingast 1997",
+   "authors": "Barry R. Weingast",
+   "year": 1997,
+   "journal": "APSR",
+   "title": "The Political Foundations of Democracy and the Rule of the Law",
+   "claim": "Limits on the state are self-enforcing only when citizens coordinate to resist transgressions against any group, which pacts and constitutions help achieve.",
+   "method": "Game-theoretic coordination model with historical cases",
+   "themes": [
+    "development",
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2952354",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2952354); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hardingstasavage2014",
+   "type": "work",
+   "label": "Harding 2014",
+   "authors": "Robin Harding & David Stasavage",
+   "year": 2014,
+   "journal": "JOP",
+   "title": "What Democracy Does (and Doesn’t Do) for Basic Services: School Fees, School Inputs, and African Elections",
+   "claim": "Electoral competition led African governments to abolish primary school fees, a visible and attributable policy, but did not improve hard-to-monitor school inputs.",
+   "method": "Panel data on African countries with school-level evidence",
+   "themes": [
+    "development",
+    "clientelism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0022381613001254",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0022381613001254); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ross1999",
+   "type": "work",
+   "label": "Ross 1999",
+   "authors": "Michael L. Ross",
+   "year": 1999,
+   "journal": "World Politics",
+   "title": "The Political Economy of the Resource Curse",
+   "claim": "Reviews cognitive, societal and statist explanations for why resource wealth harms growth, finding the statist and rent-seeking accounts most promising.",
+   "method": "Literature review",
+   "themes": [
+    "resources"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887100008200",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887100008200); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ross2004",
+   "type": "work",
+   "label": "Ross 2004",
+   "authors": "Michael L. Ross",
+   "year": 2004,
+   "journal": "BJPS",
+   "title": "Does Taxation Lead to Representation?",
+   "claim": "Taxation leads to democratization not by its level but by its price: higher taxes relative to the government services citizens receive predict movement toward democracy.",
+   "method": "Pooled time-series cross-section, 113 countries 1971-1997",
+   "themes": [
+    "resources",
+    "state"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123404000031",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123404000031); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "paler2013",
+   "type": "work",
+   "label": "Paler 2013",
+   "authors": "Laura Paler",
+   "year": 2013,
+   "journal": "APSR",
+   "title": "Keeping the Public Purse: An Experiment in Windfalls, Taxes, and the Incentives to Restrain Government",
+   "claim": "Indonesians told that their district budget is financed by taxes rather than windfall revenues become more aware of and more willing to monitor and sanction government spending.",
+   "method": "Field experiment, Blora district, Indonesia",
+   "themes": [
+    "resources"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055413000415",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055413000415); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "brookskurtz2016",
+   "type": "work",
+   "label": "Brooks 2016",
+   "authors": "Sarah M. Brooks & Marcus J. Kurtz",
+   "year": 2016,
+   "journal": "IO",
+   "title": "Oil and Democracy: Endogenous Natural Resources and the Political “Resource Curse”",
+   "claim": "Oil production is endogenous to prior industrialization and human capital; once this is modelled, oil wealth has no negative effect on democracy.",
+   "method": "Panel models with instruments for resource endogeneity",
+   "themes": [
+    "resources",
+    "democratization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818316000072",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818316000072); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "matlandstudlar1996",
+   "type": "work",
+   "label": "Matland 1996",
+   "authors": "Richard E. Matland & Donley T. Studlar",
+   "year": 1996,
+   "journal": "JOP",
+   "title": "The Contagion of Women Candidates in Single-Member District and Proportional Representation Electoral Systems: Canada and Norway",
+   "claim": "Proportional representation fosters contagion: when one party nominates more women, competitors follow, a dynamic weaker in single-member districts.",
+   "method": "Comparative case study, Canada and Norway",
+   "themes": [
+    "gender",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2960439",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2960439); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "caul2001",
+   "type": "work",
+   "label": "Caul 2001",
+   "authors": "Miki Caul",
+   "year": 2001,
+   "journal": "JOP",
+   "title": "Political Parties and the Adoption of Candidate Gender Quotas: A Cross-National Analysis",
+   "claim": "Parties adopt candidate gender quotas when women are organized within them, when the party is leftist, and after rival parties have done so.",
+   "method": "Event history analysis of parties in 11 advanced democracies, 1975-1997",
+   "themes": [
+    "gender",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/0022-3816.00107",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/0022-3816.00107); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wolbrechtcampbell2007",
+   "type": "work",
+   "label": "Wolbrecht 2007",
+   "authors": "Christina Wolbrecht & David E. Campbell",
+   "year": 2007,
+   "journal": "AJPS",
+   "title": "Leading by Example: Female Members of Parliament as Political Role Models",
+   "claim": "Where women MPs are more visible, adolescent girls and adult women are more likely to discuss politics and intend to participate, a role-model effect of descriptive representation.",
+   "method": "Cross-national survey analysis",
+   "themes": [
+    "gender"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1540-5907.2007.00289.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2007.00289.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "seligson2002",
+   "type": "work",
+   "label": "Seligson 2002",
+   "authors": "Mitchell A. Seligson",
+   "year": 2002,
+   "journal": "JOP",
+   "title": "The Impact of Corruption on Regime Legitimacy: A Comparative Study of Four Latin American Countries",
+   "claim": "Survey data from El Salvador, Nicaragua, Paraguay and Bolivia show that experiencing corruption victimization lowers citizens' belief in the legitimacy of the political system.",
+   "method": "Cross-national survey analysis (LAPOP), four Latin American countries",
+   "themes": [
+    "corruption"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/1468-2508.00132",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/1468-2508.00132); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "changgoldenhill2010",
+   "type": "work",
+   "label": "Chang 2010",
+   "authors": "Eric C. C. Chang, Miriam A. Golden & Seth J. Hill",
+   "year": 2010,
+   "journal": "World Politics",
+   "title": "Legislative Malfeasance and Political Accountability",
+   "claim": "Italian deputies charged with malfeasance were routinely re-elected until press coverage of corruption expanded after 1992, when voters began to punish them.",
+   "method": "Panel data on Italian legislators, 1948-1994",
+   "themes": [
+    "corruption",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887110000031",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887110000031); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "iversensoskice2001",
+   "type": "work",
+   "label": "Iversen 2001",
+   "authors": "Torben Iversen & David Soskice",
+   "year": 2001,
+   "journal": "APSR",
+   "title": "An Asset Theory of Social Policy Preferences",
+   "claim": "Workers with specific skills face greater risk of income loss and so demand more social insurance, linking skill regimes to social-policy preferences.",
+   "method": "Formal model with ISSP survey data",
+   "themes": [
+    "cpe",
+    "welfare"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055400400079",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055400400079); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "moenewallerstein2001",
+   "type": "work",
+   "label": "Moene 2001",
+   "authors": "Karl Ove Moene & Michael Wallerstein",
+   "year": 2001,
+   "journal": "APSR",
+   "title": "Inequality, Social Insurance, and Redistribution",
+   "claim": "If welfare spending is insurance against income loss, greater inequality lowers rather than raises the median voter's support for spending.",
+   "method": "Formal model with OECD panel data",
+   "themes": [
+    "welfare"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055400400067",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055400400067); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "swenson1991",
+   "type": "work",
+   "label": "Swenson 1991",
+   "authors": "Peter Swenson",
+   "year": 1991,
+   "journal": "World Politics",
+   "title": "Bringing Capital Back In, or Social Democracy Reconsidered: Employer Power, Cross-Class Alliances, and Centralization of Industrial Relations in Denmark and Sweden",
+   "claim": "Centralized bargaining and social democratic policies in Denmark and Sweden rested on cross-class alliances in which employers sought to control wages and discipline sectoral rivals.",
+   "method": "Comparative-historical case studies, Denmark and Sweden",
+   "themes": [
+    "cpe",
+    "welfare"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2010535",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2010535); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "boix1999",
+   "type": "work",
+   "label": "Boix 1999",
+   "authors": "Carles Boix",
+   "year": 1999,
+   "journal": "APSR",
+   "title": "Setting the Rules of the Game: The Choice of Electoral Systems in Advanced Democracies",
+   "claim": "Ruling parties shifted from majoritarian to proportional representation in the early twentieth century when new socialist entrants threatened them and no single right party dominated.",
+   "method": "Formal model with data on advanced democracies, 1875-1990",
+   "themes": [
+    "parties",
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2585577",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2585577); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kitschelt2000",
+   "type": "work",
+   "label": "Kitschelt 2000",
+   "authors": "Herbert Kitschelt",
+   "year": 2000,
+   "journal": "Comparative Political Studies",
+   "title": "Linkages between Citizens and Politicians in Democratic Polities",
+   "claim": "Distinguishes programmatic, charismatic and clientelistic linkages between politicians and citizens, tracing their incidence to development, state economic role and institutions.",
+   "method": "Comparative theoretical essay",
+   "themes": [
+    "clientelism",
+    "parties"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/001041400003300607",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/001041400003300607); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "buenodemesquita2010",
+   "type": "work",
+   "label": "De Mesquita 2010",
+   "authors": "Ethan Bueno De Mesquita",
+   "year": 2010,
+   "journal": "APSR",
+   "title": "Regime Change and Revolutionary Entrepreneurs",
+   "claim": "A revolutionary vanguard can use violence to signal regime weakness and shift the coordination threshold for mass uprising, explaining why some revolts succeed suddenly.",
+   "method": "Formal model",
+   "themes": [
+    "contention"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055410000274",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055410000274); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lijphart1969",
+   "type": "work",
+   "label": "Lijphart 1969",
+   "authors": "Arend Lijphart",
+   "year": 1969,
+   "journal": "World Politics",
+   "title": "Consociational Democracy",
+   "claim": "Deeply segmented societies such as the Netherlands sustain stable democracy through deliberate cooperation among elites of the different subcultures.",
+   "method": "Comparative theoretical essay",
+   "themes": [
+    "institutions",
+    "ethnicity"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2009820",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2009820); claim is my summary, not re-read this session"
   }
  ]
 }

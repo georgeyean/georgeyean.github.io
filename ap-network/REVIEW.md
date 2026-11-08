@@ -1,6 +1,6 @@
 # American politics, c. 1957–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 385 work nodes, 18 theme nodes and 415 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[mayhew1974]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 429 work nodes, 18 theme nodes and 486 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[mayhew1974]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Your library:** three American-politics entries in `papers.json` are seeded directly: Enos & Hersh on campaign ground workers, Bailey et al. on courts and LGBTQ media, and Kuk, Seligsohn & Zhang on Congress after the China shock.
@@ -215,6 +215,15 @@ Whether education causes participation `[kampalmer2008]`, `[berinskylenz2011]`.
 1. **Trade, identity and polarization.** The China shock, Congress and populism link `[autor2020]`, `[kuk2022]`, `[ballardrosa2024]` and `[han2024]`. This connects the American politics map to your IPE map.
 2. **Text as data for elites.** Validated LLM annotation of congressional speech, press releases and executive actions could measure ideology, team play and unilateralism beyond roll calls.
 3. **Backsliding in comparative perspective.** American backsliding work `[grahamsvolik2020]` connects to your autocracy interests and the comparative map.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 44 works (40 new, 4 shared with other maps) and 81 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 40 works (37 top-journal articles and 3 landmark books) and 4 imports. The additions fill the thin courts, executive, gender, democracy and misinformation themes and supply missing classics: Mueller, Fenno, Kinder-Kiewiet, Segal-Cover, Caldeira-Gibson, Petrocik, Canes-Wrone et al., Hall-Wayman, McCubbins-Schwartz, and books by Carpenter, Schickler and Cameron. Recent work includes Grumbach 2022, Svolik 2020, Bright Line Watch, Uscinski et al. 2021, Bos et al. 2021 and Bauer 2020.
+
+Of the new works, 1 exists in Crossref only through a review (Schickler 2001).
 
 ## What I could not verify (flagged)
 

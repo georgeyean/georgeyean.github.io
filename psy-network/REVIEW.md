@@ -1,6 +1,6 @@
 # Political psychology, c. 1950–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 326 work nodes, 18 theme nodes and 337 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[kunda1990]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 369 work nodes, 18 theme nodes and 411 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[kunda1990]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Shared works:** 133 works already in other maps are reused. Most come from the American politics map (opinion, motivated reasoning, emotion, personality, genes, misinformation and partisan identity). Others come from REP (racial attitudes), security and IR (leaders' psychology), technology (misinformation) and comparative politics (authoritarian values).
@@ -70,6 +70,15 @@ Experiments now dominate `[druckman2006]` and generalize across samples `[mullin
 ## Where your work fits
 - **Grievance and status threat.** Your Globalization Grievance Index connects to work on economic decline and authoritarian values `[ballardrosa2021]` and cultural backlash `[norris2019]`.
 - **LLM annotation of elite rhetoric.** It can measure framing and emotional appeals at scale `[druckman2022arps]`, `[webster2022]`.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 43 works (39 new, 4 shared with other maps) and 74 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 39 works and 4 imports. The thinnest themes get most of them: socialization (draft lottery, Thatcher cohorts, family agreement, ageing and ideology), methods (manipulation checks, post-treatment bias, pre-post designs, plus imported MTurk, population-based experiments, the survey-response model and the list experiment), moral, biology (deservingness heuristic, DRD4, the Bakker et al. replication failure), heuristics and knowledge. Classic debates are also added: Converse versus Nie-Andersen and Achen, Miller versus Citrin on trust, symbolic politics, Rahn, Brady-Sniderman and Lau-Redlawsk. Recent motivated-reasoning work includes the accuracy-incentive studies, Guess-Coppock and Bisgaard.
+
+Of the new works, 1 was not found as its own Crossref record, so its metadata comes from memory (Bakker 2020).
 
 ## What I could not verify (flagged)
 Five books exist in Crossref only through reviews: Sullivan, Piereson & Marcus 1982, Delli Carpini & Keeter 1996, Brader 2006, Berinsky 2009 and Haidt 2012. Adorno et al. 1950 was not found as its own Crossref record; its metadata comes from memory.

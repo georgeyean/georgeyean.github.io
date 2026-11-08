@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 315,
+   "work_nodes": 360,
    "theme_nodes": 20,
    "seed_from_papers_json": 7,
    "crossref_top_cited": 171,
    "anchors_supplement": 137,
-   "relation_edges": 353,
-   "membership_edges": 417
+   "relation_edges": 417,
+   "membership_edges": 480,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -5947,6 +5948,833 @@
    "zotero": null,
    "verified": "Crossref: title and author matched (New England Journal of Medicine, 2007; DOI 10.1056/nejmsa066082)",
    "crossref_doi": "10.1056/nejmsa066082"
+  },
+  {
+   "id": "lindberg2014",
+   "type": "work",
+   "label": "Lindberg 2014",
+   "authors": "Staffan I. Lindberg, Michael Coppedge, John Gerring & Jan Teorell",
+   "year": 2014,
+   "journal": "Journal of Democracy",
+   "title": "V-Dem: A New Way to Measure Democracy",
+   "claim": "V-Dem measures multiple principles of democracy with expert surveys and explicit uncertainty.",
+   "method": "Measurement project",
+   "themes": [
+    "latent"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/jod.2014.0040); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1353/jod.2014.0040"
+  },
+  {
+   "id": "bakker2015",
+   "type": "work",
+   "label": "Bakker 2012",
+   "authors": "Ryan Bakker, Catherine de Vries, Erica Edwards et al.",
+   "year": 2012,
+   "journal": "Party Politics",
+   "title": "Measuring party positions in Europe",
+   "claim": "The Chapel Hill expert survey measures party positions on European integration and other dimensions over time.",
+   "method": "Expert survey data",
+   "themes": [
+    "latent",
+    "scaling"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/1354068812462931); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1354068812462931"
+  },
+  {
+   "id": "hansonsigman2021",
+   "type": "work",
+   "label": "Hanson 2021",
+   "authors": "Jonathan K. Hanson & Rachel Sigman",
+   "year": 2021,
+   "journal": "JOP",
+   "title": "Leviathan’s Latent Dimensions: Measuring State Capacity for Comparative Political Research",
+   "claim": "State capacity has extractive, coercive and administrative dimensions.",
+   "method": "Latent measurement",
+   "themes": [
+    "latent",
+    "bayes"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/715066); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1086/715066"
+  },
+  {
+   "id": "malesky2014ajps",
+   "type": "work",
+   "label": "Malesky 2014",
+   "authors": "Edmund J. Malesky, Dimitar D. Gueorguiev & Nathan M. Jensen",
+   "year": 2014,
+   "journal": "AJPS",
+   "title": "Monopoly Money: Foreign Investment and Bribery in Vietnam, a Survey Experiment",
+   "claim": "Foreign firms in Vietnam pay more bribes in sectors where they compete for scarce licenses.",
+   "method": "Survey experiment with firms",
+   "themes": [
+    "conjoint"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12126); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/ajps.12126"
+  },
+  {
+   "id": "montgomerynyhan2018",
+   "type": "work",
+   "label": "Montgomery 2018",
+   "authors": "Jacob M. Montgomery, Brendan Nyhan & Michelle Torres",
+   "year": 2018,
+   "journal": "AJPS",
+   "title": "How Conditioning on Posttreatment Variables Can Ruin Your Experiment and What to Do about It",
+   "claim": "Conditioning on post-treatment variables, by controlling for them, subsetting on them or dropping subjects, biases experimental estimates, and the practice is common in top journals.",
+   "method": "Analytical demonstration and review of published experiments",
+   "themes": [
+    "potential",
+    "surveyexp"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12357",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12357); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "acharyablackwellsen2018",
+   "type": "work",
+   "label": "Acharya 2018",
+   "authors": "Avidit Acharya, Matthew Blackwell & Maya Sen",
+   "year": 2018,
+   "journal": "Political Analysis",
+   "title": "Analyzing Causal Mechanisms in Survey Experiments",
+   "claim": "Survey experiments can learn about mechanisms by intervening on a mediator within the design and estimating controlled direct effects, avoiding sequential-ignorability assumptions.",
+   "method": "Potential-outcomes framework with survey-experimental applications",
+   "themes": [
+    "potential",
+    "surveyexp"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/pan.2018.19",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2018.19); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hartmanhidalgo2018",
+   "type": "work",
+   "label": "Hartman 2018",
+   "authors": "Erin Hartman & F. Daniel Hidalgo",
+   "year": 2018,
+   "journal": "AJPS",
+   "title": "An Equivalence Approach to Balance and Placebo Tests",
+   "claim": "Balance and placebo tests should be equivalence tests, since failing to reject a difference is not evidence that groups are similar.",
+   "method": "Statistical framework with reanalysis of RD and experimental studies",
+   "themes": [
+    "potential",
+    "natural"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12387",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12387); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kingroberts2015",
+   "type": "work",
+   "label": "King 2015",
+   "authors": "Gary King & Margaret E. Roberts",
+   "year": 2015,
+   "journal": "Political Analysis",
+   "title": "How Robust Standard Errors Expose Methodological Problems They Do Not Fix, and What to Do About It",
+   "claim": "A large gap between robust and classical standard errors signals model misspecification that should be diagnosed and fixed, not merely corrected in the standard errors.",
+   "method": "Analytical argument, simulations and replications",
+   "themes": [
+    "regression"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/pan/mpu015",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpu015); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hainmuellerhazlett2014",
+   "type": "work",
+   "label": "Hainmueller 2014",
+   "authors": "Jens Hainmueller & Chad Hazlett",
+   "year": 2014,
+   "journal": "Political Analysis",
+   "title": "Kernel Regularized Least Squares: Reducing Misspecification Bias with a Flexible and Interpretable Machine Learning Approach",
+   "claim": "Kernel regularized least squares fits flexible, nonlinear and interactive relationships while still yielding interpretable marginal effects.",
+   "method": "Machine-learning estimator with simulations and applications",
+   "themes": [
+    "ml",
+    "regression"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/pan/mpt019",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpt019); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mummolopeterson2018",
+   "type": "work",
+   "label": "Mummolo 2018",
+   "authors": "Jonathan Mummolo & Erik Peterson",
+   "year": 2018,
+   "journal": "Political Science Research and Methods",
+   "title": "Improving the Interpretation of Fixed Effects Regression Results",
+   "claim": "Fixed effects sharply reduce the variation in the treatment that identifies effects, so substantive interpretations should be scaled to within-unit variation.",
+   "method": "Review of published FE studies and reanalysis",
+   "themes": [
+    "panel"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/psrm.2017.44",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/psrm.2017.44); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "plumpertroeger2007",
+   "type": "work",
+   "label": "Plümper 2007",
+   "authors": "Thomas Plümper & Vera E. Troeger",
+   "year": 2007,
+   "journal": "Political Analysis",
+   "title": "Efficient Estimation of Time-Invariant and Rarely Changing Variables in Finite Sample Panel Analyses with Unit Fixed Effects",
+   "claim": "Fixed effects vector decomposition allows estimation of time-invariant and rarely changing variables in panel models with unit effects.",
+   "method": "Estimator proposal with Monte Carlo simulations",
+   "themes": [
+    "panel",
+    "tscs"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/pan/mpm002",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpm002); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "greene2011",
+   "type": "work",
+   "label": "Greene 2011",
+   "authors": "William Greene",
+   "year": 2011,
+   "journal": "Political Analysis",
+   "title": "Fixed Effects Vector Decomposition: A Magical Solution to the Problem of Time-Invariant Variables in Fixed Effects Models?",
+   "claim": "FEVD offers no gain: its point estimates reproduce a known estimator and its reported standard errors are wrong.",
+   "method": "Econometric critique",
+   "themes": [
+    "panel"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/pan/mpq034",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpq034); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cattaneo2016",
+   "type": "work",
+   "label": "Cattaneo 2016",
+   "authors": "Matias D. Cattaneo, Luke Keele, Rocío Titiunik & Gonzalo Vazquez-Bare",
+   "year": 2016,
+   "journal": "JOP",
+   "title": "Interpreting Regression Discontinuity Designs with Multiple Cutoffs",
+   "claim": "With multiple cutoffs, the pooled RD estimand is a weighted average of cutoff-specific effects, and heterogeneity across cutoffs can be exploited.",
+   "method": "Econometric framework with application to Colombian education",
+   "themes": [
+    "natural"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/686802",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/686802); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "marshall2022",
+   "type": "work",
+   "label": "Marshall 2022",
+   "authors": "John Marshall",
+   "year": 2022,
+   "journal": "AJPS",
+   "title": "Can Close Election Regression Discontinuity Designs Identify Effects of Winning Politician Characteristics?",
+   "claim": "Close-election RD designs cannot isolate the effect of a winning politician characteristic, because winners with that characteristic differ in compensating ways.",
+   "method": "Formal analysis of RD estimands with applications",
+   "themes": [
+    "natural"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12741",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12741); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mellon2024",
+   "type": "work",
+   "label": "Mellon 2024",
+   "authors": "Jonathan Mellon",
+   "year": 2024,
+   "journal": "AJPS",
+   "title": "Rain, rain, go away: 194 potential exclusion‐restriction violations for studies using weather as an instrumental variable",
+   "claim": "Weather affects at least 194 outcomes studied in the social sciences, so weather instruments almost certainly violate the exclusion restriction.",
+   "method": "Systematic review of weather-instrument studies",
+   "themes": [
+    "natural"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12894",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12894); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "offerwestort2021",
+   "type": "work",
+   "label": "Offer‐Westort 2021",
+   "authors": "Molly Offer‐Westort, Alexander Coppock & Donald P. Green",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "Adaptive Experimental Design: Prospects and Applications in Political Science",
+   "claim": "Adaptive designs such as multi-armed bandits can identify the best of many treatments more efficiently than static experiments, with modified inference.",
+   "method": "Methodological framework with simulations and an online experiment",
+   "themes": [
+    "field",
+    "ml"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12597",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12597); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hewitt2024",
+   "type": "work",
+   "label": "Hewitt 2024",
+   "authors": "Luke Hewitt, David Broockman, Alexander Coppock et al.",
+   "year": 2024,
+   "journal": "APSR",
+   "title": "How Experiments Help Campaigns Persuade Voters: Evidence from a Large Archive of Campaigns’ Own Experiments",
+   "claim": "Campaign message tests show average persuasive effects are small, but differences across messages are large enough that pre-testing improves persuasion.",
+   "method": "Meta-analysis of an archive of campaigns' randomized message experiments",
+   "themes": [
+    "field",
+    "surveyexp"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055423001387",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055423001387); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "clifford2021",
+   "type": "work",
+   "label": "Clifford 2021",
+   "authors": "Scott Clifford, Geoffrey Sheagley & Spencer Piston",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Increasing Precision without Altering Treatment Effects: Repeated Measures Designs in Survey Experiments",
+   "claim": "Repeated-measures (pre-post) designs in survey experiments greatly increase precision without changing estimated treatment effects.",
+   "method": "Multiple survey experiments comparing designs",
+   "themes": [
+    "surveyexp"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421000241",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421000241); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "brutger2022",
+   "type": "work",
+   "label": "Brutger 2022",
+   "authors": "Ryan Brutger, Joshua D. Kertzer, Jonathan Renshon et al.",
+   "year": 2022,
+   "journal": "AJPS",
+   "title": "Abstraction and Detail in Experimental Design",
+   "claim": "Adding situational detail to survey-experiment vignettes seldom changes treatment effects, though abstraction can affect what respondents infer.",
+   "method": "Replicated IR survey experiments varying vignette detail",
+   "themes": [
+    "surveyexp"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12710",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12710); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "horiuchi2021",
+   "type": "work",
+   "label": "Horiuchi 2021",
+   "authors": "Yusaku Horiuchi, Zachary Markovich & Teppei Yamamoto",
+   "year": 2021,
+   "journal": "Political Analysis",
+   "title": "Does Conjoint Analysis Mitigate Social Desirability Bias?",
+   "claim": "Conjoint designs reduce social desirability bias relative to direct questions, though not completely.",
+   "method": "Comparison of conjoint, direct and behavioral benchmarks",
+   "themes": [
+    "conjoint"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/pan.2021.30",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2021.30); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bansak2022",
+   "type": "work",
+   "label": "Bansak 2022",
+   "authors": "Kirk Bansak, Jens Hainmueller, Daniel J. Hopkins & Teppei Yamamoto",
+   "year": 2022,
+   "journal": "Political Analysis",
+   "title": "Using Conjoint Experiments to Analyze Election Outcomes: The Essential Role of the Average Marginal Component Effect",
+   "claim": "The AMCE is directly connected to election outcomes under common voting rules, so it is the relevant estimand for analyzing electoral consequences of attributes.",
+   "method": "Formal analysis of conjoint estimands",
+   "themes": [
+    "conjoint"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/pan.2022.16",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2022.16); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "corstange2009",
+   "type": "work",
+   "label": "Corstange 2009",
+   "authors": "Daniel Corstange",
+   "year": 2009,
+   "journal": "Political Analysis",
+   "title": "Sensitive Questions, Truthful Answers? Modeling the List Experiment with LISTIT",
+   "claim": "A maximum-likelihood estimator (LISTIT) allows multivariate regression analysis of list-experiment data.",
+   "method": "Estimator with application to Lebanese surveys",
+   "themes": [
+    "conjoint"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/pan/mpn013",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpn013); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "jackman2001",
+   "type": "work",
+   "label": "Jackman 2001",
+   "authors": "Simon Jackman",
+   "year": 2001,
+   "journal": "Political Analysis",
+   "title": "Multidimensional Analysis of Roll Call Data via Bayesian Simulation: Identification, Estimation, Inference, and Model Checking",
+   "claim": "Bayesian simulation offers a coherent approach to identifying, estimating and quantifying uncertainty in multidimensional roll-call scaling.",
+   "method": "Bayesian item-response model estimated by MCMC",
+   "themes": [
+    "scaling",
+    "bayes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/polana/9.3.227",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/polana/9.3.227); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hare2014",
+   "type": "work",
+   "label": "Hare 2014",
+   "authors": "Christopher Hare, David A. Armstrong, Ryan Bakker et al.",
+   "year": 2014,
+   "journal": "AJPS",
+   "title": "Using Bayesian Aldrich‐McKelvey Scaling to Study Citizens' Ideological Preferences and Perceptions",
+   "claim": "A Bayesian Aldrich-McKelvey model recovers citizens' ideal points and perceptual biases from placement data.",
+   "method": "Bayesian scaling of survey placement data",
+   "themes": [
+    "scaling",
+    "bayes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12151",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12151); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "duckmayr2023",
+   "type": "work",
+   "label": "Duck-Mayr 2023",
+   "authors": "JBrandon Duck-Mayr & Jacob Montgomery",
+   "year": 2023,
+   "journal": "Political Analysis",
+   "title": "Ends Against the Middle: Measuring Latent Traits when Opposites Respond the Same Way for Antithetical Reasons",
+   "claim": "When extremists at both ends respond the same way for opposite reasons, cumulative IRT misplaces them; an unfolding (GGUM) model recovers their positions.",
+   "method": "Bayesian unfolding item-response model with roll-call applications",
+   "themes": [
+    "scaling",
+    "latent"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/pan.2022.33",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2022.33); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kingmurray2004",
+   "type": "work",
+   "label": "King 2004",
+   "authors": "Gary King, Christopher J. L. Murray, Joshua A. Salomon & Ajay Tandon",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "Enhancing the Validity and Cross-Cultural Comparability of Measurement in Survey Research",
+   "claim": "Anchoring vignettes correct interpersonal and cross-cultural incomparability in ordinal survey responses.",
+   "method": "Survey design and statistical model, cross-national survey data",
+   "themes": [
+    "latent",
+    "survey"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000305540400108x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000305540400108x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "marquardtpemstein2018",
+   "type": "work",
+   "label": "Marquardt 2018",
+   "authors": "Kyle L. Marquardt & Daniel Pemstein",
+   "year": 2018,
+   "journal": "Political Analysis",
+   "title": "IRT Models for Expert-Coded Panel Data",
+   "claim": "IRT models that allow rater-specific thresholds aggregate expert-coded panel data more accurately than averaging.",
+   "method": "Bayesian IRT with simulations and V-Dem data",
+   "themes": [
+    "latent",
+    "bayes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/pan.2018.28",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2018.28); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lavergarry2000",
+   "type": "work",
+   "label": "Laver 2000",
+   "authors": "Michael Laver & John Garry",
+   "year": 2000,
+   "journal": "AJPS",
+   "title": "Estimating Policy Positions from Political Texts",
+   "claim": "Computer-assisted dictionary coding of party manifestos can estimate policy positions that match expert and hand-coded measures.",
+   "method": "Dictionary-based content analysis of British and Irish manifestos",
+   "themes": [
+    "text",
+    "scaling"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2669268",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2669268); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kinglamroberts2017",
+   "type": "work",
+   "label": "King 2017",
+   "authors": "Gary King, Patrick Lam & Margaret E. Roberts",
+   "year": 2017,
+   "journal": "AJPS",
+   "title": "Computer‐Assisted Keyword and Document Set Discovery from Unstructured Text",
+   "claim": "A human-in-the-loop algorithm helps researchers discover keywords and document sets they would otherwise miss.",
+   "method": "Computer-assisted keyword discovery method with applications",
+   "themes": [
+    "text"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12291",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12291); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "rodriguezspirlingstewart2023",
+   "type": "work",
+   "label": "Rodriguez 2023",
+   "authors": "Pedro L. Rodriguez, Arthur Spirling & Brandon M. Stewart",
+   "year": 2023,
+   "journal": "APSR",
+   "title": "Embedding Regression: Models for Context-Specific Description and Inference",
+   "claim": "Embedding regression estimates how word meanings vary with covariates, enabling inference about context-specific usage.",
+   "method": "Word-embedding regression (conText) with applications",
+   "themes": [
+    "text"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055422001228",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055422001228); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "fongtyler2020",
+   "type": "work",
+   "label": "Fong 2020",
+   "authors": "Christian Fong & Matthew Tyler",
+   "year": 2020,
+   "journal": "Political Analysis",
+   "title": "Machine Learning Predictions as Regression Covariates",
+   "claim": "Using machine-learning predictions as regression covariates introduces measurement-error bias that requires correction.",
+   "method": "Analytical results and simulations",
+   "themes": [
+    "ml",
+    "latent"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/pan.2020.38",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2020.38); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "arnold2024",
+   "type": "work",
+   "label": "Arnold 2024",
+   "authors": "Christian Arnold, Luka Biedebach, Andreas Küpfer & Marcel Neunhoeffer",
+   "year": 2024,
+   "journal": "Political Science Research and Methods",
+   "title": "The role of hyperparameters in machine learning models and how to tune them",
+   "claim": "Hyperparameter tuning drives the performance of machine-learning models, yet political scientists rarely report or justify it.",
+   "method": "Review of published applications and replications",
+   "themes": [
+    "ml"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/psrm.2023.61",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/psrm.2023.61); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "western1998",
+   "type": "work",
+   "label": "Western 1998",
+   "authors": "Bruce Western",
+   "year": 1998,
+   "journal": "AJPS",
+   "title": "Causal Heterogeneity in Comparative Research: A Bayesian Hierarchical Modelling Approach",
+   "claim": "Bayesian hierarchical models represent causal heterogeneity across countries in comparative research.",
+   "method": "Bayesian hierarchical model applied to OECD political economy data",
+   "themes": [
+    "bayes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2991856",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2991856); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "elff2020",
+   "type": "work",
+   "label": "Elff 2020",
+   "authors": "Martin Elff, Jan Paul Heisig, Merlin Schaeffer & Susumu Shikano",
+   "year": 2020,
+   "journal": "BJPS",
+   "title": "Multilevel Analysis with Few Clusters: Improving Likelihood-Based Methods to Provide Unbiased Estimates and Accurate Inference",
+   "claim": "With restricted maximum likelihood and small-sample corrections, multilevel models give accurate inference even with few upper-level clusters.",
+   "method": "Monte Carlo simulations",
+   "themes": [
+    "bayes"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123419000097",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123419000097); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bisbee2019",
+   "type": "work",
+   "label": "Bisbee 2019",
+   "authors": "James Bisbee",
+   "year": 2019,
+   "journal": "APSR",
+   "title": "BARP: Improving Mister P Using Bayesian Additive Regression Trees",
+   "claim": "Replacing the multilevel regression in MRP with Bayesian additive regression trees improves subnational opinion estimates.",
+   "method": "BARP estimator validated against state-level benchmarks",
+   "themes": [
+    "bayes",
+    "ml"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055419000480",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055419000480); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "boxsteffensmeierjones1997",
+   "type": "work",
+   "label": "Box-Steffensmeier 1997",
+   "authors": "Janet M. Box-Steffensmeier & Bradford S. Jones",
+   "year": 1997,
+   "journal": "AJPS",
+   "title": "Time is of the Essence: Event History Models in Political Science",
+   "claim": "Event history (duration) models suit questions about the timing of political change and handle censoring and time-varying covariates.",
+   "method": "Methodological review with applications",
+   "themes": [
+    "tscs"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2960496",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2960496); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "arelbundockpelc2018",
+   "type": "work",
+   "label": "Arel-Bundock 2018",
+   "authors": "Vincent Arel-Bundock & Krzysztof J. Pelc",
+   "year": 2018,
+   "journal": "Political Analysis",
+   "title": "When Can Multiple Imputation Improve Regression Estimates?",
+   "claim": "Multiple imputation improves on listwise deletion only under certain missingness patterns and can do worse in others.",
+   "method": "Analytical results and simulations",
+   "themes": [
+    "missing"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/pan.2017.43",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2017.43); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "littlerubin2002",
+   "type": "work",
+   "label": "Little 2002",
+   "authors": "Roderick J. A. Little & Donald B. Rubin",
+   "year": 2002,
+   "journal": "Wiley (book), 2nd edition",
+   "title": "Statistical Analysis with Missing Data",
+   "claim": "Systematic treatment of likelihood-based and multiple-imputation methods for incomplete data under the MCAR/MAR/MNAR framework.",
+   "method": "Statistical textbook",
+   "themes": [
+    "missing"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2022, DOI 10.1007/s11336-022-09856-8); metadata from memory"
+  },
+  {
+   "id": "berinskymargolis2013",
+   "type": "work",
+   "label": "Berinsky 2013",
+   "authors": "Adam J. Berinsky, Michele F. Margolis & Michael W. Sances",
+   "year": 2013,
+   "journal": "AJPS",
+   "title": "Separating the Shirkers from the Workers? Making Sure Respondents Pay Attention on Self‐Administered Surveys",
+   "claim": "Screener questions detect inattentive respondents on self-administered surveys, and attentiveness alters estimated treatment effects.",
+   "method": "Attention screeners embedded in online surveys",
+   "themes": [
+    "survey"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12081",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12081); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mercer2017",
+   "type": "work",
+   "label": "Mercer 2017",
+   "authors": "Andrew W. Mercer, Frauke Kreuter, Scott Keeter & Elizabeth A. Stuart",
+   "year": 2017,
+   "journal": "Public Opinion Quarterly",
+   "title": "Theory and Practice in Nonprobability Surveys",
+   "claim": "Nonprobability samples yield valid estimates only when exchangeability, positivity and composition conditions are met through design and adjustment.",
+   "method": "Conceptual framework drawing on causal inference",
+   "themes": [
+    "survey"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/poq/nfw060",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/poq/nfw060); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sloughtyson2022",
+   "type": "work",
+   "label": "Slough 2022",
+   "authors": "Tara Slough & Scott A. Tyson",
+   "year": 2022,
+   "journal": "AJPS",
+   "title": "External Validity and Meta‐Analysis",
+   "claim": "Meta-analysis supports external validity only when studies target harmonized estimands and share mechanisms, conditions a formal model makes explicit.",
+   "method": "Formal model of external validity",
+   "themes": [
+    "formal",
+    "field"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12742",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12742); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gelmancarlin2014",
+   "type": "work",
+   "label": "Gelman 2014",
+   "authors": "Andrew Gelman & John Carlin",
+   "year": 2014,
+   "journal": "Perspectives on Psychological Science",
+   "title": "Beyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors",
+   "claim": "Low-powered studies that reach significance make sign (Type S) and magnitude (Type M) errors, systematically exaggerating effects.",
+   "method": "Statistical argument with design calculations",
+   "themes": [
+    "transparency"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1177/1745691614551642); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1745691614551642"
+  },
+  {
+   "id": "minhashoffward2018",
+   "type": "work",
+   "label": "Minhas 2018",
+   "authors": "Shahryar Minhas, Peter D. Hoff & Michael D. Ward",
+   "year": 2018,
+   "journal": "Political Analysis",
+   "title": "Inferential Approaches for Network Analysis: AMEN for Latent Factor Models",
+   "claim": "Additive and multiplicative effects latent-factor models (AMEN) capture higher-order dependence in dyadic network data and outperform ERGMs in prediction.",
+   "method": "Bayesian latent-factor network model with applications",
+   "themes": [
+    "networks"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/pan.2018.50",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2018.50); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "braumoellergoertz2000",
+   "type": "work",
+   "label": "Braumoeller 2000",
+   "authors": "Bear F. Braumoeller & Gary Goertz",
+   "year": 2000,
+   "journal": "AJPS",
+   "title": "The Methodology of Necessary Conditions",
+   "claim": "Necessary-condition hypotheses require their own statistical tests rather than correlation-based methods.",
+   "method": "Methodological argument with statistical tests",
+   "themes": [
+    "qual"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2669285",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2669285); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bennettelman2006pa",
+   "type": "work",
+   "label": "Bennett 2006",
+   "authors": "Andrew Bennett & Colin Elman",
+   "year": 2006,
+   "journal": "Political Analysis",
+   "title": "Complex Causal Relations and Case Study Methods: The Example of Path Dependence",
+   "claim": "Case-study methods are well suited to complex causal relations such as path dependence, tipping points and equifinality.",
+   "method": "Methodological essay",
+   "themes": [
+    "qual"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/pan/mpj020",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpj020); claim is my summary, not re-read this session"
   }
  ],
  "edges": [
@@ -8067,6 +8895,390 @@
    "target": "kingzeng2006",
    "type": "builds_on",
    "why": "Interaction estimates often extrapolate beyond common support, a form of extreme counterfactual."
+  },
+  {
+   "source": "aronow2019",
+   "target": "montgomerynyhan2018",
+   "type": "builds_on",
+   "why": "Formalizes the post-treatment warning for the specific practice of dropping subjects who fail manipulation checks."
+  },
+  {
+   "source": "cinelli2022",
+   "target": "montgomerynyhan2018",
+   "type": "synthesizes",
+   "why": "Places post-treatment conditioning within a graphical catalogue of good and bad controls."
+  },
+  {
+   "source": "acharyablackwellsen2018",
+   "target": "acharyablackwellsen2016",
+   "type": "builds_on",
+   "why": "Adapts the controlled direct effect framework to survey experiments by manipulating the mediator within the design."
+  },
+  {
+   "source": "acharyablackwellsen2018",
+   "target": "imaiyamamoto2013",
+   "type": "qualifies",
+   "why": "Offers a design-based way to study mechanisms in survey experiments without the sequential ignorability assumption of mediation analysis."
+  },
+  {
+   "source": "hartmanhidalgo2018",
+   "target": "caugheysekhon2011",
+   "type": "builds_on",
+   "why": "Revisits close-election balance tests, arguing that non-rejection of imbalance is not evidence of balance and proposing equivalence tests."
+  },
+  {
+   "source": "eggerstunon2023",
+   "target": "hartmanhidalgo2018",
+   "type": "builds_on",
+   "why": "Incorporates the equivalence logic for placebo outcomes into a general framework for placebo tests."
+  },
+  {
+   "source": "kingroberts2015",
+   "target": "beckkatz1995",
+   "type": "qualifies",
+   "why": "Argues robust and panel-corrected standard errors should be read as misspecification diagnostics rather than as a fix for misspecified models."
+  },
+  {
+   "source": "hainmuellerhazlett2014",
+   "target": "breiman2001",
+   "type": "builds_on",
+   "why": "Brings flexible algorithmic modeling into political science while keeping interpretable marginal effects."
+  },
+  {
+   "source": "hainmuellermummoloxu2019",
+   "target": "hainmuellerhazlett2014",
+   "type": "builds_on",
+   "why": "Uses a kernel estimator to relax the linear-interaction assumption, following the flexible approach of KRLS."
+  },
+  {
+   "source": "mummolopeterson2018",
+   "target": "greenkimyoon2001",
+   "type": "builds_on",
+   "why": "Shows that the fixed effects recommended in Dirty Pool shrink identifying variation, so effects should be scaled to within-unit changes."
+  },
+  {
+   "source": "plumpertroeger2007",
+   "target": "greenkimyoon2001",
+   "type": "builds_on",
+   "why": "Proposes a way to estimate time-invariant variables that the unit fixed effects advocated in Dirty Pool absorb."
+  },
+  {
+   "source": "greene2011",
+   "target": "plumpertroeger2007",
+   "type": "challenges",
+   "why": "Shows FEVD estimates reduce to a known estimator and its reported standard errors are badly understated."
+  },
+  {
+   "source": "cattaneo2016",
+   "target": "calonico2014",
+   "type": "builds_on",
+   "why": "Extends robust local-polynomial RD inference to designs with multiple cutoffs."
+  },
+  {
+   "source": "marshall2022",
+   "target": "delacuestaimai2016",
+   "type": "builds_on",
+   "why": "Extends warnings about interpreting close-election RDs, showing they cannot isolate the effect of a winner characteristic."
+  },
+  {
+   "source": "marshall2022",
+   "target": "lee2008rd",
+   "type": "qualifies",
+   "why": "Shows Lee's as-if-random close elections identify party effects but not the effects of candidate characteristics that covary with compensating traits."
+  },
+  {
+   "source": "mellon2024",
+   "target": "angristimbensrubin1996",
+   "type": "qualifies",
+   "why": "Documents many channels through which weather affects outcomes, showing weather IVs likely violate the exclusion restriction."
+  },
+  {
+   "source": "mellon2024",
+   "target": "lal2024",
+   "type": "builds_on",
+   "why": "Complements evidence of fragile IV estimates in political science by identifying exclusion violations for a widely used instrument."
+  },
+  {
+   "source": "offerwestort2021",
+   "target": "gerbergreen2012",
+   "type": "builds_on",
+   "why": "Adds adaptive multi-arm designs to the field-experimental toolkit, with adjusted inference for adaptively collected data."
+  },
+  {
+   "source": "hewitt2024",
+   "target": "kallabroockman2018",
+   "type": "qualifies",
+   "why": "Confirms small average persuasion effects but shows message-level heterogeneity is large enough for pre-testing to matter."
+  },
+  {
+   "source": "clifford2021",
+   "target": "mummolopeterson2019",
+   "type": "builds_on",
+   "why": "Shows pre-post designs raise precision without inducing demand or consistency effects, consistent with weak demand effects in survey experiments."
+  },
+  {
+   "source": "brutger2022",
+   "target": "dafoe2018",
+   "type": "builds_on",
+   "why": "Tests the information-equivalence concern directly by varying vignette detail and finding treatment effects largely stable."
+  },
+  {
+   "source": "horiuchi2021",
+   "target": "hhy2014",
+   "type": "mechanism_tested_by",
+   "why": "Tests the claim that conjoint designs reduce social desirability bias by benchmarking against behavioral outcomes."
+  },
+  {
+   "source": "horiuchi2021",
+   "target": "blaircoppockmoor2020",
+   "type": "builds_on",
+   "why": "Addresses the sensitivity bias Blair, Coppock and Moor document by evaluating whether conjoint designs reduce it."
+  },
+  {
+   "source": "bansak2022",
+   "target": "abramson2022",
+   "type": "challenges",
+   "why": "Argues the AMCE maps directly onto election outcomes, rebutting the claim that it misrepresents majority preferences."
+  },
+  {
+   "source": "corstange2009",
+   "target": "kuklinski1997",
+   "type": "builds_on",
+   "why": "Develops a multivariate estimator for the item-count list experiment that Kuklinski et al. used to measure racial attitudes."
+  },
+  {
+   "source": "blairimai2012",
+   "target": "corstange2009",
+   "type": "builds_on",
+   "why": "Generalizes multivariate list-experiment estimation beyond LISTIT's design requirements and adds tests for design effects."
+  },
+  {
+   "source": "jackman2001",
+   "target": "poolerosenthal1997",
+   "type": "builds_on",
+   "why": "Recasts roll-call scaling as a Bayesian item-response model, addressing identification and uncertainty in NOMINATE-type estimates."
+  },
+  {
+   "source": "clinton2004",
+   "target": "jackman2001",
+   "type": "builds_on",
+   "why": "Develops the Bayesian IRT approach to roll-call analysis into a general framework."
+  },
+  {
+   "source": "hare2014",
+   "target": "aldrichmckelvey1977",
+   "type": "builds_on",
+   "why": "Puts Aldrich-McKelvey scaling into a Bayesian framework to estimate individual ideal points and perceptual distortion."
+  },
+  {
+   "source": "duckmayr2023",
+   "target": "clinton2004",
+   "type": "challenges",
+   "why": "Shows cumulative IRT misplaces legislators who vote with the opposite extreme for different reasons, proposing an unfolding model."
+  },
+  {
+   "source": "kingmurray2004",
+   "target": "aldrichmckelvey1977",
+   "type": "builds_on",
+   "why": "Corrects interpersonal incomparability in survey scales with anchoring vignettes, generalizing the problem A-M scaling addressed for perceptual placements."
+  },
+  {
+   "source": "marquardtpemstein2018",
+   "target": "pemstein2010",
+   "type": "builds_on",
+   "why": "Extends latent-variable aggregation of regime indicators to expert-coded panel data with rater-specific thresholds."
+  },
+  {
+   "source": "marquardtpemstein2018",
+   "target": "lindberg2014",
+   "type": "builds_on",
+   "why": "Provides the measurement model used to aggregate V-Dem expert codings."
+  },
+  {
+   "source": "laver2003",
+   "target": "lavergarry2000",
+   "type": "builds_on",
+   "why": "Replaces Laver-Garry's hand-built dictionary with Wordscores, which learns word weights from reference texts."
+  },
+  {
+   "source": "kinglamroberts2017",
+   "target": "hopkinsking2010",
+   "type": "builds_on",
+   "why": "Extends computer-assisted text analysis from category proportions to discovering keywords and document sets with human input."
+  },
+  {
+   "source": "rodriguezspirlingstewart2023",
+   "target": "rodriguezspirling2022",
+   "type": "builds_on",
+   "why": "Turns validated word embeddings into a regression framework for estimating how word meanings differ across groups."
+  },
+  {
+   "source": "fongtyler2020",
+   "target": "mullainathanspiess2017",
+   "type": "builds_on",
+   "why": "Shows that using ML predictions as covariates introduces measurement-error bias, heeding the distinction between prediction and estimation."
+  },
+  {
+   "source": "knox2022",
+   "target": "fongtyler2020",
+   "type": "builds_on",
+   "why": "Extends concerns about ML-predicted variables to testing causal theories with learned proxies."
+  },
+  {
+   "source": "arnold2024",
+   "target": "muchlinski2016",
+   "type": "qualifies",
+   "why": "Shows comparisons between ML and logistic models hinge on hyperparameter tuning that such applications often leave unreported."
+  },
+  {
+   "source": "western1998",
+   "target": "leamer1983",
+   "type": "builds_on",
+   "why": "Uses Bayesian hierarchical models to make assumptions about cross-country heterogeneity explicit, in the spirit of Leamer's critique."
+  },
+  {
+   "source": "stegmueller2013",
+   "target": "western1998",
+   "type": "builds_on",
+   "why": "Evaluates the Bayesian multilevel approach Western advocated for comparative data with few countries."
+  },
+  {
+   "source": "elff2020",
+   "target": "stegmueller2013",
+   "type": "challenges",
+   "why": "Shows restricted ML with small-sample corrections gives accurate inference with few clusters, contesting the case for Bayesian estimation."
+  },
+  {
+   "source": "bisbee2019",
+   "target": "park2004",
+   "type": "builds_on",
+   "why": "Replaces MRP's multilevel regression stage with BART to improve state-level opinion estimates."
+  },
+  {
+   "source": "bisbee2019",
+   "target": "hill2011",
+   "type": "builds_on",
+   "why": "Applies Hill's BART to the prediction stage of poststratification."
+  },
+  {
+   "source": "beckkatztucker1998",
+   "target": "boxsteffensmeierjones1997",
+   "type": "builds_on",
+   "why": "Shows binary TSCS logit with time dummies is a grouped-duration model, connecting it to event-history analysis."
+  },
+  {
+   "source": "arelbundockpelc2018",
+   "target": "king2001",
+   "type": "qualifies",
+   "why": "Shows multiple imputation beats listwise deletion only under certain missingness patterns, tempering King et al.'s general case for imputation."
+  },
+  {
+   "source": "arelbundockpelc2018",
+   "target": "pepinsky2018",
+   "type": "builds_on",
+   "why": "Systematizes when listwise deletion and imputation differ, extending Pepinsky's note on the same comparison."
+  },
+  {
+   "source": "littlerubin2002",
+   "target": "rubin1976",
+   "type": "builds_on",
+   "why": "Systematizes Rubin's missing-data mechanisms into likelihood-based and multiple-imputation methods."
+  },
+  {
+   "source": "honakerking2010",
+   "target": "littlerubin2002",
+   "type": "builds_on",
+   "why": "Applies the MAR-based imputation framework to time-series cross-section data."
+  },
+  {
+   "source": "berinskymargolis2013",
+   "target": "krosnick1991",
+   "type": "builds_on",
+   "why": "Operationalizes satisficing with screener questions that flag inattentive respondents."
+  },
+  {
+   "source": "kennedy2020",
+   "target": "berinskymargolis2013",
+   "type": "builds_on",
+   "why": "Uses attention and quality screens to diagnose the MTurk data-quality crisis."
+  },
+  {
+   "source": "mercer2017",
+   "target": "wang2015",
+   "type": "synthesizes",
+   "why": "Explains when nonprobability samples such as Xbox polls can be valid, framing selection in causal-inference terms."
+  },
+  {
+   "source": "macinnis2018",
+   "target": "mercer2017",
+   "type": "builds_on",
+   "why": "Tests empirically whether nonprobability samples meet the conditions for accurate estimates, finding they fall short of probability samples."
+  },
+  {
+   "source": "sloughtyson2022",
+   "target": "egamihartman2023",
+   "type": "builds_on",
+   "why": "Formalizes when evidence from multiple studies generalizes, adding estimand harmonization to the elements of external validity."
+  },
+  {
+   "source": "sloughtyson2022",
+   "target": "dunning2016",
+   "type": "qualifies",
+   "why": "Shows pooling coordinated experiments supports cumulative learning only when studies share estimands and mechanisms."
+  },
+  {
+   "source": "gelmancarlin2014",
+   "target": "ioannidis2005",
+   "type": "builds_on",
+   "why": "Formalizes why significant findings from low-powered studies are often wrong in sign or exaggerated in size."
+  },
+  {
+   "source": "minhashoffward2018",
+   "target": "hoff2002",
+   "type": "builds_on",
+   "why": "Extends latent space models to additive and multiplicative effects models for dyadic network data."
+  },
+  {
+   "source": "minhashoffward2018",
+   "target": "cranmerdesmarais2011",
+   "type": "qualifies",
+   "why": "Shows latent-factor models capture network dependence and predict better than ERGMs in many applications."
+  },
+  {
+   "source": "braumoellergoertz2000",
+   "target": "ragin1987",
+   "type": "builds_on",
+   "why": "Develops statistical tests for necessary-condition claims, complementing Ragin's set-theoretic approach."
+  },
+  {
+   "source": "bennettelman2006pa",
+   "target": "pierson2000",
+   "type": "builds_on",
+   "why": "Shows how case-study methods can trace path dependence and the other complex causal relations Pierson identifies."
+  },
+  {
+   "source": "lindberg2014",
+   "target": "coppedge2011",
+   "type": "builds_on",
+   "why": "Implements Coppedge et al.'s disaggregated, multi-principle approach as the V-Dem measurement project."
+  },
+  {
+   "source": "bakker2015",
+   "target": "budge2001",
+   "type": "qualifies",
+   "why": "Provides expert-survey party positions cross-validated against manifesto-based estimates, an alternative source of party positions."
+  },
+  {
+   "source": "hansonsigman2021",
+   "target": "treierjackman2008",
+   "type": "builds_on",
+   "why": "Applies Bayesian latent-variable modeling to extract dimensions of state capacity from many indicators."
+  },
+  {
+   "source": "malesky2014ajps",
+   "target": "blairimai2012",
+   "type": "builds_on",
+   "why": "Applies list-experiment estimators to measure bribery by foreign firms in Vietnam."
   },
   {
    "source": "grimmerstewart2013",
@@ -10567,6 +11779,384 @@
   {
    "source": "christakisfowler2007",
    "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lindberg2014",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakker2015",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakker2015",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hansonsigman2021",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hansonsigman2021",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "malesky2014ajps",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montgomerynyhan2018",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montgomerynyhan2018",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharyablackwellsen2018",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharyablackwellsen2018",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hartmanhidalgo2018",
+   "target": "potential",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hartmanhidalgo2018",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingroberts2015",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhazlett2014",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hainmuellerhazlett2014",
+   "target": "regression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mummolopeterson2018",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "plumpertroeger2007",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "plumpertroeger2007",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "greene2011",
+   "target": "panel",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cattaneo2016",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marshall2022",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mellon2024",
+   "target": "natural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "offerwestort2021",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "offerwestort2021",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hewitt2024",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hewitt2024",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clifford2021",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brutger2022",
+   "target": "surveyexp",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horiuchi2021",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bansak2022",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "corstange2009",
+   "target": "conjoint",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jackman2001",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jackman2001",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hare2014",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hare2014",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duckmayr2023",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "duckmayr2023",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingmurray2004",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingmurray2004",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marquardtpemstein2018",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marquardtpemstein2018",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavergarry2000",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lavergarry2000",
+   "target": "scaling",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinglamroberts2017",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodriguezspirlingstewart2023",
+   "target": "text",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fongtyler2020",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fongtyler2020",
+   "target": "latent",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arnold2024",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "western1998",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "elff2020",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisbee2019",
+   "target": "bayes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisbee2019",
+   "target": "ml",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boxsteffensmeierjones1997",
+   "target": "tscs",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arelbundockpelc2018",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "littlerubin2002",
+   "target": "missing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinskymargolis2013",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mercer2017",
+   "target": "survey",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sloughtyson2022",
+   "target": "formal",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sloughtyson2022",
+   "target": "field",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gelmancarlin2014",
+   "target": "transparency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "minhashoffward2018",
+   "target": "networks",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "braumoellergoertz2000",
+   "target": "qual",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bennettelman2006pa",
+   "target": "qual",
    "type": "belongs_to",
    "why": "theme membership"
   }

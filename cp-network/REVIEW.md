@@ -1,6 +1,6 @@
 # Comparative Politics, c. 1959–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 259 work nodes, 18 theme nodes and 251 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[gandhiprzeworski2007]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 304 work nodes, 18 theme nodes and 315 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[gandhiprzeworski2007]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Your library:** comparative papers from `papers.json`, mostly your *Gov Cp*, *Globalization*, *Research* and China groups. Claims are condensed from the repo's analyses.
@@ -167,6 +167,15 @@ Historical institutionalism explains origins and change `[thelen1999]` through p
 2. **International sources of domestic regime change.** Backsliding and authoritarian durability (Sections 2 and 3) are studied mostly as domestic processes. Your globalization and order-contestation work can bring external trade, finance and autocratic support into these models, which is the second image reversed applied to the 2020s.
 3. **Measurement with text.** Aggrandizement, propaganda, populist rhetoric and party strategy (Sections 2, 4, 11 and 12) are all measured more and more from text. Validated LLM annotation is the enabling method and the bridge to your methods work.
 4. **China under Xi.** Section 5's findings need re-testing after 2015, with the security turn in governance as a likely explanation of what changed.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 45 works (36 new, 9 shared with other maps) and 68 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 45 works (36 new, 9 imported) concentrated on the thinnest themes: the resource curse (Ross 1999/2004, Paler, Brooks & Kurtz, Dunning, Karl), censorship and propaganda (Lohmann, Kern & Hainmueller, Huang, Roberts, Guriev & Treisman), gender and representation (Matland & Studlar, Caul, Wolbrecht & Campbell, Chattopadhyay & Duflo), corruption and accountability, and recent formal and empirical work on backsliding (Svolik, Claassen, Grillo & Prato, Luo & Przeworski). It also fills classic gaps: Rustow, Wintrobe, Myerson, Weingast, Iversen & Soskice, Moene & Wallerstein, Boix 1999, Lijphart 1969 and Ziblatt 2017.
+
+Of the new works, 1 exists in Crossref only through a review (Ziblatt 2017).
 
 ## What I could not verify (flagged)
 

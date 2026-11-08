@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 326,
+   "work_nodes": 369,
    "theme_nodes": 18,
    "seed_from_papers_json": 5,
    "crossref_top_cited": 236,
    "anchors_supplement": 85,
-   "relation_edges": 337,
-   "membership_edges": 453
+   "relation_edges": 411,
+   "membership_edges": 521,
+   "added_coverage_2026_11": 43
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -2045,6 +2046,450 @@
    "target": "mullinix2015",
    "type": "extends_to_new_case",
    "why": "Experiments on elite samples."
+  },
+  {
+   "source": "citrin1974",
+   "target": "miller1974",
+   "type": "challenges",
+   "why": "Argues that falling trust mainly expresses cynicism toward incumbents rather than alienation from the regime, contesting Miller's systemic reading."
+  },
+  {
+   "source": "hetherington1998",
+   "target": "miller1974",
+   "type": "builds_on",
+   "why": "Builds on Miller's link between distrust and policy discontent but treats trust as a cause of political outcomes rather than only an effect."
+  },
+  {
+   "source": "hetherington1998",
+   "target": "citrin1974",
+   "type": "builds_on",
+   "why": "Takes up the Miller-Citrin debate over what trust measures capture, showing trust has real consequences for presidential approval and support for liberal policy."
+  },
+  {
+   "source": "nieandersen1974",
+   "target": "converse1964",
+   "type": "challenges",
+   "why": "Finds constraint rose sharply after 1964 as politics became more ideological, arguing Converse's low constraint reflected the quiet 1950s context."
+  },
+  {
+   "source": "achen1975",
+   "target": "converse1964",
+   "type": "challenges",
+   "why": "Attributes much of the response instability Converse read as non-attitudes to measurement error in survey items."
+  },
+  {
+   "source": "sears1980",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Shows long-standing symbolic predispositions such as party identification and ideology, not self-interest, drive policy attitudes and votes."
+  },
+  {
+   "source": "kindersears1981",
+   "target": "sears1980",
+   "type": "builds_on",
+   "why": "Applies the symbolic-politics finding that self-interest matters little to racial attitudes, showing symbolic racism rather than racial threat drives white opposition."
+  },
+  {
+   "source": "bradysniderman1985",
+   "target": "converse1964",
+   "type": "qualifies",
+   "why": "Shows citizens can attribute positions to groups accurately through affect, a group-based reasoning that partly compensates for low ideological constraint."
+  },
+  {
+   "source": "sniderman1991",
+   "target": "bradysniderman1985",
+   "type": "builds_on",
+   "why": "Makes the likability heuristic, inferring group positions from affect toward groups, a core mechanism of mass political reasoning."
+  },
+  {
+   "source": "hurwitzpeffley1987",
+   "target": "converse1964",
+   "type": "challenges",
+   "why": "Shows foreign policy attitudes are vertically constrained by core values and postures, even among citizens who lack ideological sophistication."
+  },
+  {
+   "source": "herrmann1999",
+   "target": "hurwitzpeffley1987",
+   "type": "builds_on",
+   "why": "Builds on the value-structured view of foreign policy opinion, showing support for war depends on dispositions interacting with images of the adversary."
+  },
+  {
+   "source": "herrmann1999",
+   "target": "jervis1976",
+   "type": "extends_to_new_case",
+   "why": "Brings images of the adversary from elite perception into the mass public's decisions about using force."
+  },
+  {
+   "source": "rahn1993",
+   "target": "popkin1991",
+   "type": "qualifies",
+   "why": "Shows that when party labels are present voters rely on partisan stereotypes and ignore inconsistent issue information, a cost of low-information reasoning."
+  },
+  {
+   "source": "kuklinskihurley1994",
+   "target": "popkin1991",
+   "type": "challenges",
+   "why": "Shows cue-taking can mislead: identical messages were judged by their source, Clarence Thomas or Jesse Jackson, rather than their content."
+  },
+  {
+   "source": "kuklinskihurley1994",
+   "target": "lupia1994",
+   "type": "qualifies",
+   "why": "Suggests source cues help only when the source's interests align with the citizen's, adding a scope condition to the shortcuts argument."
+  },
+  {
+   "source": "lauredlawsk1997",
+   "target": "lupia1994",
+   "type": "qualifies",
+   "why": "Measures correct voting against fully informed preferences, finding shortcuts let about three-quarters vote correctly but leave many errors."
+  },
+  {
+   "source": "lauredlawsk2001",
+   "target": "lauredlawsk1997",
+   "type": "builds_on",
+   "why": "Asks which heuristics raise or lower the rate of correct voting they had previously measured."
+  },
+  {
+   "source": "gerbergreen1998",
+   "target": "campbell1960",
+   "type": "challenges",
+   "why": "Argues partisans update evaluations in parallel in response to events, consistent with rational learning rather than a perceptual screen."
+  },
+  {
+   "source": "bullock2009",
+   "target": "gerbergreen1998",
+   "type": "builds_on",
+   "why": "Clarifies when parallel partisan updating is consistent with Bayesian learning, building on Gerber and Green's rational-learning account."
+  },
+  {
+   "source": "levistoker2000",
+   "target": "hetherington1998",
+   "type": "synthesizes",
+   "why": "Integrates research on trust's causes and consequences, recasting political trust as a judgment of particular actors' trustworthiness."
+  },
+  {
+   "source": "hetherington2005",
+   "target": "levistoker2000",
+   "type": "builds_on",
+   "why": "Uses the view of trust as a judgment about government performance to explain why declining trust undercut support for redistributive programs."
+  },
+  {
+   "source": "gilens2001",
+   "target": "dellicarpini1996",
+   "type": "builds_on",
+   "why": "Shows that ignorance of specific policy facts shifts preferences even among the generally knowledgeable, sharpening the case that political knowledge matters."
+  },
+  {
+   "source": "gilens2001",
+   "target": "bartels1996",
+   "type": "extends_to_new_case",
+   "why": "Extends information-effects logic from vote choice to policy preferences, finding errors do not cancel in collective opinion."
+  },
+  {
+   "source": "bartels1996",
+   "target": "lupia1994",
+   "type": "challenges",
+   "why": "Shows cues and shortcuts do not let uninformed voters vote as if fully informed, contesting optimistic accounts of heuristics."
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "bartels1996",
+   "type": "builds_on",
+   "why": "Uses evidence that uninformed voting distorts collective choices to argue elections cannot deliver the folk theory's responsive democracy."
+  },
+  {
+   "source": "redlawsk2002",
+   "target": "kunda1990",
+   "type": "mechanism_tested_by",
+   "why": "Process-tracing experiments show voters given negative news about a liked candidate search longer and like the candidate more, evidence of affect-driven motivated reasoning."
+  },
+  {
+   "source": "redlawsk2010",
+   "target": "redlawsk2002",
+   "type": "builds_on",
+   "why": "Asks whether the motivated reasoning found earlier eventually gives way as incongruent information accumulates."
+  },
+  {
+   "source": "druckman2004",
+   "target": "druckman2001",
+   "type": "builds_on",
+   "why": "Adds competition, deliberation and expertise to source credibility as conditions that limit framing effects."
+  },
+  {
+   "source": "chongdruckman2007",
+   "target": "druckman2004",
+   "type": "builds_on",
+   "why": "Generalizes the finding that competing frames moderate one another into a theory of framing in competitive democracies."
+  },
+  {
+   "source": "mutzreeves2005",
+   "target": "hetherington1998",
+   "type": "builds_on",
+   "why": "Identifies televised incivility as a cause of the declining political trust whose consequences Hetherington traced."
+  },
+  {
+   "source": "settle2010",
+   "target": "alford2005",
+   "type": "builds_on",
+   "why": "Moves from twin-study heritability to a specific gene-environment interaction, linking a dopamine receptor variant to liberalism among people with many friends."
+  },
+  {
+   "source": "settle2010",
+   "target": "fowlerdawes2008",
+   "type": "builds_on",
+   "why": "Applies the candidate-gene approach used for turnout to ideology, adding social context as a moderator."
+  },
+  {
+   "source": "eriksonstoker2011",
+   "target": "searsvalentino1997",
+   "type": "builds_on",
+   "why": "Provides natural-experiment evidence that events during the impressionable years, here draft vulnerability, durably shape political attitudes."
+  },
+  {
+   "source": "eriksonstoker2011",
+   "target": "sears1980",
+   "type": "challenges",
+   "why": "Shows strong, lasting effects of personal stakes in the Vietnam draft on attitudes and partisanship, contesting the symbolic-politics view that self-interest matters little."
+  },
+  {
+   "source": "arceneaux2012ajps",
+   "target": "kahnemantversky1979",
+   "type": "extends_to_new_case",
+   "why": "Shows political arguments framed around avoiding losses are judged stronger, bringing loss aversion into the study of persuasion."
+  },
+  {
+   "source": "arceneaux2012ajps",
+   "target": "chongdruckman2007",
+   "type": "builds_on",
+   "why": "Identifies cognitive biases as a source of the frame strength that Chong and Druckman show governs framing effects."
+  },
+  {
+   "source": "ryan2014",
+   "target": "skitkabauman2008",
+   "type": "builds_on",
+   "why": "Shows moral conviction varies across individuals within the same issue, including economic issues, refining the moral-conviction approach."
+  },
+  {
+   "source": "ryan2017",
+   "target": "ryan2014",
+   "type": "builds_on",
+   "why": "Uses the individual-level measure of moralization to show that moralized attitudes lead citizens to reject political compromise."
+  },
+  {
+   "source": "aaroepetersen2014",
+   "target": "petersen2012pp",
+   "type": "builds_on",
+   "why": "Shows clear deservingness cues erase the large Danish-American gap in welfare support, evidence for a universal evolved deservingness heuristic."
+  },
+  {
+   "source": "jensenpetersen2016",
+   "target": "petersen2012pp",
+   "type": "extends_to_new_case",
+   "why": "Extends the evolved deservingness heuristic from welfare to health care, where illness cues trigger support regardless of recipients' effort."
+  },
+  {
+   "source": "jensenpetersen2016",
+   "target": "aaroepetersen2014",
+   "type": "builds_on",
+   "why": "Builds on cross-national evidence that deservingness cues override culture to explain the universal popularity of health care."
+  },
+  {
+   "source": "bullockgerber2015",
+   "target": "gaines2007",
+   "type": "challenges",
+   "why": "Shows paying for correct answers shrinks partisan gaps in factual beliefs, implying much partisan interpretation of facts is expressive cheerleading."
+  },
+  {
+   "source": "schaffnerluks2018",
+   "target": "bullockgerber2015",
+   "type": "builds_on",
+   "why": "Adds direct evidence of expressive responding (inauguration crowd photos) to incentive-based evidence that partisans knowingly give wrong answers."
+  },
+  {
+   "source": "bullocklenz2019",
+   "target": "bullockgerber2015",
+   "type": "synthesizes",
+   "why": "Reviews incentive experiments such as Bullock et al.'s to weigh how much measured partisan bias is expressive rather than sincere."
+  },
+  {
+   "source": "priorsood2015",
+   "target": "gerberhuber2009",
+   "type": "qualifies",
+   "why": "Finds accuracy incentives roughly halve partisan differences in economic perceptions, so reported partisan economic beliefs overstate real differences."
+  },
+  {
+   "source": "bullocklenz2019",
+   "target": "priorsood2015",
+   "type": "synthesizes",
+   "why": "Integrates the accuracy-incentive results on economic perceptions into a general assessment of partisan bias in surveys."
+  },
+  {
+   "source": "grasso2017",
+   "target": "searsvalentino1997",
+   "type": "builds_on",
+   "why": "Shows British cohorts socialized under Thatcher hold more right-authoritarian values, evidence that formative-years politics leaves lasting imprints."
+  },
+  {
+   "source": "grasso2017",
+   "target": "dinas2013",
+   "type": "builds_on",
+   "why": "Adds period-of-socialization effects to family transmission as sources of durable ideological differences across generations."
+  },
+  {
+   "source": "hill2017",
+   "target": "bullock2009",
+   "type": "mechanism_tested_by",
+   "why": "Experimentally estimates partisans' updating on political facts, finding movement toward evidence that is slower than Bayesian and slowest for uncongenial facts."
+  },
+  {
+   "source": "iyengarkonitzer2018",
+   "target": "jennings2009",
+   "type": "builds_on",
+   "why": "Shows parent-child and spousal partisan agreement has risen with polarization, strengthening the family transmission Jennings et al. documented."
+  },
+  {
+   "source": "iyengarkonitzer2018",
+   "target": "iyengarwestwood2015",
+   "type": "builds_on",
+   "why": "Documents partisan homogeneity in marriage and family as a behavioral consequence of out-party animus."
+  },
+  {
+   "source": "kanebarabas2018",
+   "target": "cliffordjerit2014",
+   "type": "builds_on",
+   "why": "Responds to concerns about inattentive online respondents with factual manipulation checks that measure attention without biasing effects."
+  },
+  {
+   "source": "montgomerynyhan2018",
+   "target": "druckman2006",
+   "type": "qualifies",
+   "why": "Shows that a common practice in political science experiments, conditioning on manipulation checks or other post-treatment variables, biases treatment effects."
+  },
+  {
+   "source": "guesscoppock2018",
+   "target": "taberlodge2006",
+   "type": "challenges",
+   "why": "Three large experiments find people update toward evidence regardless of priors, contesting attitude polarization in response to counter-attitudinal arguments."
+  },
+  {
+   "source": "guesscoppock2018",
+   "target": "nyhanreifler2010",
+   "type": "challenges",
+   "why": "Finds backlash to counter-attitudinal information is rare, contesting the backfire effect."
+  },
+  {
+   "source": "hatemicrabtree2019",
+   "target": "graham2009",
+   "type": "challenges",
+   "why": "Panel data show ideology predicts later moral foundations more than the reverse, reversing the causal order Moral Foundations Theory assumes."
+  },
+  {
+   "source": "hatemicrabtree2019",
+   "target": "smith2017",
+   "type": "builds_on",
+   "why": "Extends evidence that moral foundations are unstable predictors to show that ideology drives foundation endorsement."
+  },
+  {
+   "source": "bisgaard2019",
+   "target": "gaines2007",
+   "type": "builds_on",
+   "why": "Shows partisans who accept the same economic facts rationalize them through selective blame, extending the same-facts-different-interpretations pattern."
+  },
+  {
+   "source": "bisgaard2019",
+   "target": "bisgaard2015",
+   "type": "builds_on",
+   "why": "Moves from biased economic perceptions to how partisans reconcile accurate perceptions with their loyalties through responsibility attribution."
+  },
+  {
+   "source": "orrhuber2019",
+   "target": "iyengarwestwood2015",
+   "type": "qualifies",
+   "why": "Shows much measured partisan animosity tracks policy disagreement with specific individuals rather than identity-based hostility alone."
+  },
+  {
+   "source": "orrhuber2019",
+   "target": "rogowskisutherland2016",
+   "type": "builds_on",
+   "why": "Supports the ideological roots of affective polarization with conjoint evidence that policy views drive dislike of out-partisans."
+  },
+  {
+   "source": "bakker2020",
+   "target": "oxley2008",
+   "type": "challenges",
+   "why": "Preregistered replications find no link between physiological threat reactivity and conservatism, failing to reproduce Oxley et al."
+  },
+  {
+   "source": "bakker2020",
+   "target": "hibbing2014",
+   "type": "challenges",
+   "why": "Undercuts the physiological evidence for a negativity-bias account of ideological differences."
+  },
+  {
+   "source": "petersonsmith2020",
+   "target": "jenningsniemi1968",
+   "type": "builds_on",
+   "why": "Uses long-run panels in the Jennings tradition to show ideology is largely stable through adulthood, with little drift rightward with age."
+  },
+  {
+   "source": "petersonsmith2020",
+   "target": "fraley2012",
+   "type": "builds_on",
+   "why": "Supports the view that ideological orientations form early and persist, rather than changing with life-cycle stage."
+  },
+  {
+   "source": "clifford2021",
+   "target": "druckmanleeper2012",
+   "type": "qualifies",
+   "why": "Shows measuring outcomes before treatment raises precision without contaminating effects, easing pretreatment concerns about repeated measures."
+  },
+  {
+   "source": "uscinski2021",
+   "target": "oliverwood2014",
+   "type": "builds_on",
+   "why": "Shows conspiracism and anti-establishment views form a dimension distinct from left-right identity, extending the paranoid-style predisposition."
+  },
+  {
+   "source": "uscinski2021",
+   "target": "uscinskiparent2014",
+   "type": "builds_on",
+   "why": "Extends the account of conspiracy beliefs as products of predispositions into a general anti-establishment orientation."
+  },
+  {
+   "source": "zallerfeldman1992",
+   "target": "converse1964",
+   "type": "challenges",
+   "why": "Reinterprets response instability as people sampling ambivalent considerations at the moment of answering, not as non-attitudes."
+  },
+  {
+   "source": "zaller1992",
+   "target": "zallerfeldman1992",
+   "type": "builds_on",
+   "why": "Builds the receive-accept-sample model on the theory that survey answers average whatever considerations are accessible."
+  },
+  {
+   "source": "kuklinski1997",
+   "target": "kindersears1981",
+   "type": "builds_on",
+   "why": "Uses an unobtrusive list experiment to reveal racial anger among white Southerners that direct questions miss, supporting the claim that prejudice persists beneath egalitarian norms."
+  },
+  {
+   "source": "mutz2011",
+   "target": "druckman2006",
+   "type": "builds_on",
+   "why": "Argues population-based survey experiments join experimental internal validity with representative samples, extending the experimental turn in political science."
+  },
+  {
+   "source": "mullinix2015",
+   "target": "mutz2011",
+   "type": "builds_on",
+   "why": "Tests whether the representative samples Mutz prizes change experimental results, finding convenience samples usually replicate them."
+  },
+  {
+   "source": "mullinix2015",
+   "target": "berinsky2012",
+   "type": "builds_on",
+   "why": "Extends Berinsky et al.'s validation of Mechanical Turk samples by replicating many experiments across convenience and population samples."
   },
   {
    "source": "marcus2000",
@@ -4761,6 +5206,414 @@
   {
    "source": "hibbing2014",
    "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zallerfeldman1992",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zallerfeldman1992",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuklinski1997",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuklinski1997",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutz2011",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinsky2012",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "miller1974",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "citrin1974",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nieandersen1974",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nieandersen1974",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achen1975",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achen1975",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sears1980",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sears1980",
+   "target": "intergroup",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradysniderman1985",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bradysniderman1985",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hurwitzpeffley1987",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hurwitzpeffley1987",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rahn1993",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rahn1993",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuklinskihurley1994",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lauredlawsk1997",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lauredlawsk1997",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerbergreen1998",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gerbergreen1998",
+   "target": "identity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "herrmann1999",
+   "target": "ir",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levistoker2000",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilens2001",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "redlawsk2002",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "druckman2004",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutzreeves2005",
+   "target": "trust",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mutzreeves2005",
+   "target": "emotion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "settle2010",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "settle2010",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eriksonstoker2011",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eriksonstoker2011",
+   "target": "personality",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "arceneaux2012ajps",
+   "target": "framing",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ryan2014",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aaroepetersen2014",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aaroepetersen2014",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullockgerber2015",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullockgerber2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "priorsood2015",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "priorsood2015",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensenpetersen2016",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jensenpetersen2016",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grasso2017",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grasso2017",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2017",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hill2017",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengarkonitzer2018",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iyengarkonitzer2018",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kanebarabas2018",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "montgomerynyhan2018",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guesscoppock2018",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hatemicrabtree2019",
+   "target": "moral",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hatemicrabtree2019",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisgaard2019",
+   "target": "motivated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "orrhuber2019",
+   "target": "affective",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakker2020",
+   "target": "biology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bakker2020",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersonsmith2020",
+   "target": "socialization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petersonsmith2020",
+   "target": "ideology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels1996",
+   "target": "knowledge",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels1996",
+   "target": "heuristics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clifford2021",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "uscinski2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "uscinski2021",
+   "target": "trust",
    "type": "belongs_to",
    "why": "theme membership"
   }

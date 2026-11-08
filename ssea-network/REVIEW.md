@@ -1,6 +1,6 @@
 # South and Southeast Asian politics, c. 1964–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 306 work nodes, 18 theme nodes and 362 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[varshney2002]`) point to entries in `graph.json`. China has its own map and appears here only as a regional actor.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 350 work nodes, 18 theme nodes and 422 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[varshney2002]`) point to entries in `graph.json`. China has its own map and appears here only as a regional actor.
 
 **How the works were chosen.**
 - **Shared works:** 47 works already in other maps are reused. Most come from comparative politics (clientelism, authoritarian institutions, ethnic identity, Slater and Malesky on Southeast Asia). Others come from REP (Chandra, Wilkinson, Horowitz), political economy (Evans, Olken, Besley and Burgess), security and IR (Kalyvas, Kocher, Goh, Acharya), the China map (Kuik, Malesky and London, Rithmire, Greitens) and American politics (Levitsky and Ziblatt).
@@ -66,6 +66,15 @@ Relations are judgments of how each work's argument relates to the other's, and 
 **Claimed.** ASEAN manages a balance of power `[leifer1989]`. **Settled.** It built norm-based community `[acharya2001]`, `[acharya2004]`, and Southeast Asian states hedge `[kuik2008]`, `[goh2008]`. **Contested.** Process versus progress `[jonessmith2007]`; non-interference in practice `[jones2010pr]`. **Gaps.** Public opinion on hedging `[fangli2022]`.
 
 ---
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 44 works (43 new, 1 shared with other maps) and 60 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 44 works to the South and Southeast Asian politics map: 25 top-journal articles (APSR, AJPS, IO, World Politics, ISQ, IS, JPR, CP), 18 landmark articles and books (Malesky-Schuler, Slater, Pepinsky, Thachil, Ahuja, Chhibber-Verma, Jensenius, Staniland, Lacina, Weiss, Basu), and one import. It strengthens authoritarian durability (Vietnam's legislature, Cambodia, Malaysia), caste and quotas, Hindu nationalism and riots, clientelism and brokers, and classic political economy debates on the New Order and the Philippine oligarchic state.
+
+Of the new works, 1 exists in Crossref only through a review (Chhibber 2018); 1 was not found as its own Crossref record, so its metadata comes from memory (Malesky 2012).
 
 ## What I could not verify (flagged)
 Every anchor and library seed (104) was checked in Crossref: 78 matched directly. 16 books exist in Crossref only through reviews or chapters about them: Acharya 2001, Callahan 2003, Chandra 2016, Chhibber 1999, Jaffrelot 1996, Jaffrelot 2003, Jalal 1990, Kuhonta 2011, Leifer 1989, McCoy 1993, Riggs 1966, Rudolph 1987, Siddiqa 2007, Sinha 2005, Smith 1991, Stepan 2011. 10 were not found as their own Crossref record, so their metadata comes from memory: Cohen 2004, Hughes 2003, Mietzner 2015, Nasr 2001, Phongpaichit 2004, Robison 2004, Rodan 2004, Slater 2004, Yadav 1999, van Klinken 2007.

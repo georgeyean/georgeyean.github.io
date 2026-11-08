@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 385,
+   "work_nodes": 429,
    "theme_nodes": 18,
    "seed_from_papers_json": 9,
    "crossref_top_cited": 287,
    "anchors_supplement": 89,
-   "relation_edges": 405,
-   "membership_edges": 641
+   "relation_edges": 486,
+   "membership_edges": 717,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other five maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -7341,6 +7342,828 @@
    "zotero": null,
    "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12248); claim is my summary, not re-read this session",
    "crossref_doi": "10.1111/ajps.12248"
+  },
+  {
+   "id": "kuklinski2000",
+   "type": "work",
+   "label": "Kuklinski 2000",
+   "authors": "James H. Kuklinski et al.",
+   "year": 2000,
+   "journal": "JOP",
+   "title": "Misinformation and the Currency of Democratic Citizenship",
+   "claim": "Many citizens are confidently misinformed, not just uninformed, and resist correction.",
+   "method": "Survey experiments",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (The Journal of Politics, 2000; DOI 10.1111/0022-3816.00033)",
+   "crossref_doi": "10.1111/0022-3816.00033"
+  },
+  {
+   "id": "berinsky2015",
+   "type": "work",
+   "label": "Berinsky 2015",
+   "authors": "Adam J. Berinsky",
+   "year": 2015,
+   "journal": "BJPS",
+   "title": "Rumors and Health Care Reform: Experiments in Political Misinformation",
+   "claim": "Political rumors are sticky; corrections from unlikely sources work best.",
+   "method": "Experiments",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123415000186); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0007123415000186"
+  },
+  {
+   "id": "broockman2022",
+   "type": "work",
+   "label": "Broockman 2022",
+   "authors": "David E. Broockman, Joshua L. Kalla & Sean J. Westwood",
+   "year": 2022,
+   "journal": "AJPS",
+   "title": "Does Affective Polarization Undermine Democratic Norms or Accountability? Maybe Not",
+   "claim": "Reducing affective polarization does not change democratic norms or accountability.",
+   "method": "Experiments",
+   "themes": [
+    "democracy",
+    "partisanship"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12719); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/ajps.12719"
+  },
+  {
+   "id": "hetheringtonweiler2009",
+   "type": "work",
+   "label": "Hetherington 2009",
+   "authors": "Marc J. Hetherington & Jonathan D. Weiler",
+   "year": 2009,
+   "journal": "Cambridge University Press (book)",
+   "title": "Authoritarianism and Polarization in American Politics",
+   "claim": "Partisan polarization increasingly sorts Americans by authoritarianism.",
+   "method": "Survey analysis",
+   "themes": [
+    "polarization",
+    "psychology"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Cambridge University Press, 2009; DOI 10.1017/cbo9780511802331)"
+  },
+  {
+   "id": "mueller1970",
+   "type": "work",
+   "label": "Mueller 1970",
+   "authors": "John E. Mueller",
+   "year": 1970,
+   "journal": "APSR",
+   "title": "Presidential Popularity from Truman to Johnson",
+   "claim": "Presidential approval decays over a term as a 'coalition of minorities' accumulates grievances, with short rallies around international crises and drags from economic slumps and war.",
+   "method": "Time-series analysis of Gallup approval, 1945-1969",
+   "themes": [
+    "executive",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1955610",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1955610); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "fenno1977",
+   "type": "work",
+   "label": "Fenno 1977",
+   "authors": "Richard F. Fenno",
+   "year": 1977,
+   "journal": "APSR",
+   "title": "U.S. House Members in Their Constituencies: An Exploration",
+   "claim": "House members perceive nested constituencies and cultivate trust at home through a 'home style' of self-presentation, explanation and allocation of resources.",
+   "method": "Participant observation of House members in their districts",
+   "themes": [
+    "representation",
+    "congress"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1960097",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1960097); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kinderkiewiet1981",
+   "type": "work",
+   "label": "Kinder 1981",
+   "authors": "Donald R. Kinder & D. Roderick Kiewiet",
+   "year": 1981,
+   "journal": "BJPS",
+   "title": "Sociotropic Politics: The American Case",
+   "claim": "Americans' votes respond to judgments about the national economy rather than to their personal financial circumstances: economic voting is sociotropic, not pocketbook.",
+   "method": "NES survey analysis, 1956-1978",
+   "themes": [
+    "elections",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123400002544",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123400002544); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "walker1983",
+   "type": "work",
+   "label": "Walker 1983",
+   "authors": "Jack L. Walker",
+   "year": 1983,
+   "journal": "APSR",
+   "title": "The Origins and Maintenance of Interest Groups in America",
+   "claim": "Interest groups are founded and sustained largely through patrons such as foundations, wealthy donors and government, not member dues alone, which shapes which interests get organized.",
+   "method": "Survey of national voluntary associations",
+   "themes": [
+    "money"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1958924",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1958924); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mccubbinsschwartz1984",
+   "type": "work",
+   "label": "McCubbins 1984",
+   "authors": "Mathew D. McCubbins & Thomas Schwartz",
+   "year": 1984,
+   "journal": "AJPS",
+   "title": "Congressional Oversight Overlooked: Police Patrols versus Fire Alarms",
+   "claim": "Congress oversees the bureaucracy mainly through 'fire alarms', procedures that let affected citizens and groups flag agency violations, rather than costly centralized 'police patrols'.",
+   "method": "Formal and conceptual argument",
+   "themes": [
+    "congress",
+    "executive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2110792",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2110792); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "segalcover1989",
+   "type": "work",
+   "label": "Segal 1989",
+   "authors": "Jeffrey A. Segal & Albert D. Cover",
+   "year": 1989,
+   "journal": "APSR",
+   "title": "Ideological Values and the Votes of U.S. Supreme Court Justices",
+   "claim": "Justices' ideology, measured independently from pre-confirmation newspaper editorials, strongly predicts their civil-liberties votes.",
+   "method": "Content analysis of editorials; correlation with votes, 1953-1988",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1962405",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1962405); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hallwayman1990",
+   "type": "work",
+   "label": "Hall 1990",
+   "authors": "Richard L. Hall & Frank W. Wayman",
+   "year": 1990,
+   "journal": "APSR",
+   "title": "Buying Time: Moneyed Interests and the Mobilization of Bias in Congressional Committees",
+   "claim": "PAC contributions buy committee members' time and effort on behalf of donors' interests rather than their roll-call votes.",
+   "method": "Committee participation data and PAC contributions, three House committees",
+   "themes": [
+    "money",
+    "congress"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1962767",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1962767); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "thomas1991",
+   "type": "work",
+   "label": "Thomas 1991",
+   "authors": "Sue Thomas",
+   "year": 1991,
+   "journal": "JOP",
+   "title": "The Impact of Women on State Legislative Policies",
+   "claim": "Where women hold more seats, women legislators give higher priority to and pass more bills on women, children and families.",
+   "method": "Survey of state legislators and bill data, 12 states",
+   "themes": [
+    "gender",
+    "states"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2131862",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2131862); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "woodwaterman1991",
+   "type": "work",
+   "label": "Wood 1991",
+   "authors": "B. Dan Wood & Richard W. Waterman",
+   "year": 1991,
+   "journal": "APSR",
+   "title": "The Dynamics of Political Control of the Bureaucracy",
+   "claim": "Presidential appointments, budgets and congressional signals produce measurable shifts in the outputs of regulatory agencies, evidence of active political control.",
+   "method": "Time-series intervention analysis of seven federal agencies",
+   "themes": [
+    "executive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1963851",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1963851); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "caldeiragibson1992",
+   "type": "work",
+   "label": "Caldeira 1992",
+   "authors": "Gregory A. Caldeira & James L. Gibson",
+   "year": 1992,
+   "journal": "AJPS",
+   "title": "The Etiology of Public Support for the Supreme Court",
+   "claim": "Diffuse support for the Supreme Court rests on commitments to democratic values such as liberty and social order, not on agreement with its decisions.",
+   "method": "National survey analysis",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111585",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111585); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mishlersheehan1993",
+   "type": "work",
+   "label": "Mishler 1993",
+   "authors": "William Mishler & Reginald S. Sheehan",
+   "year": 1993,
+   "journal": "APSR",
+   "title": "The Supreme Court as a Countermajoritarian Institution? The Impact of Public Opinion on Supreme Court Decisions",
+   "claim": "Supreme Court decisions track the liberalism of the public mood with a lag, partly through membership change and partly through justices' direct responsiveness.",
+   "method": "Time-series analysis, 1956-1989",
+   "themes": [
+    "courts",
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2938958",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2938958); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "petrocik1996",
+   "type": "work",
+   "label": "Petrocik 1996",
+   "authors": "John R. Petrocik",
+   "year": 1996,
+   "journal": "AJPS",
+   "title": "Issue Ownership in Presidential Elections, with a 1980 Case Study",
+   "claim": "Parties own reputations for handling particular issues, and candidates win by making their owned issues salient rather than by converging on positions.",
+   "method": "Theory with content analysis and NES data, 1980 election",
+   "themes": [
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111797",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111797); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bartels1996",
+   "type": "work",
+   "label": "Bartels 1996",
+   "authors": "Larry M. Bartels",
+   "year": 1996,
+   "journal": "AJPS",
+   "title": "Uninformed Votes: Information Effects in Presidential Elections",
+   "claim": "Uninformed voters do not vote as if fully informed, and the deviations do not cancel in aggregate: information effects shifted presidential vote shares by several points.",
+   "method": "Simulation from NES data, 1972-1992",
+   "themes": [
+    "opinion",
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2111700",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2111700); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bartels2000",
+   "type": "work",
+   "label": "Bartels 2000",
+   "authors": "Larry M. Bartels",
+   "year": 2000,
+   "journal": "AJPS",
+   "title": "Partisanship and Voting Behavior, 1952-1996",
+   "claim": "The impact of party identification on presidential and congressional voting declined into the 1970s and then rebounded sharply, contrary to claims of dealignment.",
+   "method": "NES survey analysis, 1952-1996",
+   "themes": [
+    "partisanship",
+    "polarization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2669291",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2669291); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cameron2000",
+   "type": "work",
+   "label": "Cameron 2000",
+   "authors": "Charles M. Cameron",
+   "year": 2000,
+   "journal": "Cambridge University Press (book)",
+   "title": "Veto Bargaining: Presidents and the Politics of Negative Power",
+   "claim": "Under divided government presidents use veto threats and sequential vetoes as bargaining tools under incomplete information, shaping legislation without needing to persuade.",
+   "method": "Formal model and data on vetoes, 1945-1992",
+   "themes": [
+    "executive",
+    "congress"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9780511613302); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9780511613302"
+  },
+  {
+   "id": "carpenter2001",
+   "type": "work",
+   "label": "Carpenter 2001",
+   "authors": "Daniel P. Carpenter",
+   "year": 2001,
+   "journal": "Princeton University Press (book)",
+   "title": "The Forging of Bureaucratic Autonomy: Reputations, Networks, and Policy Innovation in Executive Agencies, 1862-1928",
+   "claim": "Agencies such as the Post Office and the Department of Agriculture won autonomy when entrepreneurial bureaucrats built reputations for expertise and broad coalitions that politicians could not override.",
+   "method": "Comparative historical analysis of US agencies",
+   "themes": [
+    "executive",
+    "apd"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1515/9780691214078); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1515/9780691214078"
+  },
+  {
+   "id": "schickler2001",
+   "type": "work",
+   "label": "Schickler 2001",
+   "authors": "Eric Schickler",
+   "year": 2001,
+   "journal": "Princeton University Press (book)",
+   "title": "Disjointed Pluralism: Institutional Innovation and the Development of the U.S. Congress",
+   "claim": "Congressional institutions change through shifting coalitions pursuing multiple collective interests, producing layered, often contradictory rules rather than a single partisan or distributive logic.",
+   "method": "Historical analysis of rule changes, 1890-2000",
+   "themes": [
+    "congress",
+    "apd"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2011, DOI 10.1515/9781400824250); metadata from memory"
+  },
+  {
+   "id": "ansolabeheresnyder2001",
+   "type": "work",
+   "label": "Ansolabehere 2001",
+   "authors": "Stephen Ansolabehere, James M. Snyder & Charles Stewart",
+   "year": 2001,
+   "journal": "AJPS",
+   "title": "Candidate Positioning in U.S. House Elections",
+   "claim": "House candidates respond to district ideology but the two parties' candidates diverge sharply in the same district, and divergence has grown over the century.",
+   "method": "Candidate surveys and roll calls, 1874-1996",
+   "themes": [
+    "polarization",
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2669364",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2669364); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hetherington2001",
+   "type": "work",
+   "label": "Hetherington 2001",
+   "authors": "Marc J. Hetherington",
+   "year": 2001,
+   "journal": "APSR",
+   "title": "Resurgent Mass Partisanship: The Role of Elite Polarization",
+   "claim": "Growing ideological polarization among party elites clarified party differences and caused the resurgence of mass partisanship after the 1970s.",
+   "method": "NES time-series and survey analysis",
+   "themes": [
+    "partisanship",
+    "polarization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055401003045",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055401003045); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "caneswronebrady2002",
+   "type": "work",
+   "label": "Canes-Wrone 2002",
+   "authors": "Brandice Canes-Wrone, David W. Brady & John F. Cogan",
+   "year": 2002,
+   "journal": "APSR",
+   "title": "Out of Step, Out of Office: Electoral Accountability and House Members' Voting",
+   "claim": "House incumbents whose roll-call records are more extreme relative to their districts lose vote share and are more likely to be defeated.",
+   "method": "House election results and roll-call scores, 1956-1996",
+   "themes": [
+    "elections",
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055402004276",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055402004276); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sanbonmatsu2002",
+   "type": "work",
+   "label": "Sanbonmatsu 2002",
+   "authors": "Kira Sanbonmatsu",
+   "year": 2002,
+   "journal": "JOP",
+   "title": "Political Parties and the Recruitment of Women to State Legislatures",
+   "claim": "Where party organizations control nominations and recruitment, fewer women run for and serve in state legislatures.",
+   "method": "Cross-state analysis of party strength and women's representation",
+   "themes": [
+    "gender",
+    "states"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/0022-3816.00146",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/0022-3816.00146); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hacker2004",
+   "type": "work",
+   "label": "Hacker 2004",
+   "authors": "Jacob S. Hacker",
+   "year": 2004,
+   "journal": "APSR",
+   "title": "Privatizing Risk without Privatizing the Welfare State: The Hidden Politics of Social Policy Retrenchment in the United States",
+   "claim": "US welfare-state retrenchment proceeded through policy drift and conversion, as programs failed to adapt to new social risks, rather than through formal cuts.",
+   "method": "Historical-institutional analysis of US social policy",
+   "themes": [
+    "apd",
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055404001121",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055404001121); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "brader2005",
+   "type": "work",
+   "label": "Brader 2005",
+   "authors": "Ted Brader",
+   "year": 2005,
+   "journal": "AJPS",
+   "title": "Striking a Responsive Chord: How Political Ads Motivate and Persuade Voters by Appealing to Emotions",
+   "claim": "Ads cueing enthusiasm reinforce existing preferences and motivate participation, while fear cues increase reliance on new information and can change choices.",
+   "method": "Experiments manipulating music and imagery in campaign ads",
+   "themes": [
+    "psychology",
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.0092-5853.2005.00130.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.0092-5853.2005.00130.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lauderdaleclark2012",
+   "type": "work",
+   "label": "Lauderdale 2012",
+   "authors": "Benjamin E. Lauderdale & Tom S. Clark",
+   "year": 2012,
+   "journal": "APSR",
+   "title": "The Supreme Court's Many Median Justices",
+   "claim": "Justices' preferences vary across areas of law, so the pivotal median justice differs by issue rather than being a single justice on one dimension.",
+   "method": "Issue-specific ideal point model using opinion text",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055412000469",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055412000469); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bullockgerber2015",
+   "type": "work",
+   "label": "Bullock 2015",
+   "authors": "John G. Bullock, Alan S. Gerber, Seth J. Hill & Gregory A. Huber",
+   "year": 2015,
+   "journal": "Quarterly Journal of Political Science",
+   "title": "Partisan Bias in Factual Beliefs about Politics",
+   "claim": "Paying respondents for correct answers sharply reduces partisan gaps in factual beliefs, suggesting much apparent partisan bias is expressive responding.",
+   "method": "Survey experiments with monetary incentives",
+   "themes": [
+    "misinfo",
+    "partisanship"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1561/100.00014074",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1561/100.00014074); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "priorsood2015",
+   "type": "work",
+   "label": "Prior 2015",
+   "authors": "Markus Prior, Gaurav Sood & Kabir Khanna",
+   "year": 2015,
+   "journal": "Quarterly Journal of Political Science",
+   "title": "You Cannot be Serious: The Impact of Accuracy Incentives on Partisan Bias in Reports of Economic Perceptions",
+   "claim": "Monetary and non-monetary accuracy incentives roughly halve partisan differences in reported economic perceptions.",
+   "method": "Survey experiments with accuracy incentives",
+   "themes": [
+    "misinfo",
+    "partisanship"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1561/100.00014127",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1561/100.00014127); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "haederyackee2015",
+   "type": "work",
+   "label": "Haeder 2015",
+   "authors": "Simon F. Haeder & Susan Webb Yackee",
+   "year": 2015,
+   "journal": "APSR",
+   "title": "Influence and the Administrative Process: Lobbying the U.S. President's Office of Management and Budget",
+   "claim": "Rules lobbied during White House OIRA review are more likely to change, and changes tend to follow lobbyists' requests, giving interests a presidential channel of influence.",
+   "method": "Data on OIRA meetings and rule changes",
+   "themes": [
+    "money",
+    "executive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055415000246",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055415000246); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "edwardswood1999",
+   "type": "work",
+   "label": "Edwards 1999",
+   "authors": "George C. Edwards & B. Dan Wood",
+   "year": 1999,
+   "journal": "APSR",
+   "title": "Who Influences Whom? The President, Congress, and the Media",
+   "claim": "On most domestic issues presidents respond to media and congressional attention rather than lead it; agenda-setting influence is clearer in foreign policy.",
+   "method": "Vector autoregression of issue attention, 1984-1994",
+   "themes": [
+    "executive",
+    "media"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2585399",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2585399); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "liebermanmettler2018",
+   "type": "work",
+   "label": "Lieberman 2018",
+   "authors": "Robert C. Lieberman, Suzanne Mettler, Thomas B. Pepinsky et al.",
+   "year": 2018,
+   "journal": "Perspectives on Politics",
+   "title": "The Trump Presidency and American Democracy: A Historical and Comparative Analysis",
+   "claim": "The Trump presidency threatens American democracy because it combines long-building polarization, racialized conflict and executive aggrandizement, conditions that historically and comparatively precede backsliding.",
+   "method": "Historical and comparative analysis",
+   "themes": [
+    "democracy",
+    "apd"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592718003286",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592718003286); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kaufmanhaggard2018",
+   "type": "work",
+   "label": "Kaufman 2018",
+   "authors": "Robert R. Kaufman & Stephan Haggard",
+   "year": 2018,
+   "journal": "Perspectives on Politics",
+   "title": "Democratic Decline in the United States: What Can We Learn from Middle-Income Backsliding?",
+   "claim": "The United States shares the polarization, legislative weakness and elected-executive aggrandizement that drove backsliding in middle-income democracies such as Hungary and Venezuela.",
+   "method": "Comparative case analysis",
+   "themes": [
+    "democracy",
+    "polarization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592718003377",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592718003377); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "careyhelmke2019",
+   "type": "work",
+   "label": "Carey 2019",
+   "authors": "John M. Carey, Gretchen Helmke, Brendan Nyhan et al.",
+   "year": 2019,
+   "journal": "Perspectives on Politics",
+   "title": "Searching for Bright Lines in the Trump Presidency",
+   "claim": "Experts and the public agree on which democratic principles matter most, but experts saw US performance on them decline in 2017-2018 while partisans' ratings diverged.",
+   "method": "Repeated expert and public surveys (Bright Line Watch)",
+   "themes": [
+    "democracy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s153759271900001x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s153759271900001x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "orrhuber2019",
+   "type": "work",
+   "label": "Orr 2019",
+   "authors": "Lilla V. Orr & Gregory A. Huber",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "The Policy Basis of Measured Partisan Animosity in the United States",
+   "claim": "When people evaluate individuals with known policy views, policy disagreement explains much of the animus usually attributed to partisan identity.",
+   "method": "Conjoint survey experiments",
+   "themes": [
+    "partisanship"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12498",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12498); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "piersonschickler2020",
+   "type": "work",
+   "label": "Pierson 2020",
+   "authors": "Paul Pierson & Eric Schickler",
+   "year": 2020,
+   "journal": "Annual Review of Political Science",
+   "title": "Madison's Constitution Under Stress: A Developmental Analysis of Political Polarization",
+   "claim": "Nationalized, polarized parties have turned Madisonian checks into sources of dysfunction because the cross-pressures that once contained polarization have eroded.",
+   "method": "Review and developmental analysis",
+   "themes": [
+    "polarization",
+    "apd"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-050718-033629",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-050718-033629); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "svolik2020",
+   "type": "work",
+   "label": "Svolik 2020",
+   "authors": "Milan W. Svolik",
+   "year": 2020,
+   "journal": "Quarterly Journal of Political Science",
+   "title": "When Polarization Trumps Civic Virtue: Partisan Conflict and the Subversion of Democracy by Incumbents",
+   "claim": "Polarization raises voters' cost of defecting from their party, so incumbents can subvert democracy while retaining partisan support.",
+   "method": "Formal model",
+   "themes": [
+    "democracy",
+    "polarization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1561/100.00018132",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1561/100.00018132); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bauer2020",
+   "type": "work",
+   "label": "Bauer 2020",
+   "authors": "Nichole M. Bauer",
+   "year": 2020,
+   "journal": "JOP",
+   "title": "Shifting Standards: How Voters Evaluate the Qualifications of Female and Male Candidates",
+   "claim": "Voters apply higher minimum qualification standards to women candidates, so women must appear more qualified than men to win equal support.",
+   "method": "Survey experiments",
+   "themes": [
+    "gender",
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/705817",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/705817); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bernhardshames2020",
+   "type": "work",
+   "label": "Bernhard 2020",
+   "authors": "Rachel Bernhard, Shauna Shames & Dawn Langan Teele",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "To Emerge? Breadwinning, Motherhood, and Women’s Decisions to Run for Office",
+   "claim": "Among women trained to run, breadwinning responsibilities and young children reduce the likelihood of running, showing material family roles shape candidate emergence.",
+   "method": "Panel data on alumnae of a candidate training program",
+   "themes": [
+    "gender"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055420000970",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055420000970); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bos2021",
+   "type": "work",
+   "label": "Bos 2021",
+   "authors": "Angela L. Bos, Jill S. Greenlee, Mirya R. Holman et al.",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "This One’s for the Boys: How Gendered Political Socialization Limits Girls’ Political Ambition and Interest",
+   "claim": "Children increasingly see politics as a male domain as they age, and girls who do so express less political ambition, rooting the ambition gap in childhood socialization.",
+   "method": "Surveys and drawing tasks with children",
+   "themes": [
+    "gender",
+    "participation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421001027",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421001027); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pereira2021",
+   "type": "work",
+   "label": "Pereira 2021",
+   "authors": "Miguel M. Pereira",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Understanding and Reducing Biases in Elite Beliefs About the Electorate",
+   "claim": "Legislators misperceive constituent preferences in systematic ways, and giving them district opinion data partly corrects these misperceptions.",
+   "method": "Surveys and field experiment with state legislators",
+   "themes": [
+    "representation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000305542100037x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000305542100037x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "uscinski2021",
+   "type": "work",
+   "label": "Uscinski 2021",
+   "authors": "Joseph E. Uscinski, Adam M. Enders, Michelle I. Seelig et al.",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "American Politics in Two Dimensions: Partisan and Ideological Identities versus Anti‐Establishment Orientations",
+   "claim": "Beyond left-right identity, Americans vary on an anti-establishment dimension of conspiracism, populism and Manichean thinking that predicts support for norm-violating politics.",
+   "method": "National surveys",
+   "themes": [
+    "misinfo",
+    "democracy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12616",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12616); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "grumbach2022",
+   "type": "work",
+   "label": "Grumbach 2022",
+   "authors": "Jacob M. Grumbach",
+   "year": 2022,
+   "journal": "APSR",
+   "title": "Laboratories of Democratic Backsliding",
+   "claim": "A new index of state democratic performance shows that Republican control of state government, not polarization or demographics generally, drove democratic decline in the states after 2000.",
+   "method": "State democracy index, 2000-2018; panel analysis",
+   "themes": [
+    "democracy",
+    "states"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055422000934",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055422000934); claim is my summary, not re-read this session"
   }
  ],
  "edges": [
@@ -9773,6 +10596,492 @@
    "target": "jost2017",
    "type": "synthesizes",
    "why": "Psychological needs behind conspiracy belief."
+  },
+  {
+   "source": "kernell1986",
+   "target": "mueller1970",
+   "type": "builds_on",
+   "why": "Going public treats presidential popularity, whose decay and rally dynamics Mueller charted, as the resource presidents now cultivate to pressure Congress."
+  },
+  {
+   "source": "karol2007",
+   "target": "mueller1970",
+   "type": "mechanism_tested_by",
+   "why": "Tests Mueller's claim that the costs of war erode presidential support, showing local Iraq casualties reduced Bush's 2004 vote share."
+  },
+  {
+   "source": "grimmer2013book",
+   "target": "fenno1977",
+   "type": "builds_on",
+   "why": "Measures Fenno's home style at scale through legislators' press releases, showing how members choose to present themselves to constituents."
+  },
+  {
+   "source": "fenno1977",
+   "target": "mayhew1974",
+   "type": "qualifies",
+   "why": "Shows members' constituency work centers on building trust through presentation of self, adding a perceptual layer to Mayhew's credit-claiming and position-taking."
+  },
+  {
+   "source": "kinderkiewiet1981",
+   "target": "fiorina1981",
+   "type": "qualifies",
+   "why": "Shows economic retrospection runs through judgments of national conditions rather than personal finances, narrowing the pocketbook reading of retrospective voting."
+  },
+  {
+   "source": "walker1983",
+   "target": "schattschneider1960",
+   "type": "builds_on",
+   "why": "Shows foundations, donors and government patrons seed many groups, explaining how the upper-class tilt of the pressure system Schattschneider described arises."
+  },
+  {
+   "source": "baumgartner2009",
+   "target": "walker1983",
+   "type": "builds_on",
+   "why": "Uses a sample of issues and organized sides to ask which interests win, building on Walker's mapping of how the group system is formed and resourced."
+  },
+  {
+   "source": "mccubbinsschwartz1984",
+   "target": "mayhew1974",
+   "type": "builds_on",
+   "why": "Argues electorally motivated legislators prefer fire-alarm oversight because constituents and groups bear the monitoring cost while members collect the credit."
+  },
+  {
+   "source": "yackee2006",
+   "target": "mccubbinsschwartz1984",
+   "type": "mechanism_tested_by",
+   "why": "Shows interest-group comments systematically move final agency rules, the decentralized group monitoring of bureaucracy that fire-alarm oversight presumes."
+  },
+  {
+   "source": "segalspaeth2002",
+   "target": "segalcover1989",
+   "type": "builds_on",
+   "why": "Rests the attitudinal model on the Segal-Cover measures of justices' ideology, which strongly predict their civil-liberties votes."
+  },
+  {
+   "source": "epsteinknight1998",
+   "target": "segalcover1989",
+   "type": "challenges",
+   "why": "Argues justices act strategically in light of colleagues and other branches, contesting the sincere-preference voting implied by the attitudinal evidence."
+  },
+  {
+   "source": "hallwayman1990",
+   "target": "schattschneider1960",
+   "type": "builds_on",
+   "why": "Shows moneyed interests mobilize bias by buying committee members' participation, an empirical form of Schattschneider's upper-class pressure system."
+  },
+  {
+   "source": "halldeardorff2006",
+   "target": "hallwayman1990",
+   "type": "builds_on",
+   "why": "Generalizes the finding that money buys legislators' effort rather than votes into a theory of lobbying as a subsidy to allied legislators."
+  },
+  {
+   "source": "kallabroockman2016",
+   "target": "hallwayman1990",
+   "type": "mechanism_tested_by",
+   "why": "Field experiment shows donors gain access to senior congressional staff, testing the access-and-effort mechanism Hall and Wayman inferred from committee behavior."
+  },
+  {
+   "source": "volden2013",
+   "target": "thomas1991",
+   "type": "builds_on",
+   "why": "Builds on evidence that women legislators prioritize women's, children's and family bills when explaining where women are more effective lawmakers."
+  },
+  {
+   "source": "woodwaterman1991",
+   "target": "mccubbinsschwartz1984",
+   "type": "qualifies",
+   "why": "Shows appointments and budget changes shift outputs across seven agencies, evidence of active political control beyond passive fire-alarm oversight."
+  },
+  {
+   "source": "lewis2008",
+   "target": "woodwaterman1991",
+   "type": "builds_on",
+   "why": "Treats appointments, which Wood and Waterman found shift agency outputs, as the main presidential control lever and weighs it against performance costs."
+  },
+  {
+   "source": "gibsoncaldeira2009",
+   "target": "caldeiragibson1992",
+   "type": "builds_on",
+   "why": "Extends the diffuse-support framework, showing that knowledge of the Court reinforces rather than undermines its legitimacy."
+  },
+  {
+   "source": "gibsonnelson2014",
+   "target": "caldeiragibson1992",
+   "type": "qualifies",
+   "why": "Tests whether diffuse support is insulated from ideology and performance satisfaction, finding legitimacy only partly separate from specific support."
+  },
+  {
+   "source": "stimson1995",
+   "target": "mishlersheehan1993",
+   "type": "builds_on",
+   "why": "Incorporates the Court's lagged responsiveness to public mood, which Mishler and Sheehan documented, into the model of dynamic representation across institutions."
+  },
+  {
+   "source": "casillas2011",
+   "target": "mishlersheehan1993",
+   "type": "builds_on",
+   "why": "Revisits the opinion-Court link with salience variation to show the public mood directly constrains justices, not only via appointments."
+  },
+  {
+   "source": "petrocik1996",
+   "target": "downs1957",
+   "type": "challenges",
+   "why": "Argues candidates win by priming issues their party owns rather than by converging on the median voter's position, contesting spatial convergence."
+  },
+  {
+   "source": "vavreck2009",
+   "target": "petrocik1996",
+   "type": "builds_on",
+   "why": "Extends issue-ownership logic: candidates advantaged by the economy talk about it, while disadvantaged ones must shift attention to an issue they own."
+  },
+  {
+   "source": "bartels1996",
+   "target": "pageshapiro1992",
+   "type": "challenges",
+   "why": "Shows information effects do not cancel in aggregate, so a fully informed electorate would vote differently, contesting the miracle of aggregation behind the rational public."
+  },
+  {
+   "source": "achenbartels2016",
+   "target": "bartels1996",
+   "type": "builds_on",
+   "why": "Uses evidence that uninformed voting distorts collective choices to argue elections cannot deliver the folk theory's responsive democracy."
+  },
+  {
+   "source": "bartels2000",
+   "target": "campbell1960",
+   "type": "builds_on",
+   "why": "Shows the effect of party identification on vote choice rebounded after 1972 to levels near the American Voter era, reaffirming partisanship as the central predictor."
+  },
+  {
+   "source": "abramowitz2008",
+   "target": "bartels2000",
+   "type": "builds_on",
+   "why": "Cites the resurgence of partisan voting as part of the evidence that mass polarization is real rather than a myth."
+  },
+  {
+   "source": "cameron2000",
+   "target": "krehbiel1998",
+   "type": "builds_on",
+   "why": "Models veto threats as sequential bargaining under incomplete information, extending pivotal-politics veto constraints to explain how presidents reshape bills without vetoing."
+  },
+  {
+   "source": "cameron2000",
+   "target": "neustadt1960",
+   "type": "challenges",
+   "why": "Shows the formal veto, not only persuasion, gives presidents legislative leverage under divided government."
+  },
+  {
+   "source": "carpenter2001",
+   "target": "skowronek1982",
+   "type": "builds_on",
+   "why": "Extends the story of American state-building by showing how entrepreneurial bureaucrats built reputations and coalitions that won agencies autonomy."
+  },
+  {
+   "source": "carpentersin2007",
+   "target": "carpenter2001",
+   "type": "builds_on",
+   "why": "Applies the reputation-and-coalition account of agency empowerment to the FDA's regulatory expansion in 1938."
+  },
+  {
+   "source": "schickler2001",
+   "target": "aldrich1995",
+   "type": "challenges",
+   "why": "Argues congressional institutions change through layered coalitions pursuing many interests, contesting accounts driven by a single partisan logic."
+  },
+  {
+   "source": "ansolabeheresnyder2001",
+   "target": "millerstokes1963",
+   "type": "builds_on",
+   "why": "Measures House candidates' positions over a century, showing responsiveness to district ideology alongside sharp divergence between parties' candidates."
+  },
+  {
+   "source": "ansolabeherejones2010",
+   "target": "ansolabeheresnyder2001",
+   "type": "builds_on",
+   "why": "Moves from where candidates position themselves to whether constituents know and reward those roll-call positions."
+  },
+  {
+   "source": "hetherington2001",
+   "target": "poolerosenthal1997",
+   "type": "builds_on",
+   "why": "Argues the elite polarization measured in roll calls clarified party differences and drove the resurgence of mass partisanship."
+  },
+  {
+   "source": "levendusky2010",
+   "target": "hetherington2001",
+   "type": "mechanism_tested_by",
+   "why": "Experimentally confirms the mechanism Hetherington proposed: clearer elite cues make voters' party and issue positions more consistent."
+  },
+  {
+   "source": "caneswronebrady2002",
+   "target": "millerstokes1963",
+   "type": "builds_on",
+   "why": "Shows members out of step with their districts lose votes, supplying the electoral sanction that makes constituency influence on roll calls credible."
+  },
+  {
+   "source": "ansolabeherejones2010",
+   "target": "caneswronebrady2002",
+   "type": "builds_on",
+   "why": "Examines the individual-level mechanism behind the aggregate finding that ideological extremity costs incumbents votes."
+  },
+  {
+   "source": "carson2010",
+   "target": "caneswronebrady2002",
+   "type": "extends_to_new_case",
+   "why": "Extends the electoral cost of being out of step from ideology overall to party loyalty on divisive votes."
+  },
+  {
+   "source": "foxlawless2010",
+   "target": "sanbonmatsu2002",
+   "type": "builds_on",
+   "why": "Shows recruitment by party leaders drives women's ambition, building on evidence that party control of recruitment limits women's candidacies."
+  },
+  {
+   "source": "hacker2004",
+   "target": "pierson1993",
+   "type": "builds_on",
+   "why": "Uses policy feedback's entrenchment of popular programs to explain why retrenchment came through drift and conversion rather than formal cuts."
+  },
+  {
+   "source": "galvinhacker2020",
+   "target": "hacker2004",
+   "type": "builds_on",
+   "why": "Develops the policy-drift mechanism Hacker introduced into a general account of how stalemate transforms policy outcomes and coalitions."
+  },
+  {
+   "source": "brader2005",
+   "target": "marcus2000",
+   "type": "mechanism_tested_by",
+   "why": "Manipulates music and imagery in ads, showing enthusiasm reinforces existing choices while fear prompts reconsideration, as affective intelligence predicts."
+  },
+  {
+   "source": "valentino2011",
+   "target": "brader2005",
+   "type": "builds_on",
+   "why": "Extends experimental evidence on emotional appeals from persuasion to participation, finding anger mobilizes more than anxiety."
+  },
+  {
+   "source": "lauderdaleclark2012",
+   "target": "segalspaeth2002",
+   "type": "qualifies",
+   "why": "Shows justices' preferences vary by area of law so the median justice changes across issues, qualifying the single-dimension attitudinal model."
+  },
+  {
+   "source": "lauderdaleclark2012",
+   "target": "bailey2007",
+   "type": "builds_on",
+   "why": "Extends ideal-point estimation for the Court by letting justices' positions vary across issues using opinion text."
+  },
+  {
+   "source": "bullockgerber2015",
+   "target": "gaines2007",
+   "type": "challenges",
+   "why": "Shows paying for correct answers shrinks partisan gaps in factual beliefs, implying much of the partisan interpretation of facts is expressive cheerleading."
+  },
+  {
+   "source": "priorsood2015",
+   "target": "gerberhuber2009",
+   "type": "qualifies",
+   "why": "Finds accuracy incentives roughly halve partisan differences in economic perceptions, so reported partisan economic beliefs overstate real differences."
+  },
+  {
+   "source": "priorsood2015",
+   "target": "jeritbarabas2012",
+   "type": "qualifies",
+   "why": "Suggests part of the partisan perceptual bias found in survey reports reflects motivated responding rather than genuinely different beliefs."
+  },
+  {
+   "source": "haederyackee2015",
+   "target": "yackee2006",
+   "type": "extends_to_new_case",
+   "why": "Extends evidence of interest-group influence on rulemaking to White House OIRA review, where lobbied rules change more often."
+  },
+  {
+   "source": "edwardswood1999",
+   "target": "kernell1986",
+   "type": "challenges",
+   "why": "Finds presidents mostly react to media and congressional attention on domestic issues, limiting the agenda-setting power that going public assumes."
+  },
+  {
+   "source": "canes2006",
+   "target": "edwardswood1999",
+   "type": "builds_on",
+   "why": "Builds on evidence that presidential agenda influence is conditional, specifying when presidents can lead rather than follow public attention."
+  },
+  {
+   "source": "liebermanmettler2018",
+   "target": "levitskyziblatt2018",
+   "type": "synthesizes",
+   "why": "Combines APD and comparative perspectives with backsliding theory, identifying polarization, racial conflict and executive aggrandizement as the threats Trump magnifies."
+  },
+  {
+   "source": "liebermanmettler2018",
+   "target": "bermeo2016",
+   "type": "builds_on",
+   "why": "Uses the executive-aggrandizement form of backsliding to assess the risks posed by the Trump presidency."
+  },
+  {
+   "source": "kaufmanhaggard2018",
+   "target": "bermeo2016",
+   "type": "extends_to_new_case",
+   "why": "Applies the executive-aggrandizement model of backsliding from middle-income democracies such as Hungary and Venezuela to the United States."
+  },
+  {
+   "source": "kaufmanhaggard2018",
+   "target": "mccarty2006",
+   "type": "builds_on",
+   "why": "Identifies polarization rooted in inequality as the precondition that leaves American institutions vulnerable to aggrandizing executives."
+  },
+  {
+   "source": "careyhelmke2019",
+   "target": "levitskyziblatt2018",
+   "type": "builds_on",
+   "why": "Measures expert and public ratings of the democratic norms Levitsky and Ziblatt highlight, finding experts saw US performance decline in 2017-2018."
+  },
+  {
+   "source": "orrhuber2019",
+   "target": "iyengarwestwood2015",
+   "type": "qualifies",
+   "why": "Shows much measured partisan animosity tracks policy disagreement with specific individuals rather than identity-based hostility alone."
+  },
+  {
+   "source": "orrhuber2019",
+   "target": "rogowskisutherland2016",
+   "type": "builds_on",
+   "why": "Supports the ideological roots of affective polarization with conjoint evidence that policy views drive dislike of out-partisans."
+  },
+  {
+   "source": "piersonschickler2020",
+   "target": "mccarty2006",
+   "type": "synthesizes",
+   "why": "Integrates polarization research with APD to argue that nationalized, polarized parties now break the Madisonian checks that once contained conflict."
+  },
+  {
+   "source": "piersonschickler2020",
+   "target": "lee2016",
+   "type": "builds_on",
+   "why": "Builds on the argument that close competition for majorities drives party-line conflict in Congress."
+  },
+  {
+   "source": "svolik2020",
+   "target": "svolik2019",
+   "type": "builds_on",
+   "why": "Formalizes the argument that polarization raises the cost of punishing co-partisan incumbents, so voters trade democratic principles for partisan interest."
+  },
+  {
+   "source": "svolik2020",
+   "target": "grahamsvolik2020",
+   "type": "builds_on",
+   "why": "Provides the formal model behind the experimental finding that few American voters punish undemocratic candidates of their own party."
+  },
+  {
+   "source": "bauer2020",
+   "target": "dolan2014",
+   "type": "qualifies",
+   "why": "Shows voters demand higher qualifications of women, a subtler bias than the stereotype effects Dolan found swamped by partisanship."
+  },
+  {
+   "source": "bauer2020",
+   "target": "anziaberry2011",
+   "type": "builds_on",
+   "why": "Supplies the voter-side mechanism behind the finding that the women who win office are higher quality than men."
+  },
+  {
+   "source": "bernhardshames2020",
+   "target": "teele2018",
+   "type": "builds_on",
+   "why": "Extends the social-roles double bind to candidate emergence, showing breadwinning and caregiving roles shape whether trained women run."
+  },
+  {
+   "source": "bernhardshames2020",
+   "target": "lawlessfox2010",
+   "type": "qualifies",
+   "why": "Shows that financial and family roles, not only gaps in ambition, condition whether women run for office."
+  },
+  {
+   "source": "bos2021",
+   "target": "foxlawless2014",
+   "type": "builds_on",
+   "why": "Traces the gender gap in political ambition back to childhood, showing girls already see politics as a male domain."
+  },
+  {
+   "source": "bos2021",
+   "target": "campbellwolbrecht2006",
+   "type": "builds_on",
+   "why": "Extends work on gendered political socialization by showing that male images of leaders depress girls' interest and ambition."
+  },
+  {
+   "source": "pereira2021",
+   "target": "broockmanskovron2018",
+   "type": "builds_on",
+   "why": "Confirms that legislators misperceive constituent opinion and shows informational interventions can partly correct the bias."
+  },
+  {
+   "source": "uscinski2021",
+   "target": "oliverwood2014",
+   "type": "builds_on",
+   "why": "Shows conspiracism and anti-establishment views form a dimension distinct from left-right identity, extending the paranoid-style predisposition."
+  },
+  {
+   "source": "uscinski2021",
+   "target": "uscinski2016",
+   "type": "builds_on",
+   "why": "Extends the predispositional account of conspiracy belief into a general anti-establishment orientation that structures mass politics."
+  },
+  {
+   "source": "grumbach2022",
+   "target": "hertelfernandez2019",
+   "type": "builds_on",
+   "why": "Links the nationally coordinated conservative networks that captured state policymaking to measurable declines in state democratic performance."
+  },
+  {
+   "source": "grumbach2022",
+   "target": "caughey2017",
+   "type": "qualifies",
+   "why": "Finds partisan control has large effects on state democratic institutions, a domain where party matters far more than the incremental policy effects found elsewhere."
+  },
+  {
+   "source": "nyhanreifler2010",
+   "target": "kuklinski2000",
+   "type": "builds_on",
+   "why": "Builds on evidence that misinformed citizens hold false beliefs confidently and resist facts, testing whether corrections backfire."
+  },
+  {
+   "source": "flynn2017",
+   "target": "kuklinski2000",
+   "type": "synthesizes",
+   "why": "Integrates the distinction between being uninformed and misinformed into a review of the origins of political misperceptions."
+  },
+  {
+   "source": "berinsky2015",
+   "target": "nyhanreifler2010",
+   "type": "builds_on",
+   "why": "Shows health-care rumors persist after correction and that corrections work best from unlikely Republican sources."
+  },
+  {
+   "source": "broockman2022",
+   "target": "kingzette2021",
+   "type": "challenges",
+   "why": "Experimentally reducing affective polarization does not raise support for democratic norms, contesting the claimed causal link."
+  },
+  {
+   "source": "broockman2022",
+   "target": "grahamsvolik2020",
+   "type": "qualifies",
+   "why": "Suggests partisans' tolerance of undemocratic co-partisans does not stem from out-party animus, narrowing the polarization explanation."
+  },
+  {
+   "source": "hetheringtonweiler2009",
+   "target": "layman2006",
+   "type": "builds_on",
+   "why": "Argues that party polarization increasingly maps onto a divide in authoritarian worldviews, deepening accounts of conflict extension."
+  },
+  {
+   "source": "hetheringtonsuhay2011",
+   "target": "hetheringtonweiler2009",
+   "type": "builds_on",
+   "why": "Extends the authoritarianism-polarization account to show perceived threat shapes support for War on Terror policies."
   },
   {
    "source": "downs1957",
@@ -13617,6 +14926,462 @@
   {
    "source": "ryan2017",
    "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kuklinski2000",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "berinsky2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2022",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "broockman2022",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonweiler2009",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetheringtonweiler2009",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mueller1970",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mueller1970",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fenno1977",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fenno1977",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinderkiewiet1981",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinderkiewiet1981",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walker1983",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccubbinsschwartz1984",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mccubbinsschwartz1984",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "segalcover1989",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallwayman1990",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallwayman1990",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomas1991",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomas1991",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "woodwaterman1991",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caldeiragibson1992",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mishlersheehan1993",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mishlersheehan1993",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "petrocik1996",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels1996",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels1996",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels2000",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bartels2000",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cameron2000",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cameron2000",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpenter2001",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carpenter2001",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schickler2001",
+   "target": "congress",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schickler2001",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansolabeheresnyder2001",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ansolabeheresnyder2001",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetherington2001",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hetherington2001",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caneswronebrady2002",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caneswronebrady2002",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanbonmatsu2002",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sanbonmatsu2002",
+   "target": "states",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hacker2004",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hacker2004",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2005",
+   "target": "psychology",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brader2005",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lauderdaleclark2012",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullockgerber2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bullockgerber2015",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "priorsood2015",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "priorsood2015",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haederyackee2015",
+   "target": "money",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "haederyackee2015",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "edwardswood1999",
+   "target": "executive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "edwardswood1999",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liebermanmettler2018",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liebermanmettler2018",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kaufmanhaggard2018",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kaufmanhaggard2018",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "careyhelmke2019",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "orrhuber2019",
+   "target": "partisanship",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piersonschickler2020",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "piersonschickler2020",
+   "target": "apd",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2020",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2020",
+   "target": "polarization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauer2020",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bauer2020",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bernhardshames2020",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bos2021",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bos2021",
+   "target": "participation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pereira2021",
+   "target": "representation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "uscinski2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "uscinski2021",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grumbach2022",
+   "target": "democracy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grumbach2022",
+   "target": "states",
    "type": "belongs_to",
    "why": "theme membership"
   }

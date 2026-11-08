@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 300,
+   "work_nodes": 344,
    "theme_nodes": 19,
    "seed_from_papers_json": 7,
    "crossref_top_cited": 156,
    "anchors_supplement": 137,
-   "relation_edges": 345,
-   "membership_edges": 516
+   "relation_edges": 406,
+   "membership_edges": 587,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -5753,6 +5754,823 @@
    "source": "supplement",
    "zotero": null,
    "verified": "Crossref: book exists (found via a review, chapter or reference entry about it)"
+  },
+  {
+   "id": "luongweinthal2006",
+   "type": "work",
+   "label": "Jones Luong 2006",
+   "authors": "Pauline Jones Luong & Erika Weinthal",
+   "year": 2006,
+   "journal": "Annual Review of Political Science",
+   "title": "RETHINKING THE RESOURCE CURSE: Ownership Structure, Institutional Capacity, and Domestic Constraints",
+   "claim": "Ownership structure and institutions condition the resource curse.",
+   "method": "Review",
+   "themes": [
+    "rentier"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev.polisci.9.062404.170436); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1146/annurev.polisci.9.062404.170436"
+  },
+  {
+   "id": "ramsay2011",
+   "type": "work",
+   "label": "Ramsay 2011",
+   "authors": "Kristopher W. Ramsay",
+   "year": 2011,
+   "journal": "IO",
+   "title": "Revisiting the Resource Curse: Natural Disasters, the Price of Oil, and Democracy",
+   "claim": "Oil price shocks via natural disasters show oil hinders democracy.",
+   "method": "Instrumental variables",
+   "themes": [
+    "rentier"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s002081831100018x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s002081831100018x"
+  },
+  {
+   "id": "peled1992",
+   "type": "work",
+   "label": "Peled 1992",
+   "authors": "Yoav Peled",
+   "year": 1992,
+   "journal": "APSR",
+   "title": "Ethnic Democracy and the Legal Construction of Citizenship: Arab Citizens of the Jewish State",
+   "claim": "Israel grants Arab citizens liberal individual rights but excludes them from republican citizenship defined by contribution to the Jewish common good, an ethnic democracy built into law.",
+   "method": "Legal and political analysis",
+   "themes": [
+    "israelpal",
+    "sectarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/1964231",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/1964231); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wickham2004cp",
+   "type": "work",
+   "label": "Wickham 2004",
+   "authors": "Carrie Rosefsky Wickham",
+   "year": 2004,
+   "journal": "Comparative Politics",
+   "title": "The Path to Moderation: Strategy and Learning in the Formation of Egypt's Wasat Party",
+   "claim": "Middle-generation Muslim Brotherhood activists who founded the Wasat Party moderated through strategic learning and contact with secular opposition.",
+   "method": "Interviews and case study, Egypt 1990s",
+   "themes": [
+    "islamist"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/4150143",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/4150143); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "cizre1997",
+   "type": "work",
+   "label": "Sakallioglu 1997",
+   "authors": "Umit Cizre Sakallioglu",
+   "year": 1997,
+   "journal": "Comparative Politics",
+   "title": "The Anatomy of the Turkish Military's Political Autonomy",
+   "claim": "The Turkish military's political autonomy is institutionalized in law and in guardianship of the Kemalist state, not a product of episodic intervention alone.",
+   "method": "Institutional analysis",
+   "themes": [
+    "military",
+    "turkey"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422077",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422077); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "barnettlevy1991",
+   "type": "work",
+   "label": "Barnett 1991",
+   "authors": "Michael N. Barnett & Jack S. Levy",
+   "year": 1991,
+   "journal": "IO",
+   "title": "Domestic sources of alliances and alignments: the case of Egypt, 1962–73",
+   "claim": "Third World leaders choose alliances to obtain resources against domestic threats and economic constraints; Egypt's alignments in 1962-73 followed this logic.",
+   "method": "Case study, Egypt 1962-73",
+   "themes": [
+    "regional"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300033142",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300033142); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wiktorowicz2000",
+   "type": "work",
+   "label": "Wiktorowicz 2000",
+   "authors": "Quintan Wiktorowicz",
+   "year": 2000,
+   "journal": "Comparative Politics",
+   "title": "Civil Society as Social Control: State Power in Jordan",
+   "claim": "The Jordanian state uses the legal and bureaucratic regulation of civil-society groups as an instrument of social control rather than a step toward democratization.",
+   "method": "Fieldwork, Jordan",
+   "themes": [
+    "auth",
+    "monarchy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422423",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422423); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "yavuz1997",
+   "type": "work",
+   "label": "Yavuz 1997",
+   "authors": "M. Hakan Yavuz",
+   "year": 1997,
+   "journal": "Comparative Politics",
+   "title": "Political Islam and the Welfare (Refah) Party in Turkey",
+   "claim": "The Welfare Party's rise reflects new opportunity spaces created by market reforms and media liberalization that let peripheral Islamic groups enter the center.",
+   "method": "Case analysis, Turkey 1980s-90s",
+   "themes": [
+    "turkey",
+    "islamist"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422193",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422193); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "toft2007is",
+   "type": "work",
+   "label": "Toft 2007",
+   "authors": "Monica Duffy Toft",
+   "year": 2007,
+   "journal": "International Security",
+   "title": "Getting Religion? The Puzzling Case of Islam and Civil War",
+   "claim": "Religion, and Islam in particular, is overrepresented in civil wars because elites use religious outbidding to mobilize, making these wars longer and deadlier.",
+   "method": "Cross-national civil war data",
+   "themes": [
+    "civilwar",
+    "religion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec.2007.31.4.97",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec.2007.31.4.97); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pearlman2016pop",
+   "type": "work",
+   "label": "Pearlman 2016",
+   "authors": "Wendy Pearlman",
+   "year": 2016,
+   "journal": "Perspectives on Politics",
+   "title": "Narratives of Fear in Syria",
+   "claim": "Syrians' narratives show fear moving from silent, internalized fear under Assad to a broken barrier of fear in 2011 and then to new fears in civil war.",
+   "method": "Interviews with Syrian refugees",
+   "themes": [
+    "uprisings",
+    "civilwar"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592715003205",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592715003205); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ketchleyelrayyes2021",
+   "type": "work",
+   "label": "Ketchley 2021",
+   "authors": "Neil Ketchley & Thoraya El-Rayyes",
+   "year": 2021,
+   "journal": "JOP",
+   "title": "Unpopular Protest: Mass Mobilization and Attitudes to Democracy in Post-Mubarak Egypt",
+   "claim": "Exposure to post-Mubarak protest events lowered Egyptians' support for democracy, as mass mobilization became associated with disorder.",
+   "method": "Protest event data linked to surveys",
+   "themes": [
+    "uprisings",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/709298",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/709298); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "grewal2019ajps",
+   "type": "work",
+   "label": "Grewal 2019",
+   "authors": "Sharan Grewal, Amaney A. Jamal, Tarek Masoud & Elizabeth R. Nugent",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "Poverty and Divine Rewards: The Electoral Advantage of Islamist Political Parties",
+   "claim": "Islamist parties do better among the poor partly because poor voters value the promise of divine rewards and see religious candidates as more trustworthy.",
+   "method": "Survey experiments, Tunisia",
+   "themes": [
+    "islamist",
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12447",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12447); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "grewal2020apsr",
+   "type": "work",
+   "label": "Grewal 2020",
+   "authors": "Sharan Grewal",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "From Islamists to Muslim Democrats: The Case of Tunisia’s Ennahda",
+   "claim": "Traces Ennahda's evolution from an Islamist movement into a self-described Muslim democratic party and how its leaders and base responded to that change.",
+   "method": "Surveys and interviews, Tunisia",
+   "themes": [
+    "islamist"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055419000819",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055419000819); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "berman2020ajps",
+   "type": "work",
+   "label": "Berman 2020",
+   "authors": "Chantal E. Berman",
+   "year": 2020,
+   "journal": "AJPS",
+   "title": "Policing the Organizational Threat in Morocco: Protest and Public Violence in Liberal Autocracies",
+   "claim": "Moroccan authorities use violence against protests mounted by organized challengers while tolerating others, policing the organizational threat in a liberal autocracy.",
+   "method": "Protest event data, Morocco",
+   "themes": [
+    "uprisings",
+    "auth"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12565",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12565); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "alrababahblaydes2020",
+   "type": "work",
+   "label": "Alrababa'h 2020",
+   "authors": "Ala’ Alrababa'h & Lisa Blaydes",
+   "year": 2020,
+   "journal": "Political Science Research and Methods",
+   "title": "Authoritarian media and diversionary threats: lessons from 30 years of Syrian state discourse",
+   "claim": "Syrian state media raised references to foreign threats such as Israel and the US during domestic challenges, using diversionary rhetoric to rally support.",
+   "method": "Text analysis of 30 years of state media",
+   "themes": [
+    "auth",
+    "regional"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/psrm.2020.28",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/psrm.2020.28); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lehmannmasterson2020",
+   "type": "work",
+   "label": "Lehmann 2020",
+   "authors": "M. Christian Lehmann & Daniel T. R. Masterson",
+   "year": 2020,
+   "journal": "APSR",
+   "title": "Does Aid Reduce Anti-refugee Violence? Evidence from Syrian Refugees in Lebanon",
+   "claim": "Cash aid to Syrian refugees in Lebanon reduced violence against them, because aid eased local economic competition rather than fueling resentment.",
+   "method": "Regression discontinuity on UN aid eligibility",
+   "themes": [
+    "migration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055420000349",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055420000349); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "aytac2021apsr",
+   "type": "work",
+   "label": "Aytaç 2021",
+   "authors": "Selim Erdem Aytaç",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Effectiveness of Incumbent’s Strategic Communication during Economic Crisis under Electoral Authoritarianism: Evidence from Turkey",
+   "claim": "During Turkey's currency crisis, the incumbent's framing of the crisis as a foreign attack shifted blame and limited support losses under electoral authoritarianism.",
+   "method": "Survey experiments, Turkey 2018",
+   "themes": [
+    "turkey",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421000587",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421000587); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "elci2021bjps",
+   "type": "work",
+   "label": "Elçi 2021",
+   "authors": "Ezgi Elçi",
+   "year": 2021,
+   "journal": "BJPS",
+   "title": "Politics of Nostalgia and Populism: Evidence from Turkey",
+   "claim": "Nostalgia for a glorious past, such as Ottoman grandeur, increases support for populist appeals and the AKP in Turkey.",
+   "method": "Survey experiments, Turkey",
+   "themes": [
+    "turkey"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123420000666",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123420000666); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "belge2016wp",
+   "type": "work",
+   "label": "Belge 2016",
+   "authors": "Ceren Belge",
+   "year": 2016,
+   "journal": "World Politics",
+   "title": "Civilian Victimization and the Politics of Information in the Kurdish Conflict in Turkey",
+   "claim": "In Turkey's Kurdish conflict, state violence against civilians was greater where kinship networks denied the state information, linking victimization to legibility.",
+   "method": "Subnational data on civilian deaths",
+   "themes": [
+    "turkey",
+    "civilwar"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887115000398",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887115000398); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mazur2020wp",
+   "type": "work",
+   "label": "Mazur 2020",
+   "authors": "Kevin Mazur",
+   "year": 2020,
+   "journal": "World Politics",
+   "title": "Networks, Informal Governance, and Ethnic Violence in a Syrian City",
+   "claim": "In Homs, prewar networks linking communities to the regime shaped whether conflict took an ethnic form, so informal governance channeled sectarian violence.",
+   "method": "Neighborhood-level study, Homs",
+   "themes": [
+    "civilwar",
+    "sectarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887120000052",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887120000052); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "okruhlik1999",
+   "type": "work",
+   "label": "Okruhlik 1999",
+   "authors": "Gwenn Okruhlik",
+   "year": 1999,
+   "journal": "Comparative Politics",
+   "title": "Rentier Wealth, Unruly Law, and the Rise of Opposition: The Political Economy of Oil States",
+   "claim": "Arbitrary distribution of oil rents in Saudi Arabia generated grievances and opposition, so rentier wealth can produce dissent rather than quiescence.",
+   "method": "Case study, Saudi Arabia",
+   "themes": [
+    "rentier",
+    "monarchy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422341",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422341); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "chaudhry1989io",
+   "type": "work",
+   "label": "Chaudhry 1989",
+   "authors": "Kiren Aziz Chaudhry",
+   "year": 1989,
+   "journal": "IO",
+   "title": "The price of wealth: business and state in labor remittance and oil economies",
+   "claim": "Oil rents channeled through the state and labor remittances that bypass it produce different business-state relations in Saudi Arabia and Yemen.",
+   "method": "Comparative case study, Saudi Arabia and Yemen",
+   "themes": [
+    "rentier",
+    "cronyism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300004574",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300004574); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "langohr2004cp",
+   "type": "work",
+   "label": "Langohr 2004",
+   "authors": "Vickie Langohr",
+   "year": 2004,
+   "journal": "Comparative Politics",
+   "title": "Too Much Civil Society, Too Little Politics: Egypt and Liberalizing Arab Regimes",
+   "claim": "Liberalizing Arab regimes let NGOs multiply while blocking political parties, so a dense civil society substitutes for, rather than builds, organized opposition.",
+   "method": "Case study, Egypt",
+   "themes": [
+    "auth",
+    "islamist"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/4150142",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/4150142); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "clarkschwedler2003",
+   "type": "work",
+   "label": "Clark 2003",
+   "authors": "Janine Astrid Clark & Jillian Schwedler",
+   "year": 2003,
+   "journal": "Comparative Politics",
+   "title": "Who Opened the Window? Women's Activism in Islamist Parties",
+   "claim": "Women gained leadership roles in Jordanian and Yemeni Islamist parties when internal competition between moderates and hardliners opened opportunities.",
+   "method": "Fieldwork, Jordan and Yemen",
+   "themes": [
+    "gender",
+    "islamist"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/4150178",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/4150178); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "bushjamal2014",
+   "type": "work",
+   "label": "Bush 2014",
+   "authors": "Sarah Sunn Bush & Amaney A. Jamal",
+   "year": 2014,
+   "journal": "ISQ",
+   "title": "Anti-Americanism, Authoritarian Politics, and Attitudes about Women's Representation: Evidence from a Survey Experiment in Jordan",
+   "claim": "A survey experiment in Jordan shows that who endorses women's representation, the US or domestic actors, shapes support, linking gender attitudes to anti-Americanism and regime politics.",
+   "method": "Survey experiment, Jordan",
+   "themes": [
+    "gender",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/isqu.12139",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/isqu.12139); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "barnett1995io",
+   "type": "work",
+   "label": "Barnett 1995",
+   "authors": "Michael N. Barnett",
+   "year": 1995,
+   "journal": "IO",
+   "title": "Sovereignty, nationalism, and regional order in the Arab states system",
+   "claim": "Arab states moved from a pan-Arab order to one based on sovereignty as leaders renegotiated the norms of Arab nationalism.",
+   "method": "Historical constructivist analysis",
+   "themes": [
+    "regional",
+    "stateformation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s002081830003335x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s002081830003335x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hirschhoefler2014",
+   "type": "work",
+   "label": "Hirsch-Hoefler 2014",
+   "authors": "Sivan Hirsch-Hoefler, Daphna Canetti, Carmit Rapaport & Stevan E. Hobfoll",
+   "year": 2014,
+   "journal": "BJPS",
+   "title": "Conflict will Harden your Heart: Exposure to Violence, Psychological Distress, and Peace Barriers in Israel and Palestine",
+   "claim": "Exposure to political violence hardens Israelis' attitudes toward compromise with Palestinians, through psychological distress and threat perceptions.",
+   "method": "Panel survey, Israel",
+   "themes": [
+    "israelpal"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123414000374",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123414000374); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mukoyama2023",
+   "type": "work",
+   "label": "Mukoyama 2023",
+   "authors": "Naosuke Mukoyama",
+   "year": 2023,
+   "journal": "Comparative Politics",
+   "title": "Colonial Oil and State-Making: The Separate Independence of Qatar and Bahrain",
+   "claim": "Colonial-era oil concessions gave Qatar and Bahrain distinct state apparatuses and revenue bases, which led them to independence apart from the UAE federation.",
+   "method": "Historical case comparison",
+   "themes": [
+    "stateformation",
+    "rentier"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041523x16801041950603",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041523x16801041950603); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "shapiroweidmann2015",
+   "type": "work",
+   "label": "Shapiro 2015",
+   "authors": "Jacob N. Shapiro & Nils B. Weidmann",
+   "year": 2015,
+   "journal": "IO",
+   "title": "Is the Phone Mightier Than the Sword? Cellphones and Insurgent Violence in Iraq",
+   "claim": "Expanding cellphone coverage reduced insurgent violence in Iraq by making it easier for civilians to pass tips to counterinsurgents.",
+   "method": "District-level panel data, Iraq",
+   "themes": [
+    "civilwar"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818314000423",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818314000423); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kalyvasnaghizadeh2025",
+   "type": "work",
+   "label": "Kalyvas 2025",
+   "authors": "Stathis N. Kalyvas & Mikael Hiberg Naghizadeh",
+   "year": 2025,
+   "journal": "Annual Review of Political Science",
+   "title": "Islamism and Armed Conflict",
+   "claim": "Reviews why Islamist insurgencies have dominated civil wars since the 1990s, linking ideology to rebel organization, recruitment and conflict duration.",
+   "method": "Review essay",
+   "themes": [
+    "islamist",
+    "civilwar"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-061623-100652",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-061623-100652); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "barnettjamalmonroe2020",
+   "type": "work",
+   "label": "Barnett 2020",
+   "authors": "Carolyn Barnett, Amaney A. Jamal & Steve L. Monroe",
+   "year": 2020,
+   "journal": "AJPS",
+   "title": "Earned Income and Women's Segmented Empowerment: Experimental Evidence from Jordan",
+   "claim": "Earned income raises Jordanian women's influence in some household domains but not others, a segmented empowerment.",
+   "method": "Field experiment, Jordan",
+   "themes": [
+    "gender"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12561",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12561); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kalaycioglu1994",
+   "type": "work",
+   "label": "Kalaycioğlu 1994",
+   "authors": "Ersin Kalaycioğlu",
+   "year": 1994,
+   "journal": "Comparative Political Studies",
+   "title": "Elections and Party Preferences in Turkey",
+   "claim": "Turkish party preferences follow a center-periphery cleavage that pits secular state elites against religious, provincial voters.",
+   "method": "Survey analysis, Turkey",
+   "themes": [
+    "turkey",
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414094027003004",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414094027003004); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "clarkeelfstrom2022",
+   "type": "work",
+   "label": "Clarke 2022",
+   "authors": "Killian Clarke & Manfred Elfstrom",
+   "year": 2022,
+   "journal": "Comparative Politics",
+   "title": "Power on the Margins: Lumpenproletarian Resistance in China and Egypt",
+   "claim": "Lumpenproletarian groups such as street vendors and informal workers wield real leverage through disruptive, localized resistance in both China and Egypt.",
+   "method": "Comparative fieldwork, China and Egypt",
+   "themes": [
+    "uprisings"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041522x16540374328516",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041522x16540374328516); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "albrechtschlumberger2004",
+   "type": "work",
+   "label": "Albrecht 2004",
+   "authors": "Holger Albrecht & Oliver Schlumberger",
+   "year": 2004,
+   "journal": "International Political Science Review",
+   "title": "\"Waiting for Godot\": Regime Change without Democratization in the Middle East",
+   "claim": "Arab regimes change through elite turnover, co-optation and controlled liberalization that adapt authoritarianism rather than move toward democracy.",
+   "method": "Comparative regional analysis",
+   "themes": [
+    "auth"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1177/0192512104045085); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/0192512104045085"
+  },
+  {
+   "id": "nugent2020",
+   "type": "work",
+   "label": "Nugent 2020",
+   "authors": "Elizabeth R. Nugent",
+   "year": 2020,
+   "journal": "Princeton University Press (book)",
+   "title": "After Repression: How Polarization Derails Democratic Transition",
+   "claim": "Targeted repression in Egypt polarized Islamists and secularists, while widespread repression in Tunisia built shared identities that let them cooperate after 2011.",
+   "method": "Interviews, surveys and archives, Egypt and Tunisia",
+   "themes": [
+    "uprisings",
+    "islamist"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.23943/princeton/9780691203058.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.23943/princeton/9780691203058.001.0001"
+  },
+  {
+   "id": "menaldo2016",
+   "type": "work",
+   "label": "Menaldo 2016",
+   "authors": "Victor Menaldo",
+   "year": 2016,
+   "journal": "Cambridge University Press (book)",
+   "title": "The Institutions Curse: Natural Resources, Politics, and Development",
+   "claim": "Weak institutions cause resource dependence rather than the reverse, so the resource curse is largely an institutions curse.",
+   "method": "Cross-national historical data",
+   "themes": [
+    "rentier"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9781316481530); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9781316481530"
+  },
+  {
+   "id": "kadivar2013",
+   "type": "work",
+   "label": "Kadivar 2013",
+   "authors": "Mohammad Ali Kadivar",
+   "year": 2013,
+   "journal": "American Sociological Review",
+   "title": "Alliances and Perception Profiles in the Iranian Reform Movement, 1997 to 2005",
+   "claim": "The Iranian reform movement's alliances between reformist elites and civil-society groups rose and fell with their shared perceptions of political opportunity.",
+   "method": "Historical event analysis, Iran",
+   "themes": [
+    "iran"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1177/0003122413508285); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/0003122413508285"
+  },
+  {
+   "id": "moslem2002",
+   "type": "work",
+   "label": "Moslem 2002",
+   "authors": "Mehdi Moslem",
+   "year": 2002,
+   "journal": "Syracuse University Press (book)",
+   "title": "Factional Politics in Post-Khomeini Iran",
+   "claim": "After Khomeini, the Islamic Republic was governed by competing clerical factions whose rivalry shaped policy and limited reform.",
+   "method": "Historical analysis",
+   "themes": [
+    "iran"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2003, DOI 10.5860/choice.40-6056); metadata from memory"
+  },
+  {
+   "id": "brooks1998",
+   "type": "work",
+   "label": "Brooks 1998",
+   "authors": "Risa Brooks",
+   "year": 1998,
+   "journal": "Oxford University Press for IISS, Adelphi Paper 324 (book)",
+   "title": "Political-Military Relations and the Stability of Arab Regimes",
+   "claim": "Arab leaders kept militaries loyal through coup-proofing, patronage and communal stacking, which explains regime stability despite military power.",
+   "method": "Comparative regional analysis",
+   "themes": [
+    "military",
+    "auth"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2013, DOI 10.4324/9781315000930); metadata from memory"
+  },
+  {
+   "id": "bounassif2021",
+   "type": "work",
+   "label": "Bou Nassif 2020",
+   "authors": "Hicham Bou Nassif",
+   "year": 2020,
+   "journal": "Cambridge University Press (book)",
+   "title": "Endgames: Military Response to Protest in Arab Autocracies",
+   "claim": "Whether Arab militaries defended or abandoned rulers in 2011 depended on officers' sectarian ties and grievances over material and career interests.",
+   "method": "Interviews and comparative cases",
+   "themes": [
+    "military",
+    "uprisings"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/9781108893695); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/9781108893695"
+  },
+  {
+   "id": "hassanpour2014",
+   "type": "work",
+   "label": "Hassanpour 2014",
+   "authors": "Navid Hassanpour",
+   "year": 2014,
+   "journal": "Political Communication",
+   "title": "Media Disruption and Revolutionary Unrest: Evidence from Mubarak's Quasi-Experiment",
+   "claim": "Egypt's January 2011 internet and phone shutdown dispersed and intensified protest rather than stopping it.",
+   "method": "Quasi-experiment with protest location data",
+   "themes": [
+    "uprisings"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1080/10584609.2012.737439); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/10584609.2012.737439"
+  },
+  {
+   "id": "blaydesgillum2013",
+   "type": "work",
+   "label": "Blaydes 2013",
+   "authors": "Lisa Blaydes & Rachel M. Gillum",
+   "year": 2013,
+   "journal": "Politics and Religion",
+   "title": "Religiosity-of-Interviewer Effects: Assessing the Impact of Veiled Enumerators on Survey Response in Egypt",
+   "claim": "Respondents give more religious and conservative answers to veiled interviewers, so survey measures of Arab religiosity carry interviewer effects.",
+   "method": "Survey experiment, Egypt",
+   "themes": [
+    "opinion",
+    "gender"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/s1755048312000557); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s1755048312000557"
+  },
+  {
+   "id": "gause2003ss",
+   "type": "work",
+   "label": "Gause 2003",
+   "authors": "F. Gregory Gause III",
+   "year": 2003,
+   "journal": "Security Studies",
+   "title": "Balancing What? Threat Perception and Alliance Choice in the Gulf",
+   "claim": "Gulf rulers balance against threats to regime security, especially transnational ideological threats, rather than against shifts in material power.",
+   "method": "Comparative case analysis, Gulf states",
+   "themes": [
+    "regional",
+    "monarchy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1080/09636410490521271); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09636410490521271"
+  },
+  {
+   "id": "lawrence2013",
+   "type": "work",
+   "label": "Lawrence 2013",
+   "authors": "Adria K. Lawrence",
+   "year": 2013,
+   "journal": "Cambridge University Press (book)",
+   "title": "Imperial Rule and the Politics of Nationalism: Anti-Colonial Protest in the French Empire",
+   "claim": "Nationalist demands for independence in the French empire arose after earlier demands for equal political rights were rejected.",
+   "method": "Protest event data and case studies",
+   "themes": [
+    "stateformation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9781139583732); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9781139583732"
   }
  ]
 }

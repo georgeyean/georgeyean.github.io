@@ -1,6 +1,6 @@
 # Middle Eastern politics, c. 1950–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 300 work nodes, 19 theme nodes and 345 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[bellin2004]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 344 work nodes, 19 theme nodes and 406 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[bellin2004]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Shared works:** 43 works already in other maps are reused. Most come from the comparative politics map (authoritarian institutions, competitive authoritarianism, backsliding, the Arab uprisings) and the environmental and political economy maps (the oil curse). Others come from security and IR (civil war, terrorism and voting in Israel, alliances, the Iraq war), technology (digital media and the uprisings), psychology (emotions in the uprisings) and REP (Gulf migration).
@@ -73,6 +73,15 @@ Relations are judgments of how each work's argument relates to the other's, and 
 ## Where your work fits
 - **Grievance and status threat.** A grievance index connects to work on the economic roots of the uprisings `[malikawadallah2013]`, `[springborg2011]` and rentier bargains under strain `[gengler2016]`.
 - **LLM annotation of elite rhetoric.** It can measure regime legitimation, sectarian framing and online dissent at scale `[siegelbadaan2020]`, `[pansiegel2019]`.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 44 works (42 new, 2 shared with other maps) and 61 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 44 works to the Middle Eastern politics map: 31 top-journal articles (APSR, AJPS, JOP, IO, World Politics, BJPS, IS, CP, PoP), 11 landmark books and articles (Brooks, Albrecht and Schlumberger, Nugent, Menaldo, Bou Nassif, Gause, Lawrence, Moslem, Kadivar), and 2 imports. It fills thin themes (Iran, gender, civil-military relations, Turkey's electoral politics, Gulf alliances) and adds recent APSR/AJPS work on Islamist electoral advantage, protest and repression, refugees, and authoritarian media.
+
+Of the new works, 2 exist in Crossref only through reviews (Brooks 1998, Moslem 2002).
 
 ## What I could not verify (flagged)
 Every anchor and library seed (125) was checked in Crossref: 86 matched directly. 32 books exist in Crossref only through reviews or chapters about them: Ayubi 1995, Bayat 2017, Chaney 2013, Clark 2004, Cook 2007, Diwan 2019, Gengler 2015, Hamid 2014, Hashemi 2017, Herb 1999, Heydemann 2004, Jamal 2007, Kandil 2012, Kerr 1971, Kuru 2009, Kuru 2019, Lynch 2006, Lynch 2012, Mahdavy 1970, Mahmood 2005, Makdisi 2000, Mitchell 2011, Posusney 2005, Richards 1990, Roy 1994, Thompson 2000, Vitalis 2007, Wedeen 1999, Wedeen 2019, Wickham 2002, Wickham 2013, Yiftachel 2006. 7 were not found as their own Crossref record, so their metadata comes from memory: Blaydes 2011, Brumberg 2002, Gause 2011, Gause 2014, Heydemann 2007, Lynch 2016, Mardin 1973.

@@ -1,6 +1,6 @@
 # International security research, c. 2006–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 262 work nodes, 21 theme nodes and 283 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[fearon1995]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 307 work nodes, 21 theme nodes and 356 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[fearon1995]`) point to entries in `graph.json`.
 
 **How the works were chosen.** This map was built differently from the IPE one, to avoid leaning on one library.
 - **83 works** come from your Zotero library (`papers.json`). Their claims are condensed from the repo's "Theory & evidence" analyses.
@@ -222,6 +222,15 @@ The map's theoretical base: anarchy and the distribution of power `[waltz1979]`,
 2. **Measuring order contestation and alignment.** Status, hierarchy and alignment research (Sections 6, 7 and 8) lacks a continuous, cross-national measure of where states stand between competing orders. *Asset:* LLM annotation of official statements, building on `[lin2024]`.
 3. **Autocratic security cooperation.** Sections 3, 12 and 20 show autocracies differ internally but say little about how autocracies cooperate in security (arms transfers, repression technology, mutual protection). This connects to autocratic rise and to the autocratic-IFI work in the IPE map.
 4. **Text as data for unobservables.** Private information, resolve, status concerns and threat perception are central but unmeasured. Validated LLM coding of archives, speeches and state media is the enabling method.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 45 works (41 new, 4 shared with other maps) and 79 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 41 new works and 4 imports to the security map, filling the thinnest themes first: gender (Caprioli 2005, Melander 2005, Thomas & Bond 2015, Goldstein 2001), laws of war and norms (Tannenwald 1999, Valentino et al. 2006, Zacher 2001, Altman 2020), coups and repression (Powell 2012, Gohdes 2020, Quinlivan 1999), bargaining theory (Wagner 2000, Powell 2004, Reiter 2003), the democratic peace (Maoz & Russett 1993, Bueno de Mesquita et al. 1999, Mansfield & Snyder 1995, Oneal & Russett 1997), and terrorism (Pape 2003, Bueno de Mesquita 2005, Horowitz 2010, Kydd & Walter 2002). It also restores missing anchors in deterrence and reputation (Huth & Russett 1984, Sartori 2002), civil war onset, dynamics and termination (Hegre et al. 2001, Ross 2004, Lyall 2010, Staniland 2012, Doyle & Sambanis 2000, Hartzell & Hoddie 2003, Stedman 1997), proliferation (Singh & Way 2004, Monteiro & Debs 2014), alliances and polarity (Christensen & Snyder 1990, Morrow 1991, Wohlforth 1999), and opinion (Jentleson 1992, Gartner & Segura 1998).
+
+Of the new works, 1 exists in Crossref only through a review (Goldstein 2001).
 
 ## What I could not verify (flagged)
 

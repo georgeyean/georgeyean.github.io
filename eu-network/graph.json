@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 311,
+   "work_nodes": 355,
    "theme_nodes": 19,
    "seed_from_papers_json": 3,
    "crossref_top_cited": 198,
    "anchors_supplement": 110,
-   "relation_edges": 363,
-   "membership_edges": 476
+   "relation_edges": 426,
+   "membership_edges": 544,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -5933,6 +5934,819 @@
    "source": "supplement",
    "zotero": null,
    "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "newman2008",
+   "type": "work",
+   "label": "Newman 2008",
+   "authors": "Abraham L. Newman",
+   "year": 2008,
+   "journal": "IO",
+   "title": "Building Transnational Civil Liberties: Transgovernmental Entrepreneurs and the European Data Privacy Directive",
+   "claim": "Transgovernmental entrepreneurs (data privacy regulators) built transnational civil liberties in the EU.",
+   "method": "Case of EU data privacy",
+   "themes": [
+    "regulation",
+    "foreign"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818308080041); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0020818308080041"
+  },
+  {
+   "id": "vanbiezen2012",
+   "type": "work",
+   "label": "Van Biezen 2012",
+   "authors": "Ingrid Van Biezen, Peter Mair & Thomas Poguntke",
+   "year": 2012,
+   "journal": "European Journal of Political Research",
+   "title": "Going, going, . . . gone? The decline of party membership in contemporary Europe",
+   "claim": "Party membership has declined sharply across European democracies.",
+   "method": "Membership data",
+   "themes": [
+    "cleavages",
+    "legitimacy"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1475-6765.2011.01995.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1475-6765.2011.01995.x"
+  },
+  {
+   "id": "hooghemarkswilson2002",
+   "type": "work",
+   "label": "Hooghe 2002",
+   "authors": "Liesbet Hooghe, Gary Marks & Carole J. Wilson",
+   "year": 2002,
+   "journal": "Comparative Political Studies",
+   "title": "Does Left/Right Structure Party Positions on European Integration?",
+   "claim": "Party positions on European integration follow an inverted U on the left-right dimension and are structured more strongly by the new GAL-TAN dimension, with TAN parties most Eurosceptic.",
+   "method": "Expert survey of party positions (Chapel Hill), Western Europe",
+   "themes": [
+    "cleavages",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/001041402236310",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/001041402236310); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "markswilson2000",
+   "type": "work",
+   "label": "Marks 2000",
+   "authors": "Gary Marks & Carole J. Wilson",
+   "year": 2000,
+   "journal": "BJPS",
+   "title": "The Past in the Present: A Cleavage Theory of Party Response to European Integration",
+   "claim": "National parties respond to European integration through the lens of their historic cleavage positions, so party families diverge predictably on Europe.",
+   "method": "Expert surveys and party-family comparison, Western Europe",
+   "themes": [
+    "cleavages",
+    "politicization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123400000181",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123400000181); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "checkel2005",
+   "type": "work",
+   "label": "Checkel 2005",
+   "authors": "Jeffrey T. Checkel",
+   "year": 2005,
+   "journal": "IO",
+   "title": "International Institutions and Socialization in Europe: Introduction and Framework",
+   "claim": "European institutions socialize state agents through strategic calculation, role playing and normative suasion, mechanisms that can turn compliance into internalized preferences.",
+   "method": "Theoretical framework for a comparative project on socialization",
+   "themes": [
+    "europeanization",
+    "integration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818305050289",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818305050289); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "tallberg2002",
+   "type": "work",
+   "label": "Tallberg 2002",
+   "authors": "Jonas Tallberg",
+   "year": 2002,
+   "journal": "IO",
+   "title": "Paths to Compliance: Enforcement, Management, and the European Union",
+   "claim": "Member-state compliance with EU law is best secured by combining enforcement (monitoring, sanctions, litigation) with management (capacity building, interpretation).",
+   "method": "Analysis of EU compliance system, infringement data",
+   "themes": [
+    "europeanization",
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081802760199908",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081802760199908); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "thomson2007",
+   "type": "work",
+   "label": "Thomson 2007",
+   "authors": "Robert Thomson, René Torenvlied & Javier Arregui",
+   "year": 2007,
+   "journal": "BJPS",
+   "title": "The Paradox of Compliance: Infringements and Delays in Transposing European Union Directives",
+   "claim": "Member states that opposed a directive in Council are more likely to transpose it late or face infringements, especially when the directive leaves them little discretion.",
+   "method": "Statistical analysis of directive transposition across member states",
+   "themes": [
+    "europeanization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123407000373",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123407000373); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "marsh1998",
+   "type": "work",
+   "label": "Marsh 1998",
+   "authors": "Michael Marsh",
+   "year": 1998,
+   "journal": "BJPS",
+   "title": "Testing the Second-Order Election Model after Four European Elections",
+   "claim": "Across four European Parliament elections, government parties lose and small parties gain as the second-order model predicts, with losses depending on the national electoral cycle.",
+   "method": "Aggregate analysis of EP election results, 1979-1994",
+   "themes": [
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000712349800026x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000712349800026x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "carrubba2001",
+   "type": "work",
+   "label": "Carrubba 2001",
+   "authors": "Clifford J. Carrubba",
+   "year": 2001,
+   "journal": "JOP",
+   "title": "The Electoral Connection in European Union Politics",
+   "claim": "Although the public pays little attention to the EU, elites anticipate that latent opinion can be mobilized, creating an electoral connection that keeps EU policy within public tolerance.",
+   "method": "Formal argument with Eurobarometer and elite survey data",
+   "themes": [
+    "elections",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/0022-3816.00062",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/0022-3816.00062); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hix2002",
+   "type": "work",
+   "label": "Hix 2002",
+   "authors": "Simon Hix",
+   "year": 2002,
+   "journal": "AJPS",
+   "title": "Parliamentary Behavior with Two Principals: Preferences, Parties, and Voting in the European Parliament",
+   "claim": "MEPs answer to two principals, national parties and European party groups; when the two conflict, national parties usually prevail in roll-call votes.",
+   "method": "Roll-call analysis, European Parliament 1999-2000",
+   "themes": [
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/3088408",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/3088408); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hixnouryroland2005",
+   "type": "work",
+   "label": "Hix 2005",
+   "authors": "Simon Hix, Abdul Noury & Gérard Roland",
+   "year": 2005,
+   "journal": "BJPS",
+   "title": "Power to the Parties: Cohesion and Competition in the European Parliament, 1979–2001",
+   "claim": "European Parliament party groups became more cohesive and competition more left-right as the Parliament gained legislative powers.",
+   "method": "Roll-call analysis of all EP votes, 1979-2001",
+   "themes": [
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123405000128",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123405000128); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "crombez1996",
+   "type": "work",
+   "label": "Crombez 1996",
+   "authors": "Christophe Crombez",
+   "year": 1996,
+   "journal": "BJPS",
+   "title": "Legislative Procedures in the European Community",
+   "claim": "A spatial model of EC legislative procedures shows the Commission's proposal power limits the Parliament's influence under cooperation, while codecision enhances it.",
+   "method": "Formal spatial model",
+   "themes": [
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123400000429",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123400000429); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "alter1998",
+   "type": "work",
+   "label": "Alter 1998",
+   "authors": "Karen J. Alter",
+   "year": 1998,
+   "journal": "IO",
+   "title": "Who Are the “Masters of the Treaty”?: European Governments and the European Court of Justice",
+   "claim": "National governments could not easily control the European Court of Justice because treaty revision rules and short political time horizons blunted their sanctions.",
+   "method": "Historical institutional analysis of ECJ-member state relations",
+   "themes": [
+    "courts",
+    "integration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081898550572",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081898550572); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "garrettkelemenschulz1998",
+   "type": "work",
+   "label": "Garrett 1998",
+   "authors": "Geoffrey Garrett, R. Daniel Kelemen & Heiner Schulz",
+   "year": 1998,
+   "journal": "IO",
+   "title": "The European Court of Justice, National Governments, and Legal Integration in the European Union",
+   "claim": "The ECJ rules against national governments less often when the costs to powerful governments are high and override is likely, a strategic court constrained by member states.",
+   "method": "Formal argument with case analysis of ECJ rulings",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081898550581",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081898550581); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stonesweet2012",
+   "type": "work",
+   "label": "Sweet 2012",
+   "authors": "Alec Stone Sweet & Thomas Brunell",
+   "year": 2012,
+   "journal": "APSR",
+   "title": "The European Court of Justice, State Noncompliance, and the Politics of Override",
+   "claim": "Member-state threats of override and noncompliance against the ECJ are not credible, so the Court need not defer to governments' preferences.",
+   "method": "Statistical analysis of ECJ rulings and member-state observations",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055412000019",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055412000019); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kelemen2006",
+   "type": "work",
+   "label": "Kelemen 2006",
+   "authors": "R. Daniel Kelemen",
+   "year": 2006,
+   "journal": "Comparative Political Studies",
+   "title": "Suing for Europe",
+   "claim": "EU single-market regulation spreads American-style adversarial legalism into member states by encouraging private litigation to enforce rights.",
+   "method": "Comparative analysis of regulatory sectors",
+   "themes": [
+    "courts",
+    "regulation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414005283219",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414005283219); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "moravcsik1991",
+   "type": "work",
+   "label": "Moravcsik 1991",
+   "authors": "Andrew Moravcsik",
+   "year": 1991,
+   "journal": "IO",
+   "title": "Negotiating the Single European Act: national interests and conventional statecraft in the European Community",
+   "claim": "The Single European Act resulted from bargaining among Britain, France and Germany over convergent national interests, not from supranational or business entrepreneurship.",
+   "method": "Historical case study of SEA negotiations",
+   "themes": [
+    "integration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818300001387",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818300001387); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "sandholtzzysman1989",
+   "type": "work",
+   "label": "Sandholtz 1989",
+   "authors": "Wayne Sandholtz & John Zysman",
+   "year": 1989,
+   "journal": "World Politics",
+   "title": "1992: Recasting the European Bargain",
+   "claim": "The 1992 single-market project was driven by the Commission and transnational business coalitions responding to shifts in the global economy and declining US hegemony.",
+   "method": "Historical analysis of the 1992 programme",
+   "themes": [
+    "integration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2010572",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2010572); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hallfranzese1998",
+   "type": "work",
+   "label": "Hall 1998",
+   "authors": "Peter A. Hall & Robert J. Franzese",
+   "year": 1998,
+   "journal": "IO",
+   "title": "Mixed Signals: Central Bank Independence, Coordinated Wage Bargaining, and European Monetary Union",
+   "claim": "Central bank independence lowers inflation without unemployment costs only where wage bargaining is coordinated, so EMU's design implies costs for uncoordinated economies.",
+   "method": "Pooled time-series analysis, OECD countries",
+   "themes": [
+    "emu",
+    "welfare"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081898550644",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081898550644); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "frieden2002",
+   "type": "work",
+   "label": "Frieden 2002",
+   "authors": "Jeffry A. Frieden",
+   "year": 2002,
+   "journal": "IO",
+   "title": "Real Sources of European Currency Policy: Sectoral Interests and European Monetary Integration",
+   "claim": "National currency policy before EMU reflected sectoral interests: countries with large tradables sectors sought to peg to the Deutschmark.",
+   "method": "Pooled time-series analysis of European exchange-rate policy",
+   "themes": [
+    "emu"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/002081802760403793",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/002081802760403793); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "iversensoskicehope2016",
+   "type": "work",
+   "label": "Iversen 2016",
+   "authors": "Torben Iversen, David Soskice & David Hope",
+   "year": 2016,
+   "journal": "Annual Review of Political Science",
+   "title": "The Eurozone and Political Economic Institutions",
+   "claim": "The eurozone crisis reflects a mismatch between export-led coordinated economies and demand-led southern economies under a single monetary policy.",
+   "method": "Review essay",
+   "themes": [
+    "emu",
+    "welfare"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-022615-113243",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-022615-113243); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "levitzpopeleches2009",
+   "type": "work",
+   "label": "Levitz 2009",
+   "authors": "Philip Levitz & Grigore Pop-Eleches",
+   "year": 2009,
+   "journal": "Comparative Political Studies",
+   "title": "Why No Backsliding? The European Union’s Impact on Democracy and Governance Before and After Accession",
+   "claim": "EU accession improved democracy and governance in Central and Eastern Europe, with little evidence of reversal in the first years after membership.",
+   "method": "Cross-national panel analysis, postcommunist countries",
+   "themes": [
+    "enlargement",
+    "backsliding"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414009355266",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414009355266); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hoboltilley2013",
+   "type": "work",
+   "label": "Hobolt 2013",
+   "authors": "Sara B. Hobolt & James Tilley",
+   "year": 2013,
+   "journal": "Comparative Political Studies",
+   "title": "Who’s in Charge? How Voters Attribute Responsibility in the European Union",
+   "claim": "Citizens' ability to attribute policy responsibility to EU institutions is limited and shaped by partisanship and EU attitudes, undermining accountability.",
+   "method": "Survey analysis (European Election Study)",
+   "themes": [
+    "legitimacy",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414013488549",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414013488549); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "foosbischof2021",
+   "type": "work",
+   "label": "Foos 2021",
+   "authors": "Florian Foos & Daniel Bischof",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Tabloid Media Campaigns and Public Opinion: Quasi-Experimental Evidence on Euroscepticism in England",
+   "claim": "The boycott of The Sun in Liverpool after Hillsborough lowered Euroscepticism there, showing tabloid coverage causally shifted British attitudes toward the EU.",
+   "method": "Natural experiment with difference-in-differences, British survey data",
+   "themes": [
+    "opinion",
+    "brexit"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000305542100085x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000305542100085x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "walter2018",
+   "type": "work",
+   "label": "Walter 2018",
+   "authors": "Stefanie Walter, Elias Dinas, Ignacio Jurado & Nikitas Konstantinidis",
+   "year": 2018,
+   "journal": "IO",
+   "title": "Noncooperation by Popular Vote: Expectations, Foreign Intervention, and the Vote in the 2015 Greek Bailout Referendum",
+   "claim": "In the 2015 Greek bailout referendum, voters' expectations about how the EU would respond and their exposure to foreign intervention shaped support for noncooperation.",
+   "method": "Panel survey, Greece 2015",
+   "themes": [
+    "emu",
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818318000255",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818318000255); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "jurado2021",
+   "type": "work",
+   "label": "Jurado 2021",
+   "authors": "Ignacio Jurado, Sandra León & Stefanie Walter",
+   "year": 2021,
+   "journal": "IO",
+   "title": "Brexit Dilemmas: Shaping Postwithdrawal Relations with a Leaving State",
+   "claim": "The EU faces a dilemma in post-withdrawal relations: deterring others requires punishing a leaver, but interdependence rewards accommodation; the balance depends on contagion risk.",
+   "method": "Formal argument with survey experiments in EU member states",
+   "themes": [
+    "brexit",
+    "differentiated"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818321000412",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818321000412); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "franchino2004",
+   "type": "work",
+   "label": "Franchino 2004",
+   "authors": "Fabio Franchino",
+   "year": 2004,
+   "journal": "BJPS",
+   "title": "Delegating Powers in the European Community",
+   "claim": "The Council delegates more discretion to the Commission under qualified-majority voting and less when member states disagree, consistent with principal-agent theory.",
+   "method": "Analysis of discretion in EC legislation",
+   "themes": [
+    "institutions",
+    "regulation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123404000055",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123404000055); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hage2012",
+   "type": "work",
+   "label": "Häge 2012",
+   "authors": "Frank M. Häge",
+   "year": 2012,
+   "journal": "BJPS",
+   "title": "Coalition Building and Consensus in the Council of the European Union",
+   "claim": "Consensus in the Council of the EU is constructed through coalition building in working groups and Coreper before votes are taken.",
+   "method": "Analysis of Council decision-making records",
+   "themes": [
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0007123412000439",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123412000439); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "thomson2006",
+   "type": "work",
+   "label": "Thomson 2006",
+   "authors": "Robert Thomson, Frans N. Stokman, Christopher H. Achen & Thomas König (eds.)",
+   "year": 2006,
+   "journal": "Cambridge University Press (book)",
+   "title": "The European Union Decides",
+   "claim": "Comparing models of EU legislative decision-making on expert-coded issues, finds bargaining and compromise models predict outcomes better than procedural models.",
+   "method": "Expert interviews on 66 legislative proposals, model comparison",
+   "themes": [
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9780511492082); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9780511492082"
+  },
+  {
+   "id": "borzel2002",
+   "type": "work",
+   "label": "Börzel 2002",
+   "authors": "Tanja A. Börzel",
+   "year": 2002,
+   "journal": "Journal of Common Market Studies",
+   "title": "Pace-Setting, Foot-Dragging, and Fence-Sitting: Member State Responses to Europeanization",
+   "claim": "Member states respond to Europeanization by uploading their own policies (pace-setting), resisting (foot-dragging) or staying neutral (fence-sitting), depending on preferences and capacity.",
+   "method": "Comparative analysis of EU environmental policy",
+   "themes": [
+    "europeanization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2012, DOI 10.4324/9781849771221-22); metadata from memory"
+  },
+  {
+   "id": "knilllehmkuhl2002",
+   "type": "work",
+   "label": "Knill 2002",
+   "authors": "Christoph Knill & Dirk Lehmkuhl",
+   "year": 2002,
+   "journal": "European Journal of Political Research",
+   "title": "The National Impact of European Union Regulatory Policy: Three Europeanization Mechanisms",
+   "claim": "EU policies change domestic arrangements through three mechanisms, institutional compliance, altered opportunity structures and framing of beliefs, of which only the first fits goodness-of-fit logic.",
+   "method": "Comparative policy case studies (transport)",
+   "themes": [
+    "europeanization",
+    "regulation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/1475-6765.00012); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/1475-6765.00012"
+  },
+  {
+   "id": "ladrech1994",
+   "type": "work",
+   "label": "Ladrech 1994",
+   "authors": "Robert Ladrech",
+   "year": 1994,
+   "journal": "Journal of Common Market Studies",
+   "title": "Europeanization of Domestic Politics and Institutions: The Case of France",
+   "claim": "Europeanization is an incremental process in which EU political and economic dynamics become part of the organizational logic of national politics and policymaking.",
+   "method": "Case study of France",
+   "themes": [
+    "europeanization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/j.1468-5965.1994.tb00485.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1468-5965.1994.tb00485.x"
+  },
+  {
+   "id": "kolliker2001",
+   "type": "work",
+   "label": "Kölliker 2001",
+   "authors": "Alkuin Kölliker",
+   "year": 2001,
+   "journal": "West European Politics",
+   "title": "Bringing Together or Driving Apart the Union? Towards a Theory of Differentiated Integration",
+   "claim": "Whether differentiated integration later draws outsiders in depends on the good involved: excludable club goods create pressure to join, non-excludable public goods do not.",
+   "method": "Public goods theory with EU policy illustrations",
+   "themes": [
+    "differentiated"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "adlernissen2014optout",
+   "type": "work",
+   "label": "Adler-Nissen 2014",
+   "authors": "Rebecca Adler-Nissen",
+   "year": 2014,
+   "journal": "Cambridge University Press (book)",
+   "title": "Opting Out of the European Union: Diplomacy, Sovereignty and European Integration",
+   "claim": "British and Danish officials manage the stigma of opt-outs through everyday diplomatic strategies, so formal differentiation is renegotiated in practice.",
+   "method": "Ethnography and interviews with national officials in Brussels",
+   "themes": [
+    "differentiated"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9781107337916); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9781107337916"
+  },
+  {
+   "id": "schimmelfennigwinzen2020",
+   "type": "work",
+   "label": "Schimmelfennig 2020",
+   "authors": "Frank Schimmelfennig & Thomas Winzen",
+   "year": 2020,
+   "journal": "Oxford University Press (book)",
+   "title": "Ever Looser Union? Differentiated European Integration",
+   "claim": "Differentiated integration arises from enlargement (instrumental) and from deepening against national sovereignty concerns (constitutional), and differentiation is mostly temporary.",
+   "method": "Original dataset of treaty and legislative differentiation with case studies",
+   "themes": [
+    "differentiated",
+    "integration"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Not found as its own Crossref record; metadata from memory"
+  },
+  {
+   "id": "deblokdevries2023",
+   "type": "work",
+   "label": "de Blok 2023",
+   "authors": "Lisanne de Blok & Catherine E. de Vries",
+   "year": 2023,
+   "journal": "European Union Politics",
+   "title": "A Blessing and a Curse? Examining Public Preferences for Differentiated Integration",
+   "claim": "Citizens value differentiated integration for accommodating diverse preferences but dislike the unequal treatment of member states it implies.",
+   "method": "Conjoint survey experiments in EU member states",
+   "themes": [
+    "differentiated",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1177/14651165221133671); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/14651165221133671"
+  },
+  {
+   "id": "schmitt2005",
+   "type": "work",
+   "label": "Schmitt 2005",
+   "authors": "Hermann Schmitt",
+   "year": 2005,
+   "journal": "West European Politics",
+   "title": "The European Parliament Elections of June 2004: Still Second-Order?",
+   "claim": "The 2004 EP elections remained second-order in the old member states, while the new eastern members fit the model less well.",
+   "method": "Aggregate and survey analysis of the 2004 EP elections",
+   "themes": [
+    "elections"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1080/01402380500085962); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/01402380500085962"
+  },
+  {
+   "id": "franklin1995",
+   "type": "work",
+   "label": "Franklin 1995",
+   "authors": "Mark Franklin, Cees van der Eijk & Michael Marsh",
+   "year": 1995,
+   "journal": "West European Politics",
+   "title": "Referendum Outcomes and Trust in Government: Public Support for Europe in the Wake of Maastricht",
+   "claim": "Maastricht referendum outcomes reflected the popularity of national governments more than attitudes toward European integration.",
+   "method": "Survey analysis of Maastricht referendums (Denmark, France, Ireland)",
+   "themes": [
+    "elections",
+    "opinion"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1080/01402389508425093); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/01402389508425093"
+  },
+  {
+   "id": "schultecloos2018",
+   "type": "work",
+   "label": "Schulte-Cloos 2018",
+   "authors": "Julia Schulte-Cloos",
+   "year": 2018,
+   "journal": "European Union Politics",
+   "title": "Do European Parliament Elections Foster Challenger Parties' Success on the National Level?",
+   "claim": "Success in EP elections raises challenger parties' vote shares in subsequent national elections, a spillover from second-order to first-order arenas.",
+   "method": "Regression discontinuity/panel analysis of national elections",
+   "themes": [
+    "elections",
+    "cleavages"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1177/1465116518773486); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1177/1465116518773486"
+  },
+  {
+   "id": "thatcherstonesweet2002",
+   "type": "work",
+   "label": "Thatcher 2002",
+   "authors": "Mark Thatcher & Alec Stone Sweet",
+   "year": 2002,
+   "journal": "West European Politics",
+   "title": "Theory and Practice of Delegation to Non-Majoritarian Institutions",
+   "claim": "Explains delegation to independent agencies, central banks and courts in Europe by credibility, efficiency and blame-shifting motives, and examines how agents gain autonomy.",
+   "method": "Theoretical framework (special issue introduction)",
+   "themes": [
+    "regulation",
+    "institutions"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1080/713601583); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/713601583"
+  },
+  {
+   "id": "eberleingrande2005",
+   "type": "work",
+   "label": "Eberlein 2005",
+   "authors": "Burkard Eberlein & Edgar Grande",
+   "year": 2005,
+   "journal": "Journal of European Public Policy",
+   "title": "Beyond Delegation: Transnational Regulatory Regimes and the EU Regulatory State",
+   "claim": "Because member states resist delegating regulatory power to Brussels, EU regulation increasingly runs through informal transnational networks of national regulators.",
+   "method": "Comparative analysis of utilities regulation",
+   "themes": [
+    "regulation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1080/1350176042000311925); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/1350176042000311925"
+  },
+  {
+   "id": "kluver2013",
+   "type": "work",
+   "label": "Klüver 2013",
+   "authors": "Heike Klüver",
+   "year": 2013,
+   "journal": "Oxford University Press (book)",
+   "title": "Lobbying in the European Union: Interest Groups, Lobbying Coalitions, and Policy Change",
+   "claim": "Interest-group success in EU policymaking depends on lobbying coalitions sharing information, citizen support and economic power, not on individual group resources.",
+   "method": "Quantitative text analysis of Commission consultations, 56 proposals",
+   "themes": [
+    "regulation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1093/acprof:oso/9780199657445.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/acprof:oso/9780199657445.001.0001"
+  },
+  {
+   "id": "schmidt2018",
+   "type": "work",
+   "label": "Schmidt 2018",
+   "authors": "Susanne K. Schmidt",
+   "year": 2018,
+   "journal": "Oxford University Press (book)",
+   "title": "The European Court of Justice and the Policy Process: The Shadow of Case Law",
+   "claim": "ECJ case law, constitutionalized in the treaties, casts a shadow over EU and national policymaking that legislators cannot easily override, biasing policy toward market liberalization.",
+   "method": "Case studies of free movement, services and citizenship policy",
+   "themes": [
+    "courts",
+    "welfare"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1093/oso/9780198717775.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/oso/9780198717775.001.0001"
+  },
+  {
+   "id": "pavone2022",
+   "type": "work",
+   "label": "Pavone 2022",
+   "authors": "Tommaso Pavone",
+   "year": 2022,
+   "journal": "Cambridge University Press (book)",
+   "title": "The Ghostwriters: Lawyers and the Politics behind the Judicial Construction of Europe",
+   "claim": "The judicial construction of Europe depended on a small set of Euro-lawyers who brokered references to the ECJ, producing uneven, contested legal integration across territories.",
+   "method": "Archival research, interviews and subnational data, France, Germany and Italy",
+   "themes": [
+    "courts"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/9781009076326); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/9781009076326"
   }
  ],
  "edges": [
@@ -8113,6 +8927,384 @@
    "target": "schimmelfennig2015di",
    "type": "qualifies",
    "why": "Rule of law is a limit to differentiation."
+  },
+  {
+   "source": "hooghemarkswilson2002",
+   "target": "taggart1998",
+   "type": "builds_on",
+   "why": "Systematizes the finding that Euroscepticism sits at the party-system margins, showing an inverted U on left-right and a stronger GAL-TAN effect."
+  },
+  {
+   "source": "marks2006",
+   "target": "hooghemarkswilson2002",
+   "type": "builds_on",
+   "why": "Extends the left-right and GAL-TAN account of party positions on Europe to Central and Eastern Europe, finding a different alignment."
+  },
+  {
+   "source": "markswilson2000",
+   "target": "lipsetrokkan1967",
+   "type": "builds_on",
+   "why": "Argues parties process European integration through their historical cleavage positions, applying Lipset-Rokkan cleavage theory to a new issue."
+  },
+  {
+   "source": "hooghemarkswilson2002",
+   "target": "markswilson2000",
+   "type": "builds_on",
+   "why": "Tests the cleavage account of party responses to Europe with expert data, adding the new politics dimension."
+  },
+  {
+   "source": "checkel2005",
+   "target": "borzelrisse2000",
+   "type": "builds_on",
+   "why": "Specifies the socialization mechanisms behind the sociological pathway of Europeanization, by which EU institutions change actors' interests."
+  },
+  {
+   "source": "schimmelfennigsedelmeier2005",
+   "target": "checkel2005",
+   "type": "challenges",
+   "why": "Finds rule adoption in candidate states driven mainly by external incentives rather than socialization or social learning."
+  },
+  {
+   "source": "falkner2005",
+   "target": "tallberg2002",
+   "type": "builds_on",
+   "why": "Builds on the enforcement-plus-management account of compliance when explaining variation in member states' implementation of social directives."
+  },
+  {
+   "source": "borzel2010",
+   "target": "tallberg2002",
+   "type": "builds_on",
+   "why": "Draws on enforcement and management approaches to explain why some member states persistently fail to comply with EU law."
+  },
+  {
+   "source": "thomson2007",
+   "target": "mastenbroek2006",
+   "type": "builds_on",
+   "why": "Supports domestic-preference explanations of compliance: governments that opposed a directive transpose it late, especially when discretion is low."
+  },
+  {
+   "source": "marsh1998",
+   "target": "reifschmitt1980",
+   "type": "mechanism_tested_by",
+   "why": "Tests the second-order model across four EP elections, confirming government losses and small-party gains that vary with the national electoral cycle."
+  },
+  {
+   "source": "hixmarsh2007",
+   "target": "marsh1998",
+   "type": "builds_on",
+   "why": "Builds on tests of the second-order model to separate punishment of governments from protest voting in EP elections."
+  },
+  {
+   "source": "carrubba2001",
+   "target": "vandereijkfranklin1996",
+   "type": "builds_on",
+   "why": "Starts from evidence of a disengaged European electorate to argue that latent opinion still constrains elites through anticipated mobilization."
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "carrubba2001",
+   "type": "builds_on",
+   "why": "Builds on the idea that latent public opinion bounds elite integration choices, arguing permissive consensus gave way to constraining dissensus."
+  },
+  {
+   "source": "hixnouryroland2005",
+   "target": "hix2002",
+   "type": "builds_on",
+   "why": "Builds on evidence that MEPs answer to national parties and European groups, showing group cohesion rose over time."
+  },
+  {
+   "source": "hixnouryroland2005",
+   "target": "tsebelis1994",
+   "type": "builds_on",
+   "why": "Shows rising EP legislative powers made transnational party groups more cohesive, a behavioral consequence of the Parliament's agenda-setting empowerment."
+  },
+  {
+   "source": "hix2007",
+   "target": "hixnouryroland2005",
+   "type": "builds_on",
+   "why": "Expands the roll-call analysis of EP party cohesion and competition into a book-length account of politics in the Parliament."
+  },
+  {
+   "source": "crombez1996",
+   "target": "tsebelis1994",
+   "type": "challenges",
+   "why": "Argues the Commission's proposal power limits the Parliament's conditional agenda-setting influence under the cooperation procedure."
+  },
+  {
+   "source": "tsebelisgarrett2001",
+   "target": "crombez1996",
+   "type": "builds_on",
+   "why": "Builds on spatial models of EU legislative procedures, including Crombez's, to compare supranational and intergovernmental decision rules."
+  },
+  {
+   "source": "alter1998",
+   "target": "garrett1995",
+   "type": "challenges",
+   "why": "Argues governments cannot easily rein in the ECJ because of joint-decision rules and short time horizons, contesting the claim that the Court follows dominant states."
+  },
+  {
+   "source": "garrettkelemenschulz1998",
+   "target": "garrett1995",
+   "type": "builds_on",
+   "why": "Refines the intergovernmentalist account of legal integration by specifying when the ECJ defers: when costs to powerful governments and override risk are high."
+  },
+  {
+   "source": "carrubba2008",
+   "target": "garrettkelemenschulz1998",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether ECJ rulings respond to member-state observations and override threats, as the strategic-court model predicts."
+  },
+  {
+   "source": "stonesweet2012",
+   "target": "carrubba2008",
+   "type": "challenges",
+   "why": "Argues override and noncompliance threats are not credible, disputing evidence that the ECJ bends to member-state preferences."
+  },
+  {
+   "source": "larssonnaurin2016",
+   "target": "stonesweet2012",
+   "type": "challenges",
+   "why": "Finds the ECJ is sensitive to the risk of legislative override, contesting the claim that override threats are not credible."
+  },
+  {
+   "source": "kelemen2006",
+   "target": "alter2001",
+   "type": "builds_on",
+   "why": "Extends the domestic reach of the EU legal system by showing single-market regulation spreads litigation-based enforcement into member states."
+  },
+  {
+   "source": "kelemen2011",
+   "target": "kelemen2006",
+   "type": "builds_on",
+   "why": "Develops the argument that EU regulation promotes adversarial litigation into the theory of eurolegalism."
+  },
+  {
+   "source": "moravcsik1991",
+   "target": "sandholtzzysman1989",
+   "type": "challenges",
+   "why": "Explains the Single European Act by interstate bargaining among the big three, contesting accounts centred on the Commission and transnational business."
+  },
+  {
+   "source": "sandholtzzysman1989",
+   "target": "haas1958",
+   "type": "builds_on",
+   "why": "Revives a supranational account of integration, attributing the 1992 project to Commission entrepreneurship and business coalitions."
+  },
+  {
+   "source": "moravcsik1993",
+   "target": "moravcsik1991",
+   "type": "builds_on",
+   "why": "Generalizes the interstate-bargaining account of the Single European Act into liberal intergovernmentalism."
+  },
+  {
+   "source": "hallfranzese1998",
+   "target": "mcnamara1998",
+   "type": "qualifies",
+   "why": "Shows central bank independence delivers low inflation cheaply only where wage bargaining is coordinated, a condition on the monetarist consensus behind EMU."
+  },
+  {
+   "source": "hall2014",
+   "target": "hallfranzese1998",
+   "type": "builds_on",
+   "why": "Extends the argument that monetary union's effects depend on national wage-bargaining institutions into an explanation of the euro crisis."
+  },
+  {
+   "source": "frieden2002",
+   "target": "mcnamara1998",
+   "type": "challenges",
+   "why": "Explains pre-EMU currency policy by sectoral interests of tradables producers rather than shared neoliberal ideas."
+  },
+  {
+   "source": "iversensoskicehope2016",
+   "target": "hall2014",
+   "type": "builds_on",
+   "why": "Develops the varieties-of-capitalism reading of the euro crisis as a clash between export-led and demand-led growth models under one monetary policy."
+  },
+  {
+   "source": "levitzpopeleches2009",
+   "target": "vachudova2005",
+   "type": "builds_on",
+   "why": "Provides cross-national evidence that EU leverage and accession improved democracy and governance, with little early reversal."
+  },
+  {
+   "source": "sedelmeier2014",
+   "target": "levitzpopeleches2009",
+   "type": "qualifies",
+   "why": "Documents post-accession backsliding in Hungary and Romania, a limit on the finding that accession gains were not reversed."
+  },
+  {
+   "source": "hoboltilley2013",
+   "target": "follesdalhix2006",
+   "type": "builds_on",
+   "why": "Documents a mechanism behind the EU's accountability deficit: citizens struggle to attribute responsibility, and partisanship colors attributions."
+  },
+  {
+   "source": "foosbischof2021",
+   "target": "hooghemarks2005",
+   "type": "mechanism_tested_by",
+   "why": "Uses the Liverpool boycott of The Sun as a natural experiment to show media cues causally shape EU attitudes."
+  },
+  {
+   "source": "walter2018",
+   "target": "hobolt2009europe",
+   "type": "extends_to_new_case",
+   "why": "Applies referendum-voting theory to the 2015 Greek bailout referendum, showing expectations about EU reactions shaped votes."
+  },
+  {
+   "source": "jurado2021",
+   "target": "walter2021brexit",
+   "type": "builds_on",
+   "why": "Analyzes the supply side of withdrawal contagion: the EU's choice between punishing a leaver to deter others and preserving cooperation."
+  },
+  {
+   "source": "jurado2021",
+   "target": "schimmelfennig2018brexit",
+   "type": "builds_on",
+   "why": "Treats Brexit as differentiated disintegration and models the terms the EU offers a leaving state."
+  },
+  {
+   "source": "franchino2004",
+   "target": "pollack1997",
+   "type": "builds_on",
+   "why": "Tests principal-agent accounts of delegation, finding the Council grants the Commission more discretion under qualified-majority voting."
+  },
+  {
+   "source": "hage2012",
+   "target": "hayesrenshaw2006",
+   "type": "builds_on",
+   "why": "Explains the rarity of contested Council votes by showing consensus is built through coalition formation in preparatory bodies."
+  },
+  {
+   "source": "thomson2006",
+   "target": "tsebelisgarrett2001",
+   "type": "challenges",
+   "why": "Finds bargaining and compromise models predict EU legislative outcomes better than procedural models built on formal agenda-setting powers."
+  },
+  {
+   "source": "borzel2002",
+   "target": "borzelrisse2000",
+   "type": "builds_on",
+   "why": "Adds member states' upstream strategies (pace-setting, foot-dragging, fence-sitting) to the analysis of how Europeanization hits home."
+  },
+  {
+   "source": "knilllehmkuhl2002",
+   "target": "borzelrisse2000",
+   "type": "qualifies",
+   "why": "Argues goodness of fit explains only compliance with positive integration, while negative integration and framing work through opportunity structures and beliefs."
+  },
+  {
+   "source": "borzelrisse2000",
+   "target": "ladrech1994",
+   "type": "builds_on",
+   "why": "Builds on early conceptualizations of Europeanization as an incremental reorientation of domestic politics toward EU dynamics."
+  },
+  {
+   "source": "kolliker2001",
+   "target": "stubb1996",
+   "type": "builds_on",
+   "why": "Moves from categorizing differentiated integration to a public-goods theory predicting when outsiders will later join."
+  },
+  {
+   "source": "holzingerschimmelfennig2012",
+   "target": "kolliker2001",
+   "type": "synthesizes",
+   "why": "Integrates the public-goods theory of differentiation into a review of concepts, theories and data on differentiated integration."
+  },
+  {
+   "source": "adlernissen2014optout",
+   "target": "leuffen2013",
+   "type": "qualifies",
+   "why": "Shows opt-out states bear stigma they manage through everyday diplomacy, adding the social costs of outsider status to accounts of differentiated integration."
+  },
+  {
+   "source": "schimmelfennigwinzen2020",
+   "target": "schimmelfennigwinzen2014",
+   "type": "builds_on",
+   "why": "Expands the instrumental versus constitutional distinction into a full theory and dataset of differentiation from the founding treaties to Brexit."
+  },
+  {
+   "source": "deblokdevries2023",
+   "target": "schimmelfennig2023",
+   "type": "builds_on",
+   "why": "Adds experimental evidence on public preferences to research on the effects and acceptance of differentiated integration."
+  },
+  {
+   "source": "schmitt2005",
+   "target": "reifschmitt1980",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether EP elections remained second-order after eastern enlargement, finding the model fits old members better than new ones."
+  },
+  {
+   "source": "franklin1995",
+   "target": "reifschmitt1980",
+   "type": "extends_to_new_case",
+   "why": "Extends second-order logic to EU referendums, arguing Maastricht votes reflected the popularity of national governments."
+  },
+  {
+   "source": "hobolt2009europe",
+   "target": "franklin1995",
+   "type": "challenges",
+   "why": "Argues referendum votes reflect attitudes toward integration conditioned by campaign information, not only evaluations of national governments."
+  },
+  {
+   "source": "schultecloos2018",
+   "target": "hixmarsh2011",
+   "type": "builds_on",
+   "why": "Shows second-order EP election success boosts challenger parties in later national elections, a spillover from the European to the national arena."
+  },
+  {
+   "source": "thatcherstonesweet2002",
+   "target": "majone1996",
+   "type": "builds_on",
+   "why": "Builds a general framework for delegation to non-majoritarian institutions, extending Majone's credibility account of the regulatory state."
+  },
+  {
+   "source": "eberleingrande2005",
+   "target": "majone1994",
+   "type": "qualifies",
+   "why": "Argues EU regulation increasingly runs through transnational networks of national regulators because member states resist supranational delegation."
+  },
+  {
+   "source": "levifaur2011",
+   "target": "eberleingrande2005",
+   "type": "builds_on",
+   "why": "Builds on the transnational-network account of EU regulation to describe agencification and a single European regulatory space."
+  },
+  {
+   "source": "kluver2013",
+   "target": "dur2008",
+   "type": "builds_on",
+   "why": "Measures lobbying success across many proposals, finding that coalitions and information supply rather than single-group resources determine influence."
+  },
+  {
+   "source": "schmidt2018",
+   "target": "scharpf2010",
+   "type": "builds_on",
+   "why": "Shows how constitutionalized ECJ case law constrains EU and national policymakers, extending Scharpf's argument about judicially driven negative integration."
+  },
+  {
+   "source": "pavone2022",
+   "target": "stonesweet2004",
+   "type": "challenges",
+   "why": "Shows legal integration depended on a few brokering lawyers and was territorially uneven, contesting the image of a self-reinforcing dynamic between litigants and courts."
+  },
+  {
+   "source": "bradford2020",
+   "target": "newman2008",
+   "type": "builds_on",
+   "why": "Generalizes the global reach of EU data-privacy rules, which Newman traced to transgovernmental regulators, into the Brussels effect."
+  },
+  {
+   "source": "vanbiezen2012",
+   "target": "katzmair1995",
+   "type": "builds_on",
+   "why": "Documents sharply declining party membership across Europe, evidence for the weakening party-society linkage behind the cartel-party thesis."
+  },
+  {
+   "source": "mair2013",
+   "target": "vanbiezen2012",
+   "type": "builds_on",
+   "why": "Uses evidence of collapsing party membership to argue that parties have withdrawn from society and hollowed out democracy."
   },
   {
    "source": "kriesi2006",
@@ -10967,6 +12159,414 @@
   {
    "source": "leuffen2013",
    "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newman2008",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newman2008",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanbiezen2012",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanbiezen2012",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarkswilson2002",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarkswilson2002",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "markswilson2000",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "markswilson2000",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "checkel2005",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "checkel2005",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2002",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2002",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomson2007",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marsh1998",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carrubba2001",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carrubba2001",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hix2002",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hixnouryroland2005",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crombez1996",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alter1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alter1998",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrettkelemenschulz1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stonesweet2012",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2006",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2006",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik1991",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sandholtzzysman1989",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallfranzese1998",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallfranzese1998",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frieden2002",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskicehope2016",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskicehope2016",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitzpopeleches2009",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitzpopeleches2009",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltilley2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltilley2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foosbischof2021",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foosbischof2021",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2018",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jurado2021",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jurado2021",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franchino2004",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franchino2004",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hage2012",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomson2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzel2002",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knilllehmkuhl2002",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knilllehmkuhl2002",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ladrech1994",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kolliker2001",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adlernissen2014optout",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigwinzen2020",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigwinzen2020",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deblokdevries2023",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deblokdevries2023",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmitt2005",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franklin1995",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franklin1995",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultecloos2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultecloos2018",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thatcherstonesweet2002",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thatcherstonesweet2002",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eberleingrande2005",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kluver2013",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2018",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2018",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pavone2022",
+   "target": "courts",
    "type": "belongs_to",
    "why": "theme membership"
   }

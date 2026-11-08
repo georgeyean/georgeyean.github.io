@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 183,
+   "work_nodes": 228,
    "theme_nodes": 16,
    "seed_from_papers_json": 35,
    "crossref_top_cited": 108,
    "anchors_supplement": 40,
-   "relation_edges": 178,
-   "membership_edges": 297
+   "relation_edges": 245,
+   "membership_edges": 371,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. Works shared with the other four maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref, books mostly via published reviews or chapter records. One-line claims for non-repo works are my summaries."
  },
@@ -3596,6 +3597,844 @@
    "zotero": null,
    "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0305741006000798); claim is my summary, not re-read this session",
    "crossref_doi": "10.1017/s0305741006000798"
+  },
+  {
+   "id": "chenkung2019",
+   "type": "work",
+   "label": "Chen 2018",
+   "authors": "Ting Chen & James Kai-sing Kung",
+   "year": 2018,
+   "journal": "Quarterly Journal of Economics",
+   "title": "Busting the “Princelings”: The Campaign Against Corruption in China’s Primary Land Market",
+   "claim": "China's anticorruption campaign ended princeling land discounts.",
+   "method": "Land transaction data",
+   "themes": [
+    "corruption",
+    "urban-rural"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/qje/qjy027); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/qje/qjy027"
+  },
+  {
+   "id": "guo2009",
+   "type": "work",
+   "label": "Guo 2009",
+   "authors": "Gang Guo",
+   "year": 2009,
+   "journal": "AJPS",
+   "title": "China's Local Political Budget Cycles",
+   "claim": "Chinese local leaders produce budget cycles around promotion timing.",
+   "method": "County data",
+   "themes": [
+    "elite",
+    "central-local"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1540-5907.2009.00390.x); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/j.1540-5907.2009.00390.x"
+  },
+  {
+   "id": "gilley2012",
+   "type": "work",
+   "label": "Gilley 2012",
+   "authors": "Bruce Gilley",
+   "year": 2012,
+   "journal": "Environmental Politics",
+   "title": "Authoritarian environmentalism and China's response to climate change",
+   "claim": "China's response exemplifies authoritarian environmentalism.",
+   "method": "Case study",
+   "themes": [
+    "environment"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09644016.2012.651904); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1080/09644016.2012.651904"
+  },
+  {
+   "id": "liang2018",
+   "type": "work",
+   "label": "Liang 2018",
+   "authors": "Fan Liang, Vishnupriya Das, Nadiya Kostyuk & Muzammil M. Hussain",
+   "year": 2018,
+   "journal": "Policy & Internet",
+   "title": "Constructing a Data‐Driven Society: China's Social Credit System as a State Surveillance Infrastructure",
+   "claim": "China's social credit system as state surveillance infrastructure.",
+   "method": "Analysis",
+   "themes": [
+    "info",
+    "repression"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/poi3.183); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1002/poi3.183"
+  },
+  {
+   "id": "fravel2011",
+   "type": "work",
+   "label": "Fravel 2011",
+   "authors": "M. Taylor Fravel",
+   "year": 2011,
+   "journal": "Contemporary Southeast Asia",
+   "title": "China’s Strategy in the South China Sea",
+   "claim": "China pursues a delaying strategy in the South China Sea, consolidating claims without major conflict.",
+   "method": "Analysis of Chinese behavior",
+   "themes": [
+    "global"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1355/cs33-3b); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1355/cs33-3b"
+  },
+  {
+   "id": "xu2021",
+   "type": "work",
+   "label": "Xu 2021",
+   "authors": "Xu Xu",
+   "year": 2021,
+   "journal": "AJPS",
+   "title": "To Repress or to Co-opt? Authoritarian Control in the Age of Digital Surveillance",
+   "claim": "Digital surveillance lets autocrats replace co-optation with targeted repression.",
+   "method": "Chinese provincial data",
+   "themes": [
+    "repression",
+    "info"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (American Journal of Political Science, 2020; DOI 10.1111/ajps.12514)",
+   "crossref_doi": "10.1111/ajps.12514"
+  },
+  {
+   "id": "obrienli1999",
+   "type": "work",
+   "label": "O'Brien 1999",
+   "authors": "Kevin J. O'Brien & Lianjiang Li",
+   "year": 1999,
+   "journal": "Comparative Politics",
+   "title": "Selective Policy Implementation in Rural China",
+   "claim": "Township and village cadres implement hard, promotion-linked targets such as tax collection and birth quotas while neglecting popular or unrewarded mandates, so central policy is selectively executed at the grassroots.",
+   "method": "Field interviews and documents, rural China 1990s",
+   "themes": [
+    "central-local",
+    "urban-rural"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422143",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422143); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wang2008isq",
+   "type": "work",
+   "label": "Wang 2008",
+   "authors": "Zheng Wang",
+   "year": 2008,
+   "journal": "ISQ",
+   "title": "National Humiliation, History Education, and the Politics of Historical Memory: Patriotic Education Campaign in China",
+   "claim": "After 1989 the CCP used the Patriotic Education Campaign to recast national humiliation as the core of historical memory, rebuilding legitimacy on nationalism rather than communism.",
+   "method": "Textbook and policy-document analysis",
+   "themes": [
+    "nationalism",
+    "history"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/j.1468-2478.2008.00526.x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/j.1468-2478.2008.00526.x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "shi2001",
+   "type": "work",
+   "label": "Shi 2001",
+   "authors": "Tianjian Shi",
+   "year": 2001,
+   "journal": "Comparative Politics",
+   "title": "Cultural Values and Political Trust: A Comparison of the People's Republic of China and Taiwan",
+   "claim": "Traditional cultural values of deference to authority, not regime performance alone, help explain high political trust in the PRC and Taiwan.",
+   "method": "Comparative surveys, PRC and Taiwan 1990s",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/422441",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/422441); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "tsai2006wp",
+   "type": "work",
+   "label": "Tsai 2006",
+   "authors": "Kellee S. Tsai",
+   "year": 2006,
+   "journal": "World Politics",
+   "title": "Adaptive Informal Institutions and Endogenous Institutional Change in China",
+   "claim": "Private entrepreneurs and local officials devised adaptive informal institutions to evade socialist rules, and their spread pushed the party to formalize private-sector rights from below.",
+   "method": "Field interviews and surveys of entrepreneurs",
+   "themes": [
+    "political-economy",
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1353/wp.2007.0018",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/wp.2007.0018); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pearson2005",
+   "type": "work",
+   "label": "Pearson 2005",
+   "authors": "Margaret M. Pearson",
+   "year": 2005,
+   "journal": "World Politics",
+   "title": "The Business of Governing Business in China: Institutions and Norms of the Emerging Regulatory State",
+   "claim": "China's new regulatory agencies for strategic industries look like Western regulators but keep the party-state in control through ownership and personnel, a regulatory state with Leninist norms.",
+   "method": "Case studies of sectoral regulators",
+   "themes": [
+    "political-economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1353/wp.2005.0017",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1353/wp.2005.0017); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lu2014apsr",
+   "type": "work",
+   "label": "Lü 2014",
+   "authors": "Xiaobo Lü",
+   "year": 2014,
+   "journal": "APSR",
+   "title": "Social Policy and Regime Legitimacy: The Effects of Education Reform in China",
+   "claim": "China's abolition of rural school fees raised support for the central government, but only among citizens who correctly attributed the benefit to Beijing.",
+   "method": "Survey data with policy rollout variation",
+   "themes": [
+    "legitimacy",
+    "responsive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055414000124",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055414000124); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wangdickson2021",
+   "type": "work",
+   "label": "Wang 2021",
+   "authors": "Yuhua Wang & Bruce J. Dickson",
+   "year": 2021,
+   "journal": "Political Science Research and Methods",
+   "title": "How corruption investigations undermine regime support: evidence from China",
+   "claim": "Exposure to local corruption investigations under Xi's campaign lowers citizens' support for the regime instead of boosting it.",
+   "method": "National survey linked to investigation data",
+   "themes": [
+    "corruption",
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/psrm.2021.27",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/psrm.2021.27); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "fravel2005",
+   "type": "work",
+   "label": "Fravel 2005",
+   "authors": "M. Taylor Fravel",
+   "year": 2005,
+   "journal": "International Security",
+   "title": "Regime Insecurity and International Cooperation: Explaining China's Compromises in Territorial Disputes",
+   "claim": "China has compromised in territorial disputes when facing internal threats such as ethnic unrest or political instability, trading land for neighbors' help in securing regime stability.",
+   "method": "Comparative case analysis of territorial disputes",
+   "themes": [
+    "global",
+    "periphery"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/016228805775124534",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/016228805775124534); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "andersonetal2019",
+   "type": "work",
+   "label": "Anderson 2019",
+   "authors": "Sarah E. Anderson, Mark T. Buntaine, Mengdi Liu & Bing Zhang",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "Non‐Governmental Monitoring of Local Governments Increases Compliance with Central Mandates: A National‐Scale Field Experiment in China",
+   "claim": "Randomly assigning NGO ratings of city pollution-information disclosure raised local compliance with central transparency mandates.",
+   "method": "National field experiment, Chinese cities",
+   "themes": [
+    "environment",
+    "civil-society"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12428",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12428); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "huang2015cp",
+   "type": "work",
+   "label": "Huang 2015",
+   "authors": "Haifeng Huang",
+   "year": 2015,
+   "journal": "Comparative Politics",
+   "title": "Propaganda as Signaling",
+   "claim": "Propaganda works less by persuading than by signaling the regime's strength and capacity for control, deterring dissent even when citizens disbelieve it.",
+   "method": "Formal model with survey evidence",
+   "themes": [
+    "info",
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041515816103220",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041515816103220); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "huang2018jop",
+   "type": "work",
+   "label": "Huang 2018",
+   "authors": "Haifeng Huang",
+   "year": 2018,
+   "journal": "JOP",
+   "title": "The Pathology of Hard Propaganda",
+   "claim": "Heavy-handed hard propaganda signals power but erodes citizens' trust in state messages and their evaluation of government.",
+   "method": "Survey experiment, China",
+   "themes": [
+    "info"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/696863",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/696863); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mattingly2016",
+   "type": "work",
+   "label": "Mattingly 2016",
+   "authors": "Daniel C. Mattingly",
+   "year": 2016,
+   "journal": "World Politics",
+   "title": "Elite Capture",
+   "claim": "When lineage-group leaders hold village office, the state co-opts them and land expropriation becomes easier, so informal institutions can weaken property rights.",
+   "method": "Village survey with lineage-based identification",
+   "themes": [
+    "urban-rural",
+    "responsive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0043887116000083",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0043887116000083); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "chenxu2017",
+   "type": "work",
+   "label": "Chen 2017",
+   "authors": "Jidong Chen & Yiqing Xu",
+   "year": 2017,
+   "journal": "JOP",
+   "title": "Why Do Authoritarian Regimes Allow Citizens to Voice Opinions Publicly?",
+   "claim": "Autocrats permit public expression of grievances when citizens are unlikely to coordinate, gaining information while limiting collective-action risk.",
+   "method": "Formal model",
+   "themes": [
+    "info",
+    "responsive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/690303",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/690303); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "zhang2019is",
+   "type": "work",
+   "label": "Zhang 2019",
+   "authors": "Ketian Zhang",
+   "year": 2019,
+   "journal": "International Security",
+   "title": "Cautious Bully: Reputation, Resolve, and Beijing's Use of Coercion in the South China Sea",
+   "claim": "Beijing coerces in the South China Sea to build a reputation for resolve but prefers non-military tools and calibrates them to avoid costly escalation, a cautious bully.",
+   "method": "Process tracing of coercion episodes",
+   "themes": [
+    "global"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec_a_00354",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00354); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ong2018",
+   "type": "work",
+   "label": "Ong 2018",
+   "authors": "Lynette H. Ong",
+   "year": 2018,
+   "journal": "Perspectives on Politics",
+   "title": "“Thugs-for-Hire”: Subcontracting of State Coercion and State Capacity in China",
+   "claim": "Local governments subcontract coercion to thugs-for-hire to enforce unpopular policies such as demolitions, gaining deniability while revealing limits to state capacity.",
+   "method": "Fieldwork and event data, China",
+   "themes": [
+    "repression"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592718000981",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592718000981); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gueorguievmalesky2019",
+   "type": "work",
+   "label": "Gueorguiev 2019",
+   "authors": "Dimitar D. Gueorguiev & Edmund J. Malesky",
+   "year": 2019,
+   "journal": "JOP",
+   "title": "Consultation and Selective Censorship in China",
+   "claim": "During official notice-and-comment periods, censors relax deletion of posts on the policy under consultation, linking consultation and selective censorship.",
+   "method": "Censorship data around policy consultations",
+   "themes": [
+    "info",
+    "responsive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/704785",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/704785); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mattingly2022",
+   "type": "work",
+   "label": "Mattingly 2022",
+   "authors": "Daniel C. Mattingly",
+   "year": 2022,
+   "journal": "AJPS",
+   "title": "How the Party Commands the Gun: The Foreign–Domestic Threat Dilemma in China",
+   "claim": "Facing both foreign and domestic threats, the CCP keeps the PLA politically weak at home and builds paramilitary forces, trading military effectiveness for coup-proofing.",
+   "method": "Historical data on troop deployments",
+   "themes": [
+    "repression",
+    "elite"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12739",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12739); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "limanion2022",
+   "type": "work",
+   "label": "Li 2022",
+   "authors": "Zeren Li & Melanie Manion",
+   "year": 2022,
+   "journal": "BJPS",
+   "title": "The Decline of Factions: The Impact of a Broad Purge on Political Decision Making in China",
+   "claim": "Xi's broad anticorruption purge reduced factional influence over provincial decision making, measured by budget and personnel choices.",
+   "method": "Panel of provincial data with purge timing",
+   "themes": [
+    "elite",
+    "corruption"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000712342200062x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000712342200062x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "nicholsonhuang2022",
+   "type": "work",
+   "label": "Nicholson 2022",
+   "authors": "Stephen P. Nicholson & Haifeng Huang",
+   "year": 2022,
+   "journal": "APSR",
+   "title": "Making the List: Reevaluating Political Trust and Social Desirability in China",
+   "claim": "List experiments show stated trust in the Chinese central government is inflated by social desirability but remains high.",
+   "method": "List experiments, China",
+   "themes": [
+    "legitimacy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055422000946",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055422000946); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "xukostkacao2022",
+   "type": "work",
+   "label": "Xu 2022",
+   "authors": "Xu Xu, Genia Kostka & Xun Cao",
+   "year": 2022,
+   "journal": "JOP",
+   "title": "Information Control and Public Support for Social Credit Systems in China",
+   "claim": "Citizens' high support for social credit systems rests on information control: those who know of the systems through state framing see them as tools against fraud, not surveillance.",
+   "method": "Online survey with experiments",
+   "themes": [
+    "info",
+    "repression"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/718358",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/718358); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "chen2009cp",
+   "type": "work",
+   "label": "Chen 2009",
+   "authors": "Xi Chen",
+   "year": 2009,
+   "journal": "Comparative Politics",
+   "title": "The Power of \"Troublemaking\": Protest Tactics and Their Efficacy in China",
+   "claim": "Petitioners gain leverage by disruptive \"troublemaking\" that threatens social stability, because local officials are evaluated on preventing unrest.",
+   "method": "Petition archives and fieldwork",
+   "themes": [
+    "contention"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041509x12911362972557",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041509x12911362972557); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "liuma2018",
+   "type": "work",
+   "label": "Liu 2018",
+   "authors": "Chuyu Liu & Xiao Ma",
+   "year": 2018,
+   "journal": "Security Studies",
+   "title": "Popular Threats and Nationalistic Propaganda: Political Logic of China’s Patriotic Campaign",
+   "claim": "The CCP intensifies nationalist propaganda when facing popular domestic threats such as protests, using patriotism to divert and unify.",
+   "method": "Text data on propaganda and protest",
+   "themes": [
+    "nationalism",
+    "info"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1080/09636412.2018.1483632",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09636412.2018.1483632); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lu2025ajps",
+   "type": "work",
+   "label": "Lu 2025",
+   "authors": "Yingdan Lu, Jennifer Pan, Xu Xu & Yiqing Xu",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "Decentralized propaganda in the era of digital media: The massive presence of the Chinese state on Douyin",
+   "claim": "Thousands of state-affiliated accounts on Douyin, many run by local agencies, produce entertainment-style content, a decentralized propaganda system for the platform era.",
+   "method": "Large-scale platform data, Douyin",
+   "themes": [
+    "info"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12990",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12990); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hanmylonas2014",
+   "type": "work",
+   "label": "Han 2014",
+   "authors": "Enze Han & Harris Mylonas",
+   "year": 2014,
+   "journal": "Security Studies",
+   "title": "Interstate Relations, Perceptions, and Power Balance: Explaining China’s Policies Toward Ethnic Groups, 1949–1965",
+   "claim": "Beijing's policies toward ethnic minorities in 1949-1965 depended on its relations with foreign powers linked to those groups, so external threat shaped assimilation or accommodation.",
+   "method": "Comparative historical analysis",
+   "themes": [
+    "periphery"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1080/09636412.2014.874210",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1080/09636412.2014.874210); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "oi1985",
+   "type": "work",
+   "label": "Oi 1985",
+   "authors": "Jean C. Oi",
+   "year": 1985,
+   "journal": "World Politics",
+   "title": "Communism and Clientelism: Rural Politics in China",
+   "claim": "Under collective agriculture, team cadres' control over grain and work points made rural politics a web of patron-client ties rather than pure command.",
+   "method": "Interviews with emigres and documents",
+   "themes": [
+    "history",
+    "urban-rural"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.2307/2010144",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.2307/2010144); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "wang2024poq",
+   "type": "work",
+   "label": "Wang 2024",
+   "authors": "Austin Horng-En Wang, Charles K S Wu, Fang-Yu Chen & Yao-Yuan Yeh",
+   "year": 2024,
+   "journal": "Public Opinion Quarterly",
+   "title": "Undercurrent in Taiwan: Nationalism and Calculation of the Cross-Strait Relations (2002–2022)",
+   "claim": "From 2002 to 2020 Taiwanese preferences on cross-strait relations reflect both rising Taiwanese identity and pragmatic calculation of China's threat and economic pull.",
+   "method": "Repeated surveys, Taiwan 2002-2020",
+   "themes": [
+    "periphery",
+    "nationalism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/poq/nfae063",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/poq/nfae063); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "clarkeelfstrom2022",
+   "type": "work",
+   "label": "Clarke 2022",
+   "authors": "Killian Clarke & Manfred Elfstrom",
+   "year": 2022,
+   "journal": "Comparative Politics",
+   "title": "Power on the Margins: Lumpenproletarian Resistance in China and Egypt",
+   "claim": "Lumpenproletarian groups such as street vendors and informal workers wield real leverage through disruptive, localized resistance in both China and Egypt.",
+   "method": "Comparative fieldwork, China and Egypt",
+   "themes": [
+    "contention"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041522x16540374328516",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041522x16540374328516); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "ang2014cp",
+   "type": "work",
+   "label": "Ang 2014",
+   "authors": "Yuen Yuen Ang",
+   "year": 2014,
+   "journal": "Comparative Politics",
+   "title": "Authoritarian Restraints on Online Activism Revisited: Why “I-Paid-A-Bribe” Worked in India but Failed in China",
+   "claim": "India's I-Paid-A-Bribe site thrived while Chinese copies were shut down, because the Chinese state restrains online collective action even when it targets corruption.",
+   "method": "Paired comparison, India and China",
+   "themes": [
+    "corruption",
+    "info"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041514813623100",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041514813623100); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "manion2015",
+   "type": "work",
+   "label": "Manion 2015",
+   "authors": "Melanie Manion",
+   "year": 2015,
+   "journal": "Cambridge University Press (book)",
+   "title": "Information for Autocrats: Representation in Chinese Local Congresses",
+   "claim": "Local people's congress deputies act as informational agents who relay constituents' concerns, helping autocrats govern without democratic accountability.",
+   "method": "Surveys of deputies and voters, China",
+   "themes": [
+    "responsive",
+    "elite"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/cbo9781107273696); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/cbo9781107273696"
+  },
+  {
+   "id": "pan2020",
+   "type": "work",
+   "label": "Pan 2020",
+   "authors": "Jennifer Pan",
+   "year": 2020,
+   "journal": "Oxford University Press (book)",
+   "title": "Welfare for Autocrats: How Social Assistance in China Cares for Its Rulers",
+   "claim": "Minimum-livelihood payments (dibao) are targeted at people seen as threats to stability, so social assistance doubles as preventive repression.",
+   "method": "Administrative data, surveys and fieldwork",
+   "themes": [
+    "repression",
+    "responsive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1093/oso/9780190087425.001.0001); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/oso/9780190087425.001.0001"
+  },
+  {
+   "id": "mattingly2019",
+   "type": "work",
+   "label": "Mattingly 2019",
+   "authors": "Daniel C. Mattingly",
+   "year": 2019,
+   "journal": "Cambridge University Press (book)",
+   "title": "The Art of Political Control in China",
+   "claim": "The party co-opts and infiltrates civil society, including lineage and religious groups, to control villages and push through unpopular policies.",
+   "method": "Field experiments, surveys and natural experiments",
+   "themes": [
+    "civil-society",
+    "repression"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/9781108662536); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/9781108662536"
+  },
+  {
+   "id": "hou2019",
+   "type": "work",
+   "label": "Hou 2019",
+   "authors": "Yue Hou",
+   "year": 2019,
+   "journal": "Cambridge University Press (book)",
+   "title": "The Private Sector in Public Office: Selective Property Rights in China",
+   "claim": "Entrepreneurs seek seats in local legislatures to protect their firms from predatory officials, so property rights are secured selectively through office.",
+   "method": "Surveys of entrepreneurs and interviews",
+   "themes": [
+    "political-economy",
+    "responsive"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/9781108632522); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/9781108632522"
+  },
+  {
+   "id": "ang2020",
+   "type": "work",
+   "label": "Ang 2020",
+   "authors": "Yuen Yuen Ang",
+   "year": 2020,
+   "journal": "Cambridge University Press (book)",
+   "title": "China's Gilded Age: The Paradox of Economic Boom and Vast Corruption",
+   "claim": "Corruption in China is mainly access money, high-stakes exchanges of power for profit that fueled growth while creating systemic risks, unlike petty theft.",
+   "method": "Corruption index, case studies",
+   "themes": [
+    "corruption",
+    "political-economy"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1017/9781108778350); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/9781108778350"
+  },
+  {
+   "id": "kingpanroberts2014",
+   "type": "work",
+   "label": "King 2014",
+   "authors": "Gary King, Jennifer Pan & Margaret E. Roberts",
+   "year": 2014,
+   "journal": "Science",
+   "title": "Reverse-Engineering Censorship in China: Randomized Experimentation and Participant Observation",
+   "claim": "Creating social-media accounts and submitting randomized posts confirms that collective-action potential, not criticism, triggers censorship.",
+   "method": "Randomized experiment and participant observation",
+   "themes": [
+    "info"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1126/science.1251722); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1126/science.1251722"
+  },
+  {
+   "id": "jia2015",
+   "type": "work",
+   "label": "Jia 2015",
+   "authors": "Ruixue Jia, Masayuki Kudamatsu & David Seim",
+   "year": 2015,
+   "journal": "Journal of the European Economic Association",
+   "title": "Political Selection in China: The Complementary Roles of Connections and Performance",
+   "claim": "Provincial growth raises promotion chances mainly for leaders connected to top officials, so connections and performance are complements.",
+   "method": "Panel of provincial leaders",
+   "themes": [
+    "elite"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1111/jeea.12124); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1111/jeea.12124"
+  },
+  {
+   "id": "bovingdon2010",
+   "type": "work",
+   "label": "Bovingdon 2010",
+   "authors": "Gardner Bovingdon",
+   "year": 2010,
+   "journal": "Columbia University Press (book)",
+   "title": "The Uyghurs: Strangers in Their Own Land",
+   "claim": "Beijing's policies in Xinjiang, swinging between accommodation and coercion, have bred everyday Uyghur resistance and a nationalist identity.",
+   "method": "Historical and ethnographic analysis",
+   "themes": [
+    "periphery"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2012, DOI 10.1353/jwh.2012.0105); metadata from memory"
+  },
+  {
+   "id": "achenwang2017",
+   "type": "work",
+   "label": "Achen 2017",
+   "authors": "Christopher H. Achen & T. Y. Wang (eds.)",
+   "year": 2017,
+   "journal": "University of Michigan Press (book)",
+   "title": "The Taiwan Voter",
+   "claim": "Taiwanese voting is structured by national identity and the China question, which shape partisanship more than economic or class issues.",
+   "method": "Election surveys, Taiwan",
+   "themes": [
+    "periphery",
+    "nationalism"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.3998/mpub.9375036); claim is my summary, not re-read this session",
+   "crossref_doi": "10.3998/mpub.9375036"
+  },
+  {
+   "id": "spires2011",
+   "type": "work",
+   "label": "Spires 2011",
+   "authors": "Anthony J. Spires",
+   "year": 2011,
+   "journal": "American Journal of Sociology",
+   "title": "Contingent Symbiosis and Civil Society in an Authoritarian State: Understanding the Survival of China's Grassroots NGOs",
+   "claim": "Unregistered grassroots NGOs survive because local officials tolerate them while they fill welfare gaps and avoid political claims, a fragile contingent symbiosis.",
+   "method": "Ethnographic fieldwork with NGOs",
+   "themes": [
+    "civil-society"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1086/660741); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1086/660741"
+  },
+  {
+   "id": "leezhang2013",
+   "type": "work",
+   "label": "Lee 2013",
+   "authors": "Ching Kwan Lee & Yonghong Zhang",
+   "year": 2013,
+   "journal": "American Journal of Sociology",
+   "title": "The Power of Instability: Unraveling the Microfoundations of Bargained Authoritarianism in China",
+   "claim": "Grassroots officials buy stability through protest bargaining, legal-bureaucratic absorption and patron-client ties, making authoritarian rule a market of negotiated concessions.",
+   "method": "Ethnographic fieldwork, Chinese localities",
+   "themes": [
+    "contention",
+    "repression"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: metadata checked against the Crossref record (DOI 10.1086/670802); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1086/670802"
   }
  ]
 }

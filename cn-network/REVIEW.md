@@ -1,6 +1,6 @@
 # Chinese politics, c. 1986–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 183 work nodes, 16 theme nodes and 183 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[lieberthal1988]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 228 work nodes, 16 theme nodes and 245 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[lieberthal1988]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Your library:** the China-related entries in `papers.json` (from the *Gov Iain China*, *China Econ Poli*, *China Power* and *China Growth* groups, among others). Some have full analyses; for the others I used their abstracts.
@@ -155,6 +155,15 @@ The hukou system was devolved, not abolished `[wingchan2008]`. Urban land became
 2. **Text as the new data source.** Field and survey access has shrunk, while official text (speeches, documents, government portals, state media) has grown. Validated LLM annotation of official text is the most promising way to measure policy priorities, loyalty signals, ideological campaigns and responsiveness. That is your methods comparative advantage.
 3. **Party-state capitalism as a variable.** Section 9's qualitative concept can be measured at the firm level and linked to foreign screening, sanctions exposure and dual-use trade. This bridges China studies to the IPE map's geoeconomics section.
 4. **China and the autocratic order.** Section 15 shows limited evidence of deliberate autocracy promotion. Your work on autocratic rise and order contestation can sharpen the distinction between China making the world safe for autocracy and actively spreading it.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 45 works (39 new, 6 shared with other maps) and 67 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 45 works to the Chinese politics map: 28 top-journal or field-journal top-journal articles (World Politics, APSR, AJPS, JOP, BJPS, CP, IS, PSRM), 11 landmark books and articles (Manion, Pan, Mattingly, Hou, Ang, Spires, Lee and Zhang), and 6 imports. It fills thin themes (periphery with Xinjiang and Taiwan; civil society; environment; repression and propaganda) and anchors debates on selective implementation, propaganda as signaling, consultation and censorship, and the costs of the anticorruption campaign.
+
+Of the new works, 1 exists in Crossref only through a review (Bovingdon 2010).
 
 ## What I could not verify (flagged)
 

@@ -1,6 +1,6 @@
 # Political theory, c. 1755–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 407 work nodes, 17 theme nodes and 449 typed relations. Each theme section follows the same order: **what was claimed → what is broadly accepted → what is contested → gaps and openings**. In normative theory "settled" means rough consensus on the terms of debate, not empirical proof. Node ids in brackets (e.g. `[rawls1971]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 453 work nodes, 17 theme nodes and 526 typed relations. Each theme section follows the same order: **what was claimed → what is broadly accepted → what is contested → gaps and openings**. In normative theory "settled" means rough consensus on the terms of debate, not empirical proof. Node ids in brackets (e.g. `[rawls1971]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Your library:** 38 works come from `papers.json`, mostly the *Gov Theory* reading list (Rawls, Anderson, Cohen, Shelby, Fricker, Fraser, Taylor, Okin, Haslanger, Crenshaw, Waldron, Zacka and others). Many of those entries are PDF excerpts, so I supplied their bibliographic details by hand and checked them in Crossref.
@@ -195,6 +195,13 @@ One-line claims for non-library works are my summaries, not re-read this session
 1. **Global justice meets IPE.** Structural injustice `[young2011]`, resource justice `[wenar2008]` and limitarianism `[robeyns2022]` connect normative theory to your trade and inequality work.
 2. **Domination in the economy.** Republican work on labor and algorithms `[anderson2017]`, `[muldoonraekstad2023]` connects to the political economy of globalization.
 3. **Theory with data.** Grounded normative theory `[ackerly2021]` and empirical deliberation research `[parthasarathy2019]` suit LLM text analysis.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 46 works (41 new, 5 shared with other maps) and 89 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 41 works and 5 imports, mostly top-journal articles from APSR, Ethics, Philosophy & Public Affairs, Political Theory and BJPS. They cover classic debates the map lacked: Harsanyi against Rawls, Cohen's 'site of justice' and 'facts and principles', Wolff on luck egalitarianism, Blake's coercion-based statism, Simmons and Buchanan on legitimacy, Manin, Sanders and Young on deliberation, Cohen 1986 and Grofman and Feld on epistemic democracy, and Pettit and McCormick on republicanism. Imports and newer work (Mittiga, Krause, Lane, Shue, Duus-Otterström, Clayton et al.) strengthen the climate, representation, feminism and populism themes.
 
 ## What I could not verify (flagged)
 

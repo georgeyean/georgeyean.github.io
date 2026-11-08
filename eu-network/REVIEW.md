@@ -1,6 +1,6 @@
 # European politics, c. 1950–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 311 work nodes, 19 theme nodes and 363 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[haas1958]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 355 work nodes, 19 theme nodes and 426 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[haas1958]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Shared works:** 50 works already in other maps are reused. Most (24) come from the comparative politics map: populism and the radical right, backsliding, welfare states and varieties of capitalism, and new cleavages. Others come from political economy and IPE (the eurozone crisis, Brexit and trade shocks, social Europe), IR (liberal theory, the Court of Justice, EU accession), race and ethnic politics and American politics (immigration attitudes, cultural backlash), technology (the Brussels effect, automation and the populist right), political psychology (Brexit identities), environment (EU climate diplomacy) and political theory (the EU's legitimacy deficits).
@@ -69,6 +69,15 @@ Relations are judgments of how each work's argument relates to the other's, and 
 **Settled.** Differentiation is a lasting feature `[stubb1996]`, `[leuffen2013]`, `[schimmelfennig2015di]`. **Contested.** Instrumental versus constitutional logics `[schimmelfennigwinzen2014]`; limits for the rule of law `[kelemen2019]`. **Gaps.** Brexit as differentiated disintegration `[schimmelfennig2018brexit]`.
 
 ---
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 44 works (42 new, 2 shared with other maps) and 63 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 44 works (42 new, 2 imported), weighted toward the thinnest themes: differentiated integration (Kölliker, Adler-Nissen, Schimmelfennig & Winzen 2020, de Blok & de Vries, Jurado et al.), Europeanization and compliance (Ladrech, Börzel 2002, Knill & Lehmkuhl, Tallberg, Checkel, Thomson et al.), EP elections and referendums (Marsh, Schmitt, Franklin et al., Carrubba, Schulte-Cloos, Walter et al.), European courts (Alter, Garrett et al., Stone Sweet & Brunell, Kelemen, S.K. Schmidt, Pavone), and EU institutions and regulation (Hix, Hix-Noury-Roland, Crombez, Franchino, Häge, The European Union Decides, Thatcher & Stone Sweet, Eberlein & Grande, Klüver). It also adds the Moravcsik vs Sandholtz-Zysman SEA debate and EMU political economy (Hall & Franzese, Frieden, Iversen et al.).
+
+Of the new works, 1 exists in Crossref only through a review (Börzel 2002); 2 were not found as their own Crossref record, so their metadata comes from memory (Kölliker 2001, Schimmelfennig 2020).
 
 ## What I could not verify (flagged)
 Every anchor and library seed (95) was checked in Crossref: 73 matched directly. 16 books exist in Crossref only through reviews or chapters about them: Bartolini 1990, Blyth 2013, Cowles 2001, Emmenegger 2012, Grzymała-Busse 2007, Haas 1958, Hooghe 2003, Hutter 2016, Leibfried 1995, Majone 1996, Moravcsik 2002, Mundell 1961, Risse 2010, Scheppele 2018, Schimmelfennig 2005, van der Eijk 1996. 6 were not found as their own Crossref record, so their metadata comes from memory: Clarke 2017, Duchêne 1972, Ford 2014, Leuffen 2013, Lipset 1967, Scharpf 2002.

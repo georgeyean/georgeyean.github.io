@@ -1,6 +1,6 @@
 # Technology and AI politics, c. 1980–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 269 work nodes, 17 theme nodes and 275 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[winner1980]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 313 work nodes, 17 theme nodes and 323 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[winner1980]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Your library:** seven works come from `papers.json`, including:
@@ -76,6 +76,15 @@ One-line claims for non-library works are my summaries, not re-read this session
 1. **AI and the politics of globalization.** AI attitudes resemble trade attitudes `[magistro2025]`, `[milnerpopulism2021]`, which links this map to IPE.
 2. **Tech rivalry and economic security.** Diffusion, export controls and weaponized interdependence `[ding2024]`, `[farrell2019]`.
 3. **LLM measurement.** Validated annotation `[egami2025]`, `[benoit2026]`.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 44 works (34 new, 10 shared with other maps) and 62 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Fills gaps with top-journal political science on technology: digital repression and propaganda (Gohdes, Hobbs-Roberts, Huang, Mattingly-Yao, Stukal et al., Lu-Pan-Xu), technology and protest (Little, Christensen-Garfias, Larson et al.), the political economy of the digital divide, echo chambers and news exposure with tracking data, the liar's dividend and deepfake credibility, cyber restraint and military AI, AI geopolitics and governance (Weymouth, Vaynman-Volpe, Stanger et al., Farrell), algorithm trust and fairness theory, digitalization winners, and two landmark books on AI labor; imports MENA/CN/psy/methods/IPE works central to the field.
+
+Of the new works, 2 exist in Crossref only through reviews (Gray 2019, Acemoglu 2023).
 
 ## What I could not verify (flagged)
 - **Anchors and library seeds:** 83 were checked in Crossref.

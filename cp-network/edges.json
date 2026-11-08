@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 259,
+   "work_nodes": 304,
    "theme_nodes": 18,
    "seed_from_papers_json": 53,
    "crossref_top_cited": 154,
    "anchors_supplement": 52,
-   "relation_edges": 247,
-   "membership_edges": 411
+   "relation_edges": 315,
+   "membership_edges": 482,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. Works shared with the IPE, security and IR maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref (books often via reviews, chapters or reprint DOIs). One-line claims for non-repo works are my summaries."
  },
@@ -1505,6 +1506,414 @@
    "target": "powellthyne2011",
    "type": "builds_on",
    "why": "Global coup data underpin the analysis of protest and coup coordination."
+  },
+  {
+   "source": "rustow1970",
+   "target": "lipset1959",
+   "type": "challenges",
+   "why": "Argues the conditions that sustain an existing democracy differ from those that create it, contesting functional prerequisites and offering a phase-based model driven by elite decisions."
+  },
+  {
+   "source": "odonnell1986",
+   "target": "rustow1970",
+   "type": "builds_on",
+   "why": "Develops Rustow's elite-centred genetic model of transition into a theory of pacts and splits between regime hardliners and softliners."
+  },
+  {
+   "source": "ziblatt2017",
+   "target": "moore1966",
+   "type": "qualifies",
+   "why": "Recasts Moore's landed-elite thesis: old-regime elites need not block democracy if a strong conservative party lets them win under open competition."
+  },
+  {
+   "source": "levitskyziblatt2018",
+   "target": "ziblatt2017",
+   "type": "builds_on",
+   "why": "Generalizes the historical claim that robust conservative parties act as gatekeepers against extremists into a diagnosis of contemporary democratic breakdown."
+  },
+  {
+   "source": "treisman2020",
+   "target": "acemoglurobinson2006",
+   "type": "challenges",
+   "why": "Finds most democratizations stem from incumbent errors rather than deliberate concessions by elites seeking to forestall revolution."
+  },
+  {
+   "source": "treisman2020",
+   "target": "odonnell1986",
+   "type": "qualifies",
+   "why": "Shows that many of O'Donnell and Schmitter's liberalizing softliners were autocrats who miscalculated rather than leaders who intended to democratize."
+  },
+  {
+   "source": "svolik2014bjps",
+   "target": "przeworski1997",
+   "type": "qualifies",
+   "why": "Shows income protects democracies from coups and incumbent takeovers chiefly by marking which democracies are consolidated, refining the Przeworski-Limongi survival finding."
+  },
+  {
+   "source": "bermeo2016",
+   "target": "svolik2014bjps",
+   "type": "builds_on",
+   "why": "Uses the distinction between military coups and incumbent takeovers to document the shift from open coups toward executive aggrandizement."
+  },
+  {
+   "source": "svolik2020",
+   "target": "svolik2019",
+   "type": "builds_on",
+   "why": "Supplies the formal model behind the claim that polarized voters trade democratic principles for partisan interests."
+  },
+  {
+   "source": "svolik2020",
+   "target": "foamounk2016",
+   "type": "challenges",
+   "why": "Locates the threat to democracy in polarization that makes voters tolerate partisan abuses, not in a secular decline of citizens' commitment to democracy."
+  },
+  {
+   "source": "claassen2020",
+   "target": "foamounk2016",
+   "type": "mechanism_tested_by",
+   "why": "Tests with a 135-country panel whether mass support for democracy sustains it, finding support predicts later democratic survival."
+  },
+  {
+   "source": "claassen2019mood",
+   "target": "foamounk2017",
+   "type": "challenges",
+   "why": "Finds democratic support falls after democratic gains and rises after backsliding, so falling support is not evidence of secular deconsolidation."
+  },
+  {
+   "source": "claassen2019mood",
+   "target": "claassen2020",
+   "type": "builds_on",
+   "why": "Complements the finding that support sustains democracy by showing that changes in democracy also feed back into support."
+  },
+  {
+   "source": "grilloprato2021",
+   "target": "svolik2020",
+   "type": "builds_on",
+   "why": "Extends the voter-tolerance logic with reference-dependent preferences, so each small violation resets expectations and escapes punishment."
+  },
+  {
+   "source": "grilloprato2021",
+   "target": "bermeo2016",
+   "type": "builds_on",
+   "why": "Formalizes why contemporary backsliding takes the incremental executive-aggrandizement form Bermeo describes rather than abrupt coups."
+  },
+  {
+   "source": "luoprzeworski2023",
+   "target": "haggardkaufman2021",
+   "type": "builds_on",
+   "why": "Models the incremental executive aggrandizement Haggard and Kaufman trace, showing concealment of the endpoint lets incumbents dismantle checks voters would reject wholesale."
+  },
+  {
+   "source": "luoprzeworski2023",
+   "target": "levitskyziblatt2018",
+   "type": "builds_on",
+   "why": "Formalizes subversion by stealth, specifying when voters fail to stop an incumbent before democratic checks are gone."
+  },
+  {
+   "source": "gandhiprzeworski2007",
+   "target": "wintrobe1990",
+   "type": "builds_on",
+   "why": "Builds on Wintrobe's view that dictators must purchase loyalty as well as repress, treating nominally democratic institutions as devices for co-opting opponents."
+  },
+  {
+   "source": "svolik2012book",
+   "target": "wintrobe1990",
+   "type": "builds_on",
+   "why": "Starts from Wintrobe's loyalty-repression trade-off to analyze the separate problems of authoritarian power-sharing and control."
+  },
+  {
+   "source": "myerson2008",
+   "target": "northweingast1989",
+   "type": "extends_to_new_case",
+   "why": "Applies North and Weingast's credible-commitment logic to the autocrat's own supporters, who need institutions to punish a ruler who reneges."
+  },
+  {
+   "source": "boixsvolik2013",
+   "target": "myerson2008",
+   "type": "builds_on",
+   "why": "Models when authoritarian institutions make power-sharing credible, formalizing Myerson's claim that autocrats need institutions to bind themselves to supporters."
+  },
+  {
+   "source": "levitskyway2012",
+   "target": "magaloni2008",
+   "type": "challenges",
+   "why": "Attributes ruling-party cohesion to shared origins in violent struggle, not to patronage or credible power-sharing arrangements, which tend to fail in crises."
+  },
+  {
+   "source": "levitskyway2012",
+   "target": "huntington1968",
+   "type": "builds_on",
+   "why": "Revives Huntington's link between revolutionary origins and strong institutionalized parties to explain authoritarian durability."
+  },
+  {
+   "source": "maleskyschuler2010",
+   "target": "gandhi2008",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether authoritarian legislatures serve co-optation and information functions using query sessions in Vietnam's National Assembly."
+  },
+  {
+   "source": "truex2016",
+   "target": "maleskyschuler2010",
+   "type": "builds_on",
+   "why": "Builds on evidence from Vietnam that authoritarian deputies relay constituent concerns to argue Chinese consultative institutions channel information to the regime."
+  },
+  {
+   "source": "lohmann1994",
+   "target": "kuran1991",
+   "type": "builds_on",
+   "why": "Formalizes the revelation of hidden anti-regime preferences as an informational cascade driven by observed protest turnout in Leipzig."
+  },
+  {
+   "source": "kernhainmueller2009",
+   "target": "lohmann1994",
+   "type": "challenges",
+   "why": "Finds outside information via West German TV made East Germans more satisfied with the regime, contrary to the view that information flows fuel mobilization against autocracy."
+  },
+  {
+   "source": "stockmann2011",
+   "target": "kernhainmueller2009",
+   "type": "builds_on",
+   "why": "Like Kern and Hainmueller, finds media exposure can stabilize authoritarian rule, here because marketized Chinese media appear credible while staying within party limits."
+  },
+  {
+   "source": "huang2015cp",
+   "target": "stockmann2011",
+   "type": "challenges",
+   "why": "Argues propaganda works by signalling regime strength rather than by persuasion, so exposure breeds fear of the state rather than approval."
+  },
+  {
+   "source": "roberts2018",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Generalizes the finding of porous, selective censorship into a theory of fear, friction and flooding that steers most citizens away from sensitive information."
+  },
+  {
+   "source": "guriev2019",
+   "target": "egorov2009",
+   "type": "builds_on",
+   "why": "Generalizes the logic of information-tolerant dictators into informational autocrats who maintain a reputation for competence through manipulation rather than mass repression."
+  },
+  {
+   "source": "rozenasstukal2019",
+   "target": "guriev2019",
+   "type": "mechanism_tested_by",
+   "why": "Tests a core tactic of informational autocracy: Russian state TV blames foreign actors for bad economic news and credits the Kremlin for good news."
+  },
+  {
+   "source": "lizhou2005",
+   "target": "obrienli1999",
+   "type": "builds_on",
+   "why": "Formalizes the cadre-evaluation incentives O'Brien and Li identified, showing personnel control tied to measurable targets drives local officials' behavior."
+  },
+  {
+   "source": "wallace2014",
+   "target": "obrienli1999",
+   "type": "builds_on",
+   "why": "Extends the finding that cadres prioritize hard measurable targets to show how target-based evaluation produces manipulated statistics."
+  },
+  {
+   "source": "stasavage2010",
+   "target": "northweingast1989",
+   "type": "qualifies",
+   "why": "Shows representative assemblies constrained rulers and secured credit mainly in compact polities where representatives could meet often and monitor the executive."
+  },
+  {
+   "source": "abramson2016",
+   "target": "tilly1990",
+   "type": "challenges",
+   "why": "Finds European territorial states formed where prosperity let local elites fund independent rule, and that war did not systematically eliminate small states."
+  },
+  {
+   "source": "weingast1997",
+   "target": "northweingast1989",
+   "type": "builds_on",
+   "why": "Generalizes self-enforcing limits on the sovereign into a coordination model in which citizens jointly police state transgressions."
+  },
+  {
+   "source": "haggard2008",
+   "target": "weingast1997",
+   "type": "builds_on",
+   "why": "Treats Weingast's coordination account as a foundational explanation of how limits on government become self-enforcing when reviewing the rule of law and development."
+  },
+  {
+   "source": "hardingstasavage2014",
+   "target": "ross2006",
+   "type": "qualifies",
+   "why": "Shows African democracies abolished visible school fees but did not improve hard-to-monitor inputs, specifying when democracy does and does not help the poor."
+  },
+  {
+   "source": "ross2001",
+   "target": "ross1999",
+   "type": "builds_on",
+   "why": "Tests the rentier, repression and modernization mechanisms catalogued in the review of resource-curse explanations."
+  },
+  {
+   "source": "ross1999",
+   "target": "karl1997",
+   "type": "synthesizes",
+   "why": "Integrates Karl's account of how oil booms shape petro-state institutions with cognitive and societal explanations of the resource curse."
+  },
+  {
+   "source": "dunning2008",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "Argues resource rents can promote democracy where non-resource inequality is high, because rents reduce elites' fear of redistribution."
+  },
+  {
+   "source": "ross2012",
+   "target": "ross2008",
+   "type": "builds_on",
+   "why": "Folds the oil-and-women argument into a broader account of how the size, secrecy and volatility of petroleum revenues shape regimes, gender and conflict."
+  },
+  {
+   "source": "ross2012",
+   "target": "habermenaldo2011",
+   "type": "challenges",
+   "why": "Defends the oil-authoritarianism link against Haber and Menaldo's long-run reappraisal, arguing the curse emerged after the 1970s nationalizations."
+  },
+  {
+   "source": "ross2004",
+   "target": "ross2001",
+   "type": "mechanism_tested_by",
+   "why": "Tests the taxation-representation mechanism behind rentier theory, finding taxes relative to services, not tax levels, predict democratization."
+  },
+  {
+   "source": "paler2013",
+   "target": "ross2004",
+   "type": "mechanism_tested_by",
+   "why": "Field experiment shows citizens told spending is tax-financed rather than windfall-financed monitor and sanction government more, micro evidence on why rents weaken accountability."
+  },
+  {
+   "source": "brookskurtz2016",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "Treats oil production as endogenous to prior industrialization and finds no anti-democratic effect once that endogeneity is modelled."
+  },
+  {
+   "source": "brookskurtz2016",
+   "target": "habermenaldo2011",
+   "type": "builds_on",
+   "why": "Reinforces Haber and Menaldo's skepticism about the political resource curse with a different identification strategy."
+  },
+  {
+   "source": "paxton2010",
+   "target": "matlandstudlar1996",
+   "type": "builds_on",
+   "why": "Draws on evidence that PR systems foster contagion of women candidates when modelling the growth of women's legislative representation over time."
+  },
+  {
+   "source": "caul2001",
+   "target": "matlandstudlar1996",
+   "type": "builds_on",
+   "why": "Finds parties adopt gender quotas partly through contagion after rivals do, extending the contagion mechanism from nominations to formal rules."
+  },
+  {
+   "source": "tripp2008",
+   "target": "caul2001",
+   "type": "builds_on",
+   "why": "Moves from party-level quota adoption to the global spread of national quotas and their effects."
+  },
+  {
+   "source": "wolbrechtcampbell2007",
+   "target": "mansbridge1999",
+   "type": "mechanism_tested_by",
+   "why": "Tests the role-model effect of descriptive representation, finding girls and women are more politically engaged where female MPs are more visible."
+  },
+  {
+   "source": "chattopadhyayduflo2004",
+   "target": "mansbridge1999",
+   "type": "mechanism_tested_by",
+   "why": "Uses randomized reservation of village council leadership for women in India to show women leaders invest in goods women prefer."
+  },
+  {
+   "source": "claytonzetterberg2018",
+   "target": "chattopadhyayduflo2004",
+   "type": "extends_to_new_case",
+   "why": "Extends the finding that women leaders shift spending toward women's priorities from Indian villages to national quotas and budgets worldwide."
+  },
+  {
+   "source": "morris2010",
+   "target": "seligson2002",
+   "type": "builds_on",
+   "why": "Builds on evidence that corruption victimization erodes regime legitimacy, modelling corruption and trust as mutually reinforcing in Mexico."
+  },
+  {
+   "source": "changgoldenhill2010",
+   "target": "ferrazfinan2008",
+   "type": "qualifies",
+   "why": "Shows voters punished malfeasant Italian deputies only once press coverage expanded, a condition on when corruption information produces accountability."
+  },
+  {
+   "source": "weitzshapiro2017",
+   "target": "ferrazfinan2008",
+   "type": "builds_on",
+   "why": "Starts from evidence that released audits lower corrupt incumbents' vote shares and asks when citizens find such information credible."
+  },
+  {
+   "source": "iversensoskice2001",
+   "target": "hallsoskice2001",
+   "type": "builds_on",
+   "why": "Derives social-policy preferences from skill specificity, supplying the micro-foundation linking coordinated market economies to generous social insurance."
+  },
+  {
+   "source": "rehm2009",
+   "target": "iversensoskice2001",
+   "type": "builds_on",
+   "why": "Replaces skill specificity with occupational unemployment risk as the micro-level driver of demand for redistribution."
+  },
+  {
+   "source": "moenewallerstein2001",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Shows that when spending is insurance rather than pure redistribution, greater inequality lowers the median voter's demand for spending."
+  },
+  {
+   "source": "moenewallerstein2003",
+   "target": "moenewallerstein2001",
+   "type": "mechanism_tested_by",
+   "why": "Tests the insurance model on disaggregated spending, finding inequality reduces insurance-type welfare spending."
+  },
+  {
+   "source": "korpi2006",
+   "target": "swenson1991",
+   "type": "challenges",
+   "why": "Defends power-resources theory against employer-centred accounts, arguing employers consented to welfare reforms rather than being their protagonists."
+  },
+  {
+   "source": "boix1999",
+   "target": "cox1997",
+   "type": "builds_on",
+   "why": "Applies strategic-coordination logic to the choice of electoral rules, explaining switches to PR by threatened ruling parties."
+  },
+  {
+   "source": "kitschelt2007",
+   "target": "kitschelt2000",
+   "type": "builds_on",
+   "why": "Expands the typology of programmatic versus clientelistic linkages into a comparative research program on democratic accountability."
+  },
+  {
+   "source": "keefer2007",
+   "target": "kitschelt2000",
+   "type": "builds_on",
+   "why": "Explains the prevalence of clientelistic linkages in young democracies by politicians' inability to make credible programmatic promises."
+  },
+  {
+   "source": "buenodemesquita2010",
+   "target": "kuran1991",
+   "type": "builds_on",
+   "why": "Adds a vanguard whose violence signals regime weakness, showing how entrepreneurs shift thresholds in preference-falsification models of revolution."
+  },
+  {
+   "source": "lijphart1999",
+   "target": "lijphart1969",
+   "type": "builds_on",
+   "why": "Generalizes the consociational model of elite accommodation in segmented societies into the broader consensus-democracy type."
+  },
+  {
+   "source": "baccaropontusson2016",
+   "target": "hallsoskice2001",
+   "type": "challenges",
+   "why": "Replaces supply-side institutional complementarities with demand-side growth models to explain divergence among advanced economies after the 1990s."
   },
   {
    "source": "lipset1959",
@@ -3969,6 +4378,432 @@
   {
    "source": "steinberg2014",
    "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "claassen2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roberts2018",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "roberts2018",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guriev2019",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guriev2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karl1997",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "karl1997",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2008",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dunning2008",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2012",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2012",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chattopadhyayduflo2004",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chattopadhyayduflo2004",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrazfinan2008",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ferrazfinan2008",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baccaropontusson2016",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rustow1970",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziblatt2017",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ziblatt2017",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treisman2020",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "treisman2020",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2014bjps",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2014bjps",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "svolik2020",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "claassen2019mood",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grilloprato2021",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "luoprzeworski2023",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wintrobe1990",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myerson2008",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "myerson2008",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitskyway2012",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maleskyschuler2010",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lohmann1994",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lohmann1994",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kernhainmueller2009",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2015cp",
+   "target": "info-control",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2015cp",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obrienli1999",
+   "target": "china",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stasavage2010",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stasavage2010",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abramson2016",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weingast1997",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weingast1997",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hardingstasavage2014",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hardingstasavage2014",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross1999",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2004",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2004",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paler2013",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brookskurtz2016",
+   "target": "resources",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "brookskurtz2016",
+   "target": "democratization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matlandstudlar1996",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "matlandstudlar1996",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caul2001",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "caul2001",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wolbrechtcampbell2007",
+   "target": "gender",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "seligson2002",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "changgoldenhill2010",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "changgoldenhill2010",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2001",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2001",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moenewallerstein2001",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "swenson1991",
+   "target": "cpe",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "swenson1991",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boix1999",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "boix1999",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt2000",
+   "target": "clientelism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kitschelt2000",
+   "target": "parties",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "buenodemesquita2010",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1969",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lijphart1969",
+   "target": "ethnicity",
    "type": "belongs_to",
    "why": "theme membership"
   }

@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 218,
+   "work_nodes": 263,
    "theme_nodes": 17,
    "seed_from_papers_json": 102,
    "crossref_top_cited": 92,
    "anchors_supplement": 24,
-   "relation_edges": 233,
-   "membership_edges": 373
+   "relation_edges": 313,
+   "membership_edges": 446,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. Works shared with the IPE and security maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref (books often via reviews, chapters or reprint DOIs). One-line claims for non-repo works are my summaries."
  },
@@ -1421,6 +1422,486 @@
    "target": "hbnetwork2009",
    "type": "synthesizes",
    "why": "Dependence networks shape positions."
+  },
+  {
+   "source": "acharya2004",
+   "target": "finnemore1998",
+   "type": "qualifies",
+   "why": "Shows transnational norms take root in Southeast Asia only when local actors reconstruct them to fit prior regional norms, a localization condition on the cascade stage of the norm life cycle."
+  },
+  {
+   "source": "acharya2011",
+   "target": "acharya2004",
+   "type": "builds_on",
+   "why": "Extends norm localization to norm subsidiarity, in which weaker regional states craft their own rules to resist great-power dominance."
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "borzyskowski2019",
+   "type": "builds_on",
+   "why": "Moves from why states withdraw from IOs to how a voter-endorsed exit like Brexit changes mass support for withdrawal in other member states."
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "hooghe2019",
+   "type": "builds_on",
+   "why": "Treats referendum-driven withdrawal as a channel through which the politicization of international authority spreads across borders."
+  },
+  {
+   "source": "hale2020",
+   "target": "haleroger2014",
+   "type": "synthesizes",
+   "why": "Integrates orchestration and transnational climate initiatives into a broader review of how transnational actors govern global environmental problems."
+  },
+  {
+   "source": "carrubba2008",
+   "target": "alter1998",
+   "type": "challenges",
+   "why": "Finds the ECJ adjusts its rulings to member governments’ briefs and override threats, contesting the view that governments lost control of the Court."
+  },
+  {
+   "source": "larssonnaurin2016",
+   "target": "carrubba2008",
+   "type": "builds_on",
+   "why": "Refines the political-constraint account by showing the Court responds to the measured risk of legislative override in the Council."
+  },
+  {
+   "source": "stonesweet2012",
+   "target": "carrubba2008",
+   "type": "challenges",
+   "why": "Reanalyses the ECJ data to argue that override threats are not credible and that the Court does not track member-state preferences."
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "keohanevictor2011",
+   "type": "challenges",
+   "why": "Argues climate cooperation is stalled by domestic distributive conflict between winners and losers of decarbonization, not by the free-rider problem that treaty-design and regime-complex accounts assume."
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "sprinzvaahtoranta1994",
+   "type": "builds_on",
+   "why": "Revives the interest-based view that domestic abatement costs and their bearers, rather than collective-action dilemmas, drive states’ environmental positions."
+  },
+  {
+   "source": "colgan2021",
+   "target": "aklinmildenberger2020",
+   "type": "builds_on",
+   "why": "Extends the distributive-conflict view by casting climate politics as a struggle between holders of climate-forcing and climate-vulnerable assets."
+  },
+  {
+   "source": "lipscy2017",
+   "target": "lipscy2015",
+   "type": "builds_on",
+   "why": "Generalizes the outside-options and policy-area argument from the Bretton Woods institutions to explain renegotiation across many international organizations."
+  },
+  {
+   "source": "busch2007",
+   "target": "raustiala2004",
+   "type": "extends_to_new_case",
+   "why": "Applies the strategic use of overlapping institutions to trade disputes, showing how states choose between WTO and regional dispute forums."
+  },
+  {
+   "source": "alter2009",
+   "target": "busch2007",
+   "type": "synthesizes",
+   "why": "Folds the forum-shopping evidence from trade dispute settlement into a general framework of the politics of regime complexity."
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "ikenberry2001",
+   "type": "challenges",
+   "why": "Argues the liberal order was an artifact of unipolarity whose overreach doomed it, contesting the claim that institutional restraint makes liberal orders durable."
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "ikenberry2009",
+   "type": "challenges",
+   "why": "Rejects the prescription of a more universal liberal order, arguing realist bounded orders will replace it as multipolarity returns."
+  },
+  {
+   "source": "axelrodkeohane1985",
+   "target": "axelrod1981",
+   "type": "builds_on",
+   "why": "Carries the iterated-game logic of reciprocity into world politics, identifying payoff structure, the shadow of the future and the number of players as conditions for cooperation."
+  },
+  {
+   "source": "axelrodkeohane1985",
+   "target": "keohane1984",
+   "type": "builds_on",
+   "why": "Specifies how regimes lengthen the shadow of the future and enable issue linkage and reciprocity, giving After Hegemony’s functional theory game-theoretic conditions."
+  },
+  {
+   "source": "grieco1988",
+   "target": "keohane1984",
+   "type": "challenges",
+   "why": "Argues relative-gains concerns block cooperation even when institutions solve cheating problems, a realist critique of neoliberal institutionalism."
+  },
+  {
+   "source": "grieco1988",
+   "target": "waltz1979",
+   "type": "builds_on",
+   "why": "Derives defensive positionalism from the self-help logic of anarchy in structural realism."
+  },
+  {
+   "source": "mearsheimer1994",
+   "target": "grieco1988",
+   "type": "builds_on",
+   "why": "Uses the relative-gains argument as a core reason why institutions cannot independently cause peace."
+  },
+  {
+   "source": "powell1991",
+   "target": "grieco1988",
+   "type": "qualifies",
+   "why": "Shows relative-gains concerns impede cooperation only when the use of force is a live option, a scope condition on the realist critique."
+  },
+  {
+   "source": "abbottsnidal1998",
+   "target": "keohane1984",
+   "type": "builds_on",
+   "why": "Moves from decentralized regimes to formal IOs, arguing centralization and independence give states benefits unavailable through regimes alone."
+  },
+  {
+   "source": "koremenos2001",
+   "target": "abbottsnidal1998",
+   "type": "builds_on",
+   "why": "Treats centralization, one of the IO features Abbott and Snidal theorize, as a design dimension explained by underlying cooperation problems."
+  },
+  {
+   "source": "abbottsnidal2000",
+   "target": "lipson1991",
+   "type": "builds_on",
+   "why": "Develops Lipson’s trade-off between informal flexibility and formal credibility into a continuum of hard and soft law."
+  },
+  {
+   "source": "vabulas2013",
+   "target": "lipson1991",
+   "type": "builds_on",
+   "why": "Extends the logic of informal agreements to informal intergovernmental organizations that lack treaties and secretariats."
+  },
+  {
+   "source": "koremenos2005",
+   "target": "koremenos2001",
+   "type": "mechanism_tested_by",
+   "why": "Tests the rational-design conjecture that uncertainty about the future produces limited duration and renegotiation clauses."
+  },
+  {
+   "source": "koremenos2005",
+   "target": "rosendorff2001",
+   "type": "builds_on",
+   "why": "Generalizes the logic of escape and flexibility under uncertainty from trade institutions to agreements across issue areas."
+  },
+  {
+   "source": "moravcsik2000",
+   "target": "risse1999",
+   "type": "challenges",
+   "why": "Argues binding human rights regimes arose from new democracies locking in domestic institutions, contesting socialization and idealist accounts of human rights norms."
+  },
+  {
+   "source": "hathaway2007",
+   "target": "moravcsik2000",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether domestic enforcement and democratic lock-in shape human rights treaty commitment, finding domestic legal institutions raise the cost of ratification."
+  },
+  {
+   "source": "fariss2019",
+   "target": "cingranelli2018",
+   "type": "challenges",
+   "why": "Rebuts the claim of stagnating human rights by showing improvement once the changing standard of accountability is modeled."
+  },
+  {
+   "source": "fariss2019",
+   "target": "fariss2014",
+   "type": "builds_on",
+   "why": "Defends and extends the dynamic latent variable model of physical integrity rights against its critics."
+  },
+  {
+   "source": "finnemore1996io",
+   "target": "wendt1992",
+   "type": "builds_on",
+   "why": "Imports sociology’s institutionalism to show how global cultural scripts constitute state interests, deepening the constructivist challenge to materialist IR."
+  },
+  {
+   "source": "finnemore1998",
+   "target": "finnemore1996io",
+   "type": "builds_on",
+   "why": "Grounds the norm life cycle in the sociological-institutionalist claim that world-cultural norms shape state identities and interests."
+  },
+  {
+   "source": "checkel2001",
+   "target": "finnemore1998",
+   "type": "qualifies",
+   "why": "Specifies when argumentative persuasion produces norm compliance (novel issues, authoritative persuaders, insulated settings), scope conditions on internalization."
+  },
+  {
+   "source": "deitelhoff2009",
+   "target": "checkel2001",
+   "type": "builds_on",
+   "why": "Applies the study of persuasion to the ICC negotiations, locating arenas where argument rather than bargaining shaped legalization."
+  },
+  {
+   "source": "hurd1999",
+   "target": "wendt1992",
+   "type": "builds_on",
+   "why": "Develops the constructivist claim that internalized social structure generates compliance by theorizing legitimacy as a motive distinct from coercion and interest."
+  },
+  {
+   "source": "voeten2005",
+   "target": "hurd1999",
+   "type": "challenges",
+   "why": "Explains the legitimizing power of UN Security Council authorization as an elite pact that signals limited aims, rather than through internalized normative legitimacy."
+  },
+  {
+   "source": "zurn2018",
+   "target": "hurd1999",
+   "type": "builds_on",
+   "why": "Builds a theory of global governance on the idea that authority must be backed by legitimacy beliefs, which become contested as authority grows."
+  },
+  {
+   "source": "dellmuthtallberg2020",
+   "target": "tallbergzurn2019",
+   "type": "mechanism_tested_by",
+   "why": "Tests experimentally the legitimation and delegitimation mechanism by which elite communication shapes citizens’ beliefs about IOs."
+  },
+  {
+   "source": "dellmuth2022",
+   "target": "dellmuthtallberg2020",
+   "type": "builds_on",
+   "why": "Builds on evidence of elite cueing to document a systematic gap between elite and citizen legitimacy beliefs toward IOs."
+  },
+  {
+   "source": "drezner2009pop",
+   "target": "alter2009",
+   "type": "qualifies",
+   "why": "Argues regime complexity empowers great powers through forum shopping and raises costs for weaker states, a power-based caveat on benign readings of overlap."
+  },
+  {
+   "source": "drezner2009pop",
+   "target": "raustiala2004",
+   "type": "builds_on",
+   "why": "Generalizes the strategic use of overlapping regimes seen in plant genetic resources to the distribution of power in regime complexes."
+  },
+  {
+   "source": "abbottgenschel2015",
+   "target": "hawkins2006",
+   "type": "qualifies",
+   "why": "Contrasts orchestration through intermediaries with principal-agent delegation, arguing each fits different control and competence conditions."
+  },
+  {
+   "source": "abbottgenschel2015",
+   "target": "haleroger2014",
+   "type": "builds_on",
+   "why": "Generalizes orchestration from transnational climate governance into a theory of indirect governance."
+  },
+  {
+   "source": "urpelainen2014",
+   "target": "morsekeohane2014",
+   "type": "builds_on",
+   "why": "Formalizes competitive regime creation, explaining when dissatisfied states build a new overlapping body (as with IRENA) instead of capturing an existing one."
+  },
+  {
+   "source": "gray2018",
+   "target": "shanks1996",
+   "type": "builds_on",
+   "why": "Builds on the finding that many IGOs died after the Cold War to distinguish dead, zombie and vital organizations."
+  },
+  {
+   "source": "eilstrup2018",
+   "target": "shanks1996",
+   "type": "builds_on",
+   "why": "Uses the IGO census tradition that documented post-Cold War IGO deaths to model mortality as an organizational-ecology process."
+  },
+  {
+   "source": "debredijkstra2021",
+   "target": "eilstrup2018",
+   "type": "qualifies",
+   "why": "Shows IOs with larger and more autonomous bureaucracies survive longer, adding secretariat strength as a moderator of organizational mortality."
+  },
+  {
+   "source": "debredijkstra2021",
+   "target": "gray2018",
+   "type": "builds_on",
+   "why": "Extends work on IO vitality by explaining which organizations die rather than linger."
+  },
+  {
+   "source": "young1991",
+   "target": "keohane1984",
+   "type": "qualifies",
+   "why": "Argues regime formation depends on structural, entrepreneurial and intellectual leadership in institutional bargaining, not only on hegemony or functional demand."
+  },
+  {
+   "source": "tallberg2010",
+   "target": "young1991",
+   "type": "builds_on",
+   "why": "Extends the study of leadership in regime formation to the formal agenda-setting power of chairs in multilateral negotiations."
+  },
+  {
+   "source": "battig2009",
+   "target": "sprinzvaahtoranta1994",
+   "type": "builds_on",
+   "why": "Adds domestic political institutions to the vulnerability-and-abatement-cost explanation of states’ environmental positions."
+  },
+  {
+   "source": "battig2009",
+   "target": "neumayer2002",
+   "type": "builds_on",
+   "why": "Extends the democracy–environmental commitment finding by separating climate policy commitment from actual policy output."
+  },
+  {
+   "source": "kennard2020",
+   "target": "aklinmildenberger2020",
+   "type": "qualifies",
+   "why": "Shows some carbon-intensive firms back regulation that hurts dirtier rivals, complicating a simple clean-versus-dirty coalition picture of climate distributive conflict."
+  },
+  {
+   "source": "pevehouse2002ajps",
+   "target": "pevehouse2002",
+   "type": "builds_on",
+   "why": "Extends the outside-in argument from democratic transitions to consolidation, showing democratic regional IO membership lowers breakdown risk."
+  },
+  {
+   "source": "poasturpelainen2015",
+   "target": "pevehouse2002ajps",
+   "type": "qualifies",
+   "why": "Argues IOs help young democracies consolidate mainly through technical assistance and capacity building rather than external enforcement."
+  },
+  {
+   "source": "kelley2004io",
+   "target": "johnston2001",
+   "type": "challenges",
+   "why": "Finds membership conditionality, not social influence or persuasion, drove minority-rights policy change in European candidate states."
+  },
+  {
+   "source": "donno2010",
+   "target": "kelley2004io",
+   "type": "builds_on",
+   "why": "Extends the conditionality logic to regional organizations’ punishment of democratic backsliding by members."
+  },
+  {
+   "source": "hyde2011",
+   "target": "hyde2007",
+   "type": "builds_on",
+   "why": "Uses the observer effect to argue pseudo-democrats invite monitors to signal democratic credentials, spreading the monitoring norm."
+  },
+  {
+   "source": "hughes2015",
+   "target": "bush2011",
+   "type": "builds_on",
+   "why": "Extends the international explanation of gender quota adoption by tracing transnational women’s activism as the diffusion channel."
+  },
+  {
+   "source": "bushzetterberg2021",
+   "target": "bush2011",
+   "type": "mechanism_tested_by",
+   "why": "Tests the reputational mechanism behind quota adoption that Bush 2011 attributes to international scrutiny."
+  },
+  {
+   "source": "newman2008",
+   "target": "keohanenye1974",
+   "type": "builds_on",
+   "why": "Revives transgovernmental relations, showing data-privacy regulators acted as entrepreneurs who spread civil-liberties rules across borders."
+  },
+  {
+   "source": "bach2010",
+   "target": "keohanenye1974",
+   "type": "builds_on",
+   "why": "Tests whether transgovernmental networks of regulators produce domestic policy convergence, the dynamic Keohane and Nye first described."
+  },
+  {
+   "source": "cooleyron2002",
+   "target": "keck1998",
+   "type": "challenges",
+   "why": "Argues transnational NGOs behave as insecure organizations competing for contracts, contesting the principled-network image of advocacy."
+  },
+  {
+   "source": "keohane2000",
+   "target": "alter1998",
+   "type": "builds_on",
+   "why": "Draws on the ECJ’s escape from state control to theorize how judicial independence and transnational access shape legalized dispute resolution."
+  },
+  {
+   "source": "voeten2019",
+   "target": "zurn2018",
+   "type": "builds_on",
+   "why": "Applies the authority–contestation logic to international courts, arguing populists target courts that constrain majorities."
+  },
+  {
+   "source": "voeten2019",
+   "target": "helfervoeten2014",
+   "type": "builds_on",
+   "why": "Explains why progressive rulings of the kind that advanced LGBT rights in Europe become focal points for populist backlash."
+  },
+  {
+   "source": "rathbun2016",
+   "target": "hurwitzpeffley1987",
+   "type": "builds_on",
+   "why": "Roots the hierarchical attitude structure in personal values, extending the model of values constraining foreign policy postures."
+  },
+  {
+   "source": "kertzer2014moral",
+   "target": "hurwitzpeffley1987",
+   "type": "builds_on",
+   "why": "Adds moral foundations to the core values that structure foreign policy postures in the hierarchical model."
+  },
+  {
+   "source": "baumpotter2019",
+   "target": "baum2002",
+   "type": "builds_on",
+   "why": "Updates the soft-news argument about how inattentive publics learn about foreign policy for a fragmented social-media environment."
+  },
+  {
+   "source": "baumgroeling2010",
+   "target": "baum2002",
+   "type": "builds_on",
+   "why": "Builds on the media-exposure account of foreign policy opinion to explain how elite framing loses force as events reveal reality."
+  },
+  {
+   "source": "churecchia2022",
+   "target": "jacobspage2005",
+   "type": "challenges",
+   "why": "Finds experimentally that foreign policy leaders update their preferences in response to public opinion, contesting the finding that business and experts dominate officials’ preferences."
+  },
+  {
+   "source": "ikenberry2009",
+   "target": "ikenberry2001",
+   "type": "builds_on",
+   "why": "Updates the constitutional-order argument, contending that liberal order must shift from US-led hierarchy to a more universal, rule-based form."
+  },
+  {
+   "source": "lake1996",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Argues security relations vary from anarchic alliances to hierarchical empires, rejecting anarchy as a constant of the system."
+  },
+  {
+   "source": "lake2007",
+   "target": "lake1996",
+   "type": "builds_on",
+   "why": "Develops the relational-contracting account of security hierarchy into a theory of authority in world politics."
+  },
+  {
+   "source": "ruggie1993",
+   "target": "waltz1979",
+   "type": "challenges",
+   "why": "Argues neorealism cannot explain the medieval-to-modern shift in territorial rule or a possible new transformation in the EU."
+  },
+  {
+   "source": "thacker1999",
+   "target": "keohane1984",
+   "type": "challenges",
+   "why": "Shows a dominant state bends IMF lending to its political interests, undercutting the view of institutions as neutral cooperation devices."
+  },
+  {
+   "source": "stone2008",
+   "target": "thacker1999",
+   "type": "builds_on",
+   "why": "Extends evidence of US influence over IMF loan approval to the scope of conditionality attached to programs."
+  },
+  {
+   "source": "clark2021wb",
+   "target": "thacker1999",
+   "type": "extends_to_new_case",
+   "why": "Applies the logic of US influence over the IMF to World Bank policymaking."
   },
   {
    "source": "keohanenye1977",
@@ -3657,6 +4138,444 @@
   {
    "source": "newman2008",
    "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2004",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acharya2004",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2021brexit",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hale2020",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hale2020",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carrubba2008",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinmildenberger2020",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2017",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipscy2017",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "busch2007",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "busch2007",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mearsheimer2019",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "axelrodkeohane1985",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grieco1988",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grieco1988",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powell1991",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powell1991",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbottsnidal1998",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbottsnidal1998",
+   "target": "io-power",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lipson1991",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koremenos2005",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "koremenos2005",
+   "target": "compliance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik2000",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik2000",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fariss2019",
+   "target": "human-rights",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finnemore1996io",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "finnemore1996io",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "checkel2001",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hurd1999",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hurd1999",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellmuthtallberg2020",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dellmuthtallberg2020",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "drezner2009pop",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbottgenschel2015",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "abbottgenschel2015",
+   "target": "design",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urpelainen2014",
+   "target": "complexity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "urpelainen2014",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shanks1996",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "debredijkstra2021",
+   "target": "lifecycle",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young1991",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "young1991",
+   "target": "cooperation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sprinzvaahtoranta1994",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sprinzvaahtoranta1994",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "neumayer2002",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "neumayer2002",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennard2020",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pevehouse2002ajps",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2004io",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelley2004io",
+   "target": "norms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hyde2007",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bush2011",
+   "target": "democracy-io",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bush2011",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohanenye1974",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keohanenye1974",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cooleyron2002",
+   "target": "diffusion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cooleyron2002",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alter1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stonesweet2012",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "voeten2019",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "voeten2019",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hurwitzpeffley1987",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "baum2002",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacobspage2005",
+   "target": "fp-opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jacobspage2005",
+   "target": "two-level",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ikenberry2009",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake1996",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lake1996",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ruggie1993",
+   "target": "order",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ruggie1993",
+   "target": "theory",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thacker1999",
+   "target": "io-power",
    "type": "belongs_to",
    "why": "theme membership"
   }

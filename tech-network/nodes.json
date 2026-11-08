@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 269,
+   "work_nodes": 313,
    "theme_nodes": 17,
    "seed_from_papers_json": 12,
    "crossref_top_cited": 172,
    "anchors_supplement": 85,
-   "relation_edges": 261,
-   "membership_edges": 388
+   "relation_edges": 323,
+   "membership_edges": 455,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -5107,6 +5108,818 @@
    "zotero": null,
    "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1002/1944-2866.poi328); claim is my summary, not re-read this session",
    "crossref_doi": "10.1002/1944-2866.poi328"
+  },
+  {
+   "id": "kreps2020",
+   "type": "work",
+   "label": "Kreps 2020",
+   "authors": "Sarah Kreps, R. Miles McCain & Miles Brundage",
+   "year": 2020,
+   "journal": "Journal of Experimental Political Science",
+   "title": "All the News That’s Fit to Fabricate: AI-Generated Text as a Tool of Media Misinformation",
+   "claim": "AI-generated news is credible to readers and can spread misinformation.",
+   "method": "Survey experiments",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/xps.2020.37); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/xps.2020.37"
+  },
+  {
+   "id": "pansiegel2019",
+   "type": "work",
+   "label": "Pan 2019",
+   "authors": "Jennifer Pan & Alexandra A. Siegel",
+   "year": 2019,
+   "journal": "APSR",
+   "title": "How Saudi Crackdowns Fail to Silence Online Dissent",
+   "claim": "Saudi crackdowns on prominent critics did not silence online dissent among followers.",
+   "method": "Twitter data",
+   "themes": [
+    "authoritarian",
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055419000650); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0003055419000650"
+  },
+  {
+   "id": "clarkekocak2018",
+   "type": "work",
+   "label": "Clarke 2018",
+   "authors": "Killian Clarke & Korhan Kocak",
+   "year": 2018,
+   "journal": "BJPS",
+   "title": "Launching Revolution: Social Media and the Egyptian Uprising’s First Movers",
+   "claim": "Facebook helped Egyptian organizers solve coordination problems for the first protest of January 2011.",
+   "method": "Process tracing",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0007123418000194); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/s0007123418000194"
+  },
+  {
+   "id": "panchen2018",
+   "type": "work",
+   "label": "Pan 2018",
+   "authors": "Jennifer Pan & Kaiping Chen",
+   "year": 2018,
+   "journal": "APSR",
+   "title": "Concealing Corruption: How Chinese Officials Distort Upward Reporting of Online Grievances",
+   "claim": "Chinese officials conceal complaints implicating themselves when they are ambitious and their superiors' oversight is weak.",
+   "method": "Leaked propaganda department emails",
+   "themes": [
+    "authoritarian",
+    "state"
+   ],
+   "source": "papers.json:U6TA3F2U",
+   "zotero": "https://www.zotero.org/georgeyean/items/U6TA3F2U",
+   "verified": "repo analysis (full text)"
+  },
+  {
+   "id": "nyhanreifler2010",
+   "type": "work",
+   "label": "Nyhan 2010",
+   "authors": "Brendan Nyhan & Jason Reifler",
+   "year": 2010,
+   "journal": "Political Behavior",
+   "title": "When Corrections Fail: The Persistence of Political Misperceptions",
+   "claim": "Corrections can fail and sometimes backfire among those predisposed to the misperception.",
+   "method": "Experiments",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1007/s11109-010-9112-2); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1007/s11109-010-9112-2"
+  },
+  {
+   "id": "barbera2015",
+   "type": "work",
+   "label": "Barberá 2015",
+   "authors": "Pablo Barberá",
+   "year": 2015,
+   "journal": "Political Analysis",
+   "title": "Birds of the Same Feather Tweet Together: Bayesian Ideal Point Estimation Using Twitter Data",
+   "claim": "Who Twitter users follow reveals ideal points for elites and ordinary users on a common scale.",
+   "method": "Bayesian spatial following model",
+   "themes": [
+    "publicsphere",
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/pan/mpu011); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1093/pan/mpu011"
+  },
+  {
+   "id": "bisbee2024",
+   "type": "work",
+   "label": "Bisbee 2024",
+   "authors": "James Bisbee, Joshua D. Clinton, Cassy Dorff et al.",
+   "year": 2024,
+   "journal": "Political Analysis",
+   "title": "Synthetic Replacements for Human Survey Data? The Perils of Large Language Models",
+   "claim": "LLM-simulated survey responses match averages but understate variance and shift unpredictably with prompts and model versions.",
+   "method": "Comparison of ChatGPT and ANES responses",
+   "themes": [
+    "methods"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/pan.2024.5); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1017/pan.2024.5"
+  },
+  {
+   "id": "tornberg2024",
+   "type": "work",
+   "label": "Törnberg 2024",
+   "authors": "Petter Törnberg",
+   "year": 2024,
+   "journal": "Social Science Computer Review",
+   "title": "Large Language Models Outperform Expert Coders and Supervised Classifiers at Annotating Political Social Media Messages",
+   "claim": "Zero-shot GPT-4 classified politicians' tweets more accurately than expert coders and classifiers.",
+   "method": "Annotation comparison",
+   "themes": [
+    "methods"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: title and author matched (Social Science Computer Review, 2024; DOI 10.1177/08944393241286471)",
+   "crossref_doi": "10.1177/08944393241286471"
+  },
+  {
+   "id": "lieberpress2017",
+   "type": "work",
+   "label": "Lieber 2017",
+   "authors": "Keir A. Lieber & Daryl G. Press",
+   "year": 2017,
+   "journal": "International Security",
+   "title": "The New Era of Counterforce: Technological Change and the Future of Nuclear Deterrence",
+   "claim": "Accuracy and sensing improvements make counterforce strikes on nuclear arsenals feasible, eroding survivability-based deterrence.",
+   "method": "Technical net assessment",
+   "themes": [
+    "cyber"
+   ],
+   "source": "crossref-top-cited",
+   "zotero": null,
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00273); claim is my summary, not re-read this session",
+   "crossref_doi": "10.1162/isec_a_00273"
+  },
+  {
+   "id": "farrell2023",
+   "type": "work",
+   "label": "Farrell 2023",
+   "authors": "Henry Farrell & Abraham Newman",
+   "year": 2023,
+   "journal": "Henry Holt (book)",
+   "title": "Underground Empire: How America Weaponized the World Economy",
+   "claim": "The US turned private financial, data and semiconductor infrastructures into instruments of surveillance and coercion, with escalating risks of fragmentation and retaliation.",
+   "method": "Narrative synthesis",
+   "themes": [
+    "geopolitics"
+   ],
+   "source": "supplement",
+   "zotero": null,
+   "verified": "Crossref: book exists (title match via 2024 review); trade publisher, no DOI",
+   "crossref_doi": "10.1093/ia/iiae210"
+  },
+  {
+   "id": "gohdes2020",
+   "type": "work",
+   "label": "Gohdes 2020",
+   "authors": "Anita R. Gohdes",
+   "year": 2020,
+   "journal": "AJPS",
+   "title": "Repression Technology: Internet Accessibility and State Violence",
+   "claim": "Where the Syrian regime controlled internet access, its violence was more targeted, because online surveillance supplied information for selective repression.",
+   "method": "Subnational analysis of Syrian killings and internet access",
+   "themes": [
+    "authoritarian",
+    "surveillance"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12509",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12509); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hobbsroberts2018",
+   "type": "work",
+   "label": "Hobbs 2018",
+   "authors": "William R. Hobbs & Margaret E. Roberts",
+   "year": 2018,
+   "journal": "APSR",
+   "title": "How Sudden Censorship Can Increase Access to Information",
+   "claim": "China's sudden block of Instagram pushed millions of users to evade the firewall and then access other censored content, a backfire of abrupt censorship.",
+   "method": "Digital trace data on VPN downloads and platform use, China 2014",
+   "themes": [
+    "authoritarian",
+    "platforms"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055418000084",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055418000084); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "huang2015cp",
+   "type": "work",
+   "label": "Huang 2015",
+   "authors": "Haifeng Huang",
+   "year": 2015,
+   "journal": "Comparative Politics",
+   "title": "Propaganda as Signaling",
+   "claim": "Propaganda works less by persuading than by signaling the regime's strength and capacity for control, deterring dissent even when citizens disbelieve it.",
+   "method": "Formal model with survey evidence",
+   "themes": [
+    "authoritarian",
+    "misinfo"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.5129/001041515816103220",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.5129/001041515816103220); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "mattinglyyao2022",
+   "type": "work",
+   "label": "Mattingly 2022",
+   "authors": "Daniel C. Mattingly & Elaine Yao",
+   "year": 2022,
+   "journal": "Comparative Political Studies",
+   "title": "How Soft Propaganda Persuades",
+   "claim": "Soft propaganda embedded in entertainment content persuades viewers, in contrast to heavy-handed hard propaganda.",
+   "method": "Survey experiments, China",
+   "themes": [
+    "authoritarian",
+    "misinfo"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/00104140211047403",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/00104140211047403); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stukal2022",
+   "type": "work",
+   "label": "Stukal 2022",
+   "authors": "Denis Stukal, Sergey Sanovich, Richard Bonneau & Joshua A. Tucker",
+   "year": 2022,
+   "journal": "APSR",
+   "title": "Why Botter: How Pro-Government Bots Fight Opposition in Russia",
+   "claim": "Pro-government Twitter bots in Russia are deployed strategically in response to opposition activity, amplifying regime messages rather than only suppressing dissent.",
+   "method": "Machine-learning bot detection and time-series analysis of Russian Twitter",
+   "themes": [
+    "misinfo",
+    "authoritarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421001507",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421001507); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "lu2025ajps",
+   "type": "work",
+   "label": "Lu 2025",
+   "authors": "Yingdan Lu, Jennifer Pan, Xu Xu & Yiqing Xu",
+   "year": 2025,
+   "journal": "AJPS",
+   "title": "Decentralized propaganda in the era of digital media: The massive presence of the Chinese state on Douyin",
+   "claim": "Thousands of state-affiliated accounts on Douyin, many run by local agencies, produce entertainment-style content, a decentralized propaganda system for the platform era.",
+   "method": "Large-scale platform data, Douyin",
+   "themes": [
+    "authoritarian",
+    "platforms"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12990",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12990); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "little2016",
+   "type": "work",
+   "label": "Little 2016",
+   "authors": "Andrew T. Little",
+   "year": 2016,
+   "journal": "JOP",
+   "title": "Communication Technology and Protest",
+   "claim": "Communication technology can increase or decrease protest, depending on whether it spreads information about regime weakness or about the depth of others' grievances.",
+   "method": "Formal model",
+   "themes": [
+    "mobilization"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/683187",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/683187); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "christensengarfias2018",
+   "type": "work",
+   "label": "Christensen 2018",
+   "authors": "Darin Christensen & Francisco Garfias",
+   "year": 2018,
+   "journal": "Quarterly Journal of Political Science",
+   "title": "Can You Hear Me Now? How Communication Technology Affects Protest and Repression",
+   "claim": "Communication technologies affect protest by changing coordination and information, but also strengthen states' capacity to monitor and repress.",
+   "method": "Literature review and theoretical synthesis",
+   "themes": [
+    "mobilization",
+    "authoritarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1561/100.00016129",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1561/100.00016129); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "larson2019",
+   "type": "work",
+   "label": "Larson 2019",
+   "authors": "Jennifer M. Larson, Jonathan Nagler, Jonathan Ronen & Joshua A. Tucker",
+   "year": 2019,
+   "journal": "AJPS",
+   "title": "Social Networks and Protest Participation: Evidence from 130 Million Twitter Users",
+   "claim": "Protest participants in Twitter networks have more ties to other participants and more close-knit networks, showing network structure shapes who joins.",
+   "method": "Network analysis of 130 million Twitter users around protest events",
+   "themes": [
+    "mobilization",
+    "methods"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/ajps.12436",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/ajps.12436); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "milner2006",
+   "type": "work",
+   "label": "Milner 2006",
+   "authors": "Helen V. Milner",
+   "year": 2006,
+   "journal": "Comparative Political Studies",
+   "title": "The Digital Divide",
+   "claim": "Cross-national internet diffusion is shaped by political institutions: democracies adopt faster because losers from the technology have less power to block it.",
+   "method": "Cross-national panel of internet diffusion, 1991-2001",
+   "themes": [
+    "divide"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0010414005282983",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0010414005282983); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "guessmunger2022",
+   "type": "work",
+   "label": "Guess 2022",
+   "authors": "Andrew M. Guess & Kevin Munger",
+   "year": 2022,
+   "journal": "Political Science Research and Methods",
+   "title": "Digital literacy and online political behavior",
+   "claim": "Digital literacy is a distinct, measurable individual trait that shapes online political behavior and exposure to misinformation.",
+   "method": "Review and measurement validation with survey data",
+   "themes": [
+    "divide",
+    "misinfo"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/psrm.2022.17",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/psrm.2022.17); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hobolt2023",
+   "type": "work",
+   "label": "Hobolt 2023",
+   "authors": "Sara B. Hobolt, Katharina Lawall & James Tilley",
+   "year": 2023,
+   "journal": "APSR",
+   "title": "The Polarizing Effect of Partisan Echo Chambers",
+   "claim": "Discussion in like-minded partisan echo chambers increases affective polarization, while cross-cutting discussion does not reduce it as much.",
+   "method": "Online group-discussion experiments, UK",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055423001211",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055423001211); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stier2021",
+   "type": "work",
+   "label": "Stier 2021",
+   "authors": "Sebastian Stier, Frank Mangold, Michael Scharkow & Johannes Breuer",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Post Post-Broadcast Democracy? News Exposure in the Age of Online Intermediaries",
+   "claim": "Online intermediaries such as search engines and social media raise news exposure, especially among the less interested, contrary to post-broadcast expectations.",
+   "method": "Linked web-tracking and survey data, Germany",
+   "themes": [
+    "publicsphere",
+    "platforms"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421001222",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421001222); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "tylergrimmer2022",
+   "type": "work",
+   "label": "Tyler 2022",
+   "authors": "Matthew Tyler, Justin Grimmer & Shanto Iyengar",
+   "year": 2022,
+   "journal": "JOP",
+   "title": "Partisan Enclaves and Information Bazaars: Mapping Selective Exposure to Online News",
+   "claim": "Most Americans consume online news in mixed \"information bazaars,\" while a small minority inhabits partisan enclaves that account for much partisan traffic.",
+   "method": "Web-browsing panel data, US",
+   "themes": [
+    "publicsphere"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/716950",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/716950); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "schiff2024",
+   "type": "work",
+   "label": "Schiff 2024",
+   "authors": "Kaylyn Jackson Schiff, Daniel S. Schiff & Natália S. Bueno",
+   "year": 2024,
+   "journal": "APSR",
+   "title": "The Liar’s Dividend: Can Politicians Claim Misinformation to Evade Accountability?",
+   "claim": "Politicians can gain support by falsely claiming real scandals are fake news or deepfakes, a \"liar's dividend.\"",
+   "method": "Survey experiments, US",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055423001454",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055423001454); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "barari2025",
+   "type": "work",
+   "label": "Barari 2025",
+   "authors": "Soubhik Barari, Christopher Lucas & Kevin Munger",
+   "year": 2025,
+   "journal": "JOP",
+   "title": "Political Deepfakes Are as Credible as Other Fake Media and (Sometimes) Real Media",
+   "claim": "Political deepfake videos are about as credible as fake text or audio and sometimes as credible as real media, so video adds limited unique deceptive power.",
+   "method": "Survey experiments with deepfake and real political media",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/732990",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/732990); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "badrinathan2021",
+   "type": "work",
+   "label": "Badrinathan 2021",
+   "authors": "Sumitra Badrinathan",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Educative Interventions to Combat Misinformation: Evidence from a Field Experiment in India",
+   "claim": "An intensive in-person media literacy intervention in India did not improve discernment of misinformation, and backfired among ruling-party supporters.",
+   "method": "Field experiment, Bihar, India",
+   "themes": [
+    "misinfo"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421000459",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421000459); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "pradel2024",
+   "type": "work",
+   "label": "Pradel 2024",
+   "authors": "Franziska Pradel, Jan Zilinsky, Spyros Kosmidis & Yannis Theocharis",
+   "year": 2024,
+   "journal": "APSR",
+   "title": "Toxic Speech and Limited Demand for Content Moderation on Social Media",
+   "claim": "Users find toxic speech objectionable but show limited demand for its removal by platforms, preferring lighter interventions.",
+   "method": "Survey experiments, US",
+   "themes": [
+    "platforms"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s000305542300134x",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s000305542300134x); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "srivastava2021",
+   "type": "work",
+   "label": "Srivastava 2021",
+   "authors": "Swati Srivastava",
+   "year": 2021,
+   "journal": "Perspectives on Politics",
+   "title": "Algorithmic Governance and the International Politics of Big Tech",
+   "claim": "Big Tech firms exercise algorithmic governance as a form of private authority in international politics.",
+   "method": "Theoretical analysis with illustrative cases",
+   "themes": [
+    "platforms",
+    "geopolitics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s1537592721003145",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s1537592721003145); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "kennedywaggoner2022",
+   "type": "work",
+   "label": "Kennedy 2022",
+   "authors": "Ryan P. Kennedy, Philip D. Waggoner & Matthew M. Ward",
+   "year": 2022,
+   "journal": "JOP",
+   "title": "Trust in Public Policy Algorithms",
+   "claim": "Public trust in policy algorithms depends on design features such as accuracy, transparency and human oversight, and varies with partisanship.",
+   "method": "Conjoint survey experiments, US",
+   "themes": [
+    "algorithms",
+    "state"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/716283",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/716283); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "farrell2025",
+   "type": "work",
+   "label": "Farrell 2025",
+   "authors": "Henry Farrell",
+   "year": 2025,
+   "journal": "Annual Review of Political Science",
+   "title": "AI as Governance",
+   "claim": "AI, especially large language models, is best understood as a technology of governance that summarizes and coordinates social information, like markets and bureaucracies.",
+   "method": "Theoretical review",
+   "themes": [
+    "algorithms",
+    "state"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-040723-013245",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-040723-013245); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "beigang2023",
+   "type": "work",
+   "label": "Beigang 2023",
+   "authors": "Fabian Beigang",
+   "year": 2023,
+   "journal": "Philosophy & Public Affairs",
+   "title": "Reconciling Algorithmic Fairness Criteria",
+   "claim": "Predictive parity and equalized odds can be reconciled once both criteria are reformulated for matched individuals, softening the impossibility results.",
+   "method": "Philosophical analysis",
+   "themes": [
+    "fairness"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1111/papa.12233",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1111/papa.12233); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "gallegokurerscholl2022",
+   "type": "work",
+   "label": "Gallego 2022",
+   "authors": "Aina Gallego, Thomas Kurer & Nikolas Schöll",
+   "year": 2022,
+   "journal": "JOP",
+   "title": "Neither Left Behind nor Superstar: Ordinary Winners of Digitalization at the Ballot Box",
+   "claim": "Digitalization creates many ordinary winners whose rising fortunes lead them to reward incumbents and mainstream parties, not populists.",
+   "method": "Panel data on regional digitalization and voting, UK",
+   "themes": [
+    "labor"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1086/714920",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1086/714920); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "busemeyertober2022",
+   "type": "work",
+   "label": "Busemeyer 2022",
+   "authors": "Marius R. Busemeyer & Tobias Tober",
+   "year": 2022,
+   "journal": "Comparative Political Studies",
+   "title": "Dealing with Technological Change: Social Policy Preferences and Institutional Context",
+   "claim": "Workers' social policy responses to technological change depend on the institutional context, such as the generosity of existing welfare and training systems.",
+   "method": "Cross-national survey analysis",
+   "themes": [
+    "labor"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/00104140221139381",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/00104140221139381); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "maschmeyer2021",
+   "type": "work",
+   "label": "Maschmeyer 2021",
+   "authors": "Lennart Maschmeyer",
+   "year": 2021,
+   "journal": "International Security",
+   "title": "The Subversive Trilemma: Why Cyber Operations Fall Short of Expectations",
+   "claim": "Cyber operations face a trilemma among speed, intensity and control that limits their strategic utility as instruments of subversion.",
+   "method": "Theoretical argument with case studies of Russian operations in Ukraine",
+   "themes": [
+    "cyber"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1162/isec_a_00418",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1162/isec_a_00418); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "valerianomaness2014",
+   "type": "work",
+   "label": "Valeriano 2014",
+   "authors": "Brandon Valeriano & Ryan C Maness",
+   "year": 2014,
+   "journal": "Journal of Peace Research",
+   "title": "The dynamics of cyber conflict between rival antagonists, 2001–11",
+   "claim": "Cyber conflict among rival states is rare, low in severity and regionally bounded, consistent with restraint rather than cyberwar.",
+   "method": "Original dataset of cyber incidents among rivals, 2001-2011",
+   "themes": [
+    "cyber"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1177/0022343313518940",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1177/0022343313518940); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "horowitz2020arps",
+   "type": "work",
+   "label": "Horowitz 2020",
+   "authors": "Michael C. Horowitz",
+   "year": 2020,
+   "journal": "Annual Review of Political Science",
+   "title": "Do Emerging Military Technologies Matter for International Politics?",
+   "claim": "Emerging military technologies matter for international politics when they change the balance of power or the character of war and diffuse unevenly.",
+   "method": "Literature review",
+   "themes": [
+    "cyber",
+    "geopolitics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-050718-032725",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-050718-032725); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "horowitzkahn2024",
+   "type": "work",
+   "label": "Horowitz 2024",
+   "authors": "Michael C Horowitz & Lauren Kahn",
+   "year": 2024,
+   "journal": "ISQ",
+   "title": "Bending the Automation Bias Curve: A Study of Human and AI-Based Decision Making in National Security Contexts",
+   "claim": "Automation bias in national security decisions follows a curve: those with little AI knowledge over-defer, while more knowledgeable people calibrate trust better.",
+   "method": "Survey experiments in nine countries",
+   "themes": [
+    "cyber",
+    "algorithms"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1093/isq/sqae020",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1093/isq/sqae020); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "weymouth2025",
+   "type": "work",
+   "label": "Weymouth 2025",
+   "authors": "Stephen Weymouth",
+   "year": 2025,
+   "journal": "IO",
+   "title": "Digital Disintegration: Techno-Blocs and Strategic Sovereignty in the AI Era",
+   "claim": "AI-era control over chips, cloud and data pushes states toward rival techno-blocs and strategic digital sovereignty.",
+   "method": "Theoretical analysis of AI supply chains and policy",
+   "themes": [
+    "geopolitics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818325101070",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818325101070); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "vaynmanvolpe2023",
+   "type": "work",
+   "label": "Vaynman 2023",
+   "authors": "Jane Vaynman & Tristan A. Volpe",
+   "year": 2023,
+   "journal": "IO",
+   "title": "Dual Use Deception: How Technology Shapes Cooperation in International Relations",
+   "claim": "Technologies whose military and civilian uses are hard to distinguish make arms-control cooperation difficult, because verification cannot separate them.",
+   "method": "Formal and historical analysis of arms control",
+   "themes": [
+    "geopolitics",
+    "cyber"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0020818323000140",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0020818323000140); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "stanger2024",
+   "type": "work",
+   "label": "Stanger 2024",
+   "authors": "Allison Stanger, Jakub Kraus, Woojin Lim et al.",
+   "year": 2024,
+   "journal": "Annual Review of Political Science",
+   "title": "Terra Incognita: The Governance of Artificial Intelligence in Global Perspective",
+   "claim": "Global AI governance combines converging ethical principles with divergent national regulatory models in the EU, US and China.",
+   "method": "Literature review",
+   "themes": [
+    "regulation",
+    "geopolitics"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1146/annurev-polisci-041322-042247",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1146/annurev-polisci-041322-042247); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "hagerkrakowski2021",
+   "type": "work",
+   "label": "Hager 2021",
+   "authors": "Anselm Hager & Krzysztof Krakowski",
+   "year": 2021,
+   "journal": "APSR",
+   "title": "Does State Repression Spark Protests? Evidence from Secret Police Surveillance in Communist Poland",
+   "claim": "Communist Poland's secret police surveillance of local areas provoked rather than deterred later protest.",
+   "method": "Historical archival data and spatial analysis, Poland",
+   "themes": [
+    "surveillance",
+    "authoritarian"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "crossref_doi": "10.1017/s0003055421000770",
+   "verified": "Crossref: metadata taken from the Crossref record (DOI 10.1017/s0003055421000770); claim is my summary, not re-read this session"
+  },
+  {
+   "id": "graysuri2019",
+   "type": "work",
+   "label": "Gray 2019",
+   "authors": "Mary L. Gray & Siddharth Suri",
+   "year": 2019,
+   "journal": "Houghton Mifflin Harcourt (book)",
+   "title": "Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass",
+   "claim": "AI and platform services depend on hidden, on-demand human work that is poorly paid and outside labor protections.",
+   "method": "Ethnography and surveys of on-demand workers, US and India",
+   "themes": [
+    "labor",
+    "platforms"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2019, DOI 10.1177/0019793919864564); metadata from memory"
+  },
+  {
+   "id": "acemoglujohnson2023",
+   "type": "work",
+   "label": "Acemoglu 2023",
+   "authors": "Daron Acemoglu & Simon Johnson",
+   "year": 2023,
+   "journal": "PublicAffairs (book)",
+   "title": "Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity",
+   "claim": "Technological progress benefits workers only when countervailing power and institutions direct innovation; otherwise elites capture the gains, as risks with AI.",
+   "method": "Historical political economy of technology",
+   "themes": [
+    "labor",
+    "regulation"
+   ],
+   "source": "coverage-2026-11",
+   "zotero": null,
+   "verified": "Crossref: book exists (review 2025, DOI 10.52335/ekon/202841); metadata from memory"
   }
  ]
 }

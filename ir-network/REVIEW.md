@@ -1,6 +1,6 @@
 # International Relations (general), c. 1977–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 218 work nodes, 17 theme nodes and 237 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[keohane1984]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 263 work nodes, 17 theme nodes and 313 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[keohane1984]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Your library:** 101 works come from `papers.json`, mostly your *Gov Io*, *Gov Ir* and *LIO* groups. Their claims are condensed from the repo's "Theory & evidence" analyses.
@@ -174,6 +174,13 @@ Liberal policies diffuse through coercion, competition, learning and emulation `
 2. **Autocratic institutions as a system.** Sections 4, 6 and 11 each find autocratic counter-institutions (IFIs, regional organizations, rival indicators). Treating them as a connected complex, with the tools of Section 8, connects this map to autocratic rise.
 3. **Exit and withdrawal.** Section 9 has new data but few theories linking withdrawal to domestic backlash (the IPE map's Section 3) and to order contestation.
 4. **Illiberal diffusion.** Sections 4 and 17 suggest that the channels which spread liberal norms now also spread illiberal policies, which is testable with existing diffusion designs.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 45 works (37 new, 8 shared with other maps) and 80 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 37 new works and 8 imports to the IR map, filling the thinnest themes first: IO life cycles (Shanks et al. 1996, Debre & Dijkstra 2021, Urpelainen & Van de Graaf 2014, Walter 2021, Lipscy 2017), climate and environmental cooperation (Young 1991, Sprinz & Vaahtoranta 1994, Neumayer 2002, Kennard 2020, Aklin & Mildenberger 2020, Hale 2020), IOs and democratization (Pevehouse 2002 AJPS, Kelley 2004, Hyde 2007, Bush 2011), and courts (Alter 1998, Carrubba et al. 2008, Stone Sweet & Brunell 2012, Voeten 2019). It also adds missing classics of cooperation theory and the relative-gains debate (Axelrod & Keohane, Grieco, Powell), institutional design (Abbott & Snidal 1998, Lipson 1991, Koremenos 2005), constructivism and legitimacy (Finnemore 1996, Checkel 2001, Hurd 1999, Ruggie 1993, Lake 1996), and foreign-policy opinion (Hurwitz & Peffley, Baum, Jacobs & Page).
 
 ## What I could not verify (flagged)
 

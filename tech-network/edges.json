@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 269,
+   "work_nodes": 313,
    "theme_nodes": 17,
    "seed_from_papers_json": 12,
    "crossref_top_cited": 172,
    "anchors_supplement": 85,
-   "relation_edges": 261,
-   "membership_edges": 388
+   "relation_edges": 323,
+   "membership_edges": 455,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -1589,6 +1590,378 @@
    "target": "gilardi2023",
    "type": "builds_on",
    "why": "LLM measurement of party positions."
+  },
+  {
+   "source": "gohdes2020",
+   "target": "morozov2011",
+   "type": "builds_on",
+   "why": "Provides subnational evidence for the warning that regimes exploit connectivity, showing internet access in Syria enabled targeted repression."
+  },
+  {
+   "source": "gohdes2020",
+   "target": "feldstein2019",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether digital surveillance changes the form of repression, finding online access is associated with targeted rather than indiscriminate violence."
+  },
+  {
+   "source": "hobbsroberts2018",
+   "target": "roberts2018",
+   "type": "builds_on",
+   "why": "Shows abrupt censorship undermines Roberts's friction mechanism, because a sudden block motivates users to learn to evade it."
+  },
+  {
+   "source": "hobbsroberts2018",
+   "target": "kingpanroberts2013",
+   "type": "qualifies",
+   "why": "Shows heavy-handed blocking can backfire by pushing users to censored content, a limit on the effectiveness of Chinese censorship."
+  },
+  {
+   "source": "mattinglyyao2022",
+   "target": "huang2015cp",
+   "type": "challenges",
+   "why": "Shows propaganda embedded in entertainment does persuade, contrasting with the view that propaganda works mainly by signaling regime power."
+  },
+  {
+   "source": "stukal2022",
+   "target": "woolleyhoward2018",
+   "type": "builds_on",
+   "why": "Gives systematic evidence on when state-run computational propaganda is deployed, showing Russian bots respond to opposition activity."
+  },
+  {
+   "source": "stukal2022",
+   "target": "keller2020",
+   "type": "builds_on",
+   "why": "Extends the study of coordinated inauthentic accounts to the strategic timing of pro-government bot activity."
+  },
+  {
+   "source": "lu2025ajps",
+   "target": "king2017",
+   "type": "builds_on",
+   "why": "Shows the Chinese state has moved beyond fabricated posts to a decentralized network of government accounts making entertainment content."
+  },
+  {
+   "source": "lu2025ajps",
+   "target": "mattinglyyao2022",
+   "type": "builds_on",
+   "why": "Documents the large-scale production of the soft, entertainment-style propaganda that Mattingly and Yao find persuasive."
+  },
+  {
+   "source": "little2016",
+   "target": "shirky2011",
+   "type": "qualifies",
+   "why": "Shows communication technology can raise or lower protest depending on what information it spreads, qualifying the claim that social media empowers protesters."
+  },
+  {
+   "source": "christensengarfias2018",
+   "target": "pierskalla2013",
+   "type": "synthesizes",
+   "why": "Integrates cell-phone coverage and violence findings into a review of how communication technology shapes both protest and repression."
+  },
+  {
+   "source": "christensengarfias2018",
+   "target": "little2016",
+   "type": "synthesizes",
+   "why": "Builds Little's coordination-information model into a broader framework for empirical work on technology and protest."
+  },
+  {
+   "source": "larson2019",
+   "target": "steinertthrelkeld2017",
+   "type": "qualifies",
+   "why": "Uses large Twitter networks to show protest participants have more ties to other participants, refining claims about peripheral mobilization."
+  },
+  {
+   "source": "milner2006",
+   "target": "norris2001",
+   "type": "builds_on",
+   "why": "Adds a political-institutional explanation for the global digital divide: democracies adopt the internet faster."
+  },
+  {
+   "source": "guessmunger2022",
+   "target": "hargittai2002",
+   "type": "builds_on",
+   "why": "Develops online skills into a measurable digital-literacy trait that predicts online political behavior."
+  },
+  {
+   "source": "guessmunger2022",
+   "target": "guess2019",
+   "type": "builds_on",
+   "why": "Develops the digital-literacy explanation proposed for why older users share more fake news."
+  },
+  {
+   "source": "hobolt2023",
+   "target": "sunstein2001",
+   "type": "mechanism_tested_by",
+   "why": "Experimentally tests the echo-chamber mechanism, finding like-minded discussion increases affective polarization."
+  },
+  {
+   "source": "hobolt2023",
+   "target": "bail2018",
+   "type": "qualifies",
+   "why": "Finds polarization from like-minded discussion and little depolarization from cross-cutting exposure, complementing evidence that opposing views can backfire."
+  },
+  {
+   "source": "stier2021",
+   "target": "prior2007",
+   "type": "challenges",
+   "why": "Shows online intermediaries increase incidental news exposure among the less interested, contesting the expectation that high choice widens news gaps."
+  },
+  {
+   "source": "stier2021",
+   "target": "fletchernielsen2018",
+   "type": "builds_on",
+   "why": "Confirms incidental exposure through social media and search using tracking rather than self-reported data."
+  },
+  {
+   "source": "tylergrimmer2022",
+   "target": "gentzkowshapiro2011",
+   "type": "builds_on",
+   "why": "Updates measurement of online ideological segregation with browsing data, finding most users in mixed environments and a small partisan minority."
+  },
+  {
+   "source": "tylergrimmer2022",
+   "target": "guess2021",
+   "type": "builds_on",
+   "why": "Confirms that most online news diets are moderate while a small minority drives partisan consumption."
+  },
+  {
+   "source": "schiff2024",
+   "target": "fallis2020",
+   "type": "mechanism_tested_by",
+   "why": "Experimentally tests the liar's dividend implied by accounts of deepfakes' epistemic threat, finding false claims of fakery help politicians."
+  },
+  {
+   "source": "barari2025",
+   "target": "vaccarichadwick2020",
+   "type": "qualifies",
+   "why": "Finds deepfake videos are no more credible than fake text or audio, tempering fears that synthetic video is uniquely deceptive."
+  },
+  {
+   "source": "barari2025",
+   "target": "kreps2020",
+   "type": "builds_on",
+   "why": "Extends tests of AI-generated misinformation credibility from synthetic text to synthetic video."
+  },
+  {
+   "source": "badrinathan2021",
+   "target": "pennycookrand2019",
+   "type": "qualifies",
+   "why": "Finds media-literacy training fails, and backfires among partisans, in India, suggesting partisan motivation, not just inattention, limits discernment."
+  },
+  {
+   "source": "pradel2024",
+   "target": "gillespie2018",
+   "type": "qualifies",
+   "why": "Shows users want only limited removal of toxic content, complicating platforms' role as custodians acting for users."
+  },
+  {
+   "source": "srivastava2021",
+   "target": "gorwa2019",
+   "type": "builds_on",
+   "why": "Carries platform governance into international relations, treating Big Tech algorithmic governance as private global authority."
+  },
+  {
+   "source": "kennedywaggoner2022",
+   "target": "araujo2020",
+   "type": "builds_on",
+   "why": "Uses conjoint experiments to identify which algorithm design features drive public trust in automated policy decisions."
+  },
+  {
+   "source": "kennedywaggoner2022",
+   "target": "lee2018",
+   "type": "builds_on",
+   "why": "Extends individual perceptions of algorithmic decisions to trust in algorithms used for public policy."
+  },
+  {
+   "source": "farrell2025",
+   "target": "danaher2017",
+   "type": "synthesizes",
+   "why": "Recasts algorithmic governance by treating AI as a social technology of information coordination comparable to markets and bureaucracy."
+  },
+  {
+   "source": "beigang2023",
+   "target": "kleinberg2017",
+   "type": "qualifies",
+   "why": "Argues the impossibility of jointly satisfying fairness criteria can be avoided by reformulating them for matched individuals."
+  },
+  {
+   "source": "beigang2023",
+   "target": "chouldechova2017",
+   "type": "qualifies",
+   "why": "Shows the conflict between predictive parity and error-rate balance arises from how the criteria are defined, not from fairness itself."
+  },
+  {
+   "source": "gallegokurerscholl2022",
+   "target": "anelli2021",
+   "type": "qualifies",
+   "why": "Shows digitalization also creates many ordinary winners who reward incumbents, balancing evidence that automation losers turn to the radical right."
+  },
+  {
+   "source": "busemeyertober2022",
+   "target": "thewissenrueda2019",
+   "type": "builds_on",
+   "why": "Shows institutional context conditions how automation risk translates into social policy preferences."
+  },
+  {
+   "source": "maschmeyer2021",
+   "target": "rid2012",
+   "type": "builds_on",
+   "why": "Explains why cyber operations underperform, through a trilemma of speed, intensity and control, supporting skepticism about cyberwar."
+  },
+  {
+   "source": "maschmeyer2021",
+   "target": "gartzkelindsay2015",
+   "type": "qualifies",
+   "why": "Argues the deception that cyber operations depend on also makes them slow and hard to control, limiting offensive advantage."
+  },
+  {
+   "source": "valerianomaness2014",
+   "target": "rid2012",
+   "type": "builds_on",
+   "why": "Provides event data showing cyber conflict between rivals is rare and low-level, empirical support for claims that cyberwar will not take place."
+  },
+  {
+   "source": "valerianomaness2014",
+   "target": "gartzke2013",
+   "type": "builds_on",
+   "why": "Empirically supports the argument that cyberspace does not transform interstate conflict."
+  },
+  {
+   "source": "horowitz2020arps",
+   "target": "horowitz2018",
+   "type": "builds_on",
+   "why": "Generalizes the analysis of AI and the balance of power into a framework for when emerging military technologies matter."
+  },
+  {
+   "source": "horowitz2020arps",
+   "target": "lieberpress2017",
+   "type": "synthesizes",
+   "why": "Includes counterforce-enabling advances in sensing and accuracy in its assessment of when new technologies shift military balances."
+  },
+  {
+   "source": "horowitzkahn2024",
+   "target": "goldfarb2022",
+   "type": "qualifies",
+   "why": "Shows that whether humans supply good judgment alongside AI depends on their AI knowledge, since novices over-defer to automated advice."
+  },
+  {
+   "source": "weymouth2025",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "Extends weaponized interdependence to AI-era chokepoints in chips and cloud that drive the formation of techno-blocs."
+  },
+  {
+   "source": "weymouth2025",
+   "target": "bradford2023",
+   "type": "builds_on",
+   "why": "Links the rival US, Chinese and EU digital empires to strategic sovereignty in AI supply chains."
+  },
+  {
+   "source": "vaynmanvolpe2023",
+   "target": "horowitz2018",
+   "type": "qualifies",
+   "why": "Shows competition over dual-use technologies such as AI is hard to restrain through arms control because verification cannot separate military from civilian uses."
+  },
+  {
+   "source": "stanger2024",
+   "target": "jobin2019",
+   "type": "synthesizes",
+   "why": "Reviews how converging AI ethics principles coexist with divergent national regulatory models."
+  },
+  {
+   "source": "stanger2024",
+   "target": "roberts2021",
+   "type": "synthesizes",
+   "why": "Places China's approach to AI regulation within a comparative account of global AI governance."
+  },
+  {
+   "source": "hagerkrakowski2021",
+   "target": "xu2021",
+   "type": "qualifies",
+   "why": "Shows surveillance in communist Poland provoked rather than deterred protest, a scope condition on surveillance-based control."
+  },
+  {
+   "source": "graysuri2019",
+   "target": "vandoorn2017",
+   "type": "builds_on",
+   "why": "Extends the analysis of precarious platform labor to the hidden human work behind AI and on-demand services."
+  },
+  {
+   "source": "tubaro2020",
+   "target": "graysuri2019",
+   "type": "builds_on",
+   "why": "Classifies the hidden human work behind AI into training, verification and imitation."
+  },
+  {
+   "source": "acemoglujohnson2023",
+   "target": "acemoglurestrepo2020",
+   "type": "builds_on",
+   "why": "Builds evidence that automation displaces workers into a historical argument that the direction of technology is politically chosen."
+  },
+  {
+   "source": "acemoglujohnson2023",
+   "target": "brynjolfssonmcafee2014",
+   "type": "challenges",
+   "why": "Argues technological gains reach workers only when countervailing power directs innovation, contesting the techno-optimist view."
+  },
+  {
+   "source": "kreps2020",
+   "target": "allcottgentzkow2017",
+   "type": "builds_on",
+   "why": "Shows AI-generated news is judged as credible as human-written news, raising the scale at which fake news can be produced."
+  },
+  {
+   "source": "pansiegel2019",
+   "target": "roberts2018",
+   "type": "qualifies",
+   "why": "Shows arrests of prominent Saudi dissidents increased online criticism by their followers, a limit on the deterrent effect of fear."
+  },
+  {
+   "source": "clarkekocak2018",
+   "target": "tufekciwilson2012",
+   "type": "builds_on",
+   "why": "Shows Facebook let first movers solve coordination problems in Egypt's initial protests."
+  },
+  {
+   "source": "panchen2018",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Shows local officials hide online grievances from superiors, revealing information distortion within digital monitoring."
+  },
+  {
+   "source": "pennycookrand2019",
+   "target": "nyhanreifler2010",
+   "type": "challenges",
+   "why": "Argues susceptibility to partisan fake news reflects lack of reasoning rather than the motivated reasoning implied by backfire effects."
+  },
+  {
+   "source": "barbera2015",
+   "target": "gentzkowshapiro2011",
+   "type": "builds_on",
+   "why": "Uses Twitter follow networks to measure ideological homophily, extending segregation measures from media diets to social networks."
+  },
+  {
+   "source": "boutylinewiller2017",
+   "target": "barbera2015",
+   "type": "builds_on",
+   "why": "Uses Barberá's Twitter ideal points to show echo-chamber homophily is strongest among extreme and conservative users."
+  },
+  {
+   "source": "bisbee2024",
+   "target": "argyle2023",
+   "type": "challenges",
+   "why": "Shows LLM-generated synthetic respondents give unstable, overly uniform answers, contesting their use as replacements for survey samples."
+  },
+  {
+   "source": "tornberg2024",
+   "target": "gilardi2023",
+   "type": "builds_on",
+   "why": "Extends evidence that LLMs annotate text well, finding they outperform expert coders on political tweets."
+  },
+  {
+   "source": "farrell2023",
+   "target": "farrell2019",
+   "type": "builds_on",
+   "why": "Develops weaponized interdependence into a history of how the US turned financial and technological chokepoints into tools of power."
   },
   {
    "source": "benoit2026",
@@ -3915,6 +4288,408 @@
   {
    "source": "gonzalezbailon2013",
    "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kreps2020",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pansiegel2019",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pansiegel2019",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarkekocak2018",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panchen2018",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "panchen2018",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nyhanreifler2010",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2015",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barbera2015",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bisbee2024",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tornberg2024",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lieberpress2017",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2023",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gohdes2020",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gohdes2020",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobbsroberts2018",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobbsroberts2018",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2015cp",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2015cp",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattinglyyao2022",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattinglyyao2022",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stukal2022",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stukal2022",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lu2025ajps",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lu2025ajps",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "little2016",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensengarfias2018",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "christensengarfias2018",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larson2019",
+   "target": "mobilization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "larson2019",
+   "target": "methods",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "milner2006",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guessmunger2022",
+   "target": "divide",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guessmunger2022",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hobolt2023",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stier2021",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stier2021",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tylergrimmer2022",
+   "target": "publicsphere",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schiff2024",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "barari2025",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "badrinathan2021",
+   "target": "misinfo",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pradel2024",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "srivastava2021",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "srivastava2021",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedywaggoner2022",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kennedywaggoner2022",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2025",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "farrell2025",
+   "target": "state",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beigang2023",
+   "target": "fairness",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gallegokurerscholl2022",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "busemeyertober2022",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "maschmeyer2021",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "valerianomaness2014",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2020arps",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitz2020arps",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitzkahn2024",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "horowitzkahn2024",
+   "target": "algorithms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "weymouth2025",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vaynmanvolpe2023",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vaynmanvolpe2023",
+   "target": "cyber",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stanger2024",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stanger2024",
+   "target": "geopolitics",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hagerkrakowski2021",
+   "target": "surveillance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hagerkrakowski2021",
+   "target": "authoritarian",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "graysuri2019",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "graysuri2019",
+   "target": "platforms",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglujohnson2023",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "acemoglujohnson2023",
+   "target": "regulation",
    "type": "belongs_to",
    "why": "theme membership"
   }

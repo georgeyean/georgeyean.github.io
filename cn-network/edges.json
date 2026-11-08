@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 183,
+   "work_nodes": 228,
    "theme_nodes": 16,
    "seed_from_papers_json": 35,
    "crossref_top_cited": 108,
    "anchors_supplement": 40,
-   "relation_edges": 178,
-   "membership_edges": 297
+   "relation_edges": 245,
+   "membership_edges": 371,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. Works shared with the other four maps keep their earlier verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. All new anchors were found in Crossref, books mostly via published reviews or chapter records. One-line claims for non-repo works are my summaries."
  },
@@ -1091,6 +1092,408 @@
    "target": "hsing2006",
    "type": "synthesizes",
    "why": "Shows hukou reforms left core barriers to migrants in place, a people-side counterpart to Hsing's land-driven account of urbanization."
+  },
+  {
+   "source": "obrienli1999",
+   "target": "lieberthal1988",
+   "type": "builds_on",
+   "why": "Pushes fragmented-authoritarian bargaining down to township cadres, who execute hard, promotion-linked targets and shelve unrewarded mandates."
+  },
+  {
+   "source": "smith2010",
+   "target": "obrienli1999",
+   "type": "builds_on",
+   "why": "Smith's hollow rural state rests on O'Brien and Li's finding that cadre evaluation drives selective implementation of central policy."
+  },
+  {
+   "source": "wang2012",
+   "target": "wang2008isq",
+   "type": "builds_on",
+   "why": "Expands the article's account of the post-1991 Patriotic Education Campaign into a full theory of historical memory and humiliation in Chinese politics."
+  },
+  {
+   "source": "li2016",
+   "target": "shi2001",
+   "type": "qualifies",
+   "why": "Shows that very high trust in Beijing reported in surveys like Shi's softens once hierarchical trust is measured carefully across five national surveys."
+  },
+  {
+   "source": "tsai2006wp",
+   "target": "oi1992",
+   "type": "qualifies",
+   "why": "Locates reform dynamism in entrepreneurs' informal coping institutions that officials tolerate, shifting weight from local-state corporatism to bottom-up adaptation."
+  },
+  {
+   "source": "ktsai2007",
+   "target": "tsai2006wp",
+   "type": "builds_on",
+   "why": "The book generalizes the adaptive-informal-institutions argument to explain why China's capitalists do not demand democracy."
+  },
+  {
+   "source": "brodsgaard2012",
+   "target": "pearson2005",
+   "type": "builds_on",
+   "why": "Finds party control over business groups through nomenklatura appointments, confirming Pearson's view of a regulatory state run on Leninist norms."
+  },
+  {
+   "source": "pearson2022",
+   "target": "pearson2005",
+   "type": "builds_on",
+   "why": "Extends Pearson's earlier picture of party control over strategic sectors to explain why party-state capitalism provokes foreign securitization."
+  },
+  {
+   "source": "lu2014apsr",
+   "target": "zhu2011",
+   "type": "mechanism_tested_by",
+   "why": "Tests performance legitimacy directly: free rural schooling raised central-government support only where citizens credited Beijing for it."
+  },
+  {
+   "source": "wangdickson2021",
+   "target": "zhuzhang2016",
+   "type": "qualifies",
+   "why": "Shows the politicized anticorruption campaign carries a legitimacy cost, as local investigations lower rather than raise regime support."
+  },
+  {
+   "source": "fravel2008",
+   "target": "fravel2005",
+   "type": "builds_on",
+   "why": "The book generalizes the regime-insecurity explanation of Chinese territorial compromise to all of China's border disputes."
+  },
+  {
+   "source": "andersonetal2019",
+   "target": "kostkanahm2017",
+   "type": "builds_on",
+   "why": "Shows NGO ratings can raise local compliance with central environmental mandates, a bottom-up complement to the recentralization Kostka and Nahm describe."
+  },
+  {
+   "source": "huang2015cp",
+   "target": "brady2008",
+   "type": "challenges",
+   "why": "Argues propaganda keeps citizens in line by signaling regime strength, not by persuading them as the thought-work account assumes."
+  },
+  {
+   "source": "huang2018jop",
+   "target": "huang2015cp",
+   "type": "builds_on",
+   "why": "Identifies the cost of signaling through propaganda: hard propaganda lowers trust in state messages even as it displays power."
+  },
+  {
+   "source": "huang2018jop",
+   "target": "stockmann2011",
+   "type": "qualifies",
+   "why": "Finds crude, overt propaganda backfires, a scope condition on Stockmann's claim that commercialized media sustain regime support."
+  },
+  {
+   "source": "mattingly2016",
+   "target": "tsai2007",
+   "type": "challenges",
+   "why": "Shows lineage leaders in office are co-opted to ease land takings, a dark side of the solidary-group accountability Tsai identified."
+  },
+  {
+   "source": "mattingly2016",
+   "target": "xuyao2015",
+   "type": "qualifies",
+   "why": "Lineage officeholders may raise public goods, as Xu and Yao find, yet they also weaken villagers' property rights."
+  },
+  {
+   "source": "chenxu2017",
+   "target": "lorentzen2014",
+   "type": "builds_on",
+   "why": "Formalizes when tolerating public voice yields information without collective-action risk, extending Lorentzen's logic of strategic censorship."
+  },
+  {
+   "source": "chenxu2017",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Gives a theoretical rationale for the observed pattern of tolerating criticism while deleting calls for collective action."
+  },
+  {
+   "source": "zhang2019is",
+   "target": "fravel2011",
+   "type": "builds_on",
+   "why": "Explains the timing and tools of Chinese coercion in the South China Sea that Fravel's strategy account describes."
+  },
+  {
+   "source": "zhang2019is",
+   "target": "fravel2008",
+   "type": "qualifies",
+   "why": "Shows that when Beijing escalates over territory it favors calibrated non-military coercion, refining Fravel's account of when China uses force."
+  },
+  {
+   "source": "ong2018",
+   "target": "cai2008cq",
+   "type": "builds_on",
+   "why": "Shows how local governments suppress resistance through hired thugs, adding an outsourced channel to Cai's account of local suppression."
+  },
+  {
+   "source": "ong2018",
+   "target": "dengobrien2013",
+   "type": "builds_on",
+   "why": "Like relational repression, subcontracted violence lets the state coerce through non-state agents while keeping deniability."
+  },
+  {
+   "source": "gueorguievmalesky2019",
+   "target": "truex2016",
+   "type": "builds_on",
+   "why": "Shows consultative channels come with targeted censorship relief on the policy under discussion, specifying how consultative authoritarianism works online."
+  },
+  {
+   "source": "gueorguievmalesky2019",
+   "target": "chenxu2017",
+   "type": "mechanism_tested_by",
+   "why": "Tests the claim that autocrats open voice when they want information, using censorship changes during consultation periods."
+  },
+  {
+   "source": "mattingly2022",
+   "target": "greitens2016",
+   "type": "builds_on",
+   "why": "Applies the coercive-institutions dilemma between foreign and domestic threats to the CCP's control of the PLA and paramilitary police."
+  },
+  {
+   "source": "limanion2022",
+   "target": "shih2008",
+   "type": "qualifies",
+   "why": "Finds factional influence on provincial decisions fell after Xi's purge, a time-bound limit on factional models of Chinese policy."
+  },
+  {
+   "source": "limanion2022",
+   "target": "zhuzhang2016",
+   "type": "builds_on",
+   "why": "Measures the downstream effect of the politicized anticorruption purge on factional decision making in the provinces."
+  },
+  {
+   "source": "nicholsonhuang2022",
+   "target": "shi2001",
+   "type": "qualifies",
+   "why": "List experiments show trust in the center is inflated by social desirability yet still high, qualifying survey-based trust estimates since Shi."
+  },
+  {
+   "source": "nicholsonhuang2022",
+   "target": "jiangyang2016",
+   "type": "qualifies",
+   "why": "Finds limited preference falsification in trust questions, narrowing worries that Chinese survey support is largely feigned."
+  },
+  {
+   "source": "xukostkacao2022",
+   "target": "liang2018",
+   "type": "builds_on",
+   "why": "Shows public support for the social credit system Liang describes depends on state framing that casts it as anti-fraud rather than surveillance."
+  },
+  {
+   "source": "xukostkacao2022",
+   "target": "creemers2016",
+   "type": "builds_on",
+   "why": "Measures how the state's public-opinion management shapes citizens' acceptance of digital social-management tools."
+  },
+  {
+   "source": "chen2009cp",
+   "target": "obrienli2006",
+   "type": "builds_on",
+   "why": "Shows petitioners win by disruptive troublemaking that threatens stability, a tactic beyond rightful resistance's appeal to official commitments."
+  },
+  {
+   "source": "chen2012",
+   "target": "chen2009cp",
+   "type": "builds_on",
+   "why": "The book generalizes the troublemaking-as-leverage argument into a theory of contentious authoritarianism."
+  },
+  {
+   "source": "liuma2018",
+   "target": "wang2008isq",
+   "type": "builds_on",
+   "why": "Shows the patriotic-education machinery Wang described is ramped up when domestic popular threats rise."
+  },
+  {
+   "source": "lu2025ajps",
+   "target": "repnikova2018",
+   "type": "builds_on",
+   "why": "Documents a decentralized, entertainment-style state presence on Douyin, extending participatory persuasion to short-video platforms."
+  },
+  {
+   "source": "lu2025ajps",
+   "target": "king2017",
+   "type": "builds_on",
+   "why": "Moves from fabricated posts to thousands of official accounts, showing state content production on social media at far larger scale."
+  },
+  {
+   "source": "hanmylonas2014",
+   "target": "fravel2005",
+   "type": "builds_on",
+   "why": "Like Fravel's regime-insecurity logic, shows external relations and threats shaped how Beijing managed ethnic frontier groups."
+  },
+  {
+   "source": "greitens2020",
+   "target": "hanmylonas2014",
+   "type": "builds_on",
+   "why": "Explains Xinjiang's turn to mass preventive repression through perceived external terrorist links, echoing Han and Mylonas's external-threat logic of ethnic policy."
+  },
+  {
+   "source": "greitens2020",
+   "target": "bovingdon2010",
+   "type": "builds_on",
+   "why": "Builds on Bovingdon's history of oscillating Xinjiang policy to explain the post-2014 shift to mass internment."
+  },
+  {
+   "source": "leibold2019",
+   "target": "bovingdon2010",
+   "type": "builds_on",
+   "why": "Situates Xinjiang's high-tech surveillance in the long cycle of coercion and inducement Bovingdon traced."
+  },
+  {
+   "source": "walder1986",
+   "target": "oi1985",
+   "type": "builds_on",
+   "why": "Generalizes the patron-client structure Oi found in rural grain politics to authority relations in the urban work unit."
+  },
+  {
+   "source": "wang2024poq",
+   "target": "achenwang2017",
+   "type": "builds_on",
+   "why": "Tracks how the identity cleavage central to The Taiwan Voter combines with pragmatic threat calculations on cross-strait policy through 2020."
+  },
+  {
+   "source": "clarkeelfstrom2022",
+   "target": "chen2012",
+   "type": "builds_on",
+   "why": "Extends the idea that disruption gives the weak leverage to lumpenproletarian groups such as street vendors and informal workers."
+  },
+  {
+   "source": "ang2014cp",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Explains the failure of Chinese anti-bribery websites through the state's restraint on online collective action that King, Pan and Roberts document."
+  },
+  {
+   "source": "manion2015",
+   "target": "hethogersen2010",
+   "type": "builds_on",
+   "why": "Shows local congress deputies serve as informational conduits for autocrats, extending the consultative-institution logic to elected representatives."
+  },
+  {
+   "source": "truex2016book",
+   "target": "manion2015",
+   "type": "builds_on",
+   "why": "Like Manion, treats Chinese congress deputies as channels of information that make autocracy more responsive without accountability."
+  },
+  {
+   "source": "pan2020",
+   "target": "wangminzner2015",
+   "type": "builds_on",
+   "why": "Shows the stability-maintenance apparatus extends into social assistance, with dibao targeted at people flagged as threats."
+  },
+  {
+   "source": "mattingly2019",
+   "target": "mattingly2016",
+   "type": "builds_on",
+   "why": "Generalizes the elite-capture finding into a theory of how the party co-opts civil society to control villages."
+  },
+  {
+   "source": "mattingly2019",
+   "target": "dengobrien2013",
+   "type": "builds_on",
+   "why": "Extends relational repression from individual protesters to the systematic infiltration of lineage and religious groups."
+  },
+  {
+   "source": "hou2019",
+   "target": "truex2014",
+   "type": "builds_on",
+   "why": "Explains the returns to legislative office Truex found: entrepreneurs seek seats to shield property from predatory local officials."
+  },
+  {
+   "source": "hou2019",
+   "target": "chendickson2008",
+   "type": "builds_on",
+   "why": "Shows how private entrepreneurs' ties to the state, rather than democratic demands, secure their interests."
+  },
+  {
+   "source": "ang2020",
+   "target": "wedeman2012",
+   "type": "builds_on",
+   "why": "Resolves Wedeman's double paradox by unbundling corruption and showing access money can coexist with growth."
+  },
+  {
+   "source": "ang2020",
+   "target": "ang2016",
+   "type": "builds_on",
+   "why": "Applies Ang's coevolutionary account of Chinese development to the types and effects of corruption."
+  },
+  {
+   "source": "kingpanroberts2014",
+   "target": "kingpanroberts2013",
+   "type": "builds_on",
+   "why": "Confirms with randomized posts and participant observation that collective-action potential, not criticism, triggers censorship."
+  },
+  {
+   "source": "jia2015",
+   "target": "lizhou2005",
+   "type": "qualifies",
+   "why": "Shows growth performance raises promotion odds mainly for connected provincial leaders, conditioning the tournament model."
+  },
+  {
+   "source": "jia2015",
+   "target": "shih2012",
+   "type": "qualifies",
+   "why": "Finds connections and performance are complements, reconciling factional and meritocratic accounts of advancement."
+  },
+  {
+   "source": "spires2011",
+   "target": "kanghan2008",
+   "type": "builds_on",
+   "why": "Explains why unregistered NGOs survive under graduated controls: local officials tolerate them while they fill welfare gaps and stay apolitical."
+  },
+  {
+   "source": "hildebrandt2011",
+   "target": "spires2011",
+   "type": "builds_on",
+   "why": "Like Spires, finds NGOs survive through accommodation with local officials, here shown in registration decisions."
+  },
+  {
+   "source": "leezhang2013",
+   "target": "lorentzen2013",
+   "type": "builds_on",
+   "why": "Shows the micro-practices of protest bargaining and payoffs through which local officials regularize unrest."
+  },
+  {
+   "source": "leezhang2013",
+   "target": "cai2008bjps",
+   "type": "builds_on",
+   "why": "Details how grassroots officials buy stability through concessions, the bargaining Cai's power-structure account of protest outcomes implies."
+  },
+  {
+   "source": "chenkung2019",
+   "target": "zhuzhang2016",
+   "type": "builds_on",
+   "why": "Shows princeling-linked firms lost land-price discounts under the anticorruption campaign, evidence on what the politicized campaign targeted."
+  },
+  {
+   "source": "guo2009",
+   "target": "lizhou2005",
+   "type": "builds_on",
+   "why": "Shows county leaders time spending to their promotion windows, a fiscal mechanism behind career-incentive models."
+  },
+  {
+   "source": "eatonkostka2014",
+   "target": "gilley2012",
+   "type": "qualifies",
+   "why": "Shows local leaders' short time horizons undercut the authoritarian environmentalism Gilley described."
+  },
+  {
+   "source": "liang2018",
+   "target": "creemers2016",
+   "type": "builds_on",
+   "why": "Traces how the social credit system extends the data-driven social management Creemers identified."
+  },
+  {
+   "source": "fravel2011",
+   "target": "fravel2008",
+   "type": "builds_on",
+   "why": "Applies Fravel's framework on territorial disputes to China's delaying strategy in the South China Sea."
+  },
+  {
+   "source": "xu2021",
+   "target": "wangminzner2015",
+   "type": "builds_on",
+   "why": "Shows digital surveillance lets the security state substitute targeted repression for broad co-optation."
   },
   {
    "source": "walder1986",
@@ -2871,6 +3274,450 @@
   {
    "source": "kennedy2007",
    "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenkung2019",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenkung2019",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guo2009",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "guo2009",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gilley2012",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liang2018",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liang2018",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravel2011",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2021",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xu2021",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obrienli1999",
+   "target": "central-local",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "obrienli1999",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2008isq",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2008isq",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "shi2001",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsai2006wp",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tsai2006wp",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pearson2005",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lu2014apsr",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lu2014apsr",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wangdickson2021",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wangdickson2021",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravel2005",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fravel2005",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andersonetal2019",
+   "target": "environment",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "andersonetal2019",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2015cp",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2015cp",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "huang2018jop",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2016",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2016",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenxu2017",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chenxu2017",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "zhang2019is",
+   "target": "global",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ong2018",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gueorguievmalesky2019",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gueorguievmalesky2019",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2022",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2022",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "limanion2022",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "limanion2022",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "nicholsonhuang2022",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xukostkacao2022",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "xukostkacao2022",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "chen2009cp",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liuma2018",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "liuma2018",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "lu2025ajps",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hanmylonas2014",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oi1985",
+   "target": "history",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "oi1985",
+   "target": "urban-rural",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2024poq",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wang2024poq",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "clarkeelfstrom2022",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ang2014cp",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ang2014cp",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manion2015",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "manion2015",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pan2020",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pan2020",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2019",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "mattingly2019",
+   "target": "repression",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hou2019",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hou2019",
+   "target": "responsive",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ang2020",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ang2020",
+   "target": "political-economy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kingpanroberts2014",
+   "target": "info",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jia2015",
+   "target": "elite",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "bovingdon2010",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenwang2017",
+   "target": "periphery",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "achenwang2017",
+   "target": "nationalism",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "spires2011",
+   "target": "civil-society",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leezhang2013",
+   "target": "contention",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "leezhang2013",
+   "target": "repression",
    "type": "belongs_to",
    "why": "theme membership"
   }

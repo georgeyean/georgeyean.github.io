@@ -1,6 +1,6 @@
 # Political economy, c. 1962–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` and `network.html` in this folder. The graph has 307 work nodes, 16 theme nodes and 317 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[north1990]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` and `network.html` in this folder. The graph has 352 work nodes, 16 theme nodes and 374 typed relations. Each theme section follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[north1990]`) point to entries in `graph.json`.
 
 **How the works were chosen.**
 - **Shared works:** 99 works already in the comparative politics, IPE, American politics and technology maps are reused. Political economy overlaps heavily with those fields, and many of these came from your `papers.json`, for example Olson, Iversen & Soskice, Moene & Wallerstein, Acemoglu & Robinson and Ross.
@@ -65,6 +65,13 @@ One-line claims for non-library works are my summaries, not re-read this session
 1. **Distributive politics of globalization.** Redistribution, compensation and welfare `[rehm2009]`, `[margalit2013]` link to trade backlash.
 2. **Autocratic political economy.** Selectorate theory, authoritarian institutions and information `[bdm2003]`, `[hollyer2018]` link to your autocracy interests.
 3. **Measurement with text.** Policy positions, central bank communication and lobbying disclosures suit LLM annotation.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 45 works (36 new, 9 shared with other maps) and 70 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds classic and recent top-journal political economy articles and a few landmark books, with emphasis on themes that were thin: partisan and clarity-of-responsibility economic voting (Hibbs, Powell-Whitten, Healy-Persson-Snowberg), monetary and fiscal institutions (Keefer-Stasavage, Rodden, Aklin-Kern, Hall), the fiscal origins of state capacity (Ross, Paler, Stasavage, Queralt, Beramendi et al., Suryanarayan-White), welfare-state retrenchment and expansion (Hacker, Korpi-Palme, Iversen-Cusack, Iversen-Wren), objective corruption measurement and accountability meta-analysis, unions and wage inequality, and the resource curse and compensation debates imported from the CP and IPE maps.
 
 ## What I could not verify (flagged)
 

@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 311,
+   "work_nodes": 355,
    "theme_nodes": 19,
    "seed_from_papers_json": 3,
    "crossref_top_cited": 198,
    "anchors_supplement": 110,
-   "relation_edges": 363,
-   "membership_edges": 476
+   "relation_edges": 426,
+   "membership_edges": 544,
+   "added_coverage_2026_11": 44
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -2201,6 +2202,384 @@
    "target": "schimmelfennig2015di",
    "type": "qualifies",
    "why": "Rule of law is a limit to differentiation."
+  },
+  {
+   "source": "hooghemarkswilson2002",
+   "target": "taggart1998",
+   "type": "builds_on",
+   "why": "Systematizes the finding that Euroscepticism sits at the party-system margins, showing an inverted U on left-right and a stronger GAL-TAN effect."
+  },
+  {
+   "source": "marks2006",
+   "target": "hooghemarkswilson2002",
+   "type": "builds_on",
+   "why": "Extends the left-right and GAL-TAN account of party positions on Europe to Central and Eastern Europe, finding a different alignment."
+  },
+  {
+   "source": "markswilson2000",
+   "target": "lipsetrokkan1967",
+   "type": "builds_on",
+   "why": "Argues parties process European integration through their historical cleavage positions, applying Lipset-Rokkan cleavage theory to a new issue."
+  },
+  {
+   "source": "hooghemarkswilson2002",
+   "target": "markswilson2000",
+   "type": "builds_on",
+   "why": "Tests the cleavage account of party responses to Europe with expert data, adding the new politics dimension."
+  },
+  {
+   "source": "checkel2005",
+   "target": "borzelrisse2000",
+   "type": "builds_on",
+   "why": "Specifies the socialization mechanisms behind the sociological pathway of Europeanization, by which EU institutions change actors' interests."
+  },
+  {
+   "source": "schimmelfennigsedelmeier2005",
+   "target": "checkel2005",
+   "type": "challenges",
+   "why": "Finds rule adoption in candidate states driven mainly by external incentives rather than socialization or social learning."
+  },
+  {
+   "source": "falkner2005",
+   "target": "tallberg2002",
+   "type": "builds_on",
+   "why": "Builds on the enforcement-plus-management account of compliance when explaining variation in member states' implementation of social directives."
+  },
+  {
+   "source": "borzel2010",
+   "target": "tallberg2002",
+   "type": "builds_on",
+   "why": "Draws on enforcement and management approaches to explain why some member states persistently fail to comply with EU law."
+  },
+  {
+   "source": "thomson2007",
+   "target": "mastenbroek2006",
+   "type": "builds_on",
+   "why": "Supports domestic-preference explanations of compliance: governments that opposed a directive transpose it late, especially when discretion is low."
+  },
+  {
+   "source": "marsh1998",
+   "target": "reifschmitt1980",
+   "type": "mechanism_tested_by",
+   "why": "Tests the second-order model across four EP elections, confirming government losses and small-party gains that vary with the national electoral cycle."
+  },
+  {
+   "source": "hixmarsh2007",
+   "target": "marsh1998",
+   "type": "builds_on",
+   "why": "Builds on tests of the second-order model to separate punishment of governments from protest voting in EP elections."
+  },
+  {
+   "source": "carrubba2001",
+   "target": "vandereijkfranklin1996",
+   "type": "builds_on",
+   "why": "Starts from evidence of a disengaged European electorate to argue that latent opinion still constrains elites through anticipated mobilization."
+  },
+  {
+   "source": "hooghemarks2009",
+   "target": "carrubba2001",
+   "type": "builds_on",
+   "why": "Builds on the idea that latent public opinion bounds elite integration choices, arguing permissive consensus gave way to constraining dissensus."
+  },
+  {
+   "source": "hixnouryroland2005",
+   "target": "hix2002",
+   "type": "builds_on",
+   "why": "Builds on evidence that MEPs answer to national parties and European groups, showing group cohesion rose over time."
+  },
+  {
+   "source": "hixnouryroland2005",
+   "target": "tsebelis1994",
+   "type": "builds_on",
+   "why": "Shows rising EP legislative powers made transnational party groups more cohesive, a behavioral consequence of the Parliament's agenda-setting empowerment."
+  },
+  {
+   "source": "hix2007",
+   "target": "hixnouryroland2005",
+   "type": "builds_on",
+   "why": "Expands the roll-call analysis of EP party cohesion and competition into a book-length account of politics in the Parliament."
+  },
+  {
+   "source": "crombez1996",
+   "target": "tsebelis1994",
+   "type": "challenges",
+   "why": "Argues the Commission's proposal power limits the Parliament's conditional agenda-setting influence under the cooperation procedure."
+  },
+  {
+   "source": "tsebelisgarrett2001",
+   "target": "crombez1996",
+   "type": "builds_on",
+   "why": "Builds on spatial models of EU legislative procedures, including Crombez's, to compare supranational and intergovernmental decision rules."
+  },
+  {
+   "source": "alter1998",
+   "target": "garrett1995",
+   "type": "challenges",
+   "why": "Argues governments cannot easily rein in the ECJ because of joint-decision rules and short time horizons, contesting the claim that the Court follows dominant states."
+  },
+  {
+   "source": "garrettkelemenschulz1998",
+   "target": "garrett1995",
+   "type": "builds_on",
+   "why": "Refines the intergovernmentalist account of legal integration by specifying when the ECJ defers: when costs to powerful governments and override risk are high."
+  },
+  {
+   "source": "carrubba2008",
+   "target": "garrettkelemenschulz1998",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether ECJ rulings respond to member-state observations and override threats, as the strategic-court model predicts."
+  },
+  {
+   "source": "stonesweet2012",
+   "target": "carrubba2008",
+   "type": "challenges",
+   "why": "Argues override and noncompliance threats are not credible, disputing evidence that the ECJ bends to member-state preferences."
+  },
+  {
+   "source": "larssonnaurin2016",
+   "target": "stonesweet2012",
+   "type": "challenges",
+   "why": "Finds the ECJ is sensitive to the risk of legislative override, contesting the claim that override threats are not credible."
+  },
+  {
+   "source": "kelemen2006",
+   "target": "alter2001",
+   "type": "builds_on",
+   "why": "Extends the domestic reach of the EU legal system by showing single-market regulation spreads litigation-based enforcement into member states."
+  },
+  {
+   "source": "kelemen2011",
+   "target": "kelemen2006",
+   "type": "builds_on",
+   "why": "Develops the argument that EU regulation promotes adversarial litigation into the theory of eurolegalism."
+  },
+  {
+   "source": "moravcsik1991",
+   "target": "sandholtzzysman1989",
+   "type": "challenges",
+   "why": "Explains the Single European Act by interstate bargaining among the big three, contesting accounts centred on the Commission and transnational business."
+  },
+  {
+   "source": "sandholtzzysman1989",
+   "target": "haas1958",
+   "type": "builds_on",
+   "why": "Revives a supranational account of integration, attributing the 1992 project to Commission entrepreneurship and business coalitions."
+  },
+  {
+   "source": "moravcsik1993",
+   "target": "moravcsik1991",
+   "type": "builds_on",
+   "why": "Generalizes the interstate-bargaining account of the Single European Act into liberal intergovernmentalism."
+  },
+  {
+   "source": "hallfranzese1998",
+   "target": "mcnamara1998",
+   "type": "qualifies",
+   "why": "Shows central bank independence delivers low inflation cheaply only where wage bargaining is coordinated, a condition on the monetarist consensus behind EMU."
+  },
+  {
+   "source": "hall2014",
+   "target": "hallfranzese1998",
+   "type": "builds_on",
+   "why": "Extends the argument that monetary union's effects depend on national wage-bargaining institutions into an explanation of the euro crisis."
+  },
+  {
+   "source": "frieden2002",
+   "target": "mcnamara1998",
+   "type": "challenges",
+   "why": "Explains pre-EMU currency policy by sectoral interests of tradables producers rather than shared neoliberal ideas."
+  },
+  {
+   "source": "iversensoskicehope2016",
+   "target": "hall2014",
+   "type": "builds_on",
+   "why": "Develops the varieties-of-capitalism reading of the euro crisis as a clash between export-led and demand-led growth models under one monetary policy."
+  },
+  {
+   "source": "levitzpopeleches2009",
+   "target": "vachudova2005",
+   "type": "builds_on",
+   "why": "Provides cross-national evidence that EU leverage and accession improved democracy and governance, with little early reversal."
+  },
+  {
+   "source": "sedelmeier2014",
+   "target": "levitzpopeleches2009",
+   "type": "qualifies",
+   "why": "Documents post-accession backsliding in Hungary and Romania, a limit on the finding that accession gains were not reversed."
+  },
+  {
+   "source": "hoboltilley2013",
+   "target": "follesdalhix2006",
+   "type": "builds_on",
+   "why": "Documents a mechanism behind the EU's accountability deficit: citizens struggle to attribute responsibility, and partisanship colors attributions."
+  },
+  {
+   "source": "foosbischof2021",
+   "target": "hooghemarks2005",
+   "type": "mechanism_tested_by",
+   "why": "Uses the Liverpool boycott of The Sun as a natural experiment to show media cues causally shape EU attitudes."
+  },
+  {
+   "source": "walter2018",
+   "target": "hobolt2009europe",
+   "type": "extends_to_new_case",
+   "why": "Applies referendum-voting theory to the 2015 Greek bailout referendum, showing expectations about EU reactions shaped votes."
+  },
+  {
+   "source": "jurado2021",
+   "target": "walter2021brexit",
+   "type": "builds_on",
+   "why": "Analyzes the supply side of withdrawal contagion: the EU's choice between punishing a leaver to deter others and preserving cooperation."
+  },
+  {
+   "source": "jurado2021",
+   "target": "schimmelfennig2018brexit",
+   "type": "builds_on",
+   "why": "Treats Brexit as differentiated disintegration and models the terms the EU offers a leaving state."
+  },
+  {
+   "source": "franchino2004",
+   "target": "pollack1997",
+   "type": "builds_on",
+   "why": "Tests principal-agent accounts of delegation, finding the Council grants the Commission more discretion under qualified-majority voting."
+  },
+  {
+   "source": "hage2012",
+   "target": "hayesrenshaw2006",
+   "type": "builds_on",
+   "why": "Explains the rarity of contested Council votes by showing consensus is built through coalition formation in preparatory bodies."
+  },
+  {
+   "source": "thomson2006",
+   "target": "tsebelisgarrett2001",
+   "type": "challenges",
+   "why": "Finds bargaining and compromise models predict EU legislative outcomes better than procedural models built on formal agenda-setting powers."
+  },
+  {
+   "source": "borzel2002",
+   "target": "borzelrisse2000",
+   "type": "builds_on",
+   "why": "Adds member states' upstream strategies (pace-setting, foot-dragging, fence-sitting) to the analysis of how Europeanization hits home."
+  },
+  {
+   "source": "knilllehmkuhl2002",
+   "target": "borzelrisse2000",
+   "type": "qualifies",
+   "why": "Argues goodness of fit explains only compliance with positive integration, while negative integration and framing work through opportunity structures and beliefs."
+  },
+  {
+   "source": "borzelrisse2000",
+   "target": "ladrech1994",
+   "type": "builds_on",
+   "why": "Builds on early conceptualizations of Europeanization as an incremental reorientation of domestic politics toward EU dynamics."
+  },
+  {
+   "source": "kolliker2001",
+   "target": "stubb1996",
+   "type": "builds_on",
+   "why": "Moves from categorizing differentiated integration to a public-goods theory predicting when outsiders will later join."
+  },
+  {
+   "source": "holzingerschimmelfennig2012",
+   "target": "kolliker2001",
+   "type": "synthesizes",
+   "why": "Integrates the public-goods theory of differentiation into a review of concepts, theories and data on differentiated integration."
+  },
+  {
+   "source": "adlernissen2014optout",
+   "target": "leuffen2013",
+   "type": "qualifies",
+   "why": "Shows opt-out states bear stigma they manage through everyday diplomacy, adding the social costs of outsider status to accounts of differentiated integration."
+  },
+  {
+   "source": "schimmelfennigwinzen2020",
+   "target": "schimmelfennigwinzen2014",
+   "type": "builds_on",
+   "why": "Expands the instrumental versus constitutional distinction into a full theory and dataset of differentiation from the founding treaties to Brexit."
+  },
+  {
+   "source": "deblokdevries2023",
+   "target": "schimmelfennig2023",
+   "type": "builds_on",
+   "why": "Adds experimental evidence on public preferences to research on the effects and acceptance of differentiated integration."
+  },
+  {
+   "source": "schmitt2005",
+   "target": "reifschmitt1980",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether EP elections remained second-order after eastern enlargement, finding the model fits old members better than new ones."
+  },
+  {
+   "source": "franklin1995",
+   "target": "reifschmitt1980",
+   "type": "extends_to_new_case",
+   "why": "Extends second-order logic to EU referendums, arguing Maastricht votes reflected the popularity of national governments."
+  },
+  {
+   "source": "hobolt2009europe",
+   "target": "franklin1995",
+   "type": "challenges",
+   "why": "Argues referendum votes reflect attitudes toward integration conditioned by campaign information, not only evaluations of national governments."
+  },
+  {
+   "source": "schultecloos2018",
+   "target": "hixmarsh2011",
+   "type": "builds_on",
+   "why": "Shows second-order EP election success boosts challenger parties in later national elections, a spillover from the European to the national arena."
+  },
+  {
+   "source": "thatcherstonesweet2002",
+   "target": "majone1996",
+   "type": "builds_on",
+   "why": "Builds a general framework for delegation to non-majoritarian institutions, extending Majone's credibility account of the regulatory state."
+  },
+  {
+   "source": "eberleingrande2005",
+   "target": "majone1994",
+   "type": "qualifies",
+   "why": "Argues EU regulation increasingly runs through transnational networks of national regulators because member states resist supranational delegation."
+  },
+  {
+   "source": "levifaur2011",
+   "target": "eberleingrande2005",
+   "type": "builds_on",
+   "why": "Builds on the transnational-network account of EU regulation to describe agencification and a single European regulatory space."
+  },
+  {
+   "source": "kluver2013",
+   "target": "dur2008",
+   "type": "builds_on",
+   "why": "Measures lobbying success across many proposals, finding that coalitions and information supply rather than single-group resources determine influence."
+  },
+  {
+   "source": "schmidt2018",
+   "target": "scharpf2010",
+   "type": "builds_on",
+   "why": "Shows how constitutionalized ECJ case law constrains EU and national policymakers, extending Scharpf's argument about judicially driven negative integration."
+  },
+  {
+   "source": "pavone2022",
+   "target": "stonesweet2004",
+   "type": "challenges",
+   "why": "Shows legal integration depended on a few brokering lawyers and was territorially uneven, contesting the image of a self-reinforcing dynamic between litigants and courts."
+  },
+  {
+   "source": "bradford2020",
+   "target": "newman2008",
+   "type": "builds_on",
+   "why": "Generalizes the global reach of EU data-privacy rules, which Newman traced to transgovernmental regulators, into the Brussels effect."
+  },
+  {
+   "source": "vanbiezen2012",
+   "target": "katzmair1995",
+   "type": "builds_on",
+   "why": "Documents sharply declining party membership across Europe, evidence for the weakening party-society linkage behind the cartel-party thesis."
+  },
+  {
+   "source": "mair2013",
+   "target": "vanbiezen2012",
+   "type": "builds_on",
+   "why": "Uses evidence of collapsing party membership to argue that parties have withdrawn from society and hollowed out democracy."
   },
   {
    "source": "kriesi2006",
@@ -5055,6 +5434,414 @@
   {
    "source": "leuffen2013",
    "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newman2008",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "newman2008",
+   "target": "foreign",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanbiezen2012",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "vanbiezen2012",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarkswilson2002",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hooghemarkswilson2002",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "markswilson2000",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "markswilson2000",
+   "target": "politicization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "checkel2005",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "checkel2005",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2002",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "tallberg2002",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomson2007",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "marsh1998",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carrubba2001",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "carrubba2001",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hix2002",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hixnouryroland2005",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "crombez1996",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alter1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "alter1998",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrettkelemenschulz1998",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stonesweet2012",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2006",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kelemen2006",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moravcsik1991",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "sandholtzzysman1989",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallfranzese1998",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hallfranzese1998",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "frieden2002",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskicehope2016",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskicehope2016",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitzpopeleches2009",
+   "target": "enlargement",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "levitzpopeleches2009",
+   "target": "backsliding",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltilley2013",
+   "target": "legitimacy",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hoboltilley2013",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foosbischof2021",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "foosbischof2021",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2018",
+   "target": "emu",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "walter2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jurado2021",
+   "target": "brexit",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "jurado2021",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franchino2004",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franchino2004",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hage2012",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thomson2006",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "borzel2002",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knilllehmkuhl2002",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "knilllehmkuhl2002",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ladrech1994",
+   "target": "europeanization",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kolliker2001",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "adlernissen2014optout",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigwinzen2020",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schimmelfennigwinzen2020",
+   "target": "integration",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deblokdevries2023",
+   "target": "differentiated",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "deblokdevries2023",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmitt2005",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franklin1995",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "franklin1995",
+   "target": "opinion",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultecloos2018",
+   "target": "elections",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schultecloos2018",
+   "target": "cleavages",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thatcherstonesweet2002",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thatcherstonesweet2002",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "eberleingrande2005",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kluver2013",
+   "target": "regulation",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2018",
+   "target": "courts",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "schmidt2018",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "pavone2022",
+   "target": "courts",
    "type": "belongs_to",
    "why": "theme membership"
   }

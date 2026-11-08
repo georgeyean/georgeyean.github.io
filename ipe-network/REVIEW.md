@@ -1,6 +1,6 @@
 # The IPE literature, c. 2006–2026: where it went, what settled, what is open
 
-A narrative companion to `graph.json` / `network.html` in this folder. The graph has 263 work nodes (98 from this repo's `papers.json`, 165 supplementary works), 19 theme nodes and 367 typed relations. 70 of the works were added after a citation-based coverage audit (see the end of this file); each section marks them under **Added after the coverage audit**. Each theme section below follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[farrell2019]`) point to entries in `graph.json`.
+A narrative companion to `graph.json` / `network.html` in this folder. The graph has 307 work nodes (98 from this repo's `papers.json`, 165 supplementary works), 19 theme nodes and 430 typed relations. 70 of the works were added after a citation-based coverage audit (see the end of this file); each section marks them under **Added after the coverage audit**. Each theme section below follows the same order: **what was claimed → what the evidence settled → what is contested → gaps and research opportunities**. Node ids in brackets (e.g. `[farrell2019]`) point to entries in `graph.json`.
 
 **Provenance and caveats.** Claims for the 91 repo works are condensed from the "Theory & evidence" analyses already in `papers.json` (written from full text, with a few abstract-only exceptions noted in the node's `verified` field). Supplementary works are canonical pieces I added from my own knowledge of the field, not from a systematic search. On 2026-10-28 each was looked up in Crossref by title and first author: 101 of 102 were confirmed to exist, and the result is recorded in each node's `verified` field. The one I could not confirm is Colgan & Keohane 2017 (*Foreign Affairs* is not indexed in Crossref). A few venue or year details remain soft and are listed at the end. Johns & Pelc is 2014, not 2016 as often miscited. Three repo entries lack a firm year (Han et al. working paper; Baccini & Sattler; the IO 75th-anniversary pieces, which I dated 2021). The graph is deliberately larger than the 80–150 nodes requested because the seed corpus alone yields ~90 relevant works; use the theme and decade filters, or the "repo works only" toggle, to thin it.
 
@@ -286,6 +286,15 @@ The original graph was not a systematic sample. It started from your Zotero libr
 - Citation counts favor older papers, so 2023–2026 work is still probably under-sampled. A pass through journal tables of contents for those years is the next step.
 - Books and journals outside the ten checked were not audited systematically.
 - The keyword filter is crude. Comparative political economy (welfare states, inequality) and resource politics were mostly left out on purpose as outside the brief.
+
+
+
+## Coverage additions (November 2026)
+A coverage pass added 44 works (38 new, 6 shared with other maps) and 71 relations, drawing mainly on the most-cited articles in top political-science journals that the map lacked. Each new work has at least one content-based relation, and every relation runs from the later work to the earlier one.
+
+Adds 38 new works and 6 imports to the IPE map, filling its thinnest themes: foreign aid (Morgenthau 1962, Dunning 2004, Knack 2004, Bearce & Tirone 2010, Jablonski 2014, Briggs 2016, Baker 2015, Bermeo & Leblang 2015), legitimacy (Goldstein & Gulotty 2021 plus imported Hooghe et al., Tallberg & Zürn, Walter 2021), regulatory diffusion (Simmons 2001, Singer 2004, Basinger & Hallerberg 2004, Mosley & Uno 2007), the trade–conflict debate (Polachek 1980, Barbieri 1996, Oneal & Russett 1997, Copeland 1996, Gartzke, Li & Boehmer 2001) and migration (Fitzgerald et al. 2014, Peters 2014, Hainmueller & Hiscox 2007). It also restores hegemonic-stability classics (Kindleberger 1973, Keohane 1984, Snidal 1985, Stein 1984, Starrs 2013), firm-level trade politics (Milner 1987, Gilligan 1997, Manger 2012), and IFI and sanctions anchors (Thacker 1999, Stone 2004, Pape 1997, Marinov 2005, Baldwin 1985).
+
+Of the new works, 2 exist in Crossref only through reviews (Kindleberger 1973, Baldwin 1985).
 
 ## What I could not verify (flagged)
 

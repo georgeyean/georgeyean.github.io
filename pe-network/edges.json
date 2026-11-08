@@ -13,13 +13,14 @@
    "belongs_to": "work -> theme membership"
   },
   "counts": {
-   "work_nodes": 307,
+   "work_nodes": 352,
    "theme_nodes": 16,
    "seed_from_papers_json": 15,
    "crossref_top_cited": 165,
    "anchors_supplement": 127,
-   "relation_edges": 304,
-   "membership_edges": 439
+   "relation_edges": 374,
+   "membership_edges": 518,
+   "added_coverage_2026_11": 45
   },
   "verification": "Repo works come from the user's Zotero library. Works imported from the other maps keep their verification. Crossref-selected works take title, authors, year, venue and DOI from Crossref records. Anchors are checked in Crossref separately; see each node's `verified` field. One-line claims for non-repo works are my summaries."
  },
@@ -1847,6 +1848,426 @@
    "target": "gehlbachsonin2014",
    "type": "builds_on",
    "why": "Manipulating economic news."
+  },
+  {
+   "source": "hibbs1977",
+   "target": "nordhaus1975",
+   "type": "challenges",
+   "why": "Argues macroeconomic policy follows partisan class targets (left: low unemployment, right: low inflation) rather than a common opportunistic pre-election cycle."
+  },
+  {
+   "source": "powellwhitten1993",
+   "target": "fiorina1981",
+   "type": "qualifies",
+   "why": "Shows retrospective economic voting is strong only where clarity of responsibility is high, a cross-national scope condition on reward-punishment voting."
+  },
+  {
+   "source": "duchstevenson2008",
+   "target": "powellwhitten1993",
+   "type": "builds_on",
+   "why": "Generalizes clarity of responsibility into a competency-signal model of how political and economic institutions condition the economic vote."
+  },
+  {
+   "source": "healymalhotra2013",
+   "target": "kinderkiewiet1979",
+   "type": "synthesizes",
+   "why": "Reviews the sociotropic-versus-pocketbook debate opened by Kinder and Kiewiet within a broader assessment of retrospective voting's competence."
+  },
+  {
+   "source": "healypersson2017",
+   "target": "kinderkiewiet1979",
+   "type": "challenges",
+   "why": "Registry-measured personal income changes move votes, contesting the claim that voters respond only to national economic conditions."
+  },
+  {
+   "source": "healypersson2017",
+   "target": "healymalhotra2013",
+   "type": "builds_on",
+   "why": "Answers the measurement problems Healy and Malhotra flag in survey self-reports by using administrative income data to identify retrospective voting."
+  },
+  {
+   "source": "margalit2019arps",
+   "target": "autor2013",
+   "type": "synthesizes",
+   "why": "Places China-shock evidence on local labor markets within a broader review of how economic shocks reach voting, stressing cultural mediation."
+  },
+  {
+   "source": "margalit2019arps",
+   "target": "margalit2013",
+   "type": "builds_on",
+   "why": "Extends the author's Great Recession evidence on shock-driven welfare preferences into a general account of political responses to economic shocks."
+  },
+  {
+   "source": "keeferstasavage2003",
+   "target": "rogoff1985",
+   "type": "qualifies",
+   "why": "Shows delegation to a conservative central banker is credible only when veto players make it costly for governments to override the bank."
+  },
+  {
+   "source": "keeferstasavage2003",
+   "target": "alesinasummers1993",
+   "type": "qualifies",
+   "why": "Finds the inflation benefits of legal central bank independence appear only in countries with multiple political checks."
+  },
+  {
+   "source": "rodden2002",
+   "target": "weingast1995",
+   "type": "challenges",
+   "why": "Shows grant-financed subnational governments with borrowing autonomy face soft budget constraints, undermining the market-preserving federalism mechanism."
+  },
+  {
+   "source": "aklinkern2020",
+   "target": "alesinasummers1993",
+   "type": "challenges",
+   "why": "Finds CBI reforms are followed by financial deregulation and credit booms, contesting the view that independence is a cost-free route to price stability."
+  },
+  {
+   "source": "streeckthelen2005",
+   "target": "hall1993",
+   "type": "challenges",
+   "why": "Argues transformative institutional change often occurs through gradual layering and drift, contrary to Hall's view that fundamental change comes as punctuated paradigm shifts."
+  },
+  {
+   "source": "rothsteinuslaner2005",
+   "target": "putnam1993",
+   "type": "challenges",
+   "why": "Argues generalized trust stems from economic equality and universal welfare institutions rather than from dense civic associations."
+  },
+  {
+   "source": "rothsteinstolle2008",
+   "target": "rothsteinuslaner2005",
+   "type": "builds_on",
+   "why": "Develops the claim that impartial, universal institutions generate trust into an institutional theory centered on street-level bureaucracies."
+  },
+  {
+   "source": "klasnja2015",
+   "target": "ferrazfinan2011",
+   "type": "qualifies",
+   "why": "Shows that where rents are large and parties weak, reelection incentives fail to discipline mayors and corrupt incumbents are voted out instead."
+  },
+  {
+   "source": "charron2017",
+   "target": "evans1995",
+   "type": "mechanism_tested_by",
+   "why": "Tests the Weberian meritocracy mechanism, finding regions where bureaucrats' careers are insulated from politicians have lower procurement corruption risk."
+  },
+  {
+   "source": "charron2017",
+   "target": "fazekaskocsis2017",
+   "type": "builds_on",
+   "why": "Uses the single-bidder procurement risk indicators developed by Fazekas and Kocsis as its outcome measure."
+  },
+  {
+   "source": "fazekaskocsis2017",
+   "target": "olken2009",
+   "type": "builds_on",
+   "why": "Responds to the gap between corruption perceptions and reality by constructing objective red-flag indicators from contract data."
+  },
+  {
+   "source": "incerti2020",
+   "target": "ferrazfinan2008",
+   "type": "challenges",
+   "why": "Meta-analysis finds near-zero vote effects of corruption information in field experiments, in contrast to the large effects of released audits in Brazil."
+  },
+  {
+   "source": "incerti2020",
+   "target": "pande2011",
+   "type": "qualifies",
+   "why": "Shows that the hope that informed voters punish bad governance holds in observational designs but not in most randomized information interventions."
+  },
+  {
+   "source": "ross2004",
+   "target": "levi1988",
+   "type": "mechanism_tested_by",
+   "why": "Tests the revenue-bargaining mechanism, finding that taxes high relative to services, not tax levels per se, predict democratization."
+  },
+  {
+   "source": "timmons2005",
+   "target": "ross2004",
+   "type": "builds_on",
+   "why": "Extends the taxation-representation link into a fiscal-contract theory in which different taxpayer groups receive different public goods."
+  },
+  {
+   "source": "paler2013",
+   "target": "ross2004",
+   "type": "mechanism_tested_by",
+   "why": "Experimentally tests whether tax-funded budgets make citizens monitor and sanction officials more than windfall-funded budgets."
+  },
+  {
+   "source": "paler2013",
+   "target": "morrison2009",
+   "type": "builds_on",
+   "why": "Provides micro-level evidence for the claim that nontax revenue weakens citizen pressure on government spending."
+  },
+  {
+   "source": "stasavage2010",
+   "target": "northweingast1989",
+   "type": "qualifies",
+   "why": "Shows representative assemblies could constrain rulers only in geographically small polities, a scope condition on parliamentary commitment."
+  },
+  {
+   "source": "queralt2019",
+   "target": "tilly1990",
+   "type": "qualifies",
+   "why": "Shows that access to cheap foreign credit let rulers fight wars without building tax capacity, breaking the war-makes-states link."
+  },
+  {
+   "source": "queralt2019",
+   "target": "besleypersson2009",
+   "type": "qualifies",
+   "why": "Adds external finance as a substitute that lowers the return to fiscal capacity investment in the Besley-Persson framework."
+  },
+  {
+   "source": "beramendi2019",
+   "target": "besleypersson2009",
+   "type": "mechanism_tested_by",
+   "why": "Tests whether elite cohesion over common interests drives fiscal capacity, using the balance between landed and industrial elites."
+  },
+  {
+   "source": "beramendi2019",
+   "target": "dincecco2011",
+   "type": "builds_on",
+   "why": "Extends fiscal centralization and constraints in European public finance into a broader account of which elite coalitions build tax capacity."
+  },
+  {
+   "source": "suryanarayanwhite2020",
+   "target": "acharya2016",
+   "type": "builds_on",
+   "why": "Identifies weakened bureaucratic capacity after Reconstruction as an institutional channel through which slavery's legacy persisted in the South."
+  },
+  {
+   "source": "hacker2004",
+   "target": "pierson1996",
+   "type": "challenges",
+   "why": "Argues retrenchment proceeds through hidden drift as programs fail to cover new risks, so formal program stability masks declining protection."
+  },
+  {
+   "source": "mettler2011",
+   "target": "hacker2004",
+   "type": "builds_on",
+   "why": "Extends Hacker's hidden politics of social policy to tax expenditures that obscure the state's role from citizens."
+  },
+  {
+   "source": "korpipalme2003",
+   "target": "pierson1996",
+   "type": "challenges",
+   "why": "Shows welfare regress followed partisan and class lines, contesting the claim that retrenchment politics is decoupled from the power of the left."
+  },
+  {
+   "source": "korpipalme2003",
+   "target": "korpi1983",
+   "type": "builds_on",
+   "why": "Applies power resources theory to the retrenchment era, using replacement-rate data to show left power still shapes social rights."
+  },
+  {
+   "source": "iversencusack2000",
+   "target": "cameron1978",
+   "type": "challenges",
+   "why": "Argues welfare expansion responded to deindustrialization-driven labor-market risk, not to trade openness as in the compensation thesis."
+  },
+  {
+   "source": "iversencusack2000",
+   "target": "rodrik1998",
+   "type": "challenges",
+   "why": "Finds external risk from openness explains little of welfare growth once domestic sectoral shifts are accounted for."
+  },
+  {
+   "source": "iversenwren1998",
+   "target": "espingandersen1990",
+   "type": "builds_on",
+   "why": "Recasts the three welfare regimes as distinct trade-offs within a service-economy trilemma of fiscal restraint, equality and employment."
+  },
+  {
+   "source": "moenewallerstein2001",
+   "target": "meltzerrichard1981",
+   "type": "challenges",
+   "why": "Shows that for insurance-type spending, rising inequality lowers rather than raises support, reversing the Meltzer-Richard prediction."
+  },
+  {
+   "source": "moenewallerstein2003",
+   "target": "moenewallerstein2001",
+   "type": "builds_on",
+   "why": "Tests the social-insurance model on disaggregated spending categories, confirming inequality lowers support for insurance programs."
+  },
+  {
+   "source": "ballardrosa2017",
+   "target": "meltzerrichard1981",
+   "type": "qualifies",
+   "why": "Shows tax preferences are shaped by fairness beliefs and settle on modest top rates, not simply by voters' position in the income distribution."
+  },
+  {
+   "source": "wallerstein1999",
+   "target": "freemanmedoff1984",
+   "type": "extends_to_new_case",
+   "why": "Extends findings that unions compress wages to the cross-national level, showing centralized wage-setting explains differences in pay inequality."
+  },
+  {
+   "source": "ahlquist2017",
+   "target": "western1997",
+   "type": "synthesizes",
+   "why": "Reviews how the decline in unionization documented by Western reduces workers' political voice and contributes to rising inequality."
+  },
+  {
+   "source": "ahlquist2017",
+   "target": "rueda2005",
+   "type": "synthesizes",
+   "why": "Integrates insider-outsider divisions into a review of whether unions still represent the broader working class."
+  },
+  {
+   "source": "stokes2005",
+   "target": "dixitlondregan1996",
+   "type": "builds_on",
+   "why": "Adds machine monitoring of individual votes to swing- versus core-voter targeting models of distributive politics."
+  },
+  {
+   "source": "goldenmin2013",
+   "target": "dixitlondregan1996",
+   "type": "synthesizes",
+   "why": "Reviews empirical tests of the swing-voter and core-voter targeting predictions derived from Dixit and Londregan."
+  },
+  {
+   "source": "hickennathan2020",
+   "target": "stokes2005",
+   "type": "synthesizes",
+   "why": "Reassesses the machine-politics literature following Stokes, arguing for focus on brokers and credibility rather than monitoring alone."
+  },
+  {
+   "source": "hickennathan2020",
+   "target": "nichter2008",
+   "type": "qualifies",
+   "why": "Argues the vote-buying versus turnout-buying distinction is often a red herring because both strategies coexist within broker networks."
+  },
+  {
+   "source": "grossmanmargalit2022",
+   "target": "besleyprat2006",
+   "type": "mechanism_tested_by",
+   "why": "Tests the media-capture mechanism by showing billionaires buy outlets as political investments and shift coverage toward their interests."
+  },
+  {
+   "source": "cironepepinsky2022",
+   "target": "nunn2009",
+   "type": "synthesizes",
+   "why": "Reviews the historical-persistence agenda and argues it needs explicit theories of how effects are transmitted across generations."
+  },
+  {
+   "source": "cironepepinsky2022",
+   "target": "dell2010",
+   "type": "synthesizes",
+   "why": "Uses the mita study as an exemplar while cautioning that spatial discontinuity designs leave transmission mechanisms underspecified."
+  },
+  {
+   "source": "stasavage2003",
+   "target": "northweingast1989",
+   "type": "challenges",
+   "why": "Argues Britain's credible borrowing after 1688 depended on creditor representation within the Whig coalition, not constitutional checks alone."
+  },
+  {
+   "source": "albertus2015",
+   "target": "acemoglurobinson2006",
+   "type": "challenges",
+   "why": "Shows land redistribution is more common under autocracy than democracy, contrary to the view that democratization brings redistribution."
+  },
+  {
+   "source": "albertus2015",
+   "target": "boix2003",
+   "type": "challenges",
+   "why": "Contests the link between democracy and redistribution by showing autocrats split from landed elites expropriate land at large scale."
+  },
+  {
+   "source": "iversensoskice2019",
+   "target": "hallsoskice2001",
+   "type": "builds_on",
+   "why": "Extends the varieties of capitalism framework to explain how democracies shape and sustain the knowledge economy."
+  },
+  {
+   "source": "iversensoskice2019",
+   "target": "streeck2014",
+   "type": "challenges",
+   "why": "Argues democratic capitalism is resilient because middle-class voters support the knowledge economy, contrary to accounts of crisis and capture."
+  },
+  {
+   "source": "fearon1999",
+   "target": "ferejohn1986",
+   "type": "challenges",
+   "why": "Argues voters select good types rather than sanction shirking, because retrospective sanctioning is not credible when politician types differ."
+  },
+  {
+   "source": "ashworth2012",
+   "target": "fearon1999",
+   "type": "synthesizes",
+   "why": "Reviews electoral accountability models, organizing them around Fearon's distinction between selection and sanctioning."
+  },
+  {
+   "source": "rodrik1998",
+   "target": "cameron1978",
+   "type": "builds_on",
+   "why": "Explains Cameron's openness-government size correlation as governments providing social insurance against external risk."
+  },
+  {
+   "source": "rudra2002",
+   "target": "rodrik1998",
+   "type": "qualifies",
+   "why": "Shows the compensation logic fails in developing countries, where weak labor cannot defend welfare spending under globalization."
+  },
+  {
+   "source": "garrett1998",
+   "target": "korpi1983",
+   "type": "builds_on",
+   "why": "Argues that strong left parties with encompassing unions can sustain redistribution despite capital mobility, extending power resources theory."
+  },
+  {
+   "source": "garrett1998",
+   "target": "hibbs1977",
+   "type": "builds_on",
+   "why": "Extends the partisan theory of macroeconomic policy to the era of financial globalization."
+  },
+  {
+   "source": "morrison2009",
+   "target": "ross2001",
+   "type": "qualifies",
+   "why": "Argues nontax revenue stabilizes democracies as well as autocracies by funding redistribution, so oil does not hinder democracy per se."
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "ross2001",
+   "type": "challenges",
+   "why": "Using long historical series and within-country variation, finds no evidence that resource reliance promotes authoritarianism."
+  },
+  {
+   "source": "emmenegger2012",
+   "target": "rueda2005",
+   "type": "builds_on",
+   "why": "Shows insider-outsider dualization of labor markets and social protection is a general trend across deindustrializing societies."
+  },
+  {
+   "source": "gingrichhausermann2015",
+   "target": "korpi1983",
+   "type": "challenges",
+   "why": "Shows the declining working-class vote reconfigured welfare support coalitions toward middle-class voters, loosening the class basis of welfare politics."
+  },
+  {
+   "source": "gingrichhausermann2015",
+   "target": "hausermann2013",
+   "type": "builds_on",
+   "why": "Provides evidence for the realignment of welfare state coalitions reviewed in Häusermann et al."
+  },
+  {
+   "source": "colantone2018",
+   "target": "autor2013",
+   "type": "extends_to_new_case",
+   "why": "Applies the China-shock design to Western European regions, linking import competition to support for nationalist and radical-right parties."
+  },
+  {
+   "source": "margalit2019arps",
+   "target": "colantone2018",
+   "type": "synthesizes",
+   "why": "Reviews European import-shock evidence on nationalist voting alongside US findings."
+  },
+  {
+   "source": "thewissenrueda2019",
+   "target": "rehm2009",
+   "type": "builds_on",
+   "why": "Shows workers in routine, automatable jobs demand more redistribution, extending risk-based theories of social policy preferences."
   },
   {
    "source": "ajr2001",
@@ -4479,6 +4900,480 @@
   {
    "source": "baron2006",
    "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cameron1978",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodrik1998",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrett1998",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "garrett1998",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2001",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2001",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "habermenaldo2011",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "emmenegger2012",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "emmenegger2012",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "gingrichhausermann2015",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2018",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "colantone2018",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thewissenrueda2019",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "thewissenrueda2019",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hibbs1977",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hibbs1977",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellwhitten1993",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "powellwhitten1993",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "kinderkiewiet1979",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "healypersson2017",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2019arps",
+   "target": "cycles",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "margalit2019arps",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keeferstasavage2003",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "keeferstasavage2003",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodden2002",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rodden2002",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinkern2020",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "aklinkern2020",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hall1993",
+   "target": "macro",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hall1993",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rothsteinuslaner2005",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "rothsteinuslaner2005",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klasnja2015",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "klasnja2015",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "charron2017",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "charron2017",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fazekaskocsis2017",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "incerti2020",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "incerti2020",
+   "target": "corruption",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2004",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ross2004",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paler2013",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "paler2013",
+   "target": "agency",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stasavage2010",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stasavage2010",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "queralt2019",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "queralt2019",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "beramendi2019",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "suryanarayanwhite2020",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "suryanarayanwhite2020",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hacker2004",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "korpipalme2003",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "korpipalme2003",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversencusack2000",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversencusack2000",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversenwren1998",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversenwren1998",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moenewallerstein2001",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "moenewallerstein2001",
+   "target": "welfare",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2017",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ballardrosa2017",
+   "target": "statecapacity",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wallerstein1999",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "wallerstein1999",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahlquist2017",
+   "target": "labor",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "ahlquist2017",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dixitlondregan1996",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "dixitlondregan1996",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "hickennathan2020",
+   "target": "development",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grossmanmargalit2022",
+   "target": "media",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "grossmanmargalit2022",
+   "target": "rentseeking",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "cironepepinsky2022",
+   "target": "persistence",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stasavage2003",
+   "target": "finance",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "stasavage2003",
+   "target": "institutions",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "albertus2015",
+   "target": "redistribution",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "albertus2015",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2019",
+   "target": "voc",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "iversensoskice2019",
+   "target": "regimes",
+   "type": "belongs_to",
+   "why": "theme membership"
+  },
+  {
+   "source": "fearon1999",
+   "target": "agency",
    "type": "belongs_to",
    "why": "theme membership"
   }
