@@ -1,5 +1,5 @@
 /* Abstract and official link for a work, read from <field>/abstracts.json
-   (built from the Zotero library, OpenAlex, Semantic Scholar and Crossref). Used by the LitNet details panels. */
+   (built from the Zotero library, OpenAlex, Semantic Scholar and Crossref). Used by the L-Net details panels. */
 (function () {
   const cache = {};
   const css = document.createElement('style');

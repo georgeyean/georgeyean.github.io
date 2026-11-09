@@ -1,4 +1,4 @@
-/* My Reading List: saved works shared by every LitNet page on this site.
+/* My Reading List: saved works shared by every L-Net page on this site.
    Stored in this browser only (localStorage), so it stays on this device and is never sent anywhere. */
 (function () {
   const KEY = 'litnet-reading-list';

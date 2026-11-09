@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Reading List</title>
-<meta name="description" content="Works saved from the LitNet literature maps, with reading status, notes and export.">
+<meta name="description" content="Works saved from the L-Net literature maps, with reading status, notes and export.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Raleway:400,800&display=swap">
 <script src="reading-list.js"></script>
 <style>
@@ -58,7 +58,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
 <body>
 <header>
   <div>
-    <div class="brand-title">LitNet: Literature Network</div>
+    <div class="brand-title">L-Net: Literature Network</div>
     <div class="brand-sub">My Reading List</div>
   </div>
   <nav class="navlinks">
@@ -170,7 +170,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
   document.getElementById('dlBib').onclick = () => { const it = filtered(); if (!it.length) return toast('Nothing to export'); download('my-reading-list.bib', toBib(it), 'application/x-bibtex'); };
-  document.getElementById('dlJson').onclick = () => download('litnet-reading-list-backup.json', JSON.stringify(RL.all(), null, 1), 'application/json');
+  document.getElementById('dlJson').onclick = () => download('l-net-reading-list-backup.json', JSON.stringify(RL.all(), null, 1), 'application/json');
   document.getElementById('importBtn').onclick = () => document.getElementById('importFile').click();
   document.getElementById('importFile').onchange = async e => {
     const f = e.target.files[0]; if (!f) return;
@@ -180,7 +180,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
       const cur = RL.all(), have = new Set(cur.map(x => x.id));
       const merged = cur.concat(arr.filter(x => x && x.id && x.title && !have.has(x.id)));
       RL.replaceAll(merged); toast(`Restored ${merged.length - cur.length} works`);
-    } catch (err) { toast('That file is not a LitNet backup'); }
+    } catch (err) { toast('That file is not an L-Net backup'); }
     e.target.value = '';
   };
   document.getElementById('clearAll').onclick = () => { if (RL.all().length && confirm('Remove every work from your reading list? Back it up first if you might want it later.')) RL.clear(); };

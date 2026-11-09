@@ -315,7 +315,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
   const nodeById = Object.fromEntries(data.nodes.map(n => [n.id, n]));
   const relEdges = data.edges.filter(e => e.type !== 'belongs_to');
 
-  // ---------- My Reading List (shared across all LitNet pages; stored in this browser)
+  // ---------- My Reading List (shared across all L-Net pages; stored in this browser)
   const RL = window.ReadingList;
   const FIELD = { dir: location.pathname.split('/').slice(-2)[0], label: document.getElementById('fieldBtn').textContent.replace('\u25be', '').trim() };
   let rlSet = RL.ids();
