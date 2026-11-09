@@ -331,7 +331,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
       .on('mouseenter', (ev, d) => { if (!isMobile()) { nodeTip(d); moveTip(ev); highlight(d.id); } })
       .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
       .on('mouseleave', () => { if (!isMobile()) { tip.style.display = 'none'; highlight(state.selected); } })
-      .on('click', (ev, d) => { ev.stopPropagation(); if (isMobile()) { state.selected = d.id; highlight(d.id); nodePop(d); } else select(d.id); });
+      .on('click', (ev, d) => { ev.stopPropagation(); if (state.selected === d.id) { state.selected = null; highlight(null); setDetail(false); closePop(); return; } if (isMobile()) { state.selected = d.id; highlight(d.id); nodePop(d); } else select(d.id); });
     ne.append('circle').attr('r', radius).attr('fill', d => famById[d.family].color).attr('stroke', '#fff').attr('stroke-width', 1.5);
     ne.append('text').attr('class', 't-label').attr('dy', d => radius(d) + 13).attr('text-anchor', 'middle').text(d => d.label);
 

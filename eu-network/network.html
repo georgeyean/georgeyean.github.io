@@ -505,7 +505,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
         .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
         .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (state.view === 'net') { d.pinX = d.fx; d.pinY = d.fy; } }))
       .on('dblclick', (ev, d) => { ev.stopPropagation(); if (state.view !== 'net') return; d.pinX = d.pinY = d.fx = d.fy = null; sim.alpha(0.3).restart(); })
-      .on('click', (ev, d) => { if (isMobile()) { if (d.type === 'theme') focusTheme(d.id); else { state.selected = d.id; highlight(d.id); } showNodePop(d); return; } if (d.type === 'theme') { focusTheme(d.id); if (state.focusTheme) openDetail(); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); openDetail(); })
+      .on('click', (ev, d) => { if (d.type !== 'theme' && state.selected === d.id) { state.selected = null; highlight(null); closeDetail(); return; } if (isMobile()) { if (d.type === 'theme') focusTheme(d.id); else { state.selected = d.id; highlight(d.id); } showNodePop(d); return; } if (d.type === 'theme') { focusTheme(d.id); if (state.focusTheme) openDetail(); return; } state.selected = d.id; showDetail(d.id); highlight(d.id); openDetail(); })
       .on('mouseenter', (ev, d) => { if (!isMobile()) showNodeTip(ev, d); })
       .on('mousemove', ev => { if (!isMobile()) moveTip(ev); })
       .on('mouseleave', () => { if (!isMobile()) tip.style.display = 'none'; })
