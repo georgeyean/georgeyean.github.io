@@ -164,6 +164,13 @@ input[type=checkbox]{accent-color:var(--accent)}
   #edgeTip.pop{position:fixed;left:12px !important;right:12px;top:auto !important;bottom:12px;max-width:none;max-height:45vh;overflow:auto;pointer-events:auto;z-index:40;padding:12px 34px 12px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
   #edgeTip .tipx{position:absolute;top:6px;right:6px;width:26px;height:26px;padding:0;border:0;background:none;font-size:18px;line-height:26px;color:var(--muted);cursor:pointer}
 }
+/* Touch tablets (iPad): same tap cards as phones, centered at the bottom */
+@media (min-width: 701px) and (hover: none) and (pointer: coarse){
+  #edgeTip.pop{cursor:pointer}
+  #edgeTip.pop .more{color:var(--accent);font-weight:600;margin-top:8px}
+  #edgeTip.pop{position:fixed;left:50% !important;right:auto;transform:translateX(-50%);width:min(560px,calc(100vw - 24px));top:auto !important;bottom:12px;max-width:none;max-height:45vh;overflow:auto;pointer-events:auto;z-index:40;padding:12px 34px 12px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+  #edgeTip .tipx{position:absolute;top:6px;right:6px;width:26px;height:26px;padding:0;border:0;background:none;font-size:18px;line-height:26px;color:var(--muted);cursor:pointer}
+}
 
 /* ===================== My Reading List ===================== */
 .navlinks{margin-left:auto;display:flex;gap:18px;align-items:center}
@@ -637,7 +644,7 @@ a.navbtn.rl:hover,a.navbtn.rl:focus-visible{background:#b8890f;color:#fff;box-sh
   }
   function hideTip(){ tip.style.display = 'none'; highlight(state.selected); }
   // phones: no side panel; taps open a bottom card with basic info
-  const mobileMQ = window.matchMedia('(max-width: 700px)');
+  const mobileMQ = window.matchMedia('(max-width: 700px), (hover: none) and (pointer: coarse)'); // phones and touch tablets (iPad) get tap cards
   function isMobile(){ return mobileMQ.matches; }
   if (isMobile()) document.getElementById('hint').textContent = 'Tap a dot or a line for basic info, then tap the card for full details. Arrow: later work → work it relates to.';
   function popTip(){ tip.insertAdjacentHTML('beforeend', '<div class="tg more">Tap this card for full details ›</div><button class="tipx" type="button" aria-label="Close">×</button>'); tip.classList.add('pop'); tip.style.display = 'block'; tip.setAttribute('role', 'dialog'); }
