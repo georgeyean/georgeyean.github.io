@@ -41,7 +41,10 @@
 									</div>
 								</header>
 
-								<a href="files/regime_yean.pdf" class="image featured"><img src="images/aut.png" alt="Figure: Globalization Origins of Autocratic Rise" /></a>
+								<div class="fig-stack">
+									<a href="files/regime_yean.pdf" class="image featured"><img src="images/aut.png" alt="Figure: Globalization Origins of Autocratic Rise" /></a>
+									<div class="fig-card" data-full="images/aut_cartoon.jpg" role="button" tabindex="0" aria-label="Open theory cartoon"><img src="images/aut_cartoon.jpg" alt="Cartoon: globalization lowers the returns to political inclusion" /><span class="lbl">Click for theory cartoon</span></div>
+								</div>
 								<!--p>My analysis emphasizes the role of globalization and shows that autocracies may have performed better conditional on integrating into the globalized economy, contra the pre-1990 period...</p-->
 							</article>
 
@@ -344,5 +347,28 @@
 			<!--<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script> -->
       
 
+			<script>
+				// Theory cartoon: open the full image in a lightbox; click or Esc closes it
+				(function () {
+					function open(card) {
+						var lb = document.createElement('div');
+						lb.className = 'lightbox';
+						lb.innerHTML = '<img src="' + card.dataset.full + '" alt="">';
+						function close() { lb.remove(); document.removeEventListener('keydown', onKey); }
+						function onKey(e) { if (e.key === 'Escape') close(); }
+						lb.addEventListener('click', close);
+						document.addEventListener('keydown', onKey);
+						document.body.appendChild(lb);
+					}
+					document.addEventListener('click', function (e) {
+						var card = e.target.closest('.fig-card');
+						if (card) open(card);
+					});
+					document.addEventListener('keydown', function (e) {
+						var card = e.target.closest && e.target.closest('.fig-card');
+						if (card && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); open(card); }
+					});
+				})();
+			</script>
 	</body>
 </html>

@@ -673,12 +673,14 @@
 }
 
 /* Figures 20% larger: height cap 300px -> 360px (phones 200px -> 240px) */
-.paper-group > .post > a.image.featured img {
+.paper-group > .post > a.image.featured img,
+.paper-group > .post > .fig-stack > a.image.featured img {
     max-height: 360px;
 }
 
 @media screen and (max-width: 736px) {
-    .paper-group > .post > a.image.featured img {
+    .paper-group > .post > a.image.featured img,
+    .paper-group > .post > .fig-stack > a.image.featured img {
         max-height: 240px;
     }
 }
@@ -694,5 +696,108 @@
     .paper-group > .post > a.image.featured {
         margin-left: -1em;
         margin-right: -1em;
+    }
+}
+
+
+/* =========================================================
+   9. Figure frames and the theory-cartoon card
+   ========================================================= */
+.paper-group > .post a.image.featured img {
+    background: #fff;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+/* Chart and cartoon card share a box so the card can hang off the chart's top-right corner */
+.paper-group > .post > .fig-stack {
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.paper-group > .post > .fig-stack > a.image.featured {
+    display: block;
+    margin: 0;
+    width: auto;
+}
+
+.fig-card {
+    position: absolute;
+    right: -3%;
+    top: -32px;
+    width: clamp(128px, 14%, 170px);
+    z-index: 2;
+    transform: rotate(2deg);
+    background: #fff;
+    padding: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.06);
+    cursor: zoom-in;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.fig-card:hover,
+.fig-card:focus-visible {
+    transform: rotate(0deg) scale(1.06);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+.fig-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 2px;
+}
+.fig-card .lbl {
+    display: block;
+    text-align: center;
+    font-size: 9px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #2c4a6e;
+    padding: 4px 2px 1px;
+}
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 3vw;
+    background: rgba(20, 22, 26, 0.86);
+    cursor: zoom-out;
+}
+.lightbox img {
+    max-width: 94vw;
+    max-height: 94vh;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 736px) {
+    .paper-group > .post a.image.featured img { padding: 5px; }
+    .paper-group > .post > .fig-stack {
+        width: auto;
+        margin: 0;
+    }
+    .fig-card {
+        width: 27%;
+        right: -2%;
+        top: 2px;
+        padding: 2px;
+    }
+    .fig-card .lbl {
+        font-size: 7px;
+        letter-spacing: 0.04em;
+        padding: 3px 1px 1px;
     }
 }
